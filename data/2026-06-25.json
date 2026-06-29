@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-25-v1",
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-25T06:35:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief – 25. juni 2026",
+  "dek": "OpenAI ruster cyberforsvarere med en mere kapabel GPT-5.5-Cyber, mens Anthropics modstykke er statsligt lukket, Taktile henter 110 mio. dollar til AI i finans, og guld dykker under 4.000 dollar – plus dansk hedebølge, stigende forbrugertillid og et stort vikingefund.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "keyNumber": {
+    "label": "Forbrugertillid (nettotal), juni 2026",
+    "value": "-14,0",
+    "unit": "nettotal",
+    "asOf": "2026-06",
+    "caption": "Forbrugertilliden steg fra -19,8 i maj, men alle fem delindikatorer er fortsat negative.",
+    "sourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52127",
+    "sourceTitle": "NYT: Markant fremgang i fortsat negativ forbrugertillid",
+    "series": [
+      {"label": "Maj", "value": -19.8},
+      {"label": "Juni", "value": -14.0}
+    ]
+  },
+  "stories": [
+    {
+      "id": "story-gpt55-cyber-20260625",
+      "eventKey": "openai-gpt55-cyber-trusted-access-2026",
+      "materialFacts": [
+        "OpenAI opdaterede 22. juni GPT-5.5-Cyber til at være mere kapabel og mere permissiv til autoriseret cyberarbejde",
+        "Modellen er kun for verificerede sikkerhedsprofessionelle og blev forhåndstestet med amerikanske myndigheder",
+        "Anthropics Fable 5 og Mythos 5 har været offline siden 12. juni efter et amerikansk eksportkontroldirektiv"
+      ],
+      "section": "Teknologi",
+      "headline": "OpenAI gives GPT-5.5-Cyber more powerful cybersecurity capabilities",
+      "primarySourceUrl": "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model",
+      "subheadline": "OpenAI udvider en specialiseret cyber-model med færre begrænsninger for godkendte forsvarere – en anden vej end Anthropics statsligt lukkede frontier-modeller",
+      "body": [
+        "OpenAI opdaterede 22. juni sin specialiserede model GPT-5.5-Cyber, så den ifølge selskabet er blevet mere kapabel og mere permissiv til autoriseret cyberarbejde. Den kan nu gå dybere i store kodebaser, udpege sårbarheder og teste rettelser. OpenAI lancerede samtidig partnerprogrammet Daybreak Cyber.",
+        "Adgangen er snæver: modellen er kun for verificerede sikkerhedsprofessionelle og blev forhåndstestet med amerikanske myndigheder. På CyberGym scorer den 85,6 procent mod 81,8 for standard GPT-5.5 og 83,8 for Anthropics Mythos 5. Tyveri af loginoplysninger og skrivning af malware er fortsat blokeret."
+      ],
+      "whyItMatters": "Det viser, at de mest kapable AI-modeller nu håndteres som dual-use-teknologi: adgangen styres af, hvem du er, og hvad du må bruge den til – ikke kun af, hvad modellen kan.",
+      "analysis": "Det interessante er styringsmodellen. OpenAI valgte forudgående koordinering med myndigheder og en lukket kreds af forsvarere. Anthropic gik den modsatte vej: Fable 5 og Mythos 5 blev gjort bredt tilgængelige og så trukket offline 12. juni efter et amerikansk eksportkontroldirektiv om national sikkerhed.",
+      "counterpoint": "Benchmarktallene er leverandørernes egne, og en bedre sårbarhedsjæger kan også bruges offensivt.",
+      "topics": ["AI", "cybersikkerhed", "regulering", "teknologisk suverænitet"],
+      "entities": ["OpenAI", "Anthropic", "GPT-5.5-Cyber", "Mythos 5"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {"importance": 80, "decisionValue": 76, "novelty": 82, "sourceQuality": 78, "personalRelevance": 86, "contrast": 80},
+      "claims": [
+        {"text": "OpenAI opdaterede 22. juni 2026 GPT-5.5-Cyber til at være mere kapabel og mere permissiv til autoriseret cyberarbejde og lancerede Daybreak Cyber Partner Program", "sourceUrls": ["https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model", "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/"], "confidence": "high"},
+        {"text": "Modellen er kun for verificerede sikkerhedsprofessionelle og blev forhåndstestet med amerikanske myndigheder", "sourceUrls": ["https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model"], "confidence": "high"},
+        {"text": "GPT-5.5-Cyber scorer 85,6 procent på CyberGym mod 81,8 for standard GPT-5.5 og 83,8 for Anthropics Mythos 5", "sourceUrls": ["https://decrypt.co/371900/openai-gpt-5-5-cyber-ai-beats-anthropic-banned-claude-mythos", "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"], "confidence": "medium"},
+        {"text": "Anthropics Fable 5 og Mythos 5 har været offline siden 12. juni 2026 efter et amerikansk eksportkontroldirektiv", "sourceUrls": ["https://decrypt.co/371900/openai-gpt-5-5-cyber-ai-beats-anthropic-banned-claude-mythos"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "OpenAI gives GPT-5.5-Cyber more powerful cybersecurity capabilities", "publisher": "Axios", "url": "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model", "publishedAt": "2026-06-22T13:00:00Z", "kind": "reporting"},
+        {"title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber", "publisher": "OpenAI", "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/", "publishedAt": "2026-06-22T14:00:00Z", "kind": "primary"},
+        {"title": "OpenAI's GPT-5.5 Cyber AI Beats Anthropic's Banned Mythos Model—And Nobody's Shutting It Down", "publisher": "Decrypt", "url": "https://decrypt.co/371900/openai-gpt-5-5-cyber-ai-beats-anthropic-banned-claude-mythos", "publishedAt": "2026-06-23T10:00:00Z", "kind": "reporting"},
+        {"title": "OpenAI says new GPT-5.5-Cyber outperforms Anthropic's Mythos on cybersecurity benchmark", "publisher": "The Decoder", "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/", "publishedAt": "2026-06-23T11:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Cyber_support_to_1st_Cavalry_Division_at_National_Training_Center_%2847019434371%29.jpg/500px-Cyber_support_to_1st_Cavalry_Division_at_National_Training_Center_%2847019434371%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Cyberoperationer – illustration til AI og cybersikkerhed",
+        "sourceUrl": "https://www.axios.com/2026/06/22/openai-rolls-out-more-capable-version-of-cyber-model"
+      }
+    },
+    {
+      "id": "story-taktile-20260625",
+      "eventKey": "taktile-series-c-goldman-2026",
+      "materialFacts": [
+        "Taktile rejser 110 millioner dollar i Series C ledet af Goldman Sachs Alternatives",
+        "Runden bringer den samlede kapital til 184 millioner dollar",
+        "Platformen gør AI-modeller til agenter for regulerede finansbeslutninger"
+      ],
+      "section": "Erhverv",
+      "headline": "Exclusive: Taktile raises $110 million from Goldman Sachs, Tiger Global to automate high-stakes financial decisions",
+      "primarySourceUrl": "https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/",
+      "subheadline": "Goldman Sachs leder en runde i den europæiske AI-virksomhed, der sætter sprogmodeller til at træffe kredit- og forsikringsbeslutninger",
+      "body": [
+        "Den europæiske softwarevirksomhed Taktile har rejst 110 millioner dollar i en Series C-runde ledet af Goldman Sachs Alternatives, med deltagelse af bl.a. Tiger Global og Index Ventures. Runden bringer den samlede kapital til 184 millioner dollar.",
+        "Taktile gør sprogmodeller til agenter for finansielle institutioners mest følsomme beslutninger – fra kreditvurdering og skadesbehandling til opdagelse af økonomisk kriminalitet. Kapitalen skal finansiere udvidelse i USA, EMEA og Latinamerika."
+      ],
+      "whyItMatters": "Runden viser, at kapitalen flytter sig fra generelle AI-modeller til det vanskelige lag ovenpå: at lade modeller træffe regulerede beslutninger, hvor fejl har juridiske konsekvenser.",
+      "analysis": "At en bank som Goldman leder runden er et signal: efterspørgslen kommer fra regulerede aktører, der vil automatisere beslutninger, som før krævede manuelt arbejde. Værdien ligger i styringen og ansvaret, ikke i modellen selv.",
+      "topics": ["AI", "venturekapital", "fintech", "automatisering"],
+      "entities": ["Taktile", "Goldman Sachs Alternatives", "Tiger Global", "Index Ventures"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 70, "decisionValue": 78, "novelty": 72, "sourceQuality": 82, "personalRelevance": 88, "contrast": 56},
+      "claims": [
+        {"text": "Taktile rejser 110 millioner dollar i Series C ledet af Goldman Sachs Alternatives med deltagelse af bl.a. Tiger Global og Index Ventures; samlet kapital nu 184 millioner dollar", "sourceUrls": ["https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/", "https://www.businesswire.com/news/home/20260624713959/en/Taktile-Secures-$110M-in-Goldman-Sachs-Led-Series-C-to-Power-AI-Transformation-in-Financial-Institutions"], "confidence": "high"},
+        {"text": "Platformen gør sprogmodeller til agenter for regulerede finansbeslutninger som kreditgivning, skadesvurdering og svindelopdagelse", "sourceUrls": ["https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "Exclusive: Taktile raises $110 million from Goldman Sachs, Tiger Global to automate high-stakes financial decisions", "publisher": "Fortune", "url": "https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/", "publishedAt": "2026-06-24T13:00:00Z", "kind": "reporting"},
+        {"title": "Taktile Secures $110M in Goldman Sachs-Led Series C to Power AI Transformation in Financial Institutions", "publisher": "Business Wire", "url": "https://www.businesswire.com/news/home/20260624713959/en/Taktile-Secures-$110M-in-Goldman-Sachs-Led-Series-C-to-Power-AI-Transformation-in-Financial-Institutions", "publishedAt": "2026-06-24T13:00:00Z", "kind": "primary"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Frankfurt_Stock_Exchange_%28Ank_Kumar%29_04.jpg/500px-Frankfurt_Stock_Exchange_%28Ank_Kumar%29_04.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Børs og finans – illustration til AI i finansielle beslutninger",
+        "sourceUrl": "https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/"
+      }
+    },
+    {
+      "id": "story-gold-4000-20260625",
+      "eventKey": "gold-price-below-4000-2026-06-24",
+      "materialFacts": [
+        "Guldprisen faldt 24. juni under 4.000 dollar per ounce for første gang siden november 2025",
+        "Prisen var nede med op til 3,8 procent og handlede under 3.960 dollar",
+        "Faldet drives af stærkere dollar, renteforventninger og aftagende Mellemøst-spændinger"
+      ],
+      "section": "Økonomi",
+      "headline": "Gold Price Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt",
+      "primarySourceUrl": "https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation",
+      "subheadline": "Guld faldt for første gang siden november 2025 under 4.000 dollar, da renter og en stærkere dollar vandt over geopolitisk uro",
+      "body": [
+        "Guldprisen faldt onsdag 24. juni under 4.000 dollar per ounce for første gang siden november 2025. På det laveste var prisen nede med op til 3,8 procent og handlede under 3.960 dollar.",
+        "Faldet kommer efter en rekordstribe, der i januar 2026 sendte guld op omkring 5.589 dollar. Bevægelsen tilskrives en stærkere dollar, renteforventninger og aftagende spændinger efter USA-Iran-aftalen."
+      ],
+      "whyItMatters": "Guld har i over et år været det foretrukne tilflugtssted mod inflation og krig. Et fald under 4.000 dollar signalerer, at markedet nu frygter høje renter mere end geopolitisk uro.",
+      "analysis": "For en porteføljeinvestor er pointen, at de to kræfter, der drev guld op – krig og inflationsfrygt – nu trækker hver sin vej. Goldman Sachs har sænket sin årsslutprognose fra 5.400 til 4.900 dollar.",
+      "counterpoint": "Faldet er ikke nødvendigvis en trend: centralbankerne køber fortsat guld over deres femårige gennemsnit, en bund under prisen.",
+      "topics": ["makroøkonomi", "råvarer", "investering", "guld"],
+      "entities": ["Goldman Sachs", "Federal Reserve"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 76, "decisionValue": 74, "novelty": 70, "sourceQuality": 84, "personalRelevance": 56, "contrast": 66},
+      "claims": [
+        {"text": "Guldprisen faldt 24. juni 2026 under 4.000 dollar per ounce for første gang siden november 2025, med fald på op til 3,8 procent", "sourceUrls": ["https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation", "https://www.cnn.com/2026/06/24/world/live-news/iran-war-trump-israel-lebanon"], "confidence": "high"},
+        {"text": "Goldman Sachs sænkede sin årsslutprognose for guld fra 5.400 til 4.900 dollar med henvisning til, at Fed næppe sænker renten i år", "sourceUrls": ["https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "Gold Price Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation", "publishedAt": "2026-06-24T15:00:00Z", "kind": "reporting"},
+        {"title": "Global oil prices fall to lowest level since before the US-Iran war", "publisher": "CNN", "url": "https://www.cnn.com/2026/06/24/world/live-news/iran-war-trump-israel-lebanon", "publishedAt": "2026-06-24T16:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Gold_bullion_2.jpg/500px-Gold_bullion_2.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Guldbarrer – illustration til guldprisens fald",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation"
+      }
+    },
+    {
+      "id": "story-forbrugertillid-20260625",
+      "eventKey": "dk-consumer-confidence-june-2026",
+      "materialFacts": [
+        "Forbrugertillidsindikatoren steg i juni til -14,0 fra -19,8 i maj",
+        "Fire ud af fem delindikatorer forbedredes",
+        "Alle delindikatorer er fortsat negative"
+      ],
+      "section": "Økonomi",
+      "headline": "NYT: Markant fremgang i fortsat negativ forbrugertillid",
+      "primarySourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52127",
+      "subheadline": "Danskernes forbrugertillid steg markant i juni, men ligger fortsat under nul på alle delindikatorer",
+      "body": [
+        "Danskernes forbrugertillid steg markant i juni. Danmarks Statistiks samlede indikator landede på -14,0 mod -19,8 i maj, og gennemsnittet for de seneste seks måneder er -15,5.",
+        "Fremgangen skyldes, at fire ud af fem delindikatorer forbedredes – tydeligst danskernes syn på Danmarks økonomiske situation i dag sammenlignet med for et år siden, der steg fra -35,9 til -21,8. Alle delindikatorer er dog fortsat negative, og forbrugerne venter stadig stigende arbejdsløshed."
+      ],
+      "whyItMatters": "Forbrugertilliden er en ledende indikator for privatforbruget. En markant forbedring – selv fra et lavt niveau – peger på, at husholdningerne kan være på vej til at bruge lidt mere i andet halvår.",
+      "analysis": "Bevægelsen passer med, at inflationschokket fra Iran-krigen aftager, og at lavere energipriser letter presset på husholdningerne. Men niveauet er fortsat negativt: det er en mindre dyster stemning, ikke optimisme.",
+      "topics": ["makroøkonomi", "forbrug", "Danmark", "konjunktur"],
+      "entities": ["Danmarks Statistik"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 64, "decisionValue": 68, "novelty": 66, "sourceQuality": 88, "personalRelevance": 62, "contrast": 54},
+      "claims": [
+        {"text": "Forbrugertillidsindikatoren steg i juni 2026 til -14,0 fra -19,8 i maj; seks-måneders-gennemsnittet er -15,5, og delindikatoren for nuværende økonomi steg fra -35,9 til -21,8", "sourceUrls": ["https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52127"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "NYT: Markant fremgang i fortsat negativ forbrugertillid", "publisher": "Danmarks Statistik", "url": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52127", "publishedAt": "2026-06-23T07:00:00Z", "kind": "primary"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Copenhagen_1987._Street_photography.jpg/500px-Copenhagen_1987._Street_photography.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Indkøbsgade i København – illustration til forbrugertillid",
+        "sourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52127"
+      }
+    },
+    {
+      "id": "story-dk-heatwave-20260625",
+      "eventKey": "dk-dmi-heatwave-warning-2026-06",
+      "materialFacts": [
+        "DMI varsler hedebølge fra fredag middag til søndag aften i det meste af landet",
+        "Lørdag og søndag kan temperaturen nå op på 35 grader med tropenætter",
+        "DMI opgraderede tirsdag aften varslet til farligt vejr for størstedelen af landet"
+      ],
+      "section": "Indland",
+      "headline": "DMI varsler hedebølge i det meste af landet",
+      "primarySourceUrl": "https://www.kristeligt-dagblad.dk/danmark/dmi-varsler-hedeboelge-i-det-meste-af-landet",
+      "subheadline": "Op til 35 grader og tropenætter i weekenden får DMI til at opgradere varslet til farligt vejr",
+      "body": [
+        "DMI varsler hedebølge i det meste af landet fra fredag middag til søndag aften. Mange steder ventes temperaturer over 30 grader, og lørdag og søndag kan de nå op på 35 grader. Nætterne op til weekenden ventes at blive tropenætter over 20 grader.",
+        "Tirsdag aften opgraderede DMI varslet til niveauet for farligt vejr for størstedelen af landet. Luften bliver fugtig, hvilket får varmen til at føles kraftigere, mens Bornholm, Samsø og Læsø går fri af selve hedebølgen."
+      ],
+      "whyItMatters": "En officiel hedebølgevarsling har konkrete følger: Sundhedsstyrelsen udsender råd om væske og tilsyn med sårbare, og varmen presser både sundhedsvæsen og elnet.",
+      "analysis": "Hedebølger så tidligt på sommeren passer med mønsteret af hyppigere og kraftigere varmeperioder. Den umiddelbare risiko er ikke kun varmen, men de måder, folk køler af på – som de seneste europæiske hedebølger viste med dødelige drukneulykker.",
+      "topics": ["klima", "vejr", "Danmark", "beredskab"],
+      "entities": ["DMI", "Sundhedsstyrelsen", "Danmark"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 70, "decisionValue": 64, "novelty": 64, "sourceQuality": 82, "personalRelevance": 66, "contrast": 58},
+      "claims": [
+        {"text": "DMI varsler hedebølge fra fredag middag til søndag aften i det meste af landet med op til 35 grader lørdag og søndag og tropenætter, og opgraderede tirsdag aften varslet til farligt vejr", "sourceUrls": ["https://www.kristeligt-dagblad.dk/danmark/dmi-varsler-hedeboelge-i-det-meste-af-landet", "https://www.sst.dk/nyheder/2026/dmi-varsler-hedeboelge-her-er-gode-raad-naar-der-er-sol-og-varme"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "DMI varsler hedebølge i det meste af landet", "publisher": "Kristeligt Dagblad", "url": "https://www.kristeligt-dagblad.dk/danmark/dmi-varsler-hedeboelge-i-det-meste-af-landet", "publishedAt": "2026-06-24T08:00:00Z", "kind": "reporting"},
+        {"title": "DMI varsler hedebølge: Her er gode råd, når der er sol og varme", "publisher": "Sundhedsstyrelsen", "url": "https://www.sst.dk/nyheder/2026/dmi-varsler-hedeboelge-her-er-gode-raad-naar-der-er-sol-og-varme", "publishedAt": "2026-06-24T09:00:00Z", "kind": "primary"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Heat_Wave.jpg/500px-Heat_Wave.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Sol og ekstrem varme – illustration til hedebølge",
+        "sourceUrl": "https://www.kristeligt-dagblad.dk/danmark/dmi-varsler-hedeboelge-i-det-meste-af-landet"
+      }
+    },
+    {
+      "id": "story-viking-soeften-20260625",
+      "eventKey": "dk-viking-textile-soeften-2026",
+      "materialFacts": [
+        "Arkæologer har fundet en cirka 100.000 kvadratmeter stor vikingetidig tekstilproduktionsplads ved Søften nord for Aarhus",
+        "Pladsen rummer over 80 grubehuse og et område til bearbejdning af hør",
+        "Fundene dateres til cirka 600-950 e.Kr. og omfatter tenvægte, vævevægte, sølvmønter og glasperler"
+      ],
+      "section": "Kultur",
+      "headline": "Archaeologists find huge Viking textile production site in Denmark",
+      "primarySourceUrl": "https://www.npr.org/2026/06/24/g-s1-129750/viking-textile-production-site",
+      "subheadline": "En 100.000 kvadratmeter stor plads ved Søften peger på organiseret tekstilproduktion i vikingetiden",
+      "body": [
+        "Arkæologer har fundet en usædvanlig stor tekstilproduktionsplads fra vikingetiden ved Søften ti kilometer nord for Aarhus. Pladsen dækker cirka 100.000 kvadratmeter og rummer over 80 grubehuse – halvt nedgravede værksteder og boliger – samt et område til bearbejdning af hør.",
+        "Fundene omfatter tenvægte, vævevægte, sølvmønter og glasperler, og pladsen dateres til cirka 600-950 e.Kr. Adskilte områder til produktion og et enkelt beboelseshus tyder på, at arbejdet blev styret af en magtfuld person med kontrol over ressourcerne."
+      ],
+      "whyItMatters": "Fundet nuancerer billedet af vikingesamfundet fra krigere til organiseret produktion: tekstiler til sejl og tøj var en industri, der krævede planlægning, arbejdskraft og handel.",
+      "analysis": "For tidlig dansk økonomi er pointen, at Aarhus – dengang Aros – var knudepunkt for kongemagt og handel, og at et opland som Søften leverede varer ind i et stort handelsnetværk.",
+      "topics": ["arkæologi", "kultur", "historie", "Danmark"],
+      "entities": ["Søften", "Aarhus", "Moesgaard Museum"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {"importance": 62, "decisionValue": 50, "novelty": 84, "sourceQuality": 80, "personalRelevance": 52, "contrast": 82},
+      "claims": [
+        {"text": "Arkæologer har fundet en cirka 100.000 kvadratmeter stor vikingetidig tekstilproduktionsplads ved Søften nord for Aarhus med over 80 grubehuse, dateret cirka 600-950 e.Kr.", "sourceUrls": ["https://www.npr.org/2026/06/24/g-s1-129750/viking-textile-production-site"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "Archaeologists find huge Viking textile production site in Denmark", "publisher": "NPR (AP)", "url": "https://www.npr.org/2026/06/24/g-s1-129750/viking-textile-production-site", "publishedAt": "2026-06-24T12:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Warp-weighted_loom_twill.jpg/500px-Warp-weighted_loom_twill.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Vægtvæv – illustration til vikingetidens tekstilproduktion",
+        "sourceUrl": "https://www.npr.org/2026/06/24/g-s1-129750/viking-textile-production-site"
+      }
+    },
+    {
+      "id": "story-summer-davos-20260625",
+      "eventKey": "summer-davos-dalian-2026",
+      "materialFacts": [
+        "WEF's Annual Meeting of the New Champions kører 23.-25. juni i Dalian under temaet Innovating at Scale",
+        "Mødet samler over 1.700 ledere med stærkt fokus på Asien",
+        "Programmet kredser om fem spørgsmål, bl.a. handel, Kinas næste kapitel og energiomstilling"
+      ],
+      "section": "Udland",
+      "headline": "Summer Davos 2026: What to expect as leaders arrive in Dalian",
+      "primarySourceUrl": "https://www.weforum.org/stories/2026/06/summer-davos-amnc-2026-preview-live-updates/",
+      "subheadline": "Sommer-Davos i Dalian sætter skalering af teknologi og Kinas næste kapitel på dagsordenen",
+      "body": [
+        "World Economic Forums Annual Meeting of the New Champions – kaldet Sommer-Davos – åbnede 24. juni i den kinesiske havneby Dalian og løber til 25. juni under temaet Innovating at Scale. Mødet samler over 1.700 ledere fra erhvervsliv, regeringer og videnskab.",
+        "Programmet kredser om fem spørgsmål: skiftende handelsmønstre, Kinas næste kapitel, teknologi i realøkonomien, fremtidens job og energiomstillingen som konkurrenceparameter."
+      ],
+      "whyItMatters": "Sommer-Davos er det vigtigste årlige mødested for kinesisk erhvervsliv og internationale investorer. Dagsordenen afslører, hvilke temaer Beijing og globale virksomheder prioriterer i 2. halvår.",
+      "analysis": "At temaet er skalering frem for opdagelse, er et signal: diskussionen er flyttet fra, om teknologier som AI virker, til hvordan de udbredes industrielt. For europæiske aktører er spørgsmålet, om de bliver medspillere eller tilskuere til den asiatiske skaleringsdagsorden.",
+      "topics": ["økonomi", "Kina", "geopolitik", "teknologi"],
+      "entities": ["World Economic Forum", "Dalian", "Kina"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {"importance": 68, "decisionValue": 58, "novelty": 64, "sourceQuality": 76, "personalRelevance": 58, "contrast": 64},
+      "claims": [
+        {"text": "WEF's Annual Meeting of the New Champions kører 23.-25. juni 2026 i Dalian under temaet Innovating at Scale med over 1.700 deltagere og fem programspørgsmål", "sourceUrls": ["https://www.weforum.org/stories/2026/06/summer-davos-amnc-2026-preview-live-updates/", "http://www.china.org.cn/2026-06/24/content_118564095.shtml"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "Summer Davos 2026: What to expect as leaders arrive in Dalian", "publisher": "World Economic Forum", "url": "https://www.weforum.org/stories/2026/06/summer-davos-amnc-2026-preview-live-updates/", "publishedAt": "2026-06-24T07:00:00Z", "kind": "primary"},
+        {"title": "2026 Summer Davos Forum opens in NE China's Dalian", "publisher": "China.org.cn", "url": "http://www.china.org.cn/2026-06/24/content_118564095.shtml", "publishedAt": "2026-06-24T10:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Xigang%2C_Dalian%2C_Liaoning%2C_China_-_panoramio_%2818%29.jpg/500px-Xigang%2C_Dalian%2C_Liaoning%2C_China_-_panoramio_%2818%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Dalian, Kina – illustration til Sommer-Davos",
+        "sourceUrl": "https://www.weforum.org/stories/2026/06/summer-davos-amnc-2026-preview-live-updates/"
+      }
+    }
+  ],
+  "signals": [
+    {"text": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal", "headline": "Oil tankers with 35 million barrels stuck in Persian Gulf exited Strait of Hormuz since Iran deal", "url": "https://www.cnbc.com/amp/2026/06/24/oil-tanker-strait-hormuz-iran-deal.html", "summary": "Mindst 20 tankere har forladt Hormuzstrædet, og strømmen er steget til omkring 4,8 millioner tønder om dagen, stadig under førkrigsniveau.", "publisher": "CNBC", "section": "Udland", "publishedAt": "2026-06-24T12:00:00Z"},
+    {"text": "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz", "headline": "Energy secretary says U.S. has ended Iran's ability to close Strait of Hormuz", "url": "https://www.cnbc.com/amp/2026/06/24/iran-strait-hormuz-oil-chris-wright-energy-secretary.html", "summary": "Den amerikanske energiminister erklærer, at USA har fjernet Irans evne til at lukke det strategiske stræde.", "publisher": "CNBC", "section": "Udland", "publishedAt": "2026-06-24T11:00:00Z"},
+    {"text": "OpenAI's GPT-5.5 Cyber AI Beats Anthropic's Banned Mythos Model—And Nobody's Shutting It Down", "headline": "OpenAI's GPT-5.5 Cyber AI Beats Anthropic's Banned Mythos Model—And Nobody's Shutting It Down", "url": "https://decrypt.co/371900/openai-gpt-5-5-cyber-ai-beats-anthropic-banned-claude-mythos", "summary": "Anthropics Fable 5 og Mythos 5 er fortsat offline efter den amerikanske suspension 12. juni, mens OpenAIs cyber-model kører videre.", "publisher": "Decrypt", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "ByteDance unveils Seedance 2.0 video model", "headline": "ByteDance unveils Seedance 2.0 video model", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-24-2026", "summary": "Den nye videomodel har forbedret bevægelseskonsistens og længere genereringsvinduer.", "publisher": "Build Fast with AI", "section": "Teknologi", "publishedAt": "2026-06-24T09:00:00Z"},
+    {"text": "Assort Health raises $120 million in Series C led by Menlo Ventures", "headline": "Assort Health raises $120 million in Series C led by Menlo Ventures", "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/", "summary": "Sundheds-AI-selskabet automatiserer patientadgang og har behandlet 190 millioner patientinteraktioner.", "publisher": "Tech Startups", "section": "Erhverv", "publishedAt": "2026-06-24T10:00:00Z"},
+    {"text": "Runlayer raises $30M Series A for AI agent governance", "headline": "Runlayer raises $30M Series A for AI agent governance", "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/", "summary": "Felicis og Khosla Ventures leder en runde i infrastruktur til styring og kontrol af AI-agenter i virksomheder.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-24T10:00:00Z"},
+    {"text": "TensorX raises €8M seed for sovereign AI compute", "headline": "TensorX raises €8M seed for sovereign AI compute", "url": "https://techstartups.com/2026/06/24/venture-capital-startup-funding-roundup-june-24-2026/", "summary": "Irske TensorX henter kapital til europæisk suveræn AI-compute.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-24T10:00:00Z"},
+    {"text": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic", "headline": "Nobel laureate John Jumper is leaving DeepMind for rival Anthropic", "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/", "summary": "AlphaFold-medskaberen og nobelprismodtageren skifter til Anthropic efter næsten ni år i DeepMind.", "publisher": "TechCrunch", "section": "Teknologi", "publishedAt": "2026-06-20T12:00:00Z"},
+    {"text": "The European Innovation Council opens to defence and dual-use technologies", "headline": "The European Innovation Council opens to defence and dual-use technologies", "url": "https://eic.ec.europa.eu/news/european-innovation-council-opens-defence-and-dual-use-technologies-2026-06-17_en", "summary": "Startups kan nu søge EIC-tilskud op til 2,5 mio. euro og egenkapital op til 30 mio. euro til dual-use-teknologi.", "publisher": "European Innovation Council", "section": "Erhverv", "publishedAt": "2026-06-17T09:00:00Z"},
+    {"text": "New FAO-WFP report warns worsening hunger puts 13 hotspots at significant risk", "headline": "New FAO-WFP report warns worsening hunger puts 13 hotspots at significant risk", "url": "https://www.wfp.org/news/new-fao-wfp-report-warns-worsening-hunger-puts-13-hotspots-significant-risk", "summary": "Sudan, Sydsudan, Yemen, Palæstina og det nordøstlige Nigeria er mest kritiske; hungersnød-risiko består i fire områder.", "publisher": "World Food Programme", "section": "Udland", "publishedAt": "2026-06-17T08:00:00Z"},
+    {"text": "General Fusion Named World's Top GreenTech Company of 2026 by TIME", "headline": "General Fusion Named World's Top GreenTech Company of 2026 by TIME", "url": "https://www.globenewswire.com/news-release/2026/06/09/3309349/0/en/General-Fusion-Named-World-s-Top-GreenTech-Company-of-2026-by-TIME.html", "summary": "Canadiske General Fusion toppede TIME og Statistas rangliste over 250 grønne teknologiselskaber for sin magnetized target fusion.", "publisher": "GlobeNewswire", "section": "Erhverv", "publishedAt": "2026-06-09T13:00:00Z"}
+  ],
+  "recommendations": [
+    {
+      "id": "rec-vikings-unearthed-20260625",
+      "mode": "watch",
+      "kind": "Dokumentar",
+      "status": "available",
+      "title": "Vikings Unearthed",
+      "creator": "Sarah Parcak",
+      "provider": "Netflix",
+      "url": "https://www.netflix.com/title/80172469",
+      "availability": "Kræver Netflix-abonnement (dansk adgang).",
+      "commitment": "Ca. 54 min",
+      "description": "Arkæolog Sarah Parcak følger spor efter vikingernes tidlige rejser og bruger satellitarkæologi og udgravninger til at vise, hvem nordboerne i virkeligheden var.",
+      "rationale": "Dagens danske vikingefund gør denne dokumentar konkret aktuel. Et bevidst valg uden for AI-profilen, der rammer interessen for kultur og historie – og kobler moderne satellitmetoder til netop den nordiske vikingeverden, frem for en generisk historiefilm.",
+      "topics": ["arkæologi", "historie", "kultur"],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Osebergskipet_2016.jpg/500px-Osebergskipet_2016.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Vikingeskib – illustration til vikingetidens håndværk og handel",
+        "sourceUrl": "https://www.netflix.com/title/80172469"
+      }
+    },
+    {
+      "id": "rec-geopolitics-ai-brands-20260625",
+      "mode": "read",
+      "kind": "Bog",
+      "status": "new",
+      "title": "Geopolitics of AI: Power, Conflict, and the Future of Global Order",
+      "creator": "Hal Brands (red.)",
+      "provider": "Johns Hopkins University Press",
+      "url": "https://www.press.jhu.edu/books/title/54331/geopolitics-ai",
+      "availability": "Udkommet 2026; kan købes (ISBN 9781421455822).",
+      "commitment": "Bog",
+      "description": "Antologi redigeret af Hal Brands, hvor førende forskere undersøger, hvordan gennembrud i AI møder stormagtsrivalisering, militær konkurrence, økonomisk statecraft og konkurrerende styringsmodeller.",
+      "rationale": "Et samlet værk frem for løse essays om netop det, dagens leadhistorie kun antyder: hvordan adgang til frontier-AI bliver et spørgsmål om magt og suverænitet. Direkte relevant for EIFO-tænkningen om teknologisk suverænitet.",
+      "topics": ["AI", "geopolitik", "teknologisk suverænitet"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-openai-trusted-access-20260625",
+      "mode": "read",
+      "kind": "Primærkilde",
+      "status": "timely",
+      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
+      "creator": "OpenAI",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber/",
+      "availability": "Frit tilgængeligt på openai.com.",
+      "commitment": "10-15 min",
+      "description": "OpenAIs egen beskrivelse af adgangsmodellen for GPT-5.5 og GPT-5.5-Cyber: hvem der får adgang, hvilke guardrails der gælder, og hvordan modellen forhåndstestes med myndigheder.",
+      "rationale": "Primærkilden bag dagens leadhistorie. At læse selve teksten om adgang og guardrails giver bedre dømmekraft end andres referat – og et koncentreret læsestykke, der er kort nok til morgenkaffen.",
+      "topics": ["AI", "cybersikkerhed", "regulering"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-hard-fork-nadella-20260625",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Hard Fork",
+      "creator": "Kevin Roose & Casey Newton",
+      "provider": "The New York Times",
+      "url": "https://podcasts.apple.com/us/podcast/hard-fork/id1528594034",
+      "availability": "Frit tilgængeligt på podcastplatforme.",
+      "commitment": "Ca. 1 time pr. afsnit",
+      "description": "New York Times' tech-podcast med Kevin Roose og Casey Newton; nylige afsnit dækker AI-laboratoriernes vej mod børsen og en live-samtale med Microsofts CEO Satya Nadella om AI.",
+      "rationale": "Formatdiversitet og et kritisk journalistisk blik på de samme aktører, som primærkilderne fremstiller sig selv positivt. Et godt modstykke til at læse laboratoriernes egne udmeldinger uimodsagt.",
+      "topics": ["AI", "teknologi", "erhverv"],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "informationGain": 87,
+    "sourceQuality": 84,
+    "verification": 85,
+    "diversity": 86,
+    "serendipity": 84,
+    "modsyn": 83
+  }
+}

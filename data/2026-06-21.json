@@ -1,0 +1,785 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-21-v2",
+  "date": "2026-06-21",
+  "generatedAt": "2026-06-21T04:05:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief – 21. juni 2026",
+  "dek": "Digital suverænitet rykker fra princip til praksis, et tilsyn lukker PET's AI, og Hormuz bliver en fortolkningskamp – plus fire anbefalinger til weekenden.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-dk-digital-sovereignty-20260621",
+      "eventKey": "star-dk-digital-sovereignty-us-cloud-exit-2026",
+      "materialFacts": [
+        "Styrelsen for Arbejdsmarked og Rekruttering har flyttet følsomme helbredsdata fra amerikanske til europæiske cloudleverandører",
+        "Digitaliseringschef Claus Balslev: 'Vi er digitalt suveræne i dag'",
+        "Migrationen begrundes i risiko for amerikansk efterretningsadgang"
+      ],
+      "section": "Teknologi",
+      "headline": "USA-spionage truer følsomme data om syge danskere: Nu trækker styrelse stikket",
+      "primarySourceUrl": "https://www.version2.dk/artikel/usa-spionage-truer-foelsomme-data-om-syge-danskere-nu-traekker-styrelse-stikket",
+      "subheadline": "En dansk styrelse har flyttet borgernes helbredsdata fra amerikanske til europæiske cloudtjenester og kalder sig nu digitalt suveræn",
+      "body": [
+        "Styrelsen for Arbejdsmarked og Rekruttering har ifølge Version2 flyttet følsomme helbredsoplysninger om sygemeldte danskere fra amerikanske teknologileverandører over til europæiske cloudtjenester. Begrundelsen er risikoen for, at amerikansk lovgivning kan tvinge udbydere til at udlevere data til efterretningsformål.",
+        "Digitaliseringschef Claus Balslev opsummerer skiftet med ordene »Vi er digitalt suveræne i dag«. Styrelsen oplyser også, at omlægningen har sænket omkostningerne, men tallene ligger bag betalingsmur."
+      ],
+      "whyItMatters": "Sagen gør suverænitetsdebatten konkret: en dansk myndighed har vurderet, at afhængigheden af amerikanske hyperscalere er en reel risiko for borgernes følsomme data – og handlet på det.",
+      "analysis": "Skridtet føjer sig til en europæisk bevægelse, hvor frygten for amerikansk efterretningsadgang vejer tungere end bekvemmeligheden ved de store platforme. Det bemærkelsesværdige er, at en mellemstor styrelse går forrest og samtidig hævder at spare penge. Kan både lavere risiko og lavere pris dokumenteres, flytter argumentet sig fra principiel politik til driftsøkonomi.",
+      "counterpoint": "»Digitalt suveræn« er styrelsens egen formulering; en migration fjerner ikke al afhængighed af amerikansk teknologi.",
+      "topics": [
+        "teknologisk suverænitet",
+        "AI",
+        "cybersikkerhed",
+        "datasikkerhed"
+      ],
+      "entities": [
+        "Styrelsen for Arbejdsmarked og Rekruttering",
+        "Claus Balslev",
+        "USA"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 78,
+        "novelty": 80,
+        "sourceQuality": 80,
+        "personalRelevance": 88,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Styrelsen for Arbejdsmarked og Rekruttering har flyttet følsomme helbredsdata fra amerikanske til europæiske cloudleverandører",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/usa-spionage-truer-foelsomme-data-om-syge-danskere-nu-traekker-styrelse-stikket"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Digitaliseringschef Claus Balslev udtaler 'Vi er digitalt suveræne i dag'",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/usa-spionage-truer-foelsomme-data-om-syge-danskere-nu-traekker-styrelse-stikket"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "USA-spionage truer følsomme data om syge danskere: Nu trækker styrelse stikket",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/usa-spionage-truer-foelsomme-data-om-syge-danskere-nu-traekker-styrelse-stikket",
+          "publishedAt": "2026-06-19T09:39:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.version2.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-06/img_0859.jpeg?h=b240c0fc&itok=qTgCyXUm",
+        "credit": "Kilde: Version2",
+        "alt": "Billede til artikel om dansk digital suverænitet og cloud-data",
+        "sourceUrl": "https://www.version2.dk/artikel/usa-spionage-truer-foelsomme-data-om-syge-danskere-nu-traekker-styrelse-stikket"
+      }
+    },
+    {
+      "id": "story-pet-ai-shutdown-20260621",
+      "eventKey": "tet-pet-ai-language-model-shutdown-2026",
+      "materialFacts": [
+        "TET har lukket en sprogmodel taget i brug af PET",
+        "Systemet kunne gengive personoplysninger indtastet i prompts",
+        "TET vurderer brugen som i strid med dansk lovgivning"
+      ],
+      "section": "Teknologi",
+      "headline": "Tilsyn lukkede AI-system hos PET: Her er forklaringen",
+      "primarySourceUrl": "https://www.version2.dk/artikel/tilsyn-lukkede-ai-system-hos-pet-her-er-forklaringen",
+      "subheadline": "Tilsynet med Efterretningstjenesterne stoppede en sprogmodel, der kunne lække medarbejderes indtastede personoplysninger",
+      "body": [
+        "Tilsynet med Efterretningstjenesterne (TET) har lukket en sprogmodel, som Politiets Efterretningstjeneste havde taget i brug. Ifølge Version2 kunne systemet i visse tilfælde gengive personoplysninger, som medarbejdere selv havde skrevet ind i deres prompts.",
+        "TET vurderer, at brugen var i strid med dansk lovgivning om databeskyttelse, og at PET ikke havde sikret sig tilstrækkeligt, før modellen blev sat i drift."
+      ],
+      "whyItMatters": "Det er et af de første konkrete eksempler på, at et dansk tilsyn stopper en AI-anvendelse i en sikkerhedsmyndighed med henvisning til loven – ikke til hypotetiske risici.",
+      "analysis": "Sagen viser spændingen mellem hastig AI-udrulning og databeskyttelse i selv de mest fortrolige dele af staten. At en sprogmodel kan reproducere det, brugerne fodrer den med, er en kendt risiko – men her er den havnet i en efterretningstjeneste. Afgørelsen sætter en præcedens for offentlige AI-systemer.",
+      "topics": [
+        "AI",
+        "overvågning",
+        "regulering",
+        "efterretning"
+      ],
+      "entities": [
+        "PET",
+        "Tilsynet med Efterretningstjenesterne"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 66,
+        "novelty": 78,
+        "sourceQuality": 79,
+        "personalRelevance": 84,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "TET har lukket en sprogmodel taget i brug af PET",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/tilsyn-lukkede-ai-system-hos-pet-her-er-forklaringen"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Systemet kunne i visse tilfælde gengive personoplysninger indtastet af medarbejdere",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/tilsyn-lukkede-ai-system-hos-pet-her-er-forklaringen"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tilsyn lukkede AI-system hos PET: Her er forklaringen",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/tilsyn-lukkede-ai-system-hos-pet-her-er-forklaringen",
+          "publishedAt": "2026-06-19T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.version2.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-06/20220329-085112-l-1920x1279web.jpg?itok=WXyOJoKO",
+        "credit": "Kilde: Version2",
+        "alt": "Billede til artikel om AI-system hos PET",
+        "sourceUrl": "https://www.version2.dk/artikel/tilsyn-lukkede-ai-system-hos-pet-her-er-forklaringen"
+      }
+    },
+    {
+      "id": "story-ukraine-dk-drone-20260621",
+      "eventKey": "ukraine-denmark-drone-deal-cooperation-june-2026",
+      "materialFacts": [
+        "Fedorov og Bruus drøftede 19. juni industrisamarbejde under Drone Deal",
+        "Danmark forbereder ny bistandspakke under 'den danske model'",
+        "Ingen konkret beløb eller bindende aftale offentliggjort"
+      ],
+      "section": "Forsvar",
+      "headline": "Ukraine discusses strengthening air defence, drone capabilities, and industrial cooperation with Denmark and Italy",
+      "primarySourceUrl": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/06/ukraine-260619-ukraine-mod03.htm",
+      "subheadline": "Ukraines og Danmarks forsvarsministre drøftede 19. juni udvidet droneproduktion under »den danske model« – men uden et offentliggjort beløb",
+      "body": [
+        "Ukraines forsvarsminister Mykhailo Fedorov og Danmarks forsvarsminister Jeppe Bruus mødtes 19. juni og drøftede ifølge det ukrainske forsvarsministerium at udvide industrisamarbejdet under Drone Deal-initiativet.",
+        "Danmark forbereder samtidig en ny bistandspakke under »den danske model«, hvor danske midler finansierer ukrainsk våbenproduktion, og mødet omfattede lokaliseret produktion og træningsstøtte. Der blev hverken offentliggjort et beløb eller en bindende aftale."
+      ],
+      "whyItMatters": "»Den danske model« er en central kanal for både at støtte Ukraine og opbygge dansk forsvarsindustri – og dronesamarbejdet rører ved en teknologi, dansk forsvar selv mangler.",
+      "analysis": "Signalet er kontinuitet, ikke gennembrud: et ministermøde, ikke en kontrakt. Værdien for København er adgang til kamptestede dronesystemer; for Kyiv kapacitet og EU-finansiering. Uden tal er det endnu en hensigt, der skal omsættes til indkøb.",
+      "topics": [
+        "forsvar",
+        "drone",
+        "sikkerhed",
+        "Ukraine"
+      ],
+      "entities": [
+        "Ukraine",
+        "Mykhailo Fedorov",
+        "Jeppe Bruus",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 64,
+        "novelty": 62,
+        "sourceQuality": 66,
+        "personalRelevance": 86,
+        "contrast": 52
+      },
+      "claims": [
+        {
+          "text": "Fedorov og Bruus drøftede 19. juni udvidet industrisamarbejde under Drone Deal-initiativet",
+          "sourceUrls": [
+            "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/06/ukraine-260619-ukraine-mod03.htm"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Danmark forbereder en ny bistandspakke under 'den danske model'",
+          "sourceUrls": [
+            "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/06/ukraine-260619-ukraine-mod03.htm"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ukraine discusses strengthening air defence, drone capabilities, and industrial cooperation with Denmark and Italy",
+          "publisher": "GlobalSecurity.org",
+          "url": "https://www.globalsecurity.org/wmd/library/news/ukraine/2026/06/ukraine-260619-ukraine-mod03.htm",
+          "publishedAt": "2026-06-19T12:32:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Jeppe_Bruus_Christensen%2C_Minister_for_the_Green_Transition%2C_to_the_European_Commission_%28cropped%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Danmarks forsvarsminister Jeppe Bruus",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Jeppe_Bruus"
+      }
+    },
+    {
+      "id": "story-hormuz-us-iran-20260621",
+      "eventKey": "hormuz-us-iran-open-closed-dispute-june-2026",
+      "materialFacts": [
+        "Iran hævder at have lukket Hormuzstrædet",
+        "CENTCOM oplyser, at 55 skibe passerede med over 17 mio. tønder olie",
+        "BBC Verify bekræfter mindst fem tankere gennem strædet"
+      ],
+      "section": "Udland",
+      "headline": "Modstridende meldinger fra USA og Iran: Er Hormuzstrædet åbent eller lukket?",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/modstridende-meldinger-fra-usa-og-iran-er-hormuzstraedet-aabent-eller-lukket",
+      "subheadline": "Iran hævder at have lukket verdens vigtigste oliestræde; amerikansk militær og BBC Verify siger, at skibene fortsat sejler",
+      "body": [
+        "Iran hævder at have lukket Hormuzstrædet som svar på israelske angreb i Libanon og kalder det et brud på en våbenhvile, USA stiltiende accepterer. Påstanden modsiges direkte af amerikansk militær.",
+        "U.S. Central Command oplyser, at 55 skibe samme dag passerede strædet med mere end 17 millioner tønder olie. BBC Verify bekræfter, at mindst fem tankere kom igennem, mens nogle skibe vendte om. Nye forhandlinger mellem Iran og USA er sat til Schweiz."
+      ],
+      "whyItMatters": "Omkring en femtedel af verdens olie passerer Hormuz. Selv usikkerhed om en lukning kan flytte priser og forsikringsrater og teste den skrøbelige amerikansk-iranske ramme.",
+      "analysis": "Kernen er en fortolkningskamp: Iran bruger ordet »lukket« politisk, mens skibsfartsdata fortæller en anden historie. CENTCOM-tallet er en partsoplysning. Så længe trafikken fortsætter, er markedseffekten begrænset, men gentagne udmeldinger kan i sig selv hæve risikopræmien.",
+      "topics": [
+        "energi",
+        "geopolitik",
+        "Iran",
+        "skibsfart"
+      ],
+      "entities": [
+        "USA",
+        "Iran",
+        "U.S. Central Command",
+        "Hormuzstrædet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 86,
+        "decisionValue": 76,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 40,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "U.S. Central Command oplyser, at 55 skibe passerede strædet med mere end 17 millioner tønder olie",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/modstridende-meldinger-fra-usa-og-iran-er-hormuzstraedet-aabent-eller-lukket"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "BBC Verify bekræfter, at mindst fem tankere passerede, mens nogle skibe vendte om",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/modstridende-meldinger-fra-usa-og-iran-er-hormuzstraedet-aabent-eller-lukket"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Modstridende meldinger fra USA og Iran: Er Hormuzstrædet åbent eller lukket?",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/modstridende-meldinger-fra-usa-og-iran-er-hormuzstraedet-aabent-eller-lukket",
+          "publishedAt": "2026-06-19T20:07:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/vfgnwnnm/20260522-110137-2.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Billede til artikel om Hormuzstrædet og olietankere",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/modstridende-meldinger-fra-usa-og-iran-er-hormuzstraedet-aabent-eller-lukket"
+      }
+    },
+    {
+      "id": "story-edinburgh-attacks-20260621",
+      "eventKey": "edinburgh-anti-muslim-attacks-june-2026",
+      "materialFacts": [
+        "Fem mænd såret i angreb i Edinburgh fredag aften",
+        "En 36-årig mand anholdt; tre hospitalsbehandlet",
+        "Starmer: gerningsmanden synes motiveret af had mod muslimer"
+      ],
+      "section": "Udland",
+      "headline": "Skotsk politi efterforsker formodede hadforbrydelser mod muslimer i Edinburgh",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/skotsk-politi-efterforsker-formodede-hadforbrydelser-mod-muslimer-i-edinburgh",
+      "subheadline": "Fem mænd blev såret i flere angreb fredag aften; en 36-årig er anholdt, og premierminister Starmer taler om had mod muslimer",
+      "body": [
+        "Skotsk antiterrorpoliti efterforsker en række voldelige angreb i Edinburgh fredag aften, hvor fem mænd blev såret. To blev overfaldet nær Broomhouse-moskéen, tre andre steder i byen, og angrebene omfattede trusler og røveri.",
+        "En 36-årig skotsk mand er anholdt, og tre ofre blev hospitalsbehandlet for ikke-livstruende skader. Premierminister Keir Starmer siger, at gerningsmanden synes motiveret af had mod muslimer, og førsteminister John Swinney kalder det bekymrende."
+      ],
+      "whyItMatters": "Sagen behandles som mulig hadforbrydelse og terror og indskriver sig i en bredere europæisk debat om vold mod religiøse mindretal – en spænding, der også ses herhjemme.",
+      "analysis": "At antiterrorpolitiet er involveret, signalerer, at myndighederne ser angrebene som mere end tilfældig gadevold. Udmeldingerne fra Starmer og Swinney afspejler et behov for at markere nultolerance. Prøven bliver, om motivet kan fastslås som religiøst.",
+      "topics": [
+        "hadforbrydelse",
+        "Storbritannien",
+        "sikkerhed",
+        "religion"
+      ],
+      "entities": [
+        "Skotland",
+        "Edinburgh",
+        "Keir Starmer",
+        "John Swinney"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 52,
+        "novelty": 72,
+        "sourceQuality": 80,
+        "personalRelevance": 36,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Fem mænd blev såret; en 36-årig mand er anholdt, og tre ofre blev hospitalsbehandlet",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/skotsk-politi-efterforsker-formodede-hadforbrydelser-mod-muslimer-i-edinburgh"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Keir Starmer siger, gerningsmanden synes motiveret af had mod muslimer",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/skotsk-politi-efterforsker-formodede-hadforbrydelser-mod-muslimer-i-edinburgh"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Skotsk politi efterforsker formodede hadforbrydelser mod muslimer i Edinburgh",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/skotsk-politi-efterforsker-formodede-hadforbrydelser-mod-muslimer-i-edinburgh",
+          "publishedAt": "2026-06-21T01:46:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/fczharqs/20260525-155127-5.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Billede til artikel om angreb i Edinburgh",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/skotsk-politi-efterforsker-formodede-hadforbrydelser-mod-muslimer-i-edinburgh"
+      }
+    },
+    {
+      "id": "story-gaza-journalist-20260621",
+      "eventKey": "gaza-aljazeera-photographer-killed-june-2026",
+      "materialFacts": [
+        "Mindst seks dræbt i israelske angreb i Gaza lørdag",
+        "Al Jazeera-fotograf Ahmed Wishah blandt de dræbte",
+        "Israel hævder Wishah var Hamas-medlem; Al Jazeera afviser"
+      ],
+      "section": "Udland",
+      "headline": "Mindst seks dræbt i Gaza - Al Jazeera-fotograf blandt ofrene",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/mindst-seks-draebt-i-gaza-al-jazeera-fotograf-blandt-ofrene",
+      "subheadline": "Israel hævder, at den dræbte fotograf var Hamas-medlem; Al Jazeera kalder drabet en målrettet forbrydelse mod en journalist",
+      "body": [
+        "Mindst seks mennesker blev dræbt i israelske angreb i Gaza lørdag, heriblandt Al Jazeera-fotografen Ahmed Wishah. Blandt de øvrige dræbte var ifølge DR mindst ét barn og flere medlemmer af samme familie i Gaza by.",
+        "Det israelske militær hævder, at Wishah var medlem af Hamas' militære gren. Al Jazeera afviser det og fordømmer drabet som en »afskyelig forbrydelse« og et bevidst angreb på en journalist."
+      ],
+      "whyItMatters": "Drab på journalister i Gaza er blevet et tilbagevendende stridspunkt om pressefrihed og om, hvordan kombattantstatus afgøres, når uafhængig verifikation er næsten umulig.",
+      "analysis": "Mønsteret er velkendt: Israel betegner en dræbt journalist som militant, mediet afviser, og uafhængig kontrol er stærkt begrænset. Uden adgang for udenlandsk presse står påstand mod påstand, og derfor bliver hver sag en troværdighedsprøve. For læseren er pointen at holde de to kilders udsagn adskilt.",
+      "topics": [
+        "Mellemøsten",
+        "pressefrihed",
+        "konflikt"
+      ],
+      "entities": [
+        "Gaza",
+        "Al Jazeera",
+        "Ahmed Wishah",
+        "Israel"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 48,
+        "novelty": 64,
+        "sourceQuality": 76,
+        "personalRelevance": 34,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Mindst seks dræbt, herunder Al Jazeera-fotografen Ahmed Wishah, i israelske angreb i Gaza lørdag",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/mindst-seks-draebt-i-gaza-al-jazeera-fotograf-blandt-ofrene"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Israels militær hævder Wishah var Hamas-medlem; Al Jazeera afviser og fordømmer drabet",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/mindst-seks-draebt-i-gaza-al-jazeera-fotograf-blandt-ofrene"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mindst seks dræbt i Gaza - Al Jazeera-fotograf blandt ofrene",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/mindst-seks-draebt-i-gaza-al-jazeera-fotograf-blandt-ofrene",
+          "publishedAt": "2026-06-20T16:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/oujpen2a/317.png?im=AspectCrop%3D%28700%2C394%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28700%2C394%29",
+        "credit": "Kilde: DR",
+        "alt": "Billede til artikel om angreb i Gaza",
+        "sourceUrl": "https://www.dr.dk/nyheder/seneste/mindst-seks-draebt-i-gaza-al-jazeera-fotograf-blandt-ofrene"
+      }
+    },
+    {
+      "id": "story-dk-laeseproeve-20260621",
+      "eventKey": "dk-reading-test-criticism-june-2026",
+      "materialFacts": [
+        "Den nationale læseprøve kritiseres for at måle testteknik",
+        "7,1 procent dumpede; 28 af 50 rigtige krævet for at bestå",
+        "STUK fastholder, at prøven måler både hastighed og forståelse"
+      ],
+      "section": "Samfund",
+      "headline": "Læseprøve i dansk møder massiv kritik – giver ingen mening",
+      "primarySourceUrl": "https://nyheder.tv2.dk/samfund/2026-06-20-laeseproeve-i-dansk-moeder-massiv-kritik-giver-ingen-mening",
+      "subheadline": "Lærere mener, at den nationale læseprøve måler testteknik frem for læsefærdighed; i år dumpede 7,1 procent",
+      "body": [
+        "Den nationale læseprøve i dansk for 9. klasse møder massiv kritik fra lærere, der mener, at prøven måler, hvor hurtigt eleverne kan navigere i en test, snarere end om de kan læse. Eleverne har 30 minutter til fem tekster og 50 multiple choice-spørgsmål.",
+        "I år dumpede 7,1 procent, og det krævede 28 ud af 50 rigtige at bestå – den højeste tærskel hidtil. Styrelsen for Undervisning og Kvalitet fastholder, at gode læsere tilpasser strategi til formålet."
+      ],
+      "whyItMatters": "Prøven er med til at afgøre, om elever kan gå videre i uddannelsessystemet, og en stigende dumpeprocent rejser spørgsmålet, om det er læsningen eller målemetoden, der svigter.",
+      "analysis": "Konflikten er en klassisk strid om validitet: tester prøven det, den hævder at teste? Når en engageret læser kan score lavt og en hurtig testtager højt, peger kritikken på, at formatet belønner tempo og teknik. Omvendt er strategisk læsning en reel færdighed.",
+      "topics": [
+        "uddannelse",
+        "folkeskole",
+        "samfund"
+      ],
+      "entities": [
+        "STUK",
+        "Rasmus Schøler",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 58,
+        "novelty": 66,
+        "sourceQuality": 72,
+        "personalRelevance": 44,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "7,1 procent af eleverne dumpede, og det krævede 28 ud af 50 rigtige at bestå",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-06-20-laeseproeve-i-dansk-moeder-massiv-kritik-giver-ingen-mening"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "STUK fastholder, at gode læsere tilpasser læsestrategi til formålet",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-06-20-laeseproeve-i-dansk-moeder-massiv-kritik-giver-ingen-mening"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Læseprøve i dansk møder massiv kritik – giver ingen mening",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/samfund/2026-06-20-laeseproeve-i-dansk-moeder-massiv-kritik-giver-ingen-mening",
+          "publishedAt": "2026-06-20T16:41:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://cdn-free.tv2i.dk/e/d/i/editorial/b/a/b/baba79c9-0455-4ad2-8d19-27ca855fe66d?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MTY5LDE0LDE0NzYsODMw&s=34bb5cae8aa6c4e7aa8466b2edabab04",
+        "credit": "Kilde: TV 2",
+        "alt": "Billede til artikel om den nationale læseprøve",
+        "sourceUrl": "https://nyheder.tv2.dk/samfund/2026-06-20-laeseproeve-i-dansk-moeder-massiv-kritik-giver-ingen-mening"
+      }
+    },
+    {
+      "id": "story-dk-adoption-20260621",
+      "eventKey": "dk-state-adoption-waiting-times-2026",
+      "materialFacts": [
+        "Tvangsbortadoptioner mere end fordoblet siden 2019",
+        "Ventetid i 2025 i gennemsnit over halvandet år",
+        "Minister Monika Rubin vil rekruttere flere adoptanter"
+      ],
+      "section": "Indland",
+      "headline": "Staten bortadopterer flere børn – men færre vil tage dem hjem",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/staten-bortadopterer-flere-boern-men-faerre-vil-tage-dem-hjem",
+      "subheadline": "Antallet af tvangsbortadoptioner er mere end fordoblet siden 2019, mens ventetiderne er de længste siden 2020",
+      "body": [
+        "Antallet af tvangsbortadoptioner i Danmark er mere end fordoblet, siden Mette Frederiksen blev statsminister i 2019. Samtidig falder antallet af godkendte adoptanter, og Adoptionsnævnet udtrykker i sin årsberetning »betydelig bekymring«.",
+        "Børn, der venter på en tvangsadoption, ventede i 2025 i gennemsnit over halvandet år – det længste siden 2020 – og hvert sjette barn ventede i to til tre år. Minister Monika Rubin vil rekruttere flere adoptanter efter en arbejdsgrupperapport leveret 19. juni."
+      ],
+      "whyItMatters": "Når staten fjerner flere børn varigt fra forældrene, men mangler familier til at tage imod dem, opstår der lange anbringelser uden permanent hjem for de mest sårbare børn.",
+      "analysis": "Der er bred politisk opbakning til flere tidlige, varige anbringelser ud fra barnets tarv, men kapaciteten er ikke fulgt med. Resultatet er en flaskehals, hvor målet om stabilitet kolliderer med en mangel på adoptanter.",
+      "topics": [
+        "socialpolitik",
+        "børn",
+        "samfund"
+      ],
+      "entities": [
+        "Danmark",
+        "Monika Rubin",
+        "Adoptionsnævnet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 50,
+        "novelty": 68,
+        "sourceQuality": 74,
+        "personalRelevance": 38,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Antallet af tvangsbortadoptioner er mere end fordoblet siden 2019",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/staten-bortadopterer-flere-boern-men-faerre-vil-tage-dem-hjem"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Børn ventede i 2025 i gennemsnit over halvandet år på tvangsadoption",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/staten-bortadopterer-flere-boern-men-faerre-vil-tage-dem-hjem"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Staten bortadopterer flere børn – men færre vil tage dem hjem",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/staten-bortadopterer-flere-boern-men-faerre-vil-tage-dem-hjem",
+          "publishedAt": "2026-06-19T17:40:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/cjvjyoso/20180121-160717-6_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Billede til artikel om tvangsadoptioner i Danmark",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/staten-bortadopterer-flere-boern-men-faerre-vil-tage-dem-hjem"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Zelenskyj advarer ukrainerne om 'massivt' russisk angreb",
+      "url": "https://www.dr.dk/nyheder/seneste/zelenskyj-advarer-ukrainerne-om-massivt-russisk-angreb",
+      "headline": "Zelenskyj advarer ukrainerne om 'massivt' russisk angreb",
+      "summary": "Ukraines præsident advarer borgerne om et nært forestående stort russisk angreb.",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-06-20T18:57:00Z"
+    },
+    {
+      "text": "Dansk minister bekræfter deltagelse i lukket Peter Thiel-netværk",
+      "url": "https://www.version2.dk/artikel/dansk-minister-bekraefter-deltagelse-i-lukket-peter-thiel-netvaerk",
+      "headline": "Dansk minister bekræfter deltagelse i lukket Peter Thiel-netværk",
+      "summary": "Lækkede medlemslister fra det invitationsbaserede netværk 'Dialog' omfatter tre danskere, heriblandt en minister.",
+      "publisher": "Version2",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-19T13:00:00Z"
+    },
+    {
+      "text": "Regeringen gør igen klar til at sige farvel til bogmoms og kaffeafgift",
+      "url": "https://www.dr.dk/nyheder/politik/regeringen-goer-igen-klar-til-sige-farvel-til-bogmoms-og-kaffeafgift",
+      "headline": "Regeringen gør igen klar til at sige farvel til bogmoms og kaffeafgift",
+      "summary": "Regeringen forbereder på ny at afskaffe bogmoms og kaffeafgift.",
+      "publisher": "DR",
+      "section": "Politik",
+      "publishedAt": "2026-06-19T13:42:00Z"
+    },
+    {
+      "text": "Regeringen vil fordoble tilskud ved skift fra gas til grøn varme",
+      "url": "https://www.dr.dk/nyheder/politik/regeringen-vil-fordoble-tilskud-ved-skift-fra-gas-til-groen-varme",
+      "headline": "Regeringen vil fordoble tilskud ved skift fra gas til grøn varme",
+      "summary": "Husstande, der skifter fra gas til grøn varme, skal kunne få dobbelt så stort tilskud.",
+      "publisher": "DR",
+      "section": "Politik",
+      "publishedAt": "2026-06-19T12:51:00Z"
+    },
+    {
+      "text": "Moské blev overhældt med benzin: I dag har folkekirkens lokale overhoved været på besøg",
+      "url": "https://www.dr.dk/nyheder/indland/moske-blev-overhaeldt-med-benzin-i-dag-har-folkekirkens-lokale-overhoved-vaeret-paa-besoeg",
+      "headline": "Moské blev overhældt med benzin: I dag har folkekirkens lokale overhoved været på besøg",
+      "summary": "Efter et benzinangreb på en dansk moské har den lokale folkekirke aflagt solidaritetsbesøg.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-06-19T19:15:00Z"
+    },
+    {
+      "text": "Zelenskyj fratages højeste polske orden – en gave til Moskva, siger stabschef",
+      "url": "https://nyheder.tv2.dk/udland/2026-06-20-zelenskyj-fratages-hoejeste-polske-orden-en-gave-til-moskva-siger-stabschef",
+      "headline": "Zelenskyj fratages højeste polske orden – en gave til Moskva, siger stabschef",
+      "summary": "Ukraines stabschef kalder beslutningen om at fratage Zelenskyj Polens højeste orden en gave til Moskva.",
+      "publisher": "TV 2",
+      "section": "Udland",
+      "publishedAt": "2026-06-20T10:00:00Z"
+    },
+    {
+      "text": "Trump angriber Meloni igen",
+      "url": "https://nyheder.tv2.dk/udland/2026-06-20-trump-angriber-meloni-igen",
+      "headline": "Trump angriber Meloni igen",
+      "summary": "USA's præsident retter på ny et angreb mod Italiens premierminister Giorgia Meloni.",
+      "publisher": "TV 2",
+      "section": "Udland",
+      "publishedAt": "2026-06-20T10:00:00Z"
+    },
+    {
+      "text": "En død og 1700 evakueret i kæmpe hotelbrand",
+      "url": "https://nyheder.tv2.dk/udland/2026-06-20-en-doed-og-1700-evakueret-i-kaempe-hotelbrand",
+      "headline": "En død og 1700 evakueret i kæmpe hotelbrand",
+      "summary": "En person er død og omkring 1700 evakueret efter en stor hotelbrand.",
+      "publisher": "TV 2",
+      "section": "Udland",
+      "publishedAt": "2026-06-20T10:00:00Z"
+    },
+    {
+      "text": "En person dræbt og flere såret i togulykke i England",
+      "url": "https://nyheder.tv2.dk/live/udland/2026-06-19-melding-om-togkollision-nord-for-london",
+      "headline": "En person dræbt og flere såret i togulykke i England",
+      "summary": "En togkollision nord for London har kostet et menneskeliv og såret flere.",
+      "publisher": "TV 2",
+      "section": "Udland",
+      "publishedAt": "2026-06-19T10:00:00Z"
+    },
+    {
+      "text": "Nyt drama undersøger offerets magt i metoo-sager",
+      "url": "https://www.dr.dk/nyheder/kultur/nyt-drama-undersoeger-offerets-magt-i-metoo-sager-jeg-haaber-vi-har-lavet-en-film-som-nuancerer",
+      "headline": "Nyt drama undersøger offerets magt i metoo-sager",
+      "summary": "Et nyt dansk drama søger at nuancere debatten om magt og offerrolle i metoo-sager.",
+      "publisher": "DR",
+      "section": "Kultur",
+      "publishedAt": "2026-06-19T14:32:00Z"
+    },
+    {
+      "text": "Alger æder Trumps prestigeprojekt – nu har han selv en anden forklaring",
+      "url": "https://nyheder.tv2.dk/udland/2026-06-20-alger-aeder-trumps-prestigeprojekt-nu-har-han-selv-en-anden-forklaring",
+      "headline": "Alger æder Trumps prestigeprojekt – nu har han selv en anden forklaring",
+      "summary": "Et af Trumps prestigeprojekter er ramt af alger, og præsidenten giver selv en anden forklaring.",
+      "publisher": "TV 2",
+      "section": "Udland",
+      "publishedAt": "2026-06-20T10:00:00Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-the-ai-doc-20260621",
+      "mode": "watch",
+      "kind": "Dokumentarfilm",
+      "status": "available",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
+      "creator": "Daniel Roher & Charlie Tyrell",
+      "provider": "Focus Features",
+      "url": "https://tv.apple.com/us/movie/the-ai-doc-or-how-i-became-an-apocaloptimist/umc.cmc.4a45bulcd7e4urydi90xmfu86",
+      "availability": "Biografpremiere 27/3 2026. Streaming på Peacock (USA); leje/køb på Apple TV, Prime Video, Google Play og YouTube. Adgang varierer uden for USA.",
+      "commitment": "104 min",
+      "description": "Oscar-vindende dokumentarister undersøger AI's farer og løfter, fortalt gennem instruktøren Daniel Rohers blik, mens han skal være far. 87 procent på Rotten Tomatoes.",
+      "rationale": "Den gør den abstrakte AI-debat konkret og menneskelig frem for endnu et nyhedsreferat – et stærkt fortællende modspil til dagens tekniske suverænitetshistorier, og kort nok til en enkelt aften.",
+      "topics": [
+        "AI",
+        "film",
+        "samfund"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fc/The_AI_Doc%2C_Or_How_I_Became_an_Apocaloptimist_poster.jpg/250px-The_AI_Doc%2C_Or_How_I_Became_an_Apocaloptimist_poster.jpg",
+        "credit": "Focus Features",
+        "alt": "Filmplakat til dokumentaren The AI Doc: Or How I Became an Apocaloptimist",
+        "sourceUrl": "https://en.wikipedia.org/wiki/The_AI_Doc:_Or_How_I_Became_an_Apocaloptimist"
+      }
+    },
+    {
+      "id": "rec-dwarkesh-scarce-agi-20260621",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Alex Imas and Phil Trammell – What remains scarce after AGI?",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "availability": "Tilgængelig globalt (Substack, YouTube, podcast). Udgivet 4. juni 2026.",
+      "commitment": "2 t 8 min",
+      "description": "Økonomerne Alex Imas og Phil Trammell diskuterer, hvad der bevarer værdi, når intelligens og arbejde bliver billigt – kapital, status, knappe goder og menneskelig dømmekraft.",
+      "rationale": "Direkte relevant for en investoranalytiker: en struktureret samtale om, hvor værdien flytter hen efter AGI. Lang, men højsignal og uden hype – bedre end korte, overskriftsdrevne AI-klip.",
+      "topics": [
+        "AI",
+        "økonomi",
+        "investering"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-doctorow-reverse-centaur-20260621",
+      "mode": "read",
+      "kind": "Sagprosa",
+      "status": "new",
+      "title": "The Reverse Centaur's Guide to Life After AI",
+      "creator": "Cory Doctorow",
+      "provider": "Verso Books",
+      "url": "https://www.versobooks.com/products/3584-the-reverse-centaur-s-guide-to-life-after-ai",
+      "availability": "Udkommet juni 2026 (FSG i USA, Verso i UK). Fås som bog og e-bog.",
+      "commitment": "Bog",
+      "description": "Cory Doctorow om »reverse centaurs« – mennesker, der tvinges til at arbejde i maskinens tempo. En kritisk, men ikke afvisende, gennemgang af AI's effekt på arbejde og magt.",
+      "rationale": "Et velargumenteret modsyn til AI-optimismen fra en, der selv bruger værktøjerne dagligt. Ny i juni 2026 og et nyttigt korrektiv til featured-filmens »apocaloptimisme«.",
+      "topics": [
+        "AI",
+        "arbejdsmarked",
+        "teknologikritik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-dwarkesh-ada-palmer-20260621",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "Ada Palmer – Machiavelli is the most misunderstood thinker of all time",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/ada-palmer-2",
+      "availability": "Tilgængelig globalt (Substack, YouTube, podcast). Udgivet 16. juni 2026.",
+      "commitment": "Ca. 3 t",
+      "description": "Renæssancehistorikeren Ada Palmer om Machiavelli, magt og hvorfor hans tænkning er blevet misforstået i 500 år.",
+      "rationale": "Det serendipitøse valg uden for arbejdsprofilen: idéhistorie og politisk filosofi af høj kvalitet. Et bevidst brud på AI-boblen, der rammer de bredere interesser i filosofi og kreativitet.",
+      "topics": [
+        "idéhistorie",
+        "filosofi",
+        "historie"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "informationGain": 88,
+    "sourceQuality": 83,
+    "verification": 86,
+    "diversity": 87,
+    "serendipity": 85,
+    "modsyn": 82
+  }
+}

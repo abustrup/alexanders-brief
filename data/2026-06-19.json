@@ -1,0 +1,468 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-19-v3",
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-19T17:35:00Z",
+  "readingMinutes": 6,
+  "title": "Alexanders Brief",
+  "dek": "Forsvaret bekræfter droner over Danmark, Ukraine rammer Moskvas raffinaderier, og et britisk lokalvalg kan vælte Starmer",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-dk-drone-report-20260619",
+      "eventKey": "dk-drone-evaluation-report-2026",
+      "materialFacts": [
+        "Forsvarets evaluering konkluderer, at der i flere tilfælde var tale om droner over danske lokaliteter i efteråret 2025",
+        "Forsvarsminister Jeppe Bruus erkender, at evnen til at opdage og håndtere droner kunne være bedre",
+        "Cirka 200 særskilte luftobservationer blev indrapporteret mellem 22. september og 6. oktober 2025"
+      ],
+      "section": "Sikkerhed",
+      "headline": "Rapport bekræfter dronehændelser, siger minister",
+      "primarySourceUrl": "https://nyheder.tv2.dk/politik/2026-06-19-rapport-bekraefter-dronehaendelser-siger-minister",
+      "subheadline": "Forsvarets længe ventede evaluering fastslår droner over Danmark, men ikke hvem der stod bag",
+      "body": [
+        "Forsvarets længe ventede evaluering af luftrumshændelserne i efteråret 2025 er afleveret. Konklusionen er klar: I flere tilfælde var der tale om droner over danske lokaliteter. Forsvarsminister Jeppe Bruus præsenterede dele af rapporten, efter at forligskredsen havde set en klassificeret version.",
+        "Mellem 22. september og 6. oktober 2025 indløb omkring 200 særskilte luftobservationer, blandt andet under et EU-topmøde i København. Bruus erkender, at evnen til at opdage og håndtere droner 'kunne være bedre', og at man i intet tilfælde fysisk fik fat i en drone."
+      ],
+      "whyItMatters": "For en lille stat handler dronesagen mindre om enkelthændelser end om beredskab: Kan myndighederne se og reagere på det, der bevæger sig i luftrummet? Erkendelsen af et kapacitetshul rammer direkte ind i forsvarsforliget.",
+      "analysis": "Det interessante er afstanden mellem konstatering og handlekraft: Rapporten bekræfter droner, men kan hverken udpege en afsender eller fremvise en nedtaget drone. Uden attribution er respons svær at kalibrere, og sagen flytter fokus fra våbensystemer til detektion og datadeling.",
+      "counterpoint": "Rapporten siger intet om, hvor dronerne kom fra, og flere af de oprindelige meldinger var af varierende kvalitet.",
+      "topics": ["forsvar", "sikkerhed", "hybridtrussel", "beredskab"],
+      "entities": ["Forsvaret", "Jeppe Bruus", "Michael Hyldgaard", "Danmark"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/rn4hbdzg/20250922-211948-l.jpg",
+        "credit": "© Steven Knap, Ritzau Scanpix",
+        "alt": "Politiet til stede ved Københavns Lufthavn under meldinger om droner i efteråret 2025",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/dokumenter-afsloerer-nye-oplysninger-om-mulige-droner-over-danmark"
+      },
+      "scores": {
+        "importance": 86,
+        "decisionValue": 70,
+        "novelty": 88,
+        "sourceQuality": 90,
+        "personalRelevance": 84,
+        "contrast": 68
+      },
+      "claims": [
+        {
+          "text": "Forsvarets evaluering konkluderer, at der i flere tilfælde var tale om droner over danske lokaliteter i efteråret 2025.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/politik/2026-06-19-rapport-bekraefter-dronehaendelser-siger-minister",
+            "https://www.forsvaret.dk/da/nyheder/2026/evaluering-af-forsvarets-indsats-ifm.-luftobservationer-i-efteraret-2025"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Cirka 200 særskilte luftobservationer blev indrapporteret mellem 22. september og 6. oktober 2025.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/politik/2026-06-19-rapport-bekraefter-dronehaendelser-siger-minister"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Forsvarsminister Jeppe Bruus erkender, at Forsvarets evne til at opdage og håndtere droner kunne være bedre.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/politik/2026-06-19-rapport-bekraefter-dronehaendelser-siger-minister"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rapporten giver ikke svar på, hvor dronerne kom fra.",
+          "sourceUrls": [
+            "https://tidende.dk/forsvar/rapport-giver-ikke-svar-paa-hvor-droner-over-danmark-kom-fra/167722"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rapport bekræfter dronehændelser, siger minister",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/politik/2026-06-19-rapport-bekraefter-dronehaendelser-siger-minister",
+          "publishedAt": "2026-06-19T09:47:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Evaluering af Forsvarets indsats ifm. luftobservationer i efteraret 2025",
+          "publisher": "Forsvaret",
+          "url": "https://www.forsvaret.dk/da/nyheder/2026/evaluering-af-forsvarets-indsats-ifm.-luftobservationer-i-efteraret-2025",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Rapport giver ikke svar på hvor droner over Danmark kom fra",
+          "publisher": "Tidende",
+          "url": "https://tidende.dk/forsvar/rapport-giver-ikke-svar-paa-hvor-droner-over-danmark-kom-fra/167722",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-ukraine-moscow-refinery-20260619",
+      "eventKey": "ukraine-moscow-refinery-strike-2026-06-18",
+      "materialFacts": [
+        "Gazproms store olieraffinaderi i det sydøstlige Moskva blev ramt for anden gang på en uge",
+        "Rusland oplyser at have nedskudt 555 ukrainske droner, heraf 180 med kurs mod Moskva",
+        "Angrebet er blandt krigens største langtrækkende natangreb mod den russiske hovedstad"
+      ],
+      "section": "Udland",
+      "headline": "Stort olieraffinaderi i Moskva ramt af angreb for anden gang i denne uge",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/stort-olieraffinaderi-i-moskva-ramt-af-angreb-anden-gang-i-denne-uge",
+      "subheadline": "Et af krigens største natangreb mod hovedstaden sætter brand i russisk raffinaderikapacitet",
+      "body": [
+        "Ukraine ramte natten til torsdag Gazproms store olieraffinaderi i det sydøstlige Moskva — cirka 15 kilometer fra Kreml — for anden gang på en uge. Russiske myndigheder oplyste at have nedskudt 555 ukrainske droner, heraf 180 med kurs mod hovedstaden.",
+        "Det er ifølge internationale medier blandt krigens største langtrækkende natangreb mod Moskva. Rusland fortsatte samtidig sine egne natlige angreb mod Ukraine, og Kyiv havde ved DR's dækning endnu ikke kommenteret aktionen."
+      ],
+      "whyItMatters": "Krigen flytter sig fra frontlinjen til Ruslands energiinfrastruktur og hovedstad. Gentagne træf mod raffinaderikapacitet presser russisk brændstofforsyning og prestige.",
+      "analysis": "Tallene er russiske myndighedstal uden uafhængig verifikation. Men selv et forsvar, der nedskyder hundredvis af droner, røber, at angrebene nu rammer i en skala, der tvinger Rusland til at bruge luftforsvar langt fra fronten.",
+      "topics": ["krig", "Ukraine", "energi", "droner"],
+      "entities": ["Ukraine", "Rusland", "Moskva", "Gazprom"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/0w3dadbu/20260618-065257-7-1920x1082web.jpg",
+        "credit": "© Social Media/Reuters/Ritzau Scanpix",
+        "alt": "Røg stiger op fra et olieraffinaderi i Moskva efter et ukrainsk droneangreb",
+        "sourceUrl": "https://www.dr.dk/nyheder/seneste/stort-olieraffinaderi-i-moskva-ramt-af-angreb-anden-gang-i-denne-uge"
+      },
+      "scores": {
+        "importance": 88,
+        "decisionValue": 72,
+        "novelty": 84,
+        "sourceQuality": 86,
+        "personalRelevance": 60,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Rusland oplyser at have nedskudt 555 ukrainske droner, heraf 180 med kurs mod Moskva.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/stort-olieraffinaderi-i-moskva-ramt-af-angreb-anden-gang-i-denne-uge",
+            "https://www.nbcnews.com/world/russia/moscow-refinery-attack-ukrainian-drones-hit-kapotnya-russia-trump-war-rcna350665"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Gazproms store raffinaderi i det sydøstlige Moskva blev ramt for anden gang på en uge.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/stort-olieraffinaderi-i-moskva-ramt-af-angreb-anden-gang-i-denne-uge"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Angrebet er blandt krigens største langtrækkende natangreb mod Moskva.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/russia/moscow-refinery-attack-ukrainian-drones-hit-kapotnya-russia-trump-war-rcna350665"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stort olieraffinaderi i Moskva ramt af angreb for anden gang i denne uge",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/stort-olieraffinaderi-i-moskva-ramt-af-angreb-anden-gang-i-denne-uge",
+          "publishedAt": "2026-06-18T05:25:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Moscow refinery ablaze as Ukraine launches biggest attack on Russian capital in years",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/russia/moscow-refinery-attack-ukrainian-drones-hit-kapotnya-russia-trump-war-rcna350665",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-uk-burnham-makerfield-20260619",
+      "eventKey": "uk-burnham-makerfield-byelection-2026",
+      "materialFacts": [
+        "Andy Burnham vandt suppleringsvalget i Makerfield med 24.927 stemmer",
+        "Sejren fjerner en væsentlig hindring for et opgør med premierminister Keir Starmer",
+        "Et lederopgør kan udløses, hvis mindst 20 procent af Labours parlamentsmedlemmer støtter en alternativ kandidat"
+      ],
+      "section": "Udland",
+      "headline": "Labours Andy Burnham vinder valg og baner vej for udfordring af premierminister Starmer",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/labours-andy-burnham-vinder-valg-og-baner-vej-udfordring-af-premierminister-starmer",
+      "subheadline": "Borgmesteren fra Greater Manchester sikrer sig en plads i Underhuset og kan nu udløse et opgør om Labour-ledelsen",
+      "body": [
+        "Andy Burnham, borgmester i Greater Manchester og af mange udpeget som Starmers sandsynlige efterfølger, vandt fredag suppleringsvalget i Makerfield med 24.927 stemmer. Det fjerner den væsentligste hindring for et opgør med premierministeren om Labour-ledelsen.",
+        "Starmer kæmper med nogle af de dårligste popularitetstal for en britisk regeringsleder i nyere tid, og omkring en fjerdedel af hans egen parlamentsgruppe har opfordret ham til at gå af. Et lederopgør kræver opbakning fra mindst 20 procent af Labours parlamentsmedlemmer."
+      ],
+      "whyItMatters": "Et regeringsbærende parti med intern ledelseskamp påvirker Storbritanniens kurs i økonomi, forsvar og Europa-politik. Burnhams indtog gør magtkampen konkret.",
+      "analysis": "Det britiske systems særegenhed er, at en partiproces kan skifte premierminister uden folkevalg. Burnham har mandatet, men ikke nødvendigvis stemmerne i gruppen, og en svækket leder kan stadig overleve.",
+      "topics": ["politik", "Storbritannien", "ledelse"],
+      "entities": ["Andy Burnham", "Keir Starmer", "Labour", "Storbritannien"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/15ol0och/20260619-045916-4_crop001.jpg",
+        "credit": "© Adam Vaughan, EPA/Ritzau Scanpix",
+        "alt": "Andy Burnham efter sejren i suppleringsvalget i Makerfield",
+        "sourceUrl": "https://www.dr.dk/nyheder/seneste/labours-andy-burnham-vinder-valg-og-baner-vej-udfordring-af-premierminister-starmer"
+      },
+      "scores": {
+        "importance": 78,
+        "decisionValue": 60,
+        "novelty": 86,
+        "sourceQuality": 86,
+        "personalRelevance": 38,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "Andy Burnham vandt suppleringsvalget i Makerfield med 24.927 stemmer.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/labours-andy-burnham-vinder-valg-og-baner-vej-udfordring-af-premierminister-starmer"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Et lederopgør kan udløses, hvis mindst 20 procent af Labours parlamentsmedlemmer støtter en alternativ kandidat.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/labours-andy-burnham-vinder-valg-og-baner-vej-udfordring-af-premierminister-starmer",
+            "https://www.npr.org/2026/06/19/nx-s1-5864087/labour-andy-burnham-wins-special-election"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Omkring en fjerdedel af Starmers parlamentsgruppe har opfordret ham til at gå af.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/labours-andy-burnham-vinder-valg-og-baner-vej-udfordring-af-premierminister-starmer"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Labours Andy Burnham vinder valg og baner vej for udfordring af premierminister Starmer",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/labours-andy-burnham-vinder-valg-og-baner-vej-udfordring-af-premierminister-starmer",
+          "publishedAt": "2026-06-19T02:23:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Labour's Andy Burnham wins a special election, setting up a showdown with Starmer to lead Britain",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/06/19/nx-s1-5864087/labour-andy-burnham-wins-special-election",
+          "publishedAt": "2026-06-19T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-deepseek-funding-20260619",
+      "eventKey": "deepseek-first-external-funding-2026",
+      "materialFacts": [
+        "DeepSeek rejser cirka 7,4 milliarder dollar i sin første eksterne runde til en værdiansættelse over 50 milliarder dollar",
+        "Kun den statslige National AI Industry Investment Fund får stemmeret og direkte ejerskab",
+        "Kommercielle investorer accepterer fem års lockup uden stemmeret, og stifter Liang Wenfeng bidrager selv med cirka 20 milliarder yuan"
+      ],
+      "section": "Teknologi",
+      "headline": "DeepSeek raises $7.4B at $50B valuation in first-ever external funding round",
+      "primarySourceUrl": "https://techfundingnews.com/deepseek-raises-7-4b-at-50b-valuation-in-first-ever-external-funding-round/",
+      "subheadline": "Den kinesiske AI-virksomheds første eksterne runde giver kun staten stemmeret — kapital og kontrol skilles ad",
+      "body": [
+        "DeepSeek, der med åbne modeller har udfordret de vestlige AI-laboratorier, rejser for første gang ekstern kapital: cirka 7,4 milliarder dollar til en værdi over 50 milliarder dollar. Blandt investorerne er Tencent og CATL.",
+        "Strukturen er usædvanlig: Kun den statslige National AI Industry Investment Fund får stemmeret og direkte ejerskab, mens kommercielle investorer accepterer fem års lockup uden stemmeret. Liang Wenfeng bidrager selv med omkring 20 milliarder yuan."
+      ],
+      "whyItMatters": "Runden viser, hvordan kinesisk frontier-AI kan finansieres uden at give markedet kontrol. Uden for Kina signalerer det, at kapital og indflydelse bevidst kan adskilles.",
+      "analysis": "Pengene er mindre interessante end stemmerettighederne. Når kun en statsfond har kontrol, ligner DeepSeek mere et industripolitisk instrument end et vækstselskab — og det skærper spørgsmålet om, hvor frit åbne kinesiske modeller kan bruges i Vesten.",
+      "topics": ["AI", "venturekapital", "Kina", "teknologisk suverænitet"],
+      "entities": ["DeepSeek", "Liang Wenfeng", "Tencent", "CATL"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/DeepSeek_logo.svg/960px-DeepSeek_logo.svg.png",
+        "credit": "DeepSeek / Wikimedia Commons",
+        "alt": "DeepSeek-logoet",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:DeepSeek_logo.svg"
+      },
+      "scores": {
+        "importance": 80,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 74,
+        "personalRelevance": 88,
+        "contrast": 84
+      },
+      "claims": [
+        {
+          "text": "DeepSeek rejser mere end 50 milliarder yuan (cirka 7,4 milliarder dollar) til en værdiansættelse over 50 milliarder dollar i sin første eksterne runde.",
+          "sourceUrls": [
+            "https://techfundingnews.com/deepseek-raises-7-4b-at-50b-valuation-in-first-ever-external-funding-round/",
+            "https://www.trendingtopics.eu/deepseek-raises-7-4-billion-only-the-chinese-state-gets-voting-rights/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Kun den statslige National AI Industry Investment Fund får stemmeret og direkte ejerskab; kommercielle investorer får fem års lockup uden stemmeret.",
+          "sourceUrls": [
+            "https://techfundingnews.com/deepseek-raises-7-4b-at-50b-valuation-in-first-ever-external-funding-round/",
+            "https://www.trendingtopics.eu/deepseek-raises-7-4-billion-only-the-chinese-state-gets-voting-rights/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "DeepSeek raises $7.4B at $50B valuation in first-ever external funding round",
+          "publisher": "Tech Funding News",
+          "url": "https://techfundingnews.com/deepseek-raises-7-4b-at-50b-valuation-in-first-ever-external-funding-round/",
+          "publishedAt": "2026-06-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "DeepSeek Raises $7.4 Billion, Only the Chinese State Gets Voting Rights",
+          "publisher": "Trending Topics",
+          "url": "https://www.trendingtopics.eu/deepseek-raises-7-4-billion-only-the-chinese-state-gets-voting-rights/",
+          "publishedAt": "2026-06-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-oil-price-iran-20260619",
+      "eventKey": "oil-price-fall-iran-deal-june-2026",
+      "materialFacts": [
+        "Olieprisen er faldet cirka 30 procent på en måned til omkring 77,7 dollar per tønde",
+        "Faldet følger en amerikansk-iransk rammeaftale og normaliseringen af skibsfart gennem Hormuzstrædet",
+        "Lavere energipriser kan dæmpe benzin-, diesel- og produktionsomkostninger for danske forbrugere"
+      ],
+      "section": "Penge",
+      "headline": "Olieprisen er raslet ned den seneste måned - derfor betyder det noget for alle danskeres økonomi",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/olieprisen-er-raslet-ned-den-seneste-maaned-derfor-kommer-det-alle-danskere-til-gavn",
+      "subheadline": "Et fald på cirka 30 procent på en måned følger Iran-aftalen og genåbningen af Hormuzstrædet",
+      "body": [
+        "Olieprisen er på en måned faldet omkring 30 procent til cirka 77,7 dollar per tønde efter en top over 120 dollar i begyndelsen af maj. Faldet følger en amerikansk-iransk rammeaftale, der tillader iransk olieeksport og normaliserer skibsfarten gennem Hormuzstrædet.",
+        "For danske husholdninger og virksomheder kan det betyde lavere benzin- og dieselpriser og billigere energi, der over tid trækker produktionsomkostninger og inflation nedad. DR's korrespondent understreger dog, at effekten på dansk økonomi foreløbig ikke har været voldsom."
+      ],
+      "whyItMatters": "Energipriser er en af de mest direkte kanaler mellem geopolitik og danskernes privatøkonomi. Et vedvarende fald letter både husholdningsbudgetter og inflationspres.",
+      "analysis": "Prisen er tilbage nær niveauet før konflikten, men hviler på en aftale, der kan briste. Markedet kan have indpriset en stabilitet, der ikke er sikret — lavere oliepriser er ikke en løst konflikt.",
+      "topics": ["energi", "makroøkonomi", "inflation", "forbrug"],
+      "entities": ["Brent", "Iran", "USA", "Hormuzstrædet"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/t2mmy0rd/20260617-174025-6.jpg",
+        "credit": "© Abaca, Ritzau Scanpix",
+        "alt": "Skibstrafik i Hormuzstrædet",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/olieprisen-er-raslet-ned-den-seneste-maaned-derfor-kommer-det-alle-danskere-til-gavn"
+      },
+      "scores": {
+        "importance": 76,
+        "decisionValue": 84,
+        "novelty": 68,
+        "sourceQuality": 84,
+        "personalRelevance": 82,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Olieprisen er faldet cirka 30 procent på en måned til omkring 77,7 dollar per tønde efter en top over 120 dollar i begyndelsen af maj.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/olieprisen-er-raslet-ned-den-seneste-maaned-derfor-kommer-det-alle-danskere-til-gavn"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Faldet følger en amerikansk-iransk rammeaftale, der tillader iransk olieeksport og normaliserer skibsfart gennem Hormuzstrædet.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/olieprisen-er-raslet-ned-den-seneste-maaned-derfor-kommer-det-alle-danskere-til-gavn",
+            "https://www.nbcnews.com/business/markets/oil-prices-iran-deal-hormuz-doubts-rcna350087"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Den samlede effekt på dansk økonomi har foreløbig ikke været voldsom.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/olieprisen-er-raslet-ned-den-seneste-maaned-derfor-kommer-det-alle-danskere-til-gavn"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Olieprisen er raslet ned den seneste måned - derfor betyder det noget for alle danskeres økonomi",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/olieprisen-er-raslet-ned-den-seneste-maaned-derfor-kommer-det-alle-danskere-til-gavn",
+          "publishedAt": "2026-06-18T09:52:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Oil prices fall on Iran deal, but whether they go much lower 'is highly questionable'",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/oil-prices-iran-deal-hormuz-doubts-rcna350087",
+          "publishedAt": "2026-06-18T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "European Council conclusions on Ukraine and on European defence and security",
+      "headline": "European Council conclusions on Ukraine and on European defence and security",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/18/european-council-conclusions-on-ukraine-and-on-european-defence-and-security/",
+      "summary": "EU's stats- og regeringschefer forlængede de økonomiske sanktioner mod Rusland med et år, bekræftede målet om markant forhøjet forsvarsberedskab senest i 2030 og gentog støtten til Ukraines EU-optagelse.",
+      "publisher": "Det Europæiske Råd",
+      "section": "Europa",
+      "publishedAt": "2026-06-18T00:00:00Z"
+    },
+    {
+      "text": "Regeringen gør igen klar til at sige farvel til bogmoms og kaffeafgift",
+      "headline": "Regeringen gør igen klar til at sige farvel til bogmoms og kaffeafgift",
+      "url": "https://www.dr.dk/nyheder/politik/regeringen-goer-igen-klar-til-sige-farvel-til-bogmoms-og-kaffeafgift",
+      "summary": "Regeringen genfremsætter elementer fra finansloven for 2026, der bortfaldt ved valget — blandt andet afskaffelse af bogmoms og kaffeafgift samt udvidet seniorfradrag. Chokoladeafgiften bevares foreløbig, og mindretalsregeringen skal finde flertal.",
+      "publisher": "DR",
+      "section": "Politik",
+      "publishedAt": "2026-06-19T00:00:00Z"
+    },
+    {
+      "text": "US strike on alleged drug boat kills 1, leaves 2 survivors in Eastern Pacific",
+      "headline": "US strike on alleged drug boat kills 1, leaves 2 survivors in Eastern Pacific",
+      "url": "https://www.stripes.com/theaters/americas/2026-06-17/us-strike-drug-boat-1-killed-2-survivors-21994286.html",
+      "summary": "Det seneste amerikanske bådangreb i det østlige Stillehav bringer det samlede dødstal op på mindst 210 i mindst 64 angreb siden september 2025. Kritikere anfægter bevisgrundlaget og kalder kampagnen et muligt brud på folkeretten.",
+      "publisher": "Stars and Stripes",
+      "section": "USA",
+      "publishedAt": "2026-06-17T00:00:00Z"
+    },
+    {
+      "text": "Mexico becomes first country to reach knockout stage of World Cup",
+      "headline": "Mexico becomes first country to reach knockout stage of World Cup",
+      "url": "https://www.npr.org/2026/06/19/g-s1-129056/mexico-becomes-first-country-to-reach-knockout-stage-of-world-cup",
+      "summary": "Mexico vandt 1-0 over Sydkorea og er som første hold klar til ottendedelsfinalerne ved det udvidede VM i USA, Canada og Mexico. Værtsnationen Canada fulgte med 6-0 over Qatar — landets første VM-sejr nogensinde.",
+      "publisher": "NPR",
+      "section": "Sport",
+      "publishedAt": "2026-06-19T00:00:00Z"
+    },
+    {
+      "text": "The Obama Presidential Center is now open to the public. What does this mean for Chicago?",
+      "headline": "The Obama Presidential Center is now open to the public. What does this mean for Chicago?",
+      "url": "https://chicago.suntimes.com/politics/2026/06/19/the-obama-presidential-center-is-now-open-to-the-public-what-does-this-all-mean-for-chicago",
+      "summary": "Obama Presidential Center åbnede på Juneteenth i Chicagos Jackson Park med museum, bibliotek og idrætsfaciliteter. Det meste af campus er gratis, mens museet kræver tidsbestemt billet.",
+      "publisher": "Chicago Sun-Times",
+      "section": "Kultur",
+      "publishedAt": "2026-06-19T00:00:00Z"
+    }
+  ],
+  "quality": {
+    "sourceQuality": 86,
+    "sourceDiversity": 80,
+    "calibration": 92,
+    "novelty": 84,
+    "informationDensity": 88,
+    "visualIntegrity": 90
+  }
+}

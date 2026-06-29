@@ -1,0 +1,390 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-24-v1",
+  "date": "2026-06-24",
+  "generatedAt": "2026-06-24T04:55:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief – 24. juni 2026",
+  "dek": "Oracle fyrer 21.000 og peger på AI i regnskabet, europæisk forsvars-VC sætter rekord, og Kina tager supercomputer-kronen – plus en europæisk varmerekord og fire anbefalinger.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "keyNumber": {
+    "label": "Verdens hurtigste supercomputer",
+    "value": "2,198",
+    "unit": "exaflops",
+    "asOf": "2026-06-24",
+    "caption": "Kinas LineShine er det første system, der vedvarende overgår to exaflops – men kun nr. 4 på en AI-orienteret benchmark.",
+    "sourceUrl": "https://top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/",
+    "sourceTitle": "LineShine Debuts at No. 1 as the TOP500 Enters a New Global Exascale Era"
+  },
+  "stories": [
+    {
+      "id": "story-oracle-ai-cuts-20260624",
+      "eventKey": "oracle-ai-workforce-reduction-2026",
+      "materialFacts": [
+        "Oracle reducerede arbejdsstyrken med cirka 21.000 stillinger til 141.000 ansatte over et år",
+        "Selskabet kobler i sin årsrapport eksplicit nedskæringerne til AI",
+        "Kapitaludgifterne steg 162 procent til 55,7 milliarder dollar"
+      ],
+      "section": "Teknologi",
+      "headline": "Oracle cut 21,000 jobs as AI buildout continues",
+      "primarySourceUrl": "https://finance.yahoo.com/technology/article/oracle-cut-21000-jobs-as-ai-buildout-continues-125918523.html",
+      "subheadline": "Oracle skar næsten 13 procent af arbejdsstyrken på et år og peger selv på AI i regnskabet, mens investeringerne i datacentre eksploderer",
+      "body": [
+        "Oracle har skåret cirka 21.000 stillinger – næsten 13 procent af arbejdsstyrken – på et år, så koncernen ved udgangen af maj 2026 var nede på 141.000 fuldtidsansatte mod 162.000 året før. I sin årsrapport kobler selskabet direkte nedskæringerne til indførelsen af AI.",
+        "Samtidig accelererer investeringerne: kapitaludgifterne steg 162 procent til 55,7 milliarder dollar, og den frie pengestrøm var negativ 23,7 milliarder dollar. Omstruktureringen kostede 1,8 milliarder dollar mod 374 millioner året før."
+      ],
+      "whyItMatters": "Det er et af de tydeligste eksempler til dato på en stor it-koncern, der både fyrer i tusindtal og selv peger på AI som en årsag – ikke som fremtidsscenarie, men i et regnskab.",
+      "analysis": "Tallene tegner en dyr satsning: Oracle brænder kontanter af på datacentre, mens aktien er faldet 10 procent i år. Spørgsmålet for en investor er, om AI-drevne effektiviseringer og skyordrer kan retfærdiggøre det negative cashflow. At fyringer og rekordinvesteringer sker samtidig, viser, at AI-omstillingen rammer både omkostnings- og udgiftssiden på én gang.",
+      "counterpoint": "En regnskabsformulering er ikke et bevis: en del af de 21.000 kan skyldes almindelig omstrukturering, og »AI« kan også være en bekvem forklaring.",
+      "primaryExcerpt": {
+        "quote": "The adoption and deployment of AI technologies across our operations have resulted, and may continue to result, in reductions to our workforce.",
+        "sourceUrl": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html",
+        "sourceTitle": "Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants"
+      },
+      "topics": ["AI", "arbejdsmarked", "teknologi", "kapitaludgifter"],
+      "entities": ["Oracle", "OpenAI"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {"importance": 82, "decisionValue": 80, "novelty": 78, "sourceQuality": 78, "personalRelevance": 84, "contrast": 64},
+      "claims": [
+        {"text": "Oracle reducerede arbejdsstyrken med cirka 21.000 stillinger til 141.000 ansatte over et år", "sourceUrls": ["https://finance.yahoo.com/technology/article/oracle-cut-21000-jobs-as-ai-buildout-continues-125918523.html", "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html"], "confidence": "high"},
+        {"text": "Kapitaludgifterne steg 162 procent til 55,7 milliarder dollar, og fri pengestrøm var negativ 23,7 milliarder dollar", "sourceUrls": ["https://finance.yahoo.com/technology/article/oracle-cut-21000-jobs-as-ai-buildout-continues-125918523.html"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "Oracle cut 21,000 jobs as AI buildout continues", "publisher": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/article/oracle-cut-21000-jobs-as-ai-buildout-continues-125918523.html", "publishedAt": "2026-06-23T12:59:00Z", "kind": "reporting"},
+        {"title": "Oracle sheds 21,000 roles over the past year amid wave of AI layoffs from tech giants", "publisher": "CNBC", "url": "https://www.cnbc.com/2026/06/23/oracle-ai-job-cuts-layoffs-21000.html", "publishedAt": "2026-06-23T11:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Utah_Data_Center_Panorama_%28cropped%29.jpg/330px-Utah_Data_Center_Panorama_%28cropped%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Datacenter – illustration til AI-infrastruktur og automatisering",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Data_center"
+      }
+    },
+    {
+      "id": "story-stark-defence-20260624",
+      "eventKey": "stark-defence-500m-raise-2026",
+      "materialFacts": [
+        "Stark rejser 500 millioner euro ledet af Sequoia og Founders Fund",
+        "Runden værdiansætter Stark til omkring 3,5 milliarder euro",
+        "Over 80 procent af kapitalen går til R&D og produktion"
+      ],
+      "section": "Erhverv",
+      "headline": "Stark bags €500M in new funding",
+      "primarySourceUrl": "https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/",
+      "subheadline": "Tyske Stark rejser en af Europas største defence-tech-runder med Sequoia, Founders Fund og NATO's egen fond i spidsen",
+      "body": [
+        "Den tyske droneproducent Stark har rejst 500 millioner euro i en runde ledet af Sequoia og Founders Fund, med deltagelse af blandt andre NATO Innovation Fund og Advent. Det er en af de største europæiske defence-tech-runder til dato.",
+        "Stark laver bevæbnede droner og elektronisk krigsførelse og oplyser, at over 80 procent af kapitalen går direkte til forskning, udvikling og produktion."
+      ],
+      "whyItMatters": "Runden viser, hvor hurtigt privat kapital nu strømmer mod europæisk forsvarsteknologi – et felt, dansk forsvar selv efterspørger.",
+      "analysis": "For en investoranalytiker er signalet, at defence-tech er rykket fra niche til kapitaltungt vækstfelt på under to år. Når Sequoia og Founders Fund går så stort ind, handler det både om afkast og om geopolitisk positionering.",
+      "counterpoint": "Værdiansættelsen er ikke entydig: tech.eu angiver cirka 3,5 milliarder euro, Bloomberg 3,2 milliarder.",
+      "topics": ["defence-tech", "venturekapital", "drone", "europæisk sikkerhed"],
+      "entities": ["Stark", "Sequoia", "Founders Fund", "NATO Innovation Fund"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 76, "decisionValue": 78, "novelty": 80, "sourceQuality": 74, "personalRelevance": 90, "contrast": 60},
+      "claims": [
+        {"text": "Stark rejser 500 millioner euro ledet af Sequoia og Founders Fund, og over 80 procent går til R&D og produktion", "sourceUrls": ["https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/", "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms"], "confidence": "high"},
+        {"text": "Runden værdiansætter Stark til omkring 3,5 milliarder euro (Bloomberg angiver 3,2 milliarder)", "sourceUrls": ["https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/", "https://www.bloomberg.com/news/articles/2026-06-23/sequoia-founders-fund-back-german-drone-startup-stark-at-3-5-billion-valuation"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "Stark bags €500M in new funding", "publisher": "Tech.eu", "url": "https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/", "publishedAt": "2026-06-23T09:00:00Z", "kind": "reporting"},
+        {"title": "Drones startup Stark confirms €500m raise backed by Sequoia and Founders Fund", "publisher": "Sifted", "url": "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms", "publishedAt": "2026-06-23T10:00:00Z", "kind": "reporting"},
+        {"title": "Sequoia, Founders Fund Back German Drone Startup Stark at €3.5 Billion Valuation", "publisher": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-06-23/sequoia-founders-fund-back-german-drone-startup-stark-at-3-5-billion-valuation", "publishedAt": "2026-06-23T08:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/12/MQ-9_Reaper_UAV_%28cropped%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Bevæbnet drone – illustration til defence-tech",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Unmanned_aerial_vehicle"
+      }
+    },
+    {
+      "id": "story-lineshine-20260624",
+      "eventKey": "china-lineshine-top500-2026",
+      "materialFacts": [
+        "Kinas LineShine når 2,198 exaflops og overtager førstepladsen på TOP500-listen",
+        "Maskinen bygger udelukkende på kinesisk-designede CPU'er uden GPU'er",
+        "Den er kun fjerdebedst på en AI-orienteret benchmark"
+      ],
+      "section": "Teknologi",
+      "headline": "China takes US crown for world's fastest supercomputer",
+      "primarySourceUrl": "https://www.aljazeera.com/economy/2026/6/24/china-takes-us-crown-for-worlds-fastest-supercomputer",
+      "subheadline": "LineShine topper TOP500 med kinesisk-designede CPU'er, men førerskabet gælder ikke AI-arbejde",
+      "body": [
+        "Kinas LineShine-supercomputer har indtaget førstepladsen på den nye TOP500-liste med 2,198 exaflops – cirka 20 procent foran amerikanske El Capitan, der havde toppet listen siden 2024.",
+        "Det bemærkelsesværdige er arkitekturen: LineShine kører udelukkende på kinesisk-designede CPU'er uden de GPU'er, der driver de fleste førende systemer."
+      ],
+      "whyItMatters": "Førstepladsen viser, at amerikanske eksportrestriktioner ikke har stoppet udviklingen af kinesiske alternativer – men også, at rå regnekraft og AI-ydeevne ikke er det samme.",
+      "analysis": "For teknologisk suverænitet er pointen dobbelt: Kina demonstrerer en hjemmedyrket hardwarekæde, men vælger CPU-vejen, der briller på klassiske beregninger frem for på AI. Forsker Jack Dongarra advarer mod at læse én benchmark som samlet teknologisk førerskab.",
+      "counterpoint": "Et nr. 1 på HPL siger lidt om AI-kapacitet; her ligger LineShine kun på fjerdepladsen, og energieffektivitet indgår slet ikke.",
+      "topics": ["deeptech", "teknologisk suverænitet", "geopolitik", "højtydende databehandling"],
+      "entities": ["LineShine", "TOP500", "El Capitan", "Kina"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 78, "decisionValue": 72, "novelty": 82, "sourceQuality": 76, "personalRelevance": 82, "contrast": 74},
+      "claims": [
+        {"text": "LineShine når 2,198 exaflops og er nr. 1 på TOP500, cirka 20 procent foran El Capitan", "sourceUrls": ["https://www.aljazeera.com/economy/2026/6/24/china-takes-us-crown-for-worlds-fastest-supercomputer", "https://top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/"], "confidence": "high"},
+        {"text": "LineShine er CPU-only og kun fjerdebedst på en AI-orienteret benchmark", "sourceUrls": ["https://www.aljazeera.com/economy/2026/6/24/china-takes-us-crown-for-worlds-fastest-supercomputer"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "China takes US crown for world's fastest supercomputer", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/economy/2026/6/24/china-takes-us-crown-for-worlds-fastest-supercomputer", "publishedAt": "2026-06-24T03:00:00Z", "kind": "reporting"},
+        {"title": "LineShine Debuts at No. 1 as the TOP500 Enters a New Global Exascale Era", "publisher": "TOP500", "url": "https://top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/", "publishedAt": "2026-06-23T14:00:00Z", "kind": "primary"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/IBM_Blue_Gene_P_supercomputer.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Supercomputer – illustration til højtydende databehandling",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Supercomputer"
+      }
+    },
+    {
+      "id": "story-heatwave-france-20260624",
+      "eventKey": "europe-heatwave-france-record-2026-06-23",
+      "materialFacts": [
+        "Frankrigs nationale varmeindikator nåede 29,8 grader, den højeste siden 1947",
+        "43 grader blev målt i Les Herbiers, og 54 departementer var på rød alarm",
+        "Mindst 40 mennesker druknede, mens de søgte afkøling"
+      ],
+      "section": "Udland",
+      "headline": "France records hottest-ever day as 40 drown trying to escape heatwave",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/23/about-20-drown-in-france-trying-to-escape-heatwave-sweeping-much-of-europe",
+      "subheadline": "Frankrig satte tirsdag sin højeste nationale varmerekord siden 1947, mens hedebølgen kostede mindst 40 mennesker livet i druknulykker",
+      "body": [
+        "Frankrig oplevede tirsdag sin varmeste dag nogensinde, da den nationale varmeindikator – et gennemsnit af 30 målestationer – nåede 29,8 grader, det højeste siden målingerne begyndte i 1947. Lokalt blev der målt 43 grader i Les Herbiers i det sydvestlige Frankrig.",
+        "54 departementer var under rød varsling, Eiffeltårnet og Louvre indskrænkede åbningstiderne, og mindst 40 mennesker – ifølge premierminister Sebastien Lecornu primært unge – er druknet, mens de søgte afkøling."
+      ],
+      "whyItMatters": "Hedebølgen er dagens største menneskelige hændelse i Europa og en konkret påmindelse om, at rekordvarme nu rammer tidligere på året og med dødelige følger.",
+      "analysis": "Mønsteret med stadig tidligere og hyppigere varmerekorder passer med klimamodellernes forudsigelser. De mange drukneulykker peger på en overset følgevirkning: dødeligheden flytter sig fra selve varmen til de måder, folk forsøger at undslippe den.",
+      "topics": ["klima", "vejr", "Europa", "katastrofe"],
+      "entities": ["Frankrig", "Europa", "Meteo France"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {"importance": 84, "decisionValue": 56, "novelty": 70, "sourceQuality": 78, "personalRelevance": 40, "contrast": 72},
+      "claims": [
+        {"text": "Frankrigs nationale varmeindikator nåede 29,8 grader, den højeste siden 1947, med 43 grader i Les Herbiers", "sourceUrls": ["https://www.aljazeera.com/news/2026/6/23/about-20-drown-in-france-trying-to-escape-heatwave-sweeping-much-of-europe", "https://www.npr.org/2026/06/23/g-s1-129586/france-red-heat-wave-alert"], "confidence": "high"},
+        {"text": "54 departementer var på rød alarm, og mindst 40 mennesker druknede under hedebølgen", "sourceUrls": ["https://www.aljazeera.com/news/2026/6/23/about-20-drown-in-france-trying-to-escape-heatwave-sweeping-much-of-europe"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "France records hottest-ever day as 40 drown trying to escape heatwave", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/6/23/about-20-drown-in-france-trying-to-escape-heatwave-sweeping-much-of-europe", "publishedAt": "2026-06-23T18:00:00Z", "kind": "reporting"},
+        {"title": "France records its hottest day ever as Europe withers in heat wave", "publisher": "NPR", "url": "https://www.npr.org/2026/06/23/g-s1-129586/france-red-heat-wave-alert", "publishedAt": "2026-06-23T16:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Heat_Wave.jpg/330px-Heat_Wave.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Sol og ekstrem varme – illustration til hedebølge",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Heat_wave"
+      }
+    },
+    {
+      "id": "story-h5n1-cows-20260624",
+      "eventKey": "h5n1-bovine-udder-receptor-2026",
+      "materialFacts": [
+        "Forskere finder, at H5N1's foretrukne receptorer er koncentreret i køers yvervæv",
+        "Det forklarer, hvorfor virus rammer yveret frem for luftvejene",
+        "Fundet kan forbedre forudsigelsen af fremtidige zoonotiske spring"
+      ],
+      "section": "Videnskab",
+      "headline": "Scientists Finally Solved How H5N1 Bird Flu Hid in Dairy Cows",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/06/260620100315.htm",
+      "subheadline": "Receptorer i yvervævet forklarer, hvorfor fugleinfluenzaen hos malkekvæg angriber yveret frem for luftvejene",
+      "body": [
+        "Forskere mener nu at have forklaret en gåde fra den seneste tids fugleinfluenza: hvorfor H5N1 hos malkekvæg angriber yveret frem for luftvejene. Svaret er ifølge forskningen, at virussens foretrukne receptorer er koncentreret i yvervævet.",
+        "Fundet kan hjælpe forskere med at forudsige fremtidige zoonotiske spring og opdage usædvanlige smitteveje hos husdyr tidligere, end det hidtil har været muligt."
+      ],
+      "whyItMatters": "Forståelsen af, hvor en virus binder sig, er afgørende for at vurdere risikoen for, at den tilpasser sig nye værter – og i sidste ende mennesker.",
+      "analysis": "For pandemiberedskab flytter et receptorbaseret svar diskussionen fra observation til mekanisme: i stedet for blot at registrere usædvanlige udbrud kan myndigheder lede målrettet efter de vævstyper og receptorer, der gør et spring sandsynligt. Det øger den forebyggende værdi af overvågning.",
+      "topics": ["bioteknologi", "videnskab", "pandemiberedskab", "virologi"],
+      "entities": ["H5N1", "ScienceDaily"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {"importance": 68, "decisionValue": 64, "novelty": 78, "sourceQuality": 66, "personalRelevance": 48, "contrast": 70},
+      "claims": [
+        {"text": "Forskere finder, at H5N1's foretrukne receptorer er koncentreret i køers yvervæv, hvilket forklarer infektion af yveret", "sourceUrls": ["https://www.sciencedaily.com/releases/2026/06/260620100315.htm"], "confidence": "medium"}
+      ],
+      "sources": [
+        {"title": "Scientists Finally Solved How H5N1 Bird Flu Hid in Dairy Cows", "publisher": "ScienceDaily", "url": "https://www.sciencedaily.com/releases/2026/06/260620100315.htm", "publishedAt": "2026-06-23T12:00:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Colorized_transmission_electron_micrograph_of_Avian_influenza_A_H5N1_viruses.jpg",
+        "credit": "Foto: CDC/Wikimedia Commons",
+        "alt": "Elektronmikroskopi af H5N1-influenzavirus",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Influenza_A_virus_subtype_H5N1"
+      }
+    },
+    {
+      "id": "story-greenland-conscripts-20260624",
+      "eventKey": "dk-conscripts-greenland-arctic-2026",
+      "materialFacts": [
+        "Forsvarsminister Jeppe Bruus bekræfter, at værnepligtige kan udsendes til Grønland",
+        "Første hold rejser sidst i juli og skal være der en måned",
+        "De skal bl.a. løse bevogtning og indgå i øvelsen Arctic Endurance"
+      ],
+      "section": "Indland",
+      "headline": "Danske værnepligtige kan blive udsendt til Grønland",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/groenland/danske-vaernepligtige-kan-blive-udsendt-til-groenland",
+      "subheadline": "Forsvarsministeren bekræfter, at værnepligtige fra sidst i juli kan indgå i bevogtning og arktisk øvelse i Grønland",
+      "body": [
+        "Forsvarsminister Jeppe Bruus (S) har i et svar til Folketinget bekræftet, at danske værnepligtige kan blive udsendt til Grønland. Det første hold rejser sidst i juli og skal være der en måned.",
+        "Med den nye 11-måneders værnepligt trænes de værnepligtige til at indgå i Forsvarets opgaveløsning sammen med professionelle soldater. I Grønland skal de blandt andet løse bevogtning og indgå i øvelsen »Arctic Endurance«."
+      ],
+      "whyItMatters": "Udsendelsen er et konkret skridt i opprioriteringen af dansk tilstedeværelse i Arktis på et tidspunkt, hvor Grønlands sikkerhed har stærk international interesse.",
+      "analysis": "At værnepligtige nu indgår i operativ tjeneste i Arktis markerer en udvidelse af, hvad værnepligten bruges til. Det grønlandske folketingsmedlem Naaja H. Nathanielsen har udtrykt bekymring for, at professionelle soldater fortsat bærer hovedansvaret.",
+      "topics": ["forsvar", "Arktis", "Grønland", "sikkerhed"],
+      "entities": ["Forsvaret", "Jeppe Bruus", "Grønland", "Naaja H. Nathanielsen"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 66, "decisionValue": 58, "novelty": 68, "sourceQuality": 80, "personalRelevance": 70, "contrast": 58},
+      "claims": [
+        {"text": "Forsvarsminister Jeppe Bruus bekræfter, at værnepligtige kan udsendes til Grønland; første hold rejser sidst i juli i en måned", "sourceUrls": ["https://www.dr.dk/nyheder/indland/groenland/danske-vaernepligtige-kan-blive-udsendt-til-groenland"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "Danske værnepligtige kan blive udsendt til Grønland", "publisher": "DR", "url": "https://www.dr.dk/nyheder/indland/groenland/danske-vaernepligtige-kan-blive-udsendt-til-groenland", "publishedAt": "2026-06-23T14:39:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/pw0b1a23/20260118-204726-l.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Billede til artikel om danske værnepligtige i Grønland",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/groenland/danske-vaernepligtige-kan-blive-udsendt-til-groenland"
+      }
+    },
+    {
+      "id": "story-elpriser-20260624",
+      "eventKey": "dk-electricity-price-spike-heatwave-2026-06",
+      "materialFacts": [
+        "Råprisen på el toppede 4,8 kr/kWh i Jylland og på Fyn og 4,7 kr/kWh på Sjælland",
+        "Så høje gennemsnitspriser er ikke set siden energikrisen i 2022",
+        "Lav fransk atomkraft og svag vind under hedebølgen presser priserne op"
+      ],
+      "section": "Indland",
+      "headline": "Sommervarmen giver en usædvanlig høj elpris for årstiden",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/sommervarmen-giver-en-usaedvanligt-hoej-elpris-aarstiden",
+      "subheadline": "Hedebølgen sender de danske elpriser op på et niveau, der ikke er set siden energikrisen i 2022",
+      "body": [
+        "Sommervarmen sendte tirsdag aften de danske elpriser usædvanligt højt op for årstiden: råprisen toppede 4,8 kr/kWh i Jylland og på Fyn og 4,7 kr/kWh på Sjælland. Så høje gennemsnitspriser er ikke set siden energikrisen i 2022.",
+        "Årsagen er en cocktail: hedebølgen får aircondition i Europa til at trække strøm, mens fransk atomkraft producerer mindre, fordi flodvandet er for varmt til at køle værkerne. Samtidig er vinden svag, og solceller holder prisen nede."
+      ],
+      "whyItMatters": "Prisudsvinget på næsten 5 kr/kWh inden for samme døgn er konkret beslutningsværdi: det kan betale sig at flytte elbilopladning væk fra de dyreste timer.",
+      "analysis": "Episoden viser, hvordan klimaforandringer slår igennem på elregningen ad flere kanaler på én gang – højere efterspørgsel, lavere atomkraftproduktion og svag vind. Norlys' energidirektør Mads Brøgger bekræfter, at man skal tilbage til 2022 for at finde lignende gennemsnitspriser.",
+      "topics": ["energi", "elmarked", "klima", "forbrug"],
+      "entities": ["Norlys", "Mads Brøgger", "Danmark"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance": 62, "decisionValue": 70, "novelty": 64, "sourceQuality": 80, "personalRelevance": 60, "contrast": 56},
+      "claims": [
+        {"text": "Råprisen på el toppede 4,8 kr/kWh i Jylland og på Fyn og 4,7 kr/kWh på Sjælland, det højeste juni-niveau siden 2022", "sourceUrls": ["https://www.dr.dk/nyheder/indland/sommervarmen-giver-en-usaedvanligt-hoej-elpris-aarstiden"], "confidence": "high"}
+      ],
+      "sources": [
+        {"title": "Sommervarmen giver en usædvanlig høj elpris for årstiden", "publisher": "DR", "url": "https://www.dr.dk/nyheder/indland/sommervarmen-giver-en-usaedvanligt-hoej-elpris-aarstiden", "publishedAt": "2026-06-23T06:11:00Z", "kind": "reporting"}
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/0rbe44cu/20240627-164648-2.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Billede til artikel om høje danske elpriser",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/sommervarmen-giver-en-usaedvanligt-hoej-elpris-aarstiden"
+      }
+    }
+  ],
+  "signals": [
+    {"text": "Five Eyes warn AI cyber threats may emerge within months", "headline": "Five Eyes warn AI cyber threats may emerge within months", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "Efterretningsalliancen Five Eyes advarer om, at skadelige AI-cyberkapaciteter kan opstå inden for måneder.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "Baseten raises $1.5 billion at $13 billion valuation", "headline": "Baseten raises $1.5 billion at $13 billion valuation", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "AI-infrastrukturselskabet Baseten rejser 1,5 milliarder dollar ledet af Sands Capital og Wellington Management.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "UN's Guterres urges AI companies to disclose energy and water use", "headline": "UN's Guterres urges AI companies to disclose energy and water use", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "FN's generalsekretær opfordrer AI-selskaber til at offentliggøre deres energi- og vandforbrug.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "Meta pauses employee-tracking AI after internal data exposure", "headline": "Meta pauses employee-tracking AI after internal data exposure", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "Meta sætter et AI-program til medarbejderovervågning på pause efter intern dataeksponering.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "Netherlands joins US-led Pax Silica semiconductor initiative", "headline": "Netherlands joins US-led Pax Silica semiconductor initiative", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "Holland tilslutter sig det USA-ledede Pax Silica-samarbejde om halvlederforsyning sammen med Sydkorea og Japan.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "SpaceX signs $6.3 billion compute deal with Reflection AI", "headline": "SpaceX signs $6.3 billion compute deal with Reflection AI", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "SpaceX indgår en computeraftale på 6,3 milliarder dollar med Reflection AI om Nvidia GB300-systemer.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "ByteDance unveils Seedance 2.5 video model", "headline": "ByteDance unveils Seedance 2.5 video model", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "ByteDance præsenterer Seedance 2.5, der kan generere op til 30 sekunders videoklip fra op til 50 referencer.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "Micron and Anthropic sign memory supply deal", "headline": "Micron and Anthropic sign memory supply deal", "url": "https://techstartups.com/2026/06/23/top-tech-news-today-june-23-2026/", "summary": "Micron og Anthropic indgår en strategisk leveringsaftale om hukommelse, og Micron investerer i Anthropics runde.", "publisher": "Tech Startups", "section": "Teknologi", "publishedAt": "2026-06-23T10:00:00Z"},
+    {"text": "Google's Gemini 3.5 Pro nears general availability", "headline": "Google's Gemini 3.5 Pro nears general availability", "url": "https://www.buildfastwithai.com/blogs/ai-news-today-june-23-2026", "summary": "Gemini 3.5 Pro ventes alment tilgængelig mellem 23. og 30. juni med et kontekstvindue på to millioner tokens.", "publisher": "Build Fast with AI", "section": "Teknologi", "publishedAt": "2026-06-23T09:00:00Z"},
+    {"text": "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO", "headline": "SpaceX to acquire Cursor for $60B in stock, days after blockbuster IPO", "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/", "summary": "SpaceX vil opkøbe AI-kodeselskabet Anysphere (Cursor) for 60 milliarder dollar i aktier – det største opkøb af en venturefinansieret startup nogensinde.", "publisher": "TechCrunch", "section": "Teknologi", "publishedAt": "2026-06-16T12:00:00Z"},
+    {"text": "Klimaforandringer gør hedebølger mere voldsomme", "headline": "Klimaforandringer gør hedebølger mere voldsomme", "url": "https://www.dmi.dk/nyheder/2026/klimaforandringer-goer-hedeboelger-mere-voldsomme", "summary": "DMI forklarer, hvordan klimaforandringer gør hedebølger som den aktuelle hyppigere og mere intense.", "publisher": "DMI", "section": "Vejret", "publishedAt": "2026-06-23T08:00:00Z"}
+  ],
+  "recommendations": [
+    {
+      "id": "rec-wef-day-after-agi-20260624",
+      "mode": "listen",
+      "kind": "Samtale",
+      "status": "available",
+      "title": "The day after AGI: Two 'rock stars' of AI on what it will mean for humanity",
+      "creator": "Demis Hassabis & Dario Amodei",
+      "provider": "World Economic Forum",
+      "url": "https://www.weforum.org/podcasts/radio-davos/episodes/ai-agi-dario-amodei-demis-hassabis/",
+      "availability": "Tilgængelig globalt via World Economic Forum (Radio Davos) og YouTube.",
+      "commitment": "Ca. 45 min",
+      "description": "DeepMinds Demis Hassabis og Anthropics Dario Amodei i samtale modereret af The Economists chefredaktør om, hvad der sker dagen efter AGI – arbejde, økonomi og menneskets rolle.",
+      "rationale": "To af de mest centrale frontier-AI-ledere taler direkte om det, dagens nyheder kun antyder: hvad sker der med arbejde og værdi, når AI overtager opgaver. Mere signal end de korte AI-klip, og kort nok til en gåtur.",
+      "topics": ["AI", "AGI", "økonomi"],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg/330px-Demis_Hassabis%2C_2024_Nobel_Prize_Laureate_in_Chemistry_7_%28cropped%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Demis Hassabis",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Demis_Hassabis"
+      }
+    },
+    {
+      "id": "rec-wh-ai-eo-factsheet-20260624",
+      "mode": "read",
+      "kind": "Politikdokument",
+      "status": "timely",
+      "title": "Fact Sheet: President Donald J. Trump Promotes Advanced Artificial Intelligence Innovation and Security",
+      "creator": "The White House",
+      "provider": "The White House",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
+      "availability": "Frit tilgængeligt på whitehouse.gov.",
+      "commitment": "10-15 min",
+      "description": "Officielt faktaark om den amerikanske bekendtgørelse fra juni 2026: frivillig forhåndsadgang for staten til frontier-modeller, hærdet cyberforsvar og 30/60-dages frister for myndighederne.",
+      "rationale": "En primær politikkilde, ikke et referat. For en EIFO-analytiker er det relevant at læse selve teksten om frontier-model-adgang og suverænitet frem for andres fortolkning af den.",
+      "topics": ["AI", "regulering", "teknologisk suverænitet"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-pengeland-20260624",
+      "mode": "watch",
+      "kind": "Dokumentarserie",
+      "status": "new",
+      "title": "Velkommen til Pengeland",
+      "creator": "Andreas Dalsgaard & Christoph Jörg",
+      "provider": "DRTV",
+      "url": "https://www.dr.dk/drtv/saeson/velkommen-til-pengeland_582695",
+      "availability": "Tilgængelig på DRTV (dansk adgang). Premiere 4. maj 2026.",
+      "commitment": "3 x 60 min",
+      "description": "Dansk dokumentarserie om kunsthandleren Yves Bouvier og oligarken Dmitrij Rybolovlev, der sammen byggede en af verdens dyreste kunstsamlinger, før samarbejdet endte i søgsmål og skandale.",
+      "rationale": "Det serendipitøse valg uden for AI-profilen: en velfortalt krimi om kapital, kunst som investeringsobjekt og magtens mørke sider. Rammer interessen for både økonomi og kreativitet uden at være endnu en teknologihistorie.",
+      "topics": ["kunst", "økonomi", "kultur"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-bigtech-amodei-20260624",
+      "mode": "read",
+      "kind": "Portræt",
+      "status": "available",
+      "title": "The Making of Dario Amodei",
+      "creator": "Alex Kantrowitz",
+      "provider": "Big Technology",
+      "url": "https://www.bigtechnology.com/p/the-making-of-dario-amodei",
+      "availability": "Frit tilgængeligt på Big Technology (Substack).",
+      "commitment": "15-20 min",
+      "description": "Et længere portræt af Anthropics CEO Dario Amodei – hans baggrund, syn på AI-risiko og positionering i forhold til både branche, regering og offentlighed.",
+      "rationale": "Forstå aktøren bag mange af dagens AI-nyheder. Et koncentreret læsestykke, der giver mere kalibrering om frontier-laboratoriernes tænkning end et nyhedsreferat – og et godt modstykke til den optimistiske WEF-samtale.",
+      "topics": ["AI", "ledelse", "virksomhed"],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "informationGain": 88,
+    "sourceQuality": 82,
+    "verification": 85,
+    "diversity": 84,
+    "serendipity": 83,
+    "modsyn": 82
+  }
+}

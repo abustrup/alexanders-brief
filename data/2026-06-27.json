@@ -1,0 +1,730 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-27-v1",
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-27T07:55:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief – 27. juni 2026",
+  "dek": "OpenAI lancerer GPT-5.6 Sol bag en trusted-access-mur, kvante-overhead falder dramatisk, og AI-kapitalen koncentreres i inferens-laget – plus Burkina Fasos brud med Frankrig, en dansk skattefejl, en hawkish Fed, et sort hul der findeler en hvid dværg, og Danmarks varmeste juninat nogensinde.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-gpt56-sol-20260627",
+      "eventKey": "openai-gpt56-sol-preview-2026",
+      "materialFacts": [
+        "OpenAI offentliggjorde 26. juni en preview af GPT-5.6 i tre modeller: Sol, Terra og Luna",
+        "Sol topper coding, biologi og cybersikkerhed og lanceres som begrænset preview til betroede partnere delt med myndighederne",
+        "Adgangen styres med konto-review og misbrugsklassifikatorer på grund af dual-use-risiko"
+      ],
+      "section": "Teknologi",
+      "headline": "OpenAI launches GPT-5.6 Sol preview for select partners",
+      "primarySourceUrl": "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-preview-for-select-partners/",
+      "subheadline": "En ny frontier-familie på tre modeller kommer først ud bag en kontrolleret adgangsmur",
+      "body": [
+        "OpenAI offentliggjorde 26. juni en preview af GPT-5.6 – ikke én model, men tre: flagskibet Sol, det billigere Terra og den hurtige Luna. Sol er bygget til coding, biologi og cybersikkerhed og introducerer en 'max reasoning effort' og en 'ultra mode' med underagenter.",
+        "Lanceringen sker som en begrænset preview til betroede partnere, hvis deltagelse OpenAI har delt med myndighederne, før bredere adgang i ChatGPT og API om få uger. På grund af dual-use-risiko styres adgangen med konto-review, misbrugsklassifikatorer og differentierede niveauer – og kan give blokerede eller forsinkede svar i følsomme cyber-sammenhænge."
+      ],
+      "whyItMatters": "GPT-5.6 viser to ting på én gang: kapaciteten rykker fortsat hurtigt i coding, biologi og cyber, mens adgangen reguleres som en kontrolleret ressource – samme trusted-access-logik, der ramte Anthropics modeller i juni.",
+      "analysis": "Den graduerede pris fra Luna til Sol er lige så vigtig som topmodellen: konkurrencen handler nu om pris per opgave, ikke kun ren ydeevne. For EIFO og Europa understreger det afhængigheden af få amerikanske udbydere, der sætter både kapabilitets- og adgangsvilkår.",
+      "counterpoint": "De fremhævede benchmark- og ydelsestal er OpenAIs egne og endnu ikke uafhængigt efterprøvet.",
+      "topics": ["AI", "teknologisk suverænitet", "cybersikkerhed", "regulering"],
+      "entities": ["OpenAI", "GPT-5.6 Sol", "ChatGPT"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 86,
+        "decisionValue": 82,
+        "novelty": 84,
+        "sourceQuality": 80,
+        "personalRelevance": 92,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "OpenAI offentliggjorde 26. juni 2026 en preview af GPT-5.6 i tre modeller (Sol, Terra, Luna), med Sol stærkest i coding, biologi og cybersikkerhed",
+          "sourceUrls": [
+            "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-preview-for-select-partners/",
+            "https://deploymentsafety.openai.com/gpt-5-6-preview"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udrulningen starter som begrænset preview til betroede partnere delt med myndighederne, med konto-review og misbrugsklassifikatorer på grund af dual-use-risiko",
+          "sourceUrls": [
+            "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-preview-for-select-partners/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI launches GPT-5.6 Sol preview for select partners",
+          "publisher": "TestingCatalog",
+          "url": "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-preview-for-select-partners/",
+          "publishedAt": "2026-06-26T15:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "GPT-5.6 Preview System Card",
+          "publisher": "OpenAI",
+          "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+          "publishedAt": "2026-06-26T14:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/OpenAI_Logo.svg/500px-OpenAI_Logo.svg.png",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "OpenAI-logo – illustration til lanceringen af GPT-5.6",
+        "sourceUrl": "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-preview-for-select-partners/"
+      }
+    },
+    {
+      "id": "story-quera-quantum-20260627",
+      "eventKey": "quera-los-alamos-transversal-star-2026",
+      "materialFacts": [
+        "QuEra og Los Alamos har præsenteret transversal STAR-arkitekturen i PRX Quantum",
+        "En qLDPC-variant reducerer fejltolerant kvantesimulering til ca. 1.500-3.000 fysiske qubits mod 20.000+",
+        "Designet holder en 250x hastighedsfordel og udnytter neutral-atom-hardware"
+      ],
+      "section": "Videnskab",
+      "headline": "QuEra and Los Alamos National Laboratory Introduce Transversal STAR Architecture for Scalable Quantum Simulation",
+      "primarySourceUrl": "https://quantumcomputingreport.com/quera-and-los-alamos-national-laboratory-introduce-transversal-star-architecture-for-scalable-quantum-simulation/",
+      "subheadline": "En ny arkitektur skærer kvantecomputerens dyreste flaskehals – qubit-overhead – med en faktor ti",
+      "body": [
+        "QuEra og Los Alamos har præsenteret en ny arkitektur, transversal STAR, til fejltolerant kvantesimulering, offentliggjort i PRX Quantum. Den dropper den dyre 'magic state distillation' og forbereder kvantetilstandene direkte.",
+        "En variant med qLDPC-koder skærer behovet fra over 20.000 fysiske qubits til omkring 1.500-3.000 og holder en hastighedsfordel på cirka 250 gange. Det bygger på neutral-atom-hardware, hvor qubits kan flyttes rundt i realtid."
+      ],
+      "whyItMatters": "Qubit-overhead er den største praktiske barriere mod nyttige kvantemaskiner. Skæres behovet med en faktor ti, rykker brugbar fejltolerant simulering tættere på det, der kan bygges nu.",
+      "analysis": "Pointen er co-design: hardware og fejlkorrektion udvikles sammen. For deeptech-investorer flytter det kvante fra fjern løftesnak mod kortere tidshorisonter – men stadig inden for simulering, ikke universel beregning.",
+      "topics": ["deeptech", "kvantecomputing", "teknologisk suverænitet", "videnskab"],
+      "entities": ["QuEra", "Los Alamos National Laboratory", "PRX Quantum"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 66,
+        "novelty": 86,
+        "sourceQuality": 88,
+        "personalRelevance": 80,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "QuEras og Los Alamos' transversal STAR-arkitektur (PRX Quantum) reducerer fejltolerant kvantesimulering til ca. 1.500-3.000 fysiske qubits mod 20.000+ og holder en 250x hastighedsfordel",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/quera-and-los-alamos-national-laboratory-introduce-transversal-star-architecture-for-scalable-quantum-simulation/",
+            "https://www.techtimes.com/articles/319077/20260625/fault-tolerant-quantum-simulation-overhead-falls-250-quera-architecture-needs-just-1500-qubits.htm"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "QuEra and Los Alamos National Laboratory Introduce Transversal STAR Architecture for Scalable Quantum Simulation",
+          "publisher": "Quantum Computing Report",
+          "url": "https://quantumcomputingreport.com/quera-and-los-alamos-national-laboratory-introduce-transversal-star-architecture-for-scalable-quantum-simulation/",
+          "publishedAt": "2026-06-24T09:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Fault-Tolerant Quantum Simulation Overhead Falls 250×: QuEra Architecture Needs Just 1,500 Qubits",
+          "publisher": "Tech Times",
+          "url": "https://www.techtimes.com/articles/319077/20260625/fault-tolerant-quantum-simulation-overhead-falls-250-quera-architecture-needs-just-1500-qubits.htm",
+          "publishedAt": "2026-06-25T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Minister_Sir_Patrick_Vallance_officially_opens_the_National_Quantum_Computing_Centre_at_Harwell_Science_and_Innovation_Campus%2C_Oxfordshire%2C_United_Kingdom_on_25_October_2024_-_6.jpg/500px-thumbnail.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Kvantecomputer-laboratorium – illustration til QuEra og Los Alamos' arkitektur",
+        "sourceUrl": "https://quantumcomputingreport.com/quera-and-los-alamos-national-laboratory-introduce-transversal-star-architecture-for-scalable-quantum-simulation/"
+      }
+    },
+    {
+      "id": "story-runpod-cloud-20260627",
+      "eventKey": "runpod-100m-series-a-2026",
+      "materialFacts": [
+        "Runpod rejste 100 mio. dollar i Series A ledet af Summit Partners til 1 mia. dollars værdi",
+        "Platformen samler træning, fine-tuning og inferens for over 1 mio. udviklere",
+        "Ugens største AI-runde var Basetens 1,5 mia. dollar til op mod 13 mia. dollars værdi"
+      ],
+      "section": "Erhverv",
+      "headline": "Runpod Raises $100M Led by Summit Partners to Accelerate the AI Developer Cloud",
+      "primarySourceUrl": "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html",
+      "subheadline": "Kapitalen søger ikke modellerne, men maskineriet, der kører dem",
+      "body": [
+        "Runpod har rejst 100 mio. dollar i en Series A ledet af Summit Partners til en værdiansættelse på 1 mia. dollar. Selskabet driver en 'AI developer cloud', hvor over 1 mio. udviklere kan eksperimentere, træne, finjustere og køre inferens fra ét sted med afregning per sekund.",
+        "Runden falder i en uge, hvor inferens-laget tiltrak rekordkapital: Baseten hentede 1,5 mia. dollar til op mod 13 mia. dollars værdi. Pengene søger ikke modellerne, men maskineriet, der kører dem billigt og pålideligt."
+      ],
+      "whyItMatters": "Inferens – at køre færdige modeller – er AI's løbende driftsomkostning. Den, der ejer det billigste, mest pålidelige compute-lag, tjener på hver forespørgsel, uanset hvilken model der vinder.",
+      "analysis": "Mønstret er tydeligt: kapitalen flytter fra grundmodeller mod infrastruktur. For EIFO er spørgsmålet, om laget bygges for hurtigt ud – samme bekymring, investorer som BG2 kalder en mulig AI-CapEx-boble.",
+      "topics": ["AI", "venturekapital", "infrastruktur", "cloud"],
+      "entities": ["Runpod", "Summit Partners", "Baseten"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 74,
+        "novelty": 70,
+        "sourceQuality": 74,
+        "personalRelevance": 88,
+        "contrast": 54
+      },
+      "claims": [
+        {
+          "text": "Runpod rejste 100 mio. dollar i Series A ledet af Summit Partners til 1 mia. dollars værdi med over 1 mio. udviklere på platformen",
+          "sourceUrls": [
+            "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Basetens Series F på 1,5 mia. dollar (op til 13 mia. dollars værdi) var ugens største AI-runde og behandler over 1 mia. inferenskald om dagen",
+          "sourceUrls": [
+            "https://www.businesswire.com/news/home/20260622645563/en/Baseten-Raises-$1.5-Billion-to-Power-the-Next-Era-of-AI-Inference"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Runpod Raises $100M Led by Summit Partners to Accelerate the AI Developer Cloud",
+          "publisher": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html",
+          "publishedAt": "2026-06-24T13:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Baseten Raises $1.5 Billion to Power the Next Era of AI Inference",
+          "publisher": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20260622645563/en/Baseten-Raises-$1.5-Billion-to-Power-the-Next-Era-of-AI-Inference",
+          "publishedAt": "2026-06-22T13:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Data_Center_2_%28UNC%29.jpg/500px-Data_Center_2_%28UNC%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Datacenter med serverrækker – illustration til AI-developer-cloud og inferens",
+        "sourceUrl": "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html"
+      }
+    },
+    {
+      "id": "story-burkina-france-20260627",
+      "eventKey": "burkina-faso-france-diplomatic-break-2026",
+      "materialFacts": [
+        "Burkina Fasos militærstyre afbrød 26. juni de diplomatiske forbindelser med Frankrig",
+        "Regeringen anklager Frankrig for 'nykoloniale ambitioner' og støtte til subversive netværk",
+        "Frankrig kalder beslutningen fjendtlig og grundløs og overvejer modforanstaltninger"
+      ],
+      "section": "Udland",
+      "headline": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france",
+      "subheadline": "Endnu en Sahel-stat skubber Paris ud og drejer mod nye partnere",
+      "body": [
+        "Burkina Fasos militærstyre, ledet af kaptajn Ibrahim Traoré siden kuppet i 2022, afbrød 26. juni de diplomatiske forbindelser med Frankrig. Regeringen siger, at betingelserne for relationer baseret på gensidig respekt og ikke-indblanding ikke længere er til stede.",
+        "Styret anklager Frankrig for 'nykoloniale ambitioner' og for at støtte subversive netværk i Sahel. Bruddet vedrører kun statsforbindelserne, ikke de historiske og kulturelle bånd. Frankrig kalder beslutningen fjendtlig og grundløs og overvejer modforanstaltninger."
+      ],
+      "whyItMatters": "Burkina Faso følger Mali og Niger i at skubbe Paris ud og dreje mod Rusland og Kina – og omtegner indflydelsen i en region, der er central for migration, uran og sikkerhed.",
+      "analysis": "Det reelle skifte er strategisk, ikke symbolsk: Sahel-juntaerne opbygger et alternativt partnerskabsnet. For Europa svækker det efterretningssamarbejde og adgang, mens ustabiliteten fortsætter.",
+      "topics": ["geopolitik", "Afrika", "diplomati", "Sahel"],
+      "entities": ["Burkina Faso", "Ibrahim Traoré", "Frankrig"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 50,
+        "novelty": 78,
+        "sourceQuality": 84,
+        "personalRelevance": 28,
+        "contrast": 82
+      },
+      "claims": [
+        {
+          "text": "Burkina Fasos militærstyre under Ibrahim Traoré afbrød 26. juni 2026 de diplomatiske forbindelser med Frankrig og anklagede Paris for 'nykoloniale ambitioner'",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france",
+            "https://www.france24.com/en/africa/20260626-burkina-faso-ruling-junta-cuts-diplomatic-ties-with-ex-ruler-france"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Frankrig kaldte beslutningen 'fjendtlig og grundløs' og oplyste, at gensidige modforanstaltninger overvejes",
+          "sourceUrls": [
+            "https://www.france24.com/en/africa/20260626-burkina-faso-ruling-junta-cuts-diplomatic-ties-with-ex-ruler-france"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france",
+          "publishedAt": "2026-06-26T16:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Burkina Faso ruling junta cuts diplomatic ties with ex-ruler France",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/africa/20260626-burkina-faso-ruling-junta-cuts-diplomatic-ties-with-ex-ruler-france",
+          "publishedAt": "2026-06-26T15:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Capitaine_Ibrahim_TRAOR%C3%89_President_du_Faso%2C_Chef_de_l%27%C3%89tat.jpg/500px-Capitaine_Ibrahim_TRAOR%C3%89_President_du_Faso%2C_Chef_de_l%27%C3%89tat.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Kaptajn Ibrahim Traoré, Burkina Fasos leder",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france"
+      }
+    },
+    {
+      "id": "story-dk-ejendomsskat-20260627",
+      "eventKey": "dk-property-tax-it-error-2026",
+      "materialFacts": [
+        "7.000-8.000 boligejere opkræves grundskyld for boliger, de har solgt",
+        "Vurderingsstyrelsen erkender en it-fejl og venter en løsning inden for en uge",
+        "En juraprofessor kalder situationen tæt på 'ulovlig forvaltning'"
+      ],
+      "section": "Penge",
+      "headline": "Boligejere i tusindvis ramt af skattefejl: 'Dybt bekymrende' og 'tangerer ulovlig forvaltning'",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning",
+      "subheadline": "En kendt it-fejl sender skatteregninger til folk for boliger, de ikke længere ejer",
+      "body": [
+        "Mellem 7.000 og 8.000 danske boligejere opkræves grundskyld for boliger, de har solgt, mens andre slipper for boliger, de har købt. Årsagen er fejl i Vurderingsstyrelsens it-data om ejerperioder. Kim Niemann har betalt skat i ni måneder for et sommerhus, han ikke ejer.",
+        "Vurderingsstyrelsen kalder fejlen 'ikke acceptabel' og venter en løsning inden for en uge, hvorefter de ramte automatisk får penge tilbage med renter hen over sommeren. Tidligere blev cirka 17.000 boligsælgere ikke varslet om fortsat skattepligt."
+      ],
+      "whyItMatters": "Det rammer husholdningernes økonomi direkte og handler om tilliden til, at det offentlige opkræver korrekt. Når systemet fejler, vælter bevisbyrden over på borgeren.",
+      "analysis": "Juraprofessor Rasmus Grønved Nielsen kalder det tæt på 'ulovlig forvaltning' og trækker en linje til EFI-skandalen. Det bekymrende er mønstret – kendte it-fejl, der får lov at løbe – mere end den enkelte fejl.",
+      "topics": ["skat", "bolig", "forvaltning", "Danmark"],
+      "entities": ["Vurderingsstyrelsen", "Skatteministeriet", "Rasmus Grønved Nielsen"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 72,
+        "novelty": 70,
+        "sourceQuality": 86,
+        "personalRelevance": 58,
+        "contrast": 56
+      },
+      "claims": [
+        {
+          "text": "7.000-8.000 boligejere opkræves grundskyld for boliger, de har solgt, pga. fejl i Vurderingsstyrelsens it-data; en løsning ventes inden for en uge med tilbagebetaling plus renter",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Juraprofessor Rasmus Grønved Nielsen vurderer, at situationen tangerer 'ulovlig forvaltning' og minder om EFI-skandalen i 2015",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Boligejere i tusindvis ramt af skattefejl: 'Dybt bekymrende' og 'tangerer ulovlig forvaltning'",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning",
+          "publishedAt": "2026-06-27T04:30:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/mcophrcv/top_1_kasper_palsnov_ritzau_scanpix_ejendomsskat.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Foto: Kasper Palsnov/Ritzau Scanpix (DR)",
+        "alt": "Danske boliger – illustration til fejl i ejendomsbeskatningen",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning"
+      }
+    },
+    {
+      "id": "story-fed-inflation-20260627",
+      "eventKey": "fed-hawkish-inflation-too-high-2026",
+      "materialFacts": [
+        "Goolsbee sagde 25. juni, at kerneinflationen stadig er for høj og trender den forkerte vej",
+        "Kerne-PCE stod på 3,4 procent i maj, det højeste siden oktober 2023",
+        "Feds prognose vippede mod en mulig renteforhøjelse i 2026"
+      ],
+      "section": "Økonomi",
+      "headline": "Fed's Goolsbee: core inflation still too high, trending wrong way",
+      "primarySourceUrl": "https://www.freedom969.com/business/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way",
+      "subheadline": "Den amerikanske centralbank drejer hawkish, mens kapitalen strømmer til AI",
+      "body": [
+        "Chicago-Fed-chef Austan Goolsbee sagde 25. juni, at den amerikanske kerneinflation 'stadig er alt for høj og trender den forkerte vej'. Kerne-PCE, Feds foretrukne mål, stod på 3,4 procent i maj – det højeste niveau siden oktober 2023.",
+        "Feds juniprognose vippede fra at antyde en rentenedsættelse til at signalere en mulig forhøjelse i 2026, og 17 af 18 medlemmer ser nu inflationsrisikoen som opadrettet. Markederne priser en mulig forhøjelse til september. Renten ligger på 3,50-3,75 procent."
+      ],
+      "whyItMatters": "En hawkish Fed sætter prisen på penge globalt. Stiger renten i stedet for at falde, presser det aktier, valutaer og finansieringsvilkår – også for de AI-selskaber, der lever af billig kapital.",
+      "analysis": "Det er en modvægt til dagens vækstoptimisme: mens kapitalen strømmer til AI-infrastruktur, advarer centralbanken om, at inflationen ikke er tæmmet. De to fortællinger kan ikke begge holde længe.",
+      "topics": ["makroøkonomi", "inflation", "renter", "USA"],
+      "entities": ["Federal Reserve", "Austan Goolsbee", "FOMC"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 80,
+        "novelty": 62,
+        "sourceQuality": 80,
+        "personalRelevance": 64,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Goolsbee sagde 25. juni 2026, at kerneinflationen stadig er for høj og trender den forkerte vej; kerne-PCE var 3,4 procent i maj, højeste siden oktober 2023",
+          "sourceUrls": [
+            "https://www.freedom969.com/business/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way",
+            "https://money.usnews.com/investing/news/articles/2026-06-25/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Feds juniprognose vippede mod en mulig renteforhøjelse i 2026, og 17 af 18 medlemmer ser opadrettet inflationsrisiko",
+          "sourceUrls": [
+            "https://money.usnews.com/investing/news/articles/2026-06-25/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fed's Goolsbee: core inflation still too high, trending wrong way",
+          "publisher": "Reuters",
+          "url": "https://www.freedom969.com/business/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way",
+          "publishedAt": "2026-06-25T19:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Fed's Goolsbee Sees Glimmer of Hope in Latest Inflation Data",
+          "publisher": "U.S. News (Reuters)",
+          "url": "https://money.usnews.com/investing/news/articles/2026-06-25/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way",
+          "publishedAt": "2026-06-25T18:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg/500px-Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Federal Reserve-bygningen i Washington – illustration til Feds inflationsmelding",
+        "sourceUrl": "https://www.freedom969.com/business/feds-goolsbee-core-inflation-still-too-high-trending-wrong-way"
+      }
+    },
+    {
+      "id": "story-blackhole-tde-20260627",
+      "eventKey": "einstein-probe-white-dwarf-tde-2026",
+      "materialFacts": [
+        "Einstein Probe fangede 2. juli 2025 en exceptionelt lysstærk røntgenkilde, EP250702a",
+        "Forskere tolker signalet som et mellemtungt sort hul, der findeler en hvid dværg",
+        "Fundet er offentliggjort i Science Bulletin"
+      ],
+      "section": "Videnskab",
+      "headline": "Einstein Probe may have caught a black hole tearing apart a white dwarf for the first time",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
+      "subheadline": "Et sjældent signal kan være det tydeligste bevis på mellemtunge sorte huller",
+      "body": [
+        "Kinas rumteleskop Einstein Probe fangede 2. juli 2025 en exceptionelt lysstærk røntgenkilde, EP250702a. Forskere tolker nu signalet som et mellemtungt sort hul, der findeler en hvid dværgstjerne – muligvis den første direkte observation af mekanismen.",
+        "Kilden var blandt de kraftigste udbrud, der er målt, og udviste en usædvanlig række røntgenglimt forud for et gammaglimt. Fundet er forsidehistorie i tidsskriftet Science Bulletin."
+      ],
+      "whyItMatters": "Mellemtunge sorte huller har været svære at bekræfte. En tidevandsforstyrrelse af en hvid dværg ville være et af de tydeligste beviser på, at de findes.",
+      "analysis": "Værdien ligger i, at et rumbaseret instrument fangede de tidligste minutter. Det giver en sjælden chance for at studere ekstrem fysik, men kræver opfølgende observationer, før sagen kan lukkes.",
+      "counterpoint": "Tolkningen er den stærkeste blandt flere mulige, men ikke endeligt bekræftet; andre scenarier kan endnu ikke udelukkes.",
+      "topics": ["videnskab", "astronomi", "rumfart", "sorte huller"],
+      "entities": ["Einstein Probe", "Science Bulletin", "EP250702a"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 40,
+        "novelty": 86,
+        "sourceQuality": 86,
+        "personalRelevance": 44,
+        "contrast": 84
+      },
+      "claims": [
+        {
+          "text": "Einstein Probe fangede 2. juli 2025 en exceptionelt lysstærk røntgenkilde (EP250702a), tolket som et mellemtungt sort hul, der findeler en hvid dværg; offentliggjort i Science Bulletin",
+          "sourceUrls": [
+            "https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
+            "https://arxiv.org/abs/2602.23299"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Einstein Probe may have caught a black hole tearing apart a white dwarf for the first time",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/06/260625060222.htm",
+          "publishedAt": "2026-06-25T06:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "A White Dwarf Tidal Disruption by an Intermediate-Mass Black Hole as the Progenitor of Ultra-long GRB 250702B",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2602.23299",
+          "publishedAt": "2026-02-20T09:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/500px-Black_hole_-_Messier_87_crop_max_res.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Sort hul (M87) – illustration til tidevandsforstyrrelsen af en hvid dværg",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/06/260625060222.htm"
+      }
+    },
+    {
+      "id": "story-dk-tropenat-20260627",
+      "eventKey": "dk-record-june-tropical-night-2026",
+      "materialFacts": [
+        "Nordby på Fanø målte 22,7 grader som laveste nattemperatur – varmeste juninat i dansk vejrhistorie",
+        "Rekorden slår 22,4 grader fra Bornholm i 1917 og 2022",
+        "13 steder i Danmark havde tropenat med mindst 20 grader"
+      ],
+      "section": "Vejret",
+      "headline": "Rekordvarm tropenat: Varmeste juninat i dansk vejrhistorie",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/vejret/rekordvarm-tropenat-varmeste-juninat-i-dansk-vejrhistorie",
+      "subheadline": "Det er nætterne, ikke kun middagsheden, der gør hedebølgen farlig",
+      "body": [
+        "Natten til lørdag blev den varmeste juninat i dansk vejrhistorie. I Nordby på Fanø faldt temperaturen ikke under 22,7 grader – en ny rekord, der slår de 22,4 grader, Bornholm målte i både 1917 og 2022.",
+        "I alt oplevede 13 steder i landet en tropenat med mindst 20 grader som laveste temperatur, blandt andet Hvide Sande, Kegnæs og Gniben. Rekorden faldt midt i en hedebølge, der har sat det meste af landet under varsel."
+      ],
+      "whyItMatters": "Nætter, der ikke køler af, er en undervurderet sundhedsrisiko: kroppen restituerer dårligere, og søvn og hjerte-kar-system belastes, særligt hos ældre og syge. Rekorden er et konkret klimasignal, ikke en abstraktion.",
+      "analysis": "Det er tropenætterne, ikke kun middagstemperaturen, der gør hedebølger farlige. At rekorden sættes om natten, peger på, at Danmark gradvist får et varmere bundniveau at bygge sit varmeberedskab efter.",
+      "topics": ["klima", "vejr", "Danmark", "hedebølge"],
+      "entities": ["DMI", "Nordby", "Fanø"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 48,
+        "novelty": 72,
+        "sourceQuality": 84,
+        "personalRelevance": 62,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Nordby på Fanø målte 22,7 grader som laveste nattemperatur – den varmeste juninat i dansk vejrhistorie, og 13 steder havde tropenat",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/vejret/rekordvarm-tropenat-varmeste-juninat-i-dansk-vejrhistorie"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rekorden slår de 22,4 grader, Bornholm målte i 1917 og 2022",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/vejret/rekordvarm-tropenat-varmeste-juninat-i-dansk-vejrhistorie"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rekordvarm tropenat: Varmeste juninat i dansk vejrhistorie",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/vejret/rekordvarm-tropenat-varmeste-juninat-i-dansk-vejrhistorie",
+          "publishedAt": "2026-06-27T05:30:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/0s4fkhq0/20260627_050459jpg.jpeg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Foto: DR",
+        "alt": "Tidlig morgen i Danmark under hedebølgen – illustration til rekord-tropenatten",
+        "sourceUrl": "https://www.dr.dk/nyheder/vejret/rekordvarm-tropenat-varmeste-juninat-i-dansk-vejrhistorie"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Baseten Raises $1.5 Billion to Power the Next Era of AI Inference",
+      "headline": "Baseten Raises $1.5 Billion to Power the Next Era of AI Inference",
+      "url": "https://www.businesswire.com/news/home/20260622645563/en/Baseten-Raises-$1.5-Billion-to-Power-the-Next-Era-of-AI-Inference",
+      "summary": "Series F ledet af Altimeter, Conviction og Spark til op mod 13 mia. dollars værdi; ugens største AI-runde og markør for inferens som det mest omstridte infrastrukturlag.",
+      "publisher": "Business Wire",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-22T13:00:00Z"
+    },
+    {
+      "text": "Alan raises €480M led by Prosus at a €5.5bn valuation",
+      "headline": "Alan raises €480M led by Prosus at a €5.5bn valuation",
+      "url": "https://thenextweb.com/news/alan-480m-prosus-prevention-insurance",
+      "summary": "Den franske sundhedsforsikrer har over 800 mio. euro i ARR og 1,1 mio. brugere; kapitalen skal udvide til nye lande og investeres tungt i AI-drevet forebyggelse.",
+      "publisher": "The Next Web",
+      "section": "Erhverv",
+      "publishedAt": "2026-06-25T10:00:00Z"
+    },
+    {
+      "text": "Energy Department Announces Initiative to Create and Deploy the World’s First Scientifically Relevant, Fault-Tolerant Quantum Computers",
+      "headline": "Energy Department Announces Initiative to Create and Deploy the World’s First Scientifically Relevant, Fault-Tolerant Quantum Computers",
+      "url": "https://www.energy.gov/science/articles/energy-department-announces-initiative-create-and-deploy-worlds-first",
+      "summary": "DOE's Quantum Genesis sigter mod en fejltolerant kvantecomputer i 2028 med 150-250 logiske qubits og en logisk fejlrate på 10^-8; understøtter Trumps kvante-eksekutivordre.",
+      "publisher": "U.S. Department of Energy",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-23T14:00:00Z"
+    },
+    {
+      "text": "US announces framework agreement between Israel and Lebanon",
+      "headline": "US announces framework agreement between Israel and Lebanon",
+      "url": "https://www.aljazeera.com/news/2026/6/26/us-announces-framework-agreement-between-israel-and-lebanon",
+      "summary": "To pilotzoner med gradvis israelsk tilbagetrækning efter fire dages forhandlinger i Washington; Hizbollah afviser aftalen og kræver betingelsesløs tilbagetrækning.",
+      "publisher": "Al Jazeera",
+      "section": "Udland",
+      "publishedAt": "2026-06-26T18:00:00Z"
+    },
+    {
+      "text": "Matilde Kimer stopper i DR",
+      "headline": "Matilde Kimer stopper i DR",
+      "url": "https://www.dr.dk/nyheder/indland/matilde-kimer-stopper-i-dr",
+      "summary": "Rusland- og Ukraine-korrespondenten forlader DR efter mere end 21 år og vil fortsætte med reportager, dokumentar og bøger om Østeuropa. Modtog Publicistprisen i 2025.",
+      "publisher": "DR",
+      "section": "Kultur",
+      "publishedAt": "2026-06-26T19:00:00Z"
+    },
+    {
+      "text": "Ti danske børn syge i salmonellaudbrud fra instantnudler",
+      "headline": "Ti danske børn syge i salmonellaudbrud fra instantnudler",
+      "url": "https://www.dr.dk/nyheder/indland/ti-danske-boern-syge-i-salmonellaudbrud-fra-instantnudler",
+      "summary": "Ti børn og unge er siden januar smittet med Salmonella Stanley fra Reeva instantnudler; tre er indlagt. Del af et europæisk udbrud med over 80 tilfælde i ni lande.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-06-26T06:00:00Z"
+    },
+    {
+      "text": "Politiet opruster markant for at komme pas-køer til livs",
+      "headline": "Politiet opruster markant for at komme pas-køer til livs",
+      "url": "https://www.dr.dk/nyheder/indland/politiet-opruster-markant-komme-pas-koeer-til-livs",
+      "summary": "Københavns Politi indsætter svarende til 130 ekstra medarbejdere i lufthavnen efter sommertrafik og et nyt elektronisk paskontrolsystem; SAS og Norwegian har klaget over køer.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-06-26T16:00:00Z"
+    },
+    {
+      "text": "This newly discovered ballista spider catapults ants into a deadly trap",
+      "headline": "This newly discovered ballista spider catapults ants into a deadly trap",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623014002.htm",
+      "summary": "En ny australsk edderkop bygger en fjederladet silkefælde, der katapulterer én aggressiv grøn træmyre ad gangen ind i nettet. Beskrevet i Current Biology.",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-06-26T12:00:00Z"
+    },
+    {
+      "text": "Stock Market Today (June 25, 2026): Mag7 falls after Apple, Microsoft announce price increases on iPhone, Xbox",
+      "headline": "Stock Market Today (June 25, 2026): Mag7 falls after Apple, Microsoft announce price increases on iPhone, Xbox",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-june-25-2026",
+      "summary": "De store techaktier faldt, da Apple og Microsoft varslede prisstigninger; Nasdaq 100 tabte 1,1 procent, mens Dow lukkede nær rekord. Chipaktier førte faldet.",
+      "publisher": "TheStreet",
+      "section": "Økonomi",
+      "publishedAt": "2026-06-25T20:00:00Z"
+    },
+    {
+      "text": "Trump truer med told som reaktion på digital skat",
+      "headline": "Trump truer med told som reaktion på digital skat",
+      "url": "https://www.dr.dk/nyheder/seneste/trump-truer-med-told-som-reaktion-paa-digital-skat",
+      "summary": "Trump truer med told mod lande, der pålægger digitale skatter på amerikanske teknologiselskaber – en strid, der kan ramme europæiske digitale skatteordninger.",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-06-26T17:00:00Z"
+    },
+    {
+      "text": "Study challenges a common belief about vitamin D and sunlight",
+      "headline": "Study challenges a common belief about vitamin D and sunlight",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623083104.htm",
+      "summary": "En ny undersøgelse nuancerer en udbredt antagelse om sammenhængen mellem sollys og D-vitaminstatus – med betydning for rådgivning om soleksponering.",
+      "publisher": "ScienceDaily",
+      "section": "Sundhed",
+      "publishedAt": "2026-06-24T08:00:00Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-thinking-game-20260627",
+      "mode": "watch",
+      "kind": "Dokumentar",
+      "status": "available",
+      "title": "The Thinking Game",
+      "creator": "Greg Kohs",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=d95J8yzvjbQ",
+      "availability": "Gratis på YouTube (officiel fuld dokumentar); også på Apple TV og Prime Video.",
+      "commitment": "Ca. 90 min",
+      "description": "Greg Kohs' dokumentar følger Demis Hassabis og Google DeepMind, da de løser proteinfoldningsproblemet med AlphaFold og jagter den større drøm om kunstig generel intelligens.",
+      "rationale": "Dagens featured: filmen forklarer den forskningskultur, der ligger bag modeller som GPT-5.6 – fra grundvidenskab til AGI-ambition. Et skarpere valg end The AI Doc (allerede anbefalet) og end en ren produktdemo, fordi den viser, hvordan gennembruddene faktisk bliver til. Gratis og officielt tilgængelig.",
+      "topics": ["AI", "AGI", "forskning"],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Demis_Hassabis_at_2024_Nobel_Week_3.jpg/500px-Demis_Hassabis_at_2024_Nobel_Week_3.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Demis Hassabis – hovedperson i dokumentaren om Google DeepMind",
+        "sourceUrl": "https://www.youtube.com/watch?v=d95J8yzvjbQ"
+      }
+    },
+    {
+      "id": "rec-bg2pod-20260627",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "BG2Pod with Brad Gerstner and Bill Gurley",
+      "creator": "Brad Gerstner & Bill Gurley",
+      "provider": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/bg2pod-with-brad-gerstner-and-bill-gurley/id1727278168",
+      "availability": "Frit tilgængeligt på podcastplatforme.",
+      "commitment": "Ca. 60-90 min pr. afsnit",
+      "description": "Investorerne Brad Gerstner og Bill Gurley diskuterer AI-økonomien skarpt – senest om de tusindmilliarder dollar, der pumpes i AI-CapEx, og om markedet er ved at overbygge infrastrukturen.",
+      "rationale": "Et investorblik på den samme kapitalbølge, dagens Runpod- og Baseten-historie beskriver – og en bevidst modvægt: er inferens-laget ved at blive overbygget? Tæt på EIFO-arbejdet med at vurdere AI-selskaber. Provideren optræder ikke i de seneste 30 dages anbefalinger.",
+      "topics": ["venturekapital", "AI", "investering"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-soft-robots-20260627",
+      "mode": "experience",
+      "kind": "Udstilling",
+      "status": "available",
+      "title": "Soft Robots",
+      "provider": "Copenhagen Contemporary",
+      "url": "https://copenhagencontemporary.org/en/soft-robots/",
+      "availability": "På Copenhagen Contemporary, Refshaleøen, 21. april – 2. august 2026.",
+      "commitment": "Besøg, 1-2 timer",
+      "description": "Gruppeudstilling med 15 kunstnere og kunstnerduoer om menneskets forhold til teknologi – kan fremtidens maskiner have en sjæl? Inspireret af H.C. Andersens Nattergalen.",
+      "rationale": "Dagens serendipitøse, fysiske valg uden for arbejdsprofilen: en æstetisk og filosofisk undersøgelse af teknologi og sjæl, som ingen nyhedshistorie kan give. Står lige nu i København – en pause fra skærmen, der stadig taler til AI-tidens store spørgsmål.",
+      "topics": ["kunst", "teknologi", "kultur"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sapolsky-determined-20260627",
+      "mode": "read",
+      "kind": "Bog",
+      "status": "classic",
+      "title": "Determined: A Science of Life Without Free Will",
+      "creator": "Robert M. Sapolsky",
+      "provider": "Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/592344/determined-by-robert-m-sapolsky/",
+      "availability": "Kan købes (udgivet 2023).",
+      "commitment": "Bog",
+      "description": "Neuroendokrinologen Robert Sapolsky fører et grundigt videnskabeligt og filosofisk angreb på forestillingen om fri vilje – og udforsker konsekvenserne for skyld, straf og retfærdighed.",
+      "rationale": "Dagens klassiker og profil-udfordring: konkret føde for en analytiker, der modellerer beslutninger og menneskelig adfærd. Tematisk uafhængig af dagens nyheder og dermed et reelt brud på AI-boblen – og en seriøs ramme om psykologi og determinisme.",
+      "topics": ["psykologi", "neurovidenskab", "filosofi"],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "informationGain": 87,
+    "sourceQuality": 85,
+    "verification": 84,
+    "diversity": 90,
+    "serendipity": 86,
+    "modsyn": 82
+  }
+}

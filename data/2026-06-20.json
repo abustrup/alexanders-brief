@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-20-v1",
+  "date": "2026-06-20",
+  "generatedAt": "2026-06-20T04:08:00Z",
+  "readingMinutes": 6,
+  "title": "Alexanders Brief",
+  "dek": "Libanon tester Iran-aftalen, Ebola accelererer, og Cuba åbner sin økonomiske model",
+  "profileWeights": {"importance":25,"decisionValue":20,"novelty":15,"sourceQuality":15,"personalRelevance":15,"contrast":10},
+  "stories": [
+    {
+      "id": "story-israel-hezbollah-truce-20260620",
+      "eventKey": "israel-hezbollah-renewed-ceasefire-2026-06-19",
+      "materialFacts": ["Israel og Hezbollah accepterede ifølge amerikanske og regionale embedsmænd et nyt stop for kampene", "Den forudgående udveksling kostede 47 mennesker i Libanon og fire israelske soldater livet", "Kampene forsinkede starten på de tekniske USA-Iran-forhandlinger i Schweiz"],
+      "section": "Udland",
+      "headline": "Israel and Hezbollah renew ceasefire after deadly flareup disrupts opening of Iran talks",
+      "primarySourceUrl": "https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement",
+      "subheadline": "Et nyt stop for kampene skal holde USA-Irans fredsproces i live, men artilleriild fortsatte efter starttidspunktet",
+      "body": [
+        "Israel og Hezbollah har ifølge amerikanske og regionale embedsmænd accepteret en ny våbenhvile efter kampe i det sydlige Libanon. 47 mennesker i Libanon og fire israelske soldater blev dræbt. USA og Qatar formidlede aftalen med iransk hjælp, men parterne bekræftede den ikke straks.",
+        "Kampene forsinkede de tekniske USA-Iran-forhandlinger i Schweiz. Iran kræver respekt for Libanons suverænitet, mens Israel vil blive i syd, indtil Hezbollah-truslen er fjernet. AP registrerede fortsat artilleriild efter det annoncerede stop."
+      ],
+      "whyItMatters": "Libanon er stresstesten for Iran-aftalen. Hvis aktører uden for memorandummet kan blokere forhandlingerne, er energi- og sikkerhedsgevinsten skrøbelig.",
+      "analysis": "Iran gør ro i Libanon til betingelse for sin aftale med USA, mens Israel afviser at lade aftalen begrænse egne operationer. En lokal hændelse kan derfor igen lukke Hormuz-sporet.",
+      "counterpoint": "Fortsat ild og manglende offentlig bekræftelse betyder, at våbenhvilen endnu ikke er en robust ordning.",
+      "image": {"url":"https://i.guim.co.uk/img/media/78d839c9a88d9736a9ea56e9c96989af7b0ca7b5/830_0_4670_3738/master/4670.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=c4171a2a56b5f820ad616b9e012f92f5","credit":"Kilde: The Guardian","alt":"Røg over det sydlige Libanon efter israelske angreb","sourceUrl":"https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement"},
+      "topics": ["Mellemøsten","sikkerhed","energi","diplomati"],
+      "entities": ["Israel","Hezbollah","USA","Iran","Qatar"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {"importance":95,"decisionValue":88,"novelty":91,"sourceQuality":92,"personalRelevance":68,"contrast":83},
+      "claims": [
+        {"text":"Israel og Hezbollah accepterede ifølge amerikanske og regionale embedsmænd et nyt stop for kampene efter 47 døde i Libanon og fire dræbte israelske soldater.","sourceUrls":["https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement","https://apnews.com/article/iran-us-israel-lebanon-oil-june-19-2026-635ad6f41610df8355d24cc301a75fc4"],"confidence":"high"},
+        {"text":"Kampene i Libanon forsinkede starten på de tekniske USA-Iran-forhandlinger i Schweiz.","sourceUrls":["https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement","https://apnews.com/article/iran-us-israel-lebanon-oil-june-19-2026-635ad6f41610df8355d24cc301a75fc4"],"confidence":"high"},
+        {"text":"Artilleriild fortsatte efter det annoncerede starttidspunkt for våbenhvilen.","sourceUrls":["https://apnews.com/article/iran-us-israel-lebanon-oil-june-19-2026-635ad6f41610df8355d24cc301a75fc4"],"confidence":"medium"}
+      ],
+      "sources": [
+        {"title":"Israel and Hezbollah renew ceasefire after deadly flareup disrupts opening of Iran talks","publisher":"The Guardian","url":"https://www.theguardian.com/world/2026/jun/19/israel-hezbollah-renew-ceasefire-lebanon-us-iran-agreement","publishedAt":"2026-06-20T01:42:01Z","kind":"reporting"},
+        {"title":"Israel and Hezbollah agree to halt fighting, officials say, as US-Iran talks hang in the balance","publisher":"Associated Press","url":"https://apnews.com/article/iran-us-israel-lebanon-oil-june-19-2026-635ad6f41610df8355d24cc301a75fc4","publishedAt":"2026-06-19T05:10:28Z","kind":"reporting"}
+      ]
+    },
+    {
+      "id": "story-ebola-update-20260620",
+      "eventKey": "bundibugyo-ebola-drc-uganda-2026",
+      "materialFacts": ["DR Congo har nu 933 bekræftede tilfælde og 245 dødsfald", "Africa CDC følger 35.000 mistænkte kontakter", "Uganda har registreret 19 tilfælde og to dødsfald"],
+      "section": "Sundhed",
+      "headline": "Mourners bury a 6-month-old Ebola victim in the Congo outbreak’s 3rd orphanage death",
+      "primarySourceUrl": "https://apnews.com/article/congo-ebola-bundibugyo-8eb4d2a8e23a8ff3c4cb77c8facb925e",
+      "subheadline": "Bundibugyo-udbruddet er vokset til 933 bekræftede tilfælde, og kontaktsporingen omfatter 35.000 mennesker",
+      "body": [
+        "DR Congos sundhedsminister oplyser nu 933 bekræftede tilfælde og 245 dødsfald. Mere end 90 procent ligger i Ituri. Uganda har 19 tilfælde og to dødsfald, mens Africa CDC følger 35.000 mistænkte kontakter.",
+        "Tallene er væsentligt højere end i gårsdagens brief. Konflikt, modstand mod sikre begravelser og mangel på beskyttelsesudstyr hæmmer responsen. Varianten har ingen godkendt specifik vaccine eller behandling, og manglende tidlig testning lod smitten brede sig."
+      ],
+      "whyItMatters": "35.000 kontakter gør udbruddet til et logistisk problem. Hver forsinket test øger behovet for personale, isolation og grænsekoordination.",
+      "analysis": "Acceleration under svag statskapacitet er nøglesignalet. Gratis behandling og højere bonus kan hjælpe bemandingen, men løser ikke mistillid og usikkerhed.",
+      "image": {"url":"https://dims.apnews.com/dims4/default/9bcc5e5/2147483647/strip/true/crop/6434x4287+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Ff3%2Fad%2F5bc5c1d30109dd0710913a0f83ca%2Fa7cbd0bf2ddb471281a6392537f4b1a1","credit":"AP Photo/Moses Sawasawa","alt":"Begravelse af et seks måneder gammelt Ebola-offer i Bunia","sourceUrl":"https://apnews.com/article/congo-ebola-bundibugyo-8eb4d2a8e23a8ff3c4cb77c8facb925e"},
+      "topics": ["global sundhed","Ebola","beredskab","bioteknologi"],
+      "entities": ["DR Congo","Uganda","WHO","Africa CDC"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance":94,"decisionValue":82,"novelty":90,"sourceQuality":93,"personalRelevance":70,"contrast":84},
+      "claims": [
+        {"text":"DR Congo har 933 bekræftede tilfælde og 245 dødsfald.","sourceUrls":["https://apnews.com/article/congo-ebola-bundibugyo-8eb4d2a8e23a8ff3c4cb77c8facb925e","https://www.dr.dk/nyheder/seneste/250-personer-er-doede-af-ebola-i-dr-congo"],"confidence":"high"},
+        {"text":"Africa CDC følger 35.000 mistænkte kontakter, og Uganda har 19 tilfælde og to dødsfald.","sourceUrls":["https://apnews.com/article/congo-ebola-bundibugyo-8eb4d2a8e23a8ff3c4cb77c8facb925e"],"confidence":"high"},
+        {"text":"Udbruddet skyldes Bundibugyo Ebola-virus.","sourceUrls":["https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"],"confidence":"high"}
+      ],
+      "sources": [
+        {"title":"Mourners bury a 6-month-old Ebola victim in the Congo outbreak’s 3rd orphanage death","publisher":"Associated Press","url":"https://apnews.com/article/congo-ebola-bundibugyo-8eb4d2a8e23a8ff3c4cb77c8facb925e","publishedAt":"2026-06-19T18:14:48Z","kind":"reporting"},
+        {"title":"245 personer er døde af Ebola i DR Congo","publisher":"DR","url":"https://www.dr.dk/nyheder/seneste/250-personer-er-doede-af-ebola-i-dr-congo","publishedAt":"2026-06-20T02:08:41Z","kind":"reporting"},
+        {"title":"Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda","publisher":"WHO","url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602","publishedAt":"2026-05-17T00:00:00Z","kind":"primary"}
+      ]
+    },
+    {
+      "id": "story-cuba-reforms-20260620",
+      "eventKey": "cuba-176-market-reforms-2026",
+      "materialFacts": ["Cuba har vedtaget en pakke med 176 økonomiske tiltag", "Pakken åbner for privat bankdrift, direkte handel og diaspora-investeringer", "Myndighederne advarer om langsom implementering og fortsatte sanktionsbarrierer"],
+      "section": "Økonomi",
+      "headline": "Cuba pushes through sweeping free-market reforms in biggest economic shift since the revolution",
+      "primarySourceUrl": "https://apnews.com/article/cuba-economic-reforms-us-embargo-diaz-canel-trump-rubio-b6b8d4319d4291dde47084baa624c795",
+      "subheadline": "176 tiltag udfordrer statens handelsmonopol, men amerikanske sanktioner og cubansk bureaukrati kan bremse effekten",
+      "body": [
+        "Cuba har vedtaget 176 tiltag med private banker, direkte import og eksport, friere ansættelser og investeringer fra cubanere i udlandet. Observatører kalder det øens største markedsskifte siden revolutionen.",
+        "Reformen følger fem års forværring og lange strømafbrydelser. Regeringen advarer om langsom implementering. Uden adgang til dollarbetalinger, brændstof og kapital kan flere elementer forblive juridiske muligheder uden volumen."
+      ],
+      "whyItMatters": "Cuba flytter grænsen for privat koordinering. Det kan ændre ejerskab, prissignaler og diasporakapital i en statsstyret økonomi.",
+      "analysis": "Pakken ligner en kontrolleret kinesisk-vietnamesisk åbning uden samme kapitaladgang. Testen er, om banker får licenser, virksomheder får valuta, og staten afgiver kontrol.",
+      "counterpoint": "Tidligere reformer er strandet i bureaukrati, mens sanktioner fortsat begrænser finansiering og energi.",
+      "image": {"url":"https://dims.apnews.com/dims4/default/c3aae9d/2147483647/strip/true/crop/4001x2666+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F98%2Fe5%2Fb17b08a1412831c025d3c442d2cc%2F79ab658237c14220a7add2ec1f59188c","credit":"Kilde: Associated Press","alt":"Cubanske parlamentarikere under behandlingen af den økonomiske reformpakke","sourceUrl":"https://apnews.com/article/cuba-economic-reforms-us-embargo-diaz-canel-trump-rubio-b6b8d4319d4291dde47084baa624c795"},
+      "topics": ["økonomi","Latinamerika","reformer","geopolitik"],
+      "entities": ["Cuba","Miguel Díaz-Canel","USA"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {"importance":91,"decisionValue":80,"novelty":96,"sourceQuality":90,"personalRelevance":45,"contrast":98},
+      "claims": [
+        {"text":"Cuba har vedtaget 176 økonomiske tiltag med privat bankdrift, direkte handel, friere ansættelser og diaspora-investeringer.","sourceUrls":["https://apnews.com/article/cuba-economic-reforms-us-embargo-diaz-canel-trump-rubio-b6b8d4319d4291dde47084baa624c795","https://elpais.com/us/2026-06-19/cuba-se-abre-al-capitalismo-y-aprueba-su-mayor-reforma-en-decadas-banca-privada-mercado-de-cambios-y-fin-de-los-subsidios.html"],"confidence":"high"},
+        {"text":"Cubanske myndigheder advarer om langsom implementering, og amerikanske sanktioner begrænser kapital- og energiadgang.","sourceUrls":["https://apnews.com/article/cuba-economic-reforms-us-embargo-diaz-canel-trump-rubio-b6b8d4319d4291dde47084baa624c795"],"confidence":"high"}
+      ],
+      "sources": [
+        {"title":"Cuba pushes through sweeping free-market reforms in biggest economic shift since the revolution","publisher":"Associated Press","url":"https://apnews.com/article/cuba-economic-reforms-us-embargo-diaz-canel-trump-rubio-b6b8d4319d4291dde47084baa624c795","publishedAt":"2026-06-19T22:56:22Z","kind":"reporting"},
+        {"title":"Cuba se abre al capitalismo y aprueba su mayor reforma en décadas: banca privada, mercado de cambios y fin de los subsidios","publisher":"El País","url":"https://elpais.com/us/2026-06-19/cuba-se-abre-al-capitalismo-y-aprueba-su-mayor-reforma-en-decadas-banca-privada-mercado-de-cambios-y-fin-de-los-subsidios.html","publishedAt":"2026-06-19T16:36:23Z","kind":"reporting"}
+      ]
+    },
+    {
+      "id": "story-mflusiva-20260620",
+      "eventKey": "fda-panel-mflusiva-recommendation-2026",
+      "materialFacts": ["FDA's rådgiverpanel anbefalede enstemmigt mFlusiva til voksne over 50", "Et studie med 40.000 deltagere viste cirka 27 procent færre influenzatilfælde end en rutinevaccine", "FDA træffer forventeligt endelig beslutning senest i begyndelsen af august"],
+      "section": "Bioteknologi",
+      "headline": "FDA panel backs first-of-its-kind flu vaccine using mRNA technology",
+      "primarySourceUrl": "https://apnews.com/article/moderna-flu-vaccine-mrna-fda-advisers-mflusiva-488c68fe39244ca5ebad441a815b4ba2",
+      "subheadline": "Moderna rykker mRNA fra pandemi til sæsoninfluenza, men FDA kræver flere data fra skrøbelige ældre",
+      "body": [
+        "FDA's rådgiverpanel vurderer enstemmigt, at fordelene ved Modernas mFlusiva opvejer risiciene for voksne over 50. I et studie med 40.000 deltagere reducerede vaccinen influenzatilfælde med cirka 27 procent mod en almindelig vaccine.",
+        "Moderna søger fuld godkendelse for 50 til 64-årige og foreløbig tilladelse over 65, mens flere data indsamles. Vaccinen gav flere kortvarige reaktioner, men ingen større sikkerhedssignaler. FDA afgør sagen senest i begyndelsen af august."
+      ],
+      "whyItMatters": "mRNA's fordel er hastighed. Influenzastammer vælges måneder før sæsonen, og sen mutation kan give et dårligt vaccinematch.",
+      "analysis": "Værdien ligger i platformen mere end i de 27 procent alene. En godkendelse giver Moderna et tilbagevendende marked og myndighederne fleksibel kapacitet.",
+      "counterpoint": "Anbefalingen er ikke en godkendelse, og data for skrøbelige ældre er begrænsede.",
+      "image": {"url":"https://dims.apnews.com/dims4/default/7f206d7/2147483647/strip/true/crop/3938x2624+363+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fe6%2F82%2F4846afa28dc094b77f7ba5eb3510%2F07c265f5417d45c5856dec636c1d4623","credit":"AP Photo/Bill Sikes, File","alt":"Skilt ved en Moderna-bygning i Cambridge i Massachusetts","sourceUrl":"https://apnews.com/article/moderna-flu-vaccine-mrna-fda-advisers-mflusiva-488c68fe39244ca5ebad441a815b4ba2"},
+      "topics": ["bioteknologi","vacciner","regulering","sundhed"],
+      "entities": ["FDA","Moderna","mFlusiva"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {"importance":86,"decisionValue":82,"novelty":93,"sourceQuality":95,"personalRelevance":82,"contrast":78},
+      "claims": [
+        {"text":"FDA's rådgiverpanel stemte enstemmigt for at fordelene ved mFlusiva opvejer risiciene for begge aldersgrupper over 50.","sourceUrls":["https://apnews.com/article/moderna-flu-vaccine-mrna-fda-advisers-mflusiva-488c68fe39244ca5ebad441a815b4ba2","https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement"],"confidence":"high"},
+        {"text":"I et studie med 40.000 deltagere reducerede mFlusiva influenzatilfælde med cirka 27 procent mod en rutinevaccine.","sourceUrls":["https://apnews.com/article/moderna-flu-vaccine-mrna-fda-advisers-mflusiva-488c68fe39244ca5ebad441a815b4ba2"],"confidence":"high"},
+        {"text":"FDA forventes at træffe endelig beslutning senest i begyndelsen af august.","sourceUrls":["https://apnews.com/article/moderna-flu-vaccine-mrna-fda-advisers-mflusiva-488c68fe39244ca5ebad441a815b4ba2"],"confidence":"high"}
+      ],
+      "sources": [
+        {"title":"FDA panel backs first-of-its-kind flu vaccine using mRNA technology","publisher":"Associated Press","url":"https://apnews.com/article/moderna-flu-vaccine-mrna-fda-advisers-mflusiva-488c68fe39244ca5ebad441a815b4ba2","publishedAt":"2026-06-18T11:10:08Z","kind":"reporting"},
+        {"title":"Vaccines and Related Biological Products Advisory Committee June 18, 2026 Meeting Announcement - 06/18/2026","publisher":"U.S. Food and Drug Administration","url":"https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-june-18-2026-meeting-announcement","publishedAt":"2026-06-18T00:00:00Z","kind":"primary"}
+      ]
+    },
+    {
+      "id": "story-ocean-observatory-20260620",
+      "eventKey": "nsf-ocean-observatories-reversal-2026",
+      "materialFacts": ["NSF stopper yderligere demontering og nedskalering af Ocean Observatories Initiative", "Allerede fjernet udstyr skal efter service sættes ud igen", "Netværket omfatter over 900 sensorer og har understøttet mere end 500 publikationer"],
+      "section": "Videnskab",
+      "headline": "National Science Foundation reverses decision to dismantle oceans-monitoring network after outcry",
+      "primarySourceUrl": "https://apnews.com/article/climate-change-ocean-nsf-trump-7e00d19c0af8b15400d7621dcbaa2013",
+      "subheadline": "Pres fra forskere og politikere redder foreløbig 900 sensorer, men langsigtet finansiering er ikke sikret",
+      "body": [
+        "USA's National Science Foundation stopper demonteringen af Ocean Observatories Initiative efter protester. Agenturet fortsætter drift, sætter fjernet udstyr tilbage efter service og indkalder et ekspertpanel om netværkets fremtid.",
+        "Systemet har over 900 sensorer ved USA's kyster og Grønland. Det kostede 386 millioner dollar, måler havcirkulation, økosystemer og ekstremvejr og har leveret data til over 500 publikationer. Den tidligere plan ville fjerne de fleste instrumenter frem mod 2027."
+      ],
+      "whyItMatters": "Lange klimadataserier kan ikke genskabes. Et hul svækker modeller, varsling og sammenligninger, selv hvis finansieringen vender tilbage.",
+      "analysis": "Tilbagetoget viser politisk modstandskraft, når brugerne konkretiserer tabet. Ekspertpanelet løser dog ikke budgetproblemet – det udsætter prioriteringen.",
+      "counterpoint": "NSF har sikret drift nu, ikke netværkets fulde langsigtede finansiering.",
+      "image": {"url":"https://dims.apnews.com/dims4/default/b098388/2147483647/strip/true/crop/6000x3998+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F45%2Fff%2F23a93c6b735dcd0b711c98d389b0%2F61432dc1ce234566ae82b411de07af6c","credit":"Darlene Trew Crist, Woods Hole Oceanographic Institution via AP","alt":"En bøje fra Ocean Observatories Initiative ud for North Carolina","sourceUrl":"https://apnews.com/article/climate-change-ocean-nsf-trump-7e00d19c0af8b15400d7621dcbaa2013"},
+      "topics": ["videnskab","klima","forskningsinfrastruktur","politik"],
+      "entities": ["National Science Foundation","Ocean Observatories Initiative","USA"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {"importance":80,"decisionValue":77,"novelty":91,"sourceQuality":94,"personalRelevance":44,"contrast":92},
+      "claims": [
+        {"text":"NSF stopper straks yderligere fjernelse eller nedskalering og vil genudsætte allerede fjernet udstyr efter service.","sourceUrls":["https://www.nsf.gov/news/update-ocean-observatories-initiative","https://apnews.com/article/climate-change-ocean-nsf-trump-7e00d19c0af8b15400d7621dcbaa2013"],"confidence":"high"},
+        {"text":"Ocean Observatories Initiative omfatter mere end 900 sensorer, kostede 386 millioner dollar og har understøttet over 500 publikationer.","sourceUrls":["https://apnews.com/article/climate-change-ocean-nsf-trump-7e00d19c0af8b15400d7621dcbaa2013"],"confidence":"high"}
+      ],
+      "sources": [
+        {"title":"National Science Foundation reverses decision to dismantle oceans-monitoring network after outcry","publisher":"Associated Press","url":"https://apnews.com/article/climate-change-ocean-nsf-trump-7e00d19c0af8b15400d7621dcbaa2013","publishedAt":"2026-06-18T18:17:30Z","kind":"reporting"},
+        {"title":"Update on Ocean Observatories Initiative","publisher":"U.S. National Science Foundation","url":"https://www.nsf.gov/news/update-ocean-observatories-initiative","publishedAt":"2026-06-18T00:00:00Z","kind":"primary"}
+      ]
+    }
+  ],
+  "signals": [
+    {"text":"Danmark og 18 andre EU-lande presser på for oprettelse af modtage- og udrejsecentre udenfor Europa","headline":"Danmark og 18 andre EU-lande presser på for oprettelse af modtage- og udrejsecentre udenfor Europa","summary":"19 regeringschefer vil have EU til hurtigt at etablere løsninger i tredjelande, men det fælles brevs fulde ordlyd var ikke offentligt tilgængelig.","url":"https://www.dr.dk/nyheder/seneste/danmark-og-18-andre-eu-lande-presser-paa-oprettelse-af-modtage-og-udrejsecentre-udenfor-europa","publisher":"DR","section":"Danmark","publishedAt":"2026-06-19T08:04:38Z"},
+    {"text":"Cabinet loyalists tell Starmer he has the weekend to set out timetable for exit","headline":"Cabinet loyalists tell Starmer he has the weekend to set out timetable for exit","summary":"Burnhams valgsejr har på ét døgn flyttet presset fra et muligt lederopgør til krav om Starmers konkrete exitplan.","url":"https://www.theguardian.com/politics/2026/jun/19/keir-starmer-pressure-andy-burnham-wes-streeting-allies-not-fight-leadership-challenge","publisher":"The Guardian","section":"Politik","publishedAt":"2026-06-19T16:52:20Z"},
+    {"text":"Global framework for reparatory justice adopted at landmark conference in Ghana","headline":"Global framework for reparatory justice adopted at landmark conference in Ghana","summary":"Accra-konferencen vedtog en 18-punkts ramme og tre paneler for erstatning, restitution og juridiske krav, men ingen bindende betalingspligt.","url":"https://www.theguardian.com/news/2026/jun/19/global-framework-reparations-justice-adopted-at-landmark-conference-in-accra-ghana","publisher":"The Guardian","section":"Globalt","publishedAt":"2026-06-19T17:26:45Z"},
+    {"text":"Over-reliance on chatbots can diminish critical-thinking skills, study finds","headline":"Over-reliance on chatbots can diminish critical-thinking skills, study finds","summary":"Rapporteringen peger på svagere kritisk tænkning og informationsbedømmelse ved chatbot-afhængighed, men den direkte metode blev ikke verificeret stærkt nok til en hovedhistorie.","url":"https://www.theguardian.com/us-news/2026/jun/19/chatbots-critical-thinking-skills","publisher":"The Guardian","section":"AI","publishedAt":"2026-06-19T11:00:32Z"},
+    {"text":"Heathrow third runway GDP yield may be 90% less than previous estimates","headline":"Heathrow third runway GDP yield may be 90% less than previous estimates","summary":"Nye ministerielle beregninger reducerer den ventede BNP-gevinst kraftigt og viser trade-offs på op mod 62,5 milliarder pund.","url":"https://www.theguardian.com/uk-news/2026/jun/19/heathrow-third-runway-boost-gdp-less-than-stated","publisher":"The Guardian","section":"Infrastruktur","publishedAt":"2026-06-19T15:26:25Z"},
+    {"text":"Telegram questioned by Ofcom after arsonist who targeted Starmer-linked properties recruited on app","headline":"Telegram questioned by Ofcom after arsonist who targeted Starmer-linked properties recruited on app","summary":"Ofcom kræver svar om detektion af ulovlig opfordring efter en sag, hvor brandstiftelse blev koordineret via Telegram.","url":"https://www.theguardian.com/technology/2026/jun/19/telegram-ofcom-arsonist-starmer-linked-properties","publisher":"The Guardian","section":"Teknologi","publishedAt":"2026-06-19T06:00:26Z"},
+    {"text":"Kongeparret deltog i indvielse af nyt kunstværk i Aarhus","headline":"Kongeparret deltog i indvielse af nyt kunstværk i Aarhus","summary":"ARoS indviede James Turrells nye lysværk ved sommersolhverv – dagens bevidste kulturspor uden for investeringsprofilen.","url":"https://www.dr.dk/nyheder/seneste/kongeparret-deltog-i-indvielse-af-nyt-kunstvaerk-i-aarhus","publisher":"DR","section":"Kultur","publishedAt":"2026-06-19T17:34:33Z"}
+  ],
+  "quality": {"informationGain":92,"sourceQuality":91,"verification":92,"diversity":88,"serendipity":90,"modsyn":86}
+}

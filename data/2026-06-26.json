@@ -1,0 +1,893 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-26-v1",
+  "date": "2026-06-26",
+  "generatedAt": "2026-06-26T06:35:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief – 26. juni 2026",
+  "dek": "To kraftige jordskælv dræber mindst 235 i Venezuela, OpenAI bygger sin egen inferens-chip med Broadcom, kapitalen strømmer til pålidelige AI-agenter, og en europæisk forsvarsfond henter 500 mio. euro – plus Merck-opkøb, dansk kokain i kloakken, hedebølge der lammer hospitaler og Euclids blik ind i Mælkevejen.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "keyNumber": {
+    "label": "Andel af danskerne dækket af spildevandsovervågningen for rusmidler",
+    "value": "50",
+    "unit": "%",
+    "asOf": "2026-06",
+    "caption": "Overvågningen er udvidet fra 6 til 29 byer; mængden af kokain i Københavns spildevand er fordoblet på ti år.",
+    "sourceUrl": "https://www.sst.dk/nyheder/2026/bedre-viden-om-rusmidler-i-spildevandet-maalingerne-daekker-nu-29-byer",
+    "sourceTitle": "Bedre viden om rusmidler i spildevandet: Målingerne dækker nu 29 byer",
+    "series": [
+      {
+        "label": "Før",
+        "value": 20
+      },
+      {
+        "label": "2026",
+        "value": 50
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "story-venezuela-quakes-20260626",
+      "eventKey": "venezuela-double-earthquake-2026-06",
+      "materialFacts": [
+        "To jordskælv på 7,2 og 7,5 ramte det nordlige Venezuela 24. juni med 39 sekunders mellemrum",
+        "Mindst 235 er bekræftet døde og omkring 4.300 såret, og tallet ventes at stige",
+        "Fungerende præsident Delcy Rodríguez har erklæret undtagelsestilstand"
+      ],
+      "section": "Udland",
+      "headline": "Venezuela earthquakes kill at least 235, injure thousands, with toll likely to rise, officials say",
+      "primarySourceUrl": "https://www.cbsnews.com/news/7-1-magnitude-earthquake-venezuela-tsunami-advisory-puerto-rico-virgin-islands/",
+      "subheadline": "Et sjældent dobbeltskælv ramte et i forvejen skrøbeligt land, og dødstallet ventes fortsat at stige",
+      "body": [
+        "To kraftige jordskælv ramte det nordlige Venezuela onsdag 24. juni med blot 39 sekunders mellemrum. Det første målte 7,2, det andet 7,5 – det kraftigste i landet i over et århundrede – med epicenter i delstaten Yaracuy nær San Felipe. Bygninger styrtede sammen, og strøm og mobilnet faldt ud i dele af Caracas.",
+        "Mindst 235 er bekræftet døde og omkring 4.300 såret, oplyser myndighederne, og tallet ventes at stige. Fungerende præsident Delcy Rodríguez har erklæret undtagelsestilstand. En tsunamivarsling for dele af Caribien blev udsendt og siden ophævet."
+      ],
+      "whyItMatters": "Skælvet ramte et land, der var skrøbeligt i forvejen, og hvor bygningsstandard og beredskab er svækket af års krise. Det afgør, hvor mange der overlever de første døgn.",
+      "analysis": "Det alvorlige er afstanden mellem den foreløbige optælling og modellerne: USGS angiver betydelig sandsynlighed for mere end 10.000 dræbte. Når et tæt befolket område rammes af to næsten samtidige skælv, kommer de reelle tal ofte først efter dage.",
+      "counterpoint": "Tsunamivarslingen blev hurtigt ophævet, og det officielle dødstal er endnu langt under modellernes værste scenarier.",
+      "topics": [
+        "naturkatastrofe",
+        "jordskælv",
+        "Latinamerika",
+        "beredskab"
+      ],
+      "entities": [
+        "Venezuela",
+        "Yaracuy",
+        "Delcy Rodríguez",
+        "USGS"
+      ],
+      "isLead": true,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 94,
+        "decisionValue": 52,
+        "novelty": 88,
+        "sourceQuality": 82,
+        "personalRelevance": 30,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "To jordskælv på 7,2 og 7,5 ramte det nordlige Venezuela (Yaracuy) 24. juni 2026 med 39 sekunders mellemrum",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes",
+            "https://www.cbsnews.com/news/7-1-magnitude-earthquake-venezuela-tsunami-advisory-puerto-rico-virgin-islands/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mindst 235 er bekræftet døde og omkring 4.300 såret; tallet ventes at stige, og Delcy Rodríguez har erklæret undtagelsestilstand",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/7-1-magnitude-earthquake-venezuela-tsunami-advisory-puerto-rico-virgin-islands/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USGS' modellering angiver betydelig sandsynlighed for mere end 10.000 dræbte",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/7-1-magnitude-earthquake-venezuela-tsunami-advisory-puerto-rico-virgin-islands/",
+            "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venezuela earthquakes kill at least 235, injure thousands, with toll likely to rise, officials say",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/7-1-magnitude-earthquake-venezuela-tsunami-advisory-puerto-rico-virgin-islands/",
+          "publishedAt": "2026-06-26T07:17:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 Venezuela earthquakes",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Venezuela_earthquakes",
+          "publishedAt": "2026-06-26T06:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Venezuela struck by back-to-back earthquakes, high casualties feared",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/25/venezuela-struck-by-back-to-back-earthquakes-high-casualties-feared",
+          "publishedAt": "2026-06-25T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Caracas_-_La_Candelaria_Amanece.jpg/500px-Caracas_-_La_Candelaria_Amanece.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Caracas, Venezuela – illustration til jordskælvskatastrofen",
+        "sourceUrl": "https://www.cbsnews.com/news/7-1-magnitude-earthquake-venezuela-tsunami-advisory-puerto-rico-virgin-islands/"
+      }
+    },
+    {
+      "id": "story-openai-broadcom-20260626",
+      "eventKey": "openai-broadcom-jalapeno-chip-2026",
+      "materialFacts": [
+        "OpenAI og Broadcom præsenterede 24. juni Jalapeño, OpenAIs første egenudviklede inferens-chip",
+        "Chippen lover markant bedre ydeevne per watt; udrulning sigtes mod slutningen af 2026",
+        "Trækket reducerer OpenAIs afhængighed af Nvidia"
+      ],
+      "section": "Teknologi",
+      "headline": "OpenAI unveils its first custom chip, built by Broadcom",
+      "primarySourceUrl": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "subheadline": "Jalapeño er bygget fra bunden til inferens og skal sænke prisen per forespørgsel og afhængigheden af Nvidia",
+      "body": [
+        "OpenAI og Broadcom præsenterede 24. juni Jalapeño, OpenAIs første egenudviklede chip, bygget fra bunden til inferens – at køre færdige AI-modeller.",
+        "Tidlige tests viser markant bedre ydeevne per watt end nuværende løsninger. Første udrulning sigtes mod slutningen af 2026, mens træning fortsat ventes at køre på Nvidia-hardware."
+      ],
+      "whyItMatters": "Inferens er den løbende driftsomkostning ved AI. Egen silicium kan sænke prisen per forespørgsel og gøre OpenAI mindre afhængig af Nvidia – samme træk, Google og Amazon har gjort.",
+      "analysis": "Pointen er vertikal integration: ejer OpenAI hele stakken fra model til chip, kan hvert lag optimeres mod samme mål. For Europa understreger det, hvor koncentreret AI-infrastrukturen er hos få amerikanske selskaber.",
+      "counterpoint": "Chippen er endnu på prototypestadiet, og de lovede ydelsestal er leverandørernes egne.",
+      "topics": [
+        "AI",
+        "halvledere",
+        "teknologisk suverænitet",
+        "infrastruktur"
+      ],
+      "entities": [
+        "OpenAI",
+        "Broadcom",
+        "Jalapeño",
+        "Nvidia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 80,
+        "novelty": 84,
+        "sourceQuality": 84,
+        "personalRelevance": 86,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "OpenAI og Broadcom præsenterede 24. juni 2026 Jalapeño, OpenAIs første egenudviklede inferens-chip, med bedre ydeevne per watt og udrulning sigtet mod slutningen af 2026",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+            "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+            "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trækket reducerer OpenAIs afhængighed af Nvidia og følger Google og Amazon, der har udviklet egne acceleratorer",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI unveils its first custom chip, built by Broadcom",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+          "publishedAt": "2026-06-24T16:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI unveils first chip as part of Broadcom deal in effort to 'build the full stack'",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+          "publishedAt": "2026-06-24T15:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+          "publishedAt": "2026-06-24T14:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Semiconductor_Wafer_of_Microelectronics.jpg/500px-Semiconductor_Wafer_of_Microelectronics.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Halvlederwafer – illustration til OpenAIs egenudviklede inferens-chip",
+        "sourceUrl": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/"
+      }
+    },
+    {
+      "id": "story-sail-research-20260626",
+      "eventKey": "sail-research-agent-infrastructure-2026",
+      "materialFacts": [
+        "Sail Research rejste 80 mio. dollar i seed (Sequoia) og Series A (Kleiner Perkins)",
+        "Selskabet bygger inferens-infrastruktur til langtidsvirkende AI-agenter",
+        "Værdiansættelsen er 450 mio. dollar"
+      ],
+      "section": "Teknologi",
+      "headline": "Sail raises $80M to make AI agents cheaper to run",
+      "primarySourceUrl": "https://thenextweb.com/news/sail-research-80m-ai-agent-inference",
+      "subheadline": "Sequoia og Kleiner Perkins satser på den infrastruktur, der skal gøre AI-agenter økonomisk realistiske i drift",
+      "body": [
+        "Sail Research har rejst 80 mio. dollar i seed (Sequoia) og Series A (Kleiner Perkins) ved en værdiansættelse på 450 mio. dollar. Blandt englene er Alphabets John Hennessy, Intel-topchef Lip-Bu Tan og forskeren Tri Dao.",
+        "Sail bygger en inferensmotor optimeret til agenter frem for menneskelige forespørgsler, plus 'Sailboxes', der kun afregner, mens agenten arbejder. Selskabet hævder op til ti gange lavere pris per token."
+      ],
+      "whyItMatters": "Agenter, der arbejder i timer og bruger milliarder af tokens på én opgave, er dyre at køre. Falder prisen markant, bliver de økonomisk realistiske til langt flere arbejdsgange.",
+      "analysis": "Kapitalen flytter sig fra modeller til den infrastruktur, der gør agenter brugbare i drift – samme mønster som dagens øvrige runder: et væddemål på driftsøkonomi, ikke på endnu en grundmodel.",
+      "counterpoint": "Prispåstanden på ti gange er selskabets egen og ikke uafhængigt efterprøvet.",
+      "topics": [
+        "AI",
+        "venturekapital",
+        "agenter",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Sail Research",
+        "Kleiner Perkins",
+        "Sequoia",
+        "Tri Dao"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 76,
+        "novelty": 80,
+        "sourceQuality": 78,
+        "personalRelevance": 88,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Sail Research rejste 80 mio. dollar i seed (Sequoia) og Series A (Kleiner Perkins) ved 450 mio. dollar i værdi til inferens-infrastruktur for langtidsvirkende AI-agenter",
+          "sourceUrls": [
+            "https://thenextweb.com/news/sail-research-80m-ai-agent-inference",
+            "https://www.prnewswire.com/news-releases/sail-research-raises-80-million-to-build-max-efficiency-infrastructure-for-ai-agents-302810497.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Platformen hævder op til ti gange lavere pris per token end konkurrenterne",
+          "sourceUrls": [
+            "https://thenextweb.com/news/sail-research-80m-ai-agent-inference"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sail raises $80M to make AI agents cheaper to run",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/sail-research-80m-ai-agent-inference",
+          "publishedAt": "2026-06-25T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Sail Research Raises $80 Million to Build Max-Efficiency Infrastructure for AI Agents",
+          "publisher": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/sail-research-raises-80-million-to-build-max-efficiency-infrastructure-for-ai-agents-302810497.html",
+          "publishedAt": "2026-06-25T11:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/BalticServers_data_center.jpg/500px-BalticServers_data_center.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Datacenter med serverrækker – illustration til AI-agenters inferens-infrastruktur",
+        "sourceUrl": "https://thenextweb.com/news/sail-research-80m-ai-agent-inference"
+      }
+    },
+    {
+      "id": "story-e2d-defence-20260626",
+      "eventKey": "avp-earlybird-e2d-defence-fund-2026",
+      "materialFacts": [
+        "AVP og Earlybird har rejst E2D, en vækstfond på 500 mio. euro til europæisk forsvars- og dual-use-teknologi",
+        "Fonden vil investere ca. 25 mio. euro i omkring 20 selskaber inden for halvledere, AI, rumteknologi, droner og dirigeret energi",
+        "Første lukning ventes 30. juni 2026"
+      ],
+      "section": "Erhverv",
+      "headline": "85% of NATO defence tech funding went to the US. AVP and Earlybird just raised €500M to change that",
+      "primarySourceUrl": "https://techfundingnews.com/avp-earlybird-e2d-500m-fund-european-defence-startups-us-vc/",
+      "subheadline": "En ny europæisk vækstfond vil holde forsvarsteknologiens kapital, talent og IP på kontinentet",
+      "body": [
+        "AVP og Earlybird har lanceret E2D, en vækstfond på 500 mio. euro til europæiske forsvars- og dual-use-selskaber – cirka 25 mio. euro i omkring 20 virksomheder inden for halvledere, AI, rumteknologi, droner og dirigeret energi.",
+        "Begrundelsen er en skæv fordeling: siden 2019 har USA opsuget omkring 85 procent af NATO's forsvars-venturefinansiering, mens Europa stod for 6,2 procent i 2025. Første lukning ventes 30. juni."
+      ],
+      "whyItMatters": "Europa har bundet hundredvis af milliarder til forsvar, men kapitalen til de startups, der skal levere teknologien, har overvejende ligget i USA.",
+      "analysis": "For en investor som EIFO er fonden relevant todelt: som tegn på, at dual-use bliver en selvstændig aktivklasse i Europa, og som konkurrent og medinvestor. Suverænitet handler ikke kun om hardware, men om hvem der ejer selskaberne bag.",
+      "topics": [
+        "defence-tech",
+        "venturekapital",
+        "teknologisk suverænitet",
+        "Europa"
+      ],
+      "entities": [
+        "AVP",
+        "Earlybird",
+        "E2D",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 78,
+        "novelty": 66,
+        "sourceQuality": 74,
+        "personalRelevance": 90,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "AVP og Earlybird har rejst E2D på 500 mio. euro til europæisk forsvars- og dual-use-teknologi, ca. 25 mio. euro i ~20 selskaber, med første lukning 30. juni 2026",
+          "sourceUrls": [
+            "https://techfundingnews.com/avp-earlybird-e2d-500m-fund-european-defence-startups-us-vc/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Siden 2019 har USA stået for omkring 85 procent af NATO's forsvars-venturefinansiering; Europa stod for 6,2 procent i 2025",
+          "sourceUrls": [
+            "https://techfundingnews.com/avp-earlybird-e2d-500m-fund-european-defence-startups-us-vc/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "85% of NATO defence tech funding went to the US. AVP and Earlybird just raised €500M to change that",
+          "publisher": "Tech Funding News",
+          "url": "https://techfundingnews.com/avp-earlybird-e2d-500m-fund-european-defence-startups-us-vc/",
+          "publishedAt": "2026-06-18T09:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/EURODRONE%2C_Airbus%2C_Dassault_and_Leonardo_%2849580123532%29.jpg/500px-EURODRONE%2C_Airbus%2C_Dassault_and_Leonardo_%2849580123532%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Europæisk forsvarsdrone – illustration til europæisk forsvars-venturefond",
+        "sourceUrl": "https://techfundingnews.com/avp-earlybird-e2d-500m-fund-european-defence-startups-us-vc/"
+      }
+    },
+    {
+      "id": "story-merck-biotechne-20260626",
+      "eventKey": "merck-kgaa-biotechne-acquisition-2026",
+      "materialFacts": [
+        "Merck KGaA køber Bio-Techne for 73 dollar per aktie, cirka 11,3 mia. dollar",
+        "Prisen er en præmie på 36 procent og Mercks største opkøb siden Sigma-Aldrich i 2015",
+        "Handlen styrker positionen inden for multi-omics, spatial biologi og celle- og genterapi"
+      ],
+      "section": "Erhverv",
+      "headline": "Germany's Merck Boosts Life Sciences Business With $11 Billion Bio-Techne Deal",
+      "primarySourceUrl": "https://money.usnews.com/investing/news/articles/2026-06-25/germanys-merck-to-buy-bio-techne-for-73-per-share",
+      "subheadline": "Det største life science-opkøb i over et årti samler endnu en bid af forskningens værktøjskasse",
+      "body": [
+        "Tyske Merck KGaA køber amerikanske Bio-Techne for 73 dollar per aktie i kontanter – cirka 11,3 mia. dollar, en præmie på 36 procent og Mercks største opkøb siden Sigma-Aldrich i 2015.",
+        "Bio-Techne leverer reagenser og værktøjer til biologisk forskning, og handlen styrker Mercks position inden for multi-omics, spatial biologi og celle- og genterapi. Lukning ventes i slutningen af 2026 eller starten af 2027."
+      ],
+      "whyItMatters": "Opkøbet samler endnu en bid af de værktøjer, life science-industrien er afhængig af, på færre hænder, og viser, at de store stiller skarpt på de hurtigst voksende laboratorieteknologier.",
+      "analysis": "For deeptech- og bioteknologi-investorer er pointen, at værdien i stigende grad ligger i 'spaden og skovlen' – værktøjerne og dataene bag forskningen – snarere end i det enkelte lægemiddel.",
+      "counterpoint": "Handlen skal godkendes af konkurrencemyndigheder og kan blive forsinket undervejs.",
+      "topics": [
+        "erhverv",
+        "bioteknologi",
+        "opkøb",
+        "life science"
+      ],
+      "entities": [
+        "Merck KGaA",
+        "Bio-Techne",
+        "Sigma-Aldrich"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 70,
+        "novelty": 68,
+        "sourceQuality": 82,
+        "personalRelevance": 58,
+        "contrast": 56
+      },
+      "claims": [
+        {
+          "text": "Merck KGaA køber Bio-Techne for 73 dollar per aktie (ca. 11,3 mia. dollar), en præmie på 36 procent og selskabets største opkøb siden Sigma-Aldrich i 2015",
+          "sourceUrls": [
+            "https://money.usnews.com/investing/news/articles/2026-06-25/germanys-merck-to-buy-bio-techne-for-73-per-share",
+            "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Merck venter synergier på cirka 140 mio. euro årligt fra år tre og lukning i slutningen af 2026 eller starten af 2027",
+          "sourceUrls": [
+            "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Germany's Merck Boosts Life Sciences Business With $11 Billion Bio-Techne Deal",
+          "publisher": "U.S. News (Reuters)",
+          "url": "https://money.usnews.com/investing/news/articles/2026-06-25/germanys-merck-to-buy-bio-techne-for-73-per-share",
+          "publishedAt": "2026-06-25T10:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Merck KGaA, Darmstadt, Germany, Agrees to Acquire Bio-Techne, Strengthening Leadership Position in Fast-Growing Life Sciences Markets",
+          "publisher": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/merck-kgaa-darmstadt-germany-agrees-to-acquire-bio-techne-strengthening-leadership-position-in-fast-growing-life-sciences-markets-302810602.html",
+          "publishedAt": "2026-06-25T09:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Pfizer_Inc_Middleton_Research_Pharmaceutical_laboratory_-_panoramio.jpg/500px-Pfizer_Inc_Middleton_Research_Pharmaceutical_laboratory_-_panoramio.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Life science-laboratorium – illustration til Mercks opkøb af Bio-Techne",
+        "sourceUrl": "https://money.usnews.com/investing/news/articles/2026-06-25/germanys-merck-to-buy-bio-techne-for-73-per-share"
+      }
+    },
+    {
+      "id": "story-dk-cocaine-20260626",
+      "eventKey": "dk-wastewater-drug-monitoring-2026",
+      "materialFacts": [
+        "Sundhedsstyrelsen offentliggjorde 25. juni en national spildevandsovervågning af rusmidler",
+        "Mængden af kokain i Københavns spildevand er fordoblet på ti år",
+        "Det årlige kokainforbrug i Danmark estimeres til over 7 ton"
+      ],
+      "section": "Indland",
+      "headline": "Mængden af kokain i spildevandet er fordoblet i København på ti år",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/maengden-af-kokain-i-spildevandet-er-fordoblet-i-koebenhavn-paa-ti-aar",
+      "subheadline": "Sundhedsstyrelsens spildevandsmålinger dækker nu 29 byer og tegner et marked, der er vokset markant",
+      "body": [
+        "Sundhedsstyrelsen offentliggjorde 25. juni resultaterne af den nationale spildevandsovervågning af rusmidler. Mængden af kokain i Københavns spildevand er fordoblet på ti år, og kokain er det mest udbredte centralstimulerende stof i landet.",
+        "Undersøgelsen er udvidet fra seks til 29 byer og dækker nu omkring halvdelen af befolkningen mod en femtedel før. Det årlige forbrug estimeres til over syv ton, og Danmark ligger højt på europæisk skala – over både Norge og Sverige."
+      ],
+      "whyItMatters": "Spildevandsmålinger er en af de få objektive målestokke for et marked, der ellers er skjult. En fordobling i hovedstaden peger på et stof, der er blevet renere og billigere.",
+      "analysis": "Det interessante er metoden lige så meget som tallet: ved at måle direkte i kloakken får myndighederne et forbrugsbillede, der ikke afhænger af, om folk svarer ærligt i spørgeskemaer.",
+      "topics": [
+        "sundhed",
+        "rusmidler",
+        "Danmark",
+        "samfund"
+      ],
+      "entities": [
+        "Sundhedsstyrelsen",
+        "København",
+        "Aarhus",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 58,
+        "novelty": 76,
+        "sourceQuality": 86,
+        "personalRelevance": 56,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Sundhedsstyrelsen offentliggjorde 25. juni 2026 spildevandsovervågning, der nu dækker 29 byer og ca. halvdelen af befolkningen; kokainmængden i Københavns spildevand er fordoblet på ti år",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/maengden-af-kokain-i-spildevandet-er-fordoblet-i-koebenhavn-paa-ti-aar",
+            "https://www.sst.dk/nyheder/2026/bedre-viden-om-rusmidler-i-spildevandet-maalingerne-daekker-nu-29-byer"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det årlige kokainforbrug i Danmark estimeres til over 7 ton, og Danmark ligger højt på europæisk skala",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/maengden-af-kokain-i-spildevandet-er-fordoblet-i-koebenhavn-paa-ti-aar"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mængden af kokain i spildevandet er fordoblet i København på ti år",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/maengden-af-kokain-i-spildevandet-er-fordoblet-i-koebenhavn-paa-ti-aar",
+          "publishedAt": "2026-06-25T05:01:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Bedre viden om rusmidler i spildevandet: Målingerne dækker nu 29 byer",
+          "publisher": "Sundhedsstyrelsen",
+          "url": "https://www.sst.dk/nyheder/2026/bedre-viden-om-rusmidler-i-spildevandet-maalingerne-daekker-nu-29-byer",
+          "publishedAt": "2026-06-25T06:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Newtown_Creek_Wastewater_Treatment_Plant_-_Looking_Up.jpg/500px-Newtown_Creek_Wastewater_Treatment_Plant_-_Looking_Up.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Spildevandsrenseanlæg – illustration til spildevandsovervågning af rusmidler",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/maengden-af-kokain-i-spildevandet-er-fordoblet-i-koebenhavn-paa-ti-aar"
+      }
+    },
+    {
+      "id": "story-europe-heatwave-20260626",
+      "eventKey": "europe-heatwave-hospitals-2026-06",
+      "materialFacts": [
+        "En kraftig hedebølge presser hospitaler i Frankrig, Storbritannien og Spanien og rykker østpå",
+        "Mindst 55 er druknet i Frankrig siden 18. juni, og Spanien kæder 212 dødsfald til varmen",
+        "Holland udsendte sin første røde varsling, og Tyskland venter op mod 40 grader"
+      ],
+      "section": "Udland",
+      "headline": "Hospitals overwhelmed as Europe heatwave shifts east",
+      "primarySourceUrl": "https://www.rte.ie/news/world/2026/0626/1580431-europe-weather/",
+      "subheadline": "Rekordvarme lammer scannere og køleanlæg på hospitaler, mens dødstallene stiger og varmen flytter østpå",
+      "body": [
+        "En kraftig hedebølge har i over en uge presset hospitaler i Frankrig, Storbritannien og Spanien og rykker nu østpå. Holland udsendte sin første røde varsling nogensinde, og Tyskland venter op mod 40 grader i weekenden.",
+        "Mindst 55 mennesker er druknet i Frankrig siden 18. juni, mens Spanien kæder 212 dødsfald til varmen. Franske hospitaler melder en firdobling i akutbesøg, og britiske NHS-afdelinger erklærede kritiske hændelser, da scannere og køleanlæg svigtede."
+      ],
+      "whyItMatters": "Hedebølgen viser, hvordan ekstrem varme rammer indirekte: ikke kun gennem varmeslag, men gennem druknedødsfald og svigtende hospitalsudstyr.",
+      "analysis": "At MR-scannere og it-systemer overophedes, peger på, at hospitaler er bygget til et klima, der er ved at forsvinde. Den østlige flytning rammer nu lande med mindre rutine i varslinger.",
+      "topics": [
+        "klima",
+        "vejr",
+        "sundhed",
+        "Europa"
+      ],
+      "entities": [
+        "Frankrig",
+        "Spanien",
+        "Storbritannien",
+        "Tyskland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 64,
+        "sourceQuality": 80,
+        "personalRelevance": 62,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "En kraftig europæisk hedebølge presser hospitaler og rykker østpå; mindst 55 druknet i Frankrig og 212 varmerelaterede dødsfald i Spanien; Holland udsendte sin første røde varsling",
+          "sourceUrls": [
+            "https://www.rte.ie/news/world/2026/0626/1580431-europe-weather/",
+            "https://www.aljazeera.com/news/2026/6/24/deaths-disruptions-across-europe-what-you-should-know-about-the-heatwave"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Franske hospitaler melder en firdobling i akutbesøg, og britiske NHS-afdelinger erklærede kritiske hændelser, da scannere og køleanlæg svigtede",
+          "sourceUrls": [
+            "https://www.rte.ie/news/world/2026/0626/1580431-europe-weather/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hospitals overwhelmed as Europe heatwave shifts east",
+          "publisher": "RTÉ",
+          "url": "https://www.rte.ie/news/world/2026/0626/1580431-europe-weather/",
+          "publishedAt": "2026-06-26T10:40:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Deaths, disruptions across Europe: What you should know about the heatwave",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/24/deaths-disruptions-across-europe-what-you-should-know-about-the-heatwave",
+          "publishedAt": "2026-06-24T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Heat_Wave.jpg/500px-Heat_Wave.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Brændende sol og ekstrem varme – illustration til den europæiske hedebølge",
+        "sourceUrl": "https://www.rte.ie/news/world/2026/0626/1580431-europe-weather/"
+      }
+    },
+    {
+      "id": "story-euclid-q2-20260626",
+      "eventKey": "euclid-q2-galactic-bulge-2026",
+      "materialFacts": [
+        "ESA og Euclid-konsortiet udgav 24. juni datapakken Q2 om Mælkevejens indre bulge",
+        "Datasættet rummer kataloger over cirka 60 millioner stjernekilder over 4,8 kvadratgrader",
+        "Opløsningen er 0,16 buesekund"
+      ],
+      "section": "Videnskab",
+      "headline": "Euclid data release Q2: the Euclid Galactic Bulge Survey",
+      "primarySourceUrl": "https://www.euclid-ec.org/science/q2/",
+      "subheadline": "Europas rumteleskop vender blikket indad mod vores egen galakses tætteste, mest uudforskede region",
+      "body": [
+        "ESA og Euclid-konsortiet udgav 24. juni datapakken Q2 – denne gang ikke fjerne galakser, men vores egen Mælkevej. Euclids VIS-kamera har fotograferet 4,8 kvadratgrader af den indre, tæt befolkede bulge-region nær det galaktiske center.",
+        "Datasættet rummer kalibrerede billeder og kataloger over cirka 60 millioner stjernekilder ved en opløsning på 0,16 buesekund – et hidtil uset dybt blik ind i en af galaksens vanskeligste regioner at kortlægge."
+      ],
+      "whyItMatters": "Den indre bulge er nøglen til at forstå, hvordan Mælkevejen er bygget og udviklet. Et katalog af denne skarphed lader forskere studere stjerner og dynamik, der hidtil druknede i mylderet.",
+      "analysis": "Værdien ligger i bredde og opløsning fra rummet, fri for atmosfærens sløring. Q2 er en byggesten til de langt større Euclid-udgivelser, der venter.",
+      "topics": [
+        "videnskab",
+        "rumfart",
+        "astronomi",
+        "data"
+      ],
+      "entities": [
+        "ESA",
+        "Euclid",
+        "Mælkevejen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 48,
+        "novelty": 82,
+        "sourceQuality": 88,
+        "personalRelevance": 50,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "ESA og Euclid-konsortiet udgav 24. juni 2026 Q2-datapakken om Mælkevejens indre bulge med ca. 60 millioner stjernekilder over 4,8 kvadratgrader ved 0,16 buesekunds opløsning",
+          "sourceUrls": [
+            "https://www.euclid-ec.org/science/q2/",
+            "https://www.cosmos.esa.int/web/euclid/q2-data-release",
+            "https://arxiv.org/abs/2606.25883"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Euclid data release Q2: the Euclid Galactic Bulge Survey",
+          "publisher": "Euclid Consortium",
+          "url": "https://www.euclid-ec.org/science/q2/",
+          "publishedAt": "2026-06-24T08:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Euclid Quick Data Release Q2",
+          "publisher": "ESA Cosmos",
+          "url": "https://www.cosmos.esa.int/web/euclid/q2-data-release",
+          "publishedAt": "2026-06-24T08:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Euclid Quick Data Release (Q2) -- The Euclid Galactic Bulge Survey",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2606.25883",
+          "publishedAt": "2026-06-24T09:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg/500px-Center_of_the_Milky_Way_Galaxy_IV_%E2%80%93_Composite.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Mælkevejens centrum – illustration til Euclids kortlægning af den galaktiske bulge",
+        "sourceUrl": "https://www.euclid-ec.org/science/q2/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Scaled Cognition Raises $100M Series A Led by Khosla Ventures to Build Reliable Enterprise AI",
+      "headline": "Scaled Cognition Raises $100M Series A Led by Khosla Ventures to Build Reliable Enterprise AI",
+      "url": "https://www.globenewswire.com/news-release/2026/06/25/3317460/0/en/scaled-cognition-raises-100m-series-a-led-by-khosla-ventures-to-build-reliable-enterprise-ai.html",
+      "summary": "Selskabet bygger virksomheds-AI med fokus på at reducere hallucinationer og er i produktion hos Fortune 500-kunder i finans, sundhed og forsikring.",
+      "publisher": "GlobeNewswire",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-25T13:00:00Z"
+    },
+    {
+      "text": "Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents",
+      "headline": "Patronus AI lands $50M to build 'digital worlds' that stress-test AI agents",
+      "url": "https://techcrunch.com/2026/06/25/patronus-ai-lands-50m-to-build-digital-worlds-that-stress-test-ai-agents/",
+      "summary": "Series B ledet af Greenfield Partners; Patronus bygger simuleringsmiljøer til at træne og stressteste AI-agenter, før de rører rigtige systemer.",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-25T12:00:00Z"
+    },
+    {
+      "text": "Trase Raises $107M Seed Round Led by ARCH Venture Partners to Continue Building Agentic Operating System for Regulated Industries",
+      "headline": "Trase Raises $107M Seed Round Led by ARCH Venture Partners to Continue Building Agentic Operating System for Regulated Industries",
+      "url": "https://www.businesswire.com/news/home/20260625167565/en/Trase-Raises-$107M-Seed-Round-Led-by-ARCH-Venture-Partners-to-Continue-Building-Agentic-Operating-System-for-Regulated-Industries",
+      "summary": "Et agentisk styresystem til regulerede industrier som sundhed og forsvar; Trase automatiserer bl.a. kliniske arbejdsgange hos Duke University Health System.",
+      "publisher": "Business Wire",
+      "section": "Erhverv",
+      "publishedAt": "2026-06-25T13:00:00Z"
+    },
+    {
+      "text": "Venture Capital & Startup Funding Roundup, June 25, 2026",
+      "headline": "Venture Capital & Startup Funding Roundup, June 25, 2026",
+      "url": "https://techstartups.com/2026/06/25/venture-capital-startup-funding-roundup-june-25-2026/",
+      "summary": "Dagens runder: franske Alan rejste 480 mio. euro (Prosus) til AI-sundhedsforsikring, Runpod 100 mio. dollar til AI-cloud, Nebulock 25 mio. dollar til AI-sikkerhed.",
+      "publisher": "Tech Startups",
+      "section": "Erhverv",
+      "publishedAt": "2026-06-25T10:00:00Z"
+    },
+    {
+      "text": "Magnitude 7.2 quake hits northern Japan",
+      "headline": "Magnitude 7.2 quake hits northern Japan",
+      "url": "https://www.japantimes.co.jp/news/2026/06/25/japan/tohoku-strong-earthquake/",
+      "summary": "Skælvet ud for Iwate sårede mindst seks, indstillede Tohoku-shinkansen midlertidigt og udløste ingen tsunami; atomanlæg meldte ingen uregelmæssigheder.",
+      "publisher": "The Japan Times",
+      "section": "Udland",
+      "publishedAt": "2026-06-25T09:00:00Z"
+    },
+    {
+      "text": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "headline": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
+      "url": "https://openai.com/index/gpt-5-immunology-mystery/",
+      "summary": "GPT-5 Pro pegede på, at deoxyglukose blokerer IL-2 og driver T-celler mod Th17, og forudsagde korrekt upublicerede forsøgsresultater om CD8+ T-celler.",
+      "publisher": "OpenAI",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-24T15:00:00Z"
+    },
+    {
+      "text": "South African police investigate murder amid rise in anti-migrant attacks",
+      "headline": "South African police investigate murder amid rise in anti-migrant attacks",
+      "url": "https://www.aljazeera.com/news/2026/6/23/south-african-police-investigate-murder-amid-rise-in-anti-migrant-attacks",
+      "summary": "Forud for en ulovlig 30. juni-frist sat af protestgrupper evakuerer nabolande tusindvis af statsborgere, mens politiet indsætter ekstra sikkerhed.",
+      "publisher": "Al Jazeera",
+      "section": "Udland",
+      "publishedAt": "2026-06-23T12:00:00Z"
+    },
+    {
+      "text": "US, Iran agree on 'roadmap' towards final deal in Switzerland talks",
+      "headline": "US, Iran agree on 'roadmap' towards final deal in Switzerland talks",
+      "url": "https://www.aljazeera.com/news/2026/6/22/us-iran-agree-on-roadmap-towards-final-deal-in-switzerland-talks",
+      "summary": "Parterne enedes om en køreplan mod en endelig aftale inden 60 dage; Iran inviterer IAEA tilbage, og en dekonflikteringskanal skal dæmpe spændinger ved Hormuz.",
+      "publisher": "Al Jazeera",
+      "section": "Udland",
+      "publishedAt": "2026-06-22T18:00:00Z"
+    },
+    {
+      "text": "Rules on 'high-risk' AI to be delayed under EU 'omnibus' deal",
+      "headline": "Rules on 'high-risk' AI to be delayed under EU 'omnibus' deal",
+      "url": "https://www.pinsentmasons.com/out-law/news/rules-high-risk-ai-delayed-under-eu-omnibus-deal",
+      "summary": "EU's medlovgivere udskyder højrisiko-AI-reglerne til 2. december 2027 og indlejrede systemer til 2. august 2028 med faste datoer i stedet for betingede triggere.",
+      "publisher": "Pinsent Masons",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-23T09:00:00Z"
+    },
+    {
+      "text": "Detailsalget steg i maj",
+      "headline": "Detailsalget steg i maj",
+      "url": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52184",
+      "summary": "Det samlede detailsalg steg 1,0 procent fra april til maj korrigeret for priser og sæson; for marts-maj var stigningen 2,2 procent mod december-februar.",
+      "publisher": "Danmarks Statistik",
+      "section": "Økonomi",
+      "publishedAt": "2026-06-24T07:00:00Z"
+    },
+    {
+      "text": "Lolland Kommune risikerer at gå rabundus: Skiftende byråd har talt om det, men 'ulven er her nu'",
+      "headline": "Lolland Kommune risikerer at gå rabundus: Skiftende byråd har talt om det, men 'ulven er her nu'",
+      "url": "https://www.dr.dk/nyheder/indland/lolland-kommune-risikerer-gaa-rabundus-skiftende-byraad-har-talt-om-det-men-ulven-er-her-nu",
+      "summary": "Kommunen styrer mod et underskud på 531 mio. kroner og risikerer statslig administration; besparelser kan kræve lukning af skoler, plejecentre, haller og biblioteker.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-06-25T20:00:00Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-louis-theroux-manosphere-20260626",
+      "mode": "watch",
+      "kind": "Dokumentar",
+      "status": "available",
+      "title": "Louis Theroux: Inside the Manosphere",
+      "creator": "Louis Theroux",
+      "provider": "Netflix",
+      "url": "https://www.netflix.com/title/81920687",
+      "availability": "Kræver Netflix-abonnement (tilgængelig i Danmark).",
+      "commitment": "Ca. 85 min",
+      "description": "Louis Theroux går ind i 'manosfæren' – det hastigt voksende online-univers af mandlige influencere, coaches og ideologer – og møder både dens stemmer og dens kritikere.",
+      "rationale": "Dagens bevidste outside-profile-valg: et koldt, nysgerrigt blik på maskulinitet og online-radikalisering, der rammer interessen for psykologi og menneskelig adfærd. Bedre end en true-crime-dokumentar, fordi den faktisk kalibrerer en samtidsdebat frem for at underholde.",
+      "topics": [
+        "psykologi",
+        "samfund",
+        "internet"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Louis_Theroux_crop.jpg/500px-Louis_Theroux_crop.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Louis Theroux – instruktør og vært på dokumentaren",
+        "sourceUrl": "https://www.netflix.com/title/81920687"
+      }
+    },
+    {
+      "id": "rec-chip-war-20260626",
+      "mode": "read",
+      "kind": "Bog",
+      "status": "classic",
+      "title": "Chip War: The Fight for the World's Most Valuable Technology",
+      "creator": "Chris Miller",
+      "provider": "Simon & Schuster",
+      "url": "https://www.simonandschuster.com/books/Chip-War/Chris-Miller/9781982172008",
+      "availability": "Kan købes (ISBN 9781982172008).",
+      "commitment": "Bog",
+      "description": "Chris Millers prisbelønnede historie om kampen om mikrochips – fra Silicon Valleys oprindelse til eksportkontrol og USA-Kina-rivaliseringen om verdens mest kritiske teknologi.",
+      "rationale": "Den ene klassiker, valgt fordi dagens Jalapeño-historie kun antyder det, bogen folder ud: hvorfor egen silicium og halvledersuverænitet er blevet et magtspørgsmål. Direkte føde for EIFO-tænkningen om teknologisk afhængighed.",
+      "topics": [
+        "halvledere",
+        "teknologisk suverænitet",
+        "geopolitik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-no-priors-20260626",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "No Priors: Artificial Intelligence | Technology | Startups",
+      "creator": "Sarah Guo & Elad Gil",
+      "provider": "Apple Podcasts",
+      "url": "https://podcasts.apple.com/us/podcast/no-priors-artificial-intelligence-technology-startups/id1668002688",
+      "availability": "Frit tilgængeligt på podcastplatforme.",
+      "commitment": "Ca. 45 min pr. afsnit",
+      "description": "Investorerne Sarah Guo og Elad Gil taler med førende AI-forskere, -grundlæggere og -investorer om de største spørgsmål i AI- og teknologiøkonomien.",
+      "rationale": "Et investorblik på samme kapitalbølge, som dagens Sail- og fundingsignaler beskriver – tæt på EIFO-arbejdet med at vurdere AI-selskaber. Provider optræder ikke i de seneste 30 dages anbefalinger.",
+      "topics": [
+        "AI",
+        "venturekapital",
+        "teknologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-karpathy-dwarkesh-20260626",
+      "mode": "watch",
+      "kind": "Samtale",
+      "status": "timely",
+      "title": "Andrej Karpathy — AGI is still a decade away",
+      "creator": "Dwarkesh Patel & Andrej Karpathy",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/andrej-karpathy",
+      "availability": "Frit tilgængeligt (YouTube/web).",
+      "commitment": "Ca. 2,5 timer",
+      "description": "Andrej Karpathy – tidligere OpenAI og Tesla – om hvorfor han kalder det 'agenternes årti' frem for 'agenternes år', og hvad der stadig mangler, før AI-agenter virker pålideligt.",
+      "rationale": "Den lange ramme om dagens Sail-historie: hvorfor agent-infrastruktur og pålidelighed er det, der afgør tempoet. Et distinkt afsnit; tidligere Dwarkesh-valg handlede om AGI-økonomi og idéhistorie, så ingen reel gentagelse.",
+      "topics": [
+        "AI",
+        "agenter",
+        "forskning"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "informationGain": 88,
+    "sourceQuality": 85,
+    "verification": 86,
+    "diversity": 90,
+    "serendipity": 86,
+    "modsyn": 82
+  }
+}
