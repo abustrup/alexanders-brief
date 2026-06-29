@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": 1,
+  "kind": "weekly",
+  "runId": "2026-W26-weekly-v1",
+  "weekId": "2026-W26",
+  "weekStart": "2026-06-22",
+  "weekEnd": "2026-06-28",
+  "generatedAt": "2026-06-29T05:14:00Z",
+  "readingMinutes": 18,
+  "title": "Ugen: Talentkrig i AI, dansk varmerekord og forsvarskapital",
+  "dek": "En uge hvor frontier-AI’s kapløb om mennesker, chips og modeladgang spidsede til, mens en europæisk hedebølge satte dansk varmerekord og Golfen igen eskalerede.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-deepmind-talent-exodus-w26",
+      "eventKey": "google-deepmind-talent-exodus-2026-06",
+      "section": "AI",
+      "isLead": true,
+      "isOutsideProfile": false,
+      "headline": "Loss of top AI talent leaves some questioning if Google DeepMind can stay at AI’s forefront",
+      "primarySourceUrl": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/",
+      "subheadline": "Noam Shazeer og Nobelpris-modtager John Jumper er blandt mindst seks DeepMind-forskere, der på en uge skiftede til OpenAI, Anthropic og Meta — og Alphabet-aktien faldt.",
+      "materialFacts": [
+        "Gemini-medstifter Noam Shazeer forlod Google for OpenAI, mens AlphaFold-forskeren og keminobelpristager John Jumper skiftede til Anthropic inden for samme uge",
+        "Mindst seks seniorforskere — heriblandt Jonas Adler og Alexander Pritzel — forlod Google DeepMind til OpenAI, Anthropic og Meta i ugen op til 28. juni 2026",
+        "Alphabet-aktien faldt omkring 5-6 procent mandag 22. juni, da det andet store AI-navn på kort tid blev meldt på vej væk"
+      ],
+      "body": [
+        "Google DeepMind mistede i ugen op til 28. juni mindst seks seniorforskere til de nærmeste rivaler. Mest opsigtsvækkende skiftede Gemini-medstifter Noam Shazeer til OpenAI, og John Jumper, der i 2024 fik Nobelprisen i kemi for AlphaFold, gik til Anthropic. Også Jonas Adler og Alexander Pritzel, der har bidraget til Gemini, er på vej til Anthropic.",
+        "Afgangene faldt sammen med, at Alphabet-aktien mandag 22. juni faldt i omegnen af 5-6 procent. Flere medier koblede kursfaldet til bekymring for, om Google kan fastholde sine topfolk, mens Anthropic og OpenAI nærmer sig børsnoteringer og kan tilbyde før-IPO-aktier, som en børsnoteret koncern strukturelt har svært ved at matche.",
+        "Google har tidligere mistet og generhvervet talent i bølger, men koncentrationen af tunge navne på så kort tid er usædvanlig og rammer netop de laboratorier, der definerer frontier-modellerne."
+      ],
+      "whyItMatters": "Talent er den knappeste ressource i AI-kapløbet. Når de mennesker, der byggede Transformer-arkitekturen og AlphaFold, flytter samlet til konkurrenterne, flytter en del af den reelle kapacitet med — og markedet prissætter det med det samme.",
+      "analysis": "Mønstret peger på en strukturel ulempe for et børsnoteret selskab: pre-IPO-equity hos Anthropic og OpenAI er et rekrutteringsvåben, Alphabet vanskeligt kan kopiere. For en investoranalytiker er signalet mindre 'Google er færdig' og mere, at frontier-AI’s værdiskabelse i stigende grad bindes til enkeltpersoner og deres optioner, ikke kun til compute og data.",
+      "counterpoint": "Google DeepMind har stadig en af verdens dybeste forskerstabe og fuld adgang til Alphabets compute; enkeltafgange har før vist sig at være cykliske snarere end strukturelle, og koncernen har generhvervet talent tidligere (bl.a. Shazeer selv i 2024).",
+      "topics": [
+        "AI",
+        "teknologisk suverænitet",
+        "venturekapital",
+        "talent"
+      ],
+      "entities": [
+        "Google DeepMind",
+        "Noam Shazeer",
+        "John Jumper",
+        "Anthropic",
+        "OpenAI",
+        "Alphabet",
+        "Meta"
+      ],
+      "scores": {
+        "importance": 82,
+        "decisionValue": 70,
+        "novelty": 78,
+        "sourceQuality": 80,
+        "personalRelevance": 88,
+        "contrast": 74
+      },
+      "claims": [
+        {
+          "text": "Noam Shazeer skiftede til OpenAI og John Jumper til Anthropic inden for samme uge",
+          "sourceUrls": [
+            "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/",
+            "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mindst seks DeepMind-forskere forlod Google til OpenAI, Anthropic og Meta i ugen",
+          "sourceUrls": [
+            "https://www.techtimes.com/articles/319219/20260628/google-deepminds-coding-pivot-lost-six-researchers-meta-openai-anthropic.htm"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Alphabet-aktien faldt omkring 5-6 procent 22. juni i forbindelse med afgangene",
+          "sourceUrls": [
+            "https://qz.com/alphabet-stock-google-ai-researchers-openai-anthropic-062226",
+            "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Loss of top AI talent leaves some questioning if Google DeepMind can stay at AI’s forefront",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/",
+          "publishedAt": "2026-06-23T18:42:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Google DeepMind loses star power",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/06/23/ai-lab-agi-google-deepmind-departures",
+          "publishedAt": "2026-06-23T13:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Alphabet stock slides as Google loses two top AI researchers",
+          "publisher": "Quartz",
+          "url": "https://qz.com/alphabet-stock-google-ai-researchers-openai-anthropic-062226",
+          "publishedAt": "2026-06-22T19:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Google DeepMind’s Coding Pivot Lost Six Researchers to Meta, OpenAI, and Anthropic",
+          "publisher": "Tech Times",
+          "url": "https://www.techtimes.com/articles/319219/20260628/google-deepminds-coding-pivot-lost-six-researchers-meta-openai-anthropic.htm",
+          "publishedAt": "2026-06-28T14:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-stark-defence-500m-w26",
+      "eventKey": "stark-defence-500m-raise-2026-06",
+      "section": "Forsvar & venture",
+      "isLead": true,
+      "isOutsideProfile": false,
+      "headline": "Drones startup Stark confirms €500m raise backed by Sequoia and Founders Fund",
+      "primarySourceUrl": "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms",
+      "subheadline": "Den tyske dronevirksomhed Stark rejser 500 mio. euro i en runde ledet af Sequoia og Founders Fund — en af ugens største europæiske forsvars-venture-handler.",
+      "materialFacts": [
+        "Stark, en tysk forsvars-tech-virksomhed grundlagt i 2024 og baseret i Berlin, bekræftede 23. juni en runde på 500 mio. euro",
+        "Runden er ledet af Sequoia Capital og Founders Fund med deltagelse af bl.a. NATO Innovation Fund",
+        "Virksomheden bygger loitering munitions (angrebsdroner) og AI-styret kommando- og kontrolsoftware; vurderingen er rapporteret til over 3,5 mia. euro"
+      ],
+      "body": [
+        "Den tyske forsvars-tech-virksomhed Stark bekræftede 23. juni en kapitalrejsning på 500 mio. euro. Runden er ifølge Sifted ledet af Sequoia Capital og Founders Fund, med NATO Innovation Fund blandt de øvrige investorer. Stark blev grundlagt i 2024, er baseret i Berlin og udvikler loitering munitions — angrebsdroner — samt AI-assisteret kommando- og kontrolsoftware.",
+        "Handlen er en af ugens største europæiske forsvars-venture-runder og indskriver sig i en bredere optrapning af privat kapital til europæisk forsvars- og dual-use-teknologi. Stark er på under to år vokset til en rapporteret værdiansættelse over 3,5 mia. euro.",
+        "Runden falder i en periode, hvor europæiske stater og fonde søger at opbygge en hjemlig forsvarsindustriel base, og hvor amerikanske topinvestorer som Sequoia og Founders Fund i stigende grad allokerer til europæisk forsvar."
+      ],
+      "whyItMatters": "For en investor i transformative teknologier markerer runden, at europæisk forsvars-tech nu tiltrækker amerikansk venture i milliardklassen — et skift fra statslig til blandet finansiering af kontinentets sikkerhed, med direkte relevans for dual-use-porteføljer.",
+      "analysis": "Sequoias og Founders Funds lederskab signalerer, at forsvar ikke længere er et nicheområde, venture undgår af ESG-hensyn, men en vækstkategori. Spørgsmålet for kapitalallokatorer er, om de høje værdiansættelser (over 3,5 mia. euro på under to år) afspejler holdbar ordreindgang eller en momentumdrevet genopdagelse af sektoren.",
+      "topics": [
+        "forsvar",
+        "venturekapital",
+        "deeptech",
+        "droner",
+        "Europa",
+        "defence-tech"
+      ],
+      "entities": [
+        "Stark",
+        "Sequoia Capital",
+        "Founders Fund",
+        "NATO Innovation Fund",
+        "Tyskland"
+      ],
+      "scores": {
+        "importance": 76,
+        "decisionValue": 82,
+        "novelty": 74,
+        "sourceQuality": 78,
+        "personalRelevance": 92,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Stark bekræftede 23. juni en runde på 500 mio. euro ledet af Sequoia og Founders Fund",
+          "sourceUrls": [
+            "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms",
+            "https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Stark er en tysk virksomhed grundlagt i 2024, baseret i Berlin, der bygger loitering munitions",
+          "sourceUrls": [
+            "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Drones startup Stark confirms €500m raise backed by Sequoia and Founders Fund",
+          "publisher": "Sifted",
+          "url": "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms",
+          "publishedAt": "2026-06-23T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Stark bags €500M in new funding",
+          "publisher": "Tech.eu",
+          "url": "https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/",
+          "publishedAt": "2026-06-23T13:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-heat-record-37c-w26",
+      "eventKey": "dk-all-time-heat-record-37c-2026-06",
+      "section": "Klima & vejr",
+      "isLead": true,
+      "isOutsideProfile": true,
+      "headline": "Varme og uvejr: Ny dansk varmerekord sat i både Ødum og Odense",
+      "primarySourceUrl": "https://www.dmi.dk/nyheder/2026/varme-og-uvejr-ny-dansk-varmerekord-sat-i-baade-oedum-og-odense",
+      "subheadline": "DMI målte 37,0 grader lørdag 27. juni i Beldringe og Ødum — den højeste temperatur i dansk vejrhistorie, mens en europæisk hedebølge pressede kontinentet.",
+      "materialFacts": [
+        "DMI registrerede 37,0 grader lørdag 27. juni 2026 i Beldringe nord for Odense og i Ødum nord for Aarhus",
+        "Rekorden slår den tidligere danske varmerekord på 36,4 grader fra Holstebro 10. august 1975",
+        "Rekorden faldt under en fastlåst vejrsituation, der trak meget varm luft op over Europa fra Sahara"
+      ],
+      "body": [
+        "Danmarks Meteorologiske Institut målte lørdag 27. juni 37,0 grader i både Beldringe nord for Odense og Ødum nord for Aarhus. Det er den højeste temperatur i dansk vejrhistorie og slår den tidligere rekord på 36,4 grader, der blev sat i Holstebro 10. august 1975.",
+        "Rekorden faldt midt i en europæisk hedebølge, hvor en fastlåst vejrsituation i ugevis havde trukket meget varm luft op fra Sahara over først Spanien og Frankrig og siden Danmark. Lørdagen blev dermed den varmeste dag, der er målt herhjemme, siden de systematiske målinger begyndte i 1874.",
+        "DMI ledsagede varmen med varsler om kraftigt uvejr, da den ustabile, varme luftmasse også gav risiko for voldsom regn og torden."
+      ],
+      "whyItMatters": "En national alle-tiders-rekord, der overgår 1975-mærket med 0,6 grad, er et konkret, lokalt aftryk af et varmere klima og rejser umiddelbare spørgsmål om sundhedsberedskab, infrastruktur og energiforbrug under ekstrem varme.",
+      "analysis": "Enkeltrekorder beviser ikke i sig selv en trend, men rækkefølgen — Spaniens og Frankrigs rekorder få dage før, nu Danmarks — passer til klimamodellernes forventning om hyppigere og kraftigere hedebølger i Nordeuropa. For beslutningstagere flytter det varme­beredskab fra et sydeuropæisk til et dansk anliggende.",
+      "topics": [
+        "klima",
+        "vejr",
+        "Danmark",
+        "katastrofe"
+      ],
+      "entities": [
+        "DMI",
+        "Beldringe",
+        "Ødum",
+        "Holstebro",
+        "Danmark"
+      ],
+      "scores": {
+        "importance": 80,
+        "decisionValue": 55,
+        "novelty": 70,
+        "sourceQuality": 95,
+        "personalRelevance": 40,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "DMI målte 37,0 grader 27. juni 2026 i Beldringe og Ødum, ny dansk varmerekord",
+          "sourceUrls": [
+            "https://www.dmi.dk/nyheder/2026/varme-og-uvejr-ny-dansk-varmerekord-sat-i-baade-oedum-og-odense",
+            "https://www.dr.dk/nyheder/vejret/37-0-grader-gav-ny-dansk-varmerekord"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Den tidligere rekord var 36,4 grader fra Holstebro 10. august 1975",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/vejret/37-0-grader-gav-ny-dansk-varmerekord"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Varme og uvejr: Ny dansk varmerekord sat i både Ødum og Odense",
+          "publisher": "DMI",
+          "url": "https://www.dmi.dk/nyheder/2026/varme-og-uvejr-ny-dansk-varmerekord-sat-i-baade-oedum-og-odense",
+          "publishedAt": "2026-06-27T16:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "37,0 grader gav ny dansk varmerekord",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/vejret/37-0-grader-gav-ny-dansk-varmerekord",
+          "publishedAt": "2026-06-27T17:30:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-us-iran-gulf-strikes-w26",
+      "eventKey": "us-iran-gulf-strikes-2026-06",
+      "section": "Geopolitik",
+      "isLead": true,
+      "isOutsideProfile": false,
+      "headline": "Iran and US trade attacks as Strait of Hormuz ceasefire falters",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes",
+      "subheadline": "Irans Revolutionsgarde affyrede 28. juni missiler og droner mod amerikanske baser i Kuwait og Bahrain, mens en skrøbelig våbenhvile om Hormuzstrædet vaklede.",
+      "materialFacts": [
+        "Irans Revolutionsgarde (IRGC) affyrede 28. juni ballistiske missiler og droner mod den amerikanske base Ali Al Salem i Kuwait og mod den 5. flådes hovedkvarter i Bahrain",
+        "Iran beskrev angrebet som svar på tidligere amerikanske angreb mod fem iranske mål",
+        "Amerikanske myndigheder meldte om ingen tab eller større skader på amerikanske faciliteter; Bahrain fordømte angrebet som en krænkelse af landets suverænitet"
+      ],
+      "body": [
+        "Irans Revolutionsgarde affyrede søndag 28. juni ballistiske missiler og droner mod den amerikanske luftbase Ali Al Salem i Kuwait og mod den amerikanske 5. flådes hovedkvarter i Bahrain. Iran beskrev angrebet som et svar på tidligere amerikanske angreb mod fem iranske mål, og spændingen kom oven på en strid om passage gennem Hormuzstrædet.",
+        "Amerikanske myndigheder oplyste, at der ikke var tab eller større materielle skader på de amerikanske faciliteter. Bahrain fordømte angrebet som en krænkelse af landets suverænitet og advarede om, at det undergravede forsøg på at deeskalere.",
+        "Iransk statsmedie hævdede, at de ramte faciliteter var 'ødelagt' — en påstand, der ikke er bekræftet af uafhængige kilder, og som står i kontrast til den amerikanske melding om begrænset skade."
+      ],
+      "whyItMatters": "Direkte iranske angreb på amerikanske baser i Golfen trækker konflikten ud over Iran og Israel og truer både olietransport gennem Hormuz og en netop indgået, skrøbelig våbenhvile — med potentiale til at flytte energipriser og risikopræmier globalt.",
+      "analysis": "Mønstret — afmålte angreb mod militære mål med forhåndsvarsel og uden amerikanske tab — ligner tidligere iranske eskalationer, der signalerer styrke uden at fremtvinge fuld krig. Risikoen er fejlberegning: når begge sider veksler mellem angreb og forhandling, kan en enkelt hændelse med tab tippe balancen.",
+      "counterpoint": "Flere regionale aktører fremstiller angrebet som primært symbolsk og rettet mod at redde forhandlingspositionen indenrigspolitisk; i det lys er eskalationen reel, men kalibreret, ikke optakt til total krig.",
+      "topics": [
+        "geopolitik",
+        "Mellemøsten",
+        "sikkerhed",
+        "energi",
+        "USA",
+        "Iran"
+      ],
+      "entities": [
+        "Iran",
+        "USA",
+        "IRGC",
+        "Kuwait",
+        "Bahrain",
+        "Hormuzstrædet"
+      ],
+      "scores": {
+        "importance": 90,
+        "decisionValue": 72,
+        "novelty": 75,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "IRGC affyrede 28. juni missiler og droner mod Ali Al Salem i Kuwait og 5. flådes HQ i Bahrain",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes",
+            "https://www.pbs.org/newshour/world/iran-attacks-bahrain-and-kuwait-following-u-s-strikes-and-threatens-to-halt-talks"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USA meldte om ingen tab eller større skader; Bahrain fordømte angrebet",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iran and US trade attacks as Strait of Hormuz ceasefire falters",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/28/iran-attacks-kuwait-and-bahrain-in-response-to-us-strikes",
+          "publishedAt": "2026-06-28T09:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Iran attacks Bahrain and Kuwait following U.S. strikes and threatens to halt talks",
+          "publisher": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/iran-attacks-bahrain-and-kuwait-following-u-s-strikes-and-threatens-to-halt-talks",
+          "publishedAt": "2026-06-28T12:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-openai-gpt56-restricted-w26",
+      "eventKey": "openai-gpt56-sol-restricted-preview-2026-06",
+      "section": "AI",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "OpenAI releases its most powerful AI model to just 20 partners, each one approved by the US government",
+      "primarySourceUrl": "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
+      "subheadline": "OpenAI lancerede 26. juni GPT-5.6 i tre modeller — Sol, Terra og Luna — men kun til omkring 20 partnere, hvis navne er godkendt individuelt af den amerikanske regering.",
+      "materialFacts": [
+        "OpenAI offentliggjorde 26. juni en preview af GPT-5.6 i tre modeller: Sol (flagskib), Terra (mellemklasse) og Luna (hurtig og billig)",
+        "Den mest kraftfulde model, Sol, gøres tilgængelig for cirka 20 partnere, hvis navne er godkendt individuelt af den amerikanske regering",
+        "Det beskrives som første gang et amerikansk AI-selskab lancerer en frontier-model under en statsstyret adgangsliste"
+      ],
+      "body": [
+        "OpenAI lancerede 26. juni en begrænset preview af modelfamilien GPT-5.6 i tre størrelser: Sol som flagskib, Terra i mellemklassen og Luna som den hurtige og billige model. Adgangen til den kraftigste model, Sol, er ifølge The Next Web begrænset til omkring 20 partnere, hvis navne er godkendt individuelt af den amerikanske regering.",
+        "Arrangementet beskrives som første gang et amerikansk AI-selskab udsender en frontier-model under en statsstyret adgangsliste. Det føjer sig til en serie tiltag i 2026, hvor adgang til de mest avancerede amerikanske modeller knyttes til betroede partnere og myndighedsgodkendelse.",
+        "Generel tilgængelighed er stillet i udsigt 'i de kommende uger' uden en fast dato."
+      ],
+      "whyItMatters": "At adgang til en frontier-model nu går gennem en statsgodkendt liste, gør AI-kapacitet til et instrument for teknologisk suverænitet og eksportkontrol — direkte relevant for, hvem i Europa der overhovedet kan bygge på de bedste modeller.",
+      "analysis": "Modellen for 'betroet adgang' flytter magt fra marked til myndighed: når den amerikanske regering individuelt godkender hvilke ~20 organisationer, der får adgang, bliver frontier-AI et geoøkonomisk redskab. For europæiske aktører skærper det incitamentet til egen kapacitet og rejser spørgsmålet, om de havner inden- eller uden for listen.",
+      "topics": [
+        "AI",
+        "regulering",
+        "teknologisk suverænitet",
+        "geopolitik",
+        "agenter"
+      ],
+      "entities": [
+        "OpenAI",
+        "GPT-5.6",
+        "Sol",
+        "Terra",
+        "Luna",
+        "USA"
+      ],
+      "scores": {
+        "importance": 84,
+        "decisionValue": 80,
+        "novelty": 82,
+        "sourceQuality": 80,
+        "personalRelevance": 90,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "OpenAI lancerede 26. juni GPT-5.6 i modellerne Sol, Terra og Luna",
+          "sourceUrls": [
+            "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
+            "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Sol er begrænset til ca. 20 partnere godkendt individuelt af den amerikanske regering",
+          "sourceUrls": [
+            "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
+            "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI releases its most powerful AI model to just 20 partners, each one approved by the US government",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
+          "publishedAt": "2026-06-26T17:25:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI unveils GPT-5.6 Sol, Terra and Luna models — but only accessible to limited preview partners for now, per US Gov",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/openai-unveils-gpt-5-6-sol-terra-and-luna-models-but-only-accessible-to-limited-preview-partners-for-now-per-us-gov",
+          "publishedAt": "2026-06-26T20:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-openai-broadcom-jalapeno-w26",
+      "eventKey": "openai-broadcom-jalapeno-chip-2026-06",
+      "section": "AI & hardware",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "OpenAI unveils its first custom chip, built by Broadcom",
+      "primarySourceUrl": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+      "subheadline": "OpenAI præsenterede 24. juni 'Jalapeño', selskabets første egenudviklede inferens-chip, udviklet sammen med Broadcom og rettet mod billigere modelafvikling.",
+      "materialFacts": [
+        "OpenAI og Broadcom præsenterede 24. juni 'Jalapeño', OpenAIs første egenudviklede inferens-chip",
+        "Chippen er designet til inferens — at afvikle færdigtrænede modeller — og udviklet i samarbejde med Broadcom",
+        "Broadcom-CEO Hock Tan angav cirka 50 procents lavere omkostninger sammenlignet med typiske AI-GPU'er; første udrulning sigtes mod slutningen af 2026"
+      ],
+      "body": [
+        "OpenAI afslørede 24. juni sammen med Broadcom en custom-chip ved navn Jalapeño — selskabets første egenudviklede processor, målrettet inferens, altså afvikling af færdigtrænede modeller frem for træning. Chippen er udviklet i partnerskab med Broadcom.",
+        "Broadcom-topchef Hock Tan angav ifølge omtale omkostningsbesparelser i størrelsesordenen 50 procent sammenlignet med typiske AI-GPU'er. Første udrulning er ifølge selskaberne sigtet mod slutningen af 2026 med udvidelse de følgende år.",
+        "Skridtet føjer OpenAI til rækken af AI-selskaber, der reducerer afhængigheden af Nvidia ved at designe egne inferens-chips sammen med en etableret halvlederpartner."
+      ],
+      "whyItMatters": "Egne inferens-chips er nøglen til at sænke de løbende omkostninger ved at drive AI i stor skala. Lykkes besparelsen, ændrer det enhedsøkonomien for hele AI-industrien og svækker Nvidias prissætningsmagt.",
+      "analysis": "De angivne 50 procents besparelse er en leverandørpåstand, ikke en uafhængigt verificeret måling, og bør læses med forbehold. Men retningen er klar: de største AI-aktører internaliserer hardware for at kontrollere både omkostninger og forsyning — en vertikal integration, der på sigt kan omfordele værdi fra GPU-leverandører til model­ejerne.",
+      "topics": [
+        "AI",
+        "halvledere",
+        "deeptech",
+        "teknologisk suverænitet"
+      ],
+      "entities": [
+        "OpenAI",
+        "Broadcom",
+        "Hock Tan",
+        "Nvidia"
+      ],
+      "scores": {
+        "importance": 72,
+        "decisionValue": 68,
+        "novelty": 80,
+        "sourceQuality": 78,
+        "personalRelevance": 85,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "OpenAI og Broadcom præsenterede 24. juni Jalapeño, OpenAIs første egenudviklede inferens-chip",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+            "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Broadcoms ledelse angav ca. 50 procents lavere omkostninger vs. typiske AI-GPU'er (leverandørpåstand)",
+          "sourceUrls": [
+            "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI unveils its first custom chip, built by Broadcom",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+          "publishedAt": "2026-06-24T21:54:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI unveils first custom AI inference chip, Jalapeño, with Broadcom — and its development was sped-up with OpenAI’s own models",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/infrastructure/openai-unveils-first-custom-ai-inference-chip-jalapeno-with-broadcom-and-its-development-was-sped-up-with-openais-own-models",
+          "publishedAt": "2026-06-24T22:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-china-lineshine-top500-w26",
+      "eventKey": "china-lineshine-top500-no1-2026-06",
+      "section": "Compute",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "LineShine Debuts at No. 1 as the TOP500 Enters a New Global Exascale Era",
+      "primarySourceUrl": "https://www.top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/",
+      "subheadline": "Kinas LineShine nåede 2,198 exaflops og overtog 23. juni førstepladsen på TOP500-listen fra amerikanske El Capitan.",
+      "materialFacts": [
+        "LineShine opnåede 2,198 exaflops på High Performance Linpack-benchmarket og debuterede som nr. 1 på TOP500-listen 23. juni",
+        "Systemet er det første CPU-baserede system på listen, der overstiger 2 exaflops, svarende til cirka 80 procent af dets teoretiske top på 2,736 exaflops",
+        "LineShine fortrængte amerikanske El Capitan til andenpladsen og er installeret ved National Supercomputing Centre i Shenzhen"
+      ],
+      "body": [
+        "Den kinesiske supercomputer LineShine debuterede 23. juni som nummer ét på TOP500-listen med 2,198 exaflops på High Performance Linpack-benchmarket. Ifølge TOP500 er det det første CPU-baserede system, der passerer 2 exaflops, og det yder cirka 80 procent af sin teoretiske top på 2,736 exaflops.",
+        "Med debuten fortrængte LineShine den amerikanske maskine El Capitan til andenpladsen. Systemet er installeret ved National Supercomputing Centre i Shenzhen.",
+        "Bemærkelsesværdigt er, at ydelsen leveres uden afhængighed af amerikanske acceleratorer — et signal om, at Kina kan nå exascale ad en alternativ, CPU-tung vej."
+      ],
+      "whyItMatters": "Compute er en strategisk ressource på linje med energi. At Kina topper TOP500 med et CPU-baseret exascale-system uden amerikanske GPU'er, er en målbar markør i kapløbet om højtydende databehandling og teknologisk suverænitet.",
+      "analysis": "TOP500-placeringer er delvis prestige, men også en proxy for industriel kapacitet. At Kina demonstrerer exascale uden amerikansk hardware, undergraver eksportkontrollens logik om, at adgangsbegrænsning bremser kinesisk compute — og styrker argumentet for, at restriktioner fremmer hjemlig substitution.",
+      "topics": [
+        "højtydende databehandling",
+        "Kina",
+        "teknologisk suverænitet",
+        "deeptech",
+        "infrastruktur"
+      ],
+      "entities": [
+        "LineShine",
+        "TOP500",
+        "El Capitan",
+        "Kina",
+        "Shenzhen"
+      ],
+      "scores": {
+        "importance": 68,
+        "decisionValue": 55,
+        "novelty": 80,
+        "sourceQuality": 92,
+        "personalRelevance": 78,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "LineShine nåede 2,198 exaflops og blev nr. 1 på TOP500 23. juni, foran El Capitan",
+          "sourceUrls": [
+            "https://www.top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/",
+            "https://www.nextplatform.com/hpc/2026/06/25/a-deep-dive-on-chinas-lineshine-all-cpu-exaflops-class-supercomputer/5262439"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "LineShine er det første CPU-baserede TOP500-system over 2 exaflops, installeret i Shenzhen",
+          "sourceUrls": [
+            "https://www.top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LineShine Debuts at No. 1 as the TOP500 Enters a New Global Exascale Era",
+          "publisher": "TOP500",
+          "url": "https://www.top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/",
+          "publishedAt": "2026-06-23T12:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "A Deep Dive On China’s “LineShine” All-CPU, Exaflops-Class Supercomputer",
+          "publisher": "The Next Platform",
+          "url": "https://www.nextplatform.com/hpc/2026/06/25/a-deep-dive-on-chinas-lineshine-all-cpu-exaflops-class-supercomputer/5262439",
+          "publishedAt": "2026-06-25T12:00:00Z",
+          "kind": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "story-europe-heatwave-hospitals-w26",
+      "eventKey": "europe-heatwave-hospitals-2026-06",
+      "section": "Klima & sundhed",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Hospitals struggle as European heatwave moves east",
+      "primarySourceUrl": "https://www.euronews.com/my-europe/2026/06/26/hospitals-struggle-as-european-heatwave-moves-east",
+      "subheadline": "Den europæiske hedebølge pressede hospitaler i Frankrig, Storbritannien og Spanien og rykkede østpå mod Tyskland og Polen.",
+      "materialFacts": [
+        "Franske akutmodtagelser rapporterede en kraftig stigning i varmerelaterede besøg, og Paris nåede ifølge politichefen et 'mætningspunkt' på hospitalerne",
+        "Spaniens dødelighedsovervågning MoMo koblede 212 dødsfald til varmen i perioden 21.-24. juni",
+        "Mindst 101 millioner europæere oplevede temperaturer over 35 grader, mens hedebølgen rykkede østpå mod Tyskland og Polen"
+      ],
+      "body": [
+        "Den vedvarende hedebølge satte i ugen pres på sundhedsvæsenet i flere europæiske lande. I Frankrig meldte akutmodtagelser om markant flere varmerelaterede besøg, og Paris’ politichef talte om et 'mætningspunkt' på hospitalerne. I Storbritannien rapporterede Londons ambulancetjeneste rekordmange livstruende nødopkald på en enkelt dag.",
+        "Spaniens dødelighedsovervågning MoMo koblede 212 dødsfald til varmen mellem 21. og 24. juni. Ifølge opgørelser oplevede mindst 101 millioner europæere temperaturer over 35 grader, da varmen kulminerede.",
+        "Sidst på ugen rykkede hedebølgen østpå, og Tyskland og Polen udstedte varsler, samtidig med at den nåede sit danske toppunkt med en national varmerekord."
+      ],
+      "whyItMatters": "Hedebølgens dødelighed og pres på akutberedskabet viser, at ekstrem varme allerede er en folkesundhedskrise i Europa — ikke en fremtidig risiko — og at sundhedssystemer må dimensioneres efter et varmere klima.",
+      "analysis": "Dødstallene er foreløbige og baseret på statistisk overdødelighed, ikke individuelle dødsattester, så de er forbundet med usikkerhed. Men retningen er entydig: kapacitetsproblemerne flytter nordpå, og varmeberedskab bliver et planlægningsparameter også uden for Sydeuropa.",
+      "topics": [
+        "klima",
+        "global sundhed",
+        "Europa",
+        "katastrofe"
+      ],
+      "entities": [
+        "Frankrig",
+        "Spanien",
+        "Storbritannien",
+        "Tyskland",
+        "Paris"
+      ],
+      "scores": {
+        "importance": 78,
+        "decisionValue": 50,
+        "novelty": 60,
+        "sourceQuality": 80,
+        "personalRelevance": 38,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "Spaniens MoMo koblede 212 dødsfald til varmen 21.-24. juni; mindst 101 mio. europæere oplevede over 35 grader",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/24/deaths-disruptions-across-europe-what-you-should-know-about-the-heatwave",
+            "https://www.euronews.com/my-europe/2026/06/26/hospitals-struggle-as-european-heatwave-moves-east"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Franske akutmodtagelser og britiske ambulancetjenester meldte om kraftigt øget belastning under hedebølgen",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/06/26/hospitals-struggle-as-european-heatwave-moves-east"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hospitals struggle as European heatwave moves east",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/06/26/hospitals-struggle-as-european-heatwave-moves-east",
+          "publishedAt": "2026-06-26T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Deaths, disruptions across Europe: What you should know about the heatwave",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/24/deaths-disruptions-across-europe-what-you-should-know-about-the-heatwave",
+          "publishedAt": "2026-06-24T12:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-serbia-vucic-resignation-w26",
+      "eventKey": "serbia-vucic-resignation-snap-elections-2026-06",
+      "section": "Geopolitik",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Serbia’s President Aleksandar Vucic says will resign within ‘weeks’",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/27/serbias-president-aleksandar-vucic-says-will-resign-within-weeks",
+      "subheadline": "Serbiens præsident Aleksandar Vučić bebudede 27. juni, at han træder tilbage 'inden for uger' og udskriver nyvalg, efter 18 måneders studenterprotester.",
+      "materialFacts": [
+        "Aleksandar Vučić meddelte 27. juni ved et arrangement i Beograd, at han træder tilbage inden for uger og udskriver nyvalg",
+        "Beslutningen kommer efter cirka 18 måneders studenterledede antikorruptionsprotester udløst af en togstationsulykke i Novi Sad i november 2024, der dræbte 16 mennesker",
+        "Under den serbiske forfatning skal valg afholdes inden for 90 dage efter en præsidents tilbagetræden"
+      ],
+      "body": [
+        "Serbiens præsident Aleksandar Vučić bebudede lørdag 27. juni i Beograd, at han vil træde tilbage inden for få uger og udskrive nyvalg. 'Jeg vil kun være præsident i et par uger, og så træder jeg tilbage,' lød meldingen ifølge Al Jazeera.",
+        "Udmeldingen kommer efter omkring 18 måneders studenterledede antikorruptionsprotester, der blev udløst af sammenstyrtningen af et togstationstag i Novi Sad i november 2024, hvor 16 mennesker omkom. Vučić's mandat løber ellers til midten af 2027.",
+        "Ifølge den serbiske forfatning skal der afholdes valg inden for 90 dage efter en præsidents tilbagetræden, hvilket kan udløse en hurtig og uforudsigelig valgkamp."
+      ],
+      "whyItMatters": "Et magtskifte i Serbien påvirker stabiliteten på Vestbalkan og EU's udvidelsespolitik. At en stærk, langtidssiddende leder bøjer sig for en vedvarende protestbevægelse, er en sjælden og potentielt skelsættende begivenhed i regionen.",
+      "analysis": "Et bebudet, men endnu ikke effektueret, exit giver Vučić tid til at forme valgvilkårene. Om tilbagetrækningen reelt afgiver magt eller blot er en taktisk nulstilling, afgøres af, hvor frit og hvornår valget afholdes — og af, om protestbevægelsen kan omsætte gadepres til en organiseret politisk kraft.",
+      "topics": [
+        "geopolitik",
+        "Europa",
+        "politik",
+        "reformer"
+      ],
+      "entities": [
+        "Aleksandar Vučić",
+        "Serbien",
+        "Novi Sad",
+        "Beograd"
+      ],
+      "scores": {
+        "importance": 74,
+        "decisionValue": 50,
+        "novelty": 76,
+        "sourceQuality": 82,
+        "personalRelevance": 40,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "Vučić bebudede 27. juni at træde tilbage inden for uger og udskrive nyvalg",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/27/serbias-president-aleksandar-vucic-says-will-resign-within-weeks"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Protesterne udsprang af togstationsulykken i Novi Sad i november 2024, der dræbte 16",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/27/serbias-president-aleksandar-vucic-says-will-resign-within-weeks"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Serbia’s President Aleksandar Vucic says will resign within ‘weeks’",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/27/serbias-president-aleksandar-vucic-says-will-resign-within-weeks",
+          "publishedAt": "2026-06-27T12:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-russia-hybrid-baltics-w26",
+      "eventKey": "russia-hybrid-provocation-baltics-poland-2026-06",
+      "section": "Sikkerhed",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Latvia warns that Russia is planning hybrid attacks on the Baltics and Poland but says full-scale war is not imminent",
+      "primarySourceUrl": "https://meduza.io/en/feature/2026/06/23/latvia-warns-that-russia-is-planning-hybrid-attacks-on-the-baltics-and-poland-but-says-full-scale-war-is-not-imminent",
+      "subheadline": "Letlands efterretningstjeneste advarede om, at Rusland forbereder hybride angreb mod Baltikum og Polen — men vurderede, at fuldskala krig ikke er nært forestående.",
+      "materialFacts": [
+        "Letlands efterretningstjeneste advarede ~22.-23. juni om, at Rusland forbereder militære eller hybride provokationer mod Baltikum eller Polen",
+        "Tjenesten vurderede samtidig, at der aktuelt ikke er nogen militære trusler mod Letland",
+        "Rusland vurderes at mangle kapacitet til konventionel krig og at skulle bruge tre til fem år på at genopbygge tilstrækkelig militær styrke, selv hvis krigen i Ukraine ophørte"
+      ],
+      "body": [
+        "Letlands efterretningstjeneste advarede omkring 22.-23. juni om, at Rusland kan forberede militære eller hybride provokationer — herunder droner, missiler eller andre hybride operationer — mod de baltiske lande eller Polen. Formålet skulle ifølge tjenesten være at sende et signal om at stoppe støtten til Ukraine.",
+        "Samtidig understregede tjenesten, at der aktuelt ikke er nogen direkte militære trusler mod Letland. Rusland vurderes at mangle kapacitet til en konventionel krig mod NATO og at ville skulle bruge tre til fem år på at genopbygge tilstrækkelig militær styrke, selv hvis kampene i Ukraine ophørte med det samme.",
+        "Vurderingen indskriver sig i en bredere nordeuropæisk bekymring for hybride trusler mod den østlige flanke."
+      ],
+      "whyItMatters": "En kalibreret trusselsvurdering fra en frontlinjestat hjælper med at adskille reel risiko fra alarmisme: faren er hybrid og kortsigtet, mens en konventionel krig ligger år ude — en sondring, der bør forme både beredskab og investering i forsvar.",
+      "analysis": "Det interessante er nøgternheden: tjenesten nedtoner krigsfrygt og peger i stedet på provokationer under tærsklen for artikel 5. For NATO er udfordringen netop denne gråzone, hvor droner og sabotage er svære at tilskrive og besvare uden at eskalere.",
+      "topics": [
+        "sikkerhed",
+        "NATO",
+        "Rusland",
+        "hybridtrussel",
+        "Europa",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Letland",
+        "Rusland",
+        "NATO",
+        "Baltikum",
+        "Polen"
+      ],
+      "scores": {
+        "importance": 76,
+        "decisionValue": 60,
+        "novelty": 58,
+        "sourceQuality": 75,
+        "personalRelevance": 60,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Letlands efterretningstjeneste advarede om russiske hybride provokationer mod Baltikum/Polen, men så ingen aktuel militær trussel mod Letland",
+          "sourceUrls": [
+            "https://meduza.io/en/feature/2026/06/23/latvia-warns-that-russia-is-planning-hybrid-attacks-on-the-baltics-and-poland-but-says-full-scale-war-is-not-imminent",
+            "https://www.foxnews.com/world/russia-preparing-hybrid-attacks-natos-eastern-flank-intelligence-warns"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rusland vurderes at skulle bruge 3-5 år på at genopbygge kapacitet til konventionel krig",
+          "sourceUrls": [
+            "https://www.foxnews.com/world/russia-preparing-hybrid-attacks-natos-eastern-flank-intelligence-warns"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Latvia warns that Russia is planning hybrid attacks on the Baltics and Poland but says full-scale war is not imminent",
+          "publisher": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/06/23/latvia-warns-that-russia-is-planning-hybrid-attacks-on-the-baltics-and-poland-but-says-full-scale-war-is-not-imminent",
+          "publishedAt": "2026-06-23T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Russia preparing hybrid attacks on NATO’s eastern flank, intelligence warns",
+          "publisher": "Fox News",
+          "url": "https://www.foxnews.com/world/russia-preparing-hybrid-attacks-natos-eastern-flank-intelligence-warns",
+          "publishedAt": "2026-06-22T20:59:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-greenland-faroe-foreign-policy-w26",
+      "eventKey": "greenland-faroe-foreign-policy-autonomy-2026-06",
+      "section": "Rigsfællesskab",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Grønland og Færøerne vil gå solo på udenrigspolitikken",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/groenland/groenland-og-faeroeerne-vil-gaa-solo-paa-udenrigspolitikken",
+      "subheadline": "Grønland og Færøerne ønsker øget og mere ligeværdig udenrigspolitisk kompetence i rigsfællesskabet, og regeringen signalerer vilje til at se på det.",
+      "materialFacts": [
+        "Grønland og Færøerne ønsker større egen kompetence på udenrigspolitikken inden for rigsfællesskabet",
+        "Grønlands formand Jens-Frederik Nielsen og det færøske lagmandskontor ved Beinir Johannesen ser positivt på, at regeringen vil undersøge mere ligeværdighed",
+        "Begge ønsker bl.a. selvstændig deltagelse i internationale organisationer; en dansk dom fra september 2025 fastslog, at Færøerne kan tiltræde WTO selvstændigt"
+      ],
+      "body": [
+        "Grønland og Færøerne ønsker øget og mere ligeværdig udenrigspolitisk kompetence inden for rigsfællesskabet, og den danske regering signalerer vilje til at undersøge mulighederne. Grønlands formand Jens-Frederik Nielsen peger på, at de to rigsdele i dag ikke har fuld myndighed på udenrigsområdet.",
+        "Også det færøske lagmandskontor ved Beinir Johannesen udtrykker tilfredshed og henviser til politisk enighed på Færøerne om at gå videre i dialog med statsministeren. Begge rigsdele ønsker blandt andet selvstændig deltagelse i internationale organisationer.",
+        "En dom fra Højesteret i september 2025 fastslog, at Færøerne kan tiltræde WTO selvstændigt uden at bryde grundloven — et juridisk holdepunkt for ønsket om mere udenrigspolitisk råderum."
+      ],
+      "whyItMatters": "Spørgsmålet om udenrigspolitisk kompetence går til kernen af rigsfællesskabets fremtid og er skærpet af stormagtsinteressen for Arktis og Grønland. En forskydning af kompetence vil ændre, hvem der taler for riget i internationale fora.",
+      "analysis": "Sagen er mindre en akut konflikt end en langsom forfatningsmæssig forhandling, hvor Arktis’ geopolitiske vægt giver Nuuk og Tórshavn forhandlingskraft. For København er udfordringen at imødekomme ligeværdighed uden at fragmentere rigets udenrigspolitiske stemme i en tid med pres på Grønland.",
+      "topics": [
+        "rigsfællesskab",
+        "udenrigspolitik",
+        "Arktis",
+        "Grønland",
+        "indland"
+      ],
+      "entities": [
+        "Grønland",
+        "Færøerne",
+        "Jens-Frederik Nielsen",
+        "Beinir Johannesen",
+        "Danmark"
+      ],
+      "scores": {
+        "importance": 70,
+        "decisionValue": 62,
+        "novelty": 72,
+        "sourceQuality": 85,
+        "personalRelevance": 66,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Grønland og Færøerne ønsker større udenrigspolitisk kompetence, og regeringen vil undersøge det",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/groenland-og-faeroeerne-vil-gaa-solo-paa-udenrigspolitikken",
+            "https://www.sermitsiaq.ag/samfund/ny-regering-et-ligevaerdigt-rigsfaellesskab/2390171"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "En dansk højesteretsdom fra september 2025 fastslog, at Færøerne kan tiltræde WTO selvstændigt",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/groenland-og-faeroeerne-vil-gaa-solo-paa-udenrigspolitikken"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grønland og Færøerne vil gå solo på udenrigspolitikken",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/groenland/groenland-og-faeroeerne-vil-gaa-solo-paa-udenrigspolitikken",
+          "publishedAt": "2026-06-28T05:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ny regering: Et ligeværdigt rigsfællesskab",
+          "publisher": "Sermitsiaq",
+          "url": "https://www.sermitsiaq.ag/samfund/ny-regering-et-ligevaerdigt-rigsfaellesskab/2390171",
+          "publishedAt": "2026-06-27T12:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-merck-biotechne-acquisition-w26",
+      "eventKey": "merck-kgaa-biotechne-acquisition-2026-06",
+      "section": "Erhverv & biotek",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Merck KGaA, Darmstadt, Germany, Agrees to Acquire Bio-Techne, Strengthening Leadership Position in Fast-Growing Life Sciences Markets",
+      "primarySourceUrl": "https://investors.bio-techne.com/press-releases/detail/535/merck-kgaa-darmstadt-germany-agrees-to-acquire",
+      "subheadline": "Tyske Merck KGaA køber amerikanske Bio-Techne for 73 dollar per aktie, cirka 11,3 mia. dollar — selskabets største opkøb i over et årti.",
+      "materialFacts": [
+        "Merck KGaA (det tyske Merck, Darmstadt) indgik 25. juni aftale om at købe Bio-Techne for 73 dollar per aktie kontant, cirka 11,3 mia. dollar (9,9 mia. euro) i virksomhedsværdi",
+        "Buddet svarer til en præmie på cirka 36 procent over Bio-Technes volumenvægtede gennemsnitskurs over en måned, og aktien steg cirka 20 procent i førhandel",
+        "Det er Mercks største opkøb siden Sigma-Aldrich i 2014 og ventes lukket sent 2026 eller tidligt 2027"
+      ],
+      "body": [
+        "Tyske Merck KGaA med hovedsæde i Darmstadt indgik 25. juni aftale om at købe det amerikanske life science-selskab Bio-Techne for 73 dollar per aktie kontant — cirka 11,3 mia. dollar, svarende til 9,9 mia. euro, i virksomhedsværdi. Buddet er en præmie på omkring 36 procent over Bio-Technes gennemsnitskurs den seneste måned, og aktien steg cirka 20 procent i førhandel.",
+        "Merck KGaA, der ikke skal forveksles med amerikanske Merck & Co., begrunder opkøbet med at styrke positionen inden for multiomics, spatial biologi, celle- og genterapi samt forskningsværktøjer. Det er koncernens største opkøb siden Sigma-Aldrich i 2014.",
+        "Handlen ventes lukket sent i 2026 eller tidligt i 2027, med forventede årlige synergier i omegnen af 140 mio. euro."
+      ],
+      "whyItMatters": "Et opkøb på over 11 mia. dollar i forskningsværktøjer og diagnostik signalerer fornyet konsolidering i life science-værktøjsmarkedet — et investeringsfelt, hvor europæiske koncerner buder aggressivt på amerikanske aktiver.",
+      "analysis": "Den høje præmie afspejler både Bio-Technes position i voksende multiomics-segmenter og Mercks behov for at geninvestere efter års organisk vækst. For sektoren er handlen et signal om, at kapital igen flyder mod 'spader og skovle' — værktøjerne bag biotek — snarere end mod enkeltlægemidler.",
+      "topics": [
+        "bioteknologi",
+        "erhverv",
+        "opkøb",
+        "life science",
+        "Europa"
+      ],
+      "entities": [
+        "Merck KGaA",
+        "Bio-Techne",
+        "Darmstadt",
+        "Sigma-Aldrich"
+      ],
+      "scores": {
+        "importance": 72,
+        "decisionValue": 66,
+        "novelty": 64,
+        "sourceQuality": 90,
+        "personalRelevance": 58,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Merck KGaA køber Bio-Techne for 73 dollar/aktie, ca. 11,3 mia. dollar, annonceret 25. juni",
+          "sourceUrls": [
+            "https://investors.bio-techne.com/press-releases/detail/535/merck-kgaa-darmstadt-germany-agrees-to-acquire",
+            "https://www.cnbc.com/2026/06/25/germanys-merck-kgaa-to-buy-bio-techne.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Buddet er ca. 36 procents præmie; det er Mercks største opkøb siden Sigma-Aldrich i 2014",
+          "sourceUrls": [
+            "https://investors.bio-techne.com/press-releases/detail/535/merck-kgaa-darmstadt-germany-agrees-to-acquire"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Merck KGaA, Darmstadt, Germany, Agrees to Acquire Bio-Techne, Strengthening Leadership Position in Fast-Growing Life Sciences Markets",
+          "publisher": "Bio-Techne",
+          "url": "https://investors.bio-techne.com/press-releases/detail/535/merck-kgaa-darmstadt-germany-agrees-to-acquire",
+          "publishedAt": "2026-06-25T11:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Germany’s Merck boosts life sciences business with $11 billion Bio-Techne deal",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/25/germanys-merck-kgaa-to-buy-bio-techne.html",
+          "publishedAt": "2026-06-25T13:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-viking-textile-soeften-w26",
+      "eventKey": "dk-viking-textile-soeften-2026-06",
+      "section": "Kultur & historie",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "headline": "Moesgaard finder stor produktionsplads fra vikingetiden nord for Aarhus",
+      "primarySourceUrl": "https://moesgaardmuseum.dk/nyheder/fund-af-stort-produktionsmiljoe-fra-vikingetiden-nord-for-aarhus/",
+      "subheadline": "Arkæologer fra Moesgaard Museum har fundet en cirka 100.000 kvadratmeter stor tekstilproduktionsplads fra vikingetiden ved Søften nord for Aarhus.",
+      "materialFacts": [
+        "Moesgaard Museum har fundet en cirka 100.000 kvadratmeter stor specialiseret tekstilproduktionsplads ved Søften omkring 10 km nord for Aarhus",
+        "Udgravningen rummer 82 grubehuse samt fund som tenvægte, vævevægte, sølvfragmenter, mønter og perler, der peger på produktion og fjernhandel",
+        "Pladsen dateres til sen jernalder og tidlig vikingetid (cirka 600-950) og leverede formentlig til handelsbyen Aros (det tidlige Aarhus)"
+      ],
+      "body": [
+        "Arkæologer fra Moesgaard Museum har ved Søften omkring 10 km nord for Aarhus afdækket en usædvanlig stor, specialiseret tekstilproduktionsplads fra vikingetiden på cirka 100.000 kvadratmeter. Udgravningen blev gennemført fra august 2025 til juni 2026.",
+        "På stedet er fundet 82 grubehuse — nedgravede værkstedshuse — samt tenvægte, vævevægte, sølvfragmenter, mønter og perler. Fundene dækker hele tekstilproduktionens kæde og vidner om handelsforbindelser over lange afstande.",
+        "Pladsen dateres til sen jernalder og tidlig vikingetid, cirka 600-950, og leverede formentlig tekstiler til den fremvoksende handelsby Aros, det tidlige Aarhus. Fundet nuancerer billedet af vikingetiden som en organiseret produktions- og handelsøkonomi."
+      ],
+      "whyItMatters": "Fundet udvider forståelsen af vikingetidens økonomi fra plyndring til organiseret, specialiseret produktion og fjernhandel — en påmindelse om, at det førmoderne Danmark var dybere integreret i datidens netværk, end stereotypen tilsiger.",
+      "analysis": "En produktionsplads af denne størrelse antyder arbejdsdeling og overskudsproduktion til eksport, ikke kun selvforsyning. For forståelsen af tidlig dansk byudvikling kobler fundet håndværk på landet direkte til handelsbyens fremvækst — en lokal motor bag urbaniseringen.",
+      "topics": [
+        "kultur",
+        "historie",
+        "Danmark",
+        "samfund"
+      ],
+      "entities": [
+        "Moesgaard Museum",
+        "Søften",
+        "Aarhus",
+        "Aros"
+      ],
+      "scores": {
+        "importance": 52,
+        "decisionValue": 35,
+        "novelty": 82,
+        "sourceQuality": 88,
+        "personalRelevance": 50,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "Moesgaard fandt en ca. 100.000 m² tekstilproduktionsplads med 82 grubehuse ved Søften nord for Aarhus",
+          "sourceUrls": [
+            "https://moesgaardmuseum.dk/nyheder/fund-af-stort-produktionsmiljoe-fra-vikingetiden-nord-for-aarhus/",
+            "https://www.dr.dk/nyheder/indland/ny-udgravning-afsloerer-vikinger-var-langt-mere-civiliserede-end-hvad-mange-maaske-tror"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Pladsen dateres til ca. 600-950 og leverede formentlig til handelsbyen Aros",
+          "sourceUrls": [
+            "https://moesgaardmuseum.dk/nyheder/fund-af-stort-produktionsmiljoe-fra-vikingetiden-nord-for-aarhus/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Moesgaard finder stor produktionsplads fra vikingetiden nord for Aarhus",
+          "publisher": "Moesgaard Museum",
+          "url": "https://moesgaardmuseum.dk/nyheder/fund-af-stort-produktionsmiljoe-fra-vikingetiden-nord-for-aarhus/",
+          "publishedAt": "2026-06-25T08:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Ny udgravning afslører: Vikinger var langt mere civiliserede, end hvad mange måske tror",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/ny-udgravning-afsloerer-vikinger-var-langt-mere-civiliserede-end-hvad-mange-maaske-tror",
+          "publishedAt": "2026-06-25T10:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-grundskyld-it-error-w26",
+      "eventKey": "dk-property-tax-it-error-2026-06",
+      "section": "Indland",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Boligejere i tusindvis ramt af skattefejl: 'Dybt bekymrende' og 'tangerer ulovlig forvaltning'",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning",
+      "subheadline": "7.000-8.000 boligejere opkræves grundskyld for boliger, de allerede har solgt, på grund af en IT-fejl i Vurderingsstyrelsen.",
+      "materialFacts": [
+        "7.000-8.000 boligejere opkræves grundskyld for boliger, de allerede har solgt, på grund af en IT-fejl i Vurderingsstyrelsen",
+        "Fejlen betyder, at både tidligere og ny ejer opkræves grundskyld for samme bolig",
+        "Vurderingsstyrelsen kalder det en kendt fejl og har stillet en teknisk rettelse og tilbagebetaling i udsigt"
+      ],
+      "body": [
+        "Mellem 7.000 og 8.000 danske boligejere opkræves grundskyld for boliger, de allerede har solgt, på grund af en IT-fejl i Vurderingsstyrelsen. Fejlen, der skyldes problemer med dataoverførsel ved ejerskifte, betyder, at både den tidligere og den nye ejer opkræves grundskyld for samme ejendom.",
+        "DR beskriver konkrete tilfælde, hvor sælgere måneder efter en handel fortsat modtager opkrævninger. Kritikere kalder forholdet 'dybt bekymrende' og siger, at det 'tangerer ulovlig forvaltning'.",
+        "Vurderingsstyrelsen erkender, at der er tale om en kendt fejl, og har stillet en teknisk rettelse og tilbagebetaling i udsigt."
+      ],
+      "whyItMatters": "Fejlen rammer tusindvis af borgeres privatøkonomi direkte og rejser et principielt spørgsmål om retssikkerhed, når en myndighed opkræver skat på et faktuelt forkert grundlag og lader fejlen stå i måneder.",
+      "analysis": "Sagen føjer sig til en længere række af problemer i det danske ejendomsvurderings- og boligskattesystem. Mønstret peger på, at digitaliseringsgælden i den offentlige forvaltning fortsat udmønter sig i konkrete fejlopkrævninger, hvor bevisbyrden i praksis vælter over på borgeren.",
+      "topics": [
+        "indland",
+        "Danmark",
+        "forvaltning",
+        "økonomi"
+      ],
+      "entities": [
+        "Vurderingsstyrelsen",
+        "Skatteministeriet",
+        "Danmark"
+      ],
+      "scores": {
+        "importance": 58,
+        "decisionValue": 60,
+        "novelty": 55,
+        "sourceQuality": 85,
+        "personalRelevance": 64,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "7.000-8.000 boligejere opkræves grundskyld for boliger, de har solgt, pga. IT-fejl i Vurderingsstyrelsen",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning",
+            "https://www.dr.dk/nyheder/penge/kim-er-tvunget-til-betale-skat-en-bolig-han-ikke-ejer-jeg-staar-handlingslammet-tilbage"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Vurderingsstyrelsen erkender en kendt fejl og har stillet rettelse og tilbagebetaling i udsigt",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/kim-er-tvunget-til-betale-skat-en-bolig-han-ikke-ejer-jeg-staar-handlingslammet-tilbage"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Boligejere i tusindvis ramt af skattefejl: 'Dybt bekymrende' og 'tangerer ulovlig forvaltning'",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/boligejere-i-tusindvis-ramt-af-skattefejl-dybt-bekymrende-og-tangerer-ulovlig-forvaltning",
+          "publishedAt": "2026-06-27T04:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Kim er 'tvunget' til at betale skat for en bolig, han ikke ejer: 'Jeg står handlingslammet tilbage'",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/kim-er-tvunget-til-betale-skat-en-bolig-han-ikke-ejer-jeg-staar-handlingslammet-tilbage",
+          "publishedAt": "2026-06-27T04:30:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "thread-frontier-ai-race-w26",
+      "title": "Frontier-AI: kampen om modeller, chips og talenter spidser til",
+      "summary": "Ugen samlede tre spor i frontier-AI: Google DeepMind mistede mindst seks topforskere til OpenAI, Anthropic og Meta; OpenAI lancerede GPT-5.6 (Sol/Terra/Luna) bag en statsstyret adgangsliste; og OpenAI præsenterede med Broadcom sin første egenudviklede inferens-chip, Jalapeño. Tilsammen tegner de et kapløb, der nu føres på mennesker, modeladgang og hardware på én gang.",
+      "topics": [
+        "AI",
+        "teknologisk suverænitet",
+        "halvledere",
+        "talent"
+      ],
+      "storyIds": [
+        "story-deepmind-talent-exodus-w26",
+        "story-openai-gpt56-restricted-w26",
+        "story-openai-broadcom-jalapeno-w26"
+      ],
+      "sources": [
+        {
+          "title": "Loss of top AI talent leaves some questioning if Google DeepMind can stay at AI’s forefront",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/06/23/google-deepmind-ai-researcher-departures-raise-doubts-about-ability-to-win-the-ai-race-shazeer-jumper-eye-on-ai/",
+          "publishedAt": "2026-06-23T18:42:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI releases its most powerful AI model to just 20 partners, each one approved by the US government",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/openai-gpt-5-6-sol-limited-preview-government-approved-partners",
+          "publishedAt": "2026-06-26T17:25:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI unveils its first custom chip, built by Broadcom",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/",
+          "publishedAt": "2026-06-24T21:54:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "thread-europe-heatwave-w26",
+      "title": "Hedebølgen presser Europa og sætter dansk varmerekord",
+      "summary": "En fastlåst vejrsituation trak i ugevis Saharavarme op over Europa. Først satte Frankrig og Spanien rekorder og oplevede stigende dødelighed og pressede hospitaler; sidst på ugen kulminerede varmen i Danmark med en ny national rekord på 37,0 grader. Forløbet viser, hvordan ekstrem varme rykker nordpå som både sundheds- og infrastrukturkrise.",
+      "topics": [
+        "klima",
+        "global sundhed",
+        "Europa",
+        "vejr"
+      ],
+      "storyIds": [
+        "story-europe-heatwave-hospitals-w26",
+        "story-dk-heat-record-37c-w26"
+      ],
+      "sources": [
+        {
+          "title": "Hospitals struggle as European heatwave moves east",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/06/26/hospitals-struggle-as-european-heatwave-moves-east",
+          "publishedAt": "2026-06-26T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Varme og uvejr: Ny dansk varmerekord sat i både Ødum og Odense",
+          "publisher": "DMI",
+          "url": "https://www.dmi.dk/nyheder/2026/varme-og-uvejr-ny-dansk-varmerekord-sat-i-baade-oedum-og-odense",
+          "publishedAt": "2026-06-27T16:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "weekInNumbers": [
+    {
+      "label": "Ny dansk varmerekord, målt i Beldringe og Ødum 27. juni",
+      "value": "37,0",
+      "unit": "°C",
+      "asOf": "27. jun 2026",
+      "sourceUrl": "https://www.dmi.dk/nyheder/2026/varme-og-uvejr-ny-dansk-varmerekord-sat-i-baade-oedum-og-odense",
+      "sourceTitle": "Varme og uvejr: Ny dansk varmerekord sat i både Ødum og Odense"
+    },
+    {
+      "label": "Starks runde til europæisk forsvars-tech, ledet af Sequoia og Founders Fund",
+      "value": "500",
+      "unit": "mio. €",
+      "asOf": "23. jun 2026",
+      "sourceUrl": "https://sifted.eu/articles/stark-defence-drones-funding-round-confirms",
+      "sourceTitle": "Drones startup Stark confirms €500m raise backed by Sequoia and Founders Fund"
+    },
+    {
+      "label": "LineShines ydelse — ny nr. 1 på TOP500",
+      "value": "2,198",
+      "unit": "exaflops",
+      "asOf": "23. jun 2026",
+      "sourceUrl": "https://www.top500.org/news/lineshine-debuts-no-1-top500-enters-new-global-exascale-era/",
+      "sourceTitle": "LineShine Debuts at No. 1 as the TOP500 Enters a New Global Exascale Era"
+    },
+    {
+      "label": "Merck KGaA’s opkøb af Bio-Techne",
+      "value": "11,3",
+      "unit": "mia. $",
+      "asOf": "25. jun 2026",
+      "sourceUrl": "https://investors.bio-techne.com/press-releases/detail/535/merck-kgaa-darmstadt-germany-agrees-to-acquire",
+      "sourceTitle": "Merck KGaA, Darmstadt, Germany, Agrees to Acquire Bio-Techne, Strengthening Leadership Position in Fast-Growing Life Sciences Markets"
+    }
+  ],
+  "signals": [
+    {
+      "text": "Oracle cuts roughly 21,000 jobs in FY 26 amid expanded AI push",
+      "headline": "Oracle cuts roughly 21,000 jobs in FY 26 amid expanded AI push",
+      "publisher": "Business Today",
+      "section": "Erhverv",
+      "url": "https://www.businesstoday.in/technology/news/story/oracle-cuts-roughly-21000-jobs-in-fy-26-amid-expanded-ai-push-538598-2026-06-23",
+      "publishedAt": "2026-06-23T12:00:00Z",
+      "summary": "Oracle havde 141.000 ansatte pr. 31. maj, ned fra 162.000 året før — den største årlige reduktion i selskabets historie, midt i en AI-drevet omstrukturering."
+    },
+    {
+      "text": "Gold Price Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt",
+      "headline": "Gold Price Breaks Below $4,000 as Multi-Year Rally Grinds to a Halt",
+      "publisher": "Bloomberg",
+      "section": "Økonomi",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/gold-drops-below-4-100-as-tech-led-selloff-spurs-liquidation",
+      "publishedAt": "2026-06-23T16:00:00Z",
+      "summary": "Guldprisen brød under 4.000 dollar per ounce for første gang siden november 2025, trukket af en stærkere dollar og aftagende spændinger i Mellemøsten."
+    },
+    {
+      "text": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+      "headline": "Burkina Faso cuts diplomatic ties with former colonial ruler France",
+      "publisher": "Al Jazeera",
+      "section": "Geopolitik",
+      "url": "https://www.aljazeera.com/news/2026/6/26/burkina-faso-cuts-diplomatic-ties-with-former-colonial-ruler-france",
+      "publishedAt": "2026-06-26T12:00:00Z",
+      "summary": "Burkina Fasos militærstyre afbrød 26. juni de diplomatiske forbindelser med Frankrig og anklagede Paris for 'neokoloniale ambitioner'; Frankrig kaldte beslutningen fjendtlig og grundløs."
+    },
+    {
+      "text": "Australia to double social media ban fines for tech firms",
+      "headline": "Australia to double social media ban fines for tech firms",
+      "publisher": "RTÉ",
+      "section": "Regulering",
+      "url": "https://www.rte.ie/news/2026/0628/1580736-australia-social-media-ban/",
+      "publishedAt": "2026-06-28T12:00:00Z",
+      "summary": "Australien fordobler den maksimale bøde for systematiske brud på under-16-forbuddet fra 49,5 til 99 mio. australske dollar og styrker eSafety-kommissærens beføjelser."
+    },
+    {
+      "text": "Exclusive: Taktile raises $110 million from Goldman Sachs, Tiger Global to automate high-stakes financial decisions",
+      "headline": "Exclusive: Taktile raises $110 million from Goldman Sachs, Tiger Global to automate high-stakes financial decisions",
+      "publisher": "Fortune",
+      "section": "Venture",
+      "url": "https://fortune.com/2026/06/24/exclusive-taktile-goldman-sachs-ai-bank-insurance-funding/",
+      "publishedAt": "2026-06-24T13:00:00Z",
+      "summary": "Den tyske fintech Taktile rejste 110 mio. dollar i en Series C ledet af Goldman Sachs Alternatives med bl.a. Tiger Global og Index Ventures; samlet rejst kapital nu 184 mio. dollar."
+    },
+    {
+      "text": "Runpod Raises $100M Led by Summit Partners to Accelerate the AI Developer Cloud",
+      "headline": "Runpod Raises $100M Led by Summit Partners to Accelerate the AI Developer Cloud",
+      "publisher": "PR Newswire",
+      "section": "Venture",
+      "url": "https://www.prnewswire.com/news-releases/runpod-raises-100m-led-by-summit-partners-to-accelerate-the-ai-developer-cloud-302808689.html",
+      "publishedAt": "2026-06-24T16:00:00Z",
+      "summary": "AI-cloududbyderen Runpod rejste 100 mio. dollar ledet af Summit Partners til en værdi på 1 mia. dollar og afviste opkøbstilbud over 500 mio. dollar."
+    },
+    {
+      "text": "ESA’s Euclid captures the Milky Way’s crowded heart",
+      "headline": "ESA’s Euclid captures the Milky Way’s crowded heart",
+      "publisher": "ESA",
+      "section": "Videnskab",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Euclid/ESA_s_Euclid_captures_the_Milky_Way_s_crowded_heart",
+      "publishedAt": "2026-06-24T10:00:00Z",
+      "summary": "ESA udgav 24. juni Euclid-rumteleskopets Q2-datapakke med et seks-gigapixel-billede af Mælkevejens indre bulge og over 60 mio. stjerner — den største højopløste synslys-visning af galaksens centrum."
+    }
+  ],
+  "quality": {
+    "sourceIntegrity": 92,
+    "outsideProfileBalance": 80,
+    "primarySourceShare": 36,
+    "modsynRigor": 85,
+    "feedbackBoundedness": 88
+  }
+}
