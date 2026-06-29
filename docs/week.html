@@ -1036,53 +1036,83 @@ button { font: inherit; }
 .skip-link:focus { left: 8px; top: 8px; }
 
 /* ==========================================================================
-   "Vis som" layout switcher — a thin dark utility bar at the very top that
-   lets the reader compare/choose the four directions. Dark in every theme
-   (it is chrome, not content).
+   Top bar — a single light, theme-matching strip where the reader picks both
+   the edition (I dag / Ugen / Måneden) and the visual direction ("Vis som").
+   Replaces the old dark switcher bar + the boxed edition nav.
    ========================================================================== */
-.layout-nav-bar { width: 100%; }
-
-.layout-nav {
+.top-bar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  gap: 6px 16px;
+  width: 100%;
+  padding: 9px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--rule);
+}
+
+.top-bar-divider {
+  width: 1px;
+  height: 22px;
+  background: var(--rule);
+}
+
+.edition-nav,
+.layout-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   gap: 4px;
-  padding: 7px 12px;
-  background: #14110d;
-  color: #cdbfa9;
 }
 
 .layout-nav-label {
-  margin-right: 8px;
+  margin-right: 4px;
+  color: var(--muted);
   font-family: var(--font-label);
   font-size: 0.6rem;
   font-weight: 800;
   letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: #9a9082;
 }
 
+.edition-tab,
 .layout-tab {
   display: inline-flex;
   align-items: center;
-  min-height: 34px;
-  padding: 6px 13px;
+  min-height: 36px;
+  padding: 5px 14px;
   border: 0;
-  border-radius: 3px;
+  border-radius: 999px;
   background: transparent;
-  color: #cdbfa9;
+  color: var(--ink);
   font-family: var(--font-label);
-  font-size: 0.66rem;
+  font-size: 0.68rem;
   font-weight: 800;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
+  text-decoration: none;
   cursor: pointer;
 }
 
-.layout-tab:hover { color: #fff; }
-.layout-tab:focus-visible { outline: 2px solid rgba(255, 255, 255, 0.5); outline-offset: 2px; }
-.layout-tab.is-active { background: rgba(255, 255, 255, 0.14); color: #fff; }
+.edition-tab:hover,
+.layout-tab:hover {
+  background: color-mix(in srgb, var(--ink) 9%, transparent);
+}
+
+.edition-tab:focus-visible,
+.layout-tab:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Active = a calm, neutral pill (ink on its own bg), not the brand accent — the
+   chrome stays quiet so the news is the eye-catching thing. */
+.edition-tab.is-active,
+.layout-tab.is-active {
+  background: var(--ink);
+  color: var(--bg);
+}
 
 /* Footer quality line ("Redaktionel sikkerhed N · Kildebredde N"). */
 .quality-line {
@@ -1104,46 +1134,7 @@ button { font: inherit; }
    week-in-numbers panels. Mobile-first; columns are added at wider widths.
    ========================================================================== */
 
-.edition-nav {
-  display: flex;
-  justify-content: center;
-  gap: 6px;
-  margin: 0 auto 4px;
-  padding: 4px;
-  border: 1px solid var(--ink);
-  background: var(--paper-deep);
-}
-
-.edition-tab {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 44px;
-  min-width: 96px;
-  padding: 0 18px;
-  border-bottom: 3px solid transparent;
-  color: var(--ink);
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.edition-tab:hover {
-  border-bottom-color: var(--rule);
-}
-
-.edition-tab:focus-visible {
-  outline: 2px solid rgba(11, 103, 105, 0.45);
-  outline-offset: 2px;
-}
-
-.edition-tab.is-active {
-  background: var(--teal);
-  border-bottom-color: var(--teal);
-  color: #fff;
-}
+/* (edition-nav / edition-tab are styled in the Top bar section above.) */
 
 /* The weekly shell is wider than the frozen daily reading column so the
    co-equal featured grid can open up to 2–3 columns on desktop. It stays
@@ -1790,9 +1781,12 @@ button { font: inherit; }
 </head>
 <body>
   <a class="skip-link" href="#main">Spring til indhold</a>
-  <div id="layout-nav" class="layout-nav-bar"></div>
-  <header class="masthead">
+  <div class="top-bar">
     <nav id="edition-nav" class="edition-nav" aria-label="Vælg udgave"></nav>
+    <span class="top-bar-divider" aria-hidden="true"></span>
+    <div id="layout-nav" aria-label="Vis som"></div>
+  </div>
+  <header class="masthead">
     <div class="masthead-meta">
       <p id="brief-range"></p>
       <p id="brief-reading-time"></p>
@@ -2303,7 +2297,7 @@ button { font: inherit; }
 
   // src/web/layout.js
   var LAYOUTS = [
-    { key: "editorial", label: "Editorial", accent: "#a3122c", accents: ["#a3122c", "#0b6769", "#2a3f59", "#1f1c19"] },
+    { key: "editorial", label: "Standard", accent: "#a3122c", accents: ["#a3122c", "#0b6769", "#2a3f59", "#1f1c19"] },
     { key: "magazine", label: "Magasin", accent: "#e1452b", accents: ["#e1452b", "#16120e", "#0b6769", "#b3122e"] },
     { key: "feed", label: "Feed", accent: "#e23b46", accents: ["#e23b46", "#2f6df0", "#0b6769", "#7a3df0"] },
     { key: "dark", label: "M\xF8rk", accent: "#e0a955", accents: ["#e0a955", "#54b9ab", "#e0726f", "#c9a227"] }
