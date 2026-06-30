@@ -1,0 +1,840 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-06-30-v1",
+  "date": "2026-06-30",
+  "generatedAt": "2026-06-30T04:25:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Qualcomm køber sig ind i kampen mod Nvidias software-lås, Frankrig samler forsvarsdroner i Safran, og en dansk minister sender udenlandske datacentre bagerst i elkøen – plus en pille mod dværgvækst, og hjernen, der forstår sprog under fuld bedøvelse.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-qualcomm-modular-20260630",
+      "eventKey": "qualcomm-acquires-modular-2026",
+      "materialFacts": [
+        "Qualcomm (USA) køber AI-softwareselskabet Modular (USA), af flere amerikanske medier opgjort til knap 4 mia. dollar, overvejende i aktier",
+        "Modular, ledet af Chris Lattner, samler kørsel af AI-modeller på tværs af hardware og udfordrer Nvidias CUDA-lås",
+        "Handlen ventes lukket i 2. halvår 2026 med forbehold for myndighedsgodkendelse; Qualcomm er separat i drøftelser om at købe Tenstorrent for 8-10 mia. dollar"
+      ],
+      "section": "Teknologi",
+      "headline": "Qualcomm to Acquire Modular",
+      "primarySourceUrl": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx",
+      "subheadline": "Chipproducenten køber sig ind i softwarelaget oven på AI-chippene – netop dér, hvor Nvidias reelle magt sidder",
+      "body": [
+        "Chipproducenten Qualcomm køber AI-softwareselskabet Modular i en handel, som flere amerikanske medier opgør til knap fire milliarder dollar, overvejende i aktier. Begge selskaber er amerikanske; handlen ventes lukket i 2. halvår 2026 med forbehold for myndighedsgodkendelse.",
+        "Modular, ledet af stjerneprogrammøren Chris Lattner, har bygget et softwarelag, der kan køre AI-modeller på tværs af mange typer hardware. Det rammer Nvidias stærkeste forsvarsværk: CUDA, det softwareøkosystem, der i praksis binder udviklere til Nvidias chips. Qualcomm er samtidig i drøftelser om at købe chipselskabet Tenstorrent."
+      ],
+      "whyItMatters": "Kampen om AI handler ikke kun om de hurtigste chips, men om hvem der ejer softwarelaget oven på dem. Gør Qualcomm Modular til et troværdigt alternativ til CUDA, løsnes kunderne fra Nvidias greb – dér, hvor prissætningsmagten sidder.",
+      "analysis": "Opkøbet er en erkendelse af, at Nvidias reelle voldgrav er software, ikke silicium. Qualcomm køber sig adgang til udviklerne frem for at slå Nvidia på ydelse. Prøven bliver, om Modulars lag forbliver neutralt under en chipproducent med egne interesser.",
+      "counterpoint": "Tidligere forsøg på at bryde CUDA-låsen er strandet på, at udviklerne bliver, hvor værktøjerne er bedst.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Qualcomm_headquarters.jpg/960px-Qualcomm_headquarters.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Qualcomms hovedkvarter i San Diego (arkivfoto)",
+        "sourceUrl": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx"
+      },
+      "topics": [
+        "ai",
+        "halvledere",
+        "ai-infrastruktur",
+        "m&a",
+        "teknologisk suverænitet"
+      ],
+      "entities": [
+        "Qualcomm",
+        "Modular",
+        "Chris Lattner",
+        "Nvidia",
+        "Tenstorrent"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 80,
+        "novelty": 78,
+        "sourceQuality": 84,
+        "personalRelevance": 88,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Qualcomm køber Modular i en aktiebaseret handel opgjort til knap 4 mia. dollar.",
+          "sourceUrls": [
+            "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx",
+            "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Modular leverer et hardware-neutralt softwarelag, der udfordrer Nvidias CUDA; Qualcomm er separat i drøftelser om Tenstorrent for 8-10 mia. dollar.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Qualcomm to Acquire Modular",
+          "publisher": "Qualcomm",
+          "url": "https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx",
+          "publishedAt": "2026-06-24T13:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Qualcomm to buy AI software startup Modular to challenge Nvidia",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/qualcomm-ai-chip-modular-software.html",
+          "publishedAt": "2026-06-24T14:30:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-safran-exail-20260630",
+      "eventKey": "safran-acquires-exail-technologies-2026",
+      "materialFacts": [
+        "Safran (Frankrig) er i eksklusive forhandlinger om at købe sø-drone- og minerydningsproducenten Exail Technologies (Frankrig) til 128,5 euro pr. aktie",
+        "Handlen værdisætter Exail til omkring 2,2 mia. euro; Bloomberg omtalte forhandlingerne 26. juni",
+        "Safran køber først Gorgé-familiens kontrollerende post på ~44 pct. og fremsætter derefter et pligtmæssigt tilbud til minoritetsaktionærerne"
+      ],
+      "section": "Forsvar",
+      "headline": "France's Safran to buy sea drone maker Exail Technologies.",
+      "primarySourceUrl": "https://www.globaldefensecorp.com/2026/06/29/frances-safran-to-buy-sea-drone-maker-exail-technologies/",
+      "subheadline": "Maritime droner og autonom minerydning er blevet strategisk mangelvare – nu køber en fransk prime kapaciteten ind",
+      "body": [
+        "Den franske forsvarskoncern Safran er i eksklusive forhandlinger om at overtage Exail Technologies, en fransk producent af sø-droner og minerydningsfartøjer, til 128,5 euro pr. aktie. Handlen værdisætter Exail til omkring 2,2 milliarder euro.",
+        "Safran køber først Gorgé-familiens kontrollerende post på knap 44 procent og fremsætter derefter et pligtmæssigt tilbud til de øvrige aktionærer. Opkøbet føjer sig til en bølge af europæisk forsvarskonsolidering drevet af genoprustning."
+      ],
+      "whyItMatters": "Maritime droner og autonom minerydning er blevet strategisk mangelvare i en tid med trusler mod undersøiske kabler. At en prime som Safran køber evnen ind, viser, at den ikke kan vente på organisk vækst.",
+      "analysis": "Konsolideringen flytter europæisk forsvarsteknologi fra mange små specialister mod få store systemhuse. Det giver skala, men rejser spørgsmålet, om de miljøer, der skabte Exail, overlever i en stor koncern.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Standup_Ceremony_held_for_Unmanned_Surface_Vessel_Squadron_3_240517-N-UN585-1006.jpg/960px-Standup_Ceremony_held_for_Unmanned_Surface_Vessel_Squadron_3_240517-N-UN585-1006.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Ubemandet overfladefartøj (sø-drone), arkivfoto",
+        "sourceUrl": "https://www.globaldefensecorp.com/2026/06/29/frances-safran-to-buy-sea-drone-maker-exail-technologies/"
+      },
+      "topics": [
+        "forsvar",
+        "m&a",
+        "maritime droner",
+        "dual-use",
+        "teknologisk suverænitet",
+        "Frankrig"
+      ],
+      "entities": [
+        "Safran",
+        "Exail Technologies",
+        "Gorgé-familien",
+        "Bloomberg"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 74,
+        "novelty": 74,
+        "sourceQuality": 76,
+        "personalRelevance": 86,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Safran er i eksklusive forhandlinger om at købe Exail Technologies til 128,5 euro pr. aktie, ca. 2,2 mia. euro.",
+          "sourceUrls": [
+            "https://www.globaldefensecorp.com/2026/06/29/frances-safran-to-buy-sea-drone-maker-exail-technologies/",
+            "https://www.bloomberg.com/news/articles/2026-06-26/safran-is-said-to-study-deal-for-french-sea-drone-maker-exail"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Strukturen er køb af Gorgé-familiens post på ~44 pct. efterfulgt af et pligtmæssigt tilbud til minoritetsaktionærerne.",
+          "sourceUrls": [
+            "https://www.globaldefensecorp.com/2026/06/29/frances-safran-to-buy-sea-drone-maker-exail-technologies/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France's Safran to buy sea drone maker Exail Technologies.",
+          "publisher": "Global Defense Corp",
+          "url": "https://www.globaldefensecorp.com/2026/06/29/frances-safran-to-buy-sea-drone-maker-exail-technologies/",
+          "publishedAt": "2026-06-29T08:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Safran Is Said to Study Deal for French Sea Drone Maker Exail",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-26/safran-is-said-to-study-deal-for-french-sea-drone-maker-exail",
+          "publishedAt": "2026-06-26T15:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-general-intuition-20260630",
+      "eventKey": "general-intuition-series-a-2026",
+      "materialFacts": [
+        "General Intuition (New York, USA) rejste 320 mio. dollar i Series A til en værdiansættelse på 2,3 mia. dollar",
+        "Runden ledes af Khosla Ventures med deltagelse af bl.a. Jeff Bezos og General Catalyst",
+        "Selskabet træner rumligt ræsonnerende AI på milliarder af timers gameplay-optagelser via klip-platformen Medal"
+      ],
+      "section": "Venturekapital",
+      "headline": "General Intuition's $2.3B bet that video games can train AI agents for the real world",
+      "primarySourceUrl": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+      "subheadline": "Spildata skal lære maskiner den rumlige intuition, som tekstmodeller mangler",
+      "body": [
+        "Den New York-baserede startup General Intuition har rejst 320 millioner dollar i en Series A-runde, der værdisætter selskabet til 2,3 milliarder dollar. Runden ledes af Khosla Ventures med deltagelse af blandt andre Jeff Bezos og General Catalyst.",
+        "Idéen er at træne rumligt ræsonnerende AI på milliarder af timers gameplay-optagelser, indsamlet via klip-platformen Medal og annoteret med spillernes faktiske input. Målet er AI-agenter og robotter, der kan navigere i den fysiske verden – ikke blot generere tekst."
+      ],
+      "whyItMatters": "Spildata er en af de få kilder til milliarder af eksempler på handling og konsekvens i komplekse miljøer. Kan spil lære maskiner rumlig intuition, åbner det en billigere vej til robotik.",
+      "analysis": "Væddemålet er, at flaskehalsen i embodied AI er data, ikke modeller. Det placerer General Intuition i et kapløb med blandt andre Nvidia og Tesla om at lære maskiner at bevæge sig i verden.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/ASIMO_4.28.11.jpg/960px-ASIMO_4.28.11.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Humanoid robot (arkivfoto)",
+        "sourceUrl": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+      },
+      "topics": [
+        "venturekapital",
+        "ai",
+        "ai-agenter",
+        "robotteknologi",
+        "USA"
+      ],
+      "entities": [
+        "General Intuition",
+        "Khosla Ventures",
+        "Jeff Bezos",
+        "General Catalyst",
+        "Medal"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 68,
+        "novelty": 82,
+        "sourceQuality": 74,
+        "personalRelevance": 86,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "General Intuition rejste 320 mio. dollar i Series A til en værdi på 2,3 mia. dollar, ledet af Khosla Ventures med Jeff Bezos og General Catalyst.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+            "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Selskabet træner rumligt ræsonnerende AI på gameplay-optagelser via Medal med henblik på AI-agenter og robotter.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "General Intuition's $2.3B bet that video games can train AI agents for the real world",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/06/25/general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world/",
+          "publishedAt": "2026-06-25T13:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "General Intuition raises $320M, uses video game data to train robots",
+          "publisher": "The Robot Report",
+          "url": "https://www.therobotreport.com/general-intuition-raises-320m-uses-video-game-data-train-robots/",
+          "publishedAt": "2026-06-25T16:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-elnet-datacentre-20260630",
+      "eventKey": "akutplan-elnet-datacentre-bagerst",
+      "materialFacts": [
+        "Klima-, energi- og forsyningsminister Samira Nawa (RV) præsenterede 29. juni rammerne for en akutplan for det pressede danske elnet",
+        "Store udenlandske tech-giganters datacentre skal placeres bagerst i køen til nettilslutning",
+        "Planen skal prioritere forsvar, sundhed og danske elforbrugere foran de mest strømslugende anlæg"
+      ],
+      "section": "Teknologi",
+      "headline": "Sådan vil minister lave akutplan for presset elnet: Vil ramme »store, ufleksible« tech-giganter",
+      "primarySourceUrl": "https://ing.dk/artikel/saadan-vil-minister-lave-akutplan-presset-elnet-vil-ramme-store-ufleksible-tech-giganter",
+      "subheadline": "Udenlandske datacentre skal rykke bagerst i køen til det danske elnet",
+      "body": [
+        "Klima-, energi- og forsyningsminister Samira Nawa (Radikale Venstre) præsenterede 29. juni rammerne for en akutplan, der skal lette presset på det danske elnet. Kernen er, at store udenlandske tech-giganters datacentre skal rykkes bagerst i køen til nettilslutning.",
+        "Planen vil prioritere forsvar, sundhed og almindelige danske elforbrugere foran de mest strømslugende og »ufleksible« anlæg. Baggrunden er en voksende kø af projekter, der venter på at blive koblet på nettet."
+      ],
+      "whyItMatters": "Datacentre er blevet en politisk kampplads: de lover investeringer og job, men lægger beslag på knap elkapacitet. Spørgsmålet er, hvor meget dansk strøm der skal gå til andre landes databehov.",
+      "analysis": "At rangordne elkøen er et stærkt værktøj: staten kan styre adgangen til kritisk infrastruktur uden selv at bygge den. Men det kan også skræmme investeringer væk og kolliderer med ønsket om at tiltrække digital kapacitet.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Datacenter-telecom.jpg/960px-Datacenter-telecom.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Serverrækker i et datacenter (arkivfoto)",
+        "sourceUrl": "https://ing.dk/artikel/saadan-vil-minister-lave-akutplan-presset-elnet-vil-ramme-store-ufleksible-tech-giganter"
+      },
+      "topics": [
+        "energi",
+        "elnet",
+        "datacentre",
+        "teknologisk suverænitet",
+        "politik",
+        "Danmark"
+      ],
+      "entities": [
+        "Samira Nawa",
+        "Klima-, Energi- og Forsyningsministeriet",
+        "Energinet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 64,
+        "novelty": 70,
+        "sourceQuality": 74,
+        "personalRelevance": 80,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Samira Nawa præsenterede 29. juni en akutplan, hvor udenlandske datacentre placeres bagerst i køen til nettilslutning.",
+          "sourceUrls": [
+            "https://ing.dk/artikel/saadan-vil-minister-lave-akutplan-presset-elnet-vil-ramme-store-ufleksible-tech-giganter",
+            "https://www.version2.dk/artikel/amerikanske-datacentre-ryger-bagerst-i-elkoeen-men-deres-danske-kunder-er-glade"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sådan vil minister lave akutplan for presset elnet: Vil ramme »store, ufleksible« tech-giganter",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/saadan-vil-minister-lave-akutplan-presset-elnet-vil-ramme-store-ufleksible-tech-giganter",
+          "publishedAt": "2026-06-29T11:26:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Amerikanske datacentre ryger bagerst i elkøen – men deres danske kunder er glade",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/amerikanske-datacentre-ryger-bagerst-i-elkoeen-men-deres-danske-kunder-er-glade",
+          "publishedAt": "2026-06-29T13:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-skat-operationx-20260630",
+      "eventKey": "skattestyrelsen-identitetstyveri-fejl",
+      "materialFacts": [
+        "Skattestyrelsen indrømmer, at ofre for identitetstyveri blev opkrævet skat af pengeoverførsler, de aldrig selv foretog, efter TV 2-programmet 'Operation X'",
+        "Cirka 60 berørte borgere er identificeret, og omkring 85 mio. kr. i gæld er eftergivet",
+        "Skatteminister Jakob Engel-Schmidt kræver en uforbeholden undskyldning; direktør Thomas Hjortenberg beklager dybt"
+      ],
+      "section": "Politik",
+      "headline": "Skattestyrelsen indrømmer fejl efter 'Operation X'-program",
+      "primarySourceUrl": "https://nyheder.tv2.dk/live/2026-06-29-skattestyrelsen-indroemmer-fejl-efter-operation-x-program",
+      "subheadline": "Uskyldige ofre for identitetstyveri blev jagtet for andres svindel – nu eftergiver staten gælden",
+      "body": [
+        "Skattestyrelsen indrømmer alvorlige fejl, efter TV 2-programmet 'Operation X' afdækkede, at uskyldige ofre for identitetstyveri blev opkrævet skat af pengeoverførsler, de aldrig selv havde foretaget. Borgere blev altså jagtet for andres svindel.",
+        "Cirka 60 berørte borgere er nu identificeret, og omkring 85 millioner kroner i gæld er eftergivet. Skatteminister Jakob Engel-Schmidt kræver en uforbeholden undskyldning til de ramte, mens styrelsens direktør Thomas Hjortenberg dybt beklager forløbet."
+      ],
+      "whyItMatters": "Sagen rammer tilliden til et af statens mest indgribende systemer: kan myndigheden kræve penge af de forkerte og fastholde kravet, vendes bevisbyrden mod den enkelte.",
+      "analysis": "Fejlen handler mindre om enkeltsager end om automatik: opkræves der på data uden tilstrækkelig kontrol, rammes identitetstyveriets ofre to gange. Eftergivelsen lukker sagerne, men ikke spørgsmålet om, hvordan den kunne stå på så længe.",
+      "image": {
+        "url": "https://cdn-free.tv2i.dk/e/d/i/editorial/1/0/b/10b23898-7dbd-40e6-bc50-d561b72725c5?ixlib=js-3.8.0&w=624&h=351&q=45&auto=format&fit=crop&rect64=MCw3NDUsNzA5NiwzOTg2&s=71c86d15470310eec884d9479e8518ea",
+        "credit": "Kilde: TV 2",
+        "alt": "Skattestyrelsens kontorer (arkivfoto)",
+        "sourceUrl": "https://nyheder.tv2.dk/live/2026-06-29-skattestyrelsen-indroemmer-fejl-efter-operation-x-program"
+      },
+      "topics": [
+        "skat",
+        "identitetstyveri",
+        "forvaltning",
+        "retssikkerhed",
+        "Danmark"
+      ],
+      "entities": [
+        "Skattestyrelsen",
+        "Jakob Engel-Schmidt",
+        "Thomas Hjortenberg",
+        "Operation X"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 56,
+        "novelty": 70,
+        "sourceQuality": 72,
+        "personalRelevance": 58,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "Skattestyrelsen indrømmer fejl, hvor identitetstyveri-ofre blev opkrævet skat af overførsler, de aldrig foretog; ca. 60 borgere ramt og ca. 85 mio. kr. eftergivet.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/2026-06-29-skattestyrelsen-indroemmer-fejl-efter-operation-x-program"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Skatteminister Jakob Engel-Schmidt kræver en uforbeholden undskyldning; direktør Thomas Hjortenberg beklager dybt.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/2026-06-29-skattestyrelsen-indroemmer-fejl-efter-operation-x-program"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Skattestyrelsen indrømmer fejl efter 'Operation X'-program",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/live/2026-06-29-skattestyrelsen-indroemmer-fejl-efter-operation-x-program",
+          "publishedAt": "2026-06-29T18:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-bridgebio-achondroplasia-20260630",
+      "eventKey": "propel3-infigratinib-achondroplasia",
+      "materialFacts": [
+        "Fase 3-forsøget PROPEL 3 med oral infigratinib til børn med achondroplasi blev publiceret i New England Journal of Medicine 28. juni 2026",
+        "Den årlige væksthastighed steg med et mindste-kvadraters gennemsnit på +1,74 cm/år mod placebo (p<0,0001)",
+        "Ingen lægemiddelrelaterede alvorlige bivirkninger eller frafald; midlet har FDA's status som gennembrudsterapi"
+      ],
+      "section": "Videnskab",
+      "headline": "BridgeBio Announces Publication in the New England Journal of Medicine of Phase 3 PROPEL 3 Trial of Oral Infigratinib in Children Living with Achondroplasia",
+      "primarySourceUrl": "https://www.globenewswire.com/news-release/2026/06/28/3318616/0/en/BridgeBio-Announces-Publication-in-the-New-England-Journal-of-Medicine-of-Phase-3-PROPEL-3-Trial-of-Oral-Infigratinib-in-Children-Living-with-Achondroplasia.html",
+      "subheadline": "En pille mod den hyppigste form for dværgvækst viser klar væksteffekt i et fase 3-forsøg i NEJM",
+      "body": [
+        "Et fase 3-forsøg med den orale medicin infigratinib til børn med achondroplasi – den hyppigste form for dværgvækst – er offentliggjort i New England Journal of Medicine. Forsøget, kaldet PROPEL 3, er gennemført af det amerikanske selskab BridgeBio.",
+        "Børnene på medicinen voksede i gennemsnit 1,74 cm mere om året end børn på placebo, en statistisk klar forskel. Der blev ikke set lægemiddelrelaterede alvorlige bivirkninger eller frafald, og midlet har FDA's status som gennembrudsterapi."
+      ],
+      "whyItMatters": "En pille, der virker, ville være et reelt alternativ til de daglige indsprøjtninger, som i dag er standard – både på effekt og på en mindre belastende form.",
+      "analysis": "Resultatet styrker en bevægelse mod at behandle achondroplasi som en regulerbar vækstforstyrrelse. Men diskussionen om, hvorvidt tilstanden bør behandles medicinsk, forsvinder ikke – for mange er det et spørgsmål om identitet, ikke kun højde.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/A_Continuing_Promise_2015_physician_examines_a_child.jpg/960px-A_Continuing_Promise_2015_physician_examines_a_child.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Læge undersøger et barn (arkivfoto)",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/06/28/3318616/0/en/BridgeBio-Announces-Publication-in-the-New-England-Journal-of-Medicine-of-Phase-3-PROPEL-3-Trial-of-Oral-Infigratinib-in-Children-Living-with-Achondroplasia.html"
+      },
+      "topics": [
+        "medicin",
+        "klinisk forsøg",
+        "sjælden sygdom",
+        "biotek",
+        "USA"
+      ],
+      "entities": [
+        "BridgeBio Pharma",
+        "New England Journal of Medicine",
+        "FDA",
+        "infigratinib"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 56,
+        "novelty": 74,
+        "sourceQuality": 88,
+        "personalRelevance": 48,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "PROPEL 3 med oral infigratinib til børn med achondroplasi blev publiceret i NEJM 28. juni 2026; væksthastigheden steg med LS-gennemsnit +1,74 cm/år mod placebo (p<0,0001).",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/06/28/3318616/0/en/BridgeBio-Announces-Publication-in-the-New-England-Journal-of-Medicine-of-Phase-3-PROPEL-3-Trial-of-Oral-Infigratinib-in-Children-Living-with-Achondroplasia.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Der blev ikke set lægemiddelrelaterede alvorlige bivirkninger eller frafald; midlet har FDA Breakthrough Therapy-status.",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/06/28/3318616/0/en/BridgeBio-Announces-Publication-in-the-New-England-Journal-of-Medicine-of-Phase-3-PROPEL-3-Trial-of-Oral-Infigratinib-in-Children-Living-with-Achondroplasia.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "BridgeBio Announces Publication in the New England Journal of Medicine of Phase 3 PROPEL 3 Trial of Oral Infigratinib in Children Living with Achondroplasia",
+          "publisher": "GlobeNewswire (BridgeBio Pharma)",
+          "url": "https://www.globenewswire.com/news-release/2026/06/28/3318616/0/en/BridgeBio-Announces-Publication-in-the-New-England-Journal-of-Medicine-of-Phase-3-PROPEL-3-Trial-of-Oral-Infigratinib-in-Children-Living-with-Achondroplasia.html",
+          "publishedAt": "2026-06-28T12:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-pakistan-afghanistan-20260630",
+      "eventKey": "pakistan-afghanistan-june29-strikes",
+      "materialFacts": [
+        "Pakistan oplyser, at en jordoperation og 'kalibrerede angreb' 29. juni dræbte 29 militante i de afghanske provinser Paktia, Paktika og Kunar",
+        "Taliban siger angrebene dræbte mindst 36 civile; FN talte mindst 28 dræbte civile og 49 sårede, heriblandt kvinder og børn",
+        "Operationen fulgte et angreb i Karachi, der dræbte tre soldater; hundreder er dræbt i grænsekampe siden eskaleringen i februar 2026"
+      ],
+      "section": "Udland",
+      "headline": "Pakistan says its security forces killed 29 fighters along Afghan border",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border",
+      "subheadline": "To atombevæbnede naboer strides nu åbenlyst om, hvem de dræbte var",
+      "body": [
+        "Pakistan oplyser, at landets sikkerhedsstyrker 29. juni dræbte 29 militante i en jordoperation og »kalibrerede angreb« mod skjulesteder i de afghanske provinser Paktia, Paktika og Kunar. Operationen fulgte et angreb i Karachi, hvor tre soldater blev dræbt.",
+        "Taliban-styret i Afghanistan giver et helt andet billede og siger, at angrebene dræbte mindst 36 civile. FN talte mindst 28 dræbte civile og 49 sårede, heriblandt kvinder og børn."
+      ],
+      "whyItMatters": "To atombevæbnede naboer er gledet ind i gentagne grænseangreb med stærkt modstridende tabstal. Når de civile tab bestrides så åbenlyst, bliver enhver optrapning sværere at standse.",
+      "analysis": "Pakistans skift til åbne angreb på afghansk jord markerer en farligere fase end tidligere grænsetræfninger. FN's lavere, men stadig høje, civile tabstal antyder, at sandheden ligger mellem parternes tal – og at eskalationsrisikoen er reel.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Mountain_passes_Afghanistan_Pakistan_%28cropped%29.png",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Bjergpas ved grænsen mellem Afghanistan og Pakistan (arkivfoto)",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border"
+      },
+      "topics": [
+        "geopolitik",
+        "konflikt",
+        "Sydasien",
+        "grænsekonflikt"
+      ],
+      "entities": [
+        "Pakistan",
+        "Afghanistan",
+        "Taliban",
+        "FN"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 48,
+        "novelty": 66,
+        "sourceQuality": 76,
+        "personalRelevance": 40,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Pakistan siger en jordoperation og 'kalibrerede angreb' 29. juni dræbte 29 militante i Paktia, Paktika og Kunar.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Taliban opgør mindst 36 dræbte civile; FN talte mindst 28 dræbte civile og 49 sårede.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pakistan says its security forces killed 29 fighters along Afghan border",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/29/pakistan-says-its-security-forces-killed-29-fighters-along-afghan-border",
+          "publishedAt": "2026-06-29T16:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-anesthesia-language-20260630",
+      "eventKey": "hippocampus-language-under-anesthesia",
+      "materialFacts": [
+        "Forskere fra Baylor College of Medicine optog aktiviteten i hundredvis af enkelte nerveceller og fandt, at hippocampus forbliver meget aktiv under fuld bedøvelse",
+        "Bedøvede patienter skelnede stadig navneord, udsagnsord og tillægsord, mens de hørte oplæste historier, med neurale tegn på at forudsige det næste ord",
+        "Resultaterne, publiceret i Nature, gælder én bestemt bedøvelsestype og én hjerneregion"
+      ],
+      "section": "Videnskab",
+      "headline": "Researchers discover advanced language processing in the unconscious human brain",
+      "primarySourceUrl": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
+      "subheadline": "Hjernen skelner ordklasser og forudsiger ord – også når patienten er fuldt bedøvet",
+      "body": [
+        "Forskere fra Baylor College of Medicine har optaget aktiviteten i hundredvis af enkelte nerveceller hos patienter under hjernekirurgi og fundet, at hjernens hippocampus forbliver påfaldende aktiv selv under fuld bedøvelse. Resultaterne er offentliggjort i Nature.",
+        "Mens de bedøvede patienter hørte oplæste historier, skelnede deres hjerner stadig mellem navneord, udsagnsord og tillægsord – med neurale tegn på at forudsige det næste ord. Fundet gælder dog én bedøvelsestype og én hjerneregion."
+      ],
+      "whyItMatters": "Hvis avanceret sprogbearbejdning kan foregå uden bevidsthed, rykker det ved grænsen mellem at være bevidst og at være vågen – med betydning for både bedøvelse og forståelsen af bevidsthed.",
+      "analysis": "Fundet antyder, at sprogforståelse er mere automatisk og mindre afhængig af bevidst opmærksomhed, end antaget. Det spejler debatten om, hvad »forståelse« vil sige i kunstige sprogmodeller, der heller ikke er bevidste.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Hippocampus_and_seahorse_cropped.JPG",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Illustration af hippocampus i menneskehjernen",
+        "sourceUrl": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain"
+      },
+      "topics": [
+        "neurovidenskab",
+        "bevidsthed",
+        "anæstesi",
+        "sprog",
+        "psykologi"
+      ],
+      "entities": [
+        "Baylor College of Medicine",
+        "Texas Children's Hospital",
+        "Nature"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 46,
+        "novelty": 80,
+        "sourceQuality": 82,
+        "personalRelevance": 60,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "Optagelser af enkeltneuroner viste, at hippocampus forbliver aktiv under fuld bedøvelse, og at bedøvede patienter stadig skelnede ordklasser og forudsagde ord.",
+          "sourceUrls": [
+            "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Resultaterne er publiceret i Nature og gælder én bestemt bedøvelsestype og én hjerneregion.",
+          "sourceUrls": [
+            "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Researchers discover advanced language processing in the unconscious human brain",
+          "publisher": "Baylor College of Medicine",
+          "url": "https://www.bcm.edu/news/researchers-discover-advanced-language-processing-in-the-unconscious-human-brain",
+          "publishedAt": "2026-06-24T12:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Mirendil Raises $200M in Seed Funding at $1 Billion Valuation",
+      "url": "https://www.finsmes.com/2026/06/mirendil-raises-200m-in-seed-funding-at-1-billion-valuation.html",
+      "publisher": "FinSMEs",
+      "section": "Venturekapital",
+      "publishedAt": "2026-06-24T10:00:00Z",
+      "summary": "Mirendil, grundlagt af tidligere Anthropic-forskere, rejste 200 mio. dollar i seed til en værdi på 1 mia. dollar, co-ledet af a16z og Kleiner Perkins med Nvidia. En af de største seedrunder i AI-historien; selskabet vil bygge AI, der automatiserer AI-forskning.",
+      "text": "Mirendil Raises $200M in Seed Funding at $1 Billion Valuation"
+    },
+    {
+      "headline": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role",
+      "url": "https://techcrunch.com/2026/06/29/chamath-palihapitiya-raises-135m-series-a-for-his-ai-coding-startup-takes-ceo-role/",
+      "publisher": "TechCrunch",
+      "section": "Venturekapital",
+      "publishedAt": "2026-06-29T20:55:00Z",
+      "summary": "AI-kodningsstartup 8090 Labs (USA) lukkede en Series A på 135 mio. dollar ledet af Salesforce Ventures; Chamath Palihapitiya tager CEO-rollen. Produktet 'Software Factory' er en AI-kodningsagent til virksomhedsteams med revisionsspor og andre kontroller.",
+      "text": "Chamath Palihapitiya raises $135M Series A for his AI coding startup, takes CEO role"
+    },
+    {
+      "headline": "Brain-computer interface enables independent, accurate communication for man living with ALS",
+      "url": "https://health.ucdavis.edu/news/headlines/brain-computer-interface-enables-independent-accurate-communication-for-man-living-with-als/2026/06",
+      "publisher": "UC Davis Health",
+      "section": "Videnskab",
+      "publishedAt": "2026-06-22T12:00:00Z",
+      "summary": "En mand med ALS brugte et hjerneimplantat til at tale selvstændigt i mere end 3.800 timer over to år og producerede knap 2 mio. ord ved ca. 56 ord i minuttet. Publiceret i Nature Medicine – den længste demonstration af en BCI som dagligt kommunikationsværktøj.",
+      "text": "Brain-computer interface enables independent, accurate communication for man living with ALS"
+    },
+    {
+      "headline": "DOE Unveils Quantum Genesis Push to Accelerate Fault-Tolerant Quantum Computing",
+      "url": "https://thequantuminsider.com/2026/06/23/doe-unveils-quantum-genesis-push-to-accelerate-fault-tolerant-quantum-computing/",
+      "publisher": "The Quantum Insider",
+      "section": "Teknologi",
+      "publishedAt": "2026-06-23T09:00:00Z",
+      "summary": "Det amerikanske energiministerium lancerede 'Quantum Genesis' med mål om verdens første fejltolerante, videnskabeligt relevante kvantecomputer inden 2028 og logiske qubits 'i de lave hundreder'. Der blev ikke oplyst beløb i meddelelsen.",
+      "text": "DOE Unveils Quantum Genesis Push to Accelerate Fault-Tolerant Quantum Computing"
+    },
+    {
+      "headline": "TIDAL cracks down on AI music by cutting off monetization",
+      "url": "https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/",
+      "publisher": "TechCrunch",
+      "section": "Kultur",
+      "publishedAt": "2026-06-29T16:29:00Z",
+      "summary": "TIDAL vil fra 15. juli 2026 blokere fuldt AI-genererede numre fra at tjene penge eller indsamle royalties. Numrene mærkes med et 'AI'-badge, og AI-musik, der efterligner rigtige kunstnere, fjernes med automatiske værktøjer.",
+      "text": "TIDAL cracks down on AI music by cutting off monetization"
+    },
+    {
+      "headline": "Dansk AI-startup rejser stor investering: \"Vi kommer til at bygge den største juridiske database i hele Europa\"",
+      "url": "https://techsavvy.media/dansk-ai-startup-rejser-stor-investering-vi-kommer-til-at-bygge-den-stoerste-juridiske-database-i-hele-europa/",
+      "publisher": "TechSavvy",
+      "section": "Erhverv",
+      "publishedAt": "2026-06-23T07:00:00Z",
+      "summary": "Pandektes har rejst en seedinvestering på 22 mio. kr. fra People Ventures og Interface Capital. AI-løsningen hjælper jurister med hurtigt at finde love og domme og har over 100 betalende kunder blandt førende danske advokatfirmaer og offentlige institutioner.",
+      "text": "Dansk AI-startup rejser stor investering: \"Vi kommer til at bygge den største juridiske database i hele Europa\""
+    },
+    {
+      "headline": "Universiteterne fyrer direktør efter beskyldninger om spildte millioner og manglende resultater",
+      "url": "https://www.version2.dk/artikel/universiteterne-fyrer-direktoer-efter-bekyldninger-om-spildte-millioner-og-manglende-resultater",
+      "publisher": "Version2",
+      "section": "Forskning",
+      "publishedAt": "2026-06-30T03:00:00Z",
+      "summary": "DeiC-direktør Gitte Julin Kudsk er blevet fyret efter kritik af universiteternes fælles it-organisation. Fyringen følger en tidligere udskiftning af bestyrelsesformanden og kritik om 'spildte millioner' i supercomputer-samarbejdet.",
+      "text": "Universiteterne fyrer direktør efter beskyldninger om spildte millioner og manglende resultater"
+    },
+    {
+      "headline": "Lim til kunstige negle kan afgive giftig gasart, viser test",
+      "url": "https://nyheder.tv2.dk/samfund/2026-06-30-lim-til-kunstige-negle-kan-afgive-giftig-gasart-viser-test",
+      "publisher": "TV 2",
+      "section": "Sundhed",
+      "publishedAt": "2026-06-30T03:30:00Z",
+      "summary": "Miljøstyrelsen analyserede 27 neglelim-produkter; alle indeholdt acrylater, der kan udløse allergi, og flere afgiver formaldehyd. Ét produkt indeholdt bortrifluorid, som er forbudt i kosmetik. Resultaterne sendes til EU.",
+      "text": "Lim til kunstige negle kan afgive giftig gasart, viser test"
+    },
+    {
+      "headline": "DSB forlænger periode med færre tog grundet personalemangel",
+      "url": "https://nyheder.tv2.dk/trafik/2026-06-29-dsb-forlaenger-periode-med-faerre-tog-grundet-personalemangel",
+      "publisher": "TV 2",
+      "section": "Samfund",
+      "publishedAt": "2026-06-29T19:51:00Z",
+      "summary": "DSB forlænger perioden med færre regionaltog på Sjælland fra 30. juni til foreløbig 12. juli på grund af personalemangel, sygefravær, ferie og krævende sporarbejde. Flere strækninger kører kun én gang i timen.",
+      "text": "DSB forlænger periode med færre tog grundet personalemangel"
+    },
+    {
+      "headline": "5,000-Year-Old Monument Discovered Near Stonehenge",
+      "url": "https://archaeology.org/news/2026/06/22/5000-year-old-monument-discovered-near-stonehenge/",
+      "publisher": "Archaeology Magazine",
+      "section": "Videnskab",
+      "publishedAt": "2026-06-22T12:00:00Z",
+      "summary": "Et monument ved Bulford ca. 5 km fra Stonehenge er kulstofdateret til omkring 3000 f.Kr. To stolpehuller 120 meter fra hinanden flugtede forsvundne pæle med sommersolhvervets solopgang og vintersolhvervets solnedgang – præcist inden for én grad.",
+      "text": "5,000-Year-Old Monument Discovered Near Stonehenge"
+    },
+    {
+      "headline": "Famous 'Pink Planet' harbors a salty surprise",
+      "url": "https://news.northwestern.edu/stories/2026/06/famous-pink-planet-harbors-a-salty-surprise",
+      "publisher": "Northwestern Now",
+      "section": "Videnskab",
+      "publishedAt": "2026-06-18T12:00:00Z",
+      "summary": "James Webb-teleskopet fandt saltskyer i atmosfæren omkring GJ 504 b – det første direkte bevis på saltskyer i et så koldt objekt, teoretiseret for over 15 år siden. Planeten ligger 57 lysår væk, vejer ca. 25 Jupiter-masser og ser pink ud.",
+      "text": "Famous 'Pink Planet' harbors a salty surprise"
+    }
+  ],
+  "keyNumber": {
+    "label": "Ekstra årlig vækst med oral infigratinib",
+    "value": "+1,74",
+    "unit": "cm/år vs. placebo",
+    "asOf": "28. juni 2026",
+    "caption": "I fase 3-forsøget PROPEL 3 voksede børn med achondroplasi i gennemsnit 1,74 cm mere om året på den orale pille end på placebo – grundlaget for et muligt alternativ til daglige indsprøjtninger.",
+    "sourceUrl": "https://www.globenewswire.com/news-release/2026/06/28/3318616/0/en/BridgeBio-Announces-Publication-in-the-New-England-Journal-of-Medicine-of-Phase-3-PROPEL-3-Trial-of-Oral-Infigratinib-in-Children-Living-with-Achondroplasia.html",
+    "sourceTitle": "BridgeBio Announces Publication in the New England Journal of Medicine of Phase 3 PROPEL 3 Trial of Oral Infigratinib in Children Living with Achondroplasia"
+  },
+  "recommendations": [
+    {
+      "id": "rec-mensch-vassal-state-20260630",
+      "mode": "watch",
+      "kind": "Interview",
+      "status": "timely",
+      "title": "Europe's $14 Billion AI Challenger | Mistral CEO Arthur Mensch",
+      "creator": "Arthur Mensch (Mistral AI) i samtale med Arjun Kharpal",
+      "provider": "CNBC International",
+      "url": "https://www.youtube.com/watch?v=325gGv0eWV8",
+      "availability": "Gratis på YouTube (CNBC International), hele verden",
+      "commitment": "ca. 25 min",
+      "description": "Mistrals topchef Arthur Mensch om at bygge Europas største AI-lab: knaphed på compute, egne chips, og hans advarsel om, at Europa har cirka to år til at bygge suveræn AI-infrastruktur eller ende som en amerikansk »vassal state«.",
+      "rationale": "Den skarpeste aktuelle formulering af tesen om teknologisk suverænitet – fra den, der eksekverer den. Den rammer direkte ind i EIFO's transformative-investments-mandat og dagens historier om datacentre og AI-infrastruktur, men med en europæisk modstemme frem for en politisk readout.",
+      "topics": [
+        "teknologisk suverænitet",
+        "AI",
+        "Europa",
+        "compute",
+        "venturekapital"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://i.ytimg.com/vi/325gGv0eWV8/hqdefault.jpg",
+        "credit": "Kilde: CNBC International/YouTube",
+        "alt": "Mistral-stifter Arthur Mensch interviewet af CNBC",
+        "sourceUrl": "https://www.youtube.com/watch?v=325gGv0eWV8"
+      }
+    },
+    {
+      "id": "rec-techsurge-semiconductor-supercycle-20260630",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Battle for the AI Data Center: Deep Dive on the Semiconductor Supercycle with Stacy Rasgon",
+      "creator": "Michael Marks (TechSurge) med Stacy Rasgon, Bernstein",
+      "provider": "TechSurge (Celesta Capital)",
+      "url": "https://www.techsurgepodcast.com/podcasts/battle-for-the-ai-data-center-deep-dive-on-the-semiconductor-supercycle-with-stacy-rasgon",
+      "availability": "Gratis på TechSurge, Apple Podcasts, Spotify og YouTube",
+      "commitment": "ca. 53 min",
+      "description": "Bernsteins seniorhalvlederanalytiker Stacy Rasgon forklarer de fire typer chipcyklusser og argumenterer for, at AI-efterspørgslen har udløst den første ægte supercyklus i hans karriere – med konkrete bud på ASIC-andele, Broadcom og kinesiske hukommelsesproducenter.",
+      "rationale": "En sell-side-analytikers ramme for at læse kapløbet om compute er præcis den beslutningsnære linse, dagens Qualcomm-Modular-handel kalder på. Analytiker-til-analytiker, konkrete tal frem for stemninger, og koblet til både din deeptech- og suverænitetsinteresse.",
+      "topics": [
+        "halvledere",
+        "ai-datacentre",
+        "compute",
+        "investering",
+        "Kina"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-european-deep-tech-report-20260630",
+      "mode": "read",
+      "kind": "Rapport",
+      "status": "new",
+      "title": "The 2026 European Deep Tech Report",
+      "creator": "Lakestar, Walden Catalyst & Dealroom",
+      "provider": "deeptech.report",
+      "url": "https://deeptech.report/2026",
+      "availability": "Gratis 242-siders PDF mod en arbejdsmail; ingen betalingsmur",
+      "commitment": "242 sider (kan skimmes pr. segment)",
+      "description": "Årlig datadrevet kortlægning af europæisk deep tech: 690 mia. dollar i virksomhedsværdi, 20,3 mia. dollar i venturekapital i 2025 og 125 enhjørninger. Segmenter: AI, fremtidens compute, robotteknologi, computational bio, energi, rumfart og forsvar.",
+      "rationale": "Det mest beslutningsnyttige enkeltdokument for netop dit skrivebord: europæisk deep tech opdelt på segment med finansierings-, talent- og exit-data. Mere Europa-specifik og kvantitativ end de globale AI-rapporter – og gratis.",
+      "topics": [
+        "deeptech",
+        "venturekapital",
+        "Europa",
+        "forsvar",
+        "teknologisk suverænitet"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-the-wax-child-ravn-20260630",
+      "mode": "read",
+      "kind": "Roman",
+      "status": "timely",
+      "title": "The Wax Child",
+      "creator": "Olga Ravn (oversat af Martin Aitken)",
+      "provider": "New Directions",
+      "url": "https://www.ndbooks.com/book/the-wax-child/",
+      "availability": "Købes; indbundet ca. 19,95 dollar, også som e-bog og lydbog",
+      "commitment": "176 sider",
+      "description": "Roman af den danske forfatter til 'De ansatte', fortalt af en voksdukke og bygget på faktiske nordjyske hekseprocesser fra 1600-tallet, vævet sammen med originale besværgelser, retsprotokoller og skandinaviske grimoirer. Langlistet til International Booker 2026.",
+      "rationale": "Dit serendipitets-valg og et hjemligt et: en dansk forfatter på toppen af international anerkendelse, fortalt fra en ikke-menneskelig synsvinkel – et litterært spejl til dine interesser i bevidsthed og agens, via historie og håndværk frem for teknologi. Kort nok til faktisk at blive læst ud.",
+      "topics": [
+        "litteratur",
+        "Danmark",
+        "historie",
+        "kreativitet"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 83,
+    "sourceDiversity": 88,
+    "verification": 85
+  }
+}
