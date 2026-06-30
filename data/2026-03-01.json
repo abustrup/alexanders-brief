@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20260301",
+  "date": "2026-03-01",
+  "generatedAt": "2026-03-01T06:00:00.000Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "Iran officielt bekraeftede 1. marts 2026 at oberste leder Ali Khamenei var draebt i et amerikansk-israelsk angreb, udloste 40 dages landesorg og en bolge af gengaeldelse paa tvaers af regionen - dagen",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20260301-1",
+      "eventKey": "iran-khamenei-death-confirmed",
+      "materialFacts": [
+        "Iransk statsmedie bekraeftede Khameneis dod 1. marts 2026; selve angrebet skete 28. februar 2026.",
+        "Praesident Pezeshkian erklaerede 40 dages landesorg plus syv dages helligdage og kaldte drabet 'en stor forbrydelse'.",
+        "Khameneis datter, svigerson, svigerdatter og barnebarn blev ogsaa draebt; Roede Halvmaane angav mindst 201 doede i 24 provinser.",
+        "Et midlertidigt lederraad med praesidenten, justitschefen og ayatollah Alireza Arafi overtog magten."
+      ],
+      "section": "Verden",
+      "headline": "Iran bekraefter: Khamenei draebt i amerikansk-israelsk angreb, 40 dages landesorg erklaeret",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
+      "subheadline": "Praesident Pezeshkian kalder drabet 'en stor forbrydelse', mens et midlertidigt lederraad overtager magten i Teheran",
+      "body": [
+        "Irans statslige medier bekraeftede lordag den 1. marts 2026, at den oberste leder ayatollah Ali Khamenei var blevet draebt i et koordineret amerikansk-israelsk angreb mod Teheran. Angrebet fandt sted dagen for, den 28. februar.",
+        "Praesident Masoud Pezeshkian erklaerede 40 dages national sorg samt syv dages helligdage og fordomte drabet som 'en stor forbrydelse'. Et midlertidigt tremandsraad bestaaende af praesidenten, justitschefen og ayatollah Alireza Arafi overtog ledelsen, indtil en ny oberste leder kunne vaelges.",
+        "Sammen med Khamenei blev hans datter, svigerson, svigerdatter og et barnebarn draebt. Iranske Roede Halvmaane angav mindst 201 doede paa tvaers af 24 provinser efter angrebsbolgen."
+      ],
+      "whyItMatters": "Drabet paa Khamenei fjernede den mand, der havde defineret Irans politiske og religiose linje i over tre aartier, og kastede en atommagt-aspirant ud i akut lederskabskrise midt i en aaben krig. Det markerede et vendepunkt, hvor USA og Israel for forste gang aabent likviderede en regional magts overhoved, med uforudsigelige folger for hele Mellemosten.",
+      "analysis": "Bekraeftelsen 1. marts forvandlede en militaer operation til et historisk politisk jordskaelv. Det midlertidige lederraad signalerede, at regimet ville forsoge kontinuitet frem for kollaps, men de blandede folelser i gaderne - sorg nogle steder, fejring andre - afslorede et dybt splittet land. Sporgsmaalet var ikke laengere om Iran ville gengaelde, men hvor langt eskalationen kunne gaa, for den trak hele Golfen og stormagterne ind.",
+      "topics": [
+        "geopolitik",
+        "mellemosten",
+        "konflikt"
+      ],
+      "entities": [
+        "Ali Khamenei",
+        "Iran",
+        "Masoud Pezeshkian",
+        "Israel",
+        "USA",
+        "Alireza Arafi"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 98,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Iransk statsmedie bekraeftede Khameneis dod 1. marts 2026; selve angrebet skete 28. februar 2026.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
+            "https://en.wikipedia.org/wiki/Assassination_of_Ali_Khamenei",
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iran begins 40-day mourning after Khamenei killed in US-Israeli attack",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
+          "publishedAt": "2026-03-01T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Assassination of Ali Khamenei",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Assassination_of_Ali_Khamenei",
+          "publishedAt": "2026-03-01T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Portal:Current events/2026 March 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+          "publishedAt": "2026-03-01T23:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260301-2",
+      "eventKey": "iran-retaliation-strikes",
+      "materialFacts": [
+        "US Central Command bekraeftede tre amerikanske soldater draebt og fem saaret i et iransk missilangreb 1. marts 2026.",
+        "Iranske angreb ramte maal i Bahrain, Oman, UAE og Cypern, herunder RAF Akrotiri-basen.",
+        "Ni mennesker blev draebt og 49 saaret i et missilangreb paa en synagoge i Beit Shemesh i Israel.",
+        "Den amerikanske flaade saenkede den iranske Moudge-klasse fregat IRIS Jamaran."
+      ],
+      "section": "Verden",
+      "headline": "Iran svarer igen: missiler og droner rammer amerikanske og israelske maal i flere lande",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+      "subheadline": "Tre amerikanske soldater draebt, en synagoge i Israel ramt, og Revolutionsgarden lover haevn",
+      "body": [
+        "Som svar paa drabet paa Khamenei indledte Iran den 1. marts 2026 en omfattende gengaeldelsesbolge mod amerikanske og israelske maal. US Central Command bekraeftede, at tre amerikanske soldater blev draebt og fem haardt saaret i et iransk missilangreb.",
+        "Iranske droner og missiler ramte maal i Bahrain, Oman, De Forenede Arabiske Emirater og Cypern, herunder den britiske RAF Akrotiri-base. I Israel blev ni mennesker draebt og 49 saaret i et angreb paa en synagoge i Beit Shemesh.",
+        "Revolutionsgarden (IRGC) lovede haevn og haevdede at have ramt 27 baser med amerikanske tropper samt israelske militaere maal. Det amerikanske flaade saenkede til gengaeld den iranske fregat IRIS Jamaran."
+      ],
+      "whyItMatters": "Gengaeldelsen viste, at krigen ikke var et begraenset luftangreb, men en regional konflikt, der trak Golfstaterne, Storbritannien og NATO-installationer direkte ind i skudlinjen. Amerikanske tab paa jorden hojnede den indenrigspolitiske indsats i Washington og oegede risikoen for, at konflikten kunne glide ud af kontrol.",
+      "analysis": "Mons treden af angreb paa tvaers af mindst fem lande demonstrerede Irans evne til at ramme bredt, selv efter tabet af sin oberste leder. For Golfstaterne, der husede de ramte baser, blev neutralitet pludselig umulig. Den hurtige amerikanske gengaeldelse til sos signalerede, at Washington ikke ville lade tabene staa ubesvarede - en dynamik, der pegede mod yderligere optrapning snarere end de-eskalation.",
+      "topics": [
+        "mellemosten",
+        "konflikt",
+        "geopolitik"
+      ],
+      "entities": [
+        "Iran",
+        "USA",
+        "Israel",
+        "Revolutionsgarden",
+        "Bahrain",
+        "Cypern"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "US Central Command bekraeftede tre amerikanske soldater draebt og fem saaret i et iransk missilangreb 1. marts 2026.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+            "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portal:Current events/2026 March 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+          "publishedAt": "2026-03-01T23:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Iran begins 40-day mourning after Khamenei killed in US-Israeli attack",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
+          "publishedAt": "2026-03-01T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260301-3",
+      "eventKey": "world-reactions-khamenei-killing",
+      "materialFacts": [
+        "Trump erklaerede Khamenei for 'en af historiens mest onde mennesker' og advarede mod iransk gengaeldelse.",
+        "Putin kaldte drabet et 'kynisk mord' i strid med folkeretten og sendte kondolencer til Iran.",
+        "Kinas udenrigsministerium fordomte angrebet som en kraenkelse af Irans suveraenitet; EU's Kaja Kallas opfordrede til de-eskalation.",
+        "Israels forsvarsminister Israel Katz hyldede operationen offentligt."
+      ],
+      "section": "Verden",
+      "headline": "Verden reagerer paa drabet paa Khamenei: fordommelse fra Moskva og Beijing, triumf i Washington",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces",
+      "subheadline": "Trump kalder Khamenei 'en af historiens mest onde', mens Putin taler om 'kynisk mord'",
+      "body": [
+        "Drabet paa Irans oberste leder udloste skarpe og modsatrettede reaktioner fra hele verden den 1. marts 2026. USA's praesident Donald Trump erklaerede, at 'Khamenei, en af historiens mest onde mennesker, er dod', og advarede Iran mod gengaeldelse.",
+        "Ruslands praesident Vladimir Putin fordomte drabet som et 'kynisk mord' i strid med folkeretten, og Kinas udenrigsministerium 'fordomte paa det kraftigste' angrebet som en kraenkelse af Irans suveraenitet. EU's Kaja Kallas kaldte det 'et afgorende ojeblik i Irans historie' og opfordrede til de-eskalation.",
+        "Israels forsvarsminister Israel Katz hyldede operationen med ordene 'Den, der handlede for at odelaegge Israel, er blevet odelagt', mens lande som Pakistan, Nordkorea og Hamas fordomte angrebene."
+      ],
+      "whyItMatters": "Reaktionerne tegnede oejeblikkeligt de geopolitiske skillelinjer op: Vesten splittet mellem amerikansk triumf og europaeisk bekymring, mens Rusland og Kina samlede sig om at fordomme et angreb, de saa som et farligt praecedens for likvidering af statsledere. Det signalerede, at konflikten ville faa globale, ikke blot regionale, konsekvenser.",
+      "analysis": "Kontrasten mellem Trumps triumferende sprog og Putins og Beijings fordommelse afslorede, hvordan Iran-krigen straks blev en proxy for den storre stormagtsrivalisering. Europas kald om de-eskalation virkede afmaegtigt over for de faits accomplis, USA og Israel havde skabt. For Rusland og Kina var sagen mindre Khamenei selv end princippet: at ingen leder laengere var urorlig.",
+      "topics": [
+        "geopolitik",
+        "diplomati",
+        "mellemosten"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Vladimir Putin",
+        "Kina",
+        "Kaja Kallas",
+        "Israel Katz",
+        "EU"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Trump erklaerede Khamenei for 'en af historiens mest onde mennesker' og advarede mod iransk gengaeldelse.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "World reacts to killing of Iran's Khamenei by US, Israel forces",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/3/1/world-reacts-to-killing-of-irans-khamenei-by-us-israel-forces",
+          "publishedAt": "2026-03-01T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260301-4",
+      "eventKey": "south-sudan-abiemnom-massacre",
+      "materialFacts": [
+        "Mindst 169 mennesker blev draebt i et oprorsoverfald paa Abiemnom County, Ruweng-administrationsomraadet, Sydsudan, den 1. marts 2026.",
+        "Det var et af de blodigste enkeltstaaende angreb i Sydsudan i den seneste periode."
+      ],
+      "section": "Verden",
+      "headline": "Mindst 169 draebt i overfald paa Abiemnom i Sydsudan",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+      "subheadline": "Et opror-overfald paa civile i Ruweng-administrationsomraadet er en af aarets vaerste massakrer",
+      "body": [
+        "Mens verdens opmaerksomhed var rettet mod Mellemosten, blev mindst 169 mennesker draebt i et oprorsoverfald paa Abiemnom County i Ruweng-administrationsomraadet i Sydsudan den 1. marts 2026.",
+        "Overfaldet var et af de blodigste enkeltstaaende angreb i landet i lang tid og foregik i en region, der i forvejen var praeget af etnisk vold og politisk ustabilitet efter aarevis af borgerkrig.",
+        "Angrebet understregede den vedvarende sikkerhedskrise i Sydsudan, hvor centralregeringens kontrol over fjerntliggende omraader forblev svag, og civile gentagne gange betalte prisen."
+      ],
+      "whyItMatters": "Massakren minder om, at de vaerste menneskelige tab i 2026 ikke altid skete paa forsiderne. Med 169 civile draebt paa en enkelt dag var Sydsudan vidne til en humanitaer katastrofe, der risikerede at blive overskygget af krigen i Golfen - netop den slags overset lidelse, en aarsoversigt boer fastholde.",
+      "analysis": "At et angreb af denne storrelsesorden naesten forsvandt i nyhedsstrommen siger noget om opmaerksomhedens geografi. For Sydsudan foejede massakren sig til et monster af cyklisk vold, som den skrobelige fredsaftale aldrig for alvor har brudt. Uden international bevaagenhed er incitamentet til ansvarlighed minimalt, og risikoen for gengaeldelsesvold tilsvarende hoj.",
+      "topics": [
+        "afrika",
+        "konflikt",
+        "humanitaer"
+      ],
+      "entities": [
+        "Sydsudan",
+        "Abiemnom",
+        "Ruweng"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Mindst 169 mennesker blev draebt i et oprorsoverfald paa Abiemnom County, Ruweng-administrationsomraadet, Sydsudan, den 1. marts 2026.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portal:Current events/2026 March 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+          "publishedAt": "2026-03-01T23:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260301-5",
+      "eventKey": "vietnam-ai-law-takes-effect",
+      "materialFacts": [
+        "Vietnams lov om kunstig intelligens traadte i kraft 1. marts 2026.",
+        "Loven kraever maerkning af AI-genereret indhold og oplysning ved interaktion med automatiserede systemer.",
+        "Loven etablerer et nationalt AI-datacenter."
+      ],
+      "section": "Videnskab",
+      "headline": "Vietnams nye lov om kunstig intelligens traeder i kraft",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+      "subheadline": "Loven kraever maerkning af AI-genereret indhold og etablerer et nationalt AI-datacenter",
+      "body": [
+        "Vietnams lov om kunstig intelligens traadte i kraft den 1. marts 2026 og placerede landet blandt de forste i regionen med en omfattende national AI-regulering.",
+        "Loven kraever maerkning af AI-genereret indhold og oplysning, naar brugere interagerer med automatiserede systemer, samt etablering af et nationalt AI-datacenter.",
+        "Reguleringen afspejler en bredere global bevaegelse mod at saette rammer for kunstig intelligens, men er bemaerkelsesvaerdig ved at komme fra et hurtigt voksende sydostasiatisk teknologiland snarere end fra Vesten."
+      ],
+      "whyItMatters": "Mens overskrifterne handlede om krig, tog Vietnam et konkret skridt i en af tidens mest definerende teknologiske debatter. Krav om gennemsigtighed og maerkning af AI-indhold beror et grundlaeggende sporgsmaal om tillid i den digitale offentlighed - og viser, at AI-regulering ikke laengere er forbeholdt EU og USA.",
+      "analysis": "Vietnams lov er interessant, fordi den signalerer, hvordan mellemstore teknologinationer positionerer sig i AI-kaploobet: ikke blot som forbrugere, men som regulatorer med egne rammer. Maerkningskravet er en pragmatisk respons paa desinformation, men handhaevelsen bliver den reelle proeve. Det er en paamindelse om, at de strukturelle aendringer fra AI ruller videre, ogsaa naar geopolitikken dominerer dagsordenen.",
+      "topics": [
+        "teknologi",
+        "asien",
+        "regulering"
+      ],
+      "entities": [
+        "Vietnam",
+        "kunstig intelligens"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 34,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Vietnams lov om kunstig intelligens traadte i kraft 1. marts 2026.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portal:Current events/2026 March 1",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+          "publishedAt": "2026-03-01T23:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Den danske rederigigant Maersk indstillede al skibstransit gennem Hormuzstraedet efter eskalationen i Golfen.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+      "headline": "Den danske rederigigant Maersk indstillede al skibstransit gennem Hormuzstraedet efter eskalationen i Golfen.",
+      "summary": "Den danske rederigigant Maersk indstillede al skibstransit gennem Hormuzstraedet efter eskalationen i Golfen.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2026-03-01T23:00:00.000Z"
+    },
+    {
+      "text": "Mindst 22 mennesker doede i sammenstod mellem sikkerhedsstyrker og demonstranter, der forsogte at storme det amerikanske konsulat i Karachi i Pakistan.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+      "headline": "Mindst 22 mennesker doede i sammenstod mellem sikkerhedsstyrker og demonstranter, der forsogte at storme det amerikanske konsulat i Karachi i Pakistan.",
+      "summary": "Mindst 22 mennesker doede i sammenstod mellem sikkerhedsstyrker og demonstranter, der forsogte at storme det amerikanske konsulat i Karachi i Pakistan.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2026-03-01T23:00:00.000Z"
+    },
+    {
+      "text": "I Iran bekraeftede statsmedier draene paa flere topembedsmaend, herunder Abdolrahim Mousavi, Aziz Nasirzadeh, Mohammad Pakpour og Ali Shamkhani.",
+      "url": "https://www.aljazeera.com/news/2026/3/1/iran-begins-40-day-mourning-after-khamenei-killed-in-us-israeli-attack",
+      "headline": "I Iran bekraeftede statsmedier draene paa flere topembedsmaend, herunder Abdolrahim Mousavi, Aziz Nasirzadeh, Mohammad Pakpour og Ali Shamkhani.",
+      "summary": "I Iran bekraeftede statsmedier draene paa flere topembedsmaend, herunder Abdolrahim Mousavi, Aziz Nasirzadeh, Mohammad Pakpour og Ali Shamkhani.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-03-01T10:00:00.000Z"
+    },
+    {
+      "text": "Antikrigsdemonstrationer brod ud i Athen, Seoul og Bangladesh i protest mod angrebene eller mod drabet paa Khamenei.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_March_1",
+      "headline": "Antikrigsdemonstrationer brod ud i Athen, Seoul og Bangladesh i protest mod angrebene eller mod drabet paa Khamenei.",
+      "summary": "Antikrigsdemonstrationer brod ud i Athen, Seoul og Bangladesh i protest mod angrebene eller mod drabet paa Khamenei.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2026-03-01T23:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}

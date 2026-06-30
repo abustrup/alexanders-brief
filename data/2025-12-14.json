@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20251214",
+  "date": "2025-12-14",
+  "generatedAt": "2025-12-14T06:00:00.000Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "14. dec. 2025 samlede et antisemitisk terrorangreb i Sydney (15 dræbte) med Chiles præsidentvalg, et massivt russisk angreb på Ukraines elnet og drabet på instruktør Rob Reiner — alle tungt dokumenter",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20251214-1",
+      "eventKey": "bondi-beach-hanukkah-attack",
+      "materialFacts": [
+        "15 mennesker dræbt og omkring 40 såret ved Archer Park, Bondi Beach, den 14. december 2025.",
+        "Gerningsmændene var Sajid Akram (50, indisk statsborger og australsk permanent opholdstilladelse) og hans søn Naveed Akram (24, australsk statsborger).",
+        "Sajid blev dræbt af politiet på stedet; Naveed blev anholdt og sigtet for 15 drab og 44 andre forhold.",
+        "Premierminister Albanese kaldte angrebet 'en handling af rent ondskab, antisemitisme og terrorisme'."
+      ],
+      "section": "Verden",
+      "headline": "Terrorangreb mod Hanukkah-fejring på Bondi Beach dræber 15",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/2025_Bondi_Beach_shooting",
+      "subheadline": "To bevæbnede mænd, far og søn, åbnede ild mod en jødisk højtidsfejring i Sydney i et angreb beskrevet som antisemitisk og inspireret af Islamisk Stat.",
+      "body": [
+        "Søndag aften den 14. december åbnede Sajid Akram og hans søn Naveed Akram ild mod omkring 1.000 mennesker, der fejrede Hanukkah ved Archer Park på Bondi Beach. 15 mennesker blev dræbt og omkring 40 såret. Ofrenes alder spændte fra 10 til 87 år.",
+        "Politiet skød den ældre gerningsmand, Sajid, mens sønnen Naveed blev såret og anholdt og senere sigtet for 15 drab. Blandt de dræbte var en Holocaust-overlever, en 10-årig pige og en Chabad-rabbiner, og ofrene talte franske, slovakiske og israelske statsborgere.",
+        "Premierminister Anthony Albanese kaldte angrebet 'en handling af rent ondskab, en handling af antisemitisme og terrorisme på vores kyster' og sagde, det var bevidst rettet mod det jødiske samfund."
+      ],
+      "whyItMatters": "Det er et af de dødeligste terrorangreb i Australiens nyere historie og det blodigste antisemitiske angreb i landet i årtier. Det rammer midt i en global bølge af antisemitisk vold efter Gaza-krigen og rejser akutte spørgsmål om radikalisering, våbenlovgivning og beskyttelse af jødiske samfund i Vesten.",
+      "analysis": "Angrebet kombinerer to bekymrende tendenser: IS-inspireret terror og stigende antisemitisme. At gerningsmændene var en far og søn med lovligt registrerede våben, gør sagen særligt ubehagelig for australske myndigheder, der nu står med både en efterretningsfiasko og en retssag mod den overlevende gerningsmand. Politisk vil det presse debatten om våbenkontrol og overvågning af radikalisering.",
+      "topics": [
+        "terror",
+        "geopolitik",
+        "antisemitisme"
+      ],
+      "entities": [
+        "Bondi Beach",
+        "Sydney",
+        "Australien",
+        "Anthony Albanese",
+        "Islamisk Stat",
+        "Sajid Akram",
+        "Naveed Akram"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 96,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "15 mennesker dræbt og omkring 40 såret ved Archer Park, Bondi Beach, den 14. december 2025.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/2025_Bondi_Beach_shooting",
+            "https://www.aljazeera.com/news/2025/12/15/bondi-beach-attack-what-do-we-know-about-the-victims-suspects",
+            "https://www.nbcnews.com/world/australia/bondi-beach-shooting-victims-australia-hanukkah-attack-rcna249203"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2025 Bondi Beach shooting",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Bondi_Beach_shooting",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Bondi Beach shooting: What do we know about the victims, suspects?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2025/12/15/bondi-beach-attack-what-do-we-know-about-the-victims-suspects",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "What we know about the victims of the Bondi Beach shooting in Australia",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/australia/bondi-beach-shooting-victims-australia-hanukkah-attack-rcna249203",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251214-2",
+      "eventKey": "chile-presidential-election-kast",
+      "materialFacts": [
+        "José Antonio Kast (Det Republikanske Parti) vandt anden valgrunde den 14. december 2025 med omkring 58 procent af stemmerne.",
+        "Jeannette Jara fra kommunistpartiet fik knap 42 procent.",
+        "Det var Kasts tredje forsøg på at blive præsident; han tiltræder den 11. marts.",
+        "Sejren betegnes som det skarpeste højresving i Chile siden Pinochet-diktaturets fald."
+      ],
+      "section": "Verden",
+      "headline": "Chile drejer skarpt til højre: José Antonio Kast vinder præsidentvalget",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2025/12/14/far-right-candidate-jose-antonio-kast-wins-chiles-presidential-election",
+      "subheadline": "Den hårde højrefløjs Kast besejrede kommunisten Jeannette Jara i anden runde med 58 procent og bliver Chiles mest højreorienterede leder siden Pinochet.",
+      "body": [
+        "Ved anden valgrunde den 14. december vandt José Antonio Kast fra Det Republikanske Parti over tidligere arbejdsminister Jeannette Jara fra det chilenske kommunistparti. Kast fik omkring 58 procent af stemmerne mod Jaras knap 42 procent.",
+        "Det var Kasts tredje forsøg på at blive præsident. Sejren markerer det skarpeste højresving i chilensk politik siden overgangen til demokrati efter Pinochet-diktaturet. Kast tiltræder embedet den 11. marts."
+      ],
+      "whyItMatters": "Chile har længe været et af Latinamerikas mest stabile demokratier, og valget cementerer en regional bølge af højrepopulisme. Kast har lovet hård kurs mod migration og kriminalitet, og hans sejr vil få betydning for Chiles økonomi, kobberforsyning og relationer til både USA og naboregionens venstreregeringer.",
+      "analysis": "Jaras nederlag understreger, hvor svært venstrefløjen har ved at fastholde magten i en region plaget af usikkerhed og migration. Kasts margin på 58 procent er usædvanligt stor og giver ham et stærkt mandat, men også forventninger han skal indfri. Spørgsmålet er, om han kan omsætte hård retorik til regeringsførelse uden flertal i en splittet kongres.",
+      "topics": [
+        "valg",
+        "geopolitik",
+        "latinamerika"
+      ],
+      "entities": [
+        "Chile",
+        "José Antonio Kast",
+        "Jeannette Jara",
+        "Det Republikanske Parti"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "José Antonio Kast (Det Republikanske Parti) vandt anden valgrunde den 14. december 2025 med omkring 58 procent af stemmerne.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2025/12/14/far-right-candidate-jose-antonio-kast-wins-chiles-presidential-election",
+            "https://www.npr.org/2025/12/14/nx-s1-5644074/chile-kast-right",
+            "https://en.wikipedia.org/wiki/2025_Chilean_general_election"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Far-right candidate Jose Antonio Kast wins Chile's presidential election",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2025/12/14/far-right-candidate-jose-antonio-kast-wins-chiles-presidential-election",
+          "publishedAt": "2025-12-14T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Chile shifts sharply right as Jose Antonio Kast wins the presidency",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2025/12/14/nx-s1-5644074/chile-kast-right",
+          "publishedAt": "2025-12-14T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2025 Chilean general election",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Chilean_general_election",
+          "publishedAt": "2025-12-14T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251214-3",
+      "eventKey": "russia-ukraine-odesa-grid-strike",
+      "materialFacts": [
+        "Rusland affyrede ifølge Zelenskyj mere end 450 droner og 30 missiler mod Ukraine natten til den 14. december 2025.",
+        "Over en million husstande i Odesa mistede strømmen efter angrebet på energinettet.",
+        "Rusland oplyste at have brugt hypersoniske Kinzhal-missiler som gengældelse.",
+        "To mennesker blev dræbt i et ukrainsk droneangreb mod Saratov i Rusland samme dag."
+      ],
+      "section": "Verden",
+      "headline": "Massivt russisk natangreb mørklægger Odesa og sætter over en million husstande uden strøm",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2025/12/14/russia-ukraine-war-list-of-key-events-day-1389",
+      "subheadline": "Rusland affyrede mere end 450 droner og 30 missiler mod Ukraines energinet, efter et ukrainsk droneangreb havde dræbt to i den russiske by Saratov.",
+      "body": [
+        "Natten til den 14. december ramte Rusland Ukraines elnet med, ifølge præsident Volodymyr Zelenskyj, mere end 450 droner og 30 missiler. Havnebyen Odesa og det omkringliggende område blev ramt af omfattende strømafbrydelser, der efterlod over en million husstande uden elektricitet.",
+        "Rusland kaldte angrebet en gengældelse for ukrainske angreb og oplyste at have brugt hypersoniske Kinzhal-missiler mod ukrainske industri- og energianlæg. Tidligere på dagen var to mennesker blevet dræbt i et ukrainsk droneangreb mod den russiske by Saratov."
+      ],
+      "whyItMatters": "Angrebet er en del af Ruslands vinterstrategi om at lamme Ukraines energiforsyning og presse befolkningen, mens fredsforhandlinger pågår på diplomatisk niveau. Det rammer civile midt i vinterkulden og viser, at krigen langtfra er ovre, selv om der tales om våbenhviler og territoriale indrømmelser.",
+      "analysis": "Mønstret med gensidige angreb — ukrainske droner dybt i Rusland, russiske missilbølger mod elnettet — afspejler en krig, hvor begge parter forsøger at forbedre deres forhandlingsposition gennem maksimal civil smerte. Mørklægningen af Odesa er strategisk: byen er Ukraines vigtigste havn, og lammelse her rammer både moral og økonomi. Vinteren bliver et afgørende pres.",
+      "topics": [
+        "krig",
+        "geopolitik",
+        "energi"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Odesa",
+        "Volodymyr Zelenskyj",
+        "Saratov"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Rusland affyrede ifølge Zelenskyj mere end 450 droner og 30 missiler mod Ukraine natten til den 14. december 2025.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2025/12/14/russia-ukraine-war-list-of-key-events-day-1389"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia-Ukraine war: List of key events, day 1,389",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2025/12/14/russia-ukraine-war-list-of-key-events-day-1389",
+          "publishedAt": "2025-12-14T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251214-4",
+      "eventKey": "rob-reiner-killing",
+      "materialFacts": [
+        "Rob Reiner (78) og Michele Singer Reiner (70) blev fundet dræbt med flere stiksår i deres hjem i Brentwood, Los Angeles, den 14. december 2025.",
+        "Sønnen Nick Reiner blev anholdt samme dag og sigtet for to tilfælde af overlagt mord under skærpende omstændigheder.",
+        "Dødsårsagen var flere skarpe stiksår, og dødsmåden blev fastslået som drab.",
+        "Nødopkaldet blev foretaget kl. 15.38 lokal tid, efter datteren fandt faderens lig."
+      ],
+      "section": "Videnskab",
+      "headline": "Filminstruktøren Rob Reiner og hustruen Michele fundet dræbt i deres hjem i Los Angeles",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Killing_of_Rob_and_Michele_Reiner",
+      "subheadline": "Den 78-årige Hollywood-instruktør og hans 70-årige hustru blev stukket ihjel i deres hus i Brentwood; deres søn blev anholdt og sigtet for drabene.",
+      "body": [
+        "Om eftermiddagen den 14. december blev den amerikanske filminstruktør Rob Reiner og hans hustru, fotografen og produceren Michele Singer Reiner, fundet døde med flere stiksår i deres hjem i bydelen Brentwood i Los Angeles. Deres datter opdagede faderens lig, og der blev ringet 112 kl. 15.38 lokal tid.",
+        "Parrets søn, Nick Reiner, blev anholdt samme dag og sigtet af anklagemyndigheden for to tilfælde af overlagt mord under skærpende omstændigheder. Dødsattester fastslog, at begge døde af flere skarpe stiksår, og at dødsmåden var drab."
+      ],
+      "whyItMatters": "Rob Reiner var en af Hollywoods kendte instruktører bag film som 'When Harry Met Sally' og 'The Princess Bride' og en markant offentlig stemme. Det voldsomme drab i hans eget hjem, angiveligt begået af hans egen søn, blev en af årets mest omtalte kultur- og kriminalsager i USA.",
+      "analysis": "Sagen er først og fremmest en familietragedie, men den fik enorm medieopmærksomhed på grund af Reiners status. Den føjer sig til en række højprofilerede sager, hvor psykisk sygdom og familievold mødes, og rejser igen spørgsmål om, hvordan pårørende håndterer alvorlige problemer bag berømmelsens facade. Retssagen mod sønnen vil trække overskrifter langt ind i 2026.",
+      "topics": [
+        "kultur",
+        "kriminalitet",
+        "usa"
+      ],
+      "entities": [
+        "Rob Reiner",
+        "Michele Singer Reiner",
+        "Nick Reiner",
+        "Los Angeles",
+        "Brentwood"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Rob Reiner (78) og Michele Singer Reiner (70) blev fundet dræbt med flere stiksår i deres hjem i Brentwood, Los Angeles, den 14. december 2025.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Killing_of_Rob_and_Michele_Reiner",
+            "https://www.nbcnews.com/news/us-news/two-found-dead-rob-reiner-home-brentwood-los-angeles-rcna249223"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Killing of Rob and Michele Reiner",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Killing_of_Rob_and_Michele_Reiner",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Rob Reiner and his wife found dead in their L.A. home from apparent stab wounds",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/two-found-dead-rob-reiner-home-brentwood-los-angeles-rcna249223",
+          "publishedAt": "2025-12-15T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251214-5",
+      "eventKey": "czech-babis-cabinet-appointed",
+      "materialFacts": [
+        "Præsident Petr Pavel udnævnte den 14. december 2025 Andrej Babiš' regering.",
+        "Udnævnelsen fulgte efter, at Babiš' bevægelse ANO vandt det seneste tjekkiske parlamentsvalg.",
+        "Babiš vender dermed tilbage som premierminister i spidsen for en ny koalition."
+      ],
+      "section": "Verden",
+      "headline": "Tjekkiet får ny regering: præsident Pavel udnævner Babiš-kabinet",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_December_14",
+      "subheadline": "Præsident Petr Pavel udnævnte premierminister Andrej Babiš' regering efter ANO-bevægelsens valgsejr, der bringer den populistiske milliardær tilbage til magten.",
+      "body": [
+        "Den 14. december udnævnte den tjekkiske præsident Petr Pavel formelt Andrej Babiš' kabinet, efter at Babiš' bevægelse ANO havde vundet det seneste parlamentsvalg. Dermed vender den populistiske erhvervsmand og tidligere regeringsleder tilbage til magten i spidsen for en ny koalition.",
+        "Babiš' tilbagekomst styrker den EU-skeptiske og migrationskritiske blok i Centraleuropa og placerer Tjekkiet tættere på ligesindede regeringer i regionen."
+      ],
+      "whyItMatters": "Tjekkiet er et centralt EU- og NATO-land, og Babiš' linje kan påvirke europæisk enighed om støtte til Ukraine og migrationspolitik. Magtskiftet føjer endnu et centraleuropæisk land til den voksende gruppe af EU-skeptiske regeringer og kan flytte balancen i Visegrad-samarbejdet.",
+      "analysis": "Babiš' tilbagekomst var ventet efter valgsejren, men den formelle udnævnelse cementerer et politisk skifte, som Bruxelles følger nøje. Hans pragmatiske populisme og forretningsbaggrund gør ham svær at placere, men på Ukraine- og EU-spørgsmål ventes en mere forbeholden kurs end forgængerens. Det styrker den centraleuropæiske akse af nationalkonservative ledere.",
+      "topics": [
+        "valg",
+        "eu",
+        "geopolitik"
+      ],
+      "entities": [
+        "Tjekkiet",
+        "Petr Pavel",
+        "Andrej Babiš",
+        "ANO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Præsident Petr Pavel udnævnte den 14. december 2025 Andrej Babiš' regering.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2025_December_14"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portal:Current events/2025 December 14",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_December_14",
+          "publishedAt": "2025-12-14T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Thailand bekræftede, at en raket affyret fra Cambodja dræbte en thailandsk landsbyboer — det første civile dødsfald i Thailand som følge af grænsekonflikten.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_December_14",
+      "headline": "Thailand bekræftede, at en raket affyret fra Cambodja dræbte en thailandsk landsbyboer — det første civile dødsfald i Thailand som følge af grænsekonflikten.",
+      "summary": "Thailand bekræftede, at en raket affyret fra Cambodja dræbte en thailandsk landsbyboer — det første civile dødsfald i Thailand som følge af grænsekonflikten.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-12-14T00:00:00.000Z"
+    },
+    {
+      "text": "Hamas-officeren oberstløjtnant Ahmed Zamzam blev skudt og dræbt af en bevæbnet mand inde i Maghazi-flygtningelejren i Gazastriben, og gerningsmanden blev anholdt.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_December_14",
+      "headline": "Hamas-officeren oberstløjtnant Ahmed Zamzam blev skudt og dræbt af en bevæbnet mand inde i Maghazi-flygtningelejren i Gazastriben, og gerningsmanden blev anholdt.",
+      "summary": "Hamas-officeren oberstløjtnant Ahmed Zamzam blev skudt og dræbt af en bevæbnet mand inde i Maghazi-flygtningelejren i Gazastriben, og gerningsmanden blev anholdt.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-12-14T00:00:00.000Z"
+    },
+    {
+      "text": "Tre mennesker blev dræbt i tre separate israelske luftangreb mod køretøjer i det sydlige Libanon.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_December_14",
+      "headline": "Tre mennesker blev dræbt i tre separate israelske luftangreb mod køretøjer i det sydlige Libanon.",
+      "summary": "Tre mennesker blev dræbt i tre separate israelske luftangreb mod køretøjer i det sydlige Libanon.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-12-14T00:00:00.000Z"
+    },
+    {
+      "text": "Den australske premierminister Anthony Albanese kaldte Bondi Beach-angrebet 'en handling af rent ondskab, antisemitisme og terrorisme på vores kyster'.",
+      "url": "https://www.aljazeera.com/news/2025/12/15/bondi-beach-attack-what-do-we-know-about-the-victims-suspects",
+      "headline": "Den australske premierminister Anthony Albanese kaldte Bondi Beach-angrebet 'en handling af rent ondskab, antisemitisme og terrorisme på vores kyster'.",
+      "summary": "Den australske premierminister Anthony Albanese kaldte Bondi Beach-angrebet 'en handling af rent ondskab, antisemitisme og terrorisme på vores kyster'.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2025-12-15T00:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}

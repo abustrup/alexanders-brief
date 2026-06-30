@@ -1,0 +1,421 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20250815",
+  "date": "2025-08-15",
+  "generatedAt": "2025-08-15T06:00:00.000Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "Lead event: Trump-Putin Alaska summit on Ukraine — the single most documented world-news day in August 2025, anchored by a rare US-Russia leaders' meeting plus a Russian munitions disaster, Pakistan's",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20250815-1",
+      "eventKey": "trump-putin-alaska-summit",
+      "materialFacts": [
+        "Topmødet fandt sted 15. august 2025 på Joint Base Elmendorf-Richardson i Anchorage, Alaska.",
+        "Trump og Putin talte i knap tre timer og forlod mødet uden våbenhvile eller aftale om Ukraine.",
+        "Ukraines præsident Zelenskyj deltog ikke i topmødet.",
+        "Trump oplyste, at han ville mødes med Zelenskyj i Det Hvide Hus den følgende mandag."
+      ],
+      "section": "Verden",
+      "headline": "Trump og Putin mødtes i Alaska – men forlod topmødet uden aftale om Ukraine",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2025/8/16/no-deal-at-trump-putin-meeting-key-takeaways-from-alaska-summit",
+      "subheadline": "Næsten tre timers samtaler i Anchorage endte uden våbenhvile; Trump talte om 'fremskridt', mens lægen på Ukraines side fortsat var fraværende.",
+      "body": [
+        "USA's præsident Donald Trump og Ruslands præsident Vladimir Putin mødtes 15. august på Joint Base Elmendorf-Richardson nær Anchorage i Alaska. Det var Putins første besøg på amerikansk jord i omkring et årti, og hovedemnet var krigen i Ukraine.",
+        "Efter knap tre timers samtaler trådte de to ledere frem til en fælles pressekonference uden at annoncere en våbenhvile eller en aftale. Trump talte om 'store fremskridt', mens Putin kaldte forhandlingerne 'grundige' og 'nyttige'. Ukraines præsident Volodymyr Zelenskyj var ikke inviteret.",
+        "Trump signalerede efterfølgende, at byrden nu lå hos Ukraine for at afgive territorium, og oplyste, at han ville mødes med Zelenskyj i Det Hvide Hus den følgende mandag for at drøfte vejen videre."
+      ],
+      "whyItMatters": "Mødet var det første topmøde mellem en amerikansk og en russisk præsident siden Ruslands fuldskala-invasion i 2022 og placerede spørgsmålet om territorielle indrømmelser i centrum af enhver fremtidig fredsplan – uden Ukraine ved bordet.",
+      "analysis": "Fraværet af en aftale var i sig selv et resultat: optikken af Putin modtaget på amerikansk jord styrkede Kreml diplomatisk, mens presset for territorielle indrømmelser flyttede over på Kyiv. Det efterfølgende møde i Det Hvide Hus blev dermed reelt en test af, hvor langt Washington ville gå i at binde Ukraine til betingelser forhandlet over hovedet på landet.",
+      "topics": [
+        "geopolitik",
+        "ukrainekrigen",
+        "diplomati"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Vladimir Putin",
+        "Volodymyr Zelenskyj",
+        "USA",
+        "Rusland",
+        "Ukraine",
+        "Alaska"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 96,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Topmødet fandt sted 15. august 2025 på Joint Base Elmendorf-Richardson i Anchorage, Alaska.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2025/8/16/no-deal-at-trump-putin-meeting-key-takeaways-from-alaska-summit",
+            "https://en.wikipedia.org/wiki/2025_Russia%E2%80%93United_States_summit",
+            "https://www.cnn.com/politics/live-news/trump-putin-meeting-news-08-15-25"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'No deal' at Trump-Putin meeting: Key takeaways from Alaska summit",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2025/8/16/no-deal-at-trump-putin-meeting-key-takeaways-from-alaska-summit",
+          "publishedAt": "2025-08-16T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2025 Russia–United States summit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Russia%E2%80%93United_States_summit",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "August 15, 2025: Trump-Putin summit ends without concrete deal",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/politics/live-news/trump-putin-meeting-news-08-15-25",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20250815-2",
+      "eventKey": "ryazan-explosives-plant-explosion",
+      "materialFacts": [
+        "Eksplosionen skete 15. august 2025 på Elastik-anlægget ved Lesnoj i Ryazan-regionen, ca. 250 km sydøst for Moskva.",
+        "Dødstallet steg til mindst 23, og omkring 134 mennesker blev såret.",
+        "Eksplosionen fandt ifølge officielle oplysninger sted i en bygning, hvor der foregik nitrering af TNT.",
+        "Flere fabriksbygninger, herunder et krudtlager, blev fuldstændig ødelagt."
+      ],
+      "section": "Verden",
+      "headline": "Voldsom eksplosion på russisk krudtfabrik i Ryazan dræbte snesevis",
+      "primarySourceUrl": "https://www.themoscowtimes.com/2025/08/18/death-toll-from-ryazan-plant-explosion-rises-to-23-a90259",
+      "subheadline": "Branden og eksplosionen på Elastik-anlægget kostede mindst 23 mennesker livet og sårede over 130; flere bygninger med ammunition blev jævnet med jorden.",
+      "body": [
+        "Om morgenen den 15. august eksploderede et anlæg ved landsbyen Lesnoj i Ryazan-regionen omkring 250 kilometer sydøst for Moskva. Fabrikken, kendt som Elastik, fremstiller krudt, sprængstoffer og komponenter til ammunition.",
+        "Russiske myndigheder oplyste først om fem dræbte, men dødstallet steg over de følgende dage til mindst 23, mens omkring 134 mennesker blev såret. Anonyme nødkilder antydede over for russiske medier, at sikkerhedsbrud kunne være årsagen.",
+        "Ifølge officielle oplysninger skete eksplosionen i en bygning, hvor der foregik nitrering af TNT. Flere fabriksbygninger – heriblandt et krudtlager – blev fuldstændig ødelagt."
+      ],
+      "whyItMatters": "Ulykken ramte russisk forsvarsindustri midt under krigen i Ukraine og illustrerede både den menneskelige pris og de sikkerhedsmæssige svagheder i Ruslands hårdt pressede ammunitionsproduktion.",
+      "analysis": "Timingen – samme dag som Alaska-topmødet – understregede kontrasten mellem diplomatisk scenografi og den fortsatte materielle virkelighed i krigsøkonomien. Uanset om årsagen var sjusk eller sabotage, var tabet af et krudtlager et konkret slag mod den artilleriforsyning, Rusland er afhængig af ved fronten.",
+      "topics": [
+        "rusland",
+        "ulykker",
+        "forsvarsindustri"
+      ],
+      "entities": [
+        "Rusland",
+        "Ryazan",
+        "Elastik",
+        "Moskva"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Eksplosionen skete 15. august 2025 på Elastik-anlægget ved Lesnoj i Ryazan-regionen, ca. 250 km sydøst for Moskva.",
+          "sourceUrls": [
+            "https://www.themoscowtimes.com/2025/08/18/death-toll-from-ryazan-plant-explosion-rises-to-23-a90259",
+            "https://meduza.io/en/news/2025/08/15/explosion-at-russian-gunpowder-plant-kills-at-least-five"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Death Toll From Ryazan Plant Explosion Rises to 23",
+          "publisher": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2025/08/18/death-toll-from-ryazan-plant-explosion-rises-to-23-a90259",
+          "publishedAt": "2025-08-18T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Explosion at Russian gunpowder plant kills at least five",
+          "publisher": "Meduza",
+          "url": "https://meduza.io/en/news/2025/08/15/explosion-at-russian-gunpowder-plant-kills-at-least-five",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20250815-3",
+      "eventKey": "pakistan-kp-flash-floods",
+      "materialFacts": [
+        "Oversvømmelser og jordskred 15. august 2025 dræbte omkring 200 mennesker på et døgn i Khyber Pakhtunkhwa.",
+        "Buner-distriktet var det hårdest ramte område.",
+        "En Mi-17-redningshelikopter styrtede ned i dårligt vejr i Mohmand-distriktet og dræbte fem, heriblandt to piloter.",
+        "Redningsarbejdet blev hæmmet af bortskyllede veje og afbrudt kommunikation."
+      ],
+      "section": "Verden",
+      "headline": "Monsunregn udløste dødelige oversvømmelser i Pakistan – redningshelikopter styrtede ned",
+      "primarySourceUrl": "https://www.arabnews.com/node/2611923/pakistan",
+      "subheadline": "I Khyber Pakhtunkhwa døde omkring 200 mennesker på et døgn; en Mi-17-helikopter på vej med nødhjælp forulykkede og dræbte fem.",
+      "body": [
+        "Kraftig monsunregn og skybrud udløste 15. august pludselige oversvømmelser og jordskred i den nordpakistanske provins Khyber Pakhtunkhwa. Provinsens katastrofemyndighed bekræftede omkring 200 dødsfald inden for et døgn, med Buner-distriktet som det hårdest ramte.",
+        "En Mi-17-helikopter fra provinsregeringen, der var indsat i rednings- og nødhjælpsarbejde, styrtede ned i dårligt vejr i Mohmand-distriktet på vej mod Bajaur. Fem mennesker omkom, heriblandt to piloter.",
+        "Redningsarbejdet blev hæmmet af bortskyllede veje, afbrudt kommunikation og fortsat dårligt vejr i de berørte bjergområder."
+      ],
+      "whyItMatters": "Katastrofen var blandt de dødeligste enkeltdøgn i Pakistans monsunsæson 2025 og satte fokus på, hvordan stadig mere ekstreme skybrud rammer sårbare bjergsamfund med få ressourcer til hurtig redning.",
+      "analysis": "Helikopterstyrtet under selve redningsindsatsen viste, hvor farlig og skrøbelig nødhjælpen bliver, når infrastruktur kollapser og vejret forbliver fjendtligt. Mønstret med intense, lokale skybrud peger på den klimatiske belastning, Pakistan gentagne gange er blevet eksponeret for siden de katastrofale oversvømmelser i 2022.",
+      "topics": [
+        "klima",
+        "katastrofer",
+        "pakistan"
+      ],
+      "entities": [
+        "Pakistan",
+        "Khyber Pakhtunkhwa",
+        "Buner",
+        "Mohmand",
+        "Bajaur"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Oversvømmelser og jordskred 15. august 2025 dræbte omkring 200 mennesker på et døgn i Khyber Pakhtunkhwa.",
+          "sourceUrls": [
+            "https://www.arabnews.com/node/2611923/pakistan",
+            "https://en.wikipedia.org/wiki/2025_Khyber_Pakhtunkhwa_flash_floods"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rains, floods kill nearly 200 in northern Pakistan as relief helicopter crash leaves five dead",
+          "publisher": "Arab News",
+          "url": "https://www.arabnews.com/node/2611923/pakistan",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2025 Khyber Pakhtunkhwa flash floods",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Khyber_Pakhtunkhwa_flash_floods",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20250815-4",
+      "eventKey": "hurricane-erin-first-atlantic-2025",
+      "materialFacts": [
+        "Erin blev 15. august 2025 den første atlantiske orkan i sæsonen nordøst for De Små Antiller.",
+        "Stormen intensiverede fra kategori 1 til kategori 5 på godt et døgn.",
+        "På sit højdepunkt havde Erin vedvarende vind på omkring 260 km/t.",
+        "Orkanen ramte ikke land direkte, men gav kraftig regn og farlige strømforhold i Caribien og langs USA's østkyst."
+      ],
+      "section": "Verden",
+      "headline": "Erin blev sæsonens første atlantiske orkan nær De Små Antiller",
+      "primarySourceUrl": "https://www.cnn.com/2025/08/15/weather/hurricane-erin-track-atlantic-climate-hnk",
+      "subheadline": "Stormen nåede orkanstyrke 15. august og intensiverede derefter eksplosivt til kategori 5 på godt et døgn.",
+      "body": [
+        "Tropisk storm Erin styrkedes 15. august til den første atlantiske orkan i 2025-sæsonen nordøst for De Små Antiller. Den var sæsonens femte navngivne storm og første orkan.",
+        "Kort efter gennemgik Erin en eksplosiv intensivering og gik fra kategori 1 til kategori 5 på godt et døgn med vedvarende vindstød op mod 260 km/t på sit højdepunkt.",
+        "Selvom orkanen ikke ramte land direkte, sendte den kraftig regn og stærk vind ind over Puerto Rico, Turks- og Caicosøerne, Bahamas og senere den amerikanske østkyst med farlige strømforhold."
+      ],
+      "whyItMatters": "Erins hurtige opspring til kategori 5 var et tidligt og kraftfuldt varsel i en orkansæson, hvor stadig varmere havvand kan forvandle moderate storme til ekstreme systemer på få timer.",
+      "analysis": "Den eksplosive intensivering – uden landfald – gjorde Erin til et lærebogseksempel på den udfordring, varslingstjenester står over for: en storm kan blive livsfarlig hurtigere, end befolkninger og myndigheder kan nå at reagere, selv når kysten ikke rammes frontalt.",
+      "topics": [
+        "vejr",
+        "klima",
+        "naturkatastrofer"
+      ],
+      "entities": [
+        "Hurricane Erin",
+        "Atlanterhavet",
+        "De Små Antiller",
+        "Puerto Rico",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 54,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Erin blev 15. august 2025 den første atlantiske orkan i sæsonen nordøst for De Små Antiller.",
+          "sourceUrls": [
+            "https://www.cnn.com/2025/08/15/weather/hurricane-erin-track-atlantic-climate-hnk",
+            "https://www.nesdis.noaa.gov/news/category-5-erin-the-first-atlantic-hurricane-of-2025"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erin strengthens into the Atlantic season's first hurricane",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2025/08/15/weather/hurricane-erin-track-atlantic-climate-hnk",
+          "publishedAt": "2025-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Category 5 Erin is the First Atlantic Hurricane of 2025",
+          "publisher": "NOAA NESDIS",
+          "url": "https://www.nesdis.noaa.gov/news/category-5-erin-the-first-atlantic-hurricane-of-2025",
+          "publishedAt": "2025-08-16T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20250815-5",
+      "eventKey": "maya-forest-trinational-reserve",
+      "materialFacts": [
+        "Calakmul-erklæringen blev underskrevet 15. august 2025 i Calakmul, Mexico.",
+        "Den blev underskrevet af Sheinbaum (Mexico), Arévalo (Guatemala) og Briceño (Belize).",
+        "Reservatet omfatter omkring 5,7 millioner hektar tropisk regnskov.",
+        "Det bliver Latinamerikas næststørste naturreservat efter Amazonas og anerkender oprindelige samfund som 'naturens vogtere'."
+      ],
+      "section": "Videnskab",
+      "headline": "Mexico, Guatemala og Belize underskrev pagt om Latinamerikas næststørste naturreservat",
+      "primarySourceUrl": "https://www.wanderlustmagazine.com/news/mexico-guatemala-belize-biolcultural-corridor-great-mayan-forest/",
+      "subheadline": "Calakmul-erklæringen samler 5,7 millioner hektar Maya-skov på tværs af tre lande – kun overgået af Amazonas.",
+      "body": [
+        "Den 15. august mødtes Mexicos præsident Claudia Sheinbaum, Guatemalas præsident Bernardo Arévalo og Belizes premierminister Johnny Briceño i regnskoven ved Calakmul i Mexico for at underskrive Calakmul-erklæringen.",
+        "Aftalen etablerer en tre-national biokulturel korridor – Gran Selva Maya – på omkring 5,7 millioner hektar tropisk regnskov. Den bliver Latinamerikas næststørste naturreservat, kun overgået af Amazonas.",
+        "Korridoren samler beskyttede områder i alle tre lande, og erklæringen anerkender oprindelige Maya- og afro-efterkommer-samfund som 'naturens vogtere' med traditionel viden integreret i forvaltningen."
+      ],
+      "whyItMatters": "Aftalen er et af de største grænseoverskridende naturbevaringsinitiativer i Amerika og forbinder klimabeskyttelse med anerkendelse af oprindelige folks rolle som forvaltere af skoven.",
+      "analysis": "I en uge domineret af krig og katastrofer pegede pagten i en sjælden konstruktiv retning: tre regeringer, der koordinerer brandbekæmpelse, anti-skovrydning og retshåndhævelse på tværs af grænser. Den reelle prøve bliver, om de fælles forpligtelser oversættes til ressourcer og håndhævelse på jorden.",
+      "topics": [
+        "miljø",
+        "klima",
+        "latinamerika"
+      ],
+      "entities": [
+        "Mexico",
+        "Guatemala",
+        "Belize",
+        "Claudia Sheinbaum",
+        "Bernardo Arévalo",
+        "Johnny Briceño",
+        "Gran Selva Maya",
+        "Calakmul"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Calakmul-erklæringen blev underskrevet 15. august 2025 i Calakmul, Mexico.",
+          "sourceUrls": [
+            "https://www.wanderlustmagazine.com/news/mexico-guatemala-belize-biolcultural-corridor-great-mayan-forest/",
+            "https://theyucatantimes.com/2025/08/mexico-belize-and-guatemala-sign-historic-gran-selva-maya-biocultural-corridor-declaration/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mexico, Guatemala and Belize create trinational reserve to protect Maya Forest",
+          "publisher": "Wanderlust",
+          "url": "https://www.wanderlustmagazine.com/news/mexico-guatemala-belize-biolcultural-corridor-great-mayan-forest/",
+          "publishedAt": "2025-08-18T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Mexico, Belize, and Guatemala Sign Historic Gran Selva Maya Biocultural Corridor Declaration",
+          "publisher": "The Yucatan Times",
+          "url": "https://theyucatantimes.com/2025/08/mexico-belize-and-guatemala-sign-historic-gran-selva-maya-biocultural-corridor-declaration/",
+          "publishedAt": "2025-08-16T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Israel intensiverede sin militære offensiv mod Gaza by efter sikkerhedskabinettets beslutning om at overtage byen, med tunge bombardementer af kvarterer som Zeitoun og Sabra.",
+      "url": "https://en.wikipedia.org/wiki/2025_Gaza_City_offensive",
+      "headline": "Israel intensiverede sin militære offensiv mod Gaza by efter sikkerhedskabinettets beslutning om at overtage byen, med tunge bombardementer af kvarterer som Zeitoun og Sabra.",
+      "summary": "Israel intensiverede sin militære offensiv mod Gaza by efter sikkerhedskabinettets beslutning om at overtage byen, med tunge bombardementer af kvarterer som Zeitoun og Sabra.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-08-15T00:00:00.000Z"
+    },
+    {
+      "text": "Et skyderi ved en moské i Örebro i Sverige dræbte én person og sårede en anden, mens gerningsmanden fortsat var på fri fod.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_August_15",
+      "headline": "Et skyderi ved en moské i Örebro i Sverige dræbte én person og sårede en anden, mens gerningsmanden fortsat var på fri fod.",
+      "summary": "Et skyderi ved en moské i Örebro i Sverige dræbte én person og sårede en anden, mens gerningsmanden fortsat var på fri fod.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-08-15T00:00:00.000Z"
+    },
+    {
+      "text": "Sydkoreas præsident Lee Jae-myung holdt en symbolsk 'folkets mandat'-ceremoni på Gwanghwamun-pladsen i Seoul i forbindelse med landets befrielsesdag.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_August_15",
+      "headline": "Sydkoreas præsident Lee Jae-myung holdt en symbolsk 'folkets mandat'-ceremoni på Gwanghwamun-pladsen i Seoul i forbindelse med landets befrielsesdag.",
+      "summary": "Sydkoreas præsident Lee Jae-myung holdt en symbolsk 'folkets mandat'-ceremoni på Gwanghwamun-pladsen i Seoul i forbindelse med landets befrielsesdag.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-08-15T00:00:00.000Z"
+    },
+    {
+      "text": "Puntlands styrker erobrede den strategiske Wangable-brønd i Qandala-distriktet fra ISIS, som havde brugt stedet som base for gruppens ledere.",
+      "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2025_August_15",
+      "headline": "Puntlands styrker erobrede den strategiske Wangable-brønd i Qandala-distriktet fra ISIS, som havde brugt stedet som base for gruppens ledere.",
+      "summary": "Puntlands styrker erobrede den strategiske Wangable-brønd i Qandala-distriktet fra ISIS, som havde brugt stedet som base for gruppens ledere.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2025-08-15T00:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}

@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20260517",
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-17T06:00:00.000Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "WHO declared an Ebola (Bundibugyo) Public Health Emergency of International Concern in DR Congo and Uganda — a primary-sourced global health event — atop a drone strike on the UAE's Barakah nuclear pl",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20260517-1",
+      "eventKey": "who-ebola-bundibugyo-pheic-drc-uganda",
+      "materialFacts": [
+        "WHO erklærede PHEIC den 17. maj 2026 for Ebola forårsaget af Bundibugyo-virus.",
+        "Pr. 16. maj: otte bekræftede tilfælde, 246 mistænkte tilfælde og 80 mistænkte dødsfald.",
+        "To bekræftede tilfælde, heraf et dødsfald, i Kampala, Uganda, blandt rejsende fra Congo.",
+        "Der findes ingen godkendt vaccine eller specifik behandling mod Bundibugyo-varianten."
+      ],
+      "section": "Verden",
+      "headline": "WHO erklærer Ebola-udbrud i Congo og Uganda for global sundhedskrise",
+      "primarySourceUrl": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
+      "subheadline": "Generaldirektør Tedros udløser den højeste alarm, PHEIC, efter at den sjældne Bundibugyo-variant spredte sig over grænsen til Ugandas hovedstad.",
+      "body": [
+        "WHO's generaldirektør Tedros Adhanom Ghebreyesus erklærede søndag den 17. maj 2026 udbruddet af Ebola forårsaget af Bundibugyo-virus i Den Demokratiske Republik Congo og Uganda for en folkesundhedsmæssig krisesituation af international betydning (PHEIC) — organisationens højeste alarmniveau.",
+        "Pr. 16. maj var der registreret otte laboratoriebekræftede tilfælde, 246 mistænkte tilfælde og 80 mistænkte dødsfald, hovedsageligt i Ituri-provinsen i det østlige Congo. To bekræftede tilfælde, heraf et dødsfald, blev konstateret i Kampala blandt rejsende fra Congo.",
+        "Tedros begrundede beslutningen med stigende smittetal, grænseoverskridende spredning og betydelig usikkerhed om udbruddets reelle omfang. Der findes ingen godkendt vaccine eller specifik behandling mod Bundibugyo-varianten."
+      ],
+      "whyItMatters": "En PHEIC er WHO's stærkeste signal og udløser international koordinering, finansiering og rejseovervågning. At smitten allerede har nået en millionby som Kampala — kombineret med fraværet af en godkendt vaccine mod netop denne Ebola-variant — gør udbruddet til en akut grænseoverskridende trussel midt i en humanitær krise i det østlige Congo.",
+      "analysis": "Erklæringen kom usædvanligt hurtigt: WHO blev først alarmeret 5. maj, og varianten blev bekræftet 15. maj. Den hurtige optrapning afspejler erfaringerne fra tidligere Ebola-udbrud, hvor forsinket respons kostede liv. Den afgørende variabel bliver, om sundhedsvæsenet kan inddæmme smitten i byområder med stor befolkningsmobilitet og et stort net af uformelle klinikker.",
+      "topics": [
+        "sundhed",
+        "afrika",
+        "epidemi"
+      ],
+      "entities": [
+        "WHO",
+        "Tedros Adhanom Ghebreyesus",
+        "Den Demokratiske Republik Congo",
+        "Uganda",
+        "Kampala"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "WHO erklærede PHEIC den 17. maj 2026 for Ebola forårsaget af Bundibugyo-virus.",
+          "sourceUrls": [
+            "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
+            "https://news.un.org/en/story/2026/05/1167531"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Epidemic of Ebola Disease caused by Bundibugyo virus in the Democratic Republic of the Congo and Uganda determined a public health emergency of international concern",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
+          "publishedAt": "2026-05-17T18:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola outbreak in Central Africa declared a 'Public Health Emergency of International Concern'",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/05/1167531",
+          "publishedAt": "2026-05-17T20:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260517-2",
+      "eventKey": "uae-barakah-nuclear-plant-drone-strike",
+      "materialFacts": [
+        "En drone ramte en generator uden for sikkerhedszonen på Barakah-værket den 17. maj 2026.",
+        "Emiraternes luftforsvar nedskød tre droner, der kom ind over den vestlige grænse.",
+        "Ingen tilskadekomne; ingen stråling sluppet ud, og kernesystemer upåvirkede.",
+        "Emiraterne sporede senere dronerne til irakisk territorium."
+      ],
+      "section": "Verden",
+      "headline": "Drone rammer atomkraftværk i Emiraterne under Iran-konflikten",
+      "primarySourceUrl": "https://www.npr.org/2026/05/18/g-s1-122534/drone-strikes-uae-nuclear-plant",
+      "subheadline": "En generator uden for sikkerhedszonen på Barakah-værket gik i brand; luftforsvaret nedskød tre droner, og der slap ingen stråling ud.",
+      "body": [
+        "Den 17. maj 2026 ramte en drone en elektrisk generator uden for den indre sikkerhedszone på Barakah-atomkraftværket i Al Dhafra-regionen i De Forenede Arabiske Emirater og udløste en brand. Forsvarsministeriet oplyste, at luftforsvaret nedskød tre droner, som kom ind over den vestlige grænse.",
+        "Der var ingen tilskadekomne, og den føderale tilsynsmyndighed bekræftede, at reaktorernes kernesystemer ikke blev påvirket, og at strålingsniveauerne forblev normale. Emiraterne kaldte det et 'forræderisk terrorangreb' og indledte en undersøgelse af dronernes oprindelse.",
+        "Angrebet faldt sammen med Israel-Iran-konflikten. Emiraterne meddelte senere, at dronerne kom fra irakisk territorium, hvor Iran-støttede militser opererer."
+      ],
+      "whyItMatters": "Et angreb på et civilt atomkraftværk i en af Golfens mest stabile stater markerer en farlig optrapning og udvider Iran-konfliktens geografi. At dronerne sporedes til Irak, peger på Teherans regionale militsnetværk og rejser frygt for, at energi- og atominfrastruktur bliver legitime mål.",
+      "analysis": "Barakah er det første atomkraftværk i den arabiske verden, og symbolværdien i et angreb er enorm, uanset den begrænsede fysiske skade. For Emiraterne, der har balanceret mellem Washington og Teheran, tvinger angrebet frem en hårdere sikkerhedslinje. Den centrale usikkerhed er, om Iran direkte sanktionerede angrebet, eller om irakiske militser handlede på egen hånd.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten",
+        "sikkerhed"
+      ],
+      "entities": [
+        "De Forenede Arabiske Emirater",
+        "Barakah-atomkraftværket",
+        "Iran",
+        "Irak"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "En drone ramte en generator uden for sikkerhedszonen på Barakah-værket den 17. maj 2026.",
+          "sourceUrls": [
+            "https://www.npr.org/2026/05/18/g-s1-122534/drone-strikes-uae-nuclear-plant",
+            "https://www.aljazeera.com/news/2026/5/18/what-is-the-uaes-barakah-nuclear-plant-nearly-hit-by-a-drone",
+            "https://www.thenationalnews.com/news/uae/2026/05/17/uae-launches-investigation-into-source-of-drone-strike-on-barakah-nuclear-plant/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Drone strikes UAE nuclear plant highlighting risk of renewed war",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/05/18/g-s1-122534/drone-strikes-uae-nuclear-plant",
+          "publishedAt": "2026-05-18T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "What is the UAE's Barakah nuclear plant, nearly hit by a drone?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/5/18/what-is-the-uaes-barakah-nuclear-plant-nearly-hit-by-a-drone",
+          "publishedAt": "2026-05-18T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "UAE investigates source of drones after 'treacherous terrorist attack' on Barakah plant",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/uae/2026/05/17/uae-launches-investigation-into-source-of-drone-strike-on-barakah-nuclear-plant/",
+          "publishedAt": "2026-05-17T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260517-3",
+      "eventKey": "israel-airstrikes-lebanon-gaza-may17",
+      "materialFacts": [
+        "Israelske luftangreb dræbte mindst otte mennesker i flere libanesiske landsbyer den 17. maj 2026.",
+        "Et missilangreb nær Baalbek dræbte en kommandør fra Palæstinensisk Islamisk Jihad og hans datter.",
+        "Angreb i Gaza dræbte fem mennesker, heraf tre arbejdere ved et folkekøkken, i Khan Yunis og Deir al-Balah.",
+        "Saudi-Arabien nedskød samme dag tre droner affyret fra Irak."
+      ],
+      "section": "Verden",
+      "headline": "Israelske luftangreb dræber civile i Libanon og Gaza trods våbenhvile",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_17",
+      "subheadline": "Mindst otte mennesker blev dræbt i flere libanesiske landsbyer, mens angreb i Gaza ramte arbejdere ved et folkekøkken.",
+      "body": [
+        "Den 17. maj 2026 dræbte israelske luftangreb mindst otte mennesker i flere libanesiske landsbyer, blandt andet Jwaya, Tayr Debba og Tayr Felsay. Et missilangreb nær Baalbek dræbte ifølge libanesiske kilder en kommandør fra Palæstinensisk Islamisk Jihad og hans datter.",
+        "I Gazastriben dræbte israelske angreb fem mennesker, herunder tre arbejdere ved et folkekøkken, i Khan Yunis og Deir al-Balah. Angrebene fandt sted, mens en skrøbelig våbenhvile formelt stadig var i kraft.",
+        "Volden indgik i en bredere regional optrapning samme dag, hvor også Saudi-Arabien nedskød droner affyret fra Irak."
+      ],
+      "whyItMatters": "De fortsatte dødelige angreb understreger, hvor skrøbelig våbenhvilen i regionen er, og hvor stor risikoen for en bredere genoptænding er. Drab på nødhjælpsarbejdere ved et folkekøkken skærper den humanitære kritik og presset på alle parter for at overholde aftalerne.",
+      "analysis": "Mønsteret — målrettede angreb på enkeltkommandører kombineret med civile tab — er kendt fra tidligere faser af konflikten og holder spændingen oppe uden at udløse fuld krig. Spørgsmålet er, om de gentagne brud udhuler våbenhvilen så meget, at den i praksis bryder sammen, særligt mens Iran-konflikten trækker hele regionen med.",
+      "topics": [
+        "mellemøsten",
+        "konflikt",
+        "geopolitik"
+      ],
+      "entities": [
+        "Israel",
+        "Libanon",
+        "Gaza",
+        "Palæstinensisk Islamisk Jihad"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Israelske luftangreb dræbte mindst otte mennesker i flere libanesiske landsbyer den 17. maj 2026.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_17"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portal:Current events/2026 May 17",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_17",
+          "publishedAt": "2026-05-17T23:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260517-4",
+      "eventKey": "cape-verde-andalusia-elections-may17",
+      "materialFacts": [
+        "Kap Verde holdt parlamentsvalg den 17. maj 2026; PAICV vandt flest mandater.",
+        "PAICV besejrede det regerende parti Bevægelse for Demokrati (MpD).",
+        "I regionsvalget i Andalusien mistede Partido Popular sit absolutte flertal.",
+        "Vox og Adelante Andalucía gik frem i Andalusien."
+      ],
+      "section": "Verden",
+      "headline": "Magtskifte i Kap Verde og tilbageslag for spansk højrefløj i Andalusien",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_17",
+      "subheadline": "Oppositionspartiet PAICV vandt flest mandater i Kap Verde, mens Partido Popular mistede sit absolutte flertal i en spansk regionsvalg.",
+      "body": [
+        "Den 17. maj 2026 afholdt Kap Verde parlamentsvalg, hvor oppositionspartiet PAICV (Det Afrikanske Parti for Kap Verdes Uafhængighed) vandt flest mandater og besejrede det regerende Bevægelse for Demokrati.",
+        "Samme dag viste resultaterne af regionsvalget i Andalusien, at det konservative Partido Popular mistede sit absolutte flertal, mens det yderste højre (Vox) og venstrefløjen (Adelante Andalucía) gik frem.",
+        "De to valg trak i hver sin retning, men illustrerede begge vælgernes utålmodighed med siddende regeringer."
+      ],
+      "whyItMatters": "Valgene viser, at vælgere på tværs af kontinenter straffer etablerede magthavere. I Andalusien — Spaniens mest folkerige region — er tabet af absolut flertal et varsel for landspolitikken og for, hvordan det yderste højre fortsat vinder terræn i Sydeuropa.",
+      "analysis": "Magtskiftet i Kap Verde bekræfter øgruppens ry som et af Afrikas mest stabile demokratier med fredelige magtskifter. I Andalusien tvinger det fragmenterede resultat Partido Popular til at forhandle med Vox, hvilket trækker regional politik mod højre og foregriber de nationale spændinger op til kommende spanske valg.",
+      "topics": [
+        "politik",
+        "valg",
+        "europa"
+      ],
+      "entities": [
+        "Kap Verde",
+        "PAICV",
+        "Andalusien",
+        "Partido Popular",
+        "Vox"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Kap Verde holdt parlamentsvalg den 17. maj 2026; PAICV vandt flest mandater.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_17"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Portal:Current events/2026 May 17",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_May_17",
+          "publishedAt": "2026-05-17T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260517-5",
+      "eventKey": "aaron-rai-2026-pga-championship",
+      "materialFacts": [
+        "Aaron Rai vandt PGA Championship den 17. maj 2026 på Aronimink.",
+        "Han sluttede ni slag under par, tre slag foran Jon Rahm og Alex Smalley.",
+        "Rai er den første spiller af indisk afstamning, der vinder en herre-major.",
+        "Sejren brød en ti-årig stime af amerikanske vindere; præmien var 3,69 mio. dollars."
+      ],
+      "section": "Videnskab",
+      "headline": "Englænderen Aaron Rai vinder PGA Championship og sin første major",
+      "primarySourceUrl": "https://www.nbcsports.com/golf/news/englishman-aaron-rai-wins-first-major-title-at-2026-pga-championship",
+      "subheadline": "Den 31-årige Rai blev den første spiller af indisk afstamning til at vinde en herre-major og brød en ti-årig amerikansk sejrsstime.",
+      "body": [
+        "Den 17. maj 2026 vandt englænderen Aaron Rai PGA Championship på Aronimink og sikrede sig sin første major-titel. Rai sluttede ni slag under par, tre slag foran Jon Rahm og Alex Smalley, der delte andenpladsen.",
+        "Rai er den første engelskfødte vinder af PGA Championship siden Jim Barnes for over et århundrede siden og den første spiller af indisk afstamning, der vinder en herre-major. Sejren brød en ti-årig stime af amerikanske vindere af Wanamaker-trofæet.",
+        "Han indkasserede 3,69 millioner dollars for karrierens største triumf."
+      ],
+      "whyItMatters": "Sejren er et gennembrud for repræsentation i golf — den første major-vinder af indisk afstamning — og bryder med amerikansk dominans i en af sportens fire største turneringer. For en spiller, der længe har fløjet under radaren, omdefinerer titlen hans karriere.",
+      "analysis": "Rais sejr passer ind i en bredere internationalisering af elitegolf, hvor europæiske og asiatiske spillere i stigende grad bryder den amerikanske dominans i majors. Historien om hans baggrund giver sporten en sjælden fortælling om mangfoldighed på et niveau, hvor den traditionelt har manglet.",
+      "topics": [
+        "sport",
+        "golf"
+      ],
+      "entities": [
+        "Aaron Rai",
+        "PGA Championship",
+        "Aronimink",
+        "Jon Rahm"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Aaron Rai vandt PGA Championship den 17. maj 2026 på Aronimink.",
+          "sourceUrls": [
+            "https://www.nbcsports.com/golf/news/englishman-aaron-rai-wins-first-major-title-at-2026-pga-championship",
+            "https://www.cbsnews.com/news/aaron-rai-pga-championship-2026/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Englishman Aaron Rai wins first major title at 2026 PGA Championship",
+          "publisher": "NBC Sports",
+          "url": "https://www.nbcsports.com/golf/news/englishman-aaron-rai-wins-first-major-title-at-2026-pga-championship",
+          "publishedAt": "2026-05-17T23:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Aaron Rai wins PGA Championship for his first major title",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/aaron-rai-pga-championship-2026/",
+          "publishedAt": "2026-05-17T23:45:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Den nepalesiske bjergguide Kami Rita Sherpa nåede Mount Everests top for rekorden 32. gang, mens Lhakpa Sherpa som den første kvinde nåede toppen for 11. gang.",
+      "url": "https://kathmandupost.com/money/2026/05/17/kami-rita-sherpa-sets-new-world-record-with-32nd-everest-summit",
+      "headline": "Den nepalesiske bjergguide Kami Rita Sherpa nåede Mount Everests top for rekorden 32. gang, mens Lhakpa Sherpa som den første kvinde nåede toppen for 11. gang.",
+      "summary": "Den nepalesiske bjergguide Kami Rita Sherpa nåede Mount Everests top for rekorden 32. gang, mens Lhakpa Sherpa som den første kvinde nåede toppen for 11. gang.",
+      "publisher": "Kathmandu Post",
+      "section": "Verden",
+      "publishedAt": "2026-05-17T08:00:00.000Z"
+    },
+    {
+      "text": "WHO blev første gang alarmeret om udbruddet den 5. maj, og Bundibugyo-varianten blev laboratoriebekræftet i otte prøver den 15. maj.",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
+      "headline": "WHO blev første gang alarmeret om udbruddet den 5. maj, og Bundibugyo-varianten blev laboratoriebekræftet i otte prøver den 15. maj.",
+      "summary": "WHO blev første gang alarmeret om udbruddet den 5. maj, og Bundibugyo-varianten blev laboratoriebekræftet i otte prøver den 15. maj.",
+      "publisher": "World Health Organization",
+      "section": "Verden",
+      "publishedAt": "2026-05-17T18:30:00.000Z"
+    },
+    {
+      "text": "Saudi-Arabien nedskød tre droner affyret fra Irak, samtidig med at droneangrebet ramte Emiraternes Barakah-atomkraftværk.",
+      "url": "https://www.euronews.com/2026/05/19/uae-says-mystery-drones-targeting-nuclear-plant-came-from-iraq",
+      "headline": "Saudi-Arabien nedskød tre droner affyret fra Irak, samtidig med at droneangrebet ramte Emiraternes Barakah-atomkraftværk.",
+      "summary": "Saudi-Arabien nedskød tre droner affyret fra Irak, samtidig med at droneangrebet ramte Emiraternes Barakah-atomkraftværk.",
+      "publisher": "Euronews",
+      "section": "Verden",
+      "publishedAt": "2026-05-19T09:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}

@@ -1,0 +1,475 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20251013",
+  "date": "2025-10-13",
+  "generatedAt": "2025-10-13T06:00:00.000Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief",
+  "dek": "13. okt. 2025 var månedens største nyhedsdag: de sidste 20 levende israelske gidsler kom hjem, Israel løslod knap 2.000 palæstinensiske fanger, Trump talte i Knesset, og verdensledere underskrev Gaza-",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20251013-1",
+      "eventKey": "gaza-hostage-release-final-living",
+      "materialFacts": [
+        "Hamas frigav den 13. oktober 2025 de sidste 20 levende israelske gidsler efter godt to års fangenskab.",
+        "Overdragelsen skete via Den Internationale Røde Kors-komité som led i første fase af våbenhvileaftalen.",
+        "Hamas afleverede samme dag kun fire af de 28 afdøde gidsler.",
+        "Frigivelsen var en del af Trumps 20-punktsplan for at afslutte krigen i Gaza."
+      ],
+      "section": "Verden",
+      "headline": "De sidste 20 levende gidsler er hjemme: Gaza-aftalens første fase træder i kraft",
+      "primarySourceUrl": "https://www.npr.org/2025/10/13/g-s1-93207/hamas-releasing-israeli-hostages",
+      "subheadline": "To år efter Hamas' angreb den 7. oktober 2023 overdrog bevægelsen alle resterende levende israelske gidsler til Røde Kors og Israel.",
+      "body": [
+        "Mandag den 13. oktober frigav Hamas de sidste 20 levende israelske gidsler, der havde været holdt fanget i godt to år. Overdragelsen skete via Røde Kors som led i første fase af våbenhvileaftalen, der byggede på Donald Trumps 20-punktsplan for Gaza.",
+        "Frigivelsen udløste følelsesladede scener i Israel, hvor familier havde ventet siden angrebet den 7. oktober 2023. Hamas afleverede samtidig kun fire af de 28 afdøde gidsler, hvilket efterlod spørgsmålet om de øvrige omkomnes jordiske rester uafklaret.",
+        "Gidselløsladelsen var koblet til en samtidig israelsk frigivelse af palæstinensiske fanger og dannede rammen om en dag, hvor Trump både besøgte Israel og deltog i et internationalt topmøde i Egypten."
+      ],
+      "whyItMatters": "Hjemkomsten af de sidste levende gidsler markerede det mest håndgribelige vendepunkt i krigen siden oktober 2023 og var forudsætningen for, at våbenhvilen og den bredere fredsplan overhovedet kunne tage form.",
+      "analysis": "Dagen blev iscenesat som et historisk gennembrud, men aftalen efterlod de tungeste spørgsmål ubesvarede: afvæbning af Hamas, Gazas fremtidige styre og de afdøde gidslers rester. Frigivelsen gav momentum, men holdbarheden af våbenhvilen afhang af de næste, langt vanskeligere faser.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten",
+        "konflikt"
+      ],
+      "entities": [
+        "Hamas",
+        "Israel",
+        "Donald Trump",
+        "Røde Kors",
+        "Gaza"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 96,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Hamas frigav den 13. oktober 2025 de sidste 20 levende israelske gidsler efter godt to års fangenskab.",
+          "sourceUrls": [
+            "https://www.npr.org/2025/10/13/g-s1-93207/hamas-releasing-israeli-hostages",
+            "https://www.pbs.org/newshour/world/living-hostages-and-palestinian-prisoners-released-as-part-of-gaza-ceasefire"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israeli hostages freed, hundreds of Palestinians released, as Trump hails 'historic dawn'",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2025/10/13/g-s1-93207/hamas-releasing-israeli-hostages",
+          "publishedAt": "2025-10-13T08:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Living hostages and Palestinian prisoners released as part of Gaza ceasefire",
+          "publisher": "PBS News",
+          "url": "https://www.pbs.org/newshour/world/living-hostages-and-palestinian-prisoners-released-as-part-of-gaza-ceasefire",
+          "publishedAt": "2025-10-13T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251013-2",
+      "eventKey": "israel-palestinian-prisoner-release",
+      "materialFacts": [
+        "Israel frigav den 13. oktober 2025 i alt 1.968 palæstinensiske fanger.",
+        "Blandt dem var 250 livstidsdømte for angreb på israelere.",
+        "Omkring 1.700 var gazanere tilbageholdt uden sigtelse under krigen.",
+        "De frigivne blev transporteret i Røde Kors-busser til Vestbredden og Gaza, hvor de blev mødt af store folkemængder."
+      ],
+      "section": "Verden",
+      "headline": "Israel løslader knap 2.000 palæstinensiske fanger i den store udveksling",
+      "primarySourceUrl": "https://www.npr.org/2025/10/13/nx-s1-5573139/palestinians-prisoners-released",
+      "subheadline": "Blandt de 1.968 frigivne var 250 livstidsdømte samt omkring 1.700 gazanere, der havde været tilbageholdt uden sigtelse under krigen.",
+      "body": [
+        "Som modydelse for de israelske gidsler løslod Israel den 13. oktober knap 2.000 palæstinensiske fanger. Ifølge opgørelser drejede det sig om 1.968 personer, herunder 250 livstidsdømte for angreb på israelere og omkring 1.700 gazanere tilbageholdt uden sigtelse under krigen.",
+        "Fangerne blev kørt i Røde Kors-busser til Vestbredden og Gaza. I Beitunia på den besatte Vestbred og i Khan Younis i Gaza blev de mødt af store menneskemængder, jubel og fingre løftet i sejrstegn.",
+        "Mange af de livstidsdømte var blevet anholdt under den anden intifada i begyndelsen af 2000-tallet, hvilket gjorde frigivelsen til et stærkt symbolsk øjeblik for palæstinenserne."
+      ],
+      "whyItMatters": "Fangeudvekslingen var den anden halvdel af aftalens første fase og afgørende for, at Hamas accepterede at frigive gidslerne. Den berørte direkte tusindvis af familier på begge sider af konflikten.",
+      "analysis": "Frigivelsen af livstidsdømte var dybt kontroversiel i Israel, hvor mange anså dem for terrordømte, mens den blev fejret som en sejr i de palæstinensiske områder. Asymmetrien i tal og fortælling illustrerede, hvor forskelligt de to befolkninger oplevede samme dag.",
+      "topics": [
+        "mellemøsten",
+        "konflikt",
+        "menneskerettigheder"
+      ],
+      "entities": [
+        "Israel",
+        "Hamas",
+        "Vestbredden",
+        "Khan Younis",
+        "Røde Kors"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Israel frigav den 13. oktober 2025 i alt 1.968 palæstinensiske fanger.",
+          "sourceUrls": [
+            "https://www.npr.org/2025/10/13/nx-s1-5573139/palestinians-prisoners-released",
+            "https://www.cnn.com/2025/10/13/middleeast/palestinians-released-israeli-prisons-latam-intl"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Palestinians celebrate as prisoners are released by Israel under Gaza ceasefire deal",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2025/10/13/nx-s1-5573139/palestinians-prisoners-released",
+          "publishedAt": "2025-10-13T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Tears and cheers in West Bank and Gaza as nearly 2,000 Palestinians are released from Israeli prisons",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2025/10/13/middleeast/palestinians-released-israeli-prisons-latam-intl",
+          "publishedAt": "2025-10-13T13:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251013-3",
+      "eventKey": "trump-knesset-speech",
+      "materialFacts": [
+        "Trump talte i Knesset den 13. oktober 2025 og blev modtaget med stående ovationer.",
+        "Han kaldte dagen \"en historisk morgengry for et nyt Mellemøsten\".",
+        "Han erklærede, at Israel havde vundet krigen, og at det nu var tid til fred.",
+        "Talen fandt sted samme dag som gidselfrigivelsen og forud for topmødet i Sharm el-Sheikh."
+      ],
+      "section": "Verden",
+      "headline": "Trump i Knesset: \"Dette er en historisk morgengry for et nyt Mellemøsten\"",
+      "primarySourceUrl": "https://www.timesofisrael.com/rapturously-received-in-the-knesset-trump-tells-israel-it-won-the-war-now-its-time-for-peace/",
+      "subheadline": "Den amerikanske præsident blev hyldet i det israelske parlament for sin rolle i at få de sidste gidsler hjem.",
+      "body": [
+        "Donald Trump landede den 13. oktober i Israel og blev modtaget med stående ovationer i Knesset, hvor familier, soldater og politikere takkede ham for hans centrale rolle i gidselaftalen. \"Dette er en historisk morgengry for et nyt Mellemøsten,\" sagde han fra talerstolen.",
+        "Trump erklærede, at dette ikke blot var afslutningen på en krig, men \"afslutningen på en tidsalder af terror og død og begyndelsen på en tidsalder af tro og håb\". Han fortalte Israel, at landet havde vundet krigen, og at det nu var tid til fred.",
+        "Talen var samtidig optakt til et internationalt topmøde i Egypten senere samme dag, hvor Trump skulle medunderskrive en erklæring om Gazas fremtid."
+      ],
+      "whyItMatters": "Trumps optræden i Knesset cementerede USA's og hans personlige rolle som den drivende kraft bag våbenhvilen og satte den politiske ramme for, hvordan efterkrigstidens Gaza skulle forhandles.",
+      "analysis": "Talen var lige dele triumf og valgkampstone, og den effusive modtagelse afspejlede, at Trump for mange israelere fremstod som arkitekten bag gidslernes hjemkomst. Samtidig overskyggede de store ord, at planens svære spørgsmål om styre og afvæbning fortsat var uafklarede.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten",
+        "diplomati"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Knesset",
+        "Israel",
+        "Benjamin Netanyahu"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Trump talte i Knesset den 13. oktober 2025 og blev modtaget med stående ovationer.",
+          "sourceUrls": [
+            "https://www.timesofisrael.com/rapturously-received-in-the-knesset-trump-tells-israel-it-won-the-war-now-its-time-for-peace/",
+            "https://foreignpolicy.com/2025/10/13/trump-knesset-speech-israel-gaza-cease-fire-hostages-hamas-netanuyahu/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rapturously received in the Knesset, Trump tells Israel it won the war, now it's time for peace",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/rapturously-received-in-the-knesset-trump-tells-israel-it-won-the-war-now-its-time-for-peace/",
+          "publishedAt": "2025-10-13T11:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump Delivers Knesset Speech in Israel After Last Living Hostages Released",
+          "publisher": "Foreign Policy",
+          "url": "https://foreignpolicy.com/2025/10/13/trump-knesset-speech-israel-gaza-cease-fire-hostages-hamas-netanuyahu/",
+          "publishedAt": "2025-10-13T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251013-4",
+      "eventKey": "sharm-el-sheikh-gaza-peace-summit",
+      "materialFacts": [
+        "Topmødet i Sharm el-Sheikh fandt sted den 13. oktober 2025 med Trump og el-Sisi som medværter.",
+        "Ledere fra omkring 30 lande samt Den Arabiske Liga, EU og FN deltog.",
+        "Trump, el-Sisi, Qatars emir og Tyrkiets Erdoğan underskrev \"Trump-erklæringen om varig fred og velstand\".",
+        "Hverken Israel eller Hamas deltog; Netanyahu meldte afbud med henvisning til en jødisk helligdag."
+      ],
+      "section": "Verden",
+      "headline": "Verdensledere underskriver Gaza-fredserklæring i Sharm el-Sheikh",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2025/10/13/world-leaders-gather-in-egypt-for-signing-of-gaza-ceasefire-deal",
+      "subheadline": "Trump og el-Sisi var værter, da ledere fra omkring 30 lande mødtes om Gazas fremtid – uden Israel og Hamas til stede.",
+      "body": [
+        "Senere den 13. oktober rejste Trump videre til topmødet i Sharm el-Sheikh i Egypten, som han var vært for sammen med præsident Abdel Fattah el-Sisi. Ledere fra omkring 30 lande deltog sammen med Den Arabiske Liga, EU, FN og andre organisationer.",
+        "Trump, el-Sisi, Qatars emir Tamim bin Hamad Al Thani og Tyrkiets præsident Erdoğan underskrev \"Trump-erklæringen om varig fred og velstand\". \"En ny og smuk dag er på vej, og nu begynder genopbygningen,\" sagde Trump.",
+        "Hverken Israel eller Hamas var repræsenteret. Netanyahu meldte afbud med henvisning til den jødiske helligdag, og flere analytikere bemærkede, at erklæringen var overvejende symbolsk og uden konkrete gennemførelsesdetaljer."
+      ],
+      "whyItMatters": "Topmødet skulle internationalisere fredsplanen og forankre den hos regionale og vestlige magter, men fraværet af de to centrale parter understregede, hvor skrøbeligt fundamentet under aftalen var.",
+      "analysis": "Sharm el-Sheikh leverede billedet af bred international opbakning, men substansen var tynd. Når hverken Israel eller Hamas sad ved bordet, blev erklæringen mere en hensigtserklæring end en bindende køreplan – og overlod de tunge beslutninger til senere forhandlinger.",
+      "topics": [
+        "geopolitik",
+        "diplomati",
+        "mellemøsten"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Abdel Fattah el-Sisi",
+        "Recep Tayyip Erdoğan",
+        "Tamim bin Hamad Al Thani",
+        "Egypten"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Topmødet i Sharm el-Sheikh fandt sted den 13. oktober 2025 med Trump og el-Sisi som medværter.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2025/10/13/world-leaders-gather-in-egypt-for-signing-of-gaza-ceasefire-deal",
+            "https://en.wikipedia.org/wiki/2025_Gaza_Peace_Summit"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "World leaders gather in Egypt for signing of Gaza ceasefire deal",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2025/10/13/world-leaders-gather-in-egypt-for-signing-of-gaza-ceasefire-deal",
+          "publishedAt": "2025-10-13T15:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Gaza peace summit",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_Gaza_Peace_Summit",
+          "publishedAt": "2025-10-13T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251013-5",
+      "eventKey": "nobel-prize-economics-2025",
+      "materialFacts": [
+        "Nobelprisen i økonomi blev den 13. oktober 2025 tildelt Joel Mokyr, Philippe Aghion og Peter Howitt.",
+        "Begrundelsen var, at de havde forklaret innovationsdrevet økonomisk vækst.",
+        "Prissummen var 11 millioner svenske kroner; den ene halvdel gik til Mokyr, den anden til Aghion og Howitt.",
+        "Aghion og Howitt blev hædret for deres model for kreativ destruktion fra en artikel i 1992."
+      ],
+      "section": "Videnskab",
+      "headline": "Nobelprisen i økonomi til Mokyr, Aghion og Howitt for at forklare innovationsdrevet vækst",
+      "primarySourceUrl": "https://www.cnn.com/2025/10/13/business/nobel-prize-economics-winner-2025-intl",
+      "subheadline": "Samme dag som Mellemøsten fyldte forsiderne, hædrede Stockholm tre økonomer for at kortlægge teknologisk fremgang og kreativ destruktion.",
+      "body": [
+        "Den 13. oktober tildelte Sveriges Riksbank prisen i økonomisk videnskab til minde om Alfred Nobel til Joel Mokyr, Philippe Aghion og Peter Howitt \"for at have forklaret innovationsdrevet økonomisk vækst\". Prissummen var 11 millioner svenske kroner.",
+        "Den ene halvdel gik til Mokyr fra Northwestern University for at have identificeret forudsætningerne for vedvarende vækst gennem teknologisk fremskridt. Den anden halvdel gik til Aghion og Howitt for deres teori om kreativ destruktion fra en artikel i 1992.",
+        "Aghion er tilknyttet Collège de France og London School of Economics, mens Howitt er fra Brown University. Prisen afsluttede ugens nobeluddelinger."
+      ],
+      "whyItMatters": "Prisen satte fokus på, hvorfor nogle samfund formår at fastholde vedvarende vækst gennem innovation – et spørgsmål med direkte relevans for klima, produktivitet og økonomisk politik i en verden i hastig teknologisk forandring.",
+      "analysis": "Komitéens valg fremhævede ideen om, at vækst ikke er en selvfølge, men kræver institutioner og åbenhed for, at det nye fortrænger det gamle. I et år præget af geopolitisk uro var det en påmindelse om, at de langsigtede drivkræfter bag velstand fortsat er forskningens og teknologiens samspil.",
+      "topics": [
+        "videnskab",
+        "økonomi"
+      ],
+      "entities": [
+        "Joel Mokyr",
+        "Philippe Aghion",
+        "Peter Howitt",
+        "Sveriges Riksbank",
+        "Nobelprisen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Nobelprisen i økonomi blev den 13. oktober 2025 tildelt Joel Mokyr, Philippe Aghion og Peter Howitt.",
+          "sourceUrls": [
+            "https://www.cnn.com/2025/10/13/business/nobel-prize-economics-winner-2025-intl",
+            "https://www.nobelprize.org/prizes/economic-sciences/2025/press-release/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nobel Prize in economics awarded to Mokyr, Aghion and Howitt for explaining 'innovation-driven' growth",
+          "publisher": "CNN Business",
+          "url": "https://www.cnn.com/2025/10/13/business/nobel-prize-economics-winner-2025-intl",
+          "publishedAt": "2025-10-13T11:45:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2025 - Press release",
+          "publisher": "NobelPrize.org",
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2025/press-release/",
+          "publishedAt": "2025-10-13T10:45:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20251013-6",
+      "eventKey": "us-government-shutdown-2025",
+      "materialFacts": [
+        "Den amerikanske forbundsregering var den 13. oktober 2025 nedlukket på 13. dag efter finansieringsstop fra 1. oktober.",
+        "Senatet stemte gentagne gange om en midlertidig bevilling uden at bryde dødvandet.",
+        "Over 4.100 forbundsansatte var blevet varslet afskediget få dage forinden.",
+        "Nedlukningen blev den længste i USA's historie."
+      ],
+      "section": "Verden",
+      "headline": "USA's nedlukning ruller ind i tredje uge uden løsning i sigte",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown",
+      "subheadline": "Mens verdens øjne var rettet mod Mellemøsten, var den amerikanske forbundsregering lukket på 13. dag med fyringer og fastlåste forhandlinger.",
+      "body": [
+        "Den 13. oktober var den amerikanske forbundsregering lukket ned på 13. dag, efter at finansieringen udløb den 1. oktober. Senatet stemte gentagne gange om en demokratisk ledet midlertidig bevilling, men dødvandet fortsatte ind i tredje uge.",
+        "Få dage forinden havde over 4.100 forbundsansatte fået besked om afskedigelse, med Finansministeriet og Sundhedsministeriet hårdest ramt. Demokrater og republikanere fortsatte med at give hinanden skylden for det fastlåste forløb.",
+        "Nedlukningen, der blev den længste i USA's historie, ramte hundredtusinder af ansatte og en lang række offentlige ydelser, mens kongressen forblev i hårdknude."
+      ],
+      "whyItMatters": "Nedlukningen ramte direkte hundredtusinder af amerikanske familier og illustrerede en dyb politisk blokering i Washington, der stod i skarp kontrast til den udenrigspolitiske triumf, Trump fejrede i Mellemøsten samme dag.",
+      "analysis": "Sammenstødet mellem en feteret udenrigspolitisk sejr og en fastlåst indenrigspolitisk krise tegnede et splittet billede af Trumps anden embedsperiode. Mens han skrev historie i Sharm el-Sheikh, kunne hans egen regering ikke holde sig selv åben – en spænding, der prægede hele oktober.",
+      "topics": [
+        "politik",
+        "usa",
+        "økonomi"
+      ],
+      "entities": [
+        "USA",
+        "Det Hvide Hus",
+        "Senatet",
+        "Kongressen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Den amerikanske forbundsregering var den 13. oktober 2025 nedlukket på 13. dag efter finansieringsstop fra 1. oktober.",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown",
+            "https://www.cbsnews.com/live-updates/government-shutdown-2025-latest-house-senate-trump/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2025 United States federal government shutdown",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown",
+          "publishedAt": "2025-10-13T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Government shutdown poised to enter a third week as Congress remains at stalemate",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/government-shutdown-2025-latest-house-senate-trump/",
+          "publishedAt": "2025-10-13T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Den jødiske helligdag Simchat Torah blev af Netanyahus kontor angivet som grund til, at den israelske premierminister ikke deltog i topmødet i Sharm el-Sheikh trods Trumps invitation.",
+      "url": "https://www.aljazeera.com/news/2025/10/13/world-leaders-gather-in-egypt-for-signing-of-gaza-ceasefire-deal",
+      "headline": "Den jødiske helligdag Simchat Torah blev af Netanyahus kontor angivet som grund til, at den israelske premierminister ikke deltog i topmødet i Sharm el-Sheikh trods Trumps invitation.",
+      "summary": "Den jødiske helligdag Simchat Torah blev af Netanyahus kontor angivet som grund til, at den israelske premierminister ikke deltog i topmødet i Sharm el-Sheikh trods Trumps invitation.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2025-10-13T15:30:00.000Z"
+    },
+    {
+      "text": "Hamas afleverede den 13. oktober kun fire af de 28 afdøde gidsler, hvilket efterlod overdragelsen af de øvrige omkomnes rester som et åbent stridspunkt i aftalen.",
+      "url": "https://www.pbs.org/newshour/world/living-hostages-and-palestinian-prisoners-released-as-part-of-gaza-ceasefire",
+      "headline": "Hamas afleverede den 13. oktober kun fire af de 28 afdøde gidsler, hvilket efterlod overdragelsen af de øvrige omkomnes rester som et åbent stridspunkt i aftalen.",
+      "summary": "Hamas afleverede den 13. oktober kun fire af de 28 afdøde gidsler, hvilket efterlod overdragelsen af de øvrige omkomnes rester som et åbent stridspunkt i aftalen.",
+      "publisher": "PBS News",
+      "section": "Verden",
+      "publishedAt": "2025-10-13T10:30:00.000Z"
+    },
+    {
+      "text": "I Madagaskar flygtede præsident Andry Rajoelina ud af landet, dagen efter at eliteenheden CAPSAT havde vendt sig mod ham og overtaget hovedstaden Antananarivo.",
+      "url": "https://www.npr.org/2025/10/14/nx-s1-5574215/military-madagascar-gen-z",
+      "headline": "I Madagaskar flygtede præsident Andry Rajoelina ud af landet, dagen efter at eliteenheden CAPSAT havde vendt sig mod ham og overtaget hovedstaden Antananarivo.",
+      "summary": "I Madagaskar flygtede præsident Andry Rajoelina ud af landet, dagen efter at eliteenheden CAPSAT havde vendt sig mod ham og overtaget hovedstaden Antananarivo.",
+      "publisher": "NPR",
+      "section": "Verden",
+      "publishedAt": "2025-10-13T20:00:00.000Z"
+    },
+    {
+      "text": "Få dage før den 13. oktober havde over 4.100 amerikanske forbundsansatte fået varsler om afskedigelse under den fortsatte regeringsnedlukning.",
+      "url": "https://federalnewsnetwork.com/government-shutdown/2025/10/government-shutdown-layoffs-to-occur-very-soon-white-house-warns/",
+      "headline": "Få dage før den 13. oktober havde over 4.100 amerikanske forbundsansatte fået varsler om afskedigelse under den fortsatte regeringsnedlukning.",
+      "summary": "Få dage før den 13. oktober havde over 4.100 amerikanske forbundsansatte fået varsler om afskedigelse under den fortsatte regeringsnedlukning.",
+      "publisher": "Federal News Network",
+      "section": "Verden",
+      "publishedAt": "2025-10-13T13:30:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}

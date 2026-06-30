@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20260228",
+  "date": "2026-02-28",
+  "generatedAt": "2026-02-28T06:00:00.000Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "USA og Israel indleder en omfattende militæroperation mod Iran; krigen bryder ud",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20260228-epicfury",
+      "eventKey": "operation-epic-fury",
+      "materialFacts": [
+        "USA og Israel indledte 28. februar 2026 næsten 900 angreb på 12 timer mod Iran",
+        "Målene var iranske missiler, luftforsvar, militær infrastruktur og ledelse",
+        "USA brugte B-2-, B-1- og B-52-bombefly samt Tomahawk-missiler fra krigsskibe og HIMARS",
+        "CENTCOM bekræftede kl. 06:35 UTC, at man og partnerstyrker havde indledt luftangreb mod Iran"
+      ],
+      "section": "Verden",
+      "headline": "USA og Israel indleder massiv militæroperation mod Iran",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/2026_Iran_war",
+      "subheadline": "Operation Epic Fury rammer iranske militærmål med næsten 900 angreb på tolv timer",
+      "body": [
+        "USA og Israel indledte 28. februar 2026 en omfattende militæroperation mod Iran. På cirka tolv timer ramte næsten 900 angreb iranske missiler, luftforsvar, militær infrastruktur og ledelse. CENTCOM meddelte kl. 06:35 UTC, at man sammen med partnerstyrker havde påbegyndt luftangreb.",
+        "USA's militær oplyste at have brugt B-2-stealthbombefly samt B-1 Lancer- og B-52 Stratofortress-fly mod befæstede ballistiske missilanlæg, mens krigsskibe affyrede Tomahawk-missiler og hæren brugte HIMARS. Præsident Donald Trump havde givet ordre til Operation Epic Fury kl. 20:38 UTC aftenen før."
+      ],
+      "whyItMatters": "Et åbent angreb på Iran trækker stormagter og hele Golfregionen ind i en krig, der kan ramme oliepriser, sejlads gennem Hormuzstrædet og europæisk sikkerhed direkte.",
+      "analysis": "Operationens skala — næsten 900 angreb på tolv timer — peger på et forsøg på at lamme Irans militære kapacitet i ét slag frem for en gradvis optrapning. Den åbenlyse risiko er, at en hurtig militær sejr ikke oversættes til politisk kontrol, men i stedet udløser en bredere og længere regional konflikt.",
+      "topics": [
+        "geopolitik",
+        "iran",
+        "konflikt"
+      ],
+      "entities": [
+        "USA",
+        "Israel",
+        "Iran",
+        "Donald Trump",
+        "CENTCOM"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 98,
+        "decisionValue": 80,
+        "novelty": 90,
+        "sourceQuality": 85,
+        "personalRelevance": 60,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "USA og Israel indledte 28. februar 2026 næsten 900 angreb på 12 timer mod iranske mål",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/2026_Iran_war",
+            "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2026 Iran war",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+          "publishedAt": "2026-02-28T08:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Timeline of the 2026 Iran war",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+          "publishedAt": "2026-02-28T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260228-decapitation",
+      "eventKey": "khamenei-killed",
+      "materialFacts": [
+        "Det israelske luftvåben indledte kl. 06:45 UTC en bølge af decapiteringsangreb",
+        "Irans øverste leder Ali Khamenei og flere højtstående embedsmænd blev dræbt",
+        "Embedsmændene deltog i tre møder på Khameneis residens, da angrebene ramte"
+      ],
+      "section": "Verden",
+      "headline": "Irans øverste leder Khamenei dræbt i israelske angreb",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+      "subheadline": "En bølge af decapiteringsangreb rammer Irans ledelse i krigens første timer",
+      "body": [
+        "Kort efter de første angreb indledte det israelske luftvåben kl. 06:45 UTC en hidtil uset bølge af decapiteringsangreb. Irans øverste leder Ali Khamenei og flere højtstående embedsmænd blev dræbt, mens de deltog i møder på hans residens.",
+        "At ramme statens øverste ledelse i de første timer er et bevidst forsøg på at lamme Irans kommando og kontrol — men efterlader også et farligt magttomrum i et land i krig."
+      ],
+      "whyItMatters": "Drabet på en stats øverste leder er en ekstraordinær optrapning, der gør forløbet uforudsigeligt og hæver risikoen for en bredere regional krig.",
+      "analysis": "Decapiteringsstrategien kan svække en modstanders evne til at koordinere modangreb på kort sigt, men historisk fører den sjældent til hurtig kapitulation; et magttomrum kan i stedet sprede konflikten og besværliggøre enhver senere forhandlet afslutning.",
+      "topics": [
+        "geopolitik",
+        "iran",
+        "konflikt"
+      ],
+      "entities": [
+        "Iran",
+        "Israel",
+        "Ali Khamenei"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 95,
+        "decisionValue": 70,
+        "novelty": 88,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Ali Khamenei og flere højtstående embedsmænd blev dræbt i israelske decapiteringsangreb 28. februar 2026",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Timeline of the 2026 Iran war",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+          "publishedAt": "2026-02-28T09:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 Iran war",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+          "publishedAt": "2026-02-28T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260228-retaliation",
+      "eventKey": "iran-missile-retaliation",
+      "materialFacts": [
+        "Iran begyndte kl. 09:05 UTC at affyre ballistiske missiler mod Israel og flere golfstater",
+        "Det israelske forsvar anslog, at Iran havde affyret omkring 170 ballistiske missiler"
+      ],
+      "section": "Verden",
+      "headline": "Iran svarer igen med omkring 170 ballistiske missiler",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+      "subheadline": "Teheran retter sit modangreb mod Israel og flere golfstater",
+      "body": [
+        "Iran indledte kl. 09:05 UTC sit modangreb og affyrede ballistiske missiler mod Israel og flere golfstater. Det israelske forsvar anslog, at omkring 170 ballistiske missiler var blevet affyret.",
+        "Modangrebet udvider konflikten ud over Iran og Israel og sætter golfstaterne — og dermed verdens vigtigste energirute — i skudlinjen fra krigens første dag."
+      ],
+      "whyItMatters": "Når missiler rammer golfstaterne, er hele regionens energiinfrastruktur og søfart i fare, med globale følger for forsyning og priser.",
+      "analysis": "Et modangreb af denne størrelse fra dag ét signalerer, at Irans missilarsenal ikke blev neutraliseret trods de indledende angreb. Det gør en hurtig afslutning mindre sandsynlig og trækker golfstaterne ind som direkte parter.",
+      "topics": [
+        "geopolitik",
+        "iran",
+        "konflikt"
+      ],
+      "entities": [
+        "Iran",
+        "Israel",
+        "golfstaterne"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 68,
+        "novelty": 80,
+        "sourceQuality": 78,
+        "personalRelevance": 45,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Iran affyrede ca. 170 ballistiske missiler mod Israel og golfstater som modsvar 28. februar 2026",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Timeline of the 2026 Iran war",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+          "publishedAt": "2026-02-28T11:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "List of attacks during the 2026 Iran war",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_attacks_during_the_2026_Iran_war",
+          "publishedAt": "2026-02-28T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260228-optakt",
+      "eventKey": "iran-war-origins",
+      "materialFacts": [
+        "Spændingerne om Irans atomprogram tog til i januar 2026",
+        "USA og Iran indledte i februar indirekte forhandlinger i Oman",
+        "Sent i februar fremlagde Iran et overraskende tilbud, og parterne aftalte at mødes i Wien",
+        "Israels premierminister Netanyahu havde presset Trump for et fælles angreb mod Irans ledelse"
+      ],
+      "section": "Verden",
+      "headline": "Vejen til krig: fra atomforhandlinger til angreb",
+      "primarySourceUrl": "https://www.britannica.com/event/2026-Iran-war",
+      "subheadline": "Måneders spændinger og diplomati endte i et fælles amerikansk-israelsk angreb",
+      "body": [
+        "Optakten til krigen begyndte tidligt i 2026. Spændingerne om Irans atomprogram tog til i januar, og USA og Iran indledte i februar indirekte forhandlinger i Oman. Sent i februar fremlagde Iran et overraskende tilbud, og parterne aftalte at mødes i Wien for at afklare tekniske spørgsmål.",
+        "Sideløbende havde Israels premierminister Benjamin Netanyahu presset præsident Trump for et fælles militært angreb rettet mod Irans ledelse. Diplomatiet og forberedelserne til krig løb dermed parallelt — indtil angrebene 28. februar gjorde forhandlingssporet til en fodnote."
+      ],
+      "whyItMatters": "Forhistorien forklarer, hvorfor et diplomatisk spor og et militært angreb kunne løbe side om side — og hvor hurtigt det første kan vælte.",
+      "analysis": "At forhandlinger og krigsforberedelser kørte samtidig, viser, at diplomatiet aldrig var det eneste spor. Når et angreb afløser en netop indgået mødeaftale, undergraver det troværdigheden af fremtidige forhandlinger — et mønster, der præger hele det efterfølgende forløb.",
+      "topics": [
+        "geopolitik",
+        "iran",
+        "diplomati"
+      ],
+      "entities": [
+        "USA",
+        "Iran",
+        "Israel",
+        "Benjamin Netanyahu",
+        "Oman"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 62,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "USA og Iran forhandlede indirekte i Oman i februar 2026, mens Netanyahu pressede på for et angreb",
+          "sourceUrls": [
+            "https://www.britannica.com/event/2026-Iran-war",
+            "https://www.cnn.com/interactive/2026/05/politics/iran-war-key-moments-vis/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2026 Iran war — Deal, Explained, United States, Israel, Strait of Hormuz",
+          "publisher": "Britannica",
+          "url": "https://www.britannica.com/event/2026-Iran-war",
+          "publishedAt": "2026-02-28T07:30:00.000Z",
+          "kind": "analysis"
+        },
+        {
+          "title": "Iran war timeline and key moments, explained",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/interactive/2026/05/politics/iran-war-key-moments-vis/",
+          "publishedAt": "2026-02-28T13:00:00.000Z",
+          "kind": "analysis"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Trump gav ordre til Operation Epic Fury kl. 20:38 UTC aftenen før angrebene",
+      "url": "https://en.wikipedia.org/wiki/Timeline_of_the_2026_Iran_war",
+      "headline": "Trump gav ordre til Operation Epic Fury kl. 20:38 UTC aftenen før angrebene",
+      "summary": "CENTCOM bekræftede angrebene kl. 06:35 UTC.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2026-02-28T06:35:00.000Z"
+    },
+    {
+      "text": "USA indsatte B-2-, B-1- og B-52-bombefly mod befæstede iranske missilanlæg",
+      "url": "https://en.wikipedia.org/wiki/2026_Iran_war",
+      "headline": "USA indsatte B-2-, B-1- og B-52-bombefly mod befæstede iranske missilanlæg",
+      "summary": "Tomahawk-missiler og HIMARS supplerede luftangrebene.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2026-02-28T08:30:00.000Z"
+    },
+    {
+      "text": "Konflikten får senere navnet den 2026 Iran-krig og strækker sig over måneder",
+      "url": "https://www.britannica.com/event/2026-Iran-war",
+      "headline": "Konflikten får senere navnet den 2026 Iran-krig og strækker sig over måneder",
+      "summary": "Forløbet fortsætter ind i sommeren med våbenhvile og forhandlinger.",
+      "publisher": "Britannica",
+      "section": "Verden",
+      "publishedAt": "2026-02-28T14:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 90,
+    "novelty": 85,
+    "render": 100
+  },
+  "backfilled": true
+}

@@ -1,0 +1,472 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20260103",
+  "date": "2026-01-03",
+  "generatedAt": "2026-01-03T06:00:00.000Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief",
+  "dek": "USA's natangreb \"Operation Absolute Resolve\" mod Venezuela tilfangetog præsident Nicolás Maduro - dagens dominerende, tungt dokumenterede globale begivenhed.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20260103-1",
+      "eventKey": "us-captures-maduro-venezuela",
+      "materialFacts": [
+        "Operationen, kaldet Absolute Resolve, begyndte med angreb omkring kl. 02:00 lokal tid og varede cirka 2 timer og 28 minutter.",
+        "Omkring 150 fly fra 20 baser samt Delta Force, det 160. specialoperationsregiment og FBI's gidselredningshold deltog.",
+        "Maduro og Cilia Flores blev tilfangetaget og fløjet til Stewart-basen i New York; han blev tiltalt for narkoterror og kokainsmugling.",
+        "Vicepræsident Delcy Rodríguez overtog som fungerende præsident efter tilfangetagelsen."
+      ],
+      "section": "Verden",
+      "headline": "USA stormer Caracas og tilfangetager præsident Maduro i natlig militæroperation",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/1/3/explosions-heard-over-venezuelan-capital-caracas-amid-us-tensions",
+      "subheadline": "Operation Absolute Resolve: omkring 150 fly og specialstyrker fløj Venezuelas leder ud af landet og til New York for at stå anklaget",
+      "body": [
+        "Tidligt om morgenen den 3. januar gennemførte amerikanske styrker luftangreb omkring Caracas og en specialoperation, der tilfangetog Venezuelas præsident Nicolás Maduro og hans hustru Cilia Flores. Helikoptere landede ved Maduros kompleks klokken 02:01 lokal tid.",
+        "Ifølge Pentagon deltog cirka 150 fly fra 20 baser, sammen med Delta Force, det 160. specialoperationsregiment og FBI's gidselredningshold. Maduro blev fløjet til Stewart-basen i New York og senere overført til en arrest i Brooklyn.",
+        "Justitsminister Pam Bondi oplyste, at Maduro var tiltalt for narkoterror og kokainsmugling i Southern District of New York. Vicepræsident Delcy Rodríguez overtog rollen som fungerende præsident og blev formelt taget i ed den 5. januar."
+      ],
+      "whyItMatters": "Det er første gang i nyere tid, at USA militært fjerner og bortfører en siddende statsleder for at retsforfølge ham på amerikansk jord. Det rejser akutte spørgsmål om FN-pagten, national suverænitet og præsidentens krigsbeføjelser uden Kongressens godkendelse.",
+      "analysis": "Operationens skala og det dristige mål signalerer en markant eskalering af Washingtons pres på Caracas. FN-eksperter og demokratiske lovgivere kalder bortførelsen et brud på folkeretten, mens dele af den venezuelanske diaspora fejrede. Den juridiske og diplomatiske strid om operationens lovlighed - og hvem der reelt styrer Venezuela fremover - vil definere de kommende ugers nyhedsbillede.",
+      "topics": [
+        "geopolitik",
+        "konflikt",
+        "usa"
+      ],
+      "entities": [
+        "Nicolás Maduro",
+        "Cilia Flores",
+        "Delcy Rodríguez",
+        "Pam Bondi",
+        "USA",
+        "Venezuela",
+        "Donald Trump"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 96,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Operationen, kaldet Absolute Resolve, begyndte med angreb omkring kl. 02:00 lokal tid og varede cirka 2 timer og 28 minutter.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/1/3/explosions-heard-over-venezuelan-capital-caracas-amid-us-tensions",
+            "https://www.pbs.org/newshour/world/us-strikes-venezuela-and-says-its-leader-maduro-has-been-captured-and-flown-out-of-the-country",
+            "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump says Venezuela's Maduro 'captured' after huge US military strikes",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/1/3/explosions-heard-over-venezuelan-capital-caracas-amid-us-tensions",
+          "publishedAt": "2026-01-03T08:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "U.S. strikes Venezuela and says its leader Maduro has been captured and flown out of the country",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/us-strikes-venezuela-and-says-its-leader-maduro-has-been-captured-and-flown-out-of-the-country",
+          "publishedAt": "2026-01-03T14:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 United States intervention in Venezuela",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_United_States_intervention_in_Venezuela",
+          "publishedAt": "2026-01-03T23:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260103-2",
+      "eventKey": "world-reacts-maduro-capture",
+      "materialFacts": [
+        "FN-embedsmænd og folkeretseksperter erklærede, at raidet krænkede FN-pagten og Venezuelas suverænitet.",
+        "Demokratiske kongresmedlemmer fordømte aktionen og fremhævede manglende godkendelse fra Kongressen.",
+        "Den venezuelanske diaspora fejrede flere steder, mens der samtidig var protester globalt."
+      ],
+      "section": "Verden",
+      "headline": "Verden reagerer skarpt: bortførelsen af Maduro kaldes et brud på folkeretten",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/1/3/world-reacts-to-reported-us-bombing-of-venezuela",
+      "subheadline": "FN-eksperter og demokratiske kongresmedlemmer fordømmer operationen, mens den venezuelanske diaspora fejrer i gaderne",
+      "body": [
+        "I timerne efter angrebet strømmede internationale reaktioner ind. FN-embedsmænd og folkeretseksperter advarede om, at raidet krænkede FN-pagten og Venezuelas suverænitet, og at bortførelsen af en udenlandsk statsleder er et alvorligt brud på international ret.",
+        "I USA fordømte demokratiske lovgivere præsident Trumps aktion og påpegede, at den manglede Kongressens godkendelse. Samtidig samledes dele af den venezuelanske diaspora for at fejre Maduros fald, mens der også blev afholdt protester flere steder i verden."
+      ],
+      "whyItMatters": "Reaktionsmønstret afslører en dyb splittelse: spørgsmålet er ikke kun, om Maduro skulle væk, men om midlerne - et militært angreb og en bortførelse - er forenelige med den regelbaserede orden, som USA selv har bygget.",
+      "analysis": "Striden flytter sig hurtigt fra slagmarken til retssalen og FN. Fact-tjek af præsidentens udtalelser fra blandt andre Al Jazeera viste uoverensstemmelser, og juridiske eksperter satte spørgsmålstegn ved hjemlen. Hvordan Latinamerika og USA's allierede positionerer sig vil afgøre, om operationen bliver et isoleret tilfælde eller en ny doktrin.",
+      "topics": [
+        "geopolitik",
+        "folkeret",
+        "diplomati"
+      ],
+      "entities": [
+        "FN",
+        "USA",
+        "Venezuela",
+        "Nicolás Maduro",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "FN-embedsmænd og folkeretseksperter erklærede, at raidet krænkede FN-pagten og Venezuelas suverænitet.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/1/3/world-reacts-to-reported-us-bombing-of-venezuela",
+            "https://www.aljazeera.com/news/2026/1/3/us-lawmakers-react-to-attack-on-venezuela-capture-of-maduro"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "World reacts to US bombing of Venezuela, 'capture' of Maduro",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/1/3/world-reacts-to-reported-us-bombing-of-venezuela",
+          "publishedAt": "2026-01-03T18:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US lawmakers react to attack on Venezuela, 'capture' of Nicolas Maduro",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/1/3/us-lawmakers-react-to-attack-on-venezuela-capture-of-maduro",
+          "publishedAt": "2026-01-03T20:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260103-3",
+      "eventKey": "russia-ukraine-strikes-jan3",
+      "materialFacts": [
+        "Russiske styrker affyrede omkring 95 droner natten til den 3. januar; det ukrainske luftvåben nedskød 80, mens 15 ramte otte lokationer.",
+        "Russiske angreb ramte bolig- og civil infrastruktur i flere oblaster, inklusive et krydsermissilangreb mod Tjerkasy oblast.",
+        "FN opgjorde mindst 32 dræbte civile i perioden 3.-9. januar 2026."
+      ],
+      "section": "Verden",
+      "headline": "Russiske angreb rammer Ukraine på tværs af landet i nyt vinterbombardement",
+      "primarySourceUrl": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-january-3-2026",
+      "subheadline": "Omkring 95 droner mod ukrainske mål natten til den 3. januar; missil- og droneangreb ramte bolig- og civil infrastruktur",
+      "body": [
+        "Natten til den 3. januar affyrede russiske styrker omkring 95 droner af Shahed- og Gerbera-typen mod Ukraine fra blandt andet Kursk, Orjol og Brjansk. Det ukrainske luftvåben oplyste, at 80 droner blev skudt ned, mens 15 ramte otte lokationer.",
+        "Ukrainske myndigheder rapporterede, at russiske styrker ramte bolig- og civil infrastruktur i flere oblaster, herunder et krydsermissilangreb mod Tjerkasy oblast. Angrebene indgår i en bredere bølge, der i dagene 3.-9. januar dræbte mindst 32 civile ifølge FN."
+      ],
+      "whyItMatters": "De vedvarende angreb mod energi- og boliginfrastruktur midt om vinteren presser den ukrainske civilbefolkning yderligere og holder krigen øverst på den europæiske sikkerhedsdagsorden, selv mens verdens opmærksomhed rettes mod Venezuela.",
+      "analysis": "Mønsteret med massive droneangreb om natten fortsætter Ruslands strategi om at udmatte ukrainsk luftforsvar og ramme civil modstandskraft. At en stor andel droner blev skudt ned vidner om ukrainsk forsvarsevne, men de der slipper igennem, koster fortsat liv og infrastruktur.",
+      "topics": [
+        "konflikt",
+        "ukraine",
+        "geopolitik"
+      ],
+      "entities": [
+        "Rusland",
+        "Ukraine",
+        "FN"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Russiske styrker affyrede omkring 95 droner natten til den 3. januar; det ukrainske luftvåben nedskød 80, mens 15 ramte otte lokationer.",
+          "sourceUrls": [
+            "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-january-3-2026",
+            "https://news.un.org/en/story/2026/01/1166748"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russian Offensive Campaign Assessment, January 3, 2026",
+          "publisher": "Institute for the Study of War / Critical Threats",
+          "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-january-3-2026",
+          "publishedAt": "2026-01-03T23:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ukraine: Deadly Russian strikes push civilians deeper into winter crisis",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/01/1166748",
+          "publishedAt": "2026-01-09T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260103-4",
+      "eventKey": "nigeria-niger-state-market-attack",
+      "materialFacts": [
+        "Angrebet ramte Kasuwan Daji-markedet i Demo, Borgu i Niger State, omkring kl. 16:30 den 3. januar.",
+        "Mindst 30 mennesker blev dræbt, flere blev bortført, og markedet blev sat i brand.",
+        "Gerningsmændene flygtede mod skovområder nær Kainji Lake National Park."
+      ],
+      "section": "Verden",
+      "headline": "Bevæbnede mænd massakrerer markedsgæster i det nordlige Nigeria",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/1/4/gunmen-kill-over-30-in-village-raid-abduct-others-in-northern-nigeria",
+      "subheadline": "Mindst 30 dræbt og flere bortført under et angreb på et landsbymarked i Borgu i Niger State",
+      "body": [
+        "Om eftermiddagen den 3. januar angreb bevæbnede mænd på motorcykler markedet Kasuwan Daji i Demo-landsbyen i Borgu i Niger State. Angriberne åbnede vilkårlig ild, dræbte mindst 30 mennesker, bortførte andre og satte markedet i brand.",
+        "Gerningsmændene plyndrede mad og varer og flygtede mod skovområderne nær Kainji Lake National Park, et område, der længe er blevet brugt af væbnede grupper til at iscenesætte angreb og undslippe sikkerhedsstyrkerne. Nogle rapporter angav et endnu højere dødstal."
+      ],
+      "whyItMatters": "Massakren understreger den vedholdende usikkerhed i det nordlige Nigeria, hvor landlige samfund langt fra militære installationer gentagne gange rammes af banditgrupper - et kronisk sikkerhedsproblem, der sjældent får international bevågenhed.",
+      "analysis": "Angrebet føjer sig til en bredere bølge af vold ved årsskiftet og illustrerer, hvordan den nigerianske stat fortsat kæmper med at beskytte afsidesliggende landsbyer. Brugen af skovterræn som tilflugtssted gør det vanskeligt at bekæmpe grupperne militært.",
+      "topics": [
+        "afrika",
+        "konflikt",
+        "sikkerhed"
+      ],
+      "entities": [
+        "Nigeria",
+        "Niger State",
+        "Borgu"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Angrebet ramte Kasuwan Daji-markedet i Demo, Borgu i Niger State, omkring kl. 16:30 den 3. januar.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/1/4/gunmen-kill-over-30-in-village-raid-abduct-others-in-northern-nigeria",
+            "https://www.aa.com.tr/en/africa/at-least-30-killed-as-terrorists-attack-market-in-nigeria-s-niger-state/3789706"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gunmen kill over 30 in village raid, abduct others in northern Nigeria",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/1/4/gunmen-kill-over-30-in-village-raid-abduct-others-in-northern-nigeria",
+          "publishedAt": "2026-01-04T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "At least 30 killed as terrorists attack market in Nigeria's Niger State",
+          "publisher": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/africa/at-least-30-killed-as-terrorists-attack-market-in-nigeria-s-niger-state/3789706",
+          "publishedAt": "2026-01-04T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260103-5",
+      "eventKey": "iran-protest-crackdown-ilam",
+      "materialFacts": [
+        "IRGC-styrker dræbte den 3. januar mindst fire personer i Malekshahi i Ilam-provinsen, heriblandt mindst ét barn.",
+        "Mindst 28 demonstranter og tilskuere blev dræbt i 13 byer i otte provinser mellem 31. december 2025 og 3. januar 2026.",
+        "Protesterne udsprang af kollapsende valuta og høj inflation i Iran."
+      ],
+      "section": "Verden",
+      "headline": "Mindst fire demonstranter dræbt i Ilam, mens uroen i Iran fortsætter",
+      "primarySourceUrl": "https://www.amnesty.org/en/latest/news/2026/01/iran-deaths-injuries-authorities-protest-bloodshed/",
+      "subheadline": "IRGC-styrker skød ifølge menneskerettighedsgrupper mod fredelige demonstranter i Malekshahi - heriblandt mindst ét barn",
+      "body": [
+        "Den 3. januar slog iranske revolutionsgardister (IRGC) hårdt ned på demonstrationer i Malekshahi i Ilam-provinsen og dræbte ifølge Amnesty International og Human Rights Watch mindst fire mennesker, herunder mindst ét barn, og sårede mange flere.",
+        "Demonstrationerne udsprang af et økonomisk sammenbrud med kollapsende valuta og høj inflation. Ifølge rettighedsgrupper blev mindst 28 demonstranter og tilskuere dræbt i 13 byer på tværs af otte provinser mellem 31. december og 3. januar."
+      ],
+      "whyItMatters": "Drabene i Ilam markerede et varsel om den langt blodigere landsdækkende nedkæmpelse, som det iranske regime indledte få dage senere - en af de dødeligste bølger af undertrykkelse siden den islamiske republiks grundlæggelse.",
+      "analysis": "Volden mod fredelige demonstranter, inklusive børn, signalerede regimets vilje til at bruge dødelig magt for at kvæle den økonomisk drevne protestbølge. Den efterfølgende internetnedlukning gjorde dokumentation vanskelig, men rettighedsgrupper havde allerede tidligt et stigende dødstal.",
+      "topics": [
+        "mellemøsten",
+        "menneskerettigheder",
+        "protest"
+      ],
+      "entities": [
+        "Iran",
+        "IRGC",
+        "Ilam",
+        "Amnesty International",
+        "Human Rights Watch"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "IRGC-styrker dræbte den 3. januar mindst fire personer i Malekshahi i Ilam-provinsen, heriblandt mindst ét barn.",
+          "sourceUrls": [
+            "https://www.amnesty.org/en/latest/news/2026/01/iran-deaths-injuries-authorities-protest-bloodshed/",
+            "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iran: Deaths and injuries rise amid authorities' renewed cycle of protest bloodshed",
+          "publisher": "Amnesty International",
+          "url": "https://www.amnesty.org/en/latest/news/2026/01/iran-deaths-injuries-authorities-protest-bloodshed/",
+          "publishedAt": "2026-01-05T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Iran: Authorities' Renewed Cycle of Protest Bloodshed",
+          "publisher": "Human Rights Watch",
+          "url": "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed",
+          "publishedAt": "2026-01-08T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260103-6",
+      "eventKey": "littler-retains-pdc-world-darts-title",
+      "materialFacts": [
+        "Luke Littler slog Gian van Veen 7-1 i VM-finalen i dart på Alexandra Palace den 3. januar 2026.",
+        "Sejren udløste en præmie på 1 million pund, det dobbelte af året før.",
+        "Littler blev den fjerde spiller med to titler i træk og satte flest 180'ere med 73."
+      ],
+      "section": "Videnskab",
+      "headline": "Luke Littler forsvarer VM-titlen i dart med knusende sejr i finalen",
+      "primarySourceUrl": "https://www.skysports.com/darts/news/12040/13489993/world-darts-championship-2026-luke-littler-thrashes-gian-van-veen-in-final-to-retain-title-at-alexandra-palace",
+      "subheadline": "18-årige englænder slog hollandske Gian van Veen 7-1 i finalen på Alexandra Palace og hentede en check på 1 million pund",
+      "body": [
+        "På Alexandra Palace i London forsvarede Luke Littler sin VM-titel i dart med en overlegen 7-1-sejr over hollandske Gian van Veen i finalen den 3. januar. Sejren udløste en præmie på 1 million pund - det dobbelte af, hvad han vandt året før.",
+        "Littler blev dermed blot den fjerde spiller, der har vundet to titler i træk ved siden af Phil Taylor, Adrian Lewis og Gary Anderson, og den første siden Anderson i 2016. Han vandt også prisen for flest 180'ere i turneringen med 73."
+      ],
+      "whyItMatters": "Littlers dominans cementerer en generationsskifte-fortælling i en sport, der har oplevet et globalt publikumsboom, og hans gennembrud som teenager har gjort dart til en mainstream-begivenhed langt ud over Storbritannien.",
+      "analysis": "At gentage en VM-titel så ung placerer Littler i en eksklusiv kreds af darts største navne og bekræfter, at hans første triumf ikke var et engangstilfælde. Hans tiltrækningskraft fortsætter med at trække nye, yngre seere til sporten.",
+      "topics": [
+        "sport",
+        "kultur"
+      ],
+      "entities": [
+        "Luke Littler",
+        "Gian van Veen",
+        "PDC",
+        "Alexandra Palace"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Luke Littler slog Gian van Veen 7-1 i VM-finalen i dart på Alexandra Palace den 3. januar 2026.",
+          "sourceUrls": [
+            "https://www.skysports.com/darts/news/12040/13489993/world-darts-championship-2026-luke-littler-thrashes-gian-van-veen-in-final-to-retain-title-at-alexandra-palace",
+            "https://en.wikipedia.org/wiki/2026_PDC_World_Darts_Championship"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "World Darts Championship 2026: Luke Littler thrashes Gian van Veen in final to retain title at Alexandra Palace",
+          "publisher": "Sky Sports",
+          "url": "https://www.skysports.com/darts/news/12040/13489993/world-darts-championship-2026-luke-littler-thrashes-gian-van-veen-in-final-to-retain-title-at-alexandra-palace",
+          "publishedAt": "2026-01-03T22:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 PDC World Darts Championship",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_PDC_World_Darts_Championship",
+          "publishedAt": "2026-01-03T23:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "USA's justitsminister Pam Bondi oplyste, at Maduro og Cilia Flores var tiltalt i Southern District of New York for blandt andet narkoterror og kokainsmugling.",
+      "url": "https://www.cnbc.com/2026/01/03/trump-us-operation-captured-venezuela-president-nicolas-maduro.html",
+      "headline": "USA's justitsminister Pam Bondi oplyste, at Maduro og Cilia Flores var tiltalt i Southern District of New York for blandt andet narkoterror og kokainsmugling.",
+      "summary": "USA's justitsminister Pam Bondi oplyste, at Maduro og Cilia Flores var tiltalt i Southern District of New York for blandt andet narkoterror og kokainsmugling.",
+      "publisher": "CNBC",
+      "section": "Verden",
+      "publishedAt": "2026-01-03T16:00:00.000Z"
+    },
+    {
+      "text": "Vicepræsident Delcy Rodríguez overtog præsidentmagten i Venezuela efter Maduros tilfangetagelse og blev den første kvinde til at udøve præsidentbeføjelserne i landets historie.",
+      "url": "https://www.cnn.com/2026/01/03/americas/delcy-rodriguez-venezuela-leader-atl-latam",
+      "headline": "Vicepræsident Delcy Rodríguez overtog præsidentmagten i Venezuela efter Maduros tilfangetagelse og blev den første kvinde til at udøve præsidentbeføjelserne i landets historie.",
+      "summary": "Vicepræsident Delcy Rodríguez overtog præsidentmagten i Venezuela efter Maduros tilfangetagelse og blev den første kvinde til at udøve præsidentbeføjelserne i landets historie.",
+      "publisher": "CNN",
+      "section": "Verden",
+      "publishedAt": "2026-01-03T19:00:00.000Z"
+    },
+    {
+      "text": "Al Jazeera faktatjekkede præsident Trumps udtalelser efter operationen og fandt uoverensstemmelser i fremstillingen af angrebet og tilfangetagelsen.",
+      "url": "https://www.aljazeera.com/news/2026/1/4/fact-checking-trump-following-us-capture-of-venezuelas-maduro",
+      "headline": "Al Jazeera faktatjekkede præsident Trumps udtalelser efter operationen og fandt uoverensstemmelser i fremstillingen af angrebet og tilfangetagelsen.",
+      "summary": "Al Jazeera faktatjekkede præsident Trumps udtalelser efter operationen og fandt uoverensstemmelser i fremstillingen af angrebet og tilfangetagelsen.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-01-04T08:00:00.000Z"
+    },
+    {
+      "text": "Rettighedsgrupper rapporterede, at mindst 28 demonstranter og tilskuere blev dræbt i 13 iranske byer mellem 31. december og 3. januar, mens uroen bredte sig.",
+      "url": "https://www.iranintl.com/en/202601066203",
+      "headline": "Rettighedsgrupper rapporterede, at mindst 28 demonstranter og tilskuere blev dræbt i 13 iranske byer mellem 31. december og 3. januar, mens uroen bredte sig.",
+      "summary": "Rettighedsgrupper rapporterede, at mindst 28 demonstranter og tilskuere blev dræbt i 13 iranske byer mellem 31. december og 3. januar, mens uroen bredte sig.",
+      "publisher": "Iran International",
+      "section": "Verden",
+      "publishedAt": "2026-01-06T12:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}
