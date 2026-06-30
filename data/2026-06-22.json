@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20260622",
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T06:00:00.000Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "Starmer trækker sig, USA og Iran nærmer sig en atomaftale, og Colombia drejer til højre",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20260622-starmer",
+      "eventKey": "uk-starmer-resignation",
+      "materialFacts": [
+        "Keir Starmer meddelte mandag 22. juni 2026 sin afgang som premierminister og Labour-leder",
+        "Det bliver Storbritanniens syvende regeringschef på et årti",
+        "Greater Manchester-borgmester Andy Burnham peges på som favorit til at overtage",
+        "Nomineringer til ledervalget åbner 9. juli; Starmer bliver siddende indtil valget er afgjort"
+      ],
+      "section": "Verden",
+      "headline": "Starmer trækker sig som britisk premierminister",
+      "primarySourceUrl": "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm",
+      "subheadline": "Måneders pres fra egne rækker og Reform UK's fremmarch vælter Labour-lederen mindre end to år inde i mandatet",
+      "body": [
+        "Keir Starmer meddelte mandag, at han træder tilbage som premierminister og leder af Labour. Beslutningen følger måneders pres fra Labour-parlamentarikere og ministre, der har været stadig mere bekymrede for partiets valgudsigter efter elendige lokalvalg i maj og det højrenationale Reform UK's hurtige fremmarch.",
+        "Starmer vandt stort ved valget i 2024 på et løfte om stabilitet efter de konservatives kaos, men kaster nu håndklædet i ringen mindre end to år inde i regeringsperioden. Analytikere venter, at afgangen baner vej for Greater Manchester-borgmester Andy Burnham; tidligere sundhedsminister Wes Streeting har meddelt, at han bakker Burnham op og dermed trækker sig som mulig rival.",
+        "Starmer har bedt Labours hovedbestyrelse om at fastlægge tidsplanen for valget af en efterfølger. Nomineringer åbner 9. juli, og processen skal være afsluttet inden sommerferien. Indtil da forbliver Starmer i embedet."
+      ],
+      "whyItMatters": "En af EU's vigtigste nabolande får sin syvende regeringschef på ti år midt i en højredrejning, der kan ændre britisk politik og forholdet til kontinentet.",
+      "analysis": "Skiftet handler mindre om én fejl end om en akkumuleret tillidskrise: et stort flertal uden tydeligt projekt, der eroderede, da Reform UK satte dagsordenen. En Burnham-ledelse vil blive læst som et venstresving i stil og retorik, men de strukturelle problemer — vækst, velfærdsfinansiering, migration — venter uændret på efterfølgeren.",
+      "topics": [
+        "britisk politik",
+        "europa"
+      ],
+      "entities": [
+        "Keir Starmer",
+        "Labour",
+        "Andy Burnham",
+        "Reform UK"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 60,
+        "novelty": 80,
+        "sourceQuality": 90,
+        "personalRelevance": 55,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Starmer meddelte 22. juni 2026 sin afgang som premierminister og Labour-leder",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm",
+            "https://www.npr.org/2026/06/22/nx-s1-5866231/keir-starmer-resigns"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Andy Burnham peges på som favorit til at efterfølge Starmer",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "June 22, 2026: Keir Starmer resignation, UK to get sixth PM in seven years, as Andy Burnham likely to replace him",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm",
+          "publishedAt": "2026-06-22T11:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Keir Starmer has resigned, paving way for a 7th U.K. prime minister in 10 years",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/06/22/nx-s1-5866231/keir-starmer-resigns",
+          "publishedAt": "2026-06-22T12:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Why has Keir Starmer resigned as UK prime minister, and who will take over?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/22/why-has-keir-starmer-resigned-as-uk-prime-minister-and-who-will-take-over",
+          "publishedAt": "2026-06-22T14:00:00.000Z",
+          "kind": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260622-iran",
+      "eventKey": "us-iran-nuclear-deal",
+      "materialFacts": [
+        "USA's vicepræsident JD Vance meldte om markant fremgang i atomforhandlingerne med Iran",
+        "Forhandlingerne i Schweiz involverede mæglere fra Qatar og Pakistan",
+        "Iran indvilligede i at lade atominspektører vende tilbage til landet",
+        "Parterne enedes om en køreplan mod en endelig aftale inden for 60 dage"
+      ],
+      "section": "Verden",
+      "headline": "USA og Iran melder om fremskridt i atomforhandlinger",
+      "primarySourceUrl": "https://www.foxnews.com/live-news/us-iran-peace-deal-nuclear-talks-switzerland-06-22-26",
+      "subheadline": "Efter forhandlinger i Schweiz med Qatar og Pakistan som mæglere indvilliger Teheran i at lade inspektører vende tilbage",
+      "body": [
+        "USA's vicepræsident JD Vance erklærede markant fremgang i atomforhandlingerne med Iran og beskrev de seneste 36 timer som produktive. Forhandlingerne i Schweiz havde Qatar og Pakistan som mæglere.",
+        "Blandt de vigtigste udmeldinger er, at Iran ifølge USA har indvilliget i at lade atominspektører vende tilbage — et centralt krav, mens Washington søger at sikre, at Teheran ikke kan udvikle atomvåben. Mæglerne taler om opmuntrende fremskridt og en køreplan mod en endelig aftale inden for 60 dage."
+      ],
+      "whyItMatters": "En holdbar atomaftale ville dæmpe en af årets farligste konflikter og påvirke oliepriser, sejlads gennem Hormuzstrædet og sikkerheden i hele regionen.",
+      "analysis": "Fremgangen er reel, men skrøbelig: tidligere faser af krisen er gentagne gange brudt sammen over verifikation og over Israels handlinger i Libanon. De 60 dage er lige så meget en prøve på, om begge parter kan holde våbenhvilen, som på selve atomspørgsmålet.",
+      "topics": [
+        "geopolitik",
+        "iran",
+        "usa"
+      ],
+      "entities": [
+        "USA",
+        "Iran",
+        "JD Vance",
+        "Qatar",
+        "Pakistan"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 65,
+        "novelty": 70,
+        "sourceQuality": 85,
+        "personalRelevance": 50,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Vance meldte om markant fremgang, og Iran indvilligede i at lade inspektører vende tilbage",
+          "sourceUrls": [
+            "https://www.foxnews.com/live-news/us-iran-peace-deal-nuclear-talks-switzerland-06-22-26"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump issues stark warning to Iran as Tehran credits Swiss talks with preventing Lebanon bloodshed",
+          "publisher": "Fox News",
+          "url": "https://www.foxnews.com/live-news/us-iran-peace-deal-nuclear-talks-switzerland-06-22-26",
+          "publishedAt": "2026-06-22T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 Strait of Hormuz crisis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+          "publishedAt": "2026-06-22T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260622-colombia",
+      "eventKey": "colombia-election-2026",
+      "materialFacts": [
+        "Abelardo de la Espriella vandt snævert det colombianske præsidentvalg",
+        "Anden runde blev afholdt 21. juni 2026; resultatet faldt på plads 22. juni",
+        "De la Espriella fik 49,66 % mod Iván Cepedas 48,70 %",
+        "Med 12,9 millioner stemmer blev han den mest stemte præsidentkandidat i Colombias historie",
+        "Han tiltræder 7. august; USA's præsident Trump lykønskede og bakkede op"
+      ],
+      "section": "Verden",
+      "headline": "Højrefløjsadvokat de la Espriella vinder Colombias præsidentvalg",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/22/far-right-de-la-espriella-elected-colombia-president-whats-next",
+      "subheadline": "Et snævert resultat sender Colombia mod højre på sikkerhed, økonomi og fredsproces",
+      "body": [
+        "Abelardo de la Espriella vandt snævert anden runde af det colombianske præsidentvalg over Iván Cepeda, 49,66 % mod 48,70 %. Afstemningen blev holdt 21. juni, og resultatet stod klart dagen efter.",
+        "Med 12,9 millioner stemmer blev de la Espriella den mest stemte præsidentkandidat i Colombias historie. Han tiltræder 7. august. USA's præsident Donald Trump lykønskede og endosserede ham, mens EU fremhævede en fredelig afstemning med rekordhøj deltagelse."
+      ],
+      "whyItMatters": "Et markant højresving i en af Latinamerikas største økonomier kan ændre kurs på sikkerhed, narkotikabekæmpelse og den skrøbelige fredsproces.",
+      "analysis": "Den snævre margin gør mandatet omstridt fra dag ét. De la Espriellas hårde sikkerhedslinje vil støde sammen med de aftaler, der har holdt en ustabil fred — og hans nære forhold til Washington bliver både en styrke og en kilde til indenrigspolitisk strid.",
+      "topics": [
+        "latinamerika",
+        "valg"
+      ],
+      "entities": [
+        "Abelardo de la Espriella",
+        "Iván Cepeda",
+        "Colombia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 45,
+        "novelty": 78,
+        "sourceQuality": 82,
+        "personalRelevance": 30,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "De la Espriella vandt med 49,66 % mod Cepedas 48,70 % i anden runde",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/22/far-right-de-la-espriella-elected-colombia-president-whats-next",
+            "https://en.wikipedia.org/wiki/2026_Colombian_presidential_election"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Far-right de la Espriella elected Colombia president: What's next?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/22/far-right-de-la-espriella-elected-colombia-president-whats-next",
+          "publishedAt": "2026-06-22T16:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 Colombian presidential election",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Colombian_presidential_election",
+          "publishedAt": "2026-06-22T20:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260622-pepfar",
+      "eventKey": "us-pepfar-south-africa",
+      "materialFacts": [
+        "USA's udenrigsministerium meddelte, at det stopper finansieringen af hiv- og aids-programmer i Sydafrika",
+        "Mere end 8 millioner mennesker lever med hiv i Sydafrika — flest i verden"
+      ],
+      "section": "Verden",
+      "headline": "USA stopper støtte til hiv-programmer i Sydafrika",
+      "primarySourceUrl": "https://www.democracynow.org/2026/6/22/headlines",
+      "subheadline": "Beslutningen rammer landet med flest hiv-smittede i verden",
+      "body": [
+        "USA's udenrigsministerium meddelte, at det stopper finansieringen af hiv- og aids-programmer i Sydafrika, hvor mere end 8 millioner mennesker lever med hiv — det højeste antal i noget land i verden.",
+        "Tilbagetrækningen indgår i en bredere amerikansk nedskæring af global sundhedsbistand og rejser spørgsmål om, hvem der skal dække finansieringen af behandling og forebyggelse fremover."
+      ],
+      "whyItMatters": "Et brat finansieringsstop i verdens hårdest ramte hiv-land kan koste menneskeliv og afprøve, om andre donorer eller staten selv kan træde til.",
+      "analysis": "Beslutningen markerer et skifte i amerikansk bistandspolitik, hvor langvarige sundhedsforpligtelser nu er til forhandling. Konsekvenserne afhænger af, hvor hurtigt Sydafrika og andre donorer kan lukke hullet — og af, om beslutningen er endelig eller et forhandlingsudspil.",
+      "topics": [
+        "global sundhed",
+        "usa",
+        "afrika"
+      ],
+      "entities": [
+        "USA",
+        "Sydafrika",
+        "PEPFAR"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 40,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Udenrigsministeriet meddelte stop for hiv-/aids-finansiering i Sydafrika, hvor over 8 mio. lever med hiv",
+          "sourceUrls": [
+            "https://www.democracynow.org/2026/6/22/headlines"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Headlines for June 22, 2026",
+          "publisher": "Democracy Now!",
+          "url": "https://www.democracynow.org/2026/6/22/headlines",
+          "publishedAt": "2026-06-22T13:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Andy Burnham er favorit til at efterfølge Starmer; Labour åbner nomineringer 9. juli",
+      "url": "https://www.cnn.com/2026/06/22/world/live-news/keir-starmer-uk-pm",
+      "headline": "Andy Burnham er favorit til at efterfølge Starmer; Labour åbner nomineringer 9. juli",
+      "summary": "Wes Streeting bakker op om Burnham og trækker sig som mulig rival.",
+      "publisher": "CNN",
+      "section": "Verden",
+      "publishedAt": "2026-06-22T15:00:00.000Z"
+    },
+    {
+      "text": "Trump lykønsker og endosserer de la Espriella efter valgsejren i Colombia",
+      "url": "https://www.aljazeera.com/news/2026/6/22/colombian-right-wing-candidate-de-la-espriella-wins-tight-presidential-race",
+      "headline": "Trump lykønsker og endosserer de la Espriella efter valgsejren i Colombia",
+      "summary": "EU fremhævede en fredelig afstemning med rekorddeltagelse.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-06-22T17:30:00.000Z"
+    },
+    {
+      "text": "Iran indvilliger ifølge USA i at lade atominspektører vende tilbage",
+      "url": "https://www.npr.org/programs/all-things-considered/nx-s1-5827445/all-things-considered-for-june-22-2026",
+      "headline": "Iran indvilliger ifølge USA i at lade atominspektører vende tilbage",
+      "summary": "Et centralt krav i den 60-dages køreplan mod en endelig aftale.",
+      "publisher": "NPR",
+      "section": "Verden",
+      "publishedAt": "2026-06-22T19:00:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 90,
+    "novelty": 75,
+    "render": 100
+  },
+  "backfilled": true
+}

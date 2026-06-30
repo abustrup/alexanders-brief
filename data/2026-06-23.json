@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "backfill-20260623",
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-23T06:00:00.000Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "Iran-aftalen knager, endnu en britisk minister går af, og Brexit fylder ti år",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "bf-20260623-iran",
+      "eventKey": "us-iran-nuclear-deal",
+      "materialFacts": [
+        "USA fastholder, at Iran har accepteret at lade FN-inspektører vende tilbage — trods iranske benægtelser",
+        "Parterne henviser til et aftalememorandum om at ophæve blokaden og genåbne Hormuzstrædet",
+        "Iran lukkede ifølge egne udmeldinger strædet igen med henvisning til israelske angreb i Libanon",
+        "Et 60-dages forhandlingsvindue om atomprogrammet løber fortsat"
+      ],
+      "section": "Verden",
+      "headline": "Iran-aftalen knager: uenighed om inspektører og Hormuzstrædet",
+      "primarySourceUrl": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+      "subheadline": "Washington og Teheran er uenige om, hvad der blev aftalt, mens israelske angreb i Libanon presser våbenhvilen",
+      "body": [
+        "Dagen efter meldingerne om fremgang i Schweiz trækker den amerikansk-iranske aftale i flere retninger. USA fastholder, at Iran har accepteret at lade FN-inspektører vende tilbage, mens Teheran benægter at have givet et sådant tilsagn.",
+        "Parterne henviser til et aftalememorandum, hvor USA ophæver blokaden af iranske havne, mens Iran genåbner Hormuzstrædet i en periode. Men Iran har ifølge egne udmeldinger lukket strædet igen med henvisning til fortsatte israelske angreb i det sydlige Libanon, som Teheran kalder et brud på aftalen.",
+        "Et 60-dages vindue til at forhandle om atomprogrammet løber fortsat, men de modstridende udlægninger viser, hvor skrøbelig nedtrapningen er."
+      ],
+      "whyItMatters": "Hvis våbenhvilen brydes, kan det igen lukke Hormuzstrædet, presse oliepriserne og trække konflikten i Libanon med ind i en bredere optrapning.",
+      "analysis": "Mønstret gentager sig: hver delaftale afhænger af forhold, parterne ikke fuldt kontrollerer — her Israels handlinger i Libanon. Uenigheden om inspektører er ikke et teknisk detaljespørgsmål, men kernen i, om verifikation overhovedet kan bære en endelig aftale.",
+      "topics": [
+        "geopolitik",
+        "iran",
+        "usa"
+      ],
+      "entities": [
+        "USA",
+        "Iran",
+        "Israel",
+        "Libanon"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 62,
+        "novelty": 66,
+        "sourceQuality": 80,
+        "personalRelevance": 48,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "USA fastholder iransk tilsagn om inspektører, mens Iran benægter og melder strædet lukket igen",
+          "sourceUrls": [
+            "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+            "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2026 Strait of Hormuz crisis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
+          "publishedAt": "2026-06-23T08:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "June 23, 2026 - PBS News Hour full episode",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+          "publishedAt": "2026-06-23T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260623-healey",
+      "eventKey": "uk-healey-resignation",
+      "materialFacts": [
+        "Forsvarsminister John Healey trådte tilbage i protest mod manglende finansiering af de britiske styrker",
+        "Afgangen falder dagen efter premierminister Starmers exit og uddyber regeringskrisen"
+      ],
+      "section": "Verden",
+      "headline": "Britisk forsvarsminister Healey går af i protest",
+      "primarySourceUrl": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+      "subheadline": "John Healey træder tilbage over manglende forsvarsfinansiering og uddyber Labours krise",
+      "body": [
+        "John Healey trådte tilbage som britisk forsvarsminister i protest mod, hvad han kalder en utilstrækkelig regeringsfinansiering af de væbnede styrker. Afgangen kommer dagen efter premierminister Keir Starmers exit.",
+        "Sammenfaldet forstærker billedet af en Labour-regering i opløsning, netop som partiet skal i gang med at vælge en ny leder og samtidig forholde sig til pres om højere forsvarsudgifter."
+      ],
+      "whyItMatters": "En forsvarsministers exit over budgettet rammer et kernespørgsmål i europæisk sikkerhed på et tidspunkt, hvor pres om højere forsvarsudgifter vokser.",
+      "analysis": "Healeys protest gør forsvarsfinansiering til en åben strid i ledervalget. For efterfølgeren bliver det en tidlig prøve: at love mere til forsvaret uden et budget, der hænger sammen, eller at risikere samme kritik, der nu vælter ministre.",
+      "topics": [
+        "britisk politik",
+        "forsvar",
+        "europa"
+      ],
+      "entities": [
+        "John Healey",
+        "Labour",
+        "britisk forsvar"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 48,
+        "novelty": 68,
+        "sourceQuality": 72,
+        "personalRelevance": 45,
+        "contrast": 52
+      },
+      "claims": [
+        {
+          "text": "Healey trådte tilbage som forsvarsminister i protest mod manglende forsvarsfinansiering",
+          "sourceUrls": [
+            "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "June 23, 2026 - PBS News Hour full episode",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+          "publishedAt": "2026-06-23T22:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "2026 Labour Party leadership crisis",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Labour_Party_leadership_crisis",
+          "publishedAt": "2026-06-23T20:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260623-brexit",
+      "eventKey": "brexit-ti-aar",
+      "materialFacts": [
+        "23. juni 2026 markerer ti år siden den britiske folkeafstemning om at forlade EU",
+        "Storbritannien gør status over et årti uden for unionen"
+      ],
+      "section": "Verden",
+      "headline": "Ti år efter Brexit gør Storbritannien status",
+      "primarySourceUrl": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+      "subheadline": "Et årti efter afstemningen vejes løfterne mod resultaterne midt i fornyet politisk uro",
+      "body": [
+        "Den 23. juni 2026 er det ti år siden, briterne stemte om at forlade EU. Mærkedagen falder midt i en regeringskrise og bruges bredt til at gøre status over et årti uden for unionen.",
+        "Debatten genoplives om handel, migration og forholdet til kontinentet — og om, hvorvidt et skift i Downing Street kan ændre kursen i forhold til Bruxelles."
+      ],
+      "whyItMatters": "Brexit-bilanced rammer direkte det dansk-britiske og europæiske samarbejde om handel, sikkerhed og migration.",
+      "analysis": "Tiåret falder symbolsk sammen med britisk politisk uro, og det skærper spørgsmålet, om en ny regering vil søge tættere på EU. Mere end nostalgi er mærkedagen en anledning til at måle, hvad der faktisk blev af løfterne fra 2016.",
+      "topics": [
+        "europa",
+        "britisk politik",
+        "eu"
+      ],
+      "entities": [
+        "Storbritannien",
+        "EU",
+        "Brexit"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 38,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 50,
+        "contrast": 48
+      },
+      "claims": [
+        {
+          "text": "23. juni 2026 markerer ti år siden den britiske EU-afstemning",
+          "sourceUrls": [
+            "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "June 23, 2026 - PBS News Hour full episode",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+          "publishedAt": "2026-06-23T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "bf-20260623-studielaan",
+      "eventKey": "us-student-loans-2026",
+      "materialFacts": [
+        "Større ændringer af amerikanske føderale studielån kan ændre tilbagebetalingen for millioner",
+        "Ændringerne omformer vilkår for tilbagebetaling og eftergivelse"
+      ],
+      "section": "Verden",
+      "headline": "USA omlægger føderale studielån for millioner af låntagere",
+      "primarySourceUrl": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+      "subheadline": "Nye regler kan ændre tilbagebetalingen for millioner af amerikanske låntagere",
+      "body": [
+        "Større ændringer af de føderale studielån i USA kan omforme tilbagebetalingen for millioner af låntagere. Ændringerne berører vilkår for tilbagebetaling og eftergivelse.",
+        "For mange husstande handler det konkret om månedlige ydelser og om, hvornår gæld kan afskrives — og dermed om privatøkonomien for en hel generation."
+      ],
+      "whyItMatters": "Studielånsvilkår påvirker privatøkonomien for millioner og er en målestok for, hvor langt den nye amerikanske politiske linje rækker ind i hverdagen.",
+      "analysis": "Reformer af tilbagebetaling lyder tekniske, men flytter reelt risiko mellem stat og låntager. Detaljerne — hvem der vinder, og hvornår — afgør, om dette bliver en lettelse eller en ekstra byrde for de mest gældstyngede.",
+      "topics": [
+        "usa",
+        "økonomi",
+        "uddannelse"
+      ],
+      "entities": [
+        "USA",
+        "studielån"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 42,
+        "novelty": 50,
+        "sourceQuality": 68,
+        "personalRelevance": 35,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Store ændringer af føderale studielån kan ændre tilbagebetalingen for millioner",
+          "sourceUrls": [
+            "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "June 23, 2026 - PBS News Hour full episode",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+          "publishedAt": "2026-06-23T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Labour-ledervalget ventes afgjort før sommerferien med Burnham som favorit",
+      "url": "https://en.wikipedia.org/wiki/2026_Labour_Party_leadership_crisis",
+      "headline": "Labour-ledervalget ventes afgjort før sommerferien med Burnham som favorit",
+      "summary": "Nomineringer åbner 9. juli; Starmer bliver siddende indtil da.",
+      "publisher": "Wikipedia",
+      "section": "Verden",
+      "publishedAt": "2026-06-23T09:00:00.000Z"
+    },
+    {
+      "text": "Iran afviser at have accepteret atominspektører, trods amerikansk udmelding",
+      "url": "https://www.pbs.org/newshour/world/iran-and-u-s-reach-an-initial-deal-to-extend-the-ceasefire-and-open-the-strait-of-hormuz-but-challenges-remain",
+      "headline": "Iran afviser at have accepteret atominspektører, trods amerikansk udmelding",
+      "summary": "Uenigheden truer den skrøbelige våbenhvile.",
+      "publisher": "PBS NewsHour",
+      "section": "Verden",
+      "publishedAt": "2026-06-23T21:00:00.000Z"
+    },
+    {
+      "text": "Brexit fylder ti år midt i britisk regeringskrise",
+      "url": "https://www.pbs.org/newshour/show/june-23-2026-pbs-news-hour-full-episode",
+      "headline": "Brexit fylder ti år midt i britisk regeringskrise",
+      "summary": "Mærkedagen bruges til at gøre status over et årti uden for EU.",
+      "publisher": "PBS NewsHour",
+      "section": "Verden",
+      "publishedAt": "2026-06-23T07:30:00.000Z"
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 85,
+    "novelty": 68,
+    "render": 100
+  },
+  "backfilled": true
+}
