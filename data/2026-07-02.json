@@ -1,0 +1,878 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-2026-07-02",
+  "date": "2026-07-02",
+  "generatedAt": "2026-07-02T05:42:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Handelsordenen i Nordamerika slår revner, og USA's højesteret flytter magt mod Det Hvide Hus — mens kvante-deadlines, AI-milliarder fra Golfen og en planet, der overlevede sin stjernes død, tegner en dag om magten over regler, kapital og fremtidens infrastruktur.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-usmca-joint-review-2026",
+      "eventKey": "usmca-joint-review-not-renewed-2026",
+      "materialFacts": [
+        "USA nægtede 1. juli 2026 at forny USMCA i dens nuværende form",
+        "Aftalen forbliver i kraft; bilaterale forhandlinger med Mexico genoptages ugen omkring 20. juli",
+        "Ikke-fornyelsen udløser en tilbagevendende årlig revisionsproces"
+      ],
+      "section": "Handel & geopolitik",
+      "headline": "Ambassador Greer Issues Statement on the USMCA Joint Review",
+      "primarySourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+      "subheadline": "USA nægtede ved fælles-gennemgangen 1. juli at forny frihandelsaftalen med Canada og Mexico »i dens nuværende form« — aftalen består, men glider nu ind i årlige revisioner.",
+      "body": [
+        "USA's handelsrepræsentant Jamieson Greer meddelte 1. juli, at USA ved den obligatoriske fælles-gennemgang af USMCA ikke vil forny aftalen »i dens nuværende form«. Frihandelsaftalen mellem USA, Mexico og Canada — der siden 2020 afløste NAFTA og dækker varehandel for ca. 2 billioner dollar årligt — ophæves ikke, men glider ind i årlige gennemgange.",
+        "USA lægger op til bilaterale spor: næste runde med Mexico er berammet til ugen omkring 20. juli, mens Canada håndteres særskilt. Uden en forlængelse aktiverer aftalens egne regler en årlig revisionsmekanisme frem mod udløbsklausulen i 2036."
+      ],
+      "whyItMatters": "For virksomheder med forsyningskæder på tværs af den nordamerikanske grænse erstattes USMCA's langsigtede regelsikkerhed af årlig usikkerhed om told og oprindelsesregler.",
+      "analysis": "Signalet til investorer er, at nordamerikansk handelspolitik nu må prissættes som en årligt genforhandlet variabel, ikke en fast ramme — det hæver risikopræmien på grænseoverskridende investeringer.",
+      "counterpoint": "USTR understreger selv, at aftalen fortsat er i kraft: en ikke-fornyelse »i nuværende form« er ikke en opsigelse og kan ende i en revideret aftale lige så vel som i sammenbrud.",
+      "primaryExcerpt": {
+        "quote": "The United States did not agree to renew the USMCA in its current form.",
+        "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+        "sourceTitle": "Ambassador Greer Issues Statement on the USMCA Joint Review"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Official_portrait_of_U.S._Trade_Representative_Jamieson_Greer_%28cropped_2%29.jpg",
+        "credit": "Foto: Office of the U.S. Trade Representative / Wikimedia Commons",
+        "alt": "USA's handelsrepræsentant Jamieson Greer",
+        "sourceUrl": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review"
+      },
+      "topics": [
+        "handel",
+        "told",
+        "usmca",
+        "nordamerika",
+        "geopolitik"
+      ],
+      "entities": [
+        "USTR",
+        "Jamieson Greer",
+        "USMCA",
+        "Canada",
+        "Mexico",
+        "USA"
+      ],
+      "isLead": true,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 88,
+        "novelty": 80,
+        "sourceQuality": 90,
+        "personalRelevance": 55,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "USA nægtede ved USMCA-gennemgangen 1. juli 2026 at forny aftalen i dens nuværende form.",
+          "sourceUrls": [
+            "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USA mødes med Mexico ugen omkring 20. juli til en tredje runde bilaterale forhandlinger.",
+          "sourceUrls": [
+            "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ambassador Greer Issues Statement on the USMCA Joint Review",
+          "publisher": "Office of the United States Trade Representative",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/july/ambassador-greer-issues-statement-usmca-joint-review",
+          "publishedAt": "2026-07-01T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-scotus-humphreys-executor-2026",
+      "eventKey": "scotus-humphreys-executor-firing-power-2026",
+      "materialFacts": [
+        "Højesteret omstødte med 6-3 Humphrey's Executor-præcedensen fra 1935 og udvidede præsidentens fyringsret over uafhængige myndigheder",
+        "Retten stadfæstede fyringen af FTC-kommissær Rebecca Slaughter",
+        "En separat 5-4-afgørelse blokerede fyringen af centralbankdirektør Lisa Cook og beskyttede Federal Reserve"
+      ],
+      "section": "USA & institutioner",
+      "headline": "US Supreme Court hands Trump 3-1 defeat in key rulings: What we know",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know",
+      "subheadline": "Højesteret omstødte den 90 år gamle Humphrey's Executor-præcedens og udvidede præsidentens ret til at fyre ledere i uafhængige myndigheder — men skærmede samtidig centralbanken.",
+      "body": [
+        "USA's højesteret gik samlet Trump imod på tre af fire punkter, men den principielt tungeste gik hans vej: med 6-3 omstødte retten Humphrey's Executor-præcedensen fra 1935 og fastslog, at præsidenten kan fyre ledere i uafhængige forbundsmyndigheder uden grund. Retten stadfæstede fyringen af FTC-kommissær Rebecca Slaughter.",
+        "I en separat 5-4-afgørelse blokerede retten fyringen af centralbankdirektør Lisa Cook og skar en undtagelse ud for Federal Reserve. Chief Justice John Roberts skrev, at »the appearance of independence is key to the Federal Reserve's design«."
+      ],
+      "whyItMatters": "Humphrey's Executor har i næsten et århundrede skærmet uafhængige regulatorer mod politisk kontrol; dommen flytter magt til Det Hvide Hus.",
+      "analysis": "Fed-undtagelsen er det mest markedsrelevante: centralbankens uafhængighed behandles nu som et forfatningsmæssigt særtilfælde, mens resten af apparatet trækkes mod tættere præsidentiel styring.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/USSupremeCourtWestFacade.JPG/1280px-USSupremeCourtWestFacade.JPG",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "USA's højesteretsbygning i Washington D.C.",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know"
+      },
+      "topics": [
+        "usa",
+        "højesteret",
+        "magtdeling",
+        "federal-reserve",
+        "regulering"
+      ],
+      "entities": [
+        "U.S. Supreme Court",
+        "Donald Trump",
+        "Rebecca Slaughter",
+        "Lisa Cook",
+        "Federal Reserve",
+        "John Roberts"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 78,
+        "personalRelevance": 60,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Højesteret omstødte med 6-3 Humphrey's Executor og udvidede præsidentens fyringsret over uafhængige myndigheder.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "En separat 5-4-afgørelse blokerede fyringen af Fed-direktør Lisa Cook og beskyttede centralbankens uafhængighed.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US Supreme Court hands Trump 3-1 defeat in key rulings: What we know",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/30/us-supreme-court-hands-trump-3-1-defeat-in-key-rulings-what-we-know",
+          "publishedAt": "2026-06-30T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dow-post-quantum-2031",
+      "eventKey": "us-dow-post-quantum-cryptography-strategy-2031",
+      "materialFacts": [
+        "Alle højtprioriterede nationale sikkerhedssystemer skal understøtte kvanteresistent kryptografi senest 31. december 2030",
+        "Hele virksomhedstransitionen skal være gennemført 31. december 2031",
+        "Strategien afviser eksplicit QKD, rene kvantenetværk og blot forøgede nøglelængder som utilstrækkelige"
+      ],
+      "section": "Forsvar & sikkerhed",
+      "headline": "Department of War Unveils Enterprise Post-Quantum Cryptography Strategy to Insulate Defense Networks by 2031",
+      "primarySourceUrl": "https://quantumcomputingreport.com/department-of-war-unveils-enterprise-post-quantum-cryptography-strategy-to-insulate-defense-networks-by-2031/",
+      "subheadline": "USA's forsvarsministerium sætter bindende frister — 2030 og 2031 — for at gøre alle forsvarsnet modstandsdygtige over for fremtidige kvantecomputere, og underkender flere populære genveje.",
+      "body": [
+        "USA's forsvarsministerium — nu benævnt Department of War — offentliggjorde 1. juli en strategi for post-kvante-kryptografi. Alle højtprioriterede nationale sikkerhedssystemer skal understøtte kvanteresistente algoritmer senest 31. december 2030, og hele transitionen skal være færdig 31. december 2031.",
+        "Strategien, udstedt af forsvarets it-chef Kirsten Davies under Executive Order 14409, afviser eksplicit genveje som QKD, rene kvantenetværk og længere nøgler — og kræver de NIST-standardiserede PQC-algoritmer."
+      ],
+      "whyItMatters": "Fristen tvinger den amerikanske forsvarsindustris leverandørkæde — og de europæiske allierede — til at udskifte kryptografi nu, mod truslen om »harvest now, decrypt later«-angreb.",
+      "analysis": "En bindende statslig deadline er den stærkeste efterspørgselsdriver for en umoden sikkerhedsteknologi. Ved at underkende QKD kanaliserer Pentagon kapital mod software-baseret PQC frem for kvantehardware.",
+      "image": {
+        "url": "https://quantumcomputingreport.com/wp-content/uploads/2026/07/image-13-1024x449.png",
+        "credit": "Kilde: Quantum Computing Report",
+        "alt": "Illustration af post-kvante-kryptografi og forsvarsnetværk",
+        "sourceUrl": "https://quantumcomputingreport.com/department-of-war-unveils-enterprise-post-quantum-cryptography-strategy-to-insulate-defense-networks-by-2031/"
+      },
+      "topics": [
+        "forsvar",
+        "post-kvante-kryptografi",
+        "cybersikkerhed",
+        "teknologisk suverænitet",
+        "kvante"
+      ],
+      "entities": [
+        "Department of War",
+        "Kirsten Davies",
+        "NSA",
+        "NIST",
+        "Executive Order 14409"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 80,
+        "novelty": 78,
+        "sourceQuality": 80,
+        "personalRelevance": 88,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Alle højtprioriterede nationale sikkerhedssystemer skal fuldt understøtte kvanteresistent kryptografi senest 31. december 2030, og hele transitionen skal være færdig 31. december 2031.",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/department-of-war-unveils-enterprise-post-quantum-cryptography-strategy-to-insulate-defense-networks-by-2031/",
+            "https://dowcio.war.gov/Portals/0/Documents/Library/DoW-PQC-Strategy.pdf"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Strategien afviser eksplicit QKD, kvantenetværk og forøgede nøglelængder som gyldige kvantesikre løsninger.",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/department-of-war-unveils-enterprise-post-quantum-cryptography-strategy-to-insulate-defense-networks-by-2031/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Department of War Unveils Enterprise Post-Quantum Cryptography Strategy to Insulate Defense Networks by 2031",
+          "publisher": "Quantum Computing Report",
+          "url": "https://quantumcomputingreport.com/department-of-war-unveils-enterprise-post-quantum-cryptography-strategy-to-insulate-defense-networks-by-2031/",
+          "publishedAt": "2026-07-01T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Department of War Post-Quantum Cryptography Strategy",
+          "publisher": "U.S. Department of War (CIO)",
+          "url": "https://dowcio.war.gov/Portals/0/Documents/Library/DoW-PQC-Strategy.pdf",
+          "publishedAt": "2026-07-01T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-together-ai-series-c-2026",
+      "eventKey": "together-ai-series-c-aramco-2026",
+      "materialFacts": [
+        "Together AI rejste 800 mio. dollar i Series C",
+        "Værdiansættelsen sprang til 8,3 mia. dollar fra 3,3 mia. ved forrige runde",
+        "Runden er ledt af Aramco Ventures (Saudi-Arabien)"
+      ],
+      "section": "Kunstig intelligens",
+      "headline": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
+      "primarySourceUrl": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+      "subheadline": "Den amerikanske GPU-udbyder mere end fordoblede sin værdi til 8,3 mia. dollar — og runden blev ledt af olieselskabet Aramcos venture-arm.",
+      "body": [
+        "Den amerikanske GPU-udbyder Together AI har rejst 800 mio. dollar i en Series C og mere end fordoblet sin værdi til 8,3 mia. dollar fra 3,3 mia. ved forrige runde. Runden er ledt af Aramco Ventures — venture-armen hos det saudiarabiske Aramco — med General Catalyst og Nvidia blandt deltagerne.",
+        "Together AI, medstiftet af Stanford-professor Percy Liang, driver en »neocloud«, der udlejer Nvidia-GPU'er og kørsel af åbne AI-modeller, og oplyser årlige bookinger på over 1,15 mia. dollar."
+      ],
+      "whyItMatters": "At Aramco leder runden viser, hvordan olie-kapital i stigende grad kanaliseres direkte ind i AI-infrastruktur — en kapitalrotation fra fossil energi mod compute.",
+      "analysis": "Det interessante er ikke værdispringet, men hvem der betaler: Golfstaternes kapital søger ejerskab i selve AI-forsyningskæden, ikke blot afkast — og bekræfter, at neoclouds nu prissættes som strategisk infrastruktur.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/07/Together-AI-founders-Percy-Liang-CEO-Vipul-Ved-Prakash-CTO-Ce-Zhang.jpg?resize=1200,800",
+        "credit": "Foto: TechCrunch",
+        "alt": "Together AI's stiftere",
+        "sourceUrl": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+      },
+      "topics": [
+        "ai",
+        "cloud",
+        "gpu",
+        "venturekapital",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Together AI",
+        "Aramco Ventures",
+        "General Catalyst",
+        "Nvidia",
+        "Percy Liang"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 78,
+        "novelty": 74,
+        "sourceQuality": 82,
+        "personalRelevance": 90,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Together AI rejste 800 mio. dollar i Series C og blev værdiansat til 8,3 mia. dollar, op fra 3,3 mia. ved forrige runde.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Runden er ledt af Aramco Ventures med deltagelse af General Catalyst og Nvidia.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Neocloud Together AI raises $800M, leaps to $8.3B valuation",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/",
+          "publishedAt": "2026-07-01T18:29:14Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-six-robotics-seed-2026",
+      "eventKey": "six-robotics-seed-dtcp-defence-2026",
+      "materialFacts": [
+        "Six Robotics rejste 12 mio. euro i en seed-runde",
+        "Runden er ledt af tyske DTCP via den nye DTCP Defence-fond på 500 mio. euro",
+        "Danske EIFO og Scale Capital deltog"
+      ],
+      "section": "Forsvarsteknologi",
+      "headline": "Six Robotics lands €12 million to advance unmanned systems software with Norwegian defence partners",
+      "primarySourceUrl": "https://www.eu-startups.com/2026/06/six-robotics-lands-e12-million-to-advance-unmanned-systems-software-with-norwegian-defence-partners/",
+      "subheadline": "En tysk forsvarsfond leder, dansk EIFO og Scale Capital deltager, og et norsk selskab bygger softwaren — en lærebogs-illustration af paneuropæisk forsvarskapital.",
+      "body": [
+        "Oslo-baserede Six Robotics har rejst 12 mio. euro i seed til software, der skal gøre ubemandede forsvarssystemer autonome. Runden er ledt af tyske DTCP via den nye DTCP Defence-fond på 500 mio. euro, med danske EIFO og Scale Capital blandt deltagerne.",
+        "Selskabet udvikler styringssoftware til droner og andre ubemandede platforme sammen med norske forsvarspartnere — et af de tidlige udslag af den nye tyske forsvarsfond."
+      ],
+      "whyItMatters": "Runden viser konkret, hvordan nordisk defence-tech finansieres på tværs af grænser — tysk fond som lead, dansk EIFO og et norsk selskab — netop den paneuropæiske kobling, EU efterlyser.",
+      "analysis": "Beløbet er beskedent, men konstellationen er signalet: europæisk forsvarskapital bevæger sig mod institutionaliserede fonde og placerer nordiske aktører tidligt i en autonomi-værdikæde, hvor større runder hidtil er gået til USA og Storbritannien.",
+      "image": {
+        "url": "https://www.eu-startups.com/wp-content/uploads/2026/06/Six-Robots.png",
+        "credit": "Kilde: EU-Startups",
+        "alt": "Six Robotics ubemandede systemer",
+        "sourceUrl": "https://www.eu-startups.com/2026/06/six-robotics-lands-e12-million-to-advance-unmanned-systems-software-with-norwegian-defence-partners/"
+      },
+      "topics": [
+        "defence-tech",
+        "autonomi",
+        "droner",
+        "venturekapital",
+        "europa"
+      ],
+      "entities": [
+        "Six Robotics",
+        "DTCP",
+        "DTCP Defence",
+        "EIFO",
+        "Scale Capital"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 74,
+        "novelty": 76,
+        "sourceQuality": 74,
+        "personalRelevance": 92,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "Six Robotics rejste 12 mio. euro i seed, ledt af DTCP via en ny DTCP Defence-fond på 500 mio. euro.",
+          "sourceUrls": [
+            "https://www.eu-startups.com/2026/06/six-robotics-lands-e12-million-to-advance-unmanned-systems-software-with-norwegian-defence-partners/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Danske EIFO og Scale Capital deltog i runden.",
+          "sourceUrls": [
+            "https://www.eu-startups.com/2026/06/six-robotics-lands-e12-million-to-advance-unmanned-systems-software-with-norwegian-defence-partners/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Six Robotics lands €12 million to advance unmanned systems software with Norwegian defence partners",
+          "publisher": "EU-Startups",
+          "url": "https://www.eu-startups.com/2026/06/six-robotics-lands-e12-million-to-advance-unmanned-systems-software-with-norwegian-defence-partners/",
+          "publishedAt": "2026-06-30T09:45:10Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-eu-dk-told-pakker-2026",
+      "eventKey": "eu-dk-told-alle-pakker-uden-for-eu-2026-07-01",
+      "materialFacts": [
+        "Fra 1. juli 2026 pålægges told på alle varer fra lande uden for EU uanset værdi",
+        "Bagatelgrænsen på 150 euro er afskaffet",
+        "Der pålægges et fast gebyr på 22 kroner pr. varelinje"
+      ],
+      "section": "Økonomi & forbrug",
+      "headline": "Fra i dag skal du betale told på alle varer uden for EU. Se her, hvad de nye regler betyder for dig",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/fra-i-dag-skal-du-betale-told-paa-alle-varer-uden-eu-se-her-hvad-de-nye-regler-betyder-dig",
+      "subheadline": "Bagatelgrænsen på 150 euro er afskaffet: danske forbrugere betaler fra 1. juli told plus et gebyr pr. varelinje på alt fra ikke-EU-sites som Temu og Shein.",
+      "body": [
+        "Fra 1. juli skal danske forbrugere betale told på alle varer fra lande uden for EU — uanset pakkens værdi. Den hidtidige bagatelgrænse på 150 euro er afskaffet, og der pålægges samtidig et fast gebyr på 22 kroner pr. varelinje.",
+        "Toldstyrelsen begrunder ændringen med fair konkurrence for europæiske virksomheder og henviser til stigningen i billige pakker fra Temu og Shein. Det er en dansk udmøntning af en EU-beslutning, der træder i kraft i hele unionen."
+      ],
+      "whyItMatters": "Millioner af danske onlineordrer fra ikke-EU-sites bliver dyrere fra i dag, og gebyret pr. varelinje rammer særligt de mange små, billige køb, der har drevet væksten hos de asiatiske platforme.",
+      "analysis": "Reglen er lige så meget industripolitik som toldteknik: EU lukker det smuthul, der gav ikke-europæiske platforme en prisfordel. Effekten afhænger af, om told og gebyr reelt kan håndhæves på de enorme mængder småpakker.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/ycqal2h0/toldregler_still.jpg?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)",
+        "credit": "Kilde: DR",
+        "alt": "Pakker og told ved e-handel uden for EU",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/fra-i-dag-skal-du-betale-told-paa-alle-varer-uden-eu-se-her-hvad-de-nye-regler-betyder-dig"
+      },
+      "topics": [
+        "told",
+        "e-handel",
+        "eu",
+        "forbrug",
+        "økonomi"
+      ],
+      "entities": [
+        "Toldstyrelsen",
+        "EU",
+        "Temu",
+        "Shein"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 80,
+        "novelty": 72,
+        "sourceQuality": 82,
+        "personalRelevance": 64,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Fra 1. juli 2026 pålægges told på alle varer fra lande uden for EU uanset ordreværdi, og bagatelgrænsen på 150 euro er afskaffet.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/fra-i-dag-skal-du-betale-told-paa-alle-varer-uden-eu-se-her-hvad-de-nye-regler-betyder-dig"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Der pålægges et fast gebyr på 22 kroner pr. varelinje.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/fra-i-dag-skal-du-betale-told-paa-alle-varer-uden-eu-se-her-hvad-de-nye-regler-betyder-dig"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fra i dag skal du betale told på alle varer uden for EU. Se her, hvad de nye regler betyder for dig",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/fra-i-dag-skal-du-betale-told-paa-alle-varer-uden-eu-se-her-hvad-de-nye-regler-betyder-dig",
+          "publishedAt": "2026-07-01T10:28:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-boligskat-strafrenter-2026",
+      "eventKey": "dk-boligskat-strafrenter-tilbagebetaling-2026",
+      "materialFacts": [
+        "Skatteministeren varsler en kompensationsordning for strafrenter og procenttillæg på ejendomsskat",
+        "Ordningen skal gælde med tilbagevirkende kraft fra indkomståret 2021 og ventes indført i 2027",
+        "Ca. 3,1 mio. boligejere fik i september 2023 foreløbige 2022-vurderinger uden klageadgang"
+      ],
+      "section": "Danmark & skat",
+      "headline": "Minister klar med løsning: Tusindvis af boligejere skal have 'urimelige' strafrenter tilbage",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/minister-klar-med-loesning-tusindvis-af-boligejere-skal-have-urimelige-strafrenter-tilbage",
+      "subheadline": "Skatteminister Jakob Engel-Schmidt varsler en tilbagebetalingsordning for rentetillæg, som forsinkelser i det nye ejendomsvurderingssystem har påført boligejerne.",
+      "body": [
+        "Skatteminister Jakob Engel-Schmidt (M) varsler en kompensationsordning, hvor tusindvis af boligejere skal have tilbagebetalt strafrenter og procenttillæg på ejendomsskat, som ministeren selv kalder »urimelige«. Ordningen skal gælde med tilbagevirkende kraft fra indkomståret 2021 og ventes indført i løbet af 2027.",
+        "Baggrunden er forsinkelserne i det nye ejendomsvurderingssystem: ca. 3,1 mio. boligejere fik i september 2023 foreløbige 2022-vurderinger, de ikke kunne klage over, og er siden mødt med rentetillæg, de reelt ikke kunne undgå."
+      ],
+      "whyItMatters": "Sagen rammer en meget stor gruppe danske husejere direkte på pengepungen og er endnu et kapitel i det fejlplagede forsøg på at modernisere ejendomsvurderingerne.",
+      "analysis": "Tilbagebetalingen er en indrømmelse af, at staten har opkrævet renter for sin egen forsinkelse — og skaber en uafklaret regning, hvis størrelse afhænger af, hvor mange år ordningen dækker.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/gqkb30v5/20260629-140238-l.jpg?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)",
+        "credit": "Kilde: DR",
+        "alt": "Danske parcelhuse og ejendomsbeskatning",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/minister-klar-med-loesning-tusindvis-af-boligejere-skal-have-urimelige-strafrenter-tilbage"
+      },
+      "topics": [
+        "skat",
+        "boligskat",
+        "ejendomsvurdering",
+        "politik",
+        "økonomi"
+      ],
+      "entities": [
+        "Jakob Engel-Schmidt",
+        "Skatteministeriet",
+        "Vurderingsstyrelsen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 76,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 58,
+        "contrast": 52
+      },
+      "claims": [
+        {
+          "text": "Skatteministeren varsler en tilbagebetaling af strafrenter og procenttillæg med tilbagevirkende kraft fra indkomståret 2021, ventet indført i 2027.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/minister-klar-med-loesning-tusindvis-af-boligejere-skal-have-urimelige-strafrenter-tilbage"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ca. 3,1 mio. boligejere fik i september 2023 foreløbige 2022-vurderinger uden mulighed for at klage.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/minister-klar-med-loesning-tusindvis-af-boligejere-skal-have-urimelige-strafrenter-tilbage"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Minister klar med løsning: Tusindvis af boligejere skal have 'urimelige' strafrenter tilbage",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/minister-klar-med-loesning-tusindvis-af-boligejere-skal-have-urimelige-strafrenter-tilbage",
+          "publishedAt": "2026-07-01T19:30:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-webb-wd1856b-atmosphere-2026",
+      "eventKey": "webb-wd-1856-b-atmosphere-white-dwarf",
+      "materialFacts": [
+        "JWST påviste for første gang en atmosfære omkring en planet, der kredser om en hvid dværg",
+        "Atmosfæren indeholder skypartikler og kulbrinter, sandsynligvis metan",
+        "Planeten WD 1856 b har en overfladetemperatur på ca. 126 grader og et kredsløb på 34 timer"
+      ],
+      "section": "Videnskab",
+      "headline": "Webb studies how a planet survived the death of its star",
+      "primarySourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+      "subheadline": "Rumteleskopet James Webb har for første gang målt en atmosfære om en planet, der kredser om resterne af en udbrændt stjerne.",
+      "body": [
+        "Rumteleskopet James Webb har for første gang påvist en atmosfære om en planet, der kredser om en hvid dværg — resterne af en udbrændt stjerne som vores egen Sol engang bliver. Gaskæmpen WD 1856 b, på 4-11 gange Jupiters masse, har en atmosfære med skypartikler og kulbrinter, sandsynligvis metan.",
+        "Overfladetemperaturen er omkring 126 grader — varmere end ventet for en planet, hvis stjerne for længst er kølet af. Planeten fuldfører sit tætte kredsløb på blot 34 timer, og resultatet er offentliggjort i Nature."
+      ],
+      "whyItMatters": "Fundet er det første direkte kig ind i atmosfæren på en kæmpeplanet, der har overlevet sin stjernes død, og belyser, hvordan planetsystemer klarer sig, når stjernen dør.",
+      "analysis": "Det metodiske gennembrud er, at Webb overhovedet kan karakterisere atmosfærer om hvide dværge — og åbner en ny klasse af mål for jagten på atmosfærer, og på sigt biosignaturer, i systemer, der før ansås for døde.",
+      "primaryExcerpt": {
+        "quote": "We saw the telltale signatures of small cloud particles and hydrocarbons, most likely methane, which is the first time we have seen an atmosphere on a planet transiting a dead star.",
+        "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+        "sourceTitle": "Webb studies how a planet survived the death of its star"
+      },
+      "image": {
+        "url": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2026/07/exoplanet_wd_1856_b_artist_s_concept/27358511-2-eng-GB/Exoplanet_WD_1856_b_artist_s_concept_pillars.jpg",
+        "credit": "Illustration: ESA/NASA",
+        "alt": "Kunstnerisk illustration af exoplaneten WD 1856 b og dens hvide dværg",
+        "sourceUrl": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star"
+      },
+      "topics": [
+        "astronomi",
+        "exoplaneter",
+        "hvid-dværg",
+        "jwst",
+        "videnskab"
+      ],
+      "entities": [
+        "James Webb Space Telescope",
+        "WD 1856 b",
+        "ESA",
+        "NASA",
+        "Nature"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 52,
+        "novelty": 90,
+        "sourceQuality": 88,
+        "personalRelevance": 55,
+        "contrast": 84
+      },
+      "claims": [
+        {
+          "text": "JWST påviste for første gang en atmosfære omkring en planet, der transitterer en hvid dværg; den indeholder kulbrinter, sandsynligvis metan.",
+          "sourceUrls": [
+            "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+            "https://www.nature.com/articles/s41586-026-10514-7"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "WD 1856 b har 4-11 gange Jupiters masse, ca. 126 graders overfladetemperatur og et kredsløb på 34 timer.",
+          "sourceUrls": [
+            "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Webb studies how a planet survived the death of its star",
+          "publisher": "ESA",
+          "url": "https://www.esa.int/Science_Exploration/Space_Science/Webb/Webb_studies_how_a_planet_survived_the_death_of_its_star",
+          "publishedAt": "2026-07-01T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "A giant planet transiting a white dwarf reveals a methane-rich atmosphere",
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10514-7",
+          "publishedAt": "2026-07-01T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Introducing Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "headline": "Introducing Claude Sonnet 5",
+      "summary": "Anthropic (USA) lancerer Claude Sonnet 5 som ny standardmodel for gratis- og Pro-brugere og kalder den »den mest agentiske Sonnet nogensinde«; introduktionspris frem til 31. august 2026 er 2 dollar pr. mio. input-tokens.",
+      "publisher": "Anthropic",
+      "section": "Kunstig intelligens",
+      "publishedAt": "2026-06-30T00:00:00Z"
+    },
+    {
+      "text": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
+      "url": "https://techcrunch.com/2026/07/01/bending-spoons-defies-saas-slump-surges-40-on-first-day-of-trading/",
+      "headline": "Bending Spoons defies SaaS slump, surges 40% on first day of trading",
+      "summary": "Italienske Bending Spoons lukkede sin første handelsdag på Nasdaq (USA) ~40 % over IPO-prisen på 29 dollar og rejste 1,68 mia. dollar; markedsværdien nåede 25,7 mia. dollar — mere end dobbelt af den seneste private værdiansættelse.",
+      "publisher": "TechCrunch",
+      "section": "Markeder",
+      "publishedAt": "2026-07-01T22:47:04Z"
+    },
+    {
+      "text": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "headline": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "summary": "Meta (USA) lancerer cloud-forretningen »Meta Compute«, der skal sælge overskydende computerkraft og adgang til AI-modeller til eksterne kunder i konkurrence med AWS, Google Cloud og Azure.",
+      "publisher": "TechCrunch",
+      "section": "Kunstig intelligens",
+      "publishedAt": "2026-07-01T13:43:00Z"
+    },
+    {
+      "text": "Spain’s Openchip lands €115 million SETT investment to strengthen Europe’s semiconductor capabilities",
+      "url": "https://www.eu-startups.com/2026/06/spains-openchip-lands-e115-million-sett-investment-to-strengthen-europes-semiconductor-capabilities/",
+      "headline": "Spain’s Openchip lands €115 million SETT investment to strengthen Europe’s semiconductor capabilities",
+      "summary": "Barcelona-baserede Openchip (Spanien) henter 115 mio. euro fra den spanske statslige investor SETT til at designe energieffektive chips til AI og HPC — et led i Europas forsøg på halvleder-suverænitet.",
+      "publisher": "EU-Startups",
+      "section": "Halvledere",
+      "publishedAt": "2026-06-29T14:15:49Z"
+    },
+    {
+      "text": "Survey shows Japan's business sentiment improving for a 5th straight quarter",
+      "url": "https://abcnews.com/International/wireStory/survey-shows-japans-business-sentiment-improving-5th-straight-134365706",
+      "headline": "Survey shows Japan's business sentiment improving for a 5th straight quarter",
+      "summary": "Den japanske centralbanks Tankan-måling (Japan) viste stigende erhvervstillid for femte kvartal i træk; storindustriens indeks steg til 22 fra 17, nær et otteårshøjt niveau, drevet af AI-boom og højere råvarepriser.",
+      "publisher": "Associated Press",
+      "section": "Makroøkonomi",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "text": "NIKE, Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results",
+      "url": "https://about.nike.com/en/newsroom/releases/nike-inc-reports-fiscal-2026-fourth-quarter-and-full-year-results",
+      "headline": "NIKE, Inc. Reports Fiscal 2026 Fourth Quarter and Full Year Results",
+      "summary": "Nike (USA) fik løftet sit fjerde kvartal af en ventet toldrefusion på ~986 mio. dollar, efter USA's højesteret underkendte en række IEEPA-toldsatser; nettoresultatet steg 407 % til 1,1 mia. dollar.",
+      "publisher": "NIKE, Inc.",
+      "section": "Erhverv",
+      "publishedAt": "2026-06-30T00:00:00Z"
+    },
+    {
+      "text": "Højesteret i London giver Danmark stor sejr efter strid med finanshus",
+      "url": "https://www.dr.dk/nyheder/penge/hoejesteret-i-london-giver-danmark-stor-sejr-efter-strid-med-finanshus",
+      "headline": "Højesteret i London giver Danmark stor sejr efter strid med finanshus",
+      "summary": "Storbritanniens højesteret gav Skattestyrelsen (Danmark) ret til at føre sin udbytteskat-sag mod finanshuset ED&F Man ved britiske domstole; kravet er reduceret fra ca. 600 mio. til godt 300 mio. kroner.",
+      "publisher": "DR",
+      "section": "Skat & jura",
+      "publishedAt": "2026-07-01T09:16:32Z"
+    },
+    {
+      "text": "Forsvaret søger folk til eskadrille, der skal overvåge farvande ved Grønland og Østersøen",
+      "url": "https://www.dr.dk/nyheder/indland/forsvaret-soeger-folk-til-eskadrille-der-skal-overvaage-farvande-ved-groenland-og-oestersoeen",
+      "headline": "Forsvaret søger folk til eskadrille, der skal overvåge farvande ved Grønland og Østersøen",
+      "summary": "Det danske forsvar opretter en ny eskadrille, der skal overvåge farvandene ved Grønland og i Østersøen, og er begyndt at søge personel til enheden.",
+      "publisher": "DR",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-01T13:41:00Z"
+    },
+    {
+      "text": "Should pregnant women worry about taking Tylenol? 20-year sibling-matched study finds no link to autism or ADHD",
+      "url": "https://medicalxpress.com/news/2026-07-pregnant-women-tylenol-year-sibling.html",
+      "headline": "Should pregnant women worry about taking Tylenol? 20-year sibling-matched study finds no link to autism or ADHD",
+      "summary": "Et søskende-matchet studie af over 708.000 mor-barn-par (Hongkong) fandt ingen sammenhæng mellem paracetamol i graviditeten og autisme eller ADHD — uanset dosis og tidspunkt.",
+      "publisher": "Medical Xpress",
+      "section": "Sundhed",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "text": "Telum Therapeutics raises €18 million to advance treatments for hospital-acquired infections",
+      "url": "https://www.eu-startups.com/2026/07/telum-therapeutics-raised-e18-million-to-advance-treatments-for-hospital-acquired-infections/",
+      "headline": "Telum Therapeutics raises €18 million to advance treatments for hospital-acquired infections",
+      "summary": "Spanske Telum Therapeutics (Noáin, Spanien) rejste 18 mio. euro i Series A ledt af det USA-baserede AMR Action Fund til at føre et nyt antibiotikum mod hospitalsinfektioner ind i klinisk udvikling.",
+      "publisher": "EU-Startups",
+      "section": "Biotek",
+      "publishedAt": "2026-07-01T09:50:01Z"
+    },
+    {
+      "text": "Medier: Tyskland tiltaler ukrainer i Nord Stream-sag",
+      "url": "https://www.dr.dk/nyheder/udland/medier-tyskland-tiltaler-ukrainer-i-nord-stream-sag",
+      "headline": "Medier: Tyskland tiltaler ukrainer i Nord Stream-sag",
+      "summary": "Ifølge tyske medier tiltaler Tyskland en ukrainsk statsborger i sagen om sabotagen mod Nord Stream-gasledningerne (Tyskland/Ukraine), hvor eksplosionerne i 2022 skete i bl.a. dansk farvand.",
+      "publisher": "DR",
+      "section": "Geopolitik",
+      "publishedAt": "2026-07-01T18:06:00Z"
+    }
+  ],
+  "keyNumber": {
+    "label": "Eurozonens årlige inflation (HICP), juni 2026",
+    "value": "2,8",
+    "unit": "%",
+    "asOf": "juni 2026 (foreløbig)",
+    "caption": "Inflationen faldt fra 3,2 % i maj og landede under de ventede 3,0 % — disinflationen fortsætter og giver ECB mere luft.",
+    "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01072026-ap",
+    "sourceTitle": "Euro area annual inflation down to 2.8%",
+    "series": [
+      {
+        "label": "Maj",
+        "value": 3.2
+      },
+      {
+        "label": "Jun",
+        "value": 2.8
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-empire-of-ai-20260702",
+      "mode": "read",
+      "kind": "bog",
+      "status": "available",
+      "title": "Empire of AI: Dreams and Nightmares in Sam Altman's OpenAI",
+      "creator": "Karen Hao",
+      "provider": "Penguin Press",
+      "url": "https://www.penguinrandomhouse.com/books/743569/empire-of-ai-by-karen-hao/",
+      "availability": "Fås globalt: indbundet, e-bog og lydbog (17t51m)",
+      "commitment": "~496-siders bog",
+      "description": "Journalisten Karen Haos gennemresearchede beretning om OpenAI's forvandling fra nonprofit-laboratorium til magtfuld imperiebygger — om kapital, compute, arbejdskraft og de menneskelige omkostninger bag kapløbet mod kunstig generel intelligens.",
+      "rationale": "Som analytiker i transformative investeringer får du her det mest dokumenterede indblik i, hvordan AI-industriens magt, kapital og infrastruktur reelt er bygget — ikke visionsslides, men de strukturer og afhængigheder, der afgør, hvem der ejer teknologien, og hvor holdbar sektoren er.",
+      "topics": [
+        "ai",
+        "openai",
+        "erhverv",
+        "etik",
+        "infrastruktur"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://images3.penguinrandomhouse.com/cover/9780593657522",
+        "credit": "Kilde: Penguin Random House",
+        "alt": "Bogomslag: Empire of AI af Karen Hao",
+        "sourceUrl": "https://www.penguinrandomhouse.com/books/743569/empire-of-ai-by-karen-hao/"
+      }
+    },
+    {
+      "id": "rec-ai-consciousness-anil-seth-20260702",
+      "mode": "listen",
+      "kind": "podcast/interview",
+      "status": "new",
+      "title": "AI Sessions #9: The Case Against AI Consciousness (with Anil Seth)",
+      "creator": "Dan Williams & Henry Shevlin, med Anil Seth",
+      "provider": "Conspicuous Cognition",
+      "url": "https://www.conspicuouscognition.com/p/ai-sessions-9-the-case-against-ai",
+      "availability": "Gratis, globalt (lyd + transskription)",
+      "commitment": "58-min afsnit",
+      "description": "Neuroforskeren Anil Seth argumenterer for, hvorfor nutidens sprogmodeller efter al sandsynlighed ikke er bevidste — og hvad forskellen er mellem intelligens og oplevelse. En stringent samtale om bevidsthedens biologi over for maskinernes efterligning.",
+      "rationale": "Et fagligt modspil til den udbredte antropomorfisering af AI. For dig med interesse i AI-etik og psykologi skærper Seth begreberne, så du kan skelne reelle kognitive fremskridt fra projektion — nyttigt både i vurderingen af teknologien og som intellektuel kontrast til hype-samtalen.",
+      "topics": [
+        "ai",
+        "bevidsthed",
+        "filosofi",
+        "psykologi",
+        "neurovidenskab"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://substack-post-media.s3.amazonaws.com/public/images/28186027-13c2-4585-9fe7-93241b46888e_1024x1024.png",
+        "credit": "Kilde: Conspicuous Cognition",
+        "alt": "Omslag for AI Sessions-podcasten med Anil Seth",
+        "sourceUrl": "https://www.conspicuouscognition.com/p/ai-sessions-9-the-case-against-ai"
+      }
+    },
+    {
+      "id": "rec-state-of-modern-war-allin-20260702",
+      "mode": "watch",
+      "kind": "paneldebat/interview",
+      "status": "available",
+      "title": "The State of Modern War: Palantir & Anduril Execs on Drones, AI, and the End of Traditional Warfare",
+      "creator": "All-In Podcast, m. Shyam Sankar & Trae Stephens",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=mjNP5IOzCbA",
+      "availability": "Gratis, globalt (YouTube)",
+      "commitment": "~60-min video",
+      "description": "Palantirs Shyam Sankar og Andurils Trae Stephens taler om, hvordan droner, autonomi og software omskriver moderne krigsførelse — og hvad det betyder for forsvarsindustriens indkøb, magtbalancer og investeringer.",
+      "rationale": "Direkte relevant for din interesse i defence-tech og europæisk suverænitet: de to selskaber definerer i praksis, hvordan software-defineret forsvar ser ud. Lyt kritisk — de er selv parter med økonomiske interesser — men det er de mest konkrete stemmer om, hvor kapitalen og teknologien bevæger sig hen.",
+      "topics": [
+        "forsvar",
+        "ai",
+        "autonomi",
+        "droner",
+        "venturekapital"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://i.ytimg.com/vi/mjNP5IOzCbA/hqdefault.jpg",
+        "credit": "Kilde: All-In / YouTube",
+        "alt": "Thumbnail for All-In-panel om moderne krigsførelse",
+        "sourceUrl": "https://www.youtube.com/watch?v=mjNP5IOzCbA"
+      }
+    },
+    {
+      "id": "rec-nvidia-nemo-agent-toolkit-20260702",
+      "mode": "try",
+      "kind": "open source-værktøj",
+      "status": "available",
+      "title": "NVIDIA NeMo Agent Toolkit",
+      "creator": "NVIDIA",
+      "provider": "GitHub",
+      "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit",
+      "availability": "Gratis, open source (Apache 2.0)",
+      "commitment": "Et par timer at prototype",
+      "description": "Et open source-framework fra NVIDIA til at bygge, forbinde og evaluere AI-agenter på tværs af rammer som LangChain og LlamaIndex, med indbygget profilering og observability af agent-workflows.",
+      "rationale": "En hands-on modvægt til at læse om agenter: prøv selv at orkestrere og måle et agent-workflow. For en investor giver det konkret fornemmelse af, hvor moden — og hvor besværlig — agent-infrastrukturen faktisk er, når teknologien skal fra demo til drift.",
+      "topics": [
+        "ai-agenter",
+        "værktøjer",
+        "open-source",
+        "orkestrering"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://github.com/NVIDIA/NeMo-Agent-Toolkit/raw/develop/docs/source/_static/banner.png",
+        "credit": "Kilde: NVIDIA",
+        "alt": "Banner for NVIDIA NeMo Agent Toolkit",
+        "sourceUrl": "https://github.com/NVIDIA/NeMo-Agent-Toolkit"
+      }
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 86,
+    "sourceQuality": 88,
+    "outsideProfile": 82,
+    "diversity": 84,
+    "novelty": 80
+  }
+}
