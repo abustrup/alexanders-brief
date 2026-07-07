@@ -1,0 +1,983 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-2026-07-07",
+  "date": "2026-07-07",
+  "generatedAt": "2026-07-07T09:20:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Danmark køber amerikanske patruljefly til Arktis, mens NATO mødes i Ankara om 5 %-målet og 70 mia. euro til Ukraine; Hamas opløser sit Gaza-styre, et gastankskib rammes i Hormuz, og en kinesisk 1-milliard-dollar-unicorn udfordrer Meta på privatliv — mens Genmab lander en EU-godkendelse, DR Congos ebola passerer 500 døde, og Microsoft skærer 4.800 job midt i AI-kapitalens rekordår.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-dk-poseidon-20260707",
+      "eventKey": "denmark-p8a-poseidon-2026",
+      "materialFacts": [
+        "Danmark anskaffer indledningsvis to Boeing P-8A Poseidon maritime patruljefly til overvågning og suverænitetshåndhævelse i Arktis og Nordatlanten under Delaftale 2 i forsvarsforliget 2024-2033.",
+        "Forsvarsminister Jeppe Bruus offentliggjorde anskaffelsen 7. juli 2026 i forbindelse med NATO-topmødet i Ankara; forsvarschef Michael Wiggers Hyldgaard har indstillet flyene.",
+        "USA godkendte omkring årsskiftet 2025/2026 et muligt salg af op til tre P-8A til anslået 1,8 mia. dollar med Boeing som hovedleverandør; typen flyves også af USA, Canada, Storbritannien, Norge og Tyskland."
+      ],
+      "section": "Forsvar",
+      "headline": "Danmark anskaffer nye maritime patruljefly",
+      "primarySourceUrl": "https://www.fmn.dk/da/nyheder/2026/danmark-anskaffer-nye-maritime-patruljefly/",
+      "subheadline": "Danmark køber to Boeing P-8A Poseidon til at overvåge Arktis og Nordatlanten — annonceret på NATO-topmødet i Ankara, midt i det anspændte forhold til Washington om Grønland.",
+      "body": [
+        "Danmark køber to Boeing P-8A Poseidon-fly til overvågning og suverænitetshåndhævelse i Arktis og Nordatlanten. Forsvarsminister Jeppe Bruus offentliggjorde anskaffelsen tirsdag i forbindelse med NATO-topmødet i Ankara, og forsvarschef Michael Wiggers Hyldgaard har indstillet flyene for at styrke ubådsjagt og overvågning omkring Grønland og Færøerne.",
+        "Flyene indgår i Delaftale 2 om Arktis under forsvarsforliget 2024-2033. USA godkendte omkring årsskiftet et muligt salg af op til tre P-8A til anslået 1,8 mia. dollar med Boeing som hovedleverandør; Danmark starter med to. Typen flyves også af USA, Canada, Storbritannien, Norge og Tyskland."
+      ],
+      "whyItMatters": "Beslutningen binder Danmark tættere til amerikansk materiel, netop som forholdet til Washington er anspændt over Grønland. Patruljefly er kernen i at se russiske ubåde i Nordatlanten.",
+      "analysis": "Valget er lige så meget alliancepolitik som kapacitet: København vil løfte byrden i Arktis med NATO-standardudstyr, men øger afhængigheden af en leverandør, hvis regering presser rigsfællesskabet.",
+      "counterpoint": "Afhængigheden af amerikansk materiel er en reel sårbarhed, når USA bruger sikkerhed som løftestang — men europæiske alternativer i klassen serieproduceres ikke i dag.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Boeing_P-8A_Poseidon_flies_over_Jacksonville_%281%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Et Boeing P-8A Poseidon maritimt patruljefly i luften — samme flytype Danmark nu anskaffer.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boeing_P-8A_Poseidon_flies_over_Jacksonville_(1).jpg"
+      },
+      "topics": [
+        "forsvar",
+        "arktis",
+        "suverænitet",
+        "nato",
+        "usa-afhængighed"
+      ],
+      "entities": [
+        "Forsvarsministeriet",
+        "Jeppe Bruus",
+        "Michael Wiggers Hyldgaard",
+        "Boeing",
+        "P-8A Poseidon",
+        "Grønland",
+        "Færøerne",
+        "NATO"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 72,
+        "novelty": 70,
+        "sourceQuality": 82,
+        "personalRelevance": 74,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Danmark anskaffer indledningsvis to Boeing P-8A Poseidon maritime patruljefly til Arktis og Nordatlanten under forsvarsforliget 2024-2033.",
+          "sourceUrls": [
+            "https://www.fmn.dk/da/nyheder/2026/danmark-anskaffer-nye-maritime-patruljefly/",
+            "https://olfi.dk/2026/07/07/danmark-koeber-2-maritime-overvaagningsfly-i-usa/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USA godkendte omkring årsskiftet 2025/2026 et muligt salg af op til tre P-8A til Danmark til anslået 1,8 mia. dollar.",
+          "sourceUrls": [
+            "https://www.navalnews.com/naval-news/2026/01/u-s-approves-possible-fms-of-3-p-8a-maritime-patrol-aircraft-to-denmark/",
+            "https://www.stripes.com/theaters/europe/2026-01-02/denmark-poseidon-purchase-20274057.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmark anskaffer nye maritime patruljefly",
+          "publisher": "Forsvarsministeriet (fmn.dk)",
+          "url": "https://www.fmn.dk/da/nyheder/2026/danmark-anskaffer-nye-maritime-patruljefly/",
+          "publishedAt": "2026-07-07T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Danmark køber to P8 Poseidon overvågningsfly",
+          "publisher": "OLFI",
+          "url": "https://olfi.dk/2026/07/07/danmark-koeber-2-maritime-overvaagningsfly-i-usa/",
+          "publishedAt": "2026-07-07T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "U.S. Approves Possible FMS of 3 P-8A Maritime Patrol Aircraft to Denmark",
+          "publisher": "Naval News",
+          "url": "https://www.navalnews.com/naval-news/2026/01/u-s-approves-possible-fms-of-3-p-8a-maritime-patrol-aircraft-to-denmark/",
+          "publishedAt": "2026-01-02T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US grants initial approval of Danish bid to buy trio of P-8A surveillance planes",
+          "publisher": "Stars and Stripes",
+          "url": "https://www.stripes.com/theaters/europe/2026-01-02/denmark-poseidon-purchase-20274057.html",
+          "publishedAt": "2026-01-02T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Denmark moves to acquire P-8A Poseidon aircraft under $1.8 billion deal",
+          "publisher": "Naval Today",
+          "url": "https://www.navaltoday.com/2025/12/30/denmark-moves-to-acquire-p-8a-poseidon-aircraft-under-1-8-billion-deal/",
+          "publishedAt": "2025-12-30T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-nato-ankara-20260707",
+      "eventKey": "nato-ankara-summit-2026",
+      "materialFacts": [
+        "NATO's 32 stats- og regeringschefer mødes i Ankara 7.-8. juli 2026; generalsekretær Mark Rutte fremhæver tre prioriteter: forsvarsinvesteringer, transatlantisk forsvarsindustri og støtte til Ukraine.",
+        "Allierede ventes at fremlægge planer for det nye mål om 5 % af BNP til forsvar og sikkerhed i 2035 (3,5 % kerne + 1,5 % relateret); Europa og Canada er allerede på ca. 4 %.",
+        "Ifølge udkastet til slutdokument lover europæiske allierede og Canada Ukraine 70 mia. euro i militær støtte i 2026 — uden amerikansk bidrag."
+      ],
+      "section": "NATO",
+      "headline": "NATO Secretary General previews the Ankara Summit, highlights progress on defence spending",
+      "primarySourceUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending",
+      "subheadline": "NATO's 32 ledere mødes i Tyrkiet med et mål om 5 % af BNP til forsvar i 2035 — og europæiske allierede plus Canada ventes at love Ukraine 70 mia. euro, uden USA.",
+      "body": [
+        "NATO's generalsekretær Mark Rutte lagde 6. juli op til topmødet i Ankara den 7.-8. juli med tre prioriteter: forsvarsinvesteringer, transatlantisk forsvarsindustri og støtte til Ukraine. Allierede skal fremlægge planer for det nye mål om 5 % af BNP til forsvar i 2035.",
+        "Ifølge udkastet til slutdokument lover europæiske allierede og Canada Ukraine 70 mia. euro i militær støtte i 2026 — uden amerikansk bidrag. Beløbet er ikke alt sammen nye penge; det samler et tidligere tilsagn på ca. 40 mia. euro med ca. 30 mia. euro årligt fra EU's låneprogram."
+      ],
+      "whyItMatters": "Topmødet viser, om Europa kan bære mere af egen sikkerhed, mens USA trækker sig. For Danmark er 5 %-sporet bindende for kommende forsvarsbudgetter.",
+      "analysis": "»Ironclad«-sproget om artikel 5 skal berolige østflanken, men uenigheden om at binde sig til 2027-støtte — hvor Italien bremser — afslører, at viljen til tilsagn er skrøbeligere end retorikken.",
+      "image": {
+        "url": "https://www.nato.int/content/dam/nato/webready/news/2020-2029/2026/07/06/summit-pre-pc-sg/20260706_summit-pre-pc-sg_0007.jpg",
+        "credit": "Foto: NATO",
+        "alt": "NATO's generalsekretær Mark Rutte ved pressemødet forud for topmødet i Ankara.",
+        "sourceUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending"
+      },
+      "topics": [
+        "nato",
+        "forsvarsudgifter",
+        "ukraine",
+        "geopolitik",
+        "europa"
+      ],
+      "entities": [
+        "NATO",
+        "Mark Rutte",
+        "Ankara",
+        "Tyrkiet",
+        "Ukraine",
+        "Canada",
+        "EU"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 68,
+        "novelty": 60,
+        "sourceQuality": 84,
+        "personalRelevance": 62,
+        "contrast": 48
+      },
+      "claims": [
+        {
+          "text": "NATO-allierede sigter mod et mål om 5 % af BNP til forsvar og sikkerhed i 2035, og Europa og Canada er allerede på ca. 4 %.",
+          "sourceUrls": [
+            "https://www.nato.int/en/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Europæiske allierede og Canada ventes at love Ukraine 70 mia. euro i militær støtte i 2026 uden amerikansk bidrag.",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/79692",
+            "https://www.usnews.com/news/world/articles/2026-07-03/nato-leaders-to-affirm-ironclad-commitment-to-collective-defence-in-ankara-summit-text-says"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NATO Secretary General previews the Ankara Summit, highlights progress on defence spending",
+          "publisher": "NATO",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/06/nato-secretary-general-previews-the-ankara-summit-highlights-progress-on-defence-spending",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "NATO Allies Expected to Pledge €70B in Military Support for Ukraine at Ankara Summit",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/79692",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "NATO Leaders to Affirm 'Ironclad' Commitment to Collective Defence in Ankara Summit Text, Says Draft",
+          "publisher": "U.S. News & World Report (Reuters)",
+          "url": "https://www.usnews.com/news/world/articles/2026-07-03/nato-leaders-to-affirm-ironclad-commitment-to-collective-defence-in-ankara-summit-text-says",
+          "publishedAt": "2026-07-03T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-hamas-gaza-20260706",
+      "eventKey": "hamas-dissolves-gaza-government-2026",
+      "materialFacts": [
+        "Hamas meddelte mandag 6. juli 2026, at man opløser det Regeringsnødudvalg, der har styret Gaza siden 2007; udvalgets leder Mohammed al-Farra indgav sin afskedsbegæring.",
+        "Magten skal overdrages til et palæstinensisk teknokratudvalg, National Committee for the Administration of Gaza (NCAG), ledet af den Gaza-fødte ingeniør og tidligere PA-embedsmand Ali Shaath.",
+        "Hamas fremstiller skridtet som en indrømmelse for at fremme våbenhvileforhandlinger, men opgiver ikke sin politiske eller militære rolle."
+      ],
+      "section": "Mellemøsten",
+      "headline": "Hamas announces dissolution of Gaza governing body",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body",
+      "subheadline": "Hamas opløser sit regeringsudvalg i Gaza og lover at overdrage civilstyret til et teknokratisk udvalg under FN- og USA-opsyn — et forsøg på at holde en skrøbelig våbenhvile i live.",
+      "body": [
+        "Hamas opløste mandag det Regeringsnødudvalg, der har styret Gaza siden magtovertagelsen i 2007, og udvalgets leder Mohammed al-Farra trådte tilbage. Civilstyret skal overgå til et teknokratisk udvalg, National Committee for the Administration of Gaza, ledet af den Gaza-fødte ingeniør Ali Shaath.",
+        "Bevægelsen kaldte det et skridt for at »fjerne påskud for besættelsen« og fremme våbenhvileforhandlinger. Udvalget skal genoprette basale ydelser under opsyn af FN og det USA-støttede Board of Peace, men Hamas opgiver ikke sin politiske eller militære rolle."
+      ],
+      "whyItMatters": "Hvem der styrer Gaza efter krigen er selve knasten i våbenhvilen; et troværdigt teknokratisk styre er en forudsætning for genopbygning og arabisk deltagelse.",
+      "analysis": "At overdrage papirstyret, men beholde våben og politisk kontrol, er en velkendt manøvre: Hamas køber forhandlingsrum uden reelt at afgive magt.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20260706__B9CZ8LV__v1__HighRes__PalestinianIsraelConflictGaza-1783339004.jpg?resize=1920%2C1440",
+        "credit": "Foto: AFP / Al Jazeera",
+        "alt": "Palæstinensere i Gaza; Hamas har meddelt, at bevægelsen opløser sit regeringsudvalg.",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body"
+      },
+      "topics": [
+        "mellemøsten",
+        "gaza",
+        "hamas",
+        "våbenhvile",
+        "styring"
+      ],
+      "entities": [
+        "Hamas",
+        "Gaza",
+        "Mohammed al-Farra",
+        "Ali Shaath",
+        "NCAG",
+        "FN",
+        "Board of Peace"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 55,
+        "novelty": 72,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Hamas opløste 6. juli 2026 sit Regeringsnødudvalg, der har styret Gaza siden 2007, og vil overdrage civilstyret til teknokratudvalget NCAG ledet af Ali Shaath.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body",
+            "https://www.pbs.org/newshour/world/hamas-says-it-has-dissolved-its-government-in-gaza-to-transfer-power-to-a-un-backed-committee"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hamas announces dissolution of Gaza governing body",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/6/hamas-announces-dissolution-of-gaza-governing-body",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Hamas says it has dissolved its government in Gaza to transfer power to a UN-backed committee",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/hamas-says-it-has-dissolved-its-government-in-gaza-to-transfer-power-to-a-un-backed-committee",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Hamas dissolves Gaza government ahead of eventual transfer of power to technocrats",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/hamas-dissolves-gaza-government-ahead-of-eventual-transfer-of-power-to-technocrats/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Hamas says it will dissolve Gaza government as US-brokered ceasefire plan stalls",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/07/06/middleeast/hamas-dissolves-gaza-government-intl",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-hormuz-energy-20260707",
+      "eventKey": "hormuz-tanker-energy-shock-2026",
+      "materialFacts": [
+        "Et LNG-tankskib med qatarsk gas blev tidligt tirsdag 7. juli 2026 ramt af et projektil nær Limah i Oman i Hormuzstrædet og brød i brand; ingen personskade eller miljøpåvirkning ifølge britiske UKMTO.",
+        "Iransk statsligt tv antydede iransk ansvar, men Teheran fremsatte ingen officiel bekræftelse.",
+        "Syv OPEC+-lande besluttede 5. juli at øge produktionen med 188.000 tønder/dag fra august — femte månedlige stigning i træk — og den danske delebilsvirksomhed GreenMobility nedjusterede samme uge sin 2026-vækstforventning til 5-9 % med henvisning til Hormuz-relaterede leveringsforsinkelser."
+      ],
+      "section": "Energi",
+      "headline": "Oil tanker hit by 'unknown projectile' in Strait of Hormuz, British military says",
+      "primarySourceUrl": "https://www.euronews.com/2026/07/07/oil-tanker-hit-by-unknown-projectile-in-strait-of-hormuz-british-military-says",
+      "subheadline": "Et gastankskib rammes i Hormuzstrædet, mens OPEC+ åbner hanerne yderligere — og forstyrrelserne rammer allerede en dansk børsnoteret virksomheds forventninger.",
+      "body": [
+        "Et LNG-tankskib med gas fra Qatar blev tidligt tirsdag ramt af et projektil nær Limah ud for Oman i Hormuzstrædet og brød i brand; ingen personskade eller miljøpåvirkning ifølge britiske UKMTO. Iransk statsligt tv antydede, at Teheran stod bag et skib, der »ignorerede advarsler«; ingen officiel bekræftelse.",
+        "Samtidig besluttede syv OPEC+-lande 5. juli at hæve produktionen med 188.000 tønder om dagen fra august — femte stigning i træk. Herhjemme nedjusterede GreenMobility sin 2026-vækstforventning til 5-9 % med henvisning til Hormuz-relaterede leveringsforsinkelser."
+      ],
+      "whyItMatters": "Hormuz er nåleøjet for en femtedel af verdens olie- og gashandel; ét angreb kan flytte energipriser helt ned til en dansk delebilsflåde.",
+      "analysis": "OPEC+' produktionsløft dæmper prischokket og viser, at kartellet vil generobre markedsandele frem for at forsvare prisen — men Irans afviselige angreb lægger en risikopræmie på transit.",
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/82/76/44/1536x864_cmsv2_8c2a4f08-6806-568d-99fa-f08da9486c0c-9827644.jpg",
+        "credit": "Foto: Euronews",
+        "alt": "Hormuzstrædet, hvor et LNG-tankskib blev ramt af et projektil og brød i brand.",
+        "sourceUrl": "https://www.euronews.com/2026/07/07/oil-tanker-hit-by-unknown-projectile-in-strait-of-hormuz-british-military-says"
+      },
+      "topics": [
+        "energi",
+        "hormuz",
+        "olie",
+        "opec",
+        "danmark"
+      ],
+      "entities": [
+        "Hormuzstrædet",
+        "Oman",
+        "Qatar",
+        "Iran",
+        "UKMTO",
+        "OPEC+",
+        "GreenMobility"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 70,
+        "novelty": 66,
+        "sourceQuality": 78,
+        "personalRelevance": 58,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Et LNG-tankskib med qatarsk gas blev 7. juli 2026 ramt af et projektil i Hormuzstrædet nær Oman og brød i brand; Iran antydede ansvar uden officiel bekræftelse.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/07/oil-tanker-hit-by-unknown-projectile-in-strait-of-hormuz-british-military-says",
+            "https://www.npr.org/2026/07/07/g-s1-132265/tanker-attack-strait-of-hormuz"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Syv OPEC+-lande besluttede 5. juli 2026 at hæve produktionen med 188.000 tønder/dag fra august.",
+          "sourceUrls": [
+            "https://www.opec.org/pr-detail/1835609-5-july-2026.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Oil tanker hit by 'unknown projectile' in Strait of Hormuz, British military says",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/07/07/oil-tanker-hit-by-unknown-projectile-in-strait-of-hormuz-british-military-says",
+          "publishedAt": "2026-07-07T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Oil tanker attacked in Strait of Hormuz, British military says",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/07/07/g-s1-132265/tanker-attack-strait-of-hormuz",
+          "publishedAt": "2026-07-07T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OPEC+ eight countries to raise August production",
+          "publisher": "OPEC",
+          "url": "https://www.opec.org/pr-detail/1835609-5-july-2026.html",
+          "publishedAt": "2026-07-05T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "GreenMobility Justerer Forventningerne for 2026",
+          "publisher": "Okonomisk Ugebrev",
+          "url": "https://ugebrev.dk/flashnews/greenmobility-justerer-forventningerne-for-2026-og-praesenterer-foreloebige-tal-for-h1-2026/",
+          "publishedAt": "2026-07-07T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-even-realities-20260706",
+      "eventKey": "even-realities-1b-glasses-2026",
+      "materialFacts": [
+        "Den Shenzhen-baserede smart-briller-producent Even Realities, grundlagt i 2023 af tidligere Apple-ingeniører, rejste 150 mio. dollar i en pre-Series B annonceret 6. juli 2026 og nåede en værdiansættelse på 1 mia. dollar.",
+        "Runden blev ledet af kinesiske Meituan med deltagelse af den tilbagevendende investor Tencent (Kina).",
+        "Even Realities satser på kamerafri briller med waveguide-optik og fremhæver privatliv som modsætning til Metas kameraudstyrede briller."
+      ],
+      "section": "Deeptech",
+      "headline": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+      "primarySourceUrl": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+      "subheadline": "Ex-Apple-ingeniører i Shenzhen bygger en 1-milliard-dollar-unicorn på kamerafri AI-briller — og udfordrer Meta med privatliv som salgsargument.",
+      "body": [
+        "Even Realities fra Shenzhen, grundlagt i 2023 af tidligere Apple-ingeniører, er blevet en ny unicorn efter at have rejst 150 mio. dollar i en pre-Series B til en værdiansættelse på 1 mia. dollar. Runden blev ledet af kinesiske Meituan med den tilbagevendende investor Tencent.",
+        "Selskabets satsning er kamerafri briller med waveguide-optik, der viser diskret information i synsfeltet uden konstant optagelse — positioneret som privatlivsalternativ til Metas kameramodeller. Kapitalen skal finansiere næste platformgeneration og AI-integration."
+      ],
+      "whyItMatters": "Kampen om AI'ens fysiske form flytter til ansigtet, og en kinesisk aktør med Apple-DNA og Tencent-Meituan-kapital viser, at Meta ikke får markedet forærende.",
+      "analysis": "At sælge på fravær af kamera er et skarpt væddemål: privatliv bliver et differentieringsparameter, netop som modstanden mod always-on-optagelse vokser — men uden kamera skæres AI-funktioner væk.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/07/Even-G2-and-R1-with-HUD.jpeg?resize=1200,675",
+        "credit": "Foto: Even Realities / TechCrunch",
+        "alt": "Even Realities' kamerafri smart-briller med diskret head-up-display.",
+        "sourceUrl": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/"
+      },
+      "topics": [
+        "deeptech",
+        "venturekapital",
+        "smart-briller",
+        "kina",
+        "ai-hardware"
+      ],
+      "entities": [
+        "Even Realities",
+        "Meituan",
+        "Tencent",
+        "Shenzhen",
+        "Kina",
+        "Meta",
+        "Apple"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 66,
+        "novelty": 74,
+        "sourceQuality": 76,
+        "personalRelevance": 78,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Even Realities (Shenzhen, Kina) rejste 150 mio. dollar i en pre-Series B til en værdiansættelse på 1 mia. dollar, ledet af Meituan med Tencent.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+            "https://siliconangle.com/2026/07/06/smart-glasses-startup-even-realities-raises-150m/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Smart glasses maker Even Realities hits $1B valuation with $150M funding led by Meituan, Tencent",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/06/smart-glasses-maker-even-realities-hits-1b-valuation-with-150m-funding-led-by-meituan-tencent/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Apple veteran's Chinese smart-glasses firm becomes unicorn as Tencent, Meituan fund rival to Meta",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/06/apple-veteran-takes-on-meta-with-1-billion-smart-glasses-maker.html",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Smart glasses startup Even Realities raises $150M",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/06/smart-glasses-startup-even-realities-raises-150m/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-genmab-tepkinly-20260706",
+      "eventKey": "genmab-tepkinly-ec-follicular-2026",
+      "materialFacts": [
+        "EU-Kommissionen godkendte 6. juli 2026 Genmabs TEPKINLY (epcoritamab) i kombination med lenalidomid og rituximab til voksne med recidiverende eller refraktært follikulært lymfom i anden linje.",
+        "Godkendelsen bygger på fase 3-studiet EPCORE FL-1, der viste 79 % reduktion i risiko for sygdomsprogression eller død (HR 0,21; 95 % CI 0,13-0,33; p<0,0001).",
+        "Samlet responsrate var 96 % mod 81 %, og komplet respons 74 % mod 43 %; epcoritamab er udviklet af Genmab (Danmark) sammen med AbbVie (USA)."
+      ],
+      "section": "Biotek",
+      "headline": "Genmab Announces TEPKINLY® (epcoritamab) in Combination with Lenalidomide and Rituximab is Approved by the European Commission for the Treatment of Relapsed or Refractory Follicular Lymphoma",
+      "primarySourceUrl": "https://www.globenewswire.com/news-release/2026/07/06/3322680/0/en/genmab-announces-tepkinly-epcoritamab-in-combination-with-lenalidomide-and-rituximab-is-approved-by-the-european-commission-for-the-treatment-of-relapsed-or-refractory-follicular-l.html",
+      "subheadline": "Københavnske Genmab får endnu en EU-godkendelse til kræftmidlet epcoritamab — denne gang som kemofri kombinationsbehandling mod follikulært lymfom.",
+      "body": [
+        "Genmab fik 6. juli EU-Kommissionens godkendelse af TEPKINLY (epcoritamab) med lenalidomid og rituximab til voksne med recidiverende/refraktært follikulært lymfom i anden linje — ifølge selskabet den første kemofri, bispecifik-baserede mulighed i denne EU-indikation.",
+        "Godkendelsen hviler på fase 3-studiet EPCORE FL-1, hvor kombinationen reducerede risikoen for sygdomsprogression eller død med 79 % (HR 0,21). Den samlede responsrate var 96 % mod 81 %, og 74 % opnåede komplet respons mod 43 %. Midlet er udviklet med amerikanske AbbVie."
+      ],
+      "whyItMatters": "Godkendelsen udvider markedet for Genmabs vigtigste egenudviklede aktiv i Europa og styrker en af Danmarks få biotekvirksomheder i verdensklasse — med en kemofri behandling.",
+      "analysis": "En hazard ratio på 0,21 er usædvanlig stærk og gør epcoritamab til en reel andenlinjestandard. For Genmab flytter det økonomien fra enkeltindikation mod en bredere lymfomfranchise.",
+      "image": {
+        "url": "https://ml-eu.globenewswire.com/Resource/Download/368a5dab-dfc5-4e1d-bfa6-2af5e5216fce",
+        "credit": "Kilde: Genmab",
+        "alt": "Genmabs pressemeddelelse om EU-godkendelsen af TEPKINLY (epcoritamab).",
+        "sourceUrl": "https://www.globenewswire.com/news-release/2026/07/06/3322680/0/en/genmab-announces-tepkinly-epcoritamab-in-combination-with-lenalidomide-and-rituximab-is-approved-by-the-european-commission-for-the-treatment-of-relapsed-or-refractory-follicular-l.html"
+      },
+      "topics": [
+        "biotek",
+        "onkologi",
+        "lymfom",
+        "regulatorisk",
+        "genmab"
+      ],
+      "entities": [
+        "Genmab",
+        "TEPKINLY",
+        "epcoritamab",
+        "EU-Kommissionen",
+        "AbbVie",
+        "København"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 62,
+        "novelty": 64,
+        "sourceQuality": 82,
+        "personalRelevance": 70,
+        "contrast": 46
+      },
+      "claims": [
+        {
+          "text": "EU-Kommissionen godkendte 6. juli 2026 Genmabs epcoritamab i kombination med lenalidomid og rituximab til follikulært lymfom; fase 3 EPCORE FL-1 viste 79 % risikoreduktion (HR 0,21) og 96 % responsrate.",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/07/06/3322680/0/en/genmab-announces-tepkinly-epcoritamab-in-combination-with-lenalidomide-and-rituximab-is-approved-by-the-european-commission-for-the-treatment-of-relapsed-or-refractory-follicular-l.html",
+            "https://ir.genmab.com/news-releases/news-release-details/tepkinlyr-epcoritamab-receives-second-european-commission"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Genmab Announces TEPKINLY® (epcoritamab) in Combination with Lenalidomide and Rituximab is Approved by the European Commission for the Treatment of Relapsed or Refractory Follicular Lymphoma",
+          "publisher": "GlobeNewswire (Genmab A/S)",
+          "url": "https://www.globenewswire.com/news-release/2026/07/06/3322680/0/en/genmab-announces-tepkinly-epcoritamab-in-combination-with-lenalidomide-and-rituximab-is-approved-by-the-european-commission-for-the-treatment-of-relapsed-or-refractory-follicular-l.html",
+          "publishedAt": "2026-07-06T13:59:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "TEPKINLY® (epcoritamab) Receives Second European Commission Approval for the Treatment of Adults with Relapsed/Refractory Follicular Lymphoma",
+          "publisher": "Genmab A/S (Investor Relations)",
+          "url": "https://ir.genmab.com/news-releases/news-release-details/tepkinlyr-epcoritamab-receives-second-european-commission",
+          "publishedAt": "2026-07-06T13:59:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "AbbVie Announces TEPKINLY® (epcoritamab) in Combination with Lenalidomide and Rituximab is Approved by the European Commission for the Treatment of Relapsed or Refractory Follicular Lymphoma",
+          "publisher": "AbbVie (PR Newswire)",
+          "url": "http://www.prnewswire.com/news-releases/abbvie-announces-tepkinly-epcoritamab-in-combination-with-lenalidomide-and-rituximab-is-approved-by-the-european-commission-for-the-treatment-of-relapsed-or-refractory-follicular-lymphoma-302818589.html",
+          "publishedAt": "2026-07-06T13:59:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Epcoritamab Wins EU Approval for Relapsed/Refractory Follicular Lymphoma",
+          "publisher": "OncLive",
+          "url": "https://www.onclive.com/view/epcoritamab-wins-eu-approval-for-relapsed-refractory-follicular-lymphoma",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "European Commission Approves Tepkinly Plus R2 as First Bispecific-Based Therapy for Relapsed or Refractory Follicular Lymphoma",
+          "publisher": "BioPharm International",
+          "url": "https://www.biopharminternational.com/view/european-commission-approves-tepkinly-plus-r2-as-first-bispecific-based-therapy-for-relapsed-or-refractory-follicular-lymphoma",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-drc-ebola-20260706",
+      "eventKey": "drc-ebola-500-deaths-2026",
+      "materialFacts": [
+        "DR Congos 17. ebolaepidemi, erklæret 15. maj 2026 og forårsaget af Bundibugyo-virus, havde pr. 5. juli 2026 1.561 bekræftede tilfælde og 506 bekræftede dødsfald.",
+        "Ituri-provinsen er hårdest ramt; nabolandet Uganda har registreret 20 tilfælde og to dødsfald.",
+        "Der findes ingen godkendt vaccine eller behandling mod stammen; WHO har igangsat et klinisk forsøg med to kandidatbehandlinger, mens sundhedspersonale truer med strejke."
+      ],
+      "section": "Verden",
+      "headline": "Death toll from DR Congo Ebola outbreak passes 500 as healthcare workers threaten strike",
+      "primarySourceUrl": "https://www.france24.com/en/africa/20260706-death-toll-from-dr-congo-ebola-outbreak-passes-500-as-healthcare-workers-threaten-strike",
+      "subheadline": "Dødstallet i DR Congos ebolaudbrud passerer 500 — en sjælden virusstamme uden godkendt vaccine, mens udmattet sundhedspersonale truer med at nedlægge arbejdet.",
+      "body": [
+        "Dødstallet i DR Congos 17. ebolaepidemi er passeret 500: pr. 5. juli 1.561 bekræftede tilfælde og 506 dødsfald. Udbruddet, erklæret 15. maj, skyldes den sjældne Bundibugyo-virus, som der ikke findes godkendt vaccine eller behandling mod. Ituri er hårdest ramt, og Uganda har registreret 20 tilfælde og to dødsfald.",
+        "WHO har igangsat et forsøg med to kandidatbehandlinger og nødgodkendt den første diagnostiske test for stammen. Samtidig truer sundhedspersonale med at strejke."
+      ],
+      "whyItMatters": "En hurtigt voksende epidemi med en vaccineløs virusstamme og strejketruende personale kan tippe fra kontrolleret udbrud til regional krise, med spredningen til Uganda som varsel.",
+      "analysis": "At virussen er Bundibugyo og ikke den velkendte Zaire-stamme er afgørende: eksisterende ebolavacciner virker ikke sikkert her. Responsen hviler derfor på gammeldags inddæmning — mens de, der skal udføre den, mister tålmodigheden.",
+      "image": {
+        "url": "https://s.france24.com/media/display/04765c96-7953-11f1-bd13-005056a90284/w:1280/p:16x9/000-B4QX2ZJ.jpg",
+        "credit": "Foto: AFP / France 24",
+        "alt": "Sundhedsarbejdere under ebolaudbruddet i DR Congo, hvor dødstallet er passeret 500.",
+        "sourceUrl": "https://www.france24.com/en/africa/20260706-death-toll-from-dr-congo-ebola-outbreak-passes-500-as-healthcare-workers-threaten-strike"
+      },
+      "topics": [
+        "sundhed",
+        "ebola",
+        "epidemi",
+        "afrika",
+        "who"
+      ],
+      "entities": [
+        "DR Congo",
+        "Ituri",
+        "Uganda",
+        "WHO",
+        "Bundibugyo-virus"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 48,
+        "novelty": 60,
+        "sourceQuality": 82,
+        "personalRelevance": 30,
+        "contrast": 68
+      },
+      "claims": [
+        {
+          "text": "DR Congos 17. ebolaepidemi (Bundibugyo-virus, ingen godkendt vaccine) havde pr. 5. juli 2026 1.561 bekræftede tilfælde og 506 dødsfald; Uganda har 20 tilfælde og to dødsfald.",
+          "sourceUrls": [
+            "https://www.france24.com/en/africa/20260706-death-toll-from-dr-congo-ebola-outbreak-passes-500-as-healthcare-workers-threaten-strike",
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Death toll from DR Congo Ebola outbreak passes 500 as healthcare workers threaten strike",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/africa/20260706-death-toll-from-dr-congo-ebola-outbreak-passes-500-as-healthcare-workers-threaten-strike",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola death toll in DR Congo surpasses 500",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/6/ebola-death-toll-in-dr-congo-surpasses-500",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo & Uganda",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Ebola deaths top 500 as DR Congo health workers threaten to strike",
+          "publisher": "CIDRAP",
+          "url": "https://www.cidrap.umn.edu/ebola/ebola-deaths-top-500-dr-congo-health-workers-threaten-strike",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-microsoft-xbox-20260706",
+      "eventKey": "microsoft-xbox-layoffs-2026",
+      "materialFacts": [
+        "Microsoft (USA) meddelte 6. juli 2026, at koncernen nedlægger omkring 4.800 stillinger — 2,1 % af den globale arbejdsstyrke — hvor Xbox og kommercielt salg rammes hårdest.",
+        "Xbox skærer cirka 3.200 stillinger dette regnskabsår (ca. 20 % af spildivisionen), heraf omkring 1.600 med det samme, og lukker/frasælger flere studier.",
+        "Xbox-chef Asha Sharma sagde »Our business today is not healthy« og at enheden opererer med marginer 3-10 gange lavere end sammenlignelige platforms- og forlagsforretninger."
+      ],
+      "section": "Erhverv",
+      "headline": "'Our business today is not healthy': 1,600 Xbox employees among the 4,800 laid off by Microsoft as it looks to 'reset' gaming division",
+      "primarySourceUrl": "https://fortune.com/2026/07/06/microsoft-xbox-layoffs-gaming-division-1600-4800-employees/",
+      "subheadline": "Mens rekordkapital strømmer mod AI, fyrer Microsoft 4.800 — og skærer 1.600 i Xbox med en usædvanlig indrømmelse om, at spilforretningen »ikke er sund«.",
+      "body": [
+        "Microsoft nedlægger omkring 4.800 stillinger — 2,1 % af arbejdsstyrken — hvor Xbox og kommercielt salg rammes hårdest. Alene i spildivisionen skæres ca. 3.200 job i år (ca. 20 % af enheden), hvoraf 1.600 straks, mens flere studier lukkes eller frasælges.",
+        "Xbox-chef Asha Sharma kaldte forretningen »ikke sund« og forklarede, at enheden kører med marginer 3-10 gange lavere end sammenlignelige platforms- og forlagsforretninger. Ekskl. Activision Blizzard-opkøbet har divisionen brugt over 20 mia. dollar på indhold og hardware over fem år."
+      ],
+      "whyItMatters": "Nedskæringen står i skarp kontrast til rekordinvesteringerne i AI (se dagens tal): samme koncern, der pumper milliarder i AI-datacentre, tømmer sin spilafdeling.",
+      "analysis": "»Reset« er kode for, at Microsoft prioriterer AI- og cloud-marginer over dyrt Activision-købt gaming-vækst — selv en overskudsgivende gigant skærer for at frigøre kapital til det, der skalerer bedre.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Aerial_Microsoft_West_Campus_August_2009.jpg/960px-Aerial_Microsoft_West_Campus_August_2009.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Luftfoto af Microsofts campus i Redmond, Washington; koncernen nedlægger 4.800 stillinger.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aerial_Microsoft_West_Campus_August_2009.jpg"
+      },
+      "topics": [
+        "erhverv",
+        "teknologi",
+        "gaming",
+        "fyringer",
+        "microsoft"
+      ],
+      "entities": [
+        "Microsoft",
+        "Xbox",
+        "Asha Sharma",
+        "Activision Blizzard",
+        "Redmond"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 58,
+        "novelty": 55,
+        "sourceQuality": 76,
+        "personalRelevance": 52,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Microsoft nedlægger ca. 4.800 stillinger (2,1 % af arbejdsstyrken) 6. juli 2026, heraf ca. 1.600 i Xbox med det samme; Xbox-chef Asha Sharma kaldte forretningen »ikke sund«.",
+          "sourceUrls": [
+            "https://fortune.com/2026/07/06/microsoft-xbox-layoffs-gaming-division-1600-4800-employees/",
+            "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Our business today is not healthy': 1,600 Xbox employees among the 4,800 laid off by Microsoft as it looks to 'reset' gaming division",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/07/06/microsoft-xbox-layoffs-gaming-division-1600-4800-employees/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Resetting Xbox",
+          "publisher": "Xbox Wire (Microsoft)",
+          "url": "https://news.xbox.com/en-us/2026/07/06/resetting-xbox/",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Microsoft cuts 2.1% of employees as Xbox unit plans to spin out studios",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/06/microsoft-cuts-2point1percent-of-employees-as-xbox-unit-plans-to-spin-studios.html",
+          "publishedAt": "2026-07-06T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "White House Nears Voluntary Frontier-Model Deal With Top AI Labs",
+      "url": "https://aiweekly.co/alerts/white-house-nears-voluntary-frontier-model-deal-with-top-ai-labs",
+      "headline": "White House Nears Voluntary Frontier-Model Deal With Top AI Labs",
+      "summary": "USA's regering er tæt på en frivillig aftale med de førende amerikanske AI-laboratorier (OpenAI, Anthropic, Google) om standarder og test før udgivelse af avancerede frontier-modeller, med en designfrist 1. august 2026.",
+      "publisher": "AI Weekly",
+      "section": "Kunstig intelligens",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "text": "Prime Minister Carney announces the preferred supplier for the Canadian Patrol Submarine Project – the largest defence procurement in Canadian history",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/07/06/prime-minister-carney-announces-preferred-supplier-canadian-patrol",
+      "headline": "Prime Minister Carney announces the preferred supplier for the Canadian Patrol Submarine Project – the largest defence procurement in Canadian history",
+      "summary": "Canadas premierminister Mark Carney udpegede tyske thyssenkrupp Marine Systems som foretrukken leverandør af op til 12 ubåde i landets største forsvarsindkøb nogensinde, med Tyskland og Norge som partnere.",
+      "publisher": "Prime Minister of Canada",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "text": "China missile test draws criticism from Australia, New Zealand, Japan",
+      "url": "https://www.aljazeera.com/news/2026/7/6/china-missile-test-draws-criticism-from-australia-new-zealand-japan",
+      "headline": "China missile test draws criticism from Australia, New Zealand, Japan",
+      "summary": "Kinas testaffyring 6. juli af et langtrækkende ballistisk missil fra en atomubåd i Stillehavet vakte kritik fra Australien, New Zealand, Japan og USA; Beijing kaldte det en rutinemæssig militærøvelse.",
+      "publisher": "Al Jazeera",
+      "section": "Sikkerhed",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "text": "Russia's missile and drone attacks on Ukraine kill at least 22 in the Kyiv region",
+      "url": "https://www.pbs.org/newshour/world/russias-missile-and-drone-attacks-on-ukraine-kill-at-least-22-in-the-kyiv-region",
+      "headline": "Russia's missile and drone attacks on Ukraine kill at least 22 in the Kyiv region",
+      "summary": "Ruslands angreb med 351 droner og 68 missiler mod Ukraine dræbte mindst 22 mennesker i Kyiv-regionen den 6. juli — den anden store beskydning af hovedstaden på under en uge.",
+      "publisher": "PBS News",
+      "section": "Ukraine",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "text": "[Ad hoc announcement pursuant to Art. 53 LR] Roche's divarasib shows superiority in head-to-head phase III trial against approved KRAS G12C inhibitors in non-small cell lung cancer",
+      "url": "https://www.globenewswire.com/news-release/2026/07/02/3321087/0/en/Ad-hoc-announcement-pursuant-to-Art-53-LR-Roche-s-divarasib-shows-superiority-in-head-to-head-phase-III-trial-against-approved-KRAS-G12C-inhibitors-in-non-small-cell-lung-cancer.html",
+      "headline": "[Ad hoc announcement pursuant to Art. 53 LR] Roche's divarasib shows superiority in head-to-head phase III trial against approved KRAS G12C inhibitors in non-small cell lung cancer",
+      "summary": "Schweiziske Roche meddelte, at lægemidlet divarasib i et fase III-hovedstudie viste overlegenhed over allerede godkendte KRAS G12C-hæmmere ved ikke-småcellet lungekræft — det første direkte sammenlignende studie i klassen.",
+      "publisher": "F. Hoffmann-La Roche",
+      "section": "Biotek",
+      "publishedAt": "2026-07-02T00:00:00Z"
+    },
+    {
+      "text": "Vertex Announces US FDA Approval for Expanded Use of CASGEVY® for the Treatment of People Ages 2 Years and Older With Sickle Cell Disease or Transfusion-Dependent Beta Thalassemia",
+      "url": "https://news.vrtx.com/news-releases/news-release-details/vertex-announces-us-fda-approval-expanded-use-casgevyr-treatment",
+      "headline": "Vertex Announces US FDA Approval for Expanded Use of CASGEVY® for the Treatment of People Ages 2 Years and Older With Sickle Cell Disease or Transfusion-Dependent Beta Thalassemia",
+      "summary": "USA's FDA godkendte en udvidet brug af Vertex' CRISPR-genterapi CASGEVY til børn fra 2 år med seglcelleanæmi eller transfusionsafhængig beta-thalassæmi, hvilket gør ca. 5.500 flere børn berettigede.",
+      "publisher": "Vertex Pharmaceuticals",
+      "section": "Biotek",
+      "publishedAt": "2026-07-01T00:00:00Z"
+    },
+    {
+      "text": "NASA Webb Uncovers Unusual Galaxy Shaped by Cosmic Collision",
+      "url": "https://science.nasa.gov/missions/webb/nasa-webb-uncovers-unusual-galaxy-shaped-by-cosmic-collision/",
+      "headline": "NASA Webb Uncovers Unusual Galaxy Shaped by Cosmic Collision",
+      "summary": "NASA og ESA offentliggjorde nye James Webb-observationer af galaksen Centaurus A, der viser, hvordan en kosmisk kollision for ca. to milliarder år siden formede galaksens usædvanlige støvstrukturer.",
+      "publisher": "NASA Science",
+      "section": "Rumfart",
+      "publishedAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "text": "Osaka beats Sabalenka for first time in eight years, reaches first Wimbledon quarterfinal",
+      "url": "https://www.wtatennis.com/news/4531077/osaka-beats-sabalenka-for-first-time-in-eight-years-reaches-first-wimbledon-quarterfinal",
+      "headline": "Osaka beats Sabalenka for first time in eight years, reaches first Wimbledon quarterfinal",
+      "summary": "Japans Naomi Osaka besejrede for første gang i otte år verdensetteren Aryna Sabalenka 6-2, 7-6 og nåede sin første Wimbledon-kvartfinale — den første japanske kvinde i en Wimbledon-kvartfinale siden 2004.",
+      "publisher": "WTA",
+      "section": "Sport",
+      "publishedAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "text": "Thousands swarm the streets of Tirana in major 'Pink Flamingo' anti-government protests",
+      "url": "https://www.euronews.com/my-europe/2026/07/05/thousands-swarm-the-streets-of-tirana-in-major-pink-flamingo-anti-government-protests",
+      "headline": "Thousands swarm the streets of Tirana in major 'Pink Flamingo' anti-government protests",
+      "summary": "I Albaniens hovedstad Tirana demonstrerede titusinder i de såkaldte 'Pink Flamingo'-protester mod premierminister Edi Rama og et luksusresortprojekt knyttet til Ivanka Trump og Jared Kushner — bevægelsens største demonstration hidtil.",
+      "publisher": "Euronews",
+      "section": "Verden",
+      "publishedAt": "2026-07-05T00:00:00Z"
+    },
+    {
+      "text": "Ørsted advarer mod byggeriet af Microsofts datacenter: Olieledning løber gennem området",
+      "url": "https://ing.dk/artikel/oersted-advarer-mod-byggeriet-af-microsofts-datacenter-olieledning-loeber-gennem-omraadet",
+      "headline": "Ørsted advarer mod byggeriet af Microsofts datacenter: Olieledning løber gennem området",
+      "summary": "Ørsted advarer mod Microsofts planlagte datacenter i Varde-området, fordi en Ørsted-drevet olieledning løber gennem grunden og kan give risiko for spændinger og korrosion; kommunen kræver kompensation af Microsoft.",
+      "publisher": "Ingeniøren",
+      "section": "Energi",
+      "publishedAt": "2026-07-07T00:00:00Z"
+    },
+    {
+      "text": "Danish climate VC Climentum Capital launches Fund II with €60 million first close",
+      "url": "https://www.eu-startups.com/2026/07/danish-climate-vc-climentum-capital-launches-fund-ii-with-e60-million-first-close/",
+      "headline": "Danish climate VC Climentum Capital launches Fund II with €60 million first close",
+      "summary": "Den københavnske klima-venturefond Climentum Capital lukkede et første close på 60 mio. euro af Fund II (mål: 100 mio.), med 40 mio. fra EIF, 15 mio. fra danske EIFO og 5 mio. fra IDA, til europæisk klima-hardtech.",
+      "publisher": "EU-Startups",
+      "section": "Venturekapital",
+      "publishedAt": "2026-07-03T00:00:00Z"
+    }
+  ],
+  "keyNumber": {
+    "label": "Global venturefinansiering satte rekord med 510 mia. dollar i første halvår 2026",
+    "value": "510",
+    "unit": "mia. USD",
+    "asOf": "1. halvår 2026",
+    "caption": "Mere end hele 2025 (440 mia.); OpenAI og Anthropic lagde beslag på 217 mia. (43 %), og ca. 70 % af Q2-kapitalen gik til AI — samme uge som Microsoft skærer 4.800 job.",
+    "sourceUrl": "https://news.crunchbase.com/venture/global-startup-exits-ipo-ma-soar-ai-q2-h1-2026/",
+    "sourceTitle": "Crunchbase Data: Global Startup Investment Hit Record $510B In H1 2026 As AI Boom Accelerates Funding And Exits",
+    "series": [
+      {
+        "label": "2025 (helår)",
+        "value": 440
+      },
+      {
+        "label": "H1 2026",
+        "value": 510
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-world-eaters-20260707",
+      "mode": "read",
+      "kind": "bog (sagprosa)",
+      "status": "available",
+      "title": "World Eaters: How Venture Capital Is Cannibalizing the Economy",
+      "creator": "Catherine Bracy",
+      "provider": "Dutton (Penguin Random House)",
+      "url": "https://www.penguinrandomhouse.com/books/723091/world-eaters-by-catherine-bracy/",
+      "availability": "Udgivet; fås som hardcover (~30 USD), e-bog og lydbog, bredt distribueret globalt. Ingen betalingsmur på forlagssiden.",
+      "commitment": "272 sider (~6-7 t)",
+      "description": "Civilteknolog Catherine Bracy argumenterer for, at venturekapitalens model — blitzscaling, power-law-væddemål, tvungne exits — er strukturelt forkert for de fleste startups og nu spreder sine incitamenter til sundhed, fødevarer, arbejde og boliger. Bygget på interviews med stiftere, fondsforvaltere og gig-arbejdere.",
+      "rationale": "En sjælden indefra-kritik af netop den maskine, Alexander arbejder i på EIFO. Den giver det stærkeste steel man-argument mod power-law-tesen — brugbart til at trykprøve fondens mandat og se, hvor VC-logikken fejlallokerer kapital i de sektorer, han screener. Provokation, ikke bekræftelse.",
+      "topics": [
+        "venturekapital",
+        "fonde",
+        "teknologiøkonomi",
+        "startup-incitamenter",
+        "kritik"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://images2.penguinrandomhouse.com/cover/9780593473481",
+        "credit": "Omslag: Dutton / Penguin Random House",
+        "alt": "Bogomslag: World Eaters af Catherine Bracy.",
+        "sourceUrl": "https://www.penguinrandomhouse.com/books/723091/world-eaters-by-catherine-bracy/"
+      }
+    },
+    {
+      "id": "rec-dwarkesh-3b1b-20260707",
+      "mode": "listen",
+      "kind": "podcastinterview",
+      "status": "new",
+      "title": "Grant Sanderson (3Blue1Brown) – AI and the future of math",
+      "creator": "Dwarkesh Patel & Grant Sanderson",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.youtube.com/watch?v=TfyPshgMbug",
+      "availability": "Gratis på YouTube, Spotify og Apple Podcasts; fuld transskription på dwarkesh.com. Ingen regionslås.",
+      "commitment": "~93 min",
+      "description": "Dwarkesh Patel og 3Blue1Browns Grant Sanderson gennemgår, hvorfor AI's fremskridt i matematik er ujævne: IMO-geometri løses på sekunder, mens kombinatorik fejler. De hævder, at det reelle mål ikke er bevisførelse, men at generere formodninger og definitioner — og hvad det betyder for automatisering af vidensarbejde.",
+      "rationale": "For en analytiker, der forudser AI's rækkevidde, er matematik det reneste tidlige signal for, hvor automatisering af ekspertræsonnement lander først. Sandersons pointe om, at en IMO-guldmedalje ikke var et AGI-øjeblik, giver en konkret, ikke-hypet model til at score AI-evner opgave for opgave frem for på overskrifter.",
+      "topics": [
+        "ai",
+        "matematik",
+        "agi-tidslinjer",
+        "automatisering",
+        "evaluering"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-dear-tomorrow-20260707",
+      "mode": "watch",
+      "kind": "dokumentar",
+      "status": "new",
+      "title": "Dear Tomorrow: Inside Japan's Loneliness Crisis",
+      "creator": "Kaspar Astrup Schrøder",
+      "provider": "Al Jazeera (Witness)",
+      "url": "https://www.aljazeera.com/video/witness/2026/2/8/dear-tomorrow-inside-japans-loneliness-crisis",
+      "availability": "Gratis at streame nu på Al Jazeera Witness — ingen betalingsmur, ingen regionslås.",
+      "commitment": "~47 min",
+      "description": "Den danske instruktør Kaspar Astrup Schrøder følger to isolerede mennesker i Japan, der søger kontakt og mening via en frivilligdrevet online-chattjeneste for mental sundhed, 'A Place for You'. 47 minutters Al Jazeera Witness-dokumentar fra februar 2026.",
+      "rationale": "En dansk filmskabers blik på ensomhedsepidemien og teknologimedieret nærvær — midt i Alexanders interesse for psykologi, relationer og menneskelig adfærd, og en nyttig modvægt til teknologioptimismen om AI-ledsagelse. Gratis, kort og direkte tilgængelig: høj signalværdi per minut.",
+      "topics": [
+        "ensomhed",
+        "psykologi",
+        "japan",
+        "mental sundhed",
+        "digital kontakt"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-turrell-aros-20260707",
+      "mode": "experience",
+      "kind": "kunstinstallation / immersiv oplevelse",
+      "status": "new",
+      "title": "As Seen Below – The Dome: a Skyspace by James Turrell",
+      "creator": "James Turrell",
+      "provider": "ARoS Aarhus Kunstmuseum",
+      "url": "https://www.aros.dk/en/aros-collection/as-seen-below-the-dome-a-skyspace-by-james-turrell/",
+      "availability": "Åben nu; indgår i almindelig ARoS-entré. Twilight-tilstand ved solop-/nedgang kræver forudbestilling. I Aarhus — dagstur fra København.",
+      "commitment": "45-90 min på stedet",
+      "description": "Turrells 100. og hidtil største museums-Skyspace: et 16 meter højt, 40 meter bredt underjordisk kuppelrum med en åbning mod himlen, åbnet 19. juni 2026. Tilstande omfatter Open Sky, timevis Colour Shift (maj-aug) og reservationskrævende Twilight, hvor det indre lys skifter i takt med solen.",
+      "rationale": "En sjælden mulighed i Danmark for at opleve selve sansningen som medie — Turrell fjerner referencepunkter, til himlen læses som ren farve. En bevidst modvægt til skærmbaseret AI: for en, der interesserer sig for perceptionspsykologi og æstetik, er en time her et direkte studie i, hvordan syn konstrueres.",
+      "topics": [
+        "perception",
+        "lyskunst",
+        "fænomenologi",
+        "arkitektur",
+        "kontemplation"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 86,
+    "sourceQuality": 88,
+    "outsideProfile": 84,
+    "diversity": 87,
+    "novelty": 82
+  }
+}
