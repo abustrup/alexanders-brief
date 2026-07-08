@@ -1,0 +1,1040 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-08-daily-v1",
+  "date": "2026-07-08",
+  "generatedAt": "2026-07-08T04:10:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "USA rammer over 80 mål i Iran efter angreb på tre tankskibe i Hormuz — og trækker olieaftalen tilbage. Samtidig lander Proxima Europas største fusionsrunde med Google i ryggen, Kinas DeepSeek bygger sin egen AI-chip, og NATO-topmødet i Ankara omsætter oprustningen til konkrete indkøb med Danmark helt fremme. Vertex køber Crinetics for 10 mia. dollar, Le Pen stiller op trods stadfæstet dom, SpaceX presser sig ind i Nasdaq-100, og Cubas elnet kollapser igen.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "us-strikes-iran-strait-of-hormuz-july-2026-story",
+      "eventKey": "us-strikes-iran-strait-of-hormuz-july-2026",
+      "materialFacts": [
+        "US struck more than 80 Iranian targets overnight (air defenses, radar sites, anti-ship missile sites)",
+        "The strikes hit more than 60 small boats/vessels belonging to Iran's Revolutionary Guard (IRGC)",
+        "Three commercial tankers came under attack in the Strait of Hormuz on July 7, 2026",
+        "A Qatari LNG tanker (the Al-Rekayat) was struck and suffered a fire in its engine room"
+      ],
+      "section": "Geopolitik",
+      "headline": "U.S.-Iran Updates: U.S. hits dozens of Iranian targets in retaliatory strikes after ship attacks in Strait of Hormuz",
+      "primarySourceUrl": "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/",
+      "subheadline": "USA rammer over 80 mål i Iran efter angreb på tre tankskibe i Hormuz-strædet — og trækker olieaftalen tilbage.",
+      "body": [
+        "USA indledte natten til tirsdag omfattende angreb mod mere end 80 mål i Iran — luftforsvar, radaranlæg og anti-skibsmissilstillinger — efter at tre handelsskibe blev ramt i Hormuz-strædet. Blandt målene var over 60 småfartøjer tilhørende Revolutionsgarden (IRGC), oplyser det amerikanske militær.",
+        "Angrebene fulgte et døgn, hvor et qatarsk LNG-tankskib, Al-Rekayat, fik brand i maskinrummet, og et Saudi-flaget råolietankskib, Wedyan, blev beskadiget. Kort forinden tilbagekaldte Washington licensen, der siden juni-aftalen havde tilladt iransk oliesalg. Irans viceudenrigsminister kaldte angrebene »en åbenlys krænkelse«."
+      ],
+      "whyItMatters": "Hormuz er verdens vigtigste olie-flaskehals: omkring en femtedel af al søtransporteret olie og LNG passerer strædet. At både skibe og militære mål rammes samme døgn, er en optrapning af krigen, USA og Iran har ført siden 28. februar — og for en importafhængig økonomi som den danske slår højere energipriser hurtigt igennem.",
+      "analysis": "Kombinationen af angreb og tilbagekaldt oliewaiver signalerer, at juni-våbenhvilen reelt er brudt. Meget afhænger nu af, om Iran forsøger at lukke strædet — hvad der ville løfte oliepriserne markant — eller nøjes med retorisk gengældelse.",
+      "topics": [
+        "geopolitik",
+        "energi",
+        "olie",
+        "skibsfart",
+        "usa",
+        "iran"
+      ],
+      "entities": [
+        "USA",
+        "Iran",
+        "Revolutionsgarden (IRGC)",
+        "Kazem Gharibabadi",
+        "Qatar",
+        "Saudi-Arabien",
+        "Hormuz-strædet"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 95,
+        "decisionValue": 88,
+        "novelty": 78,
+        "sourceQuality": 84,
+        "personalRelevance": 60,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "U.S.-Iran Updates: U.S. hits dozens of Iranian targets in retaliatory strikes after ship attacks in Strait of Hormuz",
+          "sourceUrls": [
+            "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "US struck more than 80 Iranian targets overnight (air defenses, radar sites, anti-ship missile sites)",
+          "sourceUrls": [
+            "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The strikes hit more than 60 small boats/vessels belonging to Iran's Revolutionary Guard (IRGC)",
+          "sourceUrls": [
+            "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "U.S.-Iran Updates: U.S. hits dozens of Iranian targets in retaliatory strikes after ship attacks in Strait of Hormuz",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/",
+          "publishedAt": "2026-07-07T23:34:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "USA: Vi har indledt kraftfulde angreb mod Iran",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/usa-vi-udfoerer-kraftige-angreb-mod-iran",
+          "publishedAt": "2026-07-07T21:39:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "U.S. launches dozens of strikes against Iran, citing attacks on commercial ships",
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/07/07/tanker-fire-after-being-struck-strait-hormuz-british-military-says/",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/07/07/691ca6ed-bb34-414b-bd18-71141efbb9a0/thumbnail/620x452/9f598bd9ee5368bef35495cee61dd510/trump-erdogan-2284510135.jpg",
+        "credit": "CBS News",
+        "alt": "U.S. President Donald Trump, whose administration ordered the retaliatory strikes on Iran, pictured with Turkish President Recep Tayyip Erdogan",
+        "sourceUrl": "https://www.cbsnews.com/live-updates/iran-us-war-strait-of-hormuz-trump-nato/"
+      }
+    },
+    {
+      "id": "proxima-fusion-411m-story",
+      "eventKey": "proxima-fusion-411m",
+      "materialFacts": [
+        "Round amount is €411 million",
+        "Valuation is €2.4 billion (approx. $2.7 billion)",
+        "Largest European private fusion round on record",
+        "Google's first European fusion investment"
+      ],
+      "section": "Deeptech",
+      "headline": "Google backs Proxima Fusion in €411m raise",
+      "primarySourceUrl": "https://sifted.eu/articles/google-proxima-fusion-411m-raise",
+      "subheadline": "Den tyske fusionsstartup lander Europas største private fusionsrunde — og Googles første europæiske fusionsvæddemål.",
+      "body": [
+        "Tyske Proxima Fusion har rejst 411 mio. euro — den største private fusionsrunde i Europa til dato. Runden løfter værdien til 2,4 mia. euro og er Googles første investering i europæisk fusionsenergi.",
+        "Runden blev ledet af XTX Ventures (Storbritannien) og East X Ventures, med RWE, KfW Capital, det statslige SPRIND — alle tyske — og Google blandt investorerne. Proxima udspringer af Max Planck-instituttet, ligger i München og satser på en stellarator-tilgang."
+      ],
+      "whyItMatters": "Fusion er gået fra laboratoriedrøm til kapitalvæddeløb. En runde med både industriel (RWE) og statslig (SPRIND, KfW) medfinansiering viser, at europæisk deeptech kan tiltrække kapital i den skala, kommerciel fusion kræver.",
+      "analysis": "Pointen er ikke, at fusion er løst, men at Europa nu har en kontinental kandidat — og Googles indtræden signalerer, at amerikansk kapital ser europæisk fusion som investerbar.",
+      "topics": [
+        "deeptech",
+        "fusionsenergi",
+        "venturekapital",
+        "teknologisk suverænitet",
+        "energi",
+        "europa"
+      ],
+      "entities": [
+        "Proxima Fusion",
+        "Google",
+        "RWE",
+        "KfW Capital",
+        "SPRIND",
+        "XTX Ventures",
+        "Tyskland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 80,
+        "novelty": 84,
+        "sourceQuality": 86,
+        "personalRelevance": 90,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Google backs Proxima Fusion in €411m raise",
+          "sourceUrls": [
+            "https://sifted.eu/articles/google-proxima-fusion-411m-raise"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Round amount is €411 million",
+          "sourceUrls": [
+            "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Valuation is €2.4 billion (approx. $2.7 billion)",
+          "sourceUrls": [
+            "https://www.businesswire.com/news/home/20260707899566/en/Proxima-Fusion-Raises-%E2%82%AC411-Million-at-a-%E2%82%AC2.4B-Valuation-to-Build-Europes-Commercial-Fusion-Champion"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google backs Proxima Fusion in €411m raise",
+          "publisher": "Sifted",
+          "url": "https://sifted.eu/articles/google-proxima-fusion-411m-raise",
+          "publishedAt": "2026-07-07T06:05:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Proxima Fusion Raises €411 Million at a €2.4B Valuation to Build Europe's Commercial Fusion Champion",
+          "publisher": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20260707899566/en/Proxima-Fusion-Raises-%E2%82%AC411-Million-at-a-%E2%82%AC2.4B-Valuation-to-Build-Europes-Commercial-Fusion-Champion",
+          "publishedAt": "2026-07-07T06:05:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Proxima Fusion Raises €411 Million to Build Europe's Commercial Fusion Champion",
+          "publisher": "Proxima Fusion",
+          "url": "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
+          "publishedAt": "2026-07-07T06:05:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://images.sifted.eu/wp-content/uploads/2024/12/16135651/Proxima-CEO-Francesco-Sciortino-e1767356934427.jpg?w=1740&h=1400&q=75&fit=crop&auto=compress,format",
+        "credit": "Sifted",
+        "alt": "Proxima Fusion co-founder and CEO Francesco Sciortino",
+        "sourceUrl": "https://sifted.eu/articles/google-proxima-fusion-411m-raise"
+      },
+      "primaryExcerpt": {
+        "quote": "Europe is racing with the United States and China to get to the first fusion power plant. Proxima's financing demonstrates that Europe can not only invent breakthrough technologies, but also build globally competitive companies around them.",
+        "sourceUrl": "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu411-million-to-build-europes-commercial-fusion-champion",
+        "sourceTitle": "Proxima Fusion Raises €411 Million to Build Europe's Commercial Fusion Champion"
+      }
+    },
+    {
+      "id": "deepseek-in-house-ai-chip-july-2026-story",
+      "eventKey": "deepseek-in-house-ai-chip-july-2026",
+      "materialFacts": [
+        "The chip DeepSeek is developing is designed for inference (running trained models) rather than for training new models.",
+        "DeepSeek is Hangzhou-based.",
+        "The in-house chip could reduce DeepSeek's reliance on Nvidia and Huawei chips.",
+        "The effort remains at an early stage, with DeepSeek reaching out to external partners (chip-design, foundry and memory firms)."
+      ],
+      "section": "Teknologi",
+      "headline": "Exclusive-China's DeepSeek developing its own AI chip, sources say",
+      "primarySourceUrl": "https://kelo.com/2026/07/07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say/",
+      "subheadline": "Reuters: Kinas DeepSeek udvikler sin egen inferens-chip for at mindske afhængigheden af Nvidia og Huawei.",
+      "body": [
+        "Kinesiske DeepSeek udvikler sin egen AI-chip, skriver Reuters. Chippen er designet til inferens — at køre færdigtrænede modeller — ikke til træning, og målet er at mindske afhængigheden af Nvidia og Huawei.",
+        "Arbejdet er tidligt: DeepSeek er i dialog med chipdesign-, støberi- og hukommelsesfirmaer og har ansat flere chipdesignere. Det sker, samtidig med at Hangzhou-selskabet efter planen rejser sin første eksterne kapital på cirka 7 mia. dollar til en værdi på 52-59 mia. dollar."
+      ],
+      "whyItMatters": "For DeepSeek er egen silicium et forsøg på at slippe fri af amerikanske eksportrestriktioner og Nvidias priser — samme vertikale integration nu på den kinesiske side.",
+      "analysis": "En inferens-chip er lettere at bygge end en trænings-chip, så ambitionen er realistisk, men usikker: kinesisk produktion er stadig bundet af SMIC's kapacitet. Lykkes det, bliver Kina mindre sårbar over for at få lukket for Nvidia.",
+      "topics": [
+        "ai",
+        "halvledere",
+        "teknologisk suverænitet",
+        "kina",
+        "nvidia"
+      ],
+      "entities": [
+        "DeepSeek",
+        "Nvidia",
+        "Huawei",
+        "Reuters",
+        "SMIC",
+        "Kina"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 82,
+        "novelty": 86,
+        "sourceQuality": 82,
+        "personalRelevance": 92,
+        "contrast": 74
+      },
+      "claims": [
+        {
+          "text": "Exclusive-China's DeepSeek developing its own AI chip, sources say",
+          "sourceUrls": [
+            "https://kelo.com/2026/07/07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The chip DeepSeek is developing is designed for inference (running trained models) rather than for training new models.",
+          "sourceUrls": [
+            "https://kelo.com/2026/07/07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "DeepSeek is Hangzhou-based.",
+          "sourceUrls": [
+            "https://kelo.com/2026/07/07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Exclusive-China's DeepSeek developing its own AI chip, sources say",
+          "publisher": "Reuters (via KELO-AM)",
+          "url": "https://kelo.com/2026/07/07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say/",
+          "publishedAt": "2026-07-07T10:34:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "DeepSeek's AI chip plans",
+          "publisher": "Semafor",
+          "url": "https://www.semafor.com/article/07/07/2026/deepseeks-ai-chip-plans",
+          "publishedAt": "2026-07-07T23:38:00.000Z",
+          "kind": "analysis"
+        },
+        {
+          "title": "Chinese AI Startup DeepSeek Developing Own AI Chip, Reuters Says",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-07/chinese-ai-startup-deepseek-developing-own-ai-chip-reuters-says",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-07/07/2026-07-07T103437Z_2_LYNXMPEM660IJ_RTROPTP_3_DEEPSEEK-CHINA.JPG",
+        "credit": "Reuters",
+        "alt": "The DeepSeek logo, representing the Hangzhou-based Chinese AI startup now developing its own inference chip.",
+        "sourceUrl": "https://kelo.com/2026/07/07/exclusive-chinas-deepseek-developing-its-own-ai-chip-sources-say/"
+      }
+    },
+    {
+      "id": "nato-ankara-summit-procurement-july-2026-story",
+      "eventKey": "nato-ankara-summit-procurement-july-2026",
+      "materialFacts": [
+        "Tens of billions of euros in new NATO procurements revealed at the Ankara NATO Summit Defence Industry Forum (NSDIF)",
+        "A counter-drone push of about $40 billion at the summit",
+        "A PAC-3 MSE missile-maintenance facility in Europe signed by the US, Poland, Germany, Netherlands and Sweden",
+        "Nine EU states pressing to use a €90bn package for US air-defence missiles for Ukraine"
+      ],
+      "section": "Forsvar",
+      "headline": "Tens of billions in new procurements revealed at the NATO Summit Defence Industry Forum in Ankara",
+      "primarySourceUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
+      "subheadline": "Ankara-topmødet omsætter oprustningen til konkrete indkøb — med Danmark blandt de mest fremskudte lande.",
+      "body": [
+        "På NATO's forsvarsindustri-forum i Ankara blev der afsløret indkøb for titusindvis af milliarder: et tiende A330 MRTT-tankfly, Triton-droner og Saab GlobalEye-varslingsfly. NATO søsatte samtidig »Drone Edge«, en flerårig satsning på både offensive droner og moddrone-systemer.",
+        "Fem lande — USA, Polen, Tyskland, Holland og Sverige — aftalte et europæisk vedligeholdelsesanlæg for PAC-3-missiler. Og ni EU-lande, heriblandt Danmark, pressede på for at bruge forsvarspakken på 90 mia. euro til amerikansk luftforsvar til Ukraine."
+      ],
+      "whyItMatters": "Danmark meldte allerede i juni at have nået NATO's 5 %-mål ni år før tid, og Mette Frederiksen indgik 7. juli en droneaftale med Ukraine. Ankara viser, hvordan forpligtelserne bliver til en konkret indkøbspipeline.",
+      "analysis": "Detaljerne binder europæisk kapacitet sammen og reducerer dobbeltindkøb; for danske forsvarsleverandører er efterspørgslen nu struktureret og langsigtet.",
+      "topics": [
+        "forsvar",
+        "nato",
+        "indkøb",
+        "teknologisk suverænitet",
+        "ukraine",
+        "danmark"
+      ],
+      "entities": [
+        "NATO",
+        "Mark Rutte",
+        "Danmark",
+        "Ukraine",
+        "Polen",
+        "Tyskland",
+        "Holland",
+        "Sverige",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 80,
+        "novelty": 70,
+        "sourceQuality": 88,
+        "personalRelevance": 84,
+        "contrast": 56
+      },
+      "claims": [
+        {
+          "text": "Tens of billions in new procurements revealed at the NATO Summit Defence Industry Forum in Ankara",
+          "sourceUrls": [
+            "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Tens of billions of euros in new NATO procurements revealed at the Ankara NATO Summit Defence Industry Forum (NSDIF)",
+          "sourceUrls": [
+            "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "A counter-drone push of about $40 billion at the summit",
+          "sourceUrls": [
+            "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tens of billions in new procurements revealed at the NATO Summit Defence Industry Forum in Ankara",
+          "publisher": "NATO",
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Five NATO Members Sign Historic Deal to Build Patriot PAC-3 Missile Facility in Europe",
+          "publisher": "UNITED24 Media",
+          "url": "https://united24media.com/world/five-nato-members-sign-historic-deal-to-build-patriot-pac-3-missile-facility-in-europe-20541",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nine EU Countries Push to Fund Patriot Missiles for Ukraine Using €90 Billion Defense Package",
+          "publisher": "UNITED24 Media",
+          "url": "https://united24media.com/war-in-ukraine/nine-eu-countries-push-to-fund-patriot-missiles-for-ukraine-using-eur90-billion-defense-package-20534",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Forsvarsminister: Danmark har nået Natos målsætning",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/forsvarsminister-danmark-har-naaet-natos-maalsaetning",
+          "publishedAt": "2026-06-22T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Frederiksen efter aftale med Zelenskyj: Ukraine er afgørende for Europas forsvar",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/frederiksen-efter-aftale-med-zelenskyj-ukraine-er-afgoerende-europas-forsvar",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.nato.int/content/dam/nato/webready/news/2020-2029/2026/07/07/summit-nsdif/summit-nsdif-reveal/20260707_summit-nsdif-reveal_0027.jpg",
+        "credit": "NATO",
+        "alt": "NATO Secretary General Mark Rutte speaking at the NATO Summit Defence Industry Forum in Ankara, 7 July 2026",
+        "sourceUrl": "https://www.nato.int/en/news-and-events/articles/news/2026/07/07/tens-of-billions-in-new-procurements-revealed-at-the-nato-summit-defence-industry-forum-in-ankara"
+      }
+    },
+    {
+      "id": "vertex-crinetics-10b-acquisition-story",
+      "eventKey": "vertex-crinetics-10b-acquisition",
+      "materialFacts": [
+        "Vertex will acquire Crinetics for approximately $10 billion (about $10.0 billion total equity value)",
+        "The price is $85.00 per share in cash",
+        "Crinetics is a San Diego, California-based endocrinology biotech",
+        "Vertex is headquartered in Boston, Massachusetts"
+      ],
+      "section": "Biotek",
+      "headline": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+      "primarySourceUrl": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/",
+      "subheadline": "Vertex køber Crinetics for cirka 10 mia. dollar og rykker for alvor ind i endokrine sygdomme.",
+      "body": [
+        "Amerikanske Vertex Pharmaceuticals opkøber biotekselskabet Crinetics for omkring 10 mia. dollar kontant. Handlen giver Vertex et kommercielt fodfæste i endokrinologi — hormonsygdomme — anført af Crinetics' middel mod akromegali, paltusotin (Palsonify).",
+        "Vertex, med hovedkvarter i Boston, har bygget sin forretning på cystisk fibrose og søger nye vækstben; San Diego-baserede Crinetics leverer et sent-fase produkt og en pipeline inden for endokrine lidelser."
+      ],
+      "whyItMatters": "Opkøbet er en af årets største biotekhandler og et signal om, at kontantstærke lægemiddelvirksomheder igen betaler dyrt for kommercielt nære aktiver frem for tidlig forskning. For life science peger det på fornyet M&A-aktivitet efter en afdæmpet periode.",
+      "analysis": "Prisen afspejler, at Vertex køber diversificering væk fra cystisk fibrose, hvor selskabet er dominerende, men eksponeret — en satsning på, at endokrinologi kan blive næste søjle.",
+      "topics": [
+        "biotek",
+        "opkøb",
+        "life science",
+        "endokrinologi",
+        "pharma"
+      ],
+      "entities": [
+        "Vertex Pharmaceuticals",
+        "Crinetics Pharmaceuticals",
+        "Palsonify",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 74,
+        "novelty": 70,
+        "sourceQuality": 86,
+        "personalRelevance": 66,
+        "contrast": 56
+      },
+      "claims": [
+        {
+          "text": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+          "sourceUrls": [
+            "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Vertex will acquire Crinetics for approximately $10 billion (about $10.0 billion total equity value)",
+          "sourceUrls": [
+            "https://www.businesswire.com/news/home/20260706876183/en/Vertex-to-Acquire-Crinetics-Pharmaceuticals"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The price is $85.00 per share in cash",
+          "sourceUrls": [
+            "https://www.businesswire.com/news/home/20260706876183/en/Vertex-to-Acquire-Crinetics-Pharmaceuticals"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vertex to acquire Crinetics in $10B foray into endocrine disease drugs",
+          "publisher": "BioPharma Dive",
+          "url": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/",
+          "publishedAt": "2026-07-07T04:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Vertex to Acquire Crinetics Pharmaceuticals",
+          "publisher": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20260706876183/en/Vertex-to-Acquire-Crinetics-Pharmaceuticals",
+          "publishedAt": "2026-07-06T04:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Vertex acquires Crinetics Pharmaceuticals for $10 billion as biotech M&A soars",
+          "publisher": "STAT News",
+          "url": "https://www.statnews.com/2026/07/06/vertex-acquires-crinetics-pharmaceuticals/",
+          "publishedAt": "2026-07-06T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://imgproxy.divecdn.com/T_Dqg_ao4ZOp7sG4bVsnOayf_6_ovjmGbIaDBFkuCjU/g:ce/rs:fill:1200:675:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9TY3JlZW5zaG90XzIwMjUtMTAtMDhfMTEwMjIyLnBuZw==.webp",
+        "credit": "BioPharma Dive",
+        "alt": "Logo and branding for Vertex Pharmaceuticals, which agreed to acquire endocrinology biotech Crinetics for about $10 billion",
+        "sourceUrl": "https://www.biopharmadive.com/news/vertex-crinetics-acquire-deal-palsonify-acromegaly/824545/"
+      }
+    },
+    {
+      "id": "marine-le-pen-2027-candidacy-appeal-conviction-july-2026-story",
+      "eventKey": "marine-le-pen-2027-candidacy-appeal-conviction-july-2026",
+      "materialFacts": [
+        "Marine Le Pen declared on 2026-07-07 (Tuesday), via French TV channel TF1, that she will run in the 2027 French presidential election.",
+        "On 2026-07-07 a French appeals court (Paris) ruled on her embezzlement case (misuse of EU funds to pay National Rally assistants); the guilty conviction was upheld/confirmed on appeal, not overturned.",
+        "The appeals court structured the ineligibility (éligibilité) ban as 45 months with 30 months suspended; because roughly 15 months were already effectively counted, the ban does not bar her from the 2027 race, so she remains legally eligible to run.",
+        "She also received a three-year prison sentence (two years suspended, one year to be served under home detention with an electronic ankle monitor) and a 100,000-euro fine."
+      ],
+      "section": "Verden",
+      "headline": "Marine Le Pen stiller op til næste præsidentvalg",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/marine-le-pen-stiller-op-til-naeste-praesidentvalg",
+      "subheadline": "En appeldomstol stadfæster Le Pens dom for misbrug af EU-midler — men lader hende alligevel stille op i 2027.",
+      "body": [
+        "Marine Le Pen meddelte 7. juli på TV1, at hun stiller op til det franske præsidentvalg i 2027. Samme dag stadfæstede en appeldomstol i Paris hendes dom for misbrug af EU-midler til aflønning af partiassistenter.",
+        "Domstolen strukturerede dog uvalgbarheden (45 måneder, heraf 30 betingede), så den ikke spærrer hende fra valget. Hun fik tre års fængsel — to betingede, ét med fodlænke — og en bøde på 100.000 euro, men appellerer nu til kassationsdomstolen, hvilket suspenderer straffen."
+      ],
+      "whyItMatters": "Sagen er en prøve på balancen mellem retsstat og folkestyre: en domstol fastholder dommen mod en topkandidat, men afmåler sanktionen, så vælgerne alligevel får hende på stemmesedlen.",
+      "analysis": "Konstruktionen — dom stadfæstet, men uvalgbarhed gjort virkningsløs — vil blive læst som en tilbageholdenhed med at lade domstolene afgøre et valg. Den endelige afklaring ligger nu hos kassationsdomstolen.",
+      "topics": [
+        "politik",
+        "frankrig",
+        "retsstat",
+        "valg",
+        "europa"
+      ],
+      "entities": [
+        "Marine Le Pen",
+        "Rassemblement National",
+        "Frankrig",
+        "EU",
+        "Kassationsdomstolen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 70,
+        "novelty": 74,
+        "sourceQuality": 86,
+        "personalRelevance": 46,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Marine Le Pen stiller op til næste præsidentvalg",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/marine-le-pen-stiller-op-til-naeste-praesidentvalg"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Marine Le Pen declared on 2026-07-07 (Tuesday), via French TV channel TF1, that she will run in the 2027 French presidential election.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/marine-le-pen-stiller-op-til-naeste-praesidentvalg"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "On 2026-07-07 a French appeals court (Paris) ruled on her embezzlement case (misuse of EU funds to pay National Rally assistants); the guilty conviction was upheld/confirmed on appeal, not overturned.",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/07/07/europe/marine-le-pen-france-court-ruling-intl"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Marine Le Pen stiller op til næste præsidentvalg",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/marine-le-pen-stiller-op-til-naeste-praesidentvalg",
+          "publishedAt": "2026-07-07T19:14:15.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Marine Le Pen to run for French presidency despite losing court appeal | CNN",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/07/07/europe/marine-le-pen-france-court-ruling-intl",
+          "publishedAt": "2026-07-07T12:08:50.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "France's Court of Appeal to rule on Le Pen conviction – what it's all about",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/7/frances-court-of-appeal-to-rule-on-le-pen-conviction-what-its-all-about",
+          "publishedAt": "2026-07-07T12:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/0nbnwuwa/20260707-203816-5.jpg",
+        "credit": "DR",
+        "alt": "Marine Le Pen, leader of France's National Rally, who announced a 2027 presidential bid after a Paris appeals court ruling on her embezzlement conviction",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/marine-le-pen-stiller-op-til-naeste-praesidentvalg"
+      }
+    },
+    {
+      "id": "spacex-nasdaq-100-inclusion-july-2026-story",
+      "eventKey": "spacex-nasdaq-100-inclusion-july-2026",
+      "materialFacts": [
+        "SpaceX trades under the ticker SPCX and debuted on the Nasdaq on June 12, 2026",
+        "SpaceX joined the Nasdaq 100 about 15 trading days after its IPO under a new fast-track rule (fastest ever)",
+        "JPMorgan estimated roughly $4.3 billion in passive fund buying from the inclusion",
+        "SpaceX enters at roughly a 1% index weight because of free-float rules"
+      ],
+      "section": "Marked",
+      "headline": "SpaceX is joining the Nasdaq 100. Here’s what to know",
+      "primarySourceUrl": "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks",
+      "subheadline": "SpaceX optages i Nasdaq-100 kun cirka 15 handelsdage efter børsnoteringen — og udløser milliardstore passive køb.",
+      "body": [
+        "SpaceX blev 7. juli optaget i Nasdaq-100 blot cirka 15 handelsdage efter sin rekordstore børsnotering — en af de hurtigste optagelser nogensinde. Optagelsen tvinger indeksfonde til at købe aktien: JPMorgan anslår ~4,3 mia. dollar i passiv efterspørgsel.",
+        "Trods en markedsværdi i Amazon-klassen får SpaceX kun cirka 1 % vægt på grund af free float-reglerne: Elon Musk ejer cirka 40 % af aktierne og 85 % af stemmerne, så en stor del ikke er frit omsættelig."
+      ],
+      "whyItMatters": "For enhver med en QQQ- eller QQQM-fond betyder optagelsen, at man nu automatisk ejer en bid af SpaceX. Det illustrerer, hvordan indeksmekanik og passive pengestrømme — ikke fundamentale nyheder — kan flytte milliarder på få dage.",
+      "analysis": "Optagelsen viser, hvordan mega-noteringer kan presse sig ind i de store indeks næsten øjeblikkeligt — mens free float-loftet rejser spørgsmålet om, hvor repræsentativt indekset er, når én ejer har stemmerne.",
+      "topics": [
+        "marked",
+        "venturekapital",
+        "indeks",
+        "rumfart",
+        "passiv-investering"
+      ],
+      "entities": [
+        "SpaceX",
+        "Nasdaq-100",
+        "Elon Musk",
+        "JPMorgan",
+        "QQQ",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 80,
+        "novelty": 82,
+        "sourceQuality": 74,
+        "personalRelevance": 72,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "SpaceX is joining the Nasdaq 100. Here’s what to know",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "SpaceX trades under the ticker SPCX and debuted on the Nasdaq on June 12, 2026",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "SpaceX joined the Nasdaq 100 about 15 trading days after its IPO under a new fast-track rule (fastest ever)",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SpaceX is joining the Nasdaq 100. Here’s what to know",
+          "publisher": "CNN Business",
+          "url": "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks",
+          "publishedAt": "2026-07-07T09:30:25.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "SpaceX Joins the Nasdaq-100 on July 7. Here Is What This Means for QQQ and QQQM Investors.",
+          "publisher": "Yahoo Finance / The Motley Fool",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-joins-nasdaq-100-july-133000124.html",
+          "publishedAt": "2026-07-06T13:30:00.000Z",
+          "kind": "analysis"
+        },
+        {
+          "title": "SpaceX joins Nasdaq-100 index, triggering passive fund buying",
+          "publisher": "Quartz",
+          "url": "https://qz.com/spacex-nasdaq-100-index-funds-passive-buying-070726",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://media.cnn.com/api/v1/images/stellar/prod/2026-06-12t133239z-1066942126-rc2dslaoyypb-rtrmadp-3-spacex-ipo.JPG?c=16x9&q=w_800,c_fill",
+        "credit": "Reuters",
+        "alt": "A Starlink advertisement at the Nasdaq MarketSite in New York City on the day of SpaceX's June 12, 2026 initial public offering.",
+        "sourceUrl": "https://www.cnn.com/2026/07/07/economy/spacex-nasdaq-100-stocks"
+      }
+    },
+    {
+      "id": "cuba-nationwide-blackout-july2026-story",
+      "eventKey": "cuba-nationwide-blackout-july2026",
+      "materialFacts": [
+        "Cuba's national grid suffered a total disconnection (nationwide collapse).",
+        "This was the third nationwide blackout in six months / of 2026.",
+        "Cause: aging grid plus fuel shortage driven by U.S. fuel-supply pressure/blockade.",
+        "Roughly 10 million people were left without power."
+      ],
+      "section": "Verden",
+      "headline": "Cuba slowly getting power back after third nationwide blackout in 6 months: \"This is agony\"",
+      "primarySourceUrl": "https://www.cbsnews.com/news/cuba-slowly-getting-power-back-after-third-nationwide-blackout-in-6-months-this-is-agony/",
+      "subheadline": "Cubas elnet kollapser for tredje gang på et halvt år, og millioner efterlades uden strøm.",
+      "body": [
+        "Cuba fik langsomt strømmen tilbage efter et landsdækkende strømsvigt — det tredje på seks måneder. Det nationale elnet brød sammen, og store dele af øens knap 10 millioner indbyggere var uden strøm i timevis.",
+        "Sammenbruddene skyldes et forældet, underfinansieret elsystem, akut brændstofmangel og amerikansk pres på Cubas forsyningskæder. »Sådan her at leve er en pinsel,« sagde en indbygger til CBS News."
+      ],
+      "whyItMatters": "Gentagne nationale blackouts er et symptom på en dybere stats- og forsyningskrise: uden brændstof og investeringer kan grundlæggende infrastruktur ikke opretholdes. Det rammer alt fra fødevarekøling til hospitaler og nærer en migrationsbølge fra øen.",
+      "analysis": "At sammenbruddene nu er tilbagevendende snarere end enkeltstående, indikerer, at Cuba er tættere på systemisk infrastrukturkollaps end på en enkelt teknisk fejl.",
+      "topics": [
+        "verden",
+        "energi",
+        "infrastruktur",
+        "latinamerika",
+        "cuba"
+      ],
+      "entities": [
+        "Cuba",
+        "Havana",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 60,
+        "novelty": 66,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 82
+      },
+      "claims": [
+        {
+          "text": "Cuba slowly getting power back after third nationwide blackout in 6 months: \"This is agony\"",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/cuba-slowly-getting-power-back-after-third-nationwide-blackout-in-6-months-this-is-agony/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Cuba's national grid suffered a total disconnection (nationwide collapse).",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/cuba-slowly-getting-power-back-after-third-nationwide-blackout-in-6-months-this-is-agony/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "This was the third nationwide blackout in six months / of 2026.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/cuba-slowly-getting-power-back-after-third-nationwide-blackout-in-6-months-this-is-agony/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cuba slowly getting power back after third nationwide blackout in 6 months: \"This is agony\"",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/cuba-slowly-getting-power-back-after-third-nationwide-blackout-in-6-months-this-is-agony/",
+          "publishedAt": "2026-07-07T11:53:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Cuba sees nationwide power blackout for third time in six months",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/7/cuba-sees-nationwide-power-blackout-for-third-time-in-six-months",
+          "publishedAt": "2026-07-07T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Cuba hit with nationwide blackout as US pressure continues",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/07/06/americas/cuba-blackout-electrical-grid-intl-latam",
+          "publishedAt": "2026-07-06T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/07/0872f0eb-aac6-4864-ad5b-96552d086ae2/thumbnail/620x407/529b2d27bb3801ff6938dd699d1b2a48/2026-07-07t050646z-448923406-rc2q8maza6zx-rtrmadp-3-cuba-crisis-grid-collapse.jpg",
+        "credit": "Reuters via CBS News",
+        "alt": "A street in Havana during Cuba's nationwide power blackout in July 2026.",
+        "sourceUrl": "https://www.cbsnews.com/news/cuba-slowly-getting-power-back-after-third-nationwide-blackout-in-6-months-this-is-agony/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Anthropic inks $19B AI data center lease with TeraWulf",
+      "url": "https://siliconangle.com/2026/07/06/anthropic-inks-19b-ai-data-center-lease-terawulf/",
+      "headline": "Anthropic inks $19B AI data center lease with TeraWulf",
+      "summary": "Anthropic har indgået en 20-årig lejeaftale til 19 mia. dollar om AI-datacenterkapacitet hos TeraWulf i Kentucky — endnu et tegn på, at compute er blevet AI-labs’ største kapitalpost.",
+      "publisher": "SiliconANGLE",
+      "section": "AI",
+      "publishedAt": "2026-07-06T12:00:00.000Z"
+    },
+    {
+      "text": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+      "url": "https://www.cnbc.com/2026/07/07/chinese-ai-models-costs-us-openai-anthropic.html",
+      "headline": "Chinese AI models are gaining ground with U.S. companies as OpenAI, Anthropic costs surge",
+      "summary": "Amerikanske virksomheder flytter i stigende grad forbrug til billigere kinesiske open source-modeller (DeepSeek, GLM), mens priserne hos OpenAI og Anthropic stiger — op mod 46 % af enterprise-tokens ifølge CNBC.",
+      "publisher": "CNBC",
+      "section": "AI",
+      "publishedAt": "2026-07-07T00:00:00.000Z"
+    },
+    {
+      "text": "Memory chipmaker SK hynix seeks to raise $28B through US IPO",
+      "url": "https://siliconangle.com/2026/07/06/memory-chip-maker-sk-hynix-seeks-raise-28b-u-s-ipo/",
+      "headline": "Memory chipmaker SK hynix seeks to raise $28B through US IPO",
+      "summary": "Sydkoreanske SK hynix vil rejse op til 28 mia. dollar ved en Nasdaq-notering, drevet af boomet i HBM-hukommelse til AI-hardware.",
+      "publisher": "SiliconANGLE",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-07T00:17:00.000Z"
+    },
+    {
+      "text": "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon",
+      "url": "https://techcrunch.com/2026/07/05/this-humanoid-robotics-company-is-going-public-but-its-ceo-isnt-promising-a-robot-in-your-home-anytime-soon/",
+      "headline": "This humanoid robotics company is going public, but its CEO isn't promising a robot in your home anytime soon",
+      "summary": "Agility Robotics går på børsen via en SPAC-fusion til 2,5 mia. dollar — den første rene humanoid-robotproducent på de offentlige markeder, men CEO’en advarer mod at forvente robotter i hjemmet foreløbig.",
+      "publisher": "TechCrunch",
+      "section": "Deeptech",
+      "publishedAt": "2026-07-06T06:05:00.000Z"
+    },
+    {
+      "text": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+      "headline": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "summary": "Den amerikanske jura- og compliance-AI-startup Norm Ai rejser 120 mio. dollar i en Series C ledet af Khosla Ventures og rammer en unicorn-værdi på 1,2 mia. dollar.",
+      "publisher": "TechCrunch",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-07T14:35:00.000Z"
+    },
+    {
+      "text": "New EU plan to address the risks and opportunities of advanced AI for cybersecurity",
+      "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
+      "headline": "New EU plan to address the risks and opportunities of advanced AI for cybersecurity",
+      "summary": "EU-Kommissionen præsenterer en handlingsplan for cybersikkerhed og AI, hvor ENISA får til opgave at foretage forudgående evaluering af avancerede modeller — et skridt mod europæisk model-tilsyn.",
+      "publisher": "European Commission",
+      "section": "AI",
+      "publishedAt": "2026-07-07T09:00:00.000Z"
+    },
+    {
+      "text": "Dansk forsvarsvirksomhed afsløret i »risikabel« teknologi-eksport til Kina: »Rummer et oplagt potentiale for kinesisk militær«",
+      "url": "https://ing.dk/artikel/dansk-forsvarsvirksomhed-afsloeret-i-risikabel-teknologi-eksport-til-kina-rummer-et-oplagt",
+      "headline": "Dansk forsvarsvirksomhed afsløret i »risikabel« teknologi-eksport til Kina: »Rummer et oplagt potentiale for kinesisk militær«",
+      "summary": "Ingeniøren afdækker, at en dansk forsvarsvirksomhed har eksporteret undervandsteknologi med militært potentiale til Kina trods advarsler fra PET og FE — en sag om dansk teknologisk suverænitet og eksportkontrol.",
+      "publisher": "Ingeniøren",
+      "section": "Indland",
+      "publishedAt": "2026-07-06T03:00:00.000Z"
+    },
+    {
+      "text": "Oak Ridge National Lab, Cleveland Clinic, and IBM Achieve First-Known Computations of Fusion Materials on a Quantum Computer",
+      "url": "https://newsroom.ibm.com/2026-07-06-oak-ridge-national-lab,-cleveland-clinic,-and-ibm-achieve-first-known-computations-of-fusion-materials-on-a-quantum-computer",
+      "headline": "Oak Ridge National Lab, Cleveland Clinic, and IBM Achieve First-Known Computations of Fusion Materials on a Quantum Computer",
+      "summary": "IBM, Oak Ridge National Laboratory og Cleveland Clinic har kørt de første kendte kvantecomputer-beregninger af fusionsmaterialet FLiBe — et tidligt, men konkret eksempel på kvante-nytte i materialeforskning.",
+      "publisher": "IBM Newsroom / PR Newswire",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-06T11:00:00.000Z"
+    },
+    {
+      "text": "China conducts first-ever strategic submarine-launched ballistic missile test in Pacific Ocean",
+      "url": "https://www.armyrecognition.com/news/navy-news/2026/china-submarine-ballistic-missile-test-pacific-2026",
+      "headline": "China conducts first-ever strategic submarine-launched ballistic missile test in Pacific Ocean",
+      "summary": "Kina gennemførte sin første anerkendte test af et strategisk ubådsudskudt ballistisk missil (SLBM) ud i Stillehavet, hvilket udløste protester fra New Zealand og Australien.",
+      "publisher": "Army Recognition",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-06T00:00:00.000Z"
+    },
+    {
+      "text": "Quaise raises $134M to drill superhot geothermal",
+      "url": "https://thenextweb.com/news/quaise-energy-134m-series-b-superhot-geothermal",
+      "headline": "Quaise raises $134M to drill superhot geothermal",
+      "summary": "MIT-udspringet Quaise Energy rejser 134 mio. dollar (første close) til at bygge verdens første superhede geotermiske anlæg med boreteknologi baseret på millimeterbølger.",
+      "publisher": "The Next Web",
+      "section": "Deeptech",
+      "publishedAt": "2026-07-07T16:29:40.000Z"
+    },
+    {
+      "text": "København er igen kåret til verdens bedste by",
+      "url": "https://www.dr.dk/nyheder/indland/koebenhavn-er-igen-kaaret-til-verdens-bedste",
+      "headline": "København er igen kåret til verdens bedste by",
+      "summary": "København er igen kåret til verdens mest leveværdige by i EIU’s 2026-indeks, foran blandt andre Wien.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-07-07T08:27:00.000Z"
+    }
+  ],
+  "keyNumber": {
+    "label": "Europas største private fusionsrunde til dato",
+    "value": "411",
+    "unit": "mio. EUR",
+    "asOf": "7. juli 2026",
+    "caption": "Proxima Fusion (München) hentede 411 mio. euro til en værdi på 2,4 mia. euro — Googles første europæiske fusionsinvestering og et løft for europæisk teknologisk suverænitet.",
+    "sourceUrl": "https://www.businesswire.com/news/home/20260707899566/en/Proxima-Fusion-Raises-%E2%82%AC411-Million-at-a-%E2%82%AC2.4B-Valuation-to-Build-Europes-Commercial-Fusion-Champion",
+    "sourceTitle": "Proxima Fusion Raises €411 Million at a €2.4B Valuation to Build Europe's Commercial Fusion Champion"
+  },
+  "recommendations": [
+    {
+      "id": "rec-project-hail-mary",
+      "mode": "watch",
+      "kind": "spillefilm",
+      "status": "new",
+      "title": "Project Hail Mary",
+      "creator": "Phil Lord & Christopher Miller (instr.); Ryan Gosling",
+      "provider": "Prime Video",
+      "url": "https://www.amazon.com/Project-Hail-Mary-Phil-Lord/dp/B0GHXTWRV2",
+      "description": "Ny science fiction-film (instrueret af Phil Lord & Christopher Miller, med Ryan Gosling) baseret på Andy Weirs roman, om en ensom astronaut, der skal redde Jorden. På Prime Video fra 3. juli 2026.",
+      "rationale": "En bevidst pause fra AI og kapitalmarkeder: ren, opfindsom problemløsning fortalt visuelt. Fra forfatteren bag The Martian, netop landet på streaming — et fælles referencepunkt, der er sjovt frem for pligtlæsning.",
+      "topics": [
+        "science fiction",
+        "problemløsning",
+        "kultur"
+      ],
+      "isFeatured": true,
+      "availability": "Streaming on Prime Video, included with an Amazon Prime membership, from 3 July 2026 (worldwide). Prior windows: digital purchase/rent 12 May 2026, MGM+ 18 June 2026. Official Prime Video title page r",
+      "commitment": "Film, ~2 t 36 min",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/3/3b/Project_Hail_Mary_poster.jpg",
+        "credit": "Amazon MGM Studios (theatrical poster, via Wikipedia)",
+        "alt": "Theatrical poster for the 2026 film Project Hail Mary",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Project_Hail_Mary_(film)"
+      }
+    },
+    {
+      "id": "rec-mistral-keynote",
+      "mode": "watch",
+      "kind": "keynote",
+      "status": "timely",
+      "title": "Closing keynote: The end of AI as we know it | AI Now Summit 2026",
+      "creator": "Mistral AI",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=dEWPTAXC3JA",
+      "description": "Mistral AI’s afsluttende keynote fra AI Now Summit i Paris om europæisk AI-suverænitet og åbne modeller. Gratis på YouTube; cirka fem minutter, lagt op 1. juli 2026.",
+      "rationale": "Kort og tæt sammenfatning af den europæiske suverænitetsdagsorden, der binder dagens Proxima- og DeepSeek-historier sammen. Fem minutter godt givet ud for en, der arbejder med teknologisk suverænitet i EIFO.",
+      "topics": [
+        "teknologisk suverænitet",
+        "europæisk ai",
+        "åbne modeller"
+      ],
+      "isFeatured": false,
+      "availability": "Free on YouTube, worldwide, no login required. Published 2026-07-01 by the official Mistral channel.",
+      "commitment": "~5 min",
+      "image": {
+        "url": "https://i.ytimg.com/vi/dEWPTAXC3JA/maxresdefault.jpg",
+        "credit": "Mistral / YouTube",
+        "alt": "Title card for Mistral's closing keynote 'The end of AI as we know it' at AI Now Summit 2026",
+        "sourceUrl": "https://www.youtube.com/watch?v=dEWPTAXC3JA"
+      }
+    },
+    {
+      "id": "rec-esther-perel-ai-intimacy",
+      "mode": "listen",
+      "kind": "podcastafsnit",
+      "status": "available",
+      "title": "Esther Perel on Why A.I. Intimacy Feels Safe but Isn’t Real",
+      "creator": "Esther Perel",
+      "provider": "The New York Times",
+      "url": "https://podcasts.apple.com/us/podcast/esther-perel-on-why-a-i-intimacy-feels-safe-but-isnt-real/id1762898126?i=1000746993805",
+      "description": "Terapeuten Esther Perel om, hvorfor intimitet med AI-ledsagere føles tryg, men mangler den friktion, ægte relationer kræver. Afsnit af NYT’s The Opinions; cirka 31 minutter.",
+      "rationale": "Rammer krydsfeltet mellem AI, psykologi og menneskelig adfærd på under en halv time. Perel stiller de spørgsmål om nærhed og risiko, som de tekniske AI-samtaler sjældent når — en modvægt til produkt- og kapitalvinklen.",
+      "topics": [
+        "psykologi",
+        "relationer",
+        "ai-ledsagere"
+      ],
+      "isFeatured": false,
+      "availability": "Free on Apple Podcasts (US store), episode of NYT 'The Opinions'. Published 28 January 2026. URL resolves.",
+      "commitment": "~31 min",
+      "image": {
+        "url": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2d/af/bf/2dafbf10-c118-d531-b43b-5c0e97878e29/mza_12716482502454917697.jpg/1200x1200bf-60.jpg",
+        "credit": "The New York Times / Apple Podcasts",
+        "alt": "Cover art for The Opinions podcast episode with Esther Perel on A.I. intimacy",
+        "sourceUrl": "https://podcasts.apple.com/us/podcast/esther-perel-on-why-a-i-intimacy-feels-safe-but-isnt-real/id1762898126?i=1000746993805"
+      }
+    },
+    {
+      "id": "rec-stanford-ai-index-2026",
+      "mode": "read",
+      "kind": "rapport",
+      "status": "timely",
+      "title": "The 2026 AI Index Report",
+      "creator": "Stanford HAI, AI Index Steering Committee",
+      "provider": "Stanford HAI",
+      "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+      "description": "Stanford HAI's årlige, datatunge kortlægning af AI: benchmarks, investeringer, compute og USA-Kina-dynamikken. Gratis online i 2026-udgaven.",
+      "rationale": "Primærdata frem for kommentar. Skimmes for de nøglegrafer, der skærper dagens historie om kinesiske modeller og AI-økonomi — en holdbar reference, ikke en enkeltstående mening.",
+      "topics": [
+        "ai-data",
+        "investering",
+        "usa-kina"
+      ],
+      "isFeatured": false,
+      "availability": "Free to read online, worldwide, no subscription. Page confirmed live (2026 edition).",
+      "commitment": "~30 min (skim)",
+      "image": {
+        "url": "https://hai.stanford.edu/assets/images/aiindex2026_2-x-3_1.jpg",
+        "credit": "Stanford HAI",
+        "alt": "Cover graphic for the 2026 AI Index Report by Stanford HAI",
+        "sourceUrl": "https://hai.stanford.edu/ai-index/2026-ai-index-report"
+      }
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 87,
+    "sourceQuality": 88,
+    "outsideProfile": 85,
+    "diversity": 86,
+    "novelty": 84
+  }
+}
