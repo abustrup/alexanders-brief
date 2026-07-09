@@ -1,0 +1,812 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-09-daily-v1",
+  "date": "2026-07-09",
+  "generatedAt": "2026-07-09T03:45:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Et frasalg på 1.300 mia. dollar rammer chipaktierne, da markedet for første gang for alvor tvivler på AI-investeringernes holdbarhed. Samtidig ruller OpenAI GPT-5.6 bredt ud, EU vil teste avancerede AI-modeller for cyberrisici, og en dansk forsvarsvirksomhed afsløres i risikabel teknologi-eksport til Kina. Frederiksen afviser Trumps Grønland-krav i Ankara, en amerikansk højesteretsdom presser EU’s dataregler — og LARES-2 bekræfter Einstein igen.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "semiconductor-ai-capex-selloff-20260709",
+      "eventKey": "semiconductor-ai-capex-selloff-2026-07",
+      "materialFacts": [
+        "Et bredt frasalg af halvlederaktier barberede omkring 1.300 mia. dollar af markedsværdien 7.-8. juli 2026",
+        "Intel faldt over 20 procent, og Philadelphia-halvlederindekset (SOX) tabte cirka 10,8 procent",
+        "Udløseren var Samsungs foreløbige Q2-regnskab: driftsoverskud på ca. 58 mia. dollar, der slog overskudsforventningen, men med skuffende omsætning målt på de høje AI-forventninger",
+        "Hyperscalernes AI-kapitaludgifter er ifølge Forbes vokset 67 procent til omkring 650 mia. dollar"
+      ],
+      "section": "Marked",
+      "headline": "Semiconductor Selloff Deepens As AI Spending Fears Hit Intel",
+      "primarySourceUrl": "https://www.forbes.com/sites/petercohan/2026/07/08/intel-stock-down-21-inside-the-july-2026-semiconductor-selloff/",
+      "subheadline": "Et frasalg på 1.300 mia. dollar rammer chipaktierne, da markedet for første gang for alvor tvivler på AI-investeringernes holdbarhed.",
+      "body": [
+        "Et bredt frasalg af halvlederaktier uddybede sig 7.-8. juli og barberede omkring 1.300 milliarder dollar af markedsværdien. Philadelphia-halvlederindekset (SOX) faldt cirka 10,8 procent, og Intel (USA) mistede over 20 procent på få dage.",
+        "Udløseren kom fra Sydkorea: Samsungs foreløbige Q2-regnskab viste et driftsoverskud på cirka 58 milliarder dollar — næsten en tyvedobling år-til-år — men omsætningen skuffede målt på de skyhøje AI-forventninger, og aktien faldt omkring 7 procent. Micron, AMD og Taiwans TSMC trak med ned."
+      ],
+      "whyItMatters": "For en investeringsanalytiker er det første gang længe, at markedet for alvor tvivler på selve AI-investeringscyklussen. Hyperscalernes kapitaludgifter er ifølge Forbes vokset 67 procent til omkring 650 milliarder dollar, og frygten for overkapacitet rammer nu de aktier, optimismen hviler på.",
+      "analysis": "Nuancen er vigtig: Samsungs tal var et overskud, der slog forventningerne — det var omsætningen, ikke bunden, der skuffede. Markedet reagerer altså ikke på svag efterspørgsel, men på tvivl om, hvorvidt de enorme kapitaludgifter nogensinde tjenes hjem.",
+      "topics": [
+        "halvledere",
+        "marked",
+        "ai-capex",
+        "valuations",
+        "usa"
+      ],
+      "entities": [
+        "Intel",
+        "Samsung Electronics",
+        "TSMC",
+        "Micron",
+        "AMD",
+        "SOX",
+        "USA",
+        "Sydkorea",
+        "Taiwan"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 82,
+        "novelty": 74,
+        "sourceQuality": 80,
+        "personalRelevance": 84,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Semiconductor Selloff Deepens As AI Spending Fears Hit Intel",
+          "sourceUrls": [
+            "https://www.forbes.com/sites/petercohan/2026/07/08/intel-stock-down-21-inside-the-july-2026-semiconductor-selloff/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Frasalget barberede omkring 1.300 mia. dollar af halvledernes markedsværdi, og Intel faldt over 20 procent",
+          "sourceUrls": [
+            "https://www.forbes.com/sites/petercohan/2026/07/08/intel-stock-down-21-inside-the-july-2026-semiconductor-selloff/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Semiconductor Selloff Deepens As AI Spending Fears Hit Intel",
+          "publisher": "Forbes",
+          "url": "https://www.forbes.com/sites/petercohan/2026/07/08/intel-stock-down-21-inside-the-july-2026-semiconductor-selloff/",
+          "publishedAt": "2026-07-08T12:36:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Chip stocks sell off after Samsung earnings fall short of high AI bar",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/07/chip-stocks-ai-selloff-samsung.html",
+          "publishedAt": "2026-07-07T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://imageio.forbes.com/specials-images/imageserve/6a4e2f8f893918fde7214681/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+        "credit": "Kilde: Forbes",
+        "alt": "Illustration af halvlederchips og aktiemarkedet under juli-frasalget",
+        "sourceUrl": "https://www.forbes.com/sites/petercohan/2026/07/08/intel-stock-down-21-inside-the-july-2026-semiconductor-selloff/"
+      }
+    },
+    {
+      "id": "openai-gpt56-broad-release-20260709",
+      "eventKey": "openai-gpt56-release-2026-07-09",
+      "materialFacts": [
+        "OpenAI (USA) åbner 9. juli for bred adgang til GPT-5.6-modellerne Sol, Terra og Luna efter en lukket forhåndsvisning fra 26. juni",
+        "Sol er flagskibet til ræsonnement og agent-opgaver; Terra rammer GPT-5.5-niveau til ca. halv pris; Luna er hurtigst og billigst",
+        "Den brede lancering fulgte et gennemsyn i det amerikanske handelsministerium og udvidet sikkerhedstest",
+        "Sol sætter ifølge OpenAI ny rekord på Terminal-Bench 2.1 og løser ExploitBench med omtrent en tredjedel af konkurrenternes output-tokens"
+      ],
+      "section": "AI",
+      "headline": "Previewing GPT-5.6 Sol: a next-generation model",
+      "primarySourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/",
+      "subheadline": "OpenAI ruller i dag sin GPT-5.6-familie — Sol, Terra og Luna — bredt ud efter et amerikansk sikkerhedstjek.",
+      "body": [
+        "OpenAI (USA) åbner i dag, 9. juli, for bred adgang til GPT-5.6-modellerne Sol, Terra og Luna efter en lukket forhåndsvisning siden 26. juni. Sol er flagskibet til ræsonnement og agent-opgaver, Terra rammer GPT-5.5-niveau til cirka halv pris, og Luna er hurtigst og billigst.",
+        "Den brede lancering fulgte et gennemsyn i det amerikanske handelsministerium og en udvidet sikkerhedstest. Ifølge OpenAI sætter Sol ny rekord på benchmarken Terminal-Bench 2.1."
+      ],
+      "whyItMatters": "En ny generation af agent- og cybermodeller flytter grænsen for praktisk AI — og det amerikanske sikkerhedstjek understreger, at adgang til de stærkeste modeller nu handler om suverænitet, ikke kun pris.",
+      "analysis": "De omtalte priser stammer fra sekundære kilder og bør læses som rapporterede. Men retningen er klar: billigere mellemklasse-modeller presser marginalerne i et marked, hvor kinesiske open source-modeller allerede æder priserne nedefra.",
+      "topics": [
+        "ai",
+        "frontier-modeller",
+        "teknologisk suverænitet",
+        "cybersikkerhed",
+        "agenter"
+      ],
+      "entities": [
+        "OpenAI",
+        "GPT-5.6",
+        "Sol",
+        "Terra",
+        "Luna",
+        "USA",
+        "Codex"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 78,
+        "novelty": 80,
+        "sourceQuality": 82,
+        "personalRelevance": 90,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Previewing GPT-5.6 Sol: a next-generation model",
+          "sourceUrls": [
+            "https://openai.com/index/previewing-gpt-5-6-sol/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "GPT-5.6-serien består af Sol, Terra og Luna og går bredt tilgængelig 9. juli 2026 efter et amerikansk gennemsyn",
+          "sourceUrls": [
+            "https://openai.com/index/previewing-gpt-5-6-sol/",
+            "https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol/",
+          "publishedAt": "2026-06-26T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "OpenAI to release GPT-5.6 Sol, Terra and Luna on July 9",
+          "publisher": "Neowin",
+          "url": "https://www.neowin.net/news/openai-to-release-gpt-56-sol-terra-and-luna-on-july-9/",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://images.ctfassets.net/kftzwdyauwt9/48XpR5dxhE6jJQ03HTUnWZ/ac68fbfb7761fa72ac7442c6744dba56/_.png?w=1600&h=900&fit=fill",
+        "credit": "Kilde: OpenAI",
+        "alt": "OpenAIs officielle grafik for GPT-5.6 Sol",
+        "sourceUrl": "https://openai.com/index/previewing-gpt-5-6-sol/"
+      }
+    },
+    {
+      "id": "eu-advanced-ai-cybersecurity-plan-20260707",
+      "eventKey": "eu-advanced-ai-cybersecurity-plan-2026",
+      "materialFacts": [
+        "Europa-Kommissionen fremlagde 7. juli 2026 en plan for avancerede AI-modellers risici og muligheder for cybersikkerhed i hele EU",
+        "Kommissionen vil opbygge en europæisk vurderingskapacitet, så modeller kan efterprøves af tredjepart under AI-forordningen",
+        "Sammen med ENISA udarbejdes et europæisk blueprint for »struktureret adgang« til stærke AI-modeller; ENISA og JRC bygger en sikker testplatform",
+        "Planen bygger på AI-forordningen, Cyber Resilience Act, NIS2 og Cyber Solidarity Act"
+      ],
+      "section": "Teknologi",
+      "headline": "New EU plan to address the risks and opportunities of advanced AI for cybersecurity",
+      "primarySourceUrl": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
+      "subheadline": "Kommissionen vil teste avancerede AI-modeller for cyberrisici og opbygge europæisk vurderingskapacitet.",
+      "body": [
+        "Europa-Kommissionen fremlagde 7. juli en plan for både at udnytte og inddæmme avancerede AI-modellers betydning for cybersikkerhed i EU. De samme modeller, der kan beskytte kritisk infrastruktur, kan også misbruges til at automatisere og opskalere cyberangreb.",
+        "Kommissionen vil opbygge en europæisk vurderingskapacitet, så avancerede modeller kan efterprøves af tredjepart under AI-forordningen. Sammen med agenturet ENISA laves et blueprint for »struktureret adgang« til de stærkeste modeller."
+      ],
+      "whyItMatters": "Planen binder tre af EIFO’s kerneområder sammen: AI, cybersikkerhed og teknologisk suverænitet. »Struktureret adgang« er reelt et forsøg på at give europæiske myndigheder indsigt i modeller, der i dag kontrolleres i USA og Kina.",
+      "analysis": "Det er en rammeplan, ikke lovgivning. Værdien afhænger af, om EU kan opbygge egen evaluerings- og compute-kapacitet gennem AI Factories og de planlagte Gigafactories.",
+      "topics": [
+        "ai",
+        "cybersikkerhed",
+        "regulering",
+        "teknologisk suverænitet",
+        "eu"
+      ],
+      "entities": [
+        "Europa-Kommissionen",
+        "ENISA",
+        "JRC",
+        "AI-forordningen",
+        "EU"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 81,
+        "decisionValue": 76,
+        "novelty": 70,
+        "sourceQuality": 92,
+        "personalRelevance": 85,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "New EU plan to address the risks and opportunities of advanced AI for cybersecurity",
+          "sourceUrls": [
+            "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New EU plan to address the risks and opportunities of advanced AI for cybersecurity",
+          "publisher": "European Commission",
+          "url": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en",
+          "publishedAt": "2026-07-07T12:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://commission.europa.eu/sites/default/files/styles/ewcms_metatag_image/public/2026-07/GettyImages-1350230158_news%201.jpg?h=c3635fa2&itok=Srw4Nhw_",
+        "credit": "Kilde: Europa-Kommissionen",
+        "alt": "Illustration af cybersikkerhed og kunstig intelligens",
+        "sourceUrl": "https://commission.europa.eu/news-and-media/news/new-eu-plan-address-risks-and-opportunities-advanced-ai-cybersecurity-2026-07-07_en"
+      }
+    },
+    {
+      "id": "denmark-china-dualuse-export-20260706",
+      "eventKey": "denmark-china-dualuse-export-2026",
+      "materialFacts": [
+        "Ingeniøren afslører, at en dansk forsvarsvirksomhed har eksporteret undervandsdrone-teknologi til Kina",
+        "Eksperter vurderer, at teknologien »rummer et oplagt potentiale for kinesisk militær«",
+        "Teknologien er dual-use — civil på papiret, men direkte anvendelig militært",
+        "Sagen rejser spørgsmål om, hvorvidt dansk og europæisk eksportkontrol følger med deeptech-udviklingen"
+      ],
+      "section": "Forsvar",
+      "headline": "Dansk forsvarsvirksomhed afsløret i »risikabel« teknologi-eksport til Kina: »Rummer et oplagt potentiale for kinesisk militær«",
+      "primarySourceUrl": "https://ing.dk/artikel/dansk-forsvarsvirksomhed-afsloeret-i-risikabel-teknologi-eksport-til-kina-rummer-et-oplagt",
+      "subheadline": "En dansk virksomhed har eksporteret undervandsdrone-teknologi med militært potentiale til Kina, viser Ingeniørens gennemgang.",
+      "body": [
+        "En dansk forsvarsvirksomhed har eksporteret teknologi inden for undervandsdroner til Kina, som ifølge eksperter »rummer et oplagt potentiale for kinesisk militær«, afslører Ingeniøren. Teknologien er dual-use — civil på papiret, men direkte anvendelig militært.",
+        "Ingeniøren navngiver ikke virksomheden entydigt, men beskriver et forløb, hvor teknologi med klar sikkerhedsdimension er endt i Kina uden at blive fanget af eksportkontrollen."
+      ],
+      "whyItMatters": "Det er et konkret eksempel på det dilemma, EIFO og europæiske investorer navigerer i: den samme deeptech, der skal gøre Europa teknologisk uafhængigt, kan lække til de aktører, man forsøger at afkoble sig fra.",
+      "analysis": "Det er en enkeltsag, men den peger på et systemisk hul. Undervandsdroner er netop den type autonome systemer, hvor eksportkontrol og investeringsscreening endnu ikke er kalibreret til teknologiens tempo.",
+      "topics": [
+        "forsvar",
+        "eksportkontrol",
+        "teknologisk suverænitet",
+        "kina",
+        "deeptech"
+      ],
+      "entities": [
+        "Danmark",
+        "Kina",
+        "Ingeniøren",
+        "undervandsdroner"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 66,
+        "novelty": 78,
+        "sourceQuality": 80,
+        "personalRelevance": 82,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Dansk forsvarsvirksomhed afsløret i »risikabel« teknologi-eksport til Kina: »Rummer et oplagt potentiale for kinesisk militær«",
+          "sourceUrls": [
+            "https://ing.dk/artikel/dansk-forsvarsvirksomhed-afsloeret-i-risikabel-teknologi-eksport-til-kina-rummer-et-oplagt"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dansk forsvarsvirksomhed afsløret i »risikabel« teknologi-eksport til Kina: »Rummer et oplagt potentiale for kinesisk militær«",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/dansk-forsvarsvirksomhed-afsloeret-i-risikabel-teknologi-eksport-til-kina-rummer-et-oplagt",
+          "publishedAt": "2026-07-06T03:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2025-08/sentinel_photos-016.jpg?itok=5kS2abNb",
+        "credit": "Kilde: Ingeniøren",
+        "alt": "Undervandsdrone-teknologi (illustration)",
+        "sourceUrl": "https://ing.dk/artikel/dansk-forsvarsvirksomhed-afsloeret-i-risikabel-teknologi-eksport-til-kina-rummer-et-oplagt"
+      }
+    },
+    {
+      "id": "useu-gdpr-dataflows-pressure-20260707",
+      "eventKey": "useu-gdpr-dataflows-pressure-2026",
+      "materialFacts": [
+        "En amerikansk højesteretsdom 29. juni 2026, der udvider præsidentens magt, lægger pres på dataaftalen mellem EU og USA",
+        "Dataoverførselsaftalen Data Privacy Framework hviler på en antagelse om uafhængige amerikanske tilsyn, som dommen underminerer",
+        "Som konsekvens foreslås en central regel i GDPR ændret, så europæiske data fortsat kan flyde til amerikanske cloud-tjenester",
+        "Det berører direkte danske virksomheder og myndigheder, der er afhængige af amerikansk cloud-infrastruktur"
+      ],
+      "section": "Teknologi",
+      "headline": "Trump-sejr i højesteret presser dataaftale med EU: Nu foreslås central GDPR-regel ændret",
+      "primarySourceUrl": "https://www.version2.dk/artikel/trump-sejr-i-hoejesteret-presser-dataaftale-med-eu-nu-foreslaas-central-gdpr-regel-aendret",
+      "subheadline": "En amerikansk højesteretsdom svækker dataaftalen mellem EU og USA — og lægger pres på en kerneregel i GDPR.",
+      "body": [
+        "En dom fra den amerikanske højesteret 29. juni, der udvider præsidentens magt over de føderale myndigheder, lægger nu pres på dataaftalen mellem EU og USA, skriver Version2. Aftalen — Data Privacy Framework — hviler på en antagelse om uafhængige amerikanske tilsyn, som dommen underminerer.",
+        "Som konsekvens foreslås en central regel i GDPR ændret, så europæiske data fortsat kan flyde til amerikanske cloud-tjenester. Det rammer direkte danske virksomheder og myndigheder, der er dybt afhængige af amerikansk cloud."
+      ],
+      "whyItMatters": "Det er teknologisk suverænitet gjort konkret: en amerikansk forfatningsdom kan tvinge EU til at lempe sin egen databeskyttelse for at holde datastrømmene i gang. Alternativet kræver en europæisk cloud i skala.",
+      "analysis": "Striden gentager mønstret fra Schrems-dommene. Forskellen er, at presset denne gang kommer indefra USA’s eget retssystem — det styrker argumentet for europæiske alternativer.",
+      "topics": [
+        "data-suverænitet",
+        "gdpr",
+        "cloud",
+        "eu",
+        "usa"
+      ],
+      "entities": [
+        "EU",
+        "USA",
+        "Data Privacy Framework",
+        "GDPR",
+        "Version2"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 72,
+        "novelty": 68,
+        "sourceQuality": 78,
+        "personalRelevance": 78,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Trump-sejr i højesteret presser dataaftale med EU: Nu foreslås central GDPR-regel ændret",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/trump-sejr-i-hoejesteret-presser-dataaftale-med-eu-nu-foreslaas-central-gdpr-regel-aendret"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump-sejr i højesteret presser dataaftale med EU: Nu foreslås central GDPR-regel ændret",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/trump-sejr-i-hoejesteret-presser-dataaftale-med-eu-nu-foreslaas-central-gdpr-regel-aendret",
+          "publishedAt": "2026-07-07T11:57:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.version2.dk/sites/mi/files/styles/article_top_image/public/2026-07/20260707-094041-5-6168x4112ma.jpg",
+        "credit": "Kilde: Version2",
+        "alt": "Illustration af datastrømme mellem EU og USA",
+        "sourceUrl": "https://www.version2.dk/artikel/trump-sejr-i-hoejesteret-presser-dataaftale-med-eu-nu-foreslaas-central-gdpr-regel-aendret"
+      }
+    },
+    {
+      "id": "nato-ankara-greenland-denmark-20260708",
+      "eventKey": "nato-ankara-greenland-2026",
+      "materialFacts": [
+        "På NATO-topmødet i Ankara 7.-8. juli sagde statsminister Mette Frederiksen, at Danmark er parat til at forsvare hver centimeter af NATO, inklusive eget territorium",
+        "Frederiksen fastslog, at Grønland ikke er til salg",
+        "Donald Trump gentog på topmødet kravet om, at USA — ikke Danmark — bør kontrollere Grønland, og hævdede, at striden har skadet hans forhold til NATO",
+        "DIIS-forsker Mikkel Runge Olesen vurderer, at retorikken forblev aggressiv, men uden eksplicit militær trussel"
+      ],
+      "section": "Geopolitik",
+      "headline": "Mette Frederiksen: Danmark er parat til at forsvare Grønland",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/mette-frederiksen-danmark-er-parat-til-forsvare-groenland",
+      "subheadline": "På NATO-topmødet i Ankara afviste statsministeren Trumps fornyede krav om amerikansk kontrol med Grønland.",
+      "body": [
+        "På NATO-topmødet i Ankara 7.-8. juli slog statsminister Mette Frederiksen (Danmark) fast, at Danmark er »parat til at forsvare hver eneste centimeter af NATO, inklusive vores eget territorium«, og at Grønland ikke er til salg. Udmeldingen kom, efter at Donald Trump igen krævede amerikansk kontrol med øen.",
+        "Trump hævdede, at striden om Grønland har »skadet mit forhold til NATO«. DIIS-forsker Mikkel Runge Olesen vurderer, at retorikken forblev aggressiv, men uden eksplicit militær trussel."
+      ],
+      "whyItMatters": "Grønland er nu et fast omdrejningspunkt mellem Danmark og USA, og sagen tvinger Danmark til at omsætte suverænitetsretorik til konkret militær tilstedeværelse i Arktis.",
+      "analysis": "At uenigheden udspiller sig på et NATO-topmøde er bemærkelsesværdigt: alliancens største magt lægger åbent pres på et mindre medlem om territorium. For Danmark er balancen at holde alliancen og samtidig markere en grænse.",
+      "topics": [
+        "grønland",
+        "forsvar",
+        "nato",
+        "rigsfællesskab",
+        "arktis"
+      ],
+      "entities": [
+        "Mette Frederiksen",
+        "Donald Trump",
+        "NATO",
+        "Grønland",
+        "Danmark",
+        "USA",
+        "DIIS"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 64,
+        "novelty": 66,
+        "sourceQuality": 85,
+        "personalRelevance": 80,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Mette Frederiksen: Danmark er parat til at forsvare Grønland",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/mette-frederiksen-danmark-er-parat-til-forsvare-groenland"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mette Frederiksen: Danmark er parat til at forsvare Grønland",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/mette-frederiksen-danmark-er-parat-til-forsvare-groenland",
+          "publishedAt": "2026-07-08T05:42:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/dzxdlwpi/20260708-075304-4-1920x1371web_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Statsminister Mette Frederiksen ved NATO-topmødet i Ankara",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/mette-frederiksen-danmark-er-parat-til-forsvare-groenland"
+      }
+    },
+    {
+      "id": "ai-junk-science-journals-20260709",
+      "eventKey": "ai-junk-science-journals-2026",
+      "materialFacts": [
+        "Ingeniøren beskriver 9. juli, hvordan ubrugelig, ofte AI-genereret videnskab oversvømmer de akademiske tidsskrifter",
+        "Avisens pointe er, at det egentlige problem stikker dybere end AI: forskningens incitamentsstruktur",
+        "Publicér-eller-forsvind-kultur, tvivlsom peer review og masseproduktion af artikler eksisterede før generativ AI",
+        "AI accelererer et eksisterende problem frem for at skabe et nyt"
+      ],
+      "section": "Videnskab",
+      "headline": "Mytedræber: Ubrugelig AI-videnskab oversvømmer tidsskrifter – men problemet er dybere begravet",
+      "primarySourceUrl": "https://ing.dk/artikel/mytedraeber-ubrugelig-ai-videnskab-oversvoemmer-tidsskrifter-men-problemet-er-dybere-begravet",
+      "subheadline": "AI-genereret forskning oversvømmer tidsskrifterne — men Ingeniøren argumenterer for, at det egentlige problem stikker dybere.",
+      "body": [
+        "Ubrugelig, ofte AI-genereret videnskab oversvømmer de akademiske tidsskrifter, konstaterer Ingeniøren. Men avisens pointe er en anden end den gængse: det underliggende problem — forskningens incitamentsstruktur — har eksisteret længe før generativ AI.",
+        "Fortællingen om, at AI alene forurener videnskaben, flytter fokus fra publicér-eller-forsvind-kulturen og tvivlsom peer review, som AI blot accelererer."
+      ],
+      "whyItMatters": "For enhver, der bruger forskning som beslutningsgrundlag — også i investeringer — er signal-støj-forholdet afgørende. Vokser mængden af tomme artikler, bliver den reelle evidens sværere at finde.",
+      "analysis": "Historien er et sundt modsyn til AI-optimismen: generativ AI forstørrer eksisterende systemfejl frem for at opfinde nye.",
+      "counterpoint": "Modsat kan man indvende, at AI’s mængdeeffekt er kvalitativt ny: når omkostningen ved at generere en plausibel artikel falder mod nul, kan et gammelt problem eksplodere i skala.",
+      "topics": [
+        "ai",
+        "forskningsintegritet",
+        "videnskab",
+        "peer-review",
+        "modsyn"
+      ],
+      "entities": [
+        "Ingeniøren",
+        "akademiske tidsskrifter",
+        "generativ AI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 58,
+        "novelty": 66,
+        "sourceQuality": 74,
+        "personalRelevance": 64,
+        "contrast": 82
+      },
+      "claims": [
+        {
+          "text": "Mytedræber: Ubrugelig AI-videnskab oversvømmer tidsskrifter – men problemet er dybere begravet",
+          "sourceUrls": [
+            "https://ing.dk/artikel/mytedraeber-ubrugelig-ai-videnskab-oversvoemmer-tidsskrifter-men-problemet-er-dybere-begravet"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mytedræber: Ubrugelig AI-videnskab oversvømmer tidsskrifter – men problemet er dybere begravet",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/mytedraeber-ubrugelig-ai-videnskab-oversvoemmer-tidsskrifter-men-problemet-er-dybere-begravet",
+          "publishedAt": "2026-07-09T03:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2018-11/science.jpg?itok=M_dDuzxp",
+        "credit": "Kilde: Ingeniøren",
+        "alt": "Videnskabelige tidsskrifter (illustration)",
+        "sourceUrl": "https://ing.dk/artikel/mytedraeber-ubrugelig-ai-videnskab-oversvoemmer-tidsskrifter-men-problemet-er-dybere-begravet"
+      }
+    },
+    {
+      "id": "lares2-frame-dragging-einstein-20260708",
+      "eventKey": "lares2-frame-dragging-2026",
+      "materialFacts": [
+        "Et internationalt hold har målt frame-dragging (Lense-Thirring-effekten) mere præcist end nogensinde med den italienske LARES-2-satellit",
+        "Præcisionen er forbedret med en faktor på over ti, til en usikkerhed omkring én tusindedel (~0,1 procent)",
+        "Målingen er cirka hundrede gange skarpere end NASA’s Gravity Probe B fra 2004",
+        "Resultatet, ledet af Ignazio Ciufolini fra Sapienza-universitetet i Rom, bekræfter den generelle relativitetsteori"
+      ],
+      "section": "Videnskab",
+      "headline": "Scientists just confirmed Einstein’s greatest theory—again",
+      "primarySourceUrl": "https://www.scientificamerican.com/article/einsteins-greatest-theory-triumphs-again-in-landmark-frame-dragging-measurement/",
+      "subheadline": "Den italienske LARES-2-satellit har målt rumtidens »frame-dragging« ti gange mere præcist end hidtil.",
+      "body": [
+        "Et internationalt hold har målt frame-dragging — den effekt, Einstein forudsagde, hvor en roterende masse trækker selve rumtiden med rundt — mere præcist end nogensinde. Målingen bygger på den italienske LARES-2-satellit, opsendt i 2022, sammen med NASA’s LAGEOS-satellitter.",
+        "Præcisionen er forbedret med en faktor på over ti, til en usikkerhed omkring én tusindedel — cirka hundrede gange skarpere end Gravity Probe B fra 2004. Resultatet, ledet af Ignazio Ciufolini fra Sapienza i Rom, bekræfter relativitetsteorien."
+      ],
+      "whyItMatters": "Det er dagens historie uden for arbejdsprofilen: ren grundforskning uden kommerciel nytte, men med den slags præcision, der gør fundamental fysik testbar.",
+      "analysis": "Skønheden ligger i metoden: to spejlbelagte metalkugler i kredsløb, hvis afstand laserstråler fra Jorden måler på millimeterniveau. Hver skarpere test indsnævrer rummet for den »nye fysik«, mange håber at finde bag Einstein.",
+      "topics": [
+        "fysik",
+        "relativitetsteori",
+        "rumfart",
+        "grundforskning",
+        "videnskab"
+      ],
+      "entities": [
+        "LARES-2",
+        "LAGEOS",
+        "Ignazio Ciufolini",
+        "Sapienza",
+        "NASA",
+        "ASI",
+        "Italien"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 30,
+        "novelty": 88,
+        "sourceQuality": 88,
+        "personalRelevance": 40,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "Scientists just confirmed Einstein’s greatest theory—again",
+          "sourceUrls": [
+            "https://www.scientificamerican.com/article/einsteins-greatest-theory-triumphs-again-in-landmark-frame-dragging-measurement/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "LARES-2 målte frame-dragging med en usikkerhed omkring én tusindedel, over ti gange bedre end tidligere",
+          "sourceUrls": [
+            "https://www.scientificamerican.com/article/einsteins-greatest-theory-triumphs-again-in-landmark-frame-dragging-measurement/",
+            "https://www.nature.com/articles/s41586-026-10715-0"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scientists just confirmed Einstein’s greatest theory—again",
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/einsteins-greatest-theory-triumphs-again-in-landmark-frame-dragging-measurement/",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "LARES-2 satellite measures frame-dragging effect around the Earth",
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10715-0",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://static.scientificamerican.com/dam/asset/564b00e7-9257-4530-9b8b-1243256364b3/LARES-2.jpg?m=1783523459.787&w=1200",
+        "credit": "Foto: OHB Italia",
+        "alt": "Den spejlbelagte LARES-2-satellit i et renrum før opsendelsen",
+        "sourceUrl": "https://www.scientificamerican.com/article/einsteins-greatest-theory-triumphs-again-in-landmark-frame-dragging-measurement/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Trump says ceasefire ‘over’, re-ups threats after US and Iran trade attacks",
+      "url": "https://www.aljazeera.com/news/2026/7/8/trump-says-ceasefire-over-after-us-iran-trade-attacks",
+      "headline": "Trump says ceasefire ‘over’, re-ups threats after US and Iran trade attacks",
+      "summary": "Trump erklærede juni-våbenhvilen med Iran for ophørt efter gensidige angreb; olie og renter steg, mens aktier faldt. USA/Iran.",
+      "publisher": "Al Jazeera",
+      "section": "Geopolitik",
+      "publishedAt": "2026-07-08T12:00:00.000Z"
+    },
+    {
+      "text": "Microsoft Replaces OpenAI, Anthropic With Own AI in Some Apps",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-07/microsoft-replaces-openai-anthropic-with-own-ai-in-some-apps",
+      "headline": "Microsoft Replaces OpenAI, Anthropic With Own AI in Some Apps",
+      "summary": "Microsoft (USA) begynder at erstatte OpenAI- og Anthropic-modeller med egne modeller i udvalgte produkter — et skridt mod vertikal integration og lavere modelomkostninger.",
+      "publisher": "Bloomberg",
+      "section": "AI",
+      "publishedAt": "2026-07-07T12:00:00.000Z"
+    },
+    {
+      "text": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "url": "https://techcrunch.com/2026/07/07/ai-law-startup-norm-raises-120m-hits-unicorn-valuation/",
+      "headline": "AI law startup Norm raises $120M, hits unicorn valuation",
+      "summary": "Legaltech-startuppen Norm (USA, New York) rejste 120 mio. dollar til en unicorn-værdi, ledet af Khosla Ventures, Blackstone og Bain Capital Ventures. AI til regulatorisk arbejde.",
+      "publisher": "TechCrunch",
+      "section": "AI",
+      "publishedAt": "2026-07-07T13:00:00.000Z"
+    },
+    {
+      "text": "Prisen for at være først: Nu skal svensk stålværk mestre teknologien bag »næsten nul-stål«",
+      "url": "https://ing.dk/artikel/prisen-vaere-foerst-nu-skal-svensk-staalvaerk-mestre-teknologien-bag-naesten-nul-staal",
+      "headline": "Prisen for at være først: Nu skal svensk stålværk mestre teknologien bag »næsten nul-stål«",
+      "summary": "Et svensk stålværk skal mestre brint-baseret »næsten nul-stål« — en af Europas dyreste industrielle dekarboniseringsvæddemål. Sverige.",
+      "publisher": "Ingeniøren",
+      "section": "Deeptech",
+      "publishedAt": "2026-07-08T11:43:00.000Z"
+    },
+    {
+      "text": "Oak Ridge National Lab, Cleveland Clinic, and IBM Achieve First-Known Computations of Fusion Materials on a Quantum Computer",
+      "url": "https://newsroom.ibm.com/2026-07-06-oak-ridge-national-lab,-cleveland-clinic,-and-ibm-achieve-first-known-computations-of-fusion-materials-on-a-quantum-computer",
+      "headline": "Oak Ridge National Lab, Cleveland Clinic, and IBM Achieve First-Known Computations of Fusion Materials on a Quantum Computer",
+      "summary": "Oak Ridge, Cleveland Clinic og IBM (USA) beregnede for første gang fusionsmaterialer på en kvantecomputer — et tidligt, men konkret skridt for kvante-HPC i materialeforskning.",
+      "publisher": "IBM Newsroom",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-06T13:00:00.000Z"
+    },
+    {
+      "text": "Danish VC Climentum Capital secures €60M first close for climate hardware investments",
+      "url": "https://tech.eu/2026/07/03/danish-vc-climentum-capital-secures-eur60m-first-close-for-climate-hardware-investments/",
+      "headline": "Danish VC Climentum Capital secures €60M first close for climate hardware investments",
+      "summary": "Den danske venturefond Climentum Capital lukkede første runde på 60 mio. euro til klima-hardware, med EIF blandt investorerne. Danmark/EU.",
+      "publisher": "Tech.eu",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-03T10:04:05.000Z"
+    },
+    {
+      "text": "Techbosserne sagde, at AI redder klimaet: Nu vil datacenter-lobby have EU til at droppe klimamål",
+      "url": "https://www.version2.dk/artikel/techbosserne-sagde-ai-redder-klimaet-nu-vil-datacenter-lobby-have-eu-til-droppe-klimamaal",
+      "headline": "Techbosserne sagde, at AI redder klimaet: Nu vil datacenter-lobby have EU til at droppe klimamål",
+      "summary": "En datacenter-lobby presser EU for at lempe klimamål — stik imod fortællingen om, at AI hjælper den grønne omstilling. EU/Danmark.",
+      "publisher": "Version2",
+      "section": "Klima",
+      "publishedAt": "2026-07-08T09:48:00.000Z"
+    },
+    {
+      "text": "Tryg har fået nye medarbejdere, som elsker rutineopgaver: De hedder AI til efternavn",
+      "url": "https://www.dr.dk/nyheder/penge/tryg-har-faaet-nye-medarbejdere-som-elsker-rutineopgaver-de-hedder-ai-til-efternavn",
+      "headline": "Tryg har fået nye medarbejdere, som elsker rutineopgaver: De hedder AI til efternavn",
+      "summary": "Forsikringsselskabet Tryg (Danmark) har sat tre navngivne AI-agenter i arbejde med videnssøgning, opkald og skadesvurdering — et konkret dansk eksempel på praktisk AI på arbejdspladsen.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-07-08T15:59:00.000Z"
+    },
+    {
+      "text": "Luftfartsdirektør stopper: Skifter SAS ud med Air Canada",
+      "url": "https://www.dr.dk/nyheder/penge/luftfartsdirektoer-stopper-skifter-sas-ud-med-air-canada",
+      "headline": "Luftfartsdirektør stopper: Skifter SAS ud med Air Canada",
+      "summary": "SAS-topchef Anko van der Werff stopper i starten af 2027 for at blive chef for Air Canada — otte dage efter en investeringsplan på ca. 65 mia. kr. Danmark/Canada.",
+      "publisher": "DR",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-08T12:57:00.000Z"
+    },
+    {
+      "text": "København topper prestigefyldt liste igen",
+      "url": "https://nyheder.tv2.dk/samfund/2026-07-07-koebenhavn-topper-prestigefyldt-liste-igen",
+      "headline": "København topper prestigefyldt liste igen",
+      "summary": "København er for andet år i træk kåret som verdens mest leveværdige by i Economist Intelligence Units indeks. Danmark.",
+      "publisher": "TV 2",
+      "section": "Indland",
+      "publishedAt": "2026-07-07T10:00:00.000Z"
+    },
+    {
+      "text": "NATO Approves $40 Billion Counter-Drone Initiative to Defeat Low-Cost UAV Threats",
+      "url": "https://www.armyrecognition.com/news/aerospace-news/2026/nato-approves-40-billion-counter-drone-initiative-to-defeat-low-cost-uav-threats",
+      "headline": "NATO Approves $40 Billion Counter-Drone Initiative to Defeat Low-Cost UAV Threats",
+      "summary": "NATO godkendte på Ankara-topmødet et initiativ på 40 mia. dollar mod billige drone-trusler — en prioritering af netop den deeptech-kapacitet, Europa mangler.",
+      "publisher": "Army Recognition",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-07T11:58:00.000Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-aiface-20260709",
+      "mode": "watch",
+      "kind": "AI-kortfilm",
+      "status": "new",
+      "title": "A Face Only a Mother Could Love",
+      "creator": "Robert Gaudette",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=wytfCS-N8Sk",
+      "availability": "Gratis på YouTube, hele verden, uden login. ~8 min.",
+      "commitment": "Kortfilm, ~8 min",
+      "description": "8-minutters AI-genereret kortfilm om Marcel, en pariser med ansigtsdeformitet, der danser hver aften for en ledsager, der aldrig kommer. Lavet solo af én autodidakt uden skuespillere eller crew. Grand Prix ved Runway AI Film Festival 2026.",
+      "rationale": "Otte minutter, der præcist viser, hvor AI-filmhåndværket står nu: emotionel sammenhæng skabt af én person uden hold. Et konkret pejlemærke for, hvad omkostningskollapset i generativ film åbner — set fra din interesse i AI og kreativitet.",
+      "topics": [
+        "ai-film",
+        "generativ ai",
+        "kreativitet"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://i.ytimg.com/vi/wytfCS-N8Sk/maxresdefault.jpg",
+        "credit": "Robert Gaudette / YouTube",
+        "alt": "Still fra AI-kortfilmen A Face Only a Mother Could Love",
+        "sourceUrl": "https://www.youtube.com/watch?v=wytfCS-N8Sk"
+      }
+    },
+    {
+      "id": "rec-sophie-calle-20260709",
+      "mode": "experience",
+      "kind": "udstilling",
+      "status": "timely",
+      "title": "Sophie Calle: Something Missing?",
+      "creator": "Sophie Calle",
+      "provider": "Louisiana Museum of Modern Art",
+      "url": "https://louisiana.dk/en/exhibition/sophie-calle/",
+      "availability": "Louisiana, Humlebæk. Vises nu og frem til 6. september 2026. Kræver besøg/entré.",
+      "commitment": "Museumsbesøg, ~2 t",
+      "description": "Stor Louisiana-retrospektiv med syv af Sophie Calles hovedserier — foto, tekst og video — om fravær, tab, kærlighed og selve blikket. Skabt i tæt samarbejde med kunstneren.",
+      "rationale": "Serendipitet uden for arbejdet: konceptkunst, der behandler psykologi, hukommelse og fravær med præcision og humor — tæt på din interesse i psykologi og filosofi. En times kørsel fra København, og den lukker 6. september.",
+      "topics": [
+        "konceptkunst",
+        "psykologi",
+        "kultur"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-deeptech-report-20260709",
+      "mode": "read",
+      "kind": "rapport",
+      "status": "new",
+      "title": "The European Deep Tech Report 2026",
+      "creator": "Dealroom.co",
+      "provider": "Dealroom.co",
+      "url": "https://dealroom.co/reports/the-european-deep-tech-report-2026",
+      "availability": "Gratis online; fuld download kræver e-mail-registrering. Kan skimmes efter sektor.",
+      "commitment": "Rapport, ~240 sider (kan skimmes)",
+      "description": "Dealrooms årlige kortlægning af europæisk deeptech: kapital, sektorer, forsvars- og kvanteteknologi og de førende virksomheder og fonde på tværs af Europa.",
+      "rationale": "Den mest datatætte enkeltkilde til det landskab, du arbejder i til daglig i EIFO. Skim de sektorer, der rører sig i dagens nyheder — forsvar, kvante, halvledere — og brug den som referenceramme frem for endnu en enkeltstående nyhed.",
+      "topics": [
+        "deeptech",
+        "venturekapital",
+        "europa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-latentspace-diffusion-20260709",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "The Coolest Diffusion Research Isn’t in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "creator": "Latent Space",
+      "provider": "Latent Space",
+      "url": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
+      "availability": "Gratis, hele verden. Udgivet 1. juli 2026. Cirka 1 t 48 min.",
+      "commitment": "Podcast, ~1 t 48 min",
+      "description": "Latent Space-samtale med Evan Feinberg og Sergey Edunov (Genesis Molecular AI) om diffusionsmodeller uden for sprogmodellerne — og hvordan de rykker molekyle- og materialeforskning.",
+      "rationale": "Modvægt til LLM-fokusset i dagens billede: hvor diffusionsforskningen faktisk flytter grænser i biologi og materialer. Relevant for din deeptech- og biotek-interesse, og et bud på, hvor næste bølge af anvendt AI kan komme fra.",
+      "topics": [
+        "ai",
+        "diffusionsmodeller",
+        "deeptech"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 86,
+    "sourceQuality": 85,
+    "outsideProfile": 84,
+    "diversity": 84,
+    "novelty": 83
+  }
+}
