@@ -1,0 +1,677 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-10-daily-v1",
+  "date": "2026-07-10",
+  "generatedAt": "2026-07-10T03:40:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Amerikansk venturekapital satte halvårsrekord med 412,7 mia. dollar — og 86 procent gik til AI. Britiske Kraken bliver forsvars-tech-enhjørning med NATO's fond og Rheinmetall i ryggen, München-baserede QuantumDiamonds henter 91 mio. euro på Chips Act-støtte, og Federal Reserve er dybt splittet om renten. Harvard skriver DNA på en siliciumchip, Volkswagen halverer sit modelprogram, Ungarns statsmedier går i sort — og Østre Landsret giver 248 demonstranter medhold mod politiet.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "keyNumber": {
+    "label": "Vesteuropas varmeste juni, der er målt",
+    "value": "20,74",
+    "unit": "°C",
+    "asOf": "juni 2026",
+    "caption": "3,05 °C over gennemsnittet for 1991-2020 og en ny rekord — drevet af de højeste havtemperaturer, der er registreret for en junimåned.",
+    "sourceUrl": "https://climate.copernicus.eu/copernicus-record-heatwave-brings-hottest-june-western-europe-during-second-warmest-june-globally",
+    "sourceTitle": "Copernicus: Record heatwave brings hottest June for western Europe during second-warmest June globally"
+  },
+  "stories": [
+    {
+      "id": "us-venture-h1-2026-ai-concentration-20260710",
+      "eventKey": "us-venture-h1-2026-ai-concentration",
+      "materialFacts": [
+        "Amerikansk venturekapital nåede 412,7 mia. dollar i første halvår af 2026 — knap 30 procent mere end hele 2025 tilsammen (PitchBook)",
+        "AI-selskaber lagde beslag på 355,9 mia. dollar, svarende til omkring 86 procent af hver venturedollar i perioden",
+        "Mega-runder på 100 mio. dollar og derover stod for 87,5 procent af al udbetalt kapital"
+      ],
+      "section": "Marked",
+      "headline": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate",
+      "primarySourceUrl": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/",
+      "subheadline": "Venturekapitalen satte halvårsrekord — men næsten hver eneste dollar samlede sig om kunstig intelligens og de allerstørste runder.",
+      "body": [
+        "Amerikansk venturekapital nåede 412,7 mia. dollar i første halvår af 2026 — knap 30 procent mere end hele 2025 tilsammen, viser tal fra PitchBook. Men kapitalen samler sig: AI-selskaber tog 355,9 mia. dollar, omkring 86 procent af hver venturedollar i perioden.",
+        "Koncentrationen gælder også rundestørrelsen. Mega-runder på 100 mio. dollar og derover stod for 87,5 procent af al udbetalt kapital, mens de tidlige, brede væddemål måtte deles om resten. USA trækker næsten hele læsset."
+      ],
+      "whyItMatters": "Når 86 procent af pengene ligger i store AI-runder, er markedet ekstremt eksponeret mod én tese og mod få meget store selskaber.",
+      "analysis": "Det er ikke et bredt opsving, men en satsning på, at agentisk AI og infrastruktur tjener de enorme runder hjem — og det efterlader seed, ikke-AI og Europa relativt kapitalfattige.",
+      "counterpoint": "PitchBook måler dollar, ikke afkast. Koncentrationen kan lige så vel afspejle, at de bedste muligheder faktisk ligger i AI, som at markedet overopheder.",
+      "image": {
+        "url": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2020/10/sandhillroad.jpg",
+        "credit": "Kilde: SiliconANGLE",
+        "alt": "Sand Hill Road, det traditionelle centrum for amerikansk venturekapital",
+        "sourceUrl": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"
+      },
+      "topics": ["venturekapital", "marked", "ai", "koncentration", "usa"],
+      "entities": ["PitchBook", "USA", "kunstig intelligens"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 86,
+        "decisionValue": 88,
+        "novelty": 72,
+        "sourceQuality": 80,
+        "personalRelevance": 90,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "Amerikansk venturekapital nåede 412,7 mia. dollar i H1 2026, og AI-selskaber tog 355,9 mia. dollar (ca. 86 procent).",
+          "sourceUrls": ["https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"],
+          "confidence": "high"
+        },
+        {
+          "text": "Mega-runder på 100 mio. dollar og derover stod for 87,5 procent af al udbetalt kapital.",
+          "sourceUrls": ["https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "PitchBook: US venture funding hits $412.7B in first half as AI deals dominate",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/07/09/pitchbook-us-venture-funding-hits-412-7b-first-half-ai-deals-dominate/",
+          "publishedAt": "2026-07-09T04:01:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "kraken-technology-series-b-unicorn-20260710",
+      "eventKey": "kraken-technology-series-b-unicorn-2026",
+      "materialFacts": [
+        "Britiske Kraken Technology har rejst 175 mio. dollar i en Series B og passerer en værdiansættelse på 1 mia. dollar",
+        "Runden ledes af tyske DTCP; investorer inkluderer British Business Bank, NATO Innovation Fund, Rheinmetall, franske Inocea, Hico, Thesiger og BOKA",
+        "Kraken bygger autonome maritime platforme, bl.a. ubemandede undervandsfartøjer, og leverer til NATO, det britiske forsvarsministerium og den amerikanske flåde"
+      ],
+      "section": "Forsvarsteknologi",
+      "headline": "Maritime defence startup Kraken Technology hits unicorn status",
+      "primarySourceUrl": "https://tech.eu/2026/07/09/maritime-defence-startup-kraken-technology-hits-unicorn-status/",
+      "subheadline": "Storbritanniens nyeste forsvars-tech-enhjørning har NATO's egen fond og våbenkoncernen Rheinmetall blandt investorerne.",
+      "body": [
+        "Britiske Kraken Technology har rejst 175 mio. dollar i en Series B og passerer en værdiansættelse på 1 mia. dollar — Storbritanniens nyeste forsvars-tech-enhjørning. Kraken bygger autonome maritime platforme, bl.a. ubemandede undervandsfartøjer, og leverer til NATO, det britiske forsvarsministerium og den amerikanske flåde.",
+        "Runden ledes af tyske DTCP, og investorkredsen er markant forsvarsnær: British Business Bank, NATO Innovation Fund, den tyske våbenkoncern Rheinmetall og franske Inocea med flere. Selskabet samarbejder desuden med amerikanske Anduril."
+      ],
+      "whyItMatters": "Kapitalen bag europæisk forsvars-tech samler sig om få skalerbare aktører. At NATO's egen fond og Rheinmetall er med, viser, hvordan offentlig og privat kapital smelter sammen om sikkerhed.",
+      "analysis": "For en investor er spørgsmålet, om ordrebøgerne følger værdiansættelserne, eller om forsvars-hypen løber foran indtjeningen.",
+      "image": {
+        "url": "https://cdn.tech.eu/uploads/2026/07/kraken-560.png",
+        "credit": "Kilde: Tech.eu",
+        "alt": "Kraken Technologys autonome maritime fartøj",
+        "sourceUrl": "https://tech.eu/2026/07/09/maritime-defence-startup-kraken-technology-hits-unicorn-status/"
+      },
+      "topics": ["forsvarsteknologi", "venturekapital", "maritim autonomi", "teknologisk suverænitet", "europa"],
+      "entities": ["Kraken Technology", "DTCP", "NATO Innovation Fund", "Rheinmetall", "British Business Bank", "Anduril", "Storbritannien", "Tyskland"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 82,
+        "novelty": 80,
+        "sourceQuality": 78,
+        "personalRelevance": 92,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Kraken Technology rejste 175 mio. dollar i Series B til en værdiansættelse på 1 mia. dollar, ledet af DTCP med bl.a. NATO Innovation Fund og Rheinmetall.",
+          "sourceUrls": ["https://tech.eu/2026/07/09/maritime-defence-startup-kraken-technology-hits-unicorn-status/", "https://www.bloomberg.com/news/articles/2026-07-09/autonomous-boat-developer-kraken-technology-raises-at-1-billion-valuation"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maritime defence startup Kraken Technology hits unicorn status",
+          "publisher": "Tech.eu",
+          "url": "https://tech.eu/2026/07/09/maritime-defence-startup-kraken-technology-hits-unicorn-status/",
+          "publishedAt": "2026-07-09T10:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Autonomous Boat Developer Kraken Technology Raises at $1 Billion Valuation",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-09/autonomous-boat-developer-kraken-technology-raises-at-1-billion-valuation",
+          "publishedAt": "2026-07-09T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "quantumdiamonds-91m-chips-act-20260710",
+      "eventKey": "quantumdiamonds-91m-chips-act-2026",
+      "materialFacts": [
+        "München-baserede QuantumDiamonds har rejst 91 mio. euro: en egenkapitalrunde på 15 mio. euro ledet af World Fund plus 76 mio. euro i ikke-udvandende EU Chips Act-støtte",
+        "Støtten kommer fra det tyske erhvervsministerium og delstaten Bayern; ifølge selskabet er det den første startup med egentlig produktionsstøtte under Chips Act",
+        "Teknologien bruger nitrogen-vacancy-centre i syntetiske diamanter som sensorer til at finde nanoskala-fejl i halvlederchips"
+      ],
+      "section": "Deeptech",
+      "headline": "QuantumDiamonds Raises €91 Million to Set The Global Standard For Next-Generation Chip Inspection",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/07/09/quantumdiamonds-raises-e91-million-to-set-the-global-standard-for-next-generation-chip-inspection/",
+      "subheadline": "Tre fjerdedele af pengene er statslig Chips Act-støtte til det udstyrslag, der afgør chipfabrikkernes udbytte.",
+      "body": [
+        "München-baserede QuantumDiamonds har rejst 91 mio. euro til at industrialisere kvantesensorer, der kan finde nanoskala-fejl i halvlederchips. Pakken er en egenkapitalrunde på 15 mio. euro ledet af klimafonden World Fund plus 76 mio. euro i ikke-udvandende EU Chips Act-støtte fra det tyske erhvervsministerium og delstaten Bayern.",
+        "Ifølge selskabet er det den første startup med egentlig produktionsstøtte under Chips Act. Teknologien bygger på nitrogen-vacancy-centre i syntetiske diamanter, der måler defekter i avancerede chips."
+      ],
+      "whyItMatters": "For første gang går Chips Act-penge til det udstyrslag, der afgør, om fabrikkerne kan producere med højt udbytte — netop den slags dybe flaskehalse, teknologisk suverænitet handler om.",
+      "analysis": "Tre fjerdedele er statslig, ikke-udvandende støtte: Europa bruger tilskud til at holde kritisk deep-tech hjemme — men ville markedet selv have finansieret sagen?",
+      "image": {
+        "url": "https://thequantuminsider.com/wp-content/uploads/2026/07/Series_A_Banner.webp",
+        "credit": "Kilde: The Quantum Insider",
+        "alt": "QuantumDiamonds' kvantesensorteknologi til inspektion af halvlederchips",
+        "sourceUrl": "https://thequantuminsider.com/2026/07/09/quantumdiamonds-raises-e91-million-to-set-the-global-standard-for-next-generation-chip-inspection/"
+      },
+      "topics": ["deeptech", "kvante", "halvledere", "teknologisk suverænitet", "tyskland"],
+      "entities": ["QuantumDiamonds", "World Fund", "EU Chips Act", "Bayern", "Tyskland", "München"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 76,
+        "personalRelevance": 90,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "QuantumDiamonds rejste 91 mio. euro (15 mio. euro egenkapital ledet af World Fund plus 76 mio. euro i Chips Act-støtte fra Tyskland og Bayern).",
+          "sourceUrls": ["https://thequantuminsider.com/2026/07/09/quantumdiamonds-raises-e91-million-to-set-the-global-standard-for-next-generation-chip-inspection/", "https://www.hpcwire.com/off-the-wire/quantumdiamonds-raises-e91m-to-set-global-standard-for-next-gen-chip-inspection/"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "QuantumDiamonds Raises €91 Million to Set The Global Standard For Next-Generation Chip Inspection",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/07/09/quantumdiamonds-raises-e91-million-to-set-the-global-standard-for-next-generation-chip-inspection/",
+          "publishedAt": "2026-07-09T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "QuantumDiamonds Raises €91M to Set Global Standard for Next-Gen Chip Inspection",
+          "publisher": "HPCwire",
+          "url": "https://www.hpcwire.com/off-the-wire/quantumdiamonds-raises-e91m-to-set-global-standard-for-next-gen-chip-inspection/",
+          "publishedAt": "2026-07-09T13:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "fomc-june-2026-minutes-rate-split-20260710",
+      "eventKey": "fomc-june-2026-minutes-rate-split",
+      "materialFacts": [
+        "Referatet fra Federal Reserves møde 16.-17. juni, offentliggjort 8. juli, viser en centralbank dybt splittet om renteretningen",
+        "Renten blev fastholdt enstemmigt i intervallet 3,5-3,75 procent, hvor den har ligget hele 2026",
+        "'Mange deltagere' ser årets renteniveau i eller lige under intervallet, mens 'mange andre' ser det højere; enkelte så et argument for en forhøjelse nu"
+      ],
+      "section": "Makroøkonomi",
+      "headline": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "primarySourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+      "subheadline": "Renten blev holdt i ro med enstemmighed, men referatet afslører en usædvanligt splittet komité om, hvad der bør ske resten af året.",
+      "body": [
+        "Referatet fra den amerikanske centralbanks rentemøde 16.-17. juni, offentliggjort 8. juli, viser en Federal Reserve, der er dybt splittet om retningen. Renten blev fastholdt enstemmigt i intervallet 3,5-3,75 procent, hvor den har ligget hele 2026, men enigheden stopper der.",
+        "'Mange deltagere' ser årets renteniveau i eller lige under intervallet, mens 'mange andre' mener, det bør ligge højere. Enkelte så et argument for en forhøjelse nu, men bakkede op om at holde renten i ro. Inflationen ventes at aftage i andet halvår, mens kerneinflationen næppe ændrer sig."
+      ],
+      "whyItMatters": "Det er ikke niveauet, men spredningen, der betyder noget: en komité, hvor lige mange trækker hver vej, giver ringe forudsigelighed — netop når AI-drevne aktievurderinger er rentefølsomme.",
+      "analysis": "Splittelsen giver nye inflationstal uforholdsmæssig vægt: en enkelt skuffende måling kan tippe balancen mod den fløj, der vil hæve.",
+      "primaryExcerpt": {
+        "quote": "Many participants indicated that the appropriate level of the federal funds rate would be within or slightly below the current target range at the end of this year",
+        "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+        "sourceTitle": "Minutes of the Federal Open Market Committee, June 16-17, 2026"
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg/1280px-Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Federal Reserves hovedsæde, Marriner S. Eccles-bygningen i Washington",
+        "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"
+      },
+      "topics": ["makroøkonomi", "renter", "centralbank", "inflation", "usa"],
+      "entities": ["Federal Reserve", "FOMC", "USA"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 84,
+        "novelty": 66,
+        "sourceQuality": 92,
+        "personalRelevance": 74,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "FOMC fastholdt enstemmigt renten på 3,5-3,75 procent, men var splittet: mange deltagere så årets niveau i/under intervallet, mange andre over.",
+          "sourceUrls": ["https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+          "publishedAt": "2026-07-08T18:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "harvard-silicon-chip-dna-synthesis-20260710",
+      "eventKey": "harvard-silicon-chip-dna-synthesis-2026",
+      "materialFacts": [
+        "Et Harvard-hold har fået en siliciumchip til at syntetisere 64 forskellige DNA-sekvenser samtidig, hver på op til ca. 39 nukleotider",
+        "Chippen bruger små elektriske strømme, hvor elektroder danner protoner, der lokalt sænker pH og styrer, hvor DNA'et vokser",
+        "Metoden er vandbaseret og enzymatisk og erstatter DNA-syntese med farlige opløsningsmidler; offentliggjort i Nature Electronics"
+      ],
+      "section": "Deeptech",
+      "headline": "Harvard scientists turn a silicon chip into a DNA writing machine",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
+      "subheadline": "Samme chipteknologi, der driver AI, bliver her til biologisk produktionsudstyr — med DNA-datalagring som en fjern mulighed.",
+      "body": [
+        "Et forskerhold fra Harvard har fået en almindelig siliciumchip til at fungere som en DNA-fabrik. På chippens overflade syntetiserede holdet 64 forskellige DNA-sekvenser samtidig, hver på op til omkring 39 nukleotider, ved at sende små elektriske strømme, der lokalt sænker pH og styrer, hvor DNA'et vokser.",
+        "Metoden er vandbaseret og enzymatisk og erstatter DNA-syntese med farlige opløsningsmidler. Resultatet, offentliggjort i Nature Electronics, peger mod mindre, sikrere og billigere apparater til at skrive DNA — og på sigt datalagring i DNA."
+      ],
+      "whyItMatters": "DNA-syntese er en flaskehals i biotek; hurtigere og billigere skrivning fremskynder alt fra lægemidler til syntetisk biologi. At lægge processen på en halvlederchip kobler to dyre teknologier.",
+      "analysis": "Springet fra 64 sekvenser til industriel skala er stort, men princippet — programmerbar kemi på silicium — er den slags platform, der flytter hele felter.",
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/chip-dna-writer.webp",
+        "credit": "Kilde: ScienceDaily / Harvard SEAS",
+        "alt": "Illustration af en siliciumchip, der syntetiserer DNA",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm"
+      },
+      "topics": ["deeptech", "biotek", "halvledere", "syntetisk biologi", "usa"],
+      "entities": ["Harvard", "Harvard SEAS", "Nature Electronics", "USA"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 62,
+        "novelty": 88,
+        "sourceQuality": 78,
+        "personalRelevance": 76,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Harvard-forskere syntetiserede 64 forskellige DNA-sekvenser parallelt på en siliciumchip via elektrisk styret, vandbaseret enzymatisk kemi (Nature Electronics).",
+          "sourceUrls": ["https://www.sciencedaily.com/releases/2026/07/260708022202.htm"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Harvard scientists turn a silicon chip into a DNA writing machine",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "vw-future-plan-halve-lineup-20260710",
+      "eventKey": "vw-future-plan-halve-lineup-2026",
+      "materialFacts": [
+        "Volkswagens bestyrelse fremlagde 9. juli en fremtidsplan, der skærer modeludbuddet med op til 50 procent",
+        "Antallet af tilvalg og varianter på de overlevende modeller skæres med op til 75 procent, og produktionskapaciteten sænkes mod cirka 9 mio. biler om året",
+        "VW begrunder indgrebet med geopolitiske spændinger, told, regulatoriske krav og hård global konkurrence"
+      ],
+      "section": "Erhverv",
+      "headline": "Executive Board Presents Future Plan",
+      "primarySourceUrl": "https://www.volkswagen-group.com/en/press-releases/executive-board-presents-future-plan-20514",
+      "subheadline": "Europas største bilproducent halverer sit modelprogram — et strukturelt tilbagetog under pres fra told og kinesisk konkurrence.",
+      "body": [
+        "Volkswagens bestyrelse fremlagde 9. juli en 'fremtidsplan', der skærer dybt i modeludbuddet. Antallet af modeller reduceres med op til 50 procent og koncentreres om de mest attraktive segmenter, mens tilvalg og varianter skæres med op til 75 procent. Produktionskapaciteten sænkes mod cirka 9 mio. biler om året.",
+        "VW begrunder indgrebet med geopolitiske spændinger, told, skærpede krav og hård konkurrence — ikke mindst fra kinesiske producenter. Ifølge Transport Topics stoppede bestyrelsen dog op før de dybeste jobnedskæringer, som topchef Oliver Blume havde lagt op til."
+      ],
+      "whyItMatters": "Europas største bilproducent, der trækker sig strukturelt sammen, er en varsler for kontinentets industribase — og en test af, om et europæisk flagskib kan matche kinesiske elbiler på pris.",
+      "analysis": "At skære i modeller frem for kun i job angriber kompleksiteten — men færre nicher betyder segmenter, kineserne kan overtage.",
+      "image": {
+        "url": "https://uploads.vw-mms.de/system/production/images/cws/081/255/images/58535d186d993ddf7197e56d10ee14bad022ed8d/B2024CW00084_web_1600.jpg?1739540401",
+        "credit": "Kilde: Volkswagen Group",
+        "alt": "Volkswagens logo og produktionsanlæg",
+        "sourceUrl": "https://www.volkswagen-group.com/en/press-releases/executive-board-presents-future-plan-20514"
+      },
+      "topics": ["erhverv", "industri", "biler", "told", "tyskland"],
+      "entities": ["Volkswagen", "Oliver Blume", "Kina", "Tyskland"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 66,
+        "novelty": 70,
+        "sourceQuality": 82,
+        "personalRelevance": 48,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "VW's bestyrelse besluttede 9. juli at skære modeludbuddet med op til 50 procent, varianter med op til 75 procent og kapaciteten mod ca. 9 mio. biler/år.",
+          "sourceUrls": ["https://www.volkswagen-group.com/en/press-releases/executive-board-presents-future-plan-20514"],
+          "confidence": "high"
+        },
+        {
+          "text": "Bestyrelsen stoppede op før de dybeste nedskæringer i arbejdsstyrken, som topchef Oliver Blume havde lagt op til.",
+          "sourceUrls": ["https://www.volkswagen-group.com/en/press-releases/executive-board-presents-future-plan-20514", "https://www.ttnews.com/articles/vw-plans-model-cuts-50-percent"],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Executive Board Presents Future Plan",
+          "publisher": "Volkswagen Group",
+          "url": "https://www.volkswagen-group.com/en/press-releases/executive-board-presents-future-plan-20514",
+          "publishedAt": "2026-07-09T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "VW Targets Model Cuts of Up to 50% After Board Showdown",
+          "publisher": "Transport Topics",
+          "url": "https://www.ttnews.com/articles/vw-plans-model-cuts-50-percent",
+          "publishedAt": "2026-07-09T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "hungary-state-media-dismantling-20260710",
+      "eventKey": "hungary-state-media-dismantling-2026",
+      "materialFacts": [
+        "Ungarns største public service-kanal M1 og Radio Kossuth gik i sort; ved genstart stod der, at statsstøttede medier 'ikke skal lyve'",
+        "Bag opgøret står premierminister Peter Magyar, der væltede Viktor Orbán ved valget i april efter 16 år ved magten",
+        "En ny medielov giver en midlertidig ledelse mandat til at afvikle medieselskabet MTVA; flere chefer og journalister er afskediget med øjeblikkelig virkning"
+      ],
+      "section": "Udland",
+      "headline": "Pludselig gik skærmen i sort: Nu begynder opgøret med Ungarns statsmedier",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/pludselig-gik-skaermen-i-sort-nu-begynder-opgoeret-med-ungarns-statsmedier",
+      "subheadline": "Et post-Orbán-Ungarn begynder at afvikle et fanget mediehus — en principiel test for hele Europa.",
+      "body": [
+        "For første gang i omkring 70 år gik skærmen i sort på Ungarns største public service-kanal M1 og på Radio Kossuth. Da sendingen vendte tilbage, stod der, at statsstøttede medier 'ikke skal lyve', med en undskyldning for at have gjort det i årevis. Det markerer starten på afviklingen af medieselskabet MTVA.",
+        "Bag opgøret står Ungarns nye premierminister, Peter Magyar, der i april væltede Viktor Orbán efter 16 år ved magten. En ny medielov giver en midlertidig ledelse mandat til at omstrukturere MTVA, og flere chefer og journalister er afskediget."
+      ],
+      "whyItMatters": "Statsmedierne har været en central del af Orbáns magtapparat. Hvordan et post-Orbán-Ungarn afvikler et fanget mediehus er en principiel test for Europa.",
+      "analysis": "Selvanklagen er både opgør og magtsprog. Risikoen er, at en retmæssig oprydning glider over i ny politisk styring med modsat fortegn — uafhængighed måles på strukturen, ikke på undskyldningen.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/fs4fy03r/20260707-171053-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Ungarns statslige tv-bygning i Budapest",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/pludselig-gik-skaermen-i-sort-nu-begynder-opgoeret-med-ungarns-statsmedier"
+      },
+      "topics": ["udland", "mediefrihed", "demokrati", "europa", "ungarn"],
+      "entities": ["Ungarn", "Peter Magyar", "Viktor Orbán", "MTVA", "M1", "Radio Kossuth"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 58,
+        "novelty": 74,
+        "sourceQuality": 74,
+        "personalRelevance": 40,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "Ungarns statslige medieselskab MTVA er under afvikling under PM Peter Magyar; M1 og Radio Kossuth gik i sort, og medarbejdere er afskediget.",
+          "sourceUrls": ["https://www.dr.dk/nyheder/udland/pludselig-gik-skaermen-i-sort-nu-begynder-opgoeret-med-ungarns-statsmedier", "https://www.euronews.com/my-europe/2026/07/07/public-media-cannot-lie-hungary-pulls-plug-on-state-broadcaster-in-post-orban-purge"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pludselig gik skærmen i sort: Nu begynder opgøret med Ungarns statsmedier",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/pludselig-gik-skaermen-i-sort-nu-begynder-opgoeret-med-ungarns-statsmedier",
+          "publishedAt": "2026-07-07T18:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "'Public media cannot lie': Hungary pulls plug on state broadcaster in post-Orban purge",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/07/07/public-media-cannot-lie-hungary-pulls-plug-on-state-broadcaster-in-post-orban-purge",
+          "publishedAt": "2026-07-07T16:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "ostre-landsret-mass-detention-20260710",
+      "eventKey": "ostre-landsret-1may2019-mass-detention-2026",
+      "materialFacts": [
+        "Østre Landsret har givet 248 demonstranter medhold i en sag mod Københavns Politi om en masseanholdelse 1. maj 2019",
+        "Demonstrationen gik fra Israels Plads til Dronning Louises Bro i det indre København",
+        "Retten fastslår, at politiet havde pligt til at indbringe frihedsberøvelsen for en domstol, men undlod det"
+      ],
+      "section": "Indland",
+      "headline": "248 demonstranter vinder sag mod politiet",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/248-demonstranter-vinder-sag-mod-politiet-2",
+      "subheadline": "Det er domstolene og ikke politiet selv, der skal afgøre, om en administrativ frihedsberøvelse er lovlig, fastslår landsretten.",
+      "body": [
+        "Østre Landsret har givet 248 demonstranter medhold i en sag mod Københavns Politi om en masseanholdelse under en demonstration 1. maj 2019, der gik fra Israels Plads til Dronning Louises Bro i det indre København. Retten fastslår, at det er domstolene — ikke politiet selv — der skal afgøre, om en administrativ frihedsberøvelse er lovlig.",
+        "Politiet havde pligt til at indbringe frihedsberøvelsen for en domstol, men undlod det, og det er kernen i fejlen. Afgørelsen falder mere end seks år efter demonstrationen."
+      ],
+      "whyItMatters": "Dommen skærper den retlige kontrol med politiets administrative masseanholdelser under demonstrationer — et redskab, der er brugt bredt ved større protester.",
+      "analysis": "For forsamlings- og retssikkerheden er princippet vigtigere end erstatningen: uden reel domstolsprøvelse mangler et centralt værn mod, at mange frihedsberøves på én gang.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/oujpen2a/317.png?im=AspectCrop%3D%28700%2C394%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28700%2C394%29",
+        "credit": "Kilde: DR",
+        "alt": "Demonstration på Dronning Louises Bro i København",
+        "sourceUrl": "https://www.dr.dk/nyheder/seneste/248-demonstranter-vinder-sag-mod-politiet-2"
+      },
+      "topics": ["indland", "retssikkerhed", "demonstration", "politi", "danmark"],
+      "entities": ["Østre Landsret", "Københavns Politi", "Danmark", "København"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 54,
+        "novelty": 68,
+        "sourceQuality": 74,
+        "personalRelevance": 52,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Østre Landsret gav 248 demonstranter medhold mod Københavns Politi; politiet skulle have indbragt masseanholdelsen fra 1. maj 2019 for en domstol.",
+          "sourceUrls": ["https://www.dr.dk/nyheder/seneste/248-demonstranter-vinder-sag-mod-politiet-2"],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "248 demonstranter vinder sag mod politiet",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/248-demonstranter-vinder-sag-mod-politiet-2",
+          "publishedAt": "2026-07-08T10:02:15.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "SK Hynix launches Nasdaq debut with $28B US share offering",
+      "headline": "SK Hynix launches Nasdaq debut with $28B US share offering",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-launches-nasdaq-debut-162100118.html",
+      "summary": "Den sydkoreanske hukommelseschip-gigant SK Hynix noteres på Nasdaq via et ADS-udbud på op til omkring 28 mia. dollar, med når-udstedt-handel fra 10. juli. Sydkorea/USA.",
+      "publisher": "Reuters",
+      "section": "Marked",
+      "publishedAt": "2026-07-09T14:00:00.000Z"
+    },
+    {
+      "text": "An AI agent startup just let its agent run its $100 million fundraise",
+      "headline": "An AI agent startup just let its agent run its $100 million fundraise",
+      "url": "https://techcrunch.com/2026/07/09/an-ai-agent-startup-just-let-its-agent-run-its-100-million-fundraise/",
+      "summary": "Jersey City-startup'en Lyzr lod sin egen AI-agent styre en Series B på cirka 100 mio. dollar til en værdi omkring 500 mio. dollar; agenten svarede over 130 investorer og skrev investeringsmemoer. USA.",
+      "publisher": "TechCrunch",
+      "section": "AI",
+      "publishedAt": "2026-07-09T13:00:00.000Z"
+    },
+    {
+      "text": "DEUTZ accelerates transformation with billion-euro transaction in the defense sector",
+      "headline": "DEUTZ accelerates transformation with billion-euro transaction in the defense sector",
+      "url": "https://www.investegate.co.uk/announcement/eqs/deutz-ag--0e4k/eqs-news-deutz-accelerates-transformation-wi-/9659988",
+      "summary": "Den tyske motorproducent DEUTZ køber militærkøretøjsfirmaet FFG (Flensburger Fahrzeugbau) for 1,6 mia. euro og accelererer dermed sit skifte mod forsvarssektoren. Tyskland.",
+      "publisher": "DEUTZ AG / EQS-News",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-09T06:00:00.000Z"
+    },
+    {
+      "text": "Diraq Demonstrates Scaled Foundry-Fabricated Silicon-Based Qubit Array Made at imec",
+      "headline": "Diraq Demonstrates Scaled Foundry-Fabricated Silicon-Based Qubit Array Made at imec",
+      "url": "https://thequantuminsider.com/2026/07/09/diraq-demonstrates-scaled-foundry-fabricated-silicon-based-qubit-array-made-at-imec/",
+      "summary": "Diraq (Australien) og imec (Belgien) demonstrerer et 8-qubit-array fremstillet på en standard 300 mm CMOS-linje, med coherenstider på niveau med håndlavede enheder. Publiceret i Nature Communications.",
+      "publisher": "The Quantum Insider",
+      "section": "Kvante",
+      "publishedAt": "2026-07-09T11:00:00.000Z"
+    },
+    {
+      "text": "Europe's Aether consortium targets two AI gigafactories in Strasbourg, France",
+      "headline": "Europe's Aether consortium targets two AI gigafactories in Strasbourg, France",
+      "url": "https://www.datacenterdynamics.com/en/news/europes-aether-consortium-targets-two-ai-gigafactories-in-strasbourg-france/",
+      "summary": "ÆTHER-konsortiet (SiPearl, Axelera AI, Dassault Systèmes m.fl.) byder på EU's kommende AI-gigafactory-udbud med to anlæg i Strasbourg-området. Frankrig/EU.",
+      "publisher": "Data Center Dynamics",
+      "section": "AI-infrastruktur",
+      "publishedAt": "2026-07-09T09:00:00.000Z"
+    },
+    {
+      "text": "EU General Court upholds Apple's gatekeeper designation under Digital Markets Act",
+      "headline": "EU General Court upholds Apple's gatekeeper designation under Digital Markets Act",
+      "url": "https://www.jurist.org/news/2026/07/eu-general-court-upholds-apples-gatekeeper-designation-under-digital-markets-act/",
+      "summary": "EU-Retten afviser Apples søgsmål og fastholder selskabets 'gatekeeper'-status, så App Store og iOS fortsat er omfattet af DMA's forpligtelser. EU/USA.",
+      "publisher": "JURIST",
+      "section": "Regulering",
+      "publishedAt": "2026-07-08T16:00:00.000Z"
+    },
+    {
+      "text": "SpaceX Falcon 9 rocket launches for record-breaking 36th time",
+      "headline": "SpaceX Falcon 9 rocket launches for record-breaking 36th time",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-rocket-launch-36th-time-new-record",
+      "summary": "En Falcon 9-booster fløj for rekordhøje 36. gang og sendte 29 Starlink-satellitter i lavt kredsløb — en ny genbrugsrekord for verdens mest anvendte raket. USA.",
+      "publisher": "Space.com",
+      "section": "Rumfart",
+      "publishedAt": "2026-07-09T12:00:00.000Z"
+    },
+    {
+      "text": "København er igen kåret til verdens bedste by",
+      "headline": "København er igen kåret til verdens bedste by",
+      "url": "https://www.dr.dk/nyheder/indland/koebenhavn-er-igen-kaaret-til-verdens-bedste",
+      "summary": "København ligger nummer et på The Economist Intelligence Units 2026-indeks over verdens mest leveværdige byer for andet år i træk, foran Wien og Melbourne. Danmark.",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-07-07T08:00:00.000Z"
+    },
+    {
+      "text": "Trees keep absorbing carbon long after they stop growing",
+      "headline": "Trees keep absorbing carbon long after they stop growing",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022210.htm",
+      "summary": "En undersøgelse i Science Advances (Columbia Lamont-Doherty) finder, at egetræers fotosyntese er afkoblet fra deres vækst: 26-36 procent af den årlige kulstofoptagelse sker, efter at træet er holdt op med at vokse. USA.",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-09T00:00:00.000Z"
+    },
+    {
+      "text": "The Ozempic and Wegovy mistake sending thousands to poison control",
+      "headline": "The Ozempic and Wegovy mistake sending thousands to poison control",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022204.htm",
+      "summary": "Amerikanske giftlinje-opkald om GLP-1-lægemidler steg fra ca. 1.500 om året før 2021 til over 8.000 i 2023; semaglutid stod for 64 procent af sagerne, oftest utilsigtede doseringsfejl. USA.",
+      "publisher": "ScienceDaily",
+      "section": "Sundhed",
+      "publishedAt": "2026-07-08T00:00:00.000Z"
+    },
+    {
+      "text": "Bonnie Tyler, singer famed for ‘Total Eclipse of the Heart,’ dies at 75",
+      "headline": "Bonnie Tyler, singer famed for ‘Total Eclipse of the Heart,’ dies at 75",
+      "url": "https://www.nbcnews.com/news/obituaries/bonnie-tyler-singer-total-eclipse-heart-dies-rcna353636",
+      "summary": "Den walisiske sanger Bonnie Tyler, kendt for '80er-hittene 'Total Eclipse of the Heart' og 'Holding Out for a Hero', er død i en alder af 75 år på et hospital i Portugal. Storbritannien/Portugal.",
+      "publisher": "NBC News",
+      "section": "Kultur",
+      "publishedAt": "2026-07-09T15:00:00.000Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-jafa-apex-20260710",
+      "mode": "experience",
+      "kind": "udstilling",
+      "status": "timely",
+      "title": "Arthur Jafa: APEX",
+      "creator": "Arthur Jafa",
+      "provider": "Louisiana Museum of Modern Art",
+      "url": "https://louisiana.dk/en/exhibition/arthur-jafa-apex/",
+      "availability": "Louisiana, Humlebæk (~35 min. med tog fra København). Billet kræves. Vises 23. juni – 27. september 2026.",
+      "commitment": "Enkelt værk, 20-40 min.",
+      "description": "Et hovedværk i Arthur Jafas produktion: hundredvis af stillbilleder — Miles Davis, science fiction-uhyrer, lynchningsfotos, rumfartøjer, mikroorganismer — klippet til pulsen i Robert Hoods technospor 'Minus'. Om den intime forbindelse mellem skønhed og terror i sort amerikansk kultur.",
+      "rationale": "Et fysisk modstykke til skærmscroll, en dag-tur fra København: et af de definerende værker om, hvordan billedstrømme former perception — den analoge forfader til enhver anbefalingsfeed og generativ videomodel, du analyserer. Montage brugt som våben, der genindstiller blikket.",
+      "topics": ["samtidskunst", "perception", "danmark"],
+      "isFeatured": true,
+      "image": {
+        "url": "https://louisiana.dk/wp-content/uploads/2026/05/CST_2452A._donejpg-huge_jpg-1-e1782984707713.jpg",
+        "credit": "Kilde: Louisiana Museum of Modern Art",
+        "alt": "Installationsværk fra Arthur Jafas APEX på Louisiana",
+        "sourceUrl": "https://louisiana.dk/en/exhibition/arthur-jafa-apex/"
+      }
+    },
+    {
+      "id": "rec-nif-dealroom-defence-20260710",
+      "mode": "read",
+      "kind": "rapport",
+      "status": "new",
+      "title": "Defence, Security and Resilience in Europe: The state of startups and investment 2026",
+      "creator": "NATO Innovation Fund & Dealroom",
+      "provider": "NATO Innovation Fund / Dealroom",
+      "url": "https://table.media/assets/briefings/security/documents/nif-report-defence-security-and-resilience-2026.pdf",
+      "availability": "Gratis PDF, hele verden.",
+      "commitment": "Rapport, 30-45 min.",
+      "description": "Referencedatasættet for europæisk forsvars- og sikkerhedsventure: 8,7 mia. euro rejst i 2025 (op 55 pct.), 43 pct. af al europæisk deep-tech-finansiering, senfase-runder tredoblet til 4,7 mia. dollar, og AI/autonomi bag 44 pct. af kapitalen — med München som centralt knudepunkt.",
+      "rationale": "Tallene bag Europas hurtigst voksende venturekategori, rent kildeført — netop det felt, EIFO læner sig ind i. Dagens Kraken-runde havde NATO Innovation Fund som investor; her er fondens eget kort over markedet, du kan trykteste din egen sourcing imod.",
+      "topics": ["forsvarsteknologi", "venturekapital", "europa"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-browser-use-20260710",
+      "mode": "try",
+      "kind": "værktøj",
+      "status": "available",
+      "title": "Browser Use",
+      "creator": "Browser Use (open source)",
+      "provider": "GitHub",
+      "url": "https://github.com/browser-use/browser-use",
+      "availability": "Gratis, open source (MIT-licens). Kør lokalt; kræver egen LLM-API-nøgle.",
+      "commitment": "~30-60 min. at koble op",
+      "description": "Et af 2026's mest anvendte open source-agentværktøjer: det giver en sprogmodel struktureret kontrol over en rigtig browser, så den kan navigere, læse og handle på tværs af levende websider — rygraden i mange 'agentiske' research- og automationsdemoer.",
+      "rationale": "Praktisk AI, du kan mærke: giv en model din browser i en time, og du forstår agenters pålidelighed, fejlmønstre og den reelle tilstand for 'agenter, der udfører arbejde' langt bedre end nogen rapport. Håndgribelig grounding for den agent-tese, du hele tiden læser om.",
+      "topics": ["ai-agenter", "værktøjer", "open source"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-noema-philosophical-rupture-20260710",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "Why AI Is A Philosophical Rupture",
+      "creator": "Tobias Rees (Noema Magazine)",
+      "provider": "Noema Magazine",
+      "url": "https://www.noemamag.com/why-ai-is-a-philosophical-rupture/",
+      "availability": "Gratis på noemamag.com, hele verden.",
+      "commitment": "Langlæsning, 25-35 min.",
+      "description": "Filosoffen Tobias Rees argumenterer for, at generativ AI ikke blot er et værktøj, men et brud i de kategorier — menneske, sprog, tanke — vi har brugt til at forstå os selv, og spørger, hvilke begreber der skal afløse dem.",
+      "rationale": "En skarp korrektion til det 'AI som produktivitetsværktøj'-billede, du er marineret i hele dagen. Rees er usædvanlig god til at skille det, der reelt brydes begrebsligt, fra det, der bare er hurtigere autocomplete — føde til din interesse for AI, filosofi og menneskelig selvforståelse.",
+      "topics": ["ai-etik", "filosofi", "menneskelig adfærd"],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 86,
+    "sourceQuality": 85,
+    "outsideProfile": 86,
+    "diversity": 87,
+    "novelty": 82
+  }
+}
