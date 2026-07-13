@@ -1,0 +1,1031 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-13-daily-v1",
+  "date": "2026-07-13",
+  "generatedAt": "2026-07-13T04:02:35.840Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "USA fjerner De Forenede Arabiske Emirater fra eksportkontrollens strammeste lister og giver Golfstaten licensfri adgang til avancerede AI-chips. Senator Lindsey Graham er død 71 år gammel, Grønland sætter en reformkommission til at rette op på røde tal, og en AI-agent sætter ny rekord for Googles Willow-kvantechip. En kapret npm-pakke jagter AI-kodeværktøjers hemmeligheder, bornholmske lejligheder beskattes som i København, en sognepræst advarer mod AI-skrevne prædikener, og et britisk studie finder, at telefonforbud i skolen sparer tid, men ikke løfter elevernes trivsel.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-uae-export-controls-20260713",
+      "eventKey": "us-uae-a5-export-controls-ai-chips-2026-07",
+      "materialFacts": [
+        "On July 10, 2026, the U.S. Commerce Department's Bureau of Industry and Security (BIS) removed the United Arab Emirates from EAR Country Groups D:3 and D:4 and reclassified it into Country Group A:5, citing the UAE's status as a U.S. Major Defense Partner and its support for U.S. interests, including Operation Epic Fury.",
+        "A:5 status gives the UAE government and approved commercial entities eligibility for license-free exports, reexports and in-country transfers under License Exception Strategic Trade Authorization (STA) of Commerce-controlled military items, certain commercial satellites and spacecraft, and dual-use items for oil and gas, desalination and civil nuclear power.",
+        "Consistent with the U.S.-UAE Artificial Intelligence Cooperation framework signed in May 2025, Commerce is approving the UAE government and certain companies to receive advanced computing items, including AI chips and servers, license-free; reporting (Reuters/Export Compliance Daily) identifies the two approved firms as Group 42 (G42) and Core42, which must become U.S. companies within 270 days (nine months) or reapply. The BIS release names no U.S. firms such as Amazon, Apple or xAI.",
+        "The regulatory changes are implemented via Federal Register notice 2026-14132."
+      ],
+      "section": "Geopolitik",
+      "headline": "Department of Commerce Eases Export Controls for UAE",
+      "primarySourceUrl": "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae",
+      "subheadline": "USA fjerner De Forenede Arabiske Emirater fra de skærpede eksportlister og giver landet licensfri adgang til avancerede AI-chips.",
+      "body": [
+        "USA’s handelsministerium flyttede 10. juli De Forenede Arabiske Emirater fra eksportkontrollens strammeste landegrupper til den betroede gruppe A:5, med henvisning til Emiraternes status som amerikansk „Major Defense Partner“. Med A:5-status kan emiratiske myndigheder og godkendte firmaer nu modtage militært udstyr, satellitter og dual-use-varer licensfrit.",
+        "Vigtigst for teknologisektoren: i forlængelse af den amerikansk-emiratiske AI-ramme fra maj 2025 kan Emiraterne og udvalgte selskaber nu importere avancerede AI-chips og servere uden licens. Ifølge Reuters og Export Compliance Daily er de to godkendte firmaer G42 og Core42, der til gengæld skal omdannes til amerikanske selskaber inden for 270 dage."
+      ],
+      "whyItMatters": "Adgang til Nvidia-klassens AI-chips er blevet et geopolitisk instrument; USA binder nu Emiraternes voksende datacenter-ambitioner til amerikansk frem for kinesisk teknologi.",
+      "analysis": "Kravet om, at G42 og Core42 skal blive amerikanske selskaber, er prisen for adgangen: marked mod kontrol. For Europa skærper det kampen om knappe AI-acceleratorer.",
+      "counterpoint": "Det primære BIS-dokument nævner hverken mængder eller navngivne selskaber; oplysningerne om G42 og Core42 stammer fra rapportering.",
+      "topics": [
+        "AI",
+        "teknologisk suverænitet",
+        "halvledere",
+        "geopolitik",
+        "eksportkontrol"
+      ],
+      "entities": [
+        "USA",
+        "De Forenede Arabiske Emirater",
+        "Bureau of Industry and Security",
+        "G42",
+        "Core42"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 70,
+        "novelty": 82,
+        "sourceQuality": 96,
+        "personalRelevance": 82,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "BIS removed the UAE from EAR Country Groups D:3 and D:4 and reclassified it into Country Group A:5, granting license-free access (under License Exception STA) to controlled military items, certain commercial satellites/spacecraft and dual-use goods, citing the UAE's Major Defense Partner status and Operation Epic Fury.",
+          "sourceUrls": [
+            "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Consistent with the May 2025 U.S.-UAE AI Cooperation framework, Commerce approved the UAE government and certain companies to receive advanced computing items including AI chips and servers license-free; reporting names the two approved firms as G42 (Group 42) and Core42, which must become U.S. companies within 270 days or reapply.",
+          "sourceUrls": [
+            "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae",
+            "https://exportcompliancedaily.com/article/2026/07/13/bis-eases-export-controls-for-uae-including-for-advanced-chips-2607100033"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The changes are implemented via Federal Register notice 2026-14132, effective July 10, 2026.",
+          "sourceUrls": [
+            "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae",
+            "https://www.gulf-times.com/article/729012/international/us-makes-it-easier-to-export-certain-military-items-ai-chips-and-commercial-satellites-to-the-uae"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Department of Commerce Eases Export Controls for UAE",
+          "publisher": "U.S. Bureau of Industry and Security (BIS)",
+          "url": "https://www.bis.gov/press-release/department-commerce-eases-export-controls-uae",
+          "publishedAt": "2026-07-10T04:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "BIS Eases Export Controls for UAE, Including for Advanced Chips",
+          "publisher": "Export Compliance Daily",
+          "url": "https://exportcompliancedaily.com/article/2026/07/13/bis-eases-export-controls-for-uae-including-for-advanced-chips-2607100033",
+          "publishedAt": "2026-07-13T04:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US makes it easier to export certain military items, AI chips and commercial satellites to the UAE",
+          "publisher": "Gulf Times (Reuters)",
+          "url": "https://www.gulf-times.com/article/729012/international/us-makes-it-easier-to-export-certain-military-items-ai-chips-and-commercial-satellites-to-the-uae",
+          "publishedAt": "2026-07-10T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Semiconductor_Wafer_of_Microelectronics.jpg/1280px-Semiconductor_Wafer_of_Microelectronics.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Semiconductorwafer – illustration af de avancerede AI-chips, som de nye amerikanske eksportregler omfatter",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Semiconductor_Wafer_of_Microelectronics.jpg"
+      }
+    },
+    {
+      "id": "story-lindsey-graham-death-20260713",
+      "eventKey": "lindsey-graham-death-2026-07",
+      "materialFacts": [
+        "US Senator Lindsey Graham (Republican, South Carolina) died at age 71 on the night of Saturday, July 11, 2026, hours after returning from a trip to Ukraine where he had met President Volodymyr Zelenskyy; his office said he died from a 'brief and sudden illness.'",
+        "The preliminary cause of death, per medical examiner findings released July 12, 2026, is aortic dissection (a tear/rupture of the aortic wall) due to arteriosclerotic cardiovascular disease; EMS responded to a cardiac-arrest call at his Capitol Hill home.",
+        "Graham was first elected to the US Senate in 2002 (serving since 2003), had recently won his Republican primary, and was seeking a fifth term in the November 3, 2026 election.",
+        "Under South Carolina law, Republican Governor Henry McMaster appoints an interim replacement, who would serve until January 3, 2027."
+      ],
+      "section": "Politik",
+      "headline": "Sen. Lindsey Graham dies at 71 from aortic dissection, according to medical examiner's preliminary findings",
+      "primarySourceUrl": "https://www.cbsnews.com/news/senator-lindsey-graham-dies-after-brief-and-sudden-illness/",
+      "subheadline": "Den mangeårige republikanske senator fra South Carolina døde natten til søndag, kort efter en rejse til Ukraine.",
+      "body": [
+        "Senator Lindsey Graham (R-South Carolina) døde 71 år gammel natten til søndag den 11. juli, timer efter et besøg hos præsident Zelenskyj i Ukraine. Retsmedicinernes foreløbige konklusion 12. juli peger på en aortadissektion som følge af åreforkalkning efter et hjertestop i hjemmet.",
+        "Graham blev valgt til Senatet i 2002 og stillede op til en femte periode 3. november. Efter South Carolinas lov udpeger guvernør Henry McMaster (R) nu en midlertidig afløser frem til 3. januar 2027, hvorefter pladsen besættes ved midtvejsvalget."
+      ],
+      "whyItMatters": "Grahams død fjerner en af Trumps mest markante udenrigspolitiske allierede i Senatet og udløser et opgør om en sikker republikansk plads.",
+      "analysis": "Med en snæver magtbalance kan selv én tom plads påvirke afstemninger, og nomineringskampen tester Trump-fløjens styrke i South Carolina.",
+      "topics": [
+        "politik",
+        "USA",
+        "Senatet",
+        "valg"
+      ],
+      "entities": [
+        "Lindsey Graham",
+        "USA",
+        "South Carolina",
+        "Henry McMaster",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 45,
+        "novelty": 88,
+        "sourceQuality": 88,
+        "personalRelevance": 40,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "US Senator Lindsey Graham (R-South Carolina) died at 71 on the night of Saturday, July 11, 2026, confirmed by his office and multiple independent outlets.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/senator-lindsey-graham-dies-after-brief-and-sudden-illness/",
+            "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Preliminary medical examiner findings give the cause of death as aortic dissection due to arteriosclerotic cardiovascular disease.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/senator-lindsey-graham-dies-after-brief-and-sudden-illness/",
+            "https://www.washingtonpost.com/politics/2026/07/12/lindsey-graham-longtime-south-carolina-senator-dies-71/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Graham died hours after returning from a trip to Ukraine and had been seeking a fifth Senate term in the November 3, 2026 election.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/senator-lindsey-graham-dies-after-brief-and-sudden-illness/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sen. Lindsey Graham dies at 71 from aortic dissection, according to medical examiner's preliminary findings",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/senator-lindsey-graham-dies-after-brief-and-sudden-illness/",
+          "publishedAt": "2026-07-13T00:51:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Lindsey Graham dies of aortic dissection, preliminary medical report says",
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/politics/2026/07/12/lindsey-graham-longtime-south-carolina-senator-dies-71/",
+          "publishedAt": "2026-07-12T04:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Sen. Lindsey Graham of South Carolina, Trump ally, dies at 71",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/07/12/nx-s1-5890790/us-sen-lindsey-graham-dies",
+          "publishedAt": "2026-07-12T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/07/12/b382a83e-fc49-460b-9f9a-8c8e3539c038/thumbnail/620x413/92887803139a33088d75d95a066274f3/gettyimages-2259262756.jpg",
+        "credit": "Kilde: CBS News / Getty Images",
+        "alt": "Portræt i forbindelse med senator Lindsey Grahams død",
+        "sourceUrl": "https://www.cbsnews.com/news/senator-lindsey-graham-dies-after-brief-and-sudden-illness/"
+      }
+    },
+    {
+      "id": "story-groenland-reform-20260713",
+      "eventKey": "groenland-offentlig-sektor-reformkommission-2026-07",
+      "materialFacts": [
+        "Greenland's public finances (the Landskassen) ran a deficit of roughly 400 million kroner in 2025 in the operating and capital account balance, prompting Naalakkersuisut to set up a reform commission to overhaul the public sector.",
+        "Greenland's government currently has 10 ministers and 11 departments, and the commission will examine whether that many departments are necessary, alongside possible privatisations and a unified benefits-payment system.",
+        "The commission, chaired by economist Johnny í Grótinum, meets physically for the first time in Nuuk in early September and must deliver a preliminary report early next year with concrete short-term initiatives.",
+        "Brain-drain is cited as a shared challenge for both Greenland and the Faroe Islands, whose young people leave to study in Denmark and too rarely return; Finance Minister Aqqaluaq B. Egede warns public spending will otherwise rise faster than revenue."
+      ],
+      "section": "Rigsfællesskabet",
+      "headline": "Efter røde tal: Den offentlige sektor i Grønland skal have en overhaling",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/groenland/efter-roede-tal-den-offentlige-sektor-i-groenland-skal-have-en-overhaling",
+      "subheadline": "Et underskud i landskassen sender Grønland i gang med en gennemgribende reform af den offentlige sektor.",
+      "body": [
+        "Grønlands landskasse kom ud af 2025 med et underskud på op mod 400 millioner kroner, og Naalakkersuisut har nedsat en reformkommission for hele den offentlige sektor. Den skal bl.a. vurdere, om selvstyrets 10 ministre og 11 departementer er for mange.",
+        "Kommissionen ledes af økonomen Johnny í Grótinum og mødes fysisk første gang i Nuuk i september; en foreløbig rapport ventes tidligt næste år. Finansminister Aqqaluaq B. Egede advarer om, at udgifterne ellers stiger hurtigere end indtægterne, og peger på unge grønlænderes fraflytning til Danmark."
+      ],
+      "whyItMatters": "Grønlands økonomiske robusthed er blevet et sikkerhedspolitisk spørgsmål; jo mere selvstyret bærer sig selv, jo stærkere står rigsfællesskabet i Arktis.",
+      "analysis": "Reformen handler mindre om sparepolitik end om demografi: uden unge, der vender hjem efter uddannelse, smuldrer skattegrundlaget for ydelserne.",
+      "topics": [
+        "rigsfællesskab",
+        "Arktis",
+        "offentlig økonomi",
+        "Grønland"
+      ],
+      "entities": [
+        "Grønland",
+        "Naalakkersuisut",
+        "Johnny í Grótinum",
+        "Aqqaluaq B. Egede",
+        "Nuuk"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 48,
+        "novelty": 62,
+        "sourceQuality": 82,
+        "personalRelevance": 55,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Greenland's Landskassen ran a deficit of about 400 million kroner in 2025, prompting Naalakkersuisut to establish a reform commission to overhaul the public sector.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/efter-roede-tal-den-offentlige-sektor-i-groenland-skal-have-en-overhaling"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Greenland's government has 10 ministers and 11 departments, and the commission will question whether so many departments are needed.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/efter-roede-tal-den-offentlige-sektor-i-groenland-skal-have-en-overhaling"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The reform commission, chaired by economist Johnny í Grótinum, meets physically in Nuuk in early September and delivers a preliminary report early next year.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/efter-roede-tal-den-offentlige-sektor-i-groenland-skal-have-en-overhaling",
+            "https://www.sermitsiaq.ag/samfund/okonom-skal-lede-naalakkersuisuts-reformkommission/2395719"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Efter røde tal: Den offentlige sektor i Grønland skal have en overhaling",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/groenland/efter-roede-tal-den-offentlige-sektor-i-groenland-skal-have-en-overhaling",
+          "publishedAt": "2026-07-12T19:53:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Økonom skal lede Naalakkersuisuts reformkommission",
+          "publisher": "Sermitsiaq.AG",
+          "url": "https://www.sermitsiaq.ag/samfund/okonom-skal-lede-naalakkersuisuts-reformkommission/2395719",
+          "publishedAt": "2026-07-11T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/sh4ik5il/20260217-173940-3.jpg?im=AspectCrop=(1200,675),xPosition=.5,yPosition=.5;Resize=(1200,675)",
+        "credit": "Kilde: DR",
+        "alt": "Illustration til historien om reform af Grønlands offentlige sektor",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/groenland/efter-roede-tal-den-offentlige-sektor-i-groenland-skal-have-en-overhaling"
+      }
+    },
+    {
+      "id": "story-google-willow-quantum-20260713",
+      "eventKey": "google-willow-rl-error-correction-nature-2026-07",
+      "materialFacts": [
+        "Google Quantum AI (Santa Barbara, California, USA) published in Nature the paper 'Reinforcement learning control of quantum error correction,' describing an autonomous reinforcement-learning agent that unifies real-time calibration with active quantum error correction to stabilize logical qubits during uninterrupted execution on the Willow superconducting processor.",
+        "The system set a record average logical error per cycle of 7.72(9)x10^-4 for a distance-7 surface code (decoded via the AlphaQubit2 neural-network model) and 8.19(14)x10^-3 for a distance-5 colour code.",
+        "It delivered a 20% reduction in base logical error rates following expert calibration and a 3.5x improvement in logical stability under injected/targeted drift.",
+        "The agent managed O(1,000) live controls, with numerical simulations validating scaling to a distance-15 surface code governing roughly 40,000 control parameters."
+      ],
+      "section": "Kvanteteknologi",
+      "headline": "Google Research Stabilizes \"Willow\" Quantum Processor Using Continuous Reinforcement Learning Control Layers",
+      "primarySourceUrl": "https://quantumcomputingreport.com/google-research-stabilizes-willow-quantum-processor-using-continuous-reinforcement-learning-control-layers/",
+      "subheadline": "En selvstyrende AI-agent holder Googles kvantechip stabil og sætter ny rekord for logisk fejlrate.",
+      "body": [
+        "Google Quantum AI har i Nature offentliggjort en metode, hvor en selvstyrende forstærkningslæringsagent samler realtidskalibrering og aktiv fejlkorrektion, så logiske qubits holdes stabile under uafbrudt drift på Willow-processoren i Santa Barbara, USA.",
+        "Systemet satte en rekordlav gennemsnitlig logisk fejl på 7,72×10⁻⁴ per cyklus for en distance-7-kode, en 20 procents lavere fejlrate efter kalibrering og 3,5 gange bedre stabilitet under bevidst drift. Simuleringer peger på skalering til cirka 40.000 parametre."
+      ],
+      "whyItMatters": "Fejlkorrektion er den afgørende flaskehals mod nyttige kvantecomputere; lader man en AI overtage den løbende justering, bliver problemet skalerbart.",
+      "analysis": "Resultatet viser, at AI og kvanteteknologi forstærker hinanden: samme maskinlæring, der driver sprogmodeller, tæmmer nu støjen i hardwaren under dem.",
+      "topics": [
+        "kvantecomputing",
+        "AI",
+        "deeptech",
+        "fejlkorrektion"
+      ],
+      "entities": [
+        "Google Quantum AI",
+        "Willow",
+        "Nature",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 48,
+        "novelty": 86,
+        "sourceQuality": 84,
+        "personalRelevance": 86,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Google Quantum AI published in Nature an autonomous reinforcement-learning agent that stabilizes logical qubits by unifying real-time calibration with active quantum error correction on the Willow processor.",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/google-research-stabilizes-willow-quantum-processor-using-continuous-reinforcement-learning-control-layers/",
+            "https://www.nature.com/articles/s41586-026-10759-2"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The framework achieved a record average logical error per cycle of 7.72x10^-4 for a distance-7 surface code and 8.19x10^-3 for a distance-5 colour code.",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/google-research-stabilizes-willow-quantum-processor-using-continuous-reinforcement-learning-control-layers/",
+            "https://quantumzeitgeist.com/google-quantum-ai-surface-code-error/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "It delivered a 20% reduction in base logical error rates and a 3.5x improvement in logical stability under drift, with simulations scaling to a distance-15 code governing about 40,000 control parameters.",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/google-research-stabilizes-willow-quantum-processor-using-continuous-reinforcement-learning-control-layers/",
+            "https://quantumzeitgeist.com/google-quantum-ai-surface-code-error/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Research Stabilizes \"Willow\" Quantum Processor Using Continuous Reinforcement Learning Control Layers",
+          "publisher": "Quantum Computing Report",
+          "url": "https://quantumcomputingreport.com/google-research-stabilizes-willow-quantum-processor-using-continuous-reinforcement-learning-control-layers/",
+          "publishedAt": "2026-07-10T16:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Reinforcement learning control of quantum error correction",
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10759-2",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Google Cuts Surface Code Error Rate to 7.72 × 10−4 With RL",
+          "publisher": "Quantum Zeitgeist",
+          "url": "https://quantumzeitgeist.com/google-quantum-ai-surface-code-error/",
+          "publishedAt": "2026-07-08T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://quantumcomputingreport.com/wp-content/uploads/2026/07/image-139-1024x389.png",
+        "credit": "Kilde: Quantum Computing Report / Google Quantum AI",
+        "alt": "Illustration af Googles Willow-kvanteprocessor",
+        "sourceUrl": "https://quantumcomputingreport.com/google-research-stabilizes-willow-quantum-processor-using-continuous-reinforcement-learning-control-layers/"
+      }
+    },
+    {
+      "id": "story-jscrambler-npm-attack-20260713",
+      "eventKey": "jscrambler-npm-rust-infostealer-supply-chain-2026-07",
+      "materialFacts": [
+        "The official jscrambler npm package (~15,800 weekly downloads) was compromised via a stolen npm publishing credential; installing v8.14.0 executes a cross-platform Rust infostealer, one native binary each for Windows, macOS and Linux.",
+        "The malware sweeps for AWS, Azure and Google Cloud credentials, CI tokens, crypto wallets (MetaMask, Phantom, Exodus), password-manager vaults (Bitwarden), browser/messaging sessions, and config files for AI coding tools including Claude Desktop, Cursor, Windsurf, VS Code and Zed.",
+        "Socket tied five malicious versions to one actor pushed over about three hours (8.14.0, 8.16.0, 8.17.0, 8.18.0, 8.20.0) and flagged the first release six minutes after it was published; 8.22.0 is the recommended clean release.",
+        "From 8.18.0 the attacker moved the dropper from a preinstall hook into a self-executing function, defeating scanners that only inspect preinstall scripts and surviving npm install --ignore-scripts."
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+      "primarySourceUrl": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "subheadline": "En kapret npm-pakke installerede en tyvekode, der blandt andet jagter konfigurationsfiler til AI-kodeværktøjer.",
+      "body": [
+        "Den officielle npm-pakke jscrambler – omkring 15.800 ugentlige downloads – blev kompromitteret via en stjålet udgivelsesnøgle, så installation af version 8.14.0 kørte en Rust-tyvekode med binærer til Windows, macOS og Linux. Jscrambler er en portugisisk sikkerhedsleverandør.",
+        "Koden ledte efter nøgler til AWS, Azure og Google Cloud, kryptopunge, password managers og konfigurationsfiler til AI-kodeværktøjer som Claude Desktop, Cursor, VS Code og Zed. Ifølge Socket kom fem versioner på tre timer; den første blev fanget seks minutter efter udgivelsen, og 8.22.0 er den rene rettelse."
+      ],
+      "whyItMatters": "Angrebet rammer, hvor udvikling er mest sårbar: den blinde tillid til pakker, der installeres automatisk – og AI-værktøjernes hemmeligheder var et selvstændigt mål.",
+      "analysis": "At koden fra 8.18.0 flyttede væk fra preinstall-scriptet viser en bevidst kamp mod scannere; „--ignore-scripts“ er ikke længere nogen garanti.",
+      "topics": [
+        "cybersikkerhed",
+        "forsyningskæde",
+        "AI-værktøjer",
+        "malware"
+      ],
+      "entities": [
+        "jscrambler",
+        "npm",
+        "Socket",
+        "Claude Desktop",
+        "Cursor"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 80,
+        "novelty": 80,
+        "sourceQuality": 84,
+        "personalRelevance": 84,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "The jscrambler npm package (~15,800 weekly downloads) was compromised so that installing v8.14.0 runs a cross-platform Rust infostealer during install, via a stolen npm publishing credential.",
+          "sourceUrls": [
+            "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+            "https://socket.dev/blog/jscrambler-supply-chain-attack"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The infostealer targets AWS/Azure/Google Cloud credentials, crypto wallets, password managers, and config files for AI coding tools including Claude Desktop, Cursor, Windsurf, VS Code and Zed.",
+          "sourceUrls": [
+            "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+            "https://safedep.io/jscrambler-npm-supply-chain-compromise/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Five malicious versions (8.14.0, 8.16.0, 8.17.0, 8.18.0, 8.20.0) shipped over about three hours; Socket flagged the first six minutes after publish, and 8.22.0 is the clean release.",
+          "sourceUrls": [
+            "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+            "https://socket.dev/blog/jscrambler-supply-chain-attack"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+          "publisher": "The Hacker News",
+          "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+          "publishedAt": "2026-07-11T03:30:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "jscrambler npm Package Compromised in Supply Chain Attack",
+          "publisher": "Socket",
+          "url": "https://socket.dev/blog/jscrambler-supply-chain-attack",
+          "publishedAt": "2026-07-11T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Official jscrambler npm Package Compromised Across Multiple Releases",
+          "publisher": "SafeDep",
+          "url": "https://safedep.io/jscrambler-npm-supply-chain-compromise/",
+          "publishedAt": "2026-07-11T00:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhodiWPXDsex6YL7v4e2n_D5MJFMht76GRRmHTdiG61tfEmsoZyow4tkiS3ORACILDl2fNP27YQkw1XLSBKGcom-DhCVzzPDdkdSgeMGdxcVL_rgO70x5LqZcjxKAPTtFOquB8LwSBPWrSpflqCzns-cFZ_EVm0WZfV7wSoPM3S-7_IGtCT3AjxY0rfITU/s1700-e365/npm-js.jpg",
+        "credit": "Kilde: The Hacker News",
+        "alt": "Illustration af npm-forsyningskædeangrebet",
+        "sourceUrl": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+      }
+    },
+    {
+      "id": "story-bornholm-ejendomsskat-20260713",
+      "eventKey": "bornholm-lejligheder-koebenhavn-beskatning-2026-07",
+      "materialFacts": [
+        "In Denmark, Vurderingsstyrelsen taxes Bornholm apartments using the price development of the capital region (Copenhagen, Frederiksberg and suburbs) because too few local apartment sales exist to calculate a real local price trend; as a result, property tax on Bornholm apartments is set to rise 18.9% next year, far more than the roughly 6% rise in local property values.",
+        "Bornholm resident Stig Johansen bought a 165 m2 apartment in Nexø for just over 1.1 million kroner (about a year ago) and now faces the 18.9% property-tax increase from next year.",
+        "Danish Tax and Growth Minister Jakob Engel-Schmidt (M) called the valuation model 'uacceptabel' and ordered Vurderingsstyrelsen to critically review the data foundation and methods used in areas with sparse local data.",
+        "Bornholm's mayor Frederik Tolstrup (Venstre) called the situation a big problem, saying the authority does not have a grip on reality everywhere and that it is 'enormt kritisk'."
+      ],
+      "section": "Indland",
+      "headline": "Bornholmske lejligheder beskattes som i København – enormt kritisk, siger borgmester",
+      "primarySourceUrl": "https://nyheder.tv2.dk/samfund/2026-07-11-bornholmske-lejligheder-beskattes-som-i-koebenhavn-enormt-kritisk-siger-borgmester",
+      "subheadline": "Manglende lokale salgsdata får Vurderingsstyrelsen til at bruge hovedstadens prisudvikling på Bornholm – og skatten stiger næsten 19 procent.",
+      "body": [
+        "Fordi der sælges for få lejligheder på Bornholm til at beregne en lokal prisudvikling, bruger Vurderingsstyrelsen hovedstadsområdets udvikling, når grundskylden fastsættes. Derfor stiger ejendomsskatten på bornholmske lejligheder 18,9 procent til næste år, selvom de lokale værdier kun er steget omkring 6 procent.",
+        "Blandt de ramte er Stig Johansen, der købte en lejlighed på 165 kvadratmeter i Neksø for godt 1,1 million kroner. Borgmester Frederik Tolstrup (V) kalder det „enormt kritisk“, og skatteminister Jakob Engel-Schmidt (M) betegner modellen som „uacceptabel“ og har bedt styrelsen gennemgå metoden."
+      ],
+      "whyItMatters": "Sagen viser, hvordan et vurderingssystem bygget på gennemsnit kan ramme skævt i tyndtbefolkede egne og nære følelsen af et skævvredet Danmark.",
+      "analysis": "Ministerens hurtige udmelding signalerer vilje, men problemet er strukturelt: uden nok lokale handler mangler modellen simpelthen data.",
+      "topics": [
+        "skat",
+        "bolig",
+        "indland",
+        "geografisk ulighed"
+      ],
+      "entities": [
+        "Bornholm",
+        "Vurderingsstyrelsen",
+        "Jakob Engel-Schmidt",
+        "Frederik Tolstrup",
+        "Neksø"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 56,
+        "decisionValue": 55,
+        "novelty": 66,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Because too few apartment sales exist on Bornholm to compute a local price trend, Vurderingsstyrelsen applies the capital-region (Copenhagen area) price development, pushing property tax on Bornholm apartments up 18.9% next year versus only about 6% local value growth.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-07-11-bornholmske-lejligheder-beskattes-som-i-koebenhavn-enormt-kritisk-siger-borgmester",
+            "https://bornholm.nu/nyheder/skattefaelde-lurer-for-bornholmske-lejlighedsejere/139547"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Resident Stig Johansen bought a 165 m2 apartment in Nexø for just over 1.1 million kroner and faces the 18.9% property-tax jump from next year.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-07-11-bornholmske-lejligheder-beskattes-som-i-koebenhavn-enormt-kritisk-siger-borgmester"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Tax and Growth Minister Jakob Engel-Schmidt (M) called the valuation model 'uacceptabel' and ordered Vurderingsstyrelsen to critically review its data foundation and methods, while Bornholm mayor Frederik Tolstrup (Venstre) called it enormously critical.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-07-11-bornholmske-lejligheder-beskattes-som-i-koebenhavn-enormt-kritisk-siger-borgmester",
+            "https://www.tv2bornholm.dk/bornholm/bornholmske-lejligheder-beskattes-som-i-kobenhavn-enormt-kritisk-siger-borgmester-47d30"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bornholmske lejligheder beskattes som i København – enormt kritisk, siger borgmester",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/samfund/2026-07-11-bornholmske-lejligheder-beskattes-som-i-koebenhavn-enormt-kritisk-siger-borgmester",
+          "publishedAt": "2026-07-11T16:55:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Bornholmske lejligheder beskattes som i København – enormt kritisk, siger borgmester",
+          "publisher": "TV2 Bornholm",
+          "url": "https://www.tv2bornholm.dk/bornholm/bornholmske-lejligheder-beskattes-som-i-kobenhavn-enormt-kritisk-siger-borgmester-47d30",
+          "publishedAt": "2026-07-11T16:55:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Skattefælde lurer for bornholmske lejlighedsejere",
+          "publisher": "Bornholm.nu",
+          "url": "https://bornholm.nu/nyheder/skattefaelde-lurer-for-bornholmske-lejlighedsejere/139547",
+          "publishedAt": "2026-07-10T22:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://cdn-free.tv2i.dk/e/d/i/editorial/4/2/7/4275b104-0a62-42b0-8c1e-f5bdef9c4c02?ixlib=js-3.8.0&w=624&h=351&q=45&auto=format&fit=crop&rect64=MCwzOTksNzY3MCw0MzE0&s=02519b5a9b1480d52a2e90d51148bd3b",
+        "credit": "Kilde: TV 2",
+        "alt": "Boliger på Bornholm i forbindelse med sag om ejendomsskat",
+        "sourceUrl": "https://nyheder.tv2.dk/samfund/2026-07-11-bornholmske-lejligheder-beskattes-som-i-koebenhavn-enormt-kritisk-siger-borgmester"
+      }
+    },
+    {
+      "id": "story-folkekirke-ai-praediken-20260713",
+      "eventKey": "ai-praedikener-folkekirken-sognepraest-2026-07",
+      "materialFacts": [
+        "Henri Brorson, sognepræst in Skive (Denmark), warns that clergy who let AI author their sermons are digging the Danish folk church's (folkekirken) own grave, insisting worship must be genuine 'fra menneske til menneske, fra ånd til ånd'.",
+        "Brorson says: 'Jeg tror faktisk, at AI kan skrive en ganske glimrende prædiken på ti sekunder' — but adds that if it became known a sermon was AI-made, it would be 'folkekirkens død'.",
+        "Præsteforeningen (the Danish Priests' Association) launched an AI assistant, the 'Prædikenhjælper' (also referred to as Prædikehjælper), trained on the folk church's material including roughly 20 years of the association's sermon guidance and the church text series.",
+        "A referenced case describes a priest, Lisbeth, who delivered a ChatGPT-written sermon that her congregation did not detect as AI-generated."
+      ],
+      "section": "Kultur",
+      "headline": "Sognepræst: Præster graver folkekirkens egen grav, hvis AI er forfatteren bag deres prædikener",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/sognepraest-praester-graver-folkekirkens-egen-grav-hvis-ai-er-forfatteren-bag-deres-praedikener",
+      "subheadline": "En sognepræst advarer mod AI-skrevne prædikener, mens Præsteforeningens eget AI-værktøj deler vandene.",
+      "body": [
+        "Sognepræst Henri Brorson fra Skive advarer om, at præster, der lader AI skrive deres prædikener, graver folkekirkens egen grav; gudstjenesten skal være ægte, „fra menneske til menneske“. Han anerkender pointen – „AI kan skrive en ganske glimrende prædiken på ti sekunder“ – men opdages det, vil det være „folkekirkens død“.",
+        "Debatten skærpes af, at Præsteforeningen selv har lanceret AI-værktøjet Prædikenhjælperen, trænet på folkekirkens materiale og årtiers vejledning. I et omtalt tilfælde holdt en præst en ChatGPT-skrevet prædiken, uden at menigheden opdagede det."
+      ],
+      "whyItMatters": "Historien flytter AI-diskussionen til en af Danmarks mest tillidsbaserede institutioner: Hvad er værdien af et menneskeligt ord, når maskinen kan efterligne det?",
+      "analysis": "Præsteforeningens dilemma – at bygge værktøjet og frygte det – er et miniaturebillede af samfundets AI-forhold, hvor autenticiteten, ikke effektiviteten, er produktet.",
+      "topics": [
+        "AI",
+        "kultur",
+        "religion",
+        "autenticitet"
+      ],
+      "entities": [
+        "Folkekirken",
+        "Præsteforeningen",
+        "Henri Brorson",
+        "Skive"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 30,
+        "novelty": 82,
+        "sourceQuality": 80,
+        "personalRelevance": 55,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Sognepræst Henri Brorson (Skive) warns that if it becomes known that AI is the author behind clergy's sermons, it would be the folk church's death, saying AI can write an excellent sermon in ten seconds.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/sognepraest-praester-graver-folkekirkens-egen-grav-hvis-ai-er-forfatteren-bag-deres-praedikener"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Præsteforeningen launched an AI sermon-writing assistant (Prædikenhjælper) trained on the Danish folk church's guidelines and years of sermon guidance, and later acknowledged they may have gone too far in demonstrating how to make it write full sermons.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/praesteforening-har-lavet-en-ai-der-kan-skrive-praesternes-praedikener-dem-men",
+            "https://praesteforening.dk/praedikenhjaelperenai/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "A priest named Lisbeth delivered a ChatGPT-written sermon that her congregation did not detect as AI-generated.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/sognepraest-praester-graver-folkekirkens-egen-grav-hvis-ai-er-forfatteren-bag-deres-praedikener"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sognepræst: Præster graver folkekirkens egen grav, hvis AI er forfatteren bag deres prædikener",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/sognepraest-praester-graver-folkekirkens-egen-grav-hvis-ai-er-forfatteren-bag-deres-praedikener",
+          "publishedAt": "2026-07-12T12:25:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Præsteforening har lavet en AI, der kan skrive præsternes prædikener for dem – men erkender nu, at de er gået for langt",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/praesteforening-har-lavet-en-ai-der-kan-skrive-praesternes-praedikener-dem-men",
+          "publishedAt": "2026-07-11T22:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Prædikenhjælperen (AI)",
+          "publisher": "Præsteforeningen",
+          "url": "https://praesteforening.dk/praedikenhjaelperenai/",
+          "publishedAt": "2024-12-31T23:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/cmnp3ije/image-1_crop001.jpg?im=AspectCrop=(720,405),xPosition=.5,yPosition=.5;Resize=(720,405)",
+        "credit": "Kilde: DR",
+        "alt": "Illustration til historien om AI-skrevne prædikener i folkekirken",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/sognepraest-praester-graver-folkekirkens-egen-grav-hvis-ai-er-forfatteren-bag-deres-praedikener"
+      }
+    },
+    {
+      "id": "story-smartphone-bans-mental-health-20260713",
+      "eventKey": "school-smartphone-bans-mental-health-2026-07",
+      "materialFacts": [
+        "A cost-utility analysis within the SMART Schools study (University of Birmingham, published in BMJ Mental Health) drew on 815 pupils aged 12-15 across 20 secondary schools in England — 13 with restrictive smartphone policies and 7 permissive.",
+        "Restrictive schools showed no meaningful mental-health or quality-of-life advantage: incremental QALYs were 0.009 (95% CI -0.014 to 0.032) and MWALYs -0.004 (95% CI -0.044 to 0.036), both uncertain and effectively near zero.",
+        "Restrictive policies were slightly cheaper to enforce, costing about £94 less per pupil per school year (95% CI -£229 to £41), using roughly 3.1 full-time-equivalent staff versus 3.3 in permissive schools.",
+        "The findings counter the intuitive policy assumption that school phone bans deliver measurable wellbeing gains, though managing phones still consumes over three full-time staff salaries a year per school in England."
+      ],
+      "section": "Psykologi",
+      "headline": "School smartphone bans save time but don’t improve student mental health, study finds",
+      "primarySourceUrl": "https://www.psypost.org/school-smartphone-bans-save-time-but-dont-improve-student-mental-health-study-finds/",
+      "subheadline": "Et britisk studie finder, at restriktive telefonpolitikker sparer tid, men ikke måleligt løfter elevernes trivsel.",
+      "body": [
+        "Et sundhedsøkonomisk studie fra University of Birmingham i BMJ Mental Health fulgte 815 elever på 12-15 år på 20 engelske skoler, 13 med restriktive telefonpolitikker og 7 tilladende. De restriktive skoler gav ingen meningsfuld gevinst i trivsel eller livskvalitet; effekterne var usikre og tæt på nul.",
+        "Til gengæld var de restriktive politikker lidt billigere – omkring 94 pund mindre per elev om året – men telefonhåndtering koster stadig over tre fuldtidsstillinger om året per skole."
+      ],
+      "whyItMatters": "Telefonforbud er en populær mærkesag; studiet antyder, at de løser et ordensproblem, ikke den trivselskrise, de ofte sælges på.",
+      "analysis": "Fundet minder om at skelne mekanisme fra ønsketænkning: at fjerne telefonen frigør lærertid, men årsagerne til dårlig trivsel forsvinder ikke.",
+      "counterpoint": "Studiet måler skolepolitik, ikke samlet skærmtid; eleverne brugte stadig telefoner efter skole, så en effekt kan kræve bredere indgreb.",
+      "topics": [
+        "psykologi",
+        "uddannelse",
+        "skærmtid",
+        "trivsel"
+      ],
+      "entities": [
+        "University of Birmingham",
+        "BMJ Mental Health",
+        "England"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 45,
+        "novelty": 72,
+        "sourceQuality": 78,
+        "personalRelevance": 55,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "A University of Birmingham SMART Schools analysis published in BMJ Mental Health used data from 815 pupils aged 12-15 across 20 English secondary schools (13 restrictive, 7 permissive).",
+          "sourceUrls": [
+            "https://www.psypost.org/school-smartphone-bans-save-time-but-dont-improve-student-mental-health-study-finds/",
+            "https://bmjgroup.com/school-restrictive-smartphone-policies-may-save-a-small-amount-of-money-by-reducing-staff-costs/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Restrictive phone policies produced no meaningful gain in pupils' quality of life or mental wellbeing (QALY 0.009 and MWALY -0.004, both close to zero), despite the intuitive expectation that bans improve wellbeing.",
+          "sourceUrls": [
+            "https://www.psypost.org/school-smartphone-bans-save-time-but-dont-improve-student-mental-health-study-finds/",
+            "https://pubmed.ncbi.nlm.nih.gov/41667290/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Restrictive policies cost roughly £94 less per pupil per school year and used slightly less staff time (3.1 vs 3.3 full-time-equivalent staff), so the only measurable benefit was a small cost saving, not better mental health.",
+          "sourceUrls": [
+            "https://bmjgroup.com/school-restrictive-smartphone-policies-may-save-a-small-amount-of-money-by-reducing-staff-costs/",
+            "https://www.psypost.org/school-smartphone-bans-save-time-but-dont-improve-student-mental-health-study-finds/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "School smartphone bans save time but don’t improve student mental health, study finds",
+          "publisher": "PsyPost",
+          "url": "https://www.psypost.org/school-smartphone-bans-save-time-but-dont-improve-student-mental-health-study-finds/",
+          "publishedAt": "2026-07-12T22:00:26.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "School restrictive smartphone policies may save a small amount of money by reducing staff costs",
+          "publisher": "BMJ Group",
+          "url": "https://bmjgroup.com/school-restrictive-smartphone-policies-may-save-a-small-amount-of-money-by-reducing-staff-costs/",
+          "publishedAt": "2026-02-10T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Health economics analysis of restrictive school smartphone policies in secondary schools in England (SMART Schools)",
+          "publisher": "BMJ Mental Health / PubMed",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41667290/",
+          "publishedAt": "2026-02-10T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://www.psypost.org/wp-content/uploads/2026/07/teens-on-smartphones-at-school.jpg",
+        "credit": "Kilde: PsyPost",
+        "alt": "Elever med smartphones i skolen",
+        "sourceUrl": "https://www.psypost.org/school-smartphone-bans-save-time-but-dont-improve-student-mental-health-study-finds/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "headline": "OpenAI og Google har solgt AI-modeller til sortlistede kinesiske selskaber",
+      "url": "https://itwatch.dk/ITNyt/Strategi/article19470029.ece",
+      "publisher": "ITWatch",
+      "section": "AI",
+      "publishedAt": "2026-07-10T19:13:00.000Z",
+      "summary": "Ifølge ITWatch har OpenAI og Google (USA) solgt AI-modeller til Singapore-datterselskaber af sortlistede kinesiske selskaber som Baidu, Alibaba og Tencent – en omgåelse af de amerikanske eksportregler.",
+      "text": "OpenAI og Google har solgt AI-modeller til sortlistede kinesiske selskaber"
+    },
+    {
+      "headline": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents",
+      "url": "https://techcrunch.com/2026/07/08/prime-intellect-raises-130m-series-a-to-help-enterprises-build-their-own-ai-agents/",
+      "publisher": "TechCrunch",
+      "section": "Venturekapital",
+      "publishedAt": "2026-07-08T16:22:00.000Z",
+      "summary": "Prime Intellect (San Francisco, USA) rejser 130 mio. dollar i Series A ledet af Radical Ventures (Canada) med Nvidia og Intel; kapitalen skal hjælpe virksomheder med selv at bygge og eje deres AI-agenter.",
+      "text": "Prime Intellect raises $130M Series A to help enterprises build their own AI agents"
+    },
+    {
+      "headline": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round",
+      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "publisher": "TechCrunch",
+      "section": "Venturekapital",
+      "publishedAt": "2026-07-08T07:16:00.000Z",
+      "summary": "AI-chipproducenten SambaNova (Palo Alto, USA) rejser 1 mia. dollar til en værdi på 11 mia. dollar – med bl.a. General Atlantic (USA) og Qatar Investment Authority (Qatar) – fem måneder efter sin sidste storrunde.",
+      "text": "AI chip maker SambaNova raises $1B at $11B valuation, 5 months after last mega round"
+    },
+    {
+      "headline": "China becomes second country to recover orbital booster with Long March 10B",
+      "url": "https://spacenews.com/china-becomes-second-country-to-recover-orbital-booster-with-long-march-10b/",
+      "publisher": "SpaceNews",
+      "section": "Rumfart",
+      "publishedAt": "2026-07-10T16:00:00.000Z",
+      "summary": "Kina bliver efter SpaceX det andet land, der genindfanger en kredsløbs-raketbooster, med Long March 10B og en særlig net-opfangningsmetode – et håndgribeligt skridt mod genbrugelige kinesiske raketter.",
+      "text": "China becomes second country to recover orbital booster with Long March 10B"
+    },
+    {
+      "headline": "QuTech Releases Tuna-17 Superconducting Quantum Computer Through Quantum Inspire",
+      "url": "https://thequantuminsider.com/2026/07/10/quantum-inspire-adds-new-open-architecture-quantum-processor-tuna-17/",
+      "publisher": "The Quantum Insider",
+      "section": "Kvanteteknologi",
+      "publishedAt": "2026-07-10T07:00:00.000Z",
+      "summary": "Nederlandske QuTech (TU Delft) frigiver en 17-qubit superledende kvantecomputer, Tuna-17, gratis via Quantum Inspire med en fuldt europæisk forsyningskæde – en åben europæisk kvante-milepæl.",
+      "text": "QuTech Releases Tuna-17 Superconducting Quantum Computer Through Quantum Inspire"
+    },
+    {
+      "headline": "Ukraine's Zelenskyy announces cabinet reshuffle, replaces PM Svyrydenko",
+      "url": "https://www.aljazeera.com/news/2026/7/12/ukraines-zelenskyy-announces-cabinet-reshuffle-replaces-pm-svyrydenko",
+      "publisher": "Al Jazeera",
+      "section": "Geopolitik",
+      "publishedAt": "2026-07-12T12:56:00.000Z",
+      "summary": "Ukraines præsident Zelenskyj omdanner sin regering og udskifter premierminister Svyrydenko i et signal om et skifte mod udenrigspolitisk levering frem for frontlinjen.",
+      "text": "Ukraine's Zelenskyy announces cabinet reshuffle, replaces PM Svyrydenko"
+    },
+    {
+      "headline": "Israel sets election date for October 27, Netanyahu government to complete full term",
+      "url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-902258",
+      "publisher": "The Jerusalem Post",
+      "section": "Geopolitik",
+      "publishedAt": "2026-07-12T14:20:00.000Z",
+      "summary": "Israel har fastsat valgdato til 27. oktober, hvor Netanyahu-regeringen færdiggør sin fulde valgperiode – startskuddet på en kampagne om at afsætte eller genindsætte premierministeren.",
+      "text": "Israel sets election date for October 27, Netanyahu government to complete full term"
+    },
+    {
+      "headline": "Progress urges ShareFile admins to shut down servers over \"credible\" threat",
+      "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/",
+      "publisher": "BleepingComputer",
+      "section": "Cybersikkerhed",
+      "publishedAt": "2026-07-10T16:26:00.000Z",
+      "summary": "Progress opfordrer ShareFile-administratorer til at lukke servere ned på grund af en „troværdig“ trussel – samme leverandør og mønster som det masseudnyttede MOVEit-angreb; høj beslutningsværdi for it-afdelinger.",
+      "text": "Progress urges ShareFile admins to shut down servers over \"credible\" threat"
+    },
+    {
+      "headline": "Deep-sea life has a secret food source scientists never expected",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010127.htm",
+      "publisher": "ScienceDaily / University of Southern Denmark",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-11T22:00:00.000Z",
+      "summary": "Et dansk-ledet studie fra Syddansk Universitet finder en uventet fødekilde for dybhavets liv, der ændrer forståelsen af havets kulstofkredsløb.",
+      "text": "Deep-sea life has a secret food source scientists never expected"
+    },
+    {
+      "headline": "Physicists recreate black hole energy extraction in the lab",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010120.htm",
+      "publisher": "ScienceDaily / Advanced Science Research Center, CUNY",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-11T22:00:00.000Z",
+      "summary": "Fysikere ved CUNY har for første gang genskabt Penroses 50 år gamle forudsigelse om energiudvinding fra sorte huller som et bordeksperiment i laboratoriet.",
+      "text": "Physicists recreate black hole energy extraction in the lab"
+    },
+    {
+      "headline": "Venice Biennale Russian pavilion: EU Commission confirms funding withdrawal",
+      "url": "https://www.euronews.com/culture/2026/07/12/venice-biennale-russian-pavilion-eu-commission-confirms-funding-withdrawal",
+      "publisher": "Euronews",
+      "section": "Kultur",
+      "publishedAt": "2026-07-12T07:08:00.000Z",
+      "summary": "EU-Kommissionen bekræfter, at den trækker finansiering fra den russiske pavillon ved Venedig-biennalen – kulturstøtte bliver et sanktionsredskab mod Ruslands tilbagevenden til kunstscenen.",
+      "text": "Venice Biennale Russian pavilion: EU Commission confirms funding withdrawal"
+    }
+  ],
+  "keyNumber": {
+    "label": "IMF’s globale vækstskøn for 2026",
+    "value": "3,0",
+    "unit": "procent",
+    "asOf": "8. juli 2026",
+    "caption": "Global vækst falder til 3,0% i 2026, når krigen i Mellemøsten trækker ned, mens en AI-drevet teknologiopgang dæmper faldet; IMF venter 3,4% i 2027.",
+    "sourceUrl": "https://www.imf.org/en/publications/weo/issues/2026/07/08/world-economic-outlook-update-july-2026",
+    "sourceTitle": "World Economic Outlook Update, July 2026: Global Economy in Crosscurrents of War and Technology",
+    "series": [
+      {
+        "label": "2024-25",
+        "value": 3.5
+      },
+      {
+        "label": "2026",
+        "value": 3
+      },
+      {
+        "label": "2027",
+        "value": 3.4
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-sophie-calle-louisiana-20260713",
+      "mode": "experience",
+      "kind": "udstilling",
+      "status": "available",
+      "title": "Something Missing?",
+      "creator": "Sophie Calle",
+      "provider": "Louisiana",
+      "url": "https://louisiana.dk/en/exhibition/sophie-calle/",
+      "availability": "Louisiana, Humlebæk; 26. marts – 6. september 2026; almindelig entré.",
+      "commitment": "Museumsbesøg",
+      "description": "Den franske konceptkunstner Sophie Calles udstilling fylder Louisianas vestfløj med værker, der fletter fravær, overvågning, privatliv og fortælling sammen til intime undersøgelser af, hvad vi ved om hinanden.",
+      "rationale": "En serendipitøs pause fra skærmen, men tæt på dine interesser i psykologi og fortælling: Calle gør observation og det manglende til kunst – et koncentreret, håndgribeligt besøg inden for rækkevidde nord for København.",
+      "topics": [
+        "kunst",
+        "psykologi",
+        "privatliv",
+        "fortælling"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://louisiana.dk/wp-content/uploads/2025/02/10-Sophie-Calle-Musee-Picasso-Paris25-juillet-23-%C2%A9-Yves-Geant-huge_jpg.jpg",
+        "credit": "Foto: © Yves Géant / Louisiana",
+        "alt": "Værk fra Sophie Calle-udstillingen Something Missing? på Louisiana",
+        "sourceUrl": "https://louisiana.dk/en/exhibition/sophie-calle/"
+      }
+    },
+    {
+      "id": "rec-adam-brown-gr-dwarkesh-20260713",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Adam Brown – A deep but accessible introduction to general relativity",
+      "creator": "Adam Brown",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/adam-brown-gr",
+      "availability": "Gratis på dwarkesh.com, YouTube og lydtjenester; udgivet 10. juli 2026.",
+      "commitment": "1 t 38 min",
+      "description": "Fysikeren Adam Brown gennemgår den generelle relativitetsteori fra bunden – sorte huller, rumtid og gravitation – i en lang, tilgængelig samtale med Dwarkesh Patel.",
+      "rationale": "Et seriøst afbræk fra AI-strømmen, der belønner tid med reel forståelse: passer til ugens laboratorie-eksperiment med sorte huller og til din smag for stærke idéer forklaret grundigt frem for hurtigt.",
+      "topics": [
+        "fysik",
+        "relativitetsteori",
+        "sorte huller",
+        "videnskab"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://substackcdn.com/image/fetch/$s_!hmQM!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F206445844%2F70165e4d-bb6b-419a-8532-864600d885f9%2Ftranscoded-1783700540.png",
+        "credit": "Kilde: Dwarkesh Podcast",
+        "alt": "Coverbillede fra Dwarkesh-podcastens afsnit med Adam Brown",
+        "sourceUrl": "https://www.dwarkesh.com/p/adam-brown-gr"
+      }
+    },
+    {
+      "id": "rec-works-in-progress-tech-progress-20260713",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "The value of technological progress",
+      "creator": "Works in Progress",
+      "provider": "Works in Progress",
+      "url": "https://worksinprogress.co/issue/the-value-of-technological-progress/",
+      "availability": "Gratis online på worksinprogress.co, hele verden.",
+      "commitment": "Essaysamling, ~30 min",
+      "description": "Works in Progress’ udgave samler essays om, hvordan vi måler og prissætter værdien af teknologisk fremskridt – fra innovationspolitik til deeptech og økonomisk vækst.",
+      "rationale": "Rammer direkte dit arbejdsfelt: skarpe, velunderbyggede argumenter om fremskridtets værdi, som er nyttige, når du skal vurdere investeringer i deeptech uden at falde for hype.",
+      "topics": [
+        "fremskridt",
+        "innovationspolitik",
+        "deeptech",
+        "økonomi",
+        "idéer"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://worksinprogress.co/wip-image/uploads/2026/01/Issue-19-onwards-share-cards-11.png",
+        "credit": "Kilde: Works in Progress",
+        "alt": "Delingsgrafik for Works in Progress-udgaven om teknologisk fremskridt",
+        "sourceUrl": "https://worksinprogress.co/issue/the-value-of-technological-progress/"
+      }
+    },
+    {
+      "id": "rec-a-chip-odyssey-taiwanplus-20260713",
+      "mode": "watch",
+      "kind": "dokumentar",
+      "status": "upcoming",
+      "title": "A Chip Odyssey",
+      "provider": "TaiwanPlus",
+      "url": "https://www.taiwanplus.com/shows/documentary/business-and-tech/668/a-chip-odyssey",
+      "availability": "Vises snart gratis på TaiwanPlus; showsiden er live, men filmen var endnu ikke streambar 13. juli 2026.",
+      "commitment": "Dokumentar (~90 min)",
+      "description": "Dokumentar om, hvordan TSMC blev en global stormagt og gjorde Taiwan til centrum for verdens mest avancerede chipproduktion – dagens lead om AI-chips sat i historisk perspektiv.",
+      "rationale": "Perfekt påhæng til dagens eksportkontrol-nyhed: forstår du TSMC’s rolle, forstår du, hvorfor chip-adgang er blevet geopolitik. Sæt en påmindelse, til den lander på TaiwanPlus.",
+      "topics": [
+        "halvledere",
+        "TSMC",
+        "geopolitik",
+        "teknologisk suverænitet",
+        "Taiwan"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://i.ytimg.com/vi/eeJoFDnpJIE/hqdefault.jpg",
+        "credit": "Kilde: TaiwanPlus / YouTube",
+        "alt": "Motiv fra dokumentaren A Chip Odyssey",
+        "sourceUrl": "https://www.taiwanplus.com/shows/documentary/business-and-tech/668/a-chip-odyssey"
+      }
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 87,
+    "sourceQuality": 86,
+    "outsideProfile": 85,
+    "diversity": 84,
+    "novelty": 86
+  }
+}
