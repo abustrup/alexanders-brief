@@ -1,0 +1,797 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-16-daily-v1",
+  "date": "2026-07-16",
+  "generatedAt": "2026-07-16T03:40:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Novo Nordisk får EU-godkendt sin første vægttabspille, og Nvidia halverer sit asiatiske forhandlernet for at holde AI-chips ude af Kina. Daniel Eks Neko Health firedobler værdien med 700 mio. dollar, regeringen fremskynder danske droneindkøb, og et Moskva-selskab overtager både Rockwools og AkzoNobels russiske fabrikker. EU sætter for første gang navn på hackerne bag et angreb på et dansk vandværk, Frankrig vedtager en lov om aktiv dødshjælp, og et 37-årigt jordforsøg afslører en skjult klimatrussel.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "keyNumber": {
+    "label": "Rekordår for private fusionsinvesteringer",
+    "value": "4,48",
+    "unit": "mia. USD",
+    "asOf": "15. juli 2026",
+    "caption": "Fusionsindustrien rejste et rekordbeløb det seneste år; den samlede investering når nu 14,24 mia. dollar, og 17 startups har hver rejst over 100 mio. dollar.",
+    "sourceUrl": "https://www.fusionindustryassociation.org/fusion-industry-attracts-record-annual-funding-of-4-48bn-raising-total-to-14-24bn/",
+    "sourceTitle": "Fusion Industry Attracts Record Annual Funding of $4.48bn, Raising Total to $14.24bn"
+  },
+  "stories": [
+    {
+      "id": "story-novo-wegovy-oral-eu-20260716",
+      "eventKey": "novo-wegovy-oral-pill-eu-approval-2026-07",
+      "materialFacts": [
+        "EU-Kommissionen godkendte 15. juli 2026 en oral udgave af Wegovy (daglig pille med 25 mg semaglutid) til voksne med svær overvægt eller overvægt med mindst én følgesygdom",
+        "Det er den første GLP-1-vægttabspille godkendt i hele EU; hidtil fandtes Wegovy kun som injektionspen",
+        "Kommissionen godkendte samtidig en ny, klar-til-brug 7,2 mg-pen; CHMP anbefalede godkendelsen 22. maj 2026"
+      ],
+      "section": "Erhverv",
+      "headline": "Novo Nordisk får grønt lys til vægttabspille i EU",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/novo-nordisk-faar-groent-lys-til-vaegttabspille-i-eu",
+      "subheadline": "Kommissionen godkender den første orale GLP-1-vægttabspille i hele EU – og en ny, stærkere pen.",
+      "body": [
+        "EU-Kommissionen godkendte 15. juli 2026 en oral udgave af Novo Nordisks vægttabsmiddel Wegovy – en daglig pille med 25 mg semaglutid til voksne med svær overvægt eller overvægt med mindst én følgesygdom. Det er den første GLP-1-vægttabspille godkendt i hele EU; hidtil fandtes Wegovy kun som injektionspen.",
+        "Kommissionen godkendte samtidig en ny, stærkere 7,2 mg-pen, der er klar til brug. Pillen sælges i forvejen i USA, Storbritannien og De Forenede Arabiske Emirater, og godkendelsen følger, efter at lægemiddeludvalget CHMP anbefalede den 22. maj 2026."
+      ],
+      "whyItMatters": "Novo Nordisk er Danmarks største virksomhed og en tung post i både statens skatteindtægter og danskernes pensionsopsparing. En pille er lettere at masseproducere og distribuere end en injektion og udvider markedet til de patienter, der viger tilbage for nåle.",
+      "analysis": "Godkendelsen løser ikke selskabets grundproblem – konkurrencen fra Eli Lillys tabletter og presset på priserne – men den giver Novo et forsvarsværk i Europa, netop som investorer har frygtet, at væksten i GLP-1-markedet flader ud. Det afgørende bliver nu produktionskapacitet og pris, ikke om produktet findes.",
+      "topics": [
+        "pharma",
+        "GLP-1",
+        "erhverv",
+        "EU-regulering"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Wegovy",
+        "semaglutid",
+        "EU-Kommissionen",
+        "EMA"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 86,
+        "novelty": 72,
+        "sourceQuality": 88,
+        "personalRelevance": 74,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "EU-Kommissionen godkendte 15. juli 2026 en oral udgave af Wegovy med 25 mg semaglutid som den første GLP-1-vægttabspille i hele EU, samtidig med en ny 7,2 mg-pen.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/novo-nordisk-faar-groent-lys-til-vaegttabspille-i-eu"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo Nordisk får grønt lys til vægttabspille i EU",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/novo-nordisk-faar-groent-lys-til-vaegttabspille-i-eu",
+          "publishedAt": "2026-07-15T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/oujpen2a/317.png?im=AspectCrop%3D%28700%2C394%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28700%2C394%29",
+        "credit": "Kilde: DR",
+        "alt": "Novo Nordisks vægttabsmiddel Wegovy – EU godkender nu en oral pilleudgave",
+        "sourceUrl": "https://www.dr.dk/nyheder/seneste/novo-nordisk-faar-groent-lys-til-vaegttabspille-i-eu"
+      }
+    },
+    {
+      "id": "story-nvidia-asia-buyerlist-20260716",
+      "eventKey": "nvidia-halves-asia-buyer-whitelist-2026-07",
+      "materialFacts": [
+        "Nvidia har mere end halveret sin liste over godkendte asiatiske videreforhandlere for at stramme op på amerikansk eksportkontrol (BIS)",
+        "Oprydningen retter sig mod mellemhandlere i bl.a. Singapore, Malaysia og Japan, hvorfra AI-chips har kunnet omdirigeres til Kina",
+        "Financial Times bragte historien; Nvidia er amerikansk (Santa Clara, Californien)"
+      ],
+      "section": "Teknologi",
+      "headline": "Nvidia halves Asia buyer list in China chip crackdown, FT reports",
+      "primarySourceUrl": "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html",
+      "subheadline": "Chipgiganten skærer sit asiatiske forhandlernet ned for at stoppe omdirigering til Kina.",
+      "body": [
+        "Nvidia har ifølge Financial Times mere end halveret sin liste over godkendte asiatiske videreforhandlere for at forhindre, at selskabets AI-chips ender i Kina i strid med amerikanske eksportregler.",
+        "Oprydningen rammer mellemhandlere i bl.a. Singapore, Malaysia og Japan, hvorfra chips har kunnet omdirigeres. Nvidia er amerikansk (Santa Clara), men den reelle adressat er de kinesiske købere, som Washingtons eksportkontrol vil afskære fra de kraftigste acceleratorer."
+      ],
+      "whyItMatters": "Et konkret billede på, hvordan eksportkontrol nu presses helt ud i selskabernes egne salgskanaler: Nvidia må overvåge sit eget distributionsnet for at bevare adgangen til hjemmemarkedet.",
+      "analysis": "Håndhævelsen flytter fra told til virksomhederne selv. Det øger Nvidias omkostninger og risiko, men dæmper næppe Kinas appetit på regnekraft – det accelererer snarere Beijings satsning på egne chips.",
+      "topics": [
+        "chips",
+        "eksportkontrol",
+        "teknologisk suverænitet",
+        "Kina"
+      ],
+      "entities": [
+        "Nvidia",
+        "Kina",
+        "USA",
+        "BIS",
+        "Financial Times"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 78,
+        "novelty": 78,
+        "sourceQuality": 82,
+        "personalRelevance": 88,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Nvidia har ifølge Financial Times mere end halveret sin liste over godkendte asiatiske forhandlere for at forhindre omdirigering af AI-chips til Kina under amerikansk eksportkontrol.",
+          "sourceUrls": [
+            "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html",
+            "https://www.techtimes.com/articles/320527/20260715/nvidia-cuts-over-half-asian-ai-chip-buyers-bis-compliance-net-widens.htm"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nvidia halves Asia buyer list in China chip crackdown, FT reports",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html",
+          "publishedAt": "2026-07-15T03:31:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia Cuts Over Half of Asian AI Chip Buyers as BIS Compliance Net Widens",
+          "publisher": "Tech Times",
+          "url": "https://www.techtimes.com/articles/320527/20260715/nvidia-cuts-over-half-asian-ai-chip-buyers-bis-compliance-net-widens.htm",
+          "publishedAt": "2026-07-15T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/2788-2888_San_Tomas_Expwy.jpg/1280px-2788-2888_San_Tomas_Expwy.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Nvidias hovedkvarter i Santa Clara, Californien",
+        "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/nvidia-halves-asia-buyer-list-033140201.html"
+      }
+    },
+    {
+      "id": "story-neko-health-seriesc-20260716",
+      "eventKey": "neko-health-700m-series-c-2026-07",
+      "materialFacts": [
+        "Neko Health (svensk, grundlagt af Daniel Ek) rejste 700 mio. dollar i Series C til en værdi på knap 7 mia. dollar – cirka 4x værdien ved Series B i januar 2025",
+        "Runden ledes af amerikanske Lightspeed, co-ledes af O.G. Venture Partners; nye investorer inkluderer OpenAI",
+        "Pengene skal finansiere en USA-ekspansion med en klinik på Manhattan senere i 2026; ventelisten tæller ca. 350.000 personer"
+      ],
+      "section": "Erhverv",
+      "headline": "Daniel Ek's body-scanning startup Neko Health raises another $700M",
+      "primarySourceUrl": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
+      "subheadline": "Spotify-stifterens sundhedsselskab firedobler sin værdi på halvandet år.",
+      "body": [
+        "Neko Health – det svenske sundhedsselskab grundlagt af Spotify-stifter Daniel Ek – har rejst 700 mio. dollar i Series C til en værdi på knap 7 mia. dollar, cirka fire gange værdien ved Series B i januar 2025.",
+        "Runden ledes af amerikanske Lightspeed, med både europæiske (Atomico, Lakestar) og amerikanske investorer – herunder OpenAI. Neko, der scanner kroppen for tidlige sygdomstegn, åbner en klinik på Manhattan senere i år; ventelisten tæller ca. 350.000 personer."
+      ],
+      "whyItMatters": "Neko er et af Europas mest værdifulde sundheds-startups og et sjældent eksempel på en europæisk grundlægger, der skalerer forebyggende sundhed med venturekapital.",
+      "analysis": "Firedoblingen på halvandet år hviler på forventning, ikke på bevist folkesundhedseffekt: kritikere advarer om overdiagnostik og falske positiver. At OpenAI er med, peger på, at den egentlige indsats ligger i data og AI-fortolkning – ikke i hardwaren.",
+      "topics": [
+        "venturekapital",
+        "sundhedsteknologi",
+        "Norden",
+        "AI"
+      ],
+      "entities": [
+        "Neko Health",
+        "Daniel Ek",
+        "Lightspeed",
+        "OpenAI",
+        "Sverige"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 72,
+        "novelty": 74,
+        "sourceQuality": 80,
+        "personalRelevance": 86,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Neko Health rejste 700 mio. dollar i Series C til en værdi på knap 7 mia. dollar, ledet af Lightspeed og co-ledet af O.G. Venture Partners, med OpenAI blandt de nye investorer.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
+            "https://www.nekohealth.com/gb/en/press/neko-health-raises-usd700m-series-c-ahead-of-us-launch"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Daniel Ek's body-scanning startup Neko Health raises another $700M",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/",
+          "publishedAt": "2026-07-15T13:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Neko Health raises $700M Series C ahead of US launch",
+          "publisher": "Neko Health",
+          "url": "https://www.nekohealth.com/gb/en/press/neko-health-raises-usd700m-series-c-ahead-of-us-launch",
+          "publishedAt": "2026-07-15T08:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2024/09/Neko-Health-Founders-Hjalmar-Nilsonne-Daniel-Ek-1.jpeg?resize=1200,800",
+        "credit": "Foto: TechCrunch/Neko Health",
+        "alt": "Neko Healths grundlæggere Hjalmar Nilsonne og Daniel Ek",
+        "sourceUrl": "https://techcrunch.com/2026/07/15/daniel-eks-body-scanning-startup-neko-health-raises-another-700m/"
+      }
+    },
+    {
+      "id": "story-dk-drone-antidrone-20260716",
+      "eventKey": "denmark-drone-antidrone-expedited-procurement-2026-07",
+      "materialFacts": [
+        "Regeringen har fået Folketingets opbakning (via Finansudvalget) til at fremskynde indkøb af flere droner og af antidrone-kapaciteter til forsvaret",
+        "Beslutningen følger en periode med gentagne uidentificerede droneobservationer over dansk territorium og kritisk infrastruktur",
+        "Købene skal ske ad en hasteprocedure, så kapaciteterne kan være på plads hurtigere end normalt"
+      ],
+      "section": "Forsvar",
+      "headline": "Regeringen begynder yderligere indkøb af dronesystemer",
+      "primarySourceUrl": "https://www.kristeligt-dagblad.dk/danmark/regeringen-begynder-yderligere-indkoeb-af-dronesystemer",
+      "subheadline": "Folketinget bakker op om hasteindkøb af både droner og antidrone-værn.",
+      "body": [
+        "Regeringen har fået Folketingets opbakning – via en aktstykke-godkendelse i Finansudvalget – til at fremskynde indkøb af flere droner og antidrone-kapaciteter til forsvaret. Beslutningen følger gentagne uidentificerede droneobservationer over dansk territorium og kritisk infrastruktur.",
+        "Købene sker ad en hasteprocedure, så kapaciteterne er på plads hurtigere end ved normale anskaffelser. Både overvågningsdroner og systemer til at opdage og nedkæmpe fjendtlige droner indgår."
+      ],
+      "whyItMatters": "Droner er blevet centrale i europæisk sikkerhed efter krigen i Ukraine, og Danmark har oplevet flere krænkelser af luftrummet omkring lufthavne og militære anlæg. Hurtigere indkøb signalerer, at truslen behandles som akut.",
+      "analysis": "Hasteindkøb giver fart, men også risiko for at binde sig til umodne systemer i et marked, der ændrer sig fra måned til måned. Prøven bliver, om Danmark køber hyldevarer eller bygger egen kapacitet.",
+      "topics": [
+        "forsvar",
+        "droner",
+        "sikkerhed",
+        "indkøb"
+      ],
+      "entities": [
+        "Forsvaret",
+        "Folketinget",
+        "Finansudvalget",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 80,
+        "novelty": 72,
+        "sourceQuality": 82,
+        "personalRelevance": 86,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Regeringen har fået Folketingets opbakning til at fremskynde indkøb af yderligere droner og antidrone-kapaciteter til det danske forsvar.",
+          "sourceUrls": [
+            "https://www.kristeligt-dagblad.dk/danmark/regeringen-begynder-yderligere-indkoeb-af-dronesystemer",
+            "https://www.forsvaret.dk/da/nyheder/2026/regeringen-har-faet-folketingets-opbakning-til-at-ko-be-yderligere-droner-og-antidrone-kapaciteter/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Regeringen begynder yderligere indkøb af dronesystemer",
+          "publisher": "Kristeligt Dagblad",
+          "url": "https://www.kristeligt-dagblad.dk/danmark/regeringen-begynder-yderligere-indkoeb-af-dronesystemer",
+          "publishedAt": "2026-07-15T10:33:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Regeringen har fået Folketingets opbakning til at købe yderligere droner og antidrone-kapaciteter",
+          "publisher": "Forsvaret",
+          "url": "https://www.forsvaret.dk/da/nyheder/2026/regeringen-har-faet-folketingets-opbakning-til-at-ko-be-yderligere-droner-og-antidrone-kapaciteter/",
+          "publishedAt": "2026-07-15T09:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/metatag/s3/2026/07-15/20260715103305794_1000.jpg?itok=e1G1EULI",
+        "credit": "Foto: Kristeligt Dagblad",
+        "alt": "Dansk militærdrone – regeringen fremskynder indkøb af droner og antidrone-værn",
+        "sourceUrl": "https://www.kristeligt-dagblad.dk/danmark/regeringen-begynder-yderligere-indkoeb-af-dronesystemer"
+      }
+    },
+    {
+      "id": "story-rockwool-akzonobel-russia-20260716",
+      "eventKey": "rockwool-akzonobel-russia-seizure-microcompany-2026-07",
+      "materialFacts": [
+        "En lille Moskva-baseret virksomhed, SC Razvitie Stroitelnykh Aktivov, samler kontrollen over vestlige industrigiganters russiske aktiver",
+        "I januar 2026 overførte den russiske stat kontrollen med Rockwools fire russiske fabrikker til selskabet; i juli 2026 fulgte et Putin-dekret om AkzoNobels (Sadolin) russiske aktiviteter",
+        "Rockwools topchef Jes Munk Hansen kalder det tyveri; de overtagne fabrikker har ifølge DR leveret materialer til det russiske militær"
+      ],
+      "section": "Erhverv",
+      "headline": "Putin 'stjal' danske milliardfabrikker: Nu overtager lille hemmeligt selskab også hollandsk malergigant",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/putin-stjal-danske-milliardfabrikker-nu-overtager-lille-hemmeligt-selskab-ogsaa-hollandsk",
+      "subheadline": "Samme uigennemsigtige Moskva-selskab samler nu både Rockwools og AkzoNobels russiske aktiver.",
+      "body": [
+        "En lille, ukendt Moskva-virksomhed, SC Razvitie Stroitelnykh Aktivov, samler kontrollen over vestlige industrigiganters russiske aktiver. I januar 2026 overførte den russiske stat kontrollen med danske Rockwools fire russiske fabrikker til selskabet, der ledes af Timur Amirov.",
+        "I juli 2026 placerede et Putin-dekret hollandske AkzoNobels russiske aktiviteter (Sadolin) under samme selskab. Rockwool-chef Jes Munk Hansen kalder det tyveri; fabrikkerne har ifølge DR leveret materialer til det russiske militær."
+      ],
+      "whyItMatters": "Sagen viser den voksende pris, danske og europæiske industrivirksomheder betaler for produktion i Rusland – ekspropriationen er nu systematiseret gennem én struktur.",
+      "analysis": "Præcedensen er farligere end tabet: en skabelon, hvor Kreml samler beslaglagte vestlige aktiver på få hænder i krigsøkonomiens tjeneste. Det gør en ordnet exit fra Rusland stort set umulig for de tilbageværende.",
+      "topics": [
+        "Rusland",
+        "ekspropriation",
+        "erhverv",
+        "geopolitik"
+      ],
+      "entities": [
+        "Rockwool",
+        "AkzoNobel",
+        "Vladimir Putin",
+        "Jes Munk Hansen",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 70,
+        "novelty": 80,
+        "sourceQuality": 82,
+        "personalRelevance": 72,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "Den russiske stat overførte i januar 2026 kontrollen med Rockwools fire russiske fabrikker til Moskva-selskabet SC Razvitie Stroitelnykh Aktivov, og et Putin-dekret i juli 2026 placerede AkzoNobels russiske aktiviteter under samme selskab.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/putin-stjal-danske-milliardfabrikker-nu-overtager-lille-hemmeligt-selskab-ogsaa-hollandsk"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Putin 'stjal' danske milliardfabrikker: Nu overtager lille hemmeligt selskab også hollandsk malergigant",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/putin-stjal-danske-milliardfabrikker-nu-overtager-lille-hemmeligt-selskab-ogsaa-hollandsk",
+          "publishedAt": "2026-07-15T05:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/554n4bbp/20221123-125021-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Rockwool-produktion – russiske myndigheder har overtaget selskabets fabrikker i Rusland",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/putin-stjal-danske-milliardfabrikker-nu-overtager-lille-hemmeligt-selskab-ogsaa-hollandsk"
+      }
+    },
+    {
+      "id": "story-koege-cyber-eu-sanktioner-20260716",
+      "eventKey": "koege-vandvaerk-cyberangreb-eu-sanktioner-zpentest-2026-07",
+      "materialFacts": [
+        "EU har for første gang indført sanktioner som følge af et cyberangreb mod dansk kritisk infrastruktur: angrebet ramte i december 2024 Tureby-Alkestrup Vandværk syd for Køge",
+        "Hackere skabte overtryk, der sprængte rørene tre steder og afskar hundredvis af husstande fra vand i op til syv timer",
+        "Sanktionerne rammer ni personer og fire enheder; den 42-årige russer Yuliya Vladimirovna Pankratova udpeges som leder af Z-Pentest, som EU knytter til GRU"
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "Cyberangreb mod vandværk ved Køge udløser EU-sanktioner mod 42-årig russisk kvinde og hackergruppe",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/politik/cyberangreb-mod-vandvaerk-ved-koege-udloeser-eu-sanktioner-mod-42-aarig-russisk-kvinde-og",
+      "subheadline": "For første gang sætter EU navn på hackere bag et angreb på dansk kritisk infrastruktur.",
+      "body": [
+        "EU har for første gang indført sanktioner som følge af et cyberangreb mod dansk kritisk infrastruktur. Angrebet ramte i december 2024 Tureby-Alkestrup Vandværk syd for Køge, hvor hackere skabte et overtryk, der sprængte rørene og afskar hundredvis af husstande fra vand i op til syv timer.",
+        "Sanktionerne – indrejseforbud og indefrysning – rammer ni personer og fire enheder. Blandt dem er den 42-årige russer Yuliya Vladimirovna Pankratova, udpeget som leder af Z-Pentest, som EU knytter til efterretningstjenesten GRU."
+      ],
+      "whyItMatters": "En sjælden konkret ansvarliggørelse: EU sætter navn på enkeltpersoner bag et angreb på et dansk vandværk og fastslår russisk statsstøtte.",
+      "analysis": "Sanktioner mod navngivne hackere har begrænset praktisk effekt – de rejser sjældent til EU – men de har signalværdi: Vesten kan identificere gerningsmændene. Angrebet indgår i en bredere EU-britisk pakke mod russisk cyberspionage.",
+      "topics": [
+        "cybersikkerhed",
+        "sanktioner",
+        "Rusland",
+        "kritisk infrastruktur"
+      ],
+      "entities": [
+        "EU",
+        "Køge",
+        "Z-Pentest",
+        "GRU",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 74,
+        "novelty": 82,
+        "sourceQuality": 84,
+        "personalRelevance": 80,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "EU indførte sanktioner mod ni personer og fire enheder efter et cyberangreb i december 2024 på Tureby-Alkestrup Vandværk syd for Køge og udpegede den 42-årige russer Yuliya Vladimirovna Pankratova som leder af Z-Pentest, der knyttes til GRU.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/cyberangreb-mod-vandvaerk-ved-koege-udloeser-eu-sanktioner-mod-42-aarig-russisk-kvinde-og",
+            "https://www.france24.com/en/europe/20260713-eu-and-uk-slap-sanctions-on-russian-spies-and-hackers-over-cyberattacks"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cyberangreb mod vandværk ved Køge udløser EU-sanktioner mod 42-årig russisk kvinde og hackergruppe",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/cyberangreb-mod-vandvaerk-ved-koege-udloeser-eu-sanktioner-mod-42-aarig-russisk-kvinde-og",
+          "publishedAt": "2026-07-14T14:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "EU and UK slap sanctions on Russian spies and hackers over cyberattacks",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/europe/20260713-eu-and-uk-slap-sanctions-on-russian-spies-and-hackers-over-cyberattacks",
+          "publishedAt": "2026-07-13T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/zbydx4js/20251218-190042-l_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Vandrør og forsyning – cyberangreb mod dansk vandværk udløser EU-sanktioner",
+        "sourceUrl": "https://www.dr.dk/nyheder/politik/cyberangreb-mod-vandvaerk-ved-koege-udloeser-eu-sanktioner-mod-42-aarig-russisk-kvinde-og"
+      }
+    },
+    {
+      "id": "story-france-assisted-dying-20260716",
+      "eventKey": "france-assisted-dying-law-final-adoption-2026-07",
+      "materialFacts": [
+        "Frankrigs Nationalforsamling vedtog 15. juli 2026 den endelige tekst til en lov om aktiv dødshjælp efter årelang politisk strid",
+        "Loven gør det under nærmere betingelser muligt for voksne med en alvorlig og uhelbredelig lidelse at få hjælp til at dø",
+        "Spørgsmålet har delt både partier, lægestand og kirke i Frankrig"
+      ],
+      "section": "Udland",
+      "headline": "French Parliament approves landmark assisted-dying bill",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill",
+      "subheadline": "Efter årelang strid tillader Frankrig nu aktiv dødshjælp under betingelser.",
+      "body": [
+        "Frankrigs Nationalforsamling vedtog 15. juli 2026 den endelige tekst til en lov om aktiv dødshjælp efter årelang strid. Loven gør det under nærmere betingelser muligt for voksne med en alvorlig, uhelbredelig lidelse at få hjælp til at dø.",
+        "Vedtagelsen afslutter en af de mest følelsesladede processer i nyere fransk politik, hvor spørgsmålet har delt partier, lægestand og kirke. Modstandere advarer om pres på sårbare patienter; tilhængere fremhæver retten til en værdig død."
+      ],
+      "whyItMatters": "Frankrig slutter sig til en mindre gruppe europæiske lande, der tillader en form for aktiv dødshjælp, og flytter en central etisk grænse i et af EU's største lande.",
+      "analysis": "Loven viser, hvordan et sekulært samfund gradvist omdefinerer forholdet mellem individuel autonomi og statens beskyttelse af livet. Den reelle prøve bliver implementeringen: sikkerhedsmekanismer, der forhindrer misbrug uden at gøre retten illusorisk.",
+      "topics": [
+        "etik",
+        "Frankrig",
+        "sundhed",
+        "lovgivning"
+      ],
+      "entities": [
+        "Frankrig",
+        "Nationalforsamlingen",
+        "aktiv dødshjælp"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 66,
+        "novelty": 74,
+        "sourceQuality": 84,
+        "personalRelevance": 58,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "Frankrigs Nationalforsamling vedtog 15. juli 2026 den endelige tekst til en lov, der under betingelser tillader aktiv dødshjælp for voksne med en alvorlig og uhelbredelig lidelse.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill",
+            "https://www.france24.com/en/france/20260715-france-expected-to-pass-final-vote-on-assisted-dying-after-years-of-debate"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "French Parliament approves landmark assisted-dying bill",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill",
+          "publishedAt": "2026-07-15T16:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "France expected to pass final vote on assisted dying after years of debate",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/france/20260715-france-expected-to-pass-final-vote-on-assisted-dying-after-years-of-debate",
+          "publishedAt": "2026-07-15T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a57d9416c2b-1784142145.jpg?resize=1920%2C1440",
+        "credit": "Foto: AFP/Al Jazeera",
+        "alt": "Frankrigs Nationalforsamling – parlamentet vedtager lov om aktiv dødshjælp",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/7/15/french-parliament-approves-landmark-assisted-dying-bill"
+      }
+    },
+    {
+      "id": "story-harvard-soil-carbon-20260716",
+      "eventKey": "harvard-forest-37yr-soil-warming-stable-carbon-2026-07",
+      "materialFacts": [
+        "Et 37-årigt jordbundsforsøg i Harvard Forest, Massachusetts, viser, at varmere skovbund frigiver langt mere lagret kulstof end hidtil antaget",
+        "Efterhånden som jordens mikrober tilpasser sig varmen, nedbryder de organisk materiale i gentagne bølger og frigiver CO2",
+        "Effekten aftager ikke over tid, men fortsætter i årtier – en selvforstærkende klimafeedback"
+      ],
+      "section": "Videnskab",
+      "headline": "A 37-year soil experiment revealed a hidden climate threat",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/07/260713000809.htm",
+      "subheadline": "Verdens længstløbende jordopvarmningsforsøg peger på en skjult, selvforstærkende feedback.",
+      "body": [
+        "Et af verdens længstløbende jordbundsforsøg – 37 år med kunstig opvarmning af skovbund i Harvard Forest i Massachusetts – viser, at varmere jord frigiver langt mere lagret kulstof end hidtil antaget. Når jordens mikrober tilpasser sig varmen, nedbryder de organisk materiale i gentagne bølger og sender CO2 op i atmosfæren.",
+        "Forskerne finder, at effekten ikke aftager, men fortsætter i årtier – en selvforstærkende mekanisme, hvor opvarmning frigiver kulstof, der forstærker opvarmningen."
+      ],
+      "whyItMatters": "Verdens jorde indeholder mere kulstof end atmosfæren og al vegetation tilsammen. Skifter de fra lager til kilde, undervurderer klimamodellerne tempoet i opvarmningen.",
+      "analysis": "Det er en 'skjult' feedback, svær at bygge ind i politiske CO2-budgetter, fordi den udspiller sig langsomt og under jorden. Det styrker argumentet for, at selv beskedne temperaturstigninger kan udløse konsekvenser, der ikke let rulles tilbage.",
+      "topics": [
+        "klima",
+        "videnskab",
+        "kulstof",
+        "forskning"
+      ],
+      "entities": [
+        "Harvard Forest",
+        "Massachusetts",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 58,
+        "novelty": 84,
+        "sourceQuality": 86,
+        "personalRelevance": 56,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Et 37-årigt opvarmningsforsøg i Harvard Forest viser, at varmere skovbund vedvarende frigiver lagret kulstof, efterhånden som mikrober tilpasser sig – en selvforstærkende klimafeedback.",
+          "sourceUrls": [
+            "https://www.sciencedaily.com/releases/2026/07/260713000809.htm"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A 37-year soil experiment revealed a hidden climate threat",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/07/260713000809.htm",
+          "publishedAt": "2026-07-14T00:08:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.sciencedaily.com/images/1920/forest-tree-moisture-soil-root-hairs.webp",
+        "credit": "Foto: ScienceDaily",
+        "alt": "Skovbund og rødder – langtidsforsøg viser, at varmere jord frigiver lagret kulstof",
+        "sourceUrl": "https://www.sciencedaily.com/releases/2026/07/260713000809.htm"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "headline": "TSMC's second-quarter profit seen hitting record on AI boom",
+      "url": "https://finance.yahoo.com/news/tsmcs-second-quarter-profit-seen-230305681.html",
+      "publisher": "Yahoo Finance",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-15T23:03:00.000Z",
+      "summary": "Taiwan. TSMC ventedes at aflægge rekordoverskud for 2. kvartal 2026 (net profit ~632,6 mia. NT-dollar, ca. 19,65 mia. USD, ~59 pct. mere end året før), drevet af AI-efterspørgsel. Selskabets største kunder er de amerikanske chipdesignere Nvidia, Apple og AMD.",
+      "text": "TSMC's second-quarter profit seen hitting record on AI boom"
+    },
+    {
+      "headline": "ASML Tops Q2 Earnings Estimates on Strong AI Chip Demand",
+      "url": "https://www.globalbankingandfinance.com/asml-tops-q2-estimates-ai-chip-demand/",
+      "publisher": "Global Banking & Finance Review",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-15T09:00:00.000Z",
+      "summary": "Holland. ASML, der leverer litografimaskinerne til hele chipindustrien, slog forventningerne med et Q2-nettosalg på ~9,3 mia. euro og et overskud på ~2,9 mia. euro. Kunderne omfatter TSMC (Taiwan), Samsung (Sydkorea) og Intel (USA).",
+      "text": "ASML Tops Q2 Earnings Estimates on Strong AI Chip Demand"
+    },
+    {
+      "headline": "DeepSeek reportedly in talks to raise $1.5B, then IPO",
+      "url": "https://techcrunch.com/2026/07/14/deepseek-reportedly-in-talks-to-raise-1-5b-then-ipo/",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-14T18:00:00.000Z",
+      "summary": "Kina. Den kinesiske AI-lab DeepSeek (Hangzhou) forhandler ifølge Bloomberg om at rejse ca. 1,5 mia. dollar til en værdi på ~71 mia. dollar med henblik på en senere børsnotering. Blandt de nævnte investorer er kinesiske Tencent og en statslig AI-fond.",
+      "text": "DeepSeek reportedly in talks to raise $1.5B, then IPO"
+    },
+    {
+      "headline": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C",
+      "url": "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-15T12:00:00.000Z",
+      "summary": "Indien. Bengaluru-baserede Emergent rejste 130 mio. dollar i Series C til en værdi på 1,5 mia. dollar – en femdobling på et halvt år. Runden ledes af indiske Creaegis med kapital fra USA (Khosla, Lightspeed, YC) og Japan (SoftBank).",
+      "text": "Indian AI coding startup Emergent becomes a unicorn with $130M Series C"
+    },
+    {
+      "headline": "New York becomes first state to impose data center moratorium",
+      "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul",
+      "publisher": "Office of the Governor of New York",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-14T14:00:00.000Z",
+      "summary": "USA. Guvernør Kathy Hochul underskrev 14. juli 2026 et dekret, der gør New York til den første amerikanske delstat med et midlertidigt stop for nye hyperscale-datacentre, mens energi- og vandforbrug undersøges.",
+      "text": "New York becomes first state to impose data center moratorium"
+    },
+    {
+      "headline": "EU ambassadors again fail to agree on 21st sanction package for Russia – discussions continue",
+      "url": "https://en.interfax.com.ua/news/general/1185259.html",
+      "publisher": "Interfax-Ukraine",
+      "section": "Udland",
+      "publishedAt": "2026-07-15T21:00:00.000Z",
+      "summary": "EU. EU-ambassadørerne nåede 15. juli 2026 igen ikke til enighed om den 21. sanktionspakke mod Rusland og missede måldatoen 15. juli. Forhandlingerne fortsætter.",
+      "text": "EU ambassadors again fail to agree on 21st sanction package for Russia – discussions continue"
+    },
+    {
+      "headline": "Gibraltar ushers in a new era as British territory's border fence with Spain is removed",
+      "url": "https://www.washingtontimes.com/news/2026/jul/14/gibraltar-ushers-new-era-british-territorys-border-fence-spain/",
+      "publisher": "The Washington Times",
+      "section": "Udland",
+      "publishedAt": "2026-07-14T20:00:00.000Z",
+      "summary": "Gibraltar/Spanien/Storbritannien. Det fysiske grænsehegn mellem Spanien og Gibraltar blev fjernet, og landovergangen åbnede uden kontrol ved midnat 14.-15. juli som led i den nye EU-UK-aftale om Gibraltar.",
+      "text": "Gibraltar ushers in a new era as British territory's border fence with Spain is removed"
+    },
+    {
+      "headline": "Japan enacts social media law requiring flagging of AI content in elections",
+      "url": "https://asia.nikkei.com/politics/japan-enacts-social-media-law-requiring-flagging-of-ai-content-in-elections",
+      "publisher": "Nikkei Asia",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-14T10:00:00.000Z",
+      "summary": "Japan. Japans parlament vedtog 14. juli 2026 ændringer, der kræver mærkning af AI-genereret indhold i valgkampe, med bred opbakning fra både regering og opposition.",
+      "text": "Japan enacts social media law requiring flagging of AI content in elections"
+    },
+    {
+      "headline": "Nedlagt tysk atomkraftværk får ny opgave: Skal producere el ud af laserfusion",
+      "url": "https://ing.dk/artikel/nedlagt-tysk-atomkraftvaerk-faar-ny-opgave-skal-producere-el-ud-af-laserfusion",
+      "publisher": "Ingeniøren",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-15T06:00:00.000Z",
+      "summary": "Tyskland. Fusionsselskabet Focused Energy planlægger et demonstrationsanlæg for laserfusion (inertial confinement) på det nedlagte atomkraftværk i Biblis. Det ville koble et gammelt kernekraftsite til en helt ny energiteknologi.",
+      "text": "Nedlagt tysk atomkraftværk får ny opgave: Skal producere el ud af laserfusion"
+    },
+    {
+      "headline": "Skole mister tilskud efter \"alvorligt\" lovbrud – skal betale millioner tilbage",
+      "url": "https://nyheder.tv2.dk/samfund/2026-07-15-skole-mister-tilskud-efter-alvorligt-lovbrud-skal-betale-millioner-tilbage",
+      "publisher": "TV 2",
+      "section": "Indland",
+      "publishedAt": "2026-07-15T08:00:00.000Z",
+      "summary": "Danmark. Styrelsen for Undervisning og Kvalitet fratog Aalborg Steinerskole statstilskuddet med virkning fra 1. juni 2026 for alvorlige og vedvarende brud på friskoleloven; skolen skal tilbagebetale 4,6 mio. kr. og lukker kontrolleret.",
+      "text": "Skole mister tilskud efter \"alvorligt\" lovbrud – skal betale millioner tilbage"
+    },
+    {
+      "headline": "Expedition captures first detailed imagery of Robert Falcon Scott's last ship, Terra Nova, using cutting-edge Canadian Voyis 3D technology",
+      "url": "https://www.whoi.edu/press-room/news-release/terranova/",
+      "publisher": "Woods Hole Oceanographic Institution",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-14T12:00:00.000Z",
+      "summary": "Grønland. En ekspedition har for første gang skabt detaljerede 3D-billeder af vraget af Terra Nova – skibet fra Robert Falcon Scotts fatale Antarktis-ekspedition 1910-13 – ud for Grønland med canadisk Voyis-teknologi.",
+      "text": "Expedition captures first detailed imagery of Robert Falcon Scott's last ship, Terra Nova, using cutting-edge Canadian Voyis 3D technology"
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-noema-alive-conscious-20260716",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "Only What Is Alive Can Be Conscious",
+      "provider": "Noema Magazine",
+      "url": "https://www.noemamag.com/only-what-is-alive-can-be-conscious/",
+      "availability": "Gratis online på noemamag.com.",
+      "commitment": "Ca. 12-15 min læsning",
+      "description": "Et filosofisk essay, der argumenterer for, at bevidsthed er bundet til det levende – biologi, stofskifte, sårbarhed – og derfor ikke uden videre kan opstå i et beregningssubstrat af silicium.",
+      "rationale": "Går direkte imod den udbredte antagelse om, at bevidsthed er substratuafhængig, og skærper din tænkning om AI-bevidsthed og -etik. Et koncentreret modspil til Silicon Valleys standardfortælling – mere idé pr. minut end en to timers podcast om samme spørgsmål.",
+      "topics": [
+        "bevidsthed",
+        "filosofi",
+        "AI-etik",
+        "biologi"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://noemamag.imgix.net/2026/01/1_-copy.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=e756f3600ce0949d50902ec493f74c06",
+        "credit": "Illustration: Noema Magazine",
+        "alt": "Illustration til Noema-essayet 'Only What Is Alive Can Be Conscious'",
+        "sourceUrl": "https://www.noemamag.com/only-what-is-alive-can-be-conscious/"
+      }
+    },
+    {
+      "id": "rec-camille-henrot-paper-planes-20260716",
+      "mode": "experience",
+      "kind": "kunstudstilling",
+      "status": "available",
+      "title": "Camille Henrot: Paper Planes",
+      "creator": "Camille Henrot",
+      "provider": "Copenhagen Contemporary",
+      "url": "https://copenhagencontemporary.org/en/camille-henrot/",
+      "availability": "Copenhagen Contemporary, Refshalevej 173A, København. Vises 5. juni – 31. december 2026.",
+      "commitment": "45-90 min besøg",
+      "description": "Den franske kunstner Camille Henrots hidtil største soloudstilling i Skandinavien med en ny film samt store installationer og nye skulpturelle værker om systemer, sprog og magt.",
+      "rationale": "Et serendipitøst kulturvalg lige uden for din tech-akse, men tæt på dine interesser for kreativitet og systemtænkning. Henrot arbejder ofte med, hvordan bureaukrati og klassifikation former verden – en fysisk pause fra skærmen, tæt på hjemme på Refshaleøen.",
+      "topics": [
+        "kunst",
+        "udstilling",
+        "København",
+        "kreativitet"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-deepmind-genie-3-20260716",
+      "mode": "try",
+      "kind": "AI-værktøj",
+      "status": "new",
+      "title": "Genie 3",
+      "creator": "Google DeepMind",
+      "provider": "Google DeepMind",
+      "url": "https://deepmind.google/models/genie/",
+      "availability": "Eksperimentel forskningsprototype via Google Labs (Project Genie); begrænset adgang.",
+      "commitment": "Interaktivt, få minutter",
+      "description": "DeepMinds seneste 'world model', der genererer interaktive, spilbare 3D-verdener ud fra en tekstprompt og lader dig bevæge dig rundt i dem i realtid. Tilgængelig som forskningsprototype.",
+      "rationale": "World models er et af de mest undervurderede AI-spor for robotik og simulering – og at prøve Genie selv giver bedre kalibrering end at læse om det. En hands-on måde at forstå, hvor langt generative miljøer er nået, for en investor der vurderer deeptech.",
+      "topics": [
+        "world models",
+        "AI",
+        "simulering",
+        "DeepMind"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-ap-jensen-huang-computex-2026-20260716",
+      "mode": "watch",
+      "kind": "keynote",
+      "status": "available",
+      "title": "Nvidia CEO Jensen Huang delivers keynote at Computex 2026 in Taiwan (full speech)",
+      "creator": "Jensen Huang / Nvidia",
+      "provider": "Associated Press",
+      "url": "https://www.youtube.com/watch?v=gxgi6D-Cf9I",
+      "availability": "Gratis på YouTube (Associated Press).",
+      "commitment": "Ca. 2 timer (fuld keynote)",
+      "description": "Jensen Huangs fulde Computex-keynote fra Taiwan, hvor Nvidia lægger sin køreplan for AI-infrastruktur, næste generation af acceleratorer og hele økosystemet omkring dem – lagt op af AP i uredigeret længde.",
+      "rationale": "Baggrundslæsning til dagens Nvidia-historie: her er strategien bag chippene, som eksportkontrollen nu strammer om. Skru til 1,5x og hør, hvor Huang selv mener, flaskehalsene i AI-udrulningen ligger – nyttigt, når du skal vurdere kapital til compute og infrastruktur.",
+      "topics": [
+        "chips",
+        "AI-infrastruktur",
+        "Nvidia",
+        "strategi"
+      ],
+      "isFeatured": false,
+      "image": {
+        "url": "https://i.ytimg.com/vi/gxgi6D-Cf9I/maxresdefault.jpg",
+        "credit": "Foto: Associated Press (YouTube)",
+        "alt": "Jensen Huang holder Nvidia-keynote ved Computex 2026 i Taiwan",
+        "sourceUrl": "https://www.youtube.com/watch?v=gxgi6D-Cf9I"
+      }
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 86,
+    "sourceQuality": 84,
+    "outsideProfile": 85,
+    "diversity": 88,
+    "novelty": 86
+  }
+}
