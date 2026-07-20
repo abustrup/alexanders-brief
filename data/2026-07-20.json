@@ -1,0 +1,892 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-20-daily-v1",
+  "date": "2026-07-20",
+  "generatedAt": "2026-07-20T04:05:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Alibaba forærer softwarelaget under sine AI-chips væk og angriber dermed den del af Nvidias forsvarsværk, eksportkontrol ikke kan beskytte, mens Japan satser 1 billion yen på den modsatte strategi. Københavnske Climentum lukker 60 mio. euro til europæisk klima-hardware med EIFO og Ingeniørforeningen som investorer, Storbritannien nationaliserer sit sidste stålværk og får en kinesisk advarsel igen, og Ungarns præsident underskriver sin egen afskedigelse. Titusinder af indiske studerende marcherer mod parlamentet tirsdag, Spanien er verdensmester efter 1-0 over Argentina, og britiske forskere kan nu spå om Solens næste cyklus syv år før tid.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-alibaba-sail-cuda-20260720",
+      "eventKey": "alibaba-thead-sail-open-source-cuda-alternative",
+      "section": "Teknologi",
+      "isLead": true,
+      "isOutsideProfile": false,
+      "headline": "Alibaba targets Nvidia's dominant software ecosystem with open-source AI stack",
+      "primarySourceUrl": "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack",
+      "subheadline": "Alibabas chipenhed T-Head frigiver softwarelaget under sine AI-chips som open source. Angrebet gælder ikke Nvidias silicium, men CUDA — den del af forsvarsværket, amerikansk eksportkontrol ikke kan beskytte.",
+      "materialFacts": [
+        "T-Head, Alibabas chipdivision, meddelte 18. juli 2026 på World AI Conference i Shanghai, at selskabet frigiver SAIL — den grundlæggende softwarearkitektur bag T-Heads Zhenwu-AI-chips — som open source",
+        "T-Head oplyser, at programmører kan tilpasse SAIL-stakken til gængse AI-frameworks på under syv dage",
+        "Huawei tog et tilsvarende skridt i 2025 ved at open source CANN til sine Ascend-processorer, og chipselskabet Moore Threads deltager i den samme bredere kinesiske indsats for CUDA-alternativer"
+      ],
+      "body": [
+        "Alibabas chipenhed T-Head offentliggjorde 18. juli på World AI Conference i Shanghai, at selskabet frigiver SAIL som open source. SAIL er softwarearkitekturen bag T-Heads Zhenwu-AI-chips — laget mellem chippen og de modeller, der skal køre på den. Nu kan udviklere uden for Alibaba bygge direkte på det.",
+        "T-Head oplyser, at programmører kan tilpasse stakken til gængse AI-frameworks på under syv dage. Trækket står ikke alene: Huawei open sourcede i 2025 sin CANN-stak til Ascend-processorerne, og chipselskabet Moore Threads indgår i samme kinesiske indsats mod Nvidias CUDA."
+      ],
+      "whyItMatters": "Nvidias sværeste barriere at kopiere er ikke selskabets silicium, men CUDA — de programmeringsværktøjer, som stort set al eksisterende AI-kode er skrevet op imod. Eksportkontrol kan bestemme, hvilke chips kinesiske selskaber må købe, men ikke forhindre dem i at forære softwarelaget væk.",
+      "analysis": "De syv dage er T-Heads eget tal og bør læses som salgsargument, ikke som måling. Det væsentlige er koordinationen: tre kinesiske aktører har på et år angrebet samme lag med samme metode. Afgørende bliver ikke antallet af frigivne stakke, men hvor mange udviklere uden for Kina der faktisk flytter kode over.",
+      "topics": [
+        "AI",
+        "halvledere",
+        "teknologisk suverænitet",
+        "open source",
+        "Kina"
+      ],
+      "entities": [
+        "Alibaba",
+        "T-Head",
+        "Nvidia",
+        "Huawei",
+        "Moore Threads",
+        "Kina"
+      ],
+      "scores": {
+        "importance": 84,
+        "decisionValue": 80,
+        "novelty": 82,
+        "sourceQuality": 82,
+        "personalRelevance": 88,
+        "contrast": 74
+      },
+      "image": {
+        "url": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2026/07/18/e917de65-efec-43cd-a644-9627269e0932_c97bb953.jpg?itok=o63QLKE1&v=1784370787",
+        "credit": "Kilde: South China Morning Post",
+        "alt": "Illustration til artikel om Alibabas open source-AI-softwarestak og konkurrencen med Nvidia",
+        "sourceUrl": "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack"
+      },
+      "claims": [
+        {
+          "text": "T-Head meddelte 18. juli 2026 på World AI Conference i Shanghai, at selskabet open sourcer SAIL, den grundlæggende softwarearkitektur til Zhenwu-AI-chipsene.",
+          "sourceUrls": [
+            "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "T-Head oplyser, at programmører kan tilpasse SAIL-stakken til gængse AI-frameworks på under syv dage.",
+          "sourceUrls": [
+            "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Huawei open sourcede i 2025 CANN til sine Ascend-processorer, og Moore Threads deltager i den bredere kinesiske indsats for CUDA-alternativer.",
+          "sourceUrls": [
+            "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alibaba targets Nvidia's dominant software ecosystem with open-source AI stack",
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/tech-war/article/3361048/alibaba-targets-nvidias-dominant-software-ecosystem-open-source-ai-stack",
+          "publishedAt": "2026-07-18T11:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-japan-noetra-nvidia-20260720",
+      "eventKey": "nvidia-japan-noetra-sovereign-ai-2026",
+      "section": "Teknologi",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "What to watch for after Jensen Huang's Japan visit",
+      "primarySourceUrl": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "subheadline": "Japan lægger op til 1 billion yen i et nationalt AI-program og køber sig dybere ind i Nvidias stak — den modsatte strategi af Kinas.",
+      "materialFacts": [
+        "Japan har forpligtet op til 1 billion yen (6,2 mia. dollar) over fem år til det nationale AI-initiativ Noetra, der har 44 indenlandske kernedeltagere, heriblandt SoftBank, Sony, NEC og Honda",
+        "Den planlagte Vera Rubin-AI-fabrik skal rumme 13.750 Vera-CPU'er og 27.500 Rubin-GPU'er ved 140 megawatt og ventes i drift i 2028",
+        "Japan sigter mod 10 millioner AI-udstyrede robotter i 18 sektorer inden 2040 og mod over 30 procent af det globale marked for AI-robotteknologi"
+      ],
+      "body": [
+        "Efter Jensen Huangs besøg i Japan tegner omfanget af landets AI-satsning sig. Japan har forpligtet op til 1 billion yen — 6,2 milliarder dollar — over fem år til initiativet Noetra med 44 kernedeltagere, blandt dem SoftBank, Sony, NEC og Honda.",
+        "Den planlagte Vera Rubin-AI-fabrik skal rumme 13.750 Vera-CPU'er og 27.500 Rubin-GPU'er ved 140 megawatt fra 2028. Samtidig tilslutter Fanuc, Yaskawa, Kawasaki Heavy og Hitachi sig Nvidias Cosmos-platform."
+      ],
+      "whyItMatters": "Japan vælger modsat Kina: i stedet for at bygge et alternativ til den amerikanske stak køber landet sig dybt ind i den og satser på at eje anvendelseslaget — 10 millioner AI-robotter i 18 sektorer inden 2040.",
+      "analysis": "To suverænitetsstrategier står side om side, og de kan ikke begge være rigtige. Den japanske er billigst at kopiere for europæiske investorer — og binder hårdest, hvis leverandøradgang bliver politisk.",
+      "topics": [
+        "AI",
+        "teknologisk suverænitet",
+        "robotteknologi",
+        "infrastruktur",
+        "Japan"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Noetra",
+        "SoftBank",
+        "Sony",
+        "Japan"
+      ],
+      "scores": {
+        "importance": 80,
+        "decisionValue": 78,
+        "novelty": 76,
+        "sourceQuality": 78,
+        "personalRelevance": 86,
+        "contrast": 72
+      },
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/01/getty-japan-flag-distance.jpg?w=1024",
+        "credit": "Kilde: TechCrunch",
+        "alt": "Det japanske flag — illustration til artikel om Japans nationale AI-satsning Noetra",
+        "sourceUrl": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+      },
+      "claims": [
+        {
+          "text": "Japan har forpligtet op til 1 billion yen (6,2 mia. dollar) over fem år til det nationale AI-initiativ Noetra, som har 44 indenlandske kernedeltagere.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Den planlagte Vera Rubin-AI-fabrik skal bruge 13.750 Vera-CPU'er og 27.500 Rubin-GPU'er ved 140 megawatt og ventes i drift i 2028.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Japan sigter mod 10 millioner AI-udstyrede robotter i 18 sektorer inden 2040 og mod over 30 procent af det globale AI-robotmarked.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "What to watch for after Jensen Huang's Japan visit",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+          "publishedAt": "2026-07-19T21:16:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-climentum-fund-ii-20260720",
+      "eventKey": "climentum-capital-fund-ii-first-close",
+      "section": "Erhverv",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Climentum Capital launches €60M first close of Fund II to back European climate hard tech",
+      "primarySourceUrl": "https://arcticstartup.com/climentum-capital-launches-e60m-first-close-of-fund-ii/",
+      "subheadline": "Den københavnske klimafond henter 60 mio. euro i første lukning. EIFO går ind med 15 mio., og for første gang optræder Ingeniørforeningen som venturekapital-investor.",
+      "materialFacts": [
+        "Københavnsbaserede Climentum Capital (Danmark) har nået en første lukning på 60 mio. euro på Fund II med et samlet mål på 100 mio. euro",
+        "Investorerne er Den Europæiske Investeringsfond med 40 mio. euro (Luxembourg/EU), danske EIFO med 15 mio. euro og Ingeniørforeningen IDA med 5 mio. euro — første gang Danmarks største ingeniørfagforening går ind som venturekapital-investor",
+        "Fonden planlægger cirka 20 seed- og Series A-investeringer i hardware og deeptech inden for energi, industri, transport og landbrug i Danmark, Sverige, Tyskland, Østrig og Schweiz"
+      ],
+      "body": [
+        "Climentum Capital med hovedkontor i København har lukket første runde af sin anden fond på 60 millioner euro ud af et mål på 100 millioner. Største investor er Den Europæiske Investeringsfond med 40 millioner, danske EIFO bidrager med 15.",
+        "De sidste 5 millioner kommer fra Ingeniørforeningen IDA — første gang Danmarks største ingeniørfagforening går ind i en venturefond. Pengene skal ud i cirka 20 seed- og Series A-investeringer i Danmark, Sverige, Tyskland, Østrig og Schweiz."
+      ],
+      "whyItMatters": "Europæisk klima-hardware har haft svært ved at rejse kapital, siden renten steg. At en fond af denne størrelse lukker med EU-fond, stat og fagforening i tre lag, viser hvor institutionelt grundlaget er blevet.",
+      "analysis": "Sammensætningen er historien. En fagforening som investor er en ny dansk kanal, der skalerer anderledes end statslige tilsagn. Målet om 1,5 mio. ton undgået CO2 årligt er en ambition, ikke et resultat.",
+      "topics": [
+        "venturekapital",
+        "klimateknologi",
+        "deeptech",
+        "EIFO",
+        "Danmark"
+      ],
+      "entities": [
+        "Climentum Capital",
+        "EIFO",
+        "Den Europæiske Investeringsfond",
+        "IDA",
+        "Danmark"
+      ],
+      "scores": {
+        "importance": 68,
+        "decisionValue": 82,
+        "novelty": 74,
+        "sourceQuality": 70,
+        "personalRelevance": 92,
+        "contrast": 60
+      },
+      "image": {
+        "url": "https://arcticstartup.com/wp-content/uploads/2026/07/climentum-capital-launches-e60m-first-close-of-fund-ii.png",
+        "credit": "Kilde: ArcticStartup",
+        "alt": "Illustration til artikel om Climentum Capitals anden fond til europæisk klima-hardware",
+        "sourceUrl": "https://arcticstartup.com/climentum-capital-launches-e60m-first-close-of-fund-ii/"
+      },
+      "claims": [
+        {
+          "text": "Climentum Capital, med hovedkontor i København, har nået en første lukning på 60 mio. euro på Fund II med et mål på 100 mio. euro.",
+          "sourceUrls": [
+            "https://arcticstartup.com/climentum-capital-launches-e60m-first-close-of-fund-ii/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Investorerne er Den Europæiske Investeringsfond (40 mio. euro), EIFO (15 mio. euro) og Ingeniørforeningen IDA (5 mio. euro), sidstnævnte som førstegangs-venturekapitalinvestor.",
+          "sourceUrls": [
+            "https://arcticstartup.com/climentum-capital-launches-e60m-first-close-of-fund-ii/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Fonden planlægger cirka 20 seed- og Series A-investeringer i Danmark, Sverige, Tyskland, Østrig og Schweiz.",
+          "sourceUrls": [
+            "https://arcticstartup.com/climentum-capital-launches-e60m-first-close-of-fund-ii/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Climentum Capital launches €60M first close of Fund II to back European climate hard tech",
+          "publisher": "ArcticStartup",
+          "url": "https://arcticstartup.com/climentum-capital-launches-e60m-first-close-of-fund-ii/",
+          "publishedAt": "2026-07-17T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-british-steel-china-20260720",
+      "eventKey": "british-steel-nationalisation-china-jingye",
+      "section": "Udland",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "China warns UK over British Steel nationalisation, demands fair resolution",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution",
+      "subheadline": "Storbritannien har nationaliseret sit sidste primære stålværk med henvisning til national sikkerhed. Kina advarer om, at sagen vil påvirke kinesiske investorers tillid til landet.",
+      "materialFacts": [
+        "Den britiske regering nationaliserede British Steel torsdag 16. juli 2026 med henvisning til national sikkerhed og beskyttelse af arbejdspladser",
+        "Den kinesiske ejer Jingye Group købte British Steel for 70 mio. pund (94 mio. dollar) i 2020 og oplyste i 2025 at tabe 700.000 pund om dagen; koncernen søger nu kompensation",
+        "British Steel beskæftiger cirka 2.700 medarbejdere i Scunthorpe og er Storbritanniens eneste tilbageværende kilde til primær stålproduktion"
+      ],
+      "body": [
+        "Den britiske regering overtog 16. juli British Steel med henvisning til national sikkerhed og arbejdspladser. Værket i Scunthorpe beskæftiger omkring 2.700 og er landets eneste anlæg til primær stålproduktion — stål af jernmalm frem for skrot.",
+        "Kinesiske Jingye Group købte selskabet for 70 millioner pund i 2020 og oplyste i 2025 at tabe 700.000 pund om dagen. Koncernen kræver kompensation, og Kinas udenrigsministerium siger, at håndteringen får betydning for kinesiske investorers tillid til Storbritannien."
+      ],
+      "whyItMatters": "Sagen er en test af, hvad national sikkerhed koster i praksis. Prisen for at sikre primær stålkapacitet er en åben strid med verdens næststørste økonomi om erstatning.",
+      "analysis": "For regeringer, der skriver sikkerhedshensyn ind i investeringsscreening, er præcedensen ikke, om man må gribe ind, men hvad regningen bliver. Bemærk asymmetrien: 70 millioner pund i købspris mod 700.000 i dagstab.",
+      "topics": [
+        "industripolitik",
+        "national sikkerhed",
+        "Storbritannien",
+        "Kina",
+        "investeringsscreening"
+      ],
+      "entities": [
+        "British Steel",
+        "Jingye Group",
+        "Storbritannien",
+        "Kina",
+        "Scunthorpe"
+      ],
+      "scores": {
+        "importance": 78,
+        "decisionValue": 70,
+        "novelty": 72,
+        "sourceQuality": 80,
+        "personalRelevance": 66,
+        "contrast": 74
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Scunthorpe-blast-furnaces-by-Alan-Murray-Rust.jpg",
+        "credit": "Foto: Alan Murray-Rust / Wikimedia Commons",
+        "alt": "Højovne på stålværket i Scunthorpe, Storbritanniens sidste anlæg til primær stålproduktion",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scunthorpe-blast-furnaces-by-Alan-Murray-Rust.jpg"
+      },
+      "claims": [
+        {
+          "text": "Den britiske regering nationaliserede British Steel 16. juli 2026 med henvisning til national sikkerhed og arbejdspladser.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Jingye Group købte British Steel for 70 mio. pund i 2020 og oplyste i 2025 at tabe 700.000 pund dagligt; koncernen søger kompensation.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Kinas udenrigsministerium siger, at Storbritanniens håndtering af sagen direkte vil påvirke kinesiske investorers tillid til det britiske investeringsklima.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "China warns UK over British Steel nationalisation, demands fair resolution",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/18/china-warns-uk-over-british-steel-nationalisation-demands-fair-resolution",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-hungary-sulyok-20260720",
+      "eventKey": "hungary-president-sulyok-mandate-terminated",
+      "section": "Udland",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "headline": "Hungarian president Tamás Sulyok signs constitutional amendment ending his own mandate",
+      "primarySourceUrl": "https://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate",
+      "subheadline": "Ungarns præsident har underskrevet den forfatningsændring, der afskaffer hans eget embede fra 1. oktober. Péter Magyars nye flertal rydder op efter Orbán-æraen med samme redskab, den blev bygget med.",
+      "materialFacts": [
+        "Præsident Tamás Sulyok underskrev lørdag 18. juli 2026 Ungarns 17. forfatningsændring, som bringer hans eget præsidentmandat til ophør dagen efter ændringens ikrafttræden 1. oktober 2026",
+        "Ændringen blev vedtaget af parlamentet med 139 mod 6 stemmer den 13. juli 2026, efter at premierminister Péter Magyars Tisza-parti fik to tredjedeles flertal ved valget 12. april",
+        "Ændringen indfører en grænse på 12 år eller tre perioder for parlamentsmandater og en øvre aldersgrænse på 70 år for dommere ved forfatningsdomstolen; formand Ágnes Forsthoffer bliver fungerende præsident"
+      ],
+      "body": [
+        "Ungarns præsident Tamás Sulyok underskrev lørdag landets 17. forfatningsændring, som afslutter hans eget mandat dagen efter ikrafttrædelsen 1. oktober. Parlamentets formand, Ágnes Forsthoffer, bliver fungerende præsident.",
+        "Ændringen blev vedtaget 13. juli med 139 stemmer mod 6, efter at premierminister Péter Magyars Tisza-parti fik to tredjedeles flertal ved valget 12. april. Den indfører også en grænse på 12 år for parlamentsmandater."
+      ],
+      "whyItMatters": "Sulyok blev valgt af det tidligere Fidesz-flertal og er nu fjernet af det nye. Det viser grundproblemet ved den forfatning, Viktor Orbán selv skrev: når to tredjedele kan ændre spillereglerne, arver enhver ny regering redskabet.",
+      "analysis": "Mandatgrænserne peger mod afvikling af magt, men er indført ad samme vej, som gjorde koncentrationen mulig. Prøven bliver, om et flertal valgt på at genoprette institutionerne også binder sig selv.",
+      "topics": [
+        "politik",
+        "forfatning",
+        "Ungarn",
+        "demokrati",
+        "EU"
+      ],
+      "entities": [
+        "Tamás Sulyok",
+        "Péter Magyar",
+        "Tisza",
+        "Ágnes Forsthoffer",
+        "Ungarn"
+      ],
+      "scores": {
+        "importance": 74,
+        "decisionValue": 56,
+        "novelty": 80,
+        "sourceQuality": 76,
+        "personalRelevance": 40,
+        "contrast": 82
+      },
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/84/29/94/1536x864_cmsv2_999832ca-04da-5a8d-8665-02e3d7f81179-9842994.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "Ungarns præsident Tamás Sulyok — illustration til artikel om den 17. forfatningsændring",
+        "sourceUrl": "https://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate"
+      },
+      "claims": [
+        {
+          "text": "Tamás Sulyok underskrev 18. juli 2026 Ungarns 17. forfatningsændring, der afslutter hans eget mandat dagen efter ikrafttrædelsen 1. oktober 2026.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ændringen blev vedtaget 13. juli 2026 med 139 mod 6 stemmer, efter at Tisza fik to tredjedeles flertal ved valget 12. april.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ændringen indfører en 12-års/tre-periodersgrænse for parlamentsmandater og en aldersgrænse på 70 år for forfatningsdommere.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hungarian president Tamás Sulyok signs constitutional amendment ending his own mandate",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/07/18/hungarian-president-tamas-sulyok-signs-constitutional-amendment-ending-his-own-mandate",
+          "publishedAt": "2026-07-18T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-india-genz-protest-20260720",
+      "eventKey": "india-genz-cockroach-party-parliament-march",
+      "section": "Udland",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "headline": "Why have India's Gen Z protesters called for a march to parliament?",
+      "primarySourceUrl": "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament",
+      "subheadline": "Titusinder af studerende vil marchere mod Indiens parlament tirsdag. Bevægelsen begyndte med lækkede eksamensopgaver — nu kræver den Modis afgang.",
+      "materialFacts": [
+        "Titusinder af studenterledede demonstranter planlægger at marchere mod Indiens parlament 21. juli 2026, første dag i monsunsamlingen",
+        "Bevægelsen Cockroach Janta Party har besat Jantar Mantar i New Delhi i næsten en måned og krævede oprindeligt uddannelsesminister Dharmendra Pradhans afgang",
+        "Politiet fjernede 18. juli 2026 med magt aktivisten Sonam Wangchuk, 59 år, fra protestpladsen efter 20 dages sultestrejke, hvorefter bevægelsen udvidede kravet til premierminister Narendra Modis afgang"
+      ],
+      "body": [
+        "Titusinder af studerende har varslet en march mod Indiens parlament tirsdag 21. juli, første dag i monsunsamlingen. Bevægelsen Cockroach Janta Party har i næsten en måned besat pladsen Jantar Mantar i New Delhi.",
+        "Protesterne udspringer af lækkede eksamensopgaver og aflyste prøver, forbundet med selvmord blandt studerende. Efter at politiet 18. juli fjernede den 59-årige aktivist Sonam Wangchuk efter 20 dages sultestrejke, udvidede bevægelsen kravet til Narendra Modis afgang."
+      ],
+      "whyItMatters": "En protest om eksamensadministration er blevet et legitimitetsspørgsmål. Hvor optagelsesprøver er den vigtigste sociale elevator, er en utroværdig prøve et brud på aftalen bag konkurrencen.",
+      "analysis": "Wangchuks fjernelse er øjeblikket, hvor sagen skifter karakter; hans hustru kalder det ulovlig frihedsberøvelse forklædt som lægehjælp. Om tirsdagen bliver et vendepunkt, afhænger af, om bevægelsen rækker ud over studenterne.",
+      "topics": [
+        "politik",
+        "protest",
+        "Indien",
+        "uddannelse",
+        "ungdom"
+      ],
+      "entities": [
+        "Cockroach Janta Party",
+        "Sonam Wangchuk",
+        "Narendra Modi",
+        "Dharmendra Pradhan",
+        "Indien"
+      ],
+      "scores": {
+        "importance": 72,
+        "decisionValue": 48,
+        "novelty": 76,
+        "sourceQuality": 78,
+        "personalRelevance": 30,
+        "contrast": 86
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Sonam_Wangchuk%2C_2017_%28cropped%29.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Aktivisten Sonam Wangchuk, som politiet fjernede fra protestpladsen i New Delhi efter 20 dages sultestrejke",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sonam_Wangchuk,_2017_(cropped).jpg"
+      },
+      "claims": [
+        {
+          "text": "Titusinder af studenterledede demonstranter planlægger at marchere mod Indiens parlament 21. juli 2026, første dag i monsunsamlingen.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Cockroach Janta Party har besat Jantar Mantar i New Delhi i næsten en måned, udløst af lækkede eksamensopgaver og aflyste prøver.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Politiet fjernede 18. juli 2026 Sonam Wangchuk, 59 år, fra protestpladsen efter 20 dages sultestrejke, hvorefter kravet blev udvidet til Narendra Modis afgang.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Why have India's Gen Z protesters called for a march to parliament?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/features/2026/7/19/why-have-indias-gen-z-protesters-called-for-a-march-to-parliament",
+          "publishedAt": "2026-07-19T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-world-cup-final-20260720",
+      "eventKey": "fifa-world-cup-2026-final-spain-argentina",
+      "section": "Sport",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "headline": "Spain win World Cup for second time after thrilling final against Argentina",
+      "primarySourceUrl": "https://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina",
+      "subheadline": "Ferran Torres afgjorde VM-finalen i det 106. minut mod et Argentina i undertal. Spanien har vundet verdensmesterskabet for anden gang.",
+      "materialFacts": [
+        "Spanien vandt VM-finalen 1-0 over Argentina efter forlænget spilletid på MetLife Stadium i East Rutherford, New Jersey, natten til 20. juli 2026 dansk tid",
+        "Ferran Torres scorede kampens eneste mål i det 106. minut på en løs bold i Argentinas felt efter et indlæg fra Pedro Porro",
+        "Argentina spillede i undertal, efter at Enzo Fernández fik sit andet gule kort i tillægstiden af den ordinære spilletid; kampen blev dømt af Slavko Vinčić"
+      ],
+      "body": [
+        "Spanien er verdensmester for anden gang. På MetLife Stadium i East Rutherford i New Jersey blev Argentina slået 1-0 efter forlænget spilletid natten til mandag dansk tid.",
+        "Ferran Torres afgjorde kampen i det 106. minut på en løs bold i det argentinske felt efter indlæg fra Pedro Porro. Argentina havde da spillet i undertal siden tillægstiden af den ordinære spilletid, hvor Enzo Fernández fik sit andet gule kort. Slovenske Slavko Vinčić dømte finalen."
+      ],
+      "whyItMatters": "Spanien vinder titlen 16 år efter den første i 2010. For Argentina mislykkedes forsvaret af trofæet fra 2022, og et generationsskifte kan ikke længere udskydes.",
+      "analysis": "Udvisningen er den kendsgerning, resten af kampen hviler på: en halv time i undertal mod et hold bygget til at holde bolden gør det argentinske forsvar til et spørgsmål om tid. At målet faldt på en løs bold, siger noget om, hvor lidt der skulle til.",
+      "topics": [
+        "sport",
+        "fodbold",
+        "VM",
+        "Spanien",
+        "Argentina"
+      ],
+      "entities": [
+        "Spanien",
+        "Argentina",
+        "Ferran Torres",
+        "Enzo Fernández",
+        "MetLife Stadium"
+      ],
+      "scores": {
+        "importance": 70,
+        "decisionValue": 20,
+        "novelty": 92,
+        "sourceQuality": 76,
+        "personalRelevance": 24,
+        "contrast": 78
+      },
+      "image": {
+        "url": "https://images.euronews.com/articles/stories/09/84/33/93/1536x864_cmsv2_be35ae1b-5da4-5fca-8461-07e54fead082-9843393.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "Spanske spillere fejrer sejren i VM-finalen mod Argentina",
+        "sourceUrl": "https://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina"
+      },
+      "claims": [
+        {
+          "text": "Spanien vandt VM-finalen 1-0 over Argentina efter forlænget spilletid på MetLife Stadium i East Rutherford, New Jersey.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina",
+            "https://www.aljazeera.com/sports/2026/7/19/spain-battle-past-10-man-argentina-1-0-in-extra-time-to-win-2026-world-cup"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ferran Torres scorede i det 106. minut på en løs bold efter indlæg fra Pedro Porro.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Enzo Fernández fik sit andet gule kort i tillægstiden, så Argentina spillede i undertal; Slavko Vinčić dømte kampen.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Spain win World Cup for second time after thrilling final against Argentina",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/07/20/spain-win-world-cup-for-second-time-after-thrilling-final-against-argentina",
+          "publishedAt": "2026-07-19T22:02:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Spain battle past 10-man Argentina 1-0 in extra time to win 2026 World Cup",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/sports/2026/7/19/spain-battle-past-10-man-argentina-1-0-in-extra-time-to-win-2026-world-cup",
+          "publishedAt": "2026-07-19T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-solar-cycle-switchoff-20260720",
+      "eventKey": "solar-cycle-switch-off-precursor-cycle26",
+      "section": "Videnskab",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "headline": "NAM 2026: How the Sun goes to 'sleep' could reveal future space weather when it wakes",
+      "primarySourceUrl": "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather",
+      "subheadline": "Britiske forskere har fundet et punkt i solcyklussen, hvor ekstremt rumvejr brat ophører. Det gør det muligt at forudsige næste cyklus’ styrke seks til syv år tidligere end i dag.",
+      "materialFacts": [
+        "Forskere har identificeret et distinkt \"switch-off\"-punkt i solcyklussen, hvor ekstremt rumvejr brat ophører, hvilket gør det muligt at forudsige den næste cyklus’ styrke omkring seks til syv år tidligere end konventionelle metoder",
+        "Den tidlige forudsigelse for solcyklus 26 er et solpletantal på 100-120 — moderat aktivitet på niveau med eller lidt svagere end den nuværende cyklus 25; en mere præcis prognose ventes mulig inden for to år",
+        "Metoden forudsagde korrekt styrken af cyklus 25, herunder de geomagnetiske storme 10.-13. maj 2024, og resultatet blev fremlagt af professor Sandra Chapman på National Astronomy Meeting 2026 i Birmingham mandag 20. juli"
+      ],
+      "body": [
+        "Forskere har fundet et skarpt afgrænset punkt i solcyklussen, hvor det ekstreme rumvejr brat ophører. Punktet falder sammen med, at solpletterne vandrer under 15 graders solbredde.",
+        "Fordi punktet er så tydeligt, kan det bruges som varsel seks til syv år tidligere end konventionelle modeller. Vurderingen for solcyklus 26 lyder på 100-120 solpletter, moderat aktivitet på niveau med den nuværende cyklus 25. Sandra Chapman fremlagde resultatet i Birmingham i dag."
+      ],
+      "whyItMatters": "Rumvejr er ikke abstrakt for satellitoperatører, elnet og flyruter over polerne. Seks til syv års ekstra varsel er forskellen mellem at bygge afbødning ind i design og indkøb — og at reagere, når stormen er undervejs.",
+      "analysis": "Metoden er testet bagud og ramte cyklus 25 rigtigt, inklusive stormene i maj 2024. Men ét korrekt forløb er et tyndt grundlag, og prognosen bliver først præcis inden for to år. Læs 100-120 som retning.",
+      "topics": [
+        "videnskab",
+        "astronomi",
+        "rumvejr",
+        "solfysik",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Royal Astronomical Society",
+        "Sandra Chapman",
+        "National Astronomy Meeting 2026",
+        "Solen",
+        "Storbritannien"
+      ],
+      "scores": {
+        "importance": 64,
+        "decisionValue": 58,
+        "novelty": 84,
+        "sourceQuality": 90,
+        "personalRelevance": 42,
+        "contrast": 80
+      },
+      "primaryExcerpt": {
+        "quote": "The Sun doesn't gently go to sleep and then gently wake up again.",
+        "sourceUrl": "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather",
+        "sourceTitle": "NAM 2026: How the Sun goes to 'sleep' could reveal future space weather when it wakes"
+      },
+      "image": {
+        "url": "https://www.ras.ac.uk/sites/default/files/2026-07/nasas_sdo_observes_largest_sunspot_of_the_solar_cycle_15430820129.jpg",
+        "credit": "Foto: NASA/SDO via Royal Astronomical Society",
+        "alt": "Solen med en stor solpletgruppe optaget af NASA’s Solar Dynamics Observatory",
+        "sourceUrl": "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather"
+      },
+      "claims": [
+        {
+          "text": "Forskere har identificeret et \"switch-off\"-punkt i solcyklussen, som gør det muligt at forudsige næste cyklus’ styrke seks til syv år tidligere end konventionelle metoder.",
+          "sourceUrls": [
+            "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Den tidlige forudsigelse for solcyklus 26 er et solpletantal på 100-120, og en mere præcis prognose ventes mulig inden for to år.",
+          "sourceUrls": [
+            "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Metoden forudsagde korrekt styrken af cyklus 25, herunder de geomagnetiske storme 10.-13. maj 2024, og blev fremlagt af professor Sandra Chapman på National Astronomy Meeting 2026 i Birmingham.",
+          "sourceUrls": [
+            "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NAM 2026: How the Sun goes to 'sleep' could reveal future space weather when it wakes",
+          "publisher": "Royal Astronomical Society",
+          "url": "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather",
+          "publishedAt": "2026-07-19T23:01:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Alibaba says newest Qwen AI model is second only to Anthropic's Claude Fable 5",
+      "url": "https://www.scmp.com/tech/article/3361119/alibaba-says-newest-qwen-ai-model-second-only-anthropics-claude-fable-5",
+      "publisher": "South China Morning Post",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-19T13:20:00.000Z",
+      "summary": "Kina. Alibaba præsenterede 19. juli Qwen3.8-Max-Preview med 2,4 billioner parametre på World AI Conference i Shanghai og hævder, at modellen kun overgås af Anthropics Claude Fable 5. Modellen er tilgængelig via abonnementstjenesten Token Plan og Qoder-platformene.",
+      "text": "Alibaba says newest Qwen AI model is second only to Anthropic's Claude Fable 5"
+    },
+    {
+      "headline": "Chinese chip start-up Biren bets on light-based 'supernodes' to match Nvidia",
+      "url": "https://www.scmp.com/tech/tech-war/article/3361040/chinese-chip-start-biren-bets-light-based-supernodes-match-nvidia",
+      "publisher": "South China Morning Post",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-18T08:00:00.000Z",
+      "summary": "Kina. Biren Technology præsenterede på WAIC i Shanghai en ny generation af \"supernoder\", der bruger optisk dataoverførsel til at forbinde tusinder af AI-chips. Selskabet siger, at kobberforbindelser rammer en fysisk grænse ved omkring 128 GPU’er per server, og sigter mod 1.024 processorkort per klynge.",
+      "text": "Chinese chip start-up Biren bets on light-based 'supernodes' to match Nvidia"
+    },
+    {
+      "headline": "Iran 'suspends commitments' on agreement with US after seventh night of strikes",
+      "url": "https://www.thenationalnews.com/news/gulf/2026/07/18/iran-hits-second-power-and-water-plant-in-kuwait-after-another-night-of-us-strikes/",
+      "publisher": "The National",
+      "section": "Udland",
+      "publishedAt": "2026-07-18T00:00:00.000Z",
+      "summary": "Iran/Kuwait/USA. Irans viceudenrigsminister Kazem Gharibabadi erklærer, at USA har brudt sine forpligtelser i Islamabad-aftalememorandummet. Kuwait er ramt på et afsaltningsanlæg og på el- og vandforsyning, og Kuwait International Airport indstillede driften. Den amerikanske centralkommando oplyser, at over 50.000 amerikanske soldater opererer i Mellemøsten.",
+      "text": "Iran 'suspends commitments' on agreement with US after seventh night of strikes"
+    },
+    {
+      "headline": "Benzinpriser stiger efter opblusning af krigen mellem USA og Iran",
+      "url": "https://www.dr.dk/nyheder/indland/benzinpriser-stiger-efter-opblusning-af-krigen-mellem-usa-og-iran",
+      "publisher": "DR Nyheder",
+      "section": "Indland",
+      "publishedAt": "2026-07-19T16:20:00.000Z",
+      "summary": "Danmark. Prisen på benzin hos OK er 16,79 kroner per liter og diesel 16,59 kroner efter en stigning på 70 øre på en uge. Olieprisen er steget fra 83,25 til 88 dollar per tønde. Saxo Bank-strateg Ole Sloth Hansen venter ikke fald før efteråret.",
+      "text": "Benzinpriser stiger efter opblusning af krigen mellem USA og Iran"
+    },
+    {
+      "headline": "Supermarkeder hæver prisen på hundredvis af varer",
+      "url": "https://nyheder.tv2.dk/business/2026-07-19-supermarkeder-haever-prisen-paa-hundredvis-af-varer",
+      "publisher": "TV 2",
+      "section": "Indland",
+      "publishedAt": "2026-07-19T11:54:00.000Z",
+      "summary": "Danmark. Netto hævede i juni prisen på over 500 varer, hvor mejeri, pålæg og kød blev 3-34 procent dyrere, mens Nemlig.com satte prisen op på over 1.000 produkter. Priskrigen begyndte i maj, da Lidl indførte faste lave priser.",
+      "text": "Supermarkeder hæver prisen på hundredvis af varer"
+    },
+    {
+      "headline": "Var Vingegaards nattebesøg medvirkende til exit? Dansk antidoping-chef kalder det tvivlsomt",
+      "url": "https://www.dr.dk/sporten/cykling/tourdefrance/var-vingegaards-nattebesoeg-medvirkende-til-exit-dansk-antidoping-chef-kalder-det-tvivlsomt",
+      "publisher": "DR Sporten",
+      "section": "Sport",
+      "publishedAt": "2026-07-19T18:15:00.000Z",
+      "summary": "Danmark/Frankrig. Jonas Vingegaard styrtede ud af Tour de France på 15. etape med et brækket kraveben, der kræver operation. Natten før fik både han og Tadej Pogacar uanmeldt dopingkontrol klokken 02. Anti Doping Danmarks direktør Kim Højgaard Ravn afviser, at der kan påvises en sammenhæng.",
+      "text": "Var Vingegaards nattebesøg medvirkende til exit? Dansk antidoping-chef kalder det tvivlsomt"
+    },
+    {
+      "headline": "Kongsberg record backlog reaches NOK 158 billion as missile, NASAMS and subsea security demand support growth targets through 2033",
+      "url": "https://defence-industry.eu/kongsberg-record-backlog-reaches-nok-158bn-as-missile-nasams-and-subsea-security-demand-support-growth-targets-through-2033/",
+      "publisher": "Defence Industry Europe",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "summary": "Norge. Kongsberg omsatte i andet kvartal for 10,39 mia. norske kroner, en stigning på 31 procent, og passerede for første gang 10 mia. på et kvartal. Ordrebogen er rekordhøje 158 mia. kroner. Selskabet fastholder målet om 150 mia. i omsætning i 2033.",
+      "text": "Kongsberg record backlog reaches NOK 158 billion as missile, NASAMS and subsea security demand support growth targets through 2033"
+    },
+    {
+      "headline": "'We can no longer afford to be blind': Danish startup raises funds to build underwater CCTV-like tech to track drones and more",
+      "url": "https://www.techradar.com/pro/we-can-no-longer-afford-to-be-blind-danish-startup-raises-funds-to-build-underwater-cctv-like-tech-to-track-drones-and-more",
+      "publisher": "TechRadar Pro",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-18T00:00:00.000Z",
+      "summary": "Danmark/Storbritannien. Københavnske Triton Depth har rejst 1 mio. euro i pre-seed ledet af danske EIFO og britiske The Creator Fund. Selskabet bygger et net af passive akustiske sensorer til at opdage og klassificere undervandsaktivitet, herunder ubemandede platforme, og er grundlagt i 2025 af tre DTU-ingeniører.",
+      "text": "'We can no longer afford to be blind': Danish startup raises funds to build underwater CCTV-like tech to track drones and more"
+    },
+    {
+      "headline": "Netflix paid $587M for Ben Affleck's AI filmmaking startup",
+      "url": "https://techcrunch.com/2026/07/19/netflix-paid-587m-for-ben-afflecks-ai-filmmaking-startup/",
+      "publisher": "TechCrunch",
+      "section": "Kultur",
+      "publishedAt": "2026-07-19T21:45:00.000Z",
+      "summary": "USA. Prisen for InterPositive, som Ben Affleck var med til at stifte, er nu oplyst til 587 mio. dollar kontant, efter at handlen først blev annonceret i marts 2026. Affleck er tiltrådt som seniorrådgiver hos Netflix, der oplyser, at omkring 300 af selskabets titler allerede har brugt generativ AI.",
+      "text": "Netflix paid $587M for Ben Affleck's AI filmmaking startup"
+    },
+    {
+      "headline": "Aarsleff awarded contract for land facilities for Bornholm Energy Island",
+      "url": "https://via.ritzau.dk/announcement/15052763?publisherId=13559871&lang=en",
+      "publisher": "Per Aarsleff Holding A/S via Ritzau",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-17T08:11:00.000Z",
+      "summary": "Danmark/Tyskland. Per Aarsleff har vundet en totalentreprise for Energinet til 3,7 mia. kroner på landanlæggene til Bornholms Energiø. Anlægget på Bornholm dækker 110 hektar med en 400 kV-transformerstation, og anlæggene skal leveres i 2030 og 2031.",
+      "text": "Aarsleff awarded contract for land facilities for Bornholm Energy Island"
+    },
+    {
+      "headline": "SAS milliardudvider, mens branchen selv kalder grønne fly og klimamål »luftkasteller«",
+      "url": "https://www.information.dk/indland/2026/07/sas-milliardudvider-mens-branchen-kalder-groenne-fly-klimamaal-luftkasteller",
+      "publisher": "Dagbladet Information",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-19T00:00:00.000Z",
+      "summary": "Danmark/Sverige/Norge. SAS vil investere 66 mia. kroner i nye langdistancefly og venter 68 procent flere passagerer i 2030. En medfølgende økonomisk analyse fremskriver 25.000 nye job, men selskabet offentliggjorde ingen tal for klimapåvirkningen.",
+      "text": "SAS milliardudvider, mens branchen selv kalder grønne fly og klimamål »luftkasteller«"
+    }
+  ],
+  "keyNumber": {
+    "label": "Forudsagt solpletantal for solcyklus 26",
+    "value": "100-120",
+    "unit": "solpletter ved maksimum",
+    "asOf": "20. juli 2026",
+    "caption": "Det er moderat aktivitet på niveau med eller lidt under den nuværende cyklus — og det er første gang, tallet kan sættes seks til syv år før maksimum i stedet for kort før.",
+    "sourceUrl": "https://www.ras.ac.uk/news-and-press/research-highlights/nam-2026-how-sun-goes-sleep-could-reveal-future-space-weather",
+    "sourceTitle": "NAM 2026: How the Sun goes to 'sleep' could reveal future space weather when it wakes"
+  },
+  "recommendations": [
+    {
+      "id": "rec-the-score-nguyen-20260720",
+      "mode": "read",
+      "kind": "bog",
+      "status": "available",
+      "title": "The Score: How to Stop Playing Somebody Else's Game",
+      "creator": "C. Thi Nguyen",
+      "provider": "Penguin Random House",
+      "url": "https://www.penguinrandomhouse.com/books/735252/the-score-by-c-thi-nguyen/",
+      "availability": "Udkom januar 2026. Kan købes til Danmark uden geo-begrænsning, også som e-bog og lydbog; Penguin-udgaven fås hos danske og internationale boghandlere.",
+      "commitment": "ca. 6-8 timers læsning",
+      "description": "Filosoffen C. Thi Nguyen om \"value capture\": hvordan målesystemer får os til at overtage andres værdier, fordi de kun kan registrere det, der er let at gøre op. Bogen bruger spillets struktur til at vise, hvordan scoringssystemer former det, de påstår blot at måle.",
+      "rationale": "Dagens brief handler to gange om at score ting — modeller mod benchmarks, fonde mod CO2-mål. Nguyens pointe rammer begge: et måltal, der bliver styrende, holder op med at være en måling. Læs kapitlerne om value capture, ikke nødvendigvis resten; de er den mest anvendelige filosofi, du kan tage med ind i et investeringsnotat.",
+      "topics": [
+        "filosofi",
+        "metrikker",
+        "beslutninger",
+        "teknologietik"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://images1.penguinrandomhouse.com/smedia/9780593655658",
+        "credit": "Penguin Random House",
+        "alt": "Bogomslag: The Score af C. Thi Nguyen",
+        "sourceUrl": "https://www.penguinrandomhouse.com/books/735252/the-score-by-c-thi-nguyen/"
+      }
+    },
+    {
+      "id": "rec-yunchul-kim-mercurial-20260720",
+      "mode": "experience",
+      "kind": "udstilling",
+      "status": "available",
+      "title": "Yunchul Kim: Mercurial",
+      "creator": "Yunchul Kim",
+      "provider": "Copenhagen Contemporary",
+      "url": "https://copenhagencontemporary.org/en/mercurial/",
+      "availability": "Vises 21. april - 2. august 2026 på Copenhagen Contemporary, Refshaleøen i København. Under to uger tilbage.",
+      "commitment": "30-45 minutter på stedet",
+      "description": "To ophængte kinetiske storskala-skulpturer af hundredvis af sølvfilamenter, der pulserer og roterer i mønstre, som skifter retning uforudsigeligt. Værkerne reagerer på magnetfelter og bygger på fysiske fænomener som kiralitet og torsionsustabilitet.",
+      "rationale": "Den mest præcise fysiske formulering af det, agentiske systemer rejser: bevægelse, der ser hensigtsfuld ud, men opstår af kræfter uden hensigt. Kim illustrerer ikke pointen — han bygger anlæg, der faktisk opfører sig sådan. En halv time på Refshaleøen, og udstillingen lukker 2. august.",
+      "topics": [
+        "kunst",
+        "emergens",
+        "teknologi",
+        "København"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-dwarkesh-grant-sanderson-20260720",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "available",
+      "title": "Grant Sanderson – AI and the future of math",
+      "creator": "Dwarkesh Patel og Grant Sanderson",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "availability": "Udgivet 30. juni 2026. Gratis på dwarkesh.com, YouTube, Spotify og Apple Podcasts, tilgængeligt i Danmark.",
+      "commitment": "1 time og 33 minutter",
+      "description": "Samtale med Grant Sanderson, manden bag 3Blue1Brown, om hvor og hvordan AI-systemer først vil overgå mennesker i matematik, og hvordan den type gennembrud vil se ud i praksis.",
+      "rationale": "Sandersons særlige evne er at forklare, hvorfor et matematisk resultat er svært — ikke bare hvad det siger. Det gør ham usædvanlig god til at skelne mellem, hvad en model faktisk har løst, og hvad en benchmark-score påstår. Præcis den kalibrering, dagens påstande om modelrangordner kalder på.",
+      "topics": [
+        "matematik",
+        "AI",
+        "benchmarks",
+        "forskning"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-the-odyssey-nolan-20260720",
+      "mode": "watch",
+      "kind": "film",
+      "status": "available",
+      "title": "The Odyssey",
+      "creator": "Christopher Nolan",
+      "provider": "Kino.dk",
+      "url": "https://www.kino.dk/film/odyssey",
+      "availability": "Dansk biografpremiere 16. juli 2026; kører nu i danske biografer. Vises i udvalgte formater herhjemme, men ikke i det 70 mm IMAX-format, filmen er optaget til.",
+      "commitment": "ca. 3 timer i biografen",
+      "description": "Christopher Nolans filmatisering af Homers epos om Odysseus’ hjemrejse efter Den Trojanske Krig, med Matt Damon i hovedrollen og Tom Holland, Anne Hathaway, Zendaya, Robert Pattinson og Charlize Theron på rollelisten.",
+      "rationale": "Ugens ene kulturbegivenhed, hvor formatet selv er argumentet: Nolan har bygget filmen til et visningsformat, Danmark ikke råder over. Hvis infrastruktur afgør, hvad et publikum overhovedet kan opleve — dagens brief handler om lidt af det samme — er det værd at se i den bedste danske kopi og selv mærke forskellen.",
+      "topics": [
+        "film",
+        "kultur",
+        "litteratur",
+        "biografteknologi"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 86,
+    "sourceQuality": 84,
+    "outsideProfile": 90,
+    "diversity": 89,
+    "novelty": 85
+  }
+}
