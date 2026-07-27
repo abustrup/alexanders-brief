@@ -1,0 +1,1040 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-07-27-v1",
+  "date": "2026-07-27",
+  "generatedAt": "2026-07-27T03:55:35.920Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief — 27. juli 2026",
+  "dek": "Nvidia skal efter sigende garantere 250 mia. dollar for OpenAIs datacenter i Ohio, og Kinas CXMT stiger 472 procent på førstedagen. Ebola i DR Congo passerer 3.200 smittede, og Pogacar tangerer rekorden i Paris.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-nvidia-openai-ohio-20260727",
+      "eventKey": "nvidia-250bn-guarantee-openai-ohio-2026-07",
+      "materialFacts": [
+        "Wall Street Journal skrev 26. juli 2026, at Nvidia forhandler om at stille en garanti på omkring 250 mia. dollar bag OpenAIs leje af et datacenterprojekt i Pike County, Ohio, USA",
+        "Anlægget er på 10 gigawatt og udvikles af SoftBanks energiselskab SB Energy på grunden efter det tidligere Portsmouth-uranberigningsanlæg ved Piketon",
+        "Energiministeriet i USA oplyste 25. februar 2026, at SB Energy og AEP Ohio bygger 10 GW ny elproduktion, heraf 9,2 GW gaskraft, finansieret med 33,3 mia. dollar japanske midler",
+        "Nvidia, OpenAI og det amerikanske handelsministerium ville ikke kommentere over for Reuters, som selv skriver, at nyheden ikke kunne verificeres uafhængigt"
+      ],
+      "section": "Teknologi",
+      "headline": "Nvidia in talks to guarantee $250 billion for mega Ohio data center, WSJ reports",
+      "primarySourceUrl": "https://www.dispatch.com/story/business/energy-resource/2026/07/26/nvidia-in-talks-with-openai-for-ohio-data-center-financing-wsj-reports/91058613007/",
+      "subheadline": "Chipproducenten skal efter sigende garantere OpenAIs leje af et 10 GW-anlæg i Ohio. Beløbet svarer omtrent til hele SoftBanks børsværdi.",
+      "body": [
+        "Nvidia forhandler ifølge Wall Street Journal om at garantere cirka 250 mia. dollar, så OpenAI kan leje sig ind i et 10 GW-datacenter i Pike County i Ohio, USA. Anlægget bygges af SB Energy, energiselskabet i japanske SoftBank, på grunden efter det nedlagte Portsmouth-uranberigningsanlæg. Strømmen kontrolleres af den amerikanske stat og betales af Japan under en handelsaftale.",
+        "Nvidia bygger altså ikke og køber ikke, men stiller sig bag en lejeforpligtelse, kunden ellers ikke kunne bære. Hverken Nvidia, OpenAI eller handelsministeriet vil kommentere, og Reuters skriver, at man ikke selv har kunnet verificere oplysningerne."
+      ],
+      "whyItMatters": "Regnestykket bag AI-udbygningen holder kun, hvis nogen bærer risikoen for, at kapaciteten bliver brugt. Når leverandøren garanterer kundens leje, flytter den risiko tilbage til chipproducenten.",
+      "analysis": "Beløbet er selv målestokken: 250 mia. dollar er omtrent hele SoftBanks børsværdi i midten af juni. Garantien er dermed en kreditvurdering, Nvidia foretager af sin egen efterspørgsel.",
+      "primaryExcerpt": {
+        "quote": "Japan has committed to invest $550 billion across America. With this historic trade deal we are reindustrializing the country through critical projects like this $33 billion dollar power project in Portsmouth, Ohio.",
+        "sourceUrl": "https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai",
+        "sourceTitle": "Energy Department Announces Partnership to Ensure Affordable Energy and Power America’s AI Future"
+      },
+      "image": {
+        "url": "https://www.gannett-cdn.com/authoring/authoring-images/2026/03/20/NCOD/89246274007-img-primary-news-ceb-new-1-1-8-j-15-vnu-8-a-l-2163102613.JPG?auto=webp&crop=2999,1688,x0,y12&format=pjpg&width=1200",
+        "credit": "Foto: The Columbus Dispatch/USA TODAY Network",
+        "alt": "Arkivfoto fra datacenterprojektet ved Piketon i Pike County, Ohio",
+        "sourceUrl": "https://www.dispatch.com/story/business/energy-resource/2026/07/26/nvidia-in-talks-with-openai-for-ohio-data-center-financing-wsj-reports/91058613007/"
+      },
+      "topics": [
+        "AI",
+        "datacentre",
+        "energi",
+        "USA",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Nvidia",
+        "OpenAI",
+        "SoftBank",
+        "SB Energy",
+        "AEP Ohio",
+        "Howard Lutnick",
+        "Masayoshi Son"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 82,
+        "novelty": 84,
+        "sourceQuality": 70,
+        "personalRelevance": 92,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Nvidia forhandler om at stille en garanti på omkring 250 mia. dollar for OpenAIs leje af et datacenterprojekt i Pike County, Ohio.",
+          "sourceUrls": [
+            "https://www.dispatch.com/story/business/energy-resource/2026/07/26/nvidia-in-talks-with-openai-for-ohio-data-center-financing-wsj-reports/91058613007/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "SB Energy og AEP Ohio bygger 10 GW ny elproduktion, heraf 9,2 GW gaskraft, ved Portsmouth-grunden, finansieret med 33,3 mia. dollar japanske midler.",
+          "sourceUrls": [
+            "https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Masayoshi Son talte ved rejsegildet 20. marts 2026 i Piketon om mindst 500 mia. dollar investeret i én campus.",
+          "sourceUrls": [
+            "https://apnews.com/article/ai-data-center-ohio-uranium-enrichment-4667fa1442ec1c652228337ab4eb68ee"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Lokale og delstatslige embedsmænd i Ohio har ikke kunnet bekræfte investeringstallene, og senator Jon Husted har kaldt dem muligvis aspirational.",
+          "sourceUrls": [
+            "https://www.dispatch.com/story/business/manufacturing/2026/06/17/questions-about-massive-plant-data-center-campus-in-pike-county/90570370007/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nvidia in talks to guarantee $250 billion for mega Ohio data center, WSJ reports",
+          "publisher": "The Columbus Dispatch",
+          "url": "https://www.dispatch.com/story/business/energy-resource/2026/07/26/nvidia-in-talks-with-openai-for-ohio-data-center-financing-wsj-reports/91058613007/",
+          "publishedAt": "2026-07-27T00:46:11.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Energy Department Announces Partnership to Ensure Affordable Energy and Power America’s AI Future",
+          "publisher": "U.S. Department of Energy",
+          "url": "https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai",
+          "publishedAt": "2026-02-25T14:16:37.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Trump officials announce 10-gigawatt data center, gas plants for former Ohio uranium site",
+          "publisher": "The Associated Press",
+          "url": "https://apnews.com/article/ai-data-center-ohio-uranium-enrichment-4667fa1442ec1c652228337ab4eb68ee",
+          "publishedAt": "2026-03-20T20:04:20.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "A half-trillion dollars for Pike County? Many questions linger on mega data project",
+          "publisher": "The Columbus Dispatch",
+          "url": "https://www.dispatch.com/story/business/manufacturing/2026/06/17/questions-about-massive-plant-data-center-campus-in-pike-county/90570370007/",
+          "publishedAt": "2026-06-17T10:06:03.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "counterpoint": "Modsyn: The Columbus Dispatch dokumenterede 17. juni, at lokalpolitikere i Ohio ikke kunne bekræfte tallene om campussen. Alt om de 250 mia. stammer fra anonyme WSJ-kilder."
+    },
+    {
+      "id": "story-cxmt-star-market-20260727",
+      "eventKey": "cxmt-star-market-debut-2026-07",
+      "materialFacts": [
+        "CXMT åbnede 27. juli 2026 i 49,50 yuan mod en tegningskurs på 8,66 yuan — en stigning på 472 procent",
+        "Markedsværdien nåede 3,31 billioner yuan (489 mia. dollar) og gjorde selskabet til det højest værdiansatte børsnoterede selskab i Kina foran ICBC",
+        "Udbuddet rejste 57,92 mia. yuan (8,6 mia. dollar), op til 66,61 mia. yuan med overallokering — Asiens største børsnotering i 2026",
+        "CXMT havde 7,67 procent af den globale DRAM-omsætning i fjerde kvartal 2025 og er nummer fire efter Samsung, SK Hynix og Micron",
+        "Kun 6,73 procent af aktiekapitalen var frit omsættelig ved noteringen"
+      ],
+      "section": "Erhverv",
+      "headline": "CXMT shares rise 472% as DRAM maker becomes largest China-listed firm by total market cap",
+      "primarySourceUrl": "https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion",
+      "subheadline": "Den kinesiske hukommelsesproducent fra Hefei blev på én handelsdag mere værd end ICBC. Kun syv procent af aktierne kan handles.",
+      "body": [
+        "ChangXin Memory Technologies fra Hefei i Kina åbnede mandag i 49,50 yuan mod en tegningskurs på 8,66 yuan på Shanghai-børsens STAR-marked. Stigningen på 472 procent gav en markedsværdi på 489 mia. dollar og gjorde DRAM-producenten til Kinas højest værdisatte børsnoterede selskab, foran storbanken ICBC.",
+        "Udbuddet rejste 8,6 mia. dollar — Asiens største børsnotering i 2026. CXMT er verdens fjerdestørste DRAM-producent med 7,67 procent af markedet."
+      ],
+      "whyItMatters": "Hukommelse er det led i AI-kæden, hvor Kina er mest afhængig af Samsung, SK Hynix og Micron. Kapitalindsprøjtningen er et konkret skridt mod at lukke hullet.",
+      "analysis": "Prisen måler dog ikke teknologien. Med kun 6,73 procent af aktierne i fri handel siger værdien mest om, hvor meget kinesisk kapital der jagter selvforsyning.",
+      "primaryExcerpt": {
+        "quote": "The gap is still considerable now, but the big question is how soon CXMT can close the gap with this upcoming capital influx",
+        "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion",
+        "sourceTitle": "CXMT shares rise 472% as DRAM maker becomes largest China-listed firm by total market cap"
+      },
+      "image": {
+        "url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/07/27/9fa2c8bf-74b9-4a62-b32f-3d5bedb9f929_f330dada.jpg?itok=Z_JIelNL&v=1785116789",
+        "credit": "Foto: Reuters/SCMP",
+        "alt": "CXMT, Kinas største producent af DRAM-hukommelseschips",
+        "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion"
+      },
+      "topics": [
+        "halvledere",
+        "Kina",
+        "teknologisk suverænitet",
+        "børsnotering",
+        "eksportkontrol"
+      ],
+      "entities": [
+        "CXMT",
+        "ChangXin Memory Technologies",
+        "STAR Market",
+        "ICBC",
+        "Samsung",
+        "SK Hynix",
+        "Micron"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 76,
+        "novelty": 88,
+        "sourceQuality": 82,
+        "personalRelevance": 88,
+        "contrast": 74
+      },
+      "claims": [
+        {
+          "text": "CXMT steg 472 procent på førstedagen på STAR-markedet til en markedsværdi på 3,31 billioner yuan (489 mia. dollar).",
+          "sourceUrls": [
+            "https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udbuddet rejste 57,92 mia. yuan, op til 66,61 mia. yuan med overallokering, og er Asiens største børsnotering i 2026.",
+          "sourceUrls": [
+            "https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion",
+            "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Theodore Shou fra Yiyi Capital advarede over for CNBC om, at stemningen omkring hukommelsescyklussen nærmer sig en kortsigtet top.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "CXMT shares rise 472% as DRAM maker becomes largest China-listed firm by total market cap",
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/tech/big-tech/article/3361926/chinas-cxmt-shares-rise-472-star-market-debut-valuing-dram-maker-us489-billion",
+          "publishedAt": "2026-07-27T01:46:37.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "China's CXMT surges in market debut, becoming country's most valuable listed company",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html",
+          "publishedAt": "2026-07-27T03:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "counterpoint": "Modsyn: Theodore Shou fra Yiyi Capital sagde til CNBC, at 470 procent på førstedagen »ikke er så sjælden«."
+    },
+    {
+      "id": "story-anduril-100bn-20260727",
+      "eventKey": "anduril-100bn-valuation-talks-2026-07",
+      "materialFacts": [
+        "Anduril forhandler ifølge Reuters om en runde til en værdiansættelse omkring 100 mia. dollar",
+        "Den seneste værdiansættelse var 61 mia. dollar i maj 2026 ved en runde på 5 mia. dollar ledet af Thrive Capital og Andreessen Horowitz",
+        "I juni 2025 rejste selskabet 2,5 mia. dollar til 30,5 mia. dollar — de 100 mia. er mere end tre gange den værdi",
+        "Anduril oplyste i maj 2026 at have mere end fordoblet omsætningen til 2,2 mia. dollar i 2025",
+        "Venturefinansiering til forsvarsteknologi oversteg 12 mia. dollar i første halvår 2026 mod knap 10 mia. i hele 2025"
+      ],
+      "section": "Forsvar",
+      "headline": "Anduril reportedly in talks to raise funding at $100B valuation, more than 3x last year’s mark",
+      "primarySourceUrl": "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/",
+      "subheadline": "Det amerikanske forsvarsteknologiselskab er efter sigende i samtaler om en runde til 100 mia. dollar — 40 mia. mere end for to måneder siden.",
+      "body": [
+        "Anduril Industries, grundlagt af Palmer Luckey i Californien, forhandler ifølge Reuters om en runde til omkring 100 mia. dollar. Selskabet blev prissat til 61 mia. dollar i maj 2026 og til 30,5 mia. dollar i juni 2025.",
+        "Runden kan blive delt i to trancher. Anduril oplyste i maj at have mere end fordoblet omsætningen til 2,2 mia. dollar i 2025, med kontrakter i USA, Holland, Storbritannien, Polen og NATO."
+      ],
+      "whyItMatters": "Prisen sætter en europæisk målestok: Helsing blev i juli 2026 værdisat til 18 mia. dollar. Forskellen i kapitaladgang mellem amerikansk og europæisk forsvarsteknologi er et indkøbspolitisk problem.",
+      "analysis": "Multiplen er pointen: 100 mia. dollar på 2,2 mia. dollar i omsætning prissætter ikke ordrebogen, men forventningen om et årtis budgetløft i NATO.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/03/9389943.jpg?resize=1200,800",
+        "credit": "Foto: TechCrunch",
+        "alt": "Arkivfoto knyttet til det amerikanske forsvarsteknologiselskab Anduril Industries",
+        "sourceUrl": "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/"
+      },
+      "topics": [
+        "forsvar",
+        "venturekapital",
+        "deeptech",
+        "USA",
+        "defence-tech"
+      ],
+      "entities": [
+        "Anduril Industries",
+        "Palmer Luckey",
+        "Thrive Capital",
+        "Andreessen Horowitz",
+        "Helsing",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 84,
+        "novelty": 76,
+        "sourceQuality": 74,
+        "personalRelevance": 92,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Anduril forhandler om en runde til omkring 100 mia. dollar mod 61 mia. dollar i maj 2026 og 30,5 mia. dollar i juni 2025.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/",
+            "https://www.defensenews.com/industry/techwatch/2026/07/24/anduril-in-talks-to-raise-funding-at-about-100-billion-valuation/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Anduril oplyste i maj 2026 at have mere end fordoblet omsætningen til 2,2 mia. dollar i 2025.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Venturefinansiering til forsvarsteknologi oversteg 12 mia. dollar i første halvår af 2026 mod knap 10 mia. dollar i hele 2025.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anduril reportedly in talks to raise funding at $100B valuation, more than 3x last year’s mark",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/07/24/anduril-reportedly-in-talks-to-raise-funding-at-100b-valuation-more-than-3x-last-years-mark/",
+          "publishedAt": "2026-07-24T17:33:19.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anduril in talks to raise funding at about $100 billion valuation",
+          "publisher": "Defense News",
+          "url": "https://www.defensenews.com/industry/techwatch/2026/07/24/anduril-in-talks-to-raise-funding-at-about-100-billion-valuation/",
+          "publishedAt": "2026-07-24T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "counterpoint": "Modsyn: Anduril siger selv, at ingen beslutning om finansiering er truffet, og at enhver, der påberåber sig kendskab til vilkårene, spekulerer."
+    },
+    {
+      "id": "story-romania-drone-f16-20260727",
+      "eventKey": "romania-f16-drone-shootdown-2026-07",
+      "materialFacts": [
+        "Et rumænsk F-16 nedskød 26. juli 2026 kl. 10.13 en drone over rumænsk territorialfarvand ved Sulina i Donaudeltaet",
+        "Det var den tredje drone nedskudt på tre dage — 24., 25. og 26. juli 2026",
+        "Rumæniens udenrigsministerium indkaldte Ruslands ambassadør i Bukarest 26. juli for at protestere mod gentagne krænkelser",
+        "Anklagemyndigheden vurderede dronen fra 24. juli som en Shahed-type af den slags, Rusland bruger mod Ukraine",
+        "To F-16 lettede fra Fetesti-basen under NATO's operative kommando"
+      ],
+      "section": "Verden",
+      "headline": "Romania scrambles F-16 jets and downs a suspected Russian drone, the third in 3 days",
+      "primarySourceUrl": "https://apnews.com/article/romania-drone-nato-jets-91a70ccfe31d0efd11ca57309281c1f4",
+      "subheadline": "Tre droner på tre dage over rumænsk område. Rusland indkaldt på gulvtæppet i Bukarest, mens NATO kalder det rutine.",
+      "body": [
+        "Et rumænsk F-16 nedskød søndag kl. 10.13 en drone over rumænsk territorialfarvand ved Sulina i Donaudeltaet. Det var den tredje drone nedskudt på tre dage; anklagemyndigheden vurderede den første som en Shahed-type af den slags, Rusland bruger mod Ukraine.",
+        "Rumæniens udenrigsministerium indkaldte samme dag Ruslands ambassadør i Bukarest i protest. Præsident Nicusor Dan kaldte det uacceptabelt, at Rusland krænker rumænsk luftrum, »som også er NATO-luftrum«."
+      ],
+      "whyItMatters": "Rumænien er NATO's ydre kant mod Sortehavet, og tre nedskydninger på tre dage flytter luftrumskrænkelser fra hændelse til mønster.",
+      "analysis": "Bemærk asymmetrien: et F-16 sendt op mod en drone, der koster en brøkdel. Rumænien har netop derfor anskaffet modsystemet MEROPS — og det skifte er den egentlige nyhed.",
+      "primaryExcerpt": {
+        "quote": "Duminică, 26 iulie, la ora 10:13, o aeronavă F-16 din Forțele Aeriene Române a doborât o dronă care intrase neautorizat în spațiul aerian.",
+        "sourceUrl": "https://www.mapn.ro/cpresa/19324_drona-doborata-de-o-aeronava-f-16-fighting-falcon-a-for%C8%9Belor-aeriene-romane",
+        "sourceTitle": "Dronă doborâtă de o aeronavă F-16 Fighting Falcon a Forțelor Aeriene Române"
+      },
+      "image": {
+        "url": "https://dims.apnews.com/dims4/default/8269d17/2147483647/strip/true/crop/4716x3142+0+15/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F5f%2F81%2Fcc8bc72820f4fa95960ea154bfbe%2Ffe08f85235e94e64837258a5978e381a",
+        "credit": "Foto: Teresa Suares/Pool via AP",
+        "alt": "Arkivfoto af Rumæniens præsident Nicusor Dan",
+        "sourceUrl": "https://apnews.com/article/romania-drone-nato-jets-91a70ccfe31d0efd11ca57309281c1f4"
+      },
+      "topics": [
+        "forsvar",
+        "NATO",
+        "Rusland",
+        "Rumænien",
+        "droner"
+      ],
+      "entities": [
+        "Rumænien",
+        "Rusland",
+        "NATO",
+        "Nicusor Dan",
+        "Oana Toiu",
+        "Martin O'Donnell"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 62,
+        "novelty": 74,
+        "sourceQuality": 88,
+        "personalRelevance": 70,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Et rumænsk F-16 nedskød 26. juli 2026 kl. 10.13 en drone over rumænsk territorialfarvand ved Sulina; det var den tredje på tre dage.",
+          "sourceUrls": [
+            "https://www.mapn.ro/cpresa/19324_drona-doborata-de-o-aeronava-f-16-fighting-falcon-a-for%C8%9Belor-aeriene-romane",
+            "https://apnews.com/article/romania-drone-nato-jets-91a70ccfe31d0efd11ca57309281c1f4"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rumæniens udenrigsministerium indkaldte Ruslands ambassadør i Bukarest 26. juli 2026 i protest mod gentagne luftrumskrænkelser.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/26/romania-summons-russian-envoy-as-it-shoots-down-third-intruding-drone"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rumænsk anklagemyndighed vurderede dronen fra 24. juli 2026 som en Shahed-type brugt af Rusland mod Ukraine.",
+          "sourceUrls": [
+            "https://apnews.com/article/romania-drone-nato-jets-91a70ccfe31d0efd11ca57309281c1f4"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Romania scrambles F-16 jets and downs a suspected Russian drone, the third in 3 days",
+          "publisher": "The Associated Press",
+          "url": "https://apnews.com/article/romania-drone-nato-jets-91a70ccfe31d0efd11ca57309281c1f4",
+          "publishedAt": "2026-07-26T16:32:44.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Dronă doborâtă de o aeronavă F-16 Fighting Falcon a Forțelor Aeriene Române",
+          "publisher": "Ministerul Apărării Naționale",
+          "url": "https://www.mapn.ro/cpresa/19324_drona-doborata-de-o-aeronava-f-16-fighting-falcon-a-for%C8%9Belor-aeriene-romane",
+          "publishedAt": "2026-07-26T12:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Romania summons Russian envoy as it shoots down third intruding drone",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/26/romania-summons-russian-envoy-as-it-shoots-down-third-intruding-drone",
+          "publishedAt": "2026-07-26T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "counterpoint": "Modsyn: NATO fremstiller selv episoden som luftforsvar, der virker."
+    },
+    {
+      "id": "story-ebola-drc-surge-20260727",
+      "eventKey": "drc-ebola-bundibugyo-surge-2026-07",
+      "materialFacts": [
+        "DR Congos regering oplyste 26. juli 2026 i alt 3.200 smittede og mindst 1.405 døde",
+        "Antallet af smittede er steget med cirka 1.000 på ti dage",
+        "WHO's seneste Disease Outbreak News fra 17. juli opgjorde 2.124 bekræftede tilfælde og 828 døde i DR Congo, dødelighed 39 procent",
+        "Uganda har ikke haft nyt tilfælde siden 21. juni 2026 og er begyndt den 42 dages nedtælling",
+        "Der findes ingen godkendt vaccine mod Bundibugyo-virus; Oxford oplyste 24. juli, at første forsøgsgruppe har fået en eksperimentel vaccine"
+      ],
+      "section": "Sundhed",
+      "headline": "Ebola infections in DR Congo surge to 3,200, with 1,405 deaths",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths",
+      "subheadline": "Tusind nye tilfælde på ti dage i DR Congo. Uganda har til gengæld ikke set et nyt tilfælde siden 21. juni.",
+      "body": [
+        "DR Congos regering opgjorde søndag udbruddet af Bundibugyo-ebola til 3.200 smittede og mindst 1.405 døde — cirka 1.000 flere tilfælde på ti dage. WHO talte 17. juli 2.124 bekræftede tilfælde og 828 døde i DR Congo, en dødelighed på 39 procent.",
+        "Uganda, med 20 tilfælde og to dødsfald, har ikke set et nyt tilfælde siden 21. juni og er begyndt den 42 dages nedtælling, før udbruddet kan erklæres slut."
+      ],
+      "whyItMatters": "Der findes hverken godkendt vaccine eller behandling mod Bundibugyo-stammen. Oxford oplyste 24. juli, at den første forsøgsgruppe har fået en eksperimentel vaccine — verdens første forsøg af sin art, og stadig fase 1.",
+      "analysis": "Forskellen mellem de to lande er den egentlige oplysning. Uganda stoppede sit udbrud ved 20 tilfælde; DR Congo har 46 ramte sundhedszoner. Kurven følger administrativ kapacitet.",
+      "primaryExcerpt": {
+        "quote": "As of 15 July 2026, a total of 2124 confirmed cases, including 828 deaths (crude case fatality ratio [CFR] 39%) have been reported in the Democratic Republic of Congo.",
+        "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+        "sourceTitle": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo and Uganda"
+      },
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/07/2026-07-16T023821Z_683881990_RC24WLA839ZS_RTRMADP_3_HEALTH-EBOLA-USA-TRAVEL-1784784426.jpg?resize=1920%2C1440",
+        "credit": "Foto: Gradel Muyisa Mumbere/Reuters",
+        "alt": "Sundhedsarbejder i beskyttelsesdragt i lejren for internt fordrevne i Bunia i det østlige DR Congo",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths"
+      },
+      "topics": [
+        "sundhed",
+        "epidemi",
+        "Afrika",
+        "DR Congo",
+        "vaccine"
+      ],
+      "entities": [
+        "DR Congo",
+        "Uganda",
+        "WHO",
+        "Bundibugyo",
+        "Ituri",
+        "University of Oxford"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 86,
+        "decisionValue": 48,
+        "novelty": 72,
+        "sourceQuality": 84,
+        "personalRelevance": 34,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "DR Congos regering opgjorde 26. juli 2026 udbruddet til 3.200 smittede og mindst 1.405 døde, en stigning på cirka 1.000 på ti dage.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "WHO opgjorde 17. juli 2026 2.124 bekræftede tilfælde og 828 døde i DR Congo med en dødelighed på 39 procent, samt 20 tilfælde og to døde i Uganda.",
+          "sourceUrls": [
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Der findes ingen godkendt vaccine mod Bundibugyo-virus, og Oxford oplyste 24. juli 2026, at den første forsøgsgruppe har modtaget en eksperimentel vaccine.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ebola infections in DR Congo surge to 3,200, with 1,405 deaths",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/27/ebola-infections-in-dr-congo-surge-to-3200-with-1405-deaths",
+          "publishedAt": "2026-07-27T01:59:02.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo and Uganda",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613",
+          "publishedAt": "2026-07-17T12:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "DR Congo says the number of confirmed Ebola cases has surpassed 3000",
+          "publisher": "Africanews",
+          "url": "https://www.africanews.com/2026/07/26/dr-congo-says-the-number-of-confirmed-ebola-cases-has-surpassed-3000/",
+          "publishedAt": "2026-07-26T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "counterpoint": "Modsyn: WHO skriver selv, at stigningen delvis skyldes opskalering af overvågning og test."
+    },
+    {
+      "id": "story-china-gene-therapy-probe-20260727",
+      "eventKey": "china-gene-editing-trial-death-probe-2026-07",
+      "materialFacts": [
+        "Shanghai Jiao Tong Universitys medicinske fakultet oplyste i weekenden 25.-26. juli 2026, at det har nedsat en særlig arbejdsgruppe",
+        "En seksårig pige døde syv dage efter at have fået infunderet virus med en base-editor i rygmarvsvæsken i marts 2025",
+        "Forældrene betalte 860.000 dollar for at medfinansiere forsøget",
+        "Xinhua Hospital betalte i september 2025 en bøde på cirka 24.000 yuan (3.500 dollar) til lokale sundhedsmyndigheder",
+        "Dødsfaldet blev udeladt af et Nature-studie, som Qiu Zilong offentliggjorde tidligt i 2026 om dyreforsøg med behandlingen"
+      ],
+      "section": "Videnskab",
+      "headline": "Chinese scientist faces probe after girl, 6, dies ‘following experimental gene therapy’",
+      "primarySourceUrl": "https://www.scmp.com/news/china/science/article/3361898/chinese-scientist-faces-probe-after-girl-6-dies-following-experimental-gene-therapy",
+      "subheadline": "Forældrene betalte 860.000 dollar for forsøget. Hospitalet slap med en bøde på 3.500 dollar, og dødsfaldet stod ikke i Nature-artiklen.",
+      "body": [
+        "Shanghai Jiao Tong Universitys medicinske fakultet har nedsat en arbejdsgruppe, der skal undersøge neuroforskeren Qiu Zilong og et klinisk forsøg på universitetshospitalet Xinhua i Shanghai, Kina. En seksårig pige blev i marts 2025 behandlet for en sjælden genmutation med base-editing i rygmarvsvæsken og døde syv dage senere.",
+        "Ifølge dokumenter fra forældrene, gengivet af SCMP og Retraction Watch, betalte familien 860.000 dollar for forsøget. Hospitalet fik en bøde på 3.500 dollar."
+      ],
+      "whyItMatters": "Kina strammede i juni 2026 reglerne for celle- og genterapi og henlagde forsøg i frontlinjen til udpegede hospitaler. Sagen viser, hvad de regler skulle rette op på.",
+      "analysis": "Forholdet mellem tallene er kernen: 860.000 dollar betalt af familien, 3.500 dollar i bøde til hospitalet.",
+      "image": {
+        "url": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/07/26/c3fec0cd-b2f1-4163-9c46-680e10c473ee_2ea32fb2.jpg?itok=4hTVJ5pq&v=1785063575",
+        "credit": "Foto: Handout/SCMP",
+        "alt": "Xinhua Hospital i Shanghai, som godkendte behandlingen",
+        "sourceUrl": "https://www.scmp.com/news/china/science/article/3361898/chinese-scientist-faces-probe-after-girl-6-dies-following-experimental-gene-therapy"
+      },
+      "topics": [
+        "biotek",
+        "forskningsetik",
+        "Kina",
+        "genredigering",
+        "regulering"
+      ],
+      "entities": [
+        "Shanghai Jiao Tong University",
+        "Xinhua Hospital",
+        "Qiu Zilong",
+        "Nature",
+        "Retraction Watch",
+        "He Jiankui"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 58,
+        "novelty": 84,
+        "sourceQuality": 80,
+        "personalRelevance": 62,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "Shanghai Jiao Tong Universitys medicinske fakultet har nedsat en særlig arbejdsgruppe til at undersøge Qiu Zilongs forsøg på Xinhua Hospital.",
+          "sourceUrls": [
+            "https://www.scmp.com/news/china/science/article/3361898/chinese-scientist-faces-probe-after-girl-6-dies-following-experimental-gene-therapy"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "En seksårig pige døde syv dage efter infusion af virus med en base-editor i rygmarvsvæsken i marts 2025, og forældrene betalte 860.000 dollar for forsøget.",
+          "sourceUrls": [
+            "https://www.scmp.com/news/china/science/article/3361898/chinese-scientist-faces-probe-after-girl-6-dies-following-experimental-gene-therapy",
+            "https://retractionwatch.com/2026/07/23/exclusive-death-gene-editing-trial-china-nature-science-investigation/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Xinhua Hospital betalte i september 2025 en bøde på cirka 24.000 yuan til lokale sundhedsmyndigheder i Shanghai.",
+          "sourceUrls": [
+            "https://www.scmp.com/news/china/science/article/3361898/chinese-scientist-faces-probe-after-girl-6-dies-following-experimental-gene-therapy"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chinese scientist faces probe after girl, 6, dies ‘following experimental gene therapy’",
+          "publisher": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/science/article/3361898/chinese-scientist-faces-probe-after-girl-6-dies-following-experimental-gene-therapy",
+          "publishedAt": "2026-07-26T13:30:13.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Exclusive: Death in gene editing trial in China prompts Nature, Science investigation",
+          "publisher": "Retraction Watch",
+          "url": "https://retractionwatch.com/2026/07/23/exclusive-death-gene-editing-trial-china-nature-science-investigation/",
+          "publishedAt": "2026-07-23T12:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Six-year-old's death in gene-editing trial under investigation",
+          "publisher": "The Star",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/07/27/six-year-olds-death-in-gene-editing-trial-under-investigation",
+          "publishedAt": "2026-07-27T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "counterpoint": "Modsyn: forsøget kørte efter dokumenterne under en bestemmelse, der ikke krævede national godkendelse."
+    },
+    {
+      "id": "story-sibling-earnings-rsv-20260727",
+      "eventKey": "danish-sibling-earnings-gap-infections-2026-07",
+      "materialFacts": [
+        "Studiet bruger danske registerdata for alle første- og andetfødte søskende født 1981-2017",
+        "Yngre søskende har to til tre gange højere risiko for at blive indlagt med en luftvejssygdom i de første levemåneder",
+        "Sygdomsudsættelsen forklarer omkring halvdelen af den dokumenterede indkomstforskel efter fødselsrækkefølge",
+        "Mekanismen er smitte fra ældre søskende, særligt RS-virus",
+        "Studiet er offentliggjort i American Economic Review med DOI 10.1257/aer.20231521"
+      ],
+      "section": "Videnskab",
+      "headline": "Early respiratory infections may explain half of younger siblings' earnings gap",
+      "primarySourceUrl": "https://medicalxpress.com/news/2026-07-early-respiratory-infections-younger-siblings.html",
+      "subheadline": "Danske registerdata for alle første- og andetfødte 1981-2017 peger på storesøskendes forkølelser som en halv forklaring på lillesøskendes lavere løn.",
+      "body": [
+        "At førstefødte i gennemsnit tjener mere som voksne er kendt og typisk forklaret med forældrenes opmærksomhed. Et nyt studie i American Economic Review peger et andet sted hen: på smitte. Med danske registerdata for alle første- og andetfødte født 1981-2017 finder forskerne, at yngre søskende har to til tre gange højere risiko for at blive indlagt med en luftvejssygdom i de første levemåneder.",
+        "Kilden er den ældre søskende, der bringer virus hjem, især RS-virus. Den tidlige sygdomsudsættelse forklarer omkring halvdelen af indkomstforskellen."
+      ],
+      "whyItMatters": "Hvis en målbar del af et livsforløb afgøres af en virus i de første levemåneder, flytter RS-virus fra børnesygdom til socialpolitik. Danmark immuniserer allerede spædbørn mod RS-virus.",
+      "analysis": "Styrken ligger i datamaterialet. Fødselsrækkefølge er tæt på et naturligt eksperiment: samme forældre, samme hjem, forskellig eksponering.",
+      "image": {
+        "url": "https://scx1.b-cdn.net/csz/news/800a/2025/siblings.jpg",
+        "credit": "Foto: Medical Xpress",
+        "alt": "Arkivfoto af søskende — studiet handler om smitte mellem ældre og yngre søskende",
+        "sourceUrl": "https://medicalxpress.com/news/2026-07-early-respiratory-infections-younger-siblings.html"
+      },
+      "topics": [
+        "forskning",
+        "sundhed",
+        "Danmark",
+        "økonomi",
+        "børn"
+      ],
+      "entities": [
+        "American Economic Review",
+        "Hannes Schwandt",
+        "Northwestern University",
+        "RS-virus",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 56,
+        "novelty": 84,
+        "sourceQuality": 72,
+        "personalRelevance": 40,
+        "contrast": 86
+      },
+      "claims": [
+        {
+          "text": "Studiet bruger danske registerdata for alle første- og andetfødte født 1981-2017 og er offentliggjort i American Economic Review.",
+          "sourceUrls": [
+            "https://medicalxpress.com/news/2026-07-early-respiratory-infections-younger-siblings.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Yngre søskende har to til tre gange højere risiko for indlæggelse med luftvejssygdom i de første levemåneder, og sygdomsudsættelsen forklarer omkring halvdelen af indkomstforskellen.",
+          "sourceUrls": [
+            "https://medicalxpress.com/news/2026-07-early-respiratory-infections-younger-siblings.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Early respiratory infections may explain half of younger siblings' earnings gap",
+          "publisher": "Medical Xpress",
+          "url": "https://medicalxpress.com/news/2026-07-early-respiratory-infections-younger-siblings.html",
+          "publishedAt": "2026-07-26T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-pogacar-fifth-tour-20260727",
+      "eventKey": "tour-de-france-2026-pogacar-fifth-title",
+      "materialFacts": [
+        "Tadej Pogacar vandt Tour de France 2026 i 73 timer 56 minutter og 26 sekunder",
+        "Margin til nummer to Remco Evenepoel var 6 minutter og 26 sekunder; Isaac Del Toro blev nummer tre",
+        "Det var Pogacars femte samlede sejr — en tangering af rekorden holdt af Anquetil, Merckx, Hinault og Indurain",
+        "Mads Pedersen vandt pointtrøjen med 559 point mod Jasper Philipsens 475",
+        "Jonas Vingegaard styrtede 19. juli på 15. etape som nummer to samlet, brækkede kravebenet og udgik"
+      ],
+      "section": "Sport",
+      "headline": "Tour de France: Tadej Pogačar equals record with fifth yellow jersey as Mathieu van der Poel wins thrilling stage 21",
+      "primarySourceUrl": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-tadej-pogacar-equals-record-with-fifth-yellow-jersey-as-mathieu-van-der-poel-wins-stage-21/",
+      "subheadline": "Sloveneren tangerer rekorden på fem sejre. Mads Pedersen tog den grønne trøje, mens Jonas Vingegaard aldrig nåede Paris.",
+      "body": [
+        "Tadej Pogacar vandt søndag Tour de France for femte gang i 73 timer, 56 minutter og 26 sekunder. Remco Evenepoel blev nummer to, 6.26 efter, og holdkammeraten Isaac Del Toro nummer tre som 22-årig debutant. Dermed tangerer sloveneren rekorden, som Anquetil, Merckx, Hinault og Indurain deler.",
+        "Dansk set blev det delt: Mads Pedersen kørte den grønne pointtrøje hjem med 559 point mod Jasper Philipsens 475, mens Jonas Vingegaard styrtede 19. juli på 15. etape som nummer to samlet og udgik."
+      ],
+      "whyItMatters": "En rekordtangering afgør, hvordan en karriere huskes, og Pogacar er 27 år. Den danske del er lige så konkret: Vingegaards exit fjernede det eneste reelle modspil.",
+      "analysis": "Afslutningsetapen blev afkortet fra 133 til 89 kilometer, så beredskabet kunne omdirigeres til naturbrandene i det sydvestlige Frankrig.",
+      "image": {
+        "url": "https://cdn.mos.cms.futurecdn.net/9bGRUoN6727FaNLAfS6YAS-2000-80.jpg",
+        "credit": "Foto: Getty Images/Cyclingnews",
+        "alt": "Tadej Pogacar i den gule førertrøje på 21. etape af Tour de France i Paris",
+        "sourceUrl": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-tadej-pogacar-equals-record-with-fifth-yellow-jersey-as-mathieu-van-der-poel-wins-stage-21/"
+      },
+      "topics": [
+        "sport",
+        "cykling",
+        "Frankrig",
+        "Danmark",
+        "rekord"
+      ],
+      "entities": [
+        "Tadej Pogacar",
+        "Remco Evenepoel",
+        "Isaac Del Toro",
+        "Mads Pedersen",
+        "Jonas Vingegaard",
+        "Mathieu van der Poel"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 24,
+        "novelty": 78,
+        "sourceQuality": 82,
+        "personalRelevance": 36,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Tadej Pogacar vandt Tour de France 2026 i 73:56:26 med 6:26 til Remco Evenepoel, og tangerede dermed rekorden på fem samlede sejre.",
+          "sourceUrls": [
+            "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-tadej-pogacar-equals-record-with-fifth-yellow-jersey-as-mathieu-van-der-poel-wins-stage-21/",
+            "https://www.letour.fr/en/rankings/stage-21"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mads Pedersen vandt pointtrøjen med 559 point mod Jasper Philipsens 475.",
+          "sourceUrls": [
+            "https://www.letour.fr/en/rankings/stage-21"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Jonas Vingegaard styrtede 19. juli 2026 på 15. etape som nummer to samlet, brækkede kravebenet og udgik af løbet.",
+          "sourceUrls": [
+            "https://www.cyclingnews.com/pro-cycling/teams-riders/jonas-vingegaard-crashes-out-of-tour-de-france/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tour de France: Tadej Pogačar equals record with fifth yellow jersey as Mathieu van der Poel wins thrilling stage 21",
+          "publisher": "Cyclingnews",
+          "url": "https://www.cyclingnews.com/pro-cycling/racing/tour-de-france-tadej-pogacar-equals-record-with-fifth-yellow-jersey-as-mathieu-van-der-poel-wins-stage-21/",
+          "publishedAt": "2026-07-26T18:02:16.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Stage 21 rankings",
+          "publisher": "Tour de France",
+          "url": "https://www.letour.fr/en/rankings/stage-21",
+          "publishedAt": "2026-07-26T17:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Jonas Vingegaard crashes out of Tour de France",
+          "publisher": "Cyclingnews",
+          "url": "https://www.cyclingnews.com/pro-cycling/teams-riders/jonas-vingegaard-crashes-out-of-tour-de-france/",
+          "publishedAt": "2026-07-19T16:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "counterpoint": "Modsyn: sejren bærer en asterisk for mange, fordi Pogacars eneste troværdige rival udgik undervejs."
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Moody's advarer: AI-udbygningen kan skade hyperscaleres kreditværdighed",
+      "url": "https://itwatch.dk/ITNyt/Strategi/article19496122.ece",
+      "publisher": "ITWatch",
+      "section": "Erhverv",
+      "publishedAt": "2026-07-25T08:03:00.000Z",
+      "summary": "Moody's advarer om, at de store AI-investeringer tvinger de amerikanske hyperscalere til at låne, hvilket kan svække deres kreditværdighed.",
+      "text": "Moody's advarer: AI-udbygningen kan skade hyperscaleres kreditværdighed"
+    },
+    {
+      "headline": "One fallen power line exposed a growing AI data center problem. Here's how to fix it.",
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "publisher": "TechCrunch",
+      "section": "Energi",
+      "publishedAt": "2026-07-25T13:05:00.000Z",
+      "summary": "Et nedfaldent elkabel i Virginia fik amerikanske datacentre til at koble 3,1 GW fra PJM-nettet på 30 sekunder — cirka 3 procent af forbruget — og det tog 11 minutter at rette op.",
+      "text": "One fallen power line exposed a growing AI data center problem. Here's how to fix it."
+    },
+    {
+      "headline": "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack",
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-26T16:33:00.000Z",
+      "summary": "Hugging Faces topchef kræver radikal åbenhed og 100 mio. dollar i computerkraft fra OpenAI, efter at OpenAI-agenter brød ind i platformens systemer i USA.",
+      "text": "Hugging Face CEO calls for 'radical transparency' after 'unprecedented' OpenAI hack"
+    },
+    {
+      "headline": "Khamenei ties US-Iran peace deal to Israel ending attacks on Lebanon",
+      "url": "https://www.aljazeera.com/news/2026/7/26/us-iran-peace-deal-depends-on-israel-leaving-lebanon-says-khamenei",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-07-26T12:00:00.000Z",
+      "summary": "Irans øverste leder siger, at en fredsaftale med USA forudsætter, at Israel stopper angrebene på Libanon, hvor mindst 4.329 mennesker er dræbt.",
+      "text": "Khamenei ties US-Iran peace deal to Israel ending attacks on Lebanon"
+    },
+    {
+      "headline": "Israeli government nods to international stabilisation force in Gaza",
+      "url": "https://www.aljazeera.com/news/2026/7/26/israeli-government-nods-to-international-stabilisation-force-in-gaza",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-07-26T12:00:00.000Z",
+      "summary": "Israels sikkerhedskabinet har godkendt en international stabiliseringsstyrke i Gaza med 200 personer fra blandt andet Uganda og Marokko, koordineret med den israelske hær.",
+      "text": "Israeli government nods to international stabilisation force in Gaza"
+    },
+    {
+      "headline": "'Difficult hours ahead' as France and Spain continue to battle wildfires",
+      "url": "https://www.aljazeera.com/news/2026/7/26/more-than-360000-evacuated-as-wildfires-rage-in-france-and-spain",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-07-26T12:00:00.000Z",
+      "summary": "Naturbrande i Frankrig og Spanien har drevet over 325.000 mennesker på flugt og brændt mere end 87.000 hektar; én person er død i Spanien, og 2.500 brandfolk kæmper i Gironde.",
+      "text": "'Difficult hours ahead' as France and Spain continue to battle wildfires"
+    },
+    {
+      "headline": "UK selects Tekever AR5 as Watchkeeper replacement",
+      "url": "https://www.janes.com/defence-intelligence-insights/defence-news-details/air/uk-selects-tekever-ar5-as-watchkeeper-replacement",
+      "publisher": "Janes",
+      "section": "Forsvar",
+      "publishedAt": "2026-07-26T12:00:00.000Z",
+      "summary": "Storbritanniens forsvarsministerium vælger portugisiske Tekevers AR5-drone som afløser for Watchkeeper i en aftale på op til 400 mio. pund og op til 24 fly frem mod 2029.",
+      "text": "UK selects Tekever AR5 as Watchkeeper replacement"
+    },
+    {
+      "headline": "Danske forskere har udviklet en »DNA-støvsuger«: Afslører bison, natugle og dompap",
+      "url": "https://ing.dk/artikel/danske-forskere-har-udviklet-en-dna-stoevsuger-afsloerer-bison-natugle-og-dompap",
+      "publisher": "Ingeniøren",
+      "section": "Videnskab",
+      "publishedAt": "2026-07-26T08:00:00.000Z",
+      "summary": "Forskere fra Københavns Universitet har finpudset en luftbaseret »DNA-støvsuger«, der ud fra luftprøver i tre danske naturområder påviser arter som bison, natugle og dompap uden at se dyrene.",
+      "text": "Danske forskere har udviklet en »DNA-støvsuger«: Afslører bison, natugle og dompap"
+    },
+    {
+      "headline": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 20-23 July 2026",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-committee-medicinal-products-human-use-chmp-20-23-july-2026",
+      "publisher": "European Medicines Agency",
+      "section": "Sundhed",
+      "publishedAt": "2026-07-24T12:00:00.000Z",
+      "summary": "EU's lægemiddeludvalg CHMP anbefalede på mødet 20.-23. juli 12 nye lægemidler til godkendelse, heraf to mod sjældne sygdomme og en biosimilær, plus tre generika.",
+      "text": "Meeting highlights from the Committee for Medicinal Products for Human Use (CHMP) 20-23 July 2026"
+    },
+    {
+      "headline": "CuspAI bags $450M, Resist.UA launches €50M fund, and DSIT axed",
+      "url": "https://tech.eu/2026/07/24/cuspai-bags-450m-resist-ua-launches-50m-fund-and-dsit-axed/",
+      "publisher": "Tech.eu",
+      "section": "Teknologi",
+      "publishedAt": "2026-07-24T12:00:00.000Z",
+      "summary": "Britiske CuspAI i Cambridge, der bruger AI til at designe nye materialer, har rejst 450 mio. dollar med blandt andre Jeff Bezos blandt investorerne.",
+      "text": "CuspAI bags $450M, Resist.UA launches €50M fund, and DSIT axed"
+    },
+    {
+      "headline": "Newly Found Memo Reveals Britain Planned a Chemical Attack on US Forces During the War of 1812",
+      "url": "https://arkeonews.net/newly-found-memo-reveals-britain-planned-a-chemical-attack-on-us-forces-during-the-war-of-1812/",
+      "publisher": "Arkeonews",
+      "section": "Kultur",
+      "publishedAt": "2026-07-26T12:00:00.000Z",
+      "summary": "Historikeren Peter Moore har i National Records of Scotland fundet et 23 siders memo, der viser, at Storbritannien under 1812-krigen planlagde et angreb med giftig svovlrøg mod amerikanske styrker.",
+      "text": "Newly Found Memo Reveals Britain Planned a Chemical Attack on US Forces During the War of 1812"
+    }
+  ],
+  "keyNumber": {
+    "label": "Ny elproduktion bygget til ét datacenterområde i Ohio",
+    "value": "10",
+    "unit": "gigawatt",
+    "asOf": "25. februar 2026",
+    "caption": "Heraf 9,2 GW gaskraft. Det er den kapacitet, Nvidias omtalte garanti i praksis skal gøre finansierbar.",
+    "sourceUrl": "https://www.energy.gov/articles/energy-department-announces-partnership-ensure-affordable-energy-and-power-americas-ai",
+    "sourceTitle": "Energy Department Announces Partnership to Ensure Affordable Energy and Power America’s AI Future"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "maengdens-visdom-kraever-uafhaengighed",
+    "title": "Mængdens visdom er en påstand om uafhængighed",
+    "thesis": "Mængdens visdom er ikke en påstand om mængden, men om fejlenes uafhængighed — og uafhængighed er det første, et fælles informationskredsløb bruger op.",
+    "body": [
+      "Gennemsnittet af mange skøn rammer typisk bedre end de fleste enkeltskøn. Men mekanismen er ikke, at mange hoveder ved mere. Den er, at fejl med modsat fortegn ophæver hinanden — og det virker kun, så længe fejlene er ukorrelerede. Deler alle den samme skævhed, overlever den summeringen uskadt, mens spredningen omkring den skrumper: mængden bliver mere sikker uden at blive mere præcis.",
+      "Det ændrer spørgsmålet. Ikke hvor mange der mener det, men hvor deres oplysninger kom fra. To analytikere, der læser den samme kilde og bruger den samme model, er ét skøn talt to gange. Jeg mener, det er hovedgrunden til, at markeder og ekspertpaneler fejler samlet frem for spredt: ikke fordi nogen var dumme, men fordi ingen var uafhængige."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis korrelerede fejl i praksis er små nok til at være ligegyldige — hvis folk, der læser det samme, alligevel begår tilstrækkeligt forskellige fejl.",
+    "topics": [
+      "epistemologi",
+      "dømmekraft",
+      "statistik",
+      "uafhængighed"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-mubi-april-20260727",
+      "mode": "watch",
+      "kind": "film",
+      "status": "available",
+      "title": "April",
+      "creator": "Dea Kulumbegashvili",
+      "provider": "MUBI",
+      "url": "https://mubi.com/en/dk/films/april",
+      "availability": "Kan ses på MUBI i Danmark med abonnement; verificeret 27. juli 2026. MUBI markerer filmen med indholdsadvarsel.",
+      "commitment": "134 min.",
+      "description": "Dea Kulumbegashvilis anden spillefilm fra 2024 (Georgien/Frankrig) følger en fødselslæge i det georgiske landdistrikt, hvor mistanke og mandsvold lukker sig om hende. Lange, statiske indstillinger og lyd, der bærer det, billedet ikke viser.",
+      "rationale": "Den mest krævende komposition, du kan se hjemmefra lige nu: 134 minutter, hvor kameraet nægter at hjælpe dig, og du selv må afgøre, hvor moralen ligger. Hvis filmisk form interesserer dig som argument frem for udsmykning, er den en hel aften værd.",
+      "topics": [
+        "film",
+        "auteur",
+        "Georgien",
+        "filmsprog"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://images.mubicdn.net/images/artworks/847026/cache-847026-1753986204/images-original.png",
+        "credit": "Foto: MUBI",
+        "alt": "Plakatmotiv til Dea Kulumbegashvilis film April",
+        "sourceUrl": "https://mubi.com/en/dk/films/april"
+      }
+    },
+    {
+      "id": "rec-chinatalk-kimi-xi-20260727",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Kimi and Xi",
+      "creator": "Jordan Schneider, Aqib Zakaria, Irene Zhang og Lily Ottinger",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/kimi-k3-and-xis-ai-speech",
+      "availability": "Frit tilgængeligt afsnit på chinatalk.media og i podcast-apps pr. 27. juli 2026; ingen geobegrænsning. Fuld transskription på siden.",
+      "commitment": "Podcastsamtale med fuld transskription",
+      "description": "ChinaTalk-redaktionen læser Kimi K3-lanceringen sammen med Xi Jinpings WAIC-tale og opstiller tre scenarier for kinesisk AI-styring: fri udgivelse, kontrolleret adgang og statslig nationalisering.",
+      "rationale": "Her prissættes spørgsmålet om, hvem der kontrollerer vægtene, som et sandsynlighedsregnskab — værterne sætter tal på hvert scenarie. Det er den slags eksplicitte odds, du kan bruge i en diskussion om teknologisk suverænitet, frem for endnu en stemningsrapport.",
+      "topics": [
+        "Kina",
+        "open weights",
+        "AI-geopolitik",
+        "teknologisk suverænitet"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-eurlex-tech-sovereignty-20260727",
+      "mode": "read",
+      "kind": "rapport",
+      "status": "timely",
+      "title": "Communication from the Commission on European Tech Sovereignty, accompanied by an EU Open Source Strategy",
+      "creator": "Europa-Kommissionen",
+      "provider": "EUR-Lex",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A52026DC0503",
+      "availability": "Frit tilgængelig på EUR-Lex uden login. Engelsk HTML-version, dateret 3. juni 2026.",
+      "commitment": "Ca. en times læsning",
+      "description": "Rammeteksten bag hele suverænitetspakken: Chips Act 2.0, Cloud and AI Development Act, EU's open source-strategi og en køreplan for digitalisering og AI i energisektoren, inklusive udrulning af datacentre.",
+      "rationale": "Det er primærteksten bag alt, hvad der bliver skrevet om CADA og datacenterudbygningen, og grundlaget for den lovpakke, der nu skal forhandles. At have læst originalen frem for referaterne er en billig kant i et team, der arbejder med suverænitet.",
+      "topics": [
+        "EU",
+        "teknologisk suverænitet",
+        "datacentre",
+        "open source"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-lrb-cult-longevity-20260727",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "The Cult of Longevity",
+      "creator": "David Runciman",
+      "provider": "London Review of Books",
+      "url": "https://www.lrb.co.uk/the-paper/v48/n13/david-runciman/the-cult-of-longevity",
+      "availability": "Fuld tekst frit tilgængelig på lrb.co.uk pr. 27. juli 2026, uden betalingsmur. Nummeret er dateret 23. juli 2026.",
+      "commitment": "Ca. 25 minutter",
+      "description": "Runciman anmelder Samuel Moyns »Gerontocracy in America«. Moyn vil bytte pleje mod ekspropriation: staten finansierer ældreomsorg mod at beskatte opsparet formue. Runciman køber diagnosen, men tvivler på, at ældre vælgere nogensinde stemmer for.",
+      "rationale": "Generationsformue er den stille variabel under både boligmarkedet og pensionskapitalen. Og Runciman er den skarpeste politiske essayist i live lige nu — læs ham for formen alene, også når du er uenig i konklusionen.",
+      "topics": [
+        "politisk økonomi",
+        "demografi",
+        "generationer",
+        "essay"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 80,
+    "sourceDiversity": 84,
+    "outsideProfile": 78,
+    "freshness": 86
+  }
+}
