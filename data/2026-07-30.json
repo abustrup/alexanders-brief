@@ -1,0 +1,985 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "2026-07-30-daily-v1",
+ "date": "2026-07-30",
+ "generatedAt": "2026-07-30T03:45:00.000Z",
+ "readingMinutes": 12,
+ "title": "Alexanders Brief",
+ "dek": "USA lukker markedet for kinesiske robotter og invertere, 1.273 AI-ansatte beder Washington om en bremse, og Samsungs chipdivision leverer næsten hele koncernens overskud.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "fcc-covered-list-robots-inverters-20260730",
+   "eventKey": "fcc-covered-list-humanoid-robots-inverters",
+   "section": "Teknologisk suverænitet",
+   "isLead": true,
+   "isOutsideProfile": false,
+   "headline": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security",
+   "primarySourceUrl": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+   "subheadline": "Den amerikanske telemyndighed FCC har føjet udenlandsk producerede humanoide robotter, robothunde og strøminvertere til sin Covered List. Nye enheder kan ikke længere godkendes til import og salg i USA.",
+   "body": [
+    "FCC har udvidet sin Covered List, så nye godkendelser til import og salg af humanoide robotter, robothunde og netforbundne strøminvertere ikke længere gives i USA. Installeret udstyr er ikke omfattet.",
+    "Begrundelsen er sikkerhedspolitisk: robotterne indsamler ifølge FCC data, der kan bruges til at overvåge amerikanere eller fjernstyre enhederne, og invertere med fjernadgang tilføjer sårbarheder i elnettet.",
+    "Kina har langt den største andel af det globale invertermarked, og kinesiske fabrikanter dominerer produktionen af humanoide robotter — omkring 15.000 blev leveret globalt i 2025. Kinas udenrigsministerium har varslet, at landet vil bruge alle nødvendige midler til at beskytte sine virksomheder."
+   ],
+   "whyItMatters": "Eksportkontrollen har flyttet sig fra chips til AI-udbygningens fysiske lag: robotterne, der skal bemande den, og de invertere, der forbinder den til elnettet.",
+   "analysis": "To konsekvenser trækker hver sin vej. Vestlige robotproducenter får et beskyttet amerikansk marked, netop som branchen skal skalere. Samtidig er decentral energiteknologi nu national sikkerhed — et præcedens, europæiske elnet med kinesiske invertere må forholde sig til. Kun nye godkendelser rammes.",
+   "topics": [
+    "eksportkontrol",
+    "teknologisk suverænitet",
+    "Kina",
+    "robotteknologi",
+    "energi"
+   ],
+   "entities": [
+    "Federal Communications Commission",
+    "Hikvision",
+    "Dahua",
+    "USA",
+    "Kina"
+   ],
+   "materialFacts": [
+    "FCC har føjet udenlandsk producerede humanoide robotter, robothunde og strøminvertere til Covered List, så nye enheder ikke kan godkendes til import og salg i USA.",
+    "Forbuddet gælder kun nye godkendelser; allerede installeret udstyr er ikke omfattet.",
+    "Cirka 15.000 humanoide robotter blev leveret globalt i 2025, med kinesiske producenter dominerende.",
+    "Kina har langt den største andel af det globale marked for strøminvertere.",
+    "Kinas udenrigsministerium har varslet, at landet vil bruge alle nødvendige midler til at beskytte sine virksomheder."
+   ],
+   "scores": {
+    "importance": 88,
+    "decisionValue": 84,
+    "novelty": 85,
+    "sourceQuality": 80,
+    "personalRelevance": 88,
+    "contrast": 62
+   },
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/07/humanoid-robot-china-fcc-2285947327.jpg?resize=1200,800",
+    "credit": "Kilde: TechCrunch",
+    "alt": "Humanoid robot af den type, FCC nu udelukker fra nye godkendelser til det amerikanske marked.",
+    "sourceUrl": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/"
+   },
+   "claims": [
+    {
+     "text": "FCC har tilføjet udenlandsk producerede humanoide robotter, robothunde og strøminvertere til Covered List, hvilket blokerer nye godkendelser til import og salg i USA.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+      "https://www.scmp.com/news/china/diplomacy/article/3362185/us-bans-new-chinese-robots-power-inverters-latest-tech-crackdown"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Forbuddet omfatter kun nye enheder; tidligere købt udstyr er ikke berørt.",
+     "sourceUrls": [
+      "https://www.scmp.com/news/china/diplomacy/article/3362185/us-bans-new-chinese-robots-power-inverters-latest-tech-crackdown"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Omkring 15.000 humanoide robotter blev leveret globalt i 2025, og kinesiske producenter dominerer produktionen.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Kina har langt den største andel af det globale marked for strøminvertere.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Kinas udenrigsministerium har erklæret, at landet vil bruge alle nødvendige midler til at beskytte sine virksomheder.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "US government bans new foreign-made humanoids, robot dogs, and solar inverters, citing risks to national security",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/",
+     "publishedAt": "2026-07-29T17:41:09.000Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "US bans new Chinese robots, power inverters in latest tech crackdown",
+     "publisher": "South China Morning Post",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3362185/us-bans-new-chinese-robots-power-inverters-latest-tech-crackdown",
+     "publishedAt": "2026-07-28T22:11:00.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "pacing-the-frontier-letter-20260730",
+   "eventKey": "pacing-the-frontier-employee-letter",
+   "section": "Kunstig intelligens",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "More than 1,200 AI workers are asking for Washington’s help to build an AI slowdown plan",
+   "primarySourceUrl": "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/",
+   "subheadline": "Ansatte i OpenAI, Anthropic, Google DeepMind og Meta AI beder den amerikanske regering om at bygge de tekniske og styringsmæssige værktøjer, der skal gøre det muligt at sætte tempoet ned i automatiseret AI-forskning.",
+   "body": [
+    "»Pacing the Frontier« beder den amerikanske regering støtte en international indsats for værktøjer til bevidst at regulere tempoet i automatiseret AI-udvikling. Mere end 1.200 ansatte i de førende laboratorier har skrevet under.",
+    "Det er ikke et krav om en pause, men om infrastruktur til en verificerbar opbremsning, hvis kapaciteten løber foran tilsynet. Blandt underskriverne er Anthropics Dario Amodei, OpenAIs Jakub Pachocki og DeepMinds Shane Legg."
+   ],
+   "whyItMatters": "Cheferne for flere frontier-laboratorier siger med deres underskrift, at branchen ikke kan bremse uden statslig hjælp.",
+   "analysis": "Læg mærke til, hvad der ikke bliver bedt om: ingen tærskel, ingen dato, ingen forpligtelse. Men måleværktøjer kan bygges, før man er enige om, hvornår man skal stoppe.",
+   "counterpoint": "METR foreslog 28. juli, at hændelser med fejljusterede modeller efterforskes eksternt, med adgang til at køre modellerne og læse fulde transskriptioner.",
+   "topics": [
+    "AI",
+    "regulering",
+    "governance",
+    "risiko"
+   ],
+   "entities": [
+    "Anthropic",
+    "OpenAI",
+    "Google DeepMind",
+    "Meta AI",
+    "Thinking Machines",
+    "Dario Amodei",
+    "Jakub Pachocki",
+    "Shane Legg",
+    "John Schulman",
+    "Jared Kaplan",
+    "METR"
+   ],
+   "materialFacts": [
+    "Mere end 1.200 ansatte i frontier-AI-selskaber har underskrevet erklæringen »Pacing the Frontier«; sitets tæller steg i løbet af 30. juli 2026.",
+    "Den beder den amerikanske regering støtte en international indsats for at udvikle tekniske og styringsmæssige værktøjer til bevidst at regulere tempoet i automatiseret AI-udvikling.",
+    "Det er udtrykkeligt ikke et krav om en øjeblikkelig pause.",
+    "Underskrivere omfatter Dario Amodei (Anthropic), Jared Kaplan (Anthropic), Jakub Pachocki (OpenAI), Shane Legg (Google DeepMind) og John Schulman (Thinking Machines).",
+    "METR offentliggjorde 28. juli 2026 et forslag om uafhængig efterforskning af fejljusteringshændelser med adgang til modeller, transskriptioner og medarbejderinterviews."
+   ],
+   "scores": {
+    "importance": 86,
+    "decisionValue": 72,
+    "novelty": 84,
+    "sourceQuality": 82,
+    "personalRelevance": 90,
+    "contrast": 66
+   },
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Dario_Amodei_at_TechCrunch_Disrupt_2023_01_%28cropped%29.jpg",
+    "credit": "Foto: Wikimedia Commons",
+    "alt": "Arkivfoto af Anthropics administrerende direktør Dario Amodei, som er blandt underskriverne af erklæringen.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01_(cropped).jpg"
+   },
+   "claims": [
+    {
+     "text": "Erklæringen »Pacing the Frontier« beder den amerikanske regering om at støtte en international indsats for at udvikle tekniske og styringsmæssige værktøjer til bevidst at regulere tempoet i automatiseret AI-udvikling.",
+     "sourceUrls": [
+      "https://www.pacingthefrontier.com/",
+      "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Mere end 1.200 ansatte i førende AI-laboratorier har underskrevet erklæringen.",
+     "sourceUrls": [
+      "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/",
+      "https://www.pacingthefrontier.com/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Blandt underskriverne er Dario Amodei, Jared Kaplan, Jakub Pachocki, Shane Legg og John Schulman.",
+     "sourceUrls": [
+      "https://www.pacingthefrontier.com/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "METR foreslog 28. juli 2026 uafhængig efterforskning af fejljusteringshændelser, med adgang til at køre de involverede modeller, læse fulde transskriptioner og interviewe medarbejdere.",
+     "sourceUrls": [
+      "https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "More than 1,200 AI workers are asking for Washington’s help to build an AI slowdown plan",
+     "publisher": "Fortune",
+     "url": "https://fortune.com/2026/07/29/anthropic-deepmind-openai-meta-washington-ai-slowdown-plan/",
+     "publishedAt": "2026-07-29T00:00:00.000Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Pacing the Frontier",
+     "publisher": "Pacing the Frontier",
+     "url": "https://www.pacingthefrontier.com/",
+     "publishedAt": "2026-07-28T00:00:00.000Z",
+     "kind": "primary"
+    },
+    {
+     "title": "How independent researchers could investigate AI propensities after misalignment incidents",
+     "publisher": "METR",
+     "url": "https://metr.org/blog/2026-07-28-investigating-ai-propensities-after-incidents/",
+     "publishedAt": "2026-07-28T00:00:00.000Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "samsung-q2-2026-memory-profit-20260730",
+   "eventKey": "samsung-electronics-q2-2026-record-results",
+   "section": "Halvledere",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Samsung Electronics profit hits all-time high on device and memory sales",
+   "primarySourceUrl": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales",
+   "subheadline": "Samsung leverede rekord i både omsætning og driftsresultat i andet kvartal. Efter TrendForces opgørelse stod chipdivisionen for 99,7 procent af driftsoverskuddet, mens mobildivisionen gav underskud.",
+   "body": [
+    "Samsung Electronics offentliggjorde et driftsresultat på 89,5 billioner won og en omsætning på 171,5 billioner won for kvartalet, der sluttede 30. juni — begge rekorder, og omsætningen 28 procent over første kvartal.",
+    "Fordelingen internt er historien. Efter TrendForces opgørelse leverede chipdivisionen Device Solutions 99,7 procent af koncernens driftsoverskud, mens mobildivisionen gav underskud for første gang, fordi hukommelse er blevet dyr."
+   ],
+   "whyItMatters": "Holder den opgørelse, måler tallet ikke et godt kvartal, men hvor fuldstændigt AI-hukommelsen har omfordelt indtjeningen i elektronikindustrien.",
+   "analysis": "Det mest anvendelige forhold er underskuddet, ikke rekorden. Samsungs telefonforretning taber penge, fordi den skal købe den hukommelse, koncernens egen chipdivision sælger. Kan komponentpriser vælte marginen dér, rammer de alle nedstrøms.",
+   "topics": [
+    "halvledere",
+    "AI",
+    "ai-infrastruktur",
+    "Sydkorea"
+   ],
+   "entities": [
+    "Samsung Electronics",
+    "Device Solutions",
+    "Mobile eXperience",
+    "Sydkorea"
+   ],
+   "materialFacts": [
+    "Samsung Electronics rapporterede driftsresultat på 89,5 billioner won og omsætning på 171,5 billioner won for kvartalet, der sluttede 30. juni 2026 — begge rekorder.",
+    "Omsætningen steg 28 procent i forhold til første kvartal 2026.",
+    "Efter TrendForces opgørelse leverede Device Solutions 99,7 procent af koncernens driftsoverskud, med en driftsmargin tæt på 70 procent.",
+    "Efter TrendForces opgørelse gav Mobile eXperience-divisionen underskud, dens første kvartalsvise underskud nogensinde.",
+    "Samsung venter, at HBM4-omsætningen tredobles kvartal-til-kvartal i tredje kvartal 2026."
+   ],
+   "scores": {
+    "importance": 84,
+    "decisionValue": 78,
+    "novelty": 80,
+    "sourceQuality": 86,
+    "personalRelevance": 82,
+    "contrast": 58
+   },
+   "image": {
+    "url": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F4%2F8%2F9%2F12919849-2-eng-GB%2F3d1e4da93dbe-2026-07-28T005758Z_1087052127_RC2LEGALTG5Y_RTRMADP_3_SOUTHKOREA-CHIPS-HOT.JPG?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=auto&width=1260&height=630",
+    "credit": "Foto: Reuters via Nikkei Asia",
+    "alt": "Arkivfoto knyttet til den sydkoreanske halvlederindustri, hvor Samsungs chipdivision nu leverer næsten hele koncernens overskud.",
+    "sourceUrl": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales"
+   },
+   "claims": [
+    {
+     "text": "Samsung Electronics rapporterede driftsresultat på 89,5 billioner won og omsætning på 171,5 billioner won for andet kvartal 2026, begge rekorder, med omsætningen 28 procent højere end i første kvartal.",
+     "sourceUrls": [
+      "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+      "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Device Solutions-divisionen leverede 99,7 procent af koncernens driftsoverskud, med driftsmargin tæt på 70 procent mod 65,7 procent i første kvartal.",
+     "sourceUrls": [
+      "https://www.trendforce.com/news/2026/07/30/news-samsungs-ds-unit-delivers-99-7-of-q2-profit-amid-memory-boom-hbm4-revenue-reportedly-to-triple-in-q3/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Mobile eXperience-divisionen gav sit første kvartalsvise underskud nogensinde, 700 milliarder won, som følge af stigende omkostninger til hukommelseskomponenter.",
+     "sourceUrls": [
+      "https://www.trendforce.com/news/2026/07/30/news-samsungs-ds-unit-delivers-99-7-of-q2-profit-amid-memory-boom-hbm4-revenue-reportedly-to-triple-in-q3/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Samsung forventer, at HBM4-omsætningen tredobles kvartal-til-kvartal i tredje kvartal 2026.",
+     "sourceUrls": [
+      "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+      "https://www.trendforce.com/news/2026/07/30/news-samsungs-ds-unit-delivers-99-7-of-q2-profit-amid-memory-boom-hbm4-revenue-reportedly-to-triple-in-q3/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Samsung Electronics profit hits all-time high on device and memory sales",
+     "publisher": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/companies/samsung-electronics-profit-hits-all-time-high-on-device-and-memory-sales",
+     "publishedAt": "2026-07-30T00:43:00.000Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Samsung Electronics Announces Second Quarter 2026 Results",
+     "publisher": "Samsung Newsroom",
+     "url": "https://news.samsung.com/global/samsung-electronics-announces-second-quarter-2026-results",
+     "publishedAt": "2026-07-30T00:00:00.000Z",
+     "kind": "primary"
+    },
+    {
+     "title": "[News] Samsung’s DS Unit Delivers 99.7% of Q2 Profit amid Memory Boom; HBM4 Revenue Reportedly to Triple in Q3",
+     "publisher": "TrendForce",
+     "url": "https://www.trendforce.com/news/2026/07/30/news-samsungs-ds-unit-delivers-99-7-of-q2-profit-amid-memory-boom-hbm4-revenue-reportedly-to-triple-in-q3/",
+     "publishedAt": "2026-07-30T00:00:00.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "fomc-hold-three-dissents-20260730",
+   "eventKey": "fomc-july-2026-hold-three-hawkish-dissents",
+   "section": "Økonomi",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Federal Reserve issues FOMC statement",
+   "primarySourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+   "subheadline": "Den amerikanske centralbank holdt renten uændret for femte gang i træk. Tre medlemmer stemte imod — alle fordi de ville hæve renten, ikke sænke den.",
+   "body": [
+    "FOMC fastholdt målintervallet for federal funds-renten på 3,50 til 3,75 procent. Afstemningen faldt 9 mod 3, og alle tre afvigende stemmer — Hammack, Kashkari og Logan — ville have hævet renten med 0,25 procentpoint.",
+    "Erklæringen knytter prispresset til krigen: aktiviteten udvider sig solidt trods usikkerhed, der blandt andet skyldes konflikten i Mellemøsten, mens inflationen er forhøjet, delvis på grund af forsyningsstød i energi."
+   ],
+   "whyItMatters": "Tre samtidige afvigelser til fordel for en forhøjelse er den mest stramme splittelse i denne cyklus, og den vender antagelsen om, at næste bevægelse går nedad.",
+   "analysis": "Det interessante er den kausalitet, banken selv anfører. Begrundes inflationen med forsyningsstød i energi frem for et stramt arbejdsmarked, knyttes den amerikanske rentebane til Hormuz — til noget, Fed ikke kan påvirke.",
+   "topics": [
+    "makroøkonomi",
+    "renter",
+    "USA",
+    "energi"
+   ],
+   "entities": [
+    "Federal Reserve",
+    "FOMC",
+    "Beth M. Hammack",
+    "Neel Kashkari",
+    "Lorie K. Logan",
+    "USA"
+   ],
+   "materialFacts": [
+    "FOMC fastholdt målintervallet for federal funds-renten på 3,50-3,75 procent, femte hold i træk.",
+    "Afstemningen var 9 mod 3; Beth M. Hammack, Neel Kashkari og Lorie K. Logan ville alle hæve intervallet med 0,25 procentpoint.",
+    "Erklæringen beskriver den økonomiske aktivitet som ekspanderende i et solidt tempo trods forhøjet usikkerhed, der delvis skyldes konflikten i Mellemøsten.",
+    "Erklæringen tilskriver den forhøjede inflation blandt andet forsyningsstød, der har hævet priser i visse sektorer, herunder energi."
+   ],
+   "scores": {
+    "importance": 92,
+    "decisionValue": 84,
+    "novelty": 70,
+    "sourceQuality": 100,
+    "personalRelevance": 62,
+    "contrast": 60
+   },
+   "primaryExcerpt": {
+    "quote": "Inflation remains elevated relative to the Committee's 2 percent goal, in part reflecting supply shocks that have driven price increases in certain sectors, including energy.",
+    "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+    "sourceTitle": "Federal Reserve issues FOMC statement"
+   },
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Jerome_H._Powell%2C_Federal_Reserve_Chair_%28cropped%29.jpg",
+    "credit": "Foto: Wikimedia Commons",
+    "alt": "Arkivfoto af Federal Reserve-formand Jerome Powell, der leder den komité, som holdt renten uændret.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerome_H._Powell,_Federal_Reserve_Chair_(cropped).jpg"
+   },
+   "claims": [
+    {
+     "text": "FOMC fastholdt målintervallet for federal funds-renten på 3,50-3,75 procent.",
+     "sourceUrls": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Afstemningen var 9 mod 3, hvor Beth M. Hammack, Neel Kashkari og Lorie K. Logan alle foretrak en forhøjelse på 0,25 procentpoint.",
+     "sourceUrls": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Erklæringen tilskriver den forhøjede inflation delvis forsyningsstød i sektorer inklusive energi.",
+     "sourceUrls": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Federal Reserve issues FOMC statement",
+     "publisher": "Board of Governors of the Federal Reserve System",
+     "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+     "publishedAt": "2026-07-29T18:00:00.000Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "us-who-gavi-funding-cut-20260730",
+   "eventKey": "us-bars-who-from-gavi-funding-2026",
+   "section": "Verden",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Trump cuts WHO off from Gavi vaccine alliance funding",
+   "primarySourceUrl": "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance",
+   "subheadline": "USA giver 600 millioner dollar til vaccinealliancen Gavi, men afskærer samtidig WHO fra pengene. Betingelsen er reformer, forhandlet af sundhedsminister Robert Kennedy Jr. og udenrigsminister Marco Rubio.",
+   "body": [
+    "Den amerikanske regering meddelte 600 millioner dollar til vaccinealliancen Gavi og udelukkede samtidig WHO fra adgang til midlerne. Beslutningen følger Trumps instruks til Robert Kennedy Jr. og Marco Rubio om at forhandle reformer som betingelse.",
+    "USA meddelte 20. januar 2025 sin udtræden af WHO. I 2019 gav landet over 400 millioner dollar, omtrent 15 procent af WHO's budget, der i dag er cirka 3,4 milliarder dollar."
+   ],
+   "whyItMatters": "Konstruktionen er det nye: pengene bevares, men kanalen ændres. USA finansierer fortsat vaccination i lavindkomstlande, mens den organisation, der normalt koordinerer indsatsen, skrives ud.",
+   "analysis": "Det er en model for at omdirigere bistand uden at skære den: vælg en operationel alliance med målbare leverancer frem for en normsættende organisation. For europæiske regeringer, der finansierer begge, rejser det spørgsmålet om, hvem der bærer koordineringen.",
+   "topics": [
+    "sundhed",
+    "global sundhed",
+    "USA",
+    "bistand",
+    "multilaterale institutioner"
+   ],
+   "entities": [
+    "WHO",
+    "Gavi",
+    "Donald Trump",
+    "Robert Kennedy Jr.",
+    "Marco Rubio",
+    "USA"
+   ],
+   "materialFacts": [
+    "USA meddelte 600 millioner dollar i finansiering til vaccinealliancen Gavi og afskar samtidig WHO fra adgang til midlerne.",
+    "Beslutningen følger Trumps instruks til Robert Kennedy Jr. og Marco Rubio om at forhandle reformer med Gavi som betingelse for fornyet amerikansk støtte.",
+    "Gavi har tilsluttet sig at arbejde mod at erstatte kviksølvholdige vacciner med kviksølvfri alternativer.",
+    "USA meddelte 20. januar 2025 sin udtræden af WHO og suspenderede bidrag; i 2019 bidrog landet med over 400 millioner dollar, omtrent 15 procent af WHO's budget.",
+    "WHO's budget er cirka 3,4 milliarder dollar."
+   ],
+   "scores": {
+    "importance": 78,
+    "decisionValue": 58,
+    "novelty": 82,
+    "sourceQuality": 78,
+    "personalRelevance": 34,
+    "contrast": 76
+   },
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/07/AP26202576909515-1784725418.jpg?resize=1920%2C1440",
+    "credit": "Foto: AP via Al Jazeera",
+    "alt": "Nyhedsfoto knyttet til den amerikanske beslutning om vaccinefinansiering gennem Gavi og udelukkelsen af WHO.",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance"
+   },
+   "claims": [
+    {
+     "text": "USA annoncerede 600 millioner dollar til Gavi og afskar samtidig WHO fra adgang til denne finansiering.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Trump instruerede Robert Kennedy Jr. og Marco Rubio i at forhandle reformer med Gavi som betingelse for fornyet amerikansk støtte, og Gavi har tilsluttet sig at arbejde mod kviksølvfri vacciner.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "USA bidrog i 2019 med over 400 millioner dollar til WHO, omtrent 15 procent af organisationens budget, som i dag er cirka 3,4 milliarder dollar.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trump cuts WHO off from Gavi vaccine alliance funding",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/7/30/trump-cuts-who-off-from-gavi-vaccine-alliance",
+     "publishedAt": "2026-07-30T00:00:00.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "ukraine-caspian-iran-ship-20260730",
+   "eventKey": "ukraine-strikes-iranian-ship-caspian-sea",
+   "section": "Forsvar",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Ukraine åbner ny frontlinje – og trækker de to krige sammen",
+   "primarySourceUrl": "https://nyheder.tv2.dk/udland/2026-07-29-ukraine-aabner-ny-frontlinje-og-traekker-de-to-krige-sammen",
+   "subheadline": "Den iranske gengældelse for Ukraines angreb på et iransk skib i Det Kaspiske Hav er ikke kommet. Samtidig hævder Kyiv, at Rusland leverer satellitovervågning af amerikanske baser til Iran.",
+   "body": [
+    "Ukraine angreb lørdag den 25. juli et iransk skib i Det Kaspiske Hav med den begrundelse, at det fragtede militær last mellem Iran og Rusland. Irans udenrigsminister oplyste, at én sømand blev dræbt, og varslede gengældelse. Den er stadig ikke kommet.",
+    "Samme dag hævdede ukrainsk efterretning, at Rusland forsyner Iran med satellitovervågning af amerikanske baser. Analytikere læser manøvren som et forsøg på at gøre Ukraine til krigsallieret i USA's konflikt med Iran."
+   ],
+   "whyItMatters": "Det er en strategiændring, ikke endnu en eskaleringsrunde. Ved at ramme iransk last uden for sit eget krigsteater gør Kyiv sin krig relevant for amerikanske interesser.",
+   "analysis": "Bemærk, at gengældelsen udeblev. Iran har varslet svar men holdt igen efter samtaler med Ukraine, hvilket antyder, at ingen af parterne ønsker en selvstændig front. Det gør operationen til et signal mod Washington snarere end mod Teheran.",
+   "topics": [
+    "forsvar",
+    "Ukraine",
+    "Iran",
+    "energi",
+    "geopolitik"
+   ],
+   "entities": [
+    "Ukraine",
+    "Iran",
+    "Rusland",
+    "Volodymyr Zelenskyj",
+    "Donald Trump",
+    "Jennifer Kavanagh",
+    "Defense Priorities",
+    "Aserbajdsjan"
+   ],
+   "materialFacts": [
+    "Ukraine angreb den 25. juli 2026 et iransk skib i Det Kaspiske Hav med henvisning til militær last mellem Iran og Rusland.",
+    "Irans udenrigsminister oplyste, at én sømand blev dræbt, og varslede gengældelse; den var 29. juli stadig ikke kommet efter iransk-ukrainske afspændingssamtaler.",
+    "Ukrainsk efterretning og Zelenskyj hævder, at Rusland forsyner Iran med satellitovervågning af Golfstaterne og amerikanske militærbaser.",
+    "Trafikken i Det Kaspiske Hav steg 89 procent i 2023 og 70 procent i 2024; korridoren fører også gas til Europa, blandt andet fra Aserbajdsjan."
+   ],
+   "scores": {
+    "importance": 76,
+    "decisionValue": 62,
+    "novelty": 62,
+    "sourceQuality": 74,
+    "personalRelevance": 68,
+    "contrast": 72
+   },
+   "image": {
+    "url": "https://cdn-free.tv2i.dk/e/d/i/editorial/6/d/9/6d91972d-38fd-43d5-b394-d8a3dc5e251e?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCw0NCwyMDAwLDExMjE&s=0d2101c3cabf9edb6a10a989472f4759",
+    "credit": "Kilde: TV 2",
+    "alt": "Nyhedsfoto knyttet til Ukraines angreb på et iransk skib i Det Kaspiske Hav.",
+    "sourceUrl": "https://nyheder.tv2.dk/udland/2026-07-29-ukraine-aabner-ny-frontlinje-og-traekker-de-to-krige-sammen"
+   },
+   "claims": [
+    {
+     "text": "Ukraine angreb den 25. juli 2026 et iransk skib i Det Kaspiske Hav og begrundede det med militær last mellem Iran og Rusland.",
+     "sourceUrls": [
+      "https://nyheder.tv2.dk/udland/2026-07-29-ukraine-aabner-ny-frontlinje-og-traekker-de-to-krige-sammen"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Irans udenrigsminister oplyser, at én sømand blev dræbt og en anden såret, og har varslet gengældelse.",
+     "sourceUrls": [
+      "https://nyheder.tv2.dk/udland/2026-07-29-ukraine-aabner-ny-frontlinje-og-traekker-de-to-krige-sammen"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Trafikken i Det Kaspiske Hav steg 89 procent i 2023 og 70 procent i 2024.",
+     "sourceUrls": [
+      "https://nyheder.tv2.dk/udland/2026-07-29-ukraine-aabner-ny-frontlinje-og-traekker-de-to-krige-sammen"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ukraine åbner ny frontlinje – og trækker de to krige sammen",
+     "publisher": "TV 2",
+     "url": "https://nyheder.tv2.dk/udland/2026-07-29-ukraine-aabner-ny-frontlinje-og-traekker-de-to-krige-sammen",
+     "publishedAt": "2026-07-29T15:52:40.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "dk-covid-vaccine-child-compensation-20260730",
+   "eventKey": "denmark-covid-vaccine-child-injury-compensation",
+   "section": "Indland",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Coronavaccinen gjorde ni børn så syge, at de nu får millioner i erstatning",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/indland/coronavaccinen-gjorde-ni-boern-saa-syge-de-nu-faar-millioner-i-erstatning",
+   "subheadline": "Ni børn, der blev vaccineret mod covid-19, har fået tilkendt i alt 3.184.801 kroner for alvorlige bivirkninger. De ni sager er afgjort blandt 78 ansøgninger fra vaccinerede børn.",
+   "body": [
+    "Ni børn, vaccineret mod covid-19 i alderen 5 til 17 år, har fået tilkendt erstatning for alvorlige bivirkninger, samlet 3.184.801 kroner. Af 78 ansøgninger fra vaccinerede børn er ni imødekommet; resten er afvist eller afventer afgørelse.",
+    "Blandt de anerkendte skader er kronisk nældefeber, betændelse i hjertemuskulaturen og hjertesækken samt hjernebetændelse. 510.000 danske børn mellem 5 og 18 år blev vaccineret i 2021 og 2022, efter DR's opgørelse."
+   ],
+   "whyItMatters": "Det er første gang, staten sætter en pris på skader fra sit eget vaccinationsprogram for børn. Nævneren er lige så vigtig som beløbet: ni anerkendte skader mod 510.000 vaccinerede.",
+   "analysis": "Uenigheden handler ikke om tallene, men om hvad de blev til for. Argumentet i 2021 var delvis, at børn skulle vaccineres for at begrænse smitte i samfundet, ikke for deres egen risiko. Når staten udbetaler, bliver spørgsmålet, hvem der bar risikoen.",
+   "topics": [
+    "sundhed",
+    "danmark",
+    "vacciner",
+    "erstatning"
+   ],
+   "entities": [
+    "Patienterstatningen",
+    "Danmarks Statistik",
+    "DR",
+    "Danmark"
+   ],
+   "materialFacts": [
+    "Ni børn vaccineret mod covid-19 i alderen 5-17 år har fået tilkendt erstatning for alvorlige bivirkninger.",
+    "Samlet erstatning på tværs af de ni sager er 3.184.801 kroner.",
+    "De ni imødekomne sager er afgjort blandt i alt 78 ansøgninger fra vaccinerede børn.",
+    "Anerkendte skader omfatter kronisk nældefeber, myocarditis, pericarditis og hjernebetændelse.",
+    "510.000 danske børn mellem 5 og 18 år blev vaccineret i 2021-2022, opgjort af DR på tal fra Danmarks Statistik."
+   ],
+   "scores": {
+    "importance": 66,
+    "decisionValue": 48,
+    "novelty": 78,
+    "sourceQuality": 88,
+    "personalRelevance": 40,
+    "contrast": 74
+   },
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/hkfe2jvb/000_8zc4yj-4600x2919ma.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+    "credit": "Kilde: DR",
+    "alt": "Arkivfoto af covid-19-vaccination, det program ni danske børn nu får erstatning efter.",
+    "sourceUrl": "https://www.dr.dk/nyheder/indland/coronavaccinen-gjorde-ni-boern-saa-syge-de-nu-faar-millioner-i-erstatning"
+   },
+   "claims": [
+    {
+     "text": "Ni børn vaccineret mod covid-19 i alderen 5-17 år har fået tilkendt i alt 3.184.801 kroner i erstatning for alvorlige bivirkninger.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/indland/coronavaccinen-gjorde-ni-boern-saa-syge-de-nu-faar-millioner-i-erstatning"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "De ni imødekomne sager er afgjort blandt i alt 78 ansøgninger fra vaccinerede børn.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/indland/coronavaccinen-gjorde-ni-boern-saa-syge-de-nu-faar-millioner-i-erstatning"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "510.000 danske børn mellem 5 og 18 år blev vaccineret mod covid-19 i 2021 og 2022, efter DR's opgørelse på tal fra Danmarks Statistik.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/indland/coronavaccinen-gjorde-ni-boern-saa-syge-de-nu-faar-millioner-i-erstatning"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Coronavaccinen gjorde ni børn så syge, at de nu får millioner i erstatning",
+     "publisher": "DR",
+     "url": "https://www.dr.dk/nyheder/indland/coronavaccinen-gjorde-ni-boern-saa-syge-de-nu-faar-millioner-i-erstatning",
+     "publishedAt": "2026-07-29T12:56:48.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "amazon-precolonial-earthworks-20260730",
+   "eventKey": "amazon-precolonial-earthworks-lidar-nature",
+   "section": "Videnskab",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Over 20,000 precolonial earthworks in the Southwest Amazonia",
+   "primarySourceUrl": "https://www.nature.com/articles/s41586-026-10835-7",
+   "subheadline": "Laserscanning fra fly har kortlagt mere end 20.000 menneskeskabte jordanlæg i det sydvestlige Amazonas. Regnskoven, europæerne beskrev som urørt, var et bebygget landskab.",
+   "body": [
+    "Et studie i Nature offentliggjort 29. juli dokumenterer over 20.000 førkoloniale jordanlæg i det sydvestlige Amazonas — voldgrave, vejforløb og bebyggelsesstrukturer, som først bliver synlige, når laserscanning fra fly fjerner skovdækket.",
+    "Fundet ændrer skalaen i en debat, der har kørt i årtier. Enkelte anlæg i det øvre Purús har været beskrevet siden 2009, men udbredelsen her peger på et tæt bebygget kulturlandskab frem for spredte bosættelser i vild skov."
+   ],
+   "whyItMatters": "Forestillingen om Amazonas som uberørt natur har været et argument i både bevarings- og udviklingspolitik. Er skoven vokset op omkring et forladt kulturlandskab, er referencetilstanden et valg.",
+   "analysis": "Bemærk, hvor det faste resultat holder op. Antallet af anlæg er talt fra måledata; befolkningsestimatet, studiet udleder af dem, er det inferentielle skridt, og den slags estimater har svinget voldsomt. Udbredelsen er det, der bærer.",
+   "topics": [
+    "arkæologi",
+    "fjernmåling",
+    "Brasilien",
+    "klima"
+   ],
+   "entities": [
+    "Nature",
+    "Amazonas",
+    "Brasilien",
+    "Purús"
+   ],
+   "materialFacts": [
+    "Et studie i Nature offentliggjort 29. juli 2026 dokumenterer over 20.000 førkoloniale jordanlæg i det sydvestlige Amazonas.",
+    "Anlæggene er kortlagt med LiDAR-laserscanning fra fly, som kan måle terrænet gennem skovdækket.",
+    "Geometriske jordanlæg i det øvre Purús har været beskrevet i forskningslitteraturen siden 2009."
+   ],
+   "scores": {
+    "importance": 72,
+    "decisionValue": 40,
+    "novelty": 88,
+    "sourceQuality": 96,
+    "personalRelevance": 32,
+    "contrast": 88
+   },
+   "image": {
+    "url": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41586-026-10835-7/MediaObjects/41586_2026_10835_Fig1_HTML.png",
+    "credit": "Kilde: Nature",
+    "alt": "Figur fra studiet, der viser udbredelsen af de kortlagte førkoloniale jordanlæg i det sydvestlige Amazonas.",
+    "sourceUrl": "https://www.nature.com/articles/s41586-026-10835-7"
+   },
+   "claims": [
+    {
+     "text": "Et studie i Nature dokumenterer over 20.000 førkoloniale jordanlæg i det sydvestlige Amazonas.",
+     "sourceUrls": [
+      "https://www.nature.com/articles/s41586-026-10835-7"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Studiet blev offentliggjort online 29. juli 2026.",
+     "sourceUrls": [
+      "https://www.nature.com/articles/s41586-026-10835-7"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Geometriske jordanlæg i det øvre Purús er beskrevet i forskningslitteraturen siden 2009.",
+     "sourceUrls": [
+      "https://www.nature.com/articles/s41586-026-10835-7"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Over 20,000 precolonial earthworks in the Southwest Amazonia",
+     "publisher": "Nature",
+     "url": "https://www.nature.com/articles/s41586-026-10835-7",
+     "publishedAt": "2026-07-29T00:00:00.000Z",
+     "kind": "primary"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "text": "Microsoft Cloud and AI Strength Fuels Fourth Quarter Results",
+   "headline": "Microsoft Cloud and AI Strength Fuels Fourth Quarter Results",
+   "url": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+   "publisher": "Microsoft",
+   "section": "Kunstig intelligens",
+   "publishedAt": "2026-07-29T20:30:00.000Z",
+   "summary": "Omsætning på 90,0 milliarder dollar (+18 procent), Microsoft Cloud på 59,3 milliarder (+27 procent) og Azure og øvrige cloud-tjenester op 43 procent i kvartalet, der sluttede 30. juni. For hele regnskabsåret: 331,8 milliarder dollar i omsætning."
+  },
+  {
+   "text": "Exclusive: SpaceX moves to keep Chinese nationals, parts out of supply chain",
+   "headline": "Exclusive: SpaceX moves to keep Chinese nationals, parts out of supply chain",
+   "url": "https://asia.nikkei.com/business/technology/exclusive-spacex-moves-to-keep-chinese-nationals-parts-out-of-supply-chain",
+   "publisher": "Nikkei Asia",
+   "section": "Teknologisk suverænitet",
+   "publishedAt": "2026-07-30T03:00:00.000Z",
+   "summary": "SpaceX arbejder på at holde kinesiske statsborgere og komponenter ude af sin leverandørkæde. Samme logik som FCC-forbuddet, men gennemført privat og uden en myndighedsafgørelse bag."
+  },
+  {
+   "text": "US sanctions mainland China, Hong Kong shipping firms over Iranian oil deliveries",
+   "headline": "US sanctions mainland China, Hong Kong shipping firms over Iranian oil deliveries",
+   "url": "https://www.scmp.com/news/us/article/3362307/us-sanctions-chinese-hong-kong-shipping-firms-over-iranian-oil-deliveries",
+   "publisher": "South China Morning Post",
+   "section": "Verden",
+   "publishedAt": "2026-07-29T15:42:00.000Z",
+   "summary": "Washington sanktionerer rederier i Kina og Hongkong for at levere iransk olie, mens blokaden af iransk eksport strammes."
+  },
+  {
+   "text": "Iran rejects Hormuz deal and launches surprise strike on US forces in Jordan",
+   "headline": "Iran rejects Hormuz deal and launches surprise strike on US forces in Jordan",
+   "url": "https://www.euronews.com/2026/07/29/iran-rejects-hormuz-deal-and-launches-surprise-strike-on-us-forces-in-jordan",
+   "publisher": "Euronews",
+   "section": "Verden",
+   "publishedAt": "2026-07-29T12:57:00.000Z",
+   "summary": "Nyt i døgnet: USA har svaret på angrebet mod amerikanske styrker i Jordan med angreb mod mål i det sydlige Iran. Selve Jordan-angrebet og Irans afvisning af Omans Hormuz-forslag blev dækket i går."
+  },
+  {
+   "text": "One killed in Russian missile strikes on Kyiv, day after Zelenskyy warning",
+   "headline": "One killed in Russian missile strikes on Kyiv, day after Zelenskyy warning",
+   "url": "https://www.aljazeera.com/news/2026/7/30/russia-ballistic-missile-strikes-on-kyiv-come-after-zelenskyys-warning",
+   "publisher": "Al Jazeera",
+   "section": "Verden",
+   "publishedAt": "2026-07-30T01:00:00.000Z",
+   "summary": "Mindst én person blev dræbt i missilangreb mod Kyiv klokken 1.18 natten til torsdag. Polske jagerfly gik på vingerne for at sikre luftrummet."
+  },
+  {
+   "text": "Brazil becomes world’s top buyer of Chinese cars as imports jump 147%",
+   "headline": "Brazil becomes world’s top buyer of Chinese cars as imports jump 147%",
+   "url": "https://www.scmp.com/news/china/article/3362315/brazil-becomes-worlds-top-buyer-chinese-cars-imports-jump-147",
+   "publisher": "South China Morning Post",
+   "section": "Økonomi",
+   "publishedAt": "2026-07-29T21:33:00.000Z",
+   "summary": "Brasilien er nu verdens største aftager af kinesiske biler efter en importstigning på 147 procent. Mens USA lukker af, flytter kinesisk eksport sig mod det globale syd."
+  },
+  {
+   "text": "FDA reviewers vote against approval of Capricor’s DMD therapy in chaotic adcomm meeting",
+   "headline": "FDA reviewers vote against approval of Capricor’s DMD therapy in chaotic adcomm meeting",
+   "url": "https://www.biospace.com/fda/fda-reviewers-vote-against-approval-of-capricors-dmd-therapy-in-chaotic-adcomm-meeting",
+   "publisher": "BioSpace",
+   "section": "Biotek",
+   "publishedAt": "2026-07-29T00:00:00.000Z",
+   "summary": "FDA's rådgivende udvalg stemte imod godkendelse af Capricors celleterapi deramiocel mod Duchennes muskeldystrofi efter et kaotisk møde."
+  },
+  {
+   "text": "Astronomers find strongest evidence yet that Betelgeuse has a companion",
+   "headline": "Astronomers find strongest evidence yet that Betelgeuse has a companion",
+   "url": "https://www.eso.org/public/news/eso2611/",
+   "publisher": "ESO",
+   "section": "Videnskab",
+   "publishedAt": "2026-07-28T00:00:00.000Z",
+   "summary": "Observationer med VLT's SPHERE-instrument giver det hidtil stærkeste belæg for, at kæmpestjernen Betelgeuse har en ledsager."
+  },
+  {
+   "text": "Physicists Solve a Muon Mystery. Now, Old Results Don’t Add Up.",
+   "headline": "Physicists Solve a Muon Mystery. Now, Old Results Don’t Add Up.",
+   "url": "https://www.quantamagazine.org/physicists-solve-a-muon-mystery-now-old-results-dont-add-up-20260729/",
+   "publisher": "Quanta Magazine",
+   "section": "Videnskab",
+   "publishedAt": "2026-07-29T00:00:00.000Z",
+   "summary": "Myonens magnetiske moment stemmer nu med Standardmodellen til én del i 100 milliarder efter lattice-QCD-beregninger. Prisen er, at den konkurrerende datadrevne metode ikke længere passer, så feltet har byttet en mulig ny partikel for en beregningskrise."
+  },
+  {
+   "text": "Nye tal: Over 20.000 kvadratkilometer hav venter på afgørende trawlforbud",
+   "headline": "Nye tal: Over 20.000 kvadratkilometer hav venter på afgørende trawlforbud",
+   "url": "https://ing.dk/artikel/nye-tal-over-20000-kvadratkilometer-hav-venter-paa-afgoerende-trawlforbud",
+   "publisher": "Ingeniøren",
+   "section": "Indland",
+   "publishedAt": "2026-07-29T12:00:00.000Z",
+   "summary": "Mere end 20.000 kvadratkilometer dansk havareal afventer stadig det trawlforbud, der er forudsat i beskyttelsen af områderne."
+  }
+ ],
+ "keyNumber": {
+  "label": "Azure og øvrige cloud-tjenester, vækst i kvartalet der sluttede 30. juni 2026",
+  "value": "43",
+  "unit": "%",
+  "asOf": "4. kvartal regnskabsåret 2026",
+  "caption": "Væksten accelererede fra 40 procent i kvartalet før. Efterspørgslen på skykapacitet stiger stadig hurtigere, ikke bare fortsat.",
+  "sourceUrl": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+  "sourceTitle": "Microsoft Cloud and AI Strength Fuels Fourth Quarter Results",
+  "series": [
+   {
+    "label": "3. kvt. FY26",
+    "value": 40
+   },
+   {
+    "label": "4. kvt. FY26",
+    "value": 43
+   }
+  ]
+ },
+ "column": {
+  "authoredBy": "ai",
+  "slug": "restaurering-vaelger-et-tidspunkt",
+  "title": "Restaurering vælger et tidspunkt, ikke en tilstand",
+  "thesis": "At restaurere noget er ikke at genskabe det, men at vælge hvilket øjeblik i tingens liv der skal gælde som det ægte — og det øjeblik står ikke skrevet i tingen selv.",
+  "body": [
+   "Restaurering lover en tilbagevenden: man fjerner det, tiden har lagt oven på, og tingen kommer til syne som sig selv. Men en ting har ikke ét sig selv. Et maleri har været fugtigt lærred, frisk farve, gulnet lak, renset overflade. Hvert stadie er lige virkeligt. At vælge et af dem som det ægte er en beslutning, der træffes nu, ikke noget, der hentes ud af værket.",
+   "Det gælder uden for kunsten. En bygning føres tilbage til en stilperiode, den kun havde kort, og en by til et gadebillede, ingen nulevende har set. Smagsdommen bliver en opdagelse, fordi den får et objekt at pege på.",
+   "Ærlig bevaring bør derfor datere sig selv: ikke »vi har genskabt loftet«, men »vi har valgt loftet, som det var, da stilladset kom ned«."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis der findes et kriterium i tingen selv, som afgør spørgsmålet uden en smagsdom: en påviselig grænse mellem ophavsmandens lag og tidens.",
+  "topics": [
+   "restaurering",
+   "autenticitet",
+   "kulturarv"
+  ]
+ },
+ "recommendations": [
+  {
+   "id": "rec-louisiana-sophie-calle-20260730",
+   "mode": "experience",
+   "kind": "udstilling",
+   "status": "available",
+   "title": "Something Missing?",
+   "creator": "Sophie Calle",
+   "provider": "Louisiana Museum of Modern Art",
+   "url": "https://louisiana.dk/en/exhibition/sophie-calle/",
+   "availability": "Louisiana, Humlebæk, 35 minutter med tog fra København H. 26. marts – 6. september 2026. Billet, gratis med årskort. Åbent ti-fr 10-22 og lø-sø 10-18 i juli og august.",
+   "commitment": "2-3 timer; udstillingen fylder hele Vestfløjen",
+   "description": "Fem årtier med Sophie Calle i hele Vestfløjen: over 300 værker i fotografi, tekst og video fordelt på syv store serier. Blandt dem The Blind fra 1986, som Louisiana netop har erhvervet, hvor 23 blinde beskriver skønhed, og Voir la mer fra 2011, hvor beboere i Istanbul ser havet for første gang.",
+   "rationale": "Calle arbejder som en god analytiker: en regel, en begrænsning, og derefter dokumentation af hvad der faktisk skete. The Blind er alene turen værd. Lukker 6. september, så dette er en af de sidste hele måneder.",
+   "topics": [
+    "kunst",
+    "fotografi",
+    "fortælling",
+    "København"
+   ],
+   "isFeatured": true,
+   "image": {
+    "url": "https://louisiana.dk/wp-content/uploads/2025/02/10-Sophie-Calle-Musee-Picasso-Paris25-juillet-23-%C2%A9-Yves-Geant-huge_jpg.jpg",
+    "credit": "Foto: Yves Géant / Louisiana",
+    "alt": "Sophie Calle, hvis værker fra fem årtier vises i Louisianas Vestfløj.",
+    "sourceUrl": "https://louisiana.dk/en/exhibition/sophie-calle/"
+   }
+  },
+  {
+   "id": "rec-eda-defence-data-2026-20260730",
+   "mode": "read",
+   "kind": "rapport",
+   "status": "timely",
+   "title": "EU defence spending: €418 billion in 2025, projected to €454 billion in 2026",
+   "creator": "European Defence Agency",
+   "provider": "European Defence Agency",
+   "url": "https://eda.europa.eu/news-and-events/news/2026/07/16/eu-defence-spending---418-billion-in-2025--projected-to--454-billion-in-2026",
+   "availability": "Gratis, ingen registrering. Den fulde Defence Data-rapport kan hentes som PDF fra siden. Tilgængelig globalt.",
+   "commitment": "15 minutter for meddelelsen, en time for datarapporten",
+   "description": "EDA's årlige Defence Data. EU-27 brugte 418 milliarder euro på forsvar i 2025, 20 procent mere end året før og 2,2 procent af EU's BNP, med 454 milliarder ventet i 2026. Materielindkøb udgjorde 115 milliarder, hvoraf 24 procent var fælles. Forsvars-F&U stiger fra 17 til 20 milliarder euro.",
+   "rationale": "Det er nævneren bag hver enkelt europæisk forsvarspitch. At F&U går fra 17 til 20 milliarder euro, mens fælles indkøb står stille på 24 procent, er de to tal, der afgør, om en forsvars-deeptechvirksomhed har ét europæisk marked eller 27 små. Primær kilde, et kvarter, brugbar i årevis.",
+   "topics": [
+    "forsvar",
+    "EU",
+    "investering",
+    "industripolitik"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-drtv-christiania-20260730",
+   "mode": "watch",
+   "kind": "serie",
+   "status": "new",
+   "title": "Christiania",
+   "creator": "DR",
+   "provider": "DRTV",
+   "url": "https://www.dr.dk/drtv/saeson/christiania_606358",
+   "availability": "Gratis på DRTV i Danmark uden abonnement. Alle tre afsnit udkom 27. juli 2026, tilgængelige til 1. juni 2030. Aldersmærkning 11+.",
+   "commitment": "3 afsnit à 30 minutter",
+   "description": "Efter 50 år med anarki og store drømme får Christiania sin dokumentarserie. En forladt kaserne, en håndfuld drømmere og en radikal idé om frihed. Tre afsnit: »En flok teenagere, der har fået en by«, »Nu skal de ud« og »Et samfund er ikke idyl, et samfund er kamp«.",
+   "rationale": "Et 50-årigt naturligt eksperiment i styring uden en stat, filmet af den institution, der har dækket det fra dag ét. Titlen på tredje afsnit siger det uden omsvøb: et samfund er ikke idyl. Gratis, dansk, 90 minutter, og det ligger en cykeltur væk.",
+   "topics": [
+    "danmark",
+    "dokumentar",
+    "styring",
+    "modkultur"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-chinatalk-wartalk-ancient-greece-20260730",
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "WarTalk: Ancient Greece Edition",
+   "creator": "Jordan Schneider med Roel Konijnendijk, University of Oxford",
+   "provider": "ChinaTalk",
+   "url": "https://www.chinatalk.media/p/wartalk-ancient-greece-edition",
+   "availability": "Gratis globalt. Fuld transskription på ChinaTalks Substack, lyd i alle podcast-apps. Intet abonnement. Udkom 26. juli 2026.",
+   "commitment": "Cirka en time, eller 20 minutter som transskription",
+   "description": "Konijnendijk, forfatter til Classical Greek Tactics: A Cultural History, argumenterer for, at Thukydides-fælden blev opfundet af Graham Allison i 2017, og at Allison ikke er oldtidshistoriker. Undervejs også, hvordan grækerne faktisk kæmpede.",
+   "rationale": "Thukydides-fælden bliver nævnt i hvert andet møde om Kina. Her forklarer en klassisk filolog fra Oxford roligt, at rammen er tynd, og at historikerne aldrig blev spurgt. At vide, at den bærende metafor er lånt skævt, er mere værd end endnu en USA-Kina-briefing.",
+   "topics": [
+    "geopolitik",
+    "klassisk historie",
+    "militærhistorie",
+    "idéhistorie"
+   ],
+   "isFeatured": false
+  }
+ ],
+ "quality": {
+  "editorialConfidence": 87,
+  "sourceDiversity": 92,
+  "primarySourceShare": 50,
+  "outsideProfileCoverage": 84,
+  "verificationDepth": 88
+ }
+}
