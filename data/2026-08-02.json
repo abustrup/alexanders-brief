@@ -1,0 +1,932 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-02",
+ "date": "2026-08-02",
+ "generatedAt": "2026-08-02T10:30:00.000Z",
+ "readingMinutes": 12,
+ "title": "Alexanders Brief",
+ "dek": "Trump aflyser angrebet på Iran mod en hurtig aftale, Sydkoreas chipeksport sætter rekord, og en konfigurationsfejl gav et amerikansk AI-værktøj adgang til danske sundhedsdata.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "trump-iran-strike-cancel-20260802",
+   "eventKey": "trump-cancels-iran-strikes-2026-08",
+   "section": "Mellemøsten",
+   "isLead": true,
+   "isOutsideProfile": false,
+   "headline": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+   "primarySourceUrl": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o",
+   "subheadline": "Trump skrev natten til søndag på Truth Social, at angrebet aflyses på betingelse af en hurtig aftale, der skal åbne Hormuzstrædet og bringe Irans atomtrussel til ophør. Beslutningen er truffet sammen med Israel.",
+   "body": [
+    "Donald Trump meddelte natten til søndag dansk tid på Truth Social, at han aflyser de planlagte angreb på Iran, betinget af at der hurtigt kan indgås en aftale. Den skal ifølge opslaget indebære, at Hormuzstrædet åbnes øjeblikkeligt, og at Irans atomtrussel bringes til ophør. Beslutningen er truffet sammen med Israel.",
+    "Meldingen kommer efter oplysninger om, at Washington forberedte nye angreb i weekenden, og efter at amerikanske ambassader havde udsendt sikkerhedsvarsler. Det er ikke første gang i forløbet, at Trump varsler eskalering og derefter holder igen."
+   ],
+   "whyItMatters": "Hormuzstrædet er det konkrete i udspillet. Brent steg mere end 20 procent i juli, og en genåbning er den enkeltfaktor, der hurtigst kan vende den bevægelse.",
+   "analysis": "Det er en betingelse, ikke en aftale. Opslaget beskriver rammerne for et forlig, men indeholder hverken frist, verifikationsmekanisme eller iransk tilslutning. Mønsteret gennem sommeren har været varsel efterfulgt af udsættelse, så testen er ikke opslaget, men om skibstrafikken gennem Hormuz normaliseres.",
+   "counterpoint": "En amerikansk general advarede ifølge Washington Post samtidig Pentagon om, at han ikke har styrker nok i regionen til at beskytte Israel.",
+   "primaryExcerpt": {
+    "quote": "subject to being able to rapidly make a DEAL",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o",
+    "sourceTitle": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal"
+   },
+   "topics": [
+    "iran",
+    "usa",
+    "diplomati",
+    "geopolitik",
+    "olie"
+   ],
+   "entities": [
+    "Donald Trump",
+    "Iran",
+    "Israel",
+    "Hormuzstrædet",
+    "Pentagon"
+   ],
+   "materialFacts": [
+    "Trump meddelte 2. august 2026 på Truth Social, at de planlagte angreb på Iran aflyses, betinget af en hurtig aftale.",
+    "Aftalen skal ifølge opslaget indebære øjeblikkelig åbning af Hormuzstrædet og ophør af Irans atomtrussel.",
+    "Trump oplyste, at beslutningen er truffet sammen med Israel.",
+    "En amerikansk general advarede Pentagon om utilstrækkelige styrker i regionen til at beskytte Israel."
+   ],
+   "scores": {
+    "importance": 92,
+    "decisionValue": 84,
+    "novelty": 88,
+    "sourceQuality": 93,
+    "personalRelevance": 62,
+    "contrast": 80
+   },
+   "claims": [
+    {
+     "text": "Trump meddelte, at han aflyser angrebet på Iran, betinget af at der hurtigt kan indgås en aftale.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/cjwx74qgld2o",
+      "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Aftalen skal ifølge Trumps opslag omfatte øjeblikkelig åbning af Hormuzstrædet og ophør af Irans atomtrussel.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/cjwx74qgld2o"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "En amerikansk general har advaret Pentagon om, at han ikke har tilstrækkelige styrker i regionen til at beskytte Israel.",
+     "sourceUrls": [
+      "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o",
+     "publishedAt": "2026-08-02T03:05:16Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Live updates: US-Iran war; Trump says he’s canceling planned attacks",
+     "publisher": "CNN",
+     "url": "https://www.cnn.com/2026/08/01/world/live-news/iran-war-trump",
+     "publishedAt": "2026-08-02T02:00:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel",
+     "publisher": "The Washington Post",
+     "url": "https://www.washingtonpost.com/national-security/2026/08/01/general-warns-pentagon-he-lacks-sufficient-forces-protect-israel/",
+     "publishedAt": "2026-08-01T11:00:00Z",
+     "kind": "reporting"
+    }
+   ],
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9c36/live/eb797180-8e18-11f1-b916-5b9500660788.jpg",
+    "credit": "Kilde: BBC News",
+    "alt": "Donald Trump fotograferet i forbindelse med beslutningen om at aflyse angrebet på Iran.",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o"
+   }
+  },
+  {
+   "id": "korea-chip-eksport-rekord-20260802",
+   "eventKey": "korea-july-2026-exports-chip-surge",
+   "section": "Erhverv",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Korea's monthly exports up 62.8% in July on strong chip shipments",
+   "primarySourceUrl": "https://www.koreatimes.co.kr/economy/20260801/koreas-monthly-exports-up-628-in-july-on-strong-chip-shipments",
+   "subheadline": "Sydkoreas eksport nåede 98,89 milliarder dollar i juli, næsthøjeste måned nogensinde. Halvledereksporten steg 179 procent til 41,01 milliarder dollar og lå over 40 milliarder for anden måned i træk.",
+   "body": [
+    "Sydkoreas eksport steg 62,8 procent på et år til 98,89 milliarder dollar i juli, den næsthøjeste månedseksport nogensinde. Importen steg 26,5 procent til 68,56 milliarder, og handelsoverskuddet endte på 30,32 milliarder.",
+    "Halvledere er hele forklaringen. Chipeksporten steg 179 procent til 41,01 milliarder dollar og lå for anden måned i træk over 40 milliarder. Efterspørgslen kommer fra hukommelseschips til AI-datacentre, hvor Samsung Electronics og SK hynix er de dominerende leverandører."
+   ],
+   "whyItMatters": "Månedstallet er den hurtigste offentligt tilgængelige måling af, om AI-investeringerne konverteres til hardwareordrer eller blot annonceres.",
+   "analysis": "Tallet er mængde og pris på én gang. Hukommelsespriserne er steget kraftigt gennem året, så en del af de 179 procent er dyrere chips snarere end flere. Det er et stærkt signal om AI-efterspørgsel og et svagere om koreansk kapacitet.",
+   "topics": [
+    "halvledere",
+    "eksport",
+    "ai-infrastruktur",
+    "sydkorea",
+    "teknologisk suverænitet"
+   ],
+   "entities": [
+    "Sydkorea",
+    "Samsung Electronics",
+    "SK hynix",
+    "Ministry of Trade, Industry and Energy"
+   ],
+   "materialFacts": [
+    "Sydkoreas eksport steg 62,8 procent år til år til 98,89 milliarder dollar i juli 2026.",
+    "Halvledereksporten steg 179 procent til 41,01 milliarder dollar.",
+    "Det er anden måned i træk med chipeksport over 40 milliarder dollar.",
+    "Importen steg 26,5 procent til 68,56 milliarder dollar, og handelsoverskuddet blev 30,32 milliarder dollar."
+   ],
+   "scores": {
+    "importance": 84,
+    "decisionValue": 82,
+    "novelty": 76,
+    "sourceQuality": 82,
+    "personalRelevance": 90,
+    "contrast": 62
+   },
+   "claims": [
+    {
+     "text": "Sydkoreas eksport steg 62,8 procent til 98,89 milliarder dollar i juli 2026.",
+     "sourceUrls": [
+      "https://www.koreatimes.co.kr/economy/20260801/koreas-monthly-exports-up-628-in-july-on-strong-chip-shipments"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Halvledereksporten steg 179 procent til 41,01 milliarder dollar og lå over 40 milliarder for anden måned i træk.",
+     "sourceUrls": [
+      "https://english.news.cn/20260801/3ab247069da04bf0bde81fb8f90dba33/c.html",
+      "https://en.sedaily.com/finance/2026/08/01/koreas-july-exports-reach-989-billion-on-chip-strength"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Korea's monthly exports up 62.8% in July on strong chip shipments",
+     "publisher": "The Korea Times",
+     "url": "https://www.koreatimes.co.kr/economy/20260801/koreas-monthly-exports-up-628-in-july-on-strong-chip-shipments",
+     "publishedAt": "2026-08-01T00:19:03Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "S. Korea's July exports surge 62.8 pct on semiconductor boom",
+     "publisher": "Xinhua",
+     "url": "https://english.news.cn/20260801/3ab247069da04bf0bde81fb8f90dba33/c.html",
+     "publishedAt": "2026-08-01T04:00:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Korea's July Exports Reach $98.9 Billion on Chip Strength",
+     "publisher": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/finance/2026/08/01/koreas-july-exports-reach-989-billion-on-chip-strength",
+     "publishedAt": "2026-08-01T05:00:00Z",
+     "kind": "reporting"
+    }
+   ],
+   "image": {
+    "url": "https://newsimg.koreatimes.co.kr/2026/08/01/fdd5f911-0fdd-4e1d-aef0-b7dfaa9365c6.jpg",
+    "credit": "Kilde: The Korea Times",
+    "alt": "Containerhavn i Sydkorea, hvorfra landets eksport af halvledere afskibes.",
+    "sourceUrl": "https://www.koreatimes.co.kr/economy/20260801/koreas-monthly-exports-up-628-in-july-on-strong-chip-shipments"
+   }
+  },
+  {
+   "id": "sundhedsdatastyrelsen-ai-adgang-20260802",
+   "eventKey": "sundhedsdatastyrelsen-copilot-breach-2026-07",
+   "section": "Danmark",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Fejl hos Sundhedsdatastyrelsen: Kom til at give amerikansk AI-værktøj adgang til interne data",
+   "primarySourceUrl": "https://ing.dk/artikel/fejl-hos-sundhedsdatastyrelsen-kom-til-give-amerikansk-ai-vaerktoej-adgang-til-interne-data",
+   "subheadline": "En konfigurationsfejl gav et amerikansk AI-værktøj adgang til interne data hos Sundhedsdatastyrelsen. Styrelsen har selv indberettet bruddet til Datatilsynet, og sagen er kommet frem via aktindsigt.",
+   "body": [
+    "Sundhedsdatastyrelsen har indberettet et brud på persondatasikkerheden til Datatilsynet, efter at en konfigurationsfejl gav et amerikansk AI-værktøj adgang til styrelsens interne data. Sagen er kommet frem, fordi Ingeniørens gravegruppe Radar har fået aktindsigt.",
+    "Styrelsen forvalter nogle af de mest følsomme registre i staten, herunder helbredsoplysninger. Omfanget og antallet af berørte fremgår ikke af den offentliggjorte del af sagen."
+   ],
+   "whyItMatters": "Det er ikke et hack. Det er en indstilling i et indkøbt kontorprogram, der flyttede adgangsgrænsen, uden at nogen traf en beslutning om det.",
+   "analysis": "Debatten om teknologisk suverænitet handler oftest om, hvor serverne står. Denne sag peger et andet sted hen: AI-funktioner lægges oven på software, myndighederne allerede bruger, så adgangen udvides gennem en opdatering frem for et indkøb. Kontrolopgaven ligger i konfigurationen, ikke i kontrakten.",
+   "topics": [
+    "ai",
+    "databeskyttelse",
+    "sundhedsdata",
+    "teknologisk suverænitet",
+    "myndigheder"
+   ],
+   "entities": [
+    "Sundhedsdatastyrelsen",
+    "Datatilsynet",
+    "Ingeniøren",
+    "Radar"
+   ],
+   "materialFacts": [
+    "Sundhedsdatastyrelsen har indberettet et brud på persondatasikkerheden til Datatilsynet.",
+    "En konfigurationsfejl gav et amerikansk AI-værktøj adgang til styrelsens interne data.",
+    "Sagen er kommet frem via aktindsigt indhentet af Ingeniørens Radar."
+   ],
+   "scores": {
+    "importance": 78,
+    "decisionValue": 76,
+    "novelty": 82,
+    "sourceQuality": 88,
+    "personalRelevance": 92,
+    "contrast": 70
+   },
+   "claims": [
+    {
+     "text": "Sundhedsdatastyrelsen har selv indberettet et brud på persondatasikkerheden til Datatilsynet efter en konfigurationsfejl.",
+     "sourceUrls": [
+      "https://ing.dk/artikel/fejl-hos-sundhedsdatastyrelsen-kom-til-give-amerikansk-ai-vaerktoej-adgang-til-interne-data"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Fejlen gav et amerikansk AI-værktøj adgang til styrelsens interne data, og sagen er dokumenteret gennem aktindsigt.",
+     "sourceUrls": [
+      "https://ing.dk/artikel/fejl-hos-sundhedsdatastyrelsen-kom-til-give-amerikansk-ai-vaerktoej-adgang-til-interne-data"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fejl hos Sundhedsdatastyrelsen: Kom til at give amerikansk AI-værktøj adgang til interne data",
+     "publisher": "Ingeniøren",
+     "url": "https://ing.dk/artikel/fejl-hos-sundhedsdatastyrelsen-kom-til-give-amerikansk-ai-vaerktoej-adgang-til-interne-data",
+     "publishedAt": "2026-07-31T10:00:00Z",
+     "kind": "reporting"
+    }
+   ],
+   "image": {
+    "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-07/20260720-095913-1-1920x1189web.jpg?h=45a91b18&itok=x4lI0l1f",
+    "credit": "Kilde: Ingeniøren",
+    "alt": "Arkivfoto anvendt af Ingeniøren til sagen om Sundhedsdatastyrelsens databrud.",
+    "sourceUrl": "https://ing.dk/artikel/fejl-hos-sundhedsdatastyrelsen-kom-til-give-amerikansk-ai-vaerktoej-adgang-til-interne-data"
+   }
+  },
+  {
+   "id": "ghost-ancestors-dna-20260802",
+   "eventKey": "ghost-archaic-lineages-human-dna-2026-07",
+   "section": "Videnskab",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "New technique pinpoints human DNA inherited from 'ghost' ancestors",
+   "primarySourceUrl": "https://news.berkeley.edu/2026/07/30/new-technique-pinpoints-human-dna-inherited-from-ghost-ancestors/",
+   "subheadline": "En ny metode fra Berkeley finder to hidtil ukendte uddøde menneskelinjer i moderne dna. Den ene parrede sig med mennesker inde i Afrika og har efterladt omkring én procent af arvemassen.",
+   "body": [
+    "Et forskerhold ved University of California, Berkeley har udviklet metoden TRACE, der rekonstruerer slægtskab ud fra hundredvis af nulevende genomer. Arbejdet er offentliggjort i Science den 30. juli og finder to arkaiske linjer, der hverken er neandertalere eller denisovaner.",
+    "Den ene skilte sig fra vores linje for omkring 800.000 år siden og parrede sig med mennesker inde i Afrika for mere end 50.000 år siden. Den har efterladt 0,5 til 1 procent af arvemassen. Den anden stammer fra en gren på cirka 1,8 millioner år og nåede os gennem denisovanerne."
+   ],
+   "whyItMatters": "Afrika har hidtil været behandlet som stedet uden arkaisk opblanding, fordi metoderne krævede fossile genomer, og dem er der næsten ingen af syd for Sahara.",
+   "analysis": "Det metodiske er det nye. TRACE leder efter spor i slægtstræet frem for at matche mod et kendt fossil og kan derfor finde forfædre, der aldrig er gravet op.",
+   "topics": [
+    "genetik",
+    "menneskets oprindelse",
+    "evolution",
+    "videnskab"
+   ],
+   "entities": [
+    "University of California, Berkeley",
+    "Priya Moorjani",
+    "Yulin Zhang",
+    "Science",
+    "TRACE"
+   ],
+   "materialFacts": [
+    "Berkeley-metoden TRACE identificerer to hidtil ukendte arkaiske menneskelinjer i moderne dna.",
+    "Den ene linje skilte sig fra moderne mennesker for cirka 800.000 år siden og bidrog med 0,5 til 1 procent af arvemassen.",
+    "Opblandingen fandt sted inde i Afrika for mere end 50.000 år siden.",
+    "Den anden linje stammer fra en cirka 1,8 millioner år gammel gren og nåede mennesker via denisovanerne."
+   ],
+   "scores": {
+    "importance": 82,
+    "decisionValue": 55,
+    "novelty": 92,
+    "sourceQuality": 95,
+    "personalRelevance": 58,
+    "contrast": 88
+   },
+   "claims": [
+    {
+     "text": "Berkeley-forskere har med metoden TRACE identificeret to hidtil ukendte arkaiske linjer i moderne menneskers dna.",
+     "sourceUrls": [
+      "https://news.berkeley.edu/2026/07/30/new-technique-pinpoints-human-dna-inherited-from-ghost-ancestors/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Den ene linje bidrog med cirka 0,5 til 1 procent af arvemassen og parrede sig med mennesker inde i Afrika.",
+     "sourceUrls": [
+      "https://news.berkeley.edu/2026/07/30/new-technique-pinpoints-human-dna-inherited-from-ghost-ancestors/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "New technique pinpoints human DNA inherited from 'ghost' ancestors",
+     "publisher": "UC Berkeley News",
+     "url": "https://news.berkeley.edu/2026/07/30/new-technique-pinpoints-human-dna-inherited-from-ghost-ancestors/",
+     "publishedAt": "2026-07-30T12:00:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Tracking archaic introgression with genealogies",
+     "publisher": "Science",
+     "url": "https://www.science.org/doi/10.1126/science.aef8874",
+     "publishedAt": "2026-07-30T18:00:00Z",
+     "kind": "primary"
+    }
+   ],
+   "image": {
+    "url": "https://news.berkeley.edu/wp-content/uploads/2026/07/Updated_Illustration_Marohn-scaled.jpg",
+    "credit": "Kilde: UC Berkeley News",
+    "alt": "Illustration af de arkaiske menneskelinjer, som Berkeley-metoden TRACE har fundet spor af i moderne dna.",
+    "sourceUrl": "https://news.berkeley.edu/2026/07/30/new-technique-pinpoints-human-dna-inherited-from-ghost-ancestors/"
+   }
+  },
+  {
+   "id": "narsaq-forskning-usa-20260802",
+   "eventKey": "narsaq-research-station-halts-us-cooperation-2026-07",
+   "section": "Rigsfællesskabet",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Forskningsstation i Narsaq stopper nyt samarbejde med USA",
+   "primarySourceUrl": "https://knr.gl/da/nyheder/forskningsstation-i-narsaq-stopper-nyt-samarbejde-med-usa",
+   "subheadline": "Narsaq Internationale Forskningsstation indstiller nye samarbejder med amerikanske parter. Grønlands Naturinstitut og Ilisimatusarfik har truffet tilsvarende beslutninger.",
+   "body": [
+    "Narsaq Internationale Forskningsstation stopper nye samarbejder med amerikanske parter. Stationen er en græsrodsorganisation ledet af Lise Autogena, professor emerita ved Sheffield Hallam University. Beslutningen følger tilsvarende meldinger fra Grønlands Naturinstitut og Ilisimatusarfik.",
+    "Begrundelsen er bekymring for, at arktisk forskning politiseres og overlapper militære interesser. Autogena peger på udnævnelsen af Tom Dans som formand for United States Arctic Research Commission."
+   ],
+   "whyItMatters": "Tre grønlandske forskningsinstitutioner har nu hver for sig lukket for nye amerikanske samarbejder, uden at en myndighed har pålagt dem det.",
+   "analysis": "Det interessante er, hvem der handler. Det er ikke Naalakkersuisut eller København, men institutionerne selv, og de bevæger sig ens uden fælles beslutning. Arktisk klimaforskning hviler på lange dataserier, så prisen betales i målinger, der ikke bliver taget.",
+   "topics": [
+    "grønland",
+    "forskning",
+    "arktis",
+    "rigsfællesskab",
+    "teknologisk suverænitet"
+   ],
+   "entities": [
+    "Narsaq Internationale Forskningsstation",
+    "Lise Autogena",
+    "Tom Dans",
+    "Grønlands Naturinstitut",
+    "Ilisimatusarfik",
+    "Josephine Nymand"
+   ],
+   "materialFacts": [
+    "Narsaq Internationale Forskningsstation stopper nye samarbejder med amerikanske parter.",
+    "Grønlands Naturinstitut og Ilisimatusarfik har tidligere truffet tilsvarende beslutninger.",
+    "Begrundelsen er bekymring for politisering af forskningen og militært overlap.",
+    "Tom Dans blev i december udnævnt til formand for United States Arctic Research Commission."
+   ],
+   "scores": {
+    "importance": 80,
+    "decisionValue": 72,
+    "novelty": 84,
+    "sourceQuality": 82,
+    "personalRelevance": 84,
+    "contrast": 76
+   },
+   "claims": [
+    {
+     "text": "Narsaq Internationale Forskningsstation stopper nye forskningssamarbejder med amerikanske parter.",
+     "sourceUrls": [
+      "https://knr.gl/da/nyheder/forskningsstation-i-narsaq-stopper-nyt-samarbejde-med-usa"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Grønlands Naturinstitut og Ilisimatusarfik har truffet tilsvarende beslutninger.",
+     "sourceUrls": [
+      "https://knr.gl/da/nyheder/forskningsstation-i-narsaq-stopper-nyt-samarbejde-med-usa"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Lise Autogena henviser til udnævnelsen af Tom Dans som formand for United States Arctic Research Commission.",
+     "sourceUrls": [
+      "https://knr.gl/da/nyheder/forskningsstation-i-narsaq-stopper-nyt-samarbejde-med-usa"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Forskningsstation i Narsaq stopper nyt samarbejde med USA",
+     "publisher": "KNR",
+     "url": "https://knr.gl/da/nyheder/forskningsstation-i-narsaq-stopper-nyt-samarbejde-med-usa",
+     "publishedAt": "2026-07-31T14:01:00Z",
+     "kind": "reporting"
+    }
+   ],
+   "image": {
+    "url": "https://knr.gl/sites/default/files/styles/image_934x467/public/2026-07/IMG_4144%202.jpeg?itok=KAgKo5qm",
+    "credit": "Kilde: KNR",
+    "alt": "Narsaq i Sydgrønland, hvor den internationale forskningsstation ligger.",
+    "sourceUrl": "https://knr.gl/da/nyheder/forskningsstation-i-narsaq-stopper-nyt-samarbejde-med-usa"
+   }
+  },
+  {
+   "id": "deramiocel-duchenne-20260802",
+   "eventKey": "deramiocel-hope3-dmd-phase3-2026-07",
+   "section": "Sundhed",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Phase 3 trial shows investigational cell therapy slowed disease progression in Duchenne muscular dystrophy",
+   "primarySourceUrl": "https://health.ucdavis.edu/welcome/news/headlines/phase-3-trial-shows-investigational-cell-therapy-slowed-disease-progression-in-duchenne-muscular-dystrophy/2026/07",
+   "subheadline": "106 deltagere med fremskreden Duchenne muskelsvind fik celleterapi eller placebo hvert kvartal i et år. Armfunktionen faldt markant langsommere, og skanninger viste mindre arvævsdannelse i hjertet.",
+   "body": [
+    "Fase 3-forsøget HOPE-3 fordelte 106 deltagere med fremskreden Duchenne muskelsvind tilfældigt til celleterapien deramiocel eller placebo, givet som infusion hvert kvartal i tolv måneder. Resultaterne er offentliggjort i The Lancet den 29. juli.",
+    "Deltagerne på behandling mistede arm- og håndfunktion væsentligt langsommere end placebogruppen. Billeddannelse viste mindre arvævsdannelse i hjertemusklen, og flere analyser af hjertefunktionen pegede mod stabilisering. Der var ingen dødsfald."
+   ],
+   "whyItMatters": "Hjertesvigt er den hyppigste dødsårsag ved Duchenne, og ingen godkendt behandling har hidtil bremset den del af sygdommen.",
+   "analysis": "Endepunktet fortjener at blive læst præcist. Forsøget måler arm- og håndfunktion hos patienter, der allerede har mistet gangfunktionen, og det er dér selvstændigheden ligger. Hjertedelen hviler på billeddannelse frem for hårde hændelser, og et år er kort tid til en sygdom over årtier.",
+   "topics": [
+    "medicin",
+    "celleterapi",
+    "kliniske forsøg",
+    "biotek"
+   ],
+   "entities": [
+    "The Lancet",
+    "HOPE-3",
+    "deramiocel",
+    "UC Davis Health",
+    "Craig McDonald"
+   ],
+   "materialFacts": [
+    "HOPE-3 randomiserede 106 deltagere med fremskreden Duchenne muskelsvind til deramiocel eller placebo.",
+    "Behandlingen blev givet som intravenøs infusion hvert kvartal i tolv måneder.",
+    "Deltagerne på behandling mistede arm- og håndfunktion væsentligt langsommere end placebogruppen.",
+    "Skanninger viste mindre fremadskridende arvævsdannelse i hjertemusklen, og der var ingen dødsfald i forsøget."
+   ],
+   "scores": {
+    "importance": 80,
+    "decisionValue": 66,
+    "novelty": 80,
+    "sourceQuality": 96,
+    "personalRelevance": 55,
+    "contrast": 70
+   },
+   "claims": [
+    {
+     "text": "HOPE-3 randomiserede 106 deltagere med fremskreden Duchenne muskelsvind til deramiocel eller placebo i tolv måneder.",
+     "sourceUrls": [
+      "https://health.ucdavis.edu/welcome/news/headlines/phase-3-trial-shows-investigational-cell-therapy-slowed-disease-progression-in-duchenne-muscular-dystrophy/2026/07"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Behandlingsgruppen mistede arm- og håndfunktion væsentligt langsommere, og skanninger viste mindre arvævsdannelse i hjertet.",
+     "sourceUrls": [
+      "https://health.ucdavis.edu/welcome/news/headlines/phase-3-trial-shows-investigational-cell-therapy-slowed-disease-progression-in-duchenne-muscular-dystrophy/2026/07",
+      "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01385-1/fulltext"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Phase 3 trial shows investigational cell therapy slowed disease progression in Duchenne muscular dystrophy",
+     "publisher": "UC Davis Health",
+     "url": "https://health.ucdavis.edu/welcome/news/headlines/phase-3-trial-shows-investigational-cell-therapy-slowed-disease-progression-in-duchenne-muscular-dystrophy/2026/07",
+     "publishedAt": "2026-07-29T15:00:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Deramiocel heart-derived cellular therapy in advanced Duchenne muscular dystrophy (HOPE-3): a phase 3, randomised, double-blind, placebo-controlled trial",
+     "publisher": "The Lancet",
+     "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01385-1/fulltext",
+     "publishedAt": "2026-07-29T10:00:00Z",
+     "kind": "primary"
+    }
+   ],
+   "image": {
+    "url": "https://health.ucdavis.edu/media-resources/contenthub/health-news/2026/6/thumbnail/hope3-th.jpg",
+    "credit": "Kilde: UC Davis Health",
+    "alt": "Billede fra UC Davis Health til omtalen af HOPE-3-forsøget med celleterapi mod Duchenne muskelsvind.",
+    "sourceUrl": "https://health.ucdavis.edu/welcome/news/headlines/phase-3-trial-shows-investigational-cell-therapy-slowed-disease-progression-in-duchenne-muscular-dystrophy/2026/07"
+   }
+  },
+  {
+   "id": "index-ventures-2mia-20260802",
+   "eventKey": "index-ventures-2bn-three-funds-2026-07",
+   "section": "Kapital",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Fresh off its Wiz payout, Index Ventures raises $2B across three funds",
+   "primarySourceUrl": "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/",
+   "subheadline": "Index Ventures har rejst 2 milliarder dollar fordelt på tre fonde, kort efter at Alphabets køb af Wiz for 32 milliarder dollar udløste en anslået udbetaling på 3,8 milliarder til Index alene.",
+   "body": [
+    "Index Ventures har lukket 400 millioner dollar til en ny seedfond, 900 millioner til en venturefond og lagt 700 millioner oven i vækstfonden fra 2024. Samlet råder firmaet over 3,5 milliarder dollar i investerbar kapital.",
+    "Rejsningen følger Alphabets køb af det israelsk grundlagte cybersikkerhedsselskab Wiz for 32 milliarder dollar. Index gik ind allerede i seedrunden og var største eksterne aktionær med 12 procent, svarende til cirka 3,8 milliarder dollar. Porteføljen tæller blandt andet Anthropic og Physical Intelligence."
+   ],
+   "whyItMatters": "En enkelt exit finansierede reelt hele rejsningen, og det er den mekanik, der afgør, om europæisk venturekapital kan rejse i et svært marked.",
+   "analysis": "Sammensætningen er værd at bemærke. Halvdelen af pengene går til seed og venture, mens kapital ellers søger mod sene runder. Det gør resultatet afhængigt af, at endnu en exit i Wiz-størrelse findes.",
+   "topics": [
+    "venturekapital",
+    "fondrejsning",
+    "europa",
+    "exit",
+    "ai"
+   ],
+   "entities": [
+    "Index Ventures",
+    "Wiz",
+    "Alphabet",
+    "Anthropic",
+    "Physical Intelligence",
+    "Fireworks AI"
+   ],
+   "materialFacts": [
+    "Index Ventures har rejst 400 millioner dollar til seed, 900 millioner til venture og 700 millioner til vækst.",
+    "Firmaet råder nu over 3,5 milliarder dollar i investerbar kapital.",
+    "Alphabet købte Wiz for 32 milliarder dollar, hvor Index var største eksterne aktionær med 12 procent.",
+    "Indexs andel svarer til en anslået udbetaling på cirka 3,8 milliarder dollar."
+   ],
+   "scores": {
+    "importance": 76,
+    "decisionValue": 80,
+    "novelty": 88,
+    "sourceQuality": 88,
+    "personalRelevance": 92,
+    "contrast": 64
+   },
+   "claims": [
+    {
+     "text": "Index Ventures har rejst 2 milliarder dollar fordelt på en seedfond på 400 millioner, en venturefond på 900 millioner og 700 millioner til vækstfonden.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Index var største eksterne aktionær i Wiz med 12 procent, og Alphabets køb på 32 milliarder dollar svarer til en udbetaling omkring 3,8 milliarder.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fresh off its Wiz payout, Index Ventures raises $2B across three funds",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/",
+     "publishedAt": "2026-07-31T12:00:00Z",
+     "kind": "reporting"
+    }
+   ],
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2024/07/Index-Ventures-Nina-Achadjian-Shardul-Shah-2.jpg?w=1024",
+    "credit": "Kilde: TechCrunch",
+    "alt": "Index Ventures-partnerne Nina Achadjian og Shardul Shah.",
+    "sourceUrl": "https://techcrunch.com/2026/07/31/fresh-off-its-wiz-payout-index-ventures-raises-2b-across-three-funds/"
+   }
+  },
+  {
+   "id": "tigray-kampe-genoptaget-20260802",
+   "eventKey": "ethiopia-tigray-fighting-resumes-2026-08",
+   "section": "Afrika",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
+   "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame",
+   "subheadline": "Der er igen kampe i det vestlige Tigray nær Sheraro. Parterne beskylder hinanden for at have brudt freden, og TPLF erklærede allerede i midten af juli Pretoria-aftalen for reelt død.",
+   "body": [
+    "Kampene brød ud lørdag morgen i det vestlige Tigray nær Sheraro tæt ved grænsen til Sudan. Tigrays myndigheder oplyser, at føderale styrker angreb ved daggry, mens minister Abraham Belay beskylder styrker under TPLF-formand Debretsion Gebremichael for at have indledt sammenstødene.",
+    "Pretoria-aftalen fra 2022 afsluttede en krig, der kostede hundredtusinder livet, men efterlod afvæbning og TPLF-s juridiske status uafklaret. I midten af juli erklærede TPLF aftalen for reelt død."
+   ],
+   "whyItMatters": "Den aftale, der har holdt Etiopiens nord samlet siden 2022, er nu brudt af begge parter i praksis, mens ingen tredjepart holder den i live.",
+   "analysis": "Det uafklarede i aftalen er præcis det, der falder fra hinanden. Afvæbning og TPLF-s status blev udskudt, fordi de var for svære i 2022, og udskydelsen har siden været aftalens indhold. Etiopien-forskeren Kjetil Tronvoll kalder det den alvorligste hændelse siden fredsaftalen.",
+   "topics": [
+    "etiopien",
+    "tigray",
+    "borgerkrig",
+    "fredsaftale",
+    "afrika"
+   ],
+   "entities": [
+    "TPLF",
+    "Abraham Belay",
+    "Debretsion Gebremichael",
+    "Abiy Ahmed",
+    "Kjetil Tronvoll",
+    "Sheraro"
+   ],
+   "materialFacts": [
+    "Der brød kampe ud lørdag i det vestlige Tigray nær Sheraro ved grænsen til Sudan.",
+    "Tigrays myndigheder og den føderale regering beskylder hinanden for at have indledt kampene.",
+    "TPLF erklærede i midten af juli 2026 Pretoria-aftalen fra 2022 for reelt død.",
+    "Etiopien-forskeren Kjetil Tronvoll kalder det den alvorligste hændelse siden fredsaftalen."
+   ],
+   "scores": {
+    "importance": 84,
+    "decisionValue": 58,
+    "novelty": 89,
+    "sourceQuality": 85,
+    "personalRelevance": 40,
+    "contrast": 82
+   },
+   "claims": [
+    {
+     "text": "Der brød kampe ud i det vestlige Tigray nær Sheraro, og parterne beskylder hinanden for at have indledt dem.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "TPLF erklærede i midten af juli 2026 Pretoria-aftalen for reelt død.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Kjetil Tronvoll betegner sammenstødene som den alvorligste hændelse siden fredsaftalen i 2022.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Fighting breaks out in western Tigray as Ethiopia and TPLF trade blame",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame",
+     "publishedAt": "2026-08-01T20:38:41Z",
+     "kind": "reporting"
+    }
+   ],
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/WEB-1000x562-ETHIOPIA-TIGRAY-1785610774.jpg?resize=1200%2C675",
+    "credit": "Kilde: Al Jazeera",
+    "alt": "Arkivfoto fra Tigray i Etiopien, hvor kampene er brudt ud igen.",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/8/1/fighting-breaks-out-in-western-tigray-as-ethiopia-and-tplf-trade-blame"
+   }
+  }
+ ],
+ "signals": [
+  {
+   "text": "Efter migrantstrømme: Folketingets partier skal indkaldes til hastemøde",
+   "headline": "Efter migrantstrømme: Folketingets partier skal indkaldes til hastemøde",
+   "url": "https://www.dr.dk/nyheder/politik/efter-migrantstroemme-folketingets-partier-skal-indkaldes-til-hastemoede",
+   "publisher": "DR",
+   "section": "Indland",
+   "publishedAt": "2026-08-01T17:49:29Z",
+   "summary": "Der er nu den nødvendige opbakning til at hasteindkalde Folketinget efter migrantstrømmene til den spanske eksklave Ceuta. EU's ministre mødes tirsdag om sagen."
+  },
+  {
+   "text": "Ceuta crisis: 22 EU leaders gang up against Spain’s Sánchez over his migration policy",
+   "headline": "Ceuta crisis: 22 EU leaders gang up against Spain’s Sánchez over his migration policy",
+   "url": "https://www.politico.eu/article/ceuta-crisis-22-eu-leaders-letter-spain-pedro-sanchez-migration-policy/",
+   "publisher": "POLITICO Europe",
+   "section": "Europa",
+   "publishedAt": "2026-08-01T11:10:34Z",
+   "summary": "22 af EU's 27 stats- og regeringschefer har underskrevet et fælles brev mod Pedro Sánchez' migrationspolitik. Sánchez kalder reaktionen egoistisk, mens Ursula von der Leyen fastholder, at EU tilbød hjælp fra første øjeblik."
+  },
+  {
+   "text": "Two independent studies push semiconductor qubits towards practical scales",
+   "headline": "Two independent studies push semiconductor qubits towards practical scales",
+   "url": "https://phys.org/news/2026-07-independent-semiconductor-qubits-scales.html",
+   "publisher": "Phys.org",
+   "section": "Videnskab",
+   "publishedAt": "2026-07-31T12:00:00Z",
+   "summary": "To Nature-artikler flytter siliciumbaserede spinqubits. Delft flyttede en enkelt qubit cirka 1,2 mikrometer for at sammenfiltre den med fire andre, mens HRL byggede 54 kvanteprikker og forbedrede ydelsen omkring ti gange med en kølet kontrolchip."
+  },
+  {
+   "text": "Amazon.com announces second quarter results",
+   "headline": "Amazon.com announces second quarter results",
+   "url": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
+   "publisher": "Amazon",
+   "section": "Erhverv",
+   "publishedAt": "2026-07-30T20:05:00Z",
+   "summary": "Omsætningen nåede 200,6 milliarder dollar, en stigning på 20 procent, og driftsresultatet steg 43 procent til 27,5 milliarder. AWS voksede 36,7 procent, den hurtigste vækst i 18 kvartaler, til en årlig omsætningstakt på 169 milliarder dollar."
+  },
+  {
+   "text": "Video AI: MiniMax challenges ByteDance with low price, open weights for new H3 model",
+   "headline": "Video AI: MiniMax challenges ByteDance with low price, open weights for new H3 model",
+   "url": "https://www.scmp.com/tech/article/3362540/video-ai-minimax-challenges-bytedance-low-price-open-weights-new-h3-model",
+   "publisher": "South China Morning Post",
+   "section": "Teknologi",
+   "publishedAt": "2026-07-31T10:30:07Z",
+   "summary": "Den kinesiske producent MiniMax har lanceret videomodellen H3, der tager tekst, billede, video og lyd i én kontekst og laver klip på 5 til 15 sekunder i op til 2K med lyd. Vægtene ventes frigivet under en fællesskabslicens."
+  },
+  {
+   "text": "Judge denies xAI's request to block Minnesota ban on 'nudify' apps",
+   "headline": "Judge denies xAI's request to block Minnesota ban on 'nudify' apps",
+   "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+   "publisher": "TechCrunch",
+   "section": "Regulering",
+   "publishedAt": "2026-08-01T20:26:04Z",
+   "summary": "Dommer Donovan W. Frank afviste xAI's begæring om at standse Minnesotas forbud mod ikke-samtykkende seksualiserede billeder, som trådte i kraft 1. august. Loven retter sig mod udbyderne frem for brugerne."
+  },
+  {
+   "text": "AI can tell if your brain is aging faster than you are",
+   "headline": "AI can tell if your brain is aging faster than you are",
+   "url": "https://www.sciencedaily.com/releases/2026/07/260729051540.htm",
+   "publisher": "ScienceDaily",
+   "section": "Videnskab",
+   "publishedAt": "2026-07-31T09:00:00Z",
+   "summary": "En model læste 13 mikroskopiske træk i søvn-EEG fra cirka 7.000 voksne på tværs af fem kohorter. Hver ti års forskel mellem estimeret hjernealder og faktisk alder hang sammen med knap 40 procent højere risiko for demens."
+  },
+  {
+   "text": "Rekordmange købte en elbil i juli",
+   "headline": "Rekordmange købte en elbil i juli",
+   "url": "https://www.dr.dk/nyheder/seneste/rekordmange-koebte-en-elbil-i-juli",
+   "publisher": "DR",
+   "section": "Indland",
+   "publishedAt": "2026-08-01T10:40:12Z",
+   "summary": "97 procent af privatbilkøbene i Danmark i juli var elbiler, oplyser brancheorganisationen Mobility Denmark, der peger på den nedsatte registreringsafgift som årsag."
+  },
+  {
+   "text": "Moscow restaurant bombing kills three people as device carried by woman explodes",
+   "headline": "Moscow restaurant bombing kills three people as device carried by woman explodes",
+   "url": "https://www.theguardian.com/world/2026/aug/02/moscow-restaurant-bombing-kills-three-people-as-device-carried-by-woman-explodes",
+   "publisher": "The Guardian",
+   "section": "Udland",
+   "publishedAt": "2026-08-02T00:22:48Z",
+   "summary": "En hjemmelavet bombe båret af en kvinde sprang uden for en restaurant i Moskva og dræbte tre. Russiske myndigheder beskriver den som et improviseret sprængstof, og ansvaret er ikke placeret."
+  },
+  {
+   "text": "Ebola Bundibugyo strain outbreak worst ever in DR Congo, WHO says",
+   "headline": "Ebola Bundibugyo strain outbreak worst ever in DR Congo, WHO says",
+   "url": "https://www.bbc.co.uk/news/articles/cy07qe0knvzo",
+   "publisher": "BBC News",
+   "section": "Sundhed",
+   "publishedAt": "2026-08-01T16:16:16Z",
+   "summary": "WHO betegner det aktuelle udbrud af Bundibugyo-varianten i DR Congo som det værste nogensinde for netop den variant. Uganda fremhæves som modeksempel på inddæmning."
+  },
+  {
+   "text": "LG unveils Korea's largest AI model with 750 billion parameters",
+   "headline": "LG unveils Korea's largest AI model with 750 billion parameters",
+   "url": "https://www.koreaherald.com/article/10827054",
+   "publisher": "The Korea Herald",
+   "section": "Teknologi",
+   "publishedAt": "2026-07-31T04:20:18Z",
+   "summary": "LG AI Research har frigivet K-EXAONE 2.0 med åbne vægte under Apache 2.0. Modellen har 750 milliarder parametre, hvoraf 37 milliarder er aktive, og er anden generation under Sydkoreas statslige program for suveræne AI-modeller."
+  }
+ ],
+ "keyNumber": {
+  "label": "AWS' vækst i andet kvartal 2026",
+  "value": "36,7",
+  "unit": "%",
+  "asOf": "30. juli 2026",
+  "caption": "Den hurtigste vækst i 18 kvartaler og en årlig omsætningstakt på 169 milliarder dollar. Det er efterspørgselssiden af den chipeksport, Sydkorea netop har målt.",
+  "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
+  "sourceTitle": "Amazon.com announces second quarter results"
+ },
+ "column": {
+  "authoredBy": "ai",
+  "slug": "eksponentiel-uden-fordoblingstid",
+  "title": "Eksponentiel er blevet et ord, der standser tanken",
+  "thesis": "Når eksponentiel bruges som synonym for hurtigt, forsvinder ordets eneste brugbare indhold: at der findes en fordoblingstid.",
+  "body": [
+   "Eksponentiel vækst siger præcis én ting: der findes en fast fordoblingstid. Alt det interessante ligger i, hvor lang den er. En størrelse, der fordobles hvert årti, er eksponentiel og udramatisk. En, der fordobles hver uge, har samme kurveform og beskriver en anden verden. Ordet skelner ikke mellem dem.",
+   "Derfor er »er det eksponentielt?« næsten aldrig det spørgsmål, der betaler sig. De to, der gør, er: hvor lang er fordoblingstiden, og hvad standser den? Enhver eksponentiel proces i virkeligheden løber ind i et råstof, en pris, en netledning. Jeg mener, at ordet bruges til at slippe uden om det sidste: man siger eksponentiel og lader kurven overtage argumentet.",
+   "Det er ikke pedanteri. Forskellen mellem en fordobling om året og en om måneden er forskellen mellem en plan og et chok, og den går tabt i ordet."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis eksponentiel i daglig tale bare er et intensitetsord på linje med enormt, altså at ingen hører en påstand om vækstform.",
+  "topics": [
+   "sprog",
+   "matematik",
+   "prognoser",
+   "retorik"
+  ]
+ },
+ "recommendations": [
+  {
+   "id": "rec-cosmos-agent-village-20260802",
+   "mode": "read",
+   "kind": "Feltrapport",
+   "status": "new",
+   "title": "We Gave a Village Personal AI Agents. Here's What Happened",
+   "creator": "Timour Kosters, Harry Law og Ivan Vendrov",
+   "provider": "Cosmos Institute",
+   "url": "https://blog.cosmos-institute.org/p/we-gave-a-village-personal-ai-agents",
+   "availability": "Frit tilgængelig uden login eller abonnement",
+   "commitment": "Ca. 25 minutters læsning",
+   "description": "Feltrapport fra Edge Esmeralda, hvor 239 beboere hver fik en personlig AI-agent i en måned. Agenterne forhandlede 147 sociale forbindelser ud af 505 hensigter og fordelte 10.000 dollar fra en fælles kasse over 35 forslag.",
+   "rationale": "Det er det eneste feltforsøg jeg har kunnet finde, hvor agenter rent faktisk forhandler og fordeler penge mellem mennesker. Hovedfundet går imod intuitionen: agenter, der hver især var godt afstemt efter deres ejer, tømte tilsammen den fælles kasse. Det er styring af multi-agent-systemer målt i praksis frem for i et paper.",
+   "topics": [
+    "agenter",
+    "ai",
+    "governance",
+    "eksperiment"
+   ],
+   "isFeatured": true,
+   "image": {
+    "url": "https://substackcdn.com/image/fetch/$s_!vZaR!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F32217192-9484-4bb4-b585-443488cf2b7f_1920x1047.jpeg",
+    "credit": "Kilde: Cosmos Institute",
+    "alt": "Deltagere i Edge Esmeralda-fællesskabet, hvor beboerne fik personlige AI-agenter.",
+    "sourceUrl": "https://blog.cosmos-institute.org/p/we-gave-a-village-personal-ai-agents"
+   }
+  },
+  {
+   "id": "rec-iea-electricity-midyear-20260802",
+   "mode": "read",
+   "kind": "Rapport",
+   "status": "new",
+   "title": "Electricity Mid-Year Update 2026",
+   "creator": "International Energy Agency",
+   "provider": "IEA",
+   "url": "https://www.iea.org/reports/electricity-mid-year-update-2026",
+   "availability": "Gratis download uden login. Licens CC BY 4.0, så tal og figurer må genbruges med kildeangivelse",
+   "commitment": "Ca. 45 min., sammenfatning ca. 10 min.",
+   "description": "IEA's halvårsopdatering med reviderede prognoser frem til 2027. Global elefterspørgsel ventes at stige 3,6 procent i 2026 og 3,8 procent i 2027, med datacentre som den primære vækstdriver i USA.",
+   "rationale": "Det er primærkilden bag alle de overskrifter om datacentre og strøm, og licensen gør at du selv må citere og genbruge tallene. Nyere end hovedrapporten fra februar og indregner energiforstyrrelsen fra Mellemøsten. Har man den, behøver man ikke tage andres referater for pålydende i en samtale om energiinvesteringer.",
+   "topics": [
+    "energi",
+    "datacentre",
+    "elmarked",
+    "prognoser"
+   ],
+   "isFeatured": false,
+   "image": {
+    "url": "https://iea.imgix.net/5d36f203-de0c-4a95-8a44-dccad36f3969/Photodepictinghigh-voltagetransmissiontowersandelectricalsubstationatsunset._shutterstock_2750775877.jpg?auto=compress%2Cformat&fit=min&h=600&q=80&w=1200",
+    "credit": "Kilde: IEA / Shutterstock",
+    "alt": "Højspændingsmaster og en transformerstation i solnedgang.",
+    "sourceUrl": "https://www.iea.org/reports/electricity-mid-year-update-2026"
+   }
+  },
+  {
+   "id": "rec-cwt-graham-dixon-20260802",
+   "mode": "listen",
+   "kind": "Samtale",
+   "status": "new",
+   "title": "Andrew Graham-Dixon on Vermeer, a Forgotten Sect, and Underrated Artists (Ep. 284)",
+   "creator": "Andrew Graham-Dixon og Tyler Cowen",
+   "provider": "Conversations with Tyler",
+   "url": "https://conversationswithtyler.com/episodes/andrew-graham-dixon/",
+   "availability": "Gratis, intet login. Fuldt transskript på siden",
+   "commitment": "Ca. 60 min.",
+   "description": "Samtale om Graham-Dixons nye bog om Vermeer: hvorfor maleren blev glemt og genfundet, hvordan en næsten uddød tolerancesekt satte aftryk på hans liv, og hvorfor Met ifølge ham har fejllæst sit eget Vermeer-værk.",
+   "rationale": "Kunsthistorie med en påstand, der kan vise sig forkert: at man ikke kan læse et maleri uden at vide, hvad maleren troede på. Det er idéhistorie forklædt som kunstsnak, og langt tættere skrevet end museumsformidling. Transskriptet gør at du kan skimme argumentet på ti minutter og først derefter beslutte, om timen er værd at bruge.",
+   "topics": [
+    "kunsthistorie",
+    "idéhistorie",
+    "litteratur",
+    "religion"
+   ],
+   "isFeatured": false,
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/1280px-1665_Girl_with_a_Pearl_Earring.jpg",
+    "credit": "Johannes Vermeer, Mauritshuis / Wikimedia Commons",
+    "alt": "Vermeers maleri Pigen med perleøreringen.",
+    "sourceUrl": "https://conversationswithtyler.com/episodes/andrew-graham-dixon/"
+   }
+  },
+  {
+   "id": "rec-louisiana-opie-nimes-20260802",
+   "mode": "experience",
+   "kind": "Udstilling",
+   "status": "available",
+   "title": "700 Nimes Road",
+   "creator": "Catherine Opie",
+   "provider": "Louisiana Museum of Modern Art",
+   "url": "https://louisiana.dk/en/exhibition/700-nimes-road/",
+   "availability": "Humlebæk, vises til og med 18. oktober 2026. Ca. 35 min. med tog fra København H",
+   "commitment": "Ca. 1 time på stedet",
+   "description": "50 fotografier af Elizabeth Taylors hjem i Beverly Hills, optaget mens hun stadig levede, men uden hende i billedet. Opie fotograferer smykkerne, skabene og de hverdagsagtige hjørner.",
+   "rationale": "Et portræt bygget udelukkende af genstande: berømmelse set som inventar frem for som ansigt. Det er et hårdere formelt greb end de fleste fotoudstillinger tør tage, og det fungerer som modstykke til Sophie Calle i samme hus. Åben til oktober, så den kan lægges på en fridag uden hastværk.",
+   "topics": [
+    "fotografi",
+    "kunst",
+    "portræt"
+   ],
+   "isFeatured": false,
+   "image": {
+    "url": "https://louisiana.dk/wp-content/uploads/2026/05/3684_02-huge_jpg.jpg",
+    "credit": "Catherine Opie / Louisiana Museum of Modern Art",
+    "alt": "Fotografi fra Catherine Opies serie 700 Nimes Road om Elizabeth Taylors hjem.",
+    "sourceUrl": "https://louisiana.dk/en/exhibition/700-nimes-road/"
+   }
+  }
+ ],
+ "quality": {
+  "verifiedClaims": 93,
+  "sourceDiversity": 95,
+  "outsideProfile": 84
+ }
+}
