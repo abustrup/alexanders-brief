@@ -1,0 +1,1059 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-2026-08-05",
+  "date": "2026-08-05",
+  "generatedAt": "2026-08-05T03:40:00Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief — onsdag 5. august 2026",
+  "dek": "Vattenfall tog begge danske havvindparker, og Ørsted fik ingenting. Anthropic lægger ti milliarder dollar i norsk strøm. Og Texas trykker på bremsen for datacentre.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-havvind-vattenfall-20260805",
+      "eventKey": "dk-offshore-wind-tender-2026-08",
+      "materialFacts": [
+        "Energistyrelsen tildelte 4. august 2026 begge havvindmølleparker i det genstartede udbud til Vattenfall Vindkraft A/S og to datterselskaber.",
+        "Vindende bud: 504 kr./MWh for Nordsøen Midt og 542 kr./MWh for Hesselø, garanteret i 20 år via en tosidet differencekontrakt.",
+        "Ørsted og Copenhagen Infrastructure Partners vandt ingenting. Nordsøen Midt fik to bud, Hesselø fem.",
+        "Parkerne skal være i drift ved udgangen af 2032 og løfter dansk havvindkapacitet med omkring 70 procent."
+      ],
+      "section": "Indland",
+      "headline": "Eksperter jubler over ny havvind: Staten slipper billigere end frygtet",
+      "primarySourceUrl": "https://ing.dk/artikel/eksperter-jubler-over-ny-havvind-staten-slipper-billigere-end-frygtet",
+      "subheadline": "Vattenfall vandt begge parker i det genstartede udbud. De to danske favoritter fik ingenting, og prisen blev lavere, end nogen havde regnet med.",
+      "body": [
+        "Energistyrelsen tildelte 4. august begge havvindmølleparker i det genstartede udbud til svenske Vattenfall Vindkraft A/S. Nordsøen Midt gik for 504 kroner per MWh, Hesselø for 542 kroner. Priserne er garanteret i 20 år efter idriftsættelse gennem en tosidet differencekontrakt, og begge parker skal stå færdige ved udgangen af 2032.",
+        "De to danske favoritter tabte. Hverken Ørsted eller Copenhagen Infrastructure Partners vandt noget. Tilsammen løfter parkerne dansk havvindkapacitet med cirka 70 procent og skal dække forbruget hos mindst 1,8 millioner husstande."
+      ],
+      "whyItMatters": "Det lovfæstede støtteloft er 55,2 milliarder kroner inklusive moms. Med de vindende bud vurderer eksperter i Ingeniøren, at den faktiske udbetaling kan ende tæt på nul.",
+      "analysis": "Det afgørende er ikke prisen, men hvem der satte den. Udbuddet i 2024 fik nul bud på seks parker. To år senere byder et svensk statsejet selskab under de danske. Danmark får kapaciteten, og en fremmed stat får ejerskabet af den.",
+      "counterpoint": "Nordsøen Midt fik kun to bud. En pris fastsat af to bydende er ikke uden videre en markedspris, og den tredje park, Nordsøen Syd, har først budfrist i oktober 2028.",
+      "image": {
+        "url": "https://ing.dk/sites/mi/files/styles/automatic_crop_16_9/public/2026-08/1d778042-9cb3-4dd9-b862-08dddfd3f2fb.png",
+        "credit": "Kilde: Ingeniøren",
+        "alt": "Havvindmøller i dansk farvand. Arkivfoto brugt af Ingeniøren til artiklen om udbuddet af Nordsøen Midt og Hesselø.",
+        "sourceUrl": "https://ing.dk/artikel/eksperter-jubler-over-ny-havvind-staten-slipper-billigere-end-frygtet"
+      },
+      "topics": [
+        "energi",
+        "havvind",
+        "udbud",
+        "danmark",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Energistyrelsen",
+        "Vattenfall",
+        "Ørsted",
+        "Copenhagen Infrastructure Partners",
+        "Nordsøen Midt",
+        "Hesselø"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 84,
+        "novelty": 82,
+        "sourceQuality": 90,
+        "personalRelevance": 78,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Energistyrelsen tildelte 4. august 2026 både Nordsøen Midt og Hesselø til Vattenfall Vindkraft A/S, med vindende bud på henholdsvis 504 og 542 kr./MWh garanteret i 20 år.",
+          "sourceUrls": [
+            "https://ens.dk/presse/danmark-faar-nye-havvindmoelleparker",
+            "https://ing.dk/artikel/eksperter-jubler-over-ny-havvind-staten-slipper-billigere-end-frygtet"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det lovfæstede støtteloft for udbuddet er 55,2 milliarder kroner inklusive moms, og eksperter citeret af Ingeniøren vurderer, at den faktiske statslige udbetaling kan blive tæt på nul.",
+          "sourceUrls": [
+            "https://ing.dk/artikel/eksperter-jubler-over-ny-havvind-staten-slipper-billigere-end-frygtet"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Eksperter jubler over ny havvind: Staten slipper billigere end frygtet",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/eksperter-jubler-over-ny-havvind-staten-slipper-billigere-end-frygtet",
+          "publishedAt": "2026-08-04T10:42:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Danmark får to nye havvindmølleparker",
+          "publisher": "Energistyrelsen",
+          "url": "https://ens.dk/presse/danmark-faar-nye-havvindmoelleparker",
+          "publishedAt": "2026-08-04T07:16:42.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-hormuz-genaabning-20260805",
+      "eventKey": "hormuz-reopening-talks-2026-08",
+      "materialFacts": [
+        "Marco Rubio sagde 4. august 2026, at der er gjort fremskridt i forhandlingerne om Hormuzstrædet, men at der ikke findes en endelig aftale.",
+        "Irans udenrigsministerium kalder samtalerne med Oman om en midlertidig sikker skibskorridor positive; åbne punkter er driftsmekanisme, afgifter og sikkerhedsprotokoller.",
+        "Brent for oktober-levering lukkede 4. august i 79,36 dollar per tønde, ned 5,3 procent og laveste lukning i tre uger.",
+        "Cirka 130 skibe passerede strædet dagligt før krigen; søndag 2. august passerede ni."
+      ],
+      "section": "Udland",
+      "headline": "US says deal on reopening Hormuz close as Iran, Oman hold ‘positive’ talks",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/4/us-says-deal-on-reopening-hormuz-close-as-iran-oman-hold-positive-talks",
+      "subheadline": "USA siger, at en genåbning af Hormuzstrædet er tæt på. Olieprisen er allerede faldet, som om den var underskrevet.",
+      "body": [
+        "USA's udenrigsminister Marco Rubio sagde 4. august, at forhandlingerne om at genåbne Hormuzstrædet er rykket, men at der ikke findes en endelig aftale. Finansminister Scott Bessent sagde, at en aftale kunne lande samme dag eller dagen efter. Iran kalder sine samtaler med Oman om en midlertidig sikker skibskorridor positive.",
+        "Markedet har taget forskud. Brent for oktober-levering lukkede 4. august i 79,36 dollar per tønde, ned 5,3 procent og laveste lukning i tre uger. Før krigen passerede omkring 130 skibe strædet dagligt. Søndag den 2. august passerede ni."
+      ],
+      "whyItMatters": "Prisen er faldet på en aftale, der endnu ikke findes. Driftsmekanisme, afgifter og sikkerhedsprotokoller er stadig åbne punkter.",
+      "analysis": "Mønsteret har holdt hele sommeren: markedet handler på diplomatiske signaler frem for på faktiske transitter. Ni skibe om dagen er ikke en genåbning, og afstanden fra fremskridt til underskrift er risikoen.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Strait_of_Hormuz_%28MODIS_2020-12-04%29.jpg",
+        "credit": "Foto: NASA/MODIS via Wikimedia Commons",
+        "alt": "Satellitbillede af Hormuzstrædet mellem Iran og Oman, det stræde forhandlingerne handler om.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg"
+      },
+      "topics": [
+        "geopolitik",
+        "energi",
+        "iran",
+        "markeder",
+        "diplomati"
+      ],
+      "entities": [
+        "Marco Rubio",
+        "Scott Bessent",
+        "Iran",
+        "Oman",
+        "Hormuzstrædet",
+        "Brent"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 80,
+        "novelty": 68,
+        "sourceQuality": 82,
+        "personalRelevance": 46,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Marco Rubio oplyste 4. august 2026, at der er gjort fremskridt i Hormuz-forhandlingerne, men at ingen endelig aftale findes, og Scott Bessent sagde, at en aftale kunne komme samme dag eller dagen efter.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/4/us-says-deal-on-reopening-hormuz-close-as-iran-oman-hold-positive-talks"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Brent for oktober-levering lukkede 4. august 2026 i 79,36 dollar per tønde, et fald på 5,3 procent og den laveste lukning i tre uger.",
+          "sourceUrls": [
+            "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US says deal on reopening Hormuz close as Iran, Oman hold ‘positive’ talks",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/4/us-says-deal-on-reopening-hormuz-close-as-iran-oman-hold-positive-talks",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Brent Settles At Three-Week Low",
+          "publisher": "Rigzone",
+          "url": "https://www.rigzone.com/news/wire/brent_settles_at_threeweek_low-04-aug-2026-184295-article/",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-anthropic-volta-norge-20260805",
+      "eventKey": "anthropic-volta-norway-compute-2026-08",
+      "materialFacts": [
+        "Anthropic (USA) har indgået en seksårig aftale til 10 milliarder dollar om cloud-compute med Volta, en AI-cloud-startup grundlagt i 2026.",
+        "Kapaciteten ligger i et datacenter på 133 MW i Norge, bygget sammen med kryptominefirmaet Bitdeer og med Nvidia Vera Rubin-systemer.",
+        "Volta er del af Nvidias Cloud Partner-program, og aftalen kommer oven på Anthropics nylige compute-aftaler med SpaceX og Amazon."
+      ],
+      "section": "Teknologi",
+      "headline": "Anthropic signs $10B deal with AI cloud startup Volta",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+      "subheadline": "Et amerikansk frontier-laboratorium binder ti milliarder dollar til norsk strøm i seks år. Køberen er et selskab, der ikke fandtes sidste år.",
+      "body": [
+        "Anthropic har indgået en seksårig aftale til 10 milliarder dollar med Volta om cloud-compute. Kapaciteten ligger i et datacenter på 133 MW i Norge, bygget sammen med kryptominefirmaet Bitdeer og kørende på Nvidias Vera Rubin-systemer. Volta blev grundlagt tidligere i 2026 og er del af Nvidias Cloud Partner-program.",
+        "Aftalen lægger sig oven på Anthropics compute-aftaler med SpaceX og Amazon. Ingen af de tre leverandører er en klassisk hyperscaler."
+      ],
+      "whyItMatters": "Norsk vandkraft er nu kontraktbundet til amerikansk modeltræning i seks år. Det er nordisk energi solgt som compute, ikke som strøm.",
+      "analysis": "Det interessante er køberens valg af sælger. Et laboratorium med adgang til alle tre hyperscalere binder i stedet et årti af kapacitet til et selskab uden historik og et kryptominefirma. Flaskehalsen er ikke længere cloud-kompetence, men strøm og tilladelser, og der taber de etablerede.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/06/Claude-photo.jpg",
+        "credit": "Kilde: TechCrunch",
+        "alt": "Anthropics Claude-logo. Arkivbillede brugt af TechCrunch til artiklen om aftalen med Volta.",
+        "sourceUrl": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
+      },
+      "topics": [
+        "ai",
+        "datacentre",
+        "compute",
+        "kapital",
+        "norden"
+      ],
+      "entities": [
+        "Anthropic",
+        "Volta",
+        "Bitdeer",
+        "Nvidia",
+        "Norge"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 86,
+        "novelty": 88,
+        "sourceQuality": 76,
+        "personalRelevance": 94,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Anthropic har indgået en seksårig aftale til 10 milliarder dollar med AI-cloud-startuppen Volta om kapacitet i et datacenter på 133 MW i Norge, bygget med Bitdeer og baseret på Nvidia Vera Rubin-systemer.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic signs $10B deal with AI cloud startup Volta",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+          "publishedAt": "2026-08-04T19:48:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-texas-datacenter-stop-20260805",
+      "eventKey": "texas-datacenter-audit-halt-2026-08",
+      "materialFacts": [
+        "Guvernør Greg Abbott har bestemt, at alle nye datacenterprojekter i Texas skal revideres af Public Utility Commission of Texas og netoperatøren ERCOT, før de kan gå videre.",
+        "ERCOT's tilslutningskø voksede fra 233 GW i januar 2026 til 474 GW i august 2026 — mere end fem gange delstatens samlede spidsbelastning. Omkring 90 procent af køen er datacentre.",
+        "Beslutningen kom efter en frivillig rundspørge, som de fleste operatører ikke svarede på. Netstabilitet, elpriser, vandforbrug samt støj- og lysforurening er de angivne grunde."
+      ],
+      "section": "Teknologi",
+      "headline": "Texas halts new data centers as governor calls for audits",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+      "subheadline": "Den mest tilladelsesvillige delstat i USA sætter nu alle nye datacentre på pause. Køen til nettet er fem gange delstatens eget spidsforbrug.",
+      "body": [
+        "Guvernør Greg Abbott har bestemt, at alle nye datacenterprojekter i Texas skal revideres af delstatens Public Utility Commission og netoperatøren ERCOT, før de kan gå videre. Beslutningen fulgte en frivillig rundspørge, som de fleste operatører ikke besvarede.",
+        "Tallet bag beslutningen er køen. ERCOT's tilslutningskø voksede fra 233 GW i januar 2026 til 474 GW i august — mere end fem gange delstatens spidsbelastning. Omkring 90 procent af projekterne er datacentre. Netstabilitet, elpriser, vandforbrug samt støj og lys er de angivne grunde."
+      ],
+      "whyItMatters": "Texas har været den mest tilladelsesvillige store jurisdiktion i USA for AI-udbygning. Det er den første hårde bremse dér.",
+      "analysis": "Læst sammen med Anthropics norske aftale peger dagens to nyheder samme vej: kapaciteten flytter derhen, hvor strøm og tilladelser er lettest. Texas var det sted. Nu er køen blevet et politisk problem frem for et salgsargument.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2205417979.jpg?w=1024",
+        "credit": "Kilde: TechCrunch",
+        "alt": "Datacenteranlæg. Arkivfoto brugt af TechCrunch til artiklen om Texas' stop for nye datacentre.",
+        "sourceUrl": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
+      },
+      "topics": [
+        "ai",
+        "datacentre",
+        "energi",
+        "regulering",
+        "usa"
+      ],
+      "entities": [
+        "Greg Abbott",
+        "ERCOT",
+        "Public Utility Commission of Texas",
+        "Texas"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 82,
+        "novelty": 86,
+        "sourceQuality": 74,
+        "personalRelevance": 88,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "Greg Abbott har pålagt Public Utility Commission of Texas og ERCOT at revidere alle nye datacenterprojekter, før de kan gå videre.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "ERCOT's tilslutningskø voksede fra 233 GW i januar 2026 til 474 GW i august 2026, og omkring 90 procent af de køende projekter er datacentre.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Texas halts new data centers as governor calls for audits",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/04/texas-halts-new-data-centers-as-governor-calls-for-audits/",
+          "publishedAt": "2026-08-04T15:42:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-npm-orm-claudecode-20260805",
+      "eventKey": "npm-keyv-shaihulud-worm-2026-08",
+      "materialFacts": [
+        "En selvspredende orm fra Shai-Hulud-familien kompromitterede npm-registret fra 4. august 2026 via GitHub-kontoen bag biblioteket keyv, der har omkring 127 millioner ugentlige downloads.",
+        "SafeDep har verificeret 353 forgiftede versioner fordelt på 79 pakker; bredere optællinger når 868 pakker og 1.381 versioner.",
+        "Nyt i denne variant: det kompromitterede repository indeholdt en .claude/settings.json og en .vscode/tasks.json, som skaber sekundære eksekveringsveje, når en udvikler åbner projektet i Claude Code eller VS Code.",
+        "En preinstall-hook henter legitimationsoplysninger fra npm, GitHub, AWS, GCP, Azure, Stripe, Kubernetes og Vault og genudgiver bagdørte versioner med stjålne publiceringstokens."
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+      "primarySourceUrl": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+      "subheadline": "Ormen stjæler nøgler som før. Det nye er, at den lægger konfigurationsfiler, som udløses, når udvikleren åbner projektet i sin AI-editor.",
+      "body": [
+        "En selvspredende orm fra Shai-Hulud-familien ramte npm-registret fra 4. august via GitHub-kontoen bag keyv, et bibliotek med omkring 127 millioner ugentlige downloads. SafeDep har verificeret 353 forgiftede versioner på tværs af 79 pakker.",
+        "Kernen er kendt: en preinstall-hook henter legitimationsoplysninger fra npm, GitHub, AWS, Azure, Stripe og Vault og genudgiver bagdørte versioner med stjålne tokens. Det nye er de to konfigurationsfiler, .claude/settings.json og .vscode/tasks.json."
+      ],
+      "whyItMatters": "De to filer udløses, når en udvikler blot åbner projektet i Claude Code eller VS Code. Begge værktøjers workspace trust-kontroller skal forhindre netop det.",
+      "analysis": "Forsyningskædeangreb har hidtil ramt byggeprocessen. Her flytter angrebsfladen ind i editoren, fordi AI-værktøjer læser projektets egne konfigurationsfiler som instruktioner. Den, der åbner et fremmed repository i en agent, er selv et led i kæden.",
+      "image": {
+        "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAb0f5sNdFs0uLbgh9_rBZ-SaCrUjv3c4mL7OLF7pFPxH5pusnFJyInc_7S-QqgMa0DsEm2fId6v2sWX7hJcaA0eHTHngKBXGOA3ysg7NYz1CyMAgwsrWnJ3FA1HGFkzglgj5pGsXeLWzXjCUhNGi5ecEsqIu2oOzz_koXsQAAC0EV5HkuAJGtAVvWotE/s1700-e365/npmnpm.jpg",
+        "credit": "Kilde: The Hacker News",
+        "alt": "Illustration af npm-logoet, brugt af The Hacker News til artiklen om keyv-ormen.",
+        "sourceUrl": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html"
+      },
+      "topics": [
+        "cybersikkerhed",
+        "ai",
+        "forsyningskæde",
+        "open source"
+      ],
+      "entities": [
+        "npm",
+        "keyv",
+        "Shai-Hulud",
+        "SafeDep",
+        "Claude Code",
+        "VS Code",
+        "GitHub"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 92,
+        "novelty": 88,
+        "sourceQuality": 78,
+        "personalRelevance": 90,
+        "contrast": 74
+      },
+      "claims": [
+        {
+          "text": "SafeDep har verificeret 353 forgiftede versioner på tværs af 79 npm-pakker efter kompromitteringen af GitHub-kontoen bag keyv.",
+          "sourceUrls": [
+            "https://safedep.io/keyv-npm-supply-chain-compromise/",
+            "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det kompromitterede repository indeholdt en .claude/settings.json og en .vscode/tasks.json, som skaber sekundære eksekveringsveje ved åbning af projektet i Claude Code eller VS Code.",
+          "sourceUrls": [
+            "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+          "publisher": "The Hacker News",
+          "url": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Keyv npm supply chain compromise",
+          "publisher": "SafeDep",
+          "url": "https://safedep.io/keyv-npm-supply-chain-compromise/",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-datatilsynet-copilot-20260805",
+      "eventKey": "dk-copilot-authority-access-case-2026-08",
+      "materialFacts": [
+        "Ingeniørens Radar har fået aktindsigt i Datatilsynets sagsakter om bruddet hos Sundhedsdatastyrelsen.",
+        "Akterne viser, at adgangen for Copilot blev slået til af en automatisk Microsoft-opdatering i myndighedens Outlook-miljø — ikke af en beslutning truffet af en medarbejder.",
+        "It-sikkerhedsspecialist i Datatilsynet Allan Frank siger, at sagen viser, at myndigheder ikke har reel driftskontrol over de AI-systemer, der allerede kører i deres egne miljøer."
+      ],
+      "section": "Indland",
+      "headline": "Data-sag viser AI-hovedbrud på tværs af offentlige myndigheder",
+      "primarySourceUrl": "https://ing.dk/artikel/data-sag-viser-ai-hovedbrud-paa-tvaers-af-offentlige-myndigheder",
+      "subheadline": "Aktindsigt viser, at det ikke var en medarbejder, der gav Copilot adgang til sundhedsdata. Det var en automatisk opdatering.",
+      "body": [
+        "Ingeniørens Radar har fået aktindsigt i Datatilsynets sagsakter om databruddet hos Sundhedsdatastyrelsen. Akterne viser, at Copilots adgang blev slået til af en automatisk Microsoft-opdatering i myndighedens Outlook-miljø. Ingen medarbejder traf beslutningen.",
+        "It-sikkerhedsspecialist i Datatilsynet Allan Frank siger, at myndigheder ikke har reel driftskontrol over de AI-systemer, der allerede kører i deres egne miljøer, og at følsomme sundhedsdata kan være eksponeret."
+      ],
+      "whyItMatters": "Sagen skifter karakter. Den var en enkelt myndigheds fejl. Nu er den et vilkår for alle myndigheder, der køber software som en løbende tjeneste.",
+      "analysis": "Digital suverænitet diskuteres normalt som et spørgsmål om, hvor data ligger. Her ligger data det rigtige sted, og kontrollen forsvinder alligevel, fordi funktionaliteten ændrer sig uden for kundens beslutningsvej. Det er en indkøbsjuridisk pointe, ikke en serverpointe.",
+      "image": {
+        "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2022-03/dsc0132.jpg?itok=HllQe7Wa",
+        "credit": "Kilde: Ingeniøren",
+        "alt": "Arkivfoto brugt af Ingeniøren til artiklen om Datatilsynets sag mod Sundhedsdatastyrelsen.",
+        "sourceUrl": "https://ing.dk/artikel/data-sag-viser-ai-hovedbrud-paa-tvaers-af-offentlige-myndigheder"
+      },
+      "topics": [
+        "ai",
+        "databeskyttelse",
+        "digital suverænitet",
+        "danmark",
+        "offentlig sektor"
+      ],
+      "entities": [
+        "Datatilsynet",
+        "Sundhedsdatastyrelsen",
+        "Microsoft",
+        "Copilot",
+        "Allan Frank",
+        "Ingeniøren"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 84,
+        "novelty": 80,
+        "sourceQuality": 84,
+        "personalRelevance": 88,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Datatilsynets sagsakter, som Ingeniørens Radar har fået aktindsigt i, viser, at Copilots adgang i Sundhedsdatastyrelsens Outlook-miljø blev aktiveret af en automatisk Microsoft-opdatering.",
+          "sourceUrls": [
+            "https://ing.dk/artikel/data-sag-viser-ai-hovedbrud-paa-tvaers-af-offentlige-myndigheder"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Data-sag viser AI-hovedbrud på tværs af offentlige myndigheder",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/data-sag-viser-ai-hovedbrud-paa-tvaers-af-offentlige-myndigheder",
+          "publishedAt": "2026-08-04T08:55:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-novo-nordisk-q2-20260805",
+      "eventKey": "novo-nordisk-q2-2026-guidance",
+      "materialFacts": [
+        "Novo Nordisk offentliggjorde 4. august 2026 et justeret driftsresultat på 33.389 millioner kroner for andet kvartal, en vækst på 11 procent i lokal valuta.",
+        "Justeret omsætning var 78.488 millioner kroner, plus 7 procent i lokal valuta. Rapporteret driftsresultat var 27.061 millioner kroner.",
+        "Forventningerne til 2026 blev hævet til 0 til minus 6 procent i justeret vækst mod tidligere minus 4 til minus 12 procent.",
+        "Wegovy-pillen passerede 265.000 ugentlige recepter i USA i ugen, der sluttede 17. juli 2026."
+      ],
+      "section": "Erhverv",
+      "headline": "Novo Nordisk øger indtjeningen og opjusterer forventningerne til 2026",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/novo-nordisk-oeger-indtjeningen-og-opjusterer-forventningerne-til-2026",
+      "subheadline": "Justeret driftsresultat på 33,4 milliarder kroner i andet kvartal, og et forventningsinterval, der er flyttet opad. Væksten er stadig negativ i toppen.",
+      "body": [
+        "Novo Nordisk offentliggjorde 4. august et justeret driftsresultat på 33.389 millioner kroner for andet kvartal, en fremgang på 11 procent i lokal valuta. Justeret omsætning var 78.488 millioner kroner, plus 7 procent. Rapporteret driftsresultat var 27.061 millioner kroner.",
+        "Selskabet hævede forventningerne til 2026 til mellem 0 og minus 6 procent i justeret vækst mod tidligere minus 4 til minus 12 procent. Wegovy-pillen passerede 265.000 ugentlige recepter i USA i ugen, der sluttede 17. juli."
+      ],
+      "whyItMatters": "Opjusteringen er den første efter halvandet år, hvor guidance kun er gået den anden vej. Intervallet er stadig negativt i den øvre ende.",
+      "analysis": "Forskellen mellem justeret og rapporteret resultat er over seks milliarder kroner i kvartalet. Det er der, historien ligger: tallet, der bærer opjusteringen, er ikke det tal, regnskabet aflægger. Recepttallet for pillen er den underliggende variabel at følge.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/rxndgnru/20250205-145942-l.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Novo Nordisks anlæg. Arkivfoto brugt af DR til artiklen om kvartalsregnskabet.",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/novo-nordisk-oeger-indtjeningen-og-opjusterer-forventningerne-til-2026"
+      },
+      "topics": [
+        "danmark",
+        "medicinal",
+        "glp-1",
+        "regnskab",
+        "erhverv"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Wegovy",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 74,
+        "novelty": 72,
+        "sourceQuality": 88,
+        "personalRelevance": 70,
+        "contrast": 56
+      },
+      "claims": [
+        {
+          "text": "Novo Nordisk rapporterede for andet kvartal 2026 et justeret driftsresultat på 33.389 millioner kroner og en justeret omsætning på 78.488 millioner kroner, og hævede forventningerne til 2026 til 0 til minus 6 procent i justeret vækst.",
+          "sourceUrls": [
+            "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916590",
+            "https://www.dr.dk/nyheder/indland/novo-nordisk-oeger-indtjeningen-og-opjusterer-forventningerne-til-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo Nordisk øger indtjeningen og opjusterer forventningerne til 2026",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/novo-nordisk-oeger-indtjeningen-og-opjusterer-forventningerne-til-2026",
+          "publishedAt": "2026-08-04T17:07:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Novo Nordisk reports adjusted operating profit of DKK 33,389 million for Q2 2026 and raises full-year outlook",
+          "publisher": "Novo Nordisk",
+          "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=916590",
+          "publishedAt": "2026-08-04T05:30:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-gilead-duty-innovate-20260805",
+      "eventKey": "california-supreme-court-gilead-duty-innovate-2026-08",
+      "materialFacts": [
+        "Californiens højesteret gav 3. august 2026 Gilead Sciences medhold med 6 mod 1 og ophævede en appelretsafgørelse fra to år tidligere.",
+        "Appelretsafgørelsen havde antydet en retlig pligt til at innovere — at en producent kunne holdes ansvarlig for ikke at have bragt et sikrere alternativ på markedet tidligere.",
+        "Mere end 24.000 patienter havde sagsøgt Gilead med påstand om nyreskader og knogletab fra en ældre hiv-medicin med TDF, mens selskabet allerede havde en sikrere efterfølger klar."
+      ],
+      "section": "Sundhed",
+      "headline": "California Supreme Court sides with Gilead in ‘duty’ to innovate case",
+      "primarySourceUrl": "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/",
+      "subheadline": "Kan en producent holdes ansvarlig for ikke at have udviklet det sikrere produkt hurtigere? Californiens højesteret svarer nej, seks mod en.",
+      "body": [
+        "Californiens højesteret gav 3. august Gilead Sciences medhold med 6 mod 1 og ophævede en afgørelse fra delstatens appelret to år tidligere. Mere end 24.000 patienter havde sagsøgt selskabet for nyreskader og knogletab fra en ældre hiv-medicin med stoffet TDF, mens Gilead efter deres opfattelse allerede havde en sikrere efterfølger klar.",
+        "Appelrettens afgørelse havde antydet en retlig pligt til at innovere: at en producent kunne holdes ansvarlig for rækkefølgen i sin egen udvikling. Den mulighed er nu lukket."
+      ],
+      "whyItMatters": "Californien er den største biotek-jurisdiktion i USA. Afgørelsen fjerner risikoen for, at rækkefølgen i en pipeline bliver et retligt spørgsmål.",
+      "analysis": "Begge sider har en reel pointe. En pligt til at innovere gør udviklingsrækkefølge til noget, en domstol bedømmer bagefter. Uden den er der ingen konsekvens ved at holde et sikrere produkt tilbage. Retten valgte den første risiko.",
+      "image": {
+        "url": "https://www.statnews.com/wp-content/uploads/2024/07/GettyImages-1221879709-645x645.jpg",
+        "credit": "Kilde: STAT",
+        "alt": "Gilead Sciences. Arkivfoto brugt af STAT til artiklen om afgørelsen ved Californiens højesteret.",
+        "sourceUrl": "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/"
+      },
+      "topics": [
+        "jura",
+        "medicinalindustri",
+        "innovation",
+        "usa"
+      ],
+      "entities": [
+        "Gilead Sciences",
+        "Californiens højesteret",
+        "TDF",
+        "Californien"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 66,
+        "novelty": 80,
+        "sourceQuality": 82,
+        "personalRelevance": 34,
+        "contrast": 86
+      },
+      "claims": [
+        {
+          "text": "Californiens højesteret afgjorde 3. august 2026 med 6 mod 1 til fordel for Gilead Sciences og ophævede en appelretsafgørelse, der havde åbnet for en retlig pligt til at innovere.",
+          "sourceUrls": [
+            "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "California Supreme Court sides with Gilead in ‘duty’ to innovate case",
+          "publisher": "STAT",
+          "url": "https://www.statnews.com/pharmalot/2026/08/03/california-supreme-court-sides-with-gilead-in-duty-to-innovate-case/",
+          "publishedAt": "2026-08-03T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-ebola-drc-1700-20260805",
+      "eventKey": "drc-bundibugyo-ebola-2026-08",
+      "materialFacts": [
+        "Dødstallet i Den Demokratiske Republik Congo står 4. august 2026 på 1.707 døde ud af 3.802 tilfælde.",
+        "Africa CDC's generaldirektør Jean Kaseya siger, at kontaktopsporingen ikke virker.",
+        "Omkring 60-70 procent af nye tilfælde opstår nu ved smitte i lokalsamfundet frem for blandt opsporede kontakter.",
+        "Ituri-provinsen står for næsten 90 procent af tilfældene. Udbruddet blev erklæret 15. maj 2026 og skyldes Bundibugyo-virus, som der hverken findes godkendt vaccine eller behandling mod."
+      ],
+      "section": "Global sundhed",
+      "headline": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
+      "primarySourceUrl": "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/",
+      "subheadline": "1.707 døde ud af 3.802 tilfælde. Africa CDC's generaldirektør siger nu rent ud, at kontaktopsporingen ikke virker.",
+      "body": [
+        "Dødstallet i Den Demokratiske Republik Congo står 4. august på 1.707 døde ud af 3.802 tilfælde. Africa CDC's generaldirektør Jean Kaseya siger, at kontaktopsporingen ikke virker. Omkring 60 til 70 procent af nye tilfælde opstår nu ved smitte i lokalsamfundet frem for blandt opsporede kontakter.",
+        "Ituri-provinsen står for næsten 90 procent af tilfældene, og smitte er bekræftet i seks provinser. Udbruddet blev erklæret 15. maj og skyldes Bundibugyo-virus, som der hverken findes godkendt vaccine eller behandling mod."
+      ],
+      "whyItMatters": "Det er nu det næststørste ebolaudbrud nogensinde efter epidemien i Vestafrika i 2014-2016. Smittekæden er i vid udstrækning usynlig for beredskabet.",
+      "analysis": "Forskellen på et udbrud, der lukkes ned, og et, der vokser, er hvor stor en del af de nye tilfælde der kommer fra en kendt kontakt. To ud af tre gør det ikke her. Det er tallet, der forklarer kurven.",
+      "image": {
+        "url": "https://www.statnews.com/wp-content/uploads/2026/08/AP26170587534280-645x645.jpg",
+        "credit": "Kilde: STAT/AP",
+        "alt": "Sundhedspersonale i beskyttelsesdragt under ebolaudbruddet i Den Demokratiske Republik Congo.",
+        "sourceUrl": "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/"
+      },
+      "topics": [
+        "epidemi",
+        "global sundhed",
+        "afrika",
+        "beredskab"
+      ],
+      "entities": [
+        "Den Demokratiske Republik Congo",
+        "Africa CDC",
+        "Jean Kaseya",
+        "WHO",
+        "Ituri",
+        "Uganda"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 84,
+        "decisionValue": 58,
+        "novelty": 72,
+        "sourceQuality": 86,
+        "personalRelevance": 30,
+        "contrast": 64
+      },
+      "claims": [
+        {
+          "text": "Dødstallet i ebolaudbruddet i Den Demokratiske Republik Congo stod 4. august 2026 på 1.707 døde ud af 3.802 tilfælde, og omkring 60-70 procent af nye tilfælde stammer fra smitte i lokalsamfundet frem for fra opsporede kontakter.",
+          "sourceUrls": [
+            "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/",
+            "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ebola kills 1,700 in eastern Congo as the fastest-growing outbreak surges",
+          "publisher": "STAT",
+          "url": "https://www.statnews.com/2026/08/04/ebola-1700-deaths-eastern-congo-fastest-growing-outbreak/",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola outbreak in Democratic Republic of the Congo and Uganda",
+          "publisher": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "publishedAt": "2026-08-04T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth",
+      "headline": "SpaceX doubles revenue on Anthropic and Google compute deals, Starlink growth",
+      "url": "https://techcrunch.com/2026/08/04/spacex-doubles-revenues-on-anthropic-and-google-compute-deals-starlink-growth/",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-04T20:36:00.000Z",
+      "summary": "SpaceX (USA) omsatte for 7,8 milliarder dollar i andet kvartal 2026, en fremgang på 92 procent og selskabets første regnskab efter børsnoteringen i juni. Cirka 2 milliarder kom fra den nye AI- og compute-division, 1,7 milliarder fra Starlink. Anlægsinvesteringerne i første halvår var 28 milliarder dollar mod 7 milliarder året før."
+    },
+    {
+      "text": "AMD Reports Second Quarter 2026 Financial Results",
+      "headline": "AMD Reports Second Quarter 2026 Financial Results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+      "publisher": "Advanced Micro Devices",
+      "section": "Halvledere",
+      "publishedAt": "2026-08-04T20:15:00.000Z",
+      "summary": "AMD (USA) omsatte for 11,536 milliarder dollar i andet kvartal 2026, en rekord og en fremgang på 50 procent. Datacentersegmentet mere end fordobledes til 6,7 milliarder dollar. Guidance for tredje kvartal er omkring 13 milliarder dollar."
+    },
+    {
+      "text": "Trump vil have 'operationel kontrol' med Grønland inden 2029",
+      "headline": "Trump vil have 'operationel kontrol' med Grønland inden 2029",
+      "url": "https://www.dr.dk/nyheder/indland/groenland/trump-vil-have-operationel-kontrol-med-groenland-inden-2029",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-08-03T09:24:00.000Z",
+      "summary": "I det amerikanske radioprogram Real America's Voice erklærede Donald Trump sig enig med værten i, at USA vil have operationel kontrol med Grønland, inden hans embedsperiode slutter i januar 2029. Hverken Trump eller værten præciserede, hvad operationel kontrol konkret betyder: ingen mekanisme, tidsplan eller retlig form blev nævnt."
+    },
+    {
+      "text": "Minister: Tegn på russisk hybridkrig under migrantstrøm til Ceuta",
+      "headline": "Minister: Tegn på russisk hybridkrig under migrantstrøm til Ceuta",
+      "url": "https://www.dr.dk/nyheder/seneste/minister-kobler-migrantvandrig-til-ceuta-med-russisk-hybridkrig",
+      "publisher": "DR",
+      "section": "Europa",
+      "publishedAt": "2026-08-04T22:05:00.000Z",
+      "summary": "Udlændinge- og integrationsminister Morten Bødskov oplyser, at EU-lande på et møde tirsdag fik forelagt omkring 6.000 opslag fra prorussiske konti på Telegram og cirka 2.000 artikler på prorussiske websites knyttet til migrantstrømmen til Ceuta. Bødskov ville ikke konkludere, om Rusland udnyttede situationen eller aktivt påvirkede den."
+    },
+    {
+      "text": "Europe wants ITAR-free weapons. US firms are trying to adjust.",
+      "headline": "Europe wants ITAR-free weapons. US firms are trying to adjust.",
+      "url": "https://breakingdefense.com/2026/08/europe-wants-itar-free-weapons-us-firms-are-trying-to-adjust/",
+      "publisher": "Breaking Defense",
+      "section": "Forsvar",
+      "publishedAt": "2026-08-04T13:47:00.000Z",
+      "summary": "Europæiske købere, herunder Frankrig, Litauen og Storbritannien samt Canada, kræver i stigende grad våben uden amerikanske ITAR-kontrollerede komponenter, og amerikanske leverandører omstrukturerer for at kunne sælge ind i den efterspørgsel."
+    },
+    {
+      "text": "Bending Spoons to buy Airtable for $1.28B",
+      "headline": "Bending Spoons to buy Airtable for $1.28B",
+      "url": "https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/",
+      "publisher": "TechCrunch",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-04T11:30:00.000Z",
+      "summary": "Italienske Bending Spoons køber amerikanske Airtable for 1,28 milliarder dollar kontant. Det er selskabets første opkøb efter børsnoteringen i juli 2026 til en værdi af 18 milliarder dollar."
+    },
+    {
+      "text": "Electronic Arts Goes Private as $55 Billion Buyout Closes",
+      "headline": "Electronic Arts Goes Private as $55 Billion Buyout Closes",
+      "url": "https://www.thewrap.com/industry-news/deals-ma/electronic-arts-goes-private-55-billion-buyout-closes/",
+      "publisher": "TheWrap",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Opkøbet af amerikanske Electronic Arts for 55 milliarder dollar blev gennemført 4. august 2026 og er historiens største gearede opkøb. Aktien er afnoteret fra Nasdaq."
+    },
+    {
+      "text": "Nine killed in escalating long-range strikes between Russia and Ukraine",
+      "headline": "Nine killed in escalating long-range strikes between Russia and Ukraine",
+      "url": "https://www.aljazeera.com/news/2026/8/4/nine-killed-in-escalating-long-range-strikes-between-russia-and-ukraine",
+      "publisher": "Al Jazeera",
+      "section": "Udland",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Mindst fem blev dræbt i Rusland og fire i Ukraine i et enkelt døgns udveksling af langtrækkende angreb."
+    },
+    {
+      "text": "South Korea's Lee calls heatwave national disaster, deaths rise to 19",
+      "headline": "South Korea's Lee calls heatwave national disaster, deaths rise to 19",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3362949/south-koreas-lee-calls-heatwave-national-disaster-deaths-rise-19",
+      "publisher": "South China Morning Post",
+      "section": "Udland",
+      "publishedAt": "2026-08-04T10:24:00.000Z",
+      "summary": "Sydkoreas præsident Lee Jae Myung erklærede 4. august hedebølgen for en national katastrofe og bad om forstærket nødberedskab. Dødstallet er steget til 19."
+    },
+    {
+      "text": "The Australian Museum returns remains of Rapa Nui ancestors to Easter Island",
+      "headline": "The Australian Museum returns remains of Rapa Nui ancestors to Easter Island",
+      "url": "https://www.theartnewspaper.com/2026/08/04/australian-museum-repatriates-rapa-nui-remains-easter-island",
+      "publisher": "The Art Newspaper",
+      "section": "Kultur",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Australian Museum i Sydney har repatrieret levn fra 17 kranier og en hårprøve fra Rapa Nui (Påskeøen, Chile). Museet købte dem i 1883, efter at en tysk flådeekspedition havde fjernet dem fra øen året før."
+    },
+    {
+      "text": "DNA on the Shroud of Turin reveals centuries of hidden history",
+      "headline": "DNA on the Shroud of Turin reveals centuries of hidden history",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260803080859.htm",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-04T00:00:00.000Z",
+      "summary": "Første PCR-frie metagenomiske sekventering af den officielle prøvesamling fra 1978 fra ligklædet i Torino, Italien, er offentliggjort i Scientific Reports. Studiet kortlægger DNA-signaturer aflejret gennem århundreders håndtering."
+    }
+  ],
+  "keyNumber": {
+    "label": "AMD's datacenteromsætning pr. kvartal",
+    "indicator": "amd-datacenter-revenue",
+    "value": "6,7",
+    "unit": "mia. USD",
+    "asOf": "2. kvartal 2026",
+    "caption": "Mere end fordoblet på et år, plus 107 procent. Første aflæsning i en serie, denne brief vil følge kvartal for kvartal ved siden af Azure og AWS.",
+    "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+    "sourceTitle": "AMD Reports Second Quarter 2026 Financial Results"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "afskrivningstiden",
+    "title": "Fodnoten der afgør, om AI-byggeriet gav overskud",
+    "thesis": "Den vigtigste antagelse i AI-udbygningen er ikke, hvor meget der bygges, men hvor mange år udstyret forudsættes at tjene penge — og det tal sætter selskaberne selv.",
+    "horizon": "Når årsrapporterne for 2026 og 2027 lander",
+    "body": [
+      "Et datacenter koster ikke det år, det bygges. Udgiften fordeles over den levetid, selskabet selv anslår for maskinerne. Går den fra fem til seks år, falder den årlige afskrivning med en sjettedel.",
+      "Amazon har flyttet tallet i begge retninger inden for tolv måneder: pr. 1. januar 2024 fra fem til seks år, pr. 1. januar 2025 for en delmængde af servere og netværksudstyr fra seks tilbage til fem. Begge står i samme tabel i årsrapporten for 2025. Det er ikke snyd, men en indrømmelse af, at ingen ved, hvor længe maskinerne tjener.",
+      "Min påstand: mindst én af de store amerikanske cloud-udbydere afkorter igen den oplyste levetid for servere i en årsrapport for 2026 eller 2027 — og det vil blive kaldt en regnskabsteknisk justering."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis Amazon, Microsoft, Alphabet og Meta alle fastholder eller forlænger den oplyste levetid for servere i årsrapporterne for 2026 og 2027. Tallet står i noten om materielle anlægsaktiver.",
+    "topics": [
+      "regnskab",
+      "afskrivning",
+      "kapital"
+    ],
+    "claims": [
+      {
+        "text": "Amazon ændrede pr. 1. januar 2024 den anslåede levetid for sine servere fra fem til seks år og pr. 1. januar 2025 den anslåede levetid for en delmængde af servere og netværksudstyr fra seks til fem år.",
+        "sourceUrls": [
+          "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Amazon.com, Inc. Annual Report on Form 10-K for the fiscal year ended December 31, 2025",
+        "publisher": "U.S. Securities and Exchange Commission",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm",
+        "publishedAt": "2026-02-06T00:00:00.000Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-20260805-80k-agi-timelines",
+      "tier": "featured",
+      "mode": "listen",
+      "kind": "Podcastafsnit",
+      "status": "new",
+      "title": "What the hell happened with AGI timelines in 2026?",
+      "creator": "Robert Wiblin",
+      "provider": "80,000 Hours",
+      "url": "https://80000hours.org/podcast/episodes/2026-agi-timelines/",
+      "availability": "Gratis på 80000hours.org og i podcast-apps, ingen betalingsmur, tilgængelig i Danmark",
+      "commitment": "Ca. 1 time",
+      "description": "Wiblin gennemgår syv udviklinger i 2026, der har rykket ekspertvurderinger mod kortere tidshorisonter til AGI — omsætningsvækst, METR-benchmarket, springet i Claude Mythos, AI i forskning, og de opgaver modellerne stadig fejler på.",
+      "rationale": "Afsnittet er udkommet i går og er den eneste gennemgang, jeg har fundet, der samler årets faktiske beviser og derefter siger, at de er mindre afgørende, end de ser ud. Det er den modsatte bevægelse af, hvad et år med rekordtal indbyder til, og de fire uafklarede spørgsmål han ender på, er de spørgsmål, en investeringsbeslutning faktisk hænger på.",
+      "topics": [
+        "ai",
+        "prognoser",
+        "agi",
+        "erkendelse"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://80000hours.org/wp-content/uploads/2026/08/CURRENT-YT-Thumbnails-3840-x-2160-px-2026-08-04T163931.117-scaled.jpg",
+        "credit": "Kilde: 80,000 Hours",
+        "alt": "Grafik til 80,000 Hours-afsnittet om AGI-tidshorisonter i 2026.",
+        "sourceUrl": "https://80000hours.org/podcast/episodes/2026-agi-timelines/"
+      }
+    },
+    {
+      "id": "rec-20260805-cwt-joel-mokyr",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Samtale",
+      "status": "available",
+      "title": "Joel Mokyr on Clans, Corporations, and a Culture of Growth (Ep. 282)",
+      "creator": "Tyler Cowen og Joel Mokyr",
+      "provider": "Conversations with Tyler",
+      "url": "https://conversationswithtyler.com/episodes/joel-mokyr/",
+      "availability": "Gratis på conversationswithtyler.com og i podcast-apps",
+      "commitment": "Ca. 1 time",
+      "note": "Nobelpristageren i økonomi argumenterer for, at vækst kom af kultur og konkurrerende institutioner frem for af statslig retning — den direkte modsætning til Mazzucatos missionsøkonomi.",
+      "topics": [
+        "økonomisk historie",
+        "vækst",
+        "institutioner",
+        "statskapital"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-chinatalk-cold-war",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "available",
+      "title": "Cold War Lessons for a Constrained America",
+      "creator": "Richard Gray",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/cold-war-lessons-for-a-constrained",
+      "availability": "Gratis på chinatalk.media",
+      "commitment": "Ca. 15 minutter",
+      "note": "Hvad en supermagt gjorde, sidst den ikke havde råd til alt på én gang — læst som en prioriteringsøvelse frem for som historie.",
+      "topics": [
+        "geopolitik",
+        "usa",
+        "strategi",
+        "historie"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-mistral-shieldstral",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Model",
+      "status": "new",
+      "title": "Introducing Shieldstral.",
+      "creator": "Mistral AI",
+      "provider": "Mistral AI",
+      "url": "https://mistral.ai/news/shieldstral/",
+      "availability": "Frit tilgængelig, udgivet 4. august 2026",
+      "commitment": "Ca. 20 minutter at afprøve",
+      "note": "En europæisk sikkerhedsklassifikator, man selv kan køre. Værd at prøve, hvis man vil vide, hvad et filter faktisk fanger, frem for at læse om det.",
+      "topics": [
+        "ai",
+        "open weights",
+        "sikkerhed",
+        "europa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-cursor-megakernel",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk artikel",
+      "status": "new",
+      "title": "Mixture-of-Kittens: our open-source MoE megakernel for NVL72s",
+      "creator": "Cursor",
+      "provider": "Cursor",
+      "url": "https://cursor.com/blog/mixture-of-kittens",
+      "availability": "Gratis på cursor.com, koden er open source",
+      "commitment": "Ca. 25 minutter",
+      "note": "Sjældent kig ned i det lag, hvor inferensomkostninger faktisk afgøres — nyttigt, hvis man vil forstå, hvorfor compute-priser bevæger sig, som de gør.",
+      "topics": [
+        "ai",
+        "compute",
+        "open source",
+        "infrastruktur"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-nature-bioengineering-europe",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Kommentar",
+      "status": "new",
+      "title": "Europe can become a bioengineering powerhouse with these three changes",
+      "provider": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02389-5",
+      "commitment": "Ca. 12 minutter",
+      "note": "Tre konkrete ændringer frem for endnu et opråb om europæisk sakken bagud — og de tre er alle politiske valg, ikke penge.",
+      "topics": [
+        "bioteknologi",
+        "europa",
+        "forskningspolitik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-nature-medical-ai-privacy",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "Privacy risks from medical AI tools are not shared equally",
+      "provider": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02288-9",
+      "commitment": "Ca. 10 minutter",
+      "note": "Privatlivsrisikoen ved medicinsk AI fordeler sig ikke jævnt, og skævheden følger de grupper, der i forvejen har mindst kontrol over egne data.",
+      "topics": [
+        "ai",
+        "sundhed",
+        "databeskyttelse",
+        "etik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-nvidia-alpamayo-2-super",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Åben model",
+      "status": "new",
+      "title": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
+      "creator": "NVIDIA",
+      "provider": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available/",
+      "availability": "Frigivet til kommerciel brug",
+      "commitment": "Ca. 15 minutter at læse, længere at køre",
+      "note": "En frontier-model til autonom kørsel givet fri til kommerciel brug — det er en strategisk beslutning lige så meget som en teknisk udgivelse.",
+      "topics": [
+        "ai",
+        "robotteknologi",
+        "open weights",
+        "autonom kørsel"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-nsf-industry-phd",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Reportage",
+      "status": "new",
+      "title": "NSF rolls out ‘industry PhD’ programme — joining a global trend",
+      "provider": "Nature",
+      "url": "https://www.nature.com/articles/d41586-026-02437-0",
+      "commitment": "Ca. 8 minutter",
+      "note": "Hvad sker der med grundforskning, når ph.d.-uddannelsen får en industriel indgang? Danmark har haft erhvervs-ph.d. i årtier, USA er først nu på vej.",
+      "topics": [
+        "forskningspolitik",
+        "uddannelse",
+        "usa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20260805-liquid-lfm25-2b",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Åben model",
+      "status": "new",
+      "title": "LFM2.5-2.6B: Deploy Agents Everywhere",
+      "creator": "Liquid AI",
+      "provider": "Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm2-5-2-6b",
+      "availability": "Frit tilgængelig, udgivet 4. august 2026",
+      "commitment": "Ca. 20 minutter at afprøve",
+      "note": "En agentmodel på 2,6 milliarder parametre, der kører lokalt. Den hurtigste måde at få en fornemmelse af, hvor lidt hardware en brugbar agent efterhånden kræver.",
+      "topics": [
+        "ai",
+        "open weights",
+        "on-device",
+        "agenter"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceDiversity": 84,
+    "primarySourceShare": 44,
+    "outsideProfileCoverage": 100,
+    "verificationDepth": 88
+  }
+}
