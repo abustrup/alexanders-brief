@@ -1,0 +1,1101 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-07",
+ "date": "2026-08-07",
+ "generatedAt": "2026-08-07T03:55:00Z",
+ "readingMinutes": 12,
+ "title": "Alexanders Brief — fredag 7. august 2026",
+ "dek": "USA lægger et prisgulv under polysilicium og rammer både chips og solceller. Anthropic sætter tal på, hvad selskabets egen sikkerhedsspærring kostede. Og Rheinmetalls rekordordrebog kunne ikke redde årets forventning.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "story-polysilicon-section232-20260807",
+   "eventKey": "us-polysilicon-section232-tariff-2026-08-06",
+   "section": "Handel",
+   "isLead": true,
+   "isOutsideProfile": false,
+   "headline": "Trump imposes 15% tariff on key chip material to counter China",
+   "primarySourceUrl": "https://www.bbc.com/news/articles/cdrvn686dljo",
+   "subheadline": "USA lægger told og mindstepriser på polysilicium, råstoffet til både siliciumskiver og solceller. Reglerne gælder fra 4. december og rammer også europæiske leverandører.",
+   "materialFacts": [
+    "Proklamation underskrevet 6. august 2026 med 15 pct. tillægstold på polysilicium og afledte produkter",
+    "Mindstepriser: 21 dollar pr. kilo polysilicium, 100 dollar pr. kilo for barrer og skiver, 0,22 dollar pr. watt for solceller, 0,38 dollar pr. watt for moduler",
+    "Virkning fra 4. december 2026 kl. 00.01 amerikansk østkysttid",
+    "Samlet told loftlagt på 15 pct. for EU-lande, Japan, Sydkorea, Taiwan, Schweiz og Liechtenstein, 10 pct. for Storbritannien",
+    "USA's andel af verdens produktionskapacitet er faldet fra 50 pct. i 2005 til under 2 pct. i 2024"
+   ],
+   "body": [
+    "Præsident Donald Trump underskrev torsdag den 6. august en proklamation, der pålægger importeret polysilicium 15 procent tillægstold fra 4. december. Polysilicium er råstoffet både til siliciumskiverne i halvledere og til solceller, og hjemlen er Section 232, den amerikanske paragraf om national sikkerhed.",
+    "Proklamationen fastsætter samtidig mindstepriser: 21 dollar pr. kilo polysilicium, 100 dollar pr. kilo for barrer og skiver, 0,22 dollar pr. watt for solceller og 0,38 for moduler. For EU-landene, Japan, Sydkorea og Taiwan er den samlede told loftlagt på 15 procent. Kinas ambassade i Washington siger ifølge BBC, at skridtet alvorligt forstyrrer handlen."
+   ],
+   "whyItMatters": "En mindstepris er et hårdere instrument end en told. Told hæver prisen forholdsmæssigt; en mindstepris fjerner muligheden for at underbyde, uanset hvor billigt man producerer, og rammer dermed præcis den kinesiske omkostningsfordel.",
+   "analysis": "Tallet i proklamationen forklarer valget. Er en industris andel af verdens kapacitet faldet fra 50 til under 2 procent, kan told alene ikke bygge den op igen: told kan udlignes af en prisnedsættelse, et gulv kan ikke. Det åbne spørgsmål er, hvor kinesisk overskudskapacitet søger hen fra december.",
+   "topics": [
+    "halvledere",
+    "eksportkontrol",
+    "handel",
+    "usa",
+    "kina",
+    "energi"
+   ],
+   "entities": [
+    "Donald Trump",
+    "Howard Lutnick",
+    "US Department of Commerce",
+    "Hemlock Semiconductor",
+    "Wacker Chemie",
+    "Kina"
+   ],
+   "scores": {
+    "importance": 84,
+    "decisionValue": 86,
+    "novelty": 90,
+    "sourceQuality": 92,
+    "personalRelevance": 88,
+    "contrast": 70
+   },
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/60dd/live/9a103bd0-91fb-11f1-952a-e58ebd1358f8.jpg",
+    "credit": "Foto: BBC News",
+    "alt": "Arkivfoto af en fabrikshal til produktion af polysilicium, råstoffet til siliciumskiver og solceller.",
+    "sourceUrl": "https://www.bbc.com/news/articles/cdrvn686dljo"
+   },
+   "primaryExcerpt": {
+    "quote": "The United States' share of global polysilicon production capacity has fallen from 50 percent in 2005 to less than 2 percent in 2024.",
+    "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/",
+    "sourceTitle": "Adjusting Imports of Polysilicon and its Derivatives into the United States"
+   },
+   "claims": [
+    {
+     "text": "Proklamationen af 6. august 2026 pålægger polysilicium og afledte produkter 15 pct. tillægstold med virkning fra 4. december 2026.",
+     "sourceUrls": [
+      "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/",
+      "https://www.bbc.com/news/articles/cdrvn686dljo"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Mindstepriserne er 21 dollar pr. kilo polysilicium, 100 dollar pr. kilo for barrer og skiver, 0,22 dollar pr. watt for solceller og 0,38 dollar pr. watt for moduler.",
+     "sourceUrls": [
+      "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "USA's andel af verdens produktionskapacitet for polysilicium er ifølge Det Hvide Hus faldet fra 50 pct. i 2005 til under 2 pct. i 2024.",
+     "sourceUrls": [
+      "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trump imposes 15% tariff on key chip material to counter China",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cdrvn686dljo",
+     "publishedAt": "2026-08-07T00:44:12Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Adjusting Imports of Polysilicon and its Derivatives into the United States",
+     "publisher": "The White House",
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/08/adjusting-imports-of-polysilicon-and-its-derivatives-into-the-united-states/",
+     "publishedAt": "2026-08-06T22:00:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "Fact Sheet: President Donald J. Trump Bolsters National Security and Strengthens U.S. Supply Chains by Imposing Tariffs on Polysilicon and its Derivatives",
+     "publisher": "The White House",
+     "url": "https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-polysilicon-and-its-derivatives/",
+     "publishedAt": "2026-08-06T22:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-anthropic-biology-safeguards-20260807",
+   "eventKey": "anthropic-fable5-biology-safeguards-2026-08-07",
+   "section": "AI",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Improving Fable 5's biology safeguards",
+   "primarySourceUrl": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+   "subheadline": "Anthropic har gentrænet den klassifikator, der afviser biologispørgsmål, og offentliggør tal for, hvor mange harmløse spørgsmål den hidtil har spærret.",
+   "materialFacts": [
+    "Sikkerhedsklassifikatoren bag Claude Fable 5 er omskrevet og gentrænet efter rådgivning fra interne og eksterne eksperter",
+    "Biologirelaterede fallbacks er faldet med omkring 85 pct. på tværs af produktfladerne",
+    "Det samlede antal fallbacks falder cirka 67 pct. på Claude.ai, 55 pct. i Cowork, 17 pct. i Claude Code og 7 pct. på platformen",
+    "Dobbeltanvendelige forespørgsler inden for virologi, toksikologi og molekyledesign afvises fortsat og sendes videre til Opus 5"
+   ],
+   "body": [
+    "Anthropic offentliggjorde fredag den 7. august, at selskabet har omskrevet og gentrænet den klassifikator, der afgør, hvornår Claude Fable 5 afviser at svare på biologi. Formålet er at fjerne falske positiver: harmløse spørgsmål, systemet har behandlet som farlige.",
+    "Biologirelaterede fallbacks, hvor en forespørgsel stilfærdigt sendes videre til en anden model, er ifølge selskabet faldet omkring 85 procent. Det samlede antal falder cirka 67 procent på Claude.ai, 55 i Cowork, 17 i Claude Code og 7 på platformen."
+   ],
+   "whyItMatters": "Det er første gang et førende AI-laboratorium sætter offentlige tal på, hvad dets egen spærring kostede i brugbar kapacitet.",
+   "analysis": "Afvejningen mellem sikkerhed og nytte har været ført som principdiskussion, fordi ingen offentliggjorde tal. Læg mærke til asymmetrien: kodefladen falder 17 procent, chatfladen 67. Spærringen ramte dem, der spurgte om deres egne prøvesvar.",
+   "topics": [
+    "ai",
+    "AI",
+    "biosikkerhed",
+    "regulering",
+    "sundhed"
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude Fable 5",
+    "Claude Code",
+    "Claude Cowork",
+    "Opus 5"
+   ],
+   "scores": {
+    "importance": 78,
+    "decisionValue": 76,
+    "novelty": 90,
+    "sourceQuality": 95,
+    "personalRelevance": 88,
+    "contrast": 76
+   },
+   "claims": [
+    {
+     "text": "Anthropic oplyser, at biologirelaterede fallbacks er faldet med omkring 85 pct. på tværs af produktfladerne efter gentræning af sikkerhedsklassifikatoren.",
+     "sourceUrls": [
+      "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Det samlede antal fallbacks falder ifølge Anthropic med cirka 67 pct. på Claude.ai, 55 pct. i Cowork, 17 pct. i Claude Code og 7 pct. på platformen.",
+     "sourceUrls": [
+      "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Dobbeltanvendelige forespørgsler inden for virologi, toksikologi og molekyledesign afvises fortsat af Fable 5 og sendes videre til Opus 5.",
+     "sourceUrls": [
+      "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Improving Fable 5's biology safeguards",
+     "publisher": "Anthropic",
+     "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+     "publishedAt": "2026-08-07T01:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-weathernext-cyclones-20260807",
+   "eventKey": "deepmind-weathernext-cyclones-2026-08-06",
+   "section": "Videnskab",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "primarySourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "subheadline": "Google DeepMind har fået en model til cyklonvarsling optaget i Nature og lagt vægtene frit ud. Den kørte allerede operationelt under orkansæsonen 2025.",
+   "materialFacts": [
+    "Fagfællebedømt artikel i Nature offentliggjort 6. august 2026",
+    "Én model forudsiger både en cyklons bane, styrke og vindstruktur",
+    "Op mod 24 timers ekstra varsel mod førende operationelle modeller målt på cykloner fra 2023-2025",
+    "1.000 ensemblemedlemmer beregnes på under et minut på én TPU ved 28 gange 28 kilometers opløsning",
+    "Vægte og kode er lagt frit ud i tre varianter, hvoraf den mindste kan køre i en gratis Colab-notesbog"
+   ],
+   "body": [
+    "Google DeepMind offentliggjorde torsdag den 6. august en fagfællebedømt artikel i Nature om WeatherNext, en model der forudsiger tropiske cykloners bane, styrke og vindstruktur i ét system. Ifølge DeepMind giver den op mod et døgns ekstra varsel mod de førende operationelle modeller.",
+    "Modellen arbejder ved 28 gange 28 kilometers opløsning, langt grovere end fysikmodellerne, og beregner 1.000 mulige forløb på under et minut på én TPU. Vægte og kode er lagt frit ud."
+   ],
+   "whyItMatters": "Et døgns ekstra varsel er den margen, der afgør, om en evakuering kan gennemføres i dagslys — og fordi vægtene ligger frit, kan vejrtjenester uden supercomputere køre modellen selv.",
+   "analysis": "Argumentet om, at frontlaboratorier kun udgiver lukkede modeller, holder ikke her: den dyre del, træningen, er betalt af DeepMind, og resultatet er givet væk. Grovere opløsning slår finere fysik, fordi modellen har lært statistikken.",
+   "topics": [
+    "ai",
+    "videnskab",
+    "open source",
+    "klima",
+    "forskning"
+   ],
+   "entities": [
+    "Google DeepMind",
+    "Nature",
+    "NOAA National Hurricane Center",
+    "UK Met Office",
+    "Melissa"
+   ],
+   "scores": {
+    "importance": 82,
+    "decisionValue": 62,
+    "novelty": 88,
+    "sourceQuality": 95,
+    "personalRelevance": 70,
+    "contrast": 80
+   },
+   "image": {
+    "url": "https://lh3.googleusercontent.com/Mj8GyJnsjROScr1hYl7PL_QCAaLGukliPCTMUlpKiQtZuVkmh2ouydYh80ibejg9vWgKkg2dYPx2jCJOOohKid5P-dLzwvIyB4-fZjWXYIx0ImZd=w1200-h630-n-nu-rw",
+    "credit": "Kilde: Google DeepMind",
+    "alt": "Visualisering fra Google DeepMind af en tropisk cyklons forudsagte bane og vindstruktur.",
+    "sourceUrl": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+   },
+   "claims": [
+    {
+     "text": "DeepMinds WeatherNext-artikel om cyklonvarsling blev offentliggjort i Nature den 6. august 2026.",
+     "sourceUrls": [
+      "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+      "https://www.nature.com/articles/s41586-026-10953-2"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Modellen giver ifølge DeepMind op mod 24 timers ekstra varsel mod førende operationelle modeller målt på cykloner fra 2023 til 2025.",
+     "sourceUrls": [
+      "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Vægte og kode er offentliggjort frit i tre varianter, og et ensemble på 1.000 forløb beregnes på under et minut på én TPU.",
+     "sourceUrls": [
+      "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+     "publisher": "Google DeepMind",
+     "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+     "publishedAt": "2026-08-06T15:00:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "Skilful joint probabilistic prediction of tropical cyclone track, intensity and size",
+     "publisher": "Nature",
+     "url": "https://www.nature.com/articles/s41586-026-10953-2",
+     "publishedAt": "2026-08-06T15:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-rheinmetall-h1-guidance-20260807",
+   "eventKey": "rheinmetall-h1-2026-f126-2026-08-06",
+   "section": "Forsvar",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Rheinmetall scales down 2026 sales outlook on scrapped frigate program",
+   "primarySourceUrl": "https://www.defensenews.com/global/europe/2026/08/06/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-program/",
+   "subheadline": "Ordrebogen i Europas største forsvarskoncern voksede til 80,5 mia. euro. Alligevel sænkede selskabet årets omsætningsforventning, fordi Tyskland aflyste ét fregatprogram.",
+   "materialFacts": [
+    "Omsætning i første halvår 2026 på 5,2 mia. euro, en vækst på 39 pct.",
+    "Driftsresultat på 786 mio. euro, op 74 pct., og en driftsmargin på 15,0 pct.",
+    "Ordrebeholdning på 80,5 mia. euro mod 56,0 mia. euro året før",
+    "Omsætningsforventningen for 2026 sænket med op til 300 mio. euro til 13,7-14,2 mia. euro efter Tysklands aflysning af F126-fregatprogrammet",
+    "Ambitionen for ordrebeholdningen nedjusteret til over 100 mia. euro fra tidligere omkring 135 mia. euro"
+   ],
+   "body": [
+    "Rheinmetall aflagde torsdag den 6. august halvårsregnskab. Omsætningen steg 39 procent til 5,2 mia. euro, driftsresultatet 74 procent til 786 mio. euro, og ordrebeholdningen voksede til 80,5 mia. euro mod 56,0 mia. året før.",
+    "Samtidig sænkede selskabet forventningen til årets omsætning med op til 300 mio. euro til 13,7-14,2 mia. euro. Årsagen er, at det tyske forsvarsministerium ved udgangen af juni aflyste fregatprogrammet F126 og bestilte mindre fregatter hos en konkurrent."
+   ],
+   "whyItMatters": "Den europæiske oprustning er reel på koncernniveau, men ikke kontraktsikker. Én national aflysning flyttede forventningen hos kontinentets største forsvarsleverandør.",
+   "analysis": "Det er første håndfaste tegn på, at den bindende begrænsning i sektoren skifter fra efterspørgsel til politisk gennemførelse. En ordrebog på 80,5 mia. euro er ikke penge, men hensigter, der kan trækkes tilbage af den regering, som skrev dem.",
+   "topics": [
+    "forsvar",
+    "europa",
+    "regnskab",
+    "industri"
+   ],
+   "entities": [
+    "Rheinmetall",
+    "F126",
+    "Tysklands forsvarsministerium",
+    "TKMS",
+    "Tyskland"
+   ],
+   "scores": {
+    "importance": 74,
+    "decisionValue": 84,
+    "novelty": 74,
+    "sourceQuality": 90,
+    "personalRelevance": 88,
+    "contrast": 78
+   },
+   "image": {
+    "url": "https://www.armytimes.com/resizer/v2/3CRWO5677FFCRFEHH67V4WINTI.JPG?width=1200&auth=f4c6215e325f113cd475fe10167d8382670eb6eb4c0d87c18e59f5248a2dc79b",
+    "credit": "Foto: Defense News",
+    "alt": "Arkivfoto af militært materiel fra Rheinmetall, Europas største forsvarskoncern.",
+    "sourceUrl": "https://www.defensenews.com/global/europe/2026/08/06/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-program/"
+   },
+   "claims": [
+    {
+     "text": "Rheinmetalls ordrebeholdning steg til 80,5 mia. euro mod 56,0 mia. euro året før, mens omsætningen i første halvår 2026 var 5,2 mia. euro med en driftsmargin på 15,0 pct.",
+     "sourceUrls": [
+      "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Selskabet sænkede omsætningsforventningen for 2026 til 13,7-14,2 mia. euro efter aflysningen af F126-fregatprogrammet, med en negativ effekt på op til 300 mio. euro.",
+     "sourceUrls": [
+      "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1",
+      "https://www.defensenews.com/global/europe/2026/08/06/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-program/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Rheinmetall scales down 2026 sales outlook on scrapped frigate program",
+     "publisher": "Defense News",
+     "url": "https://www.defensenews.com/global/europe/2026/08/06/rheinmetall-scales-down-2026-sales-outlook-on-scrapped-frigate-program/",
+     "publishedAt": "2026-08-06T14:50:26Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Financial report for first half of 2026 – Strong sales growth and record profitability",
+     "publisher": "Rheinmetall AG",
+     "url": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1",
+     "publishedAt": "2026-08-06T06:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-meta-new-mexico-20260807",
+   "eventKey": "meta-new-mexico-child-safety-judgment-2026-08",
+   "section": "Regulering",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "New Mexico court orders Meta to pay $567m over harm to youths",
+   "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths",
+   "subheadline": "Retten fandt Facebook og Instagram i strid med delstatens forbrugerlov og pålagde Meta fem års tilsyn med produktets indretning. Meta anker.",
+   "materialFacts": [
+    "Dommer Bryan Biedscheid pålagde Meta at betale 567 mio. dollar, heraf 420 mio. dollar til behandlingstilbud for unge",
+    "Resten går til oplysning, forebyggelse og screening over fem år",
+    "Beløbet kommer oven i 375 mio. dollar i erstatning, som en jury tilkendte i marts 2026, i alt 942 mio. dollar",
+    "Retten fandt, at Meta overtrådte New Mexicos forbrugerbeskyttelseslov og at platformene udgjorde en offentlig gene, public nuisance",
+    "Meta skal indføre oplysningsskærme om beskyttelsesfunktioner og underkaste sig fem års tilsyn med efterlevelsen; selskabet anker"
+   ],
+   "body": [
+    "En domstol i den amerikanske delstat New Mexico pålagde sent torsdag Meta at betale 567 mio. dollar. Dommer Bryan Biedscheid øremærkede 420 mio. dollar til behandlingstilbud til unge og resten til forebyggelse og screening over fem år. Beløbet kommer oven i 375 mio. dollar tilkendt af en jury i marts.",
+    "Retten fandt, at Meta overtrådte delstatens forbrugerbeskyttelseslov ved at fremstille Facebook og Instagram som sikre for unge, og at platformene udgjorde en offentlig gene. Afgørelsen pålægger fem års tilsyn. Meta anker."
+   ],
+   "whyItMatters": "Doktrinen om offentlig gene er den, der åbnede tobaks- og opioidsagerne. Anvendt på et socialt medie flytter den spørgsmålet til produktansvar.",
+   "analysis": "Bøden er lille målt mod Metas overskud. Det bindende er de fem års tilsyn med indretningen: en domstol er blevet medbestemmende om, hvordan produktet må virke. Det er en anden vej end den europæiske, hvor tilsynet er en myndighed.",
+   "topics": [
+    "regulering",
+    "usa",
+    "psykologi",
+    "børn",
+    "platforme"
+   ],
+   "entities": [
+    "Meta",
+    "Instagram",
+    "Facebook",
+    "Bryan Biedscheid",
+    "Raúl Torrez",
+    "New Mexico"
+   ],
+   "scores": {
+    "importance": 80,
+    "decisionValue": 56,
+    "novelty": 84,
+    "sourceQuality": 84,
+    "personalRelevance": 52,
+    "contrast": 78
+   },
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-07-27T214346Z_1671520543_RC2VPGAFX6W6_RTRMADP_3_META-TRIAL-TENNESSEE-1786067397.jpg?resize=1920%2C1440",
+    "credit": "Foto: Reuters via Al Jazeera",
+    "alt": "Arkivfoto fra en retssag mod Meta i USA.",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths"
+   },
+   "claims": [
+    {
+     "text": "Dommer Bryan Biedscheid pålagde Meta at betale 567 mio. dollar, heraf 420 mio. dollar til behandlingstilbud til unge, oven i 375 mio. dollar tilkendt af en jury i marts 2026.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths",
+      "https://www.pbs.org/newshour/nation/new-mexico-court-orders-meta-to-pay-567-million-over-mental-health-harms-to-kids-online"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Retten fandt, at Meta overtrådte New Mexicos forbrugerbeskyttelseslov, og pålagde selskabet fem års tilsyn med efterlevelsen; Meta anker.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths",
+      "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "New Mexico court orders Meta to pay $567m over harm to youths",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/8/7/new-mexico-court-orders-meta-to-pay-567m-over-harm-to-youths",
+     "publishedAt": "2026-08-07T01:51:03Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "New Mexico court orders Meta to pay $567 million over mental health harms to kids online",
+     "publisher": "PBS News",
+     "url": "https://www.pbs.org/newshour/nation/new-mexico-court-orders-meta-to-pay-567-million-over-mental-health-harms-to-kids-online",
+     "publishedAt": "2026-08-07T01:18:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Meta ordered to pay $942m in New Mexico child safety case",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo",
+     "publishedAt": "2026-08-07T02:00:00Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-hvidovre-ransomware-20260807",
+   "eventKey": "dk-hvidovre-hospital-ransomware-2026-08",
+   "section": "Danmark",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Hvidovre Hospital ramt af hackerangreb",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/hvidovre-hospital-ramt-af-hackerangreb",
+   "subheadline": "Et ransomwareangreb har ramt hospitalets bygningsnetværk, som styrer de tekniske installationer. Region Hovedstaden siger, at patientbehandlingen ikke er påvirket.",
+   "materialFacts": [
+    "Hvidovre Hospital er ramt af et ransomwareangreb på et lokalt bygningsnetværk",
+    "Netværket bruges til at styre og overvåge hospitalets tekniske installationer, ikke til klinisk drift",
+    "Region Hovedstadens Center for It og Medicoteknologi oplyser, at patientbehandlingen ikke er påvirket",
+    "Regionen vil ikke oplyse, hvem der står bag, og kan ikke sætte en dato for fuld genetablering"
+   ],
+   "body": [
+    "Hvidovre Hospital er ramt af et ransomwareangreb. Det bekræfter Region Hovedstadens Center for It og Medicoteknologi over for DR. Angrebet ramte et lokalt bygningsnetværk, det system der styrer hospitalets tekniske installationer, og ikke de kliniske systemer.",
+    "Regionen oplyser, at patientbehandlingen ikke er påvirket, men vil hverken sætte en dato på genetableringen eller oplyse, hvem der står bag."
+   ],
+   "whyItMatters": "Angrebet ramte driftsteknikken, ikke journalerne. Det er den angrebsflade, danske myndigheder har advaret om længst og sikret mindst: ventilation, køl, adgangskontrol og alarmer i en bygning, hvor svigt har fysiske følger.",
+   "analysis": "Det er den anden hændelse i dansk sundheds-it på en uge efter sagen om Sundhedsdatastyrelsens data. Teknisk har de intet med hinanden at gøre, men de tegner samme billede: sikkerhedsarbejdet har fulgt persondata, fordi det er der, bøderne ligger.",
+   "topics": [
+    "cybersikkerhed",
+    "danmark",
+    "sundhed",
+    "kritisk infrastruktur"
+   ],
+   "entities": [
+    "Hvidovre Hospital",
+    "Region Hovedstaden",
+    "Center for It og Medicoteknologi",
+    "Computerworld"
+   ],
+   "scores": {
+    "importance": 70,
+    "decisionValue": 60,
+    "novelty": 76,
+    "sourceQuality": 76,
+    "personalRelevance": 72,
+    "contrast": 56
+   },
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/oujpen2a/317.png?im=AspectCrop%3D%28700%2C394%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28700%2C394%29",
+    "credit": "Foto: DR Nyheder",
+    "alt": "Hvidovre Hospital.",
+    "sourceUrl": "https://www.dr.dk/nyheder/seneste/hvidovre-hospital-ramt-af-hackerangreb"
+   },
+   "claims": [
+    {
+     "text": "Region Hovedstadens Center for It og Medicoteknologi bekræfter et ransomwareangreb på et bygningsnetværk på Hvidovre Hospital og oplyser, at patientbehandlingen ikke er påvirket.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/seneste/hvidovre-hospital-ramt-af-hackerangreb",
+      "https://www.computerworld.dk/art/296413/ransomware-lammer-bygningsnetvaerk-paa-hvidovre-hospital-vi-arbejder-paa-hoejtryk"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Hvidovre Hospital ramt af hackerangreb",
+     "publisher": "DR Nyheder",
+     "url": "https://www.dr.dk/nyheder/seneste/hvidovre-hospital-ramt-af-hackerangreb",
+     "publishedAt": "2026-08-06T12:24:15Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Ransomware lammer bygningsnetværk på Hvidovre Hospital: \"Vi arbejder på højtryk\"",
+     "publisher": "Computerworld",
+     "url": "https://www.computerworld.dk/art/296413/ransomware-lammer-bygningsnetvaerk-paa-hvidovre-hospital-vi-arbejder-paa-hoejtryk",
+     "publishedAt": "2026-08-06T10:00:00Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-ukraine-refineries-20260807",
+   "eventKey": "ukraine-deep-strikes-refineries-2026-08-06",
+   "section": "Sikkerhed",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Ukraine hits two oil refineries deep in Russian territory",
+   "primarySourceUrl": "https://www.bbc.com/news/articles/cwymv212xrxo",
+   "subheadline": "Et raffinaderi 1.300 kilometer inde i Rusland blev ramt samme nat som skyggeflådens skibe i Sortehavet. Russiske angreb dræbte mindst 11 i Ukraine.",
+   "materialFacts": [
+    "Zelenskyj oplyser, at Ukraine ramte Bashneft-Novoil-raffinaderiet i Basjkortostan, cirka 1.300 km fra grænsen, og Slavneft-Yanos i Jaroslavl, knap 700 km væk",
+    "Guvernøren i Jaroslavl, Mikhail Evrajev, oplyser, at 93 droner blev skudt ned over regionen, at nedfaldne dele ramte raffinaderiets tanke, og at fire personer kom til skade",
+    "BBC Verify har bekræftet billeder og video af mindst fire brande på Slavneft-Yanos-anlægget",
+    "Ukraine oplyser samtidig at have ramt to russiske patruljebåde og skyggeflådefartøjer i Sortehavet",
+    "I samme døgn dræbte russiske angreb mindst 11 mennesker i Ukraine, og Kherson meldte om totalt strømsvigt"
+   ],
+   "body": [
+    "Ukraine ramte natten til torsdag to russiske olieraffinaderier langt inde i landet, oplyser præsident Volodymyr Zelenskyj. Bashneft-Novoil i Basjkortostan ligger cirka 1.300 kilometer fra grænsen, Slavneft-Yanos i Jaroslavl knap 700. Guvernøren dér oplyser, at 93 droner blev skudt ned.",
+    "Samme nat oplyser Ukraine at have ramt to russiske patruljebåde i Sortehavet."
+   ],
+   "whyItMatters": "Raffinaderier og tankskibe er der, hvor russisk olie bliver til russiske penge. Ukraine rammer nu begge led i samme døgn og på afstande, der lægger det europæiske Rusland inden for dronernes rækkevidde.",
+   "analysis": "Det er en billig måde at gøre noget dyrt: dronen koster en brøkdel af det anlæg, den sætter ud af drift.",
+   "counterpoint": "Samme døgn dræbte russiske angreb mindst 11 mennesker i Ukraine, og Kherson meldte om totalt strømsvigt. Zelenskyj har oplyst, at leverancerne af missiler til luftforsvaret er faldet til en tredjedel siden 2025.",
+   "topics": [
+    "ukraine",
+    "rusland",
+    "sikkerhed",
+    "energi",
+    "droner"
+   ],
+   "entities": [
+    "Volodymyr Zelenskyj",
+    "Bashneft-Novoil",
+    "Slavneft-Yanos",
+    "Mikhail Evrajev",
+    "BBC Verify",
+    "Kherson"
+   ],
+   "scores": {
+    "importance": 86,
+    "decisionValue": 62,
+    "novelty": 76,
+    "sourceQuality": 90,
+    "personalRelevance": 50,
+    "contrast": 66
+   },
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/4e4c/live/d37c5f10-9184-11f1-9587-294e25c71c14.png",
+    "credit": "Foto: BBC News",
+    "alt": "Kort og billede fra BBC af de ramte russiske raffinaderier Bashneft-Novoil og Slavneft-Yanos.",
+    "sourceUrl": "https://www.bbc.com/news/articles/cwymv212xrxo"
+   },
+   "claims": [
+    {
+     "text": "Ukraine ramte ifølge Zelenskyj Bashneft-Novoil-raffinaderiet cirka 1.300 km inde i Rusland og Slavneft-Yanos i Jaroslavl; BBC Verify bekræftede mindst fire brande på det sidstnævnte anlæg.",
+     "sourceUrls": [
+      "https://www.bbc.com/news/articles/cwymv212xrxo"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Guvernøren i Jaroslavl oplyser, at 93 droner blev skudt ned over regionen, og at fire personer kom til skade.",
+     "sourceUrls": [
+      "https://www.bbc.com/news/articles/cwymv212xrxo"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Zelenskyj har oplyst, at leverancerne af missiler til Ukraines luftforsvar er faldet til en tredjedel siden 2025.",
+     "sourceUrls": [
+      "https://www.pravda.com.ua/eng/news/2026/08/05/8047371/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Ukraine hits two oil refineries deep in Russian territory",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/articles/cwymv212xrxo",
+     "publishedAt": "2026-08-06T11:35:40Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Zelenskyy: Air defence missile supplies to Ukraine have fallen threefold since 2025",
+     "publisher": "Ukrainska Pravda",
+     "url": "https://www.pravda.com.ua/eng/news/2026/08/05/8047371/",
+     "publishedAt": "2026-08-05T10:26:00Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-faecal-transplant-allergy-20260807",
+   "eventKey": "faecal-transplant-peanut-allergy-trial-2026-08-05",
+   "section": "Sundhed",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "First poo transplant to treat food allergy in people has ‘exciting’ results",
+   "primarySourceUrl": "https://www.nature.com/articles/d41586-026-02440-5",
+   "subheadline": "Femten mennesker med svær jordnøddeallergi fik tarmbakterier fra raske donorer i kapselform. Fire måneder efter tålte fem af dem omkring to en halv jordnødde.",
+   "materialFacts": [
+    "Forsøg med 15 personer med svær jordnøddeallergi, offentliggjort i Science Translational Medicine 5. august 2026",
+    "Første holdepunkt for at fækal mikrobiotatransplantation kan behandle en fødevareallergi i mennesker og ikke kun i mus",
+    "Før forsøget kunne deltagerne ikke tåle mere end 100 mg jordnøddeprotein, under en halv jordnød",
+    "Fire måneder efter kunne én deltager tåle 300 mg og fem tåle 600 mg eller mere, cirka to en halv jordnød",
+    "De fleste fik 36 lugt- og smagsfri kapsler med tarmbakterier fra raske donorer på én dag uden alvorlige bivirkninger"
+   ],
+   "body": [
+    "Femten mennesker med svær jordnøddeallergi har fået overført tarmbakterier fra raske donorer, og fire måneder efter kunne flere tåle mere jordnøddeprotein end før. Resultatet blev offentliggjort i Science Translational Medicine den 5. august og er ifølge Nature det første holdepunkt for, at metoden virker mod en fødevareallergi i mennesker.",
+    "Før forsøget kunne ingen tåle mere end 100 milligram, under en halv jordnød. Efter fire måneder kunne én tåle 300 milligram og fem tåle 600 eller mere."
+   ],
+   "whyItMatters": "De eksisterende behandlinger mod fødevareallergi holder kun, så længe man bliver ved. En engangsoverførsel, der stadig virker fire måneder senere, ville ændre hverdagen for gruppen.",
+   "analysis": "Femten deltagere uden kontrolgruppe er et signal, ikke et bevis, og forskerne peger selv på galdesyremetabolitter som mekanismen bag tolerancen. Holder mekanismen, er den vigtige oplysning ikke afføringen, men molekylet.",
+   "topics": [
+    "sundhed",
+    "forskning",
+    "mikrobiom",
+    "allergi"
+   ],
+   "entities": [
+    "Science Translational Medicine",
+    "Cathryn Nagler",
+    "University of Chicago",
+    "Edwin Kim",
+    "University of North Carolina at Chapel Hill"
+   ],
+   "scores": {
+    "importance": 62,
+    "decisionValue": 40,
+    "novelty": 86,
+    "sourceQuality": 92,
+    "personalRelevance": 22,
+    "contrast": 90
+   },
+   "image": {
+    "url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02440-5/d41586-026-02440-5_53067820.jpg",
+    "credit": "Foto: Nature",
+    "alt": "Jordnødder, allergenet i forsøget med fækal mikrobiotatransplantation.",
+    "sourceUrl": "https://www.nature.com/articles/d41586-026-02440-5"
+   },
+   "claims": [
+    {
+     "text": "Et forsøg med 15 personer med svær jordnøddeallergi, offentliggjort i Science Translational Medicine 5. august 2026, er det første holdepunkt for, at fækal mikrobiotatransplantation kan behandle en fødevareallergi i mennesker.",
+     "sourceUrls": [
+      "https://www.nature.com/articles/d41586-026-02440-5",
+      "https://doi.org/10.1126/scitranslmed.aee3263"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Fire måneder efter behandlingen kunne én deltager tåle 300 mg jordnøddeprotein og fem tåle 600 mg eller mere, mod under 100 mg før forsøget.",
+     "sourceUrls": [
+      "https://www.nature.com/articles/d41586-026-02440-5"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "First poo transplant to treat food allergy in people has ‘exciting’ results",
+     "publisher": "Nature",
+     "url": "https://www.nature.com/articles/d41586-026-02440-5",
+     "publishedAt": "2026-08-05T06:00:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Fecal microbiome transplant in food allergy in humans and mice identifies a role for bile acid metabolites in oral tolerance",
+     "publisher": "Science Translational Medicine",
+     "url": "https://doi.org/10.1126/scitranslmed.aee3263",
+     "publishedAt": "2026-08-05T18:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'",
+   "url": "https://www.bbc.com/news/articles/cy8mjd19xm7o",
+   "publisher": "BBC News",
+   "section": "Sikkerhed",
+   "publishedAt": "2026-08-06T14:30:43Z",
+   "summary": "Præsidenten afviser lækkede vurderinger af, at amerikanske ammunitionslagre er trukket ned af krigen mod Iran, og siger, at kilderne bliver jagtet.",
+   "text": "Trump denies US weapons shortage and says information 'leakers' being 'hunted down'"
+  },
+  {
+   "headline": "DR Congo Ebola health workers protest unpaid wages as deaths surpass 1,800",
+   "url": "https://www.aljazeera.com/news/2026/8/6/dr-congo-ebola-health-workers-protest-unpaid-wages-as-deaths-surpass-1800",
+   "publisher": "Al Jazeera",
+   "section": "Sundhed",
+   "publishedAt": "2026-08-06T13:07:16Z",
+   "summary": "Sundhedsarbejdere i Ituri nedlagde arbejdet i protest mod manglende løn, mens dødstallet i Bundibugyo-udbruddet passerede 1.800.",
+   "text": "DR Congo Ebola health workers protest unpaid wages as deaths surpass 1,800"
+  },
+  {
+   "headline": "Endnu en topfigur bag Novos supercomputer stopper: »Hold øje med min Linkedin«",
+   "url": "https://www.version2.dk/artikel/endnu-en-topfigur-bag-novos-supercomputer-stopper-hold-oeje-med-min-linkedin",
+   "publisher": "Version2",
+   "section": "Danmark",
+   "publishedAt": "2026-08-07T03:00:00Z",
+   "summary": "Ali Syed, senior vice president i DCAI, som driver den danske supercomputer Gefion, er stoppet. Det er den anden ledende afgang fra projektet.",
+   "text": "Endnu en topfigur bag Novos supercomputer stopper: »Hold øje med min Linkedin«"
+  },
+  {
+   "headline": "China launches probe into Palo Alto Networks as US trade tensions intensify",
+   "url": "https://www.scmp.com/economy/global-economy/article/3363177/china-launches-probe-us-cybersecurity-firm-palo-alto-networks",
+   "publisher": "South China Morning Post",
+   "section": "Kina",
+   "publishedAt": "2026-08-06T09:21:00Z",
+   "summary": "Cyberspace-myndigheden har indledt en sikkerhedsundersøgelse af det amerikanske sikkerhedsselskab, dagen efter Beijings modsvar på amerikanske eksportrestriktioner.",
+   "text": "China launches probe into Palo Alto Networks as US trade tensions intensify"
+  },
+  {
+   "headline": "DeepSeek signals 'significant' price hike amid surge in demand for low-cost AI models",
+   "url": "https://www.scmp.com/tech/tech-trends/article/3363129/deepseek-signals-significant-price-hike-amid-surge-demand-low-cost-ai-models",
+   "publisher": "South China Morning Post",
+   "section": "AI",
+   "publishedAt": "2026-08-06T05:01:00Z",
+   "summary": "Selskabet, hvis lave priser satte standarden for åbne kinesiske modeller, varsler en mærkbar prisstigning på sin API.",
+   "text": "DeepSeek signals 'significant' price hike amid surge in demand for low-cost AI models"
+  },
+  {
+   "headline": "AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon",
+   "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+   "publisher": "The Register",
+   "section": "Halvledere",
+   "publishedAt": "2026-08-06T21:05:00Z",
+   "summary": "Taalas brænder modelvægte direkte ind i silicium og undgår dermed den flaskehals, mangel på HBM-hukommelse udgør. Handlen ventes lukket i fjerde kvartal.",
+   "text": "AMD acquires AI chip startup Taalas to boost inference performance by etching models into silicon"
+  },
+  {
+   "headline": "A Record 14 Billion-Dollar Rounds In July Pushed Venture's Historic Run Higher",
+   "url": "https://news.crunchbase.com/venture/data-billion-dollar-rounds-set-global-funding-record-july-2026/",
+   "publisher": "Crunchbase News",
+   "section": "Kapital",
+   "publishedAt": "2026-08-04T06:00:00Z",
+   "summary": "Global venturefinansiering nåede 65 mia. dollar i juli. Europas eneste to milliardrunder var begge tysk forsvarsteknologi, Helsing og Quantum Systems.",
+   "text": "A Record 14 Billion-Dollar Rounds In July Pushed Venture's Historic Run Higher"
+  },
+  {
+   "headline": "European robotics startups raised more in six months than past two years combined",
+   "url": "https://sifted.eu/articles/european-robotics-startups-raised-more-in-six-months-than-past-two-years-combined",
+   "publisher": "Sifted",
+   "section": "Kapital",
+   "publishedAt": "2026-08-04T06:00:00Z",
+   "summary": "Første halvår 2026 overgik de to foregående år tilsammen for europæiske robotselskaber.",
+   "text": "European robotics startups raised more in six months than past two years combined"
+  },
+  {
+   "headline": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard",
+   "url": "https://www.defensenews.com/global/mideast-africa/2026/08/06/iran-issues-warning-to-gulf-states-us-must-desist-or-youll-be-hit-hard/",
+   "publisher": "Defense News",
+   "section": "Sikkerhed",
+   "publishedAt": "2026-08-06T15:27:06Z",
+   "summary": "Teheran advarer nabolandene om, at deres infrastruktur bliver mål, hvis de fortsat huser amerikanske operationer.",
+   "text": "Iran issues warning to Gulf states: US must desist or you’ll be hit hard"
+  },
+  {
+   "headline": "Trump signs new executive orders seeking to limit US birthright citizenship",
+   "url": "https://www.aljazeera.com/news/2026/8/6/trump-signs-new-executive-orders-seeking-to-limit-birthright-citizenship",
+   "publisher": "Al Jazeera",
+   "section": "USA",
+   "publishedAt": "2026-08-06T21:27:19Z",
+   "summary": "Et nyt forsøg på at indskrænke statsborgerret ved fødsel, efter at det første blev standset ved domstolene.",
+   "text": "Trump signs new executive orders seeking to limit US birthright citizenship"
+  },
+  {
+   "headline": "Scattered Roman bones point to potential fourth-century purge at Brading Villa",
+   "url": "https://phys.org/news/2026-08-roman-bones-potential-fourth-century.html",
+   "publisher": "Phys.org",
+   "section": "Historie",
+   "publishedAt": "2026-08-05T17:00:07Z",
+   "summary": "Spredte og ubegravede knogler i en romersk villa på Isle of Wight peger på en voldelig hændelse frem for en almindelig gravplads.",
+   "text": "Scattered Roman bones point to potential fourth-century purge at Brading Villa"
+  }
+ ],
+ "keyNumber": {
+  "label": "Rheinmetalls ordrebeholdning",
+  "indicator": "rheinmetall-order-backlog",
+  "value": "80,5",
+  "unit": "mia. euro",
+  "asOf": "1. halvår 2026",
+  "previous": {
+   "value": "56,0",
+   "asOf": "1. halvår 2025",
+   "change": "+43,8 pct. på et år"
+  },
+  "caption": "Ordrebogen er rekordstor, og alligevel blev årets omsætningsforventning sænket. Første aflæsning i en serie, briefet vil læse hvert halvår.",
+  "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1",
+  "sourceTitle": "Financial report for first half of 2026 – Strong sales growth and record profitability",
+  "series": [
+   {
+    "label": "H1 2025",
+    "value": 56.0
+   },
+   {
+    "label": "H1 2026",
+    "value": 80.5
+   }
+  ]
+ },
+ "column": {
+  "authoredBy": "ai",
+  "slug": "europa-mangler-koebere",
+  "title": "Europa mangler ikke penge. Det mangler købere.",
+  "thesis": "Den bindende begrænsning for europæisk deeptech er ikke mangel på kapital, men mangel på købere: kan kun amerikanske selskaber aftage et modent europæisk teknologiselskab, finansierer europæisk suverænitetspolitik amerikanske opkøb.",
+  "horizon": "Exit-opgørelserne frem mod 2029",
+  "body": [
+   "Diagnosen er altid den samme, og svaret er altid mere kapital. Men tallene passer dårligt. Invest Europe opgjorde i juli, at europæisk venturekapitals uinvesterede midler nåede 66 mia. euro i 2025, det højeste registrerede niveau. Det er penge, der leder efter selskaber, ikke omvendt.",
+   "Et økosystem er to markeder. Der er et marked for kapital, og der er et marked for selskaber, og det andet afgør, hvem der ejer resultatet. Over 80 procent af europæiske exits sker ved opkøb frem for børsnotering, og køberne med balance til et modent teknologiselskab er overvejende amerikanske. Vil man have europæisk ejerskab, skal man fremstille europæiske købere: konkurrenceregler der tillader konsolidering, pensionskapital der kan holde en teknologiaktie, offentlige indkøb der gør et selskab stort nok til at blive købt hjemme. Intet af det annonceres lige så let som en fond."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis andelen af europæiske venturebakkede exits til europæiske købere stiger mærkbart frem mod 2029, mens kapitaltilførslen står stille. Det kan aflæses i Invest Europes og Dealrooms exit-opgørelser.",
+  "topics": [
+   "venturekapital",
+   "europa",
+   "markedsstruktur"
+  ],
+  "claims": [
+   {
+    "text": "Invest Europe opgjorde i juli 2026, at europæisk venturekapitals uinvesterede midler (dry powder) voksede til 66 mia. euro i 2025.",
+    "sourceUrls": [
+     "https://www.investeurope.eu/news/newsroom/european-capital-under-management-reaches-record-137tn-in-2025-portfolio-at-cost-and-dry-powder-hit-new-highs/"
+    ],
+    "confidence": "high"
+   },
+   {
+    "text": "Mere end 80 procent af europæiske exits sker gennem opkøb frem for børsnotering, og en stor del af værdien tilfalder amerikanske købere.",
+    "sourceUrls": [
+     "https://tech.eu/2026/03/24/the-2026-european-deeptech-report-sector-reaches-690b-as-vc-share-hits-record/"
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "sources": [
+   {
+    "title": "European capital under management reaches record €1.37tn in 2025, portfolio at cost and dry powder hit new highs",
+    "publisher": "Invest Europe",
+    "url": "https://www.investeurope.eu/news/newsroom/european-capital-under-management-reaches-record-137tn-in-2025-portfolio-at-cost-and-dry-powder-hit-new-highs/",
+    "publishedAt": "2026-07-23T09:00:00Z",
+    "kind": "primary"
+   },
+   {
+    "title": "The 2026 European Deeptech Report: Sector reaches $690B as VC share hits record",
+    "publisher": "Tech.eu",
+    "url": "https://tech.eu/2026/03/24/the-2026-european-deeptech-report-sector-reaches-690b-as-vc-share-hits-record/",
+    "publishedAt": "2026-03-24T09:00:00Z",
+    "kind": "reporting"
+   }
+  ]
+ },
+ "recommendations": [
+  {
+   "id": "rec-toby-ord-agi-timelines-20260807",
+   "tier": "featured",
+   "isFeatured": true,
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "#250 – Toby Ord on where AGI timelines go wrong",
+   "creator": "Toby Ord og Rob Wiblin",
+   "provider": "The 80,000 Hours Podcast",
+   "url": "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines/",
+   "availability": "Gratis og globalt tilgængelig på 80000hours.org, i podcast-feedet og som video. Ingen betalingsmur.",
+   "commitment": "2 t 46 min",
+   "description": "Filosoffen Toby Ord gennemgår de fejl, han mener præger den måde, tidslinjer for kunstig generel intelligens regnes ud på, og lander selv på midten af 2030'erne med bred usikkerhed. Udgivet 6. august 2026.",
+   "rationale": "Det er timeregnskabet bag de tal, alle andre citerer. Du bruger tidslinjer som en præmis, når du vurderer, hvornår compute betaler sig hjem; her bliver præmissen selv taget fra hinanden af en, der ikke sælger noget. Tre timer er dyrt, og det er det værd én gang, netop fordi konklusionen går imod den retning, resten af listen peger.",
+   "topics": [
+    "AGI",
+    "prognoser",
+    "filosofi",
+    "risiko"
+   ],
+   "image": {
+    "url": "https://80000hours.org/wp-content/uploads/2026/08/CURRENT-YT-Thumbnails-3840-x-2160-px-2026-08-06T152445.644-scaled.jpg",
+    "credit": "Kilde: 80,000 Hours",
+    "alt": "Toby Ord i samtale med Rob Wiblin i 80,000 Hours-podcastens studie.",
+    "sourceUrl": "https://80000hours.org/podcast/episodes/toby-ord-recursive-self-improvement-agi-timelines/"
+   }
+  },
+  {
+   "id": "rec-epoch-parallelization-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "rapport",
+   "status": "new",
+   "title": "Even after R&D is automated, parallelization constraints could delay a technological singularity",
+   "provider": "Epoch AI",
+   "url": "https://epoch.ai/publications/parallelization-constraints-could-delay-a-technological-singularity",
+   "availability": "Frit tilgængelig uden login, globalt.",
+   "commitment": "~40 min",
+   "note": "En økonom bruger vækstteori til at vise, at automatiseret forskning kan hæve væksten uden at accelerere den, fordi rækkefølgen af trin binder.",
+   "topics": [
+    "økonomi",
+    "vækstteori",
+    "AGI"
+   ]
+  },
+  {
+   "id": "rec-nber-replaceable-employed-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "forskningsartikel",
+   "status": "new",
+   "title": "Replaceable but Employed: Automation and the Meaning of Work",
+   "provider": "NBER",
+   "url": "https://www.nber.org/papers/w35559",
+   "availability": "Abstract frit tilgængeligt; pdf koster 5 dollar for almindelige brugere og er gratis for abonnenter, journalister og brugere i lavindkomstlande.",
+   "commitment": "~45 min",
+   "note": "Formel model for, at en offentlig demonstration af en maskine ødelægger arbejdets værdi for dem, der stadig er ansat — en omkostning ingen adoptionsstatistik måler.",
+   "topics": [
+    "økonomi",
+    "automatisering",
+    "arbejdsmarked"
+   ]
+  },
+  {
+   "id": "rec-sep-intuitionism-ethics-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "opslagsværk",
+   "status": "new",
+   "title": "Intuitionism in Ethics",
+   "provider": "Stanford Encyclopedia of Philosophy",
+   "url": "https://plato.stanford.edu/entries/intuitionism-ethics/",
+   "availability": "Frit tilgængelig, open access, globalt.",
+   "commitment": "~90 min",
+   "note": "Forsvaret for, at en moralsk intuition kan være en grund i sig selv — den analytiske metaetik, der aldrig optræder på din læseliste, og som modsiger vanen med altid at forklare en overbevisning frem for at prøve den.",
+   "topics": [
+    "filosofi",
+    "etik",
+    "analytisk filosofi"
+   ]
+  },
+  {
+   "id": "rec-wip-ultimate-horse-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "essay",
+   "status": "new",
+   "title": "The Ultimate Horse",
+   "provider": "Works in Progress",
+   "url": "https://worksinprogress.co/issue/the-ultimate-horse/",
+   "availability": "Frit tilgængelig, globalt.",
+   "commitment": "~20 min",
+   "note": "Fuldblodshesten har ikke løbet hurtigere siden 1973, fordi selektion mod ét mål brugte variationen op. Den reneste case på, at hård optimering ender i et loft.",
+   "topics": [
+    "biologi",
+    "optimering",
+    "historie"
+   ]
+  },
+  {
+   "id": "rec-chinatalk-fcc-robot-rule-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "FCC's Adam Chan on the New Robot Rule",
+   "provider": "ChinaTalk",
+   "url": "https://www.chinatalk.media/p/fccs-adam-chan-on-the-new-robot-rule",
+   "availability": "Gratis på chinatalk.media og i podcast-feedet.",
+   "commitment": "52 min",
+   "note": "FCC's egen sikkerhedsjurist forklarer, hvorfor reglen med vilje er grov og uden undtagelser. Industripolitik ført som sikkerhedsregulering.",
+   "topics": [
+    "usa",
+    "robotteknologi",
+    "regulering"
+   ]
+  },
+  {
+   "id": "rec-aie-brumley-vulnerabilities-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "watch",
+   "kind": "keynote",
+   "status": "new",
+   "title": "Teaching AI to Find Real Vulnerabilities — Prof. David Brumley, Bugcrowd",
+   "creator": "David Brumley",
+   "provider": "AI Engineer",
+   "url": "https://www.youtube.com/watch?v=ZFxh7sqbUZo",
+   "availability": "Gratis på YouTube, globalt.",
+   "commitment": "27 min",
+   "note": "En af de mest citerede sårbarhedsforskere viser, hvad modeller rent faktisk finder — konkret modvægt til overskrifterne om autonome cyberkampagner.",
+   "topics": [
+    "cybersikkerhed",
+    "ai",
+    "forskning"
+   ]
+  },
+  {
+   "id": "rec-cloudflare-computer-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "try",
+   "kind": "værktøj",
+   "status": "new",
+   "title": "cloudflare/computer",
+   "provider": "GitHub",
+   "url": "https://github.com/cloudflare/computer",
+   "availability": "Offentligt repository under MIT-licens, globalt. Mærket som forhåndsvisning og ikke til produktion.",
+   "commitment": "en aften",
+   "note": "Giver en agent et virtuelt filsystem og tre udskiftelige udførelsesmiljøer. Det mindste stykke kode, der viser, hvor marginen under modellen ligger.",
+   "topics": [
+    "agenter",
+    "udviklerværktøj",
+    "open source"
+   ]
+  },
+  {
+   "id": "rec-grand-broken-english-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "watch",
+   "kind": "dokumentar",
+   "status": "new",
+   "title": "Marianne Faithfull: Broken English",
+   "provider": "Grand Teatret",
+   "url": "https://grandteatret.dk/film/marianne-faithfull-broken-english/",
+   "availability": "Grand Teatret i København, dagligt kl. 09.30 fra fredag 7. august til torsdag 13. august 2026. Engelsk tale, danske undertekster.",
+   "commitment": "96 min",
+   "note": "Instruktørerne bygger et opdigtet ministerium med Tilda Swinton som ramme om et uiscenesat liv, og filmen ender med Faithfulls sidste optagelse.",
+   "topics": [
+    "film",
+    "musik",
+    "portræt"
+   ]
+  },
+  {
+   "id": "rec-hiddenforces-doctorow-20260807",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "The AI Enshittification Bubble | Cory Doctorow",
+   "creator": "Cory Doctorow og Demetri Kofinas",
+   "provider": "Hidden Forces",
+   "url": "https://hiddenforces.io/podcasts/the-ai-enshittification-bubble-cory-doctorow/",
+   "availability": "Første del gratis i alle podcast-apps; den fulde samtale ligger bag Hidden Forces' abonnement.",
+   "commitment": "53 min",
+   "note": "Den skarpeste modstemme på listen: Doctorow argumenterer strukturelt om konkurrence og interoperabilitet frem for at pege på multipler.",
+   "topics": [
+    "ai",
+    "markedskoncentration",
+    "kritik"
+   ]
+  }
+ ],
+ "quality": {
+  "sourceDiversity": 92,
+  "primarySourceShare": 45,
+  "outsideProfileCoverage": 100,
+  "verificationDepth": 90
+ }
+}
