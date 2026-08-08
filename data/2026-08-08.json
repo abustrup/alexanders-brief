@@ -1,0 +1,1072 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-08",
+ "date": "2026-08-08",
+ "generatedAt": "2026-08-08T12:00:00.000Z",
+ "readingMinutes": 11,
+ "title": "Alexanders Brief — lørdag 8. august 2026",
+ "dek": "Saudi-Arabien, Tyrkiet og Pakistan binder sig til hinandens forsvar i Mekka. OpenAI kan ikke længere udelukke, at en model på vej kan gennemføre cyberangreb på egen hånd. Og det amerikanske arbejdsmarked tabte job i juli, hvor det skulle have vundet 83.000.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "story-mecca-joint-defence-20260808",
+   "eventKey": "mecca-joint-defence-agreement-2026-08",
+   "section": "Forsvar",
+   "isLead": true,
+   "isOutsideProfile": false,
+   "headline": "Saudi Arabia, Turkey and Pakistan sign defence pact",
+   "primarySourceUrl": "https://www.bbc.co.uk/news/articles/c30418m4mj4o",
+   "subheadline": "En artikel 5 uden NATO: verdens største olieeksportør, et NATO-medlem og en atommagt binder sig til hinandens forsvar.",
+   "materialFacts": [
+    "Aftalen fastslår, at et væbnet angreb på ét af de tre lande skal betragtes som et angreb på dem alle",
+    "Underskrevet i Mekka af kronprins Mohammed bin Salman, præsident Recep Tayyip Erdogan og premierminister Shehbaz Sharif",
+    "Erklæringen specificerer ikke de enkelte parters forpligtelser; en tyrkisk embedsmand kalder aftalen rent defensiv over for Reuters",
+    "Saudi-Arabien og Pakistan indgik allerede sidste år en bilateral forsvarspagt; det nye er Tyrkiets deltagelse",
+    "Iran og Teherans allierede har ramt Saudi-Arabien og de øvrige Golfstater, siden USA og Israel angreb Iran den 28. februar 2026",
+    "Det iranske parlamentsmedlem Ebrahim Rezaei afviste aftalen på X som en papiraftale"
+   ],
+   "body": [
+    "Saudi-Arabiens kronprins Mohammed bin Salman, Tyrkiets præsident Recep Tayyip Erdogan og Pakistans premierminister Shehbaz Sharif underskrev fredag en fælles forsvarsaftale i Mekka. Kernen er én sætning: et væbnet angreb på ét af landene er et angreb på dem alle.",
+    "Aftalen lover gensidig støtte uden at specificere, hvad hver part har påtaget sig. Saudi-Arabien og Pakistan havde allerede en bilateral pagt fra sidste år; det nye er, at Tyrkiet er trådt ind. Baggrunden er krigen, der begyndte, da USA og Israel angreb Iran den 28. februar, hvorefter Iran og dets allierede ramte mål i Golfstaterne."
+   ],
+   "whyItMatters": "Sammensætningen er det usædvanlige: verdens største olieeksportør, et NATO-medlem og en atommagt under én forsvarsformel. En NATO-allieret har hermed en forsvarsforpligtelse over for en atommagt uden for alliancen.",
+   "analysis": "Signalet er, at Riyadh ikke længere regner den amerikanske sikkerhedsgaranti for tilstrækkelig. Men uden kommandostruktur eller styrkemål er aftalen en stærk overskrift over en tynd tekst.",
+   "counterpoint": "Det iranske parlamentsmedlem Ebrahim Rezaei kaldte den en papiraftale. Indvendingen er ikke urimelig: både Ankara og Islamabad har grunde til ikke at blive trukket ind i en krig mod Iran.",
+   "topics": [
+    "forsvar",
+    "geopolitik",
+    "mellemøsten",
+    "nato",
+    "iran"
+   ],
+   "entities": [
+    "Mohammed bin Salman",
+    "Recep Tayyip Erdogan",
+    "Shehbaz Sharif",
+    "Saudi-Arabien",
+    "Tyrkiet",
+    "Pakistan",
+    "Iran",
+    "Ebrahim Rezaei"
+   ],
+   "scores": {
+    "importance": 95,
+    "decisionValue": 78,
+    "novelty": 88,
+    "sourceQuality": 90,
+    "personalRelevance": 62,
+    "contrast": 88
+   },
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/fa68/live/d3a158e0-9258-11f1-b9ff-37ae3aba3894.png",
+    "credit": "Kilde: BBC News",
+    "alt": "Saudi-Arabiens kronprins Mohammed bin Salman, Tyrkiets præsident Recep Tayyip Erdogan og Pakistans premierminister Shehbaz Sharif ved underskrivelsen i Mekka.",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c30418m4mj4o"
+   },
+   "primaryExcerpt": {
+    "quote": "any armed attack on any of the three countries is an attack on all of them",
+    "sourceUrl": "https://una-oic.org/en/ALL/2026/08/07/Joint-statement-of-the-Makkah-Summit-for-Defense/",
+    "sourceTitle": "Joint statement of the Makkah Summit on joint defense between the Kingdom, Turkey and Pakistan"
+   },
+   "claims": [
+    {
+     "text": "Aftalen fastslår, at et væbnet angreb på ét af de tre lande skal betragtes som et angreb på dem alle.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c30418m4mj4o",
+      "https://una-oic.org/en/ALL/2026/08/07/Joint-statement-of-the-Makkah-Summit-for-Defense/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Aftalen blev underskrevet i Mekka af Mohammed bin Salman, Recep Tayyip Erdogan og Shehbaz Sharif den 7. august 2026.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c30418m4mj4o",
+      "https://www.thenationalnews.com/news/mena/2026/08/07/saudi-arabia-pakistan-and-turkey-sign-joint-defence-pact/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Det iranske parlamentsmedlem Ebrahim Rezaei afviste aftalen offentligt som en papiraftale.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c30418m4mj4o"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Saudi Arabia, Turkey and Pakistan sign defence pact",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o",
+     "publishedAt": "2026-08-07T11:02:16Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Joint statement of the Makkah Summit on joint defense between the Kingdom, Turkey and Pakistan",
+     "publisher": "Union of News Agencies of the OIC (UNA)",
+     "url": "https://una-oic.org/en/ALL/2026/08/07/Joint-statement-of-the-Makkah-Summit-for-Defense/",
+     "publishedAt": "2026-08-07T00:00:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "Saudi Arabia, Pakistan and Turkey sign joint defence pact",
+     "publisher": "The National",
+     "url": "https://www.thenationalnews.com/news/mena/2026/08/07/saudi-arabia-pakistan-and-turkey-sign-joint-defence-pact/",
+     "publishedAt": "2026-08-07T14:00:00Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-openai-astra-critical-cyber-20260808",
+   "eventKey": "openai-astra-critical-cyber-2026-08",
+   "section": "AI",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "OpenAI says it slowed Astra model development over security concerns",
+   "primarySourceUrl": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+   "subheadline": "Første gang nogen frontier-lab siger, at det ikke kan udelukke det højeste risikoniveau i sin egen ramme.",
+   "materialFacts": [
+    "OpenAI oplyser, at den kommende model Astra ikke kan udelukkes at ligge på niveauet Critical for cyberevner i selskabets Preparedness Framework",
+    "Selskabets egen formulering er, at modellen viser tilstrækkeligt stærk ydeevne til, at Critical-niveauet ikke kan udelukkes på nuværende tidspunkt",
+    "Critical-niveauet nås, hvis en model uden menneskelig indgriben kan finde og udvikle fungerende zero-day-angreb af alle alvorlighedsgrader i mange hærdede kritiske systemer, ELLER kan udtænke og gennemføre nye ende-til-ende-angreb mod hærdede mål ud fra et overordnet mål alene",
+    "OpenAI strammer sikkerhedskontrollerne og pauser de interne Astra-aktiviteter, der endnu ikke lever op til de skærpede krav",
+    "OpenAI oplyser, at selskabet vil inddrage relevante myndigheder og udvalgte AI-sikkerhedsorganisationer i test af modellen",
+    "Tidligere modeller, herunder GPT-5.6 Sol, er vurderet til niveauet High og ikke Critical for cyberevner",
+    "Evalueringerne er foreløbige, og benchmarking af modellen er ikke afsluttet"
+   ],
+   "body": [
+    "OpenAI meddelte fredag, at selskabet ikke kan udelukke, at dets kommende model Astra rammer niveauet Critical for cyberevner i sin egen Preparedness Framework. Niveauet nås, hvis en model på egen hånd kan bygge fungerende zero-day-angreb i hærdede systemer, eller udtænke og gennemføre nye angreb ud fra et overordnet mål.",
+    "Selskabet pauser de interne Astra-aktiviteter, der ikke lever op til skærpede sikkerhedskrav; udviklingen fortsætter under dem. Myndigheder og udvalgte AI-sikkerhedsorganisationer skal ind i testen."
+   ],
+   "whyItMatters": "Preparedness-rammer afvises rutinemæssigt som markedsføring. Denne er brugt før, men det er første gang, den producerer et Critical-forbehold og standser noget af selskabets eget arbejde.",
+   "analysis": "Bemærk formuleringen: ikke at Astra er på Critical-niveau, men at det ikke kan udelukkes.",
+   "counterpoint": "Meldingen fortæller samtidig markedet, at næste model er stærk nok til at være farlig.",
+   "topics": [
+    "ai",
+    "cybersikkerhed",
+    "frontier-modeller",
+    "regulering",
+    "usa"
+   ],
+   "entities": [
+    "OpenAI",
+    "Astra",
+    "Preparedness Framework",
+    "Hugging Face",
+    "USA"
+   ],
+   "scores": {
+    "importance": 93,
+    "decisionValue": 92,
+    "novelty": 95,
+    "sourceQuality": 95,
+    "personalRelevance": 95,
+    "contrast": 86
+   },
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-in-Seoul.jpg?w=1024",
+    "credit": "Kilde: TechCrunch",
+    "alt": "Arkivfoto af OpenAI-skiltning uden for selskabets pressekonference i Seoul i september 2025.",
+    "sourceUrl": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/"
+   },
+   "discoveredVia": {
+    "name": "AINews",
+    "url": "https://news.smol.ai/issues/26-08-07-not-much/"
+   },
+   "claims": [
+    {
+     "text": "OpenAI oplyser, at selskabet ikke kan udelukke, at Astra ligger på Critical-niveau for cyberevner i selskabets Preparedness Framework.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "OpenAI strammer sikkerhedskontrollerne, pauser de interne Astra-aktiviteter, der ikke lever op til dem, og oplyser, at selskabet vil inddrage myndigheder og udvalgte AI-sikkerhedsorganisationer i test.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "OpenAI says it slowed Astra model development over security concerns",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+     "publishedAt": "2026-08-07T22:48:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Responding to the next frontier of critical cyber capabilities",
+     "publisher": "OpenAI",
+     "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+     "publishedAt": "2026-08-07T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-us-july-payrolls-20260808",
+   "eventKey": "us-july-labour-market-2026-08",
+   "section": "Økonomi",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "US unexpectedly lost 23,000 jobs in July as slump in growth continues",
+   "primarySourceUrl": "https://www.theguardian.com/business/2026/aug/07/july-jobs-report-middle-east-conflict",
+   "subheadline": "Revisionen er større end tallet: maj og juni blev skrevet 103.000 job ned.",
+   "materialFacts": [
+    "Amerikanske arbejdsgivere tabte 23.000 job i juli; økonomerne havde ventet 83.000 nye",
+    "Arbejdsløsheden lå på 4,1 pct. i juli mod 4,2 pct. i juni",
+    "Maj og juni blev revideret ned med 103.000 job tilsammen: maj til 63.000 fra 129.000, juni skåret med 37.000 til 20.000",
+    "Tabene lå i kommunal undervisning (-50.000) og detailhandel (-19.000), mens den private sektor lagde 30.000 til, anført af sundhedssektoren",
+    "Timelønnen steg 3,2 pct. år til år",
+    "Antallet af ledige stillinger faldt 178.000 til 7,4 mio. i juni"
+   ],
+   "body": [
+    "Det amerikanske arbejdsmarked tabte 23.000 job i juli. Konsensus lå på 83.000 nye. Arbejdsløsheden faldt til 4,1 pct. fra 4,2 pct. i juni, men den interessante linje står længere nede: maj og juni blev revideret ned med 103.000 job tilsammen.",
+    "Tabene sad i kommunal undervisning og detailhandel, mens den private sektor lagde 30.000 til, anført af sundhed."
+   ],
+   "whyItMatters": "For Federal Reserve ændrer det problemets fortegn. Presset har handlet om, hvorvidt renten skulle op mod en inflation, der ikke ville falde; et negativt jobtal plus en revision på 103.000 svækker den sag inden næste møde.",
+   "analysis": "Revisionerne er den egentlige nyhed. Når to måneder i træk skrives så langt ned, er billedet af et sejlivet arbejdsmarked bygget på tal, der siden er forsvundet.",
+   "counterpoint": "Modsat varslede virksomhederne kun 33.500 fyringer i juli, det laveste på to år. Et arbejdsmarked, der taber job uden at fyre, holder op med at ansætte.",
+   "topics": [
+    "makroøkonomi",
+    "centralbanker",
+    "arbejdsmarked",
+    "usa",
+    "renter"
+   ],
+   "entities": [
+    "Bureau of Labor Statistics",
+    "Federal Reserve",
+    "ADP",
+    "USA"
+   ],
+   "scores": {
+    "importance": 88,
+    "decisionValue": 90,
+    "novelty": 84,
+    "sourceQuality": 88,
+    "personalRelevance": 84,
+    "contrast": 74
+   },
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/d2de69bb5c3038ec64914848c75d8a3feeb17af4/333_0_3333_2667/master/3333.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ba60805bf20d202473c72e49b98a754a",
+    "credit": "Kilde: The Guardian",
+    "alt": "Arkivfoto fra en amerikansk arbejdsplads, illustration til den amerikanske jobrapport for juli 2026.",
+    "sourceUrl": "https://www.theguardian.com/business/2026/aug/07/july-jobs-report-middle-east-conflict"
+   },
+   "claims": [
+    {
+     "text": "Den amerikanske beskæftigelse uden for landbruget faldt med 23.000 i juli 2026, og arbejdsløsheden lå på 4,1 pct.",
+     "sourceUrls": [
+      "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "https://www.theguardian.com/business/2026/aug/07/july-jobs-report-middle-east-conflict"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Beskæftigelsen i maj og juni 2026 var tilsammen 103.000 lavere end tidligere oplyst.",
+     "sourceUrls": [
+      "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "https://www.theguardian.com/business/2026/aug/07/july-jobs-report-middle-east-conflict"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Den gennemsnitlige timeløn steg 3,2 pct. år til år i juli 2026.",
+     "sourceUrls": [
+      "https://www.bls.gov/news.release/empsit.nr0.htm"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "US unexpectedly lost 23,000 jobs in July as slump in growth continues",
+     "publisher": "The Guardian",
+     "url": "https://www.theguardian.com/business/2026/aug/07/july-jobs-report-middle-east-conflict",
+     "publishedAt": "2026-08-07T13:22:43Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Employment Situation Summary - 2026 M07 Results",
+     "publisher": "U.S. Bureau of Labor Statistics",
+     "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+     "publishedAt": "2026-08-07T12:30:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-iris2-348-satellites-20260808",
+   "eventKey": "iris2-implementation-agreement-2026-08",
+   "section": "Teknologi",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Elon Musks satellit-dominans udfordres af europæisk satsning",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/udland/eu/elon-musks-satellit-dominans-udfordres-af-europaeisk-satsning",
+   "subheadline": "IRIS² går fra plan til byggekontrakt — og vokser med 66 satellitter, mens budgettet stadig forhandles.",
+   "materialFacts": [
+    "Europa-Kommissionen og konsortiet SpaceRISE har underskrevet implementeringsaftalen for IRIS²",
+    "Konstellationen udvides med 66 satellitter til i alt 348: 330 i lav kredsløbsbane og 18 i mellemhøj bane",
+    "Kommissionen opgør, at sikker statslig kapacitet dermed øges med 60 pct. inden for EU og 54 pct. globalt",
+    "Første opsendelser sigter mod 2029, og tjenesterne udrulles gradvist fra 2029",
+    "SpaceRISE består af SES, Eutelsat og Hispasat, med Airbus Defence and Space, Thales Alenia Space, OHB og Aerospacelab på industrisiden",
+    "Selve implementeringsaftalen er afsluttet 7. august 2026, mens finansieringen af udvidelsen håndteres i en separat budgetproces"
+   ],
+   "body": [
+    "Europa-Kommissionen har underskrevet implementeringsaftalen for IRIS² med konsortiet SpaceRISE. Konstellationen udvides med 66 satellitter til i alt 348 — 330 i lav bane og 18 i mellemhøj. Kommissionen opgør, at det løfter den sikre statslige kapacitet med 60 pct. inden for EU og 54 pct. globalt. Første opsendelser sigter mod 2029.",
+    "Starlink er fortsat langt større, men IRIS² er bygget til myndigheds- og forsvarsbrug frem for forbrugerbredbånd. Finansieringen af udvidelsen forhandles særskilt."
+   ],
+   "whyItMatters": "Med en underskrevet aftale og navngivne producenter holder europæisk suveræn satellitkapacitet op med at være en plan. Det er kommunikationslaget under krisestyring, efterretning og droner.",
+   "analysis": "Den reelle test er 2029: kommer opsendelserne til tiden, eller bliver IRIS² endnu et europæisk program, hvor tidsplanen skrider, mens den amerikanske infrastruktur vokser videre.",
+   "topics": [
+    "rumfart",
+    "teknologisk suverænitet",
+    "eu",
+    "forsvar",
+    "infrastruktur"
+   ],
+   "entities": [
+    "Europa-Kommissionen",
+    "SpaceRISE",
+    "SES",
+    "Eutelsat",
+    "Hispasat",
+    "Airbus Defence and Space",
+    "Thales Alenia Space",
+    "Starlink",
+    "EU"
+   ],
+   "scores": {
+    "importance": 80,
+    "decisionValue": 74,
+    "novelty": 78,
+    "sourceQuality": 90,
+    "personalRelevance": 86,
+    "contrast": 66
+   },
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/v4zh45do/20260725-021448-4-5997x4000ma.jpg",
+    "credit": "Kilde: DR",
+    "alt": "Arkivfoto af en SpaceX Starship-opsendelse. DR bruger billedet i sin dækning af Starlink og EU's satellitprogram.",
+    "sourceUrl": "https://www.dr.dk/nyheder/udland/eu/elon-musks-satellit-dominans-udfordres-af-europaeisk-satsning"
+   },
+   "claims": [
+    {
+     "text": "IRIS²-konstellationen udvides med 66 satellitter til i alt 348, fordelt på 330 i lav bane og 18 i mellemhøj bane.",
+     "sourceUrls": [
+      "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726",
+      "https://www.dr.dk/nyheder/udland/eu/elon-musks-satellit-dominans-udfordres-af-europaeisk-satsning"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Europa-Kommissionen opgør, at udvidelsen øger sikker statslig kapacitet med 60 pct. inden for EU og 54 pct. globalt, med første opsendelser mod 2029.",
+     "sourceUrls": [
+      "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Elon Musks satellit-dominans udfordres af europæisk satsning",
+     "publisher": "DR",
+     "url": "https://www.dr.dk/nyheder/udland/eu/elon-musks-satellit-dominans-udfordres-af-europaeisk-satsning",
+     "publishedAt": "2026-08-08T07:40:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Commission accelerates IRIS² deployment with enhanced security and expanded satellites network",
+     "publisher": "European Commission",
+     "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1726",
+     "publishedAt": "2026-08-07T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-rwe-us-offshore-wind-payout-20260808",
+   "eventKey": "us-offshore-wind-payouts-2026-08",
+   "section": "Klima",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Trump administration to pay German firm $1.2bn to halt US wind projects",
+   "primarySourceUrl": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o",
+   "subheadline": "En stat, der betaler for at få noget til ikke at blive bygget — og pengene ruller videre ind i LNG.",
+   "materialFacts": [
+    "RWE har aftalt en udbetaling på 1,2 mia. dollar med det amerikanske indenrigsministerium og opgiver sine amerikanske havvindprojekter",
+    "Selskabet afgiver licenser ud for Californien, ud for Louisiana og i New York Bight",
+    "RWE begrunder det med, at der ikke er nogen vej til tilladelser i USA i en overskuelig fremtid",
+    "Beløbet geninvesteres i konventionel gas, herunder 900 mio. dollar i et LNG-eksportanlæg i Louisiana",
+    "RWE planlægger investeringer i USA for omkring 17 mia. euro over de kommende seks år",
+    "Indenrigsministeriet indgik en tilsvarende aftale med TotalEnergies i marts 2026"
+   ],
+   "body": [
+    "Det tyske energiselskab RWE opgiver sine amerikanske havvindprojekter og får 1,2 mia. dollar af det amerikanske indenrigsministerium for det. Selskabet afgiver licenser ud for Californien og Louisiana samt i New York Bight, fordi der efter eget udsagn ikke er nogen vej til tilladelser i USA i en overskuelig fremtid.",
+    "Pengene bliver i USA, men skifter retning: 900 mio. dollar går til et LNG-eksportanlæg i Louisiana. Indenrigsministeriet lavede en tilsvarende aftale med TotalEnergies i marts."
+   ],
+   "whyItMatters": "At tilbageholde tilladelser er almindelig politik. At betale et udenlandsk selskab for at aflyse er et nyt instrument, og to aftaler på fem måneder gør det til en fremgangsmåde frem for en enkeltsag.",
+   "analysis": "Læg mærke til retningen. Staten betaler, og selskabet flytter i samme bevægelse kapital fra vind til gas. Det er en energipolitik, der køber sig til resultatet frem for at regulere sig til det.",
+   "topics": [
+    "energi",
+    "klima",
+    "usa",
+    "handel",
+    "havvind"
+   ],
+   "entities": [
+    "RWE",
+    "Department of the Interior",
+    "Doug Burgum",
+    "Donald Trump",
+    "TotalEnergies",
+    "New York Bight",
+    "Louisiana",
+    "Californien",
+    "Tyskland",
+    "USA"
+   ],
+   "scores": {
+    "importance": 84,
+    "decisionValue": 80,
+    "novelty": 86,
+    "sourceQuality": 90,
+    "personalRelevance": 76,
+    "contrast": 88
+   },
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/5720/live/f30947f0-9240-11f1-8a95-af174e9f8ab7.jpg",
+    "credit": "Kilde: BBC News",
+    "alt": "Arkivfoto af havvindmøller, illustration til RWE's exit fra amerikansk havvind.",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o"
+   },
+   "claims": [
+    {
+     "text": "RWE aftalte en udbetaling på 1,2 mia. dollar med det amerikanske indenrigsministerium og opgiver sine amerikanske havvindprojekter.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "RWE geninvesterer beløbet i konventionel gas, herunder 900 mio. dollar i et LNG-eksportanlæg i Louisiana.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o",
+      "https://www.rwe.com/en/press/rwe-americas/2026-08-06-rwe-us-offshore-reaches-settlement-with-doi-on-offshore-wind-leases/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Trump administration to pay German firm $1.2bn to halt US wind projects",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/c1e1vg0gjl5o",
+     "publishedAt": "2026-08-07T09:50:54Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "RWE U.S. Offshore reaches settlement agreement with U.S. Department of Interior on offshore wind leases",
+     "publisher": "RWE",
+     "url": "https://www.rwe.com/en/press/rwe-americas/2026-08-06-rwe-us-offshore-reaches-settlement-with-doi-on-offshore-wind-leases/",
+     "publishedAt": "2026-08-06T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-dk-grid-datacenter-queue-20260808",
+   "eventKey": "dk-elnet-akutplan-datacenterkoe-2026-08",
+   "section": "Danmark",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Alarmklokkerne ringer i akutplan for elnettet: Flere kræver svar på centralt datacenter-spørgsmål",
+   "primarySourceUrl": "https://ing.dk/artikel/alarmklokkerne-ringer-i-akutplan-elnettet-flere-kraever-svar-paa-centralt-datacenter-spoergsmaal",
+   "subheadline": "Efterspørgslen på nettilslutning overstiger, hvad Energinet kan levere — og kriteriet for at komme forrest er stadig ikke skrevet.",
+   "materialFacts": [
+    "Klima-, energi- og forsyningsminister Samira Nawa (RV) fremlagde akutplanen for elnettet i slutningen af juni 2026",
+    "Efterspørgslen på netkapacitet overstiger, hvad Energinet kan levere",
+    "Flere organisationer peger i høringssvar på fejl og huller i planen",
+    "Datacenterbranchen har fortsat ingen klarhed over kriterierne for at få prioriteret nettilslutning",
+    "Kritikere advarer om, at de enkelte netselskabers bestyrelser i praksis kan bremse elektrificeringen"
+   ],
+   "body": [
+    "Regeringens akutplan for det overbelastede danske elnet har fået skarpe høringssvar. Flere organisationer peger på fejl og huller, og datacenterbranchen står stadig uden svar på det spørgsmål, der afgør investeringerne: hvad skal der til for at komme forrest i tilslutningskøen.",
+    "Planen blev fremlagt i slutningen af juni af klima-, energi- og forsyningsminister Samira Nawa (RV). Kritikere advarer om, at de enkelte netselskabers bestyrelser i praksis kan bremse elektrificeringen."
+   ],
+   "whyItMatters": "Nettilslutning, ikke kapital eller byggetilladelser, er blevet den bindende begrænsning for enhver stor dansk industriinvestering: datacentre, power-to-x, elektrificeret produktion.",
+   "analysis": "Der ligger en fordelingspolitisk beslutning gemt i noget, der ligner en teknisk køordning. Uden et offentligt kriterium træffes prioriteringen af netselskaber, der hverken er valgt til det eller kan holdes ansvarlige for det.",
+   "topics": [
+    "energi",
+    "elnet",
+    "datacentre",
+    "danmark",
+    "regulering"
+   ],
+   "entities": [
+    "Energinet",
+    "Samira Nawa",
+    "Radikale Venstre",
+    "Energistyrelsen",
+    "Green Power Denmark",
+    "Danmark"
+   ],
+   "scores": {
+    "importance": 78,
+    "decisionValue": 88,
+    "novelty": 74,
+    "sourceQuality": 78,
+    "personalRelevance": 92,
+    "contrast": 66
+   },
+   "image": {
+    "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-08/20260629-135115-l-8640x5760ma_1.jpg?h=2e9eddf1&itok=L49Rpbhy",
+    "credit": "Kilde: Ingeniøren",
+    "alt": "Arkivfoto af dansk elnetsinfrastruktur, illustration til akutplanen for elnettet.",
+    "sourceUrl": "https://ing.dk/artikel/alarmklokkerne-ringer-i-akutplan-elnettet-flere-kraever-svar-paa-centralt-datacenter-spoergsmaal"
+   },
+   "claims": [
+    {
+     "text": "Efterspørgslen på netkapacitet i Danmark overstiger, hvad Energinet kan levere, og datacenterbranchen har ikke klarhed over kriterierne for prioriteret tilslutning.",
+     "sourceUrls": [
+      "https://ing.dk/artikel/alarmklokkerne-ringer-i-akutplan-elnettet-flere-kraever-svar-paa-centralt-datacenter-spoergsmaal"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Alarmklokkerne ringer i akutplan for elnettet: Flere kræver svar på centralt datacenter-spørgsmål",
+     "publisher": "Ingeniøren",
+     "url": "https://ing.dk/artikel/alarmklokkerne-ringer-i-akutplan-elnettet-flere-kraever-svar-paa-centralt-datacenter-spoergsmaal",
+     "publishedAt": "2026-08-07T07:24:13Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-spain-italy-schengen-20260808",
+   "eventKey": "schengen-spain-italy-ceuta-2026-08",
+   "section": "Europa",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+   "primarySourceUrl": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko",
+   "subheadline": "To store EU-lande indfører nu grænsekontrol mod hinanden som direkte gengældelse, efter et ultimatum blev afvist.",
+   "materialFacts": [
+    "Spanien indførte fra midnat kontrol med al fly- og søtrafik, der ankommer fra Italien, i en måned frem til 7. september",
+    "Kontrollen omfatter pas, nationalitet og visum for italienske passagerer og for rejsende fra andre lande, der ankommer via Italien",
+    "Italien indførte tilsvarende restriktioner en uge tidligere og fastholder dem til mindst 15. august",
+    "Omkring 78.000 migranter kom ind i den spanske eksklave Ceuta fra Marokko",
+    "Spanien havde krævet, at Italien trak sine kontroller tilbage inden søndag; Rom afviste at acceptere ultimatummer",
+    "Madrid kalder Italiens begrundelse for påskud og henviser til, at migranterne i Ceuta ikke havde nogen vej ind i Schengenområdet"
+   ],
+   "body": [
+    "Spanien indførte ved midnat grænsekontrol med al fly- og søtrafik fra Italien og holder den i en måned. Italien indførte tilsvarende restriktioner en uge tidligere og fastholder dem til mindst 15. august. Anledningen er de omkring 78.000 migranter, der kom ind i den spanske eksklave Ceuta fra Marokko.",
+    "Madrid havde krævet, at Rom trak kontrollerne tilbage inden søndag. Rom afviste at acceptere ultimatummer."
+   ],
+   "whyItMatters": "Midlertidige Schengen-suspensioner er ikke usædvanlige; BBC noterer, at Italien i forvejen har kontrol ved grænsen til Slovenien. Det særlige er gengældelsen mellem to store medlemslande efter et afvist ultimatum.",
+   "analysis": "Bemærk asymmetrien i argumenterne. Spaniens indvending er faktuel — Ceuta er ikke en indgang til Schengen — mens Italiens er politisk. Striden handler ikke om migration, men om hvem der bærer omkostningen ved en ydre grænse, der ikke er fælles i praksis.",
+   "topics": [
+    "eu",
+    "schengen",
+    "migration",
+    "grænser",
+    "europa"
+   ],
+   "entities": [
+    "Pedro Sánchez",
+    "Giorgia Meloni",
+    "Ceuta",
+    "Schengen",
+    "Marokko",
+    "Spanien",
+    "Italien"
+   ],
+   "scores": {
+    "importance": 86,
+    "decisionValue": 66,
+    "novelty": 82,
+    "sourceQuality": 90,
+    "personalRelevance": 58,
+    "contrast": 84
+   },
+   "image": {
+    "url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/be73/live/f8fae290-9024-11f1-a7ab-8b30adf0800a.jpg",
+    "credit": "Kilde: BBC News",
+    "alt": "Arkivfoto fra grænsekontrol i forbindelse med striden mellem Spanien og Italien om Ceuta.",
+    "sourceUrl": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko"
+   },
+   "claims": [
+    {
+     "text": "Spanien indførte fra midnat kontrol med al fly- og søtrafik fra Italien i en måned, frem til 7. september 2026.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Omkring 78.000 migranter kom ind i den spanske eksklave Ceuta fra Marokko.",
+     "sourceUrls": [
+      "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.co.uk/news/articles/c5yv5l6yr5ko",
+     "publishedAt": "2026-08-07T15:25:42Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-clara-peeters-reattribution-20260808",
+   "eventKey": "clara-peeters-oslo-reattribution-2026-08",
+   "section": "Kultur",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Buried for not being Brueghel: overlooked masterpiece by still-life pioneer discovered in storage area",
+   "primarySourceUrl": "https://www.theguardian.com/artanddesign/2026/aug/07/clara-peeters-painting-oslo-national-mueum-norway",
+   "subheadline": "Et billede lå hundrede år i et magasin under mærket 'anonym'. Orme havde ædt netop den kant, hvor hun plejede at signere.",
+   "materialFacts": [
+    "Nasjonalmuseet i Oslo har tilskrevet et stilleben til Clara Peeters, en af stillebenmaleriets tidligste udøvere",
+    "Værket er Still Life with Small Game and Grapes on a Gilded Tazza, ca. 1620, med ni døde fugle, hasselnødder, abrikoser og en flue på druerne",
+    "Billedet blev fundet tilfældigt i museets magasin i 2022 og tilskrevet officielt i 2026",
+    "Belægget er tredelt: panelet stammer fra en leverandør, Peeters ofte brugte, en næsten identisk tazza optræder i andre af hendes værker, og ormeskader sidder præcis, hvor hun normalt signerede",
+    "Værket bliver et hovednummer i udstillingen Woman Painter, der åbner 8. oktober",
+    "Peeters fik i 2016 som den første kvinde nogensinde en soloudstilling på Prado"
+   ],
+   "body": [
+    "Et stilleben, der havde ligget hundrede år i Nasjonalmuseets magasin i Oslo under mærket anonym, er nu tilskrevet Clara Peeters, en af de tidligste stillebenmalere overhovedet. Værket fra omkring 1620 blev fundet ved et tilfælde i 2022.",
+    "Belægget er tredelt. Panelet kommer fra en leverandør, Peeters ofte brugte. En næsten identisk tazza optræder i andre af hendes billeder. Og ormeskaderne sidder præcis dér på nederste kant, hvor hun plejede at signere."
+   ],
+   "whyItMatters": "Kunsthistoriens revision har hidtil mest handlet om at hente kendte værker af kvinder frem fra depoterne. Her flyttes arbejdet et led ind: det, der skal genfindes, er ikke fejlplaceret, men fejlmærket som anonymt.",
+   "analysis": "Beviskæden er mere interessant end fundet. Et manglende signaturfelt, der er væk af fysiske grunde snarere end af mangel på signatur, vender bevisbyrden om. Fraværet af et bevis er her selv et bevis.",
+   "topics": [
+    "kunst",
+    "kunsthistorie",
+    "museer",
+    "attribution",
+    "norge"
+   ],
+   "entities": [
+    "Clara Peeters",
+    "Cynthia Osiecki",
+    "Nasjonalmuseet",
+    "Norge",
+    "Prado",
+    "Ambrosius Brueghel"
+   ],
+   "scores": {
+    "importance": 62,
+    "decisionValue": 40,
+    "novelty": 88,
+    "sourceQuality": 88,
+    "personalRelevance": 46,
+    "contrast": 92
+   },
+   "image": {
+    "url": "https://i.guim.co.uk/img/media/83c1b1bf6684f23b8223978f1527918982ad109a/456_73_4072_3259/master/4072.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=40a1cb8a6cf1bd0edefbf0f946e44c13",
+    "credit": "Kilde: The Guardian",
+    "alt": "Clara Peeters' stilleben med småvildt og druer på en forgyldt tazza, ca. 1620, i Nasjonalmuseet i Oslo.",
+    "sourceUrl": "https://www.theguardian.com/artanddesign/2026/aug/07/clara-peeters-painting-oslo-national-mueum-norway"
+   },
+   "claims": [
+    {
+     "text": "Nasjonalmuseet i Oslo har tilskrevet Still Life with Small Game and Grapes on a Gilded Tazza (ca. 1620) til Clara Peeters efter at have fundet værket i magasinet i 2022.",
+     "sourceUrls": [
+      "https://www.theguardian.com/artanddesign/2026/aug/07/clara-peeters-painting-oslo-national-mueum-norway"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Værket vises i udstillingen Woman Painter, der åbner 8. oktober 2026 på Nasjonalmuseet.",
+     "sourceUrls": [
+      "https://www.theguardian.com/artanddesign/2026/aug/07/clara-peeters-painting-oslo-national-mueum-norway"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Buried for not being Brueghel: overlooked masterpiece by still-life pioneer discovered in storage area",
+     "publisher": "The Guardian",
+     "url": "https://www.theguardian.com/artanddesign/2026/aug/07/clara-peeters-painting-oslo-national-mueum-norway",
+     "publishedAt": "2026-08-07T08:51:26Z",
+     "kind": "reporting"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Efter Trump-aftale: Oliegigant trækker sig fra havmølleparker i Danmark",
+   "text": "Efter Trump-aftale: Oliegigant trækker sig fra havmølleparker i Danmark",
+   "url": "https://ing.dk/artikel/efter-trump-aftale-oliegigant-traekker-sig-fra-havmoelleparker-i-danmark",
+   "publisher": "Ingeniøren",
+   "section": "Danmark",
+   "publishedAt": "2026-08-07T08:33:59Z",
+   "summary": "TotalEnergies forlader Jammerland (240 MW) og Lillebælt Syd (165 MW) med den begrundelse, at havvind i mindre skala ikke længere er rentabel. Den danske pipeline har lænet sig på oliekoncernernes balancer."
+  },
+  {
+   "headline": "FDA Approves New Engineered Viral Immunotherapy for Patients with Treatment-Resistant Advanced Melanoma",
+   "text": "FDA Approves New Engineered Viral Immunotherapy for Patients with Treatment-Resistant Advanced Melanoma",
+   "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma",
+   "publisher": "U.S. Food and Drug Administration",
+   "section": "Sundhed",
+   "publishedAt": "2026-08-06T15:56:00Z",
+   "summary": "Accelereret godkendelse til Tudriqev sammen med nivolumab ved fremskreden modermærkekræft, der har udviklet sig trods PD-1-behandling. Én ud af fire patienter responderede, med en median varighed på knap 14 måneder. Første nye virkemekanisme til den gruppe."
+  },
+  {
+   "headline": "An entangling gate for dual-rail erasure qubits",
+   "text": "An entangling gate for dual-rail erasure qubits",
+   "url": "https://www.nature.com/articles/s41586-026-10822-y",
+   "publisher": "Nature",
+   "section": "Videnskab",
+   "publishedAt": "2026-08-05T00:00:00Z",
+   "summary": "To-qubit-gate mellem superledende dual-rail-kavitetsqubits med omkring 99,9 pct. fysisk fidelitet på cirka 500 nanosekunder, hvor de fleste resterende fejl bliver til detekterbart fotontab frem for skjulte fejl."
+  },
+  {
+   "headline": "Yann LeCun's second attempt at a VC fund lands with $100M and Gemini's co-lead as a partner",
+   "text": "Yann LeCun's second attempt at a VC fund lands with $100M and Gemini's co-lead as a partner",
+   "url": "https://thenextweb.com/news/yann-lecun-224-ventures-oriol-vinyals-ai-fund",
+   "publisher": "The Next Web",
+   "section": "Kapital",
+   "publishedAt": "2026-08-05T19:21:38Z",
+   "summary": "LeCun og DeepMinds Oriol Vinyals går ind i 224 Ventures med over 100 mio. dollar og checks på 1-5 mio. dollar i tidlig fase. Kapitalen kommer overvejende fra folk i AI-branchen selv."
+  },
+  {
+   "headline": "July funding: European startups secure €8.6B as exit activity accelerates",
+   "text": "July funding: European startups secure €8.6B as exit activity accelerates",
+   "url": "https://tech.eu/2026/08/07/july-funding-european-startups-secure-eur86b-as-exit-activity-accelerates/",
+   "publisher": "Tech.eu",
+   "section": "Kapital",
+   "publishedAt": "2026-08-07T08:21:27Z",
+   "summary": "8,6 mia. euro fordelt på 267 handler i juli, lidt over junis 8,3 mia. trods 9 pct. færre handler. Exits steg fra 39 til 51 transaktioner."
+  },
+  {
+   "headline": "Russian strikes on Ukraine kill 12, wound over 80 overnight",
+   "text": "Russian strikes on Ukraine kill 12, wound over 80 overnight",
+   "url": "https://www.politico.eu/article/russia-attack-across-ukraine-kills-12-injures-over-80-overnight/",
+   "publisher": "Politico Europe",
+   "section": "Udland",
+   "publishedAt": "2026-08-08T10:34:02Z",
+   "summary": "Drone- og missilangreb i flere ukrainske regioner. Zelenskyj oplyser, at tre døde i en landsby i Kyiv-regionen, heriblandt et treårigt barn og dets bedsteforældre, og at seks ballistiske missiler ramte civil infrastruktur i Kyiv."
+  },
+  {
+   "headline": "Trump renews bid to fire Fed governor Lisa Cook despite supreme court ruling",
+   "text": "Trump renews bid to fire Fed governor Lisa Cook despite supreme court ruling",
+   "url": "https://www.theguardian.com/business/2026/aug/07/trump-lisa-cook-fed-firing-scotus-ruling",
+   "publisher": "The Guardian",
+   "section": "Økonomi",
+   "publishedAt": "2026-08-07T18:47:25Z",
+   "summary": "Det Hvide Hus har sendt Fed-direktør Lisa Cook et varsel om, at Trump overvejer at afsætte hende — formuleret så det passer ind i Højesterets kendelse fra juni, der lod hende blive, mens sagen kører."
+  },
+  {
+   "headline": "Global food prices at three-year high as heatwaves and wars push up crop costs",
+   "text": "Global food prices at three-year high as heatwaves and wars push up crop costs",
+   "url": "https://www.theguardian.com/business/2026/aug/07/global-food-prices-three-year-high-heatwaves-wars-crop-costs",
+   "publisher": "The Guardian",
+   "section": "Økonomi",
+   "publishedAt": "2026-08-07T11:47:51Z",
+   "summary": "FAO's fødevareprisindeks steg til 131,1 point i juli, det højeste siden januar 2023. Hvede op 5,8 pct. på afbrudt eksport fra Sortehavet og varmeramte udbytter, majs op 3,6 pct., sukker op 5,6 pct."
+  },
+  {
+   "headline": "Bavarian Nordic Receives European Commission Approval of Mpox/Smallpox Vaccine for Children Aged 2 to Less than 12 Years",
+   "text": "Bavarian Nordic Receives European Commission Approval of Mpox/Smallpox Vaccine for Children Aged 2 to Less than 12 Years",
+   "url": "https://www.bavarian-nordic.com/investor/news/news.aspx?news=7552",
+   "publisher": "Bavarian Nordic A/S",
+   "section": "Sundhed",
+   "publishedAt": "2026-08-07T00:00:00Z",
+   "summary": "Kommissionen har udvidet godkendelsen af IMVANEX (MVA-BN) til børn fra 2 til under 12 år på baggrund af et fase 2-studie med 227 børn og 224 voksne. Vaccinen er nu godkendt i EU fra 2 år og op. Etiketbredde er det, stater køber på."
+  },
+  {
+   "headline": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+   "text": "Ebola virus behind massive outbreak in DRC could be mutating, officials say",
+   "url": "https://www.theguardian.com/world/2026/aug/06/ebola-virus-drc-mutating",
+   "publisher": "The Guardian",
+   "section": "Global sundhed",
+   "publishedAt": "2026-08-06T16:18:46Z",
+   "summary": "Myndighederne undersøger, om virusset bag udbruddet i det østlige Congo har ændret sig. Udbruddet er allerede det hurtigst voksende, der er registreret, og spørgsmålet har direkte betydning for, om de eksisterende vacciner og antistofbehandlinger holder."
+  },
+  {
+   "headline": "Novo-boss vil have ansatte til at løbe hurtigere og arbejde mere midt i krise: 'Uværdigt' og 'et hårdt signal', mener fagforeninger",
+   "text": "Novo-boss vil have ansatte til at løbe hurtigere og arbejde mere midt i krise: 'Uværdigt' og 'et hårdt signal', mener fagforeninger",
+   "url": "https://www.dr.dk/nyheder/penge/novo-boss-vil-have-ansatte-til-loebe-hurtigere-og-arbejde-mere-midt-i-krise-uvaerdigt-og-et-haardt",
+   "publisher": "DR",
+   "section": "Erhverv",
+   "publishedAt": "2026-08-07T16:20:00Z",
+   "summary": "Novo Nordisks adm. direktør Mike Doustdar beder medarbejderne stå tidligere op og gå senere i seng midt i massefyringer og en kollapset aktiekurs. Fagforeninger for både produktionsansatte og akademikere kalder retorikken uværdig."
+  }
+ ],
+ "keyNumber": {
+  "label": "USA: ændring i beskæftigelsen uden for landbruget",
+  "indicator": "us-nonfarm-payrolls-change",
+  "value": "-23.000",
+  "unit": "job i juli",
+  "asOf": "juli 2026",
+  "previous": {
+   "value": "20.000",
+   "asOf": "juni 2026 (revideret)",
+   "change": "43.000 færre end i juni"
+  },
+  "caption": "Første aflæsning i en ny serie, briefet vil læse hver måned. Bemærk revisionen frem for overskriften: maj og juni blev tilsammen skrevet 103.000 job ned.",
+  "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+  "sourceTitle": "Employment Situation Summary - 2026 M07 Results",
+  "series": [
+   {
+    "label": "Juni 2026",
+    "value": 20
+   },
+   {
+    "label": "Juli 2026",
+    "value": -23
+   }
+  ]
+ },
+ "recommendations": [
+  {
+   "id": "rec-20260808-aghion-creative-destruction",
+   "tier": "featured",
+   "isFeatured": true,
+   "mode": "watch",
+   "kind": "prisforelæsning",
+   "status": "available",
+   "title": "The Economics of Creative Destruction",
+   "creator": "Philippe Aghion",
+   "provider": "NobelPrize.org",
+   "url": "https://www.nobelprize.org/prizes/economic-sciences/2025/aghion/lecture/",
+   "availability": "Gratis på nobelprize.org uden login. Videoen ligger indlejret på siden, og forelæsningens slides kan hentes som PDF fra samme side. Ingen kendt geografisk begrænsning.",
+   "commitment": "40 min video, plus slides som PDF",
+   "description": "Philippe Aghions prisforelæsning for Nobelprisen i økonomi 2025, som han deler med Peter Howitt for teorien om vedvarende vækst gennem kreativ destruktion. Forelæsningen gennemgår mekanismen: vækst kommer af, at nye virksomheder fortrænger etablerede.",
+   "rationale": "Analytisk økonomi optræder ikke i én af dine 74 læste titler, og det er præcis hullet her. Aghions model siger, at væksten kommer fra dem, der bliver skubbet ud, ikke fra dem der bliver løftet ind, og den er en direkte indvending mod den missionsdrevne statskapitalisme du har sat på hylden med Mazzucato. Fyrre minutter fra manden selv, med tallene bag, i stedet for et referat af dem.",
+   "topics": [
+    "økonomi",
+    "vækstteori",
+    "innovation",
+    "kreativ destruktion",
+    "statslig kapital"
+   ],
+   "image": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Philippe_Aghion%2C_2025_Nobel_laureate_at_2025_Nobel_lecture.jpg/1280px-Philippe_Aghion%2C_2025_Nobel_laureate_at_2025_Nobel_lecture.jpg",
+    "credit": "Foto: Wikimedia Commons",
+    "alt": "Philippe Aghion holder sin Nobelforelæsning i økonomi 2025.",
+    "sourceUrl": "https://www.nobelprize.org/prizes/economic-sciences/2025/aghion/lecture/"
+   }
+  },
+  {
+   "id": "rec-20260808-gavin-baker-ai-market-jitters",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "investorsamtale",
+   "status": "available",
+   "title": "Gavin Baker - AI Market Jitters - [Invest Like the Best, EP.485]",
+   "creator": "Patrick O'Shaughnessy med Gavin Baker, Atreides Management",
+   "provider": "Invest Like the Best",
+   "url": "https://colossus.com/episode/ai-market-jitters/",
+   "availability": "Gratis på colossus.com og i podcast-apps.",
+   "commitment": "1 t 5 min",
+   "note": "Optaget efter en hård måned for AI-aktierne, og han argumenterer med kontraktpriser på GPU'er frem for fortællinger — det register, man skal kunne tale i for at blive taget alvorligt om AI-eksponering.",
+   "topics": [
+    "ai-kapitalmarkeder",
+    "gpu-økonomi",
+    "compute",
+    "halvledere"
+   ]
+  },
+  {
+   "id": "rec-20260808-chinatalk-wartalk-ammo",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "analysesamtale",
+   "status": "available",
+   "title": "WarTalk: Ammo + CCAs Are Dumb?",
+   "creator": "Jordan Schneider med Bryan Clark og Justin McIntosh",
+   "provider": "ChinaTalk",
+   "url": "https://www.chinatalk.media/p/wartalk-ammo-ccas-are-dumb",
+   "availability": "Gratis på chinatalk.media med fuldt transskript, og i podcast-apps.",
+   "commitment": "1 t 18 min",
+   "note": "Nogen tæller for en gangs skyld ammunitionen i stedet for at tale om kapaciteter, og lagerudtømning er den mest konkrete efterspørgselsindikator, forsvarsindustrien har lige nu.",
+   "topics": [
+    "forsvar",
+    "ammunition",
+    "kina",
+    "industripolitik"
+   ]
+  },
+  {
+   "id": "rec-20260808-em-dash-congress",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "artikel",
+   "status": "available",
+   "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press releases at the dawn of the large-language-model era, 2021-2025",
+   "creator": "arXiv, cs.CY",
+   "provider": "arXiv",
+   "url": "https://arxiv.org/abs/2608.05889",
+   "availability": "Åben adgang, fuld PDF frit tilgængelig uden login. Forregistrering og data ligger åbent på OSF.",
+   "commitment": "19 sider",
+   "note": "Et forregistreret forsøg på at måle sproglig AI-smitte i et helt korpus ved at tælle ét tegn — og en test af den udbredte fornemmelse af, at tankestregen afslører maskinen.",
+   "topics": [
+    "sprog",
+    "ai-detektion",
+    "politisk kommunikation",
+    "metode"
+   ]
+  },
+  {
+   "id": "rec-20260808-ernest-cole-lost-and-found",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "watch",
+   "kind": "dokumentarfilm",
+   "status": "available",
+   "title": "Ernest Cole: Lost and Found",
+   "creator": "Raoul Peck",
+   "provider": "MUBI",
+   "url": "https://mubi.com/en/dk/films/ernest-cole-lost-and-found",
+   "availability": "Streamer i Danmark på MUBI, lagt op 31. juli 2026 og tilgængelig til 31. juli 2028. Engelsk tale med danske undertekster. Kræver MUBI-abonnement; MUBI tilbyder syv dages gratis prøve.",
+   "commitment": "102 min",
+   "note": "Bygget på 60.000 negativer, der dukkede op i en svensk bankboks i 2017: hvad et fotografi kan udrette politisk, og hvad det koster den, der tager det.",
+   "topics": [
+    "fotografi",
+    "apartheid",
+    "dokumentar",
+    "sydafrika"
+   ]
+  },
+  {
+   "id": "rec-20260808-kant-aandeseers-droemme",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "bog",
+   "status": "available",
+   "title": "En åndeseers drømme",
+   "creator": "Immanuel Kant, oversat af Benjamin Boysen og Martin Due Bjerre",
+   "provider": "Forlaget Klim",
+   "url": "https://klim.dk/bog/en-aandeseers-droemme/",
+   "availability": "Udkommet 8. maj 2026 på Forlaget Klim, købes via forlagets side. ISBN 9788775912001.",
+   "commitment": "110 sider",
+   "note": "Kants spørgsmål fra 1766 er, hvordan man skiller viden fra en overbevisende beretning, ingen kan efterprøve — læs den som en indvending mod de store forløbspåstande om AI, du selv rangerer højest.",
+   "topics": [
+    "filosofi",
+    "kant",
+    "erkendelsesteori",
+    "primærtekst"
+   ]
+  },
+  {
+   "id": "rec-20260808-legacy-of-john-rawls",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "paneldebat",
+   "status": "available",
+   "title": "The Legacy of John Rawls",
+   "creator": "Philosophy Overdose",
+   "provider": "Philosophy Overdose",
+   "url": "https://www.youtube.com/watch?v=C7SifTl18R0",
+   "availability": "Gratis på YouTube uden login. Ingen kendt geografisk begrænsning.",
+   "commitment": "47 min",
+   "note": "Rawlsiansk politisk teori optræder ikke i nogen af dine læste titler, og fordelingsretfærdighed uden forventningsværdi er en anden måde at stille spørgsmålet om statslig kapital på.",
+   "topics": [
+    "filosofi",
+    "politisk teori",
+    "retfærdighed",
+    "rawls"
+   ]
+  },
+  {
+   "id": "rec-20260808-swiftlet",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "try",
+   "kind": "værktøj",
+   "status": "available",
+   "title": "Swiftlet",
+   "creator": "leonickson1",
+   "provider": "GitHub",
+   "url": "https://github.com/leonickson1/Swiftlet",
+   "availability": "Gratis under Apache-2.0. Kræver Apple Silicon-Mac med macOS 14+ og 18 GB ledig plads til 35B-modellen, 42 GB til 80B. Ingen API-nøgle og ingen ekstern GPU. Modelvægte hentes separat.",
+   "commitment": "Ca. 30 min opsætning plus download",
+   "note": "En stor model kørende lokalt på din egen Mac uden API-nøgle er den billigste måde at få en fornemmelse af, hvad inferens faktisk koster i hardware.",
+   "topics": [
+    "værktøjer",
+    "lokale modeller",
+    "apple silicon",
+    "open source"
+   ]
+  },
+  {
+   "id": "rec-20260808-setser-yen-intervention",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "makrosamtale",
+   "status": "available",
+   "title": "Brad Setser on the US's Unusual Japanese Yen Intervention",
+   "creator": "Joe Weisenthal og Tracy Alloway med Brad Setser",
+   "provider": "Odd Lots",
+   "url": "https://omny.fm/shows/odd-lots/brad-setser-on-the-uss-unusual-japanese-yen-intervention",
+   "availability": "Gratis via Bloombergs egen distributionsside og i podcast-apps. Bloombergs artikelside bag afsnittet er abonnementsbeskyttet, men lyden er fri.",
+   "commitment": "42 min",
+   "note": "Mekanikken bag den fælles yen-intervention: hvorfor der blev solgt euro og ikke dollar, og hvad en sjældent brugt repo-facilitet i Federal Reserve blev brugt til.",
+   "topics": [
+    "valuta",
+    "japan",
+    "federal reserve",
+    "kapitalstrømme"
+   ]
+  },
+  {
+   "id": "rec-20260808-nber-predictive-risk-scores",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "arbejdspapir",
+   "status": "available",
+   "title": "Predictive Risk Scores in the Public Sector: Experimental Evidence from Child-Protection Investigations",
+   "creator": "NBER Working Paper 35540",
+   "provider": "NBER",
+   "url": "https://www.nber.org/papers/w35540",
+   "availability": "Abstract og fuld PDF hentes direkte fra nber.org uden login og uden betaling.",
+   "commitment": "48 sider",
+   "note": "Et randomiseret forsøg med algoritmisk risikoscoring i myndighedsafgørelser med reelle konsekvenser for mennesker, hvilket er sjældnere end mængden af meninger om emnet antyder.",
+   "topics": [
+    "algoritmer",
+    "offentlig sektor",
+    "evidens",
+    "ai-etik"
+   ]
+  }
+ ],
+ "quality": {
+  "sourceDiversity": 94,
+  "primarySourceShare": 44,
+  "outsideProfileCoverage": 100,
+  "verificationDepth": 88
+ }
+}
