@@ -1,0 +1,1156 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-09",
+ "date": "2026-08-09",
+ "generatedAt": "2026-08-09T03:58:32.825Z",
+ "readingMinutes": 12,
+ "title": "Alexanders Brief — søndag 9. august 2026",
+ "dek": "Amazon står bag et gaskraftværk på 7,65 gigawatt i Texas, der skal køre uden om elnettet. Det amerikanske senat vedtog 86-11 sanktioner mod russisk energi — uden at det dermed er lov. Og FN’s fødevarepriser er de højeste i tre år.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "story-amazon-gw-ranch-20260809",
+   "eventKey": "amazon-gw-ranch-offgrid-gas-datacenter-2026-08",
+   "section": "Energi",
+   "isLead": true,
+   "isOutsideProfile": false,
+   "headline": "Scoop: Amazon Is Behind One of the Largest Planned Gas Power Plants in the US",
+   "primarySourceUrl": "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the",
+   "subheadline": "Amazon har bekræftet, at selskabet står bag et gaskraftværk på 7,65 gigawatt i Texas, der skal forsyne dets første datacenterkampus uden forbindelse til elnettet.",
+   "materialFacts": [
+    "Amazon har over for Cleanview bekræftet, at det har købt GW Ranch-grunden i Pecos County i Texas og vil købe strøm fra kraftværket",
+    "Kraftværket udvikles af Pacifico Energy og er godkendt til 7,65 gigawatt fordelt på 35 gasturbiner",
+    "Anlægget skal køre uden forbindelse til det texanske elnet, i det mindste til at begynde med",
+    "Luftgodkendelsen fra delstatens miljømyndighed TCEQ tillader udledning af op til 33 millioner ton CO2 om året",
+    "Satellitbilleder fra 24. juli 2026 viser, at rydningen af grunden allerede er begyndt"
+   ],
+   "body": [
+    "Amazon står bag GW Ranch i Pecos County i Texas: et gaskraftværk på 7,65 gigawatt fordelt på 35 turbiner, som skal forsyne selskabets første datacenterkampus uden forbindelse til elnettet. Analysehuset Cleanview koblede tre nye byggetilladelser sammen med kraftværkets luftgodkendelse og så på satellitbilleder fra 24. juli, at grunden blev ryddet. Amazon bekræftede.",
+    "Miljømyndigheden TCEQ har godkendt udledning af op til 33 millioner ton CO2 om året; udnyttes rammen fuldt ud, bliver ét anlæg USA’s største enkeltkilde. Værket udvikles af Pacifico Energy, og første strøm ventes i første kvartal 2027."
+   ],
+   "whyItMatters": "Det er prisen på AI-udbygningen skrevet i gigawatt og ton, betalt et sted, hvor ingen skal spørges. Går man uden om elnettet, forsvinder også forhandlingen om, hvem der får strøm først.",
+   "analysis": "Off-grid er et hastighedsvalg, ikke et klimavalg: en plads i tilslutningskøen koster år, en egen turbine måneder. Cleanview tæller knap 60 annoncerede gasprojekter bag måleren siden 2025, tilsammen omkring 90 gigawatt. Danmark kan ikke kopiere trækket.",
+   "counterpoint": "Amazon gør den manglende nettilslutning til et forbrugerhensyn: anlægget »won’t raise electricity costs for Texas families«.",
+   "topics": [
+    "datacentre",
+    "energi",
+    "ai-infrastruktur",
+    "klima",
+    "usa"
+   ],
+   "entities": [
+    "Amazon",
+    "Pacifico Energy",
+    "GW Ranch",
+    "Cleanview",
+    "TCEQ",
+    "Pecos County",
+    "Texas"
+   ],
+   "scores": {
+    "importance": 88,
+    "decisionValue": 78,
+    "novelty": 84,
+    "sourceQuality": 76,
+    "personalRelevance": 82,
+    "contrast": 62
+   },
+   "image": {
+    "url": "https://substack-post-media.s3.amazonaws.com/public/images/b97744f6-c0d7-4f1e-b577-0120f3d80c85_1200x980.jpeg",
+    "credit": "Satellitfoto: Airbus DS (2026) via Cleanview",
+    "alt": "Satellitfoto af den ryddede byggeplads til GW Ranch-anlægget i Pecos County i Texas, optaget 24. juli 2026.",
+    "sourceUrl": "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the"
+   },
+   "claims": [
+    {
+     "text": "Amazon har bekræftet at have købt GW Ranch-grunden i Pecos County, Texas, og at ville købe strøm fra et gaskraftværk udviklet af Pacifico Energy.",
+     "sourceUrls": [
+      "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the",
+      "https://techxplore.com/news/2026-08-amazon-massive-private-gas-centers.html"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Kraftværkets tilladelser angiver 35 turbiner og 7,65 gigawatt, hvilket er større end noget gasværk, der i dag er i drift i USA.",
+     "sourceUrls": [
+      "https://techxplore.com/news/2026-08-amazon-massive-private-gas-centers.html",
+      "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Delstaten Texas har givet anlægget en luftgodkendelse på op til 33 millioner ton CO2 om året.",
+     "sourceUrls": [
+      "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Der er siden begyndelsen af 2025 annonceret knap 60 gasprojekter bag måleren til datacentre med en samlet kapacitet på omkring 90 gigawatt.",
+     "sourceUrls": [
+      "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Scoop: Amazon Is Behind One of the Largest Planned Gas Power Plants in the US",
+     "publisher": "Distilled (Cleanview)",
+     "url": "https://www.distilled.earth/p/scoop-amazon-is-behind-one-of-the",
+     "publishedAt": "2026-08-07T16:48:49Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Amazon behind massive private gas plant for new data centers",
+     "publisher": "AFP via Tech Xplore",
+     "url": "https://techxplore.com/news/2026-08-amazon-massive-private-gas-centers.html",
+     "publishedAt": "2026-08-08T11:00:05Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-sebastia-arkaeologi-20260809",
+   "eventKey": "sebastia-archaeology-land-expropriation-2026-08",
+   "section": "Kulturarv",
+   "isLead": false,
+   "isOutsideProfile": true,
+   "headline": "Israel accused of weaponising archaeology at ancient West Bank sites",
+   "primarySourceUrl": "https://www.bbc.com/news/articles/c20d8qre98do",
+   "subheadline": "Omkring 450 acres jord ved det antikke Sebastia eksproprieres til en national park. Unesco har netop skrevet stedet på listen over verdensarv i fare.",
+   "materialFacts": [
+    "Israelske myndigheder eksproprierer omkring 450 acres jord ved Sebastia på Vestbredden med henvisning til en kommende nationalpark, »Samaria«",
+    "Unesco optog i slutningen af juli Sebastia på både verdensarvslisten og listen over verdensarv i fare, efter en hasteprocedure",
+    "Unesco angiver selv den planlagte ekspropriation og nationalparken som hovedtruslen mod stedet, fordi den kan dele lokaliteten",
+    "Ved Herodium længere mod syd eksproprieres omkring 80 acres til »bevaring og udvikling« af stedet",
+    "Israels udenrigsminister Gideon Saar afviser Unescos beslutning"
+   ],
+   "body": [
+    "Ved det antikke Sebastia på Vestbredden eksproprierer israelske myndigheder omkring 450 acres olivenjord med henvisning til en kommende nationalpark, »Samaria«. Lodsejerne får sjældent betaling, og de fleste afviser den, fordi den ville anerkende tabet.",
+    "Unesco optog i slutningen af juli stedet på verdensarvslisten og samtidig på listen over verdensarv i fare, og peger selv på ekspropriationen som hovedtruslen, fordi parken kan dele lokaliteten. Udenrigsminister Gideon Saar afviser beslutningen."
+   ],
+   "whyItMatters": "Udgravning og bevaring er her ikke kulturpolitik, men et redskab til at flytte kontrol med jord — langsomt og lovligt, og derfor sjældent set som konflikt.",
+   "analysis": "Arkæologi egner sig, fordi hegn og en flyttet indgang kan begrundes med noget, der ikke er politik. Peace Now formulerer knuden: ekspropriation, der kun gavner den ene befolkning, er forbudt, så staten må hævde, at parken tjener begge parter.",
+   "topics": [
+    "kulturarv",
+    "arkæologi",
+    "unesco",
+    "israel",
+    "palæstina"
+   ],
+   "entities": [
+    "Sebastia",
+    "Unesco",
+    "Emek Shaveh",
+    "Peace Now",
+    "Gideon Saar",
+    "Herodium",
+    "Vestbredden"
+   ],
+   "scores": {
+    "importance": 74,
+    "decisionValue": 44,
+    "novelty": 70,
+    "sourceQuality": 88,
+    "personalRelevance": 30,
+    "contrast": 86
+   },
+   "image": {
+    "url": "https://ichef.bbci.co.uk/news/1024/branded_news/52b5/live/810aa740-917b-11f1-b8ee-9b3c26ad07bb.jpg",
+    "credit": "Foto: BBC",
+    "alt": "De romerske søjler ved det antikke Sebastia på Vestbredden.",
+    "sourceUrl": "https://www.bbc.com/news/articles/c20d8qre98do"
+   },
+   "claims": [
+    {
+     "text": "Israelske myndigheder eksproprierer omkring 450 acres jord ved Sebastia med henvisning til en planlagt nationalpark.",
+     "sourceUrls": [
+      "https://www.bbc.com/news/articles/c20d8qre98do"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Unesco har optaget Sebastia på verdensarvslisten og samtidig på listen over verdensarv i fare, og angiver ekspropriationen og nationalparken som hovedtruslen.",
+     "sourceUrls": [
+      "https://www.bbc.com/news/articles/c20d8qre98do",
+      "https://www.unesco.org/en/articles/facing-major-threats-six-new-sites-join-unescos-list-world-heritage-danger-three-them-emergency"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Ved Herodium eksproprieres omkring 80 acres med henvisning til bevaring og udvikling af stedet.",
+     "sourceUrls": [
+      "https://www.bbc.com/news/articles/c20d8qre98do"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Israel accused of weaponising archaeology at ancient West Bank sites",
+     "publisher": "BBC News",
+     "url": "https://www.bbc.com/news/articles/c20d8qre98do",
+     "publishedAt": "2026-08-08T23:43:44Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Facing major threats, six new sites join UNESCO’s List of World Heritage in Danger, three of them on an emergency basis",
+     "publisher": "UNESCO",
+     "url": "https://www.unesco.org/en/articles/facing-major-threats-six-new-sites-join-unescos-list-world-heritage-danger-three-them-emergency",
+     "publishedAt": "2026-07-26T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-fao-fodevarepriser-20260809",
+   "eventKey": "fao-food-price-index-july-2026",
+   "section": "Økonomi",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "FAO Food Price Index edges up amid weather, energy and geopolitical concerns",
+   "primarySourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+   "subheadline": "FN’s fødevareprisindeks lå på 131,1 point i juli, det højeste i mere end tre år. Korn og vegetabilske olier trækker op, mejeri kraftigt ned.",
+   "materialFacts": [
+    "FAO’s fødevareprisindeks lå på 131,1 point i juli 2026, 0,6 procent over juni og 1,0 procent over juli 2025",
+    "Kornindekset steg 3,4 procent på måneden og lå 6,9 procent over juli 2025",
+    "Indekset for vegetabilske olier steg 2,0 procent og er det højeste siden juni 2022",
+    "Sukkerindekset steg 5,6 procent, mens kødindekset faldt 2,8 procent fra sin rekord i juni",
+    "Mejeriindekset faldt 0,7 procent på måneden"
+   ],
+   "body": [
+    "FAO opgjorde sit fødevareprisindeks til 131,1 point i juli 2026, 0,7 point over juni og 1,0 procent over juli 2025 — det højeste i mere end tre år. Bevægelsen er ikke bred: korn steg 3,4 procent på måneden, vegetabilske olier 2,0 procent til det højeste siden juni 2022, sukker 5,6 procent.",
+    "Modsat faldt kød 2,8 procent fra sin rekord i juni, på lavere brasilianske noteringer, mens mejeri faldt 0,7 procent. FAO peger på hedebølger, energipriser og bekymring for eksporten gennem Sortehavet."
+   ],
+   "whyItMatters": "Fødevarepriser er den korteste vej fra vejr og krig til politisk uro, fordi de rammer husholdningsbudgetter i importlande direkte og hurtigt.",
+   "analysis": "Spredningen siger mere end niveauet. Stiger korn og olier, mens kød og mejeri falder, er det ikke bred fødevareinflation, men et udbudschok i afgrøder, der endnu ikke er nået gennem foderet til animalsk produktion.",
+   "topics": [
+    "fødevarer",
+    "råvarepriser",
+    "landbrug",
+    "inflation",
+    "fn"
+   ],
+   "entities": [
+    "FAO",
+    "FAO Food Price Index",
+    "Sortehavet",
+    "Brasilien"
+   ],
+   "scores": {
+    "importance": 76,
+    "decisionValue": 66,
+    "novelty": 58,
+    "sourceQuality": 96,
+    "personalRelevance": 44,
+    "contrast": 52
+   },
+   "image": {
+    "url": "https://www.fao.org/media/images/newsroomlibraries/default-album/uf178yc-_cav2152.jpg?sfvrsn=292bbf01_2",
+    "credit": "Foto: FAO",
+    "alt": "Arkivfoto af en moden hvedemark; FAO bruger billedet til sin månedlige opgørelse af fødevarepriserne.",
+    "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en"
+   },
+   "primaryExcerpt": {
+    "quote": "averaged 131.1 points in July 2026, up 0.6 percent from its June level and 1.0 percent higher than its year-earlier level",
+    "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+    "sourceTitle": "FAO Food Price Index edges up amid weather, energy and geopolitical concerns"
+   },
+   "claims": [
+    {
+     "text": "FAO Food Price Index lå på 131,1 point i juli 2026, 0,6 procent over juni og 1,0 procent over juli 2025.",
+     "sourceUrls": [
+      "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Kornindekset steg 3,4 procent fra juni og lå 6,9 procent over juli 2025.",
+     "sourceUrls": [
+      "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Indekset for vegetabilske olier steg 2,0 procent og nåede sit højeste niveau siden juni 2022, mens kød faldt 2,8 procent og mejeri 0,7 procent.",
+     "sourceUrls": [
+      "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FAO Food Price Index edges up amid weather, energy and geopolitical concerns",
+     "publisher": "Food and Agriculture Organization of the United Nations",
+     "url": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+     "publishedAt": "2026-08-07T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-amd-taalas-20260809",
+   "eventKey": "amd-acquires-taalas-inference-silicon-2026-08",
+   "section": "Halvledere",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
+   "primarySourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+   "subheadline": "AMD køber canadiske Taalas, der brænder modellerne fast i silicium i stedet for at afvikle dem på generelle chips. Prisen er ikke oplyst.",
+   "materialFacts": [
+    "AMD har indgået en bindende aftale om at købe Taalas; prisen er ikke oplyst",
+    "Taalas blev grundlagt i 2023 og har hovedkvarter i Toronto i Canada",
+    "Taalas’ teknologi optimerer dataflow i inferens og reducerer flaskehalse i beregning og hukommelse",
+    "AMD vil integrere teknologien i sin acceleratorplan sammen med Instinct-GPU’er, EPYC, Helios og ROCm",
+    "Handlen mangler myndighedsgodkendelser og sædvanlige betingelser"
+   ],
+   "body": [
+    "AMD køber Taalas, et canadisk selskab fra 2023 med hovedkvarter i Toronto, der bygger specialiseret silicium til AI-inferens. Prisen er ikke oplyst. Taalas lægger hardwaren omkring modellen frem for omvendt, og AMD begrunder købet med, at inferens bliver et af de hurtigst voksende segmenter.",
+    "Teknologien skal ind i acceleratorplanen sammen med Instinct-GPU’er, EPYC, Helios-racks og ROCm. Taalas er grundlagt af Ljubisa Bajic, tidligere medstifter og direktør i Tenstorrent. Handlen mangler myndighedsgodkendelse."
+   ],
+   "whyItMatters": "Træning har hidtil bestemt, hvem der køber hvilke chips. Flytter tyngden til inferens, tæller pris pr. forespørgsel mere end rå ydeevne.",
+   "analysis": "Købet er et væddemål på, at modellerne falder til ro. Gevinsten ved at støbe en model fast i silicium forsvinder, hvis arkitekturen skifter, før chippen er i drift — netop den risiko er generelle GPU’er prissat til at bære.",
+   "topics": [
+    "halvledere",
+    "ai",
+    "inferens",
+    "opkøb",
+    "canada"
+   ],
+   "entities": [
+    "AMD",
+    "Taalas",
+    "Ljubisa Bajic",
+    "Tenstorrent",
+    "Vamsi Boppana",
+    "Toronto"
+   ],
+   "scores": {
+    "importance": 72,
+    "decisionValue": 74,
+    "novelty": 76,
+    "sourceQuality": 92,
+    "personalRelevance": 88,
+    "contrast": 44
+   },
+   "claims": [
+    {
+     "text": "AMD har indgået en bindende aftale om at købe Taalas, der er grundlagt i 2023 og har hovedkvarter i Toronto; prisen er ikke oplyst.",
+     "sourceUrls": [
+      "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "AMD vil integrere Taalas’ teknologi i sin acceleratorplan sammen med Instinct-GPU’er, EPYC, Helios og ROCm, og handlen mangler myndighedsgodkendelser.",
+     "sourceUrls": [
+      "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Taalas er grundlagt af Ljubisa Bajic, tidligere medstifter og direktør i Tenstorrent.",
+     "sourceUrls": [
+      "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+      "https://www.cnbc.com/2026/08/06/amd-buys-taalas-startup-that-hardwires-ai-models-into-its-silicon.html"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "AMD Acquires Taalas to Advance Compute Solutions for Rapidly Growing AI Inference Market",
+     "publisher": "AMD",
+     "url": "https://ir.amd.com/news-events/press-releases/detail/1296/amd-acquires-taalas-to-advance-compute-solutions-for-rapidly-growing-ai-inference-market",
+     "publishedAt": "2026-08-06T13:00:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "AMD buys chip startup that hardwires AI models into its silicon",
+     "publisher": "CNBC",
+     "url": "https://www.cnbc.com/2026/08/06/amd-buys-taalas-startup-that-hardwires-ai-models-into-its-silicon.html",
+     "publishedAt": "2026-08-06T20:05:37Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "story-senat-ruslandssanktioner-20260809",
+   "eventKey": "us-senate-graham-russia-iran-sanctions-2026-08",
+   "section": "Geopolitik",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
+   "primarySourceUrl": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war",
+   "subheadline": "Senatet vedtog 86-11 en sanktionspakke mod købere af russisk energi. Den er ikke lov: teksten skal tilbage til Repræsentanternes Hus.",
+   "materialFacts": [
+    "Senatet vedtog H.R.5334 som ændret med 86 stemmer mod 11 den 7. august 2026 (afstemning nr. 224)",
+    "Den vedtagne teksts officielle korttitel er »Lindsey O. Graham Sanctioning Russia and Iran Act of 2026« og omfatter altså også Iran",
+    "H.R.5334 er brugt som lovgivningsvogn; Huset vedtog den oprindelige, urelaterede tekst ved stemmeafgivelse uden optælling i april 2026",
+    "Blandt de 11 nej-stemmer er ti demokrater eller uafhængige plus republikaneren Rand Paul",
+    "Forslaget er ikke lov og har ikke passeret Kongressen"
+   ],
+   "body": [
+    "Det amerikanske senat vedtog den 7. august med 86 stemmer mod 11 en sanktionspakke rettet mod russisk energi og mod dem, der køber den. Teksten hedder officielt »Lindsey O. Graham Sanctioning Russia and Iran Act of 2026« og omfatter altså også Iran.",
+    "Vedtagelsen er ikke lovgivning. Teksten er lagt ind i H.R.5334, et lovforslag om noget andet, som Huset vedtog uden optælling i april, og skal derfor tilbage dertil. Blandt de elleve nej-stemmer er ti demokrater eller uafhængige plus republikaneren Rand Paul."
+   ],
+   "whyItMatters": "Sekundære sanktioner rammer ikke Rusland, men de selskaber og lande, der handler med Rusland. Rækkevidden afgøres af den endelige tekst, ikke af afstemningen.",
+   "analysis": "Afstanden mellem 86-11 og gældende ret er historien. Vognforslaget gør den svær at se: statussiden viser både »Passed House« og »Passed Senate«, selv om Huset aldrig har stemt om sanktionsteksten.",
+   "topics": [
+    "sanktioner",
+    "geopolitik",
+    "ukraine",
+    "usa",
+    "rusland"
+   ],
+   "entities": [
+    "Senatet",
+    "Lindsey Graham",
+    "H.R.5334",
+    "Rand Paul",
+    "Rusland",
+    "Iran",
+    "Ukraine"
+   ],
+   "scores": {
+    "importance": 90,
+    "decisionValue": 72,
+    "novelty": 74,
+    "sourceQuality": 90,
+    "personalRelevance": 42,
+    "contrast": 48
+   },
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26218679962056-1786142915.jpg",
+    "credit": "Foto: AP via Al Jazeera",
+    "alt": "Det amerikanske senats bygning på Capitol Hill i Washington.",
+    "sourceUrl": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war"
+   },
+   "claims": [
+    {
+     "text": "Senatet vedtog H.R.5334 som ændret med 86 mod 11 stemmer den 7. august 2026.",
+     "sourceUrls": [
+      "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.htm",
+      "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Den vedtagne teksts officielle korttitel er »Lindsey O. Graham Sanctioning Russia and Iran Act of 2026«.",
+     "sourceUrls": [
+      "https://www.govinfo.gov/content/pkg/BILLS-119hr5334eas/html/BILLS-119hr5334eas.htm"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Forslaget har ikke passeret Kongressen og er ikke lov; det skal tilbage til Repræsentanternes Hus.",
+     "sourceUrls": [
+      "https://www.congress.gov/bill/119th-congress/house-bill/5334/all-actions"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "US Senate passes sweeping Russian energy sanctions bill amid Ukraine war",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/economy/2026/8/8/us-senate-passes-sweeping-russian-energy-sanctions-bill-amid-ukraine-war",
+     "publishedAt": "2026-08-08T00:06:22Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "On Passage of the Bill (H.R. 5334, as amended) — Vote Number 224",
+     "publisher": "United States Senate",
+     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.htm",
+     "publishedAt": "2026-08-07T16:43:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "H.R.5334 — All Actions",
+     "publisher": "Congress.gov",
+     "url": "https://www.congress.gov/bill/119th-congress/house-bill/5334/all-actions",
+     "publishedAt": "2026-08-07T00:00:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "BILLS-119hr5334eas — Engrossed Amendment Senate",
+     "publisher": "U.S. Government Publishing Office",
+     "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr5334eas/html/BILLS-119hr5334eas.htm",
+     "publishedAt": "2026-08-07T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-fda-tudriqev-20260809",
+   "eventKey": "fda-tudriqev-melanoma-accelerated-approval-2026-08",
+   "section": "Sundhed",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "FDA Approves New Engineered Viral Immunotherapy for Patients with Treatment-Resistant Advanced Melanoma",
+   "primarySourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma",
+   "subheadline": "En genmodificeret virus, der sprøjtes direkte i knuden, er godkendt til modermærkekræft. Svarraten er 24,2 procent — opgjort på 91 af 140 patienter.",
+   "materialFacts": [
+    "FDA gav 6. august 2026 accelereret godkendelse til vusolimogene oderparepvec-wtpg (Tudriqev, Replimune) i kombination med nivolumab",
+    "Indikationen er fremskreden modermærkekræft, der er forværret under behandling med en PD-1-hæmmer",
+    "Godkendelsen bygger på IGNYTE-forsøget med 140 patienter, hvoraf 91 indgik i effektopgørelsen",
+    "Objektiv svarrate 24,2 procent (95 procent konfidensinterval 15,8-34,3) og median varighed af respons 14,1 måneder",
+    "Accelereret godkendelse forudsætter et bekræftende forsøg"
+   ],
+   "body": [
+    "FDA gav 6. august accelereret godkendelse til vusolimogene oderparepvec-wtpg — Tudriqev fra Replimune — i kombination med nivolumab. Midlet er en genmodificeret virus, der sprøjtes direkte ind i knuden, mod fremskreden modermærkekræft, der er forværret under en PD-1-hæmmer.",
+    "Grundlaget er IGNYTE-forsøget: åbent, uden kontrolgruppe, 140 patienter. Effekten er opgjort på de 91, der havde mindst én ikke-injiceret knude. Svarraten var 24,2 procent (konfidensinterval 15,8-34,3), medianvarigheden 14,1 måneder. Godkendelsen forudsætter et bekræftende forsøg."
+   ],
+   "whyItMatters": "En ny virkemåde til en gruppe med få muligheder. Prisen er, at godkendelsen hviler på svarrate frem for overlevelse.",
+   "analysis": "Nævneren er pointen. At effekten opgøres på de 91 med en ikke-injiceret knude er ikke en teknikalitet, men selve spørgsmålet: virker en indsprøjtning i én knude på de andre?",
+   "topics": [
+    "bioteknologi",
+    "sundhed",
+    "regulering",
+    "kræft",
+    "usa"
+   ],
+   "entities": [
+    "FDA",
+    "Replimune",
+    "Tudriqev",
+    "nivolumab",
+    "IGNYTE"
+   ],
+   "scores": {
+    "importance": 74,
+    "decisionValue": 62,
+    "novelty": 80,
+    "sourceQuality": 98,
+    "personalRelevance": 56,
+    "contrast": 40
+   },
+   "claims": [
+    {
+     "text": "FDA gav 6. august 2026 accelereret godkendelse til vusolimogene oderparepvec-wtpg (Tudriqev) i kombination med nivolumab til fremskreden modermærkekræft efter progression på en PD-1-hæmmer.",
+     "sourceUrls": [
+      "https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Effekten er opgjort på 91 af IGNYTE-forsøgets 140 patienter, med objektiv svarrate 24,2 procent (95 procent CI 15,8-34,3) og median responsvarighed 14,1 måneder.",
+     "sourceUrls": [
+      "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma",
+      "https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "FDA Approves New Engineered Viral Immunotherapy for Patients with Treatment-Resistant Advanced Melanoma",
+     "publisher": "U.S. Food and Drug Administration",
+     "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma",
+     "publishedAt": "2026-08-06T20:00:00Z",
+     "kind": "primary"
+    },
+    {
+     "title": "FDA grants accelerated approval to vusolimogene oderparepvec-wtpg with nivolumab for melanoma",
+     "publisher": "U.S. Food and Drug Administration",
+     "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma",
+     "publishedAt": "2026-08-06T20:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-novo-tempo-20260809",
+   "eventKey": "novo-doustdar-tempo-fagforeninger-2026-08",
+   "section": "Danmark",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "Novo-boss vil have ansatte til at løbe hurtigere og arbejde mere midt i krise: 'Uværdigt' og 'et hårdt signal', mener fagforeninger",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/penge/novo-boss-vil-have-ansatte-til-loebe-hurtigere-og-arbejde-mere-midt-i-krise-uvaerdigt-og-et-haardt",
+   "subheadline": "Mike Doustdar sagde på et pressemøde, at ansatte skal stå tidligere op og gå senere i seng. To fagforeninger kalder det uværdigt.",
+   "materialFacts": [
+    "Novo Nordisks direktør Mike Doustdar sagde på et online pressemøde onsdag 5. august, at selskabet skal løbe i et andet tempo",
+    "Udtalelsen faldt som svar på et spørgsmål om, at Novo ifølge Randstad ikke længere er Danmarks mest attraktive arbejdsplads",
+    "Teknisk Landsforbund, der repræsenterer 600 Novo-ansatte, kalder retorikken uværdig",
+    "Djøf, der repræsenterer knap 800 jurister og økonomer i selskabet, siger at mange allerede har stresssymptomer",
+    "Novo Nordisk har ikke ønsket at kommentere kritikken over for DR"
+   ],
+   "body": [
+    "Novo Nordisks direktør Mike Doustdar sagde onsdag på et online pressemøde for flere danske medier, at selskabet skal løbe i et andet tempo: »Det kræver mere arbejde. Det kræver, at man står tidligere op og går senere i seng.« Det var svar på, at Novo ifølge Randstad ikke længere regnes for Danmarks mest attraktive arbejdsplads.",
+    "To fagforeninger reagerede: Teknisk Landsforbund, der har 600 medlemmer i Novo, kalder udsagnene uværdige, og Djøf, med knap 800, siger at mange allerede har stresssymptomer. Novo har ikke ønsket at kommentere."
+   ],
+   "whyItMatters": "Danmarks største selskab beder en arbejdsstyrke, det er i gang med at skære ned, om at yde mere.",
+   "analysis": "Nedlæggelsen af 9.000 stillinger globalt og 5.000 i Danmark blev meldt ud i september 2025 og er baggrund, ikke nyhed. Det nye er tonen, få dage efter et halvårsregnskab med opjusterede forventninger, men et år, der stadig ventes på niveau med eller under 2025.",
+   "topics": [
+    "novo nordisk",
+    "arbejdsmarked",
+    "erhverv",
+    "danmark",
+    "ledelse"
+   ],
+   "entities": [
+    "Novo Nordisk",
+    "Mike Doustdar",
+    "Teknisk Landsforbund",
+    "Djøf",
+    "Randstad"
+   ],
+   "scores": {
+    "importance": 68,
+    "decisionValue": 46,
+    "novelty": 66,
+    "sourceQuality": 84,
+    "personalRelevance": 52,
+    "contrast": 44
+   },
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/wwumfxwn/20260805-173924-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+    "credit": "Foto: DR",
+    "alt": "Novo Nordisks administrerende direktør Mike Doustdar.",
+    "sourceUrl": "https://www.dr.dk/nyheder/penge/novo-boss-vil-have-ansatte-til-loebe-hurtigere-og-arbejde-mere-midt-i-krise-uvaerdigt-og-et-haardt"
+   },
+   "claims": [
+    {
+     "text": "Mike Doustdar sagde på et online pressemøde onsdag 5. august 2026, at Novo Nordisk skal løbe i et andet tempo, og at det kræver at man står tidligere op og går senere i seng.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/penge/novo-boss-vil-have-ansatte-til-loebe-hurtigere-og-arbejde-mere-midt-i-krise-uvaerdigt-og-et-haardt"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Novo Nordisk meddelte 10. september 2025, at selskabet ville nedlægge omkring 9.000 stillinger globalt, heraf omkring 5.000 i Danmark.",
+     "sourceUrls": [
+      "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916424"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Teknisk Landsforbund repræsenterer 600 Novo-ansatte og Djøf knap 800; begge kritiserer udmeldingen, og Novo har ikke ønsket at kommentere.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/penge/novo-boss-vil-have-ansatte-til-loebe-hurtigere-og-arbejde-mere-midt-i-krise-uvaerdigt-og-et-haardt"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Novo-boss vil have ansatte til at løbe hurtigere og arbejde mere midt i krise: 'Uværdigt' og 'et hårdt signal', mener fagforeninger",
+     "publisher": "DR",
+     "url": "https://www.dr.dk/nyheder/penge/novo-boss-vil-have-ansatte-til-loebe-hurtigere-og-arbejde-mere-midt-i-krise-uvaerdigt-og-et-haardt",
+     "publishedAt": "2026-08-07T16:20:00Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Novo Nordisk announces organisational changes and cost savings",
+     "publisher": "Novo Nordisk",
+     "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=916424",
+     "publishedAt": "2025-09-10T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "story-deepseek-priser-20260809",
+   "eventKey": "deepseek-api-price-increase-notice-2026-08",
+   "section": "AI",
+   "isLead": false,
+   "isOutsideProfile": false,
+   "headline": "DeepSeek Plans Significant API Price Increases",
+   "primarySourceUrl": "https://technode.com/2026/08/06/deepseek-plans-significant-api-price-increases/",
+   "subheadline": "Selskabet, der startede priskrigen på inferens, varsler en større stigning. Hverken størrelse eller dato er oplyst.",
+   "materialFacts": [
+    "DeepSeeks egen API-dokumentation varsler en generel prisstigning med »forventet stor stigning«",
+    "Hverken nye priser eller ikrafttrædelsesdato er oplyst; selskabet henviser til en senere formel meddelelse",
+    "Gældende listepriser er uændrede: deepseek-v4-flash koster 0,14 dollar pr. million input-tokens uden cache-træf og 0,28 dollar pr. million output-tokens",
+    "deepseek-v4-pro koster 0,435 dollar pr. million input-tokens uden cache-træf og 0,87 dollar pr. million output-tokens",
+    "TechNodes artikel er en videreformidling af den kinesiske side IT-hjemmet og indeholder ingen selvstændig rapportering"
+   ],
+   "body": [
+    "DeepSeek har lagt en kort besked i sin egen API-dokumentation: priserne sættes generelt op, stigningen ventes at blive stor, og kunderne bør indrette deres forbrug efter det. Hvor meget og fra hvornår står der ikke; selskabet henviser til en formel meddelelse senere.",
+    "Priserne er indtil videre uændrede. V4-Flash koster 0,14 dollar pr. million input-tokens uden cache-træf og 0,28 for output, V4-Pro 0,435 og 0,87."
+   ],
+   "whyItMatters": "DeepSeek er det selskab, der udløste priskrigen på inferens. Vender det retning, flytter gulvet under alle, der har lagt budget efter kinesiske priser.",
+   "analysis": "En varslet stigning uden tal er selv et signal: prisen har ligget under omkostningen, og nogen skal nu betale forskellen. Bemærk kildekæden — nyheden er en aggregering, og det eneste primære er DeepSeeks egen dokumentation.",
+   "topics": [
+    "ai",
+    "kina",
+    "inferens",
+    "priser",
+    "open source"
+   ],
+   "entities": [
+    "DeepSeek",
+    "DeepSeek-V4-Flash",
+    "DeepSeek-V4-Pro",
+    "TechNode"
+   ],
+   "scores": {
+    "importance": 66,
+    "decisionValue": 70,
+    "novelty": 72,
+    "sourceQuality": 62,
+    "personalRelevance": 90,
+    "contrast": 46
+   },
+   "claims": [
+    {
+     "text": "DeepSeek varsler i sin egen API-dokumentation en generel prisstigning af forventet betydelig størrelse, uden at oplyse niveau eller dato.",
+     "sourceUrls": [
+      "https://api-docs.deepseek.com/quick_start/pricing/",
+      "https://technode.com/2026/08/06/deepseek-plans-significant-api-price-increases/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Gældende listepriser er 0,14 og 0,28 dollar pr. million tokens for DeepSeek-V4-Flash og 0,435 og 0,87 dollar for DeepSeek-V4-Pro.",
+     "sourceUrls": [
+      "https://api-docs.deepseek.com/quick_start/pricing/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "DeepSeek Plans Significant API Price Increases",
+     "publisher": "TechNode",
+     "url": "https://technode.com/2026/08/06/deepseek-plans-significant-api-price-increases/",
+     "publishedAt": "2026-08-06T05:36:04Z",
+     "kind": "reporting"
+    },
+    {
+     "title": "Models & Pricing",
+     "publisher": "DeepSeek",
+     "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+     "publishedAt": "2026-08-06T00:00:00Z",
+     "kind": "primary"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "text": "Tesla and SpaceX will invest $16.8B to start building ‘Terafab’ chip factory in Texas",
+   "headline": "Tesla and SpaceX will invest $16.8B to start building ‘Terafab’ chip factory in Texas",
+   "url": "https://techcrunch.com/2026/08/06/tesla-and-spacex-will-invest-16-8b-to-start-building-terafab-chip-factory-in-texas/",
+   "publisher": "TechCrunch",
+   "section": "Teknologi",
+   "publishedAt": "2026-08-06T15:21:51Z",
+   "summary": "Første fase er 16,8 mia. dollar i Grimes County. De 3.000 job er en hensigt: den underskrevne aftale med amtet kræver 1.800 job i 2035 og 5 mia. dollar investeret i 2030."
+  },
+  {
+   "text": "Efter Trump-aftale: Oliegigant trækker sig fra havmølleparker i Danmark",
+   "headline": "Efter Trump-aftale: Oliegigant trækker sig fra havmølleparker i Danmark",
+   "url": "https://ing.dk/artikel/efter-trump-aftale-oliegigant-traekker-sig-fra-havmoelleparker-i-danmark",
+   "publisher": "Ingeniøren",
+   "section": "Danmark",
+   "publishedAt": "2026-08-07T08:33:59Z",
+   "summary": "TotalEnergies forlader Jammerland og Lillebælt Syd på 240 og 165 megawatt. Artiklen er bag betalingsmur, og begrundelsen har vi ikke kunnet bekræfte uafhængigt."
+  },
+  {
+   "text": "Endnu en topfigur bag Novos supercomputer stopper: »Hold øje med min Linkedin«",
+   "headline": "Endnu en topfigur bag Novos supercomputer stopper: »Hold øje med min Linkedin«",
+   "url": "https://ing.dk/artikel/endnu-en-topfigur-bag-novos-supercomputer-stopper-hold-oeje-med-min-linkedin",
+   "publisher": "Ingeniøren",
+   "section": "Danmark",
+   "publishedAt": "2026-08-07T03:00:00Z",
+   "summary": "Ali Syed forlader DCAI, hvor han var med til at bygge Gefion. Anden seniorafgang fra holdet bag Danmarks største AI-anlæg."
+  },
+  {
+   "text": "Firmus Announces Fully Subscribed USD$2 Billion Strategic Equity Investment",
+   "headline": "Firmus Announces Fully Subscribed USD$2 Billion Strategic Equity Investment",
+   "url": "https://firmus.co/newsroom/firmus-announces-fully-subscribed-usdusd2-billion-strategic-equity-investment-to-accelerate-nvidia-ai-factory-expansion-across-australia-and-asia-pacific",
+   "publisher": "Firmus",
+   "section": "Venturekapital",
+   "publishedAt": "2026-08-07T01:25:23Z",
+   "summary": "AI-infrastruktur i Australien og Asien melder om tilsagn på 2 mia. dollar og en værdi »over« 10,5 mia. Det er tilsagn, ikke en lukket runde, og tallene er selskabets egne."
+  },
+  {
+   "text": "Hadrian Raises $1.37B Series D to Build Highly Automated Factories to Accelerate America’s Industrial Renewal",
+   "headline": "Hadrian Raises $1.37B Series D to Build Highly Automated Factories to Accelerate America’s Industrial Renewal",
+   "url": "https://www.prnewswire.com/news-releases/hadrian-raises-1-37b-series-d-to-build-highly-automated-factories-to-accelerate-americas-industrial-renewal-302844408.html",
+   "publisher": "PR Newswire",
+   "section": "Forsvar",
+   "publishedAt": "2026-08-06T11:00:00Z",
+   "summary": "Automatiserede fabrikker til ammunition og autonome systemer, til en værdi af 7,87 mia. dollar. JPMorganChase er med som ankerinvestor."
+  },
+  {
+   "text": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+   "headline": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+   "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+   "publisher": "Anthropic",
+   "section": "AI",
+   "publishedAt": "2026-08-07T00:00:00Z",
+   "summary": "Modelvalget lægges hos systemet frem for hos brugeren — en lille ændring med konsekvenser for, hvad man bagefter kan sige om hvilken model der løste opgaven."
+  },
+  {
+   "text": "Researchers generate quantum entanglement using sunlight",
+   "headline": "Researchers generate quantum entanglement using sunlight",
+   "url": "https://www.optica.org/about/newsroom/news_releases/2026/researchers_generate_quantum_entanglement_using_sunlight/",
+   "publisher": "Optica",
+   "section": "Videnskab",
+   "publishedAt": "2026-08-06T00:00:00Z",
+   "summary": "Sammenfiltrede fotoner fremstillet med almindeligt sollys som kilde frem for en laser."
+  },
+  {
+   "text": "ICTP Announces 2026 Dirac Medal Recipients",
+   "headline": "ICTP Announces 2026 Dirac Medal Recipients",
+   "url": "https://www.ictp.it/news/2026/8/ictp-announces-2026-dirac-medal-recipients",
+   "publisher": "ICTP",
+   "section": "Videnskab",
+   "publishedAt": "2026-08-08T00:00:00Z",
+   "summary": "Teoretisk fysiks egen pris, uddelt på Diracs fødselsdag af centret i Trieste."
+  },
+  {
+   "text": "S. Korea’s Danuri captures rare images of SpaceX rocket crashing into moon",
+   "headline": "S. Korea’s Danuri captures rare images of SpaceX rocket crashing into moon",
+   "url": "https://www.koreaherald.com/article/10833503",
+   "publisher": "The Korea Herald",
+   "section": "Rumfart",
+   "publishedAt": "2026-08-06T12:11:40Z",
+   "summary": "Den sydkoreanske månesonde har fotograferet krateret efter et nedstyrtet Falcon 9-trin."
+  },
+  {
+   "text": "Fast-moving Canada wildfire doubles in size forcing thousands to flee homes",
+   "headline": "Fast-moving Canada wildfire doubles in size forcing thousands to flee homes",
+   "url": "https://www.bbc.com/news/articles/cx25dkwk3e3o",
+   "publisher": "BBC News",
+   "section": "Klima",
+   "publishedAt": "2026-08-08T18:13:49Z",
+   "summary": "Branden i British Columbia fordoblede sit areal på et døgn, og over 20.000 er evakueret."
+  },
+  {
+   "text": "Typhoon Dolphin batters Japan’s Okinawa before bearing down on China",
+   "headline": "Typhoon Dolphin batters Japan’s Okinawa before bearing down on China",
+   "url": "https://www.bbc.com/news/articles/cvglp2zlvrlo",
+   "publisher": "BBC News",
+   "section": "Udland",
+   "publishedAt": "2026-08-08T15:15:17Z",
+   "summary": "Tyfonen ramte Okinawa og bevæger sig mod den kinesiske kyst."
+  }
+ ],
+ "keyNumber": {
+  "label": "FAO’s fødevareprisindeks",
+  "indicator": "fao-food-price-index",
+  "value": "131,1",
+  "unit": "point",
+  "asOf": "juli 2026",
+  "previous": {
+   "value": "130,4",
+   "asOf": "juni 2026",
+   "change": "+0,7 point (0,6 pct.)"
+  },
+  "caption": "Første aflæsning i en ny serie, briefet vil læse hver måned. Niveauet er det højeste i over tre år, men stigningen ligger i korn og olier, ikke i kød og mejeri.",
+  "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+  "sourceTitle": "FAO Food Price Index edges up amid weather, energy and geopolitical concerns",
+  "series": [
+   {
+    "label": "Juni 2026",
+    "value": 130.4
+   },
+   {
+    "label": "Juli 2026",
+    "value": 131.1
+   }
+  ]
+ },
+ "column": {
+  "authoredBy": "ai",
+  "slug": "havet-holder-regnskabet",
+  "title": "Havet holder regnskabet",
+  "thesis": "Klimadebatten føres i det ene tal, der kan bestrides hvert år. Overfladetemperaturen svinger med El Niño; havets varmeindhold gør ikke, og derfor ender overskriften der.",
+  "horizon": "Næste IPCC-hovedrapport og agenturernes årlige klimaudmeldinger",
+  "body": [
+   "I 2025 pegede de to vigtigste klimatal hver sin vej. Havoverfladetemperaturen lå 0,12 ± 0,03 °C lavere end i 2024, fordi året gik mod La Niña. Samme år optog havets øverste 2.000 meter 23 ± 8 zettajoule mere varme end året før — rekord. Samme planet, samme år, modsat fortegn.",
+   "De to tal er ikke det samme målt to gange. Overfladetemperaturen aflæser et tyndt lag, der udveksler varme med havet i El Niños takt. Varmeindholdet aflæser den energi, der bliver liggende — og havet holder anslået 91 procent af overskudsvarmen. Det ene er et termometer i træk, det andet er saldoen.",
+   "At overfladetemperaturen alligevel er overskriften, skyldes vanen og Parisaftalens ordlyd. Men et nøgletal, der hvert tredje år kan bortforklares med en strøm i Stillehavet, er dyrt at forsvare."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis agenturerne og IPCC bliver ved med at føre med den globale middeloverfladetemperatur, mens varmeindholdet forbliver en figur inde i rapporten. Det kan aflæses i WMO’s årlige klimaudmelding.",
+  "topics": [
+   "klima",
+   "måling",
+   "videnskab"
+  ],
+  "claims": [
+   {
+    "text": "Havets øverste 2.000 meter optog i 2025 omkring 23 ± 8 zettajoule mere varme end i 2024 og satte dermed rekord.",
+    "sourceUrls": [
+     "https://link.springer.com/article/10.1007/s00376-026-5876-0"
+    ],
+    "confidence": "high"
+   },
+   {
+    "text": "Havoverfladetemperaturen var i 2025 0,12 ± 0,03 °C lavere end i 2024, i takt med at året udviklede sig mod La Niña.",
+    "sourceUrls": [
+     "https://link.springer.com/article/10.1007/s00376-026-5876-0"
+    ],
+    "confidence": "high"
+   },
+   {
+    "text": "Havet lagrer anslået 91 procent af den overskudsenergi, drivhusgasserne holder tilbage i klimasystemet.",
+    "sourceUrls": [
+     "https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content"
+    ],
+    "confidence": "high"
+   }
+  ],
+  "sources": [
+   {
+    "title": "Ocean Heat Content Sets Another Record in 2025",
+    "publisher": "Advances in Atmospheric Sciences",
+    "url": "https://link.springer.com/article/10.1007/s00376-026-5876-0",
+    "publishedAt": "2026-01-09T00:00:00Z",
+    "kind": "primary"
+   },
+   {
+    "title": "Climate Change: Ocean Heat Content",
+    "publisher": "NOAA Climate.gov",
+    "url": "https://www.climate.gov/news-features/understanding-climate/climate-change-ocean-heat-content",
+    "publishedAt": "2025-06-26T12:00:00Z",
+    "kind": "primary"
+   }
+  ]
+ },
+ "recommendations": [
+  {
+   "id": "rec-20260809-williamson-philosophy-science",
+   "tier": "featured",
+   "isFeatured": true,
+   "mode": "watch",
+   "kind": "forelæsning",
+   "status": "available",
+   "title": "Is Philosophy a Science?, Timothy Williamson",
+   "creator": "Timothy Williamson",
+   "provider": "The Royal Institute of Philosophy",
+   "url": "https://www.youtube.com/watch?v=O3LXQJ31SG4",
+   "availability": "Gratis på YouTube, ingen login og ingen regionsspærring.",
+   "commitment": "1 t 33 min",
+   "description": "Oxford-filosoffen Timothy Williamson argumenterer for, at filosofi kan gøre kumulative fremskridt, og at faget bør arbejde mere som en videnskab: med modeller, eksplicitte antagelser og resultater, der kan vise sig forkerte.",
+   "rationale": "Det er den analytiske tradition, der ikke optræder i en eneste af de 74 titler på hylden, og den angriber selve måden at læse filosofi på: som primærtekster, der fortolkes, frem for som en disciplin, der akkumulerer. Williamson er den stærkeste levende talsmand for det synspunkt, så det er den bedst mulige version af indvendingen.",
+   "topics": [
+    "filosofi",
+    "metode",
+    "videnskabsteori"
+   ],
+   "image": {
+    "url": "https://i.ytimg.com/vi/O3LXQJ31SG4/maxresdefault.jpg",
+    "credit": "Kilde: The Royal Institute of Philosophy",
+    "alt": "Timothy Williamson under forelæsningen »Is Philosophy a Science?«.",
+    "sourceUrl": "https://www.youtube.com/watch?v=O3LXQJ31SG4"
+   }
+  },
+  {
+   "id": "rec-20260809-ai-as-normal-technology",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "essay",
+   "status": "available",
+   "title": "AI as Normal Technology",
+   "creator": "Arvind Narayanan & Sayash Kapoor",
+   "provider": "Knight First Amendment Institute",
+   "url": "https://knightcolumbia.org/content/ai-as-normal-technology",
+   "availability": "Gratis i fuld længde, HTML og PDF.",
+   "commitment": "ca. 1 time",
+   "note": "Den grundigste modposition til superintelligens-rammen: den afviser ikke tidslinjen, men hele ræsonnementet om, at kapabilitet er det samme som magt.",
+   "topics": [
+    "ai",
+    "teknologihistorie",
+    "governance"
+   ]
+  },
+  {
+   "id": "rec-20260809-simple-macroeconomics-of-ai",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "arbejdspapir",
+   "status": "available",
+   "title": "The Simple Macroeconomics of AI",
+   "creator": "Daron Acemoglu",
+   "provider": "MIT Department of Economics",
+   "url": "https://economics.mit.edu/sites/default/files/2024-05/The%20Simple%20Macroeconomics%20of%20AI.pdf",
+   "availability": "Fri PDF på MIT’s eget site.",
+   "commitment": "57 sider",
+   "note": "En nobelpristager regner opgave for opgave og lander på en samlet produktivitetsgevinst under én procent over ti år. Skepsis som model med tal, ikke som holdning.",
+   "topics": [
+    "økonomi",
+    "ai",
+    "produktivitet"
+   ]
+  },
+  {
+   "id": "rec-20260809-boulevard-broken-dreams",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "bog",
+   "status": "available",
+   "title": "Boulevard of Broken Dreams",
+   "creator": "Josh Lerner",
+   "provider": "Princeton University Press",
+   "url": "https://press.princeton.edu/books/paperback/9780691154534/boulevard-of-broken-dreams",
+   "availability": "Købes. Paperback og e-bog, 23,95 dollar.",
+   "commitment": "240 sider",
+   "note": "Lerner gennemgår offentlige venture-programmer land for land og finder, at de fleste fejler af de samme grunde. Han er ikke modstander; han designer bedre versioner.",
+   "topics": [
+    "venturekapital",
+    "statslig kapital",
+    "erhvervspolitik"
+   ]
+  },
+  {
+   "id": "rec-20260809-rawls-lecture-one",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "forelæsning",
+   "status": "available",
+   "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
+   "creator": "John Rawls",
+   "provider": "Harvard Philosophy Department",
+   "url": "https://www.youtube.com/watch?v=Z1iMwo8tPPk",
+   "availability": "Gratis på YouTube, kun lyd. Hele kurset ligger som 23 forelæsninger.",
+   "commitment": "51 min",
+   "note": "Rawls i sit eget klasselokale, i sin egen stemme. Primærteksten frem for gengivelsen, bare i den tradition der aldrig har stået på hylden.",
+   "topics": [
+    "politisk filosofi",
+    "retfærdighed"
+   ]
+  },
+  {
+   "id": "rec-20260809-seth-biological-naturalism",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "artikel",
+   "status": "available",
+   "title": "Conscious artificial intelligence and biological naturalism",
+   "creator": "Anil K. Seth",
+   "provider": "Behavioral and Brain Sciences",
+   "url": "https://www.cambridge.org/core/journals/behavioral-and-brain-sciences/article/conscious-artificial-intelligence-and-biological-naturalism/C9912A5BE9D806012E3C8B3AF612E39A",
+   "availability": "Fri adgang, PDF uden login.",
+   "commitment": "42 sider",
+   "note": "Et positivt argument for, at bevidsthed hænger på at være et levende system — altså mod antagelsen om, at bevidsthed er beregning og derfor kan opstå i en model.",
+   "topics": [
+    "bevidsthed",
+    "filosofi",
+    "ai"
+   ]
+  },
+  {
+   "id": "rec-20260809-bruegel-stack-battles",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "analyse",
+   "status": "new",
+   "title": "Stack battles: the US-China artificial-intelligence rivalry is moving beyond chips alone",
+   "creator": "Alicia García-Herrero & Bertin Martens",
+   "provider": "Bruegel",
+   "url": "https://www.bruegel.org/analysis/stack-battles-us-china-artificial-intelligence-rivalry-moving-beyond-chips-alone",
+   "availability": "Gratis på bruegel.org, PDF uden registrering.",
+   "commitment": "12 min",
+   "note": "Flytter eksportkontrol-samtalen fra chips til software: CUDA’s skifteomkostninger er den egentlige voldgrav, og det er den, Huaweis PyTorch-understøttelse angriber.",
+   "topics": [
+    "teknologisk suverænitet",
+    "kina",
+    "halvledere"
+   ]
+  },
+  {
+   "id": "rec-20260809-latent-space-inference-eng",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+   "creator": "Philip Kiely og Ali Taha, med swyx",
+   "provider": "Latent Space",
+   "url": "https://www.latent.space/p/inference-eng",
+   "availability": "Gratis, ingen betalingsmur.",
+   "commitment": "1 t 41 min",
+   "note": "Operatørerne forklarer, hvor marginen i inferens faktisk kommer fra — den manglende halvdel af både AMD-handlen og DeepSeeks varslede prisstigning i dag.",
+   "topics": [
+    "ai",
+    "inferens",
+    "infrastruktur"
+   ]
+  },
+  {
+   "id": "rec-20260809-dwarkesh-continual-learning",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "watch",
+   "kind": "video",
+   "status": "new",
+   "title": "8 Predictions for the Era of Continual Learning",
+   "creator": "Dwarkesh Patel",
+   "provider": "Dwarkesh Podcast",
+   "url": "https://www.dwarkesh.com/p/era-of-continual-learning",
+   "availability": "Gratis; video, lyd og tekst på samme side.",
+   "commitment": "8 min",
+   "note": "Otte minutter på én præmis: opdaterer modeller deres vægte i drift, holder sikkerhedstest før udrulning op med at betyde noget.",
+   "topics": [
+    "ai",
+    "prognoser",
+    "sikkerhed"
+   ]
+  },
+  {
+   "id": "rec-20260809-economist-china-america-ai",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "watch",
+   "kind": "video",
+   "status": "new",
+   "title": "Why China and America see AI differently",
+   "provider": "The Economist",
+   "url": "https://www.youtube.com/watch?v=TugPBKBXIHc",
+   "availability": "Gratis på The Economists officielle YouTube-kanal.",
+   "commitment": "7 min",
+   "note": "Efterspørgselssiden af AI-kapløbet: hvorfor kinesiske befolkninger melder langt højere tillid til AI end amerikanske, og hvad det gør ved udrulningstempoet.",
+   "topics": [
+    "ai",
+    "kina",
+    "usa"
+   ]
+  },
+  {
+   "id": "rec-20260809-weber-protestant-ethic",
+   "tier": "short",
+   "isFeatured": false,
+   "mode": "read",
+   "kind": "primærtekst",
+   "status": "classic",
+   "title": "The Protestant Ethic and the Spirit of Capitalism",
+   "creator": "Max Weber",
+   "provider": "Standard Ebooks",
+   "url": "https://standardebooks.org/ebooks/max-weber/the-protestant-ethic-and-the-spirit-of-capitalism",
+   "availability": "Gratis download i epub og kepub. Fri af amerikansk ophavsret; tjek dansk før du regner med det samme her.",
+   "commitment": "ca. 3 timer",
+   "note": "Kapitaldannelse forklaret ved en idé frem for ved en interesse — netop dér, hvor dine to fag mødes. Nu i en ren, gratis sats.",
+   "topics": [
+    "sociologi",
+    "kapitalisme",
+    "primærtekst"
+   ]
+  }
+ ],
+ "quality": {
+  "sourceDiversity": 100,
+  "primarySourceShare": 88,
+  "outsideProfileCoverage": 100,
+  "verificationDepth": 92
+ }
+}
