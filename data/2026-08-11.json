@@ -1,0 +1,1065 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-2026-08-11",
+  "date": "2026-08-11",
+  "generatedAt": "2026-08-11T14:41:32.868Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief - 11. august 2026",
+  "dek": "En model flytter en 46 år gammel grænse i talteori og efterlader et bevis, maskinen selv kan kontrollere. Et amerikansk dekret beder om vacciner, der ikke findes. Og en stikprøve på 574 sager afslører, hvad der gik tabt i politiets dataflytning.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-2026-08-11-riemann",
+      "eventKey": "anthropic-claude-riemann-zeta-bound-2026-08",
+      "materialFacts": [
+        "En uudgivet forskningsversion af Claude hævede den beviste nedre grænse for andelen af zetafunktionens nultal på den kritiske linje fra 41,6 til 67,2 procent",
+        "Resultatet kom af at forbinde to eksisterende arbejder på tværs af underfelter, ikke af ny matematik",
+        "Der blev produceret en Lean-formalisering, som består standardvalideringsværktøjet"
+      ],
+      "section": "AI og matematik",
+      "headline": "Learning more about Claude's mathematical capabilities",
+      "primarySourceUrl": "https://www.anthropic.com/research/riemann-zeta",
+      "subheadline": "Anthropic oplyser, at en uudgivet Claude-version har hævet en 46 år gammel grænse i talteori - og har efterladt et bevis, andre kan kontrollere maskinelt.",
+      "isLead": true,
+      "isOutsideProfile": false,
+      "body": [
+        "Riemann-hypotesen påstår, at alle de interessante nultal i zetafunktionen ligger på én bestemt linje. Ingen har bevist det. Matematikere har i årtier flyttet en nedre grænse for, hvor stor en andel der beviseligt ligger der. Den stod på 41,6 procent. Anthropic oplyste 10. august, at en uudgivet Claude-version har hævet den til 67,2.",
+        "Det opsigtsvækkende er, hvordan det opstod. Claude fandt, at et arbejde af Baluyot, Goldston, Suriajaya og Turnage-Butterbaugh kunne kombineres med Bombieris, og at kombinationen rækker længere end delene. Ingen ny matematik blev opfundet; to underfelter blev sat sammen. Bagefter producerede modellen sammen med Anthropics matematikere en formalisering i bevischeckeren Lean, som består standardvalideringsværktøjet."
+      ],
+      "whyItMatters": "Det gør påstanden kontrollerbar. Et matematisk resultat fra en model kan normalt kun bedømmes af nogen med faget inde; et Lean-bevis kan efterprøves af en maskine, der ikke tager modellens ord for noget.",
+      "analysis": "Gevinsten ligger dermed ikke i at opfinde, men i at læse alt og se, hvad der passer sammen.",
+      "counterpoint": "Anthropic er selv afsender, siger udtrykkeligt, at metoden ikke ventes at kunne bevise hypotesen, og uafhængig fagfællebedømmelse mangler.",
+      "topics": [
+        "ai",
+        "matematik",
+        "forskning",
+        "modeller"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Riemann-hypotesen",
+        "Lean",
+        "Enrico Bombieri"
+      ],
+      "scores": {
+        "importance": 78,
+        "decisionValue": 74,
+        "novelty": 95,
+        "sourceQuality": 88,
+        "personalRelevance": 95,
+        "contrast": 88
+      },
+      "discoveredVia": {
+        "name": "AINews",
+        "url": "https://news.smol.ai/"
+      },
+      "image": {
+        "url": "https://cdn.sanity.io/images/4zrzovbb/website/ca772f1b34e5b58e38694538f017d63f5dd196d9-1200x630.jpg",
+        "credit": "Kilde: Anthropic",
+        "alt": "Anthropics eget delebillede til forskningsopslaget om Claudes matematiske resultat",
+        "sourceUrl": "https://www.anthropic.com/research/riemann-zeta"
+      },
+      "claims": [
+        {
+          "text": "En uudgivet forskningsversion af Claude hævede den beviste nedre grænse for andelen af Riemann-zetafunktionens nultal på den kritiske linje fra 41,6 til 67,2 procent.",
+          "sourceUrls": [
+            "https://www.anthropic.com/research/riemann-zeta"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Resultatet kom af at kombinere Baluyot, Goldston, Suriajaya og Turnage-Butterbaughs arbejde med Bombieris, og der blev produceret en Lean-formalisering, som består standardvalideringsværktøjet.",
+          "sourceUrls": [
+            "https://www.anthropic.com/research/riemann-zeta"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Anthropic angiver, at den anvendte metode ikke ventes at kunne bevise Riemann-hypotesen.",
+          "sourceUrls": [
+            "https://www.anthropic.com/research/riemann-zeta"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Learning more about Claude's mathematical capabilities",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/research/riemann-zeta",
+          "publishedAt": "2026-08-10T12:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-vaccine",
+      "eventKey": "trump-childhood-vaccine-schedule-eo-2026-08",
+      "materialFacts": [
+        "Trump underskrev 10. august 2026 et dekret om færre børnevacciner og om at dele MMR-vaccinen i tre separate doser ved separate besøg",
+        "Der findes ikke godkendte enkeltvacciner mod mæslinger, fåresyge og røde hunde i USA i dag",
+        "American Academy of Pediatrics vurderer, at hver enkelt komponent ville tage omkring ti år at få godkendt"
+      ],
+      "section": "Sundhed og politik",
+      "headline": "Trump and RFK Jr. try again to upend vaccines for kids",
+      "primarySourceUrl": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order",
+      "subheadline": "Dekretet beder om at dele MMR-vaccinen i tre - men de tre enkeltvacciner findes ikke, og at fremstille dem tager efter lægernes skøn omkring et årti.",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "body": [
+        "Donald Trump underskrev mandag et dekret om færre vacciner til amerikanske børn, som specifikt ønsker MMR-vaccinen delt op i tre separate indsprøjtninger givet ved separate besøg.",
+        "Forhindringen er fysisk, ikke juridisk. Der findes ingen godkendte enkeltvacciner mod mæslinger, fåresyge og røde hunde i USA. Et selskab skulle gennem forsøg og godkendelse for hver komponent, og American Academy of Pediatrics vurderer, at det tager omkring ti år. Administrationen er før stoppet i retten, da den ville ændre planen."
+      ],
+      "whyItMatters": "En anbefaling, der ikke kan efterleves, lader planen stå uden alternativ. Imens er det staternes sundhedsmyndigheder, forsikringsselskaberne og børnelægerne, der afgør, hvad der faktisk sker.",
+      "analysis": "Forskellen i hastighed er sagens indhold: et dekret virker straks, et vaccineprogram tager år. Effekten vil derfor kunne aflæses i vaccinationsdækningen længe før i et produktregister.",
+      "topics": [
+        "sundhed",
+        "politik",
+        "usa",
+        "videnskab"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Robert F. Kennedy Jr.",
+        "American Academy of Pediatrics",
+        "MMR",
+        "USA"
+      ],
+      "scores": {
+        "importance": 88,
+        "decisionValue": 62,
+        "novelty": 80,
+        "sourceQuality": 85,
+        "personalRelevance": 45,
+        "contrast": 72
+      },
+      "image": {
+        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7961x4478+0+444/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fd1%2F99%2Fedacc7f444eabffaedb9a5cd1cb3%2Fgettyimages-2289371259.jpg",
+        "credit": "Foto: Getty Images via NPR",
+        "alt": "Præsident Donald Trump under fremlæggelsen af dekretet om børnevaccinationer",
+        "sourceUrl": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order"
+      },
+      "claims": [
+        {
+          "text": "Trump underskrev 10. august 2026 et dekret om færre børnevacciner, herunder at MMR-vaccinen skal deles i tre separate doser givet ved separate besøg.",
+          "sourceUrls": [
+            "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Der findes ikke godkendte enkeltvacciner mod mæslinger, fåresyge og røde hunde i USA, og American Academy of Pediatrics vurderer, at hver komponent ville tage omkring ti år at udvikle og godkende.",
+          "sourceUrls": [
+            "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order",
+            "https://www.axios.com/2026/08/10/trump-order-split-up-mmr-vaccine"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump and RFK Jr. try again to upend vaccines for kids",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/08/10/nx-s1-5927313/trump-rfk-jr-vaccines-autism-executive-order",
+          "publishedAt": "2026-08-10T20:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump executive order would split up MMR vaccine",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/08/10/trump-order-split-up-mmr-vaccine",
+          "publishedAt": "2026-08-10T21:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-colombia",
+      "eventKey": "colombia-choco-earthquake-2026-08",
+      "materialFacts": [
+        "Jordskælv af styrke 7,4 ramte 5 km syd for San José del Palmar i Chocó 10. august 2026 kl. 12.34 UTC på 110 km dybde",
+        "USGS gav rødt PAGER-varsel, systemets højeste niveau, med maksimal rystelsesintensitet MMI 8",
+        "FN opgjorde 10. august 1.575 beskadigede boliger, 61 kollapsede bygninger, 18 ramte sundhedscentre og 52 uddannelsesinstitutioner"
+      ],
+      "section": "Verden",
+      "headline": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
+      "primarySourceUrl": "https://www.npr.org/2026/08/10/nx-s1-5927515/earthquake-western-colombia",
+      "subheadline": "Skælvet ramte Chocó på 110 kilometers dybde og udløste USGS' højeste varselsniveau. Redningsarbejdet fortsatte tirsdag, og dødstallet steg gennem døgnet.",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "body": [
+        "Et jordskælv af styrke 7,4 ramte mandag klokken 12.34 UTC fem kilometer syd for San José del Palmar i Chocó i det vestlige Colombia. Hypocentret lå ifølge USGS 110 kilometer nede, og rystelserne nåede Cali, Pereira og Manizales.",
+        "USGS' PAGER-system gav rødt varsel, det højeste af fire niveauer. FN opgjorde mandag 1.575 beskadigede boliger, 61 kollapsede bygninger, 18 ramte sundhedscentre og 52 uddannelsesinstitutioner. Colombias geologiske tjeneste kalder det landets kraftigste skælv i dette århundrede."
+      ],
+      "whyItMatters": "Dybden forklarer, hvorfor skaderne rækker så langt fra epicentret. Et skælv 110 kilometer nede river ikke jorden op lokalt, men fordeler energien bredt over flere provinser.",
+      "analysis": "Dødstallet steg gennem døgnet. De kilder, der er kontrolleret her, står på mindst 111 omkomne og 87 sårede opgjort mandag. Højere tal cirkulerede tirsdag og er udeladt, fordi de ikke er efterprøvet.",
+      "topics": [
+        "naturkatastrofe",
+        "latinamerika",
+        "beredskab"
+      ],
+      "entities": [
+        "Colombia",
+        "San José del Palmar",
+        "Chocó",
+        "Cali",
+        "USGS",
+        "FN"
+      ],
+      "scores": {
+        "importance": 92,
+        "decisionValue": 30,
+        "novelty": 88,
+        "sourceQuality": 92,
+        "personalRelevance": 20,
+        "contrast": 62
+      },
+      "image": {
+        "url": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/3375x1898+0+176/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fb1%2Fa5%2F784e9cd34d2cb0873ca1b63ee34d%2Fap26222743359122.jpg",
+        "credit": "Foto: AP via NPR",
+        "alt": "Redningsmandskab og frivillige arbejder i murbrokkerne efter jordskælvet i det vestlige Colombia",
+        "sourceUrl": "https://www.npr.org/2026/08/10/nx-s1-5927515/earthquake-western-colombia"
+      },
+      "claims": [
+        {
+          "text": "Jordskælvet målte 7,4, ramte 5 km syd for San José del Palmar 10. august 2026 kl. 12.34.28 UTC og lå på 110,3 km dybde.",
+          "sourceUrls": [
+            "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USGS' PAGER-system gav rødt varsel med maksimal rystelsesintensitet MMI 8.",
+          "sourceUrls": [
+            "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "FN opgjorde 10. august 1.575 beskadigede boliger, 37 ødelagte, 61 kollapsede bygninger, 18 ramte sundhedscentre og 52 ramte uddannelsesinstitutioner samt mindst 111 omkomne og mindst 87 sårede.",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/08/1168106"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Magnitude 7.4 quake rocks western Colombia, killing at least 111 people",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/08/10/nx-s1-5927515/earthquake-western-colombia",
+          "publishedAt": "2026-08-10T18:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "M 7.4 - 5 km S of San José del Palmar, Colombia",
+          "publisher": "USGS",
+          "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tjl2",
+          "publishedAt": "2026-08-10T12:34:28Z",
+          "kind": "primary"
+        },
+        {
+          "title": "UN offers support to Colombia after magnitude 7.4 earthquake kills dozens",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/08/1168106",
+          "publishedAt": "2026-08-10T22:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-solformoerkelse",
+      "eventKey": "europe-solar-eclipse-grid-2026-08-12",
+      "materialFacts": [
+        "Solformørkelsen 12. august 2026 ventes at fjerne op til 9,7 GW europæisk solproduktion mellem 19.15 og 21.30 CEST",
+        "Sol udgjorde omkring 13 procent af EU's elproduktion i 2025",
+        "ENTSO-E har aktiveret en taskforce, udskudt planlagte netudkoblinger og varslet markedsaktørerne"
+      ],
+      "section": "Energi",
+      "headline": "Europa klar til solformørkelse: Rammer elnettet - også Energinet har regnet på effekt",
+      "primarySourceUrl": "https://ing.dk/artikel/europa-klar-til-solformoerkelse-rammer-elnettet-ogsaa-energinet-har-regnet-paa-effekt",
+      "subheadline": "Op til 9,7 gigawatt solproduktion forsvinder onsdag aften og kommer igen kort efter. Europas systemoperatører har regnet på det i forvejen.",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "body": [
+        "Onsdag den 12. august trækker månen sig hen over solen, og i Danmark dækkes 80-85 procent af solskiven omkring klokken 20.04. For elsystemet er det en varslet belastningsprøve: ENTSO-E venter, at op til 9,7 gigawatt solproduktion forsvinder og vender tilbage mellem 19.15 og 21.30 CEST.",
+        "Faldet rammer skævt: de største udsving ventes i Tyskland og Spanien. Sol stod for omkring 13 procent af EU's elproduktion i 2025, og operatørerne har nedsat en taskforce, udskudt planlagte netudkoblinger og varslet markedsaktørerne."
+      ],
+      "whyItMatters": "Det er en hændelse, systemet kan forberede sig præcist på, fordi tidspunktet har været kendt i århundreder. Rampen skal dækkes af noget andet på minutter, og prisen viser, hvor fleksibelt nettet er blevet.",
+      "analysis": "Solformørkelsen i 2015 var en prøve på et system med langt mindre sol i, så prøven bliver hårdere hver gang. Hold øje med balancemarkedets priser onsdag aften.",
+      "topics": [
+        "energi",
+        "elnet",
+        "infrastruktur",
+        "europa"
+      ],
+      "entities": [
+        "ENTSO-E",
+        "Energinet",
+        "Tyskland",
+        "Spanien",
+        "Danmark"
+      ],
+      "scores": {
+        "importance": 72,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 88,
+        "personalRelevance": 80,
+        "contrast": 76
+      },
+      "image": {
+        "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2023-06/jongsun-lee-f-pszo_jee8-unsplash.jpg?itok=2d3n4zfH",
+        "credit": "Foto: Jongsun Lee/Unsplash via Ingeniøren",
+        "alt": "Arkivfoto af solceller, illustration til Ingeniørens artikel om solformørkelsens virkning på elnettet",
+        "sourceUrl": "https://ing.dk/artikel/europa-klar-til-solformoerkelse-rammer-elnettet-ogsaa-energinet-har-regnet-paa-effekt"
+      },
+      "primaryExcerpt": {
+        "quote": "Under clear-sky conditions, photovoltaic (PV) output could decrease by up to 9.7 GW across Europe",
+        "sourceUrl": "https://www.entsoe.eu/news/2026/08/07/transmission-system-operators-prepare-for-solar-eclipse-to-ensure-secure-system-operation/",
+        "sourceTitle": "Transmission System Operators prepare for solar eclipse to ensure secure system operation"
+      },
+      "claims": [
+        {
+          "text": "Under skyfri himmel ventes solformørkelsen 12. august 2026 at fjerne op til 9,7 GW europæisk solproduktion i vinduet 19.15-21.30 CEST.",
+          "sourceUrls": [
+            "https://www.entsoe.eu/news/2026/08/07/transmission-system-operators-prepare-for-solar-eclipse-to-ensure-secure-system-operation/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Sol udgjorde omkring 13 procent af EU's elproduktion i 2025, og Spanien og Tyskland ventes hårdest ramt.",
+          "sourceUrls": [
+            "https://www.entsoe.eu/news/2026/08/07/transmission-system-operators-prepare-for-solar-eclipse-to-ensure-secure-system-operation/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "I Danmark dækkes 80-85 procent af solskiven, med maksimum omkring klokken 20.04.",
+          "sourceUrls": [
+            "https://ing.dk/artikel/europa-klar-til-solformoerkelse-rammer-elnettet-ogsaa-energinet-har-regnet-paa-effekt"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Europa klar til solformørkelse: Rammer elnettet - også Energinet har regnet på effekt",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/europa-klar-til-solformoerkelse-rammer-elnettet-ogsaa-energinet-har-regnet-paa-effekt",
+          "publishedAt": "2026-08-11T09:10:48Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Transmission System Operators prepare for solar eclipse to ensure secure system operation",
+          "publisher": "ENTSO-E",
+          "url": "https://www.entsoe.eu/news/2026/08/07/transmission-system-operators-prepare-for-solar-eclipse-to-ensure-secure-system-operation/",
+          "publishedAt": "2026-08-07T10:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-afis",
+      "eventKey": "dk-politi-fingeraftryksregister-fejl-2026-08",
+      "materialFacts": [
+        "En fejl i migreringen til politiets nye fingeraftryksregister har ramt spor fra gerningssteder i tusindvis af straffesager",
+        "En stikprøve på 574 sager gav match mellem personer og fingeraftryk i 35 straffesager",
+        "Stikprøven omfattede kun sager, der ikke er forældede"
+      ],
+      "section": "Danmark",
+      "headline": "Omfattende fejl i politiets fingeraftryksregister - gerningsmænd kan være gået fri",
+      "primarySourceUrl": "https://www.version2.dk/artikel/omfattende-fejl-i-politiets-fingeraftryksregister-gerningsmaend-kan-vaere-gaaet-fri",
+      "subheadline": "En fejl i migreringen til politiets nye AFIS-register har ramt spor fra tusindvis af sager. En stikprøve på 574 gav 35 match, der ikke blev fundet dengang.",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "body": [
+        "Fingeraftryk sikret på gerningssteder i tusindvis af danske straffesager er ramt af en fejl i migreringen til politiets nye register, AFIS. Det fremgår af aktindsigt hos NSK og Rigspolitiet, som Version2 og Ingeniøren har fået.",
+        "Omfanget begynder at kunne aflæses. NSK gennemgik en stikprøve på 574 ikke-forældede sager og fandt i 35 af dem et match mellem en person og et fingeraftryk fra et gerningssted. De match blev ikke fundet, da sagerne var aktuelle."
+      ],
+      "whyItMatters": "574 sager med 35 match er ikke en anekdote, men en rate. Lagt på et grundlag i tusindvis peger den på langt flere end 35 - og hver enkelt er en efterforskning, der løb ud i sandet på et forkert grundlag.",
+      "analysis": "Bemærk hvad der fejlede. Ikke en algoritme, der traf en dårlig beslutning, men en dataflytning mellem to systemer - den mest rutineprægede opgave i offentlig it. Fejlen råbte ikke op; den gav blot færre svar, end den skulle.",
+      "topics": [
+        "danmark",
+        "offentlig it",
+        "retssikkerhed",
+        "digitalisering"
+      ],
+      "entities": [
+        "Rigspolitiet",
+        "NSK",
+        "AFIS",
+        "Version2",
+        "Ingeniøren"
+      ],
+      "scores": {
+        "importance": 80,
+        "decisionValue": 70,
+        "novelty": 90,
+        "sourceQuality": 82,
+        "personalRelevance": 72,
+        "contrast": 70
+      },
+      "image": {
+        "url": "https://www.version2.dk/sites/mi/files/2026-08/tabte-spor-16-9.gif?itok=ALTChUHw",
+        "credit": "Illustration: Anders Reinbothe/Version2",
+        "alt": "Version2's illustration af fingeraftryk til artikelserien om tabte spor i politiets register",
+        "sourceUrl": "https://www.version2.dk/artikel/omfattende-fejl-i-politiets-fingeraftryksregister-gerningsmaend-kan-vaere-gaaet-fri"
+      },
+      "claims": [
+        {
+          "text": "NSK's stikprøve på 574 ikke-forældede sager gav match mellem personer og fingeraftryk fra gerningssteder i 35 straffesager.",
+          "sourceUrls": [
+            "https://ing.dk/artikel/efter-afsloering-af-it-fejl-hos-politiet-stikproeve-gav-match-i-35-straffesager"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Fejlen stammer fra migreringen til politiets nye fingeraftryksregister og er dokumenteret gennem aktindsigt hos NSK og Rigspolitiet.",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/omfattende-fejl-i-politiets-fingeraftryksregister-gerningsmaend-kan-vaere-gaaet-fri"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Omfattende fejl i politiets fingeraftryksregister - gerningsmænd kan være gået fri",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/omfattende-fejl-i-politiets-fingeraftryksregister-gerningsmaend-kan-vaere-gaaet-fri",
+          "publishedAt": "2026-08-11T03:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Efter afsløring af it-fejl hos politiet: Stikprøve gav match i 35 straffesager",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/efter-afsloering-af-it-fejl-hos-politiet-stikproeve-gav-match-i-35-straffesager",
+          "publishedAt": "2026-08-11T10:04:49Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-museglimmer",
+      "eventKey": "meta-muse-glimmer-open-weights-2026-08",
+      "materialFacts": [
+        "Meta udgav 10. august 2026 Muse Glimmer på 30 milliarder parametre under Apache 2.0",
+        "Modellen fylder under 20 GB efter 4-bit-kvantisering mod 55 GB i fuld præcision",
+        "Spekulativ afkodning giver 3,1x hastighed på RTX 5090, 1,8x på M5 Max og 1,5x på M4 Max"
+      ],
+      "section": "AI",
+      "headline": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
+      "primarySourceUrl": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "subheadline": "Meta lægger en agentmodel på 30 milliarder parametre ud under Apache 2.0. Den fylder under 20 gigabyte og kører på ét forbrugergrafikkort.",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "body": [
+        "Meta Superintelligence Labs udgav mandag Muse Glimmer, en model på 30 milliarder parametre bygget til agentarbejde lokalt, og lagde vægtene ud under Apache 2.0.",
+        "Tallene handler om, hvad der kan være på én maskine. Modellen fylder 55 gigabyte i fuld præcision og under 20 efter 4-bit-kvantisering, og Meta oplyser, at spekulativ afkodning giver 3,1 gange hastigheden på et RTX 5090 og 1,8 på en M5 Max. Vægtene ligger på Hugging Face."
+      ],
+      "whyItMatters": "En agentmodel på én maskine under en licens uden brugsbegrænsninger flytter grænsen for, hvad en organisation kan lade en model se. Data, der ikke må forlade huset, kan behandles i huset. Det er en indkøbsbeslutning, ikke en holdning.",
+      "analysis": "Retningen er værd at bemærke hos netop Meta, der det seneste år har strammet licensvilkårene på sine største modeller.",
+      "counterpoint": "Tallene er Metas egne, og hastighed målt på navngivet hardware ser typisk bedst ud hos afsenderen.",
+      "topics": [
+        "ai",
+        "open source",
+        "modeller",
+        "hardware"
+      ],
+      "entities": [
+        "Meta",
+        "Meta Superintelligence Labs",
+        "Muse Glimmer",
+        "Hugging Face"
+      ],
+      "scores": {
+        "importance": 74,
+        "decisionValue": 82,
+        "novelty": 80,
+        "sourceQuality": 84,
+        "personalRelevance": 88,
+        "contrast": 66
+      },
+      "discoveredVia": {
+        "name": "AINews",
+        "url": "https://news.smol.ai/"
+      },
+      "image": {
+        "url": "https://lookaside.fbsbx.com/elementpath/media/?media_id=2272911630133843&version=1786289182",
+        "credit": "Kilde: Meta AI Research",
+        "alt": "Metas eget delebillede til annonceringen af agentmodellen Muse Glimmer",
+        "sourceUrl": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+      },
+      "claims": [
+        {
+          "text": "Meta udgav 10. august 2026 Muse Glimmer på 30 milliarder parametre under Apache 2.0 med vægte på Hugging Face i BF16, GGUF k-quants og ExecuTorch-builds.",
+          "sourceUrls": [
+            "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Modellen fylder under 20 GB efter 4-bit-kvantisering mod 55 GB i fuld præcision, og spekulativ afkodning giver 3,1x på RTX 5090, 1,8x på M5 Max og 1,5x på M4 Max.",
+          "sourceUrls": [
+            "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Introducing Muse Glimmer: An Open Agentic Model That Runs on Your Device",
+          "publisher": "Meta AI Research",
+          "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+          "publishedAt": "2026-08-10T15:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-ungarn",
+      "eventKey": "hungary-baka-president-elected-2026-08",
+      "materialFacts": [
+        "Ungarns parlament valgte 11. august 2026 tidligere højesteretschef András Baka til præsident",
+        "Baka blev indstillet af Péter Magyars Tisza-parti, som vandt parlamentsvalget i april 2026",
+        "Fidesz, herunder Viktor Orbán, deltog ikke i afstemningen"
+      ],
+      "section": "Europa",
+      "headline": "Ungarn får tidligere højesteretschef som præsident",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/ungarn-faar-tidligere-hoejesteretschef-som-praesident",
+      "subheadline": "András Baka blev fjernet som højesteretspræsident i 2012 og fik i 2016 medhold ved Menneskerettighedsdomstolen. Nu er han statsoverhoved.",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "body": [
+        "Ungarns parlament valgte tirsdag András Baka til præsident. Han er indstillet af Péter Magyars Tisza-parti, der vandt valget i april og fjernede Viktor Orbáns Fidesz fra magten. Fidesz deltog ikke i afstemningen.",
+        "Baka er ikke en vilkårlig jurist. Han blev i 2009 valgt til præsident for Ungarns højesteret, kritiserede offentligt regeringens domstolsreformer og blev afsat før tid, da en strukturændring trådte i kraft 1. januar 2012. Menneskerettighedsdomstolens Storkammer fastslog i 2016, at Ungarn havde krænket hans domstolsadgang og hans ytringsfrihed, og at loven var rettet mod ham."
+      ],
+      "whyItMatters": "Embedet er hovedsageligt ceremonielt, så valget er et signal: den mand, staten skrev ud af sit embede, underskriver nu på statens vegne.",
+      "analysis": "Signaler af den art kommer ofte i stedet for institutionelle ændringer. Prøven ligger i domstolsloven og i udnævnelsen af dommere, ikke på Sándor-paladset.",
+      "topics": [
+        "europa",
+        "retsstat",
+        "politik"
+      ],
+      "entities": [
+        "András Baka",
+        "Péter Magyar",
+        "Tisza",
+        "Fidesz",
+        "Viktor Orbán",
+        "Ungarn"
+      ],
+      "scores": {
+        "importance": 72,
+        "decisionValue": 48,
+        "novelty": 78,
+        "sourceQuality": 80,
+        "personalRelevance": 52,
+        "contrast": 74
+      },
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Andr%C3%A1s_Baka_%28cropped%29.png",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Portræt af András Baka, tidligere præsident for Ungarns højesteret og nu landets præsident",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A1s_Baka_(cropped).png"
+      },
+      "claims": [
+        {
+          "text": "Ungarns parlament valgte 11. august 2026 tidligere højesteretschef András Baka til præsident; han var indstillet af Tisza, og Fidesz deltog ikke i afstemningen.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/ungarn-faar-tidligere-hoejesteretschef-som-praesident"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Menneskerettighedsdomstolens Storkammer fastslog 23. juni 2016 i sagen Baka mod Ungarn, at Ungarn havde krænket artikel 6, stk. 1, og artikel 10, da András Baka blev afsat som højesteretspræsident med virkning fra 1. januar 2012.",
+          "sourceUrls": [
+            "https://hudoc.echr.coe.int/eng?i=002-11088"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ungarn får tidligere højesteretschef som præsident",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/ungarn-faar-tidligere-hoejesteretschef-som-praesident",
+          "publishedAt": "2026-08-11T14:08:51Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Baka v. Hungary [GC]",
+          "publisher": "Den Europæiske Menneskerettighedsdomstol",
+          "url": "https://hudoc.echr.coe.int/eng?i=002-11088",
+          "publishedAt": "2016-06-23T09:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-2026-08-11-novo",
+      "eventKey": "novo-awiqli-us-pharmacy-launch-2026-08",
+      "materialFacts": [
+        "Novo Nordisk begyndte 11. august 2026 udlevering af Awiqli på omkring 70.000 amerikanske apoteker",
+        "Awiqli er insulin til ugentlig indsprøjtning, godkendt til type 2-diabetes",
+        "Midlet blev FDA-godkendt tidligere i 2026 og er også godkendt i EU"
+      ],
+      "section": "Erhverv",
+      "headline": "Novo sender insulin til ugentlig brug ud på amerikanske apoteker",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/novo-sender-insulin-til-ugentlig-brug-ud-paa-amerikanske-apoteker",
+      "subheadline": "Awiqli erstatter den daglige indsprøjtning med én om ugen og er fra tirsdag på hylderne i omkring 70.000 amerikanske apoteker.",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "body": [
+        "Novo Nordisk begyndte tirsdag at levere Awiqli til omkring 70.000 amerikanske apoteker. Midlet er insulin til type 2-diabetes, der gives én gang om ugen i stedet for hver dag. Det blev FDA-godkendt tidligere i år og er også godkendt i EU.",
+        "Målgruppen er de patienter, for hvem den daglige indsprøjtning er den egentlige forhindring. Der er ikke oplyst en pris."
+      ],
+      "whyItMatters": "Fra 365 indsprøjtninger om året til 52 ændrer, hvad der kræves af patienten, ikke hvad stoffet gør. Den slags produkter vinder eller taber på, om folk følger behandlingen - ikke på virkningen i et forsøg, hvor alle bliver mindet om det.",
+      "analysis": "Det er en test af, hvor meget Novo kan flytte i USA på bekvemmelighed alene. Tallet at holde øje med er ikke lanceringen, men genopfyldningsraten om et år.",
+      "topics": [
+        "danmark",
+        "medicinal",
+        "sundhed",
+        "erhverv"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Awiqli",
+        "FDA",
+        "USA",
+        "Danmark"
+      ],
+      "scores": {
+        "importance": 68,
+        "decisionValue": 62,
+        "novelty": 74,
+        "sourceQuality": 78,
+        "personalRelevance": 74,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Novo Nordisk begyndte 11. august 2026 udlevering af Awiqli, insulin til ugentlig indsprøjtning mod type 2-diabetes, på omkring 70.000 amerikanske apoteker; midlet er FDA-godkendt tidligere i 2026 og også godkendt i EU.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/novo-sender-insulin-til-ugentlig-brug-ud-paa-amerikanske-apoteker"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo sender insulin til ugentlig brug ud på amerikanske apoteker",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/novo-sender-insulin-til-ugentlig-brug-ud-paa-amerikanske-apoteker",
+          "publishedAt": "2026-08-11T13:44:23Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Vandet forsvinder i Rhinen: Det laveste niveau nogensinde er registreret",
+      "headline": "Vandet forsvinder i Rhinen: Det laveste niveau nogensinde er registreret",
+      "url": "https://ing.dk/artikel/vandet-forsvinder-i-rhinen-det-laveste-niveau-nogensinde-er-registreret",
+      "publisher": "Ingeniøren",
+      "section": "Klima",
+      "publishedAt": "2026-08-11T07:32:10Z",
+      "summary": "Rhinen er Europas vigtigste indre vandvej for tungt gods, og vandstanden bestemmer, hvor meget en pram må laste."
+    },
+    {
+      "text": "Klippesprængning har ikke virket i Rumænien: Lukning af atomreaktor er »uundgåelig«",
+      "headline": "Klippesprængning har ikke virket i Rumænien: Lukning af atomreaktor er »uundgåelig«",
+      "url": "https://ing.dk/artikel/klippespraengning-har-ikke-virket-i-rumaenien-lukning-af-atomreaktor-er-uundgaaelig",
+      "publisher": "Ingeniøren",
+      "section": "Energi",
+      "publishedAt": "2026-08-11T10:37:49Z",
+      "summary": "Kølevand er blevet den bindende begrænsning for atomkraft i et varmere Europa."
+    },
+    {
+      "text": "What's behind Iran's new military appointments and what do they indicate?",
+      "headline": "What's behind Iran's new military appointments and what do they indicate?",
+      "url": "https://www.aljazeera.com/news/2026/8/11/whats-behind-irans-new-military-appointments-and-what-do-they-indicate",
+      "publisher": "Al Jazeera",
+      "section": "Geopolitik",
+      "publishedAt": "2026-08-11T13:28:53Z",
+      "summary": "Seks nye militære udnævnelser, heriblandt en garde-veteran, der har været skeptisk over for forhandlinger med USA."
+    },
+    {
+      "text": "Libanon afskaffer dødstraf",
+      "headline": "Libanon afskaffer dødstraf",
+      "url": "https://www.dr.dk/nyheder/seneste/libanon-afskaffer-doedstraf",
+      "publisher": "DR",
+      "section": "Verden",
+      "publishedAt": "2026-08-11T12:01:58Z",
+      "summary": "Landet forlader dermed den gruppe af stater i regionen, der stadig har dødsstraf på lovbogen."
+    },
+    {
+      "text": "141 personer er sigtet efter demonstration ved forsvarsvirksomheden Terma",
+      "headline": "141 personer er sigtet efter demonstration ved forsvarsvirksomheden Terma",
+      "url": "https://www.dr.dk/nyheder/seneste/141-personer-er-sigtet-efter-demonstration-ved-forsvarsvirksomheden-terma",
+      "publisher": "DR",
+      "section": "Danmark",
+      "publishedAt": "2026-08-11T11:30:22Z",
+      "summary": "Dansk forsvarsindustri er blevet et demonstrationsmål, i takt med at oprustningen bliver konkret."
+    },
+    {
+      "text": "Bergur Løkke stopper som rådgiver hos britisk våbenproducent",
+      "headline": "Bergur Løkke stopper som rådgiver hos britisk våbenproducent",
+      "url": "https://www.dr.dk/nyheder/seneste/bergur-loekke-stopper-som-raadgiver-hos-britisk-vaabenproducent",
+      "publisher": "DR",
+      "section": "Danmark",
+      "publishedAt": "2026-08-11T13:43:41Z",
+      "summary": "Grænsen mellem dansk forsvarspolitik og privat våbenrådgivning trækkes et stykke tilbage."
+    },
+    {
+      "text": "Københavns Kommune på open source-eventyr: Tester nyt alternativ til Microsoft",
+      "headline": "Københavns Kommune på open source-eventyr: Tester nyt alternativ til Microsoft",
+      "url": "https://www.version2.dk/artikel/koebenhavns-kommune-paa-open-source-eventyr-tester-nyt-alternativ-til-microsoft",
+      "publisher": "Version2",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-10T10:36:34Z",
+      "summary": "En pilot, ikke en beslutning - men den første danske kommune af den størrelse, der prøver."
+    },
+    {
+      "text": "Minister vil have Kina-fri vindenergi til 1,8 millioner danskere: Derfor er det nærmest umuligt",
+      "headline": "Minister vil have Kina-fri vindenergi til 1,8 millioner danskere: Derfor er det nærmest umuligt",
+      "url": "https://www.version2.dk/artikel/minister-vil-have-kina-fri-vindenergi-til-18-millioner-danskere-derfor-er-det-naermest-umuligt",
+      "publisher": "Version2",
+      "section": "Energi",
+      "publishedAt": "2026-08-10T03:00:00Z",
+      "summary": "Suverænitetskravet møder leverandørkæden, og leverandørkæden vinder indtil videre."
+    },
+    {
+      "text": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
+      "headline": "New Pass-ta-key attack reveals all the things we didn't know about passkeys",
+      "url": "https://arstechnica.com/security/2026/08/heres-why-the-new-pass-ta-key-attack-is-mostly-a-nothingburger/",
+      "publisher": "Ars Technica",
+      "section": "Cybersikkerhed",
+      "publishedAt": "2026-08-11T11:30:08Z",
+      "summary": "Artiklens egen konklusion er, at angrebet betyder lidt - men den blotlægger antagelser i passkey-modellen, som ikke var alment kendte."
+    },
+    {
+      "text": "Australien vil vaccinere udsatte arter mod fugleinfluenza",
+      "headline": "Australien vil vaccinere udsatte arter mod fugleinfluenza",
+      "url": "https://www.dr.dk/nyheder/seneste/australien-vil-vaccinere-udsatte-arter-mod-fugleinfluenza",
+      "publisher": "DR",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-11T08:28:25Z",
+      "summary": "Vaccination af vilde dyr som artsbevarelse er stadig sjældent og metodisk vanskeligt."
+    },
+    {
+      "text": "Beijing kan få tredjedel af sin årlige nedbør i løbet af et døgn",
+      "headline": "Beijing kan få tredjedel af sin årlige nedbør i løbet af et døgn",
+      "url": "https://www.dr.dk/nyheder/seneste/beijing-kan-faa-tredjedel-af-sin-aarlige-nedboer-i-loebet-af-et-doegn",
+      "publisher": "DR",
+      "section": "Klima",
+      "publishedAt": "2026-08-11T04:58:01Z",
+      "summary": "Et års regn på en dag er en belastningsprøve, byens kloakering ikke er dimensioneret til."
+    },
+    {
+      "text": "Liverpool fans seek clarity on Bezos bid to buy stake",
+      "headline": "Liverpool fans seek clarity on Bezos bid to buy stake",
+      "url": "https://www.aljazeera.com/sports/2026/8/11/liverpool-fans-seek-clarity-on-bezos-bid-to-buy-stake",
+      "publisher": "Al Jazeera",
+      "section": "Sport og erhverv",
+      "publishedAt": "2026-08-11T13:36:26Z",
+      "summary": "Fanejerskab mod kapital, i den mest sete udgave af den strid der findes."
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "prisen-paa-det-ai-ikke-kan",
+    "title": "AI's tydeligste prisvirkning bliver en dyrere blikkenslager",
+    "thesis": "Den mest målbare priseffekt af kunstig intelligens i Danmark bliver ikke billigere tænkearbejde, men at alt, der kræver et menneske til stede i rummet, bliver relativt dyrere.",
+    "horizon": "Frem mod 2031, aflæst i Danmarks Statistiks prisindeks PRIS01",
+    "body": [
+      "William Baumol beskrev i 1967 en ubehagelig mekanik: stiger produktiviteten ujævnt, stiger de relative priser der, hvor den ikke stiger. En strygekvartet kræver stadig fire mennesker i tres minutter.",
+      "Det er allerede sket i Danmark, uden AI. Fra juli 2016 til juli 2026 steg varer 17,3 procent og tjenester 28,8. Under tjenesterne: børnepasning 41,2 procent, frisør 31,2, håndværkerarbejde 26,1. Internetadgang steg 2,5.",
+      "Min påstand er ikke, at AI skaber mønstret, men at den accelererer det. Nedslaget er afstanden mellem varer og tjenester: 11,5 procentpoint over et årti, og jeg forventer, tallet er større i 2031. Én ting taler imod mig: finansielle tjenesteydelser steg 33,6 procent, hurtigere end håndværkere. Skillelinjen går ikke mellem hoved og hånd, men mellem det, der kan leveres uden at nogen er til stede, og alt andet."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis afstanden mellem tjenester og varer i PRIS01 i juli 2031 er uændret eller mindre end de 11,5 procentpoint, den er nu. Det svækker også tesen, hvis frisør, børnepasning og håndværkerarbejde holder op med at stige hurtigere end det samlede indeks tre år i træk.",
+    "topics": [
+      "økonomi",
+      "ai",
+      "priser",
+      "danmark"
+    ],
+    "claims": [
+      {
+        "text": "Fra juli 2016 til juli 2026 steg det danske forbrugerprisindeks for varer 17,3 procent og for tjenester 28,8 procent; børnepasning steg 41,2 procent, restauranter 36,1, frisør 31,2, håndværkertjenester til boligen 26,1, software 10,0 og internetadgang 2,5 procent. Finansielle tjenesteydelser steg 33,6 procent.",
+        "sourceUrls": [
+          "https://www.statistikbanken.dk/PRIS01"
+        ],
+        "confidence": "high"
+      },
+      {
+        "text": "Mekanismen er beskrevet af William Baumol i 1967 som omkostningssyge: ujævn produktivitetsvækst hæver de relative priser i de sektorer, hvor produktiviteten ikke stiger.",
+        "sourceUrls": [
+          "https://www.nber.org/system/files/working_papers/w12218/w12218.pdf"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Forbrugerprisindeks efter varegruppe, enhed og tid (PRIS01)",
+        "publisher": "Danmarks Statistik",
+        "url": "https://www.statistikbanken.dk/PRIS01",
+        "publishedAt": "2026-08-10T06:00:00Z",
+        "kind": "primary"
+      },
+      {
+        "title": "Baumol's Diseases: A Macroeconomic Perspective",
+        "publisher": "NBER",
+        "url": "https://www.nber.org/system/files/working_papers/w12218/w12218.pdf",
+        "publishedAt": "2006-05-01T00:00:00Z",
+        "kind": "analysis"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-2026-08-11-ayer-magee",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Samtale",
+      "status": "classic",
+      "title": "Men of Ideas: Logical Positivism & its Legacy - A. J. Ayer & Bryan Magee (1978)",
+      "creator": "A. J. Ayer og Bryan Magee",
+      "provider": "Bitesize Philosophy",
+      "url": "https://www.youtube.com/watch?v=x2SrXueVAos",
+      "availability": "Gratis på YouTube, også fra Danmark. Oprindeligt sendt på BBC i 1978.",
+      "commitment": "38 min",
+      "description": "A. J. Ayer forklarer over for Bryan Magee, hvad logisk positivisme gik ud på: kravet om at en påstand skal kunne efterprøves for overhovedet at betyde noget, og konsekvensen, at store dele af metafysikken ikke er falsk, men tom.",
+      "rationale": "Det er den grundlæggende anklage mod den tradition, du læser i primærtekst - Hegel, Heidegger, Derrida - fremført af dens skarpeste engelske modstander i hans egen stemme. Og et sted midtvejs gør Ayer noget, en artikel ikke kan iscenesætte: han indrømmer på kameraet, hvilke dele af hans eget program der brød sammen, og hvorfor. 38 minutter er ikke meget for at se en tradition revidere sig selv.",
+      "topics": [
+        "filosofi",
+        "analytisk filosofi",
+        "videnskabsteori"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://i.ytimg.com/vi/x2SrXueVAos/maxresdefault.jpg",
+        "credit": "Kilde: BBC via YouTube",
+        "alt": "A. J. Ayer og Bryan Magee i samtale i BBC-serien Men of Ideas",
+        "sourceUrl": "https://www.youtube.com/watch?v=x2SrXueVAos"
+      }
+    },
+    {
+      "id": "rec-2026-08-11-mindscape",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "363 | Chandra Sripada on How LLMs and Humans are Cognitive Cousins",
+      "creator": "Sean Carroll og Chandra Sripada",
+      "provider": "Sean Carroll's Mindscape",
+      "url": "https://www.preposterousuniverse.com/podcast/2026/08/10/363-chandra-sripada-on-how-llms-and-humans-are-cognitive-cousins/",
+      "availability": "Gratis, også fra Danmark",
+      "commitment": "1 t 52 min",
+      "note": "Bevidsthedsfilosofi og frontier-modeller i samme rum, med en forsker der laver forsøg på mennesker frem for analogier.",
+      "topics": [
+        "bevidsthed",
+        "ai",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-setiya",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "available",
+      "title": "The New Moral Mathematics",
+      "creator": "Kieran Setiya",
+      "provider": "Boston Review",
+      "url": "https://www.bostonreview.net/articles/the-new-moral-mathematics/",
+      "availability": "Frit tilgængeligt",
+      "commitment": "ca. 22 min",
+      "note": "Det bedst argumenterede forsvar for, at trækket med de kommende billioner af mennesker er en teknisk fejl, ikke et bredere blik.",
+      "topics": [
+        "etik",
+        "langtidstænkning",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-epoch",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Rapport",
+      "status": "new",
+      "title": "One in five US workers now delegates tasks to AI instead of other humans",
+      "creator": "Caroline Falkman Olsson, Yafah Edelman og Amreeta Das",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/publications/one-in-five-workers-delegate-work-to-ai",
+      "availability": "Frit tilgængeligt",
+      "commitment": "ca. 15 min",
+      "note": "Målt substitution frem for fremskrevet: hvad amerikanske lønmodtagere nu giver til en model i stedet for til en kollega.",
+      "topics": [
+        "arbejdsmarked",
+        "ai",
+        "data"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-defense-dividends",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "available",
+      "title": "Defense Dividends",
+      "creator": "Alfredo Saad-Filho og Jack Taggart",
+      "provider": "Phenomenal World",
+      "url": "https://phenomenalworld.org/analysis/defense-dividends/",
+      "availability": "Frit tilgængeligt",
+      "commitment": "ca. 22 min",
+      "note": "Hvem der rent faktisk finansierer den europæiske oprustning, og hvad de samme fonde ellers ejer.",
+      "topics": [
+        "forsvar",
+        "kapital",
+        "europa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-cepr",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Økonomisk klumme",
+      "status": "available",
+      "title": "Export strength does not equal tech strength: Rethinking EU comparative advantage",
+      "creator": "Filippo Di Mauro, Marco Matani og Gianmarco Ottaviano",
+      "provider": "CEPR",
+      "url": "https://cepr.org/voxeu/columns/export-strength-does-not-equal-tech-strength-rethinking-eu-comparative-advantage",
+      "availability": "Frit tilgængeligt",
+      "commitment": "ca. 5 min",
+      "note": "Fem minutter, der påstår at listen over strategiske sektorer er valgt ud fra de forkerte tal.",
+      "topics": [
+        "industripolitik",
+        "eu",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-mennesket",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Dokumentarserie",
+      "status": "new",
+      "title": "Mennesket",
+      "creator": "Ella Al-Shamahi og BBC Studios Science Unit",
+      "provider": "DRTV",
+      "url": "https://www.dr.dk/drtv/saeson/mennesket_591310",
+      "availability": "Gratis på DRTV i Danmark, tilgængelig fra 8. august 2026",
+      "commitment": "5 afsnit à ca. 48 min",
+      "note": "Fem timer om, hvorfor én menneskeart overlevede alle de andre.",
+      "topics": [
+        "evolution",
+        "arkæologi",
+        "videnskab"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-arendt",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Bog",
+      "status": "new",
+      "title": "Hannah Arendt: A Life of the Mind",
+      "creator": "Thomas Meyer, oversat af Shelley Frisch",
+      "provider": "Penguin Press",
+      "url": "https://www.penguinrandomhouse.com/books/609267/hannah-arendt-by-thomas-meyer-translated-by-shelley-frisch/",
+      "availability": "Udkom på engelsk 11. august 2026, hardcover; bestilles i Danmark gennem de sædvanlige engelsksprogede kanaler",
+      "commitment": "560 sider",
+      "note": "Den første Arendt-biografi bygget på de nyåbnede arkiver, udkommet i dag.",
+      "topics": [
+        "filosofi",
+        "biografi",
+        "politisk teori"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-kimi-k3",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Åben model",
+      "status": "available",
+      "title": "Kimi-K3",
+      "creator": "Moonshot AI",
+      "provider": "Hugging Face",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3",
+      "availability": "Kan hentes fra Danmark under Kimi K3-licensen og køre på vLLM, SGLang eller Transformers; hostet API er betalt",
+      "commitment": "stor download, eller API",
+      "note": "Den største åbne model, der er udgivet, til at lægge ned i din egen infrastruktur.",
+      "topics": [
+        "ai",
+        "åbne modeller",
+        "kina"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-oddlots-nyt",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "NYT CEO Meredith Kopit Levien on Running a Media Brand in the Age of AI",
+      "creator": "Joe Weisenthal, Tracy Alloway og Meredith Kopit Levien",
+      "provider": "Odd Lots",
+      "url": "https://podcasts.apple.com/us/podcast/nyt-ceo-meredith-kopit-levien-on-running-a-media/id1056200096?i=1000781901969",
+      "availability": "Gratis i podcast-apps, også fra Danmark; videoversionen på Bloomberg.com er bag betalingsmur",
+      "commitment": "1 t",
+      "note": "Den ene internetforretningsmodel der overlevede, forklaret af den der driver den.",
+      "topics": [
+        "medier",
+        "ai",
+        "forretningsmodeller"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-08-11-oddlots-sardine",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "How a Sardine Gets From the Ocean to a Can",
+      "creator": "Joe Weisenthal, Tracy Alloway og Becca Millstein",
+      "provider": "Odd Lots",
+      "url": "https://podcasts.apple.com/us/podcast/how-a-sardine-gets-from-the-ocean-to-a-can/id1056200096?i=1000780414506",
+      "availability": "Gratis i podcast-apps, også fra Danmark",
+      "commitment": "58 min",
+      "note": "En dåse fisk, fulgt hele vejen tilbage til vandet.",
+      "topics": [
+        "forsyningskæder",
+        "fødevarer",
+        "erhverv"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "verifiedClaims": 92,
+    "sourceDiversity": 84,
+    "outsideProfile": 88,
+    "novelty": 86
+  }
+}
