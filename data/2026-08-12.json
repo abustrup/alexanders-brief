@@ -1,0 +1,1052 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-2026-08-12",
+  "date": "2026-08-12",
+  "generatedAt": "2026-08-12T19:52:07.822Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief — 12. august 2026",
+  "dek": "Seks kapitalforvaltere gør Nvidias grafikkort til kreditgrundlag, Mistral vil finansiere en gigawatt europæisk regnekraft med aftagerforpligtelser, og Vestas får sin bedste børsdag i 14 år.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-nvidia-compute-financing-2026-08-12",
+      "eventKey": "nvidia-compute-financing-platforms-2026-08",
+      "materialFacts": [
+        "Nvidia har indgået hensigtserklæringer med Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs og KKR om selvstændige finansieringsplatforme for AI-infrastruktur.",
+        "Platformene skal over tid mobilisere mere end 500 mia. dollar i tredjepartskapital.",
+        "Goldman Sachs' David Solomon beskriver formålet som at skabe et marked for kredit med Nvidia-compute som sikkerhed.",
+        "KKR oplyser, at Nvidia er stifterinvestor i Helix Digital Infrastructure; BlackRock kobler platformene til AI Infrastructure Partnership."
+      ],
+      "section": "Teknologi og kapital",
+      "headline": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+      "primarySourceUrl": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+      "subheadline": "Seks af verdens største kapitalforvaltere skal rejse over 500 mia. dollar til amerikanske AI-datacentre. Dermed bliver Nvidias grafikkort til et aktiv, der kan belånes.",
+      "body": [
+        "Nvidia har indgået hensigtserklæringer med Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs og KKR om selvstændige finansieringsplatforme, der over tid skal rejse mere end 500 mia. dollar i tredjepartskapital til amerikanske AI-datacentre.",
+        "Goldman Sachs-chefen David Solomon beskriver formålet som at skabe et marked for kredit med Nvidia-regnekraft som sikkerhed. KKR oplyser, at Nvidia selv er stifterinvestor i Helix Digital Infrastructure. Producenten står på begge sider: den sælger kortene og finansierer købet af dem."
+      ],
+      "whyItMatters": "Hidtil har hyperscalernes egne pengestrømme betalt for udbygningen. Flyttes den til gældsmarkedet, spredes risikoen til pensionskasser og kreditfonde — også europæiske.",
+      "analysis": "Et grafikkort er svær sikkerhed. Det forældes hurtigt, og værdien hviler på en efterspørgsel, ingen kan garantere, så prisen bygger på en levetid, selskaberne selv fastsætter. Lykkes det, bliver kapitalen billigere og tempoet højere. Skuffer efterspørgslen, ligger tabet ikke hos den, der købte kortene, men hos den, der lånte penge mod dem.",
+      "counterpoint": "Hensigtserklæringer er ikke bindende aftaler. De 500 mia. dollar er et mål, ikke rejst kapital, og hverken tidsplan eller rentesatser er oplyst.",
+      "image": {
+        "url": "https://iprsoftwaremedia.com/219/files/20224/6296531eb3aed3741918b6b5_DH1L4415-HDR-20220527-r5/DH1L4415-HDR-20220527-r5_dba29dde-5a9b-4ac8-bf58-a0b78da89547-prv.jpg?v=dba29dde-5a9b-4ac8-bf58-a0b78da89547",
+        "credit": "Foto: NVIDIA",
+        "alt": "Nvidias hovedkvarter i Santa Clara, Californien",
+        "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+      },
+      "topics": [
+        "ai-infrastruktur",
+        "kapitalmarkeder",
+        "datacentre",
+        "halvledere"
+      ],
+      "entities": [
+        "NVIDIA",
+        "Jensen Huang",
+        "Apollo Global Management",
+        "BlackRock",
+        "Blackstone",
+        "Brookfield",
+        "Goldman Sachs",
+        "KKR",
+        "David Solomon"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 86,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 92,
+        "personalRelevance": 92,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Nvidia har indgået hensigtserklæringer med Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs og KKR om finansieringsplatforme, der skal mobilisere over 500 mia. dollar i tredjepartskapital til AI-infrastruktur.",
+          "sourceUrls": [
+            "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Goldman Sachs' David Solomon beskriver formålet som at skabe et marked for kredit med Nvidia-compute som sikkerhed.",
+          "sourceUrls": [
+            "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
+          "publishedAt": "2026-08-10T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-mistral-sovereign-compute-2026-08-12",
+      "eventKey": "mistral-regional-inference-ecu-2026-08",
+      "materialFacts": [
+        "Mistrals Regional Endpoints er nu generelt tilgængelige og låser inferens og databehandling til enten Europa eller USA.",
+        "European Compute Units er flerårige kapacitetsforpligtelser, der efter Mistrals egen opgørelse skal underbygge 200 MW i Europa ved udgangen af 2027 og 1 GW ved udgangen af 2030.",
+        "Amadeus, ASML, Capgemini, Caisse des Dépôts, CMA CGM og Factory deltager.",
+        "Mistral begynder at hoste tredjeparts open weights-modeller, først GLM-5.2 fra kinesiske Z.ai."
+      ],
+      "section": "Teknologisk suverænitet",
+      "headline": "In-region inference, open models, and new European infrastructure for sovereign AI.",
+      "primarySourceUrl": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+      "subheadline": "Frankrigs Mistral vil finansiere 1 gigawatt europæisk regnekraft med aftagerforpligtelser fra ASML, CMA CGM og Caisse des Dépôts — og lægger en kinesisk model ind i stakken.",
+      "body": [
+        "Franske Mistral har gjort sine Regional Endpoints generelt tilgængelige, så kunder kan låse inferens og databehandling til Europa eller USA.",
+        "Samtidig lanceres European Compute Units: flerårige kapacitetstilsagn fra europæiske virksomheder, som efter selskabets opgørelse skal underbygge 200 MW i Europa ved udgangen af 2027 og 1 GW ved udgangen af 2030. ASML, Caisse des Dépôts, CMA CGM og Capgemini deltager. Mistral hoster desuden nu andres åbne modeller, først GLM-5.2 fra kinesiske Z.ai."
+      ],
+      "whyItMatters": "Europas eneste frontier-laboratorium finansierer regnekraft med industrielle aftagerforpligtelser frem for statsstøtte.",
+      "analysis": "Tilsagnet løser det, europæisk compute strander på: ingen bygger uden sikker efterspørgsel. At ASML skriver under, gør efterspørgslen kreditværdig uden offentlige kroner. Men suverænitet defineres her som kontrol over, hvor beregningen kører — ikke over, hvem der trænede modellen.",
+      "image": {
+        "url": "https://mistral.ai/cms-media/api/media/file/Cover-SovereignAI.png",
+        "credit": "Kilde: Mistral AI",
+        "alt": "Mistral AI's grafik til meddelelsen om europæisk suveræn AI-infrastruktur",
+        "sourceUrl": "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+      },
+      "topics": [
+        "kunstig intelligens",
+        "teknologisk suverænitet",
+        "datacentre",
+        "europa",
+        "open source"
+      ],
+      "entities": [
+        "Mistral AI",
+        "ASML",
+        "Caisse des Dépôts",
+        "CMA CGM",
+        "Amadeus",
+        "Capgemini",
+        "Z.ai"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 78,
+        "novelty": 70,
+        "sourceQuality": 88,
+        "personalRelevance": 95,
+        "contrast": 68
+      },
+      "claims": [
+        {
+          "text": "Mistrals European Compute Units skal efter selskabets egen opgørelse underbygge 200 MW infrastruktur i Europa ved udgangen af 2027 og 1 GW ved udgangen af 2030.",
+          "sourceUrls": [
+            "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mistral begynder at hoste tredjeparts open weights-modeller på egen platform, først GLM-5.2 fra kinesiske Z.ai.",
+          "sourceUrls": [
+            "https://mistral.ai/news/regional-inference-open-models-new-compute/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "In-region inference, open models, and new European infrastructure for sovereign AI.",
+          "publisher": "Mistral AI",
+          "url": "https://mistral.ai/news/regional-inference-open-models-new-compute/",
+          "publishedAt": "2026-08-11T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-vestas-q2-boersdag-2026-08-12",
+      "eventKey": "vestas-q2-2026-guidance-raise-2026-08",
+      "materialFacts": [
+        "Vestas-aktien steg 19,7 procent 12. august 2026, den største enkeltdagsstigning siden 2012.",
+        "Kvartalets overskud blev 285 mio. euro mod en forventning på 144 mio. euro.",
+        "EBIT-marginen før særlige poster var 9,4 procent mod 1,5 procent i andet kvartal 2025.",
+        "Forventningen til helårets EBIT-margin blev hævet til 7-9 procent fra 6-8 procent, og et aktietilbagekøb på 400 mio. euro blev igangsat."
+      ],
+      "section": "Dansk erhverv",
+      "headline": "Bedste børsdag for Vestas i 14 år",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/bedste-boersdag-vestas-i-14-aar",
+      "subheadline": "Vestas fordoblede analytikernes forventning til overskuddet, hævede sine marginmål og genstartede aktietilbagekøb. Aktien steg mest på én dag siden 2012.",
+      "body": [
+        "Vestas-aktien lukkede 12. august 19,7 procent højere, den kraftigste enkeltdagsstigning siden 2012. Kvartalets overskud på 285 mio. euro var næsten dobbelt så stort som ventet.",
+        "Marginen betyder mere. EBIT-marginen før særlige poster nåede 9,4 procent mod 1,5 procent året før, og forventningen for 2026 blev hævet til 7-9 procent fra 6-8 procent. Samtidig blev et aktietilbagekøb på 400 mio. euro sat i gang."
+      ],
+      "whyItMatters": "Vestas er Danmarks største industrielle eksportør, og marginpresset har varet i fire år. Et tilbagekøb er selskabets eget signal om, at det ikke længere behøver holde på kontanterne.",
+      "analysis": "Tallene siger mindre om vindmarkedets vækst end om prisdisciplin: det er indtjeningen per solgt megawatt, der har flyttet sig, efter en periode hvor branchen afviste ordrer frem for at tage dem til tabsgivende priser. Disciplinen holder kun, så længe efterspørgslen overstiger vestlig produktionskapacitet.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/53ijr55g/20260812-091021-a_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Vestas-vindmøller",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/bedste-boersdag-vestas-i-14-aar"
+      },
+      "topics": [
+        "erhverv",
+        "vindenergi",
+        "aktiemarked",
+        "danmark",
+        "regnskab"
+      ],
+      "entities": [
+        "Vestas Wind Systems",
+        "C25",
+        "JPMorgan"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 80,
+        "personalRelevance": 70,
+        "contrast": 74
+      },
+      "claims": [
+        {
+          "text": "Vestas-aktien steg 19,7 procent 12. august 2026, den største enkeltdagsstigning siden 2012.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/bedste-boersdag-vestas-i-14-aar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Vestas hævede forventningen til helårets EBIT-margin til 7-9 procent fra 6-8 procent og igangsatte et aktietilbagekøb på 400 mio. euro.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/bedste-boersdag-vestas-i-14-aar",
+            "https://www.vestas.com/en/investor/reports-and-presentations/vestas-reporting"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bedste børsdag for Vestas i 14 år",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/bedste-boersdag-vestas-i-14-aar",
+          "publishedAt": "2026-08-12T15:50:57.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Vestas reporting",
+          "publisher": "Vestas Wind Systems",
+          "url": "https://www.vestas.com/en/investor/reports-and-presentations/vestas-reporting",
+          "publishedAt": "2026-08-12T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-us-cpi-july-2026-08-12",
+      "eventKey": "us-cpi-july-2026",
+      "materialFacts": [
+        "Det amerikanske forbrugerprisindeks steg 0,1 procent i juli 2026, kerneindekset 0,2 procent.",
+        "Årsraterne er 3,4 procent for det samlede indeks og 2,5 procent for kernen, begge 0,1 procentpoint lavere end i juni.",
+        "Energipriserne faldt 1,5 procent på måneden, men er fortsat 14,7 procent højere end for et år siden.",
+        "Markedet prissætter en renteforhøjelse, ikke en nedsættelse; sandsynligheden for en forhøjelse i september faldt til 42 procent efter offentliggørelsen."
+      ],
+      "section": "Økonomi",
+      "headline": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+      "primarySourceUrl": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+      "subheadline": "Amerikansk inflation faldt til 3,4 procent. Det usædvanlige er retningen på forventningerne: markedet venter en renteforhøjelse i september, ikke en lempelse.",
+      "body": [
+        "Det amerikanske forbrugerprisindeks steg 0,1 procent i juli og kerneindekset 0,2 procent, begge som ventet. Årsraterne faldt til 3,4 og 2,5 procent. Energipriserne faldt 1,5 procent på måneden, men ligger fortsat 14,7 procent over niveauet for et år siden.",
+        "Reaktionen siger mere end tallet. Sandsynligheden for en amerikansk renteforhøjelse i september faldt til 42 procent, aktiefutures steg, og obligationsrenterne faldt."
+      ],
+      "whyItMatters": "Dollarbenet i enhver europæisk portefølje afhænger af, om den amerikanske centralbank strammer i september. Målingen tog hastværket ud af spørgsmålet uden at fjerne det.",
+      "analysis": "Det bemærkelsesværdige er ikke niveauet, men at debatten i USA handler om en forhøjelse, mens euroområdet ligger omkring et procentpoint lavere. Forskellen er energi: forårets prisstød ramte amerikanske forbrugerpriser hårdere og er endnu ikke rullet ud af årsraten.",
+      "image": {
+        "url": "https://image.cnbcfm.com/api/v1/image/108347225-1786538845789-108347225-1786365054094-gettyimages-2289076137-FOOD_PRICES.jpg?v=1786538855&w=1920&h=1080",
+        "credit": "Kilde: CNBC",
+        "alt": "Arkivfoto af fødevarepriser i et amerikansk supermarked",
+        "sourceUrl": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+      },
+      "topics": [
+        "inflation",
+        "usa",
+        "renter",
+        "makroøkonomi",
+        "centralbanker"
+      ],
+      "entities": [
+        "Bureau of Labor Statistics",
+        "Federal Reserve",
+        "CME FedWatch"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 85,
+        "novelty": 75,
+        "sourceQuality": 72,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Det amerikanske forbrugerprisindeks steg 0,1 procent i juli 2026, og årsraten er 3,4 procent.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+            "https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Sandsynligheden for en amerikansk renteforhøjelse i september faldt til 42 procent efter offentliggørelsen.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
+          "publishedAt": "2026-08-12T12:31:31.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "CPI inflation July 2026",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/economy/cpi-inflation-july-2026-rcna591698",
+          "publishedAt": "2026-08-12T13:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-assad-death-sentence-2026-08-12",
+      "eventKey": "syria-assad-death-sentence-2026-08",
+      "materialFacts": [
+        "Den fjerde strafferet i Damaskus dømte 11. august 2026 Bashar al-Assad til døden in absentia for overlagt mord, tortur og forbrydelser mod menneskeheden.",
+        "Broderen Maher al-Assad blev ligeledes dømt til døden in absentia.",
+        "Atef Najib, tidligere sikkerhedschef i Deraa, blev dømt til døden som til stede i retten.",
+        "Det er de første domme mod Assad eller hans nærmeste kreds, siden familiens styre faldt for omtrent 20 måneder siden."
+      ],
+      "section": "Udland",
+      "headline": "Bashar al-Assad, Atef Najib sentenced to death in landmark Syria trial",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial",
+      "subheadline": "Syriens fjerde strafferet dømte den afsatte præsident til døden in absentia. Rusland, som har givet ham asyl, har hidtil afvist at udlevere ham.",
+      "body": [
+        "Den fjerde strafferet i Damaskus kendte 11. august Bashar al-Assad skyldig i overlagt mord, tortur og forbrydelser mod menneskeheden og idømte ham dødsstraf in absentia. Broderen Maher al-Assad, der også er i Rusland, fik samme dom.",
+        "Én af de dømte var til stede: Atef Najib, tidligere chef for det politiske sikkerhedspoliti i Deraa og manden bag fremfærden i 2011, der udløste opstanden. Det er de første domme mod Assad eller hans nærmeste kreds, siden familiens styre faldt for omtrent 20 måneder siden."
+      ],
+      "whyItMatters": "Syriens nye stat har nu formelt dømt den mand, Rusland huser. Udlevering går dermed fra moralsk spørgsmål til retligt krav, Moskva skal svare på.",
+      "analysis": "Domme in absentia mod en mand under russisk beskyttelse fuldbyrdes ikke. Virkningen ligger andetsteds: de gør Assads status til en løbende omkostning i ethvert russisk forhold til Damaskus og fastlægger et grundlag, der overlever regeringen.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/s1-1786438530.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Retssalen i Damaskus, hvor dommen mod Bashar al-Assad blev afsagt",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial"
+      },
+      "topics": [
+        "syrien",
+        "retsopgør",
+        "krigsforbrydelser",
+        "mellemøsten",
+        "rusland"
+      ],
+      "entities": [
+        "Bashar al-Assad",
+        "Maher al-Assad",
+        "Atef Najib",
+        "Fahd al-Freij",
+        "Damaskus"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 35,
+        "novelty": 90,
+        "sourceQuality": 72,
+        "personalRelevance": 40,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Den fjerde strafferet i Damaskus dømte 11. august 2026 Bashar al-Assad til døden in absentia for overlagt mord, tortur og forbrydelser mod menneskeheden.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Atef Najib, tidligere chef for det politiske sikkerhedspoliti i Deraa, blev dømt til døden som til stede i retssalen.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial",
+            "https://www.aljazeera.com/news/2026/8/11/who-is-atef-najib-former-syrian-official-sentenced-to-death-with-al-assad"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bashar al-Assad, Atef Najib sentenced to death in landmark Syria trial",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/bashar-al-assad-atef-najib-sentenced-to-death-in-landmark-syria-trial",
+          "publishedAt": "2026-08-11T08:27:57.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Who is Atef Najib, former Syrian official sentenced to death with al-Assad?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/who-is-atef-najib-former-syrian-official-sentenced-to-death-with-al-assad",
+          "publishedAt": "2026-08-11T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-jrc-europe-drought-2026-08-12",
+      "eventKey": "eu-jrc-drought-heat-august-2026",
+      "materialFacts": [
+        "Halvdelen af EU's og Storbritanniens areal var i slutningen af juli 2026 ramt af tørke i en eller anden grad, 9 procent på alarmniveau.",
+        "505.683 hektar var brændt af pr. 5. august 2026 mod 379.392 hektar samme dato i 2025.",
+        "Loire, Po, Rhinen og Donau nåede alle rekordlave niveauer i august.",
+        "Fransk atomkraftproduktion blev reduceret og vandkraft indskrænket som direkte følge af lav vandføring og høje vandtemperaturer."
+      ],
+      "section": "Klima",
+      "headline": "Worsening drought and record heat grip Europe, fuelling extraordinary wildfires and extremely low river flows",
+      "primarySourceUrl": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en",
+      "subheadline": "EU-Kommissionens forskningstjeneste kobler nu direkte sommerens tørke til reduceret fransk atomkraft og indskrænket vandkraft. Halvdelen af EU's areal er tørkeramt.",
+      "body": [
+        "EU-Kommissionens eget forskningscenter opgør, at halvdelen af EU’s og Storbritanniens areal i slutningen af juli var tørkeramt, heraf 9 procent på alarmniveau. Pr. 5. august var 505.683 hektar brændt af mod 379.392 hektar samme dato året før.",
+        "Loire, Po, Rhinen og Donau nåede alle rekordlave niveauer i august. Konsekvensen er ikke kun økologisk: fransk atomkraftproduktion er skruet ned, og vandkraft indskrænket, fordi vandføringen er for lav og vandet for varmt til køling."
+      ],
+      "whyItMatters": "Når Kommissionens egen videnskabstjeneste tilskriver reduceret fransk atomkraft til tørken, er klimamålingen blevet en aktuel begrænsning på europæisk elproduktion.",
+      "analysis": "Europæisk elforsyning har to vejrafhængige ben, og tørke rammer dem samtidig: vandkraft falder direkte med vandføringen, atomkraft indirekte, fordi køling kræver koldt vand nok. Det sker i den sommer, hvor efterspørgslen efter køling topper.",
+      "image": {
+        "url": "https://joint-research-centre.ec.europa.eu/sites/default/files/styles/ewcms_metatag_image/public/2026-08/Drought_2026_Rhine_AdobeStock_2116661607.jpeg?h=2c91a163&itok=H5pE4OLz",
+        "credit": "Kilde: Joint Research Centre, Europa-Kommissionen",
+        "alt": "Lav vandstand i Rhinen med blottet flodbund",
+        "sourceUrl": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en"
+      },
+      "topics": [
+        "klima",
+        "tørke",
+        "energi",
+        "europa",
+        "ekstremvejr"
+      ],
+      "entities": [
+        "Joint Research Centre",
+        "Europa-Kommissionen",
+        "Rhinen",
+        "Donau",
+        "WHO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 56,
+        "novelty": 68,
+        "sourceQuality": 93,
+        "personalRelevance": 55,
+        "contrast": 46
+      },
+      "claims": [
+        {
+          "text": "Halvdelen af EU's og Storbritanniens areal var i slutningen af juli 2026 tørkeramt, heraf 9 procent på alarmniveau.",
+          "sourceUrls": [
+            "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Fransk atomkraftproduktion blev reduceret og vandkraft indskrænket som følge af lav vandføring og høje vandtemperaturer.",
+          "sourceUrls": [
+            "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Worsening drought and record heat grip Europe, fuelling extraordinary wildfires and extremely low river flows",
+          "publisher": "Joint Research Centre (European Commission)",
+          "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en",
+          "publishedAt": "2026-08-12T12:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-groenland-jameson-land-2026-08-12",
+      "eventKey": "greenland-jameson-land-drilling-halt-2026-08",
+      "materialFacts": [
+        "Naalakkersuisut har afgjort, at den planlagte boring i Jameson Land i Østgrønland ikke kan gennemføres vinteren 2026/2027.",
+        "Godkendelsesprocessen kan ikke nå at blive afsluttet, og afgørelsen omfatter også forberedende aktivitet.",
+        "Licenshaver er White Flame Energy A/S, et grønlandsk datterselskab af britisk børsnoterede 80 Mile PLC.",
+        "Boreudstyr blev landet i området uger forinden uden den krævede godkendelse, hvorefter Grønland sendte en skarp advarsel."
+      ],
+      "section": "Rigsfællesskabet",
+      "headline": "Grønland bremser amerikansk olieprojekt",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/groenland/groenland-bremser-amerikansk-olieprojekt",
+      "subheadline": "Naalakkersuisut afviser, at der kan bores i Jameson Land til vinter. Det er Nuuk og ikke København, der stopper et amerikansk støttet boreprojekt i Arktis.",
+      "body": [
+        "Grønlands landsstyre har afgjort, at den planlagte olieboring i Jameson Land i Østgrønland ikke kan gennemføres vinteren 2026/2027, fordi godkendelsen ikke når at blive afsluttet. Licenshaver er White Flame Energy A/S, datterselskab af britisk børsnoterede 80 Mile PLC.",
+        "Boreudstyr blev landet uger tidligere uden tilladelse, hvorefter Grønland krævede al fremtidig logistik godkendt på forhånd. Selskabet fastholder projektet. Grønland stoppede med at udstede nye olielicenser i 2021; dette hviler på en ældre licens."
+      ],
+      "whyItMatters": "Det er Grønlands egen administration, ikke Danmark, der bremser et amerikansk boreprojekt i Arktis.",
+      "analysis": "Afgørelsen er ikke et nej til projektet, men til tidsplanen — det stærkeste redskab, Nuuk har. En gammel licens kan ikke uden videre trækkes tilbage, men den skal administreres, og boresæsonen er kort. En myndighed, der ikke kan sige nej til retten, kan sige nej til vinteren.",
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/ggtkydeg/20260712-201937-3.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Arkivfoto fra Jameson Land-området i Østgrønland",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/groenland/groenland-bremser-amerikansk-olieprojekt"
+      },
+      "topics": [
+        "grønland",
+        "råstoffer",
+        "arktis",
+        "suverænitet",
+        "energi"
+      ],
+      "entities": [
+        "Naalakkersuisut",
+        "White Flame Energy",
+        "80 Mile PLC",
+        "Greenland Energy Company",
+        "Jameson Land"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 55,
+        "novelty": 78,
+        "sourceQuality": 68,
+        "personalRelevance": 72,
+        "contrast": 66
+      },
+      "claims": [
+        {
+          "text": "Naalakkersuisut har afgjort, at boringen i Jameson Land ikke kan gennemføres vinteren 2026/2027, fordi godkendelsesprocessen ikke kan afsluttes i tide.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/groenland-bremser-amerikansk-olieprojekt"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Boreudstyr blev landet i området uden den krævede godkendelse, hvorefter Grønland udsendte en skarp advarsel.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/groenland-bremser-amerikansk-olieprojekt",
+            "https://www.dr.dk/nyheder/penge/amerikansk-oliefirma-er-gaaet-i-land-groenland-sender-dem-staerk-advarsel"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Grønland bremser amerikansk olieprojekt",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/groenland/groenland-bremser-amerikansk-olieprojekt",
+          "publishedAt": "2026-08-12T16:26:26.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Amerikansk oliefirma er gået i land: Grønland sender dem stærk advarsel",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/amerikansk-oliefirma-er-gaaet-i-land-groenland-sender-dem-staerk-advarsel",
+          "publishedAt": "2026-07-12T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-lebanon-death-penalty-2026-08-12",
+      "eventKey": "lebanon-abolishes-death-penalty-2026-08",
+      "materialFacts": [
+        "Libanons parlament stemte 11. august 2026 for at afskaffe dødsstraf og erstatte den med livsvarigt fængsel med skærpet strafarbejde.",
+        "Et flertal stemte for; Hizbollahs parlamentsgruppe var undtagelsen.",
+        "Libanon har haft et uofficielt henrettelsesmoratorium siden januar 2004, men domstolene fortsatte med at idømme dødsstraf; 85 personer var dødsdømte ved udgangen af 2025.",
+        "Dagen efter vedtog parlamentet en generel amnestilov, den første siden 1991."
+      ],
+      "section": "Udland",
+      "headline": "Lebanon parliament votes to end death penalty, 1st in Middle East to do so",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so",
+      "subheadline": "Libanons parlament afskaffede dødsstraffen ved afstemning. 85 dødsdømte får dommen ændret til livsvarigt fængsel med skærpet strafarbejde.",
+      "body": [
+        "Libanons parlament stemte 11. august for at afskaffe dødsstraffen og erstatte den med livsvarigt fængsel med skærpet strafarbejde. Hizbollahs gruppe var undtagelsen.",
+        "Landet har haft et uofficielt henrettelsesmoratorium siden januar 2004, men domstolene fortsatte med at idømme dødsstraf. Ved udgangen af 2025 sad 85 dødsdømte i libanesiske fængsler. Dagen efter vedtog parlamentet desuden en generel amnestilov, den første siden 1991."
+      ],
+      "whyItMatters": "Et arabisk parlament fjernede dødsstraffen ved afstemning frem for ved dekret, og giver dermed regionale afskaffelsesbevægelser et præcedenstilfælde.",
+      "analysis": "Forskellen mellem et moratorium og en afskaffelse er, hvem der kan omgøre den. Et moratorium er en beslutning om ikke at fuldbyrde, som enhver regering kan opgive i en krise, mens bestanden af dødsdømte vokser. At Hizbollah stemte imod, viser, at det ikke var teknisk oprydning, men reel politisk strid.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a7b194f4087-1786452303.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Det libanesiske parlament i Beirut under afstemningen",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so"
+      },
+      "topics": [
+        "libanon",
+        "dødsstraf",
+        "menneskerettigheder",
+        "mellemøsten",
+        "retspolitik"
+      ],
+      "entities": [
+        "Libanons parlament",
+        "Hizbollah",
+        "Adel Nassar",
+        "Amnesty International"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 25,
+        "novelty": 88,
+        "sourceQuality": 70,
+        "personalRelevance": 25,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Libanons parlament stemte 11. august 2026 for at afskaffe dødsstraffen og erstatte den med livsvarigt fængsel med skærpet strafarbejde.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "85 personer var dødsdømte i Libanon ved udgangen af 2025 ifølge justitsministeriets fængselsdirektorat.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lebanon parliament votes to end death penalty, 1st in Middle East to do so",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/11/lebanons-parliament-votes-to-end-death-penalty-first-in-middle-east-to-so",
+          "publishedAt": "2026-08-11T15:20:38.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Lebanon passes long-sought amnesty law a day after death penalty repeal",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/12/lebanon-passes-long-sought-amnesty-law-a-day-after-death-penalty-repeal",
+          "publishedAt": "2026-08-12T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Explosions rock Russia’s Novorossiysk after ‘unique operation’ targeting Black Sea Fleet, Zelensky says",
+      "headline": "Explosions rock Russia’s Novorossiysk after ‘unique operation’ targeting Black Sea Fleet, Zelensky says",
+      "url": "https://kyivindependent.com/drone-attacks-hit-russias-novorossiysk-occupied-crimea/",
+      "publisher": "The Kyiv Independent",
+      "section": "Udland",
+      "publishedAt": "2026-08-11T23:54:48.000Z",
+      "summary": "Zelenskyj omtaler angrebet mod Ruslands vigtigste sortehavshavn som en »unik operation« rettet mod Sortehavsflåden."
+    },
+    {
+      "text": "NATO Allies condemn recent airspace violations and incidents",
+      "headline": "NATO Allies condemn recent airspace violations and incidents",
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/08/12/nato-allies-condemn-recent-airspace-violations-and-incidents",
+      "publisher": "NATO",
+      "section": "Forsvar",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "Det Nordatlantiske Råd fordømmer i en fælles erklæring de seneste krænkelser af alliancens luftrum."
+    },
+    {
+      "text": "Over 800 danske soldater er ankommet til Letland",
+      "headline": "Over 800 danske soldater er ankommet til Letland",
+      "url": "https://www.dr.dk/nyheder/indland/over-800-danske-soldater-er-ankommet-til-letland",
+      "publisher": "DR",
+      "section": "Forsvar",
+      "publishedAt": "2026-08-12T11:38:03.000Z",
+      "summary": "Den danske kampbataljon er nu på plads i Camp Valdemar som en del af NATO’s fremskudte tilstedeværelse i Baltikum."
+    },
+    {
+      "text": "Anthropic says it will watermark text generated by its AI models",
+      "headline": "Anthropic says it will watermark text generated by its AI models",
+      "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-11T12:13:47.000Z",
+      "summary": "Anthropic vil mærke tekst fra sine modeller, så den kan identificeres som maskingenereret."
+    },
+    {
+      "text": "Introducing Grok 4.6",
+      "headline": "Introducing Grok 4.6",
+      "url": "https://x.ai/news/grok-4-6",
+      "publisher": "SpaceXAI",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-12T00:00:00.000Z",
+      "summary": "xAI udsender Grok 4.6 med vægt på langtløbende agenter og mere ambitiøst visuelt arbejde."
+    },
+    {
+      "text": "Intel Announces Upsize and Pricing of $20 Billion Common Stock Offering",
+      "headline": "Intel Announces Upsize and Pricing of $20 Billion Common Stock Offering",
+      "url": "https://newsroom.intel.com/corporate/intel-announces-upsize-and-pricing-of-20-billion-common-stock-offering",
+      "publisher": "Intel Newsroom",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-11T06:36:58.000Z",
+      "summary": "Aktieudbuddet blev forhøjet fra 15 til 20 mia. dollar dagen efter annonceringen; 210,5 mio. aktier prissat til 95 dollar."
+    },
+    {
+      "text": "Dominion ordered to directly assign some transmission costs to data centers",
+      "headline": "Dominion ordered to directly assign some transmission costs to data centers",
+      "url": "https://www.utilitydive.com/news/dominion-energy-scc-transmission-costs-data-center/827693/",
+      "publisher": "Utility Dive",
+      "section": "Energi",
+      "publishedAt": "2026-08-12T11:02:51.000Z",
+      "summary": "Virginias tilsyn pålægger Dominion at henføre en del af transmissionsomkostningerne direkte til datacentrene frem for til alle kunder."
+    },
+    {
+      "text": "PJM eyes data center, crypto reliability requirements after 3.8 GW of load trips offline",
+      "headline": "PJM eyes data center, crypto reliability requirements after 3.8 GW of load trips offline",
+      "url": "https://www.utilitydive.com/news/pjm-nerc-data-center-crypto-reliability-standards/827653/",
+      "publisher": "Utility Dive",
+      "section": "Energi",
+      "publishedAt": "2026-08-12T09:01:39.000Z",
+      "summary": "Efter at 3,8 GW forbrug koblede sig af nettet på én gang, overvejer PJM egentlige driftskrav til datacentre og mineanlæg."
+    },
+    {
+      "text": "US July deficit tops $432 billion as outlays grow, tariff receipts stay negative",
+      "headline": "US July deficit tops $432 billion as outlays grow, tariff receipts stay negative",
+      "url": "https://wtvbam.com/2026/08/12/us-july-deficit-tops-432-billion-as-outlays-grow-tariff-receipts-stay-negative/",
+      "publisher": "WTVB",
+      "section": "Økonomi",
+      "publishedAt": "2026-08-12T18:04:48.000Z",
+      "summary": "Det amerikanske julimunderskud er rekordstort for måneden og 48 procent større end i juli 2025."
+    },
+    {
+      "text": "Youth unemployment rises as young people face a harder road to decent work",
+      "headline": "Youth unemployment rises as young people face a harder road to decent work",
+      "url": "https://www.ilo.org/resource/news/youth-unemployment-rises-young-people-face-harder-road-decent-work",
+      "publisher": "International Labour Organization",
+      "section": "Samfund",
+      "publishedAt": "2026-08-11T20:41:03.000Z",
+      "summary": "ILO opgør, at ungdomsledigheden stiger globalt, og at vejen til fast arbejde er blevet længere."
+    },
+    {
+      "text": "Ebola deaths top 2,000 as scientists race to develop vaccine",
+      "headline": "Ebola deaths top 2,000 as scientists race to develop vaccine",
+      "url": "https://news.un.org/en/story/2026/08/1168117",
+      "publisher": "UN News",
+      "section": "Sundhed",
+      "publishedAt": "2026-08-11T18:58:29.000Z",
+      "summary": "Dødstallet i det østlige Congo har passeret 2.000 i det hurtigst voksende ebolaudbrud, der er registreret."
+    },
+    {
+      "text": "US military fires on cargo vessel it said sought to break Iran blockade",
+      "headline": "US military fires on cargo vessel it said sought to break Iran blockade",
+      "url": "https://www.aljazeera.com/news/2026/8/11/us-military-fires-on-cargo-vessel-it-said-sought-to-break-iran-blockade",
+      "publisher": "Al Jazeera",
+      "section": "Udland",
+      "publishedAt": "2026-08-11T19:58:12.000Z",
+      "summary": "Det amerikanske militær beskød et fragtskib, som efter dets eget udsagn forsøgte at bryde blokaden mod Iran."
+    },
+    {
+      "text": "NIH limits funding for research on the health effects of public policy",
+      "headline": "NIH limits funding for research on the health effects of public policy",
+      "url": "https://www.nature.com/articles/d41586-026-02489-2",
+      "publisher": "Nature",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-11T00:00:00.000Z",
+      "summary": "Det amerikanske sundhedsforskningsråd begrænser støtten til forskning i, hvordan offentlig politik påvirker sundheden."
+    }
+  ],
+  "keyNumber": {
+    "label": "TSMC's månedlige omsætning",
+    "indicator": "tsmc-monthly-revenue",
+    "value": "467,58",
+    "unit": "mia. NT$",
+    "asOf": "juli 2026",
+    "previous": {
+      "value": "442,68",
+      "asOf": "juni 2026",
+      "change": "+5,6 %"
+    },
+    "caption": "Verdens største kontraktproducent af chips satte månedsrekord igen: 44,7 procent over juli sidste år. Det er den hurtigste offentlige aflæsning af, om AI-udbygningen faktisk køber det, den har bestilt.",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm",
+    "sourceTitle": "Form 6-K: TSMC July 2026 Revenue Report",
+    "series": [
+      {
+        "label": "jun 2026",
+        "value": 442.68
+      },
+      {
+        "label": "jul 2026",
+        "value": 467.58
+      }
+    ]
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "staten-er-allerede-blevet-betalt",
+    "title": "Staten er allerede blevet betalt",
+    "thesis": "Den entreprenante stat beviser, at staten bar risikoen. Deraf følger ikke, at staten skal have afkastet: den er allerede blevet betalt i den valuta, den efterspurgte — at teknologien findes, og at den ligger her.",
+    "horizon": "Statsfondenes egne årsrapporter frem mod 2032",
+    "body": [
+      "Mariana Mazzucatos argument er stærkere end sin karikatur: risikoen socialiseres, gevinsten privatiseres. En venturefond dækker sine tab med sine gevinster; staten bærer tabene alene. Derfor ejerandele, en gylden andel af rettighederne, indkomstafhængige lån. Men de to investorer vil ikke det samme. Fonden vil have afkastet; staten ville have evnen. Findes evnen inden for dens rækkevidde, har den fået det, den betalte for.",
+      "At tage ejerandele oveni er at kræve betaling to gange. Afkast kan måles; additionalitet kan næsten ikke. Da EU’s revisionsret gennemgik Unionens egne venturekapitalindgreb, fandt den, at evalueringerne aldrig analyserede det kontrafaktiske scenarie. Det tal, der begrunder pengene, blev ikke opgjort; det, der ligner en forretning, kunne. Sætter man afkastet på bogen, bliver det målestokken — og kapitalen vandrer mod de sene, sikre runder, væk fra de tidlige huller, kun staten ville fylde."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis de europæiske statsfonde, der tog ejerandele for at genanvende afkastet, fastholder eller øger deres andel af kapital i frø- og opstartsfasen frem mod 2032. Det kan aflæses i fondenes egne årsrapporter og i EIF’s aktivitetsopgørelser.",
+    "topics": [
+      "statskapital",
+      "politisk teori",
+      "innovationspolitik"
+    ],
+    "claims": [
+      {
+        "text": "Den Europæiske Revisionsret fandt i sin særberetning om EU’s centralt forvaltede venturekapitalindgreb, at evalueringerne ikke analyserede det kontrafaktiske scenarie.",
+        "sourceUrls": [
+          "https://op.europa.eu/webpub/eca/special-reports/venture-capital-17-2019/en/"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Special report 17/2019: Centrally managed EU interventions for venture capital: in need of more direction",
+        "publisher": "Den Europæiske Revisionsret",
+        "url": "https://op.europa.eu/webpub/eca/special-reports/venture-capital-17-2019/en/",
+        "publishedAt": "2019-09-17T00:00:00.000Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-gowers-llm-maths-2026-08-12",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "What sort of maths are LLMs good at?",
+      "creator": "Timothy Gowers",
+      "provider": "Gowers's Weblog",
+      "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+      "commitment": "Ca. 30 minutter",
+      "topics": [
+        "matematik",
+        "ai",
+        "forskning"
+      ],
+      "isFeatured": true,
+      "description": "Fields-medaljemodtageren Timothy Gowers gennemgår, hvilke matematiske opgaver sprogmodeller faktisk løser godt. Hans svar: modforeksempler og konstruktioner, hvor et svar kan efterprøves, snarere end beviser, der kræver en lang søgning.",
+      "rationale": "Briefen bragte i går Claudes resultat om Riemanns zeta-funktion. Her vurderer en af verdens stærkeste levende matematikere den samme klasse af resultater indefra, og han flytter spørgsmålet fra hvad modellerne kan til hvad opgaverne kræver: evnen til at beskære et søgetræ hensynsløst. Det er den præcise indvending, ingen pressemeddelelse rummer.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/William_Timothy_Gowers_Oslo_2012.jpg",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Matematikeren Timothy Gowers",
+        "sourceUrl": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/"
+      }
+    },
+    {
+      "id": "rec-acemoglu-cwt-2026-08-12",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Daron Acemoglu on Liberalism, Automation, and the Educated Elite",
+      "creator": "Tyler Cowen og Daron Acemoglu",
+      "provider": "Conversations with Tyler",
+      "url": "https://conversationswithtyler.com/episodes/daron-acemoglu-2/",
+      "availability": "Gratis, lyd og udskrift på episodesiden",
+      "commitment": "Ca. 1 time",
+      "topics": [
+        "økonomi",
+        "automatisering",
+        "politisk filosofi"
+      ],
+      "isFeatured": false,
+      "note": "Nobelpristageren argumenterer for, at automatisering uden nye opgaver udhuler lønvæksten — den skarpeste indvending mod en byg-hurtigt-læsning af AI."
+    },
+    {
+      "id": "rec-sep-republicanism-2026-08-12",
+      "tier": "short",
+      "mode": "read",
+      "kind": "opslagsværk",
+      "status": "new",
+      "title": "Republicanism",
+      "creator": "Frank Lovett",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/republicanism/",
+      "commitment": "60-75 min, kan læses i afsnit",
+      "topics": [
+        "politisk filosofi",
+        "frihed",
+        "idehistorie"
+      ],
+      "isFeatured": false,
+      "note": "Revideret i dag, og den korteste vej ind i frihed som ikke-dominans — den ene levende rival til den liberale tradition, fra Machiavelli til Pettit."
+    },
+    {
+      "id": "rec-arxiv-claudemd-growth-2026-08-12",
+      "tier": "short",
+      "mode": "read",
+      "kind": "preprint",
+      "status": "new",
+      "title": "Why Does CLAUDE.md Keep Growing? Catastrophic Remembering in Agentic Coding",
+      "creator": "Kushal Chakrabarti",
+      "provider": "arXiv",
+      "url": "https://arxiv.org/abs/2608.11095",
+      "commitment": "Abstract 2 min, hele papiret 30-40 min",
+      "topics": [
+        "agenter",
+        "kontekst",
+        "softwareudvikling"
+      ],
+      "isFeatured": false,
+      "note": "Måler præcis det problem, enhver instruktionsfil får: på tværs af ca. 1.900 repositorier mere end tredobles filerne, fordi det er billigt at tilføje og dyrt at fjerne sikkert."
+    },
+    {
+      "id": "rec-nber-value-gap-europe-2026-08-12",
+      "tier": "short",
+      "mode": "read",
+      "kind": "arbejdspapir",
+      "status": "new",
+      "title": "The Value Gap: Europe Cannot Scale",
+      "creator": "Bo Becker, Efraim Benmelech og Joao Monteiro",
+      "provider": "National Bureau of Economic Research",
+      "url": "https://www.nber.org/papers/w35577",
+      "availability": "Abstract frit tilgængeligt; fuld PDF kan kræve abonnement",
+      "commitment": "Abstract 2 min, papiret 45-60 min",
+      "topics": [
+        "europa",
+        "kapitalmarkeder",
+        "venturekapital"
+      ],
+      "isFeatured": false,
+      "note": "Påstår, at værdiforskellen mellem amerikanske og europæiske børsnoterede selskaber ikke skyldes nogle få giganter, men at europæiske virksomheder ikke kan skalere ud over hjemlandet."
+    },
+    {
+      "id": "rec-chinatalk-quantum-flywheel-2026-08-12",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "China's Quantum Flywheel",
+      "creator": "Lily Ottinger og Elias X. Huber",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/chinas-quantum-flywheel",
+      "availability": "Gratis, kræver ikke login",
+      "commitment": "Lang analyse",
+      "topics": [
+        "kina",
+        "kvanteteknologi",
+        "statslig investeringskapital"
+      ],
+      "isFeatured": false,
+      "note": "En statslig investeringsmodel set fra den anden side: kinesisk kvantefinansiering er mangedoblet på et år, og mekanismerne bliver navngivet frem for antydet."
+    },
+    {
+      "id": "rec-overthink-mourning-2026-08-12",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Episode 181: Mourning",
+      "creator": "Ellie Anderson og David Peña-Guzmán",
+      "provider": "Overthink",
+      "url": "https://www.overthinkpodcast.com/episodes/episode-181",
+      "availability": "Hovedepisoden gratis; bonusafsnit kræver betalt abonnement",
+      "commitment": "Ca. 1 time",
+      "topics": [
+        "filosofi",
+        "sorg",
+        "primærtekster"
+      ],
+      "isFeatured": false,
+      "note": "To filosoffer læser sorgen i primærteksterne: Freuds sorg over for melankoli, Barthes om at miste sin mor, Uranga om kulturens greb om døden."
+    },
+    {
+      "id": "rec-yc-chelsea-finn-robotics-2026-08-12",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "foredrag",
+      "status": "new",
+      "title": "Chelsea Finn: This is the State of the Art in Robotics",
+      "creator": "Chelsea Finn, Physical Intelligence",
+      "provider": "Y Combinator",
+      "url": "https://www.youtube.com/watch?v=cRZNwgvcWUg",
+      "availability": "Gratis på YouTube",
+      "commitment": "Ca. 45 minutter",
+      "topics": [
+        "robotteknologi",
+        "ai",
+        "forskning"
+      ],
+      "isFeatured": false,
+      "note": "Et foredrag med tal i stedet for visionsslides: forstærkningslæring fordobler robotters gennemløb, og systemerne kører i timer uden opsyn."
+    },
+    {
+      "id": "rec-drtv-berlusconi-2026-08-12",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "dokumentarserie",
+      "status": "new",
+      "title": "Berlusconi: Fodbold, tv og magt",
+      "creator": "DR2",
+      "provider": "DRTV",
+      "url": "https://www.dr.dk/drtv/serie/berlusconi_-fodbold-tv-og-magt_604956",
+      "availability": "Gratis på DRTV i Danmark, kræver gratis DR-login",
+      "commitment": "3 afsnit, ca. 2 t 27 min",
+      "topics": [
+        "medier",
+        "magt",
+        "italien"
+      ],
+      "isFeatured": false,
+      "note": "Det reneste tilgængelige studie i, hvordan en medieformue omsætter sig til politisk magt — gennem AC Milan, retssagerne og tre perioder som ministerpræsident."
+    },
+    {
+      "id": "rec-zed-delta-2026-08-12",
+      "tier": "short",
+      "mode": "try",
+      "kind": "værktøj",
+      "status": "upcoming",
+      "title": "Introducing Delta",
+      "creator": "Zed Industries",
+      "provider": "Zed",
+      "url": "https://zed.dev/blog/introducing-delta",
+      "availability": "Lukket beta; tilmelding til tidlig adgang på Zeds side",
+      "commitment": "Kort artikel plus tilmelding",
+      "topics": [
+        "agenter",
+        "udviklingsværktøjer",
+        "samarbejde"
+      ],
+      "isFeatured": false,
+      "note": "Zeds svar på flere agenter i samme kodebase: en replikeret database, der holder samtaler og ændringer synkrone, så begrundelsen overlever ændringen."
+    }
+  ],
+  "quality": {
+    "sourceVerification": 96,
+    "primarySourceShare": 50,
+    "outsideProfile": 100,
+    "deduplication": 100,
+    "imageCoverage": 100
+  }
+}
