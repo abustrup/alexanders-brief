@@ -1,0 +1,207 @@
+# Alexanders Brief – unattended cloud publish. Order, conditions and parameters only; every decision is
+# an engine script (ENGINE-CONTRACT.md) that must exist on BOTH engine branches – the rule whose absence
+# meant Thomas' brief could never publish. Install: land the contract on both branches, dispatch a
+# daylight run that reaches the push, then let the crons stand.
+
+name: Alexanders Brief – daily
+
+on:
+  schedule:
+    # Budget/attempt = 77 min delay tail + 145 min run = 222. 06:40 - 222 = 02:58 falls in the hour that
+    # repeats each October, so the last usable start is 01:49 (+222 = 05:31). No :00/:30, none in 02:xx.
+    # Three crons insure against a dropped trigger, not a slow run: a later cron queues behind it.
+    - cron: "37 0 * * *"
+      timezone: "Europe/Copenhagen"
+    - cron: "13 1 * * *"
+      timezone: "Europe/Copenhagen"
+    - cron: "49 1 * * *"
+      timezone: "Europe/Copenhagen"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Edition date YYYY-MM-DD. Blank = today in Europe/Copenhagen."
+        required: false
+        type: string
+
+# Declared here: default_workflow_permissions is read on all three repos. No issues:write – this file
+# never opens one, and the watchdog living in this repo declares its own.
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: alexanders-brief-daily
+  cancel-in-progress: false
+
+env:
+  TZ: Europe/Copenhagen
+  ENGINE_REPO: abustrup/alexanders-brief-source
+  ENGINE_REF: feature/news-brief-mvp
+  SITE_URL: https://abustrup.github.io/alexanders-brief
+  PROMPT_PATH: docs/routines/backup-from-claude-dir/daily-news-brief.SKILL.md
+  BRIEF_LABEL: alexanders-brief
+  DEADLINE_CPH: "06:40"
+  # Pinned: an overnight release must not break an unattended run. REVIEW 2026-11-01.
+  CLAUDE_CLI_VERSION: "2.1.228"
+  # count:length is advisory (step 10), so preflight warns rather than fails when absent.
+  PREFLIGHT_ADVISORY_SCRIPTS: "count:length"
+  # PAGES_REPO_DIR is set only on the publish/liveness/ledger steps, never job-wide, so publish:pages
+  # cannot resolve a target inside the agent's environment. Structure, not a rule the agent could reread.
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    defaults:
+      run:
+        shell: bash
+        working-directory: engine
+
+    steps:
+      # Engine first, so the guard and the parity check are scripts rather than inline YAML.
+      - name: Check out the engine (read-only deploy key)
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.ENGINE_REPO }}
+          ref: ${{ env.ENGINE_REF }}
+          ssh-key: ${{ secrets.ENGINE_DEPLOY_KEY }}
+          fetch-depth: 1
+          persist-credentials: false
+          path: engine
+
+      # Fails before one token of model time if this branch is missing anything used below.
+      - name: Preflight – branch-parity contract
+        run: bash scripts/ci-preflight.sh
+
+      # done / republish / full, from two independent probes. done ends green in seconds.
+      - name: Guard – is today already out?
+        id: guard
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+        run: bash scripts/brief-mode.sh "$SITE_URL" "$INPUT_DATE"
+
+      # Full history: the push rebases onto whatever the Mac routines pushed here.
+      - name: Check out the website repo
+        if: steps.guard.outputs.mode != 'done'
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          path: pages
+
+      - name: Node
+        if: steps.guard.outputs.mode != 'done'
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: engine/.nvmrc
+          cache: npm
+          cache-dependency-path: engine/package-lock.json
+
+      - name: Dependencies
+        if: steps.guard.outputs.mode != 'done'
+        run: npm ci
+
+      # The publish token lives here and nowhere else. A dead backend costs feedback, not the morning.
+      - name: Editorial context (advisory)
+        if: steps.guard.outputs.mode == 'full'
+        continue-on-error: true
+        env:
+          BRIEF_API_URL: ${{ secrets.BRIEF_API_URL }}
+          BRIEF_PUBLISH_TOKEN: ${{ secrets.BRIEF_PUBLISH_TOKEN }}
+        run: npm run context
+
+      # Refuses a third full agent run on one date. Fails open: a cap that cannot count never blocks.
+      - name: Attempt cap
+        id: cap
+        if: steps.guard.outputs.mode == 'full'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/ci-attempt-cap.sh "${{ steps.guard.outputs.date }}"
+
+      # The header ci-compose-prompt.sh prepends is load-bearing: it relocates the Mac paths, forbids the
+      # agent's own publish step (prompt step 9), and says these logs are public. See ENGINE-CONTRACT.md.
+      - name: Install the agent, compose the prompt
+        if: steps.cap.outputs.proceed == 'true'
+        run: |
+          npm i -g "@anthropic-ai/claude-code@$CLAUDE_CLI_VERSION"
+          bash scripts/ci-compose-prompt.sh "${{ steps.guard.outputs.date }}" > "$RUNNER_TEMP/run-prompt.md"
+
+      # No --bare: it ignores the OAuth token. A non-zero exit is a warning; the gate decides.
+      - name: Run the editorial agent
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        timeout-minutes: 100
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" \
+            --output-format text --no-session-persistence --permission-mode acceptEdits \
+            --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
+            --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task
+
+      - name: Length report (advisory)
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        run: npm run count:length -- "data/${{ steps.guard.outputs.date }}/draft.json"
+
+      # Nothing below trusts the agent. A missing floor/reach/echo key is a red run – the old gate could
+      # not tell "clean" from "never ran"; turning one off is a dated edit here, never a silent absence.
+      - name: Quality gate (blocking)
+        if: steps.cap.outputs.proceed == 'true'
+        timeout-minutes: 15
+        env:
+          REQUIRE_FLOOR: "true"
+          REQUIRE_SOURCE_REACH: "true"
+          REQUIRE_SOURCE_ECHO: "true"
+        run: bash scripts/ci-gate.sh "${{ steps.guard.outputs.date }}"
+
+      # The push credential enters here, after the agent has finished and been judged.
+      - name: Publish
+        id: publish
+        if: steps.guard.outputs.mode != 'done'
+        env:
+          GH_PUSH_TOKEN: ${{ github.token }}
+          PAGES_REPO_DIR: ${{ github.workspace }}/pages
+        run: bash scripts/ci-publish.sh "${{ steps.guard.outputs.date }}"
+
+      - name: Ask GitHub Pages to build
+        if: steps.guard.outputs.mode != 'done'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+
+      # The only judge of this run's colour, and it runs even when something above failed, because the
+      # question it answers is whether the reader has today's brief.
+      - name: Prove the reader is served
+        id: served
+        if: always() && steps.guard.conclusion == 'success' && steps.guard.outputs.mode != 'done'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_REPO_DIR: ${{ github.workspace }}/pages
+          PUSHED_SHA: ${{ steps.publish.outputs.sha }}
+        run: bash scripts/brief-liveness.sh "${{ steps.guard.outputs.date }}"
+
+      # Cross-day memory, to the public pages repo: the engine key is read-only, and engine write access
+      # would mean write access to tomorrow's prompt. Keyed on the push, not on the proof – the push makes
+      # the edition real, and these appends exist only in this runner, so a CDN lag must not discard them.
+      - name: Record the cross-day ledger
+        if: always() && steps.guard.outputs.mode == 'full' && steps.publish.outcome == 'success'
+        env:
+          GH_PUSH_TOKEN: ${{ github.token }}
+          PAGES_REPO_DIR: ${{ github.workspace }}/pages
+        run: bash scripts/ci-record-ledger.sh "${{ steps.guard.outputs.date }}"
+
+      # From the workspace, not engine/, so a failed engine checkout still gets a summary.
+      - name: Summary
+        if: always()
+        working-directory: ${{ github.workspace }}
+        env:
+          MODE: ${{ steps.guard.outputs.mode }}
+          DATE: ${{ steps.guard.outputs.date }}
+          PUBLISHED_SHA: ${{ steps.publish.outputs.sha }}
+          SERVED: ${{ steps.served.outcome }}
+        run: |
+          printf '### %s – %s\n\n- mode `%s` · engine `%s` · deadline %s CPH\n- pushed `%s` · served `%s`\n' \
+            "$BRIEF_LABEL" "${DATE:-unresolved}" "${MODE:-none}" "$ENGINE_REF" "$DEADLINE_CPH" \
+            "${PUBLISHED_SHA:-none}" "${SERVED:-skipped}" >> "$GITHUB_STEP_SUMMARY"
