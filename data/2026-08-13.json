@@ -1,0 +1,992 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-13-01",
+ "date": "2026-08-13",
+ "generatedAt": "2026-08-13T03:40:00.000Z",
+ "readingMinutes": 12,
+ "title": "Alexanders Brief",
+ "dek": "Otte skibe gennem Hormuz. Private firmaer får lov at hacke. Og 3.800 MW datacenter, der koblede sig selv fra nettet.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "hormuz-transit-collapse-20260813",
+   "eventKey": "hormuz-transit-collapse-2026-08",
+   "materialFacts": [
+    "Otte skibe passerede Hormuzstrædet tirsdag 11. august 2026 mod en førkrigsnorm på 130-140 skibe i døgnet",
+    "Tiendagsgennemsnittet ligger omkring tolv skibe i døgnet",
+    "USA’s energiminister Chris Wright angav syv dages gennemsnit på næsten ni millioner tønder olie dagligt ud af strædet",
+    "Analytiker Brett Erickson siger, at der er nul belæg for tallet"
+   ],
+   "section": "Geopolitik",
+   "headline": "As Strait of Hormuz transit drops, Trump again says US has ‘control’",
+   "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control",
+   "subheadline": "Otte skibe passerede strædet tirsdag. Før krigen var tallet 130-140 i døgnet.",
+   "body": [
+    "Otte skibe sejlede gennem Hormuzstrædet tirsdag den 11. august. Før krigen mellem USA og Iran passerede 130-140 i døgnet, og tiendagsgennemsnittet ligger nu omkring tolv. Samme dag skrev Donald Trump, at USA har total kontrol over strædet, og kaldte flådeblokaden en mur af stål.",
+    "Energiminister Chris Wright sagde, at der syv dage i træk er kommet næsten ni millioner tønder olie dagligt ud gennem strædet. Analytikeren Brett Erickson afviser tallet som uden belæg, og Dennis Citrinowicz fra Institute for National Security Studies vurderer, at USA ikke kontrollerer strædet, og at Iran har kapacitet nok tilbage."
+   ],
+   "whyItMatters": "Hormuz er verdens vigtigste flaskehals for olie og gas. Otte skibe i døgnet er ikke en forstyrrelse af handelen, men et ophør af den, og aftagerne i Saudi-Arabien, Kuwait, Pakistan og Egypten mærker det først.",
+   "analysis": "Uenigheden gælder ikke vurderinger, men et tal, ingen fremlægger kilden til. Krigen begyndte 28. februar, junis aftale brød sammen i midten af juli, og forhandlingerne står stille. Så længe trafikken ligger omkring ti skibe, beskriver kontrol en militær tilstedeværelse og ikke skibe, der sejler.",
+   "image": {
+    "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a7c8b1b6ba5-1786546971-e1786548111212.jpg?resize=1920%2C1440",
+    "credit": "Foto: AFP via Al Jazeera",
+    "alt": "Tankskib ud for kysten ved Hormuzstrædet",
+    "sourceUrl": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control"
+   },
+   "topics": [
+    "geopolitik",
+    "energi",
+    "skibsfart",
+    "iran"
+   ],
+   "entities": [
+    "Donald Trump",
+    "Chris Wright",
+    "Iran",
+    "USA",
+    "Hormuzstrædet",
+    "Institute for National Security Studies"
+   ],
+   "isLead": true,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 95,
+    "decisionValue": 82,
+    "novelty": 74,
+    "sourceQuality": 80,
+    "personalRelevance": 62,
+    "contrast": 70
+   },
+   "claims": [
+    {
+     "text": "Otte skibe passerede Hormuzstrædet tirsdag 11. august 2026, mod en førkrigsnorm på 130-140 skibe i døgnet og et tiendagsgennemsnit omkring tolv.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "USA’s energiminister Chris Wright angav et syvdagesgennemsnit på næsten ni millioner tønder olie dagligt ud af strædet; analytikeren Brett Erickson afviser, at der er belæg for tallet.",
+     "sourceUrls": [
+      "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "As Strait of Hormuz transit drops, Trump again says US has ‘control’",
+     "publisher": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/8/12/as-strait-of-hormuz-transit-drops-trump-again-says-us-has-control",
+     "publishedAt": "2026-08-12T18:00:00.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "novorossiysk-black-sea-fleet-20260813",
+   "eventKey": "ukraine-novorossiysk-black-sea-fleet-2026-08",
+   "materialFacts": [
+    "Fregatterne Admiral Makarov og Admiral Essen, et Bujan-M-missilskib og patruljeskibet Vasil Bykov blev beskadiget",
+    "Angrebet ramte Novorossijsk havn, flådebasen, en kornterminal og olieterminalen Sjeskharis",
+    "Zelenskyj oplyste, at Ukraine brugte Palianytsia-drone, Neptun-missiler og sødroner",
+    "Guvernør Veniamin Kondratjev oplyste, at et otteårigt barn blev dræbt og otte såret"
+   ],
+   "section": "Forsvar",
+   "headline": "Explosions rock Russia's Novorossiysk after 'unique operation' targeting Black Sea Fleet, Zelensky says",
+   "primarySourceUrl": "https://kyivindependent.com/drone-attacks-hit-russias-novorossiysk-occupied-crimea/",
+   "subheadline": "Fire navngivne russiske krigsskibe beskadiget i Ruslands vigtigste oliehavn ved Sortehavet.",
+   "body": [
+    "Ukraine angreb natten til onsdag Novorossijsk med flere hundrede droner og missiler mod mål mere end 300 kilometer bag fronten. Fire russiske krigsskibe blev beskadiget: fregatterne Admiral Makarov og Admiral Essen, et Bujan-M-missilskib og patruljeskibet Vasil Bykov.",
+    "Også flådebasen, en kornterminal og olieterminalen Sjeskharis blev ramt. Zelenskyj oplyste, at Ukraine brugte Palianytsia-droner, Neptun-missiler og sødroner. Guvernør Veniamin Kondratjev oplyste, at et otteårigt barn blev dræbt og otte såret, og at kornterminalen indstillede driften."
+   ],
+   "whyItMatters": "Novorossijsk er Sortehavsflådens vigtigste tilbageværende base og samtidig Ruslands største olieudskibningshavn. Ét angreb ramte begge funktioner på én nat.",
+   "analysis": "Værdien ligger i rækkevidden snarere end i skaden: tre våbentyper kom igennem luftforsvaret ved en base, der netop er flyttet for at ligge uden for rækkevidde.",
+   "image": {
+    "url": "https://assets.kyivindependent.com/content/images/2026/08/photo_2026-08-12-16_24_26_20260812-132445.jpeg",
+    "credit": "Foto: The Kyiv Independent",
+    "alt": "Røg over havneområdet i Novorossijsk efter det ukrainske angreb",
+    "sourceUrl": "https://kyivindependent.com/drone-attacks-hit-russias-novorossiysk-occupied-crimea/"
+   },
+   "topics": [
+    "forsvar",
+    "ukraine",
+    "rusland",
+    "energi"
+   ],
+   "entities": [
+    "Volodymyr Zelenskyj",
+    "Veniamin Kondratjev",
+    "Rusland",
+    "Ukraine",
+    "Sortehavsflåden",
+    "Novorossijsk"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 88,
+    "decisionValue": 68,
+    "novelty": 82,
+    "sourceQuality": 78,
+    "personalRelevance": 66,
+    "contrast": 62
+   },
+   "claims": [
+    {
+     "text": "Fire russiske krigsskibe blev beskadiget i angrebet på Novorossijsk: fregatterne Admiral Makarov og Admiral Essen, et Bujan-M-missilskib og patruljeskibet Vasil Bykov.",
+     "sourceUrls": [
+      "https://kyivindependent.com/drone-attacks-hit-russias-novorossiysk-occupied-crimea/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Guvernør Veniamin Kondratjev oplyste, at et otteårigt barn blev dræbt og otte personer såret, og at 21 beboelsesejendomme og fire virksomheder blev beskadiget.",
+     "sourceUrls": [
+      "https://kyivindependent.com/drone-attacks-hit-russias-novorossiysk-occupied-crimea/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Explosions rock Russia's Novorossiysk after 'unique operation' targeting Black Sea Fleet, Zelensky says",
+     "publisher": "The Kyiv Independent",
+     "url": "https://kyivindependent.com/drone-attacks-hit-russias-novorossiysk-occupied-crimea/",
+     "publishedAt": "2026-08-11T23:54:48.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "us-private-cyber-operations-20260813",
+   "eventKey": "us-private-offensive-cyber-authorisation-2026-08",
+   "materialFacts": [
+    "Et præsidentielt memorandum bemyndiger godkendte private amerikanske virksomheder til cyberoperationer mod udenlandske cyberkriminelle organisationer",
+    "Der oprettes et National Coordination Center for Cyber Surveillance Operations og Cyber Effects Operations",
+    "Deltagende virksomheder skal stille sikkerhed på mindst en million dollar og have skriftlig godkendelse af hver operation",
+    "Program Executive Directors har 60 dage til at fastlægge procedurer, og første statusrapport skal foreligge inden 180 dage"
+   ],
+   "section": "Cybersikkerhed",
+   "headline": "Expanding Capabilities to Combat Transnational Cyber-Enabled Crime",
+   "primarySourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/",
+   "subheadline": "Godkendte private virksomheder får lov til at køre offensive cyberoperationer mod kriminelle netværk i udlandet.",
+   "body": [
+    "Det Hvide Hus udsendte tirsdag et memorandum, der bemyndiger godkendte private amerikanske virksomheder til at gennemføre cyberoperationer mod udenlandske cyberkriminelle organisationer. Et nyt National Coordination Center skal styre både overvågningsoperationer og egentlige indgreb.",
+    "En virksomhed skal stille sikkerhed på mindst en million dollar, have skriftlig godkendelse til hver enkelt operation og standse, hvis amerikanske personer eller systemer rammes. Justitsministeriet og Homeland Security deltager. Intet målland nævnes i teksten."
+   ],
+   "whyItMatters": "Statsligt sanktioneret hacking har hidtil været et myndighedsmonopol. Memorandummet flytter grænsen for, hvem der må udføre det.",
+   "analysis": "Sikkerheden på en million dollar er den afgørende detalje: den prissætter fejl og gør deltagelse til en forsikringsbeslutning. Konstruktionen ligner kaperbreve med moderne dokumentation.",
+   "primaryExcerpt": {
+    "quote": "Expanding Capabilities to Combat Transnational Cyber-Enabled Crime",
+    "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/",
+    "sourceTitle": "Presidential Actions, Det Hvide Hus"
+   },
+   "image": {
+    "url": "https://www.whitehouse.gov/wp-content/uploads/2025/03/WH47-Presidential-Actions-Social-Share-Card.jpg",
+    "credit": "Kilde: The White House",
+    "alt": "Det Hvide Hus’ officielle kort for præsidentielle handlinger",
+    "sourceUrl": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+   },
+   "topics": [
+    "cybersikkerhed",
+    "usa",
+    "regulering",
+    "geopolitik"
+   ],
+   "entities": [
+    "Det Hvide Hus",
+    "Donald Trump",
+    "National Coordination Center",
+    "Department of Justice",
+    "Department of Homeland Security"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 86,
+    "decisionValue": 78,
+    "novelty": 90,
+    "sourceQuality": 94,
+    "personalRelevance": 80,
+    "contrast": 76
+   },
+   "claims": [
+    {
+     "text": "Memorandummet bemyndiger godkendte private amerikanske virksomheder til at gennemføre cyberoperationer mod udenlandske cyberkriminelle organisationer under føderalt tilsyn og opretter et National Coordination Center.",
+     "sourceUrls": [
+      "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Deltagende virksomheder skal stille sikkerhed på mindst en million dollar og indhente skriftlig godkendelse fra en Program Executive Director til hver operation.",
+     "sourceUrls": [
+      "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Expanding Capabilities to Combat Transnational Cyber-Enabled Crime",
+     "publisher": "Det Hvide Hus",
+     "url": "https://www.whitehouse.gov/presidential-actions/2026/08/expanding-capabilities-to-combat-transnational-cyber-enabled-crime/",
+     "publishedAt": "2026-08-12T21:43:13.000Z",
+     "kind": "primary"
+    }
+   ]
+  },
+  {
+   "id": "pjm-datacenter-load-trip-20260813",
+   "eventKey": "pjm-datacenter-ride-through-2026-08",
+   "materialFacts": [
+    "Omkring 3.800 MW datacenterforbrug koblede af nettet i det nordlige Virginia den 22. juli 2026, det største tilfælde i PJM’s historie",
+    "Udløseren var en fejl på en 230 kV-transmissionsledning i Dominion Energys område",
+    "Det samlede forbrug i PJM faldt 3,8 procent, fra 99.984 MW til 96.205 MW",
+    "To sammenlignelige hændelser i 2024 og 2025 omfattede hver omkring 1.500 MW",
+    "NERC skal færdiggøre registerkriterier og de første pålidelighedsstandarder inden 31. december 2026"
+   ],
+   "section": "Energi",
+   "headline": "PJM eyes data center, crypto reliability requirements after 3.8 GW of load trips offline",
+   "primarySourceUrl": "https://www.utilitydive.com/news/pjm-nerc-data-center-crypto-reliability-standards/827653/",
+   "subheadline": "3.800 MW datacenterforbrug koblede sig selv af nettet på ét sekund. Nu skrives der regler.",
+   "body": [
+    "En fejl på en enkelt 230 kV-ledning i Dominion Energys område fik den 22. juli omkring 3.800 MW datacenterforbrug i det nordlige Virginia til at koble sig af nettet. PJM’s samlede forbrug faldt fra 99.984 MW til 96.205 MW. Det er det største tilfælde i selskabets historie.",
+    "PJM genoprettede balancen på ni minutter mod NERC’s krav om tredive. Nu udvikler selskabet ride through-standarder, der skal tvinge store forbrugere til at blive på nettet under almindelige fejl, og NERC skal have de første standarder klar inden årets udgang."
+   ],
+   "whyItMatters": "Datacentre er hidtil behandlet som forbrug, der skal tilsluttes. Her er de en aktiv risiko, fordi deres egen beskyttelse afbryder hurtigere, end fejlen kan rettes.",
+   "analysis": "Mekanismen er den samme, hvor AI-byggeriet end lander, også i Danmark. Reguleringen kommer som teknisk standard frem for politisk beslutning, og den slags sætter sig i tilslutningsaftalerne.",
+   "image": {
+    "url": "https://imgproxy.divecdn.com/hTIcaTnZB2R95hguyYLC00KBqntxb4Uu5rldrcoCTgM/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMTYxODUwODM0X3Znd3JOaUkuanBn.webp",
+    "credit": "Foto: Getty Images via Utility Dive",
+    "alt": "Datacenterbygninger i det nordlige Virginia",
+    "sourceUrl": "https://www.utilitydive.com/news/pjm-nerc-data-center-crypto-reliability-standards/827653/"
+   },
+   "topics": [
+    "energi",
+    "datacentre",
+    "ai-infrastruktur",
+    "regulering"
+   ],
+   "entities": [
+    "PJM Interconnection",
+    "NERC",
+    "Dominion Energy",
+    "Virginia"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 80,
+    "decisionValue": 86,
+    "novelty": 84,
+    "sourceQuality": 78,
+    "personalRelevance": 88,
+    "contrast": 68
+   },
+   "claims": [
+    {
+     "text": "Omkring 3.800 MW datacenterforbrug koblede af nettet i det nordlige Virginia den 22. juli 2026 efter en fejl på en 230 kV-ledning; PJM’s samlede forbrug faldt fra 99.984 MW til 96.205 MW.",
+     "sourceUrls": [
+      "https://www.utilitydive.com/news/pjm-nerc-data-center-crypto-reliability-standards/827653/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "NERC skal færdiggøre registerkriterier og de første pålidelighedsstandarder for store forbrugere inden 31. december 2026.",
+     "sourceUrls": [
+      "https://www.utilitydive.com/news/pjm-nerc-data-center-crypto-reliability-standards/827653/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "PJM eyes data center, crypto reliability requirements after 3.8 GW of load trips offline",
+     "publisher": "Utility Dive",
+     "url": "https://www.utilitydive.com/news/pjm-nerc-data-center-crypto-reliability-standards/827653/",
+     "publishedAt": "2026-08-12T14:00:00.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "lovable-400m-13b-20260813",
+   "eventKey": "lovable-400m-round-2026-08",
+   "materialFacts": [
+    "Lovable rejser 400 millioner dollar til en værdiansættelse på 13,3 milliarder dollar",
+    "Runden ledes i fællesskab af Menlo Ventures og Scaleup Europe Fund, der forvaltes af EQT",
+    "Værdien er cirka en fordobling af de 6,6 milliarder dollar fra Series B i december 2025",
+    "Selskabet oplyser en årlig omsætningstakt på 500 millioner dollar pr. juni 2026"
+   ],
+   "section": "Venturekapital",
+   "headline": "Lovable confirms new $13.3B valuation, raises another $400M",
+   "primarySourceUrl": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+   "subheadline": "Svensk selskab fordobler værdien på otte måneder, med europæisk fondskapital i runden.",
+   "body": [
+    "Stockholm-selskabet Lovable rejser 400 millioner dollar til en værdiansættelse på 13,3 milliarder. Runden ledes af amerikanske Menlo Ventures og Scaleup Europe Fund, som forvaltes af EQT, med over et dusin øvrige investorer, heriblandt kinesiske Tencent.",
+    "Værdien er omtrent en fordobling af de 6,6 milliarder fra december 2025. Selskabet oplyser en årlig omsætningstakt på 500 millioner dollar pr. juni 2026 og har selv investeret i danske Atech."
+   ],
+   "whyItMatters": "Scaleup Europe Fund er den konstruktion, der skal holde europæisk vækstkapital på kontinentet. Her medfinansierer den en af Europas største AI-runder side om side med amerikansk kapital.",
+   "analysis": "Forholdet mellem 13,3 milliarder og en takt på 500 millioner er 27 gange, prissat på en løbende rate og ikke et regnskabsår. Fondens deltagelse er det mere robuste signal.",
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2025/08/picnew-copy.png?resize=1200,801",
+    "credit": "Foto: TechCrunch",
+    "alt": "Lovables grundlæggere",
+    "sourceUrl": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+   },
+   "topics": [
+    "venturekapital",
+    "ai",
+    "europa",
+    "sverige"
+   ],
+   "entities": [
+    "Lovable",
+    "Menlo Ventures",
+    "Scaleup Europe Fund",
+    "EQT",
+    "Tencent",
+    "Google Cloud",
+    "Atech"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 72,
+    "decisionValue": 84,
+    "novelty": 76,
+    "sourceQuality": 74,
+    "personalRelevance": 94,
+    "contrast": 58
+   },
+   "claims": [
+    {
+     "text": "Lovable rejser 400 millioner dollar til en værdiansættelse på 13,3 milliarder dollar i en runde ledet af Menlo Ventures og det EQT-forvaltede Scaleup Europe Fund.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Selskabet oplyser en årlig omsætningstakt på 500 millioner dollar pr. juni 2026, mod en værdiansættelse på 6,6 milliarder dollar i december 2025.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lovable confirms new $13.3B valuation, raises another $400M",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/",
+     "publishedAt": "2026-08-12T16:04:27.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "anthropic-text-watermark-20260813",
+   "eventKey": "anthropic-text-watermarking-2026-08",
+   "materialFacts": [
+    "Alle Claude-modeller udgivet efter 2. august 2026 bærer automatisk et tekstvandmærke",
+    "Det dækker platform-API’et, Claude Code, Claude Cowork og Claude Tag",
+    "Anthropic bruger den åbne C2PA-standard til filproveniens og vandmærkning på modelniveau til tekst",
+    "Udløseren er EU AI Act’s gennemsigtighedskodeks, der trådte i kraft 2. august 2026"
+   ],
+   "section": "AI",
+   "headline": "Anthropic says it will watermark text generated by its AI models",
+   "primarySourceUrl": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+   "subheadline": "En EU-regel bliver til en global standardindstilling, fordi det er billigere end at have to.",
+   "body": [
+    "Alle Claude-modeller udgivet efter 2. august bærer nu automatisk et vandmærke i deres tekst, og ældre modeller følger efter. Det gælder platform-API’et, Claude Code, Claude Cowork og Claude Tag.",
+    "Udløseren er EU AI Act’s gennemsigtighedskodeks fra 2. august, der kræver, at genereret indhold kan identificeres maskinelt. Google, Meta, Microsoft, OpenAI og Synthesia har tilsluttet sig samme kodeks. Anthropic ruller mærkningen ud globalt."
+   ],
+   "whyItMatters": "Det er første gang en frontier-udbyder sætter tekstvandmærkning i drift verden over og ikke kun i EU.",
+   "analysis": "Bevægelsen er geografisk: det er dyrere at vedligeholde to modelversioner end at mærke alt, så EU-reglen bliver global standard gennem omkostninger frem for lovgivning.",
+   "counterpoint": "Værdien afhænger af, hvem der kan læse mærket. En detektor, der ikke er offentligt tilgængelig, sætter udbyderen og ikke offentligheden i stand til at kontrollere noget.",
+   "image": {
+    "url": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+    "credit": "Foto: Getty Images via TechCrunch",
+    "alt": "Anthropics logo",
+    "sourceUrl": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+   },
+   "topics": [
+    "ai",
+    "regulering",
+    "eu",
+    "proveniens"
+   ],
+   "entities": [
+    "Anthropic",
+    "Claude",
+    "C2PA",
+    "EU AI Act",
+    "OpenAI",
+    "Google",
+    "Meta",
+    "Microsoft"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 76,
+    "decisionValue": 80,
+    "novelty": 82,
+    "sourceQuality": 72,
+    "personalRelevance": 90,
+    "contrast": 66
+   },
+   "claims": [
+    {
+     "text": "Alle Claude-modeller udgivet efter 2. august 2026 bærer automatisk et tekstvandmærke, som dækker platform-API’et, Claude Code, Claude Cowork og Claude Tag.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "EU AI Act’s gennemsigtighedskodeks trådte i kraft 2. august 2026 og er udløseren; Black Forest Labs, Google, Meta, Microsoft, OpenAI og Synthesia har tilsluttet sig samme kodeks.",
+     "sourceUrls": [
+      "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Anthropic says it will watermark text generated by its AI models",
+     "publisher": "TechCrunch",
+     "url": "https://techcrunch.com/2026/08/11/anthropic-says-it-will-watermark-text-generated-by-its-ai-models/",
+     "publishedAt": "2026-08-11T12:13:47.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "llm-grant-originality-20260813",
+   "eventKey": "llm-research-proposal-originality-2026-08",
+   "materialFacts": [
+    "Studie offentliggjort i PNAS 11. august 2026 fra Northwestern Universitys Center for Science of Science and Innovation",
+    "Analysen omfatter 5.700 fortrolige ansøgninger og 131.000 offentliggjorte bevillinger fra 2021 til 2025 hos NSF og NIH",
+    "Ansøgninger med høj sprogmodelanvendelse var mindre semantisk distinkte fra nyligt finansierede projekter",
+    "Hos NIH havde sprogmodelassisterede ansøgninger højere bevillingsrate, men arbejdet endte i publikationer med lavere gennemslag",
+    "Hos NSF var der ingen signifikant sammenhæng mellem sprogmodelbrug og bevilling"
+   ],
+   "section": "Forskning",
+   "headline": "Large language models reduce originality of research proposals",
+   "primarySourceUrl": "https://www.timeshighereducation.com/news/large-language-models-reduce-originality-research-proposals",
+   "subheadline": "Ansøgninger skrevet med sprogmodel får oftere penge og ligner samtidig mere det, der allerede er finansieret.",
+   "body": [
+    "Forskere fra Northwestern har gennemgået 5.700 fortrolige forskningsansøgninger og 131.000 offentliggjorte bevillinger fra 2021 til 2025 hos National Science Foundation og National Institutes of Health. Ansøgninger med høj sprogmodelbrug er målbart mindre distinkte fra de projekter, der netop er finansieret.",
+    "Hos NIH fik de modelassisterede ansøgninger oftere bevilling, men arbejdet samlede sig i publikationer med lavere gennemslag. Hos NSF var der ingen signifikant sammenhæng."
+   ],
+   "whyItMatters": "Det er den første store undersøgelse med adgang til de fortrolige ansøgninger og ikke kun de tildelte bevillinger.",
+   "analysis": "Fundet er ubehageligt, fordi det ikke handler om fejl. Modellen skriver det, bedømmerne senest sagde ja til, hvilket er den bedste strategi for den enkelte ansøger. Prisen betales af porteføljen, uden at nogen beslutter at betale den.",
+   "image": {
+    "url": "https://www.timeshighereducation.com/sites/default/files/gettyimages-1169539462.jpg",
+    "credit": "Foto: Getty Images via Times Higher Education",
+    "alt": "Forsker ved skrivebord med ansøgningsmateriale",
+    "sourceUrl": "https://www.timeshighereducation.com/news/large-language-models-reduce-originality-research-proposals"
+   },
+   "topics": [
+    "forskning",
+    "ai",
+    "videnskabspolitik"
+   ],
+   "entities": [
+    "Northwestern University",
+    "National Science Foundation",
+    "National Institutes of Health",
+    "PNAS"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 74,
+    "decisionValue": 72,
+    "novelty": 86,
+    "sourceQuality": 80,
+    "personalRelevance": 78,
+    "contrast": 88
+   },
+   "claims": [
+    {
+     "text": "Et PNAS-studie fra Northwestern University analyserede 5.700 fortrolige ansøgninger og 131.000 offentliggjorte bevillinger fra 2021 til 2025 hos NSF og NIH.",
+     "sourceUrls": [
+      "https://www.timeshighereducation.com/news/large-language-models-reduce-originality-research-proposals"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Hos NIH havde sprogmodelassisterede ansøgninger højere bevillingsrate, mens det resulterende arbejde koncentrerede sig i publikationer med lavere gennemslag; hos NSF var der ingen signifikant sammenhæng.",
+     "sourceUrls": [
+      "https://www.timeshighereducation.com/news/large-language-models-reduce-originality-research-proposals"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Large language models reduce originality of research proposals",
+     "publisher": "Times Higher Education",
+     "url": "https://www.timeshighereducation.com/news/large-language-models-reduce-originality-research-proposals",
+     "publishedAt": "2026-08-12T10:30:00.000Z",
+     "kind": "reporting"
+    }
+   ]
+  },
+  {
+   "id": "papal-letter-1066-20260813",
+   "eventKey": "alexander-ii-lost-letter-1066-2026-08",
+   "materialFacts": [
+    "Tom Licence, professor i middelalderhistorie ved University of East Anglia, har identificeret uddrag af et forsvundet brev fra pave Alexander II i vatikanske samlinger af pavelige retsafgørelser",
+    "Alexander beskrev England som befolket af mennesker optændt af deres fader Satans hovmod",
+    "Licence argumenterer for, at Harold under skismaet i 1061 stillede England på modpaven Honorius II’s side",
+    "Fundet er offentliggjort i Licences bog Harold: Warrior King på Yale University Press"
+   ],
+   "section": "Historie",
+   "headline": "Lost Papal Letter Casts Norman Conquest as Holy War Against ‘Followers of Satan’",
+   "primarySourceUrl": "https://www.medievalists.net/2026/08/papal-letter-norman-conquest/",
+   "subheadline": "Uddrag af et forsvundet pavebrev gør 1066 til en følge af et kirkeskisma, ikke kun en tronstrid.",
+   "body": [
+    "Tom Licence, professor i middelalderhistorie ved University of East Anglia, har fundet uddrag af et forsvundet brev fra pave Alexander II, bevaret i vatikanske samlinger af pavelige retsafgørelser. Heri beskrives England som befolket af mennesker optændt af deres fader Satans hovmod.",
+    "Forklaringen er politisk. Under skismaet i 1061, hvor biskop Cadalus af Parma blev valgt som modpaven Honorius II, stillede Harold England på den forkerte side. Det gav Alexander II grund til at bakke Vilhelm af Normandiet. Arbejdet udkommer i bogen Harold: Warrior King."
+   ],
+   "whyItMatters": "Erobringen i 1066 er fortalt som en arvestrid med et pavelig samtykke, ingen kunne forklare. Dokumentet leverer motivet.",
+   "analysis": "Metoden er mere interessant end fortolkningen: brevet dukkede op i samlinger af retsafgørelser, hvor uddrag blev bevaret for deres juridiske indhold og ikke for deres afsender.",
+   "image": {
+    "url": "https://www.medievalists.net/wp-content/uploads/2026/08/medieval26081101.jpg",
+    "credit": "Foto: Medievalists.net",
+    "alt": "Middelalderillustration af slaget ved Hastings",
+    "sourceUrl": "https://www.medievalists.net/2026/08/papal-letter-norman-conquest/"
+   },
+   "topics": [
+    "historie",
+    "religion",
+    "middelalder"
+   ],
+   "entities": [
+    "Tom Licence",
+    "University of East Anglia",
+    "Alexander II",
+    "Harold Godwinson",
+    "Vilhelm Erobreren",
+    "Yale University Press"
+   ],
+   "isLead": false,
+   "isOutsideProfile": true,
+   "scores": {
+    "importance": 48,
+    "decisionValue": 32,
+    "novelty": 88,
+    "sourceQuality": 66,
+    "personalRelevance": 44,
+    "contrast": 92
+   },
+   "claims": [
+    {
+     "text": "Tom Licence har identificeret uddrag af et forsvundet brev fra pave Alexander II i vatikanske samlinger af pavelige retsafgørelser, hvori England beskrives som befolket af mennesker optændt af deres fader Satans hovmod.",
+     "sourceUrls": [
+      "https://www.medievalists.net/2026/08/papal-letter-norman-conquest/"
+     ],
+     "confidence": "medium"
+    },
+    {
+     "text": "Licence argumenterer for, at Harold under skismaet i 1061 stillede England på modpaven Honorius II’s side, hvilket gav Alexander II motiv til at støtte Vilhelm af Normandiet.",
+     "sourceUrls": [
+      "https://www.medievalists.net/2026/08/papal-letter-norman-conquest/"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "title": "Lost Papal Letter Casts Norman Conquest as Holy War Against ‘Followers of Satan’",
+     "publisher": "Medievalists.net",
+     "url": "https://www.medievalists.net/2026/08/papal-letter-norman-conquest/",
+     "publishedAt": "2026-08-11T13:00:41.000Z",
+     "kind": "reporting"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "text": "Aarhus dropper ambitiøst klimamål",
+   "headline": "Aarhus dropper ambitiøst klimamål",
+   "url": "https://www.dr.dk/nyheder/indland/ambitioes-maalsaetning-om-klimaneutralitet-i-2030-saenkes",
+   "publisher": "DR",
+   "section": "Indland",
+   "publishedAt": "2026-08-12T17:26:45.000Z",
+   "summary": "Aarhus Kommune har haft klimaneutralitet i 2030 som mål siden 2008. Målet er nu ændret til mindst 85 procents CO2-reduktion med en ambition om 90."
+  },
+  {
+   "text": "500 meter køreledning skabte totalt togkaos: Banedanmark blev advaret ni timer før",
+   "headline": "500 meter køreledning skabte totalt togkaos: Banedanmark blev advaret ni timer før",
+   "url": "https://ing.dk/artikel/500-meter-koereledning-skabte-totalt-togkaos-banedanmark-blev-advaret-ni-timer-foer",
+   "publisher": "Ingeniøren",
+   "section": "Indland",
+   "publishedAt": "2026-08-13T03:00:00.000Z",
+   "summary": "Banedanmark blev advaret om fejl i strømforsyningen ni timer før sammenbruddet 14. april, hvor 500 meter køreledning blev revet ned ved to hændelser."
+  },
+  {
+   "text": "Efter afsløring af it-fejl hos politiet: Stikprøve gav match i 35 straffesager",
+   "headline": "Efter afsløring af it-fejl hos politiet: Stikprøve gav match i 35 straffesager",
+   "url": "https://www.version2.dk/artikel/efter-afsloering-af-it-fejl-hos-politiet-stikproeve-gav-match-i-35-straffesager",
+   "publisher": "Version2",
+   "section": "Indland",
+   "publishedAt": "2026-08-11T10:04:49.000Z",
+   "summary": "En stikprøve på 574 ikke-forældede straffesager gav match mellem personer og fingeraftryk fra gerningssteder i 35 sager."
+  },
+  {
+   "text": "Iraq says September 30 withdrawal deadline for US-led coalition ‘final’",
+   "headline": "Iraq says September 30 withdrawal deadline for US-led coalition ‘final’",
+   "url": "https://www.aljazeera.com/news/2026/8/12/iraq-says-sept-30-deadline-to-end-us-led-military-coalition-final",
+   "publisher": "Al Jazeera",
+   "section": "Geopolitik",
+   "publishedAt": "2026-08-12T12:00:00.000Z",
+   "summary": "Iraks premierminister Ali al-Zaidi kalder 30. september den faste og endelige dato for at afslutte den USA-ledede koalitions militære mission."
+  },
+  {
+   "text": "Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan",
+   "headline": "Researchers observe first ‘near-autonomous’ AI attack on government target in Taiwan",
+   "url": "https://cyberscoop.com/near-autonomous-ai-attack-government-target-taiwan/",
+   "publisher": "CyberScoop",
+   "section": "Cybersikkerhed",
+   "publishedAt": "2026-08-12T17:05:01.000Z",
+   "summary": "Det israelske firma Dream rapporterer, at formodede kinesiske hackere kørte et agentframework mod taiwanske myndighedssystemer med to open source-agentværktøjer."
+  },
+  {
+   "text": "Introducing Grok 4.6",
+   "headline": "Introducing Grok 4.6",
+   "url": "https://x.ai/news/grok-4-6",
+   "publisher": "xAI",
+   "section": "AI",
+   "publishedAt": "2026-08-12T12:00:00.000Z",
+   "summary": "xAI udsendte Grok 4.6 den 12. august, positioneret til langvarige agentopgaver og visuelt arbejde. Modellen scorer 61 på Artificial Analysis Intelligence Index."
+  },
+  {
+   "text": "Migrant deaths climb sharply in 2026, new UN data shows",
+   "headline": "Migrant deaths climb sharply in 2026, new UN data shows",
+   "url": "https://news.un.org/en/story/2026/08/1168127",
+   "publisher": "UN News",
+   "section": "Verden",
+   "publishedAt": "2026-08-12T20:44:24.000Z",
+   "summary": "IOM opgør 821 døde eller savnede på den centrale Middelhavsrute i januar-april 2026. Rapporten dækker også Libyen, Mauretanien og Den Bengalske Bugt."
+  },
+  {
+   "text": "Europe's largest battery comes online in Scotland",
+   "headline": "Europe's largest battery comes online in Scotland",
+   "url": "https://www.pv-magazine.com/2026/08/12/europes-largest-battery-comes-online-in-scotland/",
+   "publisher": "pv magazine",
+   "section": "Energi",
+   "publishedAt": "2026-08-12T12:51:54.000Z",
+   "summary": "Coalburn 1 på 500 MW og 1 GWh i South Lanarkshire er nu Europas største batterianlæg i drift. Kapitalen bag kommer fra Danmark og Frankrig."
+  },
+  {
+   "text": "Graduate Student Proves the Fractal Uncertainty Principle",
+   "headline": "Graduate Student Proves the Fractal Uncertainty Principle",
+   "url": "https://www.quantamagazine.org/graduate-student-proves-the-fractal-uncertainty-principle-20260812/",
+   "publisher": "Quanta Magazine",
+   "section": "Videnskab",
+   "publishedAt": "2026-08-12T14:14:42.000Z",
+   "summary": "Alex Cohen udvidede det fraktale usikkerhedsprincip til højere dimensioner. Arbejdet blev lavet som ph.d.-studerende ved MIT."
+  },
+  {
+   "text": "Taiwan’s Foxconn reports 35 percent rise in profit on AI demand",
+   "headline": "Taiwan’s Foxconn reports 35 percent rise in profit on AI demand",
+   "url": "https://www.aljazeera.com/economy/2026/8/12/taiwans-foxconn-reports-35-percent-rise-in-profit-on-ai-demand",
+   "publisher": "Al Jazeera",
+   "section": "Erhverv",
+   "publishedAt": "2026-08-12T10:00:00.000Z",
+   "summary": "Foxconn melder om et nettooverskud på 59,97 milliarder taiwanske dollar i andet kvartal, 35 procent mere end året før og over analytikernes forventning."
+  },
+  {
+   "text": "Early giftedness rarely lasts into adulthood, large developmental study finds",
+   "headline": "Early giftedness rarely lasts into adulthood, large developmental study finds",
+   "url": "https://www.psypost.org/early-giftedness-rarely-lasts-into-adulthood-large-developmental-study-finds/",
+   "publisher": "PsyPost",
+   "section": "Psykologi",
+   "publishedAt": "2026-08-12T13:00:04.000Z",
+   "summary": "Et studie af 11.119 deltagere i en britisk kohorte finder, at tidlig særlig begavelse sjældent holder ved ind i voksenlivet."
+  },
+  {
+   "text": "Novo Nordisk and AWS bring agentic AI into drug discovery",
+   "headline": "Novo Nordisk and AWS bring agentic AI into drug discovery",
+   "url": "https://www.artificialintelligence-news.com/news/novo-nordisk-ai-drug-discovery-aws/",
+   "publisher": "AI News",
+   "section": "Erhverv",
+   "publishedAt": "2026-08-11T10:00:00.000Z",
+   "summary": "Novo Nordisk udpeger AWS som foretrukken cloudleverandør og strategisk AI-partner, med et fælles innovationscenter i London."
+  }
+ ],
+ "column": {
+  "authoredBy": "ai",
+  "slug": "reformen-der-virkede",
+  "title": "Reformen, der virkede",
+  "thesis": "Replikationskrisen fik ét svar, der beviseligt virkede: tidsskriftet siger ja til undersøgelsen, før resultatet findes. Alene den ombytning sender andelen af bekræftede hypoteser fra 96 til 44 procent.",
+  "horizon": "Når medicin og økonomi har registrerede rapporter nok til samme sammenligning",
+  "body": [
+   "Registrerede rapporter vender rækkefølgen om: forskeren indsender spørgsmål, metode og analyseplan, og tidsskriftet accepterer på den plan alene. Redaktøren kan ikke fravælge nulresultatet, fordi han sagde ja, før det fandtes.",
+   "Anne Scheel, Mitchell Schijen og Daniël Lakens sammenlignede i 2021 71 registrerede rapporter med 152 tilfældige hypotesetestende artikler fra almindelig psykologilitteratur: 96 procent bekræftede deres første hypotese, mod 44 blandt de registrerede.",
+   "Hullet måler ikke, hvor ofte forskere tager fejl, men hvor stor en del af en litteratur der er udvælgelse frem for fund. De 52 procentpoint er efter min mening ikke en psykologisk sygdom: incitamentet er det samme i medicin og i økonomi, og over 300 tidsskrifter bruger nu formatet."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis en tilsvarende sammenligning i medicin eller økonomi finder et hul under 20 procentpoint. Så skyldtes psykologiens tal noget særligt ved feltet og ikke den rækkefølge, resultatet og redaktørens ja kommer i.",
+  "topics": [
+   "videnskab",
+   "metode",
+   "publikationsbias"
+  ],
+  "claims": [
+   {
+    "text": "En sammenligning af 71 offentliggjorte registrerede rapporter med 152 tilfældigt udvalgte hypotesetestende artikler fra den almindelige psykologilitteratur fandt 96 procent positive resultater i den almindelige litteratur mod 44 procent i de registrerede rapporter.",
+    "sourceUrls": [
+     "https://research.tue.nl/en/publications/an-excess-of-positive-results-comparing-the-standard-psychology-l-2"
+    ],
+    "confidence": "high"
+   },
+   {
+    "text": "Over 300 tidsskrifter anvender formatet registrerede rapporter, enten som almindelig indsendelsesmulighed eller i et enkelt temanummer.",
+    "sourceUrls": [
+     "https://www.cos.io/initiatives/registered-reports"
+    ],
+    "confidence": "high"
+   }
+  ],
+  "sources": [
+   {
+    "title": "An Excess of Positive Results: Comparing the Standard Psychology Literature With Registered Reports",
+    "publisher": "Advances in Methods and Practices in Psychological Science",
+    "url": "https://research.tue.nl/en/publications/an-excess-of-positive-results-comparing-the-standard-psychology-l-2",
+    "publishedAt": "2021-04-01T00:00:00.000Z",
+    "kind": "primary"
+   },
+   {
+    "title": "Registered Reports",
+    "publisher": "Center for Open Science",
+    "url": "https://www.cos.io/initiatives/registered-reports",
+    "publishedAt": "2026-08-13T03:00:00.000Z",
+    "kind": "primary"
+   }
+  ]
+ },
+ "recommendations": [
+  {
+   "id": "rec-dwarkesh-greenblatt-20260813",
+   "tier": "featured",
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "Ryan Greenblatt – What happens once AI can automate AI research?",
+   "creator": "Dwarkesh Patel",
+   "provider": "Dwarkesh Podcast",
+   "url": "https://www.dwarkesh.com/p/ryan-greenblatt",
+   "availability": "Frit tilgængelig, lyd og fuld transskription",
+   "commitment": "2 t 13 min",
+   "description": "Redwood Researchs Ryan Greenblatt gennemgår, hvad der sker med forskningstempoet, hvis modeller selv kan udføre AI-forskning, og hvor flaskehalsene så flytter sig hen.",
+   "rationale": "Greenblatt regner i stedet for at forudsige. Han gør op, hvor meget af arbejdet der faktisk kan køre parallelt, og det er den variabel, der afgør, om hurtigere forskning også giver hurtigere resultater. Transskriptionen findes, så den kan læses på en brøkdel af de to timer.",
+   "topics": [
+    "ai",
+    "forskning",
+    "automatisering"
+   ],
+   "isFeatured": true,
+   "image": {
+    "url": "https://substackcdn.com/image/fetch/$s_!FzOK!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F210737923%2F07f1f1b0-f21d-482a-b648-3c4f1b6c3c6b%2Ftranscoded-1786521947.png",
+    "credit": "Kilde: Dwarkesh Podcast",
+    "alt": "Ryan Greenblatt i samtale med Dwarkesh Patel",
+    "sourceUrl": "https://www.dwarkesh.com/p/ryan-greenblatt"
+   }
+  },
+  {
+   "id": "rec-bruegel-sovereignty-20260813",
+   "tier": "short",
+   "mode": "read",
+   "kind": "essay",
+   "status": "timely",
+   "title": "To achieve tech sovereignty, Europe must not mimic its rivals",
+   "provider": "Bruegel",
+   "url": "https://www.bruegel.org/first-glance/achieve-tech-sovereignty-europe-must-not-mimic-its-rivals",
+   "availability": "Frit tilgængelig",
+   "commitment": "ca. 1.300 ord, 6 min",
+   "note": "Argumentet imod at teknologisk suverænitet betyder at bygge europæiske kopier af amerikanske lag. Kort, og den rammer en position, der sjældent bliver modsagt.",
+   "topics": [
+    "europa",
+    "teknologisk suverænitet",
+    "økonomi"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-kauffman-vc-20260813",
+   "tier": "short",
+   "mode": "read",
+   "kind": "rapport",
+   "status": "classic",
+   "title": "We Have Met the Enemy And He is Us: Lessons from Twenty Years of the Kauffman Foundation’s Investments in Venture Capital Funds and the Triumph of Hope Over Experience",
+   "provider": "Ewing Marion Kauffman Foundation",
+   "url": "https://www.kauffman.org/reports/we-have-met-the-enemy-and-he-is-us/",
+   "availability": "Frit tilgængelig som PDF",
+   "commitment": "52 sider",
+   "note": "En limited partner gør sine egne tyve års venturebeholdning op og finder, at de fleste fonde ikke slog et offentligt indeks. Skrevet indefra, ikke af en kritiker udefra.",
+   "topics": [
+    "venturekapital",
+    "afkast",
+    "kapitalallokering"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-drtv-nazidonor-20260813",
+   "tier": "short",
+   "mode": "watch",
+   "kind": "dokumentar",
+   "status": "available",
+   "title": "Mysteriet om den danske nazi-donor",
+   "provider": "DRTV",
+   "url": "https://www.dr.dk/drtv/saeson/mysteriet-om-den-danske-nazi_donor_608270",
+   "availability": "Frit tilgængelig på DRTV i Danmark",
+   "commitment": "3 afsnit à ca. 28 min",
+   "note": "Dansk gravearbejde om, hvem der finansierede en højreekstrem strømning, og hvordan pengene blev holdt skjult.",
+   "topics": [
+    "danmark",
+    "dokumentar",
+    "politik"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-information-kleis-20260813",
+   "tier": "short",
+   "mode": "read",
+   "kind": "portræt",
+   "status": "new",
+   "title": "Petra Kleis leder efter det, der ikke kan kontrolleres",
+   "provider": "Information",
+   "url": "https://www.information.dk/kultur/2026/08/petra-kleis-leder-kan-kontrolleres",
+   "availability": "Information, betalingsmur efter et par gratis artikler",
+   "commitment": "14 min",
+   "note": "Om en fotograf, der arbejder på at få det utilsigtede ind i billedet. En brugbar modvægt til en dag om systemer, der skal kontrolleres.",
+   "topics": [
+    "fotografi",
+    "kunst",
+    "danmark"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-edgartools-20260813",
+   "tier": "short",
+   "mode": "try",
+   "kind": "værktøj",
+   "status": "available",
+   "title": "edgartools",
+   "creator": "Dwight Gunning",
+   "provider": "GitHub",
+   "url": "https://github.com/dgunning/edgartools",
+   "availability": "Open source, MIT-licens. Kræver Python",
+   "commitment": "En aften at komme i gang",
+   "note": "Læser 10-K, 8-K, XBRL-tal, Form 4 og 13F direkte fra SEC EDGAR i Python. Det gør selskabsanalyse til noget, man kører frem for noget, man læser.",
+   "topics": [
+    "værktøj",
+    "finans",
+    "data"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-nber-replicating-20260813",
+   "tier": "short",
+   "mode": "read",
+   "kind": "forskningsartikel",
+   "status": "classic",
+   "title": "Replicating Anomalies",
+   "provider": "NBER",
+   "url": "https://www.nber.org/papers/w23394",
+   "availability": "Abstract frit tilgængeligt",
+   "commitment": "Abstract 5 min, hele papiret ca. 3 t",
+   "note": "Hou, Xue og Zhang gentog 447 offentliggjorte anomalier i finanslitteraturen. Det meste holdt ikke, og det er samme mekanisme som i dagens klumme, målt på penge.",
+   "topics": [
+    "finans",
+    "replikation",
+    "økonomi"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-arxiv-edu-gaps-20260813",
+   "tier": "short",
+   "mode": "read",
+   "kind": "forskningsartikel",
+   "status": "new",
+   "title": "Does generative AI narrow education-based productivity gaps? Evidence from a field experiment",
+   "provider": "arXiv",
+   "url": "https://arxiv.org/abs/2608.04198",
+   "availability": "Frit tilgængelig som preprint",
+   "commitment": "Abstract og resultater 10 min",
+   "note": "Feltforsøg der tester påstanden om, at AI løfter de svageste mest. Det er den antagelse, det meste optimisme om produktivitet hviler på.",
+   "topics": [
+    "ai",
+    "økonomi",
+    "uddannelse"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-hf-qwen38-20260813",
+   "tier": "short",
+   "mode": "try",
+   "kind": "model",
+   "status": "new",
+   "title": "Qwen/Qwen3.8-2.4T-A95B",
+   "creator": "Qwen-teamet, Alibaba",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B",
+   "availability": "Åbne vægte, frit tilgængelige. Kræver serverhardware, ikke en bærbar",
+   "commitment": "Modelkort 10 min",
+   "note": "Åbne vægte på 2,4 billioner parametre med 95 milliarder aktive. Modelkortet er værd at læse alene for arkitekturvalgene.",
+   "topics": [
+    "ai",
+    "open source",
+    "kina"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-biennale-musk-20260813",
+   "tier": "short",
+   "mode": "watch",
+   "kind": "dokumentar",
+   "status": "upcoming",
+   "title": "Musk",
+   "provider": "La Biennale di Venezia",
+   "url": "https://www.labiennale.org/en/cinema/2026/program-cinema-2026-public/musk-2026-09-09-20-00",
+   "availability": "Verdenspremiere i Venedig 9. september 2026. Ingen dansk distribution oplyst endnu",
+   "commitment": "3 t 52 min",
+   "note": "Knap fire timer om en af de figurer, han selv har rangeret højt. Premieren er om fire uger, distributionen er endnu uoplyst.",
+   "topics": [
+    "film",
+    "teknologi",
+    "portræt"
+   ],
+   "isFeatured": false
+  }
+ ],
+ "quality": {
+  "sourceVerification": 96,
+  "primarySourceShare": 25,
+  "outsideProfile": 100,
+  "imageCoverage": 100
+ }
+}
