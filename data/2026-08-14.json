@@ -1,0 +1,1080 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-08-14",
+  "date": "2026-08-14",
+  "generatedAt": "2026-08-14T03:50:00.000Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief",
+  "dek": "Femten emiratiske tankere ramt. Golfens olieproduktion 8,3 mb/d under før krigen. Og en frontmodel kører nu i drift på andet end GPU'er.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-hormuz-adnoc-20260814",
+      "eventKey": "hormuz-adnoc-tanker-attacks-2026-08",
+      "materialFacts": [
+        "De Forenede Arabiske Emiraters udenrigsministerium beskyldte 13. august 2026 Iran for angreb på to ADNOC-tilknyttede skibe i Hormuzstrædet",
+        "ADNOC opgør, at 15 af selskabets skibe er ramt, siden krigen begyndte i februar 2026",
+        "Den amerikanske forsvarsminister Pete Hegseth sagde samme dag, at flåden kan opretholde blokaden af iranske havne i det uendelige"
+      ],
+      "section": "Geopolitik",
+      "headline": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz",
+      "subheadline": "Det er det femtende ADNOC-skib ramt siden februar. Samtidig siger Pentagon, at blokaden af Iran kan holdes »i det uendelige«.",
+      "body": [
+        "De Forenede Arabiske Emiraters udenrigsministerium beskyldte torsdag aften Iran for et »fjendtligt« angreb på to skibe tilknyttet det statslige olieselskab ADNOC under passage af Hormuzstrædet. Ingen kom til skade. ADNOC opgør nu, at 15 af selskabets skibe er blevet ramt, siden krigen mellem Iran på den ene side og USA og Israel på den anden begyndte i februar.",
+        "Samme dag sagde den amerikanske forsvarsminister Pete Hegseth, at flåden kan opretholde blokaden af iranske havne »i det uendelige«, fordi skibene roteres ind og ud. USA har siden februar sendt titusinder af soldater og over 20 krigsskibe til regionen."
+      ],
+      "whyItMatters": "Angrebene rammer ikke længere kun amerikanske og israelske skibe, men et emiratisk statsselskabs tankere. Det flytter en del af krigens omkostning over på en golfstat, der har forsøgt at holde sig uden for den.",
+      "analysis": "Mønsteret ligner en udmattelseskrig om søvejen snarere end et forsøg på at lukke strædet: enkeltangreb, ingen dræbte, ingen lukning. Det er billigt for Iran og dyrt for alle andre — og en blokade, der erklæres tidsubegrænset, fjerner den dato, markedet ellers ville prise frem mod.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/getty_6a7e5499b4-1786664089.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Tankskib i Hormuzstrædet, arkivfoto anvendt af Al Jazeera til dækningen af angrebene på ADNOC-skibene.",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz"
+      },
+      "topics": [
+        "geopolitik",
+        "energi",
+        "sikkerhed"
+      ],
+      "entities": [
+        "ADNOC",
+        "Iran",
+        "De Forenede Arabiske Emirater",
+        "USA",
+        "Pete Hegseth",
+        "Hormuzstrædet"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 74,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 62,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Emiraternes udenrigsministerium beskyldte Iran for et fjendtligt angreb på to ADNOC-tilknyttede skibe i Hormuzstrædet 13. august 2026, og ADNOC opgør 15 ramte skibe siden februar 2026.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Pete Hegseth sagde 13. august 2026, at den amerikanske flåde kan opretholde blokaden af iranske havne i det uendelige ved at rotere skibe ind og ud.",
+          "sourceUrls": [
+            "https://www.al-monitor.com/originals/2026/08/us-can-keep-naval-blockade-iranian-ports-indefinitely-pentagon-chief-says"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UAE accuses Iran of attacks on two ADNOC vessels in Strait of Hormuz",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/14/uae-accuses-iran-of-attacks-on-two-adnoc-vessels-in-strait-of-hormuz",
+          "publishedAt": "2026-08-14T00:33:48.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US can keep naval blockade on Iranian ports \"indefinitely,\" Pentagon chief says",
+          "publisher": "Al-Monitor",
+          "url": "https://www.al-monitor.com/originals/2026/08/us-can-keep-naval-blockade-iranian-ports-indefinitely-pentagon-chief-says",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-iea-oil-market-20260814",
+      "eventKey": "iea-oil-market-report-august-2026",
+      "materialFacts": [
+        "IEA venter nu, at det globale olieudbud falder 4,3 mb/d i gennemsnit i 2026 til 102 mb/d",
+        "Den globale olieefterspørgsel ventes at falde 1,6 mb/d i 2026, en nedjustering på 510 kb/d siden julirapporten",
+        "Golfens olieproduktion steg 2,5 mb/d i juli til 23,9 mb/d, men er stadig 8,3 mb/d under niveauet før krigen"
+      ],
+      "section": "Energi",
+      "headline": "Oil Market Report - August 2026",
+      "primarySourceUrl": "https://www.iea.org/reports/oil-market-report-august-2026",
+      "subheadline": "IEA venter nu, at både udbud og efterspørgsel falder i 2026, og skriver forbruget ned for anden måned i træk.",
+      "body": [
+        "Det Internationale Energiagentur venter nu, at det globale olieudbud falder 4,3 mb/d i 2026 til 102 mb/d. Efterspørgslen ventes at falde 1,6 mb/d — 510 kb/d mere end i julirapporten.",
+        "Golfens produktion steg 2,5 mb/d i juli til 23,9 mb/d, men ligger stadig 8,3 mb/d under niveauet før krigen. Det hul svarer til omtrent otte procent af verdens forbrug."
+      ],
+      "whyItMatters": "Et fald i både udbud og efterspørgsel er ikke balance. Prisen holdes nede af ødelagt efterspørgsel, ikke af rigelig forsyning — og enhver genopretning af forbruget rammer et marked uden ledig kapacitet.",
+      "analysis": "Nedjusteringen af efterspørgslen er den mest informative del: anden måned i træk skriver agenturet forbruget ned. Det peger på, at priser og omsejlinger allerede har ændret adfærd i importlandene.",
+      "counterpoint": "IEA's egne tal er mere usikre end normalt: en del af Golfens produktion opgøres nu ud fra skibsbevægelser frem for indberetninger.",
+      "image": {
+        "url": "https://iea.imgix.net/9e69d31f-3789-4cdd-8a28-e020e81380cf/08-August.jpg?auto=compress%2Cformat&fit=min&h=600&q=80&rect=488%2C0%2C1200%2C1200&w=1200",
+        "credit": "Kilde: International Energy Agency",
+        "alt": "Forsidebilledet til IEA's Oil Market Report for august 2026.",
+        "sourceUrl": "https://www.iea.org/reports/oil-market-report-august-2026"
+      },
+      "topics": [
+        "energi",
+        "makroøkonomi",
+        "geopolitik"
+      ],
+      "entities": [
+        "International Energy Agency",
+        "OPEC+",
+        "Golfstaterne",
+        "Rusland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 78,
+        "novelty": 66,
+        "sourceQuality": 92,
+        "personalRelevance": 64,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "IEA forventer i august-rapporten, at det globale olieudbud falder 4,3 mb/d i 2026 til 102 mb/d, og at efterspørgslen falder 1,6 mb/d, 510 kb/d mere end i forrige måneds rapport.",
+          "sourceUrls": [
+            "https://www.iea.org/reports/oil-market-report-august-2026"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Golfens olieproduktion steg 2,5 mb/d i juli 2026 til 23,9 mb/d og var dermed fortsat 8,3 mb/d under niveauet før krigen.",
+          "sourceUrls": [
+            "https://www.iea.org/reports/oil-market-report-august-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Oil Market Report - August 2026",
+          "publisher": "International Energy Agency",
+          "url": "https://www.iea.org/reports/oil-market-report-august-2026",
+          "publishedAt": "2026-08-12T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-maersk-q2-20260814",
+      "eventKey": "maersk-q2-2026-guidance-raise",
+      "materialFacts": [
+        "Omsætningen i 2. kvartal 2026 var 15,8 mia. dollar, 20 pct. over samme kvartal året før",
+        "EBITDA steg til 3,0 mia. dollar fra 2,3 mia. dollar, og EBIT til 1,6 mia. dollar fra 845 mio. dollar",
+        "Helårsforventningen blev hævet for anden gang i år, til en underliggende EBITDA på 10,5-12,5 mia. dollar fra 8-10 mia. dollar"
+      ],
+      "section": "Erhverv",
+      "headline": "Maersk delivers strong Q2 and raises full year guidance",
+      "primarySourceUrl": "https://www.maersk.com/news/articles/2026/08/13/maersk-delivers-strong-q2-and-raises-full-year-guidance",
+      "subheadline": "Anden opjustering på et halvt år. Den danske rederikoncern tjener på præcis den forstyrrelse, der gør olien dyrere for alle andre.",
+      "body": [
+        "A.P. Møller-Mærsk løftede omsætningen til 15,8 mia. dollar i andet kvartal, 20 procent mere end året før. EBITDA steg til 3,0 mia. dollar fra 2,3, og driftsresultatet næsten fordobledes til 1,6 mia. dollar.",
+        "Helårsforventningen blev hævet for anden gang i år, til en underliggende EBITDA på 10,5-12,5 mia. dollar mod tidligere 8-10. Selskabet er dansk; indtjeningen kommer fra global containerfart."
+      ],
+      "whyItMatters": "Mærsk er den danske virksomhed, hvis regnskab mest direkte oversætter geopolitisk uro til kroner. En opjustering af den størrelse er en aflæsning af, hvor længe rederiet venter, at omsejlingerne varer.",
+      "analysis": "Hold de to tal op mod hinanden: samme forstyrrelse, der koster oliemarkedet 8,3 mb/d i manglende golfproduktion, løfter Mærsks driftsresultat. Fragt er et af de få steder, hvor knaphed på sørute er en indtægt — men det gør indtjeningen til en position i en konflikt, ikke en strukturel forbedring.",
+      "image": {
+        "url": "https://www.maersk.com/~/media_sc9/maersk/news/press-releases/images/2026/08/california_ground-freight_1024x576.jpg?h=576&w=1024&hash=D6E1CB89A602736E",
+        "credit": "Foto: A.P. Moller – Maersk",
+        "alt": "Arkivfoto fra Mærsks egen meddelelse: lastbiler i koncernens landtransportnetværk.",
+        "sourceUrl": "https://www.maersk.com/news/articles/2026/08/13/maersk-delivers-strong-q2-and-raises-full-year-guidance"
+      },
+      "topics": [
+        "dansk erhverv",
+        "logistik",
+        "makroøkonomi"
+      ],
+      "entities": [
+        "A.P. Moller – Maersk",
+        "Danmark",
+        "Hormuzstrædet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 76,
+        "novelty": 64,
+        "sourceQuality": 90,
+        "personalRelevance": 78,
+        "contrast": 48
+      },
+      "claims": [
+        {
+          "text": "Mærsk rapporterede for 2. kvartal 2026 en omsætning på 15,8 mia. dollar (op 20 pct.), EBITDA på 3,0 mia. dollar og EBIT på 1,6 mia. dollar mod 845 mio. dollar året før.",
+          "sourceUrls": [
+            "https://www.maersk.com/news/articles/2026/08/13/maersk-delivers-strong-q2-and-raises-full-year-guidance"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mærsk hævede helårsforventningen for anden gang i 2026, til en underliggende EBITDA på 10,5-12,5 mia. dollar fra tidligere 8-10 mia. dollar.",
+          "sourceUrls": [
+            "https://www.maersk.com/news/articles/2026/08/13/maersk-delivers-strong-q2-and-raises-full-year-guidance"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maersk delivers strong Q2 and raises full year guidance",
+          "publisher": "A.P. Moller – Maersk",
+          "url": "https://www.maersk.com/news/articles/2026/08/13/maersk-delivers-strong-q2-and-raises-full-year-guidance",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-databricks-round-20260814",
+      "eventKey": "databricks-5b-round-190b-2026-08",
+      "materialFacts": [
+        "Databricks lukkede en runde på 5 mia. dollar til en værdiansættelse på 190 mia. dollar, ledet af Coatue",
+        "Selskabet ville rejse omkring 1 mia. dollar; investorerne tilbød op til 15 mia. dollar",
+        "Nye investorer omfatter Sixth Street Growth, BOND, Clearlake Capital, Point72 og Premji Invest"
+      ],
+      "section": "Venturekapital",
+      "headline": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+      "subheadline": "Selve tallet er ikke nyheden. Forholdet mellem det, selskabet bad om, og det, kapitalen tilbød, er.",
+      "body": [
+        "Det amerikanske dataselskab Databricks har lukket en runde på 5 mia. dollar til en værdiansættelse på 190 mia. dollar med Coatue i spidsen. Blandt de nye investorer er Sixth Street Growth, BOND, Clearlake Capital, Point72 og indiske Premji Invest.",
+        "Selskabet oplyser, at det selv ønskede omkring 1 mia. dollar, og at investorerne tilbød op til 15."
+      ],
+      "whyItMatters": "Forholdet på femten til én mellem tilbudt og efterspurgt kapital måler, hvor mange penge der jager et lille antal sene AI-aktiver — og at prisen sættes af udbuddet af kapital, ikke af selskabets behov.",
+      "analysis": "For en statslig investor er det den interessante del. Når de bedste sene runder er femten gange overtegnede, er additionaliteten dér tæt på nul: kapitalen var kommet uanset.",
+      "counterpoint": "Overtegning måler efterspørgsel efter adgang, ikke kvalitet. Det samme gjaldt sene runder i 2021, hvor en del af presset kom fra fondenes eget allokeringsbehov.",
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2021/04/Ali_Ghodsi.jpg?resize=1200,1200",
+        "credit": "Foto: TechCrunch",
+        "alt": "Arkivfoto af Databricks' administrerende direktør Ali Ghodsi.",
+        "sourceUrl": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+      },
+      "topics": [
+        "venturekapital",
+        "ai",
+        "usa"
+      ],
+      "entities": [
+        "Databricks",
+        "Coatue",
+        "Point72",
+        "Premji Invest",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 82,
+        "novelty": 72,
+        "sourceQuality": 70,
+        "personalRelevance": 86,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Databricks lukkede en runde på 5 mia. dollar til en værdiansættelse på 190 mia. dollar ledet af Coatue, efter at selskabet havde ønsket cirka 1 mia. dollar og investorerne tilbudt op til 15 mia. dollar.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Databricks wanted to raise $1B, investors wanted $15B. It settled on $5B at a $190B valuation.",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/",
+          "publishedAt": "2026-08-13T20:14:39.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-gemini-37-flash-20260814",
+      "eventKey": "google-gemini-37-flash-2026-08",
+      "materialFacts": [
+        "Gemini 3.7 Flash udkom 13. august 2026, tre uger efter Gemini 3.6 Flash",
+        "Introduktionspris 0,75 dollar pr. mio. input-tokens og 3,75 dollar pr. mio. output-tokens indtil 31. december 2026, derefter 1,50 og 7,50",
+        "AutomationBench 30,4 pct. mod 3.6 Flash's 17,0 pct.; DeepSWE v1.1 65,3 mod 49,0; GDP.pdf 34,0 mod 22,0"
+      ],
+      "section": "Kunstig intelligens",
+      "headline": "Introducing Gemini 3.7 Flash",
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "subheadline": "Tre uger efter forgængeren, til halv pris året ud. Det interessante er kadencen, ikke modellen.",
+      "body": [
+        "Google udsendte 13. august Gemini 3.7 Flash, tre uger efter 3.6 Flash. Introduktionsprisen er 0,75 dollar pr. million input-tokens og 3,75 pr. million output-tokens indtil 31. december 2026, hvorefter den fordobles.",
+        "På AutomationBench scorer modellen 30,4 procent mod forgængerens 17,0, og på DeepSWE v1.1 65,3 mod 49,0. Det er Googles billige arbejdshest-klasse, ikke topmodellen."
+      ],
+      "whyItMatters": "En fordobling af opgaveløsningen på tre uger i den billigste klasse flytter, hvad der kan automatiseres til en pris, der kan forsvares i drift.",
+      "analysis": "Introduktionsprisen med udløbsdato bør læses som forretning frem for teknik: den binder kunder til en integration i fire en halv måned og fordobler så prisen.",
+      "counterpoint": "Epoch AI har målt, at ydeevnen pr. dollar for de AI-chips, der faktisk købes, er vokset omkring 49 procent om året siden 2023. På den kurve er en prisnedsættelse normal drift, ikke en begivenhed.",
+      "discoveredVia": {
+        "name": "AINews",
+        "url": "https://news.smol.ai/issues"
+      },
+      "image": {
+        "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-7-flash.width-1300.png",
+        "credit": "Kilde: Google",
+        "alt": "Googles egen grafik for Gemini 3.7 Flash.",
+        "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+      },
+      "topics": [
+        "ai",
+        "modeller",
+        "usa"
+      ],
+      "entities": [
+        "Google",
+        "Gemini",
+        "Epoch AI",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 80,
+        "novelty": 70,
+        "sourceQuality": 84,
+        "personalRelevance": 88,
+        "contrast": 52
+      },
+      "claims": [
+        {
+          "text": "Gemini 3.7 Flash blev offentliggjort 13. august 2026 med en introduktionspris på 0,75 dollar pr. mio. input-tokens og 3,75 dollar pr. mio. output-tokens gældende til 31. december 2026, hvorefter priserne bliver 1,50 og 7,50.",
+          "sourceUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Gemini 3.7 Flash scorer 30,4 pct. på AutomationBench mod Gemini 3.6 Flash's 17,0 pct., og 65,3 mod 49,0 på DeepSWE v1.1.",
+          "sourceUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ydeevnen pr. dollar for indkøbte AI-chips er ifølge Epoch AI vokset omkring 49 pct. om året, med et 90-procents konfidensinterval på 36-66 pct.",
+          "sourceUrls": [
+            "https://epoch.ai/data-insights/chip-performance-per-dollar"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Introducing Gemini 3.7 Flash",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "The performance per dollar of AI chips purchased each quarter has grown by an average of 49% per year",
+          "publisher": "Epoch AI",
+          "url": "https://epoch.ai/data-insights/chip-performance-per-dollar",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "story-amoc-rate-tipping-20260814",
+      "eventKey": "amoc-rate-induced-tipping-2026-08",
+      "materialFacts": [
+        "Den nuværende estimerede kollapstærskel for AMOC er +4,0 °C global opvarmning med et usikkerhedsinterval på 1,4-8 °C",
+        "Med en langsom CO2-rampe på +0,5 ppm om året forbliver AMOC stabil op til +5,5 °C i modelsimuleringen",
+        "Ved hurtigere ramper kollapser AMOC allerede ved omkring +2 °C"
+      ],
+      "section": "Videnskab",
+      "headline": "Failure to track a stable AMOC state under rapid climate change",
+      "primarySourceUrl": "https://www.nature.com/articles/s41558-026-02730-w",
+      "subheadline": "Tærsklen for et kollaps af Atlanterhavets cirkulation afhænger af farten, ikke af temperaturen. Samme opvarmning giver stabilitet eller sammenbrud, alt efter hvor hurtigt den sker.",
+      "body": [
+        "Tre forskere fra Utrecht viser i Nature Climate Change, at spørgsmålet om, hvornår Atlanterhavets omvæltningscirkulation AMOC bryder sammen, er stillet forkert. Den offentliggjorte tærskel på +4,0 °C — med et interval fra 1,4 til 8 °C — forudsætter, at der findes ét temperaturniveau, hvor systemet vipper.",
+        "I deres simuleringer forbliver AMOC stabil op til +5,5 °C, hvis CO2 stiger langsomt med 0,5 ppm om året, fordi havet når at tilpasse sig. Ved hurtigere stigninger kollapser den allerede omkring +2 °C."
+      ],
+      "whyItMatters": "Er tipningen hastighedsbestemt, er et temperaturmål ikke nok til at beskrive risikoen. To verdener med samme sluttemperatur kan ende forskelligt, afhængigt af hvor hurtigt de kom dertil.",
+      "analysis": "Det flytter den politiske variabel fra niveau til tempo. Ubekvemt, fordi klimapolitikkens sprog er bygget om et temperaturloft, mens udledningsbanen behandles som et middel til at nå det.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/North_Atlantic_large_scale_circulation.png/1280px-North_Atlantic_large_scale_circulation.png",
+        "credit": "Foto: Wikimedia Commons",
+        "alt": "Kort over den storskala havcirkulation i Nordatlanten, det system studiet undersøger.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:North_Atlantic_large_scale_circulation.png"
+      },
+      "primaryExcerpt": {
+        "quote": "Our findings demonstrate rate-induced AMOC tipping and imply that limiting the rate of emissions is critical for reducing the risk of an AMOC collapse.",
+        "sourceUrl": "https://www.nature.com/articles/s41558-026-02730-w",
+        "sourceTitle": "Failure to track a stable AMOC state under rapid climate change"
+      },
+      "topics": [
+        "klima",
+        "videnskab",
+        "havforskning"
+      ],
+      "entities": [
+        "Nature Climate Change",
+        "Utrecht Universitet",
+        "AMOC",
+        "Holland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 58,
+        "novelty": 84,
+        "sourceQuality": 94,
+        "personalRelevance": 46,
+        "contrast": 76
+      },
+      "claims": [
+        {
+          "text": "Den estimerede kollapstærskel for AMOC er +4,0 °C global opvarmning med et usikkerhedsinterval på 1,4-8 °C, men stabiliteten afhænger ifølge studiet af ændringstakten i strålingspåvirkningen frem for af et fast temperaturniveau.",
+          "sourceUrls": [
+            "https://www.nature.com/articles/s41558-026-02730-w"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "I en simulering med en langsom CO2-rampe på +0,5 ppm om året forbliver AMOC stabil op til +5,5 °C, mens den ved hurtigere ramper kollapser ved omkring +2 °C.",
+          "sourceUrls": [
+            "https://www.nature.com/articles/s41558-026-02730-w"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Failure to track a stable AMOC state under rapid climate change",
+          "publisher": "Nature Climate Change",
+          "url": "https://www.nature.com/articles/s41558-026-02730-w",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-ifmetall-tesla-20260814",
+      "eventKey": "if-metall-tesla-strike-ends-2026-08",
+      "materialFacts": [
+        "IF Metall indstillede 13. august 2026 alle kampskridt mod Teslas svenske aktiviteter",
+        "Begrundelsen er, at Tesla har købt samtlige tilbageværende strejkende medlemmer ud, så forbundet ikke længere har medlemmer i selskabet",
+        "Konflikten havde da varet næsten tre år og er den længste i moderne svensk arbejdsmarkedshistorie"
+      ],
+      "section": "Arbejdsmarked",
+      "headline": "IF Metall Ends Industrial Action Against Tesla Today",
+      "primarySourceUrl": "https://www.industriall-union.org/if-metall-ends-tesla-strike",
+      "subheadline": "Sveriges længste arbejdskonflikt sluttede ikke med en overenskomst. Den sluttede, fordi der ikke var flere medlemmer tilbage at strejke med.",
+      "body": [
+        "Det svenske fagforbund IF Metall meddelte torsdag, at det indstiller alle kampskridt mod Teslas virksomhed i Sverige. Begrundelsen er ikke en aftale: forbundet oplyser, at Tesla har købt samtlige tilbageværende strejkende medlemmer ud, og at konflikten derfor ikke længere kan have virkning.",
+        "Konflikten begyndte i efteråret 2023 og handlede om, at det amerikanske selskab nægtede at indgå svensk kollektiv overenskomst."
+      ],
+      "whyItMatters": "Den nordiske model bygger på, at en arbejdsgiver ikke kan komme uden om en overenskomst, fordi konflikten bliver dyrere end aftalen. Her blev den udgang købt væk, medlem for medlem.",
+      "analysis": "Sympatikonflikterne virkede efter hensigten i årevis uden at flytte selskabet. Det, der endte sagen, var, at et selskab med tilstrækkelig kapital kan afvikle modparten frem for at forhandle med den.",
+      "image": {
+        "url": "https://www.industriall-union.org/wp-content/uploads/2026/08/2026-08-13-Sweden-IFMetall-Tesla.jpg",
+        "credit": "Foto: IndustriALL Global Union",
+        "alt": "Strejkende IF Metall-medlemmer i konflikten mod Tesla i Sverige.",
+        "sourceUrl": "https://www.industriall-union.org/if-metall-ends-tesla-strike"
+      },
+      "topics": [
+        "arbejdsmarked",
+        "sverige",
+        "fagbevægelse"
+      ],
+      "entities": [
+        "IF Metall",
+        "Tesla",
+        "Sverige",
+        "USA",
+        "IndustriALL Global Union"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 52,
+        "novelty": 80,
+        "sourceQuality": 82,
+        "personalRelevance": 34,
+        "contrast": 88
+      },
+      "claims": [
+        {
+          "text": "IF Metall indstillede 13. august 2026 alle kampskridt mod Tesla i Sverige med den begrundelse, at Tesla havde købt samtlige tilbageværende strejkende medlemmer ud.",
+          "sourceUrls": [
+            "https://www.industriall-union.org/if-metall-ends-tesla-strike"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "IF Metall Ends Industrial Action Against Tesla Today",
+          "publisher": "IndustriALL Global Union",
+          "url": "https://www.industriall-union.org/if-metall-ends-tesla-strike",
+          "publishedAt": "2026-08-13T12:02:50.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-drone-tariffs-20260814",
+      "eventKey": "us-drone-import-tariffs-2026-08",
+      "materialFacts": [
+        "USA indfører 100 pct. told på droner med startvægt over 25 kg eller med termisk kamera, samt på deres dockingstationer og kritiske komponenter",
+        "25 pct. told på mindre droner og øvrige komponenter uden væsentlig sikkerhedsbetydning",
+        "15 pct. told på droner og komponenter fra lande med handelsaftaler med USA"
+      ],
+      "section": "Handel",
+      "headline": "Trump imposes steep tariffs on drone imports",
+      "primarySourceUrl": "https://kyivindependent.com/trump-imposes-steep-tariffs-on-drone-imports/",
+      "subheadline": "Tredelt toldsats efter vægt og sensor. Den rammer også de europæiske og ukrainske leverandører, som USA ellers køber droneteknologi fra.",
+      "body": [
+        "Den amerikanske regering indfører told på importerede droner i tre niveauer: 100 procent på droner med en startvægt over 25 kilo eller med termisk kamera samt deres dockingstationer og kritiske komponenter, 25 procent på mindre droner og øvrige komponenter, og 15 procent på droner fra lande, USA har handelsaftaler med.",
+        "Kriteriet er altså dronens egenskaber, ikke oprindelseslandet alene. Blandt de berørte leverandørlande er EU-lande, Japan, Sydkorea, Taiwan og Storbritannien."
+      ],
+      "whyItMatters": "Told skruet sammen efter vægt og sensortype rammer europæisk forsvarsindustris eksport til USA lige så hårdt som den kinesiske — og det er den kinesiske, ordningen er skrevet imod.",
+      "analysis": "For europæiske droneproducenter, der har regnet det amerikanske marked ind som aftager, ændrer det forretningsgrundlaget: over 25 kilo eller med termisk sensor betyder en fordobling af prisen ved grænsen.",
+      "image": {
+        "url": "https://assets.kyivindependent.com/content/images/2026/05/GettyImages-2269641966_20260528-163919.jpg",
+        "credit": "Foto: The Kyiv Independent",
+        "alt": "Arkivfoto af en militærdrone, anvendt af The Kyiv Independent til dækningen af de amerikanske toldsatser.",
+        "sourceUrl": "https://kyivindependent.com/trump-imposes-steep-tariffs-on-drone-imports/"
+      },
+      "topics": [
+        "handel",
+        "forsvarsindustri",
+        "usa"
+      ],
+      "entities": [
+        "USA",
+        "Donald Trump",
+        "Ukraine",
+        "EU",
+        "Kina"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 72,
+        "novelty": 74,
+        "sourceQuality": 72,
+        "personalRelevance": 70,
+        "contrast": 58
+      },
+      "claims": [
+        {
+          "text": "USA indfører 100 pct. told på droner med startvægt over 25 kg eller termisk kamera og på deres dockingstationer og kritiske komponenter, 25 pct. på mindre droner og øvrige komponenter og 15 pct. på droner fra lande med handelsaftaler med USA.",
+          "sourceUrls": [
+            "https://kyivindependent.com/trump-imposes-steep-tariffs-on-drone-imports/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump imposes steep tariffs on drone imports",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/trump-imposes-steep-tariffs-on-drone-imports/",
+          "publishedAt": "2026-08-13T23:16:19.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-cerebras-ultrafast-20260814",
+      "eventKey": "openai-ultrafast-cerebras-2026-08",
+      "materialFacts": [
+        "OpenAI's nye API-niveau Ultrafast kører GPT-5.6 Sol på Cerebras' wafer-skala-chips",
+        "Cerebras oplyser op til 750 output-tokens i sekundet",
+        "Hver wafer-chip har 44 GB SRAM på selve chippen, hvilket fjerner den hukommelsesbåndbredde, der begrænser GPU-inferens",
+        "Cerebras opgør en samlet hastighedsforøgelse på 5,6 gange på GDP-Val uden kvalitetstab"
+      ],
+      "section": "Kunstig intelligens",
+      "headline": "Accelerating GPT-5.6 Sol Ultrafast with OpenAI",
+      "primarySourceUrl": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "subheadline": "En frontmodel kører nu i drift på andet end GPU'er. Det er den mest strukturelle AI-nyhed på ugen, og den kommer fra hardwareleverandøren, ikke fra laboratoriet.",
+      "body": [
+        "OpenAI har åbnet et nyt API-niveau, Ultrafast, hvor GPT-5.6 Sol kører på Cerebras' wafer-skala-chips. Cerebras oplyser op til 750 output-tokens i sekundet og en samlet hastighedsforøgelse på 5,6 gange på benchmarket GDP-Val uden kvalitetstab.",
+        "Forklaringen er hukommelse: hver chip har 44 GB SRAM direkte på waferen, så modellens vægte ikke skal hentes over den båndbredde, der sætter loftet for GPU-inferens."
+      ],
+      "whyItMatters": "Indtil nu har frontmodeller i praksis kørt på Nvidia-hardware. At et af de største laboratorier sælger et produktionsniveau på alternativ silicium er en revne i den antagelse, investeringscasen for AI-infrastruktur hviler på.",
+      "analysis": "Bemærk hvem der fortæller det: meddelelsen kommer fra leverandøren, og alle tal er dens egne. Selve produktaftalen er til gengæld verificerbar. Hastighed er desuden en anden vare end intelligens — den åbner for agenter, der skal svare mange gange i træk.",
+      "image": {
+        "url": "https://cdn.sanity.io/images/e4qjo92p/production/fdfac76baee0b174ea63df807f9d4f975341caea-1672x941.png?rect=0,32,1672,878&w=1200&h=630&fit=max&auto=format",
+        "credit": "Kilde: Cerebras",
+        "alt": "Cerebras' egen grafik for Ultrafast-tjenesten med GPT-5.6 Sol.",
+        "sourceUrl": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+      },
+      "discoveredVia": {
+        "name": "AINews",
+        "url": "https://news.smol.ai/issues"
+      },
+      "topics": [
+        "ai",
+        "hardware",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Cerebras",
+        "OpenAI",
+        "GPT-5.6 Sol",
+        "Nvidia",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 78,
+        "novelty": 82,
+        "sourceQuality": 68,
+        "personalRelevance": 88,
+        "contrast": 72
+      },
+      "claims": [
+        {
+          "text": "Cerebras oplyser, at OpenAI's Ultrafast-niveau kører GPT-5.6 Sol med op til 750 output-tokens i sekundet, og at hver wafer-chip har 44 GB SRAM på chippen.",
+          "sourceUrls": [
+            "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Cerebras opgør en samlet hastighedsforøgelse på 5,6 gange på GDP-Val uden kvalitetstab.",
+          "sourceUrls": [
+            "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Accelerating GPT-5.6 Sol Ultrafast with OpenAI",
+          "publisher": "Cerebras",
+          "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Ørsted continues its strategic progress, delivers solid operational performance, and is on track to deliver on its 2026 financial guidance",
+      "headline": "Ørsted continues its strategic progress, delivers solid operational performance, and is on track to deliver on its 2026 financial guidance",
+      "url": "https://orsted.com/en/company-announcement-list/2026/08/orsted-continues-its-strategic-progress-delivers-s-150879921",
+      "publisher": "Ørsted",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-14T00:00:00.000Z",
+      "summary": "Halvårsregnskabet: EBITDA ekskl. nye partnerskaber og annulleringsgebyrer var 15,0 mia. kr., 1,1 mia. kr. mere end første halvår 2025. Nettoresultatet faldt til 3,3 mia. kr. fra 8,2 mia. kr., primært på grund af sidste års frasalgsgevinster, højere skat og nedskrivninger uden likviditetseffekt."
+    },
+    {
+      "text": "Minister går ind i fingeraftryks-sagen: Kræver redegørelse fra Rigspolitiet",
+      "headline": "Minister går ind i fingeraftryks-sagen: Kræver redegørelse fra Rigspolitiet",
+      "url": "https://www.version2.dk/artikel/minister-gaar-ind-i-fingeraftryks-sagen-kraever-redegoerelse-fra-rigspolitiet",
+      "publisher": "Version2",
+      "section": "Danmark",
+      "publishedAt": "2026-08-13T10:22:00.000Z",
+      "summary": "Justitsministeren har bedt Rigspolitiet om en skriftlig redegørelse for fejlene i fingeraftryksregistret og vil sende den videre til Folketingets Retsudvalg. Selve fejlen blev omtalt 11. august; det nye er den ministerielle beslutning."
+    },
+    {
+      "text": "Universiteter skrotter it-projekt til over 300 millioner: »Situationen er alvorlig«",
+      "headline": "Universiteter skrotter it-projekt til over 300 millioner: »Situationen er alvorlig«",
+      "url": "https://www.version2.dk/artikel/universiteter-skrotter-it-projekt-til-over-300-millioner-situationen-er-alvorlig",
+      "publisher": "Version2",
+      "section": "Danmark",
+      "publishedAt": "2026-08-14T03:00:00.000Z",
+      "summary": "De syv danske universiteter opgiver deres seneste forsøg på et fælles studieadministrativt system. Kontrakten fra 2023 med leverandøren Fluido lød på 330 mio. kr."
+    },
+    {
+      "text": "Priserne på danske boliger stiger stadig – i København er festen forbi",
+      "headline": "Priserne på danske boliger stiger stadig – i København er festen forbi",
+      "url": "https://nyheder.tv2.dk/business/2026-08-13-priserne-paa-danske-boliger-stiger-stadig-i-koebenhavn-er-festen-forbi",
+      "publisher": "TV 2",
+      "section": "Danmark",
+      "publishedAt": "2026-08-13T05:28:59.000Z",
+      "summary": "Nye julital fra Boligsiden: huspriserne er steget 9,6 pct. på et år og lejlighedspriserne knap 18 pct. Priserne er nu stagneret i Københavns og Frederiksbergs kommuner efter mere end to års uafbrudt stigning."
+    },
+    {
+      "text": "Poland thwarts alleged Kremlin plot to assassinate US-Ukrainian national, Tusk says",
+      "headline": "Poland thwarts alleged Kremlin plot to assassinate US-Ukrainian national, Tusk says",
+      "url": "https://kyivindependent.com/poland-arrests-russian-man-for-alleged-assassination-plot-against-us-ukrainian-national-pm-tusk-says/",
+      "publisher": "The Kyiv Independent",
+      "section": "Sikkerhed",
+      "publishedAt": "2026-08-13T18:52:55.000Z",
+      "summary": "En russisk statsborger blev anholdt i Warszawa 7. august; Tusk offentliggjorde sagen 13. august. Målet skal have været en amerikansk-ukrainsk dobbeltstatsborger. Det er den første sag af slagsen mod en amerikansk statsborger på NATO-territorium."
+    },
+    {
+      "text": "Three men executed on same day in US for the first time in 15 years",
+      "headline": "Three men executed on same day in US for the first time in 15 years",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/executions-oklahoma-alabama-tennessee",
+      "publisher": "The Guardian",
+      "section": "Ret og samfund",
+      "publishedAt": "2026-08-13T23:59:18.000Z",
+      "summary": "Tre henrettelser i Oklahoma, Tennessee og Alabama torsdag 13. august — den første dag med tre henrettelser i USA siden 2010."
+    },
+    {
+      "text": "Number of children in temporary accommodation hits record high",
+      "headline": "Number of children in temporary accommodation hits record high",
+      "url": "https://www.bbc.com/news/articles/c5yw7nxdwlpo",
+      "publisher": "BBC News",
+      "section": "Samfund",
+      "publishedAt": "2026-08-13T15:25:02.000Z",
+      "summary": "177.530 hjemløse børn i England bor i midlertidig indkvartering, en stigning på 5 pct. på et år og det højeste registrerede antal. Første kvartal 2026 var det 18. kvartal i træk med stigning."
+    },
+    {
+      "text": "Taiwan briefly slows its mobile internet to text-only speed as part of defense drill",
+      "headline": "Taiwan briefly slows its mobile internet to text-only speed as part of defense drill",
+      "url": "https://www.npr.org/2026/08/13/g-s1-138581/taiwan-briefly-slows-its-mobile-internet-to-text-only-speed-as-part-of-defense-drill",
+      "publisher": "NPR",
+      "section": "Geopolitik",
+      "publishedAt": "2026-08-13T13:18:43.000Z",
+      "summary": "Teleselskaberne sænkede mobiltrafikken til 256 Kbps i 30 minutter i Taipei og seks andre byer som led i den afsluttende fase af de årlige Han Kuang-øvelser."
+    },
+    {
+      "text": "Yemen faces highest risk of returning to war since 2022 truce, UN warns",
+      "headline": "Yemen faces highest risk of returning to war since 2022 truce, UN warns",
+      "url": "https://www.aljazeera.com/news/2026/8/14/yemen-faces-highest-risk-of-returning-to-war-since-2022-truce-un-warns",
+      "publisher": "Al Jazeera",
+      "section": "Geopolitik",
+      "publishedAt": "2026-08-14T00:02:22.000Z",
+      "summary": "FN's udsending Hans Grundberg orienterede Sikkerhedsrådet 13. august om den højeste risiko for tilbagevenden til krig siden våbenhvilen i 2022, med kampe i Marib, Hadramout, al-Makha og Taiz."
+    },
+    {
+      "text": "Ebola disease outbreak in the Democratic Republic of the Congo and Uganda",
+      "headline": "Ebola disease outbreak in the Democratic Republic of the Congo and Uganda",
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+      "publisher": "ECDC",
+      "section": "Sundhed",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Med data til og med 11. august er der 4.566 bekræftede tilfælde og 2.128 dødsfald i DR Congo, en stigning på 117 tilfælde og 67 dødsfald på et døgn. Uganda har erklæret sig ebolafrit efter 20 tilfælde og to dødsfald."
+    },
+    {
+      "text": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "headline": "deepseek-ai/DeepSeek-V4-Pro-0813",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-0813",
+      "publisher": "Hugging Face",
+      "section": "Kunstig intelligens",
+      "publishedAt": "2026-08-13T00:00:00.000Z",
+      "summary": "Kinesiske DeepSeek har frigivet den endelige udgave af V4-Pro med 1,7 billioner parametre under MIT-licens, altså med åbne vægte. På Terminal Bench 2.1 scorer den 87,9 mod V4-Flash-0731's 82,7."
+    }
+  ],
+  "keyNumber": {
+    "label": "Industriproduktion i euroområdet, månedlig ændring",
+    "indicator": "euroarea-industrial-production-mom",
+    "value": "0,0",
+    "unit": "%",
+    "asOf": "juni 2026",
+    "previous": {
+      "value": "+0,3",
+      "asOf": "maj 2026",
+      "change": "-0,3 point"
+    },
+    "caption": "Fladt i euroområdet, +0,2 pct. i hele EU. Bemærk revisionen: maj blev skrevet op fra -0,2 til +0,3 pct., så billedet af et forår i tilbagegang forsvandt bagudrettet.",
+    "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/4-13082026-ap",
+    "sourceTitle": "Industrial production stable in the euro area and up by 0.2% in the EU",
+    "series": [
+      {
+        "label": "maj",
+        "value": 0.3
+      },
+      {
+        "label": "jun",
+        "value": 0.0
+      }
+    ]
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "fabrikken-er-den-nemme-del",
+    "title": "Fabrikken er den nemme del",
+    "thesis": "Den bindende begrænsning for europæisk oprustning er mennesker, ikke fabrikker: ordrebøger kan fordobles med kapital, bemanding kan ikke, og det er dér planerne brister først.",
+    "horizon": "31. december 2029, aflæst i Bundeswehrs personaltal",
+    "body": [
+      "Tyskland har selv sat tallet: inden 2035 skal forsvaret råde over 260.000 aktive soldater. Den 30. juni 2026 stod der 185.196 i uniform. Det er knap 75.000 på ni år, altså omkring 8.300 netto om året. Den observerede nettotilvækst fra januar 2025 til januar 2026 var 3.600.",
+      "Det interessante er ikke tilgangen, men beholdningen. I januar 2026 kom der cirka 4.400 nye ind på én måned, 17 procent flere end året før, og ansøgningerne steg 23 procent. Et halvt år senere var styrken ikke større. En organisation, der rekrutterer rekordmange og ikke vokser, har et fastholdelsesproblem.",
+      "Det er den modsatte fejl af den, kapitalmarkedet laver. Forsvar prissættes som industri: ordrebeholdning, kapacitet, leveringstid — størrelser, penge kan flytte. En sergent med otte års erfaring kan ikke bestilles."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis den tyske aktive styrke passerer 205.000 inden udgangen af 2029; det kan aflæses i Bundeswehrs egne personaltal. Tesen svækkes også, hvis afgangen falder, mens tilgangen holder.",
+    "topics": [
+      "forsvar",
+      "demografi",
+      "tyskland"
+    ],
+    "claims": [
+      {
+        "text": "Tyskland har som mål, at forsvaret inden 2035 råder over 260.000 aktive soldater og 200.000 reservister.",
+        "sourceUrls": [
+          "https://www.bundesregierung.de/breg-de/aktuelles/antworten-zum-neuen-wehrdienst-2397476"
+        ],
+        "confidence": "high"
+      },
+      {
+        "text": "Bundeswehr havde 185.196 aktive soldater pr. 30. juni 2026.",
+        "sourceUrls": [
+          "https://www.bundeswehr.de/de/organisation/zahlen-daten-fakten/personalzahlen-bundeswehr"
+        ],
+        "confidence": "high"
+      },
+      {
+        "text": "Pr. 31. januar 2026 omfattede Bundeswehrs aktive personel cirka 186.400 soldater, cirka 3.600 flere end året før; i januar 2026 var der cirka 4.400 militære nyansættelser, 17 pct. over året før, og over 10.000 ansøgninger, 23 pct. over året før.",
+        "sourceUrls": [
+          "https://www.bmvg.de/de/presse/personeller-aufwuchs-bundeswehr-6070130"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Fragen und Antworten zum Neuen Wehrdienst",
+        "publisher": "Die Bundesregierung",
+        "url": "https://www.bundesregierung.de/breg-de/aktuelles/antworten-zum-neuen-wehrdienst-2397476",
+        "publishedAt": "2025-12-05T00:00:00.000Z",
+        "kind": "primary"
+      },
+      {
+        "title": "Aktuelle Personalzahlen der Bundeswehr",
+        "publisher": "Bundeswehr",
+        "url": "https://www.bundeswehr.de/de/organisation/zahlen-daten-fakten/personalzahlen-bundeswehr",
+        "publishedAt": "2026-06-30T00:00:00.000Z",
+        "kind": "primary"
+      },
+      {
+        "title": "Erneut deutliche Zuwächse bei Bewerbungen und Neueinstellungen in die Bundeswehr",
+        "publisher": "Bundesministerium der Verteidigung",
+        "url": "https://www.bmvg.de/de/presse/personeller-aufwuchs-bundeswehr-6070130",
+        "publishedAt": "2026-02-17T00:00:00.000Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-epoch-chip-perf-dollar-20260814",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "dataanalyse",
+      "status": "new",
+      "title": "The performance per dollar of AI chips purchased each quarter has grown by an average of 49% per year",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/data-insights/chip-performance-per-dollar",
+      "availability": "Frit tilgængelig, ingen betalingsmur",
+      "commitment": "Kort datanotat med graf, ca. 5 min",
+      "description": "Epoch AI måler ydeevne pr. dollar for de AI-chips, der faktisk blev købt hvert kvartal, ikke for de chips producenterne annoncerede. Væksten er omkring 49 procent om året siden 2023, med et konfidensinterval på 36-66 procent, svarende til en fordobling hvert 1,7 år.",
+      "rationale": "Forskellen mellem annonceret og indkøbt er hele pointen. Datacenterinvesteringer prissættes på specifikationer, men afkastet afhænger af, hvad der reelt står i rackene og hvad det kostede. Det er den ene kurve, man skal kende for at kunne skelne en prisnedsættelse, der er en begivenhed, fra en, der bare er markedet, der gør, hvad det plejer.",
+      "topics": [
+        "ai",
+        "hardware",
+        "investering"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://epoch.ai/assets/images/data-insights/chip-performance-per-dollar/chip-performance-per-dollar.png",
+        "credit": "Kilde: Epoch AI",
+        "alt": "Graf over ydeevne pr. dollar for indkøbte AI-chips fra 2023 til 2025.",
+        "sourceUrl": "https://epoch.ai/data-insights/chip-performance-per-dollar"
+      }
+    },
+    {
+      "id": "rec-arxiv-sovereign-necessity-20260814",
+      "tier": "short",
+      "mode": "read",
+      "kind": "forskningsartikel",
+      "status": "new",
+      "title": "Sovereign by necessity? Frontier AI export controls, cyber security, and the limits of national AI capability",
+      "provider": "arXiv",
+      "url": "https://arxiv.org/abs/2608.13272",
+      "availability": "Open access, fri adgang til både abstract og PDF",
+      "commitment": "Preprint",
+      "topics": [
+        "ai",
+        "suverænitet",
+        "eksportkontrol"
+      ],
+      "isFeatured": false,
+      "note": "Argumentet imod hele suverænitetsdagsordenen: for alle andre end en håndfuld stater er national AI-kapacitet kun delvis mulig, uanset hvad der bevilges."
+    },
+    {
+      "id": "rec-sep-sense-data-20260814",
+      "tier": "short",
+      "mode": "read",
+      "kind": "opslagsværk",
+      "status": "new",
+      "title": "Sense Data",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/sense-data/",
+      "availability": "Frit tilgængelig, revideret 13. august 2026",
+      "commitment": "Lang artikel med bibliografi",
+      "topics": [
+        "filosofi",
+        "erkendelsesteori",
+        "bevidsthed"
+      ],
+      "isFeatured": false,
+      "note": "Den analytiske behandling af, om vi ser verden direkte eller gennem mentale mellemled — argumentet fra illusion stillet op mod direkte realisme, uden et gram fænomenologi."
+    },
+    {
+      "id": "rec-80k-geoffrey-irving-20260814",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Geoffrey Irving on how to solve alignment before superintelligence arrives",
+      "creator": "80,000 Hours",
+      "provider": "80,000 Hours",
+      "url": "https://80000hours.org/podcast/episodes/geoffrey-irving-superintelligence-alignment-theory/",
+      "availability": "Frit tilgængelig med fuld transskription",
+      "commitment": "Længde ikke oplyst på episodesiden",
+      "topics": [
+        "ai",
+        "sikkerhed",
+        "forskning"
+      ],
+      "isFeatured": false,
+      "note": "Cheføkonomen for teknik i Storbritanniens AI Security Institute gennemgår, hvad en teknisk alignment-plan skal indeholde, før kapaciteten findes — ikke bagefter."
+    },
+    {
+      "id": "rec-colossus-sandcastles-20260814",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Sandcastles & Silicon",
+      "creator": "Invest Like the Best",
+      "provider": "Colossus",
+      "url": "https://colossus.com/episode/sandcastles-and-silicon/",
+      "availability": "Frit tilgængelig med transskription",
+      "commitment": "66 min",
+      "topics": [
+        "investering",
+        "software",
+        "hardware"
+      ],
+      "isFeatured": false,
+      "note": "En Benchmark-partner gennemgår ti års software- og hardwareinvestering og hvilke voldgrave der overlever, når hardwarelaget bliver ved at flytte sig."
+    },
+    {
+      "id": "rec-oddlots-trucking-20260814",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Trucking Is Booming Again, And Drivers Aren't Happy About It",
+      "creator": "Odd Lots",
+      "provider": "Bloomberg",
+      "url": "https://omny.fm/shows/odd-lots/trucking-is-booming-again-and-drivers-arent-happy-about-it",
+      "availability": "Frit tilgængelig, ingen login",
+      "commitment": "46 min",
+      "topics": [
+        "makroøkonomi",
+        "logistik",
+        "arbejdsmarked"
+      ],
+      "isFeatured": false,
+      "note": "Fragtcyklussen vender opad, uden at det når ud i chaufførernes løn — en ren aflæsning af, hvor prissætningsmagten i vareøkonomien faktisk ligger."
+    },
+    {
+      "id": "rec-arxiv-orgs-use-ai-20260814",
+      "tier": "short",
+      "mode": "read",
+      "kind": "forskningsartikel",
+      "status": "new",
+      "title": "How Organizations Use AI: Evidence from ChatGPT",
+      "provider": "arXiv",
+      "url": "https://arxiv.org/abs/2608.12236",
+      "availability": "Open access, fri adgang til både abstract og PDF",
+      "commitment": "Preprint",
+      "topics": [
+        "ai",
+        "arbejde",
+        "virksomheder"
+      ],
+      "isFeatured": false,
+      "note": "17 millioner beskeder fra over 1.500 organisationer koblet til jobfunktioner og børsnoterede selskabers regnskaber — det tætteste på et faktisk anvendelsesbillede, der findes."
+    },
+    {
+      "id": "rec-epoch-financing-compute-20260814",
+      "tier": "short",
+      "mode": "read",
+      "kind": "analyse",
+      "status": "new",
+      "title": "Will financing bottleneck AI compute? An Anthropic case study",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/gradient-updates/will-financing-bottleneck-ai-compute",
+      "availability": "Frit tilgængelig",
+      "commitment": "Nyhedsbrevslængde",
+      "topics": [
+        "ai",
+        "finansiering",
+        "infrastruktur"
+      ],
+      "isFeatured": false,
+      "note": "Regner Anthropics udbygning igennem for at afgøre, om kapitalmarkedet snarere end chips eller strøm er den bindende begrænsning. Konklusionen er nej, og regnestykket er vist."
+    },
+    {
+      "id": "rec-nber-fortunate-sons-20260814",
+      "tier": "short",
+      "mode": "read",
+      "kind": "arbejdspapir",
+      "status": "new",
+      "title": "Fortunate Sons: Elite Political Selection in American History",
+      "provider": "NBER",
+      "url": "https://www.nber.org/papers/w35569",
+      "availability": "Abstract frit tilgængeligt; PDF bag NBER's abonnement",
+      "commitment": "Arbejdspapir",
+      "topics": [
+        "økonomi",
+        "historie",
+        "eliter"
+      ],
+      "isFeatured": false,
+      "note": "Hver kongresmedlem født 1830-1950 koblet til forældre og brødre i folketællingerne: de kommende medlemmer var altid økonomiske outliers, uanset periode."
+    },
+    {
+      "id": "rec-sequoia-rl-environments-20260814",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "foredrag",
+      "status": "new",
+      "title": "RL Environments Explained: How AI Agents Learn Real-World Work | Brendan Foody, Mercor",
+      "creator": "Brendan Foody",
+      "provider": "Sequoia Capital",
+      "url": "https://www.youtube.com/watch?v=a00xIn5kwhM",
+      "availability": "Frit tilgængelig på YouTube",
+      "commitment": "26 min",
+      "topics": [
+        "ai",
+        "agenter",
+        "forretningsmodeller"
+      ],
+      "isFeatured": false,
+      "note": "Forklarer RL-miljøet som den arbejdsenhed, arbejdskraftmarkedspladser nu sælger til AI-laboratorierne — altså forretningsmodellen under Mercors værdiansættelse."
+    }
+  ],
+  "quality": {
+    "sourceVerification": 97,
+    "primarySourceShare": 63,
+    "outsideProfile": 100,
+    "imageCoverage": 100
+  }
+}
