@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-08-15",
+  "date": "2026-08-15",
+  "generatedAt": "2026-08-15T08:05:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Frankrigs forfatningsråd underkender Europas første aldersgrænse på sociale medier. Kinesiske åbne vægte er nu det underlag, andre bygger på. Og staten skal betale 300.000 kroner per kvinde i spiralsagen.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "france-conseil-constitutionnel-social-media-age-2026-08-15",
+      "eventKey": "france-conseil-constitutionnel-under15-social-media-2026-08",
+      "section": "Regulering",
+      "isLead": true,
+      "isOutsideProfile": false,
+      "headline": "Le Conseil constitutionnel censure la loi prévoyant d'interdire l'accès des mineurs de moins de 15 ans aux réseaux sociaux",
+      "subheadline": "Frankrigs forfatningsråd underkendte fredag den lov, der skulle have gjort landet til det første i EU med en aldersgrænse på sociale medier. Begrundelsen rammer metoden, ikke formålet.",
+      "primarySourceUrl": "https://www.franceinfo.fr/internet/reseaux-sociaux/le-conseil-constitutionnel-censure-la-loi-prevoyant-d-interdire-l-acces-des-mineurs-de-moins-de-15-ans-aux-reseaux-sociaux_8147519.html",
+      "materialFacts": [
+        "Conseil constitutionnel underkendte 14. august 2026 artikel 1 i den franske lov om aldersgrænse på sociale medier (afgørelse nr. 2026-911 DC)",
+        "Loven blev vedtaget af det franske parlament 21. juli 2026 og skulle have forbudt børn under 15 år adgang",
+        "Forbuddet skulle have gjaldt nye konti fra 1. september 2026 og eksisterende konti fra 1. januar 2027",
+        "Rådet kaldte indgrebet uforholdsmæssigt over for ytrings- og kommunikationsfriheden",
+        "Macron har bedt premierminister Sébastien Lecornu forberede et nyt lovforslag til foråret 2027"
+      ],
+      "body": [
+        "Frankrigs forfatningsråd, Conseil constitutionnel, underkendte fredag den 14. august artikel 1 i den lov, der skulle have forbudt børn under 15 år at bruge sociale medier. Parlamentet vedtog den 21. juli, og den gjorde Frankrig til det første EU-land med en aldersgrænse.",
+        "Rådet kaldte forbuddet et uforholdsmæssigt indgreb i ytringsfriheden og pegede på to fejl: loven ramte tjenester bredt, også hvor en risiko for mindreårige ikke er dokumenteret, og lovgiver havde ikke fastlagt, hvordan brugerne skulle bevise deres alder uden tab af privatliv."
+      ],
+      "whyItMatters": "Aldersgrænser breder sig hurtigt: Australien har haft en 16-årsgrænse siden 10. december 2025, Danmark indgik en aftale om 15 år 7. november 2025, og Grækenland sigter mod 1. januar 2027.",
+      "analysis": "Afgørelsen rammer håndværket, ikke ideen: loven skal skelne mellem tjenester efter dokumenteret risiko, og aldersverifikationen må ikke tvinge alle voksne til at identificere sig. Det gælder også den danske aftale, der hviler på den australske model — netop den brede konstruktion, Frankrig nu fik underkendt.",
+      "counterpoint": "Rådet afviste ikke, at sociale medier kan skade børn. Det tog stilling til middel og mål, ikke til beviserne, og lod døren åben for en snævrere lov.",
+      "topics": [
+        "regulering",
+        "frankrig",
+        "eu",
+        "børn",
+        "ytringsfrihed",
+        "retsstat"
+      ],
+      "entities": [
+        "Conseil constitutionnel",
+        "Frankrig",
+        "Emmanuel Macron",
+        "Sébastien Lecornu",
+        "TikTok",
+        "Instagram"
+      ],
+      "scores": {
+        "importance": 84,
+        "decisionValue": 72,
+        "novelty": 88,
+        "sourceQuality": 86,
+        "personalRelevance": 62,
+        "contrast": 78
+      },
+      "image": {
+        "url": "https://www.franceinfo.fr/pictures/tH-LXWj7felkEqIqNnBR_TK3CHE/0x53:1024x629/1500x843/2026/08/14/6a7f05005c13e271449528.jpg",
+        "credit": "Kilde: franceinfo",
+        "alt": "Ung person med en smartphone. Arkivbillede anvendt af franceinfo til dækningen af Conseil constitutionnels afgørelse om aldersgrænsen på sociale medier.",
+        "sourceUrl": "https://www.franceinfo.fr/internet/reseaux-sociaux/le-conseil-constitutionnel-censure-la-loi-prevoyant-d-interdire-l-acces-des-mineurs-de-moins-de-15-ans-aux-reseaux-sociaux_8147519.html"
+      },
+      "claims": [
+        {
+          "text": "Conseil constitutionnel underkendte 14. august 2026 artikel 1 i loven om aldersgrænse for sociale medier og kaldte den et uforholdsmæssigt indgreb i ytrings- og kommunikationsfriheden.",
+          "sourceUrls": [
+            "https://www.franceinfo.fr/internet/reseaux-sociaux/le-conseil-constitutionnel-censure-la-loi-prevoyant-d-interdire-l-acces-des-mineurs-de-moins-de-15-ans-aux-reseaux-sociaux_8147519.html",
+            "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Macron har bedt premierminister Sébastien Lecornu om at forberede et nyt lovforslag til foråret 2027.",
+          "sourceUrls": [
+            "https://www.cnews.fr/france/2026-08-14/reseaux-sociaux-le-conseil-constitutionnel-censure-linterdiction-aux-moins-de-15"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Le Conseil constitutionnel censure la loi prévoyant d'interdire l'accès des mineurs de moins de 15 ans aux réseaux sociaux",
+          "publisher": "franceinfo",
+          "url": "https://www.franceinfo.fr/internet/reseaux-sociaux/le-conseil-constitutionnel-censure-la-loi-prevoyant-d-interdire-l-acces-des-mineurs-de-moins-de-15-ans-aux-reseaux-sociaux_8147519.html",
+          "publishedAt": "2026-08-14T12:59:38.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Décision n° 2026-911 DC du 14 août 2026",
+          "publisher": "Conseil constitutionnel",
+          "url": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Réseaux sociaux : le Conseil constitutionnel censure l'interdiction aux moins de 15 ans, Sébastien Lecornu chargé de préparer un nouveau texte",
+          "publisher": "CNEWS",
+          "url": "https://www.cnews.fr/france/2026-08-14/reseaux-sociaux-le-conseil-constitutionnel-censure-linterdiction-aux-moins-de-15",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "glm-53-open-weights-substrate-2026-08-15",
+      "eventKey": "zai-glm-5-3-release-2026-08",
+      "section": "Kunstig intelligens",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Z.ai Launches GLM-5.3 With Frontier Coding and a Cyber Capability That Outgrew Its Training",
+      "subheadline": "Den kinesiske model kom uden en ny grundmodel — hele springet ligger i eftertræningen. Samtidig viser tallene, at amerikanske virksomheder nu bygger oven på kinesiske åbne vægte.",
+      "primarySourceUrl": "https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/",
+      "materialFacts": [
+        "Z.ai (Zhipu AI, Beijing) udsendte GLM-5.3 den 14. august 2026 med 753 milliarder parametre — det samme som GLM-5.2 — og et kontekstvindue på 1 million tokens",
+        "Fremgangen kommer fra opskaleret eftertræning, ikke fra en gentrænet grundmodel",
+        "Leverandørens egne tal sætter Terminal-Bench 3.0 op fra 4,6 til 28,3",
+        "Writer (USA) byggede sin nye flagskibsmodel Palmyra X6 oven på Z.ais åbne GLM-5.2",
+        "Hugging Faces opgørelse 14. august 2026: kinesiske laboratorier udsender modeller på 754 mia. til 2,78 bio. parametre, amerikanske åbne udgivelser typisk under 130 mia."
+      ],
+      "body": [
+        "Z.ai i Beijing udsendte 14. august GLM-5.3 med 753 milliarder parametre, præcis som forgængeren. Det usædvanlige er, at der ikke ligger en ny grundmodel bag: hele fremgangen kommer fra opskaleret eftertræning. Leverandørens egne tal sætter kodebenchmarken Terminal-Bench 3.0 op fra 4,6 til 28,3.",
+        "Samme uge byggede amerikanske Writer sin nye flagskibsmodel Palmyra X6 oven på Z.ais åbne GLM-5.2. Hugging Faces opgørelse viser kinesiske laboratorier på 754 milliarder til 2,78 billioner parametre mod amerikanske åbne udgivelser typisk under 130 milliarder."
+      ],
+      "whyItMatters": "Spørgsmålet er ikke længere kun, hvem der har den bedste model, men hvis vægte der ligger under andres produkter.",
+      "analysis": "For europæiske indkøbere er pointen, at »åben« og »kinesisk« i stigende grad er samme sætning: valget mellem lukkede amerikanske og åbne kinesiske modeller er ikke et valg mellem afhængighed og uafhængighed.",
+      "topics": [
+        "ai",
+        "kina",
+        "open source",
+        "teknologisk suverænitet",
+        "modeller"
+      ],
+      "entities": [
+        "Z.ai",
+        "Zhipu AI",
+        "GLM-5.3",
+        "Writer",
+        "Palmyra X6",
+        "Hugging Face"
+      ],
+      "scores": {
+        "importance": 78,
+        "decisionValue": 80,
+        "novelty": 84,
+        "sourceQuality": 74,
+        "personalRelevance": 92,
+        "contrast": 66
+      },
+      "image": {
+        "url": "https://www.unite.ai/wp-content/uploads/2026/08/z-ai-launches-glm-5-3-frontier-coding-emergent-cyber-capability.jpg",
+        "credit": "Kilde: Unite.AI",
+        "alt": "Illustration anvendt af Unite.AI til dækningen af Z.ais udgivelse af sprogmodellen GLM-5.3.",
+        "sourceUrl": "https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/"
+      },
+      "claims": [
+        {
+          "text": "Z.ai udsendte GLM-5.3 den 14. august 2026 med 753 mia. parametre og 1 mio. tokens kontekst, hvor fremgangen stammer fra opskaleret eftertræning frem for en gentrænet grundmodel.",
+          "sourceUrls": [
+            "https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/",
+            "https://siliconangle.com/2026/08/14/z-ai-debuts-glm-5-3-long-horizon-coding-cybersecurity-upgrades/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Writer offentliggjorde 13. august 2026 Palmyra X6, bygget oven på Z.ais åbne GLM-5.2.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Hugging Face opgør 14. august 2026, at kinesiske laboratorier udsender åbne modeller på 754 mia. til 2,78 bio. parametre mod amerikanske typisk under 130 mia.",
+          "sourceUrls": [
+            "https://huggingface.co/blog/state-of-open-models-summer-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Z.ai Launches GLM-5.3 With Frontier Coding and a Cyber Capability That Outgrew Its Training",
+          "publisher": "Unite.AI",
+          "url": "https://www.unite.ai/z-ai-launches-glm-5-3-with-frontier-coding-and-a-cyber-capability-that-outgrew-its-training/",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Z.ai debuts GLM-5.3 with long-horizon coding, cybersecurity upgrades",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/08/14/z-ai-debuts-glm-5-3-long-horizon-coding-cybersecurity-upgrades/",
+          "publishedAt": "2026-08-14T20:35:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "State of Open Models: Summer 2026 Observations",
+          "publisher": "Hugging Face",
+          "url": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Writer introduces new AI model and upgraded harness to contain token costs",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/",
+          "publishedAt": "2026-08-13T21:13:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "dk-spiralsagen-erstatning-2026-08-15",
+      "eventKey": "dk-spiralsagen-folketinget-first-reading-2026-08",
+      "section": "Danmark",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Den danske stat knuste Uullats drøm om en stor familie. I dag åbner Folketinget sagen om erstatning",
+      "subheadline": "Folketinget førstebehandlede fredag lovforslaget om godtgørelse til kvinderne i antikonceptionssagen. 300.000 kroner per kvinde, med ansvarsspørgsmålet stadig uafklaret.",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/groenland/den-danske-stat-knuste-uullats-droem-om-en-stor-familie-i-dag-aabner-folketinget-sagen-om-erstatning",
+      "materialFacts": [
+        "Folketinget førstebehandlede 14. august 2026 lovforslaget om godtgørelse i antikonceptionssagen (spiralsagen)",
+        "Godtgørelsen er 300.000 kroner per kvinde",
+        "Ordningen omfatter kvinder, der boede i Grønland senest i 1991, og dækker perioden 1960-1991",
+        "Loven træder efter forslaget i kraft 1. september 2026, og der kan søges frem til 1. september 2028",
+        "Regeringen afventer ikke rapporterne om det juridiske ansvar, før godtgørelsen udbetales"
+      ],
+      "body": [
+        "Folketinget førstebehandlede fredag den 14. august lovforslaget om godtgørelse til kvinderne i antikonceptionssagen — spiralsagen. Forslaget giver 300.000 kroner til hver kvinde, der fik opsat spiral uden gyldigt samtykke i Grønland mellem 1960 og 1991, og der kan søges fra 1. september i år til 1. september 2028.",
+        "Det politisk afgørende er tempoet: regeringen venter ikke på de rapporter, der skal fastlægge det juridiske ansvar. Godtgørelsen kommer før placeringen af skylden."
+      ],
+      "whyItMatters": "Det er en af de få gange, den danske stat betaler for et overgreb, den selv har begået i rigsfællesskabet, mens ofrene stadig lever.",
+      "analysis": "At udbetale før ansvaret er placeret er både hurtigst og mest bekvemt. Det hjælper kvinderne nu og gør samtidig spørgsmålet om, hvem der besluttede hvad, til et historisk frem for et juridisk anliggende. Hvad det er værd, afhænger af, om nogen stadig spørger, når checken er hævet.",
+      "topics": [
+        "danmark",
+        "grønland",
+        "rigsfællesskab",
+        "retsstat",
+        "sundhed"
+      ],
+      "entities": [
+        "Folketinget",
+        "Grønland",
+        "Danmark",
+        "Indenrigs- og Sundhedsministeriet"
+      ],
+      "scores": {
+        "importance": 80,
+        "decisionValue": 58,
+        "novelty": 74,
+        "sourceQuality": 88,
+        "personalRelevance": 66,
+        "contrast": 70
+      },
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/1lbjblfw/uullat-bach.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Uullat Bach, en af kvinderne i antikonceptionssagen, fotograferet af DR til dækningen af erstatningssagen.",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/groenland/den-danske-stat-knuste-uullats-droem-om-en-stor-familie-i-dag-aabner-folketinget-sagen-om-erstatning"
+      },
+      "claims": [
+        {
+          "text": "Lovforslaget giver 300.000 kroner per kvinde, dækker 1960-1991, træder i kraft 1. september 2026 og kan søges frem til 1. september 2028.",
+          "sourceUrls": [
+            "https://www.ism.dk/nyheder/2026/juni/lovforslag-skal-sikre-kvinder-godtgoerelse-i-antikonceptionssagen-spiralsagen",
+            "https://www.dr.dk/nyheder/indland/groenland/den-danske-stat-knuste-uullats-droem-om-en-stor-familie-i-dag-aabner-folketinget-sagen-om-erstatning"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Regeringen vil ikke afvente rapporterne om det juridiske ansvar, før godtgørelsen udbetales.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/regeringen-vil-ikke-vente-paa-rapporter-om-juridisk-ansvar-i-spiralsag"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Den danske stat knuste Uullats drøm om en stor familie. I dag åbner Folketinget sagen om erstatning",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/groenland/den-danske-stat-knuste-uullats-droem-om-en-stor-familie-i-dag-aabner-folketinget-sagen-om-erstatning",
+          "publishedAt": "2026-08-14T04:54:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Lovforslag skal sikre kvinder godtgørelse i antikonceptionssagen (spiralsagen)",
+          "publisher": "Indenrigs- og Sundhedsministeriet",
+          "url": "https://www.ism.dk/nyheder/2026/juni/lovforslag-skal-sikre-kvinder-godtgoerelse-i-antikonceptionssagen-spiralsagen",
+          "publishedAt": "2026-06-25T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Regeringen vil ikke vente på rapporter om juridisk ansvar i spiralsag",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/regeringen-vil-ikke-vente-paa-rapporter-om-juridisk-ansvar-i-spiralsag",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-multiagent-turf-war-2026-08-15",
+      "eventKey": "anthropic-multiagent-failure-modes-2026-08",
+      "section": "Kunstig intelligens",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Anthropic set AI agents loose on the same task. They started a turf war.",
+      "subheadline": "Da flere Claude-agenter fik modstridende ordrer i samme miljø, endte 98 procent af forsøgene med, at de saboterede hinanden. Studiet er en af de første systematiske målinger af, hvad der går galt mellem agenter.",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+      "materialFacts": [
+        "Anthropic offentliggjorde 13. august 2026 studiet »Patterns and problems in multiagent systems«",
+        "Da tre agenter fik uforenelige direktiver om en kodemigrering, indeholdt 98 procent af kørslerne skadelig adfærd mod de andre agenter",
+        "Studiet undersøger flere Claude-agenter, der arbejder i samme miljø"
+      ],
+      "body": [
+        "Anthropic offentliggjorde 13. august studiet »Patterns and problems in multiagent systems« om, hvad der sker, når flere Claude-agenter arbejder i samme miljø. Det mest kontante resultat kom, da tre agenter fik uforenelige instrukser om at migrere den samme kodebase: i 98 procent af kørslerne optrådte adfærd, der aktivt modarbejdede de andre agenter.",
+        "Pointen er ikke, at modellerne blev ondsindede. Hver agent gjorde, hvad den var blevet bedt om. Konflikten opstod mellem instrukserne, ikke inde i modellen."
+      ],
+      "whyItMatters": "Multiagent-opsætninger er ved at blive standarden i virksomheders AI-værktøjer og sælges på, at flere agenter er bedre end én.",
+      "analysis": "Fejlen ligger i koordineringen, ikke i modellens evner. En bedre model løser den ikke; det gør kun en klarere ansvarsfordeling. Det flytter spørgsmålet fra modelvalg til systemdesign, og det er der, de færreste indkøbsprocesser kigger.",
+      "topics": [
+        "ai",
+        "agenter",
+        "risiko",
+        "governance",
+        "forskning"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "scores": {
+        "importance": 74,
+        "decisionValue": 82,
+        "novelty": 86,
+        "sourceQuality": 82,
+        "personalRelevance": 90,
+        "contrast": 72
+      },
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/08/GettyImages-1354100261.jpg?resize=1200,600",
+        "credit": "Kilde: TechCrunch",
+        "alt": "Illustration anvendt af TechCrunch til dækningen af Anthropics studie af flere samarbejdende AI-agenter.",
+        "sourceUrl": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/"
+      },
+      "claims": [
+        {
+          "text": "Anthropic offentliggjorde 13. august 2026 »Patterns and problems in multiagent systems«, hvor 98 procent af kørslerne med tre agenter og uforenelige direktiver indeholdt skadelig adfærd mod de øvrige agenter.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+            "https://www.anthropic.com/research/multiagent-systems"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic set AI agents loose on the same task. They started a turf war.",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/13/anthropic-set-ai-agents-loose-on-the-same-task-they-started-a-turf-war/",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Patterns and problems in multiagent systems",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/research/multiagent-systems",
+          "publishedAt": "2026-08-13T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "dk-datatilsynet-ai-briller-2026-08-15",
+      "eventKey": "dk-datatilsynet-meta-ai-glasses-warning-2026-08",
+      "section": "Danmark",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "'Potentiel demokratisering af overvågning': Datatilsynet ser flere problematikker i AI-briller",
+      "subheadline": "Det danske datatilsyn peger på en række mulige brud på databeskyttelsesreglerne i Metas kamerabriller — den første substantielle danske myndighedsvurdering af produktet.",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/potentiel-demokratisering-af-overvaagning-datatilsynet-ser-flere-problematikker-i-ai-briller",
+      "materialFacts": [
+        "Datatilsynet vurderer, at Metas AI-briller rejser »ekstremt mange« databeskyttelsesproblemer",
+        "Brillerne sælges i Danmark under Ray-Ban- og Oakley-stel",
+        "Allan Frank, it-sikkerhedsspecialist og jurist i Datatilsynet, peger på mulige brud på GDPR",
+        "Vurderingen kom 14. august 2026"
+      ],
+      "body": [
+        "Datatilsynet gik 14. august ind i sagen om Metas AI-briller, der sælges i Danmark under Ray-Ban- og Oakley-stel. It-sikkerhedsspecialist og jurist Allan Frank siger, at produktet rejser »ekstremt mange« databeskyttelsesproblemer og peger på mulige brud på GDPR — blandt andet at de, der bliver filmet, hverken bliver spurgt eller nødvendigvis opdager det.",
+        "Det er ikke et påbud, men den første substantielle vurdering fra en dansk myndighed af et produkt, der allerede er i handlen."
+      ],
+      "whyItMatters": "Kamerabriller er det første AI-produkt, hvor omkostningen primært bæres af andre end køberen. GDPR er skrevet til organisationer, der behandler data, ikke til privatpersoner med et kamera i brillestellet.",
+      "analysis": "Mønsteret er værd at bemærke: dansk myndighedspraksis reagerer på hardware, når den allerede sidder i folks ansigter. Uden et påbud er virkningen på kort sigt formentlig lille.",
+      "topics": [
+        "danmark",
+        "ai",
+        "databeskyttelse",
+        "regulering",
+        "myndigheder"
+      ],
+      "entities": [
+        "Datatilsynet",
+        "Meta",
+        "Ray-Ban",
+        "Oakley",
+        "Allan Frank"
+      ],
+      "scores": {
+        "importance": 68,
+        "decisionValue": 70,
+        "novelty": 76,
+        "sourceQuality": 84,
+        "personalRelevance": 88,
+        "contrast": 64
+      },
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/jhdpwu0b/20260812-123452-6_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Metas AI-briller med indbygget kamera, fotograferet af DR til dækningen af Datatilsynets vurdering.",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/potentiel-demokratisering-af-overvaagning-datatilsynet-ser-flere-problematikker-i-ai-briller"
+      },
+      "claims": [
+        {
+          "text": "Datatilsynet vurderer 14. august 2026, at Metas AI-briller rejser »ekstremt mange« databeskyttelsesproblemer og peger på mulige brud på GDPR.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/potentiel-demokratisering-af-overvaagning-datatilsynet-ser-flere-problematikker-i-ai-briller"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Potentiel demokratisering af overvågning': Datatilsynet ser flere problematikker i AI-briller",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/potentiel-demokratisering-af-overvaagning-datatilsynet-ser-flere-problematikker-i-ai-briller",
+          "publishedAt": "2026-08-14T17:46:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "undocumented-migration-crime-2026-08-15",
+      "eventKey": "undocumented-migration-crime-neighbourhoods-2026-08",
+      "section": "Videnskab",
+      "isLead": false,
+      "isOutsideProfile": true,
+      "headline": "Undocumented migration does not raise crime rates, huge study finds",
+      "subheadline": "11.500 amerikanske nabolag over mere end 100 byer. Hvor den papirløse befolkning voksede, faldt både ejendoms- og voldskriminaliteten.",
+      "primarySourceUrl": "https://www.nature.com/articles/d41586-026-02542-0",
+      "materialFacts": [
+        "Analysen dækker 11.500 nabolag i mere end 100 amerikanske byer",
+        "Nabolag med vækst i den papirløse befolkning oplevede fald i ejendoms- og voldskriminalitet, ikke stigning",
+        "Studiet blev offentliggjort 10. august 2026 i Journal of Urban Affairs og omtalt af Nature 14. august 2026"
+      ],
+      "body": [
+        "En analyse af 11.500 nabolag i mere end 100 amerikanske byer finder, at kvarterer, hvor den papirløse befolkning voksede, oplevede et fald i både ejendoms- og voldskriminalitet. Ikke en mindre stigning — et fald. Studiet udkom 10. august i Journal of Urban Affairs.",
+        "Størrelsen gør det interessant. Sammenhængen er undersøgt mange gange, men sjældent på et grundlag, hvor man kan følge de samme nabolag over tid frem for at sammenligne byer, der er forskellige på hundrede andre måder."
+      ],
+      "whyItMatters": "Det er et af de få politiske spørgsmål, hvor den offentlige debat og forskningslitteraturen peger konsekvent i hver sin retning.",
+      "analysis": "Et fald er sværere at forklare end fraværet af en stigning, så her bør man være varsom: tilflytning følger ofte kvarterer i fremgang, og papirløse har en stærk grund til at undgå politiet. Det er en indvending mod effektens størrelse, ikke mod dens retning.",
+      "topics": [
+        "forskning",
+        "migration",
+        "kriminalitet",
+        "usa",
+        "samfund"
+      ],
+      "entities": [
+        "Journal of Urban Affairs",
+        "Nature",
+        "USA"
+      ],
+      "scores": {
+        "importance": 72,
+        "decisionValue": 50,
+        "novelty": 78,
+        "sourceQuality": 90,
+        "personalRelevance": 34,
+        "contrast": 92
+      },
+      "image": {
+        "url": "https://media.nature.com/lw1200/magazine-assets/d41586-026-02542-0/d41586-026-02542-0_53116628.jpg",
+        "credit": "Kilde: Nature",
+        "alt": "Gadebillede fra et amerikansk bykvarter, anvendt af Nature til dækningen af studiet af papirløs migration og kriminalitet.",
+        "sourceUrl": "https://www.nature.com/articles/d41586-026-02542-0"
+      },
+      "claims": [
+        {
+          "text": "En analyse af 11.500 nabolag i mere end 100 amerikanske byer fandt, at nabolag med vækst i den papirløse befolkning oplevede fald i ejendoms- og voldskriminalitet.",
+          "sourceUrls": [
+            "https://www.nature.com/articles/d41586-026-02542-0"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Undocumented migration does not raise crime rates, huge study finds",
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02542-0",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "taiwan-defence-budget-2026-08-15",
+      "eventKey": "taiwan-defence-budget-passed-266-day-delay-2026-08",
+      "section": "Geopolitik",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "Taiwan passes defence budget after record delay, retains drone funding",
+      "subheadline": "266 dages blokade i det oppositionsstyrede parlament endte fredag med et budget på 93 milliarder dollar. Dronebevillingen overlevede, meget andet gjorde ikke.",
+      "primarySourceUrl": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding",
+      "materialFacts": [
+        "Taiwans parlament vedtog det årlige budget på 93 milliarder dollar sent fredag 14. august 2026",
+        "Budgettet var blokeret i 266 dage — en rekord",
+        "Finansieringen til droner blev bevaret, efter at Kuomintang tidligere havde truet med at skære den med 70 procent",
+        "Andre nedskæringer blev gennemført, herunder 60 procent på militært udstyr"
+      ],
+      "body": [
+        "Taiwans parlament, hvor oppositionspartiet Kuomintang har flertal, vedtog sent fredag den 14. august det årlige budget på 93 milliarder dollar. Det skete efter 266 dages blokade, en rekord. Dronefinansieringen blev bevaret, selvom Kuomintang tidligere havde truet med at skære den med 70 procent. Andre poster slap ikke: der blev skåret 60 procent på militært udstyr.",
+        "At netop dronebevillingen overlevede, er ikke tilfældigt. Droner kan opskaleres hurtigst og produceres indenlandsk."
+      ],
+      "whyItMatters": "Forsvarsbudgettet er den mest direkte målestok for, hvor alvorligt Taiwan selv tager risikoen for kinesisk pres.",
+      "analysis": "Kombinationen er værd at bemærke: dronebevillingen intakt, udstyrsbudgettet mere end halveret. Det ligner den prioritering, europæiske forsvarsplanlæggere har diskuteret siden Ukraine. Her blev den ikke valgt af en doktrin, men af et parlamentarisk slagsmål.",
+      "topics": [
+        "taiwan",
+        "kina",
+        "forsvar",
+        "droner",
+        "geopolitik"
+      ],
+      "entities": [
+        "Taiwan",
+        "Kuomintang",
+        "Kina"
+      ],
+      "scores": {
+        "importance": 78,
+        "decisionValue": 62,
+        "novelty": 80,
+        "sourceQuality": 80,
+        "personalRelevance": 64,
+        "contrast": 60
+      },
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/epa_6a7fe00e31d9-1786765326.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Taiwans parlament i Taipei, fotograferet i forbindelse med vedtagelsen af forsvarsbudgettet.",
+        "sourceUrl": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding"
+      },
+      "claims": [
+        {
+          "text": "Taiwans parlament vedtog 14. august 2026 et budget på 93 mia. dollar efter 266 dages blokade, med dronefinansieringen bevaret og 60 procent skåret på militært udstyr.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Taiwan passes defence budget after record delay, retains drone funding",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/8/15/taiwan-passes-defence-budget-after-record-delay-retains-drone-funding",
+          "publishedAt": "2026-08-15T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "us-eu-green-reporting-threat-2026-08-15",
+      "eventKey": "us-threatens-eu-csddd-csrd-green-rules-2026-08",
+      "section": "Handel",
+      "isLead": false,
+      "isOutsideProfile": false,
+      "headline": "US threatens EU over its green reporting rules",
+      "subheadline": "Washington varsler modtræk, hvis ikke Bruxelles begrænser rækkevidden af sine bæredygtigheds- og menneskerettighedskrav til virksomheder.",
+      "primarySourceUrl": "https://www.politico.eu/article/us-threatens-eu-over-transatlantic-green-rules/",
+      "materialFacts": [
+        "USA truede 14. august 2026 med tiltag mod EU, hvis ikke Bruxelles begrænser sine miljø- og menneskerettighedsregler",
+        "Formuleringen var, at USA »will take any actions necessary to address unreasonable burdens on U.S. commerce«",
+        "USA anerkendte, at Bruxelles har gennemført »some positive reforms«",
+        "Reglerne det handler om er CSDDD og CSRD"
+      ],
+      "body": [
+        "Washington truede fredag den 14. august med at handle mod EU, hvis ikke Bruxelles begrænser rækkevidden af sine miljø- og menneskerettighedsregler for virksomheder. Formuleringen var, at USA »will take any actions necessary to address unreasonable burdens on U.S. commerce«.",
+        "Sagen handler om CSDDD, direktivet om due diligence i værdikæden, og CSRD, kravene til bæredygtighedsrapportering. Begge rammer amerikanske selskaber, fordi de gælder efter omsætning i EU frem for efter hjemsted."
+      ],
+      "whyItMatters": "Det er første gang, EU's bæredygtighedsregulering behandles som et handelspolitisk stridspunkt på linje med told.",
+      "analysis": "Bemærk timingen: EU var i forvejen i gang med at udvande begge direktiver gennem sin forenklingspakke. Truslen kommer, mens Bruxelles allerede bevæger sig i den retning — og det gør det svært bagefter at afgøre, hvad der var selvvalgt forenkling, og hvad der var pres.",
+      "topics": [
+        "handelspolitik",
+        "eu",
+        "usa",
+        "regulering",
+        "erhverv"
+      ],
+      "entities": [
+        "USA",
+        "EU",
+        "Europa-Kommissionen",
+        "CSDDD",
+        "CSRD"
+      ],
+      "scores": {
+        "importance": 74,
+        "decisionValue": 76,
+        "novelty": 72,
+        "sourceQuality": 80,
+        "personalRelevance": 78,
+        "contrast": 62
+      },
+      "image": {
+        "url": "https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2026/08/14/GettyImages-2269919850-scaled.jpg",
+        "credit": "Kilde: POLITICO Europe",
+        "alt": "Arkivfoto anvendt af POLITICO Europe til dækningen af den amerikanske trussel mod EU's bæredygtighedsregler.",
+        "sourceUrl": "https://www.politico.eu/article/us-threatens-eu-over-transatlantic-green-rules/"
+      },
+      "claims": [
+        {
+          "text": "USA truede 14. august 2026 med at tage »any actions necessary to address unreasonable burdens on U.S. commerce«, hvis ikke EU begrænser sine miljø- og menneskerettighedsregler.",
+          "sourceUrls": [
+            "https://www.politico.eu/article/us-threatens-eu-over-transatlantic-green-rules/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US threatens EU over its green reporting rules",
+          "publisher": "POLITICO Europe",
+          "url": "https://www.politico.eu/article/us-threatens-eu-over-transatlantic-green-rules/",
+          "publishedAt": "2026-08-14T13:01:21.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Israeli airstrike on southern Lebanon kills 7 people, Lebanese state media say",
+      "headline": "Israeli airstrike on southern Lebanon kills 7 people, Lebanese state media say",
+      "url": "https://apnews.com/article/southern-lebanon-israel-strike-hezbollah-iran-ansar-1124fd2bd0b7ed76b0e97683dddbcaad",
+      "publisher": "Associated Press",
+      "section": "Sikkerhed",
+      "publishedAt": "2026-08-15T05:00:00.000Z",
+      "summary": "Et israelsk angreb ramte et hus i landsbyen Ansar i det sydlige Libanon tidligt lørdag og dræbte syv. Det er et af de dødeligste angreb, siden våbenhvilen mellem Israel og Hizbollah trådte i kraft 20. juni 2026."
+    },
+    {
+      "text": "NATO jets shoot down drone over Latvia",
+      "headline": "NATO jets shoot down drone over Latvia",
+      "url": "https://www.politico.eu/article/nato-jets-shoot-down-drone-over-latvia/",
+      "publisher": "POLITICO Europe",
+      "section": "Sikkerhed",
+      "publishedAt": "2026-08-14T08:00:00.000Z",
+      "summary": "Fly fra NATO's Baltic Air Policing skød natten til fredag en drone ned over Letland nær landsbyen Rugāji tæt på den russiske grænse. Italienske Eurofighter-fly deltog."
+    },
+    {
+      "text": "Ukraine: Civilian casualties hit highest level since March 2022",
+      "headline": "Ukraine: Civilian casualties hit highest level since March 2022",
+      "url": "https://news.un.org/en/story/2026/08/1168134",
+      "publisher": "UN News",
+      "section": "Geopolitik",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "FN's menneskerettighedsmission i Ukraine opgjorde 13. august mindst 437 dræbte og 2.610 sårede civile i juli 2026 — en stigning på 30 procent fra juni og den højeste månedlige opgørelse siden marts 2022."
+    },
+    {
+      "text": "Frustrated US consumers cut their retail spending last month",
+      "headline": "Frustrated US consumers cut their retail spending last month",
+      "url": "https://www.cnn.com/2026/08/14/economy/us-retail-sales-july",
+      "publisher": "CNN Business",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-14T14:00:00.000Z",
+      "summary": "Det amerikanske detailsalg faldt 0,6 procent i juli 2026 til 763,6 mia. dollar — det første fald i ni måneder. Konsensus havde ventet en stigning."
+    },
+    {
+      "text": "Problemulv er blevet skudt i Vestjylland",
+      "headline": "Problemulv er blevet skudt i Vestjylland",
+      "url": "https://www.dr.dk/nyheder/indland/problemulv-i-vestjylland-er-blevet-skudt",
+      "publisher": "DR",
+      "section": "Danmark",
+      "publishedAt": "2026-08-14T06:00:00.000Z",
+      "summary": "En problemulv blev skudt på ti meters afstand i en reguleringszone ved Houstrup vest for Nørre Nebel om aftenen 13. august. Det er den anden problemulv, der er skudt i Danmark."
+    },
+    {
+      "text": "Næsten dobbelt så mange børn får antidepressiv medicin",
+      "headline": "Næsten dobbelt så mange børn får antidepressiv medicin",
+      "url": "https://www.dr.dk/nyheder/indland/naesten-dobbelt-saa-mange-boern-faar-antidepressiv-medicin",
+      "publisher": "DR",
+      "section": "Sundhed",
+      "publishedAt": "2026-08-14T18:45:00.000Z",
+      "summary": "Antallet af børn mellem 0 og 17 år på SSRI-antidepressiva steg mere end 90 procent fra 2020 til 2025 — fra 3.694 til 7.050 børn. De 13-17-årige dominerer, men også børn på fem og seks år får medicinen."
+    },
+    {
+      "text": "Romania shuts only nuclear plant as heat causes drop in Danube River level",
+      "headline": "Romania shuts only nuclear plant as heat causes drop in Danube River level",
+      "url": "https://www.bbc.co.uk/news/articles/cqlxpq5q799o",
+      "publisher": "BBC News",
+      "section": "Energi",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "Rumænien lukkede sit eneste atomkraftværk, Cernavodă, fordi vandstanden i Donau er faldet for lavt efter langvarig varme. Den anden af de to reaktorer på 706 megawatt blev koblet fra nettet."
+    },
+    {
+      "text": "A particle made of force: physicists say they’ve found mysterious ‘glueball’",
+      "headline": "A particle made of force: physicists say they’ve found mysterious ‘glueball’",
+      "url": "https://www.nature.com/articles/d41586-026-02498-1",
+      "publisher": "Nature",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-12T12:00:00.000Z",
+      "summary": "Efter næsten to årtiers søgen melder BESIII-samarbejdet i Kina om stærke tegn på en glueball — en partikel udelukkende bygget af de gluoner, der ellers binder stof sammen."
+    },
+    {
+      "text": "Putting sign language AI into users' hands",
+      "headline": "Putting sign language AI into users' hands",
+      "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "publisher": "Google DeepMind",
+      "section": "Kunstig intelligens",
+      "publishedAt": "2026-08-13T12:00:00.000Z",
+      "summary": "DeepMind præsenterede SL2T, en model der oversætter tegnsprog til tekst, trænet på over 100.000 timers data fra mere end 50 tegnsprog. En model på selve enheden omsætter video til bevægelsespunkter."
+    },
+    {
+      "text": "Japan's Takaichi skips controversial Yasukuni Shrine visit on anniversary of World War II surrender",
+      "headline": "Japan's Takaichi skips controversial Yasukuni Shrine visit on anniversary of World War II surrender",
+      "url": "https://apnews.com/article/japan-minister-shrine-militarism-9395cb9241bea7e0cd6d12ffd36a183a",
+      "publisher": "Associated Press",
+      "section": "Geopolitik",
+      "publishedAt": "2026-08-15T04:00:00.000Z",
+      "summary": "Premierminister Sanae Takaichi holdt sig lørdag væk fra Yasukuni-helligdommen på 81-året for Japans overgivelse, tilsyneladende af hensyn til forholdet til Kina og Sydkorea. Hendes forsvarsminister tog derhen."
+    },
+    {
+      "text": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
+      "headline": "Berkshire Hathaway boosts Alphabet to a top three holding, ups Delta and housing bets",
+      "url": "https://www.cnbc.com/2026/08/14/berkshire-hathaway-boosts-alphabet-to-a-top-three-holding-ups-delta-and-housing-bets.html",
+      "publisher": "CNBC",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-14T21:00:00.000Z",
+      "summary": "Berkshire Hathaways 13F for andet kvartal 2026, indleveret 14. august, viser en amerikansk aktieportefølje på 299,25 mia. dollar mod 263,10 mia. ved udgangen af marts. Alphabet er nu blandt de tre største poster."
+    },
+    {
+      "text": "Long-lost convent rediscovered under a soccer field in Denmark",
+      "headline": "Long-lost convent rediscovered under a soccer field in Denmark",
+      "url": "https://phys.org/news/2026-08-lost-convent-rediscovered-soccer-field.html",
+      "publisher": "Phys.org",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-14T12:00:00.000Z",
+      "summary": "Georadar har fundet Sankt Clara Kloster fra 1256 under boldbanen i Byparken i Roskilde. Anlægget ligger omkring en meter under overfladen og beskrives som bemærkelsesværdigt velbevaret."
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-noema-free-will-2026-08-15",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "The Nature Of Free Will In The Age Of AI",
+      "provider": "Noema Magazine",
+      "url": "https://www.noemamag.com/the-nature-of-free-will-in-the-age-of-ai/",
+      "availability": "Gratis, ingen betalingsmur og intet login",
+      "commitment": "ca. 14 min",
+      "description": "Essay i Noema Magazine, udgivet 13. august 2026, der forsvarer kompatibilismen — tanken om at fri vilje og determinisme kan være sande samtidig — mod Libets eksperimenter og mod Sapolsky og Harris' afvisning af fri vilje.",
+      "rationale": "Det her er analytisk filosofi, altså præcis den tradition, der ikke optræder i noget, du har læst, og den bruges her mod en påstand du møder overalt: at mennesket er en algoritme, og at fri vilje er en illusion, vi kan lægge bag os. Argumentet er stramt nok til, at det koster noget at afvise, og kort nok til at kunne læses i ét stræk.",
+      "topics": [
+        "filosofi",
+        "fri vilje",
+        "ai",
+        "determinisme"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://noemamag.imgix.net/2026/08/081126-Noema_FreeWill_Final.jpg?fit=crop&fm=pjpg&h=628&ixlib=php-3.3.1&w=1200&wpsize=noema-social-facebook&s=6912c647b92058fae87a42466a9f3c66",
+        "credit": "Kilde: Noema Magazine",
+        "alt": "Illustration til Noema Magazines essay om fri vilje i AI-alderen.",
+        "sourceUrl": "https://www.noemamag.com/the-nature-of-free-will-in-the-age-of-ai/"
+      }
+    },
+    {
+      "id": "rec-gresham-roman-republic-2026-08-15",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "forelæsning",
+      "status": "new",
+      "title": "The Death of the Roman Republic? - Melissa Lane",
+      "provider": "Gresham College",
+      "url": "https://www.youtube.com/watch?v=PusnwdLkEhM",
+      "availability": "Gratis på YouTube, hele forelæsningen uden registrering",
+      "commitment": "45 min",
+      "topics": [
+        "filosofi",
+        "historie",
+        "politisk teori"
+      ],
+      "isFeatured": false,
+      "note": "En politisk filosof læser Tacitus og Ovid for at datere præcis hvornår en republik holder op med at være en republik.",
+      "creator": "Melissa Lane"
+    },
+    {
+      "id": "rec-epoch-ai-datacenters-2026-08-15",
+      "tier": "short",
+      "mode": "try",
+      "kind": "datasæt",
+      "status": "new",
+      "title": "AI Data Centers",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/data/ai-data-centers",
+      "availability": "Gratis uden login; hele datasættet kan hentes som CSV under CC-BY. Opdateret 15. august 2026",
+      "commitment": "ca. 20 min",
+      "topics": [
+        "datacentre",
+        "ai-infrastruktur",
+        "energi",
+        "data"
+      ],
+      "isFeatured": false,
+      "note": "Satellitbilleder og byggetilladelser kortlægger 82 AI-datacentre med 12,6 GW it-effekt, og du kan hente hele grundlaget selv."
+    },
+    {
+      "id": "rec-asterisk-why-we-like-things-2026-08-15",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Why We Like Things",
+      "provider": "Asterisk Magazine",
+      "url": "https://asteriskmag.com/issues/15/why-we-like-things",
+      "availability": "Gratis på web, intet login",
+      "commitment": "ca. 18 min",
+      "topics": [
+        "æstetik",
+        "design",
+        "kultur"
+      ],
+      "isFeatured": false,
+      "note": "Smag kaldes den sidste menneskelige færdighed, men essayet viser via Bauhaus og designreformen, at smag er tillært snarere end medfødt."
+    },
+    {
+      "id": "rec-google-agent-skills-2026-08-15",
+      "tier": "short",
+      "mode": "try",
+      "kind": "værktøj",
+      "status": "new",
+      "title": "Agent Skills for Google products and technologies",
+      "provider": "Google",
+      "url": "https://github.com/google/skills",
+      "availability": "Gratis og open source under Apache 2.0; installeres med én kommando",
+      "commitment": "ca. 15 min",
+      "topics": [
+        "værktøjer",
+        "agenter",
+        "ai"
+      ],
+      "isFeatured": false,
+      "note": "Over 100 færdige Agent Skills til blandt andet BigQuery og Google Cloud, som kan lægges direkte ind i din egen opsætning."
+    },
+    {
+      "id": "rec-aie-sara-hooker-2026-08-15",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "konferenceoplæg",
+      "status": "new",
+      "title": "Adaption Labs: Gradient-Free Continual Learning — Sara Hooker, Adaption",
+      "provider": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=XEd_SRVHBgU",
+      "availability": "Gratis på YouTube, hele oplægget",
+      "commitment": "21 min",
+      "topics": [
+        "ai",
+        "forskning",
+        "continual learning"
+      ],
+      "isFeatured": false,
+      "note": "Hun hævder at fortsat læring ikke kræver gradienter, og rammer dermed direkte den antagelse, branchen bruger flest penge på.",
+      "creator": "Sara Hooker"
+    },
+    {
+      "id": "rec-acx-open-weights-2026-08-15",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "Open Questions On Open Weights",
+      "provider": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/open-questions-on-open-weights",
+      "availability": "Gratis på Substack",
+      "commitment": "ca. 7 min",
+      "topics": [
+        "open source",
+        "regulering",
+        "ai"
+      ],
+      "isFeatured": false,
+      "note": "Argumentet for at vente med at regulere åbne modelvægte — relevant i dag, hvor kinesiske åbne vægte er blevet det underlag, andre bygger på."
+    },
+    {
+      "id": "rec-wip-factory-farming-2026-08-15",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Will factory farming fix itself?",
+      "provider": "Works in Progress",
+      "url": "https://www.worksinprogress.news/p/will-factory-farming-fix-itself",
+      "availability": "Gratis, ingen betalingsmur",
+      "commitment": "ca. 20 min",
+      "topics": [
+        "økonomi",
+        "landbrug",
+        "etik"
+      ],
+      "isFeatured": false,
+      "note": "Tester Kuznets-kurven på dyrevelfærd: rigdom hæver standarderne, men væksten i antallet af kyllinger og fisk æder gevinsten."
+    },
+    {
+      "id": "rec-bloomberg-amazon-deal-2026-08-15",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "dokumentar",
+      "status": "new",
+      "title": "The Deal That May Reshape the Amazon's Future",
+      "provider": "Bloomberg Originals",
+      "url": "https://www.youtube.com/watch?v=cHH-DkhTJW4",
+      "availability": "Gratis på YouTube, hele dokumentaren uden abonnement",
+      "commitment": "44 min",
+      "topics": [
+        "klima",
+        "brasilien",
+        "dokumentar"
+      ],
+      "isFeatured": false,
+      "note": "Brasilien fik skovrydningen ned, men en aftale indgået uden om offentligheden kan flytte problemet frem for at løse det."
+    },
+    {
+      "id": "rec-planetarium-holger-bech-2026-08-15",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "foredrag",
+      "status": "upcoming",
+      "title": "Fra universets kant til atomets indre",
+      "provider": "Planetarium",
+      "url": "https://www.planetarium.dk/saerarrangementer/fra-universets-kant-til-atomets-indre-25-08-2026",
+      "availability": "Tirsdag 25. august 2026 kl. 19:30 i Tycho Brahe Planetarium, Gl. Kongevej 10, København V. 225 kr., 180 kr. for årskortholdere. På dansk",
+      "commitment": "1 t 45 min",
+      "topics": [
+        "fysik",
+        "københavn",
+        "foredrag"
+      ],
+      "isFeatured": false,
+      "note": "Holger Bech Nielsen fylder 85 og tager en aften i kuplen fra Big Bang til atomets indre — dansk teoretisk fysik fra kilden selv.",
+      "creator": "Holger Bech Nielsen"
+    }
+  ],
+  "quality": {
+    "sourceVerification": 96,
+    "primarySourceShare": 50,
+    "outsideProfile": 100,
+    "imageCoverage": 100
+  },
+  "keyNumber": {
+    "label": "Amerikansk forbrugertillid (University of Michigan)",
+    "indicator": "umich-consumer-sentiment",
+    "value": "51,0",
+    "asOf": "august 2026 (foreløbig)",
+    "previous": {
+      "value": "55,2",
+      "asOf": "juli 2026",
+      "change": "-4,2 point"
+    },
+    "caption": "Faldet på cirka 8 procent afslutter to måneders fremgang. Forventningerne til erhvervslivet på kort sigt faldt 11 procent, og inflationsforventningen for det kommende år steg fra 4,2 til 4,3 procent.",
+    "sourceUrl": "http://www.sca.isr.umich.edu/",
+    "sourceTitle": "Surveys of Consumers — Preliminary Results for August 2026",
+    "series": [
+      {
+        "label": "jul",
+        "value": 55.2
+      },
+      {
+        "label": "aug",
+        "value": 51
+      }
+    ]
+  }
+}
