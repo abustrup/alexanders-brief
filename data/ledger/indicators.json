@@ -1,0 +1,207 @@
+{
+  "_": "Ledger of quantities this brief keeps reading. It exists so today's figure can be compared to the last one instead of arriving alone: across 24 June - 4 August 2026 the brief printed 27 key numbers on 27 different subjects, and twice printed eurozone inflation a month apart without noticing it had. Which quantities are worth tracking is the desk's judgement, not a fixed list - add one whenever something matters enough to follow, and retire one by no longer reading it. Keep an indicator's `label` stable: a definition that drifts is no longer a series. Seeded 2026-08-03 from figures this brief had already published; every value and sourceUrl is verbatim from the archive.",
+  "indicators": [
+    {
+      "indicator": "eurozone-hicp-inflation",
+      "label": "Årlig inflation i eurozonen (HICP)",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "3,2",
+          "asOf": "maj 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01072026-ap",
+          "recordedOn": "2026-07-02"
+        },
+        {
+          "value": "2,8",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-01072026-ap",
+          "recordedOn": "2026-07-02"
+        },
+        {
+          "value": "2,9",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-31072026-ap",
+          "recordedOn": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "indicator": "eurozone-energy-prices-yoy",
+      "label": "Energipriser i euroområdet, år til år",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "8,5",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-31072026-ap",
+          "recordedOn": "2026-08-03"
+        },
+        {
+          "value": "10,0",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-31072026-ap",
+          "recordedOn": "2026-08-03"
+        }
+      ]
+    },
+    {
+      "indicator": "azure-cloud-growth",
+      "label": "Azure og øvrige cloud-tjenester, vækst år til år",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "40",
+          "asOf": "3. kvartal regnskabsåret 2026",
+          "sourceUrl": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "recordedOn": "2026-07-30"
+        },
+        {
+          "value": "43",
+          "asOf": "4. kvartal regnskabsåret 2026",
+          "sourceUrl": "https://www.microsoft.com/en-us/investor/earnings/fy-2026-q4/press-release-webcast",
+          "recordedOn": "2026-07-30"
+        }
+      ]
+    },
+    {
+      "indicator": "aws-growth",
+      "label": "AWS' vækst år til år",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "36,7",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-earnings-q2-2026-report",
+          "recordedOn": "2026-08-02"
+        }
+      ]
+    },
+    {
+      "indicator": "european-vc-annual",
+      "label": "Europæisk venturekapital, årligt",
+      "unit": "mia. euro",
+      "readings": [
+        {
+          "value": "35,3",
+          "asOf": "2025",
+          "sourceUrl": "https://www.investeurope.eu/research/activity-data/",
+          "recordedOn": "2026-07-12"
+        }
+      ]
+    },
+    {
+      "indicator": "amd-datacenter-revenue",
+      "label": "AMD's datacenteromsætning pr. kvartal",
+      "unit": "mia. USD",
+      "readings": [
+        {
+          "value": "6,7",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
+          "recordedOn": "2026-08-05"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-konkurser-aktive-virksomheder",
+      "label": "Konkurser i aktive danske virksomheder, sæsonkorrigeret",
+      "unit": "pr. måned",
+      "note": "Månedlig. Læs den sæsonkorrigerede række 'Heraf i aktive virksomheder' i tabellen inde i NYT-meddelelsen, ikke overskriftstallet fra måneden før — DST reviderer bagud, og overskriftstallet og tabellen er ikke det samme.",
+      "readings": [
+        {
+          "value": "154",
+          "asOf": "maj 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52491",
+          "recordedOn": "2026-08-06"
+        },
+        {
+          "value": "157",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52491",
+          "recordedOn": "2026-08-06",
+          "note": "Danmarks Statistik offentliggjorde 162 for juni i junimeddelelsen (cid=52490, 6. juli 2026); tallet er siden revideret til 157 i julimeddelelsens egen tabel. Brug den reviderede serie."
+        },
+        {
+          "value": "137",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52491",
+          "recordedOn": "2026-08-06"
+        }
+      ]
+    },
+    {
+      "indicator": "rheinmetall-order-backlog",
+      "label": "Rheinmetalls ordrebeholdning",
+      "unit": "mia. euro",
+      "readings": [
+        {
+          "value": "56,0",
+          "asOf": "1. halvår 2025",
+          "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1",
+          "recordedOn": "2026-08-07"
+        },
+        {
+          "value": "80,5",
+          "asOf": "1. halvår 2026",
+          "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1",
+          "recordedOn": "2026-08-07"
+        }
+      ]
+    },
+    {
+      "indicator": "us-nonfarm-payrolls-change",
+      "label": "USA: ændring i beskæftigelsen uden for landbruget",
+      "unit": "job pr. måned",
+      "note": "Månedlig, udgives første fredag i måneden kl. 8:30 ET. Læs den REVIDEREDE række, ikke overskriftstallet fra måneden før: maj og juni blev tilsammen skrevet 103.000 job ned i julimeddelelsen. bls.gov afviser programmatiske hentninger med 403 — siden skal læses i en browser.",
+      "readings": [
+        {
+          "value": "20.000",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "recordedOn": "2026-08-08",
+          "note": "Revideret tal, som det står i julimeddelelsen. Den oprindelige juniopgørelse lød på 57.000."
+        },
+        {
+          "value": "-23.000",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
+          "recordedOn": "2026-08-08"
+        }
+      ]
+    },
+    {
+      "indicator": "fao-food-price-index",
+      "label": "FAO’s fødevareprisindeks",
+      "unit": "point",
+      "readings": [
+        {
+          "value": "130,4",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+          "recordedOn": "2026-08-09"
+        },
+        {
+          "value": "131,1",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
+          "recordedOn": "2026-08-09"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-industriproduktion-maaned",
+      "label": "Dansk industriproduktion, månedlig ændring",
+      "unit": "pct.",
+      "note": "Sæsonkorrigeret månedlig ændring i industriens produktionsindeks. Læs også tallet uden medicinalindustrien: forskellen er hele pointen med serien.",
+      "readings": [
+        {
+          "value": "+6,4",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyt/NytHtml?cid=52456",
+          "recordedOn": "2026-08-10"
+        }
+      ]
+    }
+  ]
+}

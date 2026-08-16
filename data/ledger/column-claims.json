@@ -1,0 +1,62 @@
+{
+  "_": "Klummen's memory: the datable claims it has made, so a later column can come back and score one in public. Starts empty on purpose - the nine columns published 26 July - 3 August 2026 all argued about how a word is used, and none of them made a claim that time or evidence could settle, which is precisely the rut this file exists to help break. Append after validation when a column makes a claim with a horizon; set `status` to holding, weakening or wrong when a later column scores it, with the date it was scored.",
+  "shape": {
+    "date": "YYYY-MM-DD",
+    "slug": "kebab-case",
+    "claim": "the claim in one sentence",
+    "horizon": "when it would be settled",
+    "falsifier": "what would show it wrong, and where that would appear",
+    "status": "open | holding | weakening | wrong",
+    "scoredOn": "YYYY-MM-DD, when scored"
+  },
+  "claims": [
+    {
+      "date": "2026-08-05",
+      "slug": "afskrivningstiden",
+      "claim": "Mindst én af de store amerikanske cloud-udbydere (Amazon, Microsoft, Alphabet, Meta) afkorter igen den oplyste levetid for servere i en årsrapport, der dækker 2026 eller 2027.",
+      "horizon": "Årsrapporterne for 2026 og 2027, dvs. primo 2027 og primo 2028",
+      "falsifier": "Alle fire fastholder eller forlænger den oplyste levetid for servere i noten om materielle anlægsaktiver i årsrapporterne for 2026 og 2027. Kontrolleres i selskabernes 10-K på sec.gov.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-06",
+      "slug": "prisen-paa-policen",
+      "claim": "Forsikringsbranchens undtagelser og præmier — ikke lovgivningen — kommer til at bestemme, hvor aggressivt europæiske virksomheder sætter AI-agenter i drift; reguleringen skriver praksis ned bagefter.",
+      "horizon": "Når selvstændige AI-ansvarspolicer prissættes offentligt, dvs. når præmier og dækningsgrænser for AI-ansvar kan aflæses uden for de store mæglerhuse",
+      "falsifier": "Selskaberne trækker generativ-AI-undtagelserne (ISO CG 40 47 / CG 40 48 og tilsvarende) tilbage inden for et par år og tegner AI-risiko bredt i almindelige ansvarspolicer uden selvstændig prissætning. Kontrolleres i de amerikanske delstatstilsyns formularregistre og i ISO/Verisks egne udgivelser.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-07",
+      "slug": "europa-mangler-koebere",
+      "claim": "Den bindende begrænsning for europæisk deeptech er mangel på købere, ikke mangel på kapital; derfor forbliver andelen af europæiske venturebakkede exits, der går til europæiske købere, omtrent uændret, selv om kapitaltilførslen vokser.",
+      "horizon": "Exit-opgørelserne frem mod 2029",
+      "falsifier": "Andelen af europæiske venturebakkede exits, der går til europæiske købere, stiger mærkbart frem mod 2029, mens kapitaltilførslen står stille. Kontrolleres i Invest Europes årlige aktivitetsdata og Dealrooms exit-opgørelser.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-09",
+      "slug": "havet-holder-regnskabet",
+      "claim": "Hovedtallet i den offentlige klimarapportering flytter sig fra global middeloverfladetemperatur til havets varmeindhold, fordi overfladetemperaturen svinger med El Niño og derfor kan bestrides hvert år, mens varmeindholdet stiger næsten uforstyrret.",
+      "horizon": "Næste IPCC-hovedrapport og agenturernes årlige klimaudmeldinger, dvs. inden for omtrent ti år",
+      "falsifier": "Agenturerne og IPCC bliver ved med at føre med global middeloverfladetemperatur, og havets varmeindhold forbliver en figur inde i rapporten frem for overskriften. Kontrolleres i overskriften på WMO’s årlige State of the Global Climate og i hovedbudskaberne i næste IPCC-hovedrapport.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-10",
+      "slug": "vaeddemaalet-om-122",
+      "claim": "Ingen valideret person passerer Jeanne Calments 122 år og 164 dage før 1. januar 2050. Klummen satte sandsynligheden til fire ud af fem.",
+      "horizon": "1. januar 2050, med delaflæsninger hvert årti",
+      "falsifier": "En valideret person passerer 123 år før 2050. Kontrolleres i Gerontology Research Groups validerede rangliste over verdens ældste mennesker og i LongeviQuests valideringer.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-11",
+      "slug": "prisen-paa-det-ai-ikke-kan",
+      "claim": "Kunstig intelligens accelererer Baumol-effekten i Danmark, saa afstanden mellem prisindekset for tjenester og prisindekset for varer i Danmarks Statistiks PRIS01 er stoerre i juli 2031 end de 11,5 procentpoint, den var i juli 2026.",
+      "horizon": "Juli 2031, aflaest i PRIS01",
+      "falsifier": "Afstanden mellem tjenester og varer i PRIS01 er uaendret eller mindre i juli 2031 end 11,5 procentpoint. Tesen svaekkes ogsaa, hvis frisoer, boernepasning og haandvaerkerarbejde holder op med at stige hurtigere end det samlede indeks tre aar i traek. Kontrolleres i Danmarks Statistiks tabel PRIS01.",
+      "status": "open"
+    }
+  ]
+}
