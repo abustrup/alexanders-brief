@@ -1,0 +1,532 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-20260817",
+  "date": "2026-08-17",
+  "generatedAt": "2026-08-17T07:30:00.000Z",
+  "readingMinutes": 12,
+  "title": "Alexanders Brief",
+  "dek": "Otte historier, ni signaler og en klumme om AI-styring — fra et nyt Novo Nordisk-datalæk til Ebola-udbruddets rekordfart",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "novo-nordisk-fulcrumsec-2026-08-17",
+      "eventKey": "novo-nordisk-fulcrumsec-breach-2026-08",
+      "materialFacts": [
+        "FulcrumSec har offentliggjort endnu en tranche stjålne data fra Novo Nordisk, herunder påståede AI-modeller til lægemiddeludvikling og sikkerhedsvurderinger af nye medicinkandidater",
+        "Novo Nordisk har bekræftet uautoriseret adgang til interne it-systemer og eksponering af kliniske forsøgsdata, men hverken be- eller afkræftet AI-model-påstanden"
+      ],
+      "section": "Danmark og cybersikkerhed",
+      "headline": "Novo Nordisk ramt af nyt gigantisk datalæk: »Svært at tie ihjel«",
+      "primarySourceUrl": "https://www.version2.dk/artikel/novo-nordisk-ramt-af-nyt-gigantisk-datalaek-svaert-tie-ihjel",
+      "subheadline": "Hackergruppen FulcrumSec offentliggør endnu en tranche stjålne data, herunder AI-modeller brugt i lægemiddeludvikling — mens topchef Mike Doustdar forbliver tavs",
+      "body": [
+        "Hackergruppen FulcrumSec har offentliggjort endnu en tranche data stjålet fra Novo Nordisk. Lækagen omfatter angiveligt AI-modeller brugt i lægemiddeludvikling og sikkerhedsvurderinger af nye medicinkandidater. Novo Nordisk har bekræftet uautoriseret adgang til interne it-systemer, men hverken be- eller afkræftet AI-model-påstanden.",
+        "Bruddet blev opdaget medio juni 2026. FulcrumSec hævder at have exfiltreret 1,3 terabyte data via et lækket GitHub-token og krævede 25 mio. dollar i løsesum. Novo Nordisk afviste at betale, og data er siden lækket ad flere omgange."
+      ],
+      "whyItMatters": "For Danmarks største børsnoterede selskab er sagen mere end en it-hændelse: hvis AI-modeller trænet på årtiers medicinforskning er stjålet, mister Novo Nordisk noget, et nyt kodeord ikke nulstiller.",
+      "analysis": "AI-modeller optræder som selvstændige, høj-værdi aktiver, men beskyttes ofte med samme adgangskontrol som almindelig kildekode. Ét lækket token er nok til at eksponere den institutionelle viden, der ligger i en trænet model.",
+      "counterpoint": "Tavsheden kan afspejle, at FulcrumSec overdriver fangsten for at presse løsesummen — usikkerheden taler for varsomhed.",
+      "topics": ["danmark", "cybersikkerhed", "ai", "biotek", "life science"],
+      "entities": ["Novo Nordisk", "FulcrumSec", "Mike Doustdar"],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": { "importance": 84, "decisionValue": 78, "novelty": 72, "sourceQuality": 74, "personalRelevance": 76, "contrast": 58 },
+      "claims": [
+        {
+          "text": "FulcrumSec har offentliggjort en ny tranche data fra Novo Nordisk, herunder påståede AI-modeller til lægemiddeludvikling og sikkerhedsvurderinger af nye medicinkandidater.",
+          "sourceUrls": ["https://www.version2.dk/artikel/novo-nordisk-ramt-af-nyt-gigantisk-datalaek-svaert-tie-ihjel"],
+          "confidence": "medium"
+        },
+        {
+          "text": "Bruddet blev opdaget medio juni 2026, omfattede ifølge FulcrumSec 1,3 TB data, og gruppen krævede 25 mio. dollar i løsesum, som Novo Nordisk afviste.",
+          "sourceUrls": ["https://securityaffairs.com/193763/security/fulcrumsec-targets-novo-nordisk-leaks-clinical-and-research-data.html"],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Maziar_Mike_Doustdar.jpg",
+        "credit": "Foto: Canyak1982 / Wikimedia Commons (CC0)",
+        "alt": "Novo Nordisks topchef Mike Doustdar, som endnu ikke har kommenteret AI-model-påstanden i FulcrumSec-lækagen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maziar_Mike_Doustdar.jpg"
+      },
+      "sources": [
+        { "title": "Novo Nordisk ramt af nyt gigantisk datalæk: »Svært at tie ihjel«", "publisher": "Version2", "url": "https://www.version2.dk/artikel/novo-nordisk-ramt-af-nyt-gigantisk-datalaek-svaert-tie-ihjel", "publishedAt": "2026-08-14T10:00:00.000Z", "kind": "reporting" },
+        { "title": "FulcrumSec Targets Novo Nordisk, Leaks Clinical and Research Data", "publisher": "Security Affairs", "url": "https://securityaffairs.com/193763/security/fulcrumsec-targets-novo-nordisk-leaks-clinical-and-research-data.html", "publishedAt": "2026-08-12T00:00:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "stripe-openrouter-2026-08-17",
+      "eventKey": "stripe-openrouter-acquisition-2026-08",
+      "materialFacts": [
+        "Bloomberg bekræfter en aftale om, at Stripe opkøber OpenRouter for over 7 mia. dollar — endnu ikke officielt bekræftet af parterne selv"
+      ],
+      "section": "AI og venturekapital",
+      "headline": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "subheadline": "Aftalen er endnu ikke officielt bekræftet af nogen af parterne, men ville gøre AI-gateway-startuppet til en af sommerens største AI-infrastrukturhandler",
+      "body": [
+        "Bloomberg bekræftede 16. august 2026 kilder om, at Stripe er ved at opkøbe AI-gateway-startuppet OpenRouter for over 7 mia. dollar. Hverken Stripe eller OpenRouter har officielt bekræftet handlen.",
+        "OpenRouter giver adgang til over 400 AI-modeller gennem ét API og har 8 mio. globale brugere efter eget udsagn. Topchef Alex Atallah kalder selskabet 'Stripe for AI'. Det rejste 113 mio. dollar i maj 2026 til en værdi på 1,3 mia. dollar, med Sequoia og a16z som investorer."
+      ],
+      "whyItMatters": "Hvis handlen bekræftes, sætter den en pris på infrastrukturlaget mellem AI-modeller og virksomhederne, der bruger dem — laget, hvor konkurrencen afgøres af pris og adgang.",
+      "analysis": "At Stripe, en betalingsvirksomhed, køber en AI-model-router, viser hvor værdien flytter sig hen: fra modellerne til laget, der styrer adgang og skift — samme logik, der gjorde Stripe uundgåelig for onlinebetalinger.",
+      "topics": ["ai", "venturekapital", "infrastruktur", "usa"],
+      "entities": ["Stripe", "OpenRouter", "Alex Atallah"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": { "importance": 68, "decisionValue": 74, "novelty": 70, "sourceQuality": 72, "personalRelevance": 82, "contrast": 40 },
+      "claims": [
+        {
+          "text": "Bloomberg bekræftede 16. august 2026 en aftale om, at Stripe opkøber OpenRouter for over 7 mia. dollar; hverken Stripe eller OpenRouter har officielt bekræftet det.",
+          "sourceUrls": ["https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"],
+          "confidence": "medium"
+        },
+        {
+          "text": "OpenRouter giver adgang til over 400 AI-modeller og har efter eget udsagn 8 mio. brugere; selskabet rejste 113 mio. dollar i maj 2026 til en værdi på 1,3 mia. dollar.",
+          "sourceUrls": ["https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"],
+          "confidence": "medium"
+        }
+      ],
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2024/04/Stripe-resized.webp",
+        "credit": "Foto: TechCrunch",
+        "alt": "Stripes logo, som optræder på TechCrunchs dækning af det rapporterede opkøb af OpenRouter",
+        "sourceUrl": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/"
+      },
+      "sources": [
+        { "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/", "publishedAt": "2026-08-16T20:57:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "anthropic-amodei-trust-2026-08-17",
+      "eventKey": "anthropic-amodei-ai-backlash-trust-2026-08",
+      "materialFacts": [
+        "Dario Amodei kalder AI-modreaktionen 'fundamentalt en tillidskrise' og erkender, at AI-selskaber endnu ikke har indfriet deres løfter"
+      ],
+      "section": "AI",
+      "headline": "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "subheadline": "Dario Amodei svarer på investorkritik om, at han overdriver AI-risici — og indrømmer, at selskaberne endnu ikke har indfriet deres løfter",
+      "body": [
+        "Anthropics topchef Dario Amodei svarede 15.-16. august 2026 på kritik fra investor Gavin Baker, som på podcasten All-In har beskyldt ham for at overdrive AI's risici og skade branchens omdømme. Amodei afviste, at hans kommunikation har været overvejende negativ.",
+        "'Jeg tror, det fundamentalt er en tillidskrise,' sagde Amodei. 'Almindelige mennesker stoler ikke på virksomheder, regeringer eller techbranchen.' Han pegede på, hvad han kaldte den mest præcise kritik af AI-selskaber, inklusive Anthropic selv: at de endnu ikke har indfriet deres løfter om at gavne verden."
+      ],
+      "whyItMatters": "Amodeis indrømmelse er usædvanlig: lederen af et indflydelsesrigt AI-selskab erkender, at troværdighed kræver leverede resultater, ikke bedre kommunikation.",
+      "analysis": "Skiftet fra 'vi kommunikerer forkert' til 'vi har ikke leveret endnu' flytter målestokken til efterprøvelige resultater — lettere at dømme, hvis løfterne glider igen.",
+      "topics": ["ai", "governance", "usa", "tillid"],
+      "entities": ["Anthropic", "Dario Amodei", "Gavin Baker"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": { "importance": 66, "decisionValue": 58, "novelty": 64, "sourceQuality": 70, "personalRelevance": 88, "contrast": 52 },
+      "claims": [
+        {
+          "text": "Dario Amodei kaldte 15.-16. august 2026 AI-modreaktionen 'fundamentalt en tillidskrise' som svar på investor Gavin Bakers kritik.",
+          "sourceUrls": ["https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"],
+          "confidence": "high"
+        },
+        {
+          "text": "Amodei erkendte, at den mest præcise kritik af AI-selskaber er, at de endnu ikke har indfriet deres løfter om at gavne verden.",
+          "sourceUrls": ["https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/02/GettyImages-2261514463.jpg?w=1024",
+        "credit": "Foto: Getty Images / TechCrunch",
+        "alt": "Anthropics topchef Dario Amodei, som kalder AI-modreaktionen en tillidskrise",
+        "sourceUrl": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/"
+      },
+      "sources": [
+        { "title": "Anthropic CEO says AI backlash is 'fundamentally a crisis of trust'", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/", "publishedAt": "2026-08-16T16:53:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "xai-grok-csam-lawsuit-2026-08-17",
+      "eventKey": "xai-grok-csam-lawsuit-2026-08",
+      "materialFacts": [
+        "En ny sagsøger er tilsluttet et gruppesøgsmål mod xAI og hævder, at Grok blev brugt til at generere over 7.000 misbrugsbilleder ud fra et barndomsfoto"
+      ],
+      "section": "AI og retssikkerhed",
+      "headline": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "subheadline": "En ny sagsøger tilslutter sig gruppesøgsmål mod Elon Musks xAI, der anklages for utilstrækkelige værn mod misbrug af chatbotten Grok",
+      "body": [
+        "En kvinde, i retsdokumenter benævnt Jane Doe 4, har sluttet sig til et gruppesøgsmål mod xAI. Hun hævder, at hendes stedfar brugte chatbotten Grok til at manipulere et barndomsbillede af hende til over 7.000 seksuelt eksplicitte billeder. Sagen bygger videre på et søgsmål fra tre teenagere i Tennessee, som anklager xAI for utilstrækkelige sikkerhedsforanstaltninger.",
+        "TechCrunch har forsøgt at indhente en kommentar fra xAI uden at modtage svar. Sagen kommer, efter at X tidligere i 2026 har været plaget af Grok-genereret eksplicit deepfake-materiale."
+      ],
+      "whyItMatters": "Sagen tester, om AI-selskaber kan holdes juridisk ansvarlige for, hvad modellerne genererer, når værnene fejler.",
+      "analysis": "For en branche, der ofte forsvarer sig med, at misbrug er brugerens ansvar, tester søgsmålet, hvor grænsen går. Sagen presser xAI til at dokumentere, hvilke værn der reelt var aktive.",
+      "topics": ["ai", "sikkerhed", "jura", "usa", "etik"],
+      "entities": ["xAI", "Grok", "Elon Musk"],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": { "importance": 72, "decisionValue": 50, "novelty": 58, "sourceQuality": 68, "personalRelevance": 60, "contrast": 88 },
+      "claims": [
+        {
+          "text": "En ny sagsøger har tilsluttet sig et gruppesøgsmål mod xAI og hævder, at hendes stedfar brugte Grok til at generere over 7.000 misbrugsbilleder ud fra et barndomsfoto af hende.",
+          "sourceUrls": ["https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"],
+          "confidence": "medium"
+        },
+        {
+          "text": "Sagen bygger videre på et søgsmål fra tre teenagere i Tennessee, som søger status som gruppesøgsmål mod xAI.",
+          "sourceUrls": ["https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2026/03/grok-getty.jpg",
+        "credit": "Foto: Jonathan Raa/NurPhoto via Getty Images / TechCrunch",
+        "alt": "Grok-appens logo vist på en mobiltelefon",
+        "sourceUrl": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/"
+      },
+      "sources": [
+        { "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery", "publisher": "TechCrunch", "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/", "publishedAt": "2026-08-15T21:29:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "eu-heatwave-cost-2026-08-17",
+      "eventKey": "eu-heatwave-economic-cost-triodos-2026-08",
+      "materialFacts": [
+        "Triodos Bank vurderer, at sommerens hedebølger og tørke koster EU-økonomien op mod 180 mia. euro, næsten hele årets forventede vækst"
+      ],
+      "section": "Klima og økonomi",
+      "headline": "Historisk hed sommer risikerer at koste EU's økonomiske vækst: Regningen kan ende på op mod 1.345 milliarder kroner",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/viden/klima/historisk-hed-sommer-risikerer-koste-eu-s-oekonomiske-vaekst-regningen-kan-ende-paa-op-mod-1-345",
+      "subheadline": "En ny analyse fra Triodos Bank anslår, at sommerens hedebølger og tørke æder næsten hele EU's forventede vækst i 2026",
+      "body": [
+        "Den hollandske bank Triodos vurderer, at sommerens ekstreme hede og tørke koster EU-økonomien op mod 180 mia. euro — omkring 1.345 mia. kr., svarende til cirka 1 pct. af BNP og stort set hele årets ventede vækst. Størstedelen stammer fra faldende arbejdsproduktivitet, mens landbrugsproduktionen ventes at falde 3-7 pct.",
+        "Frankrig rammes hårdest med et anslået tab på op mod 1,4 procentpoint af væksten. Sidste års hedebølger kostede ifølge ECB-forskning 43 mia. euro — et tal, forskerne selv kalder konservativt."
+      ],
+      "whyItMatters": "Tallet gør en abstrakt klimarisiko konkret i samme sprog, investorer allerede bruger: væksttab, ikke kun temperaturrekorder.",
+      "analysis": "Når én sommer kan æde et helt års forventede vækst i en af verdens største økonomier, holder argumentet om, at klimatilpasning er for dyr at prioritere nu, ikke længere. Spørgsmålet flytter sig fra, om tilpasning er dyr, til om undladelse er dyrere.",
+      "topics": ["klima", "makroøkonomi", "eu", "energi"],
+      "entities": ["Triodos Bank", "EU", "Frankrig", "ECB"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": { "importance": 82, "decisionValue": 66, "novelty": 60, "sourceQuality": 80, "personalRelevance": 34, "contrast": 64 },
+      "claims": [
+        {
+          "text": "Triodos Bank vurderer, at sommerens hedebølger og tørke koster EU-økonomien op mod 180 mia. euro, svarende til omkring 1 pct. af BNP.",
+          "sourceUrls": ["https://www.dr.dk/nyheder/viden/klima/historisk-hed-sommer-risikerer-koste-eu-s-oekonomiske-vaekst-regningen-kan-ende-paa-op-mod-1-345", "https://www.euronews.com/business/2026/08/12/europes-scorching-summer-could-cost-eu-economies-180-billion"],
+          "confidence": "high"
+        },
+        {
+          "text": "Frankrig ventes at tabe op mod 1,4 procentpoint af væksten; sidste års hedebølger kostede ifølge ECB-forskning 43 mia. euro.",
+          "sourceUrls": ["https://www.euronews.com/business/2026/08/12/europes-scorching-summer-could-cost-eu-economies-180-billion"],
+          "confidence": "medium"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/qvbdh4di/20250702-205158-l.jpg?im=AspectCrop%3D%28720%2C480%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28720%2C480%29",
+        "credit": "Foto: DR",
+        "alt": "Brandslukningsfly bekæmper flammer under en hedebølge i Sydfrankrig",
+        "sourceUrl": "https://www.dr.dk/nyheder/viden/klima/historisk-hed-sommer-risikerer-koste-eu-s-oekonomiske-vaekst-regningen-kan-ende-paa-op-mod-1-345"
+      },
+      "sources": [
+        { "title": "Historisk hed sommer risikerer at koste EU's økonomiske vækst: Regningen kan ende på op mod 1.345 milliarder kroner", "publisher": "DR", "url": "https://www.dr.dk/nyheder/viden/klima/historisk-hed-sommer-risikerer-koste-eu-s-oekonomiske-vaekst-regningen-kan-ende-paa-op-mod-1-345", "publishedAt": "2026-08-14T17:41:00.000Z", "kind": "reporting" },
+        { "title": "Europe's scorching summer could cost EU economies €180 billion", "publisher": "Euronews", "url": "https://www.euronews.com/business/2026/08/12/europes-scorching-summer-could-cost-eu-economies-180-billion", "publishedAt": "2026-08-12T00:00:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "drc-ebola-record-2026-08-17",
+      "eventKey": "drc-ebola-outbreak-record-2026-08",
+      "materialFacts": [
+        "DR Congos Ebola-udbrud har passeret 2.184 dødsfald og 4.665 tilfælde; WHO advarer om, at det kan blive det dødeligste i historien"
+      ],
+      "section": "Global sundhed",
+      "headline": "DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record",
+      "subheadline": "WHO advarer om, at udbruddet i DR Congo er på vej til at blive det dødeligste i Ebolas historie",
+      "body": [
+        "DR Congos Ebola-udbrud har passeret 2.184 dødsfald blandt 4.665 bekræftede tilfælde per 13. august 2026, heraf over 1.000 i de seneste tre uger. WHO's chef siger, udbruddet — forårsaget af Bundibugyo-stammen uden godkendt vaccine eller behandling — er på vej til at overgå udbruddet 2014-2016, hvor 11.310 døde, hidtil det dødeligste i historien.",
+        "Virussen dukkede først op i februar, tre måneder før udbruddet officielt blev erklæret i maj. Det har nu spredt sig til en sjette provins og rammer 54 af landets 151 sundhedszoner."
+      ],
+      "whyItMatters": "Uden vaccine eller behandling afhænger inddæmningen alene af smitteopsporing og lokal sundhedsinfrastruktur i et ressourcefattigt sundhedssystem.",
+      "analysis": "At et udbrud kan vokse hurtigere end noget registreret, mens verdens opmærksomhed er andre steder, er selve pointen med informationsgevinst pr. minut: fraværet af opmærksomhed påvirker, hvor mange ressourcer der mobiliseres.",
+      "topics": ["global sundhed", "afrika", "epidemi", "who"],
+      "entities": ["WHO", "DR Congo", "Uganda"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": { "importance": 90, "decisionValue": 55, "novelty": 62, "sourceQuality": 82, "personalRelevance": 28, "contrast": 70 },
+      "claims": [
+        {
+          "text": "DR Congos Ebola-udbrud har passeret 2.184 dødsfald og 4.665 bekræftede tilfælde per 13. august 2026, med over 1.000 dødsfald i de seneste tre uger.",
+          "sourceUrls": ["https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record", "https://www.usnews.com/news/world/articles/2026-08-12/who-says-congos-ebola-outbreak-is-on-track-to-eclipse-the-deadliest-one-in-history"],
+          "confidence": "high"
+        },
+        {
+          "text": "WHO's chef siger, udbruddet er på vej til at overgå det vestafrikanske udbrud 2014-2016 (11.310 døde) som det dødeligste i historien.",
+          "sourceUrls": ["https://www.usnews.com/news/world/articles/2026-08-12/who-says-congos-ebola-outbreak-is-on-track-to-eclipse-the-deadliest-one-in-history"],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a7ae3fc-1786438652.jpg?resize=770%2C513&quality=80",
+        "credit": "Foto: Reuters",
+        "alt": "Passagerer fra en standset båd venter på at blive testet i Kinshasa, DR Congo, under Ebola-udbruddet",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record"
+      },
+      "sources": [
+        { "title": "DRC Ebola death toll passes 2,000 amid fastest-growing outbreak on record", "publisher": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/11/drc-ebola-death-toll-passes-2000-amid-fastest-growing-outbreak-on-record", "publishedAt": "2026-08-11T00:00:00.000Z", "kind": "reporting" },
+        { "title": "Congo's Ebola Outbreak Is on Track to Surpass the Deadliest One in History, WHO Chief Says", "publisher": "U.S. News", "url": "https://www.usnews.com/news/world/articles/2026-08-12/who-says-congos-ebola-outbreak-is-on-track-to-eclipse-the-deadliest-one-in-history", "publishedAt": "2026-08-12T00:00:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "ukraine-moscow-attack-2026-08-17",
+      "eventKey": "ukraine-moscow-region-drone-attack-2026-08",
+      "materialFacts": [
+        "Et af de hidtil største ukrainske droneangreb mod Moskva-regionen dræber ifølge guvernøren en 83-årig mand og rammer et Wildberries-lager"
+      ],
+      "section": "Geopolitik",
+      "headline": "Ukrainian Drones Strike Moscow Region, Killing One",
+      "primarySourceUrl": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506",
+      "subheadline": "Et af de hidtil største droneangreb mod Moskva-regionen rammer et lager og dræber ifølge den lokale guvernør en 83-årig mand",
+      "body": [
+        "Ukrainske droner angreb Moskva-regionen natten til søndag 16. august 2026 i, hvad guvernør Andrei Vorobyov kaldte et af de hidtil største angreb mod området. En 83-årig mand blev dræbt i Podolsk, hvor et lager tilhørende Wildberries blev ramt. Yderligere skader er meldt ved et lager i Domodedovo nær en Moskva-lufthavn.",
+        "Ukraine har også ramt et anlæg i Rostov-regionen forbundet med missilbrændstof. Ruslands forsvarsministerium hævder at have nedskudt 822 droner over hele landet; Moskvas borgmester talte om 600 droner mod byen. Tallene er ikke uafhængigt bekræftet."
+      ],
+      "whyItMatters": "Målene — et logistiklager og et brændstofanlæg — viser en fortsat ukrainsk strategi om at ramme russisk krigsøkonomi dybt i landet.",
+      "analysis": "At civile tab indgår rutinemæssigt i begge parters opgørelser af 'et af de største angreb', uden at det ændrer krigens dynamik, er selv information: eskalation er et sted, parterne opholder sig.",
+      "topics": ["geopolitik", "rusland", "ukraine", "forsvar"],
+      "entities": ["Ukraine", "Rusland", "Andrei Vorobyov", "Wildberries"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": { "importance": 80, "decisionValue": 48, "novelty": 55, "sourceQuality": 76, "personalRelevance": 30, "contrast": 60 },
+      "claims": [
+        {
+          "text": "Ukrainske droner angreb Moskva-regionen 16. august 2026; guvernør Andrei Vorobyov meldte om mindst ét dødsfald i Podolsk og skader ved et Wildberries-lager.",
+          "sourceUrls": ["https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506"],
+          "confidence": "medium"
+        },
+        {
+          "text": "Ruslands forsvarsministerium hævder at have nedskudt 822 ukrainske droner over hele landet; Moskvas borgmester talte om 600 droner mod byen.",
+          "sourceUrls": ["https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506"],
+          "confidence": "medium"
+        }
+      ],
+      "image": {
+        "url": "https://static.themoscowtimes.com/image/article_1360/ca/2026-08-16102101.jpg",
+        "credit": "Foto: The Moscow Times",
+        "alt": "Røgsøjle over det ramte Wildberries-lager i Koledino syd for Moskva efter det ukrainske droneangreb",
+        "sourceUrl": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506"
+      },
+      "sources": [
+        { "title": "Ukrainian Drones Strike Moscow Region, Killing One", "publisher": "The Moscow Times", "url": "https://www.themoscowtimes.com/2026/08/16/ukrainian-drones-strike-moscow-region-killing-one-a93506", "publishedAt": "2026-08-16T09:00:00.000Z", "kind": "reporting" }
+      ]
+    },
+    {
+      "id": "denmark-sika-deer-2026-08-17",
+      "eventKey": "denmark-sika-deer-genetics-policy-2026-08",
+      "materialFacts": [
+        "Ny genetisk undersøgelse viser, at sikahjorte og kronhjorte ikke krydser sig i Danmark; ministeren fastholder alligevel udryddelseslinjen"
+      ],
+      "section": "Danmark og natur",
+      "headline": "Partier raser efter sika-melding: »Undskyld mig, det er simpelthen decideret dumt, det ministeren siger«",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/partier-raser-efter-sika-melding-undskyld-mig-det-er-simpelthen-decideret-dumt-det-ministeren-siger",
+      "subheadline": "En ny genetisk undersøgelse afliver frygten for krydsning mellem sikahjorte og kronhjorte — men fødevareministeren fastholder udryddelseslinjen",
+      "body": [
+        "En ny genetisk undersøgelse konkluderer, at danske sikahjorte og kronhjorte ikke krydser sig i naturen, i modsætning til den frygt for hybridisering, der hidtil har begrundet Danmarks linje om gradvis udryddelse. Frygten byggede på fund af hybrider i Irland og Skotland.",
+        "Fødevareminister Christian Rabjerg Madsen (S) fastholder alligevel udryddelseslinjen og henviser til, at Danmark stemte imod at klassificere sikahjorten som invasiv i EU. Dansk Folkeparti, Konservative og Danmarksdemokraterne kræver genovervejelse og varsler folketingsspørgsmål og samråd."
+      ],
+      "whyItMatters": "Sagen viser, hvad der sker, når den videnskabelige begrundelse for en politik forsvinder, men politikken ikke følger med — den bliver stående, indtil nogen ændrer den.",
+      "analysis": "Ministerens henvisning til EU-afstemningen erstatter et biologisk argument med et proceduremæssigt. Om det er omhu eller et forsøg på at undgå fejl, kan samrådene afklare.",
+      "topics": ["danmark", "videnskab", "natur", "landbrugspolitik"],
+      "entities": ["Christian Rabjerg Madsen", "Peter Kofod", "Dansk Folkeparti", "Konservative", "Danmarksdemokraterne"],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": { "importance": 42, "decisionValue": 40, "novelty": 68, "sourceQuality": 66, "personalRelevance": 20, "contrast": 82 },
+      "claims": [
+        {
+          "text": "En ny genetisk undersøgelse konkluderer, at danske sikahjorte og kronhjorte ikke krydser sig, i modsætning til hidtidig frygt baseret på fund fra Irland og Skotland.",
+          "sourceUrls": ["https://www.dr.dk/nyheder/indland/partier-raser-efter-sika-melding-undskyld-mig-det-er-simpelthen-decideret-dumt-det-ministeren-siger"],
+          "confidence": "medium"
+        },
+        {
+          "text": "Fødevareminister Christian Rabjerg Madsen fastholder udryddelseslinjen; Dansk Folkeparti, Konservative og Danmarksdemokraterne kræver genovervejelse.",
+          "sourceUrls": ["https://www.dr.dk/nyheder/indland/partier-raser-efter-sika-melding-undskyld-mig-det-er-simpelthen-decideret-dumt-det-ministeren-siger"],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/lwqlahww/20241015-155705-l_crop001.jpg?im=AspectCrop%3D%28720%2C405%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28720%2C405%29",
+        "credit": "Foto: Thomas Traasdahl / Ritzau Scanpix",
+        "alt": "En sikahjort, den dyreart den nye genetiske undersøgelse handler om",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/partier-raser-efter-sika-melding-undskyld-mig-det-er-simpelthen-decideret-dumt-det-ministeren-siger"
+      },
+      "sources": [
+        { "title": "Partier raser efter sika-melding: »Undskyld mig, det er simpelthen decideret dumt, det ministeren siger«", "publisher": "DR", "url": "https://www.dr.dk/nyheder/indland/partier-raser-efter-sika-melding-undskyld-mig-det-er-simpelthen-decideret-dumt-det-ministeren-siger", "publishedAt": "2026-08-16T19:40:00.000Z", "kind": "reporting" }
+      ]
+    }
+  ],
+  "signals": [
+    { "text": "Thieves bypass security to steal four Renaissance artworks from Sicily museum", "headline": "Thieves bypass security to steal four Renaissance artworks from Sicily museum", "summary": "Tyve stjal søndag nat fire værker af renæssancemaleren Antonello da Messina fra MuMe-museet i Messina, herunder tre paneler fra San Gregorio-polyptykonet fra 1473. Værkerne vurderes til 70-80 mio. euro.", "publisher": "Euronews", "section": "Kultur", "publishedAt": "2026-08-16T18:09:00.000Z", "url": "https://www.euronews.com/culture/2026/08/16/thieves-bypass-security-to-steal-four-renaissance-artworks-from-sicily-museum" },
+    { "text": "NATO fighter jet shoots down drone in Romania near border with Ukraine", "headline": "NATO fighter jet shoots down drone in Romania near border with Ukraine", "summary": "En spansk NATO-jet nedskød søndag morgen en formodet russisk drone, der krydsede ind i rumænsk luftrum fra Moldova — fjerde nedskydning over Rumænien i år.", "publisher": "CBS News", "section": "Verden", "publishedAt": "2026-08-16T11:13:00.000Z", "url": "https://www.cbsnews.com/news/nato-fighter-jet-shoots-down-drone-romania-ukraine/" },
+    { "text": "Trump vil skære ned på militærøvelser med Sydkorea", "headline": "Trump vil skære ned på militærøvelser med Sydkorea", "summary": "Trump har instrueret sit forsvarsministerium i at reducere fælles øvelser med Sydkorea, som han kalder 'upassende og fjendtlige' signaler, selvom han ikke kan aflyse mandagens planlagte øvelser.", "publisher": "DR", "section": "Udland", "publishedAt": "2026-08-17T05:00:00.000Z", "url": "https://www.dr.dk/nyheder/seneste/trump-vil-skaere-ned-paa-militaeroevelser-med-sydkorea" },
+    { "text": "SpaceX officially closes its Cursor acquisition", "headline": "SpaceX officially closes its Cursor acquisition", "summary": "SpaceX har officielt afsluttet sit opkøb af AI-kodningsværktøjet Cursor.", "publisher": "TechCrunch", "section": "AI", "publishedAt": "2026-08-15T12:00:00.000Z", "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/" },
+    { "text": "Why people aren't buying Mark Zuckerberg's AI future", "headline": "Why people aren't buying Mark Zuckerberg's AI future", "summary": "Analyse af, hvorfor offentlighed og investorer forholder sig skeptiske til Mark Zuckerbergs AI-vision for Meta trods massive investeringer.", "publisher": "TechCrunch", "section": "AI", "publishedAt": "2026-08-16T12:00:00.000Z", "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/" },
+    { "text": "Se kortet: Her stiger huspriserne mest", "headline": "Se kortet: Her stiger huspriserne mest", "summary": "DR kortlægger, hvilke danske kommuner der har oplevet de største stigninger i huspriser hen over sommeren.", "publisher": "DR", "section": "Penge", "publishedAt": "2026-08-13T18:18:00.000Z", "url": "https://www.dr.dk/nyheder/penge/se-kortet-her-stiger-huspriserne-mest" },
+    { "text": "Anthropic shares more details about how Claude's new watermarks will work", "headline": "Anthropic shares more details about how Claude's new watermarks will work", "summary": "Anthropic uddyber, at den nye vandmærkning i Claude bygger på SynthID-Text og skaber umærkelige mønstre i lavrisiko-ordvalg, kun aflæselige med en særlig nøgle.", "publisher": "TechCrunch", "section": "AI", "publishedAt": "2026-08-15T18:58:00.000Z", "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/" },
+    { "text": "Danmark tager et stik i retsopgør mod hollandsk milliardær", "headline": "Danmark tager et stik i retsopgør mod hollandsk milliardær", "summary": "Skattestyrelsen har fået medhold i at kunne forfølge et civilt søgsmål mod finansmanden Frank Vogel for ca. 95 mio. kr. i en udbytteskattesag fra 2013-2015.", "publisher": "DR", "section": "Penge", "publishedAt": "2026-08-15T13:00:00.000Z", "url": "https://www.dr.dk/nyheder/penge/danmark-tager-et-stik-i-retsopgoer-mod-hollandsk-milliardaer" },
+    { "text": "Innovation Fund Denmark opens two new apply options within defense technology and security", "headline": "Innovation Fund Denmark opens two new apply options within defense technology and security", "summary": "Innovationsfonden åbner to nye ansøgningsmuligheder for forsvarsteknologi og sikkerhed med en investeringsramme på mindst 585 mio. kr.; ansøgningsfrist er 1. september 2026.", "publisher": "Innovationsfonden", "section": "Forsvar", "publishedAt": "2026-08-14T09:00:00.000Z", "url": "https://innovationsfonden.dk/en/news/innovation-fund-denmark-opens-two-new" }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "det-eneste-slor-ai-har-provet",
+    "title": "Det eneste slør, AI-branchen faktisk har prøvet",
+    "thesis": "AI-branchen taler om Rawls' 'slør af uvidenhed' som legitimitetsideal, men det eneste sted, nogen har bygget noget slør-lignende for en AI-model, endte kun med cirka halvt overlap med forfatningen, selskabet selv træner sine modeller på.",
+    "horizon": "Ved næste offentliggjorte sammenlignelige AI-forfatningsproces",
+    "body": [
+      "Da Anthropic i 2023 lod omkring 1.000 amerikanere skrive en 'offentlig forfatning' til en sprogmodel via platformen Polis, var det tættest, AI-branchen er kommet på at bygge noget, der ligner Rawls' tankeeksperiment: principper, folk ville acceptere uden at vide, hvilken position de selv ville få. Anthropic bruger ikke selv ordet Rawls om forsøget — koblingen er min.",
+      "Den offentligt skrevne forfatning delte kun omkring 50 procent overlap med den, Anthropic selv havde skrevet og træner sine modeller på. Udkastet lagde markant mere vægt på upartiskhed og tilgængelighed for handicappede end selskabets eget. Spørger man faktisk, hvad folk bag et slør af uvidenhed ville vælge, får man ikke automatisk branchens eget svar.",
+      "Det gør ord som 'legitimitet' i AI-selskabers retorik efterprøveligt. Den ærlige test er ikke, om sproget lyder som Rawls, men om selskabet vil lade en uafhængig proces ændre, hvad det bygger — ikke kun hvad det siger."
+    ],
+    "uncertainty": "Min tese svækkes, hvis et laboratorium kører en tilsvarende proces igen og finder et overlap tæt på 100 procent — så var gabet støj, og pointen om en systematisk kløft mellem retorik og praksis holder ikke.",
+    "topics": ["ai", "governance", "filosofi"],
+    "claims": [
+      {
+        "text": "Anthropics Collective Constitutional AI-eksperiment fra 2023 involverede omkring 1.000 amerikanere via Polis-platformen og resulterede i en offentligt skrevet forfatning med omkring 50 procent overlap med Anthropics egen interne forfatning.",
+        "sourceUrls": ["https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input"],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      { "title": "Collective Constitutional AI: Aligning a Language Model with Public Input", "publisher": "Anthropic", "url": "https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input", "publishedAt": "2023-10-17T00:00:00.000Z", "kind": "primary" }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-ai-doc-apocaloptimist-20260817",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Dokumentarfilm",
+      "status": "available",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
+      "creator": "Daniel Roher, Charlie Tyrell",
+      "provider": "Focus Features / Peacock",
+      "url": "https://www.focusfeatures.com/the-ai-doc-or-how-i-became-an-apocaloptimist",
+      "availability": "Streaming på Peacock (USA) siden 15. maj 2026; tilgængelig digitalt til køb/leje andre steder",
+      "commitment": "1 t 44 min",
+      "description": "Oscar-vindende instruktør Daniel Roher (Navalny) udforsker AI's eksistentielle risici og løfter, mens han selv venter sit første barn. Filmen bygger på samtaler med ledende stemmer i AI-branchen, blev vist på Sundance i januar 2026 og fik biografpremiere 27. marts.",
+      "rationale": "Rammer direkte ind i dagens historie om Amodeis 'tillidskrise': her er en uafhængig instruktørs egen, uafklarede ambivalens over for AI, ikke endnu et branche-interview. Værd at se, fordi filmen insisterer på at holde håb og frygt sammen i stedet for at vælge side — en øvelse, der er sjældnere, end den lyder.",
+      "topics": ["ai", "film", "governance"],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/en/f/fc/The_AI_Doc%2C_Or_How_I_Became_an_Apocaloptimist_poster.jpg",
+        "credit": "Plakat: Focus Features",
+        "alt": "Officiel plakat for dokumentarfilmen The AI Doc: Or How I Became an Apocaloptimist",
+        "sourceUrl": "https://en.wikipedia.org/wiki/The_AI_Doc:_Or_How_I_Became_an_Apocaloptimist"
+      }
+    },
+    {
+      "id": "rec-jutel-network-state-antipode-20260817",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Akademisk artikel",
+      "status": "available",
+      "title": "The Network State, Exit, and the Political Economy of Venture Capital",
+      "creator": "Olivier Jutel",
+      "provider": "Antipode (Wiley)",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/anti.70069",
+      "commitment": "30-40 min",
+      "note": "En kritisk læsning af venturekapitalens 'exit'-logik og netværksstat-ideologien omkring Balaji Srinivasan — argumenterer for, at 'value creation'-fortællingen dækker over spekulativ territoriejagt.",
+      "topics": ["venturekapital", "politisk økonomi", "kritik"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-anthropic-collective-constitutional-ai-20260817",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Primærdokument",
+      "status": "classic",
+      "title": "Collective Constitutional AI: Aligning a Language Model with Public Input",
+      "provider": "Anthropic",
+      "url": "https://www.anthropic.com/news/collective-constitutional-ai-aligning-a-language-model-with-public-input",
+      "commitment": "15 min",
+      "note": "Anthropics eget 2023-eksperiment, hvor 1.000 amerikanere via Polis skrev en 'offentlig forfatning' til en AI-model — den delte kun ca. 50 pct. overlap med selskabets egen. Baggrunden for dagens klumme.",
+      "topics": ["ai", "governance", "demokrati"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-version2-singularitetsfeber-20260817",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Klumme",
+      "status": "new",
+      "title": "Singularitetsfeberen raser hos tech-topbosserne",
+      "creator": "Peter Christian Bech-Nielsen",
+      "provider": "Version2",
+      "url": "https://www.version2.dk/radar/holdning/singularitetsfeberen-raser-hos-tech-topbosserne",
+      "commitment": "8 min",
+      "note": "Dansk techredaktør om, hvorfor Silicondalens topchefer taler stadigt vildere om singulariteten — en nyttig, skeptisk lokal stemme til at holde op mod dagens Amodei-historie.",
+      "topics": ["ai", "danmark", "kritik"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-deepseek-harness-20260817",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Udviklerværktøj",
+      "status": "new",
+      "title": "DeepSeek Harness",
+      "provider": "DeepSeek AI (GitHub)",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "commitment": "30 min opsætning",
+      "note": "Open source AI-agent-harness under MIT-licens, hvor alt — modeller, værktøjer, hukommelse — er et udskifteligt plugin. Udviklerpreview, men konkret at prøve, ikke kun læse om.",
+      "topics": ["ai", "udvikling", "open source"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-arcee-nac-20260817",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Udviklerværktøj",
+      "status": "new",
+      "title": "NAC: Open-Source Harness for Long-Running Agent Work",
+      "provider": "Arcee AI (GitHub)",
+      "url": "https://github.com/arcee-ai/nac",
+      "commitment": "30 min opsætning",
+      "note": "Apache 2.0-licenseret orkestreringsværktøj til langvarige AI-agent-opgaver, bygget på en central planlægger og adskilte 'tråde' — en anden arkitektur end DeepSeeks til samme problem.",
+      "topics": ["ai", "udvikling", "open source"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-fusion-startups-100m-20260817",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Oversigtsartikel",
+      "status": "available",
+      "title": "Every fusion startup that has raised over $100M",
+      "creator": "Tim De Chant",
+      "provider": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/15/every-fusion-startup-that-has-raised-over-100m/",
+      "commitment": "10 min",
+      "note": "Løbende opdateret kortlægning af fusionsenergiens venturekapital-landskab — nyttig baggrund for at vurdere, om dagens deeptech-begejstring har substans bag sig.",
+      "topics": ["deeptech", "energi", "venturekapital"],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-forbes-four-ai-narratives-20260817",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "available",
+      "title": "The Four AI Narratives Splitting Venture Capital Right Now",
+      "creator": "Josipa Majic",
+      "provider": "Forbes",
+      "url": "https://www.forbes.com/sites/josipamajic/2026/08/07/the-four-ai-narratives-splitting-venture-capital-right-now/",
+      "commitment": "12 min",
+      "note": "Kortlægger de fire modstridende fortællinger, investorer bruger til at retfærdiggøre vidt forskellige AI-væddemål lige nu — nyttig til at spotte, hvilken fortælling der reelt driver et opkøb som dagens Stripe-OpenRouter.",
+      "topics": ["venturekapital", "ai", "strategi"],
+      "isFeatured": false
+    }
+  ],
+  "quality": { "sourceCoverage": 88, "freshness": 80, "novelty": 76, "perspectiveBalance": 88, "render": 100 }
+}
