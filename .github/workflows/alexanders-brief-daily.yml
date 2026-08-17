@@ -10,11 +10,11 @@ on:
     # Budget/attempt = 77 min delay tail + 145 min run = 222. 06:40 - 222 = 02:58 falls in the hour that
     # repeats each October, so the last usable start is 01:49 (+222 = 05:31). No :00/:30, none in 02:xx.
     # Three crons insure against a dropped trigger, not a slow run: a later cron queues behind it.
-    - cron: "37 0 * * *"
+    - cron: "43 4 * * *"
       timezone: "Europe/Copenhagen"
-    - cron: "13 1 * * *"
+    - cron: "29 5 * * *"
       timezone: "Europe/Copenhagen"
-    - cron: "49 1 * * *"
+    - cron: "07 6 * * *"
       timezone: "Europe/Copenhagen"
   workflow_dispatch:
     inputs:
@@ -146,6 +146,13 @@ jobs:
 
       # Nothing below trusts the agent. A missing floor/reach/echo key is a red run – the old gate could
       # not tell "clean" from "never ran"; turning one off is a dated edit here, never a silent absence.
+      # A dead image URL renders as an empty grey box. Prune before the gate so the
+      # gate and the renderer both see known-good images. Never fails the run.
+      - name: Prune dead story images
+        if: steps.guard.outputs.mode == 'full'
+        continue-on-error: true
+        run: npm run --silent prune:images -- "data/${DATE}/draft.json"
+
       - name: Quality gate (blocking)
         if: steps.cap.outputs.proceed == 'true'
         timeout-minutes: 15
