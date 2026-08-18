@@ -57,6 +57,14 @@
       "horizon": "Juli 2031, aflaest i PRIS01",
       "falsifier": "Afstanden mellem tjenester og varer i PRIS01 er uaendret eller mindre i juli 2031 end 11,5 procentpoint. Tesen svaekkes ogsaa, hvis frisoer, boernepasning og haandvaerkerarbejde holder op med at stige hurtigere end det samlede indeks tre aar i traek. Kontrolleres i Danmarks Statistiks tabel PRIS01.",
       "status": "open"
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "den-der-forbroed-sig-findes-ikke-laengere",
+      "claim": "Retspraksis vil gradvist tillaegge dokumenteret psykologisk diskontinuitet (hukommelsestab, personlighedsaendring efter hjerneskade) vaegt som formildende omstaendighed ved straf for forbrydelser begaaet mere end tredive aar tidligere, i takt med at Parfits reduktionistiske syn paa personidentitet bliver empirisk maalbart.",
+      "horizon": "Det kommende aartier, aflaest i domme og strafudmaalingsvejledninger for aartier-gamle sager",
+      "falsifier": "Domstole fortsaetter med at idoemme og fastholde tunge, rent gengaeldende straffe for forbrydelser over tredive aar gamle uden at lade dokumenteret psykologisk diskontinuitet taelle som formildende, i mindst et aartiende fremover.",
+      "status": "open"
     }
   ]
 }
