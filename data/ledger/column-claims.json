@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-08-20",
-      "slug": "jevons-paradoks-og-ai-strommen",
-      "claim": "Billigere AI-inferens vil oege, ikke mindske, det samlede globale elforbrug til AI-databehandling de kommende aar - Jevons paradoks slaar effektivitetsgevinsten.",
-      "horizon": "Naar et par aars elforbrugsdata fra datacentre foreligger",
-      "falsifier": "AI-relateret elforbrug bremser op eller falder, mens inferensprisen pr. token fortsat falder markant. Kontrolleres i IEA's aarlige Electricity-rapport (datacenterafsnittet) og i store cloud-udbyderes egne rapporterede elforbrugstal.",
+      "date": "2026-08-21",
+      "slug": "prognosemagerens-forspring",
+      "claim": "Gabet mellem de bedste AI-prognosesystemer og topmenneskelige superprognosemagere, malt til 0,026 i Brier-score i det oprindelige ForecastBench-benchmark, lukker til under 0,01 senest ved udgangen af 2027.",
+      "horizon": "Ved udgangen af 2027, aflaest paa ForecastBenchs egen liveliste",
+      "falsifier": "ForecastBenchs liveliste viser stadig et Brier-score-gab paa mindst 0,01 mellem det bedste system og superprognosemagerne ved udgangen af 2027.",
       "status": "open"
     }
   ]
