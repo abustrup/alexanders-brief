@@ -167,6 +167,7 @@ jobs:
         id: publish
         if: steps.guard.outputs.mode != 'done'
         env:
+          BRIEF_FEEDBACK_URL: ${{ secrets.BRIEF_API_URL }}
           GH_PUSH_TOKEN: ${{ github.token }}
           PAGES_REPO_DIR: ${{ github.workspace }}/pages
         run: bash scripts/ci-publish.sh "${{ steps.guard.outputs.date }}"
