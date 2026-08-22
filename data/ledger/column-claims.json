@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-08-21",
-      "slug": "prognosemagerens-forspring",
-      "claim": "Gabet mellem de bedste AI-prognosesystemer og topmenneskelige superprognosemagere, malt til 0,026 i Brier-score i det oprindelige ForecastBench-benchmark, lukker til under 0,01 senest ved udgangen af 2027.",
-      "horizon": "Ved udgangen af 2027, aflaest paa ForecastBenchs egen liveliste",
-      "falsifier": "ForecastBenchs liveliste viser stadig et Brier-score-gab paa mindst 0,01 mellem det bedste system og superprognosemagerne ved udgangen af 2027.",
+      "date": "2026-08-22",
+      "slug": "noerdoestpassagens-oekonomi",
+      "claim": "Nordøstpassagen forbliver en marginal containerrute mod 2030: sæsonvindue og forsikringspræmie sætter grænsen, ikke geopolitik.",
+      "horizon": "2030, aflæst i Rosatoms årlige NSR-trafiktal",
+      "falsifier": "Containervolumen på ruten vokser markant uden en usædvanlig mild is-sæson eller et forsikringsgennembrud. Kontrolleres i Rosatoms årlige NSR-trafikopgørelser og Copernicus' is-data.",
       "status": "open"
     }
   ]
