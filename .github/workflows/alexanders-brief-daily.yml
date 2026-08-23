@@ -151,6 +151,12 @@ jobs:
       - name: Resolve story images from their own articles
         if: steps.guard.outputs.mode == 'full'
         continue-on-error: true
+        env:
+          # DATE is not a job-wide variable in this workflow; every other step reads the
+          # date from the guard's output. Using ${DATE} here resolved to "data//draft.json"
+          # and the resolver no-opped silently on 2026-08-23, so no image work happened at
+          # all on the brief it was written for.
+          DATE: ${{ steps.guard.outputs.date }}
         run: npm run --silent prune:images -- "data/${DATE}/draft.json" --ledger=data/image-ledger.json
 
       - name: Quality gate (blocking)
