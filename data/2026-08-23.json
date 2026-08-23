@@ -1,0 +1,879 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-08-23-001",
+  "date": "2026-08-23",
+  "generatedAt": "2026-08-23T07:00:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "23. august 2026 — Iran, Anthropic, en robot der slår Bolt, og to danske sager regeringen ikke kan style forbi.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-iran-economic-dday-20260823",
+      "eventKey": "iran-economic-dday",
+      "materialFacts": [
+        "Bessent varsler 'de hårdeste sanktioner i historien' mod Iran fra mandag 24. august under navnet 'Operation Economic Fury'",
+        "Sanktionerne truer med sekundære sanktioner mod lande og selskaber der handler med Iran, herunder Kina og Indien som største aftagere af iransk olie",
+        "Iran afviser gennem udenrigsministeriets talsmand Esmail Baghaei ethvert pres"
+      ],
+      "section": "Geopolitik",
+      "headline": "Trump warns of 'economic D-Day' against Iran, but Tehran is well acquainted with sanctions",
+      "primarySourceUrl": "https://www.opb.org/article/2026/08/21/trump-warns-iran-economic-d-day-tehran-familiar-with-sanctions/",
+      "subheadline": "USA lancerer det, Trump-administrationen kalder et 'økonomisk D-dag' mod Iran, mens landet nægter at bøje sig efter et halvt års krig.",
+      "body": [
+        "Finansminister Scott Bessent har varslet 'de hårdeste sanktioner i historien' mod Iran fra på mandag, under navnet 'Operation Economic Fury'. Sanktionerne skal true med sekundære sanktioner mod lande og selskaber, der handler med Teheran — herunder Kina og Indien, Irans største olieaftagere.",
+        "Udmeldingen kommer et halvt år inde i krigen mellem USA/Israel og Iran, hvor olietransporten gennem Hormuzstrædet er gået i stå. Irans udenrigsministerium afviser presset: 'Iran har vist, at det ikke lader sig kvæle af disse udslidte påstande,' siger talsmand Esmail Baghaei."
+      ],
+      "whyItMatters": "Skiftet fra militær til økonomisk krigsførelse er en indrømmelse: seks måneder med luftangreb har ikke tvunget Iran til forhandlingsbordet. Presset rammer nu også Kina og Indien som Irans olieaftagere.",
+      "analysis": "Ali Vaez fra International Crisis Group kalder pres uden en åben dør 'en øvelse i frugtesløshed'. Iran forhandler samtidig med Oman om Hormuzstrædet, som ifølge iranske kilder først genåbner, når USA giver våbenhvile og sanktionslempelser.",
+      "counterpoint": "Irans parlamentsformand Ghalibaf vender truslen om: at Washington satser på økonomi frem for militærmagt, viser efter hans læsning, at USA ikke kan vinde krigen på slagmarken.",
+      "topics": [
+        "geopolitik",
+        "USA",
+        "Iran",
+        "sanktioner",
+        "makroøkonomi"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Scott Bessent",
+        "Esmail Baghaei",
+        "Iran",
+        "USA"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 70,
+        "novelty": 55,
+        "sourceQuality": 88,
+        "personalRelevance": 35,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Finansminister Scott Bessent har varslet 'de hårdeste sanktioner i historien' mod Iran fra mandag 24. august 2026 under betegnelsen 'Operation Economic Fury'.",
+          "sourceUrls": [
+            "https://www.opb.org/article/2026/08/21/trump-warns-iran-economic-d-day-tehran-familiar-with-sanctions/",
+            "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Irans udenrigsministeriums talsmand Esmail Baghaei afviser presset og kalder det en gentagelse af 'udslidte' metoder.",
+          "sourceUrls": [
+            "https://www.opb.org/article/2026/08/21/trump-warns-iran-economic-d-day-tehran-familiar-with-sanctions/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump warns of 'economic D-Day' against Iran, but Tehran is well acquainted with sanctions",
+          "publisher": "Associated Press / OPB",
+          "url": "https://www.opb.org/article/2026/08/21/trump-warns-iran-economic-d-day-tehran-familiar-with-sanctions/",
+          "publishedAt": "2026-08-21T14:30:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Iran criticizes US sanctions, calls it 'extraterritorial sovereignty'",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/08/22/iran-criticizes-us-sanctions-extraterritorial-sovereignty.html",
+          "publishedAt": "2026-08-22T09:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Top Iran official says U.S. focus on economic warfare shows it has failed militarily",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/08/21/nx-s1-5940610/iran-us-threat-economic-warfare",
+          "publishedAt": "2026-08-21T16:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Official_portrait_of_Treasury_Secretary_Scott_Bessent.jpg",
+        "credit": "USA's finansministerium",
+        "alt": "Scott Bessent, USA's finansminister, der har varslet nye sanktioner mod Iran",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Treasury_Secretary_Scott_Bessent.jpg"
+      }
+    },
+    {
+      "id": "story-anthropic-ipo-20260823",
+      "eventKey": "anthropic-ipo-spacex-record",
+      "materialFacts": [
+        "Anthropic arbejder mod en børsnotering der matcher eller overgår SpaceX' rekord, muligvis med indgivelse ved udgangen af august",
+        "Investorer forventer en årlig omsætning på 100-120 mia. dollar ved årets udgang",
+        "Anthropic køber regnekraft af SpaceX, så selskabet potentielt matcher en af sine egne leverandørers notering"
+      ],
+      "section": "AI & erhverv",
+      "headline": "Anthropic reportedly plans a $2 trillion IPO in October—the largest ever—that will eclipse SpaceX",
+      "primarySourceUrl": "https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/",
+      "subheadline": "Anthropic arbejder efter sigende mod en børsnotering, der matcher eller slår SpaceX' rekord — med mulig indgivelse allerede ved udgangen af august.",
+      "body": [
+        "Anthropic forbereder ifølge Financial Times en børsnotering ved udgangen af august, med en værdiansættelse omkring 2.000 mia. dollar. Det ville overgå SpaceX' rekord på 86,2 mia. dollar rejst i juni.",
+        "Investorer venter en årlig omsætning på 100-120 mia. dollar for Anthropic ved udgangen af 2026 — et tal selskabet ikke selv har bekræftet. Finansdirektør Krishna Rao har undveget spørgsmål om værdiansættelsen."
+      ],
+      "whyItMatters": "En børsnotering i den størrelsesorden ville gøre Anthropic til et af verdens mest værdifulde selskaber, endnu før det for alvor har vist overskud — et tegn på investorernes AI-appetit.",
+      "analysis": "Anthropic køber allerede regnekraft af SpaceX for potentielt tocifrede milliarder over tre år — så selskabet ville matche børsdebutten hos en af sine vigtigste leverandører.",
+      "topics": [
+        "AI",
+        "venturekapital",
+        "børsnotering",
+        "USA"
+      ],
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "SpaceX",
+        "Krishna Rao"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 65,
+        "novelty": 60,
+        "sourceQuality": 78,
+        "personalRelevance": 80,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Anthropic arbejder mod en børsnotering der matcher eller overgår SpaceX' rekord på ca. 86,2 mia. dollar, muligvis med indgivelse ved udgangen af august 2026.",
+          "sourceUrls": [
+            "https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/",
+            "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Investorer forventer ifølge Financial Times en årlig omsætning på 100-120 mia. dollar for Anthropic ved udgangen af 2026.",
+          "sourceUrls": [
+            "https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic reportedly plans a $2 trillion IPO in October—the largest ever—that will eclipse SpaceX",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/08/13/anthropic-ipo-2-trillion-october-largest-ever-spacex/",
+          "publishedAt": "2026-08-13T09:12:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic Expects to Match or Top SpaceX's Record IPO Size",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-20/anthropic-expects-to-match-spacex-s-record-ipo-size-or-top-it",
+          "publishedAt": "2026-08-20T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dario_Amodei_in_2023.jpg",
+        "credit": "Simon Walker / No 10 Downing Street (CC BY 2.0)",
+        "alt": "Dario Amodei, administrerende direktør for Anthropic",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg"
+      }
+    },
+    {
+      "id": "story-robot-beats-bolt-20260823",
+      "eventKey": "humanoid-robot-100m-record",
+      "materialFacts": [
+        "Robotten Lightning fra Honor løb 100 meter på 9,32 sekunder og slog Usain Bolts rekord på 9,58 sekunder",
+        "666 hold fra 16 lande med 2.056 robotter deltager i legene 22.-26. august i Beijing",
+        "En anden robot, Tiangong Ultra, satte samtidig ny rekord i højdespring på 2,88 meter"
+      ],
+      "section": "Videnskab & teknologi",
+      "headline": "Usain Bolt's 100m record broken at World Humanoid Robot Games",
+      "primarySourceUrl": "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games",
+      "subheadline": "Den kinesiske robot 'Lightning' løb 100 meter hurtigere end noget menneske nogensinde har gjort — ved en robotkonkurrence i Beijing med over 2.000 deltagende robotter.",
+      "body": [
+        "Robotten Lightning fra det kinesiske selskab Honor løb lørdag 100 meter på 9,32 sekunder ved World Humanoid Robot Games i Beijing og slog dermed Usain Bolts 17 år gamle rekord på 9,58 sekunder, med en tophastighed på 14,5 meter i sekundet.",
+        "Legene samler 666 hold fra 16 lande med 2.056 robotter i 51 discipliner fra 22. til 26. august, heriblandt klassisk atletik og kinesiske sportsgrene som taijiquan. Robotten Tiangong Ultra satte samtidig ny rekord i højdespring med 2,88 meter."
+      ],
+      "whyItMatters": "Rekorden viser, hvor hurtigt Kina flytter humanoide robotter fra forskningslaboratorier til et offentligt showcase for landets satsning på robotteknologi til industri og forbrugerprodukter.",
+      "analysis": "Sammenligningen med Bolt holder ikke ved eftersyn: en robot bygget til sprint kender hverken træthed eller skaderisiko — men Beijing bruger bevidst begivenheden til at vise teknologisk fremdrift.",
+      "topics": [
+        "robotteknologi",
+        "Kina",
+        "sport",
+        "AI"
+      ],
+      "entities": [
+        "Lightning",
+        "Honor",
+        "Usain Bolt",
+        "World Humanoid Robot Games"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 25,
+        "novelty": 85,
+        "sourceQuality": 72,
+        "personalRelevance": 20,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "Den kinesiske robot 'Lightning' fra Honor løb 100 meter på 9,32 sekunder ved World Humanoid Robot Games i Beijing 22. august 2026 og slog Usain Bolts rekord på 9,58 sekunder.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "666 hold fra 16 lande med i alt 2.056 robotter deltager i legene, som løber 22.-26. august 2026.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games",
+            "https://news.cgtn.com/news/2026-08-22/What-to-expect-as-second-World-Humanoid-Robot-Games-set-to-open-1POkO95wrWo/p.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Usain Bolt's 100m record broken at World Humanoid Robot Games",
+          "publisher": "Al Jazeera / Reuters",
+          "url": "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games",
+          "publishedAt": "2026-08-22T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "What to expect as 2nd World Humanoid Robot Games get underway",
+          "publisher": "CGTN",
+          "url": "https://news.cgtn.com/news/2026-08-22/What-to-expect-as-second-World-Humanoid-Robot-Games-set-to-open-1POkO95wrWo/p.html",
+          "publishedAt": "2026-08-22T06:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-08-22T110026Z_1489010015_RC2M3NAU6SAR_RTRMADP_3_CHINA-TECH-ROBOT-GAMES-1787396749.jpg?resize=770%2C513&quality=80",
+        "credit": "Florence Lo/Reuters",
+        "alt": "Humanoid robot der løber ved World Humanoid Robot Games i Beijing",
+        "sourceUrl": "https://www.aljazeera.com/sports/2026/8/22/usain-bolts-100m-record-broken-at-world-humanoid-robot-games"
+      }
+    },
+    {
+      "id": "story-dk-ukraine-refugee-20260823",
+      "eventKey": "dk-ukraine-saerlov-stramning",
+      "materialFacts": [
+        "Regeringen vil kun give midlertidigt ophold til ukrainere fra de 14 mest krigsramte regioner samt undtage mænd i mobiliseringsalder (23-60 år)",
+        "Cirka en tredjedel af de 48.000 ukrainere i danske kommuner kommer fra de nu undtagne regioner",
+        "Borgmestre som Britt Jensen kalder tiltaget utilstrækkeligt til at løse boligpresset"
+      ],
+      "section": "Indland",
+      "headline": "Regeringen strammer ukraineres adgang til Danmark. Men det løser ikke problemerne, siger borgmester",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/politik/regeringen-strammer-ukraineres-adgang-til-danmark-men-det-loeser-ikke-problemerne-siger-borgmester",
+      "subheadline": "Regeringen vil kun give midlertidigt ophold til ukrainere fra de mest krigshærgede regioner og udelukker mænd i mobiliseringsalder — kommuner siger, det ikke løser boligpresset.",
+      "body": [
+        "Regeringen vil fremover kun give ophold under Ukraine-loven til flygtninge fra 14 udpegede regioner, der er mest krigsramte. Samtidig udelukkes mænd i mobiliseringsalder, 23-60 år. Ændringen rammer ikke dem, der allerede har ophold.",
+        "Omkring en tredjedel af de 48.000 ukrainere i danske kommuner kommer fra de nu undtagne regioner. Minister Morten Bødskov (S) peger på boligmangel som begrundelse. Borgmester Britt Jensen (S), Rødovre: 'Det løser ikke de problemer, vi reelt har.'"
+      ],
+      "whyItMatters": "Strammelsen er endnu et skridt i en gradvis indsnævring af Ukraine-ordningen siden 2022, og rammer en gruppe, der ellers har haft lettere adgang til ophold end andre flygtninge.",
+      "analysis": "Uenigheden handler om to forskellige problemer: regeringen adresserer, hvem der kan komme til Danmark, mens kommunerne efterlyser løsninger på dem, der allerede er her.",
+      "topics": [
+        "indland",
+        "udlændingepolitik",
+        "Ukraine",
+        "danmark"
+      ],
+      "entities": [
+        "Morten Bødskov",
+        "Britt Jensen",
+        "Merete Amdisen",
+        "Danmark",
+        "Ukraine"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 40,
+        "novelty": 50,
+        "sourceQuality": 80,
+        "personalRelevance": 15,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Regeringen vil fremover kun give midlertidigt ophold til ukrainere fra de 14 mest krigsramte regioner og undtager mænd i mobiliseringsalder (23-60 år) fra særloven.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/regeringen-strammer-ukraineres-adgang-til-danmark-men-det-loeser-ikke-problemerne-siger-borgmester"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Cirka en tredjedel af de 48.000 ukrainere i danske kommuner kommer fra de nu undtagne regioner.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/regeringen-strammer-ukraineres-adgang-til-danmark-men-det-loeser-ikke-problemerne-siger-borgmester"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Regeringen strammer ukraineres adgang til Danmark. Men det løser ikke problemerne, siger borgmester",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/regeringen-strammer-ukraineres-adgang-til-danmark-men-det-loeser-ikke-problemerne-siger-borgmester",
+          "publishedAt": "2026-08-22T21:22:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/tinpo02b/20240221-145327-7-1920x1280web.jpg?im=AspectCrop%3D%28720%2C480%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28720%2C480%29",
+        "credit": "Foto: DR",
+        "alt": "Ukrainsk familie, der er flygtet fra det østlige Ukraine, i Danmark",
+        "sourceUrl": "https://www.dr.dk/nyheder/politik/regeringen-strammer-ukraineres-adgang-til-danmark-men-det-loeser-ikke-problemerne-siger-borgmester"
+      }
+    },
+    {
+      "id": "story-dk-arctic-ships-20260823",
+      "eventKey": "dk-arktiske-skibe-leverandoer",
+      "materialFacts": [
+        "573 dage efter politisk aftale om tre nye arktiske skibe er der stadig ikke fundet en leverandør; planen udvidede for 317 dage siden til fem skibe",
+        "Frederikshavn er udpeget som samlingssted for 202 dage siden, men ingen konkret tidsplan for byggeriet findes",
+        "Konservative Marcus Knuth kalder forløbet 'dybt pinligt for Danmark'"
+      ],
+      "section": "Forsvar",
+      "headline": "573 dage efter Forsvaret blev lovet nye skibe som erstatning for gamle problemramte, er der stadigvæk ikke fundet en leverandør",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/politik/573-dage-efter-forsvaret-blev-lovet-nye-skibe-som-erstatning-gamle-problemramte-er-der-stadigvaek",
+      "subheadline": "Over halvandet år efter den politiske aftale om nye arktiske skibe mangler Forsvaret stadig en leverandør, mens de nuværende skibe er over 30 år gamle.",
+      "body": [
+        "Det er nu 573 dage siden regering, landsstyre og forligspartier blev enige om tre nye arktiske skibe til at afløse Forsvarets aldrende inspektionsskibe. For 317 dage siden voksede planen til fem skibe med drift fra 2030, og Frederikshavn blev for 202 dage siden udpeget som samlingssted — men stadig ingen leverandør eller tidsplan.",
+        "'Det er jo dybt pinligt for Danmark,' siger konservative Marcus Knuth. Liberal Alliances Carsten Bach 'begræder det dybt'. Tillidsmand Niels Pihlblad kalder det 'meget trist', at besætningerne fortsat sejler i gamle skibe."
+      ],
+      "whyItMatters": "Skibene er over 30 år gamle og løser overvågning og eftersøgning omkring Grønland — en opgave blevet mere sikkerhedspolitisk central i takt med stormagternes interesse for Arktis.",
+      "analysis": "Sagen er et eksempel på en gentagen udfordring: politisk enighed om behovet følges ikke af hurtig udmøntning, mens begrundelsen for hastighed vokser.",
+      "topics": [
+        "forsvar",
+        "danmark",
+        "grønland",
+        "materiel"
+      ],
+      "entities": [
+        "Niels Pihlblad",
+        "Carsten Bach",
+        "Marcus Knuth",
+        "Forsvaret",
+        "Grønland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 35,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 15,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "573 dage efter den politiske aftale om tre nye arktiske skibe er der stadig ikke fundet en leverandør; planen blev for 317 dage siden udvidet til fem skibe, og Frederikshavn udpeget som samlingssted for 202 dage siden.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/573-dage-efter-forsvaret-blev-lovet-nye-skibe-som-erstatning-gamle-problemramte-er-der-stadigvaek"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "573 dage efter Forsvaret blev lovet nye skibe som erstatning for gamle problemramte, er der stadigvæk ikke fundet en leverandør",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/573-dage-efter-forsvaret-blev-lovet-nye-skibe-som-erstatning-gamle-problemramte-er-der-stadigvaek",
+          "publishedAt": "2026-08-23T05:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/v2uduhrx/mab-12970-1_crop001.jpg?im=AspectCrop%3D%28720%2C405%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28720%2C405%29",
+        "credit": "Foto: © Forsvaret",
+        "alt": "Forsvarets nuværende arktiske inspektionsskibe, som er over 30 år gamle",
+        "sourceUrl": "https://www.dr.dk/nyheder/politik/573-dage-efter-forsvaret-blev-lovet-nye-skibe-som-erstatning-gamle-problemramte-er-der-stadigvaek"
+      }
+    },
+    {
+      "id": "story-doj-a16z-20260823",
+      "eventKey": "doj-a16z-interlocking-boards",
+      "materialFacts": [
+        "Justitsministeriet undersøger efter et år, om a16z-partnere ulovligt sidder i bestyrelser for konkurrerende selskaber (Databricks og Fivetran) under Clayton-lovens paragraf 8",
+        "Ben Horowitz sidder i Databricks' bestyrelse, Martin Casado i Fivetrans; Fivetran fusionerede med dbt Labs i juni",
+        "En Columbia Law Review-analyse dokumenterer over 2.300 lignende bestyrelsesoverlap på tværs af økonomien"
+      ],
+      "section": "Venturekapital",
+      "headline": "DOJ's probe into Andreessen Horowitz over board seats baffles VCs",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+      "subheadline": "Justitsministeriet har i næsten et år undersøgt, om to a16z-partnere ulovligt sidder i bestyrelser for konkurrerende selskaber — en sjældent brugt, 112 år gammel lov er i spil.",
+      "body": [
+        "Justitsministeriet har i næsten et år undersøgt, om Andreessen Horowitz overtræder antitrustloven, fordi to partnere sidder i bestyrelser for selskaber, der nu konkurrerer. Ben Horowitz sidder i Databricks' bestyrelse, Martin Casado i Fivetrans.",
+        "Grundlaget er Clayton-lovens paragraf 8 om 'interlocking directorates' — et 112 år gammelt forbud mod at lede konkurrerende selskaber. Databricks overlapper nu med Fivetran efter fusionen med dbt Labs i juni. Fonde finder sagen overraskende, da selskaberne ikke konkurrerede, da a16z investerede."
+      ],
+      "whyItMatters": "Sagen rammer en udbredt praksis: store fonde sætter partnere i bestyrelser for flere selskaber i samme sektor. En Columbia Law Review-analyse dokumenterer over 2.300 bestyrelsesoverlap.",
+      "analysis": "Vinder ministeriet frem, kan det tvinge fonde som a16z til at vælge mellem bestyrelsesposter, der ender med at konkurrere.",
+      "topics": [
+        "venturekapital",
+        "AI",
+        "antitrust",
+        "USA"
+      ],
+      "entities": [
+        "Andreessen Horowitz",
+        "Ben Horowitz",
+        "Martin Casado",
+        "Databricks",
+        "Fivetran",
+        "Justice Department"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 55,
+        "novelty": 45,
+        "sourceQuality": 70,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Justitsministeriet har i næsten et år undersøgt, om a16z-partnerne Ben Horowitz og Martin Casado ulovligt sidder i bestyrelserne for de nu konkurrerende selskaber Databricks og Fivetran, jf. Clayton-lovens paragraf 8.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+            "https://www.bloomberg.com/news/articles/2026-08-17/andreessen-horowitz-focus-of-doj-probe-over-board-directors"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Databricks er værdisat til 190 mia. dollar, og Fivetran fusionerede med dbt Labs i juni 2026, hvorefter Databricks' produkt Lakeflow er begyndt at overlappe med Fivetrans kerneforretning.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "DOJ's probe into Andreessen Horowitz over board seats baffles VCs",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/18/dojs-probe-into-andreessen-horowitz-over-board-seats-baffles-vcs/",
+          "publishedAt": "2026-08-18T20:36:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Andreessen Horowitz Focus of DOJ Probe Over Board Directors",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-08-17/andreessen-horowitz-focus-of-doj-probe-over-board-directors",
+          "publishedAt": "2026-08-17T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Ben_Horowitz_%287973901788%29.jpg",
+        "credit": "Max Morse/Getty Images for TechCrunch (CC BY 2.0)",
+        "alt": "Ben Horowitz, medstifter af Andreessen Horowitz",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ben_Horowitz_(7973901788).jpg"
+      }
+    },
+    {
+      "id": "story-algoritmisk-leder-20260823",
+      "eventKey": "algoritmisk-leder-aerlighed-study",
+      "materialFacts": [
+        "Tre eksperimenter fra Zhejiang University finder, at medarbejdere er markant mere villige til at give ærlig, kritisk feedback til en algoritmisk end en menneskelig leder",
+        "Effekten medieres af oplevet retfærdighed og psykologisk tryghed, og gælder kun kognitive opgaver — ikke følelsesmæssige"
+      ],
+      "section": "Psykologi & AI",
+      "headline": "Why People Are More Honest With AI Than Their Own Boss",
+      "primarySourceUrl": "https://www.psychologytoday.com/us/blog/cell-on-the-self/202607/why-people-are-more-honest-with-ai-than-their-own-boss",
+      "subheadline": "Et nyt studie finder, at medarbejdere er markant mere ærlige over for en algoritmisk leder end en menneskelig — men kun ved beslutninger, ikke ved følelsesmæssige spørgsmål.",
+      "body": [
+        "Tre eksperimenter fra Zhejiang University, i Scientific Reports, finder, at medarbejdere er markant mere villige til at give ærlig, kritisk feedback til en algoritmisk leder end en menneskelig, ved beslutninger. Effekten forsvinder helt ved følelsesmæssige opgaver.",
+        "Forskerne sporer effekten til, at medarbejderne oplever algoritmiske ledere som mere retfærdige, hvilket giver psykologisk tryghed — og dermed mere ærlig kommunikation. Studiet bygger på kontrollerede eksperimenter, ikke rigtige arbejdspladser."
+      ],
+      "whyItMatters": "Resultatet rammer midt i en periode, hvor virksomheder eksperimenterer med AI i beslutningsstøtte. Holder effekten, kan algoritmisk ledelse hente information, som menneskelige ledere går glip af.",
+      "analysis": "Skellet mellem kognitive og følelsesmæssige opgaver er forbeholdet: et fund om, hvornår retfærdighedsopfattelse slår igennem — en oplevelse hos medarbejderen, ikke systemet selv.",
+      "topics": [
+        "psykologi",
+        "AI",
+        "arbejdsliv"
+      ],
+      "entities": [
+        "Zhejiang University",
+        "Wang, S.",
+        "Scientific Reports"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 50,
+        "novelty": 70,
+        "sourceQuality": 65,
+        "personalRelevance": 55,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Tre eksperimenter fra Zhejiang University (Wang, Sun, Ni, Wu & Hu, 2026, Scientific Reports) finder, at medarbejdere er markant mere villige til at give ærlig, kritisk feedback til en algoritmisk end en menneskelig leder ved kognitive opgaver, medieret af oplevet retfærdighed og psykologisk tryghed.",
+          "sourceUrls": [
+            "https://www.psychologytoday.com/us/blog/cell-on-the-self/202607/why-people-are-more-honest-with-ai-than-their-own-boss",
+            "https://doi.org/10.1038/s41598-026-61031-6"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Why People Are More Honest With AI Than Their Own Boss",
+          "publisher": "Psychology Today",
+          "url": "https://www.psychologytoday.com/us/blog/cell-on-the-self/202607/why-people-are-more-honest-with-ai-than-their-own-boss",
+          "publishedAt": "2026-08-19T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Employees show greater willingness to voice toward algorithmic than human leaders in cognitive tasks through fairness perception and psychological safety",
+          "publisher": "Scientific Reports",
+          "url": "https://doi.org/10.1038/s41598-026-61031-6",
+          "publishedAt": "2026-08-01T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-inherent-faraday-20260823",
+      "eventKey": "inherent-labs-faraday-replication",
+      "materialFacts": [
+        "Inherent Labs' agent Faraday, bygget på en 27 mia.-parameter Qwen 3.6-model, overgik Claude Opus 4.8 og GPT-5.5 i at genskabe videnskabelige resultater",
+        "Selskabet rejste i august en seed-runde på 50 mio. dollar med Index Ventures, Radical Ventures og Nvidias NVentures"
+      ],
+      "section": "AI & forskning",
+      "headline": "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at replicating research",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "subheadline": "Det London-baserede AI-selskab Inherent Labs oplyser, at dets agent Faraday har slået langt større modeller fra Anthropic og OpenAI i at genskabe videnskabelige resultater.",
+      "body": [
+        "Inherent Labs, grundlagt af tidligere DeepMind-forskere, oplyser, at agenten Faraday har overgået Claude Opus 4.8 og GPT-5.5 i at genskabe resultater fra videnskabelige artikler uden facit på forhånd. Faraday kører på en langt mindre model — en 27 mia.-parameter udgave af Qwen 3.6.",
+        "Selskabet rejste i august 50 mio. dollar fra Index Ventures og Radical Ventures. Metoden kombinerer reinforcement learning med det, medstifter Edward Hughes kalder 'forskningssmag'. Claimet er ikke uafhængigt efterprøvet."
+      ],
+      "whyItMatters": "Holder resultatet ved efterprøvning, peger det på, at specialiserede, mindre modeller kan konkurrere med langt større modeller — mod antagelsen om, at mere regnekraft altid vinder.",
+      "analysis": "Selskabets egen sammenligning bør læses med forbehold: benchmarks designet af den part, der vinder dem, er svære at stole fuldt på. AI-agenter som forskningsassistenter er dog et af de mest udforskede spor lige nu.",
+      "topics": [
+        "AI",
+        "forskning",
+        "venturekapital"
+      ],
+      "entities": [
+        "Inherent Labs",
+        "Edward Hughes",
+        "Faraday",
+        "Anthropic",
+        "OpenAI",
+        "Qwen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 55,
+        "novelty": 75,
+        "sourceQuality": 68,
+        "personalRelevance": 80,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Inherent Labs' agent Faraday, bygget på en 27 mia.-parameter Qwen 3.6-model, overgik ifølge selskabet selv Claude Opus 4.8 og GPT-5.5 i opgaven at genskabe resultater fra publicerede videnskabelige artikler uden facit på forhånd. Claimet er endnu ikke uafhængigt efterprøvet.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Inherent Labs, grundlagt af tidligere DeepMind-forskere, rejste i august 2026 en seed-runde på 50 mio. dollar ledet af Index Ventures og Radical Ventures med deltagelse fra Nvidias NVentures.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+            "https://sifted.eu/articles/inherent-ai-funding-round-index-matt-clifford"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Inherent, founded by DeepMind alumni, says its AI 'teammate' just outperformed Anthropic and OpenAI at replicating research",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+          "publishedAt": "2026-08-22T19:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ex-DeepMind researchers raise $50m for AI science startup Inherent",
+          "publisher": "Sifted",
+          "url": "https://sifted.eu/articles/inherent-ai-funding-round-index-matt-clifford",
+          "publishedAt": "2026-08-04T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Ukrainian drones hit warehouse belonging to Russian online retailer Ozon for the first time",
+      "headline": "Ukrainian drones hit warehouse belonging to Russian online retailer Ozon for the first time",
+      "url": "https://euromaidanpress.com/2026/08/22/ukraine-drones-ozon-warehouse-first-strike/",
+      "publisher": "Euromaidan Press",
+      "section": "Geopolitik",
+      "publishedAt": "2026-08-22T08:00:00Z",
+      "summary": "Ukrainske droner ramte for første gang et lager tilhørende Ruslands næststørste netbutik Ozon i Samara-regionen og udvidede dermed kampagnen mod russisk e-handelslogistik fra markedslederen Wildberries."
+    },
+    {
+      "text": "Swedish police probe online networks after teenage girl killed in school sword attack",
+      "headline": "Swedish police probe online networks after teenage girl killed in school sword attack",
+      "url": "https://www.usnews.com/news/world/articles/2026-08-22/swedish-police-probe-online-networks-after-teenage-girl-killed-in-school-sword-attack",
+      "publisher": "US News (AP)",
+      "section": "Indland",
+      "publishedAt": "2026-08-22T00:00:00Z",
+      "summary": "Politiet undersøger, om den 18-årige gerningsmand bag sværdangrebet i Fagersta var del af online-fællesskaber, der fremmer skolevold, efter en TikTok-konto delte et sværdbillede 20 minutter før angrebet."
+    },
+    {
+      "text": "India Leaves the Door Ajar for China's Investors",
+      "headline": "India Leaves the Door Ajar for China's Investors",
+      "url": "https://finance.yahoo.com/economy/policy/articles/india-leaves-door-ajar-china-123300050.html",
+      "publisher": "Yahoo Finance / Bloomberg",
+      "section": "Makroøkonomi",
+      "publishedAt": "2026-08-22T12:33:00Z",
+      "summary": "Indien signalerer en mere åben holdning til kinesiske investorer efter flere års restriktioner indført efter grænsesammenstød i 2020."
+    },
+    {
+      "text": "Regeneron drug for ultra-rare bone disease wins approval",
+      "headline": "Regeneron drug for ultra-rare bone disease wins approval",
+      "url": "https://www.statnews.com/2026/08/19/regeneron-fop-garetosmab-fda-approval-pasatru/",
+      "publisher": "STAT News",
+      "section": "Biotek",
+      "publishedAt": "2026-08-19T00:00:00Z",
+      "summary": "FDA godkendte Regenerons garetosmab (Pasatru) mod den sjældne knoglesygdom FOP, som i et 56-ugers studie reducerede ny forbening med op til 94 pct. sammenlignet med placebo."
+    },
+    {
+      "text": "Attack on Nigeria's Plateau state village kills at least 25",
+      "headline": "Attack on Nigeria's Plateau state village kills at least 25",
+      "url": "https://www.aljazeera.com/africa/",
+      "publisher": "Al Jazeera",
+      "section": "Afrika",
+      "publishedAt": "2026-08-22T10:00:00Z",
+      "summary": "Mindst 25 mennesker blev dræbt i et angreb på en landsby i Nigerias Plateau-delstat, i den fortsatte konflikt mellem bønder og kvægnomader i regionen."
+    },
+    {
+      "text": "Zambia opposition leader sues to overturn election result after 'vote fraud' claims",
+      "headline": "Zambia opposition leader sues to overturn election result after 'vote fraud' claims",
+      "url": "https://www.theafricareport.com/428154/mundubile-takes-hichilema-victory-to-court-as-zambia-tensions-deepen/",
+      "publisher": "The Africa Report",
+      "section": "Politik",
+      "publishedAt": "2026-08-19T00:00:00Z",
+      "summary": "Oppositionsleder Brian Mundubile anlægger sag for at omstøde Hichilemas valgsejr og hævder 'alvorlige uregelmæssigheder' i optælling og transmission af stemmer."
+    },
+    {
+      "text": "OpenAI says California should strengthen its AI safety bill",
+      "headline": "OpenAI says California should strengthen its AI safety bill",
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "publisher": "TechCrunch",
+      "section": "AI-regulering",
+      "publishedAt": "2026-08-22T00:00:00Z",
+      "summary": "OpenAI opfordrer Californien til at stramme AI-sikkerhedsloven SB 53 og vender dermed sin egen position fra modstand i 2024 til nu at ville udvide loven."
+    },
+    {
+      "text": "China Releases Key Economic Data and Policy Updates in August 2026",
+      "headline": "China Releases Key Economic Data and Policy Updates in August 2026",
+      "url": "https://www.kucoin.com/news/flash/china-releases-key-economic-data-and-policy-updates-in-august-2026",
+      "publisher": "KuCoin News",
+      "section": "Makroøkonomi",
+      "publishedAt": "2026-08-22T00:00:00Z",
+      "summary": "Kinas samlede sociale finansiering faldt 1,74 billioner yuan i de første syv måneder af 2026 sammenlignet med samme periode sidste år, mens bred pengemængde (M2) steg 7,7 pct. år-til-år i juli."
+    },
+    {
+      "text": "United States Initial Jobless Claims",
+      "headline": "United States Initial Jobless Claims",
+      "url": "https://tradingeconomics.com/united-states/jobless-claims",
+      "publisher": "Trading Economics",
+      "section": "Makroøkonomi",
+      "publishedAt": "2026-08-21T12:30:00Z",
+      "summary": "Amerikanske ugentlige førstegangsansøgninger om ledighedsunderstøttelse faldt til 206.000 for ugen der endte 15. august, ned fra 212.000 ugen før."
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "det-forhaandsaftalte-nederlag",
+    "title": "Teorien, der ikke tabte",
+    "thesis": "IIT bestod sin egen 2025-test ved at sænke kravet, ikke ved at indfri det.",
+    "horizon": "Næste forhåndsaftalte konsciens-test",
+    "body": [
+      "Synkroniseringen bagtil udeblev i 2025-testen; fortalerne beholdt teorien i en svagere udgave."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis den næste forhåndsaftalte adversarial test finder den oprindelige, ikke-nedskrevne forudsigelse bekræftet, eller hvis feltet holder fortalerne til den skarpe 2025-version i stedet for den svagere.",
+    "topics": [
+      "bevidsthed",
+      "videnskabsteori",
+      "AI-filosofi"
+    ],
+    "claims": [
+      {
+        "text": "Cogitate-konsortiets forhåndsregistrerede adversarial test (Nature, 2025) fandt ikke den vedvarende synkronisering i bagerste hjernebark, som integreret informationsteori havde forudsagt som forudsætning for bevidsthed.",
+        "sourceUrls": [
+          "https://www.nature.com/articles/s41586-025-08888-1"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-025-08888-1",
+        "publishedAt": "2025-04-30T00:00:00Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-mazzucato-common-good-economy-20260823",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "interview",
+      "status": "timely",
+      "title": "Mariana Mazzucato, rockstar economist",
+      "creator": "Mariana Mazzucato / Oli Dugmore",
+      "provider": "New Statesman",
+      "url": "https://www.newstatesman.com/ns-interview/2026/06/mariana-mazzucato-rockstar-economist",
+      "availability": "Frit tilgængelig, ingen betalingsmur",
+      "commitment": "15 min læsning",
+      "description": "Interview med økonomen bag The Entrepreneurial State og Mission Economy, i anledning af hendes nye bog The Common Good Economy, om hvorfor stater der tager risiko også skal dele gevinsten med borgerne.",
+      "rationale": "Han queuede selv Mazzucatos to hovedværker en måned før sin start hos EIFO, en statslig investeringsfond bygget på præcis den præmis, denne samtale forsvarer. Her retter hun selv en politikers fejllæsning af sin egen teori — et konkret, efterprøveligt uenighedspunkt, ikke en opsummering.",
+      "topics": [
+        "økonomi",
+        "venturekapital",
+        "EIFO",
+        "statslig kapital"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Mariana_Mazzucato.jpg",
+        "credit": "AlexTaffetani (CC BY 3.0)",
+        "alt": "Mariana Mazzucato, økonom og forfatter til The Entrepreneurial State",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mariana_Mazzucato.jpg"
+      }
+    },
+    {
+      "id": "rec-sandel-justice-harvard",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "forelæsningsrække",
+      "status": "classic",
+      "title": "Justice — Episode 1: The Moral Side of Murder",
+      "creator": "Michael J. Sandel",
+      "provider": "Harvard University",
+      "url": "https://justiceharvard.org/themoralsideofmurder/",
+      "availability": "Frit tilgængelig, ingen login",
+      "commitment": "~50 min for episode 1, hele rækken er 12 episoder",
+      "note": "Argumenterer mod noget i profilen: at ingen fortjener de talenter, der gør præstation mulig — en analytisk/Rawlsiansk tradition, hans læseliste helt mangler, i det format (forelæsning) han ser mest af og aldrig har fået anbefalet.",
+      "topics": [
+        "filosofi",
+        "Rawls",
+        "retfærdighed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-wotr-economic-war-intelligence",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "timely",
+      "title": "Fighting an Economic War Without Fused Intelligence",
+      "creator": "Karyn Eliot, Jennifer Buss",
+      "provider": "War on the Rocks",
+      "url": "https://warontherocks.com/fighting-an-economic-war-without-fused-intelligence/",
+      "availability": "Frit tilgængelig",
+      "commitment": "~12 min læsning",
+      "note": "Forklarer den strukturelle brist — adskilte efterretnings- og selskabskanaler — der ligger bag dagens Iran-sanktioner, og gør 'Operation Economic Fury' til andet end en overskrift.",
+      "topics": [
+        "geopolitik",
+        "økonomisk krigsførelse",
+        "Iran"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-columbia-anticompetitive-directors",
+      "tier": "short",
+      "mode": "read",
+      "kind": "akademisk artikel",
+      "status": "timely",
+      "title": "Anticompetitive Directors",
+      "creator": "Lane Miles, Mark A. Lemley, Rory Van Loo",
+      "provider": "Columbia Law Review",
+      "url": "https://columbialawreview.org/content/anticompetitive-directors/",
+      "availability": "Gratis PDF",
+      "commitment": "~25 min læsning",
+      "note": "Det empiriske og juridiske grundlag — 2.309 dokumenterede bestyrelsesoverlap — bag dagens DOJ-sag mod a16z.",
+      "topics": [
+        "venturekapital",
+        "antitrust",
+        "jura"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-venice-film-festival-2026",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "filmfestival",
+      "status": "upcoming",
+      "title": "Biennale Cinema 2026 — 83. Venedig Filmfestival",
+      "provider": "La Biennale di Venezia",
+      "url": "https://www.labiennale.org/en/cinema/2026",
+      "availability": "Åbner 2. september 2026, billetter fra 27. august",
+      "commitment": "Festival 2.-12. september",
+      "note": "Åbner med Danny Boyles 'Ink' om Murdochs Sun-opkøb — mediemagt som tema, en oplagt serendipitet-post uden nyhedstilknytning i dag.",
+      "topics": [
+        "film",
+        "kultur"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-oddlots-iran-economy",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcastafsnit",
+      "status": "timely",
+      "title": "How the Iranian Economy Actually Works",
+      "creator": "Yeganeh Torbati, Bozorgmehr Sharafedin",
+      "provider": "Bloomberg Odd Lots",
+      "url": "https://open.spotify.com/episode/4EReHGk7eErYEVbXIUlJWd",
+      "availability": "Gratis på Spotify og øvrige podcastplatforme",
+      "commitment": "57 min",
+      "note": "To Iran-fokuserede journalister forklarer, hvordan sanktioner reelt lander i Irans økonomi — direkte baggrund til dagens forsidehistorie.",
+      "topics": [
+        "Iran",
+        "makroøkonomi",
+        "geopolitik"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorialConfidence": 78,
+    "sourceDiversity": 80,
+    "verificationDepth": 65
+  }
+}
