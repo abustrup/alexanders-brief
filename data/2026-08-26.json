@@ -1,0 +1,800 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-08-26-ci",
+  "date": "2026-08-26",
+  "generatedAt": "2026-08-26T04:30:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief - 26. august 2026",
+  "dek": "Værnepligtige på Grønland, et lækket Venstre-udspil, dansk datacenter-kapital, AI-markedsdata, en CIA-chef i Moskva, en toldkrig mellem Canada og USA, japansk kvantecomputing og en sukkerfabriks sidste kampagne.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-dk-vaernepligt-groenland",
+      "eventKey": "dk-vaernepligt-groenland-arctic-endurance",
+      "materialFacts": [
+        "Værnepligtige indgår for første gang i nyere tid i en øvelse i Grønland",
+        "Holdet er det første på Danmarks nye 11-måneders værnepligtsmodel",
+        "Øvelsen hedder Arctic Endurance og involverer samarbejde med grønlandske kolleger"
+      ],
+      "section": "Danmark",
+      "headline": "Værnepligtige soldater på øvelse i Grønland",
+      "primarySourceUrl": "https://www.forsvaret.dk/da/nyheder/2026/varnepligtige-soldater-pa-ovelse-i-gronland/",
+      "subheadline": "For første gang i nyere tid indgår værnepligtige i en øvelse på grønlandsk jord, som led i Danmarks nye 11-måneders værnepligt",
+      "body": [
+        "Et hold værnepligtige fra Slesvigske Fodregiment er i august rejst til Grønland for at deltage i øvelsen Arctic Endurance sammen med grønlandske kolleger. Det er første gang i nyere tid, at værnepligtige indgår i en øvelse på grønlandsk jord, og holdet er samtidig det første på Danmarks nye, forlængede værnepligt på elleve måneder.",
+        "Forsvarsminister Jeppe Bruus siger, at den nye værnepligt skal sikre, at værnepligtige kan bidrage til Forsvarets operationer, herunder i Grønland, og dermed styrke sikkerhed og afskrækkelse. De skal løse opgaver på linje med andre udsendte enheder i et terræn, ingen af dem kender hjemmefra."
+      ],
+      "whyItMatters": "At sende værnepligtige til Grønland er en praktisk test af, om den forlængede værnepligt giver Forsvaret flere hænder til en mere permanent tilstedeværelse i Arktis, mens USA's interesse for Grønland gør dansk tilstedeværelse til et politisk såvel som militært spørgsmål.",
+      "analysis": "Øvelsen løser ikke alene Forsvarets bemandingsproblem i Grønland, men viser en vej: kan værnepligtige indgå i operativ tjeneste dér, bliver rotationsbyrden på de faste besætninger mindre afhængig af frivillige. Om modellen holder, ses først, når flere hold har gennemført et helt rotationsår.",
+      "topics": [
+        "forsvar",
+        "danmark",
+        "grønland",
+        "værnepligt",
+        "arktis"
+      ],
+      "entities": [
+        "Forsvaret",
+        "Slesvigske Fodregiment",
+        "Grønland",
+        "Jeppe Bruus"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 55,
+        "novelty": 82,
+        "sourceQuality": 70,
+        "personalRelevance": 80,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Et hold værnepligtige fra Slesvigske Fodregiment deltager for første gang i nyere tid i en øvelse i Grønland (Arctic Endurance)",
+          "sourceUrls": [
+            "https://www.forsvaret.dk/da/nyheder/2026/varnepligtige-soldater-pa-ovelse-i-gronland/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "De deltagende værnepligtige er det første hold på Danmarks nye 11-måneders værnepligtsmodel, indledt februar 2026",
+          "sourceUrls": [
+            "https://www.forsvaret.dk/da/nyheder/2026/varnepligtige-soldater-pa-ovelse-i-gronland/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Værnepligtige soldater på øvelse i Grønland",
+          "publisher": "Forsvaret",
+          "url": "https://www.forsvaret.dk/da/nyheder/2026/varnepligtige-soldater-pa-ovelse-i-gronland/",
+          "publishedAt": "2026-06-23T17:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://www.forsvaret.dk/globalassets/fko---forsvaret/billeder/billeder-til-nyheder/artikel/2026/06-juni/artikel/-fsvdkuntitled0f4a4886-2026-artikel.jpg",
+        "credit": "Kilde: Forsvaret",
+        "alt": "Værnepligtige soldater på øvelse i Grønland",
+        "sourceUrl": "https://www.forsvaret.dk/da/nyheder/2026/varnepligtige-soldater-pa-ovelse-i-gronland/"
+      }
+    },
+    {
+      "id": "story-venstre-statsborgerskab",
+      "eventKey": "venstre-statsborgerskab-forslag",
+      "materialFacts": [
+        "Venstre overvejede internt et årligt loft på ca. 250 statsborgerskaber til ansøgere med ikke-vestlig baggrund",
+        "Partiet droppede forslaget før det officielle udspil ved sommergruppemødet",
+        "Et separat 'karaktervidne'-forslag blev også droppet"
+      ],
+      "section": "Danmark",
+      "headline": "Kontroversielt forslag havnede ved en fejl hos DR: Venstre skrottede to vidtgående strammer-forslag",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/politik/kontroversielt-forslag-havnede-ved-en-fejl-hos-dr-venstre-skrottede-vidtgaaende-strammer-forslag",
+      "subheadline": "Interne dokumenter viser, at Venstre overvejede et årligt loft på 250 statsborgerskaber til ansøgere med ikke-vestlig baggrund, før forslaget blev droppet",
+      "body": [
+        "DR fik ved en fejl et internt Venstre-dokument, partiet ville slette inden sit udspil om statsborgerskab. Det viser, Venstre har diskuteret et loft på ca. 250 årlige statsborgerskaber til ansøgere med ikke-vestlig baggrund.",
+        "Et andet forkastet forslag var 'karaktervidner': danske statsborgere, der med underskrift skulle bekræfte, at en ansøger støtter Danmark, før pas kunne udstedes. Gruppeformand Morten Dahlin kalder forslagene 'ikke færdigbehandlede'."
+      ],
+      "whyItMatters": "At et regeringsbærende parti har haft et etnicitetsbaseret loft på bordet, selvom det blev droppet, viser hvor bredt strammerdiskussionen i blå blok rækker internt - og rejser spørgsmålet om, hvad der ellers sorteres fra.",
+      "analysis": "Sagen siger mindre om Venstres endelige politik, stadig ukendt, og mere om at den interne diskussion er bredere end det, der når en pressekonference. Hvor meget der er skrottet, ses først, når udspillet ligger færdigt.",
+      "topics": [
+        "indland",
+        "politik",
+        "udlændingepolitik",
+        "danmark"
+      ],
+      "entities": [
+        "Venstre",
+        "Morten Dahlin",
+        "Troels Lund Poulsen",
+        "DR"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 50,
+        "novelty": 75,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Venstre overvejede internt et loft på ca. 250 statsborgerskaber om året for ansøgere med ikke-vestlig baggrund, men forslaget blev droppet før partiets officielle udspil",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/kontroversielt-forslag-havnede-ved-en-fejl-hos-dr-venstre-skrottede-vidtgaaende-strammer-forslag"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kontroversielt forslag havnede ved en fejl hos DR: Venstre skrottede to vidtgående strammer-forslag",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/kontroversielt-forslag-havnede-ved-en-fejl-hos-dr-venstre-skrottede-vidtgaaende-strammer-forslag",
+          "publishedAt": "2026-08-24T18:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/2kfbgyza/20260821-133738-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Kontroversielt forslag havnede ved en fejl hos DR: Venstre skrottede to vidtgående strammer-forslag",
+        "sourceUrl": "https://www.dr.dk/nyheder/politik/kontroversielt-forslag-havnede-ved-en-fejl-hos-dr-venstre-skrottede-vidtgaaende-strammer-forslag"
+      }
+    },
+    {
+      "id": "story-ddc1-datacenter-esbjerg",
+      "eventKey": "ddc1-datacenter-esbjerg",
+      "materialFacts": [
+        "Byggeriet af det danskejede datacenter DDC1 i Esbjerg er begyndt",
+        "Ejerkredsen er PensionDanmark, Thylander og CIP",
+        "Overskudsvarme skal indgå i det lokale fjernvarmenet via DIN Forsyning"
+      ],
+      "section": "Erhverv",
+      "headline": "CIP and Thylander start construction of energy-integrated data centre in Denmark backed by PensionDanmark",
+      "primarySourceUrl": "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/cip-and-thylander-start-construction-of-energy-integrated-data-centre-in-denmark-backed-by-pensiondanmark/2405091",
+      "subheadline": "Byggeriet af det danskejede Dansk Data Center 1 i Esbjerg er i gang, med overskudsvarme til det lokale fjernvarmenet",
+      "body": [
+        "Copenhagen Infrastructure Partners, Thylander og PensionDanmark bygger Dansk Data Center 1 (DDC1) i Esbjerg - et af de første større datacentre, der er helt dansk ejet. Thylander driver anlægget, PensionDanmark er ledende investor.",
+        "Projektet skal gøre centret til en del af energisystemet, ikke blot en stor forbruger: udviklerne samarbejder med DIN Forsyning om overskudsvarme til fjernvarmen."
+      ],
+      "whyItMatters": "Datacentre driver presset på det danske elnet - Energinet har sat nye nettilslutninger på pause, fordi ansøgninger langt overstiger nettets kapacitet. DDC1 viser, hvordan et anlæg kan bygges ind i lokal infrastruktur frem for at stå uden for den.",
+      "analysis": "At det er dansk pensionskapital og ikke en amerikansk hyperscaler, der ejer anlægget, betyder, at beslutninger om varmegenbrug træffes i Danmark. Om modellen kan skaleres til AI-efterspørgslens kapacitet, ses først, når flere anlæg er bygget.",
+      "topics": [
+        "energi",
+        "datacenter",
+        "investering",
+        "danmark",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Copenhagen Infrastructure Partners",
+        "Thylander Group",
+        "PensionDanmark",
+        "DIN Forsyning"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 65,
+        "novelty": 60,
+        "sourceQuality": 60,
+        "personalRelevance": 85,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Byggeriet af et helt danskejet datacenter (DDC1) i Esbjerg er i gang, ejet af PensionDanmark, Thylander og CIP",
+          "sourceUrls": [
+            "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/cip-and-thylander-start-construction-of-energy-integrated-data-centre-in-denmark-backed-by-pensiondanmark/2405091"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "CIP and Thylander start construction of energy-integrated data centre in Denmark backed by PensionDanmark",
+          "publisher": "Manila Times / GlobeNewswire",
+          "url": "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/cip-and-thylander-start-construction-of-energy-integrated-data-centre-in-denmark-backed-by-pensiondanmark/2405091",
+          "publishedAt": "2026-08-13T09:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://manilatimes.net/manilatimes/uploads/images/2026/08/13/1176172.png",
+        "credit": "Kilde: Manila Times / GlobeNewswire",
+        "alt": "CIP and Thylander start construction of energy-integrated data centre in Denmark backed by PensionDanmark",
+        "sourceUrl": "https://www.manilatimes.net/2026/08/13/tmt-newswire/globenewswire/cip-and-thylander-start-construction-of-energy-integrated-data-centre-in-denmark-backed-by-pensiondanmark/2405091"
+      }
+    },
+    {
+      "id": "story-anthropic-openai-marketshare",
+      "eventKey": "anthropic-openai-enterprise-market-share",
+      "materialFacts": [
+        "Ramp-data viser Anthropics andel af amerikansk virksomheds-AI-forbrug steg fra 41% til ca. 44% maj-juli",
+        "OpenAI steg fra 39% til ca. 40% i samme periode, men vokser hurtigere i Q3",
+        "Andelen af Ramp-kunder der betaler for AI-tjenester nåede knap 56% i juli"
+      ],
+      "section": "Teknologi",
+      "headline": "OpenAI is gaining on Anthropic with business users, new data indicates",
+      "primarySourceUrl": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+      "subheadline": "Nye data fra betalingsplatformen Ramp viser, at OpenAI vokser hurtigere end Anthropic blandt amerikanske virksomhedskunder i tredje kvartal",
+      "body": [
+        "Ramp, der behandler betalinger for 70.000 amerikanske virksomheder, målte Anthropics andel af AI-forbruget stige fra 41 til ca. 44 procent fra maj til juli, mens OpenAI gik fra 39 til ca. 40 procent - men vokser hurtigere i indeværende kvartal.",
+        "Andelen af Ramps kunder, der betaler for AI-tjenester, steg fra over 50 procent i marts til knap 56 procent i juli. Ramp-økonom Ara Kharazian peger på OpenAIs GPT-5.6 Sol som drivkraft, mens Anthropics Fable 5 ifølge ham 'skuffede i udbredelse'."
+      ],
+      "whyItMatters": "Ramps tal er ikke officiel opgørelse, men et granulært billede af, hvordan virksomheder fordeler AI-forbrug mellem udbyderne - et signal, ingen af selskaberne selv offentliggør.",
+      "analysis": "At Anthropic stadig fører, men vokser langsommere, er værd at følge: holder mønstret et par kvartaler mere, vender rækkefølgen. Om Fable 5 underpræsterer, eller Ramps kunder ikke er repræsentative, afgøres ikke af ét datapunkt.",
+      "topics": [
+        "AI",
+        "venturekapital",
+        "usa",
+        "teknologi"
+      ],
+      "entities": [
+        "Anthropic",
+        "OpenAI",
+        "Ramp"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 72,
+        "novelty": 58,
+        "sourceQuality": 65,
+        "personalRelevance": 90,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Ramp-data viser Anthropics andel af amerikansk virksomheds-AI-forbrug steg fra 41% i maj til ca. 44% i juli 2026, mens OpenAI steg fra 39% til ca. 40%, men vokser hurtigere i Q3",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "image": {
+        "url": "https://techcrunch.com/wp-content/uploads/2025/09/GettyImages-2214107176.jpg?resize=1200,800",
+        "credit": "Alex Wong/Getty Images via TechCrunch",
+        "alt": "Illustration med Anthropics og OpenAIs logoer side om side",
+        "sourceUrl": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/"
+      },
+      "sources": [
+        {
+          "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+          "publishedAt": "2026-08-20T22:36:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-ratcliffe-moskva-besoeg",
+      "eventKey": "ratcliffe-moscow-ukraine-strikes-pause",
+      "materialFacts": [
+        "CIA-direktør John Ratcliffe rejste til Moskva den 25. august",
+        "Washington bad ifølge Axios/CBS Ukraine suspendere angreb mod Moskva under besøget",
+        "Kreml afviste offentligt at der var planlagte forhandlinger"
+      ],
+      "section": "Verden",
+      "headline": "Kremlin denies US talks amid reports CIA Director Ratcliffe in Russia",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia",
+      "subheadline": "USA bad ifølge flere medier Ukraine om at sætte angreb på Moskva i bero, mens CIA-chefen var i byen - Kreml afviser planlagte forhandlinger",
+      "body": [
+        "CIA-direktør John Ratcliffe fløj tirsdag fra Riga til Moskva - ifølge flytrackingdata det højeste besøg af en Trump-embedsmand i Rusland siden januar. Kreml afviste, at der var planlagte forhandlinger med amerikanske udsendinge.",
+        "Ifølge Axios og CBS News bad Washington forud Ukraine suspendere angreb mod Moskva og nordlige russiske byer, mens delegationen var i landet. Ratcliffe har tidligere haft en central rolle i fangeudvekslinger mellem USA og Rusland."
+      ],
+      "whyItMatters": "Et uannonceret besøg af USA's øverste efterretningschef i Moskva, sammen med en anmodning om at sætte ukrainske angreb i bero, er et tegn på kontakt mellem Washington og Kreml, uanset hvad begge parter siger offentligt.",
+      "analysis": "At Kreml afviser 'planlagte forhandlinger' snarere end besøget selv, kan dække over uformelle samtaler. Det bliver først klart, hvis besøget følges op af synlige skridt - en fangeudveksling eller en pause i angreb.",
+      "topics": [
+        "geopolitik",
+        "ukraine",
+        "rusland",
+        "usa",
+        "diplomati"
+      ],
+      "entities": [
+        "John Ratcliffe",
+        "CIA",
+        "Kreml",
+        "Dmitry Peskov",
+        "Ukraine"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 68,
+        "personalRelevance": 35,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "CIA-direktør John Ratcliffe rejste til Moskva den 25. august 2026, det højeste besøg af en Trump-embedsmand i Rusland siden januar",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Washington bad Ukraine suspendere angreb mod Moskva og andre nordlige russiske byer under besøget",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kremlin denies US talks amid reports CIA Director Ratcliffe in Russia",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia",
+          "publishedAt": "2026-08-25T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-07-31T200758Z_16775392_RC27PMAYEP67_RTRMADP_3_USA-TRUMP-1787674505.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Kremlin denies US talks amid reports CIA Director Ratcliffe in Russia",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia"
+      }
+    },
+    {
+      "id": "story-canada-us-toldkrig",
+      "eventKey": "canada-us-tariff-retaliation",
+      "materialFacts": [
+        "USA indførte 50% told på ca. 20 mia. dollars canadiske varer",
+        "Canada svarer igen fra 8. september med told for op mod 20 mia. dollars amerikanske varer",
+        "Tre dages forhandlinger brød sammen ved fristens udløb"
+      ],
+      "section": "Økonomi",
+      "headline": "Carney: Canada will enact retaliatory US tariffs starting September 8",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/8/22/carney-canada-will-enact-retaliatory-us-tariffs-starting-september-8",
+      "subheadline": "Canada svarer igen med told for op mod 20 milliarder dollars, efter forhandlinger med USA brød sammen ved fristens udløb",
+      "body": [
+        "USA indførte i sidste uge 50 procents told på ca. 20 milliarder dollars canadiske varer. Canada svarer fra 8. september igen med told for op mod 20 milliarder dollars amerikanske varer - 'dollar for dollar', sagde premierminister Mark Carney.",
+        "Modtolden rammer stål, mejeriprodukter, hvidevarer, landbrugsudstyr, papir og elektronik. Forhandlingerne brød sammen, og Carney sagde, USA 'forlangte for meget, tilbød for lidt'. Canada fordobler tolden på stål og aluminium til 50 procent."
+      ],
+      "whyItMatters": "Canada er USA's tætteste handelspartner. Optrapningen viser, at Trump-administrationens tarifpolitik også rammer traditionelle allierede - med direkte konsekvenser for priser på begge sider af grænsen.",
+      "analysis": "At forhandlingerne brød sammen, tyder på reel afstand mellem parterne. Konfliktens varighed afhænger af, om smerten hos amerikanske delstater med canadisk eksport presser Washington tilbage før 8. september.",
+      "topics": [
+        "økonomi",
+        "handel",
+        "usa",
+        "canada",
+        "told"
+      ],
+      "entities": [
+        "Mark Carney",
+        "Canada",
+        "USA",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 45,
+        "novelty": 55,
+        "sourceQuality": 65,
+        "personalRelevance": 20,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "USA indførte 50% told på ca. 20 mia. dollars canadiske varer; Canada indfører modtold fra 8. september på op mod 20 mia. dollars amerikanske varer",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/8/22/carney-canada-will-enact-retaliatory-us-tariffs-starting-september-8"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a89dcf9d5e1-1787419897.jpg?resize=1920%2C1440",
+        "credit": "Dave Chan/AFP via Al Jazeera",
+        "alt": "Mark Carney taler ved en pressekonference om Canadas modtold mod USA",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/8/22/carney-canada-will-enact-retaliatory-us-tariffs-starting-september-8"
+      },
+      "sources": [
+        {
+          "title": "Carney: Canada will enact retaliatory US tariffs starting September 8",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/8/22/carney-canada-will-enact-retaliatory-us-tariffs-starting-september-8",
+          "publishedAt": "2026-08-22T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-japan-shunkai-quantum",
+      "eventKey": "japan-shunkai-quantum-computer",
+      "materialFacts": [
+        "Japans Institute for Molecular Science har taget kvantecomputeren Shunkai i drift med ca. 50 qubits",
+        "Hitachi byggede softwaren, Infleqtion leverede kvanteprocessoren",
+        "Planen er 10.000 qubits med fejlkorrektion inden marts 2031"
+      ],
+      "section": "Teknologi",
+      "headline": "Japan's Full-Stack Neutral-Atom Quantum Computer is Operational",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational/",
+      "subheadline": "Kvantecomputeren Shunkai, bygget af Japans Institute for Molecular Science med Hitachi og det amerikanske firma Infleqtion, er nu i drift",
+      "body": [
+        "Japans Institute for Molecular Science har sat landets første neutral-atom kvantecomputer, Shunkai, i drift med ca. 50 qubits. Hitachi byggede softwaren, Infleqtion leverede processoren, og IMS samlede systemet under Japans Moonshot-program.",
+        "Shunkai bruger laserstyrede neutrale atomer og kører, modsat superledende computere, ved stuetemperatur uden nedkøling. Planen er 10.000 qubits med fejlkorrektion inden 2031, gjort tilgængeligt undervejs for eksterne forskere."
+      ],
+      "whyItMatters": "Infleqtion var den eneste udenlandske partner, Japans videnskabsagentur JST udvalgte til Moonshot-programmet - et tegn på, at Japan bevidst henter udenlandsk teknologi ind i en national satsning frem for at bygge alt selv.",
+      "analysis": "Neutral-atom er én af flere konkurrerende kvanteveje, og Shunkais betydning afhænger af, om skaleringen til tusindvis af qubits med fejlkorrektion lykkes inden 2031 - ikke af at systemet kører med 50 nu.",
+      "topics": [
+        "kvante",
+        "teknologi",
+        "japan",
+        "forskning",
+        "deeptech"
+      ],
+      "entities": [
+        "Institute for Molecular Science",
+        "Hitachi",
+        "Infleqtion",
+        "Japan Moonshot R&D Program"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 40,
+        "novelty": 78,
+        "sourceQuality": 60,
+        "personalRelevance": 65,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Japans Institute for Molecular Science har sat landets første fuld-stak neutral-atom kvantecomputer 'Shunkai' i drift med ca. 50 qubits, udviklet med Hitachi og Infleqtion",
+          "sourceUrls": [
+            "https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational/",
+            "https://infleqtion.com/infleqtion-collaboration-with-japan-moonshot-program-achieves-major-milestone-shunkai-neutral-atom-quantum-computer-now-operational/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Japan's Full-Stack Neutral-Atom Quantum Computer is Operational",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/08/24/japans-full-stack-neutral-atom-quantum-computer-is-operational/",
+          "publishedAt": "2026-08-24T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Infleqtion Collaboration with Japan Moonshot Program Achieves Major Milestone: \"Shunkai\" Neutral Atom Quantum Computer Now Operational",
+          "publisher": "Infleqtion",
+          "url": "https://infleqtion.com/infleqtion-collaboration-with-japan-moonshot-program-achieves-major-milestone-shunkai-neutral-atom-quantum-computer-now-operational/",
+          "publishedAt": "2026-08-24T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-nakskov-sukkerfabrik",
+      "eventKey": "nakskov-sukkerfabrik-lukker",
+      "materialFacts": [
+        "Nordzucker lukker sukkerproduktionen i Nakskov efter 143 år",
+        "Ca. 150 job er berørt; produktion samles i Nykøbing Falster",
+        "Lukningen sker efter indeværende kampagne, i januar 2027"
+      ],
+      "section": "Erhverv",
+      "headline": "Nakskov Sukkerfabrik lukker",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/nakskov-sukkerfabrik-lukker",
+      "subheadline": "Den tyske ejer Nordzucker lukker sukkerproduktionen efter 143 år og samler al dansk sukkerproduktion i Nykøbing Falster",
+      "body": [
+        "Nordzucker lukker sukkerproduktionen i Nakskov, når kampagnen er kørt færdig i januar 2027. Fabrikken har produceret sukker i 143 år, og lukningen berører ca. 150 job. Anlægget fortsætter som pakkeri, mens produktionen samles i Nykøbing på Falster.",
+        "Koncernchef Lars Gorissen begrunder lukningen med, at Nordzucker ikke kan se en fremtid for produktionen i Nakskov, og henviser til behovet for et mere effektivt produktionsnetværk."
+      ],
+      "whyItMatters": "For en by som Nakskov er 150 job i én virksomhed en stor del af det lokale arbejdsmarked - endnu et eksempel på, hvordan konsolidering i europæisk fødevareindustri rammer yderområder hårdere end de store byer.",
+      "analysis": "Beslutningen er ikke enestående - dansk sukkerproduktion har været under konsolideringspres i årtier - men effekten for Nakskov afhænger af, hvor mange af de 150 medarbejdere der kan omplaceres lokalt, hvilket endnu ikke er opgjort.",
+      "topics": [
+        "erhverv",
+        "danmark",
+        "arbejdsmarked",
+        "landbrug"
+      ],
+      "entities": [
+        "Nordzucker",
+        "Nakskov",
+        "Lars Gorissen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 30,
+        "novelty": 70,
+        "sourceQuality": 72,
+        "personalRelevance": 10,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Nordzucker lukker sukkerproduktionen i Nakskov efter 143 års drift; ca. 150 job er berørt",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/nakskov-sukkerfabrik-lukker"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/z3tjben5/sukkerfabrik.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "DR / Adobe Stock",
+        "alt": "Sukkerfabrikken i Nakskov",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/nakskov-sukkerfabrik-lukker"
+      },
+      "sources": [
+        {
+          "title": "Nakskov Sukkerfabrik lukker",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/nakskov-sukkerfabrik-lukker",
+          "publishedAt": "2026-08-25T10:44:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Tornado in France injures 41 people, damages hundreds of homes",
+      "headline": "Tornado in France injures 41 people, damages hundreds of homes",
+      "url": "https://www.cbsnews.com/news/tornado-france-aude-pomas-storm-weather/",
+      "publisher": "CBS News",
+      "section": "Verden",
+      "publishedAt": "2026-08-25T00:00:00Z",
+      "summary": "En sjælden tornado ramte landsbyen Pomas nær Carcassonne mandag aften og beskadigede omkring 300 huse; over 120 redningsfolk rykkede ud."
+    },
+    {
+      "text": "Sweden moves to prevent school attacks after one killed in sword assault in Fagersta",
+      "headline": "Sweden moves to prevent school attacks after one killed in sword assault in Fagersta",
+      "url": "https://www.euronews.com/my-europe/2026/08/24/sweden-moves-to-prevent-school-attacks-after-one-killed-in-sword-assault-in-fagersta",
+      "publisher": "Euronews",
+      "section": "Europa",
+      "publishedAt": "2026-08-24T00:00:00Z",
+      "summary": "Sveriges regering nedsætter en kommission mod skoleangreb, efter en 18-årig dræbte én og sårede tre med et sværd på en skole i Fagersta."
+    },
+    {
+      "text": "Anthropic launches Claude Academy: Free AI courses teach users how to master Claude",
+      "headline": "Anthropic launches Claude Academy: Free AI courses teach users how to master Claude",
+      "url": "https://www.wionews.com/technology/anthropic-launches-claude-academy-free-ai-courses-teach-users-how-to-master-claude-1787309246144",
+      "publisher": "WION",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-20T00:00:00Z",
+      "summary": "Anthropic lancerer en gratis læringsplatform med kurser i Claude.ai, Cowork, Code, Tag og API, bygget på virksomhedens interne oplæringsmodel."
+    },
+    {
+      "text": "Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model",
+      "headline": "Thomson Reuters Leverages its World-Class Data Assets to Launch Its Own Frontier Model",
+      "url": "https://www.thomsonreuters.com/en/press-releases/2026/august/thomson-reuters-leverages-its-world-class-data-assets-to-launch-its-own-frontier-model",
+      "publisher": "Thomson Reuters",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-24T00:00:00Z",
+      "summary": "Thomson Reuters lancerer sin egen sprogmodel 'Thomson' for 40 mio. dollars, trænet på Westlaw-, Practical Law- og Reuters-data."
+    },
+    {
+      "text": "Danish AI infrastructure startup Velatir secures €5 million six months after its pre-Seed round and official launch",
+      "headline": "Danish AI infrastructure startup Velatir secures €5 million six months after its pre-Seed round and official launch",
+      "url": "https://www.eu-startups.com/2026/08/danish-ai-infrastructure-startup-velatir-secures-e5-million-six-months-after-its-pre-seed-round-and-official-launch/",
+      "publisher": "EU-Startups",
+      "section": "Erhverv",
+      "publishedAt": "2026-08-20T00:00:00Z",
+      "summary": "Odense-startuppen Velatir har rejst 5 mio. euro ledet af Spintop Ventures, seks måneder efter sin pre-seed-runde."
+    },
+    {
+      "text": "Pasqal and Eleven Ventures Form Joint Venture for Quantum Computing in Saudi Arabia",
+      "headline": "Pasqal and Eleven Ventures Form Joint Venture for Quantum Computing in Saudi Arabia",
+      "url": "https://thequantuminsider.com/2026/08/24/pasqal-eleven-ventures-joint-venture-quantum-computing-saudi-arabia/",
+      "publisher": "The Quantum Insider",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-24T00:00:00Z",
+      "summary": "Det franske kvantefirma Pasqal danner joint venture med Eleven Ventures for at udrulle kvanteprocessorer i Saudi-Arabien og MENA-regionen."
+    },
+    {
+      "text": "A Manhattan-sized ice island just broke free from Greenland",
+      "headline": "A Manhattan-sized ice island just broke free from Greenland",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823094145.htm",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-23T00:00:00Z",
+      "summary": "Petermann-gletsjeren i Nordvestgrønland kælvede 4. august en 76,4 kvadratkilometer stor isø - glaciørens største tab siden 2012."
+    },
+    {
+      "text": "Brandattentat mod moske i Aarhus var inspireret af ekstremt netværk",
+      "headline": "Brandattentat mod moske i Aarhus var inspireret af ekstremt netværk",
+      "url": "https://www.dr.dk/nyheder/indland/brandattentat-mod-moske-i-aarhus-var-inspireret-af-ekstremt-netvaerk",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-08-25T21:00:00Z",
+      "summary": "En 14-årig er idømt straf for et brandattentat mod en moske i Aarhus i maj; myndighederne mener, han var del af et online ekstremistnetværk."
+    },
+    {
+      "text": "Originale Matador-manuskripter solgt for 200.000 kroner på auktion",
+      "headline": "Originale Matador-manuskripter solgt for 200.000 kroner på auktion",
+      "url": "https://www.dr.dk/nyheder/kultur/originale-matador-manuskripter-solgt-200-000-kroner-paa-auktion",
+      "publisher": "DR",
+      "section": "Kultur",
+      "publishedAt": "2026-08-25T00:00:00Z",
+      "summary": "Et komplet sæt originale Matador-manuskripter fra en privat samler solgte for det dobbelte af den vurderede pris."
+    },
+    {
+      "text": "NASA is about to launch a powerful new eye on the universe",
+      "headline": "NASA is about to launch a powerful new eye on the universe",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823094140.htm",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-08-23T00:00:00Z",
+      "summary": "Nancy Grace Roman-rumteleskopet opsendes 30. august med en Falcon Heavy-raket for at kortlægge mørk energi og jagte exoplaneter."
+    },
+    {
+      "text": "OpenAI previews Private Safety Processing to keep zero data retention",
+      "headline": "OpenAI previews Private Safety Processing to keep zero data retention",
+      "url": "https://thenextweb.com/news/openai-zero-data-retention-private-safety-processing",
+      "publisher": "TheNextWeb",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-19T00:00:00Z",
+      "summary": "OpenAI viser et system, der skal opdage misbrug på tværs af flere AI-forespørgsler uden at gemme kundedata."
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "fotografiets-aegthedspanik",
+    "title": "Fotografiets ægthedspanik er ikke ny",
+    "thesis": "AI-billeders ægthedspanik gentager malernes panik over fotografiet - «en hånd rørte det» taber igen.",
+    "horizon": "Når et museum viser AI-billeder som fotografi, ikke som særkategori",
+    "body": [
+      "Fotografiet vandt kunststatus på den samme påstand."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis kunstinstitutionerne i stedet fastholder en varig kategorisk adskillelse mellem fotografisk og AI-genereret billede i mindst et årti fremover - det ville vise, at »en hånd rørte det« holder som kriterium på en måde, malerkritikken aldrig gjorde det, og at analogien til fotografiets tidlige historie derfor er forkert.",
+    "topics": [
+      "kunst",
+      "fotografi",
+      "AI",
+      "æstetik"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-roman-launch-20260826",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Livestreamet rumopsendelse",
+      "status": "upcoming",
+      "title": "Nancy Grace Roman Space Telescope Launch",
+      "creator": "NASA / SpaceX",
+      "provider": "NASA",
+      "url": "https://science.nasa.gov/mission/roman-space-telescope/roman-launch-countdown/",
+      "availability": "Direkte livestream fra Kennedy Space Center søndag den 30. august 2026 kl. 13:26 dansk tid (07:26 EDT); reservevindue mandag ved vejr eller tekniske problemer.",
+      "commitment": "Ca. 1 time",
+      "description": "Nancy Grace Roman-rumteleskopet opsendes med en SpaceX Falcon Heavy fra Kennedy Space Center. Teleskopet har et spejl på størrelse med Hubbles, men et synsfelt omkring hundrede gange bredere, og skal kortlægge mørk energi og søge exoplaneter.",
+      "rationale": "Et konkret, tidsbestemt øjeblik snarere end endnu en artikel om rummet: du kan se selve opsendelsen i realtid i stedet for at læse om den bagefter. Missionen rammer direkte ned i den type hårde videnskab, dine egne kanaler allerede dækker, uden at overlappe AI- eller venture-stoffet i dagens nyheder.",
+      "topics": [
+        "rumfart",
+        "videnskab",
+        "nasa"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Nancy_Grace_Roman_Space_Telescope_%282020-35-4665%29.png",
+        "credit": "NASA / NASA-GSFC",
+        "alt": "Kunstnerisk illustration af Nancy Grace Roman-rumteleskopet i kredsløb om Jorden",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nancy_Grace_Roman_Space_Telescope_(2020-35-4665).png"
+      }
+    },
+    {
+      "id": "rec-dwarkesh-continual-learning",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "8 Predictions for the Era of Continual Learning",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/era-of-continual-learning",
+      "note": "Otte konkrete forudsigelser om, hvad der sker, når AI-modeller opdateres løbende i stedet for trænet én gang - relevant for enhver, der tænker på AI-regulering som rettet mod faste modeller.",
+      "topics": [
+        "AI",
+        "beslutningsteori"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-oddlots-ai-kill-switch",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "podcastvideo",
+      "status": "available",
+      "title": "Is There An AI Kill Switch If Things Go Wrong?",
+      "creator": "Joe Weisenthal, Tracy Alloway",
+      "provider": "Bloomberg Odd Lots",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-17/odd-lots-is-there-an-ai-kill-switch-if-things-go-wrong-video",
+      "note": "Et spørgsmål, du sjældent hører stillet så direkte: hvem har reelt magt til at stoppe et AI-system, hvis det går galt, og hvad koster den magt i praksis?",
+      "topics": [
+        "AI",
+        "sikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-cosmos-swarms-sand-gods",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Of Swarms and Sand Gods",
+      "creator": "Séb Krier",
+      "provider": "Cosmos Institute",
+      "url": "https://blog.cosmos-institute.org/p/of-swarms-and-sand-gods",
+      "note": "Argumenterer for, at AI-sikkerhed er et systemdesign-problem for mange samarbejdende agenter frem for kontrol af én magtfuld model - en reel drejning i spørgsmålet.",
+      "topics": [
+        "AI",
+        "filosofi",
+        "governance"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-rawls-lecture-1",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "universitetsforelæsning",
+      "status": "classic",
+      "title": "John Rawls--Modern Political Philosophy--Lecture 1 (audio only)",
+      "creator": "John Rawls",
+      "provider": "Harvard University",
+      "url": "https://www.youtube.com/watch?v=Z1iMwo8tPPk",
+      "note": "Rawls' egen stemme: første forelæsning af hans forløb om moderne politisk filosofi fra Harvard, 1984 - traditionen der ikke findes på din læseliste.",
+      "topics": [
+        "filosofi",
+        "politisk teori"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-latent-space-baseten",
+      "tier": "short",
+      "mode": "read",
+      "kind": "podcast + essay",
+      "status": "available",
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "creator": "swyx, Vibhu, Philip Kiely, Ali Taha",
+      "provider": "Latent Space",
+      "url": "https://www.latent.space/p/inference-eng",
+      "note": "Teknisk dyk i, hvad der reelt sker efter en model-lancering: caching, parallelisering og GPU-optimering hos Baseten, der lige har rejst en kæmpe runde.",
+      "topics": [
+        "AI",
+        "infrastruktur",
+        "venturekapital"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "portfolioBalance": 72,
+    "sourceDiversity": 78,
+    "outsideProfileShare": 38,
+    "verificationDepth": 60
+  }
+}
