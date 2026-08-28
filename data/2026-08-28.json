@@ -1,0 +1,1019 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-28",
+ "date": "2026-08-28",
+ "generatedAt": "2026-08-28T09:00:00Z",
+ "readingMinutes": 11,
+ "title": "Alexanders Brief — fredag 28. august 2026",
+ "dek": "Regeringen finder et ekstra procentpoint vækst i lægemiddeleksporten, Pentagon sætter dato på sin Europa-gennemgang, og en finsk landsret afgør, om kabelbrud i Østersøen kan retsforfølges.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "story-dk-oekonomi-opjustering-20260828",
+   "eventKey": "okonomisk-redegorelse-august-2026-opjustering",
+   "materialFacts": [
+    "BNP-væksten for 2026 opjusteres til 3,7 pct. fra 2,7 pct. i majvurderingen",
+    "For 2027 ventes 1,8 pct. vækst",
+    "Inflationen skønnes under 2 pct. i både 2026 og 2027",
+    "Hoveddriveren er eksport af lægemidler"
+   ],
+   "section": "Økonomi",
+   "headline": "Dansk økonomi brager afsted: Regeringen opjusterer markant",
+   "subheadline": "En opjustering på et helt procentpoint hviler i høj grad på én branches eksport",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/penge/dansk-oekonomi-brager-afsted-regeringen-opjusterer-markant",
+   "body": [
+    "Regeringen opjusterer i sin nye Økonomiske Redegørelse væksten i dansk BNP til 3,7 pct. i 2026. I majvurderingen lød tallet 2,7 pct. For 2027 ventes 1,8 pct., og inflationen skønnes under 2 pct. begge år.",
+    "Hoveddriveren er eksport af lægemidler, især Novo Nordisks vægttabsmedicin, der blev lanceret ved årets begyndelse. Jakob Engel-Schmidt kalder dansk økonomi i topform.",
+    "Danmarks Statistik offentliggjorde samme uge lønindekset for 2. kvartal: 3,2 pct. på et år, tredje kvartal i træk på samme niveau."
+   ],
+   "whyItMatters": "Forskellen mellem 2,7 og 3,7 pct. er ikke en teknisk prognosejustering. Det er et andet billede af, hvor meget luft der er i finanspolitikken, og det er tallet, finanslov og momsnedsættelse skal hvile på.",
+   "analysis": "Sammensætningen betyder mere end niveauet. Når væksten kommer fra lægemiddeleksport, følger beskæftigelse, skattegrundlag og produktivitet ikke nødvendigvis med i samme takt, og et skift i én produktkategori kan vende tallet lige så hurtigt, som det løftede det. Reallønnen stiger derimod bredt: 3,2 pct. i løn mod under 2 pct. i forventet inflation er den del af opsvinget, der faktisk fordeler sig.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/k31l00bn/20260629-142946-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+    "credit": "Kilde: DR",
+    "alt": "Arkivfoto fra en dansk dagligvarebutik, hvor prisudviklingen på fødevarer aflæses",
+    "sourceUrl": "https://www.dr.dk/nyheder/penge/dansk-oekonomi-brager-afsted-regeringen-opjusterer-markant"
+   },
+   "topics": [
+    "økonomi",
+    "danmark",
+    "finanspolitik",
+    "vækst"
+   ],
+   "entities": [
+    "Regeringen",
+    "Jakob Engel-Schmidt",
+    "Novo Nordisk",
+    "Danmarks Statistik"
+   ],
+   "isLead": true,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 86,
+    "decisionValue": 84,
+    "novelty": 78,
+    "sourceQuality": 82,
+    "personalRelevance": 88,
+    "contrast": 62
+   },
+   "claims": [
+    {
+     "text": "Regeringen opjusterer BNP-væksten for 2026 til 3,7 pct. mod 2,7 pct. i majvurderingen.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/penge/dansk-oekonomi-brager-afsted-regeringen-opjusterer-markant"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Lønningerne steg 3,2 pct. i 2. kvartal 2026 mod samme kvartal 2025, samme niveau som de to foregående kvartaler.",
+     "sourceUrls": [
+      "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52558"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/penge/dansk-oekonomi-brager-afsted-regeringen-opjusterer-markant",
+     "title": "Dansk økonomi brager afsted: Regeringen opjusterer markant",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T10:59:11Z"
+    },
+    {
+     "url": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52558",
+     "title": "Lønningerne er steget 3,2 pct. det seneste år",
+     "publisher": "Danmarks Statistik",
+     "kind": "primary",
+     "publishedAt": "2026-08-28T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-pentagon-nato-review-20260828",
+   "eventKey": "pentagon-nato-posture-review-troop-options-2026-08-27",
+   "materialFacts": [
+    "Mindst fire styrkepakker skal ligge hos Pete Hegseth 6. november 2026",
+    "Den samlede gennemgang ventes i december",
+    "Ca. 80.000 amerikanske soldater er udstationeret i Europa"
+   ],
+   "section": "Sikkerhed",
+   "headline": "Pentagon’s NATO review preparing troop options for Hegseth by November 6",
+   "subheadline": "Spørgsmålet om amerikansk tilstedeværelse i Europa har nu en kalender",
+   "primarySourceUrl": "https://www.defensenews.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/",
+   "body": [
+    "Det amerikanske forsvarsministerium forbereder mindst fire styrkepakker til forsvarsminister Pete Hegseth med frist 6. november. Den samlede gennemgang af USA's militære tilstedeværelse i Europa ventes i december.",
+    "Omkring 80.000 amerikanske soldater er i dag udstationeret i Europa. Gennemgangen blev sat i gang i juni og omfatter adgang, baser og overflyvningsrettigheder. En briefing er sat til 18. september."
+   ],
+   "whyItMatters": "Datoerne er det nye. Hidtil har spørgsmålet om amerikansk nedtrapning i Europa været en hensigt uden kalender. Nu er der en frist, og den ligger før nytår.",
+   "analysis": "Fire pakker betyder, at der findes flere scenarier, ikke at der er truffet en beslutning. For dansk og nordisk forsvarsplanlægning er det afgørende ikke tallet, men at horisonten er skrumpet til måneder.",
+   "image": {
+    "url": "https://www.defensenews.com/resizer/v2/FNUH3OIWZ5DA5DGS6H4STB6HWM.JPG?auth=c266364fe4f73250859176ac5acd0ca2dc95e4d9d568cec6c889f1f1f6f2ddc9&width=3571&height=2381",
+    "credit": "Kilde: Defense News",
+    "alt": "Amerikanske soldater under øvelse i Europa; arkivfoto anvendt af Defense News",
+    "sourceUrl": "https://www.defensenews.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/"
+   },
+   "topics": [
+    "nato",
+    "usa",
+    "forsvar",
+    "europæisk sikkerhed"
+   ],
+   "entities": [
+    "Pete Hegseth",
+    "Elbridge Colby",
+    "NATO",
+    "US European Command"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 88,
+    "decisionValue": 80,
+    "novelty": 76,
+    "sourceQuality": 80,
+    "personalRelevance": 72,
+    "contrast": 66
+   },
+   "claims": [
+    {
+     "text": "Mindst fire styrkeoptioner skal forelægges forsvarsminister Pete Hegseth senest 6. november 2026, og den samlede NATO-gennemgang ventes i december.",
+     "sourceUrls": [
+      "https://www.defensenews.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.defensenews.com/news/pentagon-congress/2026/08/27/pentagons-nato-review-preparing-troop-options-for-hegseth-by-november-6/",
+     "title": "Pentagon’s NATO review preparing troop options for Hegseth by November 6",
+     "publisher": "Defense News",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T15:14:31Z"
+    }
+   ]
+  },
+  {
+   "id": "story-moms-prisgennemslag-20260828",
+   "eventKey": "momsnedsaettelse-prisgennemslag-96-pct",
+   "materialFacts": [
+    "Regeringen forventer 96 pct. prisgennemslag af momsnedsættelsen",
+    "Ordningen koster 17,4 mia. kr. om året",
+    "14,7 mia. kr. går til at halvere momsen på alle fødevarer, 2,6 mia. kr. til at fjerne momsen på frugt og grønt"
+   ],
+   "section": "Økonomi",
+   "headline": "Nu fortæller regeringen, hvor stor en del af momsnedsættelsen den forventer lander i indkøbskurven",
+   "subheadline": "96 pct. er en forudsætning, ikke en måling, og hele regnestykket hviler på den",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/politik/nu-fortaeller-regeringen-hvor-stor-en-del-af-momsnedsaettelsen-den-forventer-lander-i-indkoebskurven",
+   "body": [
+    "Regeringen oplyser nu, at den forventer, at 96 pct. af momsnedsættelsen på fødevarer slår igennem i lavere priser i supermarkedet. De resterende 4 pct. tilskrives administrative omkostninger ved differentieret moms.",
+    "Ordningen koster 17,4 mia. kr. om året: 14,7 mia. kr. til at halvere momsen på alle fødevarer og 2,6 mia. kr. til at fjerne momsen på frugt og grønt."
+   ],
+   "whyItMatters": "Antagelsen er hele regnestykket. Slår kun to tredjedele igennem, er forskellen milliarder, der bliver hos leddene mellem jord og kasseapparat.",
+   "analysis": "Fuldt gennemslag fratrukket administration er en beregningsteknisk konvention. Den kan efterprøves: prisindekset for fødevarer i månederne efter ikrafttrædelsen afgør sagen.",
+   "counterpoint": "Uafhængige økonomer er skeptiske og henviser til international forskning, hvor gennemslaget fra momsnedsættelser typisk er lavere end fuldt og desuden aftager over tid.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/m5bew3cr/20260629-142330-l_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+    "credit": "Kilde: DR",
+    "alt": "Arkivfoto af frugt og grønt i en dansk dagligvarebutik",
+    "sourceUrl": "https://www.dr.dk/nyheder/politik/nu-fortaeller-regeringen-hvor-stor-en-del-af-momsnedsaettelsen-den-forventer-lander-i-indkoebskurven"
+   },
+   "topics": [
+    "skat",
+    "danmark",
+    "fødevarepriser",
+    "forbrug"
+   ],
+   "entities": [
+    "Jakob Engel-Schmidt",
+    "Skatteministeriet",
+    "Regeringen"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 78,
+    "decisionValue": 82,
+    "novelty": 74,
+    "sourceQuality": 80,
+    "personalRelevance": 76,
+    "contrast": 72
+   },
+   "claims": [
+    {
+     "text": "Regeringen forventer, at 96 pct. af momsnedsættelsen slår igennem i lavere supermarkedspriser, og ordningen koster 17,4 mia. kr. årligt.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/politik/nu-fortaeller-regeringen-hvor-stor-en-del-af-momsnedsaettelsen-den-forventer-lander-i-indkoebskurven"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/politik/nu-fortaeller-regeringen-hvor-stor-en-del-af-momsnedsaettelsen-den-forventer-lander-i-indkoebskurven",
+     "title": "Nu fortæller regeringen, hvor stor en del af momsnedsættelsen den forventer lander i indkøbskurven",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T09:51:02Z"
+    }
+   ]
+  },
+  {
+   "id": "story-mitid-google-apple-20260828",
+   "eventKey": "mitid-google-apple-afhaengighed",
+   "materialFacts": [
+    "MitID har 5,3 mio. registrerede brugere",
+    "Digitaliseringsstyrelsen kontaktede 4. juni europæiske modparter om afhængigheden",
+    "MitID's kernesikkerhed hviler på teknologi fra Google og Apple, der kontrollerer app-distributionen"
+   ],
+   "section": "Teknologisk suverænitet",
+   "headline": "Google og Apple har MitID i et jerngreb: Styrelse slår nu alarm i Europa",
+   "subheadline": "Adgangen til danske offentlige tjenester går gennem to amerikanske app-butikker",
+   "primarySourceUrl": "https://ing.dk/artikel/google-og-apple-har-mitid-i-et-jerngreb-styrelse-slaar-nu-alarm-i-europa",
+   "body": [
+    "Digitaliseringsstyrelsen kontaktede 4. juni europæiske modparter om afhængigheden af amerikanske teknologiselskaber. MitID har 5,3 mio. registrerede brugere i Danmark.",
+    "Kernesikkerheden i MitID-appen hviler på teknologi fra Google og Apple, som samtidig kontrollerer distributionen af apps. Styrelsen undersøger, om Europa kan generobre kontrollen over app-infrastrukturen."
+   ],
+   "whyItMatters": "Teknologisk suverænitet er her ikke et principspørgsmål, men en adgangsvej. Begrænses distributionen, er det adgangen til offentlige tjenester for 5,3 mio. mennesker, der rammes.",
+   "analysis": "Bekymringen er ikke, at Google eller Apple vil lukke MitID. Den er, at beslutningen om det ligger uden for dansk og europæisk rækkevidde. Det er den samme afhængighed, der ellers diskuteres om cloud og chips, men her sidder den i telefonen og i et system, staten selv har gjort obligatorisk.",
+   "image": {
+    "url": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-08/20220210-161845-5-7383x4922ma.jpg?itok=F_uHe1Xf",
+    "credit": "Kilde: Ingeniøren",
+    "alt": "Arkivfoto af MitID-app anvendt på en smartphone",
+    "sourceUrl": "https://ing.dk/artikel/google-og-apple-har-mitid-i-et-jerngreb-styrelse-slaar-nu-alarm-i-europa"
+   },
+   "topics": [
+    "teknologisk suverænitet",
+    "danmark",
+    "digitalisering",
+    "sikkerhed"
+   ],
+   "entities": [
+    "MitID",
+    "Digitaliseringsstyrelsen",
+    "Google",
+    "Apple"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 80,
+    "decisionValue": 76,
+    "novelty": 80,
+    "sourceQuality": 78,
+    "personalRelevance": 90,
+    "contrast": 70
+   },
+   "claims": [
+    {
+     "text": "MitID har 5,3 mio. registrerede brugere, og Digitaliseringsstyrelsen kontaktede 4. juni europæiske modparter om afhængigheden af Google og Apple.",
+     "sourceUrls": [
+      "https://ing.dk/artikel/google-og-apple-har-mitid-i-et-jerngreb-styrelse-slaar-nu-alarm-i-europa"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://ing.dk/artikel/google-og-apple-har-mitid-i-et-jerngreb-styrelse-slaar-nu-alarm-i-europa",
+     "title": "Google og Apple har MitID i et jerngreb: Styrelse slår nu alarm i Europa",
+     "publisher": "Ingeniøren",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T03:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-us-chip-tariffs-round2-20260828",
+   "eventKey": "us-semiconductor-tariffs-expansion-considered-2026-08",
+   "materialFacts": [
+    "Told overvejes udvidet fra chips til færdigvarer: bærbare computere, spillekonsoller og datacenterservere",
+    "Rammen vil binde toldfri chipimport til virksomhedens forpligtede produktionskapacitet i USA",
+    "Materialet er tidligt og bygger på otte anonyme kilder hos Politico"
+   ],
+   "section": "Handel",
+   "headline": "U.S. considers fresh round of tariffs on semiconductors, report says",
+   "subheadline": "Told på chippen rammer få; told på det, chippen sidder i, rammer alle der køber serverkapacitet",
+   "primarySourceUrl": "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html",
+   "body": [
+    "Trump-administrationen overvejer ifølge Politico en anden runde af told på halvledere, udvidet til færdigvarer bygget med chips: bærbare computere, spillekonsoller og datacenterservere.",
+    "Rammen, som handelsminister Howard Lutnick står bag, vil sætte et loft over toldfri chipimport bundet til, hvor meget produktionskapacitet den enkelte virksomhed har forpligtet sig til i USA. Udrulningen skulle ske i faser."
+   ],
+   "whyItMatters": "Told på selve chippen rammer få aktører. Told på serveren rammer prisen på at bygge AI-infrastruktur, også for europæiske købere, der køber det samme hardware.",
+   "analysis": "Otte anonyme kilder er ikke en beslutning, og rammen kan ændre sig væsentligt. Det efterprøvelige er, om undtagelserne fra januars told på 25 pct. videreføres til datacentre, forskning og startups. Bortfalder de, er det den reelle stramning, uanset hvilken sats der ender med at stå i teksten.",
+   "image": {
+    "url": "https://image.cnbcfm.com/api/v1/image/108285717-1774993406061-gettyimages-2269288571-aw1a2890_uv0jlc67.jpeg?v=1774993631&w=1920&h=1080",
+    "credit": "Kilde: Getty Images via CNBC",
+    "alt": "Arkivfoto af halvlederproduktion; billedet anvendes af CNBC til artiklen om told på chips",
+    "sourceUrl": "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html"
+   },
+   "topics": [
+    "handel",
+    "told",
+    "halvledere",
+    "usa"
+   ],
+   "entities": [
+    "Howard Lutnick",
+    "Politico",
+    "Det Hvide Hus"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 80,
+    "decisionValue": 84,
+    "novelty": 76,
+    "sourceQuality": 70,
+    "personalRelevance": 84,
+    "contrast": 68
+   },
+   "claims": [
+    {
+     "text": "Trump-administrationen overvejer ifølge Politico told, der udvides fra halvledere til færdigvarer som bærbare computere og datacenterservere.",
+     "sourceUrls": [
+      "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.cnbc.com/2026/08/27/trump-semiconductor-tech-tariffs.html",
+     "title": "U.S. considers fresh round of tariffs on semiconductors, report says",
+     "publisher": "CNBC",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T11:29:19Z"
+    }
+   ]
+  },
+  {
+   "id": "story-langtang-gletsjerkollaps-20260828",
+   "eventKey": "langtang-lirung-bedrock-glacier-collapse",
+   "materialFacts": [
+    "Satellitanalyse tyder på at grundfjeldet under Langtang Lirung-gletsjeren gav efter",
+    "Oversvømmelserne onsdag dræbte ifølge rapporteringen hundredvis i Nepal og Tibet, og hundredvis savnes",
+    "Forskerne siger udtrykkeligt at de ikke på nuværende tidspunkt kan koble kollapset direkte til klimaforandringer"
+   ],
+   "section": "Klima",
+   "headline": "Satellite images show bedrock and glacier collapsed on Nepal-China border, then rivers flooded",
+   "subheadline": "Ikke et gletsjersøudbrud, men selve bjergsiden, og det ændrer hvad der kan varsles",
+   "primarySourceUrl": "https://phys.org/news/2026-08-satellite-images-bedrock-glacier-collapsed.html",
+   "body": [
+    "Satellitanalyser tyder på, at grundfjeldet under Langtang Lirung-gletsjeren gav efter og førte en stor ismasse ned ad bjergsiden. Det udløste oversvømmelser langs Trishuli-floden og flere andre vandløb.",
+    "Oversvømmelserne onsdag dræbte ifølge rapporteringen hundredvis af mennesker i Nepal og Tibet, og hundredvis flere savnes. Landsbyer blev begravet i mudder og materiale fra skredet. Tallene er stadig i bevægelse."
+   ],
+   "whyItMatters": "Det er ikke et almindeligt gletsjersøudbrud. Giver selve grundfjeldet efter, rammer hændelsen uden for det, de varslingssystemer overvåger, som holder øje med søer bag ismoræner.",
+   "analysis": "Forskerne siger udtrykkeligt, at de ikke på nuværende tidspunkt kan koble kollapset direkte til klimaforandringer, samtidig med at optøning af permafrost svækker klippe og is i højderne. Den mellemposition er den ærlige, og den er sjældnere end begge yderpunkter.",
+   "image": {
+    "url": "https://scx1.b-cdn.net/csz/news/800a/2026/satellite-images-show.jpg",
+    "credit": "Kilde: Phys.org",
+    "alt": "Satellitoptagelse af bjergsiden ved Langtang Lirung efter kollapset af grundfjeld og gletsjer",
+    "sourceUrl": "https://phys.org/news/2026-08-satellite-images-bedrock-glacier-collapsed.html"
+   },
+   "topics": [
+    "klima",
+    "katastrofe",
+    "geovidenskab",
+    "nepal"
+   ],
+   "entities": [
+    "Langtang Lirung",
+    "Trishuli-floden",
+    "Nepal",
+    "Tibet"
+   ],
+   "isLead": false,
+   "isOutsideProfile": true,
+   "scores": {
+    "importance": 88,
+    "decisionValue": 50,
+    "novelty": 80,
+    "sourceQuality": 74,
+    "personalRelevance": 30,
+    "contrast": 74
+   },
+   "claims": [
+    {
+     "text": "Satellitanalyse tyder på at grundfjeldet under Langtang Lirung-gletsjeren gav efter, og de efterfølgende oversvømmelser dræbte hundredvis i Nepal og Tibet.",
+     "sourceUrls": [
+      "https://phys.org/news/2026-08-satellite-images-bedrock-glacier-collapsed.html"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://phys.org/news/2026-08-satellite-images-bedrock-glacier-collapsed.html",
+     "title": "Satellite images show bedrock and glacier collapsed on Nepal-China border, then rivers flooded",
+     "publisher": "Phys.org",
+     "kind": "reporting",
+     "publishedAt": "2026-08-28T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-femte-universelle-infarktdefinition-20260828",
+   "eventKey": "fifth-universal-definition-myocardial-infarction",
+   "materialFacts": [
+    "Den femte universelle definition afskaffer opdelingen i type 1 til 5",
+    "Erstattes af tre årsagsbaserede kategorier: primært, sekundært og indgrebsrelateret infarkt",
+    "Udsendt i fællesskab af ESC, American College of Cardiology, American Heart Association og World Heart Federation"
+   ],
+   "section": "Sundhed",
+   "headline": "New global definition of myocardial infarction aims to improve diagnosis, treatment and patient understanding",
+   "subheadline": "Verden skifter måden at inddele hjerteanfald på, og det ændrer hvad der tælles",
+   "primarySourceUrl": "https://www.eurekalert.org/news-releases/1141723",
+   "body": [
+    "Den femte universelle definition af myokardieinfarkt afskaffer opdelingen i type 1 til 5 og erstatter den med tre årsagsbaserede kategorier: primært, sekundært og indgrebsrelateret infarkt.",
+    "Definitionen er udsendt i fællesskab af European Society of Cardiology, American College of Cardiology, American Heart Association og World Heart Federation. Sekundært infarkt dækker de tilfælde, hvor en anden tilstand skaber ubalance mellem hjertets iltbehov og ilttilførsel."
+   ],
+   "whyItMatters": "En definition er ingen opdagelse, men den bestemmer, hvad der tælles. Kodningen afgør statistik, forskningspopulationer og behandlingsvalg.",
+   "analysis": "Arbejdsgruppens formand, Nicholas Mills, begrunder skiftet med, at det numeriske system ikke altid var let at anvende klinisk og gav uensartet diagnostik. Flytningen fra nummer til årsag giver mere klinisk mening og samtidig mindre sammenlignelighed bagud i tid.",
+   "topics": [
+    "sundhed",
+    "kardiologi",
+    "standarder",
+    "videnskab"
+   ],
+   "entities": [
+    "European Society of Cardiology",
+    "American Heart Association",
+    "World Heart Federation",
+    "Nicholas Mills"
+   ],
+   "isLead": false,
+   "isOutsideProfile": true,
+   "scores": {
+    "importance": 76,
+    "decisionValue": 58,
+    "novelty": 82,
+    "sourceQuality": 86,
+    "personalRelevance": 22,
+    "contrast": 80
+   },
+   "claims": [
+    {
+     "text": "Den femte universelle definition af myokardieinfarkt erstatter type 1-5 med tre årsagsbaserede kategorier og er udsendt af ESC, ACC, AHA og World Heart Federation.",
+     "sourceUrls": [
+      "https://www.eurekalert.org/news-releases/1141723"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.eurekalert.org/news-releases/1141723",
+     "title": "New global definition of myocardial infarction aims to improve diagnosis, treatment and patient understanding",
+     "publisher": "European Society of Cardiology",
+     "kind": "primary",
+     "publishedAt": "2026-08-28T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-galapagos-koraller-elnino-20260828",
+   "eventKey": "galapagos-coral-el-nino-intensification",
+   "materialFacts": [
+    "Tretten borekerner fra koraller ved Galapagos rekonstruerer havtemperaturen omkring tusind år tilbage",
+    "De seneste 40 års El Nino-hændelser er knap 40 pct. kraftigere end i førindustriel tid",
+    "Modeller med kun naturlige drivkræfter kan ikke reproducere intensiveringen"
+   ],
+   "section": "Klima",
+   "headline": "El Niños have been more intense over the last 40 years than in the previous 1,000 years, coral records reveal",
+   "subheadline": "En tusindårig serie gør det muligt at sige, at de seneste årtier ikke har et modstykke",
+   "primarySourceUrl": "https://phys.org/news/2026-08-el-nios-intense-years-previous.html",
+   "body": [
+    "Tretten borekerner fra koraller ved Galapagosøerne er aflæst lag for lag og giver en rekonstruktion af havtemperaturen omkring tusind år tilbage. Arbejdet er offentliggjort i Science og ledet fra University of Michigan.",
+    "De seneste 40 års El Nino-hændelser er knap 40 pct. kraftigere end i førindustriel tid. Klimamodeller, der kun fodres med naturlige drivkræfter som vulkanudbrud og solvariation, kan ikke reproducere den intensivering."
+   ],
+   "whyItMatters": "El Nino styrer nedbør, fiskeri og fødevarepriser i store dele af verden. Er de kraftige hændelser ikke længere sjældne, er der ikke tale om variation, men om et nyt niveau.",
+   "analysis": "Styrken ligger i sammenligningsgrundlaget: en tusindårig serie gør det muligt at sige, at de seneste årtier ikke har et modstykke. Forbeholdet er, at tretten kerner ét sted i Stillehavet skal bære hele rekonstruktionen, og at koralkemi er en indirekte temperaturmåling.",
+   "image": {
+    "url": "https://scx1.b-cdn.net/csz/news/800a/2026/el-nios-more-intense-o.jpg",
+    "credit": "Kilde: Phys.org",
+    "alt": "Koraller ved Galapagosøerne, hvis vækstlag er brugt til at rekonstruere havtemperaturen",
+    "sourceUrl": "https://phys.org/news/2026-08-el-nios-intense-years-previous.html"
+   },
+   "topics": [
+    "klima",
+    "videnskab",
+    "oceanografi"
+   ],
+   "entities": [
+    "University of Michigan",
+    "Julia Cole",
+    "Science",
+    "Galapagosøerne"
+   ],
+   "isLead": false,
+   "isOutsideProfile": true,
+   "scores": {
+    "importance": 80,
+    "decisionValue": 56,
+    "novelty": 86,
+    "sourceQuality": 84,
+    "personalRelevance": 40,
+    "contrast": 78
+   },
+   "claims": [
+    {
+     "text": "Tretten koralkerner fra Galapagos viser, at de seneste 40 års El Nino-hændelser er knap 40 pct. kraftigere end i førindustriel tid.",
+     "sourceUrls": [
+      "https://phys.org/news/2026-08-el-nios-intense-years-previous.html"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://phys.org/news/2026-08-el-nios-intense-years-previous.html",
+     "title": "El Niños have been more intense over the last 40 years than in the previous 1,000 years, coral records reveal",
+     "publisher": "Phys.org",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T00:00:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-eagle-s-kabelsag-20260828",
+   "eventKey": "finland-eagle-s-cable-case-revived-2026-08-27",
+   "materialFacts": [
+    "Finsk landsret genoptager sagen mod tre Eagle S-officerer efter byrettens afvisning for manglende jurisdiktion",
+    "Ankeret blev slæbt i over tre timer og ca. 90 km juledag 2024 og kappede Estlink 2 samt fire andre kabler",
+    "Der kræves 105 mio. euro i erstatning; ankefristen er 26. oktober 2026"
+   ],
+   "section": "Sikkerhed",
+   "headline": "Finland appeals court revives case against Eagle S Officers over cable breaks",
+   "subheadline": "Spørgsmålet er ikke hvad der skete i Østersøen, men om nogen kan retsforfølges for det",
+   "primarySourceUrl": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s",
+   "body": [
+    "En finsk landsret har genoptaget sagen mod tre officerer fra tankskibet Eagle S, efter at byretten afviste den med henvisning til manglende jurisdiktion.",
+    "Skibet slæbte sit anker i over tre timer og omkring 90 km juledag 2024 og kappede strømkablet Estlink 2 samt fire andre kabler. Estlink 2 var ude af drift i cirka et halvt år. Der kræves 105 mio. euro i erstatning, heraf 55,3 mio. til reparation og 50 mio. for mistet indtægt."
+   ],
+   "whyItMatters": "Afviser domstolene jurisdiktion over et fremmedflaget skib i internationalt farvand, er kabelbrud i Østersøen reelt uden retlig konsekvens, uanset hvad efterforskningen viser.",
+   "analysis": "Ankefristen er 26. oktober. Finland anslår skyggeflåden til op mod 1.000 aldrende skibe, og præcedensen fra denne sag afgør, om det tal beskriver et sikkerhedsproblem alene eller også et retligt håndtag. Det er en langsommere, men mere holdbar reaktion end patruljering.",
+   "image": {
+    "url": "https://cms.therecord.media/uploads/large_finland_eagles_10da1de2c9.png",
+    "credit": "Kilde: The Record",
+    "alt": "Tankskibet Eagle S, hvis anker kappede Estlink 2 og fire andre kabler i Den Finske Bugt",
+    "sourceUrl": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s"
+   },
+   "topics": [
+    "østersøen",
+    "undersøisk infrastruktur",
+    "jura",
+    "norden"
+   ],
+   "entities": [
+    "Eagle S",
+    "Estlink 2",
+    "Helsingfors landsret",
+    "Finland"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 78,
+    "decisionValue": 74,
+    "novelty": 78,
+    "sourceQuality": 80,
+    "personalRelevance": 74,
+    "contrast": 72
+   },
+   "claims": [
+    {
+     "text": "En finsk landsret har genoptaget sagen mod tre Eagle S-officerer, og der kræves 105 mio. euro i erstatning for kabelbruddene juledag 2024.",
+     "sourceUrls": [
+      "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://therecord.media/finland-appeals-court-revives-case-against-eagle-s",
+     "title": "Finland appeals court revives case against Eagle S Officers over cable breaks",
+     "publisher": "The Record",
+     "kind": "reporting",
+     "publishedAt": "2026-08-27T15:31:50Z"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "text": "Federal judge blocks Pentagon blacklisting of Anthropic, calling it ‘illegal and baseless’",
+   "headline": "Federal judge blocks Pentagon blacklisting of Anthropic, calling it ‘illegal and baseless’",
+   "url": "https://www.nbcnews.com/business/business-news/anthropic-pentagon-blacklist-claude-judge-rcna594825",
+   "publisher": "NBC News",
+   "section": "Teknologi",
+   "publishedAt": "2026-08-28T02:51:24Z",
+   "summary": "Dommer Rita Lin blokerer i en kendelse på 59 sider forsvarsministeriets udpegning af selskabet som forsyningskæderisiko efter dets afvisning af overvågning og autonome våben. Redaktionel note: dette brev produceres med Anthropics modeller, så historien står her uden analyse."
+  },
+  {
+   "text": "Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports",
+   "headline": "Nvidia pauses revenue-sharing deals with AI cloud companies, WSJ reports",
+   "url": "https://finance.yahoo.com/news/nvidia-pauses-revenue-sharing-deals-223140237.html",
+   "publisher": "Reuters via Yahoo Finance",
+   "section": "Teknologi",
+   "publishedAt": "2026-08-27T22:31:40Z",
+   "summary": "Nvidia oplyste 36 mia. dollar i forpligtelser under juli-programmet, der gav cloududbydere kreditstøtte mod en andel af omsætningen. Medarbejdere skal internt have advaret om konkurrenceretlig eksponering."
+  },
+  {
+   "text": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+   "headline": "Fed's Hammack says 'now is the time to act' on raising interest rates",
+   "url": "https://www.cnbc.com/2026/08/27/feds-hammack-says-now-is-the-time-to-act-on-raising-interest-rates.html",
+   "publisher": "CNBC",
+   "section": "Økonomi",
+   "publishedAt": "2026-08-27T14:27:17Z",
+   "summary": "Cleveland-chefen var en af tre dissentere i juli, der ville hæve renten. Kerne-PCE landede på 3,3 pct. år til år."
+  },
+  {
+   "text": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+   "headline": "Fed Chairman Kevin Warsh delivers his key Jackson Hole speech Friday. Here's what to expect",
+   "url": "https://www.cnbc.com/2026/08/27/fed-chairman-kevin-warsh-delivers-his-key-jackson-hole-speech-friday.html",
+   "publisher": "CNBC",
+   "section": "Økonomi",
+   "publishedAt": "2026-08-27T19:00:26Z",
+   "summary": "Talen holdes i dag. Warsh overtog formandsposten i maj og har været usædvanlig sparsom med signaler; årets tema er finansiel innovation og betalinger."
+  },
+  {
+   "text": "Piloting the world's first double-blind AI evaluations",
+   "headline": "Piloting the world's first double-blind AI evaluations",
+   "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+   "publisher": "Google DeepMind",
+   "section": "Teknologi",
+   "publishedAt": "2026-08-27T14:00:00Z",
+   "summary": "Evaluatorer ser aldrig modelvægtene, og Google ser aldrig testspørgsmålene. Opsætningen skal forhindre, at benchmarks siver tilbage i træningen."
+  },
+  {
+   "text": "Kyiv records 13 air raid alerts in single day, most since full-scale invasion began, as explosions continue overnight",
+   "headline": "Kyiv records 13 air raid alerts in single day, most since full-scale invasion began, as explosions continue overnight",
+   "url": "https://kyivindependent.com/kyiv-records-13-air-raid-alerts-in-single-day-most-since-full-scale-invasion-as-explosions-continue-overnight/",
+   "publisher": "The Kyiv Independent",
+   "section": "Sikkerhed",
+   "publishedAt": "2026-08-28T01:23:31Z",
+   "summary": "872 minutter under alarm på et døgn. Det nye er taktikken: små dronegrupper spredt over dagen frem for ét massivt natligt angreb."
+  },
+  {
+   "text": "Novo Nordisk vinder sag om kopimidler i USA",
+   "headline": "Novo Nordisk vinder sag om kopimidler i USA",
+   "url": "https://nyheder.tv2.dk/business/2026-08-27-novo-nordisk-vinder-sag-om-kopimidler-i-usa",
+   "publisher": "TV 2",
+   "section": "Erhverv",
+   "publishedAt": "2026-08-27T19:49:26Z",
+   "summary": "Amerikansk appeldomstol fastslog, at FDA fulgte korrekte procedurer, da den erklærede vægttabsmedicin ude af restordre. Afgørelsen fjerner grundlaget for at producere billigere kopier."
+  },
+  {
+   "text": "Højesteret skruer gevaldigt op for regningen for databrud: »Det vil få betydning for fremtidige sager«",
+   "headline": "Højesteret skruer gevaldigt op for regningen for databrud: »Det vil få betydning for fremtidige sager«",
+   "url": "https://www.version2.dk/artikel/hoejesteret-skruer-gevaldigt-op-regningen-databrud-det-vil-faa-betydning-fremtidige-sager",
+   "publisher": "Version2",
+   "section": "Jura",
+   "publishedAt": "2026-08-27T10:00:00Z",
+   "summary": "Erstatningen til en borger, hvis følsomme oplysninger blev delt ulovligt af Hillerød Kommune, gik fra 2.500 til 30.000 kr."
+  },
+  {
+   "text": "Ekstraregning på 11 milliarder afsporer ikke DSB: Førerløse S-tog »handler ikke om at lave penge«",
+   "headline": "Ekstraregning på 11 milliarder afsporer ikke DSB: Førerløse S-tog »handler ikke om at lave penge«",
+   "url": "https://ing.dk/artikel/ekstraregning-paa-11-milliarder-afsporer-ikke-dsb-foererloese-s-tog-handler-ikke-om-lave-penge",
+   "publisher": "Ingeniøren",
+   "section": "Infrastruktur",
+   "publishedAt": "2026-08-28T03:00:00Z",
+   "summary": "87 stationer skal bygges om til automatisk trafikstyring. Japanske Hitachi Rail er valgt frem for Siemens til støttesystemerne."
+  },
+  {
+   "text": "I dag får Trump måske mere skyts i sin jagt efter Grønland",
+   "headline": "I dag får Trump måske mere skyts i sin jagt efter Grønland",
+   "url": "https://www.dr.dk/nyheder/indland/i-dag-faar-trump-maaske-mere-skyts-i-sin-jagt-efter-groenland",
+   "publisher": "DR",
+   "section": "Rigsfællesskabet",
+   "publishedAt": "2026-08-28T04:45:00Z",
+   "summary": "To ekspertrapporter om spiralsagen offentliggøres kl. 16. Ekspertgruppen blev splittet af faglig uenighed, så der kommer to rapporter i stedet for én."
+  },
+  {
+   "text": "Regeringen får på trynen af borgmestre, der kalder forslag for 'en massakre' og 'hul i hovedet'",
+   "headline": "Regeringen får på trynen af borgmestre, der kalder forslag for 'en massakre' og 'hul i hovedet'",
+   "url": "https://www.dr.dk/nyheder/indland/regeringen-faar-paa-trynen-af-borgmestre-der-kalder-forslag-en-massakre-og-hul-i-hovedet",
+   "publisher": "DR",
+   "section": "Politik",
+   "publishedAt": "2026-08-28T04:27:19Z",
+   "summary": "Syv midt- og vestjyske borgmestre appellerer til Folketinget mod kvælstofloven før anden behandling 1. september."
+  }
+ ],
+ "keyNumber": {
+  "label": "Dansk lønindeks, årlig ændring",
+  "indicator": "dk-loenindeks-aarlig",
+  "value": "3,2",
+  "unit": "%",
+  "asOf": "2. kvartal 2026",
+  "previous": {
+   "value": "3,2",
+   "asOf": "1. kvartal 2026",
+   "change": "uændret"
+  },
+  "caption": "Tredje kvartal i træk på 3,2 pct. Med en forventet inflation under 2 pct. er det den brede reallønsfremgang, som opjusteringen af BNP ikke i sig selv siger noget om.",
+  "sourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52558",
+  "sourceTitle": "Lønningerne er steget 3,2 pct. det seneste år",
+  "series": [
+   {
+    "label": "4. kvt. 2025",
+    "value": 3.2
+   },
+   {
+    "label": "1. kvt. 2026",
+    "value": 3.2
+   },
+   {
+    "label": "2. kvt. 2026",
+    "value": 3.2
+   }
+  ]
+ },
+ "column": {
+  "authoredBy": "ai",
+  "slug": "prisen-paa-en-ung-grundlaegger",
+  "title": "Prisen på en ung grundlægger",
+  "thesis": "Venturekapitalen køber unge grundlæggere på pris, ikke på talent.",
+  "horizon": "Når ejerandele ved første runde brydes op på alder",
+  "body": [
+   "De hurtigst voksende nye virksomheder grundlægges i snit af 45-årige. En 25-årig sælger billigere og udvandes lettere."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis grundlæggernes ejerandel ved første institutionelle runde ikke falder systematisk med lavere alder, når branche, sektor og rundestørrelse holdes konstant.",
+  "topics": [
+   "venturekapital",
+   "iværksætteri",
+   "alder"
+  ],
+  "claims": [
+   {
+    "text": "Gennemsnitsalderen ved grundlæggelsen af de 1 ud af 1.000 hurtigst voksende nye amerikanske virksomheder er 45,0 år.",
+    "sourceUrls": [
+     "https://www.aeaweb.org/articles?id=10.1257/aeri.20180582",
+     "https://www.nber.org/papers/w24489"
+    ],
+    "confidence": "high"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.aeaweb.org/articles?id=10.1257/aeri.20180582",
+    "title": "Age and High-Growth Entrepreneurship",
+    "publisher": "American Economic Review: Insights",
+    "kind": "primary",
+    "publishedAt": "2020-03-01T00:00:00Z"
+   },
+   {
+    "url": "https://www.nber.org/papers/w24489",
+    "title": "Age and High-Growth Entrepreneurship",
+    "publisher": "NBER",
+    "kind": "primary",
+    "publishedAt": "2018-04-01T00:00:00Z"
+   }
+  ]
+ },
+ "quality": {
+  "sourceQuality": 86,
+  "novelty": 80,
+  "decisionValue": 78
+ },
+ "recommendations": [
+  {
+   "id": "rec-recht-irrational-decision-20260828",
+   "tier": "featured",
+   "mode": "read",
+   "kind": "bog",
+   "status": "available",
+   "title": "The Irrational Decision",
+   "creator": "Benjamin Recht",
+   "provider": "Princeton University Press",
+   "url": "https://press.princeton.edu/books/hardcover/9780691272443/the-irrational-decision",
+   "availability": "Til salg som hardback, e-bog og lydbog; ikke gratis tilgængelig",
+   "commitment": "280 sider",
+   "description": "Benjamin Recht sporer, hvordan en matematisk definition af rationalitet fra 1940'erne — enhver beslutning som et statistisk spørgsmål om risiko — blev den styrende standard for politik, markeder og maskinlæring. Princeton University Press, 2026.",
+   "rationale": "Valgt, fordi den bestrider en antagelse, dagens materiale ellers ikke bestrider: at optimering skalerer opad mod de vigtige beslutninger. Rechts pointe er den modsatte, at netop det, der gør en opgave målbar nok til at automatisere, er det, der udelukker de beslutninger, der betyder mest. Faren, han udpeger, er ikke maskiner, der vokser os over hovedet, men institutioner, der former virkeligheden, så den kan måles.",
+   "topics": [
+    "ai",
+    "beslutningsteori",
+    "idehistorie"
+   ],
+   "isFeatured": true,
+   "image": {
+    "url": "https://pup-assets.imgix.net/onix/images/9780691272443.jpg?w=410&auto=format",
+    "credit": "Kilde: Princeton University Press",
+    "alt": "Omslaget til Benjamin Rechts bog The Irrational Decision",
+    "sourceUrl": "https://press.princeton.edu/books/hardcover/9780691272443/the-irrational-decision"
+   }
+  },
+  {
+   "id": "rec-kagan-fear-of-death-20260828",
+   "tier": "short",
+   "mode": "watch",
+   "kind": "forelæsning",
+   "status": "classic",
+   "title": "PHIL 176 - Lecture 22 - Fear of Death",
+   "creator": "Shelly Kagan, Yale University",
+   "provider": "Open Yale Courses",
+   "url": "https://oyc.yale.edu/philosophy/phil-176/lecture-22",
+   "availability": "Gratis og åben, med fuldt transskript og lyd på siden",
+   "commitment": "Ca. 50 min",
+   "note": "Kagan opstiller tre betingelser for, hvornår frygt er rationel, og viser at frygten for at være død fejler dem alle. Den analytiske modposition til den eksistentialistiske ramme, og brevets første filosofiforelæsning.",
+   "topics": [
+    "analytisk filosofi",
+    "død",
+    "eksistentialisme"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-ecgi-public-vc-tradeoff-20260828",
+   "tier": "short",
+   "mode": "read",
+   "kind": "analyse",
+   "status": "available",
+   "title": "The Hidden Tradeoff in Public Venture Capital: Lessons from China’s GVC Boom",
+   "creator": "Isabelle Zhang",
+   "provider": "ECGI",
+   "url": "https://www.ecgi.global/publications/blog/the-hidden-tradeoff-in-public-venture-capital-lessons-from-chinas-gvc-boom",
+   "availability": "Gratis; det fulde papir ligger frit på SSRN",
+   "commitment": "Ca. 8 min, papiret længere",
+   "note": "Tyve års data fra 280 kinesiske byer: statslig venturekapital løfter de tidlige investeringer som tilsigtet og dæmper samtidig virksomhedsdannelsen i alle de brancher, staten ikke valgte.",
+   "topics": [
+    "venturekapital",
+    "industripolitik",
+    "kina"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-mccloskey-entrepreneurial-state-20260828",
+   "tier": "short",
+   "mode": "read",
+   "kind": "essay",
+   "status": "available",
+   "title": "Not the “Entrepreneurial State”",
+   "creator": "Deirdre McCloskey og Alberto Mingardi",
+   "provider": "The Daily Economy",
+   "url": "https://thedailyeconomy.org/article/not-the-entrepreneurial-state/",
+   "availability": "Gratis, ingen betalingsmur",
+   "commitment": "Ca. 12 min",
+   "note": "Den skarpe korte version af indvendingen mod Mazzucato: at forveksle en nødvendig betingelse i en forsyningskæde med årsagen til innovation. Angriber logikken frem for politikken.",
+   "topics": [
+    "økonomi",
+    "industripolitik",
+    "innovation"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-sutton-continual-learning-20260828",
+   "tier": "short",
+   "mode": "watch",
+   "kind": "interview",
+   "status": "new",
+   "title": "Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again",
+   "creator": "Sequoia Capital",
+   "provider": "YouTube",
+   "url": "https://www.youtube.com/watch?v=xH7U7w9Qzlo",
+   "availability": "Gratis på YouTube",
+   "commitment": "53 min",
+   "note": "Turing-prisvinderen forklarer, hvorfor dagens modeller holder op med at lære, når træningen slutter, og hvad hans eget laboratorium bygger i stedet.",
+   "topics": [
+    "ai",
+    "forskning",
+    "continual learning"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-epoch-ai-revenue-number-20260828",
+   "tier": "short",
+   "mode": "read",
+   "kind": "analyse",
+   "status": "new",
+   "title": "An update on AI’s most important number",
+   "creator": "Josh You og Lynette Bye",
+   "provider": "Epoch AI",
+   "url": "https://epoch.ai/gradient-updates/an-update-on-ais-most-important-number",
+   "availability": "Gratis",
+   "commitment": "Ca. 12 min",
+   "note": "Opgør den samlede annualiserede omsætning hos OpenAI og Anthropic og spørger, hvornår vækstkurven knækker, sådan som den har gjort i andre teknologibrancher.",
+   "topics": [
+    "ai-økonomi",
+    "omsætning",
+    "vækst"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-arxiv-genai-sophistication-20260828",
+   "tier": "short",
+   "mode": "read",
+   "kind": "forskningsartikel",
+   "status": "new",
+   "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
+   "creator": "Hallman, Kowaleski, Puvvada og Schmidt",
+   "provider": "arXiv",
+   "url": "https://arxiv.org/abs/2608.27364",
+   "availability": "Åben adgang",
+   "commitment": "Ca. 30 min",
+   "note": "713.564 faktiske medarbejderprompts fra knap 4.000 ansatte. Fundet, der er værd at bemærke: den formelle oplæring gav ingen varig effekt på, hvor avanceret folk brugte modellerne.",
+   "topics": [
+    "ai-adoption",
+    "arbejdsmarked",
+    "virksomhedsdata"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-wip-mass-transit-20260828",
+   "tier": "short",
+   "mode": "read",
+   "kind": "essay",
+   "status": "new",
+   "title": "The everything theory of mass transit",
+   "creator": "Miriam Pinski",
+   "provider": "Works in Progress",
+   "url": "https://worksinprogress.co/issue/the-everything-theory-of-mass-transit/",
+   "availability": "Gratis",
+   "commitment": "Ca. 20 min",
+   "note": "Om hvordan transitmyndigheder, der får klima, lighed og borgerinddragelse lagt oveni, systematisk bliver dårligere til den ene ting, de findes for: at flytte folk.",
+   "topics": [
+    "infrastruktur",
+    "statskapacitet",
+    "byer"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-oddlots-bostrom-20260828",
+   "tier": "short",
+   "mode": "listen",
+   "kind": "podcast",
+   "status": "new",
+   "title": "Nick Bostrom on What Happens if AI Solves All of Our Problems",
+   "creator": "Odd Lots, Bloomberg",
+   "provider": "Omny",
+   "url": "https://omny.fm/shows/odd-lots/nick-bostrom-on-what-happens-if-ai-solves-all-of-our-problems",
+   "availability": "Gratis i Odd Lots' feed",
+   "commitment": "55 min",
+   "note": "Manden, der satte den eksistentielle risiko på dagsordenen, vender spørgsmålet om: hvad skal mennesker bruge sig selv til, hvis det hele faktisk lykkes.",
+   "topics": [
+    "filosofi",
+    "ai-etik",
+    "mening"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-drtv-dreyers-skygger-20260828",
+   "tier": "short",
+   "mode": "watch",
+   "kind": "dokumentar",
+   "status": "available",
+   "title": "Dreyers skygger",
+   "creator": "DR2",
+   "provider": "DRTV",
+   "url": "https://www.dr.dk/drtv/program/dreyers-skygger_613714",
+   "availability": "Gratis på DRTV, men kræver login; ligger tilgængelig til 13. februar 2033",
+   "commitment": "44 min",
+   "note": "Dokumentaren åbner Carl Th. Dreyers hidtil ukendte journal fra en psykiatrisk afdeling i 1933 og læser Vampyr, Vredens Dag og Ordet tilbage gennem den.",
+   "topics": [
+    "film",
+    "danmark",
+    "biografi"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-qwen38-flash-next-20260828",
+   "tier": "short",
+   "mode": "try",
+   "kind": "model",
+   "status": "new",
+   "title": "Qwen3.8-Flash-Next",
+   "creator": "Qwen Team, Alibaba",
+   "provider": "Hugging Face",
+   "url": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+   "availability": "Åbne vægte",
+   "commitment": "Ca. 30 min afprøvning",
+   "note": "125 mia. parametre, hvoraf kun 6 mia. aktiveres per token, og 262.000 tokens kontekst. En konkret prøve på, hvor billigt noget nær frontlinjen kan køres lokalt.",
+   "topics": [
+    "åbne modeller",
+    "kina",
+    "inferens"
+   ],
+   "isFeatured": false
+  }
+ ]
+}
