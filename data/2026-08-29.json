@@ -1,0 +1,758 @@
+{
+ "schemaVersion": 1,
+ "kind": "daily",
+ "runId": "daily-2026-08-29",
+ "date": "2026-08-29",
+ "generatedAt": "2026-08-29T06:30:00.000Z",
+ "readingMinutes": 11,
+ "title": "Alexanders Brief — lørdag 29. august 2026",
+ "dek": "USA og Venezuela annoncerer den største olieaftale nogensinde, Fed-formanden åbner for en renteforhøjelse i stedet for en nedsættelse, og halvdelen af danske Wegovy-brugere stopper inden for et år.",
+ "profileWeights": {
+  "importance": 25,
+  "decisionValue": 20,
+  "novelty": 15,
+  "sourceQuality": 15,
+  "personalRelevance": 15,
+  "contrast": 10
+ },
+ "stories": [
+  {
+   "id": "story-venezuela-olieaftale-20260829",
+   "eventKey": "usa-venezuela-olieaftale-august-2026",
+   "materialFacts": [
+    "Aftalen omfatter 17 venezuelanske oliefelter med et dokumenteret potentiale på 65 mia. tønder olie",
+    "Venezuelas samlede dokumenterede oliereserver blev i 2023 opgjort til ca. 303 mia. tønder, omkring 17 pct. af verdens reserver",
+    "Aftalen ventes at udløse over 100 mia. dollar i investeringer og mere end 209 mia. dollar i skatteindtægter til Venezuela",
+    "Venezuela står i dag for omkring 1 pct. af verdens olieproduktion",
+    "Det amerikanske strategiske oliereserve rummede i begyndelsen af august under 300 mio. tønder, over 100 mio. færre end ved indgangen til 2026"
+   ],
+   "section": "Geopolitik",
+   "headline": "Trump og Venezuela annoncerer 'den største olieaftale i verdenshistorien'",
+   "subheadline": "17 felter, 65 mia. tønder på papiret og en amerikansk reserve, der er skrumpet med over 100 mio. tønder på otte måneder",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/trump-haevder-have-indgaaet-historisk-olieaftale-med-venezuela",
+   "body": [
+    "USA og Venezuela offentliggjorde natten til lørdag dansk tid en aftale om udvinding fra 17 venezuelanske oliefelter. Donald Trump kalder den den største olieaftale i verdenshistorien. Ifølge parterne skal den udløse over 100 mia. dollar i investeringer og mere end 209 mia. dollar i skatteindtægter til Venezuela.",
+    "Felterne rummer på papiret 65 mia. tønder. Venezuela har verdens største dokumenterede reserver, ca. 303 mia. tønder i 2023, men står for kun omkring 1 pct. af produktionen. Afstanden mellem de to tal er hele historien.",
+    "Den amerikanske strategiske oliereserve var i begyndelsen af august under 300 mio. tønder, over 100 mio. færre end ved årets start."
+   ],
+   "whyItMatters": "Olieprisen går direkte igennem til inflationen, og dermed til den rente Fed netop har varslet kan skulle op. Aftalen er et forsøg på at flytte udbudssiden politisk i stedet for at lade renten gøre arbejdet.",
+   "analysis": "Tallene er hensigter, ikke tønder. Venezuelas produktion er ikke begrænset af olie i undergrunden, men af infrastruktur og årtiers manglende vedligehold, og det ordnes ikke på et kvartal. At USA forsyner sig hos et land, det for nylig sanktionerede, siger mere om, hvor stramt markedet vurderes at være, end nogen prognose gør.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/4wddhqss/20260401-221515-3.jpg",
+    "credit": "© Federico Parra, Andrew Caballero-Reynolds, AFP/Ritzau Scanpix",
+    "alt": "Olieinstallation i Venezuela",
+    "sourceUrl": "https://www.dr.dk/nyheder/seneste/trump-haevder-have-indgaaet-historisk-olieaftale-med-venezuela"
+   },
+   "topics": [
+    "olie",
+    "geopolitik",
+    "energi",
+    "usa",
+    "venezuela"
+   ],
+   "entities": [
+    "Donald Trump",
+    "Delcy Rodríguez",
+    "Venezuela",
+    "USA"
+   ],
+   "isLead": true,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 92,
+    "decisionValue": 80,
+    "novelty": 88,
+    "sourceQuality": 78,
+    "personalRelevance": 74,
+    "contrast": 70
+   },
+   "claims": [
+    {
+     "text": "Aftalen omfatter 17 oliefelter med et dokumenteret potentiale på 65 mia. tønder og ventes at udløse over 100 mia. dollar i investeringer.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/seneste/trump-haevder-have-indgaaet-historisk-olieaftale-med-venezuela"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/seneste/trump-haevder-have-indgaaet-historisk-olieaftale-med-venezuela",
+     "title": "Trump og Venezuela annoncerer 'den største olieaftale i verdenshistorien'",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-28T22:58:33Z"
+    }
+   ]
+  },
+  {
+   "id": "story-warsh-jackson-hole-20260829",
+   "eventKey": "warsh-jackson-hole-2026-renteforhoejelse",
+   "materialFacts": [
+    "Fed-formand Kevin Warsh holdt 28. august sin første Jackson Hole-tale som formand under titlen 'In Our Time'",
+    "Talen angiver PCE-inflation på 3,7 pct. over 12 måneder og en arbejdsløshed på 4,1 pct.",
+    "Warsh fastholder 2 pct. målt på PCE som et fast mål og afviser forward guidance som fast praksis",
+    "Markedets prissatte sandsynlighed for en renteforhøjelse på 25 basispoint i september sprang til 57 pct. fra 35 pct. dagen før",
+    "Den 10-årige amerikanske statsrente steg 4 basispoint til 4,72 pct., og guld faldt 2,88 pct."
+   ],
+   "section": "Økonomi",
+   "headline": "Keynote remarks by Chairman Warsh at the 2026 Jackson Hole Economic Policy Symposium",
+   "subheadline": "Markedet gik fra 35 til 57 pct. sandsynlighed for en renteforhøjelse på en enkelt tale",
+   "primarySourceUrl": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+   "body": [
+    "Kevin Warsh brugte sin første Jackson Hole-tale som Fed-formand på at fjerne enhver forventning om rentenedsættelser. Inflationen ligger på 3,7 pct. målt på PCE over 12 måneder mod et mål på 2 pct., og arbejdsløsheden er 4,1 pct.",
+    "»We must be confident that underlying inflation is moving to our objective, clearly and at sufficient speed. Otherwise, we have work to do,« sagde han og lagde ansvaret for 65 måneders forhøjet inflation hos centralbanken selv.",
+    "Markedet læste det som en varsling: sandsynligheden for 25 basispoint op i september sprang fra 35 til 57 pct., den 10-årige rente steg til 4,72 pct., og guld faldt 2,88 pct."
+   ],
+   "whyItMatters": "Retningen er vendt. Indtil fredag handlede spørgsmålet om, hvornår renten skulle ned.",
+   "analysis": "Warsh nægter samtidig at give forward guidance. Efter femten år, hvor Fed har styret forventninger med ord, flytter det risikoen tilbage til investoren.",
+   "topics": [
+    "renter",
+    "inflation",
+    "usa",
+    "centralbank"
+   ],
+   "entities": [
+    "Kevin Warsh",
+    "Federal Reserve",
+    "Jackson Hole"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 90,
+    "decisionValue": 88,
+    "novelty": 80,
+    "sourceQuality": 94,
+    "personalRelevance": 86,
+    "contrast": 60
+   },
+   "claims": [
+    {
+     "text": "Talen angiver PCE-inflation på 3,7 pct. over 12 måneder og arbejdsløshed på 4,1 pct.",
+     "sourceUrls": [
+      "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+     ],
+     "confidence": "high"
+    },
+    {
+     "text": "Markedets prissatte sandsynlighed for en renteforhøjelse i september steg fra 35 til 57 pct. ifølge Yahoo Finance.",
+     "sourceUrls": [
+      "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+     "title": "Keynote remarks by Chairman Warsh at the 2026 Jackson Hole Economic Policy Symposium",
+     "publisher": "Federal Reserve Board",
+     "kind": "primary",
+     "publishedAt": "2026-08-28T00:00:00Z"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
+     "title": "Stock market today: Dow, S&P 500, Nasdaq end week on down note as rate-hike bets jump",
+     "publisher": "Yahoo Finance",
+     "kind": "reporting",
+     "publishedAt": "2026-08-28T22:07:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-wegovy-ophoer-20260829",
+   "eventKey": "wegovy-behandlingsophoer-danmark-2026",
+   "materialFacts": [
+    "49 pct. af danske Wegovy-patienter stoppede behandlingen inden for det første år",
+    "Undersøgelsen omfatter 157.822 danskere, der begyndte på Wegovy mellem december 2022 og november 2024",
+    "Knap 300.000 danskere har brugt medicinen siden markedsføringen i december 2022",
+    "Omkring 90 pct. tager det meste af vægten på igen inden for få år efter ophør"
+   ],
+   "section": "Sundhed",
+   "headline": "'Bekymrende' siger forsker om andelen af patienter, der stopper på Wegovy",
+   "subheadline": "Halvdelen af 157.822 danske brugere holdt op inden for et år, og cirka 90 pct. tager vægten på igen",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/indland/bekymrende-siger-forsker-om-andelen-af-patienter-der-stopper-paa-wegovy",
+   "body": [
+    "En ny dansk undersøgelse af 157.822 danskere, der begyndte på Wegovy mellem december 2022 og november 2024, viser at 49 pct. stoppede inden for det første år. Knap 300.000 danskere har brugt medicinen siden lanceringen.",
+    "Omkring 90 pct. tager det meste af vægten på igen efter ophør. »Vi har stærk evidens for, at når man stopper, vender appetitten voldsomt tilbage,« siger professor og overlæge Reimar W. Thomsen, der opfordrer Novo Nordisk til at sætte prisen ned.",
+    "Novo Nordisk svarer skriftligt, at selskabet gerne ser, at mennesker med svær overvægt også kan få tilskud."
+   ],
+   "whyItMatters": "Vægttabsmedicinen er den enkeltfaktor, regeringen i denne uge tilskrev opjusteringen af dansk BNP-vækst til 3,7 pct.",
+   "analysis": "Tallet er en kommerciel oplysning forklædt som en sundhedsfaglig. En behandling, halvdelen forlader inden for tolv måneder, har en anden livstidsværdi per patient end en kronisk, og det rammer dansk eksport.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/phacfl5f/wegovy-top-rettet.jpg",
+    "credit": "© Mads Claus Rasmussen/Ritzau Scanpix. Collage: Sys Therese Roed Abrahamsen, DR",
+    "alt": "Wegovy-pen fotograferet til en artikel om vægttabsmedicin",
+    "sourceUrl": "https://www.dr.dk/nyheder/indland/bekymrende-siger-forsker-om-andelen-af-patienter-der-stopper-paa-wegovy"
+   },
+   "topics": [
+    "sundhed",
+    "novo nordisk",
+    "danmark",
+    "medicin"
+   ],
+   "entities": [
+    "Novo Nordisk",
+    "Reimar W. Thomsen",
+    "Wegovy"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 82,
+    "decisionValue": 78,
+    "novelty": 80,
+    "sourceQuality": 82,
+    "personalRelevance": 84,
+    "contrast": 64
+   },
+   "claims": [
+    {
+     "text": "49 pct. af 157.822 danske Wegovy-brugere stoppede inden for det første år.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/indland/bekymrende-siger-forsker-om-andelen-af-patienter-der-stopper-paa-wegovy"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/indland/bekymrende-siger-forsker-om-andelen-af-patienter-der-stopper-paa-wegovy",
+     "title": "'Bekymrende' siger forsker om andelen af patienter, der stopper på Wegovy",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-29T04:33:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-jaroslavl-raffinaderi-20260829",
+   "eventKey": "ukrainske-droner-slavneft-janos-august-2026",
+   "materialFacts": [
+    "Raffinaderiet Slavneft-Janos i Jaroslavl-regionen ligger cirka 1.000 kilometer fra frontlinjen",
+    "Anlægget har en anslået årlig kapacitet på over 15 mio. ton råolie og er blandt Ruslands fem største",
+    "Guvernør Mikhail Jevrajev oplyser, at 67 droner blev nedskudt under angrebet",
+    "En person blev dræbt og 27 såret ifølge den regionale guvernør"
+   ],
+   "section": "Geopolitik",
+   "headline": "Over 1.100 kilometer fra Kyiv forårsager droner brand i et af Ruslands største olieraffinaderier",
+   "subheadline": "Slavneft-Janos ligger cirka 1.000 km fra fronten og raffinerer over 15 mio. ton råolie om året",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/udland/over-1-100-kilometer-fra-kyiv-foraarsager-droner-brand-i-et-af-ruslands-stoerste-olieraffinaderier",
+   "body": [
+    "Ukrainske droner satte fredag aften ild til raffinaderiet Slavneft-Janos i den russiske Jaroslavl-region. Anlægget er blandt Ruslands fem største med en anslået kapacitet på over 15 mio. ton råolie om året.",
+    "»Soldater fra vores væbnede styrker har ramt et olieraffinaderi i Jaroslavl-regionen. Det er 1.000 kilometer fra frontlinjen,« sagde præsident Zelenskyj. Guvernør Mikhail Jevrajev oplyser, at 67 droner blev nedskudt, og at en person blev dræbt og 27 såret."
+   ],
+   "whyItMatters": "Ukraine rammer russisk raffinerikapacitet 1.000 km inde i landet samme døgn, som USA annoncerer en olieaftale med Venezuela. Begge trækker i den samme variabel: hvor meget raffineret olie der når markedet.",
+   "analysis": "Rækkevidden er nyheden, ikke branden. Raffinaderier er det svageste led i kæden: råolie kan omdirigeres, mens raffineringskapacitet er stedbunden og tager år at genopbygge.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/q4pfcuwi/20130710-155458-3.jpg",
+    "credit": "© Maxim Shemetov, Reuters/Ritzau Scanpix",
+    "alt": "Russisk olieraffinaderi",
+    "sourceUrl": "https://www.dr.dk/nyheder/udland/over-1-100-kilometer-fra-kyiv-foraarsager-droner-brand-i-et-af-ruslands-stoerste-olieraffinaderier"
+   },
+   "topics": [
+    "ukraine",
+    "rusland",
+    "energi",
+    "forsvar"
+   ],
+   "entities": [
+    "Zelenskyj",
+    "Slavneft-Janos",
+    "Jaroslavl",
+    "Mikhail Jevrajev"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 84,
+    "decisionValue": 70,
+    "novelty": 78,
+    "sourceQuality": 80,
+    "personalRelevance": 76,
+    "contrast": 62
+   },
+   "claims": [
+    {
+     "text": "Raffinaderiet har en anslået kapacitet på over 15 mio. ton råolie årligt og ligger ca. 1.000 km fra frontlinjen.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/udland/over-1-100-kilometer-fra-kyiv-foraarsager-droner-brand-i-et-af-ruslands-stoerste-olieraffinaderier"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/udland/over-1-100-kilometer-fra-kyiv-foraarsager-droner-brand-i-et-af-ruslands-stoerste-olieraffinaderier",
+     "title": "Over 1.100 kilometer fra Kyiv forårsager droner brand i et af Ruslands største olieraffinaderier",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-28T19:50:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-claudeforce-20260829",
+   "eventKey": "salesforce-anthropic-claudeforce-2026",
+   "materialFacts": [
+    "Salesforce og Anthropic annoncerede 26. august partnerskabet Claudeforce",
+    "Salesforce lanceres som plugin i Claude med 37 forudbyggede salgsfærdigheder",
+    "Åben beta ventes i september 2026; udvalgte pilotkunder har allerede adgang",
+    "Salesforce hævede samtidig sin AI-vækstforventning ved kvartalsregnskabet"
+   ],
+   "section": "Teknologi",
+   "headline": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM",
+   "subheadline": "37 forudbyggede salgsfærdigheder og åben beta i september binder verdens største CRM til én model",
+   "primarySourceUrl": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+   "body": [
+    "Salesforce og Anthropic offentliggjorde 26. august Claudeforce. Claude flytter ind i Salesforce som ræsonnementsmodel, og Salesforce flytter ind i Claude som plugin med 37 forudbyggede salgsfærdigheder, der kan læse live omsætningsdata og opdatere pipeline.",
+    "Åben beta ventes i september 2026, og udvalgte pilotkunder har allerede adgang. Salesforce hævede samtidig sin AI-vækstforventning ved kvartalsregnskabet."
+   ],
+   "whyItMatters": "Virksomhedssoftware har hidtil solgt sig som modeluafhængig. Når den største CRM-udbyder binder sig til én leverandør, er det et signal om, at forhandlingsmagten flytter fra softwaren til modellen.",
+   "analysis": "Redaktionel note: dette brev produceres med Anthropics modeller. Historien står derfor uden analyse, så læseren ikke får en vurdering af Anthropic skrevet af Anthropics egen model.",
+   "image": {
+    "url": "https://www.salesforce.com/news/wp-content/uploads/sites/3/2026/08/Anthropic-Partnership3.png",
+    "credit": "Kilde: Salesforce",
+    "alt": "Grafik til Salesforce og Anthropics annoncering af Claudeforce",
+    "sourceUrl": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
+   },
+   "topics": [
+    "ai",
+    "virksomhedssoftware",
+    "usa"
+   ],
+   "entities": [
+    "Salesforce",
+    "Anthropic",
+    "Marc Benioff",
+    "Dario Amodei"
+   ],
+   "isLead": false,
+   "isOutsideProfile": false,
+   "scores": {
+    "importance": 78,
+    "decisionValue": 74,
+    "novelty": 72,
+    "sourceQuality": 76,
+    "personalRelevance": 88,
+    "contrast": 58
+   },
+   "claims": [
+    {
+     "text": "Claudeforce lanceres med et Salesforce-plugin i Claude med 37 forudbyggede salgsfærdigheder og åben beta i september 2026.",
+     "sourceUrls": [
+      "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
+     ],
+     "confidence": "high"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/",
+     "title": "Salesforce and Anthropic Announce Claudeforce: The #1 AI Meets the #1 AI CRM",
+     "publisher": "Salesforce",
+     "kind": "primary",
+     "publishedAt": "2026-08-26T20:05:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-haakon-kongehus-20260829",
+   "eventKey": "norge-tronskifte-haakon-august-2026",
+   "materialFacts": [
+    "Haakon overtager den norske trone efter kong Haralds død",
+    "Kronprinsesse Mette-Marit udvekslede mails med den dømte sexforbryder Jeffrey Epstein",
+    "Marius Borg Høiby har fået fire års fængsel for voldtægt og sidder fortsat varetægtsfængslet",
+    "Mette-Marit fik nye lunger for to måneder siden og er fortsat sygemeldt uden officielle opgaver",
+    "En NRK-måling i februar gav Mette-Marit 3,7 ud af 10 i popularitet"
+   ],
+   "section": "Udland",
+   "headline": "Haakon er en ensom majestæt: Overtager kongehus i stormvejr",
+   "subheadline": "Fire års fængsel til stedsønnen, Epstein-mails og en popularitetsmåling på 3,7 ud af 10",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/udland/haakon-er-en-ensom-majestaet-overtager-kongehus-i-stormvejr",
+   "body": [
+    "Haakon overtager den norske trone efter sin fars død, og han gør det stort set alene. Kronprinsesse Mette-Marit fik nye lunger for to måneder siden og er sygemeldt uden officielle opgaver.",
+    "Samtidig er skandalerne rykket ind i familien. Hendes søn Marius Borg Høiby har fået fire års fængsel for voldtægt og sidder varetægtsfængslet, og hun har selv udvekslet mails med den dømte sexforbryder Jeffrey Epstein. En NRK-måling i februar gav hende 3,7 ud af 10."
+   ],
+   "whyItMatters": "Opbakningen til det norske monarki falder i NRK's målinger netop som tronskiftet sker. Det er et af de få steder, hvor en institutions legitimitet kan aflæses direkte i tal.",
+   "analysis": "Monarkiets eneste kapital er tillid, og her er den målbar. Et tronskifte er designet som en nulstilling; når det i stedet flytter skandalerne tættere på kernen, arver den nye konge et underskud.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/s3enytbc/20260828-103550-l.jpg",
+    "credit": "© Tor Erik Schrøder, AFP/Ritzau Scanpix",
+    "alt": "Kong Haakon af Norge",
+    "sourceUrl": "https://www.dr.dk/nyheder/udland/haakon-er-en-ensom-majestaet-overtager-kongehus-i-stormvejr"
+   },
+   "topics": [
+    "norge",
+    "kongehus",
+    "institutioner"
+   ],
+   "entities": [
+    "Haakon",
+    "Mette-Marit",
+    "Marius Borg Høiby",
+    "NRK"
+   ],
+   "isLead": false,
+   "isOutsideProfile": true,
+   "scores": {
+    "importance": 62,
+    "decisionValue": 40,
+    "novelty": 70,
+    "sourceQuality": 74,
+    "personalRelevance": 38,
+    "contrast": 88
+   },
+   "claims": [
+    {
+     "text": "En NRK-måling i februar 2026 gav Mette-Marit 3,7 ud af 10 i popularitet.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/udland/haakon-er-en-ensom-majestaet-overtager-kongehus-i-stormvejr"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/udland/haakon-er-en-ensom-majestaet-overtager-kongehus-i-stormvejr",
+     "title": "Haakon er en ensom majestæt: Overtager kongehus i stormvejr",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-28T16:44:00Z"
+    }
+   ]
+  },
+  {
+   "id": "story-faderhuset-efterforskning-20260829",
+   "eventKey": "faderhuset-politiefterforskning-2026",
+   "materialFacts": [
+    "Politiinspektør Allan Holm oplyser, at politiet vil undersøge påstande om vold og overgreb i Faderhuset",
+    "Påstandene stammer fra bogen 'Barn af Faderhuset' af journalist Kristian Corfixen, udgivet mandag",
+    "Sydsjællands og Lolland-Falsters Politi modtog i 2008 to anmeldelser om seksuelle overgreb og fysisk afstraffelse; begge blev henlagt",
+    "Faderhuset besatte Bandholm Hotel på Lolland fra 2006 og forlod Danmark i 2016"
+   ],
+   "section": "Indland",
+   "headline": "Politiet vil efterforske påstande om vold og overgreb i Faderhuset",
+   "subheadline": "To anmeldelser blev henlagt i 2008; en bog udgivet mandag har fået politiet til at se på sagen igen",
+   "primarySourceUrl": "https://www.dr.dk/nyheder/indland/politiet-vil-efterforske-paastande-om-vold-og-overgreb-i-faderhuset",
+   "body": [
+    "Politiet vil undersøge påstande om vold og overgreb mod børn i trossamfundet Faderhuset. Politiinspektør Allan Holm siger, at man vil »undersøge, om der er nogle forhold, der gør, at der bør rejses en straffesag«.",
+    "Påstandene stammer fra bogen 'Barn af Faderhuset' af journalist Kristian Corfixen, udgivet mandag. Sydsjællands og Lolland-Falsters Politi modtog allerede i 2008 to anmeldelser om seksuelle overgreb og fysisk afstraffelse. Begge blev henlagt. Ruth Kristiansen afviser: »Det her er en smædekampagne.«"
+   ],
+   "whyItMatters": "Det er anden gang de samme forhold når politiet. Forskellen mellem 2008 og nu er ikke nye beviser, men en bog.",
+   "analysis": "Sagen viser, hvor dårligt institutioner opdager overgreb i lukkede fællesskaber. Anmeldelserne fandtes i 2008; det, der ændrer sig i 2026, er offentlighedens opmærksomhed, ikke bevismaterialet.",
+   "image": {
+    "url": "https://asset.dr.dk/drdk/umbraco-images/qojpujsz/20131128-122408-5.jpg",
+    "credit": "© Nikolai Linares, Ritzau Scanpix",
+    "alt": "Bandholm Hotel på Lolland, som Faderhuset besatte fra 2006",
+    "sourceUrl": "https://www.dr.dk/nyheder/indland/politiet-vil-efterforske-paastande-om-vold-og-overgreb-i-faderhuset"
+   },
+   "topics": [
+    "danmark",
+    "kriminalitet",
+    "trossamfund"
+   ],
+   "entities": [
+    "Faderhuset",
+    "Allan Holm",
+    "Kristian Corfixen",
+    "Ruth Kristiansen"
+   ],
+   "isLead": false,
+   "isOutsideProfile": true,
+   "scores": {
+    "importance": 66,
+    "decisionValue": 38,
+    "novelty": 72,
+    "sourceQuality": 76,
+    "personalRelevance": 40,
+    "contrast": 80
+   },
+   "claims": [
+    {
+     "text": "Sydsjællands og Lolland-Falsters Politi modtog i 2008 to anmeldelser, som begge blev henlagt.",
+     "sourceUrls": [
+      "https://www.dr.dk/nyheder/indland/politiet-vil-efterforske-paastande-om-vold-og-overgreb-i-faderhuset"
+     ],
+     "confidence": "medium"
+    }
+   ],
+   "sources": [
+    {
+     "url": "https://www.dr.dk/nyheder/indland/politiet-vil-efterforske-paastande-om-vold-og-overgreb-i-faderhuset",
+     "title": "Politiet vil efterforske påstande om vold og overgreb i Faderhuset",
+     "publisher": "DR",
+     "kind": "reporting",
+     "publishedAt": "2026-08-29T03:30:50Z"
+    }
+   ]
+  }
+ ],
+ "signals": [
+  {
+   "text": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+   "headline": "Fed Chairman Warsh expresses concern about inflation, advocates for 'quieter' central bank",
+   "url": "https://www.cnbc.com/2026/08/28/kevin-warsh-jackson-hole-federal-reserve-inflation.html",
+   "publisher": "CNBC",
+   "section": "Økonomi",
+   "publishedAt": "2026-08-28T14:00:06Z",
+   "summary": "CNBC's læsning af talen: Warsh markerede dag 100 som formand og har nedsat fem arbejdsgrupper. »You can call it an outline, you can call it a trail map, just don't call it forward guidance.«"
+  },
+  {
+   "text": "Gold drops over 1% as Fed's Warsh comments lift rate hike bets",
+   "headline": "Gold drops over 1% as Fed's Warsh comments lift rate hike bets",
+   "url": "https://www.kitco.com/news/off-the-wire/2026-08-28/gold-drops-over-1-feds-warsh-comments-lift-rate-hike-bets",
+   "publisher": "Kitco News",
+   "section": "Råvarer",
+   "publishedAt": "2026-08-28T16:36:00Z",
+   "summary": "Spotguld faldt 0,8 pct. til 4.563,05 dollar per ounce, mens palladium steg 7 pct. til 1.444,75 dollar. Kitco opgør sandsynligheden for en septemberforhøjelse til 56 pct. mod Yahoos 57 pct."
+  },
+  {
+   "text": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
+   "headline": "Marc Benioff is getting his mojo back as Salesforce's AI strength quiets skeptics",
+   "url": "https://www.cnbc.com/2026/08/28/marc-benioff-getting-his-mojo-back-as-salesforce-lifts-ai-growth-view.html",
+   "publisher": "CNBC",
+   "section": "Teknologi",
+   "publishedAt": "2026-08-28T11:00:01Z",
+   "summary": "Salesforce hævede sin AI-vækstforventning ved kvartalsregnskabet, to dage efter Claudeforce-annonceringen."
+  },
+  {
+   "text": "OpenAI's Jalapeño AI chip brings new 'threat' to Nvidia margins as custom silicon gains ground",
+   "headline": "OpenAI's Jalapeño AI chip brings new 'threat' to Nvidia margins as custom silicon gains ground",
+   "url": "https://www.cnbc.com/2026/08/26/openai-jalapeno-ai-chip-nvidia.html",
+   "publisher": "CNBC",
+   "section": "Teknologi",
+   "publishedAt": "2026-08-26T13:27:35Z",
+   "summary": "OpenAI har fået sin første egne inferens-chip, Jalapeño, tapet ud sammen med Broadcom. Skrevet 26. august, taget med her fordi den er forudsætningen for ugens diskussion om Nvidias marginer."
+  },
+  {
+   "text": "Startup Funding News Today, August 28, 2026: AusperBio, CivilGrid, Transfyr, Yardstik & More",
+   "headline": "Startup Funding News Today, August 28, 2026: AusperBio, CivilGrid, Transfyr, Yardstik & More",
+   "url": "https://techstartups.com/2026/08/28/startup-funding-news-today-august-28-2026-ausperbio-civilgrid-transfyr-yardstik-more/",
+   "publisher": "Tech Startups",
+   "section": "Venture",
+   "publishedAt": "2026-08-28T14:42:00Z",
+   "summary": "Dagens runder: AusperBio (USA/Kina) 120 mio. dollar i serie C, Yardstik (USA) 30 mio., CivilGrid (USA) 26 mio., Transfyr (USA) 25 mio., Lupin Dental (Frankrig) 15 mio. euro, Nanolope (Tyskland) 800.000 euro."
+  },
+  {
+   "text": "Forsker undrer sig efter ny sika-undersøgelse: Hvorfor har man ikke lavet flere prøver?",
+   "headline": "Forsker undrer sig efter ny sika-undersøgelse: Hvorfor har man ikke lavet flere prøver?",
+   "url": "https://www.dr.dk/nyheder/indland/forsker-undrer-sig-efter-ny-sika-undersoegelse-hvorfor-har-man-ikke-lavet-flere-proever",
+   "publisher": "DR",
+   "section": "Indland",
+   "publishedAt": "2026-08-28T18:49:00Z",
+   "summary": "En forsker sætter spørgsmålstegn ved prøvegrundlaget i en ny dansk sika-undersøgelse."
+  },
+  {
+   "text": "De ringer igen og igen, men ingen svarer: Familier venter på nyt efter katastrofen i Nepal",
+   "headline": "De ringer igen og igen, men ingen svarer: Familier venter på nyt efter katastrofen i Nepal",
+   "url": "https://www.dr.dk/nyheder/udland/de-ringer-igen-og-igen-men-ingen-svarer-familier-venter-paa-nyt-efter-katastrofen-i-nepal",
+   "publisher": "DR",
+   "section": "Udland",
+   "publishedAt": "2026-08-29T03:00:00Z",
+   "summary": "Opfølgning på jordskredet og oversvømmelserne ved den nepalesisk-kinesiske grænse: pårørende venter fortsat på besked."
+  },
+  {
+   "text": "Dolly Parton var verdens mest streamede musiker dagen efter sin død",
+   "headline": "Dolly Parton var verdens mest streamede musiker dagen efter sin død",
+   "url": "https://www.dr.dk/nyheder/kultur/dolly-parton-var-verdens-mest-streamede-musiker-dagen-efter-sin-doed",
+   "publisher": "DR",
+   "section": "Kultur",
+   "publishedAt": "2026-08-28T20:04:28Z",
+   "summary": "Dagen efter sin død toppede Dolly Parton den globale streamingliste."
+  },
+  {
+   "text": "Hella Joof om ny film: 'I Danmark kan du stadig falde igennem de sociale koder, selv om du gør dig umage'",
+   "headline": "Hella Joof om ny film: 'I Danmark kan du stadig falde igennem de sociale koder, selv om du gør dig umage'",
+   "url": "https://www.dr.dk/nyheder/kultur/hella-joof-om-ny-film-i-danmark-kan-du-stadig-falde-igennem-de-sociale-koder-selv-om-du-goer-dig",
+   "publisher": "DR",
+   "section": "Kultur",
+   "publishedAt": "2026-08-28T15:45:00Z",
+   "summary": "Hella Joof om sin nye film og om, hvor lidt der skal til for at falde uden for i Danmark."
+  },
+  {
+   "text": "Tre skybrud og 400 lyn registreret indtil nu",
+   "headline": "Tre skybrud og 400 lyn registreret indtil nu",
+   "url": "https://www.dr.dk/nyheder/vejret/tre-skybrud-og-400-lyn-registreret-indtil-nu",
+   "publisher": "DR",
+   "section": "Vejret",
+   "publishedAt": "2026-08-28T19:22:45Z",
+   "summary": "DMI har registreret tre skybrud og omkring 400 lyn over Danmark i løbet af fredagen."
+  }
+ ],
+ "keyNumber": {
+  "label": "Markedets sandsynlighed for en amerikansk renteforhøjelse i september",
+  "indicator": "fed-septemberforhoejelse-sandsynlighed",
+  "value": "57",
+  "unit": "%",
+  "asOf": "28. august 2026",
+  "previous": {
+   "value": "35",
+   "asOf": "27. august 2026",
+   "change": "+22 procentpoint"
+  },
+  "caption": "Én tale flyttede prissætningen 22 procentpoint. Kitco opgør samme skift til 56 pct. fra 36 pct.; tallene er ikke afstemt og står her som de to kilder angiver dem.",
+  "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html",
+  "sourceTitle": "Stock market today: Dow, S&P 500, Nasdaq end week on down note as rate-hike bets jump",
+  "series": [
+   {
+    "label": "27. aug.",
+    "value": 35
+   },
+   {
+    "label": "28. aug.",
+    "value": 57
+   }
+  ]
+ },
+ "column": {
+  "authoredBy": "ai",
+  "slug": "renten-er-ai-udbygningens-pris",
+  "title": "Renten er AI-udbygningens pris",
+  "thesis": "AI-investeringerne er det mest rentefølsomme i økonomien, og Fed har netop varslet den anden vej.",
+  "horizon": "Når erhvervsinvesteringerne i udstyr opgøres for fjerde kvartal",
+  "body": [
+   "Warsh oplyser omkring 9 pct. vækst i investeringer i udstyr. Den vækst er finansieret på en rente, han nu åbner for at hæve."
+  ],
+  "uncertainty": "Jeg tager fejl, hvis investeringerne i udstyr holder væksten, selv om renten sættes op.",
+  "topics": [
+   "renter",
+   "ai",
+   "investeringer"
+  ],
+  "claims": [
+   {
+    "text": "Warsh angiver i talen en vækst i erhvervsinvesteringer i udstyr på omkring 9 pct.",
+    "sourceUrls": [
+     "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm"
+    ],
+    "confidence": "high"
+   }
+  ],
+  "sources": [
+   {
+    "url": "https://www.federalreserve.gov/newsevents/speech/warsh20260828a.htm",
+    "title": "Keynote remarks by Chairman Warsh at the 2026 Jackson Hole Economic Policy Symposium",
+    "publisher": "Federal Reserve Board",
+    "kind": "primary",
+    "publishedAt": "2026-08-28T00:00:00Z"
+   }
+  ]
+ },
+ "quality": {
+  "sourceQuality": 84,
+  "novelty": 82,
+  "decisionValue": 80
+ },
+ "recommendations": [
+  {
+   "id": "rec-latentspace-anandkumar-20260829",
+   "tier": "featured",
+   "mode": "listen",
+   "kind": "interview",
+   "status": "available",
+   "title": "🔬\"We have foundation models for language, not for physics\" — Anima Anandkumar, Bren Professor of Computing",
+   "creator": "Anima Anandkumar / Latent Space",
+   "provider": "Latent Space",
+   "url": "https://www.latent.space/p/anima",
+   "availability": "Gratis, ingen betalingsmur",
+   "commitment": "Lang samtale",
+   "description": "Anima Anandkumar har arbejdet med AI i to årtier, fra klassisk matematik over deep learning og tilbage igen. I samtalen bruger hun det til at modellere den fysiske verden, fra vejr til fusionsreaktorer, og forklarer hvorfor sprogmodellernes opskrift ikke uden videre overføres til fysik.",
+   "rationale": "Valgt, fordi den svarer på det spørgsmål dagens udgave stiller uden at besvare: hvad AI-kapitalen faktisk køber, når den ikke køber chatbots. Deeptech-porteføljer prissættes på, om modeller kan erstatte simulering i fysik, og her er argumentet for hvorfor det er svært, fra en der har prøvet.",
+   "topics": [
+    "ai",
+    "fysik",
+    "deeptech",
+    "forskning"
+   ],
+   "isFeatured": true,
+   "image": {
+    "url": "https://substackcdn.com/image/fetch/$s_!JUTm!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F212802973%2Fb2b17a28-dff2-4575-857c-276c937feaa6%2Ftranscoded-1787722158.png",
+    "credit": "Kilde: Latent Space",
+    "alt": "Episodebillede til Latent Space-samtalen med Anima Anandkumar",
+    "sourceUrl": "https://www.latent.space/p/anima"
+   }
+  },
+  {
+   "id": "rec-anthropic-model-hardware-standard-20260829",
+   "tier": "short",
+   "mode": "read",
+   "kind": "report",
+   "status": "available",
+   "title": "Previewing the Model Hardware Standard",
+   "creator": "Anthropic",
+   "provider": "Anthropic",
+   "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+   "availability": "Gratis",
+   "commitment": "Ca. 10 min",
+   "note": "Primærdokument om en fælles specifikation for, at AI-agenter sikkert kan styre fysiske enheder. Interessant som grænsefladen mellem modeller og laboratorier, ikke som produktnyhed.",
+   "topics": [
+    "ai",
+    "hardware",
+    "standarder"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-latentspace-agent-harness-20260829",
+   "tier": "short",
+   "mode": "listen",
+   "kind": "interview",
+   "status": "available",
+   "title": "The Evolution of the Agent Harness",
+   "creator": "Latent Space",
+   "provider": "Latent Space",
+   "url": "https://www.latent.space/p/attention-interface",
+   "availability": "Gratis, ingen betalingsmur",
+   "commitment": "Lang samtale",
+   "note": "Tesen er, at modellerne gradvist absorberer agent-harnesset ind i deres egne vægte, så harnesset til sidst bliver et interface til menneskets opmærksomhed. Læs den som en påstand om hvilke startups der bliver spist.",
+   "topics": [
+    "ai",
+    "agenter",
+    "produkt"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-arxiv-measurement-revolution-20260829",
+   "tier": "short",
+   "mode": "read",
+   "kind": "paper",
+   "status": "available",
+   "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI",
+   "creator": "Melissa Dell og Ashesh Rambachan",
+   "provider": "arXiv",
+   "url": "https://arxiv.org/abs/2608.23524",
+   "availability": "Gratis preprint",
+   "commitment": "Preprint",
+   "note": "Om hvordan AI billigt gør tekst og billeder til strukturerede variable i økonomi, og hvorfor troværdige konklusioner kræver eksplicit designet validering frem for en påstand om at proxyen er rimelig.",
+   "topics": [
+    "økonomi",
+    "metode",
+    "ai"
+   ],
+   "isFeatured": false
+  },
+  {
+   "id": "rec-mistral-humain-20260829",
+   "tier": "short",
+   "mode": "read",
+   "kind": "essay",
+   "status": "available",
+   "title": "Mistral x HUMAIN",
+   "creator": "Mistral AI",
+   "provider": "Mistral AI",
+   "url": "https://mistral.ai/news/mistral-x-humain",
+   "availability": "Gratis",
+   "commitment": "Kort",
+   "note": "Europas frontier-lab indgår partnerskab med saudiske HUMAIN om regional inferens. Kort tekst, men den konkrete form suverænitets-AI får, når den sælges ud af Europa.",
+   "topics": [
+    "ai",
+    "europa",
+    "geopolitik"
+   ],
+   "isFeatured": false
+  }
+ ]
+}
