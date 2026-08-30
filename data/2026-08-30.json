@@ -1,0 +1,829 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "run-2026-08-30",
+  "date": "2026-08-30",
+  "generatedAt": "2026-08-30T06:00:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief - 30. august 2026",
+  "dek": "Det dødeligste angreb i Ukraine i år, et islandsk EU-valg på en tråd, et norsk tronskifte, nye vilkår i olieaftalen med Venezuela, en eskaleret katastrofe i Nepal, en ny hiv-behandling og Anthropics satsning på forskere.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-ukraine-myla-depot-strike-20260830",
+      "eventKey": "ukraine-myla-ammunition-depot-strike-20260829",
+      "materialFacts": [
+        "Russisk angreb ramte et ammunitionslager i Myla ved Bucha natten til lørdag",
+        "Mindst 37 bekræftet dræbt - det dødeligste russiske angreb mod Kyiv-området i 2026",
+        "Angrebet overgår de 31 dræbte ved angrebet 2. juli 2026",
+        "Zelensky lover at undersøge, hvorfor eksplosiver lå så tæt på beboelse"
+      ],
+      "section": "Krig",
+      "headline": "Russian strike on a Ukrainian warehouse kills 37 in the war's deadliest attack this year",
+      "subheadline": "Angreb på ammunitionslager i Myla ved Bucha er det dødeligste russiske angreb mod Kyiv-området i 2026",
+      "primarySourceUrl": "https://www.nbcnews.com/world/ukraine/russian-strike-ukrainian-warehouse-rcna595041",
+      "body": [
+        "Et russisk drone- og missilangreb ramte natten til lørdag et ammunitionslager i landsbyen Myla ved Bucha, nordvest for Kyiv. Eksplosionerne bredte sig til boliger og et bosted for ældre og handicappede. Mindst 37 er bekræftet dræbt, og myndighederne leder fortsat efter savnede i murbrokkerne.",
+        "Angrebet er det dødeligste russiske angreb mod Kyiv-området i 2026 og overgår de 31 dræbte 2. juli. Det var tredje nat i træk med russiske luftangreb mod hovedstadsregionen.",
+        "Zelensky har lovet at drage dem til ansvar, der tillod eksplosiver så tæt på beboelse - kritik rettet indad, mod ukrainsk logistik, ikke mod Rusland."
+      ],
+      "whyItMatters": "Angrebet skærper spørgsmålet om, hvor længe Ukraine kan opretholde forsyningslinjer og luftforsvar, og lægger pres på vestlige lande om mere luftværn, netop som energiinfrastrukturen igen ventes ramt hen mod vinteren.",
+      "analysis": "At årets dødeligste angreb rammer et ammunitionsdepot og ikke energiinfrastruktur, det gennemgående mønster ellers, kan pege på et skifte i russisk målvalg mod bagland. Zelenskys løfte om at undersøge egne myndigheder er usædvanligt skarpt - et tegn på indenrigspolitisk pres for ansvarlighed, selv når det var Rusland, der affyrede våbnet.",
+      "topics": [
+        "ukraine",
+        "rusland",
+        "krig",
+        "forsvar",
+        "civile tab"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Myla",
+        "Bucha",
+        "Volodymyr Zelensky"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 85,
+        "personalRelevance": 30,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Et russisk angreb på et ammunitionslager i Myla ved Bucha dræbte mindst 37 mennesker natten til lørdag, det dødeligste russiske angreb mod Kyiv-området i 2026.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/ukraine/russian-strike-ukrainian-warehouse-rcna595041",
+            "https://kyivindependent.com/russian-strike-near-kyiv-causes-ammunition-detonations-killing-at-least-27/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/world/ukraine/russian-strike-ukrainian-warehouse-rcna595041",
+          "title": "Russian strike on a Ukrainian warehouse kills 37 in the war's deadliest attack this year",
+          "publisher": "NBC News",
+          "kind": "reporting",
+          "publishedAt": "2026-08-29T20:00:00Z"
+        },
+        {
+          "url": "https://kyivindependent.com/russian-strike-near-kyiv-causes-ammunition-detonations-killing-at-least-27/",
+          "title": "Russian strike near Kyiv causes ammunition detonations, killing at least 27",
+          "publisher": "Kyiv Independent",
+          "kind": "reporting",
+          "publishedAt": "2026-08-29T12:00:00Z"
+        }
+      ],
+      "image": {
+        "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/260829-myla-ukraine-bombing-ww-1241-3c7897.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Russian strike on a Ukrainian warehouse kills 37 in the war's deadliest attack this year",
+        "sourceUrl": "https://www.nbcnews.com/world/ukraine/russian-strike-ukrainian-warehouse-rcna595041"
+      }
+    },
+    {
+      "id": "story-iceland-eu-referendum-20260830",
+      "eventKey": "iceland-eu-accession-referendum-2026",
+      "materialFacts": [
+        "Island stemte 29. august om at genoptage EU-medlemskabsforhandlinger, sat i bero siden 2013",
+        "Ved ca. 40 pct. optalt viste nyeste tal ja foran 51,2-48,8 pct., efter at nej tidligere lå marginalt foran",
+        "Land stemmer nej, Reykjavik stemmer ja - resultatet afhænger af optællingsrækkefølgen",
+        "Intet officielt resultat ventet før tidligst søndag middag"
+      ],
+      "section": "Europa",
+      "headline": "Iceland in suspense after vote on EU membership talks",
+      "subheadline": "Delvis optælling viser ja marginalt foran ved 40 pct. optalt, men land og by stemmer stik modsat",
+      "primarySourceUrl": "https://www.rte.ie/news/world/2026/0830/1589694-iceland-eu-world/",
+      "body": [
+        "Islændinge stemte lørdag om at genoptage EU-forhandlinger, sat i bero siden 2013. Ved delvis optælling lå nej marginalt foran; søndag morgen viste nyere tal ja foran, 51,2 mod 48,8, ved ca. 40 procent optalt.",
+        "Land stemmer nej, Reykjavík ja, så resultatet afhænger af rækkefølgen stemmerne tælles i. Intet resultat ventes før tidligst søndag middag.",
+        "Ja-siden peger på lavere renter og sikkerhed midt i frygt for Trumps krav på Grønland; nej-siden på suverænitet og fiskerirettigheder."
+      ],
+      "whyItMatters": "En islandsk kurs mod EU er det tætteste et nordisk ikke-medlem er kommet på et årti - et tegn på at sikkerhed nu vejer tungere end fiskeriinteresser, drevet af frygt for amerikansk pres i Arktis.",
+      "analysis": "Kløften mellem land og hovedstad er historien: et tæt løb afgøres af, hvilke stemmer der mangler. At sikkerhed er argument for EU-tilnærmelse, viser hvor meget Trumps Grønlands-retorik har flyttet samtalen.",
+      "topics": [
+        "eu",
+        "island",
+        "folkeafstemning",
+        "geopolitik",
+        "suverænitet"
+      ],
+      "entities": [
+        "Island",
+        "EU",
+        "Kristrún Frostadóttir",
+        "Guðrún Hafsteinsdóttir"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 60,
+        "novelty": 80,
+        "sourceQuality": 80,
+        "personalRelevance": 20,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Ved omkring 40 procent af stemmerne optalt lå ja-siden foran med 51,2 mod 48,8 procent; intet officielt resultat forelå ved brief-deadline.",
+          "sourceUrls": [
+            "https://www.rte.ie/news/world/2026/0830/1589694-iceland-eu-world/",
+            "https://www.euronews.com/my-europe/2026/08/30/icelands-eu-referendum-polling-stations-close-as-europe-awaits-results"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.rte.ie/news/world/2026/0830/1589694-iceland-eu-world/",
+          "title": "Iceland in suspense after vote on EU membership talks",
+          "publisher": "RTE",
+          "kind": "reporting",
+          "publishedAt": "2026-08-30T02:26:00Z"
+        },
+        {
+          "url": "https://www.euronews.com/my-europe/2026/08/30/icelands-eu-referendum-polling-stations-close-as-europe-awaits-results",
+          "title": "Iceland's EU referendum: polling stations close as Europe awaits results",
+          "publisher": "Euronews",
+          "kind": "reporting",
+          "publishedAt": "2026-08-30T00:19:00Z"
+        }
+      ],
+      "image": {
+        "url": "https://www.rte.ie/images/0024eb8e-1600.jpg",
+        "credit": "Kilde: RTE",
+        "alt": "Iceland in suspense after vote on EU membership talks",
+        "sourceUrl": "https://www.rte.ie/news/world/2026/0830/1589694-iceland-eu-world/"
+      }
+    },
+    {
+      "id": "story-norge-kong-harald-doed-20260830",
+      "eventKey": "norge-kong-harald-doed-2026",
+      "materialFacts": [
+        "Kong Harald af Norge er død efter 35 år på tronen",
+        "Kronprins Haakon er nu konge og holdt sin første tale i embedet lørdag",
+        "Sørgegudstjenester holdt søndag i norske kirker, hovedgudstjeneste i Oslo Domkirke",
+        "Det er kongehusets første tronskifte siden 1991"
+      ],
+      "section": "Institutioner",
+      "headline": "Norge samles til sørgegudstjenester for kong Harald",
+      "subheadline": "Kong Haakon holdt sin første tale som regent efter faderens død",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/norge-samles-til-soergegudstjenester-kong-harald",
+      "body": [
+        "Kong Harald af Norge er død efter 35 år på tronen. Hans søn, kronprins Haakon, er nu konge og holdt lørdag sin første tale, hvor han hyldede sin far.",
+        "Sørgegudstjenester blev holdt søndag i norske kirker, hovedgudstjenesten i Oslo Domkirke ved biskop Sunniva Gylver, der kaldte Harald en samlende skikkelse - kendt for sin 2016-tale om norsk mangfoldighed.",
+        "Det er kongehusets første tronskifte siden 1991, da Harald selv overtog efter Olav 5."
+      ],
+      "whyItMatters": "Et europæisk kongehus' første tronskifte i 35 år er sjældent og sætter en ny konge på prøve, hvor opbakningen ikke kan tages for givet som under en regent, der har siddet næsten fire årtier.",
+      "analysis": "Harald byggede sin legitimitet på en gentaget fortælling om inklusion frem for tradition alene. Haakon arver den, men skal selv skrive videre; at han talte om faderen først var et signal om kontinuitet i en institution, hvis magt er symbolsk, men symbolik reel.",
+      "topics": [
+        "norge",
+        "kongehus",
+        "institutioner",
+        "europa"
+      ],
+      "entities": [
+        "Kong Harald",
+        "Kong Haakon",
+        "Dronning Sonja",
+        "Norge"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 15,
+        "novelty": 75,
+        "sourceQuality": 75,
+        "personalRelevance": 5,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Kong Harald af Norge er død efter 35 år på tronen, og kronprins Haakon er nu konge.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/norge-samles-til-soergegudstjenester-kong-harald",
+            "https://www.dr.dk/nyheder/udland/kong-haakon-hylder-sin-far-i-foerste-tale-efter-kong-haralds-doed"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.dr.dk/nyheder/udland/norge-samles-til-soergegudstjenester-kong-harald",
+          "title": "Norge samles til sørgegudstjenester for kong Harald",
+          "publisher": "DR",
+          "kind": "reporting",
+          "publishedAt": "2026-08-30T03:00:00Z"
+        },
+        {
+          "url": "https://www.dr.dk/nyheder/udland/kong-haakon-hylder-sin-far-i-foerste-tale-efter-kong-haralds-doed",
+          "title": "Kong Haakon hylder sin far i første tale efter kong Haralds død",
+          "publisher": "DR",
+          "kind": "reporting",
+          "publishedAt": "2026-08-29T17:51:00Z"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/pdgovii5/000_18p1oi.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Norge samles til sørgegudstjenester for kong Harald",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/norge-samles-til-soergegudstjenester-kong-harald"
+      }
+    },
+    {
+      "id": "story-venezuela-oil-deal-terms-20260830",
+      "eventKey": "usa-venezuela-olieaftale-august-2026",
+      "materialFacts": [
+        "Aftalen skal ifølge Rodríguez løbe i 25 år - en ny detalje ud over fredagens annoncering",
+        "Produktionsmål over 1,5 mio. tønder dagligt, op fra nuværende ca. 1,25 mio. - også nyt i dag",
+        "17 oliefelter indgår, samme antal som allerede kendt fra fredagens annoncering",
+        "Trump og Rodríguez giver modstridende fremstillinger af, hvem der reelt kontrollerer ressourcerne"
+      ],
+      "section": "Geopolitik",
+      "headline": "Venezuelas præsident: Energiaftale med USA skal gælde i 25 år",
+      "subheadline": "Nye detaljer om fredagens aftale: 25 års løbetid og et produktionsmål over 1,5 mio. tønder dagligt",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/venezuelas-praesident-olieaftale-med-usa-skal-gaelde-i-25-aar",
+      "body": [
+        "Venezuelas fungerende præsident Delcy Rodríguez oplyste lørdag nye detaljer om fredagens energiaftale med USA: Den skal løbe i 25 år med et produktionsmål over 1,5 mio. tønder dagligt, op fra ca. 1,25 mio.",
+        "Rodríguez fastholder, at Venezuela bevarer suverænitet. Trump hævdede fredag, at aftalen giver USA kontrol over størstedelen af landets 65 mia. tønder reserver - stik modsat hendes fremstilling.",
+        "Demonstrationer mod amerikansk involvering blev meldt lørdag i Caracas."
+      ],
+      "whyItMatters": "En 25-årig ramme er en anden forpligtelse end en annoncering, og et produktionsmål gør det muligt at holde parterne op på, om olien reelt kommer op af jorden.",
+      "analysis": "Uenigheden mellem Trumps 'kontrol' og Rodríguez' 'suverænitet' er aftalens kerne, ikke en detalje. Målet er beskedent mod Venezuelas nedslidte infrastruktur.",
+      "counterpoint": "Rodríguez' tal er hendes egen fremstilling, ikke bekræftet; ingen regering har offentliggjort aftaleteksten.",
+      "topics": [
+        "olie",
+        "geopolitik",
+        "energi",
+        "usa",
+        "venezuela"
+      ],
+      "entities": [
+        "Venezuela",
+        "USA",
+        "Delcy Rodríguez",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 45,
+        "novelty": 40,
+        "sourceQuality": 65,
+        "personalRelevance": 25,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Rodríguez siger, at aftalen skal løbe i 25 år og sigte mod en produktion over 1,5 mio. tønder dagligt fra 17 oliefelter.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/venezuelas-praesident-olieaftale-med-usa-skal-gaelde-i-25-aar",
+            "https://www.theglobeandmail.com/world/article-us-venezuela-energy-deal-will-last-25-years-says-interim-president/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.dr.dk/nyheder/udland/venezuelas-praesident-olieaftale-med-usa-skal-gaelde-i-25-aar",
+          "title": "Venezuelas præsident: Energiaftale med USA skal gælde i 25 år",
+          "publisher": "DR",
+          "kind": "reporting",
+          "publishedAt": "2026-08-30T02:50:00Z"
+        },
+        {
+          "url": "https://www.theglobeandmail.com/world/article-us-venezuela-energy-deal-will-last-25-years-says-interim-president/",
+          "title": "U.S., Venezuela energy deal will last 25 years, says interim President Rodríguez",
+          "publisher": "The Globe and Mail (Reuters)",
+          "kind": "reporting",
+          "publishedAt": "2026-08-29T22:00:00Z"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/fz2b5np3/20260707-154645-3.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Venezuelas præsident: Energiaftale med USA skal gælde i 25 år",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/venezuelas-praesident-olieaftale-med-usa-skal-gaelde-i-25-aar"
+      }
+    },
+    {
+      "id": "story-nepal-flood-escalation-20260830",
+      "eventKey": "nepal-tibet-flood-catastrophe-2026",
+      "materialFacts": [
+        "Dødstallet i Nepal er steget til 675, med ca. 2.498 fortsat meldt savnet",
+        "Kina melder separat 7 døde og 554 savnede i Tibet, heriblandt hundredvis af udlændinge",
+        "En bræsø dannet ved det oprindelige jordskred er begyndt at løbe over",
+        "Mindst 7.514 er reddet siden katastrofen ramte onsdag"
+      ],
+      "section": "Naturkatastrofe",
+      "headline": "Nepal flood death toll rises to 675 as nearly 2,500 remain missing",
+      "subheadline": "Bræsø ved den nepalesisk-kinesiske grænse er begyndt at løbe over efter onsdagens isskred",
+      "primarySourceUrl": "https://www.nbcnews.com/world/asia/nepal-floods-death-toll-climbs-missing-rescue-efforts-rcna594990",
+      "body": [
+        "Dødstallet efter isskredet fra Lirung-gletsjeren ved grænsen mellem Nepal og Kina er steget til 675, med ca. 2.498 fortsat savnet. Kina melder separat 7 døde og 554 savnede i Tibet; omkring 90 amerikanere er blandt de savnede.",
+        "Katastrofen ramte onsdag, da et isskred flyttede over 100 mio. kubikmeter is, sten og aflejringer og udløste oversvømmelser nedstrøms. Mindst 7.514 er reddet.",
+        "En bræsø dannet ved jordskredet er begyndt at løbe over; myndighederne kalder situationen stabil."
+      ],
+      "whyItMatters": "Fra en nyhed om et isskred er katastrofen vokset til en af årets største målt i menneskeliv, med internationalt redningsarbejde og en bræsø, der fortsat kan true nedstrøms.",
+      "analysis": "At dødstallet er femdoblet siden de første meldinger, viser hvor svært omfang er at vurdere i utilgængeligt højfjeldsterræn. Den overløbende bræsø er grunden til, at historien udvikler sig: hændelsen er overstået, faren fra vandet er det ikke.",
+      "topics": [
+        "naturkatastrofe",
+        "klima",
+        "nepal",
+        "kina",
+        "geovidenskab"
+      ],
+      "entities": [
+        "Nepal",
+        "Tibet",
+        "Kina",
+        "Langtang",
+        "Lirung-gletsjeren"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 30,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 5,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Dødstallet i Nepal er steget til 675 med omkring 2.498 fortsat savnet; Kina melder separat 7 døde og 554 savnede i Tibet.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/asia/nepal-floods-death-toll-climbs-missing-rescue-efforts-rcna594990",
+            "https://www.cnn.com/2026/08/29/world/live-news/nepal-china-flood"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nbcnews.com/world/asia/nepal-floods-death-toll-climbs-missing-rescue-efforts-rcna594990",
+          "title": "Nepal flood death toll rises to 675 as nearly 2,500 remain missing",
+          "publisher": "NBC News",
+          "kind": "reporting",
+          "publishedAt": "2026-08-29T18:00:00Z"
+        },
+        {
+          "url": "https://www.cnn.com/2026/08/29/world/live-news/nepal-china-flood",
+          "title": "Live updates: Death toll rises and thousands still missing in Nepal and China after catastrophic floods",
+          "publisher": "CNN",
+          "kind": "reporting",
+          "publishedAt": "2026-08-29T15:00:00Z"
+        }
+      ],
+      "image": {
+        "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/260829-nepal-1nd-a098b2.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Nepal flood death toll rises to 675 as nearly 2,500 remain missing",
+        "sourceUrl": "https://www.nbcnews.com/world/asia/nepal-floods-death-toll-climbs-missing-rescue-efforts-rcna594990"
+      }
+    },
+    {
+      "id": "story-gilead-bixlenvo-approval-20260830",
+      "eventKey": "gilead-bixlenvo-hiv-fda-approval-2026",
+      "materialFacts": [
+        "FDA godkendte 27. august Gileads Bixlenvo (bictegravir/lenacapavir)",
+        "Det er den mindste én-gang-daglige enkelttabletbehandling til hiv i USA",
+        "Baseret på fase 3-forsøgene ARTISTRY-1 og ARTISTRY-2 præsenteret ved CROI 2026",
+        "Målrettet patienter på komplekse regimer, som ikke kan tage eksisterende enkelttabletter"
+      ],
+      "section": "Sundhed",
+      "headline": "FDA approves smallest single-pill HIV regimen, Bixlenvo",
+      "subheadline": "Gileads nye kombinationstablet er godkendt til patienter, der falder mellem eksisterende behandlinger",
+      "primarySourceUrl": "https://www.healio.com/news/infectious-disease/20260828/fda-approves-smallest-singlepill-hiv-regimen-bixlenvo",
+      "body": [
+        "FDA godkendte 27. august Gileads kombinationstablet af bictegravir og lenacapavir under navnet Bixlenvo - den mindste én-gang-daglige enkelttabletbehandling til hiv-patienter i USA.",
+        "Godkendelsen bygger på fase 3-forsøgene ARTISTRY-1 og ARTISTRY-2, præsenteret ved CROI 2026, som ved uge 48 viste effekt på niveau med eksisterende behandlinger uden nye sikkerhedssignaler.",
+        "Bixlenvo er ifølge Gilead den eneste enkelttabletmulighed for patienter på komplekse regimer, som ikke kan tage de eksisterende enkelttabletter."
+      ],
+      "whyItMatters": "En mindre tablet lyder som en detalje, men i hiv-behandling er efterlevelse forskellen mellem kontrol og resistens, så en pille flere kan tage har klinisk værdi.",
+      "analysis": "Godkendelsen udvider markedet snarere end at erstatte det - Bixlenvo rammer patienter mellem eksisterende regimer. Hiv-behandling konkurrerer nu på finjustering for mindre grupper, fordi store behov er dækket.",
+      "topics": [
+        "biotek",
+        "sundhed",
+        "usa",
+        "medicin"
+      ],
+      "entities": [
+        "Gilead Sciences",
+        "FDA",
+        "Bixlenvo"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 35,
+        "novelty": 70,
+        "sourceQuality": 75,
+        "personalRelevance": 15,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "FDA godkendte 27. august Bixlenvo som den mindste én-gang-daglige enkelttabletbehandling for hiv, baseret på ARTISTRY-1/2-forsøgene.",
+          "sourceUrls": [
+            "https://www.gilead.com/news/news-details/2026/u-s--fda-grants-priority-review-of-new-drug-application-for-gileads-once-daily-hiv-treatment-of-bictegravir-plus-lenacapavir",
+            "https://www.healio.com/news/infectious-disease/20260828/fda-approves-smallest-singlepill-hiv-regimen-bixlenvo"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.healio.com/news/infectious-disease/20260828/fda-approves-smallest-singlepill-hiv-regimen-bixlenvo",
+          "title": "FDA approves smallest single-pill HIV regimen, Bixlenvo",
+          "publisher": "Healio",
+          "kind": "reporting",
+          "publishedAt": "2026-08-28T12:00:00Z"
+        },
+        {
+          "url": "https://www.gilead.com/news/news-details/2026/u-s--fda-grants-priority-review-of-new-drug-application-for-gileads-once-daily-hiv-treatment-of-bictegravir-plus-lenacapavir",
+          "title": "U.S. FDA Grants Priority Review of New Drug Application for Gilead's Once Daily HIV Treatment of Bictegravir Plus Lenacapavir",
+          "publisher": "Gilead Sciences",
+          "kind": "primary",
+          "publishedAt": "2026-08-27T13:00:00Z"
+        }
+      ],
+      "image": {
+        "url": "https://www.healio.com/~/media/slack-news/stock-images/rheumatology/f/fda_approved_healio_23007093.jpg",
+        "credit": "Kilde: Healio",
+        "alt": "FDA approves smallest single-pill HIV regimen, Bixlenvo",
+        "sourceUrl": "https://www.healio.com/news/infectious-disease/20260828/fda-approves-smallest-singlepill-hiv-regimen-bixlenvo"
+      }
+    },
+    {
+      "id": "story-anthropic-scientist-support-20260830",
+      "eventKey": "anthropic-expanding-support-scientists-2026",
+      "materialFacts": [
+        "Anthropic annoncerede 27. august Claude Science, en udvidelse af AI for Science og en Claude-teamplan for forskere",
+        "10.000 gratis pladser til forskere; premium 15 dollar/måned med 5x brugsgrænse",
+        "Op til 50.000 dollar i credits per projekt via AI for Science",
+        "Teamplanen kræver hovedforsker-status; credits kan søges af enhver forsker"
+      ],
+      "section": "AI",
+      "headline": "Expanding our support for scientists",
+      "subheadline": "Anthropic lancerer Claude Science, udvidede AI for Science-credits og en teamplan for forskere",
+      "primarySourceUrl": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "body": [
+        "Anthropic annoncerede 27. august tre tiltag for forskere: værktøjet Claude Science, en udvidelse af AI for Science og en Claude-teamplan for videnskabsfolk.",
+        "Teamplanen giver 10.000 gratis pladser; premium koster 15 dollar månedligt med 5x brugsgrænse. Gennem AI for Science kan forskere søge op til 50.000 dollar i credits per projekt.",
+        "Teamplanen kræver, at ansøgeren er hovedforsker eller tilsvarende; credits kan søges af enhver forsker. Programmet starter med biologi og kemi på Opus-klasse modeller."
+      ],
+      "whyItMatters": "Beregningskraft er en flaskehals for forskning uden for de bedst finansierede laboratorier, så et konkret tilbud er mere brugbart end en udtalelse om AI's potentiale.",
+      "analysis": "Kravet 'hovedforsker eller tilsvarende' betyder, det reelt er et værktøj til etablerede grupper, mens credits kan nå yngre forskere. Anthropic investerer i forskningsinfrastruktur, mens konkurrenter fokuserer på virksomheder.",
+      "topics": [
+        "ai",
+        "forskning",
+        "videnskab"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude Science"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 50,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "Anthropic tilbyder 10.000 gratis pladser til forskere og op til 50.000 dollar i credits per projekt gennem AI for Science.",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/expanding-support-for-scientists"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+          "title": "Expanding our support for scientists",
+          "publisher": "Anthropic",
+          "kind": "primary",
+          "publishedAt": "2026-08-27T17:00:00Z"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Corn and wheat prices jump to highest prices in more than three years",
+      "headline": "Corn and wheat prices jump to highest prices in more than three years",
+      "url": "https://www.cnbc.com/2026/08/28/corn-and-wheat-prices-jump-to-highest-prices-in-more-than-three-years.html",
+      "publisher": "CNBC",
+      "section": "Markeder",
+      "publishedAt": "2026-08-28T18:00:00Z",
+      "summary": "Majs rammer et treårshøjt niveau på dårligere end ventet amerikansk høst, mens hvede stiger på frygt for forstyrret Sortehavs-eksport."
+    },
+    {
+      "text": "Meta, states agree to $17 billion settlement in child safety trial",
+      "headline": "Meta, states agree to $17 billion settlement in child safety trial",
+      "url": "https://www.npr.org/2026/08/26/nx-s1-5944781/meta-settlement-child-safety-lawsuit",
+      "publisher": "NPR",
+      "section": "Teknologi",
+      "publishedAt": "2026-08-26T16:00:00Z",
+      "summary": "Aftalen indfører blandt andet en daglig totrimersgrænse på tværs af Facebook og Instagram for teenagere og en nattetilstand uden feed mellem midnat og kl. 6."
+    },
+    {
+      "text": "Britisk højrefløjsprovokatør udvist af USA",
+      "headline": "Britisk højrefløjsprovokatør udvist af USA",
+      "url": "https://www.dr.dk/nyheder/seneste/britisk-hoejrefloejsprovokatoer-udvist-af-usa",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-08-29T21:09:00Z",
+      "summary": "Milo Yiannopoulos blev anholdt i New Orleans og udvist til Storbritannien, efter han var blevet i USA efter udløbet visum siden 2019."
+    },
+    {
+      "text": "Forsker undrer sig efter ny sika-undersøgelse: Hvorfor har man ikke lavet flere prøver?",
+      "headline": "Forsker undrer sig efter ny sika-undersøgelse: Hvorfor har man ikke lavet flere prøver?",
+      "url": "https://www.dr.dk/nyheder/indland/forsker-undrer-sig-efter-ny-sika-undersoegelse-hvorfor-har-man-ikke-lavet-flere-proever",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-08-29T10:00:00Z",
+      "summary": "Ny kromosomanalyse fra Københavns Universitet finder ikke belæg for hybridisering mellem sika- og kronhjort, men en Aarhus-forsker kalder undersøgelsen utilstrækkelig."
+    },
+    {
+      "text": "Pogačar abandons La Vuelta after heavy crash 33km from finish",
+      "headline": "Pogačar abandons La Vuelta after heavy crash 33km from finish",
+      "url": "https://www.euronews.com/2026/08/29/pogacar-abandons-la-vuelta-after-heavy-crash-33km-from-finish",
+      "publisher": "Euronews",
+      "section": "Sport",
+      "publishedAt": "2026-08-29T16:00:00Z",
+      "summary": "Pogačar er diagnosticeret med hjernerystelse, kraveben- og C7-halshvirvelbrud og skal opereres, når hjernerystelsen tillader det."
+    },
+    {
+      "text": "Lego-direktør om kunstig intelligens: Man skal være bekymret, om man bruger det rigtigt",
+      "headline": "Lego-direktør om kunstig intelligens: Man skal være bekymret, om man bruger det rigtigt",
+      "url": "https://www.dr.dk/nyheder/penge/lego-direktoer-om-kunstig-intelligens-man-skal-vaere-bekymret-om-man-bruger-det-rigtigt",
+      "publisher": "DR",
+      "section": "Penge",
+      "publishedAt": "2026-08-29T10:02:00Z",
+      "summary": "Lego-direktør Niels B. Christiansen siger, AI er et nyttigt produktivitetsværktøj, men at menneskelig kreativitet fortsat skal drive nye produkter."
+    },
+    {
+      "text": "U.S., South Korea and Japan to hold drill as North Korea ramps up pressure on U.S.",
+      "headline": "U.S., South Korea and Japan to hold drill as North Korea ramps up pressure on U.S.",
+      "url": "https://www.npr.org/2026/08/28/g-s1-140849/us-south-korea-japan-drill-north-korea",
+      "publisher": "NPR",
+      "section": "Verden",
+      "publishedAt": "2026-08-28T14:00:00Z",
+      "summary": "'Freedom Edge'-øvelsen ved Jeju-øen indledes 7. september; Nordkorea har tidligere kaldt øvelsen en 'hensynsløs styrkedemonstration'."
+    },
+    {
+      "text": "Israeli strikes and fire kill 3 Palestinians in Gaza, and other Middle East news",
+      "headline": "Israeli strikes and fire kill 3 Palestinians in Gaza, and other Middle East news",
+      "url": "https://www.wsls.com/news/world/2026/08/29/israeli-strikes-and-fire-kill-3-palestinians-in-gaza-and-other-middle-east-news/",
+      "publisher": "The Associated Press",
+      "section": "Mellemøsten",
+      "publishedAt": "2026-08-29T12:00:00Z",
+      "summary": "Israelske angreb dræbte tre palæstinensere i Gaza fredag, mens en FN-udsending advarer om, at en kollaps af våbenhvilen nærmer sig et 'point of no return'."
+    },
+    {
+      "text": "Fogo Foundation Hacked: 400M Tokens Worth $3.88M Stolen as FOGO Drops 18%",
+      "headline": "Fogo Foundation Hacked: 400M Tokens Worth $3.88M Stolen as FOGO Drops 18%",
+      "url": "https://www.cryptotimes.io/2026/08/29/fogo-foundation-hacked-400m-tokens-stolen-as-fogo-drops-18/",
+      "publisher": "The Crypto Times",
+      "section": "Krypto",
+      "publishedAt": "2026-08-29T14:00:00Z",
+      "summary": "Fogo Foundation har underrettet børser og myndigheder efter et brud, der flyttede 4 pct. af den samlede FOGO-beholdning til en angriber."
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "rawls-regning-for-ai",
+    "title": "Rawls's regning for AI-væksten",
+    "thesis": "Differensprincippet gør kun AI-væksten retfærdig, hvis bunden vinder i kroner.",
+    "horizon": "Når de kommende års reallønsdata for lønbunden foreligger",
+    "body": [
+      "Rawls tillader ulighed kun, når den løfter bunden reelt. Det bevis mangler AI-væksten stadig."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis lønbundens realindkomst vokser på linje med toppens gevinst fra AI-drevet produktivitet - det ville vise, at markedet allerede fordeler gevinsten uden Rawls' tvang. Kontrolleres i Danmarks Statistiks og BLS' decilopdelte indkomststatistik.",
+    "topics": [
+      "filosofi",
+      "ai",
+      "ulighed",
+      "politisk teori"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-ai-doc-apocaloptimist-20260830",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "dokumentarfilm",
+      "status": "available",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
+      "creator": "Daniel Roher, Charlie Tyrell",
+      "provider": "Focus Features",
+      "url": "https://www.focusfeatures.com/the-ai-doc-or-how-i-became-an-apocaloptimist",
+      "availability": "Til leje/køb digitalt (Apple TV, Prime Video, Fandango At Home m.fl.); kommer på Netflix i USA 15. september 2026",
+      "commitment": "~100 minutter",
+      "description": "Dokumentar fra instruktørerne bag den Oscar-vindende 'Navalny'. Daniel Roher undersøger som kommende far AI's løfte og risiko gennem samtaler med ledende forskere og virksomhedsledere, og vejer 'apocaloptimisme' op mod reel bekymring.",
+      "rationale": "Værd Alexanders tid, fordi filmen tager den civilisatoriske skala-påstand seriøst - samme akse han selv vægter højt hos Harari og Amodei - uden at lande i hverken ren dommedag eller ukritisk optimisme. Roher har selv noget på spil som far, hvilket giver filmen en personlig forpligtelse, en YouTube-opsummering ikke kan matche.",
+      "topics": [
+        "ai",
+        "filosofi",
+        "eksistentielle risici",
+        "film"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://images.contentstack.io/v3/assets/blt223a4a92692ca457/bltbbcfe9dbcd2e8dab/69af0530030f160008147b84/THE_AI_DOC_Digi_1-Sheet_1080x1600_W3_FIN02.jpg",
+        "credit": "Kilde: Focus Features",
+        "alt": "Officiel plakat for dokumentaren 'The AI Doc: Or How I Became an Apocaloptimist'",
+        "sourceUrl": "https://www.focusfeatures.com/the-ai-doc-or-how-i-became-an-apocaloptimist"
+      }
+    },
+    {
+      "id": "rec-cosmos-swarms-sand-gods-20260830",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Of Swarms and Sand Gods",
+      "creator": "Séb Krier",
+      "provider": "Cosmos Institute",
+      "url": "https://blog.cosmos-institute.org/p/of-swarms-and-sand-gods",
+      "availability": "Gratis, åben adgang",
+      "commitment": "~15 minutter",
+      "note": "Argumenterer for, at AI-sikkerhedstænkning stadig antager én dominerende aktør, mens fremtiden ligner sværme af mindre modeller - en forskydning, der ændrer, hvad 'at løse alignment' overhovedet betyder.",
+      "topics": [
+        "ai",
+        "governance",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-philosophy-overdose-intelligence-explosion-20260830",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "foredragsvideo",
+      "status": "timely",
+      "title": "AI: The Intelligence Explosion & Morality",
+      "creator": "Philosophy Overdose",
+      "provider": "Philosophy Overdose (YouTube)",
+      "url": "https://www.youtube.com/@Philosophy_Overdose",
+      "availability": "Gratis på YouTube",
+      "commitment": "~90 minutter",
+      "note": "Den første anbefaling nogensinde fra en filosofiforelæsningskanal, Alexander har set 10 gange men aldrig fået anbefalet fra - analytisk filosofi om AI og moral, en tradition fraværende fra hans læste bøger.",
+      "topics": [
+        "filosofi",
+        "ai-etik",
+        "analytisk filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-rawls-theory-of-justice-20260830",
+      "tier": "short",
+      "mode": "read",
+      "kind": "bog",
+      "status": "classic",
+      "title": "A Theory of Justice",
+      "creator": "John Rawls",
+      "provider": "Harvard University Press",
+      "url": "https://www.hup.harvard.edu/books/9780674000780",
+      "availability": "I handlen og på biblioteker",
+      "commitment": "Hovedværk; differensprincippet fylder ét kapitel",
+      "note": "Analytisk politisk filosofi optræder i ingen af hans 74 læste titler - og differensprincippet er selve linsen for dagens fordelingsspørgsmål, fra Island til Venezuela.",
+      "topics": [
+        "politisk filosofi",
+        "økonomi",
+        "ulighed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-epoch-capabilities-index-20260830",
+      "tier": "short",
+      "mode": "try",
+      "kind": "datasæt",
+      "status": "new",
+      "title": "Epoch Capabilities Index",
+      "creator": "Epoch AI",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/benchmarks",
+      "availability": "Gratis, åben adgang",
+      "commitment": "~10-20 minutter",
+      "note": "Opdateret 28. august med de nyeste benchmarkresultater for frontier-modeller - et andet Epoch-produkt end omsætningstrackeren, brevet anbefalede 28. august.",
+      "topics": [
+        "ai",
+        "benchmarking",
+        "data"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-invest-like-the-best-movva-20260830",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcastinterview",
+      "status": "new",
+      "title": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+      "creator": "Patrick O'Shaughnessy, Neil Movva",
+      "provider": "Invest Like The Best / Colossus",
+      "url": "https://podcasts.apple.com/us/podcast/neil-movva-making-ai-10x-cheaper/id1154105909?i=1000785705137",
+      "availability": "Gratis på alle podcastplatforme",
+      "commitment": "~60-75 minutter",
+      "note": "Neil Movva om at bygge en inferensvirksomhed til AI-agenter, der kører i baggrunden i timevis - i forlængelse af compute-tesen, brevet har fulgt hele august.",
+      "topics": [
+        "venturekapital",
+        "ai-infrastruktur",
+        "compute"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-meta-muse-code-20260830",
+      "tier": "short",
+      "mode": "try",
+      "kind": "udviklerværktøj",
+      "status": "available",
+      "title": "Muse Code",
+      "creator": "Meta",
+      "provider": "Meta AI",
+      "url": "https://developer.meta.com/ai/resources/blog/build-with-muse-code/",
+      "availability": "Gratis beta, én-kommando-installation",
+      "commitment": "~20-30 minutter",
+      "note": "En AI-agent, der kan planlægge og udføre kodeændringer i store kodebaser - værd at prøve på et rigtigt repo, ikke bare læse om.",
+      "topics": [
+        "ai",
+        "software",
+        "agenter"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nature-consciousness-nonordinary-states-20260830",
+      "tier": "short",
+      "mode": "read",
+      "kind": "forskningsartikel",
+      "status": "new",
+      "title": "Nonordinary states of consciousness, self-transcendence and wellbeing",
+      "creator": "Neuroscience of Consciousness",
+      "provider": "Oxford Academic",
+      "url": "https://academic.oup.com/nc/issue/2026/1",
+      "availability": "Åben adgang",
+      "commitment": "~20-30 minutter",
+      "note": "Nyt studie om, hvordan ikke-ordinære bevidsthedstilstande kan understøtte selvtranscendens og trivsel - i forlængelse af den stående interesse for bevidsthed.",
+      "topics": [
+        "bevidsthed",
+        "filosofi",
+        "psykologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-microsoft-agent-lightning-20260830",
+      "tier": "short",
+      "mode": "try",
+      "kind": "open source-værktøj",
+      "status": "available",
+      "title": "Agent Lightning v1.0",
+      "creator": "Microsoft Research",
+      "provider": "Microsoft Research",
+      "url": "https://github.com/microsoft/agent-lightning",
+      "availability": "Gratis, open source",
+      "commitment": "~30-60 minutter",
+      "note": "Et open source reinforcement learning-framework til at træne AI-agenter - et konkret værktøj at eksperimentere med, ikke endnu en produktannoncering.",
+      "topics": [
+        "ai",
+        "reinforcement learning",
+        "agenter"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceQuality": 76,
+    "novelty": 64,
+    "decisionValue": 41
+  }
+}
