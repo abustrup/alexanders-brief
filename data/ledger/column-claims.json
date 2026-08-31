@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-08-30",
-      "slug": "rawls-regning-for-ai",
-      "claim": "Differensprincippet gør kun AI-drevet vækst retfærdig, hvis den nederste indkomstgruppe reelt vinder i faste kroner, ikke kun relativt til toppen.",
-      "horizon": "Når de kommende års reallønsdata for lønbunden foreligger",
-      "falsifier": "Lønbundens realindkomst vokser på linje med toppens gevinst fra AI-drevet produktivitet. Kontrolleres i Danmarks Statistiks og BLS' decilopdelte indkomststatistik.",
+      "date": "2026-08-31",
+      "slug": "stemmernes-pris-paa-et-marked",
+      "claim": "Prognosemarkeders kalibrering falder, når få store handlende dominerer volumen, fordi priser da flytter sig efter overbevisning frem for information.",
+      "horizon": "Når Polymarket og Kalshi (eller uafhængige forskere) offentliggør koncentrationsjusteret kalibrering, dvs. Brier-scorer opdelt på handlerandel",
+      "falsifier": "Koncentrationsjusterede studier viser uændret eller forbedret kalibrering, selv når en lille gruppe handlende står for størstedelen af volumen på Polymarket og Kalshi.",
       "status": "open"
     }
   ]
