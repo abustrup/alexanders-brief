@@ -202,6 +202,20 @@
           "recordedOn": "2026-08-10"
         }
       ]
+    },
+    {
+      "indicator": "drc-ebola-cases-cumulative",
+      "label": "Bekræftede ebolatilfælde, igangværende udbrud i DR Congo",
+      "unit": "bekræftede tilfælde",
+      "note": "Startet 2026-09-01: det største ebolaudbrud, DR Congo nogensinde har registreret. Læs WHO's Disease Outbreak News-serie for Bundibugyo-virus-udbruddet; tallet dækker DR Congo, Uganda og eventuelle eksporterede tilfælde samlet.",
+      "readings": [
+        {
+          "value": "4.686",
+          "asOf": "12. august 2026",
+          "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+          "recordedOn": "2026-09-01"
+        }
+      ]
     }
   ]
 }

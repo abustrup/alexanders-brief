@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-08-31",
-      "slug": "stemmernes-pris-paa-et-marked",
-      "claim": "Prognosemarkeders kalibrering falder, når få store handlende dominerer volumen, fordi priser da flytter sig efter overbevisning frem for information.",
-      "horizon": "Når Polymarket og Kalshi (eller uafhængige forskere) offentliggør koncentrationsjusteret kalibrering, dvs. Brier-scorer opdelt på handlerandel",
-      "falsifier": "Koncentrationsjusterede studier viser uændret eller forbedret kalibrering, selv når en lille gruppe handlende står for størstedelen af volumen på Polymarket og Kalshi.",
+      "date": "2026-09-01",
+      "slug": "licensen-ikke-plasmaet",
+      "claim": "Helions leverance af fusionsstrøm til Microsoft (kontraktens 2028-frist) glider, og når den gør, er årsagen NRC's nye Part 53-licensproces, ikke plasmafysikken.",
+      "horizon": "Leveringsfristen i Helion-Microsoft-aftalen, 2028",
+      "falsifier": "Helion leverer kontraktens strøm til Microsofts net inden udgangen af 2028, eller en eventuel forsinkelse skyldes en teknisk fejl i plasmaet snarere end sagsbehandling. Kontrolleres i Helions egne pressemeddelelser og i NRC's sagsdatabase.",
       "status": "open"
     }
   ]
