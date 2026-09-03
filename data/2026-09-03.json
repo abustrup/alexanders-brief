@@ -1,0 +1,758 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-09-03",
+  "date": "2026-09-03",
+  "generatedAt": "2026-09-03T06:00:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "3. september 2026 – Hormuz-strædet lukker reelt for handelsflåden, OpenAIs Astra krydser selskabets egen sikkerhedsgrænse, og FN erkender officielt, at 1,5 grader bliver overskredet.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-hormuz-shipping-closure-20260903",
+      "eventKey": "iran-hormuz-shipping-closure-2026",
+      "materialFacts": [
+        "Only ~6 Hormuz transits on 30 August vs an ~85/day baseline",
+        "First confirmed civilian shipping deaths of the campaign (two Filipino sailors, tanker Sidr)",
+        "Maersk emergency surcharge and Cape-route diversion",
+        "US strikes on Iranian radar/mine-laying equipment 1 September; rial at record low"
+      ],
+      "section": "Geopolitik og energi",
+      "headline": "Trump Says Renewed Military Campaign Against Iran Won't Last 'Too Long'",
+      "primarySourceUrl": "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html",
+      "subheadline": "Hormuz-strædet er nu reelt lukket for handelsskibsfart, og de første bekræftede søfolks dødsfald ændrer regningen for olie og global shipping.",
+      "body": [
+        "Kun seks skibe passerede Hormuz-strædet den 30. august mod normalt 85 om dagen, ifølge IMF PortWatch. To saudiske supertankere blev ramt af projektiler den 31. august, og angrebet på tankeren Sidr kostede to filippinske søfolk livet – de første bekræftede civile dødsfald i konflikten til søs.",
+        "Mærsk omdirigerer last syd om Afrika og har indført et nødtillæg på op til 3.800 dollar pr. container. USA angreb 1. september iransk radar- og minelægningsudstyr, mens den iranske rial faldt til rekordlave niveauer efter nye amerikanske sanktioner."
+      ],
+      "whyItMatters": "En strædelukning, der ikke er formel, men reel, rammer olie- og fragtpriser globalt og går direkte igennem til dansk shipping og forsikring, uden at nogen har erklæret krig mod handelsflåden.",
+      "analysis": "Det er forskellen på en krig mod hære og en krig mod forsikringsmarkeder: ingen mine skal ramme for at lukke strædet, det er nok at gøre risikoen uoverskuelig for rederne selv.",
+      "counterpoint": "Trump siger selv, kampagnen ikke skal vare 'for længe', og en diplomatisk løsning kan fjerne risikopræmien lige så hurtigt, som den kom.",
+      "topics": [
+        "geopolitik",
+        "forsvar",
+        "energi",
+        "olie",
+        "shipping",
+        "mellemøsten"
+      ],
+      "entities": [
+        "Iran",
+        "USA",
+        "Donald Trump",
+        "Maersk",
+        "Strait of Hormuz",
+        "Saudi Arabia"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 95,
+        "decisionValue": 85,
+        "novelty": 65,
+        "sourceQuality": 85,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Only about 6 ships transited the Strait of Hormuz on 30 August against a pre-crisis baseline near 85/day.",
+          "sourceUrls": [
+            "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Two Saudi supertankers were struck on 31 August; the Sidr strike killed two Filipino sailors.",
+          "sourceUrls": [
+            "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump Says Renewed Military Campaign Against Iran Won't Last 'Too Long'",
+          "publisher": "RFE/RL",
+          "url": "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html",
+          "publishedAt": "2026-09-02T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Maersk Keeps Gulf Restrictions in Place Despite Hormuz Reopening Push",
+          "publisher": "gCaptain",
+          "url": "https://gcaptain.com/maersk-keeps-gulf-restrictions-in-place-despite-hormuz-reopening-push/",
+          "publishedAt": "2026-06-16T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://gdb.rferl.org/9da27ba5-dac1-4300-91fd-f63c62d937af_w1200_h630.jpg",
+        "credit": "Kilde: RFE/RL",
+        "alt": "Trump Says Renewed Military Campaign Against Iran Won't Last 'Too Long'",
+        "sourceUrl": "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html"
+      }
+    },
+    {
+      "id": "story-openai-astra-critical-20260903",
+      "eventKey": "openai-astra-critical-threshold-2026",
+      "materialFacts": [
+        "Astra is OpenAI's first model classified at the Preparedness Framework's Critical cyber tier",
+        "Development paused for weeks to add a misalignment-monitor safeguard",
+        "Early access limited to the Daybreak Blue defensive coalition (Cisco, Cloudflare, Palo Alto Networks)"
+      ],
+      "section": "AI og sikkerhed",
+      "headline": "OpenAI's Astra Becomes the First Model to Trip Its Own 'Critical' Cyber Threshold",
+      "primarySourceUrl": "https://egamers.io/openais-astra-becomes-the-first-model-to-trip-its-own-critical-cyber-threshold/",
+      "subheadline": "Astra er den første model, OpenAI selv klassificerer i den øverste cybersikkerhedskategori – og adgangen bliver strengt begrænset.",
+      "body": [
+        "Astra kan ifølge OpenAI selvstændigt finde og udnytte ukendte sikkerhedshuller uden trin-for-trin menneskelig styring. Det placerer modellen i 'Critical'-kategorien af selskabets Preparedness Framework – første gang nogen model har krydset den grænse.",
+        "OpenAI satte udviklingen på pause i flere uger for at bygge en 'misalignment-monitor' ind, der kan afbryde en session. Tidlig adgang går til Daybreak Blue-samarbejdet med blandt andre Cisco og Cloudflare."
+      ],
+      "whyItMatters": "Det er den første reelle test af, om et AI-selskabs eget sikkerhedshierarki holder, når en model rent faktisk krydser dets øverste tærskel.",
+      "analysis": "At OpenAI bremser og lapper i stedet for at lancere straks, er selv et signal: konkurrencepresset er tydeligvis ikke stærkere end frygten for et cyberværktøj, ingen kan trække tilbage.",
+      "counterpoint": "En 'Critical'-erklæring er også god markedsføring af modellens styrke, uden at risikoen kan efterprøves udefra.",
+      "topics": [
+        "ai",
+        "cybersikkerhed",
+        "usa",
+        "regulering"
+      ],
+      "entities": [
+        "OpenAI",
+        "Astra",
+        "Cisco",
+        "Cloudflare",
+        "Palo Alto Networks",
+        "Sam Altman"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 75,
+        "novelty": 90,
+        "sourceQuality": 72,
+        "personalRelevance": 90,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Astra is the first OpenAI model classified at the Preparedness Framework's 'Critical' cybersecurity tier.",
+          "sourceUrls": [
+            "https://egamers.io/openais-astra-becomes-the-first-model-to-trip-its-own-critical-cyber-threshold/",
+            "https://www.helpnetsecurity.com/2026/08/10/openai-astra-critical-cyber-capabilities/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI's Astra Becomes the First Model to Trip Its Own 'Critical' Cyber Threshold",
+          "publisher": "eGamers.io",
+          "url": "https://egamers.io/openais-astra-becomes-the-first-model-to-trip-its-own-critical-cyber-threshold/",
+          "publishedAt": "2026-09-03T05:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI locks down Astra over potential critical cyber capabilities",
+          "publisher": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/08/10/openai-astra-critical-cyber-capabilities/",
+          "publishedAt": "2026-08-10T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://egamers.io/wp-content/uploads/2026/09/openais-astra-becomes-the-first-model-to-trip-its-own-critical-cyber-threshold.jpg",
+        "credit": "eGamers.io",
+        "alt": "Illustration til OpenAIs Astra-model og cybersikkerhedstærsklen",
+        "sourceUrl": "https://egamers.io/openais-astra-becomes-the-first-model-to-trip-its-own-critical-cyber-threshold/"
+      }
+    },
+    {
+      "id": "story-unep-limiting-overshoot-20260903",
+      "eventKey": "unep-limiting-overshoot-2026",
+      "materialFacts": [
+        "UNEP's first 'Limiting Overshoot' report, published 2 September, says 1.5C will likely be crossed within a few years",
+        "Even optimistic pledges put peak warming at 1.8C",
+        "Reframes goal from prevention to an 'overshoot, peak, decline' pathway"
+      ],
+      "section": "Klima",
+      "headline": "UNEP: World set to cross 1.5°C global warming, but can still limit, adapt to and return from higher temperatures",
+      "primarySourceUrl": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and",
+      "subheadline": "FN's miljøprogram skifter for første gang officielt fokus fra at forhindre overskridelse til at begrænse, hvor længe og hvor højt verden overskrider målet.",
+      "body": [
+        "UNEP's første 'Limiting Overshoot'-rapport, offentliggjort fra Nairobi 2. september, slår fast, at 1,5-gradersmålet med stor sandsynlighed brydes inden for få år. Selv det mest optimistiske scenarie med nuværende regeringsløfter lander på en top omkring 1,8 grader.",
+        "Rapporten anbefaler en 'overskrid, top og fald'-vej: hurtige udledningsreduktioner, nettonul og kulstoffjernelse for at bringe temperaturen ned igen. Risikoen for vippepunkter i iskapper og Amazonas stiger med hver brøkdel af en grad."
+      ],
+      "whyItMatters": "Det er en officiel indrømmelse af, at målet fejler som forebyggelse, og en flytning af spørgsmålet til, hvor hurtigt verden kan komme tilbage under grænsen.",
+      "analysis": "Sprogskiftet fra 'forhindre' til 'vende tilbage' er selv en beslutning: kulstoffjernelse i stor skala bliver nu nødvendig, ikke blot supplerende.",
+      "counterpoint": "Kulstoffjernelse i den nødvendige skala er endnu ikke moden teknologi.",
+      "topics": [
+        "klima",
+        "videnskab",
+        "energi",
+        "global politik"
+      ],
+      "entities": [
+        "UNEP",
+        "United Nations"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 55,
+        "novelty": 75,
+        "sourceQuality": 95,
+        "personalRelevance": 35,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "UNEP's 'Limiting Overshoot' report, published 2 September from Nairobi, states 1.5C will likely be crossed within a few years.",
+          "sourceUrls": [
+            "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UNEP: World set to cross 1.5°C global warming, but can still limit, adapt to and return from higher temperatures",
+          "publisher": "UNEP",
+          "url": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and",
+          "publishedAt": "2026-09-02T08:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://cdn.unenvironment.org/styles/article_billboard_image/s3/2026-09/getty-images-unsplash.jpg?h=0e05d317&itok=ati_5hcn",
+        "credit": "Getty Images/Unsplash via UNEP",
+        "alt": "UNEP's illustration til rapporten om overskridelse af 1,5 grader",
+        "sourceUrl": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and"
+      }
+    },
+    {
+      "id": "story-doj-openai-nyt-20260903",
+      "eventKey": "doj-openai-nyt-fair-use-2026",
+      "materialFacts": [
+        "DOJ filed a statement of interest backing OpenAI's fair-use defense against the NYT",
+        "First time the US government has taken a position in AI copyright litigation"
+      ],
+      "section": "AI og jura",
+      "headline": "Trump Administration Backs OpenAI in New York Times Copyright Fight",
+      "primarySourceUrl": "https://www.thewrap.com/industry-news/tech/trump-administration-openai-new-york-times-ai-copyright/",
+      "subheadline": "USA's justitsministerium tager for første gang officielt stilling i sagerne om AI og ophavsret – på OpenAIs side.",
+      "body": [
+        "Justitsministeriet har indgivet et 'statement of interest', der støtter OpenAIs forsvar om, at træning på ophavsretsbeskyttet tekst er 'fair use'. Det er første gang regeringen tager stilling i bølgen af ophavsretssager mod AI-selskaber.",
+        "Ministeriet kalder et 'robust' amerikansk AI-økosystem en sikkerhedsprioritet. New York Times svarer, at holdningen vil 'undergrave bæredygtigheden af menneskeskabt indhold'. Dommer Sidney Stein afgør sagen selvstændigt."
+      ],
+      "whyItMatters": "Det er den tydeligste indikation endnu af, hvordan regeringen vil forsøge at forme udfaldet af AI-selskabernes ophavsretssager uden selv at være part.",
+      "analysis": "Argumentet gør ophavsret geopolitisk: taber OpenAI, bliver konsekvensen ifølge regeringen ikke kun én retssag, men amerikansk AI's konkurrenceevne.",
+      "topics": [
+        "ai",
+        "jura",
+        "usa",
+        "ophavsret"
+      ],
+      "entities": [
+        "Donald Trump",
+        "OpenAI",
+        "The New York Times",
+        "Microsoft",
+        "Department of Justice",
+        "Sidney Stein"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 65,
+        "novelty": 85,
+        "sourceQuality": 78,
+        "personalRelevance": 68,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "The DOJ filed a statement of interest backing OpenAI's fair-use defense against the New York Times -- the government's first position taken in AI copyright litigation.",
+          "sourceUrls": [
+            "https://www.thewrap.com/industry-news/tech/trump-administration-openai-new-york-times-ai-copyright/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump Administration Backs OpenAI in New York Times Copyright Fight",
+          "publisher": "TheWrap",
+          "url": "https://www.thewrap.com/industry-news/tech/trump-administration-openai-new-york-times-ai-copyright/",
+          "publishedAt": "2026-09-02T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.thewrap.com/wp-content/uploads/2026/09/sam-altman-open-ai.jpg",
+        "credit": "TheWrap",
+        "alt": "Sam Altman, administrerende direktør for OpenAI",
+        "sourceUrl": "https://www.thewrap.com/industry-news/tech/trump-administration-openai-new-york-times-ai-copyright/"
+      }
+    },
+    {
+      "id": "story-crowdstrike-safemind-20260903",
+      "eventKey": "crowdstrike-safemind-launch-2026",
+      "materialFacts": [
+        "CrowdStrike launched SafeMind (Red Tempest / Blue Solano, built on Nvidia Nemotron) at Fal.Con 2026",
+        "Runs natively in Falcon with standalone access via Project QuiltWorks"
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "Breakout time hits zero as CrowdStrike unveils autonomous red teaming: theCUBE's Fal.Con 2026 day one keynote analysis",
+      "primarySourceUrl": "https://siliconangle.com/2026/09/01/autonomous-red-teaming-crowdstrike-falcon/",
+      "subheadline": "To Nvidia-baserede AI-modeller kæmper mod hinanden i en lukket løkke for at finde og lukke angrebsveje hurtigere end mennesker kan.",
+      "body": [
+        "CrowdStrike lancerede på Fal.Con 2026 systemet SafeMind: en offensiv model, Red Tempest, trænet på 15 års hændelsesdata, og en defensiv model, Blue Solano, der lukker de angrebsveje, Red Tempest finder i en lukket løkke.",
+        "Systemet kører nativt i Falcon med separat adgang via 'Project QuiltWorks'. CrowdStrike hævder, Blue Solano slår ledende sprogmodeller på præcision, mens driftsomkostningen falder 99 procent – endnu ikke uafhængigt efterprøvet."
+      ],
+      "whyItMatters": "Samme uge som OpenAI erklærer en model 'kritisk' på cybersikkerhed, viser CrowdStrike den modsatte pol: brug kraftfulde modeller til forsvar, ikke kun frygt dem.",
+      "analysis": "To uafhængige aktører lander samme uge på, at modstridende AI-modeller i lukket løkke er vejen frem – det ligner en arkitekturtrend, ikke kun ét firmas markedsføring.",
+      "topics": [
+        "ai",
+        "cybersikkerhed",
+        "usa"
+      ],
+      "entities": [
+        "CrowdStrike",
+        "Nvidia",
+        "Red Tempest",
+        "Blue Solano"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 60,
+        "novelty": 75,
+        "sourceQuality": 78,
+        "personalRelevance": 78,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "CrowdStrike launched SafeMind (Red Tempest / Blue Solano, built on Nvidia Nemotron) at Fal.Con 2026.",
+          "sourceUrls": [
+            "https://siliconangle.com/2026/09/01/autonomous-red-teaming-crowdstrike-falcon/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Breakout time hits zero as CrowdStrike unveils autonomous red teaming: theCUBE's Fal.Con 2026 day one keynote analysis",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/01/autonomous-red-teaming-crowdstrike-falcon/",
+          "publishedAt": "2026-09-01T14:33:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/IMG_8927-scaled.jpg",
+        "credit": "SiliconANGLE",
+        "alt": "CrowdStrikes Fal.Con 2026-keynote, hvor SafeMind blev præsenteret",
+        "sourceUrl": "https://siliconangle.com/2026/09/01/autonomous-red-teaming-crowdstrike-falcon/"
+      }
+    },
+    {
+      "id": "story-israel-ketziot-guards-20260903",
+      "eventKey": "israel-ketziot-guards-indicted-2026",
+      "materialFacts": [
+        "12 Ketziot Prison guards indicted for reckless homicide over the 2023 death of Thaer Abu Asab",
+        "Indictment filed at Be'er Sheva District Court in September 2026"
+      ],
+      "section": "Mellemøsten og retssystem",
+      "headline": "12 guards charged with reckless homicide for fatally beating Palestinian security prisoner",
+      "primarySourceUrl": "https://www.timesofisrael.com/12-guards-charged-with-reckless-homicide-for-fatally-beating-palestinian-prisoner/",
+      "subheadline": "Tolv fængselsbetjente er tiltalt for uagtsomt manddrab efter et overfald i 2023 – en sag, der viser Israels eget retssystem rette sig mod egne ansatte.",
+      "body": [
+        "De tolv betjente ved Ketziot-fængslet er tiltalt for uagtsomt manddrab efter overfaldet i november 2023, der kostede sikkerhedsfangen Thaer Abu Asab livet. Ifølge anklageskriftet beordrede den ledende betjent Walid Hatib overfaldet og deltog selv.",
+        "Obduktionen viste bristede hjertevægge og brækkede ribben. Alle 12 er tiltalt for uagtsomt manddrab og vold. En organisation, der overvåger fangers rettigheder, kalder tiltalen 'en dråbe i havet' og nævner 105 fangedødsfald siden 7. oktober 2023."
+      ],
+      "whyItMatters": "Sagen komplicerer en for enkel fortælling: det israelske retssystem retsforfølger her sine egne, samtidig med at kritikere med rette peger på, hvor sjældent det sker.",
+      "analysis": "Begge dele kan være sande samtidig – at retsforfølgelsen er reel, og at den ifølge overvågningsgrupper er utilstrækkelig i omfang.",
+      "topics": [
+        "mellemøsten",
+        "retssystem",
+        "menneskerettigheder",
+        "israel"
+      ],
+      "entities": [
+        "Thaer Abu Asab",
+        "Walid Hatib",
+        "Israel Prison Service",
+        "Be'er Sheva District Court"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 35,
+        "novelty": 60,
+        "sourceQuality": 85,
+        "personalRelevance": 20,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "Twelve Ketziot Prison guards were indicted for reckless homicide over the November 2023 death of Thaer Abu Asab.",
+          "sourceUrls": [
+            "https://www.timesofisrael.com/12-guards-charged-with-reckless-homicide-for-fatally-beating-palestinian-prisoner/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "12 guards charged with reckless homicide for fatally beating Palestinian security prisoner",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/12-guards-charged-with-reckless-homicide-for-fatally-beating-palestinian-prisoner/",
+          "publishedAt": "2026-09-01T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://static-cdn.toi-media.com/www/uploads/2023/02/F220913NS15.jpg",
+        "credit": "The Times of Israel",
+        "alt": "Arkivfoto af Israels Fængselsvæsen",
+        "sourceUrl": "https://www.timesofisrael.com/12-guards-charged-with-reckless-homicide-for-fatally-beating-palestinian-prisoner/"
+      }
+    },
+    {
+      "id": "story-drc-ebola-record-20260903",
+      "eventKey": "drc-ebola-record-outbreak-2026",
+      "materialFacts": [
+        "WHO's 14 August update: 4,665 confirmed cases, 2,184 deaths as of 12 August",
+        "Largest Ebola outbreak ever documented in DRC, surpassing the 2018-2020 outbreak's 3,317 cases"
+      ],
+      "section": "Sundhed",
+      "headline": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+      "primarySourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+      "subheadline": "WHO's senest bekræftede tal gør udbruddet til det største Ebola-udbrud, der nogensinde er registreret i Congo.",
+      "body": [
+        "WHO's seneste offentliggjorte optælling, fra 14. august og dækkende til 12. august, satte tallet til 4.665 bekræftede tilfælde og 2.184 dødsfald – en dødelighed på 46,8 procent i seks provinser. Det gør udbruddet til det største, Congo nogensinde har oplevet, foran 2018-2020-udbruddets 3.317 tilfælde.",
+        "En enkelt uge i starten af august registrerede alene 579 nye tilfælde og 304 dødsfald, den hurtigste smittespredning i noget tidligere udbrud. Smitten er eksporteret til Uganda, Frankrig og Tyskland."
+      ],
+      "whyItMatters": "Tallene er tre uger gamle, fordi en nyere WHO-opdatering ikke kunne bekræftes i dag – men selve rekorden var ikke etableret i briefets tidligere dækning.",
+      "analysis": "At et udbrud vokser hurtigere end noget tidligere, mens verdens opmærksomhed er andetsteds, er selve pointen med at følge det.",
+      "topics": [
+        "sundhed",
+        "epidemi",
+        "afrika",
+        "humanitær"
+      ],
+      "entities": [
+        "World Health Organization",
+        "Democratic Republic of the Congo",
+        "Uganda"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 35,
+        "novelty": 45,
+        "sourceQuality": 90,
+        "personalRelevance": 18,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "As of 12 August, WHO recorded 4,665 confirmed cases and 2,184 deaths in DRC's Bundibugyo-virus Ebola outbreak, the largest ever documented in the country.",
+          "sourceUrls": [
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+          "publishedAt": "2026-08-14T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "headline": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "summary": "Google lancerede Gemini 3.8 Flash 2. september til 0,75 dollar pr. million input-tokens – tredje Flash-opdatering på tre måneder.",
+      "publisher": "Google",
+      "section": "AI",
+      "publishedAt": "2026-09-02T16:00:00.000Z",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+    },
+    {
+      "text": "Rescuers raise number of missing from Northern Cyprus ferry accident to 20",
+      "headline": "Rescuers raise number of missing from Northern Cyprus ferry accident to 20",
+      "summary": "Kaptajnen på færgen, der kæntrede ved Kyrenia, er varetægtsfængslet, mens ni personer er anklaget for uagtsomt manddrab.",
+      "publisher": "Al Jazeera",
+      "section": "Ulykke",
+      "publishedAt": "2026-08-31T10:00:00.000Z",
+      "url": "https://www.aljazeera.com/news/2026/8/31/rescue-teams-continue-search-for-missing-after-north-cyprus-ferry-sinking"
+    },
+    {
+      "text": "Russian strikes kill 2 Ukrainian civilians as Moscow and Kyiv threaten to raise the stakes",
+      "headline": "Russian strikes kill 2 Ukrainian civilians as Moscow and Kyiv threaten to raise the stakes",
+      "summary": "Angreb i Dnipro dræbte to civile og sårede seks, mens Putin og Zelenskyj udveksler trusler om optrapning.",
+      "publisher": "KSAT/AP",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-02T12:00:00.000Z",
+      "url": "https://www.ksat.com/news/world/2026/09/02/russian-strikes-kill-2-ukrainian-civilians-as-moscow-and-kyiv-threaten-to-raise-the-stakes/"
+    },
+    {
+      "text": "IDF strikes Gaza as Hamas official captured in reported raid by Israel-backed militia; 3 said killed",
+      "headline": "IDF strikes Gaza as Hamas official captured in reported raid by Israel-backed militia; 3 said killed",
+      "summary": "Hamas' interne sikkerhedschef Moin Al-Arabeed blev tilfangetaget i en razzia i Gaza By.",
+      "publisher": "The Times of Israel",
+      "section": "Mellemøsten",
+      "publishedAt": "2026-09-01T18:00:00.000Z",
+      "url": "https://www.timesofisrael.com/idf-strikes-gaza-as-hamas-official-captured-in-reported-raid-by-israel-backed-militia-3-said-killed/"
+    },
+    {
+      "text": "Early Edition: September 2, 2026",
+      "headline": "Early Edition: September 2, 2026",
+      "summary": "FBI har konfiskeret over 560.000 dollar i kryptovaluta, som ifølge justitsministeriet var bestemt for Hamas.",
+      "publisher": "Just Security",
+      "section": "Global",
+      "publishedAt": "2026-09-02T10:00:00.000Z",
+      "url": "https://www.justsecurity.org/155980/early-edition-september-2-2026/"
+    },
+    {
+      "text": "Early Edition: September 2, 2026",
+      "headline": "Early Edition: September 2, 2026",
+      "summary": "FN's Verdensfødevareprogram har halveret fødevarehjælpen på Vestbredden på grund af akut underfinansiering.",
+      "publisher": "Just Security",
+      "section": "Global",
+      "publishedAt": "2026-09-02T10:00:00.000Z",
+      "url": "https://www.justsecurity.org/155980/early-edition-september-2-2026/"
+    },
+    {
+      "text": "Today in Denmark: A roundup of the latest news on Wednesday",
+      "headline": "Today in Denmark: A roundup of the latest news on Wednesday",
+      "summary": "Københavns Lufthavn satte passagerrekord i sommer med 9,9 millioner rejsende juni-august, tre procent flere end sidste år.",
+      "publisher": "The Local Denmark",
+      "section": "Danmark",
+      "publishedAt": "2026-09-02T06:00:00.000Z",
+      "url": "https://www.thelocal.dk/20260902/today-in-denmark-a-roundup-of-the-latest-news-on-wednesday-69"
+    },
+    {
+      "text": "Anthropic Fable 5.1 Keeps $10/$50 Price, Cuts Cache Reads 75",
+      "headline": "Anthropic Fable 5.1 Keeps $10/$50 Price, Cuts Cache Reads 75",
+      "summary": "Sonnet 5's introduktionspris på 2/10 dollar bliver permanent i stedet for at stige 1. september som ellers planlagt.",
+      "publisher": "implicator.ai",
+      "section": "AI",
+      "publishedAt": "2026-09-01T10:00:00.000Z",
+      "url": "https://www.implicator.ai/anthropic-fable-5-1-same-price-cache-reads-cut/"
+    },
+    {
+      "text": "Today in Denmark: A roundup of the latest news on Wednesday",
+      "headline": "Today in Denmark: A roundup of the latest news on Wednesday",
+      "summary": "Fem drenge blev tilbageholdt efter en eksplosion på en dansk skole.",
+      "publisher": "The Local Denmark",
+      "section": "Danmark",
+      "publishedAt": "2026-09-02T06:00:00.000Z",
+      "url": "https://www.thelocal.dk/20260902/today-in-denmark-a-roundup-of-the-latest-news-on-wednesday-69"
+    }
+  ],
+  "keyNumber": {
+    "label": "Andel danske venture-runder over 6,7 mio. euro",
+    "indicator": "dk-vc-large-round-share",
+    "value": "22",
+    "unit": "%",
+    "asOf": "1. halvår 2026",
+    "previous": {
+      "value": "27",
+      "asOf": "2025",
+      "change": "-5 procentpoint"
+    },
+    "caption": "EIFO: andelen af de største runder er faldet tre år i træk, mens det danske kapitalgab mod 2035 kan nå 69 mia. kr.",
+    "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+    "sourceTitle": "Analyse af Danmarks Growth-stage venturemarked 2026",
+    "series": [
+      {
+        "label": "2024",
+        "value": 34
+      },
+      {
+        "label": "2025",
+        "value": 27
+      },
+      {
+        "label": "H1 2026",
+        "value": 22
+      }
+    ]
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "prisen-ingen-jagter",
+    "title": "Prisen ingen jagter",
+    "thesis": "Ingen af de seks resterende Millennium-priser løses inden 2035; den eneste løste, Poincaré, gik til en matematiker der afviste pengene.",
+    "horizon": "2035, Clay Mathematics Institutes liste",
+    "body": [
+      "Perelman droppede prisen og Fields-medaljen. Interessen kom før pengene."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis en anden Millennium-formodning løses før 2035, og løseren tager imod prischecken uden protest - det ville vise, at pengene var incitamentet.",
+    "topics": [
+      "matematik",
+      "incitamenter",
+      "videnskabsteori"
+    ],
+    "claims": [
+      {
+        "text": "Perelman afviste både Fields-medaljen (2006) og Millennium-prisen (2010) for beviset af Poincaré-formodningen; de øvrige seks Millennium-priser er fortsat uløste.",
+        "sourceUrls": [
+          "https://www.sciencenews.org/article/million-dollar-math-prize-awarded-not-necessarily-accepted"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Million-dollar math prize awarded, but not necessarily accepted",
+        "publisher": "Science News",
+        "url": "https://www.sciencenews.org/article/million-dollar-math-prize-awarded-not-necessarily-accepted",
+        "publishedAt": "2010-04-02T00:00:00.000Z",
+        "kind": "reporting"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-unep-limiting-overshoot",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "Rapport",
+      "status": "new",
+      "title": "Limiting Overshoot: Navigating exceedance of 1.5°C and pathways towards return",
+      "provider": "UNEP",
+      "url": "https://www.unep.org/resources/limiting-overshoot-navigating-exceedance",
+      "availability": "Frit tilgængelig online",
+      "commitment": "1-2 timer for hovedkapitlerne",
+      "description": "UNEP's fulde rapport bag dagens nyhed – den tekniske analyse af overskrid-top-fald-banen, vippepunkter og hvad kulstoffjernelse reelt kræver, ikke kun pressemeddelelsens hovedkonklusion.",
+      "rationale": "Rapporten er selve kilden bag en beslutning, der ændrer klimapolitikkens målsætning – relevant for enhver, der følger energiomstillingens pris, herunder de samme energibudgetter, AI-udbygningen lægger pres på.",
+      "topics": [
+        "klima",
+        "energi",
+        "global politik"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://cdn.unenvironment.org/styles/article_billboard_image/s3/2026-09/getty-images-unsplash.jpg",
+        "credit": "Getty Images/Unsplash via UNEP",
+        "alt": "UNEP's illustration til rapporten om overskridelse af 1,5 grader",
+        "sourceUrl": "https://www.unep.org/news-and-stories/press-release/unep-world-set-cross-15degc-global-warming-can-still-limit-adapt-and"
+      }
+    },
+    {
+      "id": "rec-eifo-growth-stage-analyse",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "available",
+      "title": "Analyse af Danmarks Growth-stage venturemarked 2026",
+      "provider": "EIFO",
+      "url": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+      "note": "Den fulde analyse bag dagens tal om det danske kapitalgab – relevant for enhver, der arbejder med dansk vækstkapital.",
+      "topics": [
+        "venturekapital",
+        "dansk erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-crowdstrike-falcon-keynote",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Keynote",
+      "status": "new",
+      "title": "Fal.Con 2026 day one keynote: SafeMind launch",
+      "provider": "CrowdStrike",
+      "url": "https://siliconangle.com/2026/09/01/autonomous-red-teaming-crowdstrike-falcon/",
+      "note": "Se selve lanceringen af de to modstridende AI-modeller bag dagens SafeMind-historie – mere konkret end en presseartikel.",
+      "topics": [
+        "ai",
+        "cybersikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-openai-path-to-astra",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk gennemgang",
+      "status": "new",
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/path-to-astra/",
+      "note": "OpenAIs egen, dybere gennemgang af sikkerhedsarbejdet bag dagens Astra-historie – for den, der vil forbi overskriften.",
+      "topics": [
+        "ai",
+        "cybersikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-dwarkesh-continual-learning",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "available",
+      "title": "8 Predictions for the Era of Continual Learning",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast (Substack)",
+      "url": "https://www.dwarkesh.com/p/era-of-continual-learning",
+      "note": "Skrevet en måned før Astra-pausen, men argumentet om løbende frem for faste sikkerhedstjek rammer direkte dagens beslutning.",
+      "topics": [
+        "ai",
+        "regulering"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-rawls-theory-of-justice",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Bog",
+      "status": "classic",
+      "title": "A Theory of Justice",
+      "creator": "John Rawls",
+      "provider": "Harvard University Press",
+      "url": "https://www.hup.harvard.edu/books/9780674000780",
+      "note": "Analytisk politisk filosofi optræder i ingen af dine 74 læste bøger – her er kilden selv, ikke en fortolkning af den.",
+      "topics": [
+        "filosofi",
+        "politisk teori"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 78,
+    "freshness": 82,
+    "novelty": 85,
+    "perspectiveBalance": 88,
+    "render": 100
+  }
+}
