@@ -202,6 +202,32 @@
           "recordedOn": "2026-08-10"
         }
       ]
+    },
+    {
+      "indicator": "dk-vc-large-round-share",
+      "label": "Andel danske venture-runder over 6,7 mio. euro",
+      "unit": "%",
+      "note": "Fra EIFO's growth-stage-analyse: andelen af danske runder over grænsen for en 'stor' runde, som markør for om det danske investormiljø kan følge selskaber ind i den tunge vækstfase.",
+      "readings": [
+        {
+          "value": "34",
+          "asOf": "2024",
+          "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+          "recordedOn": "2026-09-03"
+        },
+        {
+          "value": "27",
+          "asOf": "2025",
+          "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+          "recordedOn": "2026-09-03"
+        },
+        {
+          "value": "22",
+          "asOf": "1. halvår 2026",
+          "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+          "recordedOn": "2026-09-03"
+        }
+      ]
     }
   ]
 }
