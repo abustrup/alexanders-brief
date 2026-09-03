@@ -87,7 +87,21 @@ jobs:
         id: guard
         env:
           INPUT_DATE: ${{ inputs.date }}
-        run: bash scripts/brief-mode.sh "$SITE_URL" "$INPUT_DATE"
+          DRY_RUN: ${{ inputs.dry_run }}
+        # A dry run publishes nothing, so "today is already out" is not a reason to stop
+        # it: the point is to see what the desk would produce. It still uses TODAY's date,
+        # because the alternative is worse. Dating a trial in the future was tried on
+        # 2026-09-03 and the agent correctly refused the whole run rather than label
+        # September news as a December edition, which is exactly the integrity the brief
+        # depends on and not something to work around.
+        run: |
+          if [ "$DRY_RUN" = "true" ]; then
+            D="${INPUT_DATE:-$(TZ=Europe/Copenhagen date +%F)}"
+            printf 'dry run: not consulting the live site; nothing will publish\n'
+            printf 'mode=full\ndate=%s\nwork=true\n' "$D" >> "$GITHUB_OUTPUT"
+          else
+            bash scripts/brief-mode.sh "$SITE_URL" "$INPUT_DATE"
+          fi
 
       # Full history: the push rebases onto whatever the Mac routines pushed here.
       - name: Check out the website repo
