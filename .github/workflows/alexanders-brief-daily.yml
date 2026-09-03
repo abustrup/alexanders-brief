@@ -139,6 +139,11 @@ jobs:
         if: steps.guard.outputs.mode == 'full'
         env:
           GH_TOKEN: ${{ github.token }}
+          # The cap exists to stop a broken morning burning three agent runs of the
+          # weekly allowance. A dry run is a deliberate, hand-dispatched test, so it
+          # is allowed past it; the allowance it spends is spent knowingly. The cap
+          # still applies in full to every scheduled run, which is where it matters.
+          MAX_FULL_ATTEMPTS: ${{ inputs.dry_run && '99' || '2' }}
         run: bash scripts/ci-attempt-cap.sh "${{ steps.guard.outputs.date }}"
 
       # The header ci-compose-prompt.sh prepends is load-bearing: it relocates the Mac paths, forbids the
