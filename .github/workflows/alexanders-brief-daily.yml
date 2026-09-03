@@ -22,6 +22,15 @@ on:
         description: "Edition date YYYY-MM-DD. Blank = today in Europe/Copenhagen."
         required: false
         type: string
+      engine_ref:
+        description: "Engine branch to run. Blank = the live branch. Use to trial a change."
+        required: false
+        type: string
+      dry_run:
+        description: "Produce the draft and stop. Publishes nothing; uploads it for review."
+        required: false
+        type: boolean
+        default: false
 
 # Declared here: default_workflow_permissions is read on all three repos. No issues:write – this file
 # never opens one, and the watchdog living in this repo declares its own.
@@ -36,7 +45,7 @@ concurrency:
 env:
   TZ: Europe/Copenhagen
   ENGINE_REPO: abustrup/alexanders-brief-source
-  ENGINE_REF: feature/news-brief-mvp
+  ENGINE_REF: ${{ inputs.engine_ref || 'feature/news-brief-mvp' }}
   SITE_URL: https://abustrup.github.io/alexanders-brief
   PROMPT_PATH: docs/routines/backup-from-claude-dir/daily-news-brief.SKILL.md
   BRIEF_LABEL: alexanders-brief
@@ -159,6 +168,16 @@ jobs:
           DATE: ${{ steps.guard.outputs.date }}
         run: npm run --silent prune:images -- "data/${DATE}/draft.json" --ledger=data/image-ledger.json
 
+      # A trial run produces the edition and stops. The draft is the whole point of
+      # the run, so it is uploaded rather than thrown away with the runner.
+      - name: Keep the trial draft for review
+        if: ${{ inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: trial-draft
+          path: engine/data/${{ steps.guard.outputs.date }}/draft.json
+          if-no-files-found: warn
+
       - name: Quality gate (blocking)
         if: steps.cap.outputs.proceed == 'true'
         timeout-minutes: 15
@@ -171,7 +190,7 @@ jobs:
       # The push credential enters here, after the agent has finished and been judged.
       - name: Publish
         id: publish
-        if: steps.guard.outputs.mode != 'done'
+        if: ${{ !inputs.dry_run && (steps.guard.outputs.mode != 'done') }}
         env:
           BRIEF_FEEDBACK_URL: ${{ secrets.BRIEF_API_URL }}
           GH_PUSH_TOKEN: ${{ github.token }}
@@ -179,7 +198,7 @@ jobs:
         run: bash scripts/ci-publish.sh "${{ steps.guard.outputs.date }}"
 
       - name: Ask GitHub Pages to build
-        if: steps.guard.outputs.mode != 'done'
+        if: ${{ !inputs.dry_run && (steps.guard.outputs.mode != 'done') }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
@@ -189,7 +208,7 @@ jobs:
       # question it answers is whether the reader has today's brief.
       - name: Prove the reader is served
         id: served
-        if: always() && steps.guard.conclusion == 'success' && steps.guard.outputs.mode != 'done'
+        if: ${{ !inputs.dry_run && (always() && steps.guard.conclusion == 'success' && steps.guard.outputs.mode != 'done') }}
         env:
           GH_TOKEN: ${{ github.token }}
           PAGES_REPO_DIR: ${{ github.workspace }}/pages
@@ -200,7 +219,7 @@ jobs:
       # would mean write access to tomorrow's prompt. Keyed on the push, not on the proof – the push makes
       # the edition real, and these appends exist only in this runner, so a CDN lag must not discard them.
       - name: Record the cross-day ledger
-        if: always() && steps.guard.outputs.mode == 'full' && steps.publish.outcome == 'success'
+        if: ${{ !inputs.dry_run && (always() && steps.guard.outputs.mode == 'full' && steps.publish.outcome == 'success') }}
         env:
           GH_PUSH_TOKEN: ${{ github.token }}
           PAGES_REPO_DIR: ${{ github.workspace }}/pages
