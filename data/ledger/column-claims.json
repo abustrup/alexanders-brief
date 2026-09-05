@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-04",
-      "slug": "moerk-energi-lyver-maaske",
-      "claim": "DESI's baryon-akustiske-oscillations-data foretraekker en tidsvarierende moerk energi-tilstandsligning (w0-waCDM) frem for en konstant kosmologisk konstant, og denne praeference bestaar (styrkes eller holder) i DESI's tredje datafrigivelse.",
-      "horizon": "DESI's tredje datafrigivelse (DR3), ventet 2027",
-      "falsifier": "DESI DR3 landau taettere paa w = -1 end de nuvaerende DR2-analyser, eller Euclids uafhaengige maalinger modsiger et skiftende w frem for at bekraefte det. Kontrolleres i DESI's egne data-releases og Euclid Consortiums kosmologi-publikationer.",
+      "date": "2026-09-05",
+      "slug": "renten-der-ikke-vil-ned",
+      "claim": "R-star (den neutrale realrente i New York Feds Holston-Laubach-Williams-model) stiger strukturelt og vender ikke tilbage mod 2010'ernes nulpunkt.",
+      "horizon": "New York Feds opdatering 27. november 2026 og fremadrettede kvartalsvise opdateringer",
+      "falsifier": "Estimatet falder tilbage mod 1 pct. eller derunder uden en forudgående recession, der mekanisk tvinger det ned. Kontrolleres i New York Feds egen r-star-serie på newyorkfed.org/research/policy/rstar.",
       "status": "open"
     }
   ]
