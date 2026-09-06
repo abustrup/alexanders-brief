@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-05",
-      "slug": "renten-der-ikke-vil-ned",
-      "claim": "R-star (den neutrale realrente i New York Feds Holston-Laubach-Williams-model) stiger strukturelt og vender ikke tilbage mod 2010'ernes nulpunkt.",
-      "horizon": "New York Feds opdatering 27. november 2026 og fremadrettede kvartalsvise opdateringer",
-      "falsifier": "Estimatet falder tilbage mod 1 pct. eller derunder uden en forudgående recession, der mekanisk tvinger det ned. Kontrolleres i New York Feds egen r-star-serie på newyorkfed.org/research/policy/rstar.",
+      "date": "2026-09-06",
+      "slug": "loftet-for-ranked-choice",
+      "claim": "Ranked-choice voting i USA naermer sig et loft snarere end en begyndelse: mindst tre nye stater vedtager IKKE ranked-choice voting til delstats- eller kongresvalg inden 2030, kun flere byer og amter foejes til de nuvaerende 49 jurisdiktioner.",
+      "horizon": "Efter valgcyklusserne i 2028 og 2030",
+      "falsifier": "Mindst tre nye amerikanske stater vedtager ranked-choice voting til delstats- eller kongresvalg (ikke kun kommunale valg) inden udgangen af 2030. Kontrolleres i FairVotes liste over jurisdiktioner, der bruger ranked-choice voting.",
       "status": "open"
     }
   ]
