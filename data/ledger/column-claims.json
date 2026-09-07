@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-06",
-      "slug": "loftet-for-ranked-choice",
-      "claim": "Ranked-choice voting i USA naermer sig et loft snarere end en begyndelse: mindst tre nye stater vedtager IKKE ranked-choice voting til delstats- eller kongresvalg inden 2030, kun flere byer og amter foejes til de nuvaerende 49 jurisdiktioner.",
-      "horizon": "Efter valgcyklusserne i 2028 og 2030",
-      "falsifier": "Mindst tre nye amerikanske stater vedtager ranked-choice voting til delstats- eller kongresvalg (ikke kun kommunale valg) inden udgangen af 2030. Kontrolleres i FairVotes liste over jurisdiktioner, der bruger ranked-choice voting.",
+      "date": "2026-09-07",
+      "slug": "fristen-ingen-har-flyttet",
+      "claim": "Forsinkelsen i overgangen til post-kvante-kryptografi er organisatorisk og indkobsmaessig, ikke kryptografisk -- standarderne har ligget klar siden 2024.",
+      "horizon": "31. december 2030 (NIST IR 8547 / OMB M-26-15 deprecation-frist for foederale hoejvaerdisystemer)",
+      "falsifier": "OMB rapporterer i 2031, at et flertal af foederale hoejvaerdisystemer naaede 2030-fristen for at udfase RSA og ECDSA. Kontrolleres i OMB's og NIST's egne compliance-rapporter under IR 8547.",
       "status": "open"
     }
   ]
