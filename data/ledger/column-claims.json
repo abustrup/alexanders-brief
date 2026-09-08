@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-07",
-      "slug": "fristen-ingen-har-flyttet",
-      "claim": "Forsinkelsen i overgangen til post-kvante-kryptografi er organisatorisk og indkobsmaessig, ikke kryptografisk -- standarderne har ligget klar siden 2024.",
-      "horizon": "31. december 2030 (NIST IR 8547 / OMB M-26-15 deprecation-frist for foederale hoejvaerdisystemer)",
-      "falsifier": "OMB rapporterer i 2031, at et flertal af foederale hoejvaerdisystemer naaede 2030-fristen for at udfase RSA og ECDSA. Kontrolleres i OMB's og NIST's egne compliance-rapporter under IR 8547.",
+      "date": "2026-09-08",
+      "slug": "testen-uden-taber",
+      "claim": "Cogitate-forsøget i 2025 afgjorde ikke mellem IIT og GNWT, fordi IIT endnu ikke er formuleret som én risikabel, falsificerbar forudsigelse; uden den er striden filosofisk, ikke empirisk.",
+      "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
+      "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
     }
   ]
