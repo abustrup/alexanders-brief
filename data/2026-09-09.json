@@ -1,0 +1,783 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-09-09",
+  "date": "2026-09-09",
+  "generatedAt": "2026-09-09T04:30:00.000Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "Fem tankskibe, en konges bisættelse og Anthropics gæld forud for en børsnotering",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-iran-hormuz-tanker-jordan-2026-09-09",
+      "eventKey": "iran-hormuz-tanker-destruction-jordan-2026",
+      "materialFacts": [
+        "CENTCOM destroyed five named IRGC-linked tankers on 8 September after two IRGC missile attempts on a US warship",
+        "Iran retaliated with missiles on Jordan's Al Azraq base; 18 of 20 intercepted, no casualties",
+        "Brent crude at a seven-week high near $99.5/barrel"
+      ],
+      "section": "Geopolitik",
+      "headline": "U.S. strikes five Iranian tankers after attempted attacks on Navy warship, CENTCOM says",
+      "primarySourceUrl": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699",
+      "subheadline": "Fem tankskibe ødelagt, missiler mod Jordan, og olieprisen på højeste niveau i syv uger",
+      "body": [
+        "CENTCOM oplyser, at USA natten til onsdag ødelagde fem iranske olietankskibe – Kaviz, Charminar, Horizon 1, Riesco og Derya – efter at Irans Revolutionære Garde to gange på 48 timer affyrede ballistiske missiler mod et amerikansk krigsskib. Ingen missiler ramte, og besætningerne fik ordre til at forlade skibene, før de blev sat ud af drift.",
+        "Iran svarede med missiler mod den jordanske base Al Azraq. Jordan skød 18 af 20 missiler ned; de sidste to landede ubeboet uden personskade. Det er den seneste optrapning i en krig, der har varet et halvt år, og som nu for første gang for alvor rammer et tredje land."
+      ],
+      "whyItMatters": "Brent-olien handles nu omkring 99,5 dollar tønden, det højeste niveau i syv uger, mens skibstrafikken gennem Hormuzstrædet er faldet til under en tiendedel af niveauet før krigen.",
+      "analysis": "At angrebene nu rammer Jordan, en amerikansk allieret uden for Golfen, er et skift fra måneders angreb på tankskibe og baser i selve Golfen. Det tester, om krigen kan holdes geografisk afgrænset, mens markedet allerede har indregnet en krise uden tegn på afslutning.",
+      "image": {
+        "url": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260908-Strait-of-Hormuz-ew-454p-2ab665.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "U.S. strikes five Iranian tankers after attempted attacks on Navy warship, CENTCOM says",
+        "sourceUrl": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699"
+      },
+      "topics": [
+        "geopolitik",
+        "energi",
+        "forsvar",
+        "mellemøsten",
+        "usa"
+      ],
+      "entities": [
+        "CENTCOM",
+        "IRGC",
+        "Iran",
+        "Jordan",
+        "USA"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 55,
+        "novelty": 45,
+        "sourceQuality": 85,
+        "personalRelevance": 45,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "CENTCOM destroyed five named IRGC-linked tankers on 8 September 2026 after two IRGC missile attempts on a US Navy warship over 48 hours",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Iran fired ballistic missiles at Jordan's Al Azraq base; Jordan intercepted 18 of 20, two fell in unpopulated areas, no casualties",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699",
+            "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "U.S. strikes five Iranian tankers after attempted attacks on Navy warship, CENTCOM says",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/us-strikes-iranian-tankers-attempted-missile-attacks-navy-warship-rcna596699",
+          "publishedAt": "2026-09-08T20:58:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "U.S.-Iran War Updates: U.S. forces hit IRGC-linked oil tankers as oil nears $100 a barrel",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-oil-gas-price-strikes/",
+          "publishedAt": "2026-09-09T03:12:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-anthropic-ipo-credit-2026-09-09",
+      "eventKey": "anthropic-ipo-credit-facility-2026",
+      "materialFacts": [
+        "Anthropic finalizing a $15B revolving credit facility ahead of a planned IPO",
+        "Confidential S-1 filed with the SEC in June 2026; underwriters target an October Nasdaq listing"
+      ],
+      "section": "AI og finans",
+      "headline": "Anthropic Finalizing $15 Billion Pre-IPO Credit Facility",
+      "primarySourceUrl": "https://www.bloomberg.com/news/articles/2026-09-03/anthropic-nears-finalizing-15-billion-pre-ipo-credit-facility",
+      "subheadline": "Anthropic låner stort forud for en ventet børsnotering i oktober",
+      "body": [
+        "Anthropic er ved at lukke en kreditfacilitet på 15 milliarder dollar forud for en planlagt børsnotering, skriver Bloomberg. Det kommer oven på en fortrolig S-1-anmeldelse til SEC i juni, og Goldman Sachs, JPMorgan og Morgan Stanley sigter mod en Nasdaq-notering i oktober.",
+        "Det følger en runde på 65 milliarder dollar i juli til en værdi på 965 milliarder dollar. Hverken dato eller provenu er bekræftet af Anthropic."
+      ],
+      "whyItMatters": "En børsnotering af Anthropic bliver den første blandt de store AI-laboratorier og giver markedet et offentligt prissat mål på generativ AIs værdi.",
+      "analysis": "Kreditfaciliteten viser, at Anthropic finansierer væksten med gæld sideløbende med aktiekapital, samme mønster som branchens compute-opbygning.",
+      "counterpoint": "Apollo-økonomen Torsten Slok advarer om, at AI-branchens overskud mest er finansieret af investorer frem for kunder, og at kapital kan bygge bro over gabet en tid, men ikke uendeligt.",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Dario_Amodei_in_2023.jpg/1920px-Dario_Amodei_in_2023.jpg",
+        "credit": "Simon Walker / No 10 Downing Street (Wikimedia Commons)",
+        "alt": "Arkivfoto af Anthropics topchef Dario Amodei sammen med Rishi Sunak, Demis Hassabis og Sam Altman, 2023",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg"
+      },
+      "topics": [
+        "ai",
+        "finans",
+        "venturekapital",
+        "usa"
+      ],
+      "entities": [
+        "Anthropic",
+        "Goldman Sachs",
+        "JPMorgan",
+        "Morgan Stanley"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 60,
+        "novelty": 40,
+        "sourceQuality": 70,
+        "personalRelevance": 75,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Anthropic is finalizing a $15 billion revolving credit facility ahead of a planned IPO",
+          "sourceUrls": [
+            "https://www.bloomberg.com/news/articles/2026-09-03/anthropic-nears-finalizing-15-billion-pre-ipo-credit-facility"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Prior $65 billion Series H round at a $965 billion post-money valuation",
+          "sourceUrls": [
+            "https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic Finalizing $15 Billion Pre-IPO Credit Facility",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-03/anthropic-nears-finalizing-15-billion-pre-ipo-credit-facility",
+          "publishedAt": "2026-09-03T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic Files Confidential S-1: Joins $3 Trillion AI IPO Race",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-files-confidential-1-joins-161008569.html",
+          "publishedAt": "2026-09-01T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Top economist warns that the AI math doesn't make sense",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/08/10/torsten-slok-ai-profit-margins-capex-oracle/",
+          "publishedAt": "2026-08-10T00:00:00.000Z",
+          "kind": "analysis"
+        }
+      ]
+    },
+    {
+      "id": "story-diraq-equinix-datacenter-2026-09-09",
+      "eventKey": "diraq-equinix-quantum-datacenter-2026",
+      "materialFacts": [
+        "Diraq/Equinix to install an 8-qubit silicon-spin quantum computer inside a commercial Sydney data centre by October 2026",
+        "First silicon-spin quantum computer to run inside a shared commercial facility"
+      ],
+      "section": "Kvante",
+      "headline": "Diraq and Equinix to Deploy Australia's First Quantum Computer Inside a Data Centre",
+      "primarySourceUrl": "https://newsroom.equinix.com/2026-09-01-Diraq-and-Equinix-to-Deploy-Australias-First-Quantum-Computer-Inside-a-Data-Centre",
+      "subheadline": "En kvantecomputer flytter ind i et almindeligt datacenter i Sydney",
+      "body": [
+        "Det australske kvantefirma Diraq og Equinix installerer i oktober en kvantecomputer inde i et kommercielt Equinix-datacenter i Sydney – det første af sin art i Australien. Maskinen bruger Diraqs spin-qubits, har otte qubits og er en selvstændig enhed med indbygget nedkøling.",
+        "Systemet trækker under 20 kilowatt og kan stå side om side med almindelige servere uden ombygning. Diraq kalder det et skridt mod datacentre, der huser flåder af kvantecomputere ved siden af klassiske servere."
+      ],
+      "whyItMatters": "Kan kvantehardware driftes som en serverkomponent frem for et laboratorium, ændrer det, hvem der kan tilbyde kvantekraft kommercielt, herunder i Danmark, hvor datacenterudbygning er en politisk prioritet.",
+      "analysis": "Otte qubits er beskedent ved siden af IBMs og Googles maskiner, så nyheden handler om driftsmodel snarere end regnekraft: kvante som en tjeneste man lejer, frem for et forskningsapparat man selv skal bygge om.",
+      "image": {
+        "url": "https://newsroom.equinix.com/file.php/178177/Diraq+Founder+and+CEO+Andrew+Dzurak+and+Jarrod+Nink+Managing+Director+Australia+Equinix+1000px.jpg?thumbnail=asset",
+        "credit": "Equinix Newsroom",
+        "alt": "Diraqs stifter og topchef Andrew Dzurak og Equinix Australiens direktør Jarrod Nink",
+        "sourceUrl": "https://newsroom.equinix.com/2026-09-01-Diraq-and-Equinix-to-Deploy-Australias-First-Quantum-Computer-Inside-a-Data-Centre"
+      },
+      "topics": [
+        "quantum",
+        "deeptech",
+        "teknologisk-suverænitet",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Diraq",
+        "Equinix",
+        "Australia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 40,
+        "novelty": 65,
+        "sourceQuality": 65,
+        "personalRelevance": 55,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Diraq and Equinix will install an 8-qubit silicon-spin quantum computer inside a commercial Equinix data centre in Sydney by October 2026",
+          "sourceUrls": [
+            "https://newsroom.equinix.com/2026-09-01-Diraq-and-Equinix-to-Deploy-Australias-First-Quantum-Computer-Inside-a-Data-Centre"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Diraq and Equinix to Deploy Australia's First Quantum Computer Inside a Data Centre",
+          "publisher": "Equinix Newsroom",
+          "url": "https://newsroom.equinix.com/2026-09-01-Diraq-and-Equinix-to-Deploy-Australias-First-Quantum-Computer-Inside-a-Data-Centre",
+          "publishedAt": "2026-09-01T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-stoke-biogen-dravet-2026-09-09",
+      "eventKey": "stoke-biogen-zorevunersen-dravet-4yr-2026",
+      "materialFacts": [
+        "First medical-meeting presentation of 4-year OLE data for zorevunersen in Dravet syndrome",
+        "77% of original 81 patients remain in the extension studies at the 4-year cutoff"
+      ],
+      "section": "Biotek",
+      "headline": "Stoke Therapeutics and Biogen Present Long-Term Clinical Data that Support the Disease-Modifying Potential of Zorevunersen, an Investigational Medicine for the Treatment of Dravet Syndrome, at the 16th European Epilepsy Congress (EEC)",
+      "primarySourceUrl": "https://investors.biogen.com/news-releases/news-release-details/stoke-therapeutics-and-biogen-present-long-term-clinical-data",
+      "subheadline": "Fire års data for eksperimentelt Dravet-lægemiddel viser vedvarende effekt",
+      "body": [
+        "Stoke Therapeutics og Biogen har på den 16. europæiske epilepsikongres i Athen fremlagt fire års data for zorevunersen mod Dravet syndrom, en alvorlig og sjælden børneepilepsi – første gang firårsdata fra forlængelsesforsøget vises på et lægemøde.",
+        "Patienterne har signifikante forbedringer i kognition og adfærd samt færre store motoriske anfald gennem alle fire år. Af de oprindelige 81 patienter er 77 procent, svarende til 58, stadig med i forsøgene."
+      ],
+      "whyItMatters": "Dravet syndrom kan hidtil kun behandles symptomatisk, så et middel, der muligvis ændrer sygdommens forløb frem for blot at dæmpe anfald, er reel nyhed for familierne og feltet for sjældne epilepsier.",
+      "analysis": "»Disease-modifying« er selskabernes eget ord, og det afgørende bevis kommer først med fase 3-studiet EMPEROR, ventet i tredje kvartal 2027. Fireårsdataene er lovende, men stadig uden placebo-sammenligning.",
+      "topics": [
+        "biotek",
+        "sundhed",
+        "videnskab"
+      ],
+      "entities": [
+        "Stoke Therapeutics",
+        "Biogen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 35,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 15,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "4-year OLE data show statistically significant cognition/behaviour gains and reduced major motor seizure frequency vs baseline",
+          "sourceUrls": [
+            "https://investors.biogen.com/news-releases/news-release-details/stoke-therapeutics-and-biogen-present-long-term-clinical-data"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "77% (58/75) of patients remain in the extension studies as of the 4-year cutoff; Phase 3 EMPEROR results expected Q3 2027",
+          "sourceUrls": [
+            "https://investors.biogen.com/news-releases/news-release-details/stoke-therapeutics-and-biogen-present-long-term-clinical-data"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Stoke Therapeutics and Biogen Present Long-Term Clinical Data that Support the Disease-Modifying Potential of Zorevunersen, an Investigational Medicine for the Treatment of Dravet Syndrome, at the 16th European Epilepsy Congress (EEC)",
+          "publisher": "Biogen",
+          "url": "https://investors.biogen.com/news-releases/news-release-details/stoke-therapeutics-and-biogen-present-long-term-clinical-data",
+          "publishedAt": "2026-09-05T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-novo-ziltivekimab-halt-2026-09-09",
+      "eventKey": "novo-nordisk-ziltivekimab-trials-halted-2026",
+      "materialFacts": [
+        "Novo Nordisk halted Phase III HERMES and ATHENA trials of ziltivekimab",
+        "Follows the earlier ZEUS trial, which did not reduce deaths or heart attacks"
+      ],
+      "section": "Biotek",
+      "headline": "Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+      "primarySourceUrl": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/",
+      "subheadline": "Endnu et modgangsforsøg for Novo Nordisks betændelseshæmmende hjertemiddel",
+      "body": [
+        "Novo Nordisk har stoppet fase 3-forsøgene HERMES og ATHENA med det betændelseshæmmende ziltivekimab til hjertesvigtpatienter, efter at et datatilsynsudvalg vurderede, at forsøgene ikke ville nå deres mål. Investigatorerne blev orienteret i sidste uge.",
+        "Beslutningen følger det tidligere ZEUS-forsøg, hvor ziltivekimab sænkede betændelsesmarkører, men ikke dødsfald eller hjerteanfald. Det tredje forsøg, ARTEMIS, der tester stoffet lige efter et hjerteanfald, fortsætter med resultat i 2027."
+      ],
+      "whyItMatters": "Ziltivekimab skulle bygge en pipeline uden for GLP-1-produkterne Ozempic og Wegovy, og nedlukningen viser, hvor svært det er at omsætte betændelseshæmning til færre hjerte-kar-hændelser.",
+      "analysis": "Sagen føjer sig til flere forsøg, der viser, at lavere inflammationsmarkører ikke nødvendigvis giver klinisk gevinst. Betændelse medvirker formentlig til hjerte-kar-sygdom, men er sjældent den eneste flaskehals.",
+      "topics": [
+        "biotek",
+        "sundhed",
+        "dansk-erhverv"
+      ],
+      "entities": [
+        "Novo Nordisk"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 42,
+        "decisionValue": 35,
+        "novelty": 45,
+        "sourceQuality": 65,
+        "personalRelevance": 20,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Novo Nordisk halted the Phase III HERMES and ATHENA trials of ziltivekimab after a data monitoring committee found them unlikely to succeed",
+          "sourceUrls": [
+            "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+          "publisher": "STAT News",
+          "url": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/",
+          "publishedAt": "2026-09-07T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.statnews.com/wp-content/uploads/2026/01/heart-1-1024x576.jpg",
+        "credit": "Kilde: STAT News",
+        "alt": "Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+        "sourceUrl": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/"
+      }
+    },
+    {
+      "id": "story-king-harald-funeral-2026-09-09",
+      "eventKey": "norway-king-harald-state-funeral-2026",
+      "materialFacts": [
+        "State funeral at Oslo Cathedral, 9 September 2026, 13:00 local time",
+        "King Frederik and Queen Mary, Swedish/Dutch/Spanish royal houses and Prince William confirmed to attend"
+      ],
+      "section": "Institutioner",
+      "headline": "King Harald V's final farewell: Inside the historic funeral set to bring Norway to a standstill",
+      "primarySourceUrl": "https://www.hola.com/us/royals/20260908922376/king-harald-vs-final-farewell-inside-the-norway-historic-funeral/",
+      "subheadline": "Norge bisætter kong Harald 5. i dag med Europas kongehuse samlet i Oslo",
+      "body": [
+        "Norge bisætter i dag kong Harald 5. ved en statsbegravelse i Oslo Domkirke klokken 13, efterfulgt af en privat gravlæggelse på Akershus Festning. Kongen døde 28. august, 89 år gammel, efter mere end tre årtier på tronen.",
+        "Blandt gæsterne er kong Frederik og dronning Mary, det svenske, hollandske og spanske kongehus samt prins William, der repræsenterer kong Charles. Norske myndigheder kalder sikkerhedsopbuddet det største i landets historie."
+      ],
+      "whyItMatters": "Begivenheden samler store dele af Europas kongehuse på én gang og markerer et generationsskifte i det norske kongehus, som kong Harald selv var med til at modernisere.",
+      "analysis": "En statsbegravelse i denne skala er sjælden nok til at være en historisk markør i sig selv – ikke fordi den ændrer noget politisk, men fordi den samler protokol og en hel regions kongehuse om ét øjeblik.",
+      "image": {
+        "url": "https://www.hola.com/us/horizon/landscape/dc813f713fba-princess-maertha-louise-of-norway-king-haakon-viii-of-norway-queen-mette-marit-o.jpg?im=Resize=(1200)",
+        "credit": "Kilde: Hola!",
+        "alt": "King Harald V's final farewell: Inside the historic funeral set to bring Norway to a standstill",
+        "sourceUrl": "https://www.hola.com/us/royals/20260908922376/king-harald-vs-final-farewell-inside-the-norway-historic-funeral/"
+      },
+      "topics": [
+        "institutioner",
+        "monarki",
+        "norden",
+        "danmark"
+      ],
+      "entities": [
+        "Harald V",
+        "Norge",
+        "Kong Frederik",
+        "Dronning Mary",
+        "Prins William"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 15,
+        "novelty": 40,
+        "sourceQuality": 60,
+        "personalRelevance": 10,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "State funeral at Oslo Cathedral, 9 September 2026, 13:00 local time, followed by private interment at Akershus Fortress",
+          "sourceUrls": [
+            "https://www.hola.com/us/royals/20260908922376/king-harald-vs-final-farewell-inside-the-norway-historic-funeral/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "King Frederik and Queen Mary of Denmark, the Swedish, Dutch and Spanish royal houses, and Prince William are confirmed to attend",
+          "sourceUrls": [
+            "https://www.hola.com/us/royals/20260908922376/king-harald-vs-final-farewell-inside-the-norway-historic-funeral/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "King Harald V's final farewell: Inside the historic funeral set to bring Norway to a standstill",
+          "publisher": "Hola!",
+          "url": "https://www.hola.com/us/royals/20260908922376/king-harald-vs-final-farewell-inside-the-norway-historic-funeral/",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Death and state funeral of Harald V",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Harald_V",
+          "publishedAt": "2026-09-07T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-huslejetilskud-permanent-2026-09-09",
+      "eventKey": "dk-huslejetilskud-permanent-2026",
+      "materialFacts": [
+        "Bill in høring to double the rent-subsidy pool from 15 to 30 million kroner and make it permanent from 1 January 2027",
+        "Long-term financing not yet decided"
+      ],
+      "section": "Danmark",
+      "headline": "Regeringen vil gøre det midlertidige huslejetilskud permanent",
+      "primarySourceUrl": "https://www.kristeligt-dagblad.dk/danmark/regeringen-vil-goere-det-midlertidige-huslejetilskud-permanent",
+      "subheadline": "Regeringen fordobler puljen til udsatte lejere og fjerner udløbsdatoen",
+      "body": [
+        "Regeringen sender et lovforslag i høring, der skal gøre det midlertidige huslejetilskud til særligt udsatte permanent og fordoble puljen fra 15 til 30 millioner kroner om året fra 1. januar 2027, oplyser Børne-, Ældre- og Boligministeriet.",
+        "Bolig- og børneminister Jacob Mark (SF) begrunder forslaget med, at den midlertidige ordning har virket mod hjemløshed. Hvordan den varige udgift skal finansieres på længere sigt, er endnu ikke fastlagt."
+      ],
+      "whyItMatters": "Huslejetilskuddet er en lille post i boligbudgettet, men permanentgørelsen signalerer, at regeringen ser målrettet støtte til udsatte lejere som en varig opgave frem for midlertidig krisehjælp.",
+      "analysis": "At finansieringen mangler, er værd at bemærke: en pulje, der fordobles uden afklaret varig finansiering, risikerer at blive en tilbagevendende post i finanslovforhandlingerne frem for den stabilitet, ordningen skal give lejerne.",
+      "image": {
+        "url": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/metatag/s3/2026/09-08/2026090807212498_1000.jpg?itok=7nD-sPD0",
+        "credit": "Kilde: Kristeligt Dagblad",
+        "alt": "Regeringen vil gøre det midlertidige huslejetilskud permanent",
+        "sourceUrl": "https://www.kristeligt-dagblad.dk/danmark/regeringen-vil-goere-det-midlertidige-huslejetilskud-permanent"
+      },
+      "topics": [
+        "danmark",
+        "bolig",
+        "socialpolitik"
+      ],
+      "entities": [
+        "Jacob Mark",
+        "SF",
+        "Børne- Ældre- og Boligministeriet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 25,
+        "novelty": 50,
+        "sourceQuality": 60,
+        "personalRelevance": 10,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "Regeringen sender forslag i høring om at fordoble huslejetilskudspuljen fra 15 til 30 mio. kr. og gøre den permanent fra 1. januar 2027",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15145990/pulje-til-huslejetilskud-fordobles-og-gores-permanent?lang=da"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Regeringen vil gøre det midlertidige huslejetilskud permanent",
+          "publisher": "Kristeligt Dagblad",
+          "url": "https://www.kristeligt-dagblad.dk/danmark/regeringen-vil-goere-det-midlertidige-huslejetilskud-permanent",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Pulje til huslejetilskud fordobles og gøres permanent",
+          "publisher": "Børne-, Ældre- og Boligministeriet (Ritzau)",
+          "url": "https://via.ritzau.dk/pressemeddelelse/15145990/pulje-til-huslejetilskud-fordobles-og-gores-permanent?lang=da",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "IBM's Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed",
+      "headline": "IBM's Nighthawk r2 Quantum Processor Targets a 25-Fold Increase in Circuit Speed",
+      "summary": "IBM's 120-qubit Nighthawk r2 er nu generelt tilgængelig; nye dissipative reset-komponenter kutter qubit-relaksationstiden fra ca. 200 mikrosekunder til 25 nanosekunder og giver 25 gange højere kredsløbsgennemløb end Heron-flåden.",
+      "publisher": "The Quantum Insider",
+      "section": "Kvante",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "url": "https://thequantuminsider.com/2026/09/03/ibms-nighthawk-r2-quantum-processor-targets-a-25-fold-increase-in-circuit-speed/"
+    },
+    {
+      "text": "'The war will continue' — US peace push fails to achieve deal after Witkoff, Kushner's first visit to Kyiv",
+      "headline": "'The war will continue' — US peace push fails to achieve deal after Witkoff, Kushner's first visit to Kyiv",
+      "summary": "Zelensky venter krig ind i vinteren efter tre rundes samtaler med de amerikanske udsendinge Witkoff og Kushner i Kyiv. Parterne skitserede en vinterpakke om luftforsvar, energinet og amerikansk LNG, men uden gennembrud på en våbenhvile.",
+      "publisher": "The Kyiv Independent",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-06T00:00:00.000Z",
+      "url": "https://kyivindependent.com/us-envoys-witkoff-kushner-arrive-in-ukraine/"
+    },
+    {
+      "text": "Dansk eksport satte rekord i juli",
+      "headline": "Dansk eksport satte rekord i juli",
+      "summary": "Den sæsonkorrigerede danske eksport af varer og tjenester nåede 202,7 mia. kr. i juli, det højeste niveau nogensinde målt. Vareeksporten steg 4,5 pct., tjenesteeksporten 3,3 pct.",
+      "publisher": "DR",
+      "section": "Økonomi",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "url": "https://www.dr.dk/nyheder/seneste/dansk-eksport-satte-rekord-i-juli"
+    },
+    {
+      "text": "Næsten hver anden dansker ville skifte job, hvis der blev krig",
+      "headline": "Næsten hver anden dansker ville skifte job, hvis der blev krig",
+      "summary": "En Voxmeter-undersøgelse for Folkekirkens Nødhjælp blandt 1.026 danskere viser, at 45 pct. ville omskoles til opgaver som førstehjælp eller minerydning, hvis Danmark kom under alvorligt pres.",
+      "publisher": "Folkekirkens Nødhjælp",
+      "section": "Samfund",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "url": "https://via.ritzau.dk/pressemeddelelse/15144083/naesten-hver-anden-dansker-ville-skifte-job-hvis-der-blev-krig?lang=da"
+    },
+    {
+      "text": "Shein IPO cuts valuation to US$26 billion as shares stumble on Hong Kong debut",
+      "headline": "Shein IPO cuts valuation to US$26 billion as shares stumble on Hong Kong debut",
+      "summary": "Shein blev noteret i Hongkong til omkring 26-27 mia. dollar, en brøkdel af 2022-toppen på 100 mia. dollar, og aktien faldt cirka 9 pct. på debutdagen.",
+      "publisher": "Yahoo Finance",
+      "section": "Business",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "url": "https://au.finance.yahoo.com/news/shein-ipo-cuts-valuation-us-010200810.html"
+    },
+    {
+      "text": "Xanadu Secures CAD $195 Million and Establishes Landmark Advanced Photonics Facility",
+      "headline": "Xanadu Secures CAD $195 Million and Establishes Landmark Advanced Photonics Facility",
+      "summary": "Canadas regering finansierer Xanadus fotonik-fabrik 'Inception' i Toronto med 195 mio. CAD som del af det 893 mio. CAD store Project OPTIMISM – det største statslige investering i kvanteproduktion i canadisk historie.",
+      "publisher": "HPCwire",
+      "section": "Kvante",
+      "publishedAt": "2026-08-28T00:00:00.000Z",
+      "url": "https://www.hpcwire.com/off-the-wire/xanadu-secures-cad-195m-for-quantum-manufacturing-expansion/"
+    },
+    {
+      "text": "Alibaba upgrades Qwen3.8-Max with a new 0902 snapshot",
+      "headline": "Alibaba upgrades Qwen3.8-Max with a new 0902 snapshot",
+      "summary": "Alibaba har opdateret Qwen3.8-Max med fokus på kodning og agent-opgaver, uændret 2,4 billioner parametre og 1 mio. tokens kontekst; CodeArena-scoren steg 22 point til 1.691, en førsteplads, til uændret pris.",
+      "publisher": "TechNode",
+      "section": "AI",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "url": "https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/"
+    },
+    {
+      "text": "Scientists observe Einstein's gravity in the quantum world",
+      "headline": "Scientists observe Einstein's gravity in the quantum world",
+      "summary": "Fysikere ved Ben-Gurion University har med et Quantum Galileo-interferometer og ultrakolde rubidiumatomer målt et forudsagt tyngdeinduceret kvantefaseskift, offentliggjort i Science Advances 2. september.",
+      "publisher": "Phys.org",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-02T00:00:00.000Z",
+      "url": "https://phys.org/news/2026-09-scientists-einstein-gravity-quantum-world.html"
+    },
+    {
+      "text": "Stock Market Today (Sept. 8, 2026): S&P 500 edges lower as oil prices climb, Mideast tensions rise",
+      "headline": "Stock Market Today (Sept. 8, 2026): S&P 500 edges lower as oil prices climb, Mideast tensions rise",
+      "summary": "Amerikanske aktier sluttede lavere 8. september, da olien steg på Hormuz/Jordan-optrapningen, og en stærkere jobrapport end ventet løftede odds for en septemberrenteforhøjelse.",
+      "publisher": "Yahoo Finance",
+      "section": "Markeder",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-sept-8-133744027.html"
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "gulvet-under-ubi",
+    "title": "Gulvet under UBI",
+    "thesis": "Altmans eget kontantforsøg satte kun et gulv for, hvor meget AI-arbejdsløshed vil dæmpe arbejdsudbud, ikke et loft.",
+    "horizon": "Når forsøget gentages under stigende ledighed",
+    "body": [
+      "Det kørte 2020-23 i et historisk stramt arbejdsmarked, hvor et andet job altid fandtes."
+    ],
+    "uncertainty": "Tesen er forkert, hvis et sammenligneligt kontantforsøg under stigende ledighed viser en effekt på arbejdsudbuddet, der ikke overstiger de 1,3 timer om ugen fra 2020-2023.",
+    "topics": [
+      "ai",
+      "økonomi",
+      "arbejdsmarked"
+    ],
+    "claims": [
+      {
+        "text": "OpenResearchs treårige forsøg med Sam Altman som primær donor fandt, at modtagere af 1.000 dollar om måneden arbejdede 1,3 færre timer om ugen og var 2 procentpoint mindre tilbøjelige til at være i beskæftigelse end kontrolgruppen",
+        "sourceUrls": [
+          "https://fortune.com/2024/09/04/sam-altman-backed-study-guaranteed-income-widely-misinterpreted-ubi-personal-finance"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "How a Sam Altman-backed study into guaranteed income was widely misinterpreted",
+        "publisher": "Fortune",
+        "url": "https://fortune.com/2024/09/04/sam-altman-backed-study-guaranteed-income-widely-misinterpreted-ubi-personal-finance",
+        "publishedAt": "2024-09-04T09:54:00.000Z",
+        "kind": "reporting"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-sugrue-utilitarianism-2026-09-09",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Foredrag",
+      "status": "available",
+      "title": "Utilitarianism: Bibliotheca Webinar",
+      "creator": "Michael Sugrue",
+      "provider": "Bibliotheca / YouTube",
+      "url": "https://www.youtube.com/watch?v=InBZeAJi6Qg",
+      "availability": "Gratis, hele verden, YouTube",
+      "commitment": "~1 time",
+      "description": "Foredrag om John Stuart Mills og Jeremy Benthams utilitarisme, holdt af filosofihistorikeren Michael Sugrue for Bibliotheca. Gennemgår idéen om at måle handlinger på deres konsekvenser for samlet lykke, og de klassiske indvendinger mod regnestykket.",
+      "rationale": "Analytisk, utilitaristisk etik optræder i ingen af de 74 bøger på din Goodreads-hylde, som ellers er tung på Nietzsche, Dostojevskij og eksistentialisme. Du kender allerede Sugrues stemme fra Kierkegaard-foredraget – her er samme forelæser, men den modsatte etiske tradition: konsekvenser frem for det enkelte menneskes valg.",
+      "topics": [
+        "filosofi",
+        "etik"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://img.youtube.com/vi/InBZeAJi6Qg/maxresdefault.jpg",
+        "credit": "Bibliotheca / YouTube",
+        "alt": "Michael Sugrue under forelæsning om utilitarisme",
+        "sourceUrl": "https://www.youtube.com/watch?v=InBZeAJi6Qg"
+      }
+    },
+    {
+      "id": "rec-oddlots-lasers-2026-09-09",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Odd Lots: Why Laser Beams Are the Hottest New Tech in Defense",
+      "creator": "Joe Weisenthal og Tracy Alloway med Wayne Sanders",
+      "provider": "Bloomberg Originals",
+      "url": "https://www.bloomberg.com/news/audio/2026-09-04/odd-lots-why-laser-beams-are-the-hottest-defense-tech-podcast",
+      "commitment": "~45 min",
+      "note": "En pensioneret oberst og Bloomberg Intelligence-analytiker forklarer, hvorfor laservåben først nu bliver virkelighed, og hvad der stadig mangler før en reel 'laserpistol'.",
+      "topics": [
+        "forsvar",
+        "deeptech"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-stratechery-write-things-down-2026-09-09",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "Write Things Down",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "commitment": "~15 min",
+      "note": "Thompson afviser Jensen Huangs påstand om, at Astra er AGI, og foreslår sin egen definition: AGI er det, der lærer kontinuerligt, ikke det der scorer højt på én test.",
+      "topics": [
+        "ai",
+        "epistemologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-cosmos-grantees-2026-09-09",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Artikel",
+      "status": "new",
+      "title": "Announcing 80 New Cosmos Grantees",
+      "provider": "Cosmos Institute",
+      "url": "https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees",
+      "commitment": "~10 min",
+      "note": "Oversigt over Cosmos Institutes hidtil største hold af legatmodtagere, med projekter fra wearables til hukommelse til benchmarks baseret på filosofi fra før 1940.",
+      "topics": [
+        "ai",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-siepr-ai-jobs-2026-09-09",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Rapport",
+      "status": "available",
+      "title": "What is really happening to jobs? Separating AI hype from reality",
+      "creator": "Neale Mahoney, Erika McEntarfer, Karsen Wahal",
+      "provider": "Stanford SIEPR / PIIE",
+      "url": "https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality",
+      "commitment": "~25 min",
+      "note": "Census-, ADP- og Fed-data finder ingen målbar stigning i samlet ledighed blandt AI-eksponerede job – en kildebaseret kontrol af historien om AI-drevet massefyring.",
+      "topics": [
+        "ai",
+        "arbejdsmarked",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-slok-ai-math-2026-09-09",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "available",
+      "title": "Top economist warns that the AI math doesn't make sense",
+      "creator": "Torsten Slok",
+      "provider": "Fortune",
+      "url": "https://fortune.com/2026/08/10/torsten-slok-ai-profit-margins-capex-oracle/",
+      "commitment": "~10 min",
+      "note": "Samme argument som modsynet på dagens Anthropic-historie, foldet helt ud: AI-branchens overskud kommer fra investorer, ikke kunder – endnu.",
+      "topics": [
+        "ai",
+        "finans",
+        "venturekapital"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-worldpressphoto-2026-09-09",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "Udstilling",
+      "status": "upcoming",
+      "title": "World Press Photo Exhibition 2026",
+      "creator": "World Press Photo Foundation",
+      "provider": "PRESSEN, København",
+      "url": "https://www.worldpressphoto.org/calendar/2026/copenhagen-denmark",
+      "availability": "København, 26. september – 18. oktober 2026, billetteret",
+      "commitment": "~1-2 timer",
+      "note": "Årets vinderbilleder fra 42 fotografer – dokumentarisk fotojournalistik snarere end galleri-kunst, værd at sætte i kalenderen nu.",
+      "topics": [
+        "fotografi",
+        "journalistik"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 95,
+    "freshness": 85,
+    "novelty": 75,
+    "perspectiveBalance": 90,
+    "render": 100
+  }
+}
