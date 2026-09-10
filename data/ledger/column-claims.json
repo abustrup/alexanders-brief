@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-09",
-      "slug": "gulvet-under-ubi",
-      "claim": "OpenResearchs 2020-2023-forsøg med Sam Altmans ubetingede kontantoverførsler (1,3 færre arbejdstimer om ugen, 2 procentpoint lavere beskæftigelse) satte kun et gulv for, hvor meget arbejdsudbuddet vil falde under en AI-drevet borgerløn indført i et arbejdsmarked med stigende, ikke faldende, ledighed.",
-      "horizon": "Når et sammenligneligt ubetinget kontantforsøg køres eller genanalyseres under stigende ledighed",
-      "falsifier": "Et sammenligneligt kontantforsøg under stigende ledighed viser en effekt på arbejdsudbuddet, der ikke overstiger OpenResearchs 1,3 timer om ugen fra 2020-2023.",
+      "date": "2026-09-10",
+      "slug": "toppen-rykker-frem",
+      "claim": "FN's befolkningstop rykker tidligere og lavere for hver World Population Prospects-revision - fra intet top før 2100 (2019) til 2086/10,4 mia. (2022) til 2084/10,3 mia. (2024) - og bevæger sig mod IHME's 2064/9,7 mia.-skøn, ikke væk fra det.",
+      "horizon": "FN's næste World Population Prospects-revision",
+      "falsifier": "FN's næste revision fastholder eller udskyder toppen til efter 2084 og 10,3 mia. i stedet for at rykke den nærmere IHME's 2064-skøn. Kontrolleres i FN Population Divisions egen publikation.",
       "status": "open"
     }
   ]
