@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-09-10",
+  "date": "2026-09-10",
+  "generatedAt": "2026-09-10T05:30:00Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "Et genomatlas fra DeepMind, olie over 100 dollar, en Fields-medaljevinder i AI-sikkerhed og en gambisk strømkrise.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-alphagenome-atlas-20260910",
+      "eventKey": "deepmind-alphagenome-atlas-2026",
+      "materialFacts": [
+        "DeepMind released a 1-petabyte dataset predicting the molecular effects of every possible single-nucleotide variant across roughly 9 billion positions in the human genome",
+        "The atlas is free for academic use via a searchable portal and API; commercial use goes through Google Cloud"
+      ],
+      "section": "Teknologi",
+      "headline": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+      "primarySourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "subheadline": "DeepMind offentliggør et petabyte-stort datasæt med forudsigelser for ni milliarder mulige DNA-varianter",
+      "body": [
+        "Google DeepMind offentliggjorde 8. september AlphaGenome Atlas: et petabyte-stort datasæt, der forudsiger den molekylære effekt af stort set enhver DNA-variant i det menneskelige genom - omkring ni milliarder positioner. Modellen bag, AlphaGenome, forudsiger, hvordan en variant påvirker nærliggende geners aktivitet uden laboratorietest af hver enkelt.",
+        "Atlasset er gratis for forskere via en søgbar portal og et API; kommerciel brug går gennem Google Cloud. DeepMind sammenligner omfanget med AlphaFold-databasen for proteinstrukturer, som er over 30 gange mindre og som markant fremskyndede strukturbiologisk forskning."
+      ],
+      "whyItMatters": "For en læser, der følger AI's praktiske anvendelse, er atlasset AI som forskningsinfrastruktur: genetisk kortlægning, der tog laboratorier år at gennemføre for en brøkdel af varianterne, kan nu starte som en beregnet hypotese.",
+      "analysis": "Værdien afhænger af, hvor godt forudsigelserne holder ved eksperimentel test. AlphaFold var stærk, men ikke ufejlbarlig, og regulatorisk biologi er typisk mindre deterministisk end proteinfoldning. Atlasset er derfor et katalog af rangerede hypoteser, ikke facit - dets værdi viser sig først, når uafhængige laboratorier efterprøver det.",
+      "image": {
+        "url": "https://lh3.googleusercontent.com/vOjFcTcdX2GCEB9yk-tJ7GAfyhTAMo-zW7scq3TrT9qk1mYw5qE0BdUqI8XQclMuUchZr7pYUFdVt3ZzrXc1NGFFJOqi7kIUX_QuAXZR7lkVzxjk=w1200-h630-n-nu-rw",
+        "credit": "Kilde: Google DeepMind",
+        "alt": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+        "sourceUrl": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+      },
+      "topics": [
+        "ai",
+        "biotek",
+        "videnskab",
+        "genomik"
+      ],
+      "entities": [
+        "Google DeepMind",
+        "AlphaGenome"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 70,
+        "novelty": 88,
+        "sourceQuality": 90,
+        "personalRelevance": 65,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "DeepMind har offentliggjort et petabyte-stort datasæt, der forudsiger effekten af stort set enhver DNA-variant på ni milliarder positioner i det menneskelige genom",
+          "sourceUrls": [
+            "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "publisher": "Google DeepMind",
+          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "DeepMind's new genome 'atlas' charts effects of all nine billion possible mutations",
+          "publisher": "Nature",
+          "url": "https://www.nature.com/articles/d41586-026-02835-4",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-iran-hormuz-oil-shock-20260910",
+      "eventKey": "iran-hormuz-war-escalation-2026-09",
+      "materialFacts": [
+        "Brent crude passed $100/barrel for the first time since July after the US destroyed five Iranian tankers and Iran struck a US base in Jordan",
+        "Goldman Sachs raised its Brent/WTI forecasts and warned of prices above $120 in 2027 if Gulf output stays ~4m bbl/day below prewar levels"
+      ],
+      "section": "Geopolitik",
+      "headline": "Oil Tops $100 For First Time Since July As US Destroys Five Iranian Tankers",
+      "primarySourceUrl": "https://dailycaller.com/2026/09/09/oil-prices-top-100-dollars-barrel-iran-war-tankers/",
+      "subheadline": "Goldman Sachs advarer om priser over 120 dollar i 2027, hvis Golfens olieproduktion forbliver lav",
+      "body": [
+        "Brentolien steg onsdag over 100 dollar tønden for første gang siden juli, efter at amerikanske styrker ødelagde fem iranske tankskibe, og Iran svarede med at angribe en amerikansk base i Jordan. CENTCOM oplyser, at skibene var involveret i angreb på et amerikansk krigsskib i Hormuzstrædet.",
+        "Goldman Sachs har hævet sine prisprognoser for Brent og WTI med 5 dollar og advarer om priser over 120 dollar i 2027, hvis Golfens olieproduktion forbliver omkring 4 millioner tønder dagligt under niveauet før krigen."
+      ],
+      "whyItMatters": "Olieprisen er kanalen, hvor konflikten bliver mærkbar for en dansk husholdning - i benzinprisen og i renten, som dels sættes ud fra energiinflationen.",
+      "analysis": "Markedet prisfastsætter nu en længerevarende afbrydelse. Det amerikanske svar er skiftet fra afvisning til aktiv destruktion af iransk materiel, hvilket øger eskaleringsrisikoen.",
+      "topics": [
+        "geopolitik",
+        "energi",
+        "forsvar",
+        "mellemøsten",
+        "usa",
+        "økonomi"
+      ],
+      "entities": [
+        "CENTCOM",
+        "IRGC",
+        "Iran",
+        "USA",
+        "Goldman Sachs"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 65,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Brent crude passed $100/barrel for the first time since July after the US destroyed five Iranian tankers",
+          "sourceUrls": [
+            "https://dailycaller.com/2026/09/09/oil-prices-top-100-dollars-barrel-iran-war-tankers/",
+            "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Goldman Sachs warned Brent could exceed $120/barrel in 2027 if Gulf output remains materially below prewar levels",
+          "sourceUrls": [
+            "https://finance.yahoo.com/news/oil-shock-lifts-eia-price-173000464.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Oil Tops $100 For First Time Since July As US Destroys Five Iranian Tankers",
+          "publisher": "The Daily Caller",
+          "url": "https://dailycaller.com/2026/09/09/oil-prices-top-100-dollars-barrel-iran-war-tankers/",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US destroys five Iranian tankers, Iran retaliates with attacks on Jordan base",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/us-destroys-five-iranian-tankers-iran-retaliates-with-attacks-on-jordan-base",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Oil Shock Lifts EIA Price Outlook as Hormuz Crisis Reshapes Forecast",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/oil-shock-lifts-eia-price-173000464.html",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://images.dailycaller.com/image/width=1280,height=549,fit=cover,format=webp,f=auto/https://cdn01.dailycaller.com/wp-content/uploads/2024/05/2024-05-15T155520Z_270948808_RC2GC1APJT6S_RTRMADP_3_RUSSIA-OIL-EXPORTS.jpg",
+        "credit": "Kilde: The Daily Caller",
+        "alt": "Oil Tops $100 For First Time Since July As US Destroys Five Iranian Tankers",
+        "sourceUrl": "https://dailycaller.com/2026/09/09/oil-prices-top-100-dollars-barrel-iran-war-tankers/"
+      }
+    },
+    {
+      "id": "story-nsa-cisa-distillation-advisory-20260910",
+      "eventKey": "nsa-cisa-china-ai-distillation-advisory-2026",
+      "materialFacts": [
+        "NSA, CISA and FBI issued joint advisory AA26-251A on 8 September 2026 naming six Chinese AI companies accused of systematic distillation against US frontier models since late 2024"
+      ],
+      "section": "Sikkerhed",
+      "headline": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+      "primarySourceUrl": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+      "subheadline": "NSA, CISA og FBI navngiver seks kinesiske AI-selskaber i fælles rådgivning",
+      "body": [
+        "NSA, CISA og FBI udsendte 8. september rådgivning AA26-251A, der beskylder seks kinesiske AI-selskaber - DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun og Z.AI - for at have destilleret amerikanske frontier-modellers viden ind i egne modeller siden 2024.",
+        "Ifølge rådgivningen har selskaberne udtrukket milliarder af tokens fra modeller som Claude, GPT og Gemini gennem millioner af forespørgsler."
+      ],
+      "whyItMatters": "Det er første gang, myndighederne navngiver konkrete selskaber i én rådgivning - et skifte fra bekymring til navngivet anklage.",
+      "analysis": "Anklagen er myndighedernes egen vurdering, ikke en efterprøvet kendsgerning. Destillation er i forvejen en gråzone i AI-branchen; det nye er skala og navngivning.",
+      "counterpoint": "Kinas udenrigsministerium har flere gange i 2026 afvist lignende beskyldninger og advaret om 'modforanstaltninger', hvis destillationsanklager bruges som påskud for restriktioner på kinesiske AI-selskaber.",
+      "topics": [
+        "ai",
+        "cyber",
+        "magt",
+        "geopolitik",
+        "usa",
+        "kina"
+      ],
+      "entities": [
+        "NSA",
+        "CISA",
+        "FBI",
+        "DeepSeek",
+        "Moonshot AI",
+        "Alibaba",
+        "MiniMax",
+        "StepFun",
+        "Z.AI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 58,
+        "novelty": 68,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Joint advisory AA26-251A names DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun and Z.AI as having run distillation campaigns against US frontier models since late 2024",
+          "sourceUrls": [
+            "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "China's Foreign Ministry and Ministry of Commerce have repeatedly rejected similar distillation claims in 2026 and warned of countermeasures",
+          "sourceUrls": [
+            "https://tech-insider.org/china-rejects-us-ai-distillation-claims-2026/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+          "publisher": "CISA",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "China Rejects US AI Distillation Claims: 6 Firms Named",
+          "publisher": "Tech Insider",
+          "url": "https://tech-insider.org/china-rejects-us-ai-distillation-claims-2026/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-maisi-launch-20260910",
+      "eventKey": "maisi-launch-2026",
+      "materialFacts": [
+        "2026 Fields Medalist Jacob Tsimerman launched the Mathematical AI Safety Institute (MAISI) on 8 September 2026 with Andrew Critch as Executive Director",
+        "MAISI plans to host 10-30 mathematicians from January 2027, expanding to 30-100 by September 2027"
+      ],
+      "section": "Teknologi",
+      "headline": "Fields medalist Jacob Tsimerman launches institute for AI safety",
+      "primarySourceUrl": "https://thehill.com/policy/technology/6076244-jacob-tsimerman-launches-maisi/",
+      "subheadline": "Matematikeren bag beviset for André-Oort-formodningen vil bygge matematiske rammer for AI-risiko",
+      "body": [
+        "Jacob Tsimerman, der i juli modtog Fields-medaljen for arbejde med o-minimalitet og André-Oort-formodningen, lancerede 8. september Mathematical AI Safety Institute (MAISI) med Andrew Critch som direktør. Instituttet vil udvikle matematiske definitioner for AI-risiko.",
+        "MAISI vil samle 10-30 matematikere i Bay Area fra januar 2027 og udvide til 30-100 forskere inden september 2027. Tsimerman tiltræder samtidig OpenAIs sikkerhedsafdeling."
+      ],
+      "whyItMatters": "At en Fields-medaljevinder vælger AI-sikkerhed frem for ren forskning, er et signal om, hvor feltets mest anerkendte praktikere mener, det uløste problem faktisk ligger.",
+      "analysis": "Om matematisk stringens kan levere det, filosofiske tilgange hidtil ikke har kunnet - en brugbar definition af, hvornår et system er sikkert - er uafklaret. Instituttets første semester i 2027 bliver den egentlige test.",
+      "image": {
+        "url": "https://thehill.com/wp-content/uploads/sites/2/2026/09/AP18213601531414-e1788878981383.jpg?w=1280",
+        "credit": "Kilde: The Hill",
+        "alt": "Fields medalist Jacob Tsimerman launches institute for AI safety",
+        "sourceUrl": "https://thehill.com/policy/technology/6076244-jacob-tsimerman-launches-maisi/"
+      },
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "matematik"
+      ],
+      "entities": [
+        "Jacob Tsimerman",
+        "Andrew Critch",
+        "MAISI",
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 55,
+        "novelty": 82,
+        "sourceQuality": 72,
+        "personalRelevance": 60,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Jacob Tsimerman launched MAISI on 8 September 2026 with Andrew Critch as Executive Director, planning to host 10-30 mathematicians from January 2027",
+          "sourceUrls": [
+            "https://thehill.com/policy/technology/6076244-jacob-tsimerman-launches-maisi/",
+            "https://maisi.org/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fields medalist Jacob Tsimerman launches institute for AI safety",
+          "publisher": "The Hill",
+          "url": "https://thehill.com/policy/technology/6076244-jacob-tsimerman-launches-maisi/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Mathematical AI Safety Institute",
+          "publisher": "MAISI",
+          "url": "https://maisi.org/",
+          "publishedAt": "2026-09-08T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-danish-crown-rema-spoiled-meat-20260910",
+      "eventKey": "dk-danish-crown-rema-spoiled-beef-2026",
+      "materialFacts": [
+        "University of Copenhagen researchers found an average of 300 million bacteria per gram in Rema 1000 Supreme-series beef packed by Danish Crown, versus a 10 million/gram threshold for incipient spoilage",
+        "Danish Crown and Rema 1000 knew of the findings from mid-May 2026 but kept selling the beef line until end of June 2026; Fødevarestyrelsen's own inspection found no violation"
+      ],
+      "section": "Danmark",
+      "headline": "Kontant afslører: Fordærvet kød fra Danish Crown solgt i Rema 1000",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/kontant/kontant-afsloerer-fordaervet-koed-fra-danish-crown-solgt-i-rema-1000",
+      "subheadline": "Forskere fandt 300 millioner bakterier pr. gram i Rema 1000's Supreme-bøffer",
+      "body": [
+        "DR's Kontant afslører, at forskere fra Københavns Universitet fandt i gennemsnit 300 millioner bakterier pr. gram i bøffer fra Rema 1000's Supreme-serie, pakket af Danish Crown. Grænsen for begyndende fordærv går ved 10 millioner - forskerne kalder fundet uden fortilfælde.",
+        "Undersøgelsen omfattede 30 bøffer købt i fem Rema 1000-butikker. Danish Crown og Rema 1000 kendte til fundene fra midten af maj, men fortsatte salget frem til udgangen af juni."
+      ],
+      "whyItMatters": "Fødevarestyrelsens egen kontrol fandt ingen fejl - det var en universitetsundersøgelse, der afslørede problemet, og det tog begge virksomheder halvanden måned at stoppe salget.",
+      "analysis": "Sagen rejser et spørgsmål ud over disse to virksomheder: om fødevarekontrollen reelt kan fange det, kun et laboratorium tilfældigvis stødte på. Leverandøren er siden skiftet ud, men kontrolgabet består.",
+      "topics": [
+        "danmark",
+        "fødevaresikkerhed",
+        "forbrugere"
+      ],
+      "entities": [
+        "Danish Crown",
+        "Rema 1000",
+        "Københavns Universitet",
+        "Fødevarestyrelsen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 48,
+        "novelty": 80,
+        "sourceQuality": 75,
+        "personalRelevance": 20,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "University of Copenhagen researchers found an average of 300 million bacteria per gram in Rema 1000 Supreme beef packed by Danish Crown, against a 10 million/gram spoilage threshold",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-09-09-forskere-har-aldrig-set-noget-lignende-efter-afsloering-af-fordaervet-koed-i-rema-1000"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Danish Crown and Rema 1000 knew of the findings from mid-May 2026 but kept selling the beef line until end of June 2026",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/kontant/kontant-afsloerer-fordaervet-koed-fra-danish-crown-solgt-i-rema-1000"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kontant afslører: Fordærvet kød fra Danish Crown solgt i Rema 1000",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/kontant/kontant-afsloerer-fordaervet-koed-fra-danish-crown-solgt-i-rema-1000",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Forskere har aldrig set noget lignende efter afsløring af fordærvet kød i Rema 1000",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/samfund/2026-09-09-forskere-har-aldrig-set-noget-lignende-efter-afsloering-af-fordaervet-koed-i-rema-1000",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/oujpen2a/317.png?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Kontant afslører: Fordærvet kød fra Danish Crown solgt i Rema 1000",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/kontant/kontant-afsloerer-fordaervet-koed-fra-danish-crown-solgt-i-rema-1000"
+      }
+    },
+    {
+      "id": "story-amazon-cargo-crash-miami-20260910",
+      "eventKey": "amazon-cargo-plane-crash-miami-2026",
+      "materialFacts": [
+        "An Amazon-contracted 767 cargo jet overshot the runway at Miami International Airport, struck a cleaning-crew van and a car, killing five people",
+        "NTSB's cockpit-voice-recorder summary shows one pilot repeatedly warned the other of excessive approach speed, without a consistent verbal response"
+      ],
+      "section": "Sikkerhed",
+      "headline": "Pilot of cargo plane that careened off Miami runway warned it was coming in too fast",
+      "primarySourceUrl": "https://abcnews.com/US/wireStory/pilot-amazon-cargo-plane-careened-off-miami-runway-136319569",
+      "subheadline": "NTSB's foreløbige undersøgelse: Advarsler blev ikke besvaret konsekvent i cockpittet",
+      "body": [
+        "Et Amazon-kontraheret Boeing 767-fragtfly kørte af banen på Miami International Airport, ramte en varevogn med et rengøringshold og en bil og dræbte fem mennesker. Piloterne, Felipe Silva Molina og Joseph Carroll, slap selv med mindre skader.",
+        "NTSB's foreløbige gennemgang af cockpit-lydoptagelsen viser, at én pilot gentagne gange advarede den anden om for høj hastighed, uden et konsekvent verbalt svar. Flyet ramte banen akavet, forsøgte kortvarigt at lette igen og kolliderede derefter."
+      ],
+      "whyItMatters": "Fem dræbte i en ulykke med et af verdens mest brugte fragtfly rejser spørgsmål om besætningssamarbejde under pres - et grundlæggende, velundersøgt problem i luftfartssikkerhed.",
+      "analysis": "NTSB's undersøgelse er indledende, og en endelig årsag er ikke fastslået. Men lydoptagelsen - en advarsel uden konsekvent respons - peger mod et kendt mønster: information i cockpittet, der ikke bliver handlet på i tide.",
+      "image": {
+        "url": "https://i.abcnewsfe.com/a/f73aa248-1708-4454-90ed-a9d4f16c0deb/wirestory_0216e31a586885652360d34d0455abcd_16x9.jpg?w=1600",
+        "credit": "Kilde: ABC News",
+        "alt": "Pilot of cargo plane that careened off Miami runway warned it was coming in too fast",
+        "sourceUrl": "https://abcnews.com/US/wireStory/pilot-amazon-cargo-plane-careened-off-miami-runway-136319569"
+      },
+      "topics": [
+        "luftfart",
+        "sikkerhed",
+        "usa",
+        "ulykke"
+      ],
+      "entities": [
+        "NTSB",
+        "Amazon",
+        "Miami International Airport",
+        "Felipe Silva Molina",
+        "Joseph Carroll"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 15,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "An Amazon-contracted 767 cargo jet overshot the runway at Miami International Airport, killing five people in a ground vehicle it struck",
+          "sourceUrls": [
+            "https://abcnews.com/US/wireStory/pilot-amazon-cargo-plane-careened-off-miami-runway-136319569"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "NTSB's cockpit-voice-recorder summary shows one pilot repeatedly warned the other of excessive approach speed without a consistent verbal response",
+          "sourceUrls": [
+            "https://abcnews.com/US/wireStory/pilot-amazon-cargo-plane-careened-off-miami-runway-136319569"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pilot of cargo plane that careened off Miami runway warned it was coming in too fast",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/wireStory/pilot-amazon-cargo-plane-careened-off-miami-runway-136319569",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-gambia-power-emergency-20260910",
+      "eventKey": "gambia-power-crisis-national-emergency-2026",
+      "materialFacts": [
+        "President Adama Barrow declared The Gambia's electricity crisis a national emergency after violent blackout protests in Banjul",
+        "Barrow, seeking a third term in the 5 December election, promised a 24-megawatt generator by end of October and a further 50-megawatt solar plant"
+      ],
+      "section": "Afrika",
+      "headline": "Gambian leader pledges halt to rolling blackouts as protests turn violent",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/9/gambian-leader-pledges-halt-to-rolling-blackouts-as-protests-turn-violent",
+      "subheadline": "Præsident Barrow erklærer undtagelsestilstand efter voldsomme protester mod strømafbrydelser",
+      "body": [
+        "Gambias præsident Adama Barrow har erklæret landets elkrise en national nødsituation, efter at protester mod strømafbrydelser på op til 48 timer eskalerede til vold i Banjul. Demonstranter afbrændte dæk og opførte barrikader og krævede Barrows afgang.",
+        "Politiet brugte tåregas flere steder, blandt andet nær præsidentens bolig og elselskabet NAWEC's hovedkvarter. Barrow har lovet et 24-megawatt generatoranlæg inden udgangen af oktober og et solcelleanlæg på 50 megawatt."
+      ],
+      "whyItMatters": "Krisen rammer tre måneder før et præsidentvalg i december, hvor Barrow søger en tredje periode - strømafbrydelserne er blevet den centrale valgkampssag.",
+      "analysis": "NAWEC peger på klimaforandringer og en uventet efterspørgselsstigning, men løftet om ny kapacitet rejser et klassisk spørgsmål: om en teknisk løsning kan materialisere sig hurtigere end den utilfredshed, den skal afhjælpe.",
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6aa0b22b00927-1788916267.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Gambian leader pledges halt to rolling blackouts as protests turn violent",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/9/gambian-leader-pledges-halt-to-rolling-blackouts-as-protests-turn-violent"
+      },
+      "topics": [
+        "afrika",
+        "energi",
+        "demokrati",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Adama Barrow",
+        "The Gambia",
+        "National Water and Electricity Corporation"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 35,
+        "novelty": 75,
+        "sourceQuality": 68,
+        "personalRelevance": 10,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "President Adama Barrow declared The Gambia's electricity crisis a national emergency after violent blackout protests in Banjul",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/9/gambian-leader-pledges-halt-to-rolling-blackouts-as-protests-turn-violent"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gambian leader pledges halt to rolling blackouts as protests turn violent",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/gambian-leader-pledges-halt-to-rolling-blackouts-as-protests-turn-violent",
+          "publishedAt": "2026-09-09T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "EU AI Act's first systemic-risk deadline for large GPAI models falls September 15",
+      "headline": "EU AI Act's first systemic-risk deadline for large GPAI models falls September 15",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "summary": "Udbydere af generelle AI-modeller over 10^25 FLOPs skal indsende deres første systemiske risikovurdering til EU's AI-kontor senest 15. september.",
+      "publisher": "Europa-Kommissionen",
+      "section": "AI",
+      "publishedAt": "2026-09-08T00:00:00Z"
+    },
+    {
+      "text": "xAI launches Grok Bot with persistent-agent experience",
+      "headline": "xAI launches Grok Bot with persistent-agent experience",
+      "url": "https://x.ai/",
+      "summary": "Grok Bot tilføjer en vedvarende agent-oplevelse med botroster, computeradgang, delte gruppechats og rutiner, der starter uden prompt.",
+      "publisher": "xAI",
+      "section": "AI",
+      "publishedAt": "2026-09-08T00:00:00Z"
+    },
+    {
+      "text": "Q2B Copenhagen brings global quantum industry to Denmark",
+      "headline": "Q2B Copenhagen brings global quantum industry to Denmark",
+      "url": "https://q2b.qcware.com/conference/2026-copenhagen",
+      "summary": "To-dages kvantekonference i København 9.-10. september, støttet af Udenrigsministeriet, Novo Nordisk Fonden og Novo Holdings, samler globale hardware- og softwareudbydere.",
+      "publisher": "QC Ware",
+      "section": "Quantum",
+      "publishedAt": "2026-09-09T00:00:00Z"
+    },
+    {
+      "text": "Nigeria rejoins FTSE's frontier index",
+      "headline": "Nigeria rejoins FTSE's frontier index",
+      "url": "https://allafrica.com/stories/202609090083.html",
+      "summary": "Nigeria genindtræder i FTSE's frontier-indeks 21. september, hvilket giver Dangote Cement, First HoldCo og MTN adgang til passiv udenlandsk kapital; BUA, UBA og Seplat er udelukket.",
+      "publisher": "allAfrica",
+      "section": "Økonomi",
+      "publishedAt": "2026-09-09T00:00:00Z"
+    },
+    {
+      "text": "NIST releases initial public draft of SP 1353 on using AI within the Cybersecurity Framework",
+      "headline": "NIST releases initial public draft of SP 1353 on using AI within the Cybersecurity Framework",
+      "url": "https://www.nist.gov/",
+      "summary": "Udkastet er i offentlig høring frem til 15. oktober 2026.",
+      "publisher": "NIST",
+      "section": "Cyber",
+      "publishedAt": "2026-09-03T00:00:00Z"
+    },
+    {
+      "text": "Lejlighedspriserne står stille i København",
+      "headline": "Lejlighedspriserne står stille i København",
+      "url": "https://www.boligsiden.dk/pressemeddelelser/lejlighedspriserne-staar-stille-i-koebenhavn",
+      "summary": "Udbuddet af ejerlejligheder til salg i København er steget 77,9 procent på et år, og andelen af prisnedsættelser er vokset fra 12,4 til 20,7 procent siden december.",
+      "publisher": "Boligsiden",
+      "section": "Danmark",
+      "publishedAt": "2026-09-09T00:00:00Z"
+    },
+    {
+      "text": "Stock Market Today (Sept. 9, 2026): Dow, Russell 2000 fall as Brent passes $101/bbl; Treasury yields set new 52wk highs",
+      "headline": "Stock Market Today (Sept. 9, 2026): Dow, Russell 2000 fall as Brent passes $101/bbl; Treasury yields set new 52wk highs",
+      "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-sept-09-2026",
+      "summary": "S&P 500 lukkede ned 0,48 procent, mens den amerikanske 10-årige rente ramte 52-ugers højder og VIX steg 5,47 procent.",
+      "publisher": "TheStreet",
+      "section": "Økonomi",
+      "publishedAt": "2026-09-09T00:00:00Z"
+    },
+    {
+      "text": "Devil's Arrows: Ancient builders hauled 55,000-pound stones 11 miles for Britain's tallest stone row",
+      "headline": "Devil's Arrows: Ancient builders hauled 55,000-pound stones 11 miles for Britain's tallest stone row",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005152.htm",
+      "summary": "Curtin University og University of York sporer stenene til et brud ved Brimham Rocks, mindst 18 kilometer væk.",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-09T00:00:00Z"
+    },
+    {
+      "text": "'Parachute science' is failing the tropics, home to more than 80% of insect species",
+      "headline": "'Parachute science' is failing the tropics, home to more than 80% of insect species",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005145.htm",
+      "summary": "Monash University-forskere finder, at udenlandsk ledede ekspeditioner dominerer tropisk insektforskning og foreslår en global ramme, der inddrager lokale forskere.",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-09T00:00:00Z"
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "toppen-rykker-frem",
+    "title": "Toppen rykker frem",
+    "thesis": "FN's befolkningstop rykker tidligere og lavere for hver prognose: intet top før 2100, så 2086/10,4 mia., så 2084/10,3 mia.",
+    "horizon": "FN's næste World Population Prospects",
+    "body": [
+      "Bevægelsen går mod IHME's 2064-skøn på 9,7 mia., ikke væk fra det."
+    ],
+    "uncertainty": "Tesen svækkes, hvis FN's næste World Population Prospects-revision fastholder eller udskyder toppen til efter 2084 og 10,3 mia., i stedet for at rykke den nærmere IHME's 2064-skøn. Kontrolleres i FN Population Divisions egen publikation, når den udkommer.",
+    "topics": [
+      "demografi",
+      "videnskabsteori"
+    ],
+    "claims": [
+      {
+        "text": "FN's World Population Prospects er gået fra intet befolkningstop før 2100 i 2019-revisionen til top i 2086 ved 10,4 mia. i 2022-revisionen til top i 2084 ved 10,3 mia. i 2024-revisionen",
+        "sourceUrls": [
+          "https://www.un.org/development/desa/pd/world-population-prospects-2024",
+          "https://www.un.org/development/desa/publications/world-population-prospects-2019-highlights.html",
+          "https://ourworldindata.org/un-population-2024-revision"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "text": "IHME/Lancet-modellen fra 2020 forudsagde et globalt befolkningstop i 2064 ved 9,7 mia.",
+        "sourceUrls": [
+          "https://www.healthdata.org/news-events/newsroom/news-releases/lancet-world-population-likely-shrink-after-mid-century"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "World Population Prospects 2024",
+        "publisher": "UN DESA Population Division",
+        "url": "https://www.un.org/development/desa/pd/world-population-prospects-2024",
+        "publishedAt": "2024-07-11T00:00:00Z",
+        "kind": "primary"
+      },
+      {
+        "title": "World Population Prospects 2019: Highlights",
+        "publisher": "UN DESA",
+        "url": "https://www.un.org/development/desa/publications/world-population-prospects-2019-highlights.html",
+        "publishedAt": "2019-06-17T00:00:00Z",
+        "kind": "primary"
+      },
+      {
+        "title": "Peak global population and other key findings from the 2024 UN World Population Prospects",
+        "publisher": "Our World in Data",
+        "url": "https://ourworldindata.org/un-population-2024-revision",
+        "publishedAt": "2024-07-12T00:00:00Z",
+        "kind": "analysis"
+      },
+      {
+        "title": "The Lancet: World population likely to shrink after mid-century, forecasting major shifts in global population and economic power",
+        "publisher": "Institute for Health Metrics and Evaluation",
+        "url": "https://www.healthdata.org/news-events/newsroom/news-releases/lancet-world-population-likely-shrink-after-mid-century",
+        "publishedAt": "2020-07-14T00:00:00Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-yale-rawlsian-social-contract",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "forelæsning",
+      "status": "available",
+      "title": "PLSC 118, Lecture 16: The Rawlsian Social Contract",
+      "creator": "Steven B. Smith",
+      "provider": "Open Yale Courses",
+      "url": "https://oyc.yale.edu/political-science/plsc-118/lecture-16",
+      "availability": "Gratis, ingen regionsbegrænsning, officiel Yale-platform",
+      "commitment": "Ca. 50 minutter",
+      "description": "Yale-professor Steven B. Smiths forelæsning gennemgår Rawls' 'slør af uvidenhed' og den oprindelige position - den analytiske politiske filosofis mest indflydelsesrige argument for retfærdighed som fairness, fremlagt som primærstof, ikke et referat.",
+      "rationale": "Analytisk filosofi og Rawls optræder i ingen af hans 74 læste titler, og på trods af 58 sete filosofiforelæsninger har brief'en aldrig anbefalet én. Denne forelæsning lukker begge huller og giver ham maskinen bag et argument for omfordeling, han aldrig har mødt på egne præmisser.",
+      "topics": [
+        "politik",
+        "filosofi",
+        "retfærdighed"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/John_Rawls_%281971_photo_portrait%29.jpg",
+        "credit": "Kilde: Wikimedia Commons",
+        "alt": "Sort-hvidt portræt af filosoffen John Rawls, 1971",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_Rawls_(1971_photo_portrait).jpg"
+      }
+    },
+    {
+      "id": "rec-aeon-liberal-socialism",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "The case for liberal socialism in the 21st century",
+      "provider": "Aeon Essays",
+      "url": "https://aeon.co/essays/the-case-for-liberal-socialism-in-the-21st-century",
+      "topics": [
+        "politik",
+        "filosofi",
+        "økonomi"
+      ],
+      "isFeatured": false,
+      "note": "Modvægt til Cosmos-essayet nedenfor: Rawls' egen logik ført til liberal socialisme, ikke kun ejendomsejende demokrati - samme dags læsning fra den modsatte politiske retning."
+    },
+    {
+      "id": "rec-cosmos-swarms-sand-gods",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "Of Swarms and Sand Gods",
+      "creator": "Séb Krier",
+      "provider": "Cosmos Institute",
+      "url": "https://blog.cosmos-institute.org/p/of-swarms-and-sand-gods",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt"
+      ],
+      "isFeatured": false,
+      "note": "Hvorfor AI-sikkerhedstænkning har antaget én magtfuld aktør, og hvad der ændrer sig, når det i stedet bliver en sværm - læst som argument fra et klassisk liberalt institut, ikke som facit."
+    },
+    {
+      "id": "rec-dwarkesh-ajeya-cotra",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "available",
+      "title": "Ajeya Cotra on loss-of-control risk",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/podcast/archive",
+      "commitment": "Ca. 2 timer",
+      "topics": [
+        "ai",
+        "ai-sikkerhed"
+      ],
+      "isFeatured": false,
+      "note": "METR-forskerens ræsonnement om, hvordan kontroltab med AI-systemer konkret kunne se ud - to timer, men fra en af de skarpeste stemmer i truslen-modellering."
+    },
+    {
+      "id": "rec-sequoia-two-ais",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "available",
+      "title": "AI in 2026: A Tale of Two AIs",
+      "provider": "Sequoia Capital",
+      "url": "https://sequoiacap.com/article/ai-in-2026-the-tale-of-two-ais/",
+      "topics": [
+        "ai",
+        "venturekapital"
+      ],
+      "isFeatured": false,
+      "note": "En af verdens største venturefonde sætter ord på splittelsen mellem AI-hype og AI-indtjening - direkte brugbart for hans eget arbejde med investeringscases."
+    },
+    {
+      "id": "rec-grok-bot-try",
+      "tier": "short",
+      "mode": "try",
+      "kind": "produkt",
+      "status": "new",
+      "title": "Grok Bot",
+      "provider": "xAI",
+      "url": "https://x.ai/",
+      "availability": "Kræver xAI/X-konto; gratis niveau begrænset",
+      "commitment": "Ca. 15 minutter",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false,
+      "note": "Denne uges nye agent-produkt er hurtigere afprøvet end læst om - vedvarende bots, delte chats og rutiner, der starter uden prompt."
+    },
+    {
+      "id": "rec-nist-sp1353-doc",
+      "tier": "short",
+      "mode": "read",
+      "kind": "primærdokument",
+      "status": "available",
+      "title": "NIST SP 1353 (initial public draft)",
+      "provider": "NIST",
+      "url": "https://www.nist.gov/",
+      "availability": "Gratis, offentligt høringsudkast",
+      "commitment": "Ca. 30 minutter",
+      "topics": [
+        "cyber",
+        "ai",
+        "regulering"
+      ],
+      "isFeatured": false,
+      "note": "Selve vejledningen bag dagens NIST-signal, for den der vil have kilden frem for referatet."
+    },
+    {
+      "id": "rec-devils-arrows-read",
+      "tier": "short",
+      "mode": "read",
+      "kind": "artikel",
+      "status": "new",
+      "title": "Devil's Arrows: Ancient builders hauled 55,000-pound stones 11 miles for Britain's tallest stone row",
+      "provider": "ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260909005152.htm",
+      "topics": [
+        "arkæologi",
+        "historie"
+      ],
+      "isFeatured": false,
+      "note": "Ren serendipitet: hverken AI, Danmark eller geopolitik - bare et solidt stykke arkæologisk detektivarbejde."
+    }
+  ],
+  "quality": {
+    "sourceQuality": 78,
+    "verificationConfidence": 75,
+    "outsideProfileShare": 43,
+    "portfolioDiversity": 80
+  }
+}
