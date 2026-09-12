@@ -202,6 +202,20 @@
           "recordedOn": "2026-08-10"
         }
       ]
+    },
+    {
+      "indicator": "brent-crude-oil-price",
+      "label": "Brent-olie, ICE-slutkurs",
+      "unit": "USD/tønde",
+      "note": "Startet 2026-09-12: Hormuz/Rødehavskrisen har nu kørt i mindst seks på hinanden følgende udgivelser, og olieprisen er tallet der viser om krisen rent faktisk flytter markedet frem for kun overskrifterne.",
+      "readings": [
+        {
+          "value": "104,61",
+          "asOf": "11. september 2026",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html",
+          "recordedOn": "2026-09-12"
+        }
+      ]
     }
   ]
 }

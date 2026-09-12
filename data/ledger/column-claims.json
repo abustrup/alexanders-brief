@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-11",
-      "slug": "markedet-foran-maalingen",
-      "claim": "Regulerede forudsigelsesmarkeder som Kalshi overtager ikke meningsmålingens plads som den primære amerikanske valgprognose før præsidentvalget i november 2028, fordi den juridiske strid om, hvad kontrakterne overhovedet er (råvare, swap eller gambling), ikke er afgjort før da.",
-      "horizon": "Præsidentvalget i november 2028",
-      "falsifier": "Højesteret eller Kongressen afklarer markedernes juridiske status klart før 2028, og store amerikanske medier begynder at lede valgdækningen med markedsoddsene frem for målingsgennemsnittet.",
+      "date": "2026-09-12",
+      "slug": "wattet-uden-opgaven",
+      "claim": "Effekttallet fra Cortical Labs' biologiske serverrack i Singapore (25 W pr. enhed, 800-1.000 W for hele racket) beviser intet om AI-effektivitet, fordi ingen uafhængig, opgavebaseret ydelsesbenchmark er offentliggjort mod det tal.",
+      "horizon": "Når NUS Medicine, DayOne eller en uafhængig part offentliggør en opgavebaseret benchmark for racket",
+      "falsifier": "En uafhængig, opgavebaseret benchmark viser, at racket løser en defineret opgave på niveau med en tilsvarende siliciumbaseret opstilling ved det opgivne effektforbrug.",
       "status": "open"
     }
   ]
