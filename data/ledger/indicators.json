@@ -204,16 +204,22 @@
       ]
     },
     {
-      "indicator": "brent-crude-oil-price",
-      "label": "Brent-olie, ICE-slutkurs",
-      "unit": "USD/tønde",
-      "note": "Startet 2026-09-12: Hormuz/Rødehavskrisen har nu kørt i mindst seks på hinanden følgende udgivelser, og olieprisen er tallet der viser om krisen rent faktisk flytter markedet frem for kun overskrifterne.",
+      "indicator": "dk-nationalbank-repo-rate",
+      "label": "Danmarks Nationalbanks foliorente",
+      "unit": "pct.",
+      "note": "Nationalbankens ledende rente, sat for at fastholde kronens fastkurs mod euroen - ikke et inflationsmål. Bevæger sig normalt i takt med ECB.",
       "readings": [
         {
-          "value": "104,61",
-          "asOf": "11. september 2026",
-          "sourceUrl": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html",
-          "recordedOn": "2026-09-12"
+          "value": "1,85",
+          "asOf": "august 2026",
+          "sourceUrl": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet",
+          "recordedOn": "2026-09-13"
+        },
+        {
+          "value": "2,10",
+          "asOf": "september 2026",
+          "sourceUrl": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet",
+          "recordedOn": "2026-09-13"
         }
       ]
     }

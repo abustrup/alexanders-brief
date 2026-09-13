@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-12",
-      "slug": "wattet-uden-opgaven",
-      "claim": "Effekttallet fra Cortical Labs' biologiske serverrack i Singapore (25 W pr. enhed, 800-1.000 W for hele racket) beviser intet om AI-effektivitet, fordi ingen uafhængig, opgavebaseret ydelsesbenchmark er offentliggjort mod det tal.",
-      "horizon": "Når NUS Medicine, DayOne eller en uafhængig part offentliggør en opgavebaseret benchmark for racket",
-      "falsifier": "En uafhængig, opgavebaseret benchmark viser, at racket løser en defineret opgave på niveau med en tilsvarende siliciumbaseret opstilling ved det opgivne effektforbrug.",
+      "date": "2026-09-13",
+      "slug": "broedrenes-fald",
+      "claim": "IQ-faldet i Norge (Flynn-effektens vending) er miljøbetinget snarere end dysgenisk/genetisk, fordi det ses inden for familier - mellem brødre født på forskellige tidspunkter, ikke kun mellem generationer.",
+      "horizon": "2030'ernes norske værnepligtsregisterdata",
+      "falsifier": "Faldet fortsætter eller forværres inden for de samme familier gennem 2030'erne, uafhængigt af om formodede miljøårsager (fx skærmtid, søvnmønstre) ændrer sig. Kontrolleres i opfølgende analyser af det norske værnepligtsregister (jf. Bratsberg & Rogeberg, PNAS 2018).",
       "status": "open"
     }
   ]
