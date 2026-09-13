@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-20260913",
+  "date": "2026-09-13",
+  "generatedAt": "2026-09-13T06:30:00.000Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief",
+  "dek": "Krigen bevæger sig fra Rødehavet ind i Saudi-Arabien, en AI løser (næsten) et Millennium-problem, og Nationalbanken hæver renten.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-houthi-saudi-mainland-strikes-20260913",
+      "eventKey": "houthi-saudi-mainland-strikes-2026-09",
+      "materialFacts": [
+        "Houthi-projektil rammer Jazan-regionen i Saudi-Arabien direkte og sårer to civile",
+        "Houthierne har erobret hele Yemens Rødehavskyst, hvilket udløste et FN-krisemøde",
+        "Et skib blev ramt af et ukendt projektil i Hormuz-strædet samme dag"
+      ],
+      "section": "Mellemøsten",
+      "headline": "Houthi projectile wounds two, damages mosque in Jazan region, Saudi says",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/13/houthi-projectile-wounds-two-damages-mosque-in-jazan-region-saudi-says",
+      "subheadline": "En houthi-raket rammer nu saudisk område direkte, mens Sikkerhedsrådet advarer om krigens nye og farligere fase",
+      "body": [
+        "Et houthi-projektil ramte lørdag landsbyen al-Tuwal i Saudi-Arabiens Jizan-region og sårede to civile samt beskadigede en moské. Houthierne hævder, målet var en militærbase i Sharurah. Angrebet kommer to dage efter, at houthi-raketter mod fire saudiske byer sårede 73 mennesker.",
+        "Houthierne har desuden erobret hele Yemens Rødehavskyst, herunder Mokka, hvilket fik FN's Sikkerhedsråd til at holde et krisemøde og advare om krigens \"nye og farligere fase\". UKMTO meldte samme dag om et skib ramt af et ukendt projektil i Hormuz-strædet."
+      ],
+      "whyItMatters": "For første gang rammer krigen saudisk territorium direkte og ikke kun skibsfarten i Det Røde Hav, hvilket øger risikoen for et saudisk militærsvar.",
+      "analysis": "To af verdens vigtigste olie-flaskehalse – Bab-el-Mandeb og Hormuz – er nu begge i spil samtidig, hvilket forklarer uroen i energimarkederne.",
+      "counterpoint": "Houthiernes egne målangivelser er ikke uafhængigt bekræftet, og det er uklart, om Hormuz-hændelsen er koblet til samme aktør.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten",
+        "energi"
+      ],
+      "entities": [
+        "Houthi-bevægelsen",
+        "Saudi-Arabien",
+        "Yemen",
+        "FN's Sikkerhedsråd"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 62,
+        "novelty": 58,
+        "sourceQuality": 82,
+        "personalRelevance": 40,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "A Houthi projectile struck al-Tuwal in Saudi Arabia's Jazan region on 13 September, wounding two people and damaging a mosque and several buildings.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/13/houthi-projectile-wounds-two-damages-mosque-in-jazan-region-saudi-says"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The Houthis have separately seized the whole of Yemen's Red Sea coastline, including the port of Mocha, prompting a UN Security Council emergency session and a warning of a new and more dangerous phase of the war.",
+          "sourceUrls": [
+            "https://www.tribuneindia.com/news/bab-el-mandeb/houthis-continue-strike-at-saudi-arabian-border-tighten-grip-on-oil-route"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "UKMTO reported a vessel struck by an unknown projectile while transiting the Strait of Hormuz on 13 September.",
+          "sourceUrls": [
+            "https://www.timesofisrael.com/liveblog-september-13-2026/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Houthi projectile wounds two, damages mosque in Jazan region, Saudi says",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/houthi-projectile-wounds-two-damages-mosque-in-jazan-region-saudi-says",
+          "publishedAt": "2026-09-13T06:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Houthis claim attack on Saudi Arabia's Sharurah base",
+          "publisher": "Middle East Eye",
+          "url": "https://www.middleeasteye.net/live-blog/live-blog-update/houthis-claim-attack-saudi-arabias-sharurah-base",
+          "publishedAt": "2026-09-13T05:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Houthis continue strike at Saudi Arabian border, tighten grip on oil route",
+          "publisher": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/bab-el-mandeb/houthis-continue-strike-at-saudi-arabian-border-tighten-grip-on-oil-route",
+          "publishedAt": "2026-09-12T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Liveblog September 13, 2026",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-september-13-2026/",
+          "publishedAt": "2026-09-13T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa5dc01-1789254657.jpg?resize=1200%2C675",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Houthi projectile wounds two, damages mosque in Jazan region, Saudi says",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/13/houthi-projectile-wounds-two-damages-mosque-in-jazan-region-saudi-says"
+      }
+    },
+    {
+      "id": "story-openai-navier-stokes-20260913",
+      "eventKey": "openai-navier-stokes-proof-2026",
+      "materialFacts": [
+        "OpenAI-agentsystem beviser, at Navier-Stokes-ligningerne kan udvikle en singularitet",
+        "OpenAI afviser selv at have løst det klassiske Millennium-problem",
+        "NYU-matematiker anklager OpenAI for at bruge hans upublicerede forskning"
+      ],
+      "section": "Matematik og AI",
+      "headline": "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+      "primarySourceUrl": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+      "subheadline": "OpenAI offentliggør et AI-genereret bevis om Navier-Stokes-ligningerne, men afviser selv at have løst det klassiske Millennium-problem",
+      "body": [
+        "Et system af AI-agenter hos OpenAI – fra omkring 100 til 10.000 samtidige agenter over 88 timer – har offentliggjort et bevis for, at en Navier-Stokes-strømning i tre dimensioner kan udvikle en singularitet i endelig tid, med en maskinkontrolleret Lean-formalisering.",
+        "OpenAI understreger, at resultatet ikke løser Clay-instituttets klassiske formulering. NYU-matematikeren Tristan Buckmaster anklagede firmaet for at trække på hans upublicerede forskning; OpenAI svarer, at beviset var færdigt 6. september, og at Buckmasters arbejde gælder et andet problem."
+      ],
+      "whyItMatters": "Det er et konkret eksempel på, at AI-systemer selvstændigt kan producere ny, verificerbar matematik – men sagen viser også, hvor uklare kreditnormer bliver tæt på upubliceret forskning.",
+      "analysis": "Metoden er det interessante: opgaven blev løst ved massiv agent-koordinering, ikke ét modelkald – det peger på, hvor orkestrering skaber værdi.",
+      "topics": [
+        "ai",
+        "matematik",
+        "videnskab"
+      ],
+      "entities": [
+        "OpenAI",
+        "Tristan Buckmaster",
+        "Clay Mathematics Institute"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 60,
+        "novelty": 85,
+        "sourceQuality": 80,
+        "personalRelevance": 78,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "OpenAI published a proof, produced by a system of coordinating agents over about 88 hours, showing a smooth, force-driven three-dimensional Navier-Stokes flow can develop a singularity in finite time.",
+          "sourceUrls": [
+            "https://openai.com/index/navier-stokes-solution/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "NYU mathematician Tristan Buckmaster publicly accused OpenAI of drawing on his private research; OpenAI says it completed and verified its own proof on 6 September before contacting him, and that his work concerns the related but distinct forced Euler equations.",
+          "sourceUrls": [
+            "https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
+          "publisher": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "On the Navier-Stokes Millennium Prize Problem",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "OpenAI's historic math solution overshadowed by credit controversy",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/08/openai-math-solution-navier-stokes-credit",
+          "publishedAt": "2026-09-08T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Laminar_and_turbulent_flow.png/1920px-Laminar_and_turbulent_flow.png",
+        "credit": "Athel Cornish-Bowden, CC BY-SA 4.0",
+        "alt": "Illustration af forskellen mellem laminar og turbulent strømning, det fysiske fænomen Navier-Stokes-ligningerne beskriver",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Laminar_and_turbulent_flow.png"
+      }
+    },
+    {
+      "id": "story-positron-ai-series-c-20260913",
+      "eventKey": "positron-ai-series-c-2026",
+      "materialFacts": [
+        "Positron AI rejser 875 mio. dollar til en værdiansættelse på 5 mia. dollar",
+        "Asimov-chippen bruger commodity-hukommelse frem for dyr HBM",
+        "Pengene finansierer et testdatacenter og TSMC-produktion i 2027"
+      ],
+      "section": "Venturekapital",
+      "headline": "Positron AI Raises $875 Million at a $5 Billion Valuation to Bring Its Next-Generation Inference Silicon to Market",
+      "primarySourceUrl": "https://www.prnewswire.com/news-releases/positron-ai-raises-875-million-at-a-5-billion-valuation-to-bring-its-next-generation-inference-silicon-to-market-302874601.html",
+      "subheadline": "Chipselskabet satser på billige hukommelseschips frem for dyr HBM for at gøre AI-inferens billigere end Nvidias",
+      "body": [
+        "Positron AI har rejst 875 millioner dollar – en Series C på 375 millioner ved en værdiansættelse på 3,5 milliarder før pengene plus op til 500 millioner i en C-1-runde – og når dermed en samlet værdiansættelse på 5 milliarder dollar.",
+        "Selskabets kommende chip, Asimov, bruger op til 2.304 GB almindeligt LPDDR5X-hukommelse per chip frem for dyr HBM-hukommelse. Pengene finansierer et testdatacenter og produktion hos TSMC med sigte på andet halvår 2027."
+      ],
+      "whyItMatters": "Runden er et af de klareste tegn på, at investorer nu ser inferensomkostninger – ikke kun træningskompute – som det næste store investeringstema i AI-infrastruktur.",
+      "analysis": "Blandt investorerne er Dylan Patels SemiAnalysis Capital og Jim Clark, medstifter af Silicon Graphics – et signal om, at erfarne investorer satser på hukommelsesbåndbredde som næste flaskehals.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "halvledere"
+      ],
+      "entities": [
+        "Positron AI",
+        "Nvidia",
+        "TSMC"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 70,
+        "novelty": 65,
+        "sourceQuality": 70,
+        "personalRelevance": 88,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Positron AI raised $875M ($375M Series C at $3.5B pre-money plus up to $500M Series C-1), reaching a $5B post-money valuation.",
+          "sourceUrls": [
+            "https://www.prnewswire.com/news-releases/positron-ai-raises-875-million-at-a-5-billion-valuation-to-bring-its-next-generation-inference-silicon-to-market-302874601.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Positron's Asimov chip uses 288GB-2,304GB of commodity LPDDR5X memory per chip rather than HBM.",
+          "sourceUrls": [
+            "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Positron AI Raises $875 Million at a $5 Billion Valuation to Bring Its Next-Generation Inference Silicon to Market",
+          "publisher": "PR Newswire",
+          "url": "https://www.prnewswire.com/news-releases/positron-ai-raises-875-million-at-a-5-billion-valuation-to-bring-its-next-generation-inference-silicon-to-market-302874601.html",
+          "publishedAt": "2026-09-10T13:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Chipmaker Positron nabs $875M to speed up inference with consumer-grade memory",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/10/chipmaker-positron-nabs-875m-to-speed-up-inference-with-consumer-grade-memory/",
+          "publishedAt": "2026-09-10T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-ukraine-naval-drone-battle-20260913",
+      "eventKey": "ukraine-first-naval-drone-battle-2026",
+      "materialFacts": [
+        "Ukrainsk sødrone ødelægger russisk sødrone i det, Ukraine kalder den første drone-mod-drone-søkamp",
+        "Putin advarer samme dag Europa mod at sende tropper til Ukraine"
+      ],
+      "section": "Forsvar og Ukraine",
+      "headline": "'First-ever battle' — Ukrainian naval drone destroys Russian unmanned boat in Black Sea, Navy says",
+      "primarySourceUrl": "https://kyivindependent.com/first-ever-battle-ukrainian-naval-drone-destroys-russian-unmanned-boat-in-black-sea-navy-says/",
+      "subheadline": "Ukraine melder om verdens første kamp mellem to ubemandede søfartøjer, mens Putin advarer Europa mod at sende tropper til Ukraine",
+      "body": [
+        "En ukrainsk Sargan-3000-overfladedrone ødelagde fredag en russisk sødrone i Sortehavet i det, Ukraines flåde kalder verdens første kamp mellem to ubemandede søfartøjer. Operationen blev koordineret med efterretningstjenesten HUR.",
+        "Samme dag advarede Putin fra BRICS-topmødet i Delhi om, at europæisk troppeudsendelse til Ukraine \"vil betyde krig med Rusland\" – mens flere europæiske lande har erklæret vilje til en fredsbevarende styrke efter en fredsaftale."
+      ],
+      "whyItMatters": "Drone-mod-drone-kampen viser, hvor hurtigt ubemandet krigsførelse udvikler sig til søs, mens Putins udtalelse lægger en grænse for europæisk militær involvering.",
+      "analysis": "Jo mere krigen automatiseres og trækker ud, desto mere presserende bliver spørgsmålet om, hvem der reelt garanterer en fremtidig våbenhvile.",
+      "topics": [
+        "forsvar",
+        "geopolitik",
+        "ukraine"
+      ],
+      "entities": [
+        "Ukraines flåde",
+        "Rusland",
+        "Vladimir Putin"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 80,
+        "sourceQuality": 72,
+        "personalRelevance": 42,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "A Ukrainian Sargan-3000 unmanned surface vessel destroyed a Russian naval drone in the Black Sea on 12 September, in what Ukraine's Navy called the first-ever battle between unmanned naval boats.",
+          "sourceUrls": [
+            "https://kyivindependent.com/first-ever-battle-ukrainian-naval-drone-destroys-russian-unmanned-boat-in-black-sea-navy-says/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "At the BRICS summit in Delhi on 12 September, Vladimir Putin said European deployment of troops to Ukraine 'means a war with Russia'.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/putin-warns-europe-sending-troops-ukraine/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'First-ever battle' — Ukrainian naval drone destroys Russian unmanned boat in Black Sea, Navy says",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/first-ever-battle-ukrainian-naval-drone-destroys-russian-unmanned-boat-in-black-sea-navy-says/",
+          "publishedAt": "2026-09-12T21:14:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Putin warns Europe against sending troops to Ukraine: 'That means a war with Russia'",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/putin-warns-europe-sending-troops-ukraine/",
+          "publishedAt": "2026-09-12T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://assets.kyivindependent.com/content/images/2026/09/navy2_20260912-180746.png",
+        "credit": "Kilde: The Kyiv Independent",
+        "alt": "'First-ever battle' — Ukrainian naval drone destroys Russian unmanned boat in Black Sea, Navy says",
+        "sourceUrl": "https://kyivindependent.com/first-ever-battle-ukrainian-naval-drone-destroys-russian-unmanned-boat-in-black-sea-navy-says/"
+      }
+    },
+    {
+      "id": "story-uk-germany-deep-strike-20260913",
+      "eventKey": "uk-germany-deep-precision-strike-2026",
+      "materialFacts": [
+        "Storbritannien afsætter 770 mio. pund til fælles britisk-tysk langtrækkende våbenprogram",
+        "Programmet skal ramme mål over 2.000 km væk fra begyndelsen af 2030'erne"
+      ],
+      "section": "Forsvar og Europa",
+      "headline": "Britain invests £770 million in 2,000-km cruise and hypersonic strike weapons with Germany to strengthen NATO deterrence",
+      "primarySourceUrl": "https://defence-industry.eu/britain-invests-770-million-in-2000-km-cruise-and-hypersonic-strike-weapons-with-germany-to-strengthen-nato-deterrence/",
+      "subheadline": "Storbritanniens forsvarsinvesteringsplan sætter penge bag et fælles britisk-tysk våbenprogram med rækkevidde over 2.000 kilometer",
+      "body": [
+        "Storbritanniens forsvarsinvesteringsplan for 2026 afsætter 770 millioner pund til et fælles program med Tyskland om jordbaserede krydsermissiler og hypersoniske våben med rækkevidde over 2.000 kilometer, klar i begyndelsen af 2030'erne.",
+        "Programmet bygger på Trinity House-aftalen fra 2024 og indgår i en bredere NATO-europæisk satsning på at bruge omkring 50 milliarder dollar over ti år på præcisionsvåben med rækkevidde fra 300 til 2.000 kilometer."
+      ],
+      "whyItMatters": "Det er et konkret, prissat skridt væk fra afhængighed af amerikansk langtrækkende våbenteknologi, og det viser, hvor meget af Europas oprustning nu handler om egenproduceret slagkraft.",
+      "analysis": "Beløbet er kun åbningsbevillingen i et program, der ventes at vokse markant – et mønster, der går igen i flere europæiske forsvarsbudgetter.",
+      "topics": [
+        "forsvar",
+        "geopolitik",
+        "europa"
+      ],
+      "entities": [
+        "Storbritannien",
+        "Tyskland",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 55,
+        "novelty": 52,
+        "sourceQuality": 78,
+        "personalRelevance": 45,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "The UK's 2026 Defence Investment Plan commits an initial £770 million to a joint UK-Germany programme for ground-launched cruise and hypersonic strike weapons with ranges exceeding 2,000km, targeted for service in the early 2030s.",
+          "sourceUrls": [
+            "https://assets.publishing.service.gov.uk/media/6a44e989167a99cf0018da38/The_Defence_Investment_Plan.pdf"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The programme builds on the October 2024 UK-Germany Trinity House Agreement and sits inside a wider NATO-European push to spend roughly $50bn over a decade on 300-2,000km precision-strike capability.",
+          "sourceUrls": [
+            "https://commonslibrary.parliament.uk/research-briefings/cbp-10935/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Defence Investment Plan: Equipping our forces, defending our future 2026",
+          "publisher": "UK Ministry of Defence",
+          "url": "https://assets.publishing.service.gov.uk/media/6a44e989167a99cf0018da38/The_Defence_Investment_Plan.pdf",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Britain invests £770 million in 2,000-km cruise and hypersonic strike weapons with Germany to strengthen NATO deterrence",
+          "publisher": "Defence Industry Europe",
+          "url": "https://defence-industry.eu/britain-invests-770-million-in-2000-km-cruise-and-hypersonic-strike-weapons-with-germany-to-strengthen-nato-deterrence/",
+          "publishedAt": "2026-09-12T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Defence Investment Plan: Key decisions",
+          "publisher": "House of Commons Library",
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10935/",
+          "publishedAt": "2026-09-11T00:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://defence-industry.eu/wp-content/uploads/2026/03/uk-and-germany-advance-deep-precision-strike-missile-programme-aimed-at-strengthening-long-range-deterrence-capabilities.jpg",
+        "credit": "Kilde: Defence Industry Europe",
+        "alt": "The United Kingdom and Germany have taken further steps to advance the joint development of a Deep Precision Strike missile system capable of travelling more than 2",
+        "sourceUrl": "https://defence-industry.eu/britain-invests-770-million-in-2000-km-cruise-and-hypersonic-strike-weapons-with-germany-to-strengthen-nato-deterrence/"
+      }
+    },
+    {
+      "id": "story-dk-ecb-rate-hike-20260913",
+      "eventKey": "dk-ecb-rate-hike-2026-09",
+      "materialFacts": [
+        "ECB hæver renten til 2,50 procent",
+        "Nationalbanken hæver foliorenten fra 1,85 til 2,10 procent",
+        "Boligmarkedet udvikler sig forskelligt i og uden for København"
+      ],
+      "section": "Økonomi",
+      "headline": "Renten bliver sat op i Danmark",
+      "primarySourceUrl": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet",
+      "subheadline": "Nationalbanken følger ECB og hæver renten for at fastholde kronens fastkurs, mens boligmarkedet udvikler sig forskelligt i og uden for København",
+      "body": [
+        "Den Europæiske Centralbank hævede sin ledende rente med 0,25 procentpoint til 2,50 procent. Nationalbanken fulgte med en tilsvarende forhøjelse af foliorenten fra 1,85 til 2,10 procent for at fastholde kronens faste kurs over for euroen.",
+        "Danmarks inflation lå i august på 2,0 procent, under ECB's mål – men Nationalbanken styrer efter kronekursen, ikke dansk inflation. ECB venter selv eurozone-inflation på 3,0 procent i 2026, faldende til 2,1 procent i 2028."
+      ],
+      "whyItMatters": "Renten rammer boligejere direkte: lejlighedspriserne i København falder allerede, mens huspriserne uden for hovedstaden stiger – forhøjelsen kan forstærke denne todeling.",
+      "analysis": "At Danmark reelt ikke kan føre selvstændig pengepolitik, betyder, at næste rentebevægelse afgøres i Frankfurt – uanset hvad dansk inflation isoleret set kalder på.",
+      "topics": [
+        "danmark",
+        "økonomi",
+        "renter"
+      ],
+      "entities": [
+        "Danmarks Nationalbank",
+        "Den Europæiske Centralbank"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 72,
+        "novelty": 40,
+        "sourceQuality": 75,
+        "personalRelevance": 35,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "The ECB raised its main policy rate by 0.25 percentage points to 2.50%, and Danmarks Nationalbank followed with its own 0.25-point rise, taking the repo rate from 1.85% to 2.10%.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Denmark's August inflation stood at 2.0%; the ECB projects eurozone inflation at 3.0% (2026), 2.5% (2027) and 2.1% (2028).",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Renten bliver sat op i Danmark",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet",
+          "publishedAt": "2026-09-10T17:23:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Renewed global uncertainty and neutral monetary policy",
+          "publisher": "Danmarks Nationalbank",
+          "url": "https://www.nationalbanken.dk/en/news-and-knowledge/publications-and-speeches/analysis/2026/renewed-global-uncertainty-and-neutral-monetary-policy",
+          "publishedAt": "2026-03-26T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://cdn-free.tv2i.dk/e/d/i/editorial/9/1/3/91344bad-99ea-489a-8d07-cd2c199cd276?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCwzNzAsNzEwMiwzOTk1&s=d9d824e90653d896ad0d99754a8fd192",
+        "credit": "Kilde: TV 2",
+        "alt": "Renten bliver sat op i Danmark",
+        "sourceUrl": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet"
+      }
+    },
+    {
+      "id": "story-eu-iris2-satellites-20260913",
+      "eventKey": "eu-iris2-satellite-contracts-2026",
+      "materialFacts": [
+        "Airbus underskriver første IRIS²-produktionskontrakt med Eutelsat om 66 satellitter",
+        "Thales Alenia Space og Aerospacelab får kontrakter for over 5,4 mia. euro"
+      ],
+      "section": "Rummet og Europa",
+      "headline": "Von der Leyen sets out IRIS² expansion and private investment drive to reduce Europe's reliance on non-European satellite systems",
+      "primarySourceUrl": "https://defence-industry.eu/von-der-leyen-sets-out-iris%C2%B2-expansion-and-private-investment-drive-to-reduce-europes-reliance-on-non-european-satellite-systems/",
+      "subheadline": "Store kontrakter til Airbus, Thales Alenia Space og Aerospacelab skal gøre EU mindre afhængig af ikke-europæiske satellitsystemer",
+      "body": [
+        "Airbus underskrev under rumtopmødet i Paris sin første produktionskontrakt med Eutelsat om at bygge 66 lavtbanesatellitter til det europæiske IRIS²-system, med levering fra 2029. EU-Kommissionen tildelte samtidig Thales Alenia Space og Aerospacelab kontrakter til resten af opbygningen.",
+        "Aerospacelab skal bygge 264 satellitplatforme i en aftale til 2,4 milliarder euro, og de samlede kontrakter overstiger 5,4 milliarder euro. Over 51 aftaler til cirka 20 milliarder euro blev underskrevet under topmødet."
+      ],
+      "whyItMatters": "IRIS² skal give EU sin egen sikre satellitforbindelse uafhængigt af udenlandske systemer – relevant for forsvar, myndigheder og teknologisk suverænitet.",
+      "analysis": "Kontraktsummerne viser, at EU's satellitambitioner nu bakkes af reel industriel kapacitet, ikke kun politiske hensigtserklæringer, selvom de første satellitter først leveres om tre år.",
+      "topics": [
+        "europa",
+        "teknologisk-suverænitet",
+        "rummet"
+      ],
+      "entities": [
+        "Airbus Defence and Space",
+        "Eutelsat",
+        "Thales Alenia Space",
+        "Aerospacelab",
+        "Ursula von der Leyen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 48,
+        "novelty": 55,
+        "sourceQuality": 68,
+        "personalRelevance": 40,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Airbus Defence and Space signed its first production contract with Eutelsat to build 66 LEO Ka-band satellites for IRIS²'s first layer, with delivery from 2029.",
+          "sourceUrls": [
+            "https://defensetalks.com/airbus-iris2-satellites-eutelsat/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Aerospacelab is building 264 satellite platforms in a €2.4bn deal, and the combined Thales Alenia Space/Aerospacelab contracts total more than €5.4bn.",
+          "sourceUrls": [
+            "https://europeanspaceflight.com/aerospacelab-thales-alenia-space-secure-e5-4-billion-in-iris2-contracts"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Von der Leyen sets out IRIS² expansion and private investment drive to reduce Europe's reliance on non-European satellite systems",
+          "publisher": "Defence Industry Europe",
+          "url": "https://defence-industry.eu/von-der-leyen-sets-out-iris%C2%B2-expansion-and-private-investment-drive-to-reduce-europes-reliance-on-non-european-satellite-systems/",
+          "publishedAt": "2026-09-10T09:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Aerospacelab, Thales Alenia Space Secure €5.4 Billion in IRIS2 Contracts",
+          "publisher": "European Spaceflight",
+          "url": "https://europeanspaceflight.com/aerospacelab-thales-alenia-space-secure-e5-4-billion-in-iris2-contracts",
+          "publishedAt": "2026-09-10T11:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Airbus starts the development of IRIS² satellites on behalf of Eutelsat",
+          "publisher": "Global Defense Insight",
+          "url": "https://defensetalks.com/airbus-iris2-satellites-eutelsat/",
+          "publishedAt": "2026-09-09T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://defence-industry.eu/wp-content/uploads/2026/09/Von-der-Leyen-sets-out-IRIS%C2%B2-expansion-and-private-investment-drive-to-reduce-Europes-reliance-on-non-European-satellite-systems.jpg",
+        "credit": "Kilde: Defence Industry Europe",
+        "alt": "European Commission President Ursula von der Leyen has set out plans to strengthen Europe’s autonomy in space through an expanded IRIS² satellite network and greater private investment. The strategy is intended to reduce",
+        "sourceUrl": "https://defence-industry.eu/von-der-leyen-sets-out-iris%C2%B2-expansion-and-private-investment-drive-to-reduce-europes-reliance-on-non-european-satellite-systems/"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "IBM Quantum Nighthawk r2—more circuits, faster",
+      "headline": "IBM Quantum Nighthawk r2—more circuits, faster",
+      "summary": "IBM's nye 120-qubit-processor kører over 100.000 kredsløb i sekundet, 25 gange hurtigere end Heron-flåden, og når et 2026-mål på forkant af tidsplanen.",
+      "publisher": "IBM",
+      "section": "Kvante",
+      "publishedAt": "2026-09-03T00:00:00.000Z",
+      "url": "https://www.ibm.com/quantum/blog/nighthawk-r2"
+    },
+    {
+      "text": "The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole",
+      "headline": "The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole",
+      "summary": "Nvidias andel af det kinesiske datacentermarked er faldet mod nul på nye H200-forsendelser, og Washington arbejder nu på at lukke smuthuller i eksportforbuddet.",
+      "publisher": "CNBC",
+      "section": "AI og halvledere",
+      "publishedAt": "2026-08-19T00:00:00.000Z",
+      "url": "https://www.cnbc.com/2026/08/19/china-ai-nvidia-chips-us-export-controls.html"
+    },
+    {
+      "text": "Startup Funding News Today, September 11, 2026: Kinetix AI, AIDIN Robotics, Enigmata, Furo & More",
+      "headline": "Startup Funding News Today, September 11, 2026: Kinetix AI, AIDIN Robotics, Enigmata, Furo & More",
+      "summary": "Buildcheck AI rejste 12 mio. dollar, Implicity 40 mio. dollar til AI-hjerteovervågning, og Enigmata 6,5 mio. dollar til AI, der arbejder på krypteret data.",
+      "publisher": "Tech Startups",
+      "section": "Venturekapital",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "url": "https://techstartups.com/2026/09/11/startup-funding-news-today-september-11-2026-kinetix-ai-aidin-robotics-enigmata-more/"
+    },
+    {
+      "text": "China & Taiwan Update, September 4, 2026",
+      "headline": "China & Taiwan Update, September 4, 2026",
+      "summary": "Kinesiske militærindtrængninger omkring Taiwan kører i 2026 på under det halve af 2024/2025-niveauet, tilbage mod niveauet før maj 2024.",
+      "publisher": "American Enterprise Institute",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-04T00:00:00.000Z",
+      "url": "https://www.aei.org/commentary/china-taiwan-update-september-4-2026/"
+    },
+    {
+      "text": "NASA Invites Media to Djibouti Artemis Accords Signing Ceremony",
+      "headline": "NASA Invites Media to Djibouti Artemis Accords Signing Ceremony",
+      "summary": "Djibouti underskriver 14. september Artemis-aftalerne og bliver dermed det 72. land, der tilslutter sig USA's rammeværk for civil rumfart.",
+      "publisher": "NASA",
+      "section": "Rummet",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "url": "https://www.nasa.gov/news-release/nasa-invites-media-to-djibouti-artemis-accords-signing-ceremony/"
+    },
+    {
+      "text": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
+      "headline": "NASA delays Crew-13 launch after leak found on SpaceX Dragon",
+      "summary": "En oxidator-lækage i Dragon-kapslens fremdriftssystem udsætter opsendelsen af Crew-13 til ISS med sandsynligvis to til fire uger.",
+      "publisher": "ScienceDaily",
+      "section": "Rummet",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901010705.htm"
+    },
+    {
+      "text": "Forskere skal til Svalbard: Grave efter danske hvalfangere risikerer at styrte i havet",
+      "headline": "Forskere skal til Svalbard: Grave efter danske hvalfangere risikerer at styrte i havet",
+      "summary": "Nationalmuseets forskere skal sikre DNA-spor fra 400 år gamle hvalfangergrave på Svalbard, før kysterosion og jordskred ødelægger dem.",
+      "publisher": "DR",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-12T00:00:00.000Z",
+      "url": "https://www.dr.dk/nyheder/viden/forskere-skal-til-svalbard-grave-efter-danske-hvalfangere-risikerer-styrte-i-havet"
+    },
+    {
+      "text": "Brazil's Flávio Bolsonaro investigated over payments from disgraced banker",
+      "headline": "Brazil's Flávio Bolsonaro investigated over payments from disgraced banker",
+      "summary": "Præsidentkandidaten Flávio Bolsonaro efterforskes for korruption og hvidvask efter at have modtaget cirka 12 mio. dollar fra en bankdirektør i Banco Master-skandalen.",
+      "publisher": "Associated Press",
+      "section": "Politik",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "url": "https://www.wsls.com/news/world/2026/09/11/brazils-flavio-bolsonaro-investigated-over-payments-from-disgraced-banker/"
+    },
+    {
+      "text": "Politi beslaglægger 1651 puffbars efter borgertip",
+      "headline": "Politi beslaglægger 1651 puffbars efter borgertip",
+      "summary": "En 59-årig mand er anholdt i Nordsjælland, efter politiet fandt 1.651 ulovlige engangs-e-cigaretter til en anslået gadeværdi af 150.000 kroner.",
+      "publisher": "Nordsjællands Politi",
+      "section": "Danmark",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "url": "https://politi.dk/politi-update/meddelelse?uri=15154926"
+    },
+    {
+      "text": "The 2026 elections",
+      "headline": "The 2026 elections",
+      "summary": "Sverige holder i dag valg til Riksdagens 349 mandater; de første foreløbige tal ventes omkring klokken 21 lokal tid, det endelige resultat i næste weekend.",
+      "publisher": "Sveriges Riksdag",
+      "section": "Politik",
+      "publishedAt": "2026-09-01T00:00:00.000Z",
+      "url": "https://www.riksdagen.se/en/news/the-2026-elections/"
+    }
+  ],
+  "keyNumber": {
+    "label": "Danmarks Nationalbanks foliorente",
+    "indicator": "dk-nationalbank-repo-rate",
+    "value": "2,10",
+    "unit": "%",
+    "asOf": "september 2026",
+    "previous": {
+      "value": "1,85",
+      "asOf": "august 2026",
+      "change": "+0,25 procentpoint"
+    },
+    "caption": "Nationalbanken fulgte ECB's renteforhøjelse for at fastholde kronens fastkurs over for euroen, ikke for at styre efter dansk inflation.",
+    "sourceUrl": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet",
+    "sourceTitle": "Ny renteudmelding og udvikling på boligmarkedet",
+    "series": [
+      {
+        "label": "august 2026",
+        "value": 1.85
+      },
+      {
+        "label": "september 2026",
+        "value": 2.1
+      }
+    ]
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "broedrenes-fald",
+    "title": "Brødrenes fald",
+    "thesis": "IQ-faldet i Norge ses også mellem brødre født få år fra hinanden - det udelukker en ren genetisk forklaring.",
+    "horizon": "2030'ernes registerdata",
+    "body": [
+      "Falder scoren kun, når én miljøfaktor forsvinder, styrkes sagen; falder den uanset, svækkes den."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis faldet fortsætter i de samme familier i 2030'ernes data, selv efter at den formodede miljøårsag - for eksempel skærmtid eller søvnmønstre - er fjernet eller ændret markant.",
+    "topics": [
+      "videnskab",
+      "demografi",
+      "adfærd"
+    ],
+    "claims": [
+      {
+        "text": "Norske værnepligtsdata for over 730.000 mænd født 1962-1991 viser, at gennemsnitlig IQ toppede omkring 1975-årgangen og siden er faldet - og faldet ses også mellem brødre i samme familie, født på forskellige tidspunkter, hvilket udelukker en ren genetisk eller indvandringsdrevet forklaring.",
+        "sourceUrls": [
+          "https://www.pnas.org/doi/10.1073/pnas.1718793115"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Flynn effect and its reversal are both environmentally caused",
+        "publisher": "PNAS",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1718793115",
+        "publishedAt": "2018-06-11T00:00:00.000Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-2026-09-13-iltb-guo",
+      "tier": "featured",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "timely",
+      "title": "Sarah Guo - Funding the Frontier",
+      "creator": "Patrick O'Shaughnessy med Sarah Guo",
+      "provider": "Invest Like the Best (Colossus)",
+      "url": "https://open.spotify.com/episode/5gaFauJ1A7cdfQS8mxCIAt",
+      "availability": "Tilgængelig globalt på Spotify og Apple Podcasts",
+      "commitment": "ca. 75 min",
+      "description": "Conviction-stifter Sarah Guo taler om, hvad de mennesker, der reelt bygger frontier-AI, tror på lige nu - om reindustrialisering kræver automatisering, og om et Jevons-paradoks, hvor softwareteknikeres tempoforøgelse breder sig til alle funktioner.",
+      "rationale": "Værd at bruge halvanden time på, fordi Guo beskriver investormekanikken bag dagens AI-infrastrukturnyheder ud fra samtaler med 250 AI-byggere - et mønster hun har set gentaget, ikke bare en holdning. Direkte brugbart for en, der selv vil positionere sig som AI-investor, ikke kun orientere sig.",
+      "topics": [
+        "ai",
+        "venturekapital"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Connie_Loizos%2C_Sarah_Guo%2C_Elad_Gil_onstage_at_2024_TechCrunch_StrictlyVC_event_%28cropped%29.jpg",
+        "credit": "Foto: Nicole \"Nico\" Henderson (Nico Hend Photography), CC BY 2.0",
+        "alt": "Sarah Guo (th.) på scenen sammen med Connie Loizos og Elad Gil ved et TechCrunch StrictlyVC-arrangement",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Connie_Loizos,_Sarah_Guo,_Elad_Gil_onstage_at_2024_TechCrunch_StrictlyVC_event_(cropped).jpg"
+      }
+    },
+    {
+      "id": "rec-2026-09-13-stratechery",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "timely",
+      "title": "Write Things Down",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "commitment": "ca. 12 min",
+      "note": "Thompson afviser, at GPT-6 Astra er AGI, og bruger skriftens rolle i menneskets vidensopbygning til at forklare, hvorfor kontinuerlig læring - ikke chatbot-dygtighed - er den rette målestok.",
+      "topics": [
+        "ai",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-09-13-philosophizethis-rawls",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "classic",
+      "title": "Episode #137 - John Rawls - A Theory of Justice",
+      "creator": "Stephen West",
+      "provider": "Philosophize This!",
+      "url": "https://www.philosophizethis.org/podcast/episode-137-john-rawls-a-theory-of-justice",
+      "commitment": "ca. 35 min",
+      "note": "Gennemgår Rawls' slør af uvidenhed og forskelsprincippet - fordelingsretfærdighed er fuldstændig fraværende fra hele læselisten og kan reelt flytte en holdning til ulighed.",
+      "topics": [
+        "filosofi",
+        "politik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-09-13-openai-paper",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Forskningsartikel",
+      "status": "new",
+      "title": "On the Navier-Stokes Millennium Prize Problem",
+      "creator": "OpenAI",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "commitment": "ca. 25 min",
+      "note": "Selve beviset og Lean-formaliseringen bag dagens nyhed - for den, der vil forbi kreditstriden og se, hvad 10.000 samarbejdende agenter faktisk producerede.",
+      "topics": [
+        "ai",
+        "matematik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-09-13-cosmos-grantees",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Programannoncering",
+      "status": "timely",
+      "title": "Announcing 80 New Cosmos Grantees",
+      "creator": "Cosmos Institute",
+      "provider": "Cosmos Institute",
+      "url": "https://blog.cosmos-institute.org/p/announcing-80-new-cosmos-grantees",
+      "commitment": "ca. 10 min",
+      "note": "Instituttets hidtil største bevillingsrunde, fra bærbar AI-hukommelsesteknologi til et benchmark bygget på tænkning om maskiner og autonomi fra før 1940.",
+      "topics": [
+        "ai",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-09-13-the-bride",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Film",
+      "status": "available",
+      "title": "The Bride!",
+      "creator": "Maggie Gyllenhaal",
+      "provider": "HBO Max",
+      "url": "https://en.wikipedia.org/wiki/The_Bride!",
+      "availability": "Streaming på HBO Max (regional tilgængelighed kan variere)",
+      "commitment": "ca. 2 t",
+      "note": "Gyllenhaals Frankenstein-genfortolkning i 1930'ernes Chicago med Christian Bale og Jessie Buckley - skabelse og ansvar for det, man skaber, uden nogen AI-ramme.",
+      "topics": [
+        "film",
+        "litteratur"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-09-13-ibm-blog",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk blog",
+      "status": "new",
+      "title": "IBM Quantum Nighthawk r2 - more circuits, faster",
+      "creator": "IBM Quantum",
+      "provider": "IBM",
+      "url": "https://www.ibm.com/quantum/blog/nighthawk-r2",
+      "commitment": "ca. 8 min",
+      "note": "IBM's egen beskrivelse af, hvordan en dissipativ nulstillingsmekanisme gav den 25-dobling af kredsløbshastighed, der nævnes i dagens signaler.",
+      "topics": [
+        "quantum"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-2026-09-13-riksdagen",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Officiel forklaring",
+      "status": "timely",
+      "title": "The 2026 elections",
+      "creator": "Sveriges Riksdag",
+      "provider": "Sveriges Riksdag",
+      "url": "https://www.riksdagen.se/en/news/the-2026-elections/",
+      "commitment": "ca. 5 min",
+      "note": "Den officielle forklaring på, hvordan optællingen af dagens svenske valg forløber, og hvornår de endelige resultater foreligger.",
+      "topics": [
+        "politik",
+        "skandinavien"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 72,
+    "freshness": 78,
+    "novelty": 72,
+    "perspectiveBalance": 68,
+    "render": 100
+  }
+}
