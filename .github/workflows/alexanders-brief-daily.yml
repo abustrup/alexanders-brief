@@ -185,7 +185,9 @@ jobs:
           # and the resolver no-opped silently on 2026-08-23, so no image work happened at
           # all on the brief it was written for.
           DATE: ${{ steps.guard.outputs.date }}
-        run: npm run --silent prune:images -- "data/${DATE}/draft.json" --ledger=data/image-ledger.json
+        # TRIAL BRANCH ONLY (2026-09-13): the editor has already looked at every picture, so this run may
+        # only remove on evidence, never fill or swap, and reads the published archive as its memory.
+        run: npm run --silent resolve:images -- "data/${DATE}/draft.json" --final --archive="${{ github.workspace }}/pages/data" --verbose
 
       # A trial run produces the edition and stops. The draft is the whole point of
       # the run, so it is uploaded rather than thrown away with the runner.
@@ -194,7 +196,9 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: trial-draft
-          path: engine/data/${{ steps.guard.outputs.date }}/draft.json
+          path: |
+            engine/data/${{ steps.guard.outputs.date }}/draft.json
+            engine/data/${{ steps.guard.outputs.date }}/image-previews/
           if-no-files-found: warn
 
       - name: Quality gate (blocking)
