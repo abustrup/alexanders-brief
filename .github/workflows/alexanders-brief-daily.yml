@@ -31,6 +31,11 @@ on:
         required: false
         type: boolean
         default: false
+      replace_today:
+        description: "Replace TODAY's already-published edition with a fresh one. Hand-started only."
+        required: false
+        type: boolean
+        default: false
 
 # Declared here: default_workflow_permissions is read on all three repos. No issues:write – this file
 # never opens one, and the watchdog living in this repo declares its own.
@@ -88,6 +93,7 @@ jobs:
         env:
           INPUT_DATE: ${{ inputs.date }}
           DRY_RUN: ${{ inputs.dry_run }}
+          REPLACE: ${{ inputs.replace_today }}
         # A dry run publishes nothing, so "today is already out" is not a reason to stop
         # it: the point is to see what the desk would produce. It still uses TODAY's date,
         # because the alternative is worse. Dating a trial in the future was tried on
@@ -98,6 +104,16 @@ jobs:
           if [ "$DRY_RUN" = "true" ]; then
             D="${INPUT_DATE:-$(TZ=Europe/Copenhagen date +%F)}"
             printf 'dry run: not consulting the live site; nothing will publish\n'
+            printf 'mode=full\ndate=%s\nwork=true\n' "$D" >> "$GITHUB_OUTPUT"
+          elif [ "$REPLACE" = "true" ]; then
+            # Added 2026-09-14, when Alexander asked for a new edition of a day already published so
+            # the site carried that day's shipped changes. TODAY only: replacing a past date would
+            # rewrite the archive. Schedules carry no inputs, so this can only be started by hand.
+            D="$(TZ=Europe/Copenhagen date +%F)"
+            if [ -n "$INPUT_DATE" ] && [ "$INPUT_DATE" != "$D" ]; then
+              printf '::error::replace_today replaces today (%s) only, not %s\n' "$D" "$INPUT_DATE"; exit 1
+            fi
+            printf 'replace: a new edition for %s will replace the published one, if it passes the gate\n' "$D"
             printf 'mode=full\ndate=%s\nwork=true\n' "$D" >> "$GITHUB_OUTPUT"
           else
             bash scripts/brief-mode.sh "$SITE_URL" "$INPUT_DATE"
@@ -143,16 +159,40 @@ jobs:
           # weekly allowance. A dry run is a deliberate, hand-dispatched test, so it
           # is allowed past it; the allowance it spends is spent knowingly. The cap
           # still applies in full to every scheduled run, which is where it matters.
-          MAX_FULL_ATTEMPTS: ${{ inputs.dry_run && '99' || '2' }}
+          # A replace is also hand-started and knowingly spent, but not unlimited: two more agent runs
+          # on top of the morning's, so one failed replace can be retried once.
+          MAX_FULL_ATTEMPTS: ${{ inputs.dry_run && '99' || (inputs.replace_today && '4' || '2') }}
         run: bash scripts/ci-attempt-cap.sh "${{ steps.guard.outputs.date }}"
 
       # The header ci-compose-prompt.sh prepends is load-bearing: it relocates the Mac paths, forbids the
       # agent's own publish step (prompt step 9), and says these logs are public. See ENGINE-CONTRACT.md.
       - name: Install the agent, compose the prompt
         if: steps.cap.outputs.proceed == 'true'
+        env:
+          REPLACE: ${{ inputs.replace_today }}
+          DRY_RUN: ${{ inputs.dry_run }}
         run: |
           npm i -g "@anthropic-ai/claude-code@$CLAUDE_CLI_VERSION"
           bash scripts/ci-compose-prompt.sh "${{ steps.guard.outputs.date }}" > "$RUNNER_TEMP/run-prompt.md"
+          # The header below says today is not published and the prompt says never to publish a date
+          # twice, so without this a replace run stops without a draft.
+          if [ "$REPLACE" = "true" ] && [ "$DRY_RUN" != "true" ]; then
+            { cat <<'NOTE'
+          # THIS RUN REPLACES TODAY'S EDITION — read this before anything below
+
+          Alexander asked on 2026-09-14 for a new edition of today's brief to replace the one already
+          published, so the site carries the changes shipped that day. Today's edition therefore DOES
+          already exist on the site and in the archive. That is expected and is not a reason to stop:
+          treat "is today already published?" as answered, do not run brief-mode.sh or
+          check-published.sh, and produce a full new edition for today. Research today's news afresh
+          rather than copying the published edition. The workflow assigns this edition's runId after
+          you finish, so any runId you write is replaced. Everything below still applies, including
+          that you never publish yourself.
+
+          NOTE
+              cat "$RUNNER_TEMP/run-prompt.md"; } > "$RUNNER_TEMP/run-prompt.replace.md"
+            mv "$RUNNER_TEMP/run-prompt.replace.md" "$RUNNER_TEMP/run-prompt.md"
+          fi
 
       # No --bare: it ignores the OAuth token. A non-zero exit is a warning; the gate decides.
       - name: Run the editorial agent
@@ -204,7 +244,25 @@ jobs:
             engine/data/${{ steps.guard.outputs.date }}/picture-look.json
           if-no-files-found: warn
 
+      # A replace must carry its own runId: the publish check and the liveness proof both look for the
+      # archive's runId on the page, so a reused one would pass on the old page still being served.
+      - name: Assign the replacement runId
+        id: rid
+        if: ${{ inputs.replace_today && !inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        env:
+          DATE: ${{ steps.guard.outputs.date }}
+          LIVE: ${{ github.workspace }}/pages/data/${{ steps.guard.outputs.date }}.json
+        run: |
+          F="data/${DATE}/draft.json"
+          [ -f "$F" ] || { printf '::error::no draft was written, so there is nothing to replace today with\n'; exit 1; }
+          NEW="run-${DATE}-r${GITHUB_RUN_NUMBER}"
+          OLD="$(node -e 'try{process.stdout.write(String(JSON.parse(require("fs").readFileSync(process.argv[1],"utf8")).runId||""))}catch(e){}' "$LIVE")"
+          [ "$NEW" != "$OLD" ] || { printf '::error::the replacement runId %s equals the published one\n' "$NEW"; exit 1; }
+          node -e 'const fs=require("fs");const [f,id]=process.argv.slice(1);const d=JSON.parse(fs.readFileSync(f,"utf8"));d.runId=id;fs.writeFileSync(f,JSON.stringify(d,null,2)+"\n")' "$F" "$NEW"
+          printf 'runId %s -> %s\n' "${OLD:-none}" "$NEW"
+
       - name: Quality gate (blocking)
+        id: gate
         if: steps.cap.outputs.proceed == 'true'
         timeout-minutes: 15
         env:
@@ -216,7 +274,10 @@ jobs:
       # The push credential enters here, after the agent has finished and been judged.
       - name: Publish
         id: publish
-        if: ${{ !inputs.dry_run && (steps.guard.outputs.mode != 'done') }}
+        # For a replace, publishing requires the agent to have run, the runId to be new and the gate to
+        # pass — explicitly, because a SKIPPED gate is not a failure and would otherwise let ci-publish
+        # restore the old edition from the archive and report green.
+        if: ${{ !inputs.dry_run && (steps.guard.outputs.mode != 'done') && (!inputs.replace_today || (steps.cap.outputs.proceed == 'true' && steps.rid.outcome == 'success' && steps.gate.outcome == 'success')) }}
         env:
           BRIEF_FEEDBACK_URL: ${{ secrets.BRIEF_API_URL }}
           GH_PUSH_TOKEN: ${{ github.token }}
@@ -224,7 +285,7 @@ jobs:
         run: bash scripts/ci-publish.sh "${{ steps.guard.outputs.date }}"
 
       - name: Ask GitHub Pages to build
-        if: ${{ !inputs.dry_run && (steps.guard.outputs.mode != 'done') }}
+        if: ${{ !inputs.dry_run && (steps.guard.outputs.mode != 'done') && (!inputs.replace_today || (steps.cap.outputs.proceed == 'true' && steps.rid.outcome == 'success' && steps.gate.outcome == 'success')) }}
         continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
@@ -234,7 +295,7 @@ jobs:
       # question it answers is whether the reader has today's brief.
       - name: Prove the reader is served
         id: served
-        if: ${{ !inputs.dry_run && (always() && steps.guard.conclusion == 'success' && steps.guard.outputs.mode != 'done') }}
+        if: ${{ !inputs.dry_run && (always() && steps.guard.conclusion == 'success' && steps.guard.outputs.mode != 'done') && (!inputs.replace_today || steps.publish.outcome == 'success') }}
         env:
           GH_TOKEN: ${{ github.token }}
           PAGES_REPO_DIR: ${{ github.workspace }}/pages
