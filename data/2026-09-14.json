@@ -1,0 +1,770 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "run-2026-09-14-a",
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-14T06:00:00Z",
+  "readingMinutes": 11,
+  "title": "Alexanders Brief — 14. september 2026",
+  "dek": "Claude Code som missilingeniør, et svensk valg afgjort af ét mandat, en dansk vurderingsfejl ingen oplyste om, og hvorfor AI ikke sender lønnen mod nul.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-anthropic-yemen-missile-2026",
+      "eventKey": "anthropic-threat-report-2026-09",
+      "materialFacts": [
+        "Yemen-baseret celle brugte Claude Code i stedet for menneskelige softwareingeniører til at udvikle styrings- og navigationssoftware til missilfamilien R2000, inklusive en hypersonisk glidevariant.",
+        "En test af en styret raket fejlede ifølge Anthropics egen vurdering.",
+        "Anthropic har ingen beviser for et fungerende våben og har lukket de tilknyttede konti.",
+        "Samme rapport dokumenterer parallel russisk og kinesisk statslinket misbrug af Claude til cyberspionage."
+      ],
+      "section": "Verden",
+      "headline": "Anthropic claims Claude AI used for missile projects, global espionage",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
+      "subheadline": "Trusselsrapport fra AI-selskabet viser, hvordan Claude Code blev brugt som stedfortræder for et helt ingeniørhold på et missilprogram i Yemen",
+      "body": [
+        "En celle i det nordlige Yemen har ifølge Anthropics trusselsrapport fra september 2026 brugt Claude Code som stedfortræder for softwareingeniører til at udvikle styringssoftware til missilfamilien R2000, herunder en hypersonisk glidevariant, med et rækkeviddemål over 2.000 kilometer.",
+        "En test af en styret raket fejlede; operatørerne vendte inden for timer tilbage til Claude for at analysere fejlen. Anthropic har ingen beviser for et fungerende våben og har lukket kontiene. Samme rapport dokumenterer parallel russisk og kinesisk statslinket misbrug til cyberspionage mod Ukraine, Europa og virksomhedsnetværk."
+      ],
+      "whyItMatters": "Det centrale er, at sprogmodeller nu kan erstatte et helt ingeniørhold, ikke blot assistere enkeltopgaver. Cellen delte arbejdet på separate sessioner og skjulte formålet — den opdeling, indholdsfiltre har svært ved at fange.",
+      "analysis": "Det ændrer trusselsmodellen: forsvaret kan ikke regne med, at ét afvist promt stopper et projekt, når arbejdet spredes over samtaler, hvoraf ingen alene afslører billedet.",
+      "counterpoint": "Rapporten er skrevet af Anthropic selv, der har kommerciel interesse i at fremstå årvågen; at intet våben blev færdiggjort, er selskabets egen vurdering, ikke efterprøvet her.",
+      "topics": [
+        "ai",
+        "cyber",
+        "forsvar",
+        "magt"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude",
+        "Houthi-bevægelsen",
+        "Midnight Blizzard"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 85,
+        "novelty": 80,
+        "sourceQuality": 90,
+        "personalRelevance": 70,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "En Yemen-baseret celle brugte Claude Code i stedet for menneskelige softwareingeniører til at udvikle styrings-, navigations- og kontrolsoftware til missilfamilien R2000, herunder en hypersonisk glidevariant, med et opgivet rækkeviddemål over 2.000 km.",
+          "sourceUrls": [
+            "https://www.anthropic.com/threat-intelligence-report-september-2026",
+            "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Anthropic siger, man ikke har beviser for et fungerende våben, og at de tilknyttede konti er lukket.",
+          "sourceUrls": [
+            "https://www.anthropic.com/threat-intelligence-report-september-2026",
+            "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Samme rapport dokumenterer russisk-linket (Midnight Blizzard) og kinesisk-linket brug af Claude til henholdsvis cyberspionage mod Ukraine/Europa og orkestrering af angreb mod virksomheds- og statsnetværk.",
+          "sourceUrls": [
+            "https://www.anthropic.com/threat-intelligence-report-september-2026"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic claims Claude AI used for missile projects, global espionage",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
+          "publishedAt": "2026-09-11T10:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Detecting and countering misuse of AI: September 2026",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+          "publishedAt": "2026-09-11T08:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Rebels used Anthropic's AI bot to develop guided weapons, report says",
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/",
+          "publishedAt": "2026-09-11T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa37d4d-1789099341.jpg?resize=1920%2C1440",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Anthropic claims Claude AI used for missile projects, global espionage",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage"
+      }
+    },
+    {
+      "id": "story-ukraine-poland-border-2026",
+      "eventKey": "ukraine-poland-border-strike-2026-09",
+      "materialFacts": [
+        "Et russisk angreb ramte nær Jahodyn-grænseovergangen til Polen 13. september, kort efter et diplomattogs passage.",
+        "En tankstation blev beskadiget; samme døgn skabte russiske droneangreb strømafbrydelser i Rivne-området og skader på et industrianlæg i Ivano-Frankivsk."
+      ],
+      "section": "Verden",
+      "headline": "Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen",
+      "subheadline": "Et russisk angreb nær den polske grænse, minutter efter et diplomattogs passage, viser hvor tæt krigen nu er på NATO-territorium",
+      "body": [
+        "Et russisk angreb ramte natten til 13. september nær Jahodyn-grænseovergangen mellem Ukraine og Polen, kort efter at et diplomattog var passeret gennem området. En nærliggende tankstation blev beskadiget; ingen kom efter det oplyste til skade ved selve angrebet.",
+        "Samme døgn skabte russiske droneangreb strømafbrydelser i dele af Rivne og Dubno, mens et industrianlæg i Ivano-Frankivsk blev ramt ved daggry, hvor én person kom til skade."
+      ],
+      "whyItMatters": "Et angreb minutter fra et NATO-lands grænse, mod et område et diplomattog lige havde forladt, gør 'ingen skade denne gang' til en skrøbelig sætning snarere end en beroligelse.",
+      "analysis": "Hændelsen føjer sig til et mønster af russiske angreb tættere på NATO-grænsen, uden at nogen enkelt hændelse alene udgør en eskalation. Det er summen, ikke den enkelte nat, der er historien — og det bærer denne ene kilde ikke alene.",
+      "topics": [
+        "forsvar",
+        "geopolitik",
+        "nato"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Polen",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 50,
+        "novelty": 40,
+        "sourceQuality": 62,
+        "personalRelevance": 45,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Et russisk angreb ramte nær Jahodyn-grænseovergangen til Polen 13. september, kort efter et diplomattogs passage; en tankstation blev beskadiget.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Samme døgn skabte russiske droneangreb strømafbrydelser i Rivne-området og skader på et industrianlæg i Ivano-Frankivsk, hvor en person kom til skade.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen",
+          "publishedAt": "2026-09-13T18:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/frkfu3mn/20220824-173551-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "credit": "Kilde: DR",
+        "alt": "Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"
+      }
+    },
+    {
+      "id": "story-dk-datacentre-elforbrug-2026",
+      "eventKey": "dk-datacentre-elforbrug-2026-09",
+      "materialFacts": [
+        "29 nye datacenterprojekter er på vej i Danmark.",
+        "Energistyrelsens prognose for datacentres elforbrug i 2040 er fordoblet på et år til 29 TWh.",
+        "Energinet har indført nødlovgivning, der giver nye datacentre laveste prioritet i køen til elnettet."
+      ],
+      "section": "Danmark",
+      "headline": "Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug",
+      "primarySourceUrl": "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug",
+      "subheadline": "29 nye datacentre er på vej mod Danmark, mens Energistyrelsens prognose for elforbruget er fordoblet på et år",
+      "body": [
+        "29 nye datacenterprojekter er på vej i Danmark, mens eksperter kræver svar fra regeringen om elforbruget, som myndighederne ifølge Version2 ikke selv kan gøre rede for. Energistyrelsens fremskrivning er fordoblet på et år: forbruget ventes at nå 29 TWh i 2040.",
+        "Det svarer til 17 procent af Danmarks elforbrug over ti år. Energinet indførte i foråret nødlov med laveste netprioritet for nye datacentre, efter at branchens vækst i 2025 pressede nettet."
+      ],
+      "whyItMatters": "Det er ikke længere et spørgsmål om, hvorvidt datacentre presser elnettet, men om regeringen kender omfanget, den selv skal planlægge efter. En fordoblet prognose på et år er et stort spring i usikkerhed for en fastplanlagt sektor.",
+      "analysis": "Nødprioriteringen løser symptomet — hvem der kobles fra i en flaskehals — uden at røre problemet: væksten er efterspørgselsdrevet, og energiplanlægningen forsøger bagudrettet at følge med snarere end at styre den.",
+      "topics": [
+        "energi",
+        "teknologisk-suverænitet",
+        "danmark"
+      ],
+      "entities": [
+        "Energinet",
+        "Energistyrelsen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 72,
+        "novelty": 65,
+        "sourceQuality": 78,
+        "personalRelevance": 68,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "29 nye datacenterprojekter er på vej mod Danmark.",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/mens-protesterne-vokser-er-29-nye-datacentre-paa-vej-mod-danmark-her-skal-de-ligge"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Energistyrelsens prognose for datacentres elforbrug er fordoblet til 29 TWh i 2040, en stigning på 17 procent af Danmarks samlede elforbrug over ti år, og Energinet har indført nødlovgivning med laveste netprioritet for nye datacentre.",
+          "sourceUrls": [
+            "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug",
+          "publishedAt": "2026-09-12T09:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Mens protesterne vokser, er 29 nye datacentre på vej mod Danmark: Her skal de ligge",
+          "publisher": "Version2",
+          "url": "https://www.version2.dk/artikel/mens-protesterne-vokser-er-29-nye-datacentre-paa-vej-mod-danmark-her-skal-de-ligge",
+          "publishedAt": "2026-09-10T09:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://www.version2.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-09/20260629-135008-l-8116x5411ma.jpg?h=1b8516a7&itok=AOHDxzNK",
+        "credit": "Kilde: Version2",
+        "alt": "Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug",
+        "sourceUrl": "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug"
+      }
+    },
+    {
+      "id": "story-ai-language-homogenization-2026",
+      "eventKey": "ai-language-homogenization-nature-2026",
+      "materialFacts": [
+        "En analyse af 880.000 tekster i Nature Human Behaviour finder, at skriftsproget er blevet mindre varieret siden ChatGPT-brugens udbredelse.",
+        "Modellerne bevarer betydning men komprimerer ordvalgsvariation og forfatterkendetegn."
+      ],
+      "section": "Videnskab",
+      "headline": "AI writing assistants shrink linguistic diversity and blur personal identity",
+      "primarySourceUrl": "https://www.nature.com/articles/s41562-026-02549-7",
+      "subheadline": "880.000 teksters analyse i Nature Human Behaviour viser, at sprogmodeller komprimerer sprogets variation, selvom betydningen bevares",
+      "body": [
+        "En analyse af 880.000 tekster i Nature Human Behaviour viser, at skriftsproget er blevet mindre varieret, siden sprogmodeller som ChatGPT bredte sig. Modellerne bevarer tekstens betydning, men komprimerer variationen i ordvalg og de forfatterkendetegn, sproget tidligere afslørede.",
+        "Effekten er ikke en forsimpling af den enkelte tekst — den bliver ofte mere kompleks — men en indsnævring af, hvor forskellige tekster er fra hinanden, når mange bruger de samme værktøjer."
+      ],
+      "whyItMatters": "Det er et konkret modsyn til antagelsen om, at AI-skriveværktøjer blot er neutrale hjælpemidler: de flader den kollektive sprogvariation ud, selv når den enkelte tekst bliver bedre skrevet.",
+      "analysis": "Hvis sprogets variation er et spor af tænkningens variation, er fundet et argument for, at AI-assisteret skrivning har en pris, der ikke viser sig i én tekst, men i mængden — en effekt, ingen bruger selv kan observere.",
+      "topics": [
+        "ai",
+        "psykologi",
+        "videnskab"
+      ],
+      "entities": [
+        "Nature Human Behaviour"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 75,
+        "sourceQuality": 82,
+        "personalRelevance": 55,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "En analyse af 880.000 tekster i Nature Human Behaviour finder, at skriftsproget er blevet mindre varieret, siden brugen af ChatGPT bredte sig, mens betydningen bevares.",
+          "sourceUrls": [
+            "https://www.nature.com/articles/s41562-026-02549-7"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AI writing assistants shrink linguistic diversity and blur personal identity",
+          "publisher": "Nature Human Behaviour",
+          "url": "https://www.nature.com/articles/s41562-026-02549-7",
+          "publishedAt": "2026-09-08T09:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-sweden-election-2026",
+      "eventKey": "sweden-election-hung-parliament-2026-09",
+      "materialFacts": [
+        "Med 94 procent optalt fører rød-grøn blok 176-175 mandater over Tidö-samarbejdet.",
+        "SVT giver 90 procents sandsynlighed for et 175-174-resultat i oppositionens favør efter udlandsstemmer tælles 16. september.",
+        "Det nye Riksdag samles 28. september; valgdeltagelsen faldt til ca. 80,4 procent."
+      ],
+      "section": "Verden",
+      "headline": "Regeringsbildningen efter valet kan bli utdragen",
+      "primarySourceUrl": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+      "subheadline": "Med 94 procent optalt skiller kun ét mandat rød-grøn blok fra Tidö-samarbejdet, og regeringsdannelsen kan trække ud i ugevis",
+      "body": [
+        "Med 94 procent optalt står rød-grøn blok (S, MP, V, C) til 176 mandater mod Tidö-samarbejdets 175. SVT's prognose giver 90 procents sandsynlighed for 175-174 i oppositionens favør, når udlandsstemmerne er talt 16. september.",
+        "Riksdagen samles 28. september, hvorefter talmandsrunder begynder. Kristersson siger, 'det rigtige er vigtigere end det hurtige'; valgdeltagelsen faldt til ca. 80,4 procent, ned fra 84 i 2022."
+      ],
+      "whyItMatters": "Et nabolands regering afgøres af et enkelt mandat, i et land hvor politisk stabilitet har været en dansk forudsætning. En langtrukken regeringsdannelse er usikkerhed om nordisk sikkerheds- og udenrigspolitisk linje, i en periode hvor begge er under pres.",
+      "analysis": "Det faldende fremmøde er lige så interessant som mandaterne: et valg, hvor ét sæde afgør magten, burde mobilisere flere vælgere, ikke færre. At det modsatte sker, tyder på, at tætte valg ikke længere opleves som afgørende.",
+      "topics": [
+        "geopolitik",
+        "norden",
+        "demokrati"
+      ],
+      "entities": [
+        "Ulf Kristersson",
+        "Ebba Busch",
+        "Jimmie Åkesson",
+        "Sveriges Riksdag"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 82,
+        "personalRelevance": 25,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Med 94 procent optalt står rød-grøn blok til 176 mandater mod Tidö-samarbejdets 175; SVT giver 90 procents sandsynlighed for 175-174 i oppositionens favør efter udlandsstemmer tælles 16. september.",
+          "sourceUrls": [
+            "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Det nye Riksdag samles 28. september; valgdeltagelsen faldt til ca. 80,4 procent fra 84 procent i 2022.",
+          "sourceUrls": [
+            "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+            "https://www.riksdagen.se/en/news/the-2026-elections/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Regeringsbildningen efter valet kan bli utdragen",
+          "publisher": "SVT Nyheter",
+          "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
+          "publishedAt": "2026-09-14T05:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "The 2026 elections",
+          "publisher": "Sveriges riksdag",
+          "url": "https://www.riksdagen.se/en/news/the-2026-elections/",
+          "publishedAt": "2026-09-10T09:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://www.svtstatic.se/image-news/1200/1.91:1/0.5/0.5/c130f35dc52542e29f29e137b69b8ec3f9b42376103c10fc5bddd2e09ce0c879",
+        "credit": "Kilde: SVT Nyheter",
+        "alt": "Morgonstudion-programledare i TV-studio med texten Val2026",
+        "sourceUrl": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"
+      }
+    },
+    {
+      "id": "story-eifo-vaekstkapital-2026",
+      "eventKey": "eifo-vaekstkapital-gap-2026-09",
+      "materialFacts": [
+        "EIFOs analyse venter et dansk vækstkapitalgab på op til 93 mia. kr.",
+        "EIFO har investeret 1,5 mia. kr. i den nye Scaleup Europe Fund, selskabets hidtil største enkeltinvestering."
+      ],
+      "section": "Erhverv",
+      "headline": "Analyse af Danmarks Growth-stage venturemarked 2026",
+      "primarySourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+      "subheadline": "EIFOs egen analyse venter et kapitalgab på op til 93 mia. kr. i dansk vækstkapital, mens fonden selv investerer sin hidtil største enkeltinvestering i en europæisk fond",
+      "body": [
+        "EIFOs egen analyse venter, at dansk vækstkapital kan vokse til 47-93 mia. kr. i efterspørgsel, mens tilgængelig kapital kun er knap 24 mia. kr. Gabet rammer især virksomheder i senere vækstfaser, hvor kapital historisk har været sværest at rejse i Danmark.",
+        "Samtidig har EIFO foretaget sin største enkeltinvestering: 1,5 mia. kr. i Scaleup Europe Fund, en paneuropæisk vækstfond på 38 mia. kr., der skal give danske scaleups kapital, de ellers ofte har hentet uden for Europa."
+      ],
+      "whyItMatters": "Et kapitalgab, EIFO sætter tal på, forklarer, hvorfor vækstvirksomheder har solgt sig til udenlandske ejere eller flyttet hovedkontor, når de rammer fasen dansk kapital ikke rækker.",
+      "analysis": "At EIFO dokumenterer gabet og selv investerer i en løsning, gør analysen til mere end et faktatjek: den er et argument for statens rolle i markedet, fremsat af aktøren der bemander rollen. Tallet kan være rigtigt uden at ophæve konflikten.",
+      "topics": [
+        "venturekapital",
+        "danmark",
+        "økonomi"
+      ],
+      "entities": [
+        "EIFO",
+        "Scaleup Europe Fund"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 65,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 80,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "EIFOs egen analyse venter dansk vækstkapitalefterspørgsel på 47-93 mia. kr. mod ca. 24 mia. kr. tilgængelig kapital.",
+          "sourceUrls": [
+            "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "EIFO har investeret 1,5 mia. kr. i Scaleup Europe Fund (samlet 38 mia. kr.), selskabets hidtil største enkeltstående fondsinvestering.",
+          "sourceUrls": [
+            "https://techsavvy.media/eifo-vil-goere-europa-staerkere-kapital-skal-sikre-at-flere-vaekstvirksomheder-bliver-globale-markedsledere-fra-danmark/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Analyse af Danmarks Growth-stage venturemarked 2026",
+          "publisher": "EIFO",
+          "url": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
+          "publishedAt": "2026-09-10T09:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "EIFO vil gøre Europa stærkere: Kapital skal sikre, at flere vækstvirksomheder bliver globale markedsledere fra Danmark",
+          "publisher": "TechSavvy",
+          "url": "https://techsavvy.media/eifo-vil-goere-europa-staerkere-kapital-skal-sikre-at-flere-vaekstvirksomheder-bliver-globale-markedsledere-fra-danmark/",
+          "publishedAt": "2026-09-09T09:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-ejendomsvurdering-2026",
+      "eventKey": "dk-ejendomsvurdering-fejl-2026-09",
+      "materialFacts": [
+        "Ca. 100.000 lejlighedsvurderinger er beregnet forkert.",
+        "Ca. 20.000 afviger mere end 20 procent fra korrekt niveau.",
+        "Vurderingsstyrelsen kendte til fejlen siden foråret uden at oplyse det offentligt."
+      ],
+      "section": "Danmark",
+      "headline": "Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert",
+      "subheadline": "Vurderingsstyrelsen kendte til fejlen siden foråret, men oplyste den ikke offentligt, før DR afslørede den",
+      "body": [
+        "Omkring 100.000 lejlighedsvurderinger — en tredjedel af de danske lejligheder under det nye system — er beregnet forkert, efter Vurderingsstyrelsen rettede en fejl på en måde, der skabte en ny. Ca. 20.000 afviger over 20 procent fra korrekt niveau.",
+        "Vurderingsstyrelsen har kendt problemet siden foråret uden at oplyse det. Direktør Anne-Sofie Jensen: 'Vi er i gang med at finde ud af, hvad løsningen skal være' — uden løfte om, fejlen rettes i år."
+      ],
+      "whyItMatters": "For den ramte tredjedel er det grundlaget for ejendomsskatten i årevis. At myndigheden kendte fejlen i månedsvis uden at oplyse borgerne, flytter sagen fra beregningsfejl til, hvornår en myndighed skylder at sige fra.",
+      "analysis": "Mønstret kendes fra tidligere vurderingsskandaler: en kompleks model rettes lappevis, og hver rettelse risikerer at flytte fejlen snarere end fjerne den. Uden revision af modellen er der ingen garanti mod en ny fejl et andet sted.",
+      "topics": [
+        "danmark",
+        "skat",
+        "forvaltning"
+      ],
+      "entities": [
+        "Vurderingsstyrelsen",
+        "Anne-Sofie Jensen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 68,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 30,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Ca. 100.000 lejlighedsvurderinger, ca. en tredjedel af de danske lejligheder under den nye model, er beregnet forkert; ca. 20.000 afviger mere end 20 procent.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Vurderingsstyrelsen har kendt til fejlen siden foråret uden at offentliggøre den, og direktør Anne-Sofie Jensen vil ikke love en løsning i år.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert",
+          "publishedAt": "2026-09-13T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://asset.dr.dk/drdk/umbraco-images/3j1gvicn/boligpriser_lejligheder.gif?im=AspectCrop%3D%28850%2C478%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28850%2C478%29",
+        "credit": "DR",
+        "alt": "Lejlighedsbygninger i Danmark, arkivfoto",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "New Copenhagen facility to strengthen Europe's quantum manufacturing capabilities",
+      "headline": "New Copenhagen facility to strengthen Europe's quantum manufacturing capabilities",
+      "url": "https://novonordiskfonden.dk/en/news/new-copenhagen-facility-to-strengthen-europes-quantum-manufacturing-capabilities/",
+      "publisher": "Novo Nordisk Fonden",
+      "section": "Teknologi",
+      "publishedAt": "2026-09-04T09:00:00Z",
+      "summary": "Novo Nordisk Fonden opretter Quantum Foundry Copenhagen, en 5.300 kvm kvantechip-fabrik på Østerbro, med sigte på en dansk kvantecomputer i 2034. Flyttet til signaler her, fordi begivenheden er ti dage gammel uden ny udvikling i dag."
+    },
+    {
+      "text": "Novo Nordisk skifter navn til Novo og justerer logo",
+      "headline": "Novo Nordisk skifter navn til Novo og justerer logo",
+      "url": "https://nordjyske.dk/nyheder/erhverv/novo-nordisk-skifter-navn-til-novo-og-justerer-logo/6172460",
+      "publisher": "Ritzau/Nordjyske",
+      "section": "Erhverv",
+      "publishedAt": "2026-09-13T06:00:00Z",
+      "summary": "Selskabet dropper Nordisk fra navnet og vender logoets Apis-tyr; fuld strategi kommer på kapitalmarkedsdag 21. september."
+    },
+    {
+      "text": "Ikke set siden før corona: I fire måneder i træk er madprisen faldet",
+      "headline": "Ikke set siden før corona: I fire måneder i træk er madprisen faldet",
+      "url": "https://www.dr.dk/nyheder/penge/ikke-set-siden-foer-corona-i-fire-maaneder-i-traek-er-madprisen-faldet",
+      "publisher": "DR",
+      "section": "Penge",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "Hvorfor er bankaktierne steget så voldsomt?",
+      "headline": "Hvorfor er bankaktierne steget så voldsomt?",
+      "url": "https://www.dr.dk/nyheder/penge/reels/hvorfor-er-bankaktierne-steget-saa-voldsomt",
+      "publisher": "DR",
+      "section": "Penge",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "Efter vilde stigninger falder priserne i København, på landsplan er fortællingen en anden",
+      "headline": "Efter vilde stigninger falder priserne i København, på landsplan er fortællingen en anden",
+      "url": "https://www.dr.dk/nyheder/penge/efter-vilde-stigninger-falder-priserne-i-koebenhavn-paa-landsplan-er-fortaellingen-en-anden",
+      "publisher": "DR",
+      "section": "Penge",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "Kosovos parlament godkender Albin Kurtis regering",
+      "headline": "Kosovos parlament godkender Albin Kurtis regering",
+      "url": "https://www.dr.dk/nyheder/udland/kosovos-parlament-godkender-albin-kurtis-regering",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "Over 800 migranter flyttet til nyt modtagecenter i Ceuta",
+      "headline": "Over 800 migranter flyttet til nyt modtagecenter i Ceuta",
+      "url": "https://www.dr.dk/nyheder/udland/reels/over-800-migranter-flyttet-til-nyt-modtagecenter-i-ceuta",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "300 fyret efter russisk angreb på ukrainsk shoppingcenter",
+      "headline": "300 fyret efter russisk angreb på ukrainsk shoppingcenter",
+      "url": "https://www.dr.dk/nyheder/udland/reels/300-fyret-efter-russisk-angreb-paa-ukrainsk-shoppingcenter",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "Trump vil overveje at offentliggøre flere dokumenter om 11. september",
+      "headline": "Trump vil overveje at offentliggøre flere dokumenter om 11. september",
+      "url": "https://www.dr.dk/nyheder/udland/trump-vil-overveje-offentliggoere-flere-dokumenter-om-11-september",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-09-13T09:00:00Z"
+    },
+    {
+      "text": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
+      "headline": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
+      "url": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china",
+      "publisher": "U.S. Department of Commerce (BIS)",
+      "section": "Handel",
+      "publishedAt": "2026-09-10T09:00:00Z",
+      "summary": "BIS går fra formodet afslag til sagsbehandling fra sag til sag for Nvidia H200 og AMD MI325X til Kina, mens otte kongresmedlemmer kræver et totalforbud mod eksport af halvlederudstyr."
+    },
+    {
+      "text": "Store dyr og et kæmpe hegn: Ny naturnationalpark åbner under protester",
+      "headline": "Store dyr og et kæmpe hegn: Ny naturnationalpark åbner under protester",
+      "url": "https://www.dr.dk/nyheder/indland/store-dyr-og-et-kaempe-hegn-ny-naturnationalpark-aabner-under-protester",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-09-14T05:00:00Z"
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "ricardo-mod-nul-loen",
+    "title": "Ricardo mod nul-løn",
+    "thesis": "Selv en AI, der er bedre end mennesker til alt, sender ikke lønnen mod nul.",
+    "horizon": "Når lønandelen af BNP kan aflæses ti år frem",
+    "body": [
+      "Komparative fordele afhænger af relative, ikke absolutte forskelle — stedet man taber mindst, er stadig værd at handle med."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis lønandelen af BNP i USA og EU fortsætter mod nul, efterhånden som AI-kapaciteten stiger, uden at komparative fordele bremser faldet; det ses i BLS' og Eurostats egne lønandelsserier de kommende år.",
+    "topics": [
+      "økonomi",
+      "ai",
+      "filosofi"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-hassabis-rsa-2026",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Interview",
+      "status": "new",
+      "title": "Sir Demis Hassabis on the AI Revolution, the Future of AI and Human Creativity | Hannah Fry",
+      "creator": "Hannah Fry, Demis Hassabis",
+      "provider": "Royal Society of Arts",
+      "url": "https://www.youtube.com/watch?v=rDteJAuKiBI",
+      "commitment": "~45 min",
+      "description": "Hannah Fry taler med DeepMind-stifter Demis Hassabis om kreativitet, bevidsthed og hvad AI ændrer ved begge dele — optaget i forbindelse med, at Hassabis modtog Royal Society of Arts' Albert-medalje.",
+      "rationale": "Hassabis ligger øverst blandt de tænkere, der får en civilisatorisk påstand til at holde. Her taler han ikke om produkter eller kvartalstal, men om kreativitet og bevidsthed — den del af AI-samtalen, der sjældnere når frem end lancering og kapital, og som ligger tættere på filosofien end på investeringscasen.",
+      "topics": [
+        "ai",
+        "kreativitet",
+        "filosofi"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://i.ytimg.com/vi/rDteJAuKiBI/hqdefault.jpg",
+        "credit": "Royal Society of Arts",
+        "alt": "Demis Hassabis i samtale med Hannah Fry",
+        "sourceUrl": "https://www.youtube.com/watch?v=rDteJAuKiBI"
+      }
+    },
+    {
+      "id": "rec-buhler-cognitive-2026",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "The Cognitive Revolution (When Machines Do the Thinking)",
+      "creator": "Konstantine Buhler",
+      "provider": "Sequoia Capital",
+      "url": "https://sequoiacap.com/article/the-cognitive-revolution",
+      "commitment": "~10 min",
+      "note": "Sequoias Konstantine Buhler vil have, at maskiner snart løser 99,9 procent af den kognitive opgave, mennesker plejede at løse selv — ugens mest ubeskedne skala-påstand om AI og arbejdsmarkedet.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-acemoglu-proworker-2026",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Working paper",
+      "status": "available",
+      "title": "Building Pro-Worker Artificial Intelligence",
+      "creator": "Daron Acemoglu, David Autor, Simon Johnson",
+      "provider": "SSRN / MIT Economics",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290347",
+      "commitment": "~30 min",
+      "note": "Modstykket til Buhler: Nobelprismodtager Daron Acemoglu argumenterer for, at valget af teknologi — ikke AI's evner alene — afgør, om arbejdere vinder eller taber. Økonomisk fagtradition uden for resten af ugens stof.",
+      "topics": [
+        "økonomi",
+        "ai",
+        "arbejdsmarked"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-aaronson-nisq-2026",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Blog post",
+      "status": "new",
+      "title": "Shtetl-Optimized on NISQ demonstrations and quantum advantage claims",
+      "creator": "Scott Aaronson",
+      "provider": "Shtetl-Optimized",
+      "url": "https://scottaaronson.blog/",
+      "commitment": "~10 min",
+      "note": "Aaronson gennemgår, hvad NISQ-demonstrationer reelt beviser om kvantefordel — den skeptiske kontrolinstans, samme uge som en dansk kvantefabrik og endnu et kvantegennembrud fylder nyhederne.",
+      "topics": [
+        "quantum",
+        "videnskab"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-deepmind-writing-2026",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Research paper",
+      "status": "new",
+      "title": "Designing Proactive Thought Partners for Writing",
+      "creator": "Google DeepMind",
+      "provider": "Google DeepMind",
+      "url": "https://deepmind.google/research/publications/",
+      "commitment": "~20 min",
+      "note": "DeepMinds egen forskning i AI-skriveassistenter, der udfordrer tanken snarere end at aflaste den — bygherrens svar på dagens Nature-fund om, at de samme værktøjer gør skriftsproget mere ens.",
+      "topics": [
+        "ai",
+        "sprog"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-ai-engineer-paris-2026",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "Konference",
+      "status": "upcoming",
+      "title": "AI Engineer Paris 2026",
+      "provider": "AI Engineer",
+      "url": "https://ai.engineer/paris/2026",
+      "availability": "23.-24. september 2026, Station F, Paris",
+      "commitment": "2 dage",
+      "note": "To dages keynotes og tekniske sessioner i Station F — den praktiske modvægt til ugens store påstande, hvis du vil se, hvad der reelt bygges lige nu.",
+      "topics": [
+        "ai",
+        "praksis"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 82,
+    "freshness": 85,
+    "novelty": 78,
+    "perspectiveBalance": 80,
+    "render": 100
+  }
+}
