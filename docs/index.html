@@ -38,8 +38,28 @@
   color-scheme: light;
 
   /* Structural constants shared by every direction. */
-  --container: min(1180px, 94vw);
+  /* One gutter for the page's outer edge. Before 2026-09-05 the shell used 94vw
+     while the top bar and the footer each hard-coded 16px, so the page had three
+     different left edges — and the mismatch flipped sign as the window narrowed:
+     at 1280px the footer started 27px INSIDE the news column, at 375px 5px
+     outside it. 94vw is also only 11px of gutter on a phone, which put the
+     reading column against the bezel. Every left edge on the page now derives
+     from this one number. Deliberately a percentage and not 100vw: 100vw
+     includes the scrollbar, so on a desktop with classic scrollbars a vw-based
+     shell sits 7px off the padding that is supposed to match it. */
+  --gutter: clamp(18px, 3vw, 30px);
+  --container: min(1180px, calc(100% - 2 * var(--gutter)));
+  /* One gutter for every column system on the page. Before 2026-09-05 the story
+     grid used 34px, "Kort fortalt" 26px and the Magasin bands 30px, so no two
+     sections shared a vertical edge and no full-width rule landed on one. */
+  --col-gap: 34px;
   --tap-min: 44px;
+  /* One focus ring for the whole page. There were four teals at three alphas,
+     and six rules painted the ring on :hover as well — a keyboard indicator
+     drawn by a mouse. The house rule is now: ring on focus, fill on hover,
+     never the reverse, and never both from one selector list. */
+  --focus-ring: 2px solid var(--teal);
+  --focus-ring-offset: 2px;
   --fb-size: 44px;
   --fb-radius: 50%;
   --fb-border-width: 1.5px;
@@ -70,7 +90,16 @@
   --fb-icon: var(--muted);
   --fb-icon-active: #fff;
   --fb-bg: transparent;
-  --fb-border-color: var(--rule);
+  /* The thumbs' only boundary at rest, and since 2026-09-06 the ONLY drawn thing
+     on a story that has not been voted on — the ruler is held back until a thumb
+     is pressed. It inherited --rule and sat at 1.58:1 (editorial), 1.69
+     (Magasin) and 1.84 (dark) against the paper behind it, which is under WCAG
+     1.4.11's 3:1 and left the optional measure drawn HEAVIER than the primary
+     control. It now takes the ruler's own value, so the two are one weight and
+     both are the lightest thing that clears 3:1 on the ground their direction
+     paints. Feed overrides it because its thumb is a filled chip, so its
+     boundary has a second, lighter neighbour to clear (see that block). */
+  --fb-border-color: var(--rating-rule);
 
   /* Legacy aliases — the original component CSS (and weekly/monthly) read these. */
   --shell: var(--container);
@@ -103,7 +132,9 @@
   --fb-icon: #8a8073;
   --fb-icon-active: #14110d;
   --fb-bg: transparent;
-  --fb-border-color: #4a3f33;
+  /* --fb-border-color deliberately absent: :root's var(--rating-rule) resolves
+     to this direction's own #6a6055, which is 3.06:1 on #14110d. The #4a3f33 it
+     used to hold was 1.84:1. */
 }
 
 /* ---- Magasin (magazine) : bold serif, image-forward (see [data-layout=magazine] rules) ---- */
@@ -138,6 +169,14 @@
   --teal: #18a06b;
   --green: #18a06b;
   --blue: #14171c;
+  /* The keyboard ring, one shade darker than the direction's green, and the
+     only place Feed departs from --teal. #18a06b clears 3:1 on the white card
+     a Feed control usually sits on (3.34:1) and does NOT clear it on the page
+     itself (2.93:1) — which is where the skip link and the app-bar chips live.
+     #0f8f5f is 4.11:1 on the card and 3.60:1 on the page, so the ring holds
+     wherever the control stands. Found on 2026-09-06, the day the focus check
+     started grading rings for contrast instead of only counting them. */
+  --focus-ring: 2px solid #0f8f5f;
   --font-display: "Manrope", system-ui, sans-serif;
   --font-label: "Manrope", system-ui, sans-serif;
   --font-body: var(--font-label);
@@ -147,8 +186,15 @@
   --fb-icon: #3f4651;
   --fb-icon-active: #fff;
   --fb-bg: #f1f2f4;
-  --fb-border-width: 0;
-  --fb-border-color: transparent;
+  /* The one direction whose thumb is a filled chip rather than an outline, and
+     until 2026-09-06 the one with no drawn boundary at all: width 0, colour
+     transparent, so the whole control was a #f1f2f4 chip on a white card at
+     1.12:1. Its ring has TWO neighbours — the chip it encloses and the card
+     around it — so it is graded against the lighter one: #888c94 is 3.01:1 on
+     the #f1f2f4 fill and 3.37:1 on the white card. It is darker than this
+     direction's --rating-rule (#8f949c) for that reason alone; the spine only
+     ever touches the card. */
+  --fb-border-color: #888c94;
 }
 
 /* showImages=false → text-only brief (the prototypes' second tweakable prop). */
@@ -197,6 +243,105 @@ body {
 a { color: inherit; }
 button { font: inherit; }
 
+/* ==========================================================================
+   Controls — what everything the reader can press or focus shares
+   --------------------------------------------------------------------------
+   Three properties, one ring, one press. All of it was learned on .reason-chip
+   and never generalised until that control was deleted (2026-09-05): without
+   -webkit-tap-highlight-color iOS paints a grey box over every press, without
+   touch-action it holds the tap 300ms, and a control with no :active is
+   visually dead under a finger, because :hover never fires on touch.
+   .feedback-button and .rating-step keep their own copies — they animate
+   differently and that block is deliberately self-contained.
+   ========================================================================== */
+.skip-link,
+.audio-button,
+.primary-source-link,
+.save-later-button,
+.recommendation-cta,
+.read-later-dismiss,
+.edition-tab,
+.layout-tab,
+.archive-link,
+.feed-chip,
+.feed-cta {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+
+.audio-button:active,
+.primary-source-link:active,
+.save-later-button:active,
+.recommendation-cta:active,
+.read-later-dismiss:active,
+.edition-tab:active,
+.layout-tab:active,
+.archive-link:active,
+.feed-chip:active,
+.feed-cta:active { transform: scale(0.97); }
+
+/* ONE ring, on every focusable thing the page renders. Six controls had no
+   :focus-visible rule at all and fell back to the UA ring, and the two picture
+   links had only a 1.2% image scale, which reads as nothing. Ring on focus,
+   fill on hover — see --focus-ring. */
+.skip-link:focus-visible,
+.audio-button:focus-visible,
+.primary-source-link:focus-visible,
+.save-later-button:focus-visible,
+.recommendation-cta:focus-visible,
+.read-later-dismiss:focus-visible,
+.edition-tab:focus-visible,
+.layout-tab:focus-visible,
+.archive-link:focus-visible,
+.feedback-button:focus-visible,
+.headline-link:focus-visible,
+.story-media-link:focus-visible,
+.recommendation-media-link:focus-visible,
+.recommendation-headline-link:focus-visible,
+.recommendation-short-link:focus-visible,
+.signal-link:focus-visible,
+.klumme-source:focus-visible,
+.key-number-source:focus-visible,
+.primary-excerpt-source:focus-visible,
+.image-credit:focus-visible,
+.read-later-link:focus-visible,
+.archive-entry-link:focus-visible,
+.source-link:focus-visible,
+.feed-chip:focus-visible,
+.feed-cta:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: var(--focus-ring-offset);
+}
+
+/* The exceptions, and the only ones: these links sit on an inverted band, where
+   the teal ring all but disappears. Same 2px, same offset. The Magasin hero is
+   the third of them — its headline sits on var(--ink), where the teal ring came
+   out at 2.80:1, under the 3:1 floor — and it was found on 2026-09-06, the day
+   the focus check started grading rings for contrast instead of only counting
+   them. */
+.mag-keynumber-source:focus-visible,
+.feed-keynumber-source:focus-visible,
+.mag-hero .headline-link:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: var(--focus-ring-offset);
+}
+
+/* The global reduced-motion rule kills `transition`, not `transform`, so a press
+   set outside a transition still moves. Null it here the way the feedback block
+   nulls its own. */
+@media (prefers-reduced-motion: reduce) {
+  .audio-button:active,
+  .primary-source-link:active,
+  .save-later-button:active,
+  .recommendation-cta:active,
+  .read-later-dismiss:active,
+  .edition-tab:active,
+  .layout-tab:active,
+  .archive-link:active,
+  .feed-chip:active,
+  .feed-cta:active { transform: none; }
+}
+
 .masthead {
   width: var(--shell);
   margin: 0 auto;
@@ -227,7 +372,10 @@ button { font: inherit; }
   line-height: 0.92;
 }
 
+/* text-wrap: balance evens the dek's two lines. Without it the 2026-09-05 dek
+   split a proper noun across them ("...New / Zealand kalder historisk"). */
 .masthead-dek {
+  text-wrap: balance;
   max-width: 760px;
   margin: 11px auto 0;
   color: var(--ink);
@@ -244,7 +392,7 @@ button { font: inherit; }
 }
 
 .audio-button {
-  min-height: 38px;
+  min-height: var(--tap-min);
   padding: 0 16px;
   border: 1px solid var(--ink);
   background: transparent;
@@ -262,10 +410,11 @@ button { font: inherit; }
   color: #fff;
 }
 
-.audio-button:hover,
-.audio-button:focus-visible {
-  outline: 2px solid rgba(11, 103, 105, 0.4);
-  outline-offset: 2px;
+/* Hover fills, focus rings. They shared one selector list, so a mouse hover
+   painted the keyboard focus indicator — see --focus-ring. */
+.audio-button:hover {
+  border-color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 7%, transparent);
 }
 
 .audio-button:disabled {
@@ -318,13 +467,27 @@ button { font: inherit; }
 .story-actions {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px 16px;
-  align-items: baseline;
-  margin: 14px 0 0;
+  gap: 10px 12px;
+  /* Center, not baseline. Baseline aligned the two controls by their text, which
+     left a 44px box and a 30px pill sitting 12px off-centre from each other and
+     5px off in the row [measured 2026-09-03]. They are a pair and should read as
+     one row of controls. */
+  align-items: center;
+  margin: 16px 0 0;
 }
 
 .save-later-button {
-  padding: 5px 11px;
+  /* Matched to .primary-source-link: same height, same optical padding, so the pair
+     sits on one line with equal weight. It keeps the pill shape and the lighter rule
+     because it is the secondary action, and that difference should be the ONLY one.
+     Padding is symmetric and measures symmetric: 12px of space each side of the ink
+     at every one of the twelve buttons on the page [measured 2026-09-03]. What made
+     it look wrong was the height and baseline mismatch above, not this box. */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tap-min);
+  padding: 0 16px;
   border: 1px solid var(--rule);
   border-radius: 999px;
   background: transparent;
@@ -332,7 +495,11 @@ button { font: inherit; }
   cursor: pointer;
   font: inherit;
   font-size: 0.74rem;
+  /* Letter-spacing adds a trailing space after the last glyph, which shifts centred
+     text visibly left. Compensate so the ink is optically centred, not just boxed. */
   letter-spacing: 0.01em;
+  text-indent: 0.01em;
+  transition: border-color 140ms ease, color 140ms ease, background-color 140ms ease;
 }
 
 .save-later-button:hover {
@@ -371,6 +538,7 @@ button { font: inherit; }
 
 .klumme-title {
   margin: 8px 0 0;
+  text-wrap: pretty;
   font-family: var(--serif);
   font-size: 1.5rem;
   font-style: italic;
@@ -388,23 +556,21 @@ button { font: inherit; }
   opacity: 0.78;
 }
 
+/* The thesis is the claim; the body is only its reason. At 1.04rem against a
+   0.95rem paragraph it was 9% larger and the two read as one block of prose,
+   with the title at 1.5rem doing all the hierarchy on its own. 1.20rem makes
+   the step visible: 24 / 19.2 / 15.2px.
+   max-width moves WITH the font-size and is not a separate tweak — ch scales
+   with the element's own size, so 60ch at 1.20rem would push this block 83px
+   past the .klumme-body block underneath it and break a flush right edge the
+   two are deliberately holding (566px against 570px) [verified 2026-09-05]. */
 .klumme-thesis {
-  margin: 0 0 12px;
-  max-width: 60ch;
+  margin: 0 0 14px;
+  max-width: 52ch;
   font-family: var(--serif);
-  font-size: 1.04rem;
+  font-size: 1.20rem;
   font-style: italic;
-  line-height: 1.5;
-}
-
-.klumme-horizon {
-  margin: 0 0 12px;
-  color: var(--teal);
-  font-family: var(--sans);
-  font-size: 0.66rem;
-  font-weight: 750;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  line-height: 1.44;
 }
 
 .klumme-body {
@@ -415,19 +581,6 @@ button { font: inherit; }
   margin: 0 0 10px;
   font-size: 0.95rem;
   line-height: 1.62;
-}
-
-.klumme-uncertainty {
-  margin: 16px 0 0;
-  padding: 12px 14px;
-  max-width: 62ch;
-  border: 1px dashed var(--rule);
-}
-
-.klumme-uncertainty-text {
-  margin: 6px 0 0;
-  font-size: 0.88rem;
-  line-height: 1.55;
 }
 
 .klumme-sources {
@@ -481,30 +634,20 @@ button { font: inherit; }
   opacity: 0.75;
 }
 
+/* Same step as editorial, one notch bolder because Magasin is display-driven:
+   36.8 / 21.1 / 16px. No max-width here — the thesis inherits the band's 70ch. */
 .mag-klumme-thesis {
   margin: 0 0 14px;
   font-family: var(--serif);
-  font-size: 1.12rem;
+  font-size: 1.32rem;
   font-style: italic;
-  line-height: 1.5;
+  line-height: 1.42;
 }
 
 .mag-klumme-paragraph {
   margin: 0 0 12px;
   font-size: 1rem;
   line-height: 1.66;
-}
-
-.mag-klumme-uncertainty {
-  margin: 18px 0 0;
-  padding: 14px 16px;
-  border: 1px dashed var(--rule);
-}
-
-.mag-klumme-uncertainty-text {
-  margin: 6px 0 0;
-  font-size: 0.92rem;
-  line-height: 1.55;
 }
 
 /* Feed: a card that deliberately breaks the card rhythm — no media block, no
@@ -538,30 +681,20 @@ button { font: inherit; }
   opacity: 0.75;
 }
 
+/* Feed's title is only 1.3rem, so the thesis stops at 1.14rem: any bigger and
+   the claim starts competing with the headline above it instead of following it. */
 .feed-klumme-thesis {
   margin: 0 0 10px;
   font-family: var(--serif);
-  font-size: 1rem;
+  font-size: 1.14rem;
   font-style: italic;
-  line-height: 1.5;
+  line-height: 1.44;
 }
 
 .feed-klumme-paragraph {
   margin: 0 0 10px;
   font-size: 0.94rem;
   line-height: 1.6;
-}
-
-.feed-klumme-uncertainty {
-  margin: 14px 0 0;
-  padding: 12px 14px;
-  border: 1px dashed var(--rule);
-}
-
-.feed-klumme-uncertainty-text {
-  margin: 6px 0 0;
-  font-size: 0.86rem;
-  line-height: 1.55;
 }
 
 .key-number-slot {
@@ -690,7 +823,30 @@ button { font: inherit; }
 .lead-layout {
   display: flex;
   flex-wrap: wrap;
-  gap: 34px;
+  gap: var(--col-gap);
+  /* Not the default `stretch`. Stretching gave the signals rail the lead
+     article's full 1312px height, so a 592px rail was drawn as a box with 720px
+     of enclosed emptiness inside it, closed off by the section's own double
+     rule. The rail now ends where its last signal ends; app.js fills it to the
+     lead's height from content, which is the other half of the same fix. */
+  align-items: flex-start;
+  /* The 28px between the last signal and the double rule below is these two
+     lines, and it is the designed closing gap — not dead space. Worth writing
+     down, because the "83px of emptiness below Morgenens signaler" reported on
+     2026-09-06 is not below the rail at all: measured in real Chrome at 1440px
+     across the nine briefs 2026-08-29 to 09-06, the space under the rail was
+     exactly 28.0px on seven of them, and the 83px was the RAIL running that far
+     PAST the lead article — so the hole is on the LEFT, under the reaction row.
+     The 1-10 measure is not implicated either way: removing it from the live
+     page changes the lead column's height by 0.0px, because it shares its row
+     with the thumbs and both are 44px.
+     Two of those nine days invert it — 2026-09-03 left 108px under the rail,
+     09-04 left 285px — and no reshuffle of signals can close either.
+     balanceSignalRail has one lever, moving items DOWN, which only ever makes
+     the rail shorter, and on both days every signal already fitted inside the
+     lead's height. If that recurs, the levers are upstream (fewer signals when
+     the lead runs long, which is an editorial decision) or here (this rule
+     stopping short of both columns), never in the mover. */
   padding-bottom: 24px;
   border-bottom: 4px double var(--ink);
 }
@@ -713,27 +869,90 @@ button { font: inherit; }
 
 .expanded-news,
 .short-news-section {
-  margin-top: 14px;
+  margin-top: 26px;
 }
 
-.section-heading {
+/* ONE section label for the whole page. "Dagens vigtigste historier" used to be
+   a centred 12px uppercase label on a 1px rule spanning all 1180px, while the
+   rail headings beside and below it were left-aligned 19px serif on a 3px rule
+   spanning 448px. Neither the alignment, the family, the size nor the rule
+   weight was shared, so the centred label's ink landed 125px off the seam it
+   sat directly above and its hairline crossed the gutter it was meant to
+   organise [measured 2026-09-05]. The left-aligned serif won because it is the
+   stronger object and because left is the one edge every column on the page
+   already shares: masthead, lead, first card, first signal. Each rule now spans
+   exactly the block its label names, and nothing on the page is optically
+   centred against tracking any more. */
+.section-heading,
+.signals-title,
+.recommendation-shortlist-title {
   margin: 0;
-  padding: 11px 0 9px;
-  border-bottom: 1px solid var(--ink);
-  font-family: var(--font-label);
-  font-size: 0.76rem;
-  font-weight: 800;
-  letter-spacing: 0.18em;
-  text-align: center;
-  text-transform: uppercase;
+  padding: 0 0 9px;
+  border-bottom: 3px solid var(--ink);
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+  text-align: left;
+  text-transform: none;
 }
 
-/* Story grid is intrinsically responsive: 2 columns on desktop, 1 below ~900px
-   (handoff: auto-fit, minmax(min(100%, 400px), 1fr)). */
+/* 2 columns on desktop, 1 below. The template is explicit rather than the old
+   repeat(auto-fit, minmax(min(100%, 400px), 1fr)) because the orphan rule below
+   has to know how many columns there are, and auto-fit resolves inside the
+   layout engine where CSS cannot ask it. That is how seven cards in two columns
+   shipped with a 573x1071px dead cell in the right-hand track, immediately
+   before "Kort fortalt" [measured 2026-09-05]. One breakpoint, two rules, and
+   they can never disagree about the column count. */
 .story-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
-  column-gap: 34px;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--col-gap);
+  /* Not the default `stretch`. A grid row is as tall as its taller card, and
+     .feedback-panel's margin-top:auto pushed the shorter card's controls to that
+     borrowed bottom — so the shorter card showed a hole between its last
+     sentence and its thumbs: 123px on one card of today's brief, 26px on two
+     more [measured 2026-09-05]. Each card now ends where its own content ends.
+     The cost is that the two columns' closing rules no longer line up across a
+     row, which is a smaller loss than a hole in the middle of a card. */
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  /* An odd number of cards leaves the last row half empty, so the last card
+     takes the whole width instead and becomes the section's closing story:
+     picture left, text right, at the same 573px measure as every other card.
+     Holds for any story count — the brief targets 7-13, i.e. 6-12 cards — and
+     an even count matches nothing, so the grid is untouched. */
+  .story-grid > .story-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--col-gap);
+    align-content: start;
+  }
+
+  .story-grid > .story-card:last-child:nth-child(odd) > * { grid-column: 2; }
+
+  /* The picture spans every row the text makes, so the wide card cannot grow a
+     hole of its own under a fixed-ratio image. span 99 is "all of them": the
+     extra rows are implicit, empty and zero-height, and row-gap is 0. */
+  .story-grid > .story-card:last-child:nth-child(odd) > .story-media {
+    grid-column: 1;
+    grid-row: 1 / span 99;
+    align-self: stretch;
+    aspect-ratio: auto;
+    margin: 0;
+  }
+
+  /* With the picture hidden the split would leave an empty left column, so the
+     text takes the full width and leans on the measure cap on .story-body. */
+  :root[data-images="off"] .story-grid > .story-card:last-child:nth-child(odd) > * {
+    grid-column: 1 / -1;
+  }
 }
 
 .story-card {
@@ -770,6 +989,11 @@ button { font: inherit; }
 
 .story-media-link:hover img,
 .story-media-link:focus-visible img { transform: scale(1.012); }
+
+/* The nudge is a hover affordance, not a focus indicator: 1.2% on a photograph
+   is invisible, so a keyboard reader could not tell the picture link was
+   focused. What makes it visible is the shared ring near the top of this file;
+   the nudge stays as the flourish. */
 
 .media-fallback {
   display: grid;
@@ -837,9 +1061,13 @@ button { font: inherit; }
   text-transform: uppercase;
 }
 
+/* pretty, not balance: these run several lines, and balance would even them at
+   the cost of the measure. pretty only refuses to leave one word alone on the
+   last line, which is the defect actually visible on the page. */
 .story-headline {
   margin: 0;
   overflow-wrap: anywhere;
+  text-wrap: pretty;
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 2.9rem);
   font-weight: 800;
@@ -873,6 +1101,17 @@ button { font: inherit; }
 
 .story-card .story-subheadline {
   font-size: 1.04rem;
+}
+
+/* The klumme caps its measure at 62ch and the grid cards land near 65 by their
+   own width, but the lead article had no cap at all and ran the full 698px
+   column — the page's most-read prose was its widest [measured 2026-09-05].
+   68ch, so the lead reads at the same rhythm as everything around it and the
+   ragged right it leaves in the lead column is a broadsheet, not an error. */
+.story-body,
+.editorial-continuation,
+.recommendation-flow {
+  max-width: 68ch;
 }
 
 .story-body,
@@ -938,22 +1177,26 @@ button { font: inherit; }
 .primary-source-link {
   display: inline-flex;
   align-items: center;
-  align-self: flex-start;
-  min-height: 44px;
-  margin: 5px 0 0;
-  padding: 0 13px;
+  justify-content: center;
+  /* One height for every control the reader can press, taken from --tap-min,
+     which was declared in :root and used nowhere while the page carried four
+     different button heights. The card's control stack now reads 44 / 44 / 44
+     instead of 40 / 40 / 44 [measured 2026-09-05], and the two buttons here
+     share a type size as well: at 0.77rem against the save button's 0.74rem the
+     0.5px difference read as a mistake rather than a hierarchy. Weight and
+     border carry the difference between primary and secondary; the square-
+     against-pill shape carries the rest. */
+  min-height: var(--tap-min);
+  padding: 0 16px;
   border: 1px solid var(--ink);
-  font-size: 0.77rem;
+  font-size: 0.74rem;
   font-weight: 750;
   text-decoration: none;
 }
 
-.primary-source-link:hover,
-.primary-source-link:focus-visible {
+.primary-source-link:hover {
   background: var(--ink);
   color: var(--paper);
-  outline: 2px solid var(--teal);
-  outline-offset: 2px;
 }
 
 .story-sources {
@@ -968,13 +1211,39 @@ button { font: inherit; }
 
 .source-link { text-underline-offset: 2px; }
 
+/* ==========================================================================
+   The feedback control — two struck marks and a ruled measure.
+
+   The thumbs and the optional 1-10 "udbytte" are ONE object in one 44px band,
+   not two widgets stacked. The measure replaces the ten "Hvorfor" chips: those
+   produced a reason on one vote in ten (11 of 108 recovered votes), a number on
+   every vote is worth more, and a ruled measure is furniture this page already
+   owns — a hairline, a graduation, an ink mark — where a chip row was a form.
+   AT REST THE ROW IS TWO THUMBS [2026-09-06, Alexander]. The measure comes out
+   when a thumb is pressed, which is how the chips behaved — but the chips grew
+   the card 115px under the reader's finger doing it, and that is what got them
+   deleted. The ruler is held back with `visibility` instead, so its box is there
+   the whole time and the panel is the same height before and after the press.
+   Below ~410px of control width that matters absolutely: the ruler wraps onto
+   its own line, and taking it out of layout would move the panel between 44px
+   and 98px (measured in Chrome, 2026-09-06).
+   ========================================================================== */
+
 .feedback-panel {
-  margin-top: auto;
+  margin-top: auto;   /* pins the control to the card bottom so the cards in a
+                         grid row align. Removing this de-aligns the grid. */
   padding-top: 17px;
 }
 
-/* Two round icon buttons (thumb up / thumb down), per the handoff. The icon and
-   active colours come from the theme tokens, so each direction recolours them. */
+/* The one row. It wraps as a unit on a phone rather than letting each half find
+   its own rhythm. */
+.feedback-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 12px;
+}
+
 .feedback-actions {
   display: flex;
   gap: 10px;
@@ -992,22 +1261,56 @@ button { font: inherit; }
   background: var(--fb-bg);
   color: var(--fb-icon);
   cursor: pointer;
-  transition: background-color 140ms ease, color 140ms ease, border-color 140ms ease;
+  /* Learned on .reason-chip and never generalised until now: without these iOS
+     paints a grey box over the press and holds the tap for 300ms. The chip was
+     the only control on the page that had them, and it is being deleted. */
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  transition: background-color 140ms ease, color 140ms ease,
+              border-color 140ms ease, transform 90ms ease;
 }
 
+/* Outline at rest, solid when pressed: state carried by the drawing itself. The
+   page holds ~26 thumbs, so outline is what keeps them from shouting, and the
+   outline-to-solid jump is far more readable while scrolling than the old
+   grey-solid-to-white-solid was. */
 .feedback-button svg {
   width: 22px;
   height: 22px;
-  fill: currentColor;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
   pointer-events: none;
 }
 
-.feedback-button:hover,
-.feedback-button:focus-visible {
-  border-color: var(--ink);
-  outline: 2px solid color-mix(in srgb, var(--teal) 40%, transparent);
-  outline-offset: 2px;
+.feedback-button[aria-pressed="true"] svg,
+.feedback-button.is-selected svg { fill: currentColor; }
+
+/* Split from :focus-visible on purpose. They shared one block, so a mouse hover
+   painted the keyboard focus ring — ~26 of them on one page. */
+.feedback-button:hover { border-color: var(--ink); }
+
+.feedback-button:focus-visible { border-color: var(--ink); }
+
+.feedback-button:active { transform: scale(0.93); }
+
+/* The stamp: the button takes the press and settles, then the glyph punches in
+   40ms behind it. `both` holds the glyph at 0.82 through the delay so the punch
+   reads as a delay rather than a jump. The 3% overshoot is the only new easing
+   on the page, and it is 3%, not a bounce. */
+@keyframes fb-stamp {
+  0%   { transform: scale(0.93); }
+  55%  { transform: scale(1.03); }
+  100% { transform: scale(1); }
 }
+@keyframes fb-punch {
+  from { transform: scale(0.82); }
+  to   { transform: scale(1); }
+}
+.feedback-button.is-stamping     { animation: fb-stamp 240ms cubic-bezier(0.2, 0.8, 0.3, 1); }
+.feedback-button.is-stamping svg { animation: fb-punch 200ms cubic-bezier(0.2, 0.8, 0.3, 1) 40ms both; }
 
 .feedback-more[aria-pressed="true"],
 .feedback-more.is-selected {
@@ -1022,59 +1325,269 @@ button { font: inherit; }
   color: var(--fb-icon-active);
 }
 
-.feedback-reasons { margin-top: 11px; }
+/* --------------------------------------------------------------------------
+   The measure — the optional 1-10 udbytte.
+   No colour lives here at all: the mark is ink, and green and red stay on the
+   thumb. Fifteen coloured fill-bars down the card column would read as a
+   dashboard sitting under a newspaper.
+   -------------------------------------------------------------------------- */
 
-.reason-label {
-  display: block;
-  margin-bottom: 5px;
-  color: var(--muted);
-  font-size: 0.7rem;
+/* One token, extending the --fb-* family rather than inventing a palette, and
+   now one value per direction because each direction paints its own paper.
+   Inheriting --rule put the whole measure — spine and graduation — at 1.57:1
+   (editorial), 1.69 (Magasin), 1.57 (Feed) and 1.84 (dark) against that paper,
+   under WCAG 1.4.11's 3:1 for the marks that identify a control. A ruler you
+   have to look for is not a ruler.
+   Every value below is the LIGHTEST that clears 3:1 on the ground its own
+   direction actually puts behind a card: editorial 3.06:1 on #f6efe4, Magasin
+   3.05:1 on #fbf7f0, Feed 3.05:1 on the white .feed-card, dark 3.06:1 on
+   #14110d. Minimum on purpose, and check-layout.mjs re-computes all four: about
+   fifteen of these lines run down one morning's page, so every tenth of a point
+   above 3:1 is paid for fifteen times. It also keeps the rule quieter than the
+   numerals standing on it (--muted, 4.8-5.5:1), which is the whole reason the
+   ruler reads as a measure and not as a dashboard. Do NOT round up to a "safe"
+   4:1, and do not raise the numerals to match — they already pass. */
+:root                         { --rating-rule: #928878; }
+:root[data-layout="magazine"] { --rating-rule: #998d7c; }
+:root[data-layout="dark"]     { --rating-rule: #6a6055; }
+:root[data-layout="feed"]     { --rating-rule: #8f949c; }
+
+/* HELD BACK UNTIL A THUMB IS PRESSED. `visibility`, not `display: none` and not
+   the `hidden` attribute — measured, not preferred. The ruler and the thumbs are
+   one flex row, but only while the row is wide enough to hold both: at 400px and
+   under it wraps, and the panel is 98px instead of 44px. Removing the ruler from
+   layout there shortens the card by 54px, so pressing a thumb would shove
+   everything below it down under the reader's own finger. That is precisely how
+   the "Hvorfor" chips behaved, and it is why they are gone.
+
+   visibility keeps the box and gives up nothing an accessible hide needs: a
+   visibility:hidden subtree is out of the tab order and out of the accessibility
+   tree, which `opacity: 0` and `pointer-events: none` are NOT. The cost is a
+   reserved empty band under the thumbs on a phone-width card, which is invisible
+   ink; the alternative is a moving page, which is not.
+
+   Written as [data-revealed="false"] rather than :not([data-revealed="true"]) so
+   a scale that reaches the page carrying neither value is a bug that SHOWS,
+   rather than a control that silently disappears. */
+.rating-scale[data-revealed="false"] { visibility: hidden; }
+
+/* flex-basis rather than a viewport media query: the control lives in a 573px
+   card, a 698px lead and a 448px recommendation rail, so it has to key off the
+   container it is actually in. */
+.rating-scale {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  flex: 1 1 300px;
+  min-width: 0;
+  max-width: 460px;
+  height: var(--fb-size);   /* one band with the thumbs */
+  /* Hands the horizontal axis to the scrub in app.js and keeps everything else
+     with the browser. NOT `none`: a vertical swipe that happens to start on the
+     ruler still belongs to the page, and fifteen rulers down a column would
+     otherwise be fifteen scroll traps — the browser takes the pan and hands the
+     scrub a pointercancel, which discards it without voting. `pinch-zoom` is
+     named explicitly because dropping it would quietly cancel the zoom the
+     viewport meta deliberately allows; between them the two keywords also
+     suppress double-tap zoom, which is what .rating-step's `manipulation` was
+     buying and why that declaration can stay as it is. */
+  touch-action: pan-y pinch-zoom;
 }
 
-.reason-chip {
-  min-height: 36px;
-  margin: 0 4px 5px 0;
-  padding: 4px 12px;
-  border: 1px solid var(--rule);
-  border-radius: 999px;
+/* The line of the scale. A ::before rather than a border so each step keeps the
+   full 44px of height, and so the mark can sit ON the line it cancels. 10px up
+   from the bottom puts the scale's optical centre on the thumbs' centre. */
+.rating-scale::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  left: 0;
+  height: 1px;
+  background: var(--rating-rule);
+}
+
+.rating-step {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  padding: 0 0 22px;   /* sets the figure on the rule with 12px of air */
+  border: 0;
   background: transparent;
-  color: var(--ink);
+  /* Every figure carries the page's own muted-text colour. Holding the seven
+     minors back to 55% was tried and measured first — it read beautifully and
+     landed at 2.0-2.3:1 against the ground in all four directions, which is
+     under the floor for the label of a control someone has to tap. The ruler
+     rhythm is carried by the graduation instead (5px minors, 9px at 1/5/10),
+     which costs no legibility at all.
+     If thirteen scales still read busy on the page, the retreat is one rule and
+     no restructuring: hide the seven minor figures and keep their ticks, leaving
+     a bare ruler numbered 1, 5, 10. Never hide them on hover — that is dead on
+     touch. */
+  color: var(--muted);
   font-family: var(--font-label);
-  font-size: 0.71rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
   cursor: pointer;
-  transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease, transform 90ms ease;
-  /* Suppress the grey flash iOS paints over a tapped button, which otherwise
-     competes with the :active state below, and remove the 300ms tap delay. */
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
+  transition: color 120ms ease, transform 90ms ease;
 }
 
-.reason-chip:hover,
-.reason-chip:focus-visible {
-  background: var(--surface);
-  outline: 2px solid color-mix(in srgb, var(--teal) 38%, transparent);
-  outline-offset: 2px;
+/* The graduation. The taller majors at 1, 5 and 10 are what make ten digits read
+   as a measure instead of a row of buttons. They count on .rating-mark being the
+   LAST child of the scale. */
+.rating-step::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  width: 1px;
+  height: 5px;
+  margin-left: -0.5px;
+  background: var(--rating-rule);
+  transition: height 90ms ease, background-color 120ms ease;
 }
-/* A tap must feel like a press. :hover and :focus-visible never fire on a touch
-   tap, so before this the chip was visually inert on a phone and the reader had
-   no way to tell the click had registered. :active gives the immediate press,
-   .is-selected gives the lasting answer, matching .feedback-button above. */
-.reason-chip:active {
-  background: color-mix(in srgb, var(--ink) 12%, transparent);
-  transform: scale(0.96);
+.rating-step:nth-child(1)::after,
+.rating-step:nth-child(5)::after,
+.rating-step:nth-child(10)::after { height: 9px; }
+
+.rating-step:hover { color: var(--ink); }
+.rating-step:hover::after { height: 9px; background: var(--ink); }
+
+/* The one place the house ring goes inward: the cells are contiguous, so an
+   outward ring would sit on its neighbours. Same ring, negated offset. */
+.rating-step:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: calc(-1 * var(--focus-ring-offset));
+  color: var(--ink);
 }
-.reason-chip.is-selected {
+
+.rating-step:active { transform: translateY(1px); }
+
+.rating-step[aria-checked="true"] {
+  color: var(--ink);
+  font-weight: 800;
+}
+/* The mark cancels the graduation it lands on. */
+.rating-step[aria-checked="true"]::after { background: transparent; }
+
+/* The mark: one 3px ink bar — the weight .signals-title already uses for a
+   section rule — that travels along the line to the figure you chose, so a
+   changed mind is one movement instead of a collapse and a redraw. The transform
+   IS its position, which is why the reduced-motion block below must not null it. */
+.rating-mark {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 10%;
+  height: 3px;
   background: var(--ink);
-  border-color: var(--ink);
-  color: var(--paper);
+  opacity: 0;
+  transform: translateX(0) scaleX(0.2);
+  transform-origin: center bottom;
+  pointer-events: none;
+  transition: transform 190ms cubic-bezier(0.2, 0.8, 0.3, 1), opacity 110ms ease;
 }
-.reason-chip.is-selected:hover,
-.reason-chip.is-selected:focus-visible {
-  background: color-mix(in srgb, var(--ink) 86%, var(--paper));
+.rating-scale[data-rating] .rating-mark {
+  opacity: 1;
+  transform: translateX(calc(var(--rating-index) * 100%)) scaleX(1);
 }
+
+/* The opening. A measure being laid down beside the thumbs: the ruler rises 4px
+   and fades while its spine draws out from the left. Short and editorial rather
+   than bouncy — no overshoot, the page's own easing, and nothing that paints
+   outside the box it already occupies, because this can fire on any of thirteen
+   to nineteen panels in one session. The class is removed when the animation
+   ends (see revealRatingScale in app.js), so it never sits on the element. */
+@keyframes rating-reveal {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes rating-spine {
+  from { transform: scaleX(0.12); }
+  to   { transform: scaleX(1); }
+}
+.rating-scale.is-revealing { animation: rating-reveal 200ms cubic-bezier(0.2, 0.8, 0.3, 1); }
+.rating-scale.is-revealing::before {
+  transform-origin: left center;
+  animation: rating-spine 280ms cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+
+/* --------------------------------------------------------------------------
+   The phone half of the measure — everything below exists only while a finger
+   is down, and a mouse never reaches any of it (see the pointerType gate in
+   bindRatingScrub). The desktop control is unchanged.
+
+   The arithmetic that forces this: ten 44px targets need 440px, and the widest
+   phone this control ever gets is 394px, so a cell is 30-38px however it is
+   drawn. Accuracy therefore cannot come from where the finger LANDS. It comes
+   from where the finger LIFTS: land anywhere, read the number off the bubble
+   above the row, slide until it is the one you meant, then let go. Nothing is
+   sent until the release, so a mis-landing costs a small movement instead of a
+   wrong number in the sheet — and the 5/6 slip, which flips the thumb and the
+   only field the weekly topic loop reads, stops being silent.
+   -------------------------------------------------------------------------- */
+
+/* Positioned with the same width:10% + translateX(index * 100%) arithmetic as
+   .rating-mark, so the bubble and the mark can never disagree about where a
+   number lives. Above the row because the finger is on it: the receipt has to
+   be somewhere the hand is not. It sits over the thumbs when the finger is at
+   the low end — deliberate; it is gone before the release stamps one. */
+.rating-bubble {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+  height: 34px;
+  background: var(--ink);
+  color: var(--bg);
+  font-family: var(--font-label);
+  font-size: 1.15rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  /* The one declaration that must never be lost: the bubble is inside the
+     scale, so if it took pointer events it would eat the finger that is
+     steering it the moment the scrub reached its own column. */
+  pointer-events: none;
+  transform: translateX(calc(var(--rating-preview) * 100%));
+  /* Like .rating-mark, the transform IS its position — the global reduced-motion
+     rule nulls `transition`, which is the correct half to kill here. */
+  transition: transform 90ms cubic-bezier(0.2, 0.8, 0.3, 1);
+}
+
+/* The previewed figure borrows the hover treatment, which is dead on touch
+   anyway. Nothing here paints outside .is-scrubbing, so the resting ruler on any
+   device is byte-identical to what it was. */
+.rating-scale.is-scrubbing .rating-step[data-preview="true"] {
+  color: var(--ink);
+  font-weight: 800;
+}
+.rating-scale.is-scrubbing .rating-step[data-preview="true"]::after {
+  height: 9px;
+  background: var(--ink);
+}
+
+/* The global reduced-motion rule kills `transition` but NOT `animation`, and it
+   must not null the mark's transform. Both halves are handled here. */
 @media (prefers-reduced-motion: reduce) {
-  .reason-chip { transition: none; }
-  .reason-chip:active { transform: none; }
+  .feedback-button.is-stamping,
+  .feedback-button.is-stamping svg { animation: none !important; }
+  /* The reveal is a state change, not decoration, so it still happens — it just
+     happens instantly. Both halves are named because `animation` on the element
+     says nothing about the pseudo-element's. */
+  .rating-scale.is-revealing,
+  .rating-scale.is-revealing::before { animation: none !important; }
+  .feedback-button:active,
+  .rating-step:active { transform: none; }
 }
 
 .lead-signals {
@@ -1089,15 +1602,6 @@ button { font: inherit; }
     padding-top: 19px;
     border-top: 1px solid var(--ink);
   }
-}
-
-.signals-title {
-  margin: 0;
-  padding: 0 0 9px;
-  border-bottom: 3px solid var(--ink);
-  font-family: var(--serif);
-  font-size: 1.18rem;
-  line-height: 1.1;
 }
 
 .signal-item {
@@ -1133,12 +1637,56 @@ button { font: inherit; }
   line-height: 1.4;
 }
 
-/* "Kort fortalt": up to 3 columns, fewer as width drops (handoff:
-   auto-fit, minmax(min(100%, 300px), 1fr)). */
-.short-news {
+/* "Kort fortalt": three items to a row on desktop, two at tablet, one below.
+   Laid on six tracks rather than three so the last row can always be filled —
+   with three tracks, five signals left a 376x149px empty third cell, the same
+   defect as the story grid one section up [measured 2026-09-05]. Six tracks of
+   a shared gutter give exactly the old widths (span 2 = 376px at 1180px), and
+   a half-row of two can widen to span 3 each instead of orphaning a track. */
+.short-news,
+.mag-signals-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  column-gap: 26px;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--col-gap);
+}
+
+@media (min-width: 720px) {
+  .short-news,
+  .mag-signals-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+  .short-news > .signal-item,
+  .mag-signals-grid > .signal-item { grid-column: span 3; }
+}
+
+/* The two-per-row band, 720 to 899. It needs its own orphan rule and cannot
+   borrow the desktop one: at two items to a row there is no half-row-of-two
+   case, and the 3n+1 selectors below are arithmetic for three tracks, so at
+   800px an odd count left the last item alone with a 393px dead cell beside it
+   — exactly the defect item 5 names, measured on the real 2026-09-05 brief.
+   Bounded at the top on purpose: an unbounded `:nth-child(odd):last-child`
+   would leak into desktop and widen, say, a ninth item that closes its row
+   perfectly well there. */
+@media (min-width: 720px) and (max-width: 899.98px) {
+  .short-news > .signal-item:nth-child(odd):last-child,
+  .mag-signals-grid > .signal-item:nth-child(odd):last-child { grid-column: span 6; }
+}
+
+@media (min-width: 900px) {
+  .short-news > .signal-item,
+  .mag-signals-grid > .signal-item { grid-column: span 2; }
+
+  /* A last row holding two items: both widen to half the section. The selector
+     reads "starts a row AND is second from last", which is only true when
+     exactly two items remain. */
+  .short-news > .signal-item:nth-child(3n + 1):nth-last-child(2),
+  .short-news > .signal-item:nth-child(3n + 1):nth-last-child(2) ~ .signal-item,
+  .mag-signals-grid > .signal-item:nth-child(3n + 1):nth-last-child(2),
+  .mag-signals-grid > .signal-item:nth-child(3n + 1):nth-last-child(2) ~ .signal-item {
+    grid-column: span 3;
+  }
+
+  /* A last row holding one item: it takes the whole width. */
+  .short-news > .signal-item:nth-child(3n + 1):last-child,
+  .mag-signals-grid > .signal-item:nth-child(3n + 1):last-child { grid-column: span 6; }
 }
 
 .short-news .signal-item {
@@ -1152,23 +1700,26 @@ button { font: inherit; }
 }
 
 .recommendations-header {
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
+/* Heading and subtitle are one block here, so the rule sits under the pair
+   rather than between them — but it is the same 3px rule every other section
+   label gets, on the same left edge. */
 .recommendations-section .section-heading {
   border-bottom: 0;
   padding-bottom: 2px;
 }
 
 .recommendations-subtitle {
-  margin: 0 0 9px;
+  margin: 0;
   padding-bottom: 9px;
-  border-bottom: 1px solid var(--ink);
+  border-bottom: 3px solid var(--ink);
   color: var(--teal);
   font-size: 0.72rem;
   font-weight: 800;
   letter-spacing: 0.14em;
-  text-align: center;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -1191,7 +1742,8 @@ button { font: inherit; }
 .recs-layout {
   display: flex;
   flex-wrap: wrap;
-  gap: 34px;
+  gap: var(--col-gap);
+  align-items: flex-start;
   padding-bottom: 24px;
   border-bottom: 4px double var(--ink);
 }
@@ -1233,10 +1785,63 @@ button { font: inherit; }
   aspect-ratio: 16 / 9;
 }
 
+/* Unless the picture is a portrait — which, in this section, means a book cover.
+   The 16:9 hero showed 37% of one: a horizontal band across its middle, from a
+   329px source stretched to 698px [measured 2026-09-05]. A cover should be shown
+   whole and at its own pixels. No stylesheet can know a picture's shape, so the
+   image says so once it has loaded (renderRecommendationMedia), and the card
+   re-lays itself around the answer. */
+.recommendation-media[data-orientation="portrait"],
+.recs-layout .recommendation-featured-card .recommendation-media[data-orientation="portrait"] {
+  /* Both selectors on purpose: the featured rule above is three classes deep, so
+     a single-class override loses to it and the cover keeps the 16:9 crop. */
+  aspect-ratio: auto;
+  max-width: min(100%, 320px);
+  background: transparent;
+}
+
+.recommendation-media[data-orientation="portrait"] img {
+  height: auto;
+  object-fit: contain;
+}
+
+.recommendation-media[data-orientation="portrait"] .recommendation-media-link {
+  height: auto;
+}
+
+/* Beside the text rather than above it, once there is room for both: a cover
+   sitting over a 698px measure leaves the card top-heavy and half empty. 240px
+   is chosen from what the text column then has left — 424px, which is the width
+   at which the thumbs and the 1-10 measure still sit on one row, the way they do
+   in every other panel on the page [measured 2026-09-05]. */
+@media (min-width: 900px) {
+  .recs-layout .recommendation-featured-card[data-media-orientation="portrait"] {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    column-gap: var(--col-gap);
+    align-items: start;
+  }
+
+  .recs-layout .recommendation-featured-card[data-media-orientation="portrait"] .recommendation-media {
+    max-width: 100%;
+    margin: 0;
+  }
+}
+
+/* Same shape and the same orphan rule as .story-grid. Normally empty in the
+   editorial layout, where every non-featured pick is a shortlist row — and it
+   is hidden outright in that case (src/web/render/recommendation.js), because
+   an empty div left in the DOM is a box waiting for someone to give it padding. */
 .recommendation-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr));
-  column-gap: 34px;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: var(--col-gap);
+  align-items: start;
+}
+
+@media (min-width: 900px) {
+  .recommendation-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .recommendation-grid > .recommendation:last-child:nth-child(odd) { grid-column: 1 / -1; }
 }
 
 /* The shortlist: many links, one line each. Deliberately typographic and dense
@@ -1247,15 +1852,8 @@ button { font: inherit; }
   border-top: 1px solid var(--rule);
 }
 
-/* Mirrors .signals-title on the news rail. */
-.recommendation-shortlist-title {
-  margin: 0;
-  padding: 0 0 9px;
-  border-bottom: 3px solid var(--ink);
-  font-family: var(--serif);
-  font-size: 1.18rem;
-  line-height: 1.1;
-}
+/* Shape and spacing only: the type is shared with .section-heading above, so
+   every label on the page is one object. */
 
 .recommendation-short {
   padding: 13px 0 12px;
@@ -1371,6 +1969,7 @@ button { font: inherit; }
 .recommendation-headline {
   margin: 0;
   overflow-wrap: anywhere;
+  text-wrap: pretty;
   font-family: var(--serif);
   font-weight: 700;
   hyphens: manual;
@@ -1417,7 +2016,7 @@ button { font: inherit; }
   display: inline-flex;
   align-items: center;
   align-self: flex-start;
-  min-height: 44px;
+  min-height: var(--tap-min);
   margin: 3px 0 0;
   padding: 0 13px;
   border: 1px solid var(--ink);
@@ -1426,16 +2025,14 @@ button { font: inherit; }
   text-decoration: none;
 }
 
-.recommendation-cta:hover,
-.recommendation-cta:focus-visible {
+.recommendation-cta:hover {
   background: var(--ink);
   color: var(--paper);
-  outline: 2px solid var(--teal);
-  outline-offset: 2px;
 }
 
 .page-footer {
-  padding: 27px 16px;
+  /* Same edge as the top bar and the shell — see --gutter. */
+  padding: 27px max(var(--gutter), calc((100% - var(--shell)) / 2));
   border-top: 1px solid var(--rule);
   color: var(--muted);
   text-align: center;
@@ -1456,6 +2053,9 @@ button { font: inherit; }
   font-size: 0.8rem;
   opacity: 0;
   pointer-events: none;
+  /* The status now has a lifetime (setFeedbackStatus clears it after 4s), so it
+     fades out instead of snapping away mid-sentence. */
+  transition: opacity 180ms ease;
 }
 
 .sr-status:not(:empty) { opacity: 1; }
@@ -1488,7 +2088,16 @@ button { font: inherit; }
   justify-content: center;
   gap: 6px 16px;
   width: 100%;
-  padding: 9px 16px;
+  /* The shell's own side margin, so the bar's CONTENT BOX ends exactly where the
+     news column does and the strip never runs wider than the page. The pills
+     themselves are centred inside it (justify-content above), the way the
+     masthead and the footer are centred — so the bar's first pill does NOT sit
+     on the lead story's left edge, and the claim that it does was wrong when it
+     was written here [corrected 2026-09-06, measured: shell edge 130.0px, first
+     pill 322.9px at 1440px]. Chrome is centred, content is left-aligned; that is
+     the composition, not an alignment bug. max() keeps a gutter when the
+     viewport is narrower than the shell (a scrollbar-inflated 100vw). */
+  padding: 9px max(var(--gutter), calc((100% - var(--shell)) / 2));
   background: var(--surface);
   border-bottom: 1px solid var(--rule);
 }
@@ -1524,7 +2133,10 @@ button { font: inherit; }
 .archive-link {
   display: inline-flex;
   align-items: center;
-  min-height: 36px;
+  /* --tap-min, like every other control the reader presses. These were 36px —
+     below the touch floor the token was written to enforce, on the device he
+     actually reads on. */
+  min-height: var(--tap-min);
   padding: 5px 14px;
   border: 0;
   border-radius: 999px;
@@ -1545,11 +2157,38 @@ button { font: inherit; }
   background: color-mix(in srgb, var(--ink) 9%, transparent);
 }
 
-.edition-tab:focus-visible,
-.layout-tab:focus-visible,
-.archive-link:focus-visible {
-  outline: 2px solid var(--ink);
-  outline-offset: 2px;
+/* On a phone the bar wrapped to five rows and 205px [measured 2026-09-05 at
+   375px]: a quarter of the screen was navigation before the brand appeared, and
+   the wrap orphaned single pills — "Arkiv" alone on row two, "Mørk" alone on row
+   five. One row that scrolls sideways instead. Nothing is ever alone on a line,
+   the masthead starts at the top of the page, and no pill has to shrink below
+   the touch floor to fit. */
+@media (max-width: 700px) {
+  .top-bar {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+    gap: 4px 10px;
+  }
+
+  .top-bar::-webkit-scrollbar { display: none; }
+
+  .edition-nav,
+  .top-bar > div,
+  .layout-nav { flex: 0 0 auto; flex-wrap: nowrap; }
+
+  .top-bar-divider { flex: 0 0 auto; }
+
+  .edition-tab,
+  .layout-tab,
+  .archive-link,
+  .layout-nav-label { white-space: nowrap; }
+
+  .edition-tab,
+  .layout-tab,
+  .archive-link { padding: 5px 11px; }
 }
 
 /* Active = a calm, neutral pill (ink on its own bg), not the brand accent — the
@@ -1590,7 +2229,9 @@ button { font: inherit; }
 .page-shell-weekly,
 .page-shell-monthly,
 .page-shell-yearly {
-  width: min(1180px, calc(100% - 24px));
+  /* Same edge as every other section. It was min(1180px, 100% - 24px) — a
+     fourth outer margin on a page that now has one. */
+  width: var(--shell);
 }
 
 .page-shell-weekly > section + section,
@@ -1746,8 +2387,12 @@ button { font: inherit; }
 
 /* "Gemt til senere": a subtle boxed list of stories the reader marked to revisit.
    Stays out of the way until there is something pending. */
+/* 100%, not var(--shell): this box lives INSIDE .page-shell, and --shell is a
+   percentage of whatever reads it, so var(--shell) here would inset it by a
+   second gutter. Editorial and dark only — Magasin and Feed replace the shell's
+   children outright, so this section does not exist there. */
 .read-later {
-  width: var(--shell);
+  width: 100%;
   margin: 28px auto 0;
   padding: 16px 18px;
   border: 1px solid var(--rule);
@@ -1796,11 +2441,6 @@ button { font: inherit; }
 
 .read-later-link:hover { text-decoration: underline; }
 
-.read-later-link:focus-visible {
-  outline: 2px solid rgba(11, 103, 105, 0.38);
-  outline-offset: 2px;
-}
-
 .read-later-meta {
   grid-column: 1;
   margin: 2px 0 0;
@@ -1811,8 +2451,8 @@ button { font: inherit; }
 .read-later-dismiss {
   grid-row: 1 / span 2;
   grid-column: 2;
-  min-width: 44px;
-  min-height: 44px;
+  min-width: var(--tap-min);
+  min-height: var(--tap-min);
   border: 1px solid var(--rule);
   background: transparent;
   color: var(--ink);
@@ -1821,11 +2461,9 @@ button { font: inherit; }
   cursor: pointer;
 }
 
-.read-later-dismiss:hover,
-.read-later-dismiss:focus-visible {
+.read-later-dismiss:hover {
   background: var(--paper);
-  outline: 2px solid rgba(11, 103, 105, 0.38);
-  outline-offset: 2px;
+  border-color: var(--ink);
 }
 
 /* ==========================================================================
@@ -1842,7 +2480,7 @@ button { font: inherit; }
   margin: 0 auto 64px;
 }
 :root[data-layout="magazine"] .masthead {
-  width: min(1240px, 94vw);
+  width: min(1240px, calc(100% - 2 * var(--gutter)));
   border-bottom: 2px solid var(--ink);
 }
 :root[data-layout="magazine"] .masthead h1 {
@@ -1861,8 +2499,10 @@ button { font: inherit; }
 :root[data-layout="magazine"] .recommendation-headline,
 :root[data-layout="magazine"] .signal-link { font-weight: 400; }
 
+/* Wider than --shell on purpose (Magasin breaks out of the centred column), but
+   off the SAME gutter, so the two directions share an outer edge. */
 .mag-inner {
-  width: min(1240px, 94vw);
+  width: min(1240px, calc(100% - 2 * var(--gutter)));
   margin: 0 auto;
 }
 
@@ -1889,7 +2529,7 @@ button { font: inherit; }
 .mag-hero-credit { right: 10px; bottom: 8px; }
 .mag-hero-inner {
   position: relative;
-  width: min(1240px, 94vw);
+  width: min(1240px, calc(100% - 2 * var(--gutter)));
   margin: 0 auto;
   padding: 0 0 clamp(30px, 5vw, 68px);
   color: #fff;
@@ -1934,7 +2574,7 @@ button { font: inherit; }
 }
 
 .mag-reading {
-  width: min(720px, 92vw);
+  width: min(720px, calc(100% - 2 * var(--gutter)));
   margin: clamp(28px, 4vw, 48px) auto 0;
 }
 .mag-reading-article { display: block; }
@@ -1942,18 +2582,17 @@ button { font: inherit; }
 .mag-band { margin-top: clamp(36px, 5vw, 64px); padding: clamp(30px, 4vw, 52px) 0; }
 .mag-signals { background: var(--surface); }
 .mag-band-title {
-  width: min(1240px, 94vw);
+  width: min(1240px, calc(100% - 2 * var(--gutter)));
   margin: 0 auto 18px;
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 400;
 }
+/* Column behaviour (and the orphan rules) are shared with .short-news above —
+   it is the same three-up list of signals, so it gets the same last row. */
 .mag-signals-grid {
-  width: min(1240px, 94vw);
+  width: min(1240px, calc(100% - 2 * var(--gutter)));
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
-  column-gap: 30px;
 }
 
 .mag-stories,
@@ -2021,7 +2660,7 @@ button { font: inherit; }
   display: flex;
   align-items: center;
   gap: 12px;
-  width: min(480px, 94vw);
+  width: min(480px, calc(100% - 2 * var(--gutter)));
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -2058,7 +2697,7 @@ button { font: inherit; }
   gap: 8px;
   overflow-x: auto;
   scrollbar-width: none;
-  width: min(480px, 94vw);
+  width: min(480px, calc(100% - 2 * var(--gutter)));
   margin: 0 auto;
   padding: 0 0 10px;
 }
@@ -2085,7 +2724,7 @@ button { font: inherit; }
   display: flex;
   flex-direction: column;
   gap: 14px;
-  width: min(480px, 94vw);
+  width: min(480px, calc(100% - 2 * var(--gutter)));
   margin: 16px auto 60px;
 }
 .feed-stories { display: flex; flex-direction: column; gap: 14px; }
@@ -2177,7 +2816,7 @@ button { font: inherit; }
   text-decoration: none;
 }
 .feed-cta:hover { background: #000; }
-.feed-cta:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
 .feed-card .feedback-panel { margin-top: 14px; padding-top: 0; }
 .feed-card .story-sources { margin-top: 12px; }
 
@@ -2360,7 +2999,7 @@ button { font: inherit; }
     <p>Fakta, fortolkning og kilder er samlet i et læsbart flow.</p>
   </footer>
   <p id="feedback-status" class="sr-status" aria-live="polite"></p>
-  <script>globalThis.__BRIEF_DATA__ = {"schemaVersion":1,"kind":"daily","runId":"run-2026-09-14-a","date":"2026-09-14","generatedAt":"2026-09-14T06:00:00Z","readingMinutes":11,"title":"Alexanders Brief — 14. september 2026","dek":"Claude Code som missilingeniør, et svensk valg afgjort af ét mandat, en dansk vurderingsfejl ingen oplyste om, og hvorfor AI ikke sender lønnen mod nul.","profileWeights":{"importance":25,"decisionValue":20,"novelty":15,"sourceQuality":15,"personalRelevance":15,"contrast":10},"stories":[{"id":"story-anthropic-yemen-missile-2026","eventKey":"anthropic-threat-report-2026-09","materialFacts":["Yemen-baseret celle brugte Claude Code i stedet for menneskelige softwareingeniører til at udvikle styrings- og navigationssoftware til missilfamilien R2000, inklusive en hypersonisk glidevariant.","En test af en styret raket fejlede ifølge Anthropics egen vurdering.","Anthropic har ingen beviser for et fungerende våben og har lukket de tilknyttede konti.","Samme rapport dokumenterer parallel russisk og kinesisk statslinket misbrug af Claude til cyberspionage."],"section":"Verden","headline":"Anthropic claims Claude AI used for missile projects, global espionage","primarySourceUrl":"https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage","subheadline":"Trusselsrapport fra AI-selskabet viser, hvordan Claude Code blev brugt som stedfortræder for et helt ingeniørhold på et missilprogram i Yemen","body":["En celle i det nordlige Yemen har ifølge Anthropics trusselsrapport fra september 2026 brugt Claude Code som stedfortræder for softwareingeniører til at udvikle styringssoftware til missilfamilien R2000, herunder en hypersonisk glidevariant, med et rækkeviddemål over 2.000 kilometer.","En test af en styret raket fejlede; operatørerne vendte inden for timer tilbage til Claude for at analysere fejlen. Anthropic har ingen beviser for et fungerende våben og har lukket kontiene. Samme rapport dokumenterer parallel russisk og kinesisk statslinket misbrug til cyberspionage mod Ukraine, Europa og virksomhedsnetværk."],"whyItMatters":"Det centrale er, at sprogmodeller nu kan erstatte et helt ingeniørhold, ikke blot assistere enkeltopgaver. Cellen delte arbejdet på separate sessioner og skjulte formålet — den opdeling, indholdsfiltre har svært ved at fange.","analysis":"Det ændrer trusselsmodellen: forsvaret kan ikke regne med, at ét afvist promt stopper et projekt, når arbejdet spredes over samtaler, hvoraf ingen alene afslører billedet.","counterpoint":"Rapporten er skrevet af Anthropic selv, der har kommerciel interesse i at fremstå årvågen; at intet våben blev færdiggjort, er selskabets egen vurdering, ikke efterprøvet her.","topics":["ai","cyber","forsvar","magt"],"entities":["Anthropic","Claude","Houthi-bevægelsen","Midnight Blizzard"],"isLead":true,"isOutsideProfile":false,"scores":{"importance":92,"decisionValue":85,"novelty":80,"sourceQuality":90,"personalRelevance":70,"contrast":60},"claims":[{"text":"En Yemen-baseret celle brugte Claude Code i stedet for menneskelige softwareingeniører til at udvikle styrings-, navigations- og kontrolsoftware til missilfamilien R2000, herunder en hypersonisk glidevariant, med et opgivet rækkeviddemål over 2.000 km.","sourceUrls":["https://www.anthropic.com/threat-intelligence-report-september-2026","https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage"],"confidence":"high"},{"text":"Anthropic siger, man ikke har beviser for et fungerende våben, og at de tilknyttede konti er lukket.","sourceUrls":["https://www.anthropic.com/threat-intelligence-report-september-2026","https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/"],"confidence":"high"},{"text":"Samme rapport dokumenterer russisk-linket (Midnight Blizzard) og kinesisk-linket brug af Claude til henholdsvis cyberspionage mod Ukraine/Europa og orkestrering af angreb mod virksomheds- og statsnetværk.","sourceUrls":["https://www.anthropic.com/threat-intelligence-report-september-2026"],"confidence":"medium"}],"sources":[{"title":"Anthropic claims Claude AI used for missile projects, global espionage","publisher":"Al Jazeera","url":"https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage","publishedAt":"2026-09-11T10:00:00Z","kind":"reporting"},{"title":"Detecting and countering misuse of AI: September 2026","publisher":"Anthropic","url":"https://www.anthropic.com/threat-intelligence-report-september-2026","publishedAt":"2026-09-11T08:00:00Z","kind":"primary"},{"title":"Rebels used Anthropic's AI bot to develop guided weapons, report says","publisher":"The Washington Post","url":"https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/","publishedAt":"2026-09-11T12:00:00Z","kind":"reporting"}],"image":{"url":"https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa37d4d-1789099341.jpg?resize=1920%2C1440","credit":"Kilde: Al Jazeera","alt":"Anthropic claims Claude AI used for missile projects, global espionage","sourceUrl":"https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage"}},{"id":"story-ukraine-poland-border-2026","eventKey":"ukraine-poland-border-strike-2026-09","materialFacts":["Et russisk angreb ramte nær Jahodyn-grænseovergangen til Polen 13. september, kort efter et diplomattogs passage.","En tankstation blev beskadiget; samme døgn skabte russiske droneangreb strømafbrydelser i Rivne-området og skader på et industrianlæg i Ivano-Frankivsk."],"section":"Verden","headline":"Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen","primarySourceUrl":"https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen","subheadline":"Et russisk angreb nær den polske grænse, minutter efter et diplomattogs passage, viser hvor tæt krigen nu er på NATO-territorium","body":["Et russisk angreb ramte natten til 13. september nær Jahodyn-grænseovergangen mellem Ukraine og Polen, kort efter at et diplomattog var passeret gennem området. En nærliggende tankstation blev beskadiget; ingen kom efter det oplyste til skade ved selve angrebet.","Samme døgn skabte russiske droneangreb strømafbrydelser i dele af Rivne og Dubno, mens et industrianlæg i Ivano-Frankivsk blev ramt ved daggry, hvor én person kom til skade."],"whyItMatters":"Et angreb minutter fra et NATO-lands grænse, mod et område et diplomattog lige havde forladt, gør 'ingen skade denne gang' til en skrøbelig sætning snarere end en beroligelse.","analysis":"Hændelsen føjer sig til et mønster af russiske angreb tættere på NATO-grænsen, uden at nogen enkelt hændelse alene udgør en eskalation. Det er summen, ikke den enkelte nat, der er historien — og det bærer denne ene kilde ikke alene.","topics":["forsvar","geopolitik","nato"],"entities":["Ukraine","Rusland","Polen","NATO"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":70,"decisionValue":50,"novelty":40,"sourceQuality":62,"personalRelevance":45,"contrast":30},"claims":[{"text":"Et russisk angreb ramte nær Jahodyn-grænseovergangen til Polen 13. september, kort efter et diplomattogs passage; en tankstation blev beskadiget.","sourceUrls":["https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"],"confidence":"medium"},{"text":"Samme døgn skabte russiske droneangreb strømafbrydelser i Rivne-området og skader på et industrianlæg i Ivano-Frankivsk, hvor en person kom til skade.","sourceUrls":["https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"],"confidence":"medium"}],"sources":[{"title":"Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen","publisher":"DR","url":"https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen","publishedAt":"2026-09-13T18:00:00Z","kind":"reporting"}],"image":{"url":"https://asset.dr.dk/drdk/umbraco-images/frkfu3mn/20220824-173551-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29","credit":"Kilde: DR","alt":"Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen","sourceUrl":"https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"}},{"id":"story-dk-datacentre-elforbrug-2026","eventKey":"dk-datacentre-elforbrug-2026-09","materialFacts":["29 nye datacenterprojekter er på vej i Danmark.","Energistyrelsens prognose for datacentres elforbrug i 2040 er fordoblet på et år til 29 TWh.","Energinet har indført nødlovgivning, der giver nye datacentre laveste prioritet i køen til elnettet."],"section":"Danmark","headline":"Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug","primarySourceUrl":"https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug","subheadline":"29 nye datacentre er på vej mod Danmark, mens Energistyrelsens prognose for elforbruget er fordoblet på et år","body":["29 nye datacenterprojekter er på vej i Danmark, mens eksperter kræver svar fra regeringen om elforbruget, som myndighederne ifølge Version2 ikke selv kan gøre rede for. Energistyrelsens fremskrivning er fordoblet på et år: forbruget ventes at nå 29 TWh i 2040.","Det svarer til 17 procent af Danmarks elforbrug over ti år. Energinet indførte i foråret nødlov med laveste netprioritet for nye datacentre, efter at branchens vækst i 2025 pressede nettet."],"whyItMatters":"Det er ikke længere et spørgsmål om, hvorvidt datacentre presser elnettet, men om regeringen kender omfanget, den selv skal planlægge efter. En fordoblet prognose på et år er et stort spring i usikkerhed for en fastplanlagt sektor.","analysis":"Nødprioriteringen løser symptomet — hvem der kobles fra i en flaskehals — uden at røre problemet: væksten er efterspørgselsdrevet, og energiplanlægningen forsøger bagudrettet at følge med snarere end at styre den.","topics":["energi","teknologisk-suverænitet","danmark"],"entities":["Energinet","Energistyrelsen"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":75,"decisionValue":72,"novelty":65,"sourceQuality":78,"personalRelevance":68,"contrast":45},"claims":[{"text":"29 nye datacenterprojekter er på vej mod Danmark.","sourceUrls":["https://www.version2.dk/artikel/mens-protesterne-vokser-er-29-nye-datacentre-paa-vej-mod-danmark-her-skal-de-ligge"],"confidence":"medium"},{"text":"Energistyrelsens prognose for datacentres elforbrug er fordoblet til 29 TWh i 2040, en stigning på 17 procent af Danmarks samlede elforbrug over ti år, og Energinet har indført nødlovgivning med laveste netprioritet for nye datacentre.","sourceUrls":["https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug"],"confidence":"medium"}],"sources":[{"title":"Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug","publisher":"Version2","url":"https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug","publishedAt":"2026-09-12T09:00:00Z","kind":"reporting"},{"title":"Mens protesterne vokser, er 29 nye datacentre på vej mod Danmark: Her skal de ligge","publisher":"Version2","url":"https://www.version2.dk/artikel/mens-protesterne-vokser-er-29-nye-datacentre-paa-vej-mod-danmark-her-skal-de-ligge","publishedAt":"2026-09-10T09:00:00Z","kind":"reporting"}],"image":{"url":"https://www.version2.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-09/20260629-135008-l-8116x5411ma.jpg?h=1b8516a7&itok=AOHDxzNK","credit":"Kilde: Version2","alt":"Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug","sourceUrl":"https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug"}},{"id":"story-ai-language-homogenization-2026","eventKey":"ai-language-homogenization-nature-2026","materialFacts":["En analyse af 880.000 tekster i Nature Human Behaviour finder, at skriftsproget er blevet mindre varieret siden ChatGPT-brugens udbredelse.","Modellerne bevarer betydning men komprimerer ordvalgsvariation og forfatterkendetegn."],"section":"Videnskab","headline":"AI writing assistants shrink linguistic diversity and blur personal identity","primarySourceUrl":"https://www.nature.com/articles/s41562-026-02549-7","subheadline":"880.000 teksters analyse i Nature Human Behaviour viser, at sprogmodeller komprimerer sprogets variation, selvom betydningen bevares","body":["En analyse af 880.000 tekster i Nature Human Behaviour viser, at skriftsproget er blevet mindre varieret, siden sprogmodeller som ChatGPT bredte sig. Modellerne bevarer tekstens betydning, men komprimerer variationen i ordvalg og de forfatterkendetegn, sproget tidligere afslørede.","Effekten er ikke en forsimpling af den enkelte tekst — den bliver ofte mere kompleks — men en indsnævring af, hvor forskellige tekster er fra hinanden, når mange bruger de samme værktøjer."],"whyItMatters":"Det er et konkret modsyn til antagelsen om, at AI-skriveværktøjer blot er neutrale hjælpemidler: de flader den kollektive sprogvariation ud, selv når den enkelte tekst bliver bedre skrevet.","analysis":"Hvis sprogets variation er et spor af tænkningens variation, er fundet et argument for, at AI-assisteret skrivning har en pris, der ikke viser sig i én tekst, men i mængden — en effekt, ingen bruger selv kan observere.","topics":["ai","psykologi","videnskab"],"entities":["Nature Human Behaviour"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":65,"decisionValue":55,"novelty":75,"sourceQuality":82,"personalRelevance":55,"contrast":80},"claims":[{"text":"En analyse af 880.000 tekster i Nature Human Behaviour finder, at skriftsproget er blevet mindre varieret, siden brugen af ChatGPT bredte sig, mens betydningen bevares.","sourceUrls":["https://www.nature.com/articles/s41562-026-02549-7"],"confidence":"medium"}],"sources":[{"title":"AI writing assistants shrink linguistic diversity and blur personal identity","publisher":"Nature Human Behaviour","url":"https://www.nature.com/articles/s41562-026-02549-7","publishedAt":"2026-09-08T09:00:00Z","kind":"primary"}]},{"id":"story-sweden-election-2026","eventKey":"sweden-election-hung-parliament-2026-09","materialFacts":["Med 94 procent optalt fører rød-grøn blok 176-175 mandater over Tidö-samarbejdet.","SVT giver 90 procents sandsynlighed for et 175-174-resultat i oppositionens favør efter udlandsstemmer tælles 16. september.","Det nye Riksdag samles 28. september; valgdeltagelsen faldt til ca. 80,4 procent."],"section":"Verden","headline":"Regeringsbildningen efter valet kan bli utdragen","primarySourceUrl":"https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026","subheadline":"Med 94 procent optalt skiller kun ét mandat rød-grøn blok fra Tidö-samarbejdet, og regeringsdannelsen kan trække ud i ugevis","body":["Med 94 procent optalt står rød-grøn blok (S, MP, V, C) til 176 mandater mod Tidö-samarbejdets 175. SVT's prognose giver 90 procents sandsynlighed for 175-174 i oppositionens favør, når udlandsstemmerne er talt 16. september.","Riksdagen samles 28. september, hvorefter talmandsrunder begynder. Kristersson siger, 'det rigtige er vigtigere end det hurtige'; valgdeltagelsen faldt til ca. 80,4 procent, ned fra 84 i 2022."],"whyItMatters":"Et nabolands regering afgøres af et enkelt mandat, i et land hvor politisk stabilitet har været en dansk forudsætning. En langtrukken regeringsdannelse er usikkerhed om nordisk sikkerheds- og udenrigspolitisk linje, i en periode hvor begge er under pres.","analysis":"Det faldende fremmøde er lige så interessant som mandaterne: et valg, hvor ét sæde afgør magten, burde mobilisere flere vælgere, ikke færre. At det modsatte sker, tyder på, at tætte valg ikke længere opleves som afgørende.","topics":["geopolitik","norden","demokrati"],"entities":["Ulf Kristersson","Ebba Busch","Jimmie Åkesson","Sveriges Riksdag"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":85,"decisionValue":60,"novelty":70,"sourceQuality":82,"personalRelevance":25,"contrast":70},"claims":[{"text":"Med 94 procent optalt står rød-grøn blok til 176 mandater mod Tidö-samarbejdets 175; SVT giver 90 procents sandsynlighed for 175-174 i oppositionens favør efter udlandsstemmer tælles 16. september.","sourceUrls":["https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"],"confidence":"medium"},{"text":"Det nye Riksdag samles 28. september; valgdeltagelsen faldt til ca. 80,4 procent fra 84 procent i 2022.","sourceUrls":["https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026","https://www.riksdagen.se/en/news/the-2026-elections/"],"confidence":"medium"}],"sources":[{"title":"Regeringsbildningen efter valet kan bli utdragen","publisher":"SVT Nyheter","url":"https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026","publishedAt":"2026-09-14T05:00:00Z","kind":"reporting"},{"title":"The 2026 elections","publisher":"Sveriges riksdag","url":"https://www.riksdagen.se/en/news/the-2026-elections/","publishedAt":"2026-09-10T09:00:00Z","kind":"primary"}],"image":{"url":"https://www.svtstatic.se/image-news/1200/1.91:1/0.5/0.5/c130f35dc52542e29f29e137b69b8ec3f9b42376103c10fc5bddd2e09ce0c879","credit":"Kilde: SVT Nyheter","alt":"Morgonstudion-programledare i TV-studio med texten Val2026","sourceUrl":"https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"}},{"id":"story-eifo-vaekstkapital-2026","eventKey":"eifo-vaekstkapital-gap-2026-09","materialFacts":["EIFOs analyse venter et dansk vækstkapitalgab på op til 93 mia. kr.","EIFO har investeret 1,5 mia. kr. i den nye Scaleup Europe Fund, selskabets hidtil største enkeltinvestering."],"section":"Erhverv","headline":"Analyse af Danmarks Growth-stage venturemarked 2026","primarySourceUrl":"https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026","subheadline":"EIFOs egen analyse venter et kapitalgab på op til 93 mia. kr. i dansk vækstkapital, mens fonden selv investerer sin hidtil største enkeltinvestering i en europæisk fond","body":["EIFOs egen analyse venter, at dansk vækstkapital kan vokse til 47-93 mia. kr. i efterspørgsel, mens tilgængelig kapital kun er knap 24 mia. kr. Gabet rammer især virksomheder i senere vækstfaser, hvor kapital historisk har været sværest at rejse i Danmark.","Samtidig har EIFO foretaget sin største enkeltinvestering: 1,5 mia. kr. i Scaleup Europe Fund, en paneuropæisk vækstfond på 38 mia. kr., der skal give danske scaleups kapital, de ellers ofte har hentet uden for Europa."],"whyItMatters":"Et kapitalgab, EIFO sætter tal på, forklarer, hvorfor vækstvirksomheder har solgt sig til udenlandske ejere eller flyttet hovedkontor, når de rammer fasen dansk kapital ikke rækker.","analysis":"At EIFO dokumenterer gabet og selv investerer i en løsning, gør analysen til mere end et faktatjek: den er et argument for statens rolle i markedet, fremsat af aktøren der bemander rollen. Tallet kan være rigtigt uden at ophæve konflikten.","topics":["venturekapital","danmark","økonomi"],"entities":["EIFO","Scaleup Europe Fund"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":68,"decisionValue":65,"novelty":55,"sourceQuality":75,"personalRelevance":80,"contrast":35},"claims":[{"text":"EIFOs egen analyse venter dansk vækstkapitalefterspørgsel på 47-93 mia. kr. mod ca. 24 mia. kr. tilgængelig kapital.","sourceUrls":["https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026"],"confidence":"medium"},{"text":"EIFO har investeret 1,5 mia. kr. i Scaleup Europe Fund (samlet 38 mia. kr.), selskabets hidtil største enkeltstående fondsinvestering.","sourceUrls":["https://techsavvy.media/eifo-vil-goere-europa-staerkere-kapital-skal-sikre-at-flere-vaekstvirksomheder-bliver-globale-markedsledere-fra-danmark/"],"confidence":"medium"}],"sources":[{"title":"Analyse af Danmarks Growth-stage venturemarked 2026","publisher":"EIFO","url":"https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026","publishedAt":"2026-09-10T09:00:00Z","kind":"primary"},{"title":"EIFO vil gøre Europa stærkere: Kapital skal sikre, at flere vækstvirksomheder bliver globale markedsledere fra Danmark","publisher":"TechSavvy","url":"https://techsavvy.media/eifo-vil-goere-europa-staerkere-kapital-skal-sikre-at-flere-vaekstvirksomheder-bliver-globale-markedsledere-fra-danmark/","publishedAt":"2026-09-09T09:00:00Z","kind":"reporting"}]},{"id":"story-dk-ejendomsvurdering-2026","eventKey":"dk-ejendomsvurdering-fejl-2026-09","materialFacts":["Ca. 100.000 lejlighedsvurderinger er beregnet forkert.","Ca. 20.000 afviger mere end 20 procent fra korrekt niveau.","Vurderingsstyrelsen kendte til fejlen siden foråret uden at oplyse det offentligt."],"section":"Danmark","headline":"Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert","primarySourceUrl":"https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert","subheadline":"Vurderingsstyrelsen kendte til fejlen siden foråret, men oplyste den ikke offentligt, før DR afslørede den","body":["Omkring 100.000 lejlighedsvurderinger — en tredjedel af de danske lejligheder under det nye system — er beregnet forkert, efter Vurderingsstyrelsen rettede en fejl på en måde, der skabte en ny. Ca. 20.000 afviger over 20 procent fra korrekt niveau.","Vurderingsstyrelsen har kendt problemet siden foråret uden at oplyse det. Direktør Anne-Sofie Jensen: 'Vi er i gang med at finde ud af, hvad løsningen skal være' — uden løfte om, fejlen rettes i år."],"whyItMatters":"For den ramte tredjedel er det grundlaget for ejendomsskatten i årevis. At myndigheden kendte fejlen i månedsvis uden at oplyse borgerne, flytter sagen fra beregningsfejl til, hvornår en myndighed skylder at sige fra.","analysis":"Mønstret kendes fra tidligere vurderingsskandaler: en kompleks model rettes lappevis, og hver rettelse risikerer at flytte fejlen snarere end fjerne den. Uden revision af modellen er der ingen garanti mod en ny fejl et andet sted.","topics":["danmark","skat","forvaltning"],"entities":["Vurderingsstyrelsen","Anne-Sofie Jensen"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":70,"decisionValue":68,"novelty":70,"sourceQuality":78,"personalRelevance":30,"contrast":55},"claims":[{"text":"Ca. 100.000 lejlighedsvurderinger, ca. en tredjedel af de danske lejligheder under den nye model, er beregnet forkert; ca. 20.000 afviger mere end 20 procent.","sourceUrls":["https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"],"confidence":"high"},{"text":"Vurderingsstyrelsen har kendt til fejlen siden foråret uden at offentliggøre den, og direktør Anne-Sofie Jensen vil ikke love en løsning i år.","sourceUrls":["https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"],"confidence":"high"}],"sources":[{"title":"Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert","publisher":"DR","url":"https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert","publishedAt":"2026-09-13T10:00:00Z","kind":"reporting"}],"image":{"url":"https://asset.dr.dk/drdk/umbraco-images/3j1gvicn/boligpriser_lejligheder.gif?im=AspectCrop%3D%28850%2C478%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28850%2C478%29","credit":"DR","alt":"Lejlighedsbygninger i Danmark, arkivfoto","sourceUrl":"https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"}}],"signals":[{"text":"New Copenhagen facility to strengthen Europe's quantum manufacturing capabilities","headline":"New Copenhagen facility to strengthen Europe's quantum manufacturing capabilities","url":"https://novonordiskfonden.dk/en/news/new-copenhagen-facility-to-strengthen-europes-quantum-manufacturing-capabilities/","publisher":"Novo Nordisk Fonden","section":"Teknologi","publishedAt":"2026-09-04T09:00:00Z","summary":"Novo Nordisk Fonden opretter Quantum Foundry Copenhagen, en 5.300 kvm kvantechip-fabrik på Østerbro, med sigte på en dansk kvantecomputer i 2034. Flyttet til signaler her, fordi begivenheden er ti dage gammel uden ny udvikling i dag."},{"text":"Novo Nordisk skifter navn til Novo og justerer logo","headline":"Novo Nordisk skifter navn til Novo og justerer logo","url":"https://nordjyske.dk/nyheder/erhverv/novo-nordisk-skifter-navn-til-novo-og-justerer-logo/6172460","publisher":"Ritzau/Nordjyske","section":"Erhverv","publishedAt":"2026-09-13T06:00:00Z","summary":"Selskabet dropper Nordisk fra navnet og vender logoets Apis-tyr; fuld strategi kommer på kapitalmarkedsdag 21. september."},{"text":"Ikke set siden før corona: I fire måneder i træk er madprisen faldet","headline":"Ikke set siden før corona: I fire måneder i træk er madprisen faldet","url":"https://www.dr.dk/nyheder/penge/ikke-set-siden-foer-corona-i-fire-maaneder-i-traek-er-madprisen-faldet","publisher":"DR","section":"Penge","publishedAt":"2026-09-13T09:00:00Z"},{"text":"Hvorfor er bankaktierne steget så voldsomt?","headline":"Hvorfor er bankaktierne steget så voldsomt?","url":"https://www.dr.dk/nyheder/penge/reels/hvorfor-er-bankaktierne-steget-saa-voldsomt","publisher":"DR","section":"Penge","publishedAt":"2026-09-13T09:00:00Z"},{"text":"Efter vilde stigninger falder priserne i København, på landsplan er fortællingen en anden","headline":"Efter vilde stigninger falder priserne i København, på landsplan er fortællingen en anden","url":"https://www.dr.dk/nyheder/penge/efter-vilde-stigninger-falder-priserne-i-koebenhavn-paa-landsplan-er-fortaellingen-en-anden","publisher":"DR","section":"Penge","publishedAt":"2026-09-13T09:00:00Z"},{"text":"Kosovos parlament godkender Albin Kurtis regering","headline":"Kosovos parlament godkender Albin Kurtis regering","url":"https://www.dr.dk/nyheder/udland/kosovos-parlament-godkender-albin-kurtis-regering","publisher":"DR","section":"Udland","publishedAt":"2026-09-13T09:00:00Z"},{"text":"Over 800 migranter flyttet til nyt modtagecenter i Ceuta","headline":"Over 800 migranter flyttet til nyt modtagecenter i Ceuta","url":"https://www.dr.dk/nyheder/udland/reels/over-800-migranter-flyttet-til-nyt-modtagecenter-i-ceuta","publisher":"DR","section":"Udland","publishedAt":"2026-09-13T09:00:00Z"},{"text":"300 fyret efter russisk angreb på ukrainsk shoppingcenter","headline":"300 fyret efter russisk angreb på ukrainsk shoppingcenter","url":"https://www.dr.dk/nyheder/udland/reels/300-fyret-efter-russisk-angreb-paa-ukrainsk-shoppingcenter","publisher":"DR","section":"Udland","publishedAt":"2026-09-13T09:00:00Z"},{"text":"Trump vil overveje at offentliggøre flere dokumenter om 11. september","headline":"Trump vil overveje at offentliggøre flere dokumenter om 11. september","url":"https://www.dr.dk/nyheder/udland/trump-vil-overveje-offentliggoere-flere-dokumenter-om-11-september","publisher":"DR","section":"Udland","publishedAt":"2026-09-13T09:00:00Z"},{"text":"Department of Commerce Revises License Review Policy for Semiconductors Exported to China","headline":"Department of Commerce Revises License Review Policy for Semiconductors Exported to China","url":"https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china","publisher":"U.S. Department of Commerce (BIS)","section":"Handel","publishedAt":"2026-09-10T09:00:00Z","summary":"BIS går fra formodet afslag til sagsbehandling fra sag til sag for Nvidia H200 og AMD MI325X til Kina, mens otte kongresmedlemmer kræver et totalforbud mod eksport af halvlederudstyr."},{"text":"Store dyr og et kæmpe hegn: Ny naturnationalpark åbner under protester","headline":"Store dyr og et kæmpe hegn: Ny naturnationalpark åbner under protester","url":"https://www.dr.dk/nyheder/indland/store-dyr-og-et-kaempe-hegn-ny-naturnationalpark-aabner-under-protester","publisher":"DR","section":"Indland","publishedAt":"2026-09-14T05:00:00Z"}],"column":{"authoredBy":"ai","slug":"ricardo-mod-nul-loen","title":"Ricardo mod nul-løn","thesis":"Selv en AI, der er bedre end mennesker til alt, sender ikke lønnen mod nul.","horizon":"Når lønandelen af BNP kan aflæses ti år frem","body":["Komparative fordele afhænger af relative, ikke absolutte forskelle — stedet man taber mindst, er stadig værd at handle med."],"uncertainty":"Jeg tager fejl, hvis lønandelen af BNP i USA og EU fortsætter mod nul, efterhånden som AI-kapaciteten stiger, uden at komparative fordele bremser faldet; det ses i BLS' og Eurostats egne lønandelsserier de kommende år.","topics":["økonomi","ai","filosofi"]},"recommendations":[{"id":"rec-hassabis-rsa-2026","tier":"featured","mode":"watch","kind":"Interview","status":"new","title":"Sir Demis Hassabis on the AI Revolution, the Future of AI and Human Creativity | Hannah Fry","creator":"Hannah Fry, Demis Hassabis","provider":"Royal Society of Arts","url":"https://www.youtube.com/watch?v=rDteJAuKiBI","commitment":"~45 min","description":"Hannah Fry taler med DeepMind-stifter Demis Hassabis om kreativitet, bevidsthed og hvad AI ændrer ved begge dele — optaget i forbindelse med, at Hassabis modtog Royal Society of Arts' Albert-medalje.","rationale":"Hassabis ligger øverst blandt de tænkere, der får en civilisatorisk påstand til at holde. Her taler han ikke om produkter eller kvartalstal, men om kreativitet og bevidsthed — den del af AI-samtalen, der sjældnere når frem end lancering og kapital, og som ligger tættere på filosofien end på investeringscasen.","topics":["ai","kreativitet","filosofi"],"isFeatured":true,"image":{"url":"https://i.ytimg.com/vi/rDteJAuKiBI/hqdefault.jpg","credit":"Royal Society of Arts","alt":"Demis Hassabis i samtale med Hannah Fry","sourceUrl":"https://www.youtube.com/watch?v=rDteJAuKiBI"}},{"id":"rec-buhler-cognitive-2026","tier":"short","mode":"read","kind":"Essay","status":"new","title":"The Cognitive Revolution (When Machines Do the Thinking)","creator":"Konstantine Buhler","provider":"Sequoia Capital","url":"https://sequoiacap.com/article/the-cognitive-revolution","commitment":"~10 min","note":"Sequoias Konstantine Buhler vil have, at maskiner snart løser 99,9 procent af den kognitive opgave, mennesker plejede at løse selv — ugens mest ubeskedne skala-påstand om AI og arbejdsmarkedet.","topics":["ai","venturekapital","økonomi"],"isFeatured":false},{"id":"rec-acemoglu-proworker-2026","tier":"short","mode":"read","kind":"Working paper","status":"available","title":"Building Pro-Worker Artificial Intelligence","creator":"Daron Acemoglu, David Autor, Simon Johnson","provider":"SSRN / MIT Economics","url":"https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290347","commitment":"~30 min","note":"Modstykket til Buhler: Nobelprismodtager Daron Acemoglu argumenterer for, at valget af teknologi — ikke AI's evner alene — afgør, om arbejdere vinder eller taber. Økonomisk fagtradition uden for resten af ugens stof.","topics":["økonomi","ai","arbejdsmarked"],"isFeatured":false},{"id":"rec-aaronson-nisq-2026","tier":"short","mode":"read","kind":"Blog post","status":"new","title":"Shtetl-Optimized on NISQ demonstrations and quantum advantage claims","creator":"Scott Aaronson","provider":"Shtetl-Optimized","url":"https://scottaaronson.blog/","commitment":"~10 min","note":"Aaronson gennemgår, hvad NISQ-demonstrationer reelt beviser om kvantefordel — den skeptiske kontrolinstans, samme uge som en dansk kvantefabrik og endnu et kvantegennembrud fylder nyhederne.","topics":["quantum","videnskab"],"isFeatured":false},{"id":"rec-deepmind-writing-2026","tier":"short","mode":"read","kind":"Research paper","status":"new","title":"Designing Proactive Thought Partners for Writing","creator":"Google DeepMind","provider":"Google DeepMind","url":"https://deepmind.google/research/publications/","commitment":"~20 min","note":"DeepMinds egen forskning i AI-skriveassistenter, der udfordrer tanken snarere end at aflaste den — bygherrens svar på dagens Nature-fund om, at de samme værktøjer gør skriftsproget mere ens.","topics":["ai","sprog"],"isFeatured":false},{"id":"rec-ai-engineer-paris-2026","tier":"short","mode":"experience","kind":"Konference","status":"upcoming","title":"AI Engineer Paris 2026","provider":"AI Engineer","url":"https://ai.engineer/paris/2026","availability":"23.-24. september 2026, Station F, Paris","commitment":"2 dage","note":"To dages keynotes og tekniske sessioner i Station F — den praktiske modvægt til ugens store påstande, hvis du vil se, hvad der reelt bygges lige nu.","topics":["ai","praksis"],"isFeatured":false}],"quality":{"sourceCoverage":82,"freshness":85,"novelty":78,"perspectiveBalance":80,"render":100}};</script>
+  <script>globalThis.__BRIEF_DATA__ = {"schemaVersion":1,"kind":"daily","runId":"run-2026-09-14-r148","date":"2026-09-14","generatedAt":"2026-09-14T05:30:00.000Z","readingMinutes":10,"title":"Alexanders Brief","dek":"AI-laboratoriernes topchefer beder samstemmigt om at bremse sig selv, mens Kina afviser det som frygtskabende — plus et svensk valg på en håndfuld mandater og en dansk Guldløve i Venedig.","profileWeights":{"importance":25,"decisionValue":20,"novelty":15,"sourceQuality":15,"personalRelevance":15,"contrast":10},"stories":[{"id":"story-ai-pacing-proposal-20260914","eventKey":"ai-pacing-proposal-2026-09","materialFacts":["Amodei's essay 'We Must Pace the Frontier' proposes independent evaluators with employee-like access, common safety standards among democracies, and eventual international limits on capabilities like recursive self-improvement.","Altman committed OpenAI to the same evaluator access; Musk publicly endorsed the proposal.","Cohere's Aidan Gomez called the coalition 'cartel' behaviour."],"section":"AI og magt","headline":"Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development","primarySourceUrl":"https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/","subheadline":"Anthropics topchef foreslår uafhængige evaluatorer og grænser for AI's udvikling – og får opbakning fra to konkurrenter","body":["Anthropics topchef Dario Amodei foreslår i essayet 'We Must Pace the Frontier', at laboratorierne bevidst sænker tempoet i nye kapabiliteter: uafhængige evaluatorer med medarbejderadgang, fælles sikkerhedsstandarder mellem demokratier og på sigt grænser for evner som rekursiv selvforbedring.","Sam Altman lover samme evaluator-adgang hos OpenAI. Elon Musk skrev kort: 'Dario har ret'. Det er sjældent, at konkurrerende topchefer offentligt lægger sig fast på at bremse sig selv."],"whyItMatters":"Det ændrer, hvem der får indsyn i de mest avancerede modeller, og hvor hurtigt næste generation når markedet – med betydning for kapløbet mod Kina, der samme dag afviste opbremsningen som 'frygtskabende'.","analysis":"Timingen er ikke tilfældig: alle tre forbereder store kapitalrejsninger eller børsnoteringer, hvor offentlig sikkerhedsomtale kan være lige så værdifuld som selve bremsen.","counterpoint":"Cohere-direktør Aidan Gomez kalder det 'kartel-adfærd': når dominerende laboratorier selv skriver reglerne, cementerer de deres markedsposition, mens mindre spillere som hans eget holdes udenfor.","topics":["ai","ai-sikkerhed","magt"],"entities":["Dario Amodei","Sam Altman","Elon Musk","Anthropic","OpenAI","Aidan Gomez","Cohere"],"isLead":true,"isOutsideProfile":false,"scores":{"importance":92,"decisionValue":85,"novelty":80,"sourceQuality":85,"personalRelevance":90,"contrast":60},"claims":[{"text":"Amodei's essay proposes independent evaluators with employee-like access, common democratic safety standards, and eventual international limits on capabilities including recursive self-improvement.","sourceUrls":["https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/"],"confidence":"high"},{"text":"Altman committed OpenAI to matching evaluator access; Musk endorsed the proposal ('Dario is right').","sourceUrls":["https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"],"confidence":"high"},{"text":"Cohere CEO Aidan Gomez called the pacing coalition 'cartel' behaviour that risks entrenching dominant labs' market position.","sourceUrls":["https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/"],"confidence":"high"}],"sources":[{"title":"Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/","publishedAt":"2026-09-13T21:37:00.000Z","kind":"reporting"},{"title":"Anthropic's Amodei proposes plan to slow the pace of advancing AI capabilities","publisher":"CNBC","url":"https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html","publishedAt":"2026-09-12T12:00:00.000Z","kind":"reporting"},{"title":"AI firms' co-ordinated slowdown amounts to 'cartel' behaviour, Cohere CEO says","publisher":"The Globe and Mail","url":"https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/","publishedAt":"2026-09-14T06:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/01-941b091f.jpg","credit":"Kilde: SiliconANGLE","alt":"Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development","sourceUrl":"https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/","origin":"article","fingerprint":"916d0d3333321e5e224d0d33737b1b1e6a4e0f71737b2b1fcf5f0e7171d9332bd78e8ff9f1d9396d970f8df9f99878d2","lookedAt":"916d0d3333321e5e224d0d33737b1b1e6a4e0f71737b2b1fcf5f0e7171d9332bd78e8ff9f1d9396d970f8df9f99878d2","originalUrl":"https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-14-08-37-28.png"}},{"id":"story-anthropic-rum-group-20260914","eventKey":"anthropic-rum-group-compute-deal-2026-09","materialFacts":["Anthropic signed a six-year, $13.7bn compute lease with Rum Group (Rumble Inc), drawing capacity from its Maysville, Georgia data centre.","The deal includes options for Anthropic to buy up to 51 million Rum Group shares at $0.01 each.","Rum Group hosts Trump's Truth Social and was early-backed by Peter Thiel and JD Vance."],"section":"AI og finans","headline":"Anthropic Revealed as Customer in Rumble's (RUM) Massive $13.7B AI Infrastructure Agreement","primarySourceUrl":"https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/","subheadline":"Seksårig computeraftale binder Anthropics fremtidige regnekraft til et Trump-nært selskab","body":["Anthropic har indgået en seksårig computeraftale til 13,7 mia. dollar med Rum Group, selskabet bag Rumble, der hoster Trumps Truth Social og tidligt blev støttet af Peter Thiel og JD Vance. Kapaciteten hentes fra et datacenter under opførelse i Maysville, Georgia, bygget på ca. 22.000 Nvidia-GPU'er fra opkøbet af Northern Data i juni.","Aftalen giver Anthropic ret til at købe op til 51 mio. Rum Group-aktier for én cent stykket og bringer selskabets samlede sikrede regnekraft op over 14,8 gigawatt."],"whyItMatters":"Anthropic bygger sin identitet på sikkerhedsansvar, men binder nu regnekraften til et selskab med tætte politiske bånd til Det Hvide Hus – samme uge topchefen selv beder om internationale AI-grænser.","analysis":"De billige aktieoptioner viser, at compute-aftaler i 2026 er lige så meget politisk kapital som teknisk infrastruktur.","topics":["ai","finans","magt"],"entities":["Anthropic","Rumble","Rum Group","Peter Thiel","JD Vance"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":75,"decisionValue":70,"novelty":85,"sourceQuality":70,"personalRelevance":80,"contrast":80},"claims":[{"text":"Anthropic signed a six-year, $13.7bn compute lease with Rum Group, drawing capacity from its Maysville, Georgia data centre built on ~22,000 Nvidia H100/H200 GPUs from the Northern Data acquisition.","sourceUrls":["https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/"],"confidence":"high"},{"text":"The deal includes options for Anthropic to buy up to 51 million Rum Group shares at $0.01 each; Rum Group hosts Trump's Truth Social and was early-backed by Thiel and Vance.","sourceUrls":["https://www.newsbytesapp.com/news/business/anthropic-signs-13-7b-ai-compute-deal-with-rum-group/story"],"confidence":"medium"}],"sources":[{"title":"Anthropic Revealed as Customer in Rumble's (RUM) Massive $13.7B AI Infrastructure Agreement","publisher":"Parameter","url":"https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/","publishedAt":"2026-09-14T05:00:00.000Z","kind":"reporting"},{"title":"Anthropic signs $13.7B AI compute deal with RUM Group","publisher":"NewsBytes","url":"https://www.newsbytesapp.com/news/business/anthropic-signs-13-7b-ai-compute-deal-with-rum-group/story","publishedAt":"2026-09-14T04:00:00.000Z","kind":"reporting"}]},{"id":"story-naza-documentary-venice-20260914","eventKey":"naza-documentary-venice-2026","materialFacts":["'NAZA' won Venice's Special Jury Prize after a 25-minute standing ovation.","The film is built on interviews with 24 anonymised Israeli soldiers and intelligence personnel describing AI-assisted target selection and strike approval.","Israel's culture minister called for revoking the filmmakers' citizenship; the IDF categorically denies the allegations."],"section":"AI og krig","headline":"Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize","primarySourceUrl":"https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/","subheadline":"Dokumentaren 'Naza' bygger på 24 anonyme kilders vidnesbyrd om AI-understøttet måludvælgelse i Gaza","body":["Dokumentaren 'Naza' af Yuval Abraham og Rachel Szor vandt Venedigs specialpris efter 25 minutters stående applaus ved premieren. Filmen bygger på tre års interviews med 24 anonymiserede israelske soldater og efterretningsfolk, der beskriver AI-understøttet måludvælgelse og angrebsgodkendelse, som de siger bevidst kostede civile livet i Gaza.","Israels kulturminister vil have filmskabernes statsborgerskab inddraget for 'landsforræderi'."],"whyItMatters":"Sagen sætter et konkret, omstridt eksempel på, hvad 'AI-understøttet krigsførelse' kan betyde i praksis – langt fra laboratoriernes egne beskrivelser, samme uge Amodei beder om internationale sikkerhedsgrænser.","analysis":"Uanset hvor sandheden ligger, viser reaktionen, at AI i krig er blevet politisk sprængstof i sig selv, ikke kun en teknisk detalje.","counterpoint":"Hæren afviser kategorisk påstandene: anonyme kilders identitet kan ikke efterprøves.","topics":["ai","kultur","mellemosten"],"entities":["Yuval Abraham","Rachel Szor","Venedig Filmfestival","IDF"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":70,"decisionValue":40,"novelty":80,"sourceQuality":75,"personalRelevance":55,"contrast":90},"claims":[{"text":"'NAZA', directed by Yuval Abraham and Rachel Szor, won Venice's Special Jury Prize after a 25-minute standing ovation at its premiere.","sourceUrls":["https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/"],"confidence":"high"},{"text":"The film is built on interviews with 24 anonymised Israeli soldiers and intelligence personnel alleging knowingly-approved civilian-casualty strikes; the IDF categorically rejects this and says anonymous testimony cannot be verified.","sourceUrls":["https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/"],"confidence":"medium"}],"sources":[{"title":"Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize","publisher":"The Times of Israel","url":"https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"},{"title":"Naza wins Venice special jury prize as Kaouther Ben Hania praises Gaza documentary","publisher":"The National","url":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/naza-wins-venice-special-jury-prize-as-kaouther-ben-hania-praises-gaza-documentary/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/03-652fa844.jpg","credit":"Foto: AFP / The Times of Israel","alt":"Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize","sourceUrl":"https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/","origin":"article","fingerprint":"0101c1c10d0f8f0d0101c1d88d0e060d010190988c16060e000090980c160606000010980e160f47001018180e273b8b","lookedAt":"0101c1c10d0f8f0d0101c1d88d0e060d010190988c16060e000090980c160606000010980e160f47001018180e273b8b","originalUrl":"https://static-cdn.toi-media.com/www/uploads/2026/09/AFP__20260912__C86A8D9__v2__HighRes__776552037.jpg"}},{"id":"story-xi-brics-opensource-20260914","eventKey":"xi-brics-opensource-ai-2026-09","materialFacts":["Xi proposed China lead a BRICS 'open-source AI zone', offering DeepSeek- and Qwen-based tools to member states free of charge.","The proposal includes specialised AI research and training for BRICS countries and a call for a consensus-based global governance framework."],"section":"AI og geopolitik","headline":"China's Xi Jinping proposes BRICS 'open-source AI zone'","primarySourceUrl":"https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone","subheadline":"Kina tilbyder gratis AI-værktøjer til BRICS-lande, mens amerikanske laboratorier taler om at bremse sig selv","body":["Ved BRICS-topmødet i New Delhi foreslog Xi Jinping, at Kina går forrest i at oprette en åben-kilde-zone for AI blandt medlemslandene, med gratis adgang til værktøjer baseret på DeepSeek og Qwen til det globale syden.","Planen omfatter AI-forskning og -træning for BRICS-lande samt et forslag om en konsensusbaseret global styringsramme for AI."],"whyItMatters":"Det er et direkte modtræk til de amerikanske laboratoriers lukkede modeller og et forsøg på at gøre Kina til den foretrukne AI-partner uden for USA's og Europas indflydelsessfære.","analysis":"Mens amerikanske topchefer samme dag taler om at bremse sig selv, tilbyder Kina gratis adgang til alternativet – begge historier trækker mod et Kina, der vinder terræn på åbenhed, mens Vesten diskuterer forsigtighed.","topics":["ai","geopolitik","kina"],"entities":["Xi Jinping","BRICS","Kina"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":68,"decisionValue":55,"novelty":70,"sourceQuality":75,"personalRelevance":65,"contrast":55},"claims":[{"text":"Xi proposed China lead an 'open-source AI zone' for BRICS, offering DeepSeek- and Qwen-based tools free of charge, plus specialised research/training and a call for consensus-based global AI governance.","sourceUrls":["https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone"],"confidence":"high"}],"sources":[{"title":"China's Xi Jinping proposes BRICS 'open-source AI zone'","publisher":"Euronews","url":"https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone","publishedAt":"2026-09-14T00:00:00.000Z","kind":"reporting"},{"title":"China's Xi proposes BRICS 'open-source AI zone'","publisher":"Manila Times","url":"https://www.manilatimes.net/2026/09/13/world/chinas-xi-proposes-brics-open-source-ai-zone/2423945","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/04-6e66ecfa.jpg","credit":"Kilde: Euronews","alt":"China's Xi Jinping proposes BRICS 'open-source AI zone'","sourceUrl":"https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone","origin":"article","fingerprint":"1e269692e767cf2e06661692e7c7cd0f2666123363c6c70d4762133363c6c78d83f73131cb838687a5b23075a58bc346","lookedAt":"1e269692e767cf2e06661692e7c7cd0f2666123363c6c70d4762133363c6c78d83f73131cb838687a5b23075a58bc346","originalUrl":"https://images.euronews.com/articles/stories/09/91/19/81/1200x675_cmsv2_6292e32a-a69a-560a-b53c-7832c4f3e978-9911981.jpg"}},{"id":"story-sweden-election-20260914","eventKey":"sweden-election-2026","materialFacts":["Social Democrats scored 28.4% - their worst result in over a century - but remained the largest party.","Projected seat split with ~90% confidence: 175 (S+V+MP+C) vs 174 (M+SD+KD+L) of 349 seats.","Final results expected within a week due to automatic recounting."],"section":"Politik","headline":"Sweden's centre-left holds razor-thin edge as exit polls show tight race","primarySourceUrl":"https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show","subheadline":"Socialdemokraternes svageste resultat i over hundrede år er alligevel nok til at føre an i et næsten dødt løb","body":["Ved det svenske valg 13. september fik Socialdemokraterne 28,4 pct. – partiets svageste resultat i over hundrede år, men stadig størst. Med ca. 90 pct. sikkerhed tegner mandattallet sig som 175 til S, V, MP og C mod 174 til M, SD, KD og L af Rigsdagens 349 pladser.","Magdalena Andersson sagde natten til mandag: 'Vi fører lige nu. Og hvis det bekræftes, får Sverige en ny regering.' Kristersson har endnu ikke erkendt nederlag, og de endelige tal ventes først om en uge."],"whyItMatters":"Et så tæt valg hos nabolandet betyder ugevis af regeringsforhandlinger og en regering uden klart mandat, uanset udfaldet – med betydning for nordisk forsvars- og teknologisamarbejde.","analysis":"Sverigedemokraternes tilbagegang fra 20,5 til 17,6 pct. er den historie, valgnatten ellers ville have handlet om.","topics":["politik","europa","sverige"],"entities":["Magdalena Andersson","Ulf Kristersson","Socialdemokraterna","Sverigedemokraterna"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":82,"decisionValue":65,"novelty":85,"sourceQuality":80,"personalRelevance":25,"contrast":30},"claims":[{"text":"SVT exit polling put the Social Democrats at 28.4%, their worst result in over a century, still the largest party; projected seat split ~90% confidence 175 vs 174 of 349.","sourceUrls":["https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show"],"confidence":"medium"}],"sources":[{"title":"Sweden's centre-left holds razor-thin edge as exit polls show tight race","publisher":"France 24","url":"https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show","publishedAt":"2026-09-13T22:00:00.000Z","kind":"reporting"},{"title":"Valresultat 2026","publisher":"SVT Nyheter","url":"https://valresultat.svt.se/2026/","publishedAt":"2026-09-14T03:00:00.000Z","kind":"primary"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/05-18de7c42.jpg","credit":"Foto: Reuters / France 24","alt":"Sweden's centre-left holds razor-thin edge as exit polls show tight race","sourceUrl":"https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show","origin":"article","fingerprint":"8d243362666e74e2cd2e33e34f4e64f2852a2babcfcf66f46f792babcacfc6a66d694b69ca9bcf67e4694969cb9987cb","lookedAt":"8d243362666e74e2cd2e33e34f4e64f2852a2babcfcf66f46f792babcacfc6a66d694b69ca9bcf67e4694969cb9987cb","originalUrl":"https://s.france24.com/media/display/b6a890ec-af9e-11f1-80aa-005056bfb2b6/w:1280/p:16x9/2026-09-13T175249Z-1939019679-RC2HINAXGOPT-RTRMADP-3-SWEDEN-ELECTION.jpg"}},{"id":"story-venice-golden-lion-20260914","eventKey":"venice-golden-lion-kvinde-ukendt-2026","materialFacts":["'Kvinde ukendt' (Woman Unknown), directed by May el-Toukhy, won the Golden Lion.","Mathilde Arcel won the Volpi Cup for Best Actress.","El-Toukhy is the eighth woman ever to win the top prize solo."],"section":"Kultur","headline":"Danish-Egyptian director May el-Toukhy wins Venice Golden Lion for Woman Unknown","primarySourceUrl":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/","subheadline":"'Kvinde ukendt' vinder Venedigs hovedpris, og Mathilde Arcel vinder bedste skuespillerinde","body":["Den dansk-egyptiske instruktør May el-Toukhys 'Kvinde ukendt' vandt Guldløven ved den 83. Venedig-filmfestival. Filmen følger en tjenestepige, der skjuler et forhold til en tysk soldat i det besatte Danmark.","Mathilde Arcel vandt samtidig Volpi-prisen for bedste skuespillerinde. El-Toukhy er den ottende kvinde nogensinde til alene at vinde hovedprisen, og eneste kvindelige soloinstruktør i årets hovedkonkurrence."],"whyItMatters":"Det er en af de største internationale anerkendelser, dansk film har fået i nyere tid, fra en instruktør der allerede har markeret sig internationalt.","analysis":"Historien om besættelsestidens gråzoner mellem overlevelse og samarbejde rammer stadig en nerve, over firs år efter.","topics":["kultur","film","danmark"],"entities":["May el-Toukhy","Mathilde Arcel","Venedig Filmfestival"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":55,"decisionValue":30,"novelty":80,"sourceQuality":75,"personalRelevance":15,"contrast":85},"claims":[{"text":"'Kvinde ukendt', directed by May el-Toukhy, won the Golden Lion at the 83rd Venice Film Festival; Mathilde Arcel won the Volpi Cup for Best Actress.","sourceUrls":["https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/"],"confidence":"high"}],"sources":[{"title":"Danish-Egyptian director May el-Toukhy wins Venice Golden Lion for Woman Unknown","publisher":"The National","url":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/06-da5ccf0d.jpg","credit":"Kilde: The National","alt":"Filmmaker May el-Toukhy says 'the urgent need to illuminate the unknown women of our common history' inspired her film. Reuters","sourceUrl":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/","origin":"article","fingerprint":"0b478606160363634bc607179783a1e34ed30717938321e353930793131260619317b71313134268b226323333911148","lookedAt":"0b478606160363634bc607179783a1e34ed30717938321e353930793131260619317b71313134268b226323333911148","originalUrl":"https://www.thenationalnews.com/resizer/v2/UKTWYPBLZKFEFCPDQE5GPON7MA.jpg?auth=e85d0b01684ac51842c839b56a199fb44488bc27adc4fdbf31483b2c4a0f9642&focal=2302%2C714&width=1200&height=630"}},{"id":"story-novo-nordisk-rebrand-20260914","eventKey":"novo-nordisk-rebrand-2026-09","materialFacts":["Novo Nordisk rebrands its day-to-day name to 'Novo' under new CEO Mike Doustdar.","Ahead of a 21 September capital markets day in London.","Stock fell, compounded by a Morgan Stanley downgrade."],"section":"Erhverv","headline":"Novo Nordisk enters next chapter to bring better health to more people, supported by 'Novo' rebrand and updated corporate culture","primarySourceUrl":"https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html","subheadline":"Ny topchef dropper 'Nordisk' fra det daglige navn og lancerer kulturprogram forud for kapitalmarkedsdag","body":["Novo Nordisk skifter navn til 'Novo' i det daglige, mens 'Novo Nordisk A/S' forbliver det juridiske navn. Ny topchef Mike Doustdar præsenterer kulturprogrammet 'The Novo Way' forud for kapitalmarkedsdagen 21. september i London.","Aktien faldt på nyheden, forstærket af en nedgradering fra Morgan Stanley. Selskabet var Europas mest værdifulde i 2024, men er siden sakket bagud mod Eli Lilly om fedmemarkedet."],"whyItMatters":"Et navneskifte løser ikke pipeline-problemerne, men markerer, at ledelsen erkender, at det gamle navns 'ordentlighed' ikke længere er nok til at vinde markedet alene.","analysis":"Spørgsmålet, kapitalmarkedsdagen skal svare på, er om kulturskiftet følges af konkrete produkter – ellers er det kun et nyt logo på samme problem.","topics":["danmark","sundhed","erhverv"],"entities":["Novo Nordisk","Mike Doustdar"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":62,"decisionValue":50,"novelty":75,"sourceQuality":80,"personalRelevance":45,"contrast":45},"claims":[{"text":"Novo Nordisk rebrands its day-to-day name to 'Novo' under CEO Mike Doustdar, launching 'The Novo Way' culture programme ahead of the 21 September capital markets day in London.","sourceUrls":["https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html"],"confidence":"high"}],"sources":[{"title":"Novo Nordisk enters next chapter to bring better health to more people, supported by 'Novo' rebrand and updated corporate culture","publisher":"GlobeNewswire","url":"https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html","publishedAt":"2026-09-14T06:00:00.000Z","kind":"primary"}]},{"id":"story-dk-kriminelle-familier-20260914","eventKey":"dk-kriminelle-familier-bandepakke-2026-09","materialFacts":["Bill sent to hearing equating criminal families with gangs under Criminal Code section 81a.","Takes effect 1 January 2027.","NSK recorded 316 charges across 88 case numbers linked to 'violence-as-a-service' April 2024-July 2026."],"section":"Danmark","headline":"Nyt lovforslag: Justitsminister Nicolai Wammen vil stramme grebet om kriminelle familier og bander","primarySourceUrl":"https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/","subheadline":"Lovforslag sidestiller kriminelle familier med bander og skærper straf for at bruge børn til bestillingskriminalitet","body":["Justitsminister Nicolai Wammen har sendt et lovforslag i høring, der sidestiller kriminelle familier med bander i straffelovens § 81 a og skærper straffen for bagmænd, der bruger børn og unge til bestillingskriminalitet. Loven skal træde i kraft 1. januar 2027.","Fra april 2024 til juli 2026 har NSK registreret 316 sigtelser fordelt på 88 sagskomplekser, der vurderes at handle om 'volds-som-en-service'."],"whyItMatters":"Forslaget udvider en kategori, der hidtil kun dækkede organiserede bander, til også at kunne bruges mod familienetværk – med konsekvenser for, hvordan politiet kan efterforske og retsforfølge.","analysis":"At bruge bandeværktøjer på familier anerkender, at kriminalitetsstrukturerne har ændret sig hurtigere end lovgivningen – ikke hvorfor de ændrede sig.","topics":["danmark","politik","retspolitik"],"entities":["Nicolai Wammen","Justitsministeriet"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":50,"decisionValue":55,"novelty":60,"sourceQuality":70,"personalRelevance":15,"contrast":30},"claims":[{"text":"Wammen sent a bill to hearing equating criminal families with gangs under section 81a, effective 1 January 2027; NSK recorded 316 charges across 88 case numbers on 'violence-as-a-service' April 2024-July 2026.","sourceUrls":["https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/"],"confidence":"high"}],"sources":[{"title":"Nyt lovforslag: Justitsminister Nicolai Wammen vil stramme grebet om kriminelle familier og bander","publisher":"Sydnyt.dk","url":"https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/","publishedAt":"2026-09-14T06:00:00.000Z","kind":"reporting"},{"title":"Justitsministeren vil bruge bandeværktøj på kriminelle familier","publisher":"Justitsministeriet","url":"https://www.justitsministeriet.dk/pressemeddelelse/justitsministeren-vil-bruge-bandevaerktoej-paa-kriminelle-familier/","publishedAt":"2026-09-14T06:00:00.000Z","kind":"primary"}],"imageRejected":[{"url":"https://sydnyt.dk/wp-content/uploads/2026/09/Kopi-af-German-Broadcast-ZDF-har-stopped-sending-i-Denmark-1.jpg","fingerprint":"d58828d2d9ad44209c892d91d15a44005c4d279d952c4c809cad235c942a52a5dca669561235d493661ba5ba32756d97","reason":"chart-or-text-card"}]},{"id":"story-israel-likud-ban-20260914","eventKey":"israel-likud-ban-arab-parties-2026-09","materialFacts":["Likud petitions Central Elections Committee to ban Ra'am and the Joint List.","Election date is 27 October 2026.","High Court has previously overturned all prior CEC bans of Arab party formations."],"section":"Mellemosten","headline":"Netanyahu's Likud says it will petition election panel to ban Arab-majority parties","primarySourceUrl":"https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/","subheadline":"Likud vil udelukke to arabiske partier fra valget 27. oktober – trods udsigt til nederlag i Højesteret","body":["Likud vil bede Israels centrale valgkomité om at udelukke de arabisk-dominerede partier Ra'am og Den Fælles Liste fra valget 27. oktober. Begrundelsen er, at partierne 'skader IDF-soldater' og ikke vil kalde Hamas og Hizbollah terrororganisationer.","Et forbud er næppe holdbart – Højesteret har tidligere omgjort samtlige forsøg på at udelukke arabiske partier. Målinger viser, at hverken Netanyahus koalition eller den centristiske udfordrer kan opnå flertal uden arabiske partiers støtte."],"whyItMatters":"Forsøget kommer, mens ingen blok kan regere alene – et forbud ville ikke kun ramme demokratisk repræsentation, men gøre regeringsdannelse endnu mere usikker.","analysis":"At forbuddet sandsynligvis falder ved Højesteret, gør ikke forsøget betydningsløst – det er gentagelsen af kravet, der normaliserer det, valg efter valg.","topics":["politik","mellemosten","demokrati"],"entities":["Benjamin Netanyahu","Likud","Ra'am","Den Fælles Liste"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":60,"decisionValue":45,"novelty":60,"sourceQuality":65,"personalRelevance":20,"contrast":45},"claims":[{"text":"Likud petitioned the CEC to ban Ra'am and the Joint List from the 27 October election; the High Court has previously overturned every prior CEC ban attempt on Arab party formations.","sourceUrls":["https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/"],"confidence":"high"}],"sources":[{"title":"Netanyahu's Likud says it will petition election panel to ban Arab-majority parties","publisher":"The Times of Israel","url":"https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/","publishedAt":"2026-09-14T00:54:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/09-5517add9.jpg","credit":"Kilde: The Times of Israel","alt":"Netanyahu's Likud says it will petition election panel to ban Arab-majority parties","sourceUrl":"https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/","origin":"article","fingerprint":"87c7c1cb4b4b4c8e85c5c5c9c9c9cc8ca5a58dc9c9c9cd8eb4b6acccddcdcd0d3636ac8c8c8c8c4c72662e8eae8c8c8c","lookedAt":"87c7c1cb4b4b4c8e85c5c5c9c9c9cc8ca5a58dc9c9c9cd8eb4b6acccddcdcd0d3636ac8c8c8c8c4c72662e8eae8c8c8c","originalUrl":"https://static-cdn.toi-media.com/www/uploads/2026/06/F260603YS52.jpg"}},{"id":"story-eu-kids-act-20260914","eventKey":"eu-kids-act-proposal-2026-09","materialFacts":["Commission to present the 'Kids Act' Thursday.","Von der Leyen to reveal the age threshold Wednesday in Strasbourg.","Expert panel recommended under-13; France wants under-15."],"section":"EU og teknologi","headline":"EU to propose law curbing social media for children Thursday","primarySourceUrl":"https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670","subheadline":"Von der Leyen ventes at afsløre fælles aldersgrænse onsdag, før selve loven fremlægges torsdag","body":["EU-Kommissionen præsenterer torsdag den formelle 'Kids Act', der skal indføre en fælles mindstealder for sociale medier, videotjenester, spil og AI-følgesvende i hele unionen. Von der Leyen ventes at afsløre selve aldersgrænsen onsdag i Strasbourg.","Et ekspertpanel har anbefalet 13 år, mens Frankrig presser på for 15. Loven kræver, at platforme er 'sikre fra starten' – uden afhængighedsskabende funktioner – og undtager uddannelsesværktøjer."],"whyItMatters":"Det er første gang, EU forsøger en fælles aldersgrænse frem for 27 forskellige nationale tilgange, med betydning for, hvordan platforme skal designes for mindreårige i hele unionen.","analysis":"Den reelle kamp bliver ikke loven selv, men hvilken af de to aldersgrænser der vinder – forskellen mellem 13 og 15 år dækker millioner af brugere.","topics":["regulering","teknologi","eu"],"entities":["Ursula von der Leyen","Henna Virkkunen","EU-Kommissionen"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":62,"decisionValue":60,"novelty":60,"sourceQuality":70,"personalRelevance":40,"contrast":50},"claims":[{"text":"The Commission will present the 'Kids Act' Thursday in Brussels; von der Leyen reveals the age threshold Wednesday in Strasbourg; an expert panel recommended under-13, France wants under-15.","sourceUrls":["https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670"],"confidence":"high"}],"sources":[{"title":"EU to propose law curbing social media for children Thursday","publisher":"Arab News","url":"https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670","publishedAt":"2026-09-14T13:58:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/10-dbd91df3.jpg","credit":"Kilde: Arab News","alt":"EU to propose law curbing social media for children Thursday","sourceUrl":"https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670","origin":"article","fingerprint":"9b181d951c185a5a193c1d151e9c5b5a3a3c1c161e9c9a9b3a3e3a323e1a9a9b3e3a32323a1a1a1b3f5b7373731b3b3b","lookedAt":"9b181d951c185a5a193c1d151e9c5b5a3a3c1c161e9c9a9b3a3e3a323e1a9a9b3e3a32323a1a1a1b3f5b7373731b3b3b","originalUrl":"https://assets.maestronewsroom.com/media/shared/wires/ap/20260902/238b6bbcffcd-Belgium_EU_NATO_78465--1f1cc.jpg"}}],"signals":[{"text":"China dismisses AI slowdown calls and blasts 'fearmongering' from U.S. tech leaders","headline":"China dismisses AI slowdown calls and blasts 'fearmongering' from U.S. tech leaders","summary":"Kinas udenrigsministerium og Global Times kalder Amodei-Altman-Musk-opbremsningen for en 'kold krig'-taktik rettet mod at bremse Kinas AI-udvikling; asiatiske AI-aktier som SoftBank og SK Hynix faldt over 5 pct.","publisher":"NBC News","section":"AI og geopolitik","publishedAt":"2026-09-14T12:14:00.000Z","url":"https://www.nbcnews.com/world/china/china-ai-slowdown-trump-amodei-altman-threat-cold-war-rcna597631"},{"text":"Anthropic sets sights on Nasdaq for potential October IPO, eyes $2 trillion valuation: Report","headline":"Anthropic sets sights on Nasdaq for potential October IPO, eyes $2 trillion valuation: Report","summary":"Ikke bekræftet af Anthropic selv, men selskabet skal angiveligt have valgt Nasdaq til en børsnotering i oktober efter en Series H på 965 mia. dollar i maj.","publisher":"Business Today","section":"AI og finans","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.businesstoday.in/technology/story/anthropic-sets-sights-on-nasdaq-for-potential-october-ipo-eyes-2-trillion-valuation-report-555319-2026-09-14"},{"text":"Human rights committee calls for new AI safety law","headline":"Human rights committee calls for new AI safety law","summary":"Det britiske parlaments menneskerettighedsudvalg kræver en selvstændig AI-lov og et uafhængigt tilsynsorgan, og vil forbyde visse anvendelser som subliminal påvirkning helt.","publisher":"IT Pro","section":"AI og regulering","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.itpro.com/technology/artificial-intelligence/human-rights-committee-calls-for-new-ai-safety-law"},{"text":"Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb","headline":"Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb","summary":"Houthierne har indtaget øerne Store og Lille Hanish efter regeringstro styrkers tilbagetrækning; FN anslår over 80.000 fordrevne på to uger. Brent-olie passerede 107 dollar, da Houthierne indtog havnebyen Mokha i sidste uge.","publisher":"Euronews","section":"Geopolitik","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.euronews.com/2026/09/14/houthis-capture-more-yemeni-red-sea-islands-tightening-grip-on-bab-el-mandeb"},{"text":"EIFO løfter forventningerne efter positivt halvårsresultat","headline":"EIFO løfter forventningerne efter positivt halvårsresultat","summary":"Resultat på 1.633 mio. kr. i første halvår, ca. 1 mia. kr. over budget; EIFO hæver forventningen til hele 2026 til 2,1-2,5 mia. kr.","publisher":"EIFO / Ritzau","section":"Danmark og erhverv","publishedAt":"2026-09-14T07:00:00.000Z","url":"https://via.ritzau.dk/pressemeddelelse/15155482/eifo-lofter-forventningerne-efter-positivt-halvarsresultat?lang=da"},{"text":"The Weekly Notable Startup Funding Report: 9/14/26","headline":"The Weekly Notable Startup Funding Report: 9/14/26","summary":"Blandt ugens runder: Tandem Health, en svensk klinisk AI-dokumentationsstartup, rejste 86,5 mio. euro i Series B anført af EQT's Scaleup Europe Fund.","publisher":"AlleyWatch","section":"Venturekapital","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.alleywatch.com/2026/09/the-weekly-notable-startup-funding-report-9-14-26/"},{"text":"Russian military drone found off Polish coast","headline":"Russian military drone found off Polish coast","summary":"Militæret fandt en formodet russisk drone i vandet nær Jarosławiec ved den polske Østersøkyst, dagen efter at statsminister Tusk sagde, at alvorlige angreb på polsk territorium ikke kan udelukkes.","publisher":"Ukrinform","section":"Forsvar","publishedAt":"2026-09-14T15:38:00.000Z","url":"https://www.ukrinform.net/rubric-ato/4164039-russian-military-drone-found-off-polish-coast.html"},{"text":"Nadella Announces Public Consultation on Microsoft's MAI Model Rules","headline":"Nadella Announces Public Consultation on Microsoft's MAI Model Rules","summary":"Microsoft offentliggør en 'Code of Conduct' for sine egne MAI-modeller til seks ugers høring; Nadella argumenterer for decentral snarere end laboratorie-styret AI-styring, i klar kontrast til Amodei-koalitionen.","publisher":"Unite.AI","section":"AI og regulering","publishedAt":"2026-09-13T00:00:00.000Z","url":"https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/"},{"text":"FOMC September 2026 Odds of Rate Hike Surge Over 60%","headline":"FOMC September 2026 Odds of Rate Hike Surge Over 60%","summary":"CME FedWatch sætter nu odds for en rentestigning på Fed-mødet 16. september over 60 pct., efter en varm PPI-måling og en stærkere-end-ventet jobrapport; Kalshi og Polymarket ligger fortsat tættere på 50-50.","publisher":"Yahoo Finance","section":"Makroøkonomi","publishedAt":"2026-09-13T00:00:00.000Z","url":"https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-163505675.html"}],"column":{"authoredBy":"ai","slug":"fondsvalget-er-loven","title":"Fondsvalget er loven","thesis":"Venture-'power law' sidder i fondsvalget: 2021-medianfonden har 1,4 pct. afkast, topdecilet over 20 pct.","horizon":"2021-årgangens næste fondsopdatering, 2027.","body":["Mønstret gentages hvert år siden 2017. Selskaber følger en halet fordeling – men kun få fonde får eksponeringen."],"uncertainty":"Jeg tager fejl, hvis medianfondens 1,4 pct. viser sig at være en midlertidig regnskabsteknisk lavmåling snarere end fondens reelle afkast, og tallet hæver sig markant, når 2021-årgangen når år seks eller syv og flere selskaber realiserer deres værdi. Det afgøres i Cartas og Cambridge Associates' kommende opdateringer.","topics":["venturekapital","finans","statistik"],"claims":[{"text":"The 2021 vintage's median VC fund shows ~1.02x TVPI and 1.4% net IRR five years in (Carta Q1 2026, 2,500+ funds), while 90th-percentile net IRR has exceeded 20% in nearly every vintage 2017-2024 (Cambridge Associates/PitchBook).","sourceUrls":["https://valueaddvc.com/blog/vc-fund-performance-benchmarks-2026-irr-tvpi-dpi-by-vintage-year-explained"],"confidence":"medium"}],"sources":[{"title":"VC Fund Return Dispersion: Median vs. Top-Quartile (2026)","publisher":"Value Add VC","url":"https://valueaddvc.com/blog/vc-fund-performance-benchmarks-2026-irr-tvpi-dpi-by-vintage-year-explained","publishedAt":"2026-09-01T00:00:00.000Z","kind":"analysis"}]},"recommendations":[{"id":"rec-ai-doc-apocaloptimist-20260914","tier":"featured","mode":"watch","kind":"Dokumentar","status":"upcoming","title":"The AI Doc: Or How I Became an Apocaloptimist","creator":"Daniel Roher (instr.), Daniel Kwan (prod.)","provider":"Netflix","url":"https://www.netflix.com/title/82792555","availability":"Streamer globalt inkl. Danmark fra 15. september 2026 – tidligere kun i biografen fra 27. marts","commitment":"ca. 95 minutter","description":"En håndlavet dokumentar fra Oscar-vinderne bag 'Everything Everywhere All at Once' og 'Navalny', hvor instruktøren – på vej til at blive far – forsøger at finde ud af, hvad AI-udviklingen egentlig betyder, og om det ender som redning eller katastrofe.","rationale":"Rammer direkte ind i dagens førstehistorie: samme spørgsmål om redning eller katastrofe, som Amodei, Altman og Musk nu offentligt diskuterer, men stillet af en far snarere end et laboratorium. Du stemte selv 'mere' på filmen, da den blev annonceret i marts – i morgen kan du første gang faktisk se den.","topics":["ai","dokumentar"],"isFeatured":true,"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/r01-5f280cb8.jpg","credit":"Focus Features","alt":"Officiel plakat for 'The AI Doc: Or How I Became an Apocaloptimist'","sourceUrl":"https://www.focusfeatures.com/the-ai-doc-or-how-i-became-an-apocaloptimist","originalUrl":"https://images.contentstack.io/v3/assets/blt223a4a92692ca457/bltbbcfe9dbcd2e8dab/69af0530030f160008147b84/THE_AI_DOC_Digi_1-Sheet_1080x1600_W3_FIN02.jpg?branch=production&width=3840"}},{"id":"rec-dwarkesh-schulman-rsi-20260914","tier":"short","mode":"listen","kind":"Podcast","status":"new","title":"AI researchers debate how close we are to recursive self-improvement","creator":"Dwarkesh Patel, med John Schulman, Beren Millidge og Charlie O'Neill","provider":"Dwarkesh Podcast","url":"https://www.dwarkesh.com/p/john-beren-charlie","availability":"Frit tilgængelig","commitment":"ca. 2 timer","note":"Tre frontlinjeforskere stresstester præcis den evne – rekursiv selvforbedring – som Amodei vil have internationale grænser om; den tekniske samtale under dagens store nyhed, kun tre dage gammel.","topics":["ai","forskning"],"isFeatured":false},{"id":"rec-musk-gibney-documentary-20260914","tier":"short","mode":"watch","kind":"Dokumentar","status":"upcoming","title":"Musk","creator":"Alex Gibney (instr.)","provider":"Bleecker Street","url":"https://en.wikipedia.org/wiki/Musk_(film)","availability":"Kun festivalvisninger i Venedig og Toronto indtil videre; amerikansk biografpremiere 16. oktober. Ingen dansk premieredato fundet endnu.","commitment":"232 minutter","note":"Et næsten fire timer langt, kritisk portræt af en person, du selv rangerer højt – 'World's Richest Man Thrashed', ifølge Deadlines anmeldelse fra premieren. Ikke tilgængelig endnu, men værd at holde øje med.","topics":["dokumentar","magt"],"isFeatured":false},{"id":"rec-bak-rawls-bandung-20260914","tier":"short","mode":"read","kind":"Essay","status":"available","title":"Rawls, Bandung 2.ai and the AI Governance We Need","creator":"Michael L. Bąk","provider":"margin-notes-squared (Substack)","url":"https://www.margin-notes-squared.com/p/rawls-bandung-2ai-and-the-ai-governance","availability":"Frit tilgængelig","commitment":"ca. 15 minutter","note":"Bruger Rawls' slør af uvidenhed til at argumentere for, at hverken laboratorier eller stormagter – altså netop dem, der forhandler dagens opbremsningsregler – burde skrive dem; en tradition, du ellers ikke læser.","topics":["filosofi","ai-regulering"],"isFeatured":false},{"id":"rec-nber-vc-human-capital-20260914","tier":"short","mode":"read","kind":"Forskningspapir","status":"available","title":"Human Capital in Venture Capital: Evidence From 100,000 Venture Capitalists","creator":"Blake Jackson, Ilya A. Strebulaev","provider":"NBER","url":"https://www.nber.org/papers/w35501","availability":"Resumé frit tilgængeligt","commitment":"ca. 40 minutter","note":"Data på 100.000 VC-folk: under 40 pct. med investeringer rammer nogensinde ét hit, og top 5 pct. står for 90 pct. af profitten – samme koncentration som dagens klumme, set fra individet i stedet for fonden.","topics":["venturekapital","forskning"],"isFeatured":false},{"id":"rec-github-hydrafusion-20260914","tier":"short","mode":"try","kind":"Værktøj","status":"new","title":"Project HydraFusion","provider":"GitHub Copilot CLI","url":"https://github.blog/","availability":"Research preview, opt-in, siden 4. september 2026","commitment":"ca. 15 minutters opsætning","note":"Ruter automatisk kodeopgaver mellem billigere og stærkere modeller og lader én model kritisere en andens kode – konkret bevis på det multi-model-mønster, branchen ellers kun taler abstrakt om.","topics":["ai","vaerktoej"],"isFeatured":false}],"quality":{"sourceCoverage":82,"freshness":88,"novelty":78,"perspectiveBalance":80,"render":100}};</script>
   <script>globalThis.__BRIEF_CONFIG__ = {"links":{"daily":"./index.html","weekly":"./week.html","monthly":"./month.html","yearly":"./year.html","archive":"./archive/index.html"},"edition":"daily","feedbackUrl":"https://script.google.com/macros/s/AKfycbzN4QWK4xRbIbBMPZIKNujiTCPWF7uWF8BhZNn7RGSLWDMtrclaL35emdPvWh6kV6AL6A/exec"};</script>
   <script type="module">"use strict";
 (() => {
@@ -2455,63 +3094,111 @@ button { font: inherit; }
   }
 
   // src/web/render/feedback.js
+  var THUMB_SHAPES = '<rect x="1.4" y="9.3" width="4.4" height="12.1" rx="1.5"/><path d="M9.5 21.4H18.15c.95 0 1.8-.56 2.18-1.43l2.55-5.9c.14-.33.21-.68.21-1.04V11.2c0-1.05-.85-1.9-1.9-1.9h-5.62l.79-4.16c.13-.69-.09-1.39-.59-1.88l-.83-.81c-.42-.41-1.1-.37-1.47.09L8.6 7.72c-.71.88-1.1 1.98-1.1 3.11V19.4c0 1.1.9 2 2 2Z"/>';
   var THUMB_ICONS = {
-    more: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z"/></svg>',
-    less: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"/></svg>'
+    more: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">${THUMB_SHAPES}</svg>`,
+    less: `<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g transform="rotate(180 12 12)">${THUMB_SHAPES}</g></svg>`
   };
   var FEEDBACK_BUTTONS = [
     ["more", "Mere af dette", "Vis mig mere som dette"],
     ["less", "Mindre af dette", "Vis mig mindre som dette"]
   ];
-  var REASONS = [
-    ["new", "Nyt for mig"],
-    ["useful", "Nyttigt perspektiv"],
-    ["work", "Relevant for arbejde"],
-    ["irrelevant", "Ikke relevant"],
-    ["basic", "For basalt"],
-    ["known", "Allerede kendt"],
-    ["repeated", "Gentagelse"],
-    ["weak-source", "Svag kilde"],
-    ["weak-analysis", "Svag analyse"],
-    ["long", "For langt"]
-  ];
+  var RATING_MIN = 1;
+  var RATING_MAX = 10;
+  var RATING_MORE_THRESHOLD = 6;
+  function ratingDirection(rating) {
+    return rating >= RATING_MORE_THRESHOLD ? "more" : "less";
+  }
   function feedbackStorageKey(storyId, contentType = "story") {
     return contentType === "recommendation" ? `brief-feedback:recommendation:${storyId}` : `brief-feedback:${storyId}`;
   }
-  function feedbackReasonsKey(storyId, contentType = "story") {
-    return `${feedbackStorageKey(storyId, contentType)}:reasons`;
+  function feedbackRatingKey(storyId, contentType = "story") {
+    return `${feedbackStorageKey(storyId, contentType)}:rating`;
   }
-  function readSavedReasons(storyId, contentType = "story") {
+  function readStorage(key) {
     try {
-      const raw = localStorage.getItem(feedbackReasonsKey(storyId, contentType));
-      const parsed = raw ? JSON.parse(raw) : [];
-      return Array.isArray(parsed) ? parsed.filter((r) => typeof r === "string") : [];
+      return localStorage.getItem(key);
     } catch {
-      return [];
+      return null;
     }
   }
-  function rememberReason(storyId, contentType, reason) {
-    if (!reason) return;
+  function writeStorage(key, value) {
     try {
-      const next = [.../* @__PURE__ */ new Set([...readSavedReasons(storyId, contentType), reason])];
-      localStorage.setItem(feedbackReasonsKey(storyId, contentType), JSON.stringify(next));
+      localStorage.setItem(key, value);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+  function dropStorage(key) {
+    try {
+      localStorage.removeItem(key);
     } catch {
     }
   }
-  function forgetReason(storyId, contentType, reason) {
-    if (!reason) return;
-    try {
-      const next = readSavedReasons(storyId, contentType).filter((r) => r !== reason);
-      localStorage.setItem(feedbackReasonsKey(storyId, contentType), JSON.stringify(next));
-    } catch {
+  function readSavedRating(storyId, contentType = "story") {
+    const raw = readStorage(feedbackRatingKey(storyId, contentType));
+    const value = Number(raw);
+    return Number.isInteger(value) && value >= RATING_MIN && value <= RATING_MAX ? value : null;
+  }
+  function rememberRating(storyId, contentType, rating) {
+    writeStorage(feedbackRatingKey(storyId, contentType), String(rating));
+  }
+  function forgetRating(storyId, contentType) {
+    dropStorage(feedbackRatingKey(storyId, contentType));
+  }
+  function applyRatingState(scale, rating) {
+    if (!scale) return;
+    const steps = [...scale.querySelectorAll(".rating-step")];
+    for (const step of steps) {
+      const value = Number(step.dataset.rating);
+      const chosen = value === rating;
+      step.setAttribute("aria-checked", String(chosen));
+      step.tabIndex = (rating ? chosen : value === RATING_MIN) ? 0 : -1;
     }
+    if (rating) {
+      scale.dataset.rating = String(rating);
+      scale.style.setProperty("--rating-index", String(rating - RATING_MIN));
+    } else {
+      delete scale.dataset.rating;
+      scale.style.removeProperty("--rating-index");
+    }
+  }
+  function setRatingRevealed(scale, revealed) {
+    if (!scale) return;
+    scale.dataset.revealed = String(Boolean(revealed));
+  }
+  function renderRatingScale(storyId, contentType, revealed) {
+    const scale = element("div", "rating-scale");
+    scale.setAttribute("role", "radiogroup");
+    scale.setAttribute(
+      "aria-label",
+      contentType === "recommendation" ? "Udbytte af anbefalingen, valgfri, fra 1 til 10" : "Udbytte af historien, valgfri, fra 1 til 10"
+    );
+    for (let value = RATING_MIN; value <= RATING_MAX; value += 1) {
+      const step = element("button", "rating-step", String(value));
+      step.type = "button";
+      step.dataset.rating = String(value);
+      step.setAttribute("role", "radio");
+      step.setAttribute("aria-checked", "false");
+      step.setAttribute("aria-label", `${value} ud af 10`);
+      step.tabIndex = value === RATING_MIN ? 0 : -1;
+      scale.append(step);
+    }
+    const mark = element("span", "rating-mark");
+    mark.setAttribute("aria-hidden", "true");
+    scale.append(mark);
+    applyRatingState(scale, readSavedRating(storyId, contentType));
+    setRatingRevealed(scale, revealed);
+    return scale;
   }
   function renderFeedback(storyId, contentType = "story") {
     const section = element("section", "feedback-panel");
     section.setAttribute(
       "aria-label",
-      contentType === "recommendation" ? "Bed\xF8m anbefalingen" : "Bed\xF8m historien"
+      contentType === "recommendation" ? "Din reaktion p\xE5 anbefalingen" : "Din reaktion p\xE5 historien"
     );
+    const controls = element("div", "feedback-controls");
     const actions = element("div", "feedback-actions");
     for (const [direction, title, ariaLabel] of FEEDBACK_BUTTONS) {
       const button = element("button", `feedback-button feedback-${direction}`);
@@ -2523,35 +3210,23 @@ button { font: inherit; }
       button.innerHTML = THUMB_ICONS[direction];
       actions.append(button);
     }
-    const reasons = element("div", "feedback-reasons");
-    reasons.hidden = true;
-    reasons.append(element("span", "reason-label", "Hvorfor"));
-    const savedReasons = readSavedReasons(storyId, contentType);
-    for (const [reason, label] of REASONS) {
-      const button = element("button", "reason-chip", label);
-      button.type = "button";
-      button.dataset.reason = reason;
-      const chosen = savedReasons.includes(reason);
-      button.setAttribute("aria-pressed", String(chosen));
-      if (chosen) button.classList.add("is-selected");
-      reasons.append(button);
-    }
-    const saved = localStorage.getItem(feedbackStorageKey(storyId, contentType));
+    const saved = readStorage(feedbackStorageKey(storyId, contentType));
     if (saved) {
       const selected = actions.querySelector(`[data-direction="${saved}"]`);
       selected?.setAttribute("aria-pressed", "true");
       selected?.classList.add("is-selected");
-      reasons.hidden = false;
     }
-    section.append(actions, reasons);
+    const revealed = Boolean(saved) || readSavedRating(storyId, contentType) !== null;
+    controls.append(actions, renderRatingScale(storyId, contentType, revealed));
+    section.append(controls);
     return section;
   }
   function getBrowserId() {
     const key = "brief-browser-id";
-    let id = localStorage.getItem(key);
+    let id = readStorage(key);
     if (!id) {
       id = globalThis.crypto.randomUUID();
-      localStorage.setItem(key, id);
+      writeStorage(key, id);
     }
     return id;
   }
@@ -2662,9 +3337,6 @@ button { font: inherit; }
     panel.append(element("h2", "klumme-title", column.title));
     panel.append(element("p", "klumme-byline", KLUMME_BYLINE));
     panel.append(element("p", "klumme-thesis", column.thesis));
-    if (column.horizon) {
-      panel.append(element("p", "klumme-horizon", column.horizon));
-    }
     const body = element("div", "klumme-body");
     for (const paragraph of column.body) {
       body.append(element("p", "klumme-paragraph", paragraph));
@@ -2939,6 +3611,12 @@ button { font: inherit; }
     image.addEventListener("error", () => {
       media.remove();
     });
+    image.addEventListener("load", () => {
+      if (!image.naturalWidth || !image.naturalHeight) return;
+      if (image.naturalHeight <= image.naturalWidth * 1.15) return;
+      media.dataset.orientation = "portrait";
+      image.closest(".recommendation")?.setAttribute("data-media-orientation", "portrait");
+    });
     media.append(imageLink, credit);
     return media;
   }
@@ -3027,6 +3705,7 @@ button { font: inherit; }
         grid.append(renderRecommendation(recommendation));
       }
     }
+    grid.hidden = grid.childElementCount === 0;
     if (shortList) {
       if (shortCount) shortList.append(element("h3", "recommendation-shortlist-title", SHORTLIST_TITLE));
       shortList.append(...shortRows);
@@ -3238,10 +3917,6 @@ button { font: inherit; }
     const body = element("div", "mag-klumme-body");
     column.body.forEach((paragraph) => body.append(element("p", "mag-klumme-paragraph", paragraph)));
     children.push(body);
-    const uncertainty = element("div", "mag-klumme-uncertainty");
-    uncertainty.append(element("span", "insight-label", "Det kan jeg tage fejl om"));
-    uncertainty.append(element("p", "mag-klumme-uncertainty-text", column.uncertainty));
-    children.push(uncertainty);
     return band("mag-klumme", children);
   }
   function recommendations(recs) {
@@ -3407,10 +4082,6 @@ button { font: inherit; }
     const body = element("div", "feed-klumme-body");
     column.body.forEach((paragraph) => body.append(element("p", "feed-klumme-paragraph", paragraph)));
     card.append(body);
-    const uncertainty = element("div", "feed-klumme-uncertainty");
-    uncertainty.append(element("span", "insight-label", "Det kan jeg tage fejl om"));
-    uncertainty.append(element("p", "feed-klumme-uncertainty-text", column.uncertainty));
-    card.append(uncertainty);
     return card;
   }
   function recommendationCards(recs) {
@@ -3737,27 +4408,150 @@ button { font: inherit; }
     for (const story of brief.stories) {
       (story.isLead ? leadContainer : storyGrid2).append(renderStory(story));
     }
-    for (const signal of brief.signals.slice(0, 4)) {
-      leadSignals.append(renderSignal(signal));
-    }
-    const remainingSignals = brief.signals.slice(4);
-    for (const signal of remainingSignals) shortNews.append(renderSignal(signal));
-    shortNewsSection.hidden = remainingSignals.length === 0;
+    for (const signal of brief.signals) leadSignals.append(renderSignal(signal));
+    shortNewsSection.hidden = true;
     renderRecommendations(brief.recommendations);
     renderQualityFooter(brief.quality);
+    scheduleSignalBalance();
   }
-  async function sendFeedback(button, transport, reason) {
+  var SHORT_NEWS_MINIMUM = 3;
+  function railOverflowCount(itemHeights, budget) {
+    if (!itemHeights.length) return 0;
+    let rail = 0;
+    let best = null;
+    for (let kept = 1; kept <= itemHeights.length; kept += 1) {
+      rail += itemHeights[kept - 1];
+      const move = itemHeights.length - kept;
+      if (move !== 0 && move < SHORT_NEWS_MINIMUM) continue;
+      const distance = Math.abs(rail - budget);
+      if (best === null || distance < best.distance) best = { move, distance };
+    }
+    return best === null ? 0 : best.move;
+  }
+  function balanceSignalRail() {
+    const lead = document.querySelector("#lead-story");
+    const rail = document.querySelector("#lead-signals");
+    const shortNews = document.querySelector("#short-news");
+    const shortNewsSection = document.querySelector("#short-news-section");
+    if (!lead || !rail || !shortNews || !shortNewsSection) return;
+    for (const item of [...shortNews.querySelectorAll(".signal-item")]) rail.append(item);
+    const items = [...rail.querySelectorAll(".signal-item")];
+    const leadBox = lead.getBoundingClientRect?.() ?? { height: 0, right: 0 };
+    const railBox = rail.getBoundingClientRect?.() ?? { height: 0, left: 0, top: 0 };
+    const title = rail.querySelector(".signals-title");
+    const titleHeight = title?.getBoundingClientRect?.().height ?? 0;
+    const besideTheLead = railBox.left >= leadBox.right - 1;
+    if (!leadBox.height || !items.length || !besideTheLead) {
+      shortNewsSection.hidden = true;
+      return;
+    }
+    const heights = items.map((item) => item.getBoundingClientRect().height);
+    const move = railOverflowCount(heights, leadBox.height - titleHeight);
+    if (move > 0) shortNews.append(...items.slice(items.length - move));
+    shortNewsSection.hidden = move === 0;
+  }
+  var balanceFrame = null;
+  function scheduleSignalBalance() {
+    if (typeof requestAnimationFrame !== "function") return;
+    if (balanceFrame !== null) cancelAnimationFrame(balanceFrame);
+    balanceFrame = requestAnimationFrame(() => {
+      balanceFrame = null;
+      balanceSignalRail();
+    });
+  }
+  if (typeof window !== "undefined" && typeof window.addEventListener === "function") {
+    window.addEventListener("resize", () => {
+      if (document.querySelector("#lead-signals")) scheduleSignalBalance();
+    });
+    document.fonts?.ready?.then?.(() => {
+      if (document.querySelector("#lead-signals")) scheduleSignalBalance();
+    });
+  }
+  var statusTimer = null;
+  function setFeedbackStatus(text) {
+    const status = document.querySelector("#feedback-status");
+    if (!status) return;
+    if (statusTimer) clearTimeout(statusTimer);
+    statusTimer = null;
+    status.textContent = text;
+    if (!text) return;
+    statusTimer = setTimeout(() => {
+      status.textContent = "";
+      statusTimer = null;
+    }, 4e3);
+  }
+  function appendFeedbackStatus(text) {
+    const status = document.querySelector("#feedback-status");
+    if (!status) return;
+    const current = status.textContent.replace(/[.\s]+$/, "");
+    setFeedbackStatus(current ? `${current}. ${text}` : text);
+  }
+  function ratingWasEchoed(result, rating) {
+    const echoed = result?.feedback?.rating ?? result?.rating;
+    return echoed === rating;
+  }
+  var RATING_OUTBOX_KEY = "brief-rating-outbox";
+  var RATING_OUTBOX_LIMIT = 200;
+  function readRatingOutbox() {
+    try {
+      const parsed = JSON.parse(localStorage.getItem(RATING_OUTBOX_KEY) ?? "[]");
+      return Array.isArray(parsed) ? parsed.filter((entry) => entry && typeof entry === "object") : [];
+    } catch {
+      return [];
+    }
+  }
+  function writeRatingOutbox(entries) {
+    try {
+      localStorage.setItem(RATING_OUTBOX_KEY, JSON.stringify(entries.slice(-RATING_OUTBOX_LIMIT)));
+    } catch {
+    }
+  }
+  function outboxIdentity(payload) {
+    return `${payload.contentType ?? "story"}:${payload.storyId}`;
+  }
+  function queueRating(payload) {
+    const identity = outboxIdentity(payload);
+    writeRatingOutbox([...readRatingOutbox().filter((entry) => outboxIdentity(entry) !== identity), payload]);
+  }
+  function dequeueRating(payload) {
+    const identity = outboxIdentity(payload);
+    const remaining = readRatingOutbox().filter((entry) => outboxIdentity(entry) !== identity);
+    writeRatingOutbox(remaining);
+  }
+  async function flushRatingOutbox(transport = defaultFeedbackTransport()) {
+    const pending = readRatingOutbox();
+    if (!pending.length) return 0;
+    let confirmed = 0;
+    for (const payload of pending) {
+      let result;
+      try {
+        result = await transport(payload);
+      } catch {
+        break;
+      }
+      if (result?.status !== "saved" || !ratingWasEchoed(result, payload.rating)) break;
+      dequeueRating(payload);
+      confirmed += 1;
+    }
+    return confirmed;
+  }
+  async function sendFeedback(button, transport, rating) {
     const article = button.closest("article");
     const direction = button.dataset.direction ?? article.querySelector('[aria-pressed="true"]')?.dataset.direction;
     const isRecommendation = article.dataset.contentType === "recommendation";
+    const { storyId, contentType } = articleContent(article);
+    const chosen = rating === void 0 ? readSavedRating(storyId, contentType) : rating;
+    const spokenRating = rating !== void 0 && rating !== null;
+    const hasRating = Number.isInteger(chosen) && chosen >= RATING_MIN && chosen <= RATING_MAX;
     const payload = {
       storyId: article.dataset.storyId,
       browserId: getBrowserId(),
       direction,
       ...isRecommendation ? { contentType: "recommendation" } : {},
-      ...reason ? { reason } : {},
+      ...hasRating ? { rating: chosen } : {},
       createdAt: (/* @__PURE__ */ new Date()).toISOString()
     };
+    dequeueRating(payload);
     const directionButtons = [...article.querySelectorAll("button[data-direction]")];
     const previousPressed = directionButtons.map((control) => control.getAttribute("aria-pressed"));
     const applyState = (active) => {
@@ -3768,23 +4562,30 @@ button { font: inherit; }
       });
     };
     applyState(true);
-    const reasonsPanel = article.querySelector(".feedback-reasons");
-    if (reasonsPanel) reasonsPanel.hidden = false;
-    localStorage.setItem(
-      feedbackStorageKey(payload.storyId, payload.contentType),
-      direction
-    );
-    const status = document.querySelector("#feedback-status");
-    if (status) status.textContent = "Feedback gemt";
+    try {
+      localStorage.setItem(feedbackStorageKey(payload.storyId, payload.contentType), direction);
+    } catch {
+    }
+    const spokenDirection = direction === "more" ? "mere" : "mindre";
     try {
       const result = await transport(payload);
-      if (status && result?.status !== "saved") {
-        status.textContent = "Gemt lokalt i denne browser \u2013 p\xE5virker ikke morgendagens udvalg";
+      const spoken = spokenRating ? `Udbytte ${chosen} af 10. Talt som ${spokenDirection} af dette. ` : "";
+      if (result?.status !== "saved") {
+        if (hasRating) queueRating(payload);
+        setFeedbackStatus(`${spoken}Gemt lokalt i denne browser \u2013 p\xE5virker ikke morgendagens udvalg`);
+      } else if (!hasRating) {
+        setFeedbackStatus("Feedback gemt");
+      } else if (ratingWasEchoed(result, chosen)) {
+        setFeedbackStatus(`${spoken}Feedback gemt.`);
+      } else {
+        queueRating(payload);
+        setFeedbackStatus(`${spoken || "Feedback gemt. "}Udbyttet ligger kun i denne browser \u2013 det sendes igen senere.`);
       }
       return payload;
     } catch (error) {
       applyState(false);
-      if (status) status.textContent = "Feedback kunne ikke gemmes \u2013 pr\xF8v igen";
+      if (hasRating) queueRating(payload);
+      setFeedbackStatus("Feedback kunne ikke gemmes \u2013 pr\xF8v igen");
       throw error;
     }
   }
@@ -3814,40 +4615,199 @@ button { font: inherit; }
     if (globalThis.google?.script?.run) return appsScriptTransport;
     return () => Promise.resolve({ status: "saved-local" });
   }
+  function stampButton(button) {
+    if (!button) return;
+    button.classList.remove("is-stamping");
+    void button.offsetWidth;
+    button.classList.add("is-stamping");
+    const clear = () => button.classList.remove("is-stamping");
+    button.addEventListener("animationend", clear, { once: true });
+    setTimeout(clear, 400);
+  }
+  function articleContent(article) {
+    return {
+      storyId: article?.dataset.storyId,
+      contentType: article?.dataset.contentType === "recommendation" ? "recommendation" : "story"
+    };
+  }
+  function revealRatingScale(button) {
+    const scale = button.closest(".feedback-panel")?.querySelector(".rating-scale");
+    if (!scale || scale.dataset.revealed === "true") return false;
+    setRatingRevealed(scale, true);
+    scale.classList.remove("is-revealing");
+    void scale.offsetWidth;
+    scale.classList.add("is-revealing");
+    const clear = () => scale.classList.remove("is-revealing");
+    scale.addEventListener("animationend", clear, { once: true });
+    setTimeout(clear, 500);
+    return true;
+  }
+  function ratingRevealedMessage(button) {
+    const what = button.closest("article")?.dataset.contentType === "recommendation" ? "anbefalingen" : "historien";
+    return `Du kan nu give ${what} et udbytte fra 1 til 10.`;
+  }
+  async function selectRating(step, transport) {
+    const scale = step.closest(".rating-scale");
+    const article = step.closest("article");
+    if (!scale || !article) return;
+    const { storyId, contentType } = articleContent(article);
+    if (!storyId) return;
+    const value = Number(step.dataset.rating);
+    const previous = readSavedRating(storyId, contentType);
+    const next = previous === value ? null : value;
+    applyRatingState(scale, next);
+    if (next) rememberRating(storyId, contentType, next);
+    else forgetRating(storyId, contentType);
+    const rollback = () => applyRatingState(scale, previous);
+    if (next) {
+      const thumb = article.querySelector(`button[data-direction="${ratingDirection(next)}"]`);
+      if (!thumb) return;
+      const alreadyPressed = thumb.getAttribute("aria-pressed") === "true";
+      if (!alreadyPressed) stampButton(thumb);
+      try {
+        await sendFeedback(thumb, transport, next);
+      } catch (error) {
+        rollback();
+        if (previous) rememberRating(storyId, contentType, previous);
+        else forgetRating(storyId, contentType);
+        throw error;
+      }
+      return;
+    }
+    const pressed = article.querySelector('button[data-direction][aria-pressed="true"]');
+    if (pressed) {
+      try {
+        await sendFeedback(pressed, transport, null);
+      } catch (error) {
+        rollback();
+        if (previous) rememberRating(storyId, contentType, previous);
+        throw error;
+      }
+    }
+    setFeedbackStatus("Udbytte fjernet.");
+  }
+  function stepsOf(scale) {
+    return [...scale.querySelectorAll(".rating-step")];
+  }
+  function focusStep(scale, value) {
+    const steps = stepsOf(scale);
+    const clamped = Math.min(RATING_MAX, Math.max(RATING_MIN, value));
+    for (const step of steps) step.tabIndex = Number(step.dataset.rating) === clamped ? 0 : -1;
+    steps.find((step) => Number(step.dataset.rating) === clamped)?.focus();
+  }
+  var suppressNextRatingClick = false;
+  function bindRatingScrub(transport) {
+    let scrub = null;
+    const cells = RATING_MAX - RATING_MIN + 1;
+    const valueAt = (scale, clientX) => {
+      const rect = scale.getBoundingClientRect();
+      if (!rect.width) return RATING_MIN;
+      const slot = Math.floor((clientX - rect.left) / rect.width * cells);
+      return Math.min(RATING_MAX, Math.max(RATING_MIN, slot + RATING_MIN));
+    };
+    const preview = (value) => {
+      scrub.value = value;
+      scrub.scale.style.setProperty("--rating-preview", String(value - RATING_MIN));
+      scrub.bubble.textContent = String(value);
+      for (const step of stepsOf(scrub.scale)) {
+        step.dataset.preview = String(Number(step.dataset.rating) === value);
+      }
+    };
+    document.addEventListener("pointerdown", (event) => {
+      suppressNextRatingClick = false;
+      if (event.pointerType === "mouse" || scrub) return;
+      const scale = event.target.closest?.(".rating-scale");
+      if (!scale) return;
+      const bubble = element("span", "rating-bubble");
+      bubble.setAttribute("aria-hidden", "true");
+      scale.classList.add("is-scrubbing");
+      scrub = { scale, bubble, value: null, pointerId: event.pointerId };
+      preview(valueAt(scale, event.clientX));
+      scale.append(bubble);
+      scale.setPointerCapture?.(event.pointerId);
+    });
+    document.addEventListener("pointermove", (event) => {
+      if (!scrub || event.pointerId !== scrub.pointerId) return;
+      preview(valueAt(scrub.scale, event.clientX));
+    });
+    const finish = (commit) => (event) => {
+      if (!scrub || event.pointerId !== scrub.pointerId) return;
+      const { scale, bubble, value } = scrub;
+      scrub = null;
+      bubble.remove();
+      scale.classList.remove("is-scrubbing");
+      scale.style.removeProperty("--rating-preview");
+      for (const step2 of stepsOf(scale)) delete step2.dataset.preview;
+      if (!commit) return;
+      suppressNextRatingClick = true;
+      setTimeout(() => {
+        suppressNextRatingClick = false;
+      }, 400);
+      const step = stepsOf(scale).find((candidate) => Number(candidate.dataset.rating) === value);
+      if (step) {
+        selectRating(step, transport).catch(() => setFeedbackStatus("Feedback kunne ikke gemmes \u2013 pr\xF8v igen"));
+      }
+    };
+    document.addEventListener("pointerup", finish(true));
+    document.addEventListener("pointercancel", finish(false));
+  }
   function bindFeedback(transport = defaultFeedbackTransport()) {
+    suppressNextRatingClick = false;
     document.addEventListener("click", async (event) => {
-      const button = event.target.closest("button[data-direction], button[data-reason]");
+      const button = event.target.closest("button[data-direction], button[data-rating]");
       if (!button) return;
       try {
-        const directionButton = button.dataset.direction ? button : button.closest("article").querySelector('[data-direction][aria-pressed="true"]');
-        if (!directionButton) return;
-        const reasonButton = button.dataset.reason ? button : null;
-        let rollbackReason = null;
-        if (reasonButton) {
-          const article = reasonButton.closest("article");
-          const storyId = article?.dataset.storyId;
-          const contentType = article?.dataset.contentType === "recommendation" ? "recommendation" : "story";
-          const wasSelected = reasonButton.classList.contains("is-selected");
-          reasonButton.classList.add("is-selected");
-          reasonButton.setAttribute("aria-pressed", "true");
-          if (storyId) rememberReason(storyId, contentType, reasonButton.dataset.reason);
-          rollbackReason = () => {
-            reasonButton.classList.toggle("is-selected", wasSelected);
-            reasonButton.setAttribute("aria-pressed", String(wasSelected));
-            if (storyId && !wasSelected) forgetReason(storyId, contentType, reasonButton.dataset.reason);
-          };
+        if (button.dataset.rating) {
+          if (suppressNextRatingClick) {
+            suppressNextRatingClick = false;
+            return;
+          }
+          await selectRating(button, transport);
+          return;
         }
+        const revealed = revealRatingScale(button);
+        stampButton(button);
         try {
-          await sendFeedback(directionButton, transport, button.dataset.reason);
-        } catch (error) {
-          rollbackReason?.();
-          throw error;
+          await sendFeedback(button, transport);
+        } catch {
+          setFeedbackStatus("Feedback kunne ikke gemmes \u2013 pr\xF8v igen");
         }
+        if (revealed) appendFeedbackStatus(ratingRevealedMessage(button));
       } catch {
-        const status = document.querySelector("#feedback-status");
-        if (status) status.textContent = "Feedback kunne ikke gemmes \u2013 pr\xF8v igen";
+        setFeedbackStatus("Feedback kunne ikke gemmes \u2013 pr\xF8v igen");
       }
     });
+    document.addEventListener("keydown", (event) => {
+      const step = event.target.closest?.(".rating-step");
+      if (!step) return;
+      const scale = step.closest(".rating-scale");
+      if (!scale) return;
+      const current = Number(step.dataset.rating);
+      if (event.key === "ArrowRight" || event.key === "ArrowDown") {
+        event.preventDefault();
+        focusStep(scale, current + 1);
+      } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
+        event.preventDefault();
+        focusStep(scale, current - 1);
+      } else if (event.key === "Home") {
+        event.preventDefault();
+        focusStep(scale, RATING_MIN);
+      } else if (event.key === "End") {
+        event.preventDefault();
+        focusStep(scale, RATING_MAX);
+      } else if (event.key === "Escape") {
+        const marked = stepsOf(scale).find((candidate) => candidate.getAttribute("aria-checked") === "true");
+        if (marked) {
+          event.preventDefault();
+          marked.click();
+        }
+      } else if (/^[0-9]$/.test(event.key)) {
+        event.preventDefault();
+        const value = event.key === "0" ? RATING_MAX : Number(event.key);
+        stepsOf(scale).find((candidate) => Number(candidate.dataset.rating) === value)?.click();
+      }
+    });
+    bindRatingScrub(transport);
   }
   function bindReadLater() {
     const panel = document.querySelector("#read-later");
@@ -4031,6 +4991,8 @@ button { font: inherit; }
       renderDaily(brief);
     }
     bindFeedback();
+    flushRatingOutbox().catch(() => {
+    });
     bindAudio(brief);
     bindEditionNav(kind);
     bindLayoutNav();

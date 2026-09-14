@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-09-14-a",
+  "runId": "run-2026-09-14-r148",
   "date": "2026-09-14",
-  "generatedAt": "2026-09-14T06:00:00Z",
-  "readingMinutes": 11,
-  "title": "Alexanders Brief — 14. september 2026",
-  "dek": "Claude Code som missilingeniør, et svensk valg afgjort af ét mandat, en dansk vurderingsfejl ingen oplyste om, og hvorfor AI ikke sender lønnen mod nul.",
+  "generatedAt": "2026-09-14T05:30:00.000Z",
+  "readingMinutes": 10,
+  "title": "Alexanders Brief",
+  "dek": "AI-laboratoriernes topchefer beder samstemmigt om at bremse sig selv, mens Kina afviser det som frygtskabende — plus et svensk valg på en håndfuld mandater og en dansk Guldløve i Venedig.",
   "profileWeights": {
     "importance": 25,
     "decisionValue": 20,
@@ -17,36 +17,37 @@
   },
   "stories": [
     {
-      "id": "story-anthropic-yemen-missile-2026",
-      "eventKey": "anthropic-threat-report-2026-09",
+      "id": "story-ai-pacing-proposal-20260914",
+      "eventKey": "ai-pacing-proposal-2026-09",
       "materialFacts": [
-        "Yemen-baseret celle brugte Claude Code i stedet for menneskelige softwareingeniører til at udvikle styrings- og navigationssoftware til missilfamilien R2000, inklusive en hypersonisk glidevariant.",
-        "En test af en styret raket fejlede ifølge Anthropics egen vurdering.",
-        "Anthropic har ingen beviser for et fungerende våben og har lukket de tilknyttede konti.",
-        "Samme rapport dokumenterer parallel russisk og kinesisk statslinket misbrug af Claude til cyberspionage."
+        "Amodei's essay 'We Must Pace the Frontier' proposes independent evaluators with employee-like access, common safety standards among democracies, and eventual international limits on capabilities like recursive self-improvement.",
+        "Altman committed OpenAI to the same evaluator access; Musk publicly endorsed the proposal.",
+        "Cohere's Aidan Gomez called the coalition 'cartel' behaviour."
       ],
-      "section": "Verden",
-      "headline": "Anthropic claims Claude AI used for missile projects, global espionage",
-      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
-      "subheadline": "Trusselsrapport fra AI-selskabet viser, hvordan Claude Code blev brugt som stedfortræder for et helt ingeniørhold på et missilprogram i Yemen",
+      "section": "AI og magt",
+      "headline": "Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development",
+      "primarySourceUrl": "https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/",
+      "subheadline": "Anthropics topchef foreslår uafhængige evaluatorer og grænser for AI's udvikling – og får opbakning fra to konkurrenter",
       "body": [
-        "En celle i det nordlige Yemen har ifølge Anthropics trusselsrapport fra september 2026 brugt Claude Code som stedfortræder for softwareingeniører til at udvikle styringssoftware til missilfamilien R2000, herunder en hypersonisk glidevariant, med et rækkeviddemål over 2.000 kilometer.",
-        "En test af en styret raket fejlede; operatørerne vendte inden for timer tilbage til Claude for at analysere fejlen. Anthropic har ingen beviser for et fungerende våben og har lukket kontiene. Samme rapport dokumenterer parallel russisk og kinesisk statslinket misbrug til cyberspionage mod Ukraine, Europa og virksomhedsnetværk."
+        "Anthropics topchef Dario Amodei foreslår i essayet 'We Must Pace the Frontier', at laboratorierne bevidst sænker tempoet i nye kapabiliteter: uafhængige evaluatorer med medarbejderadgang, fælles sikkerhedsstandarder mellem demokratier og på sigt grænser for evner som rekursiv selvforbedring.",
+        "Sam Altman lover samme evaluator-adgang hos OpenAI. Elon Musk skrev kort: 'Dario har ret'. Det er sjældent, at konkurrerende topchefer offentligt lægger sig fast på at bremse sig selv."
       ],
-      "whyItMatters": "Det centrale er, at sprogmodeller nu kan erstatte et helt ingeniørhold, ikke blot assistere enkeltopgaver. Cellen delte arbejdet på separate sessioner og skjulte formålet — den opdeling, indholdsfiltre har svært ved at fange.",
-      "analysis": "Det ændrer trusselsmodellen: forsvaret kan ikke regne med, at ét afvist promt stopper et projekt, når arbejdet spredes over samtaler, hvoraf ingen alene afslører billedet.",
-      "counterpoint": "Rapporten er skrevet af Anthropic selv, der har kommerciel interesse i at fremstå årvågen; at intet våben blev færdiggjort, er selskabets egen vurdering, ikke efterprøvet her.",
+      "whyItMatters": "Det ændrer, hvem der får indsyn i de mest avancerede modeller, og hvor hurtigt næste generation når markedet – med betydning for kapløbet mod Kina, der samme dag afviste opbremsningen som 'frygtskabende'.",
+      "analysis": "Timingen er ikke tilfældig: alle tre forbereder store kapitalrejsninger eller børsnoteringer, hvor offentlig sikkerhedsomtale kan være lige så værdifuld som selve bremsen.",
+      "counterpoint": "Cohere-direktør Aidan Gomez kalder det 'kartel-adfærd': når dominerende laboratorier selv skriver reglerne, cementerer de deres markedsposition, mens mindre spillere som hans eget holdes udenfor.",
       "topics": [
         "ai",
-        "cyber",
-        "forsvar",
+        "ai-sikkerhed",
         "magt"
       ],
       "entities": [
+        "Dario Amodei",
+        "Sam Altman",
+        "Elon Musk",
         "Anthropic",
-        "Claude",
-        "Houthi-bevægelsen",
-        "Midnight Blizzard"
+        "OpenAI",
+        "Aidan Gomez",
+        "Cohere"
       ],
       "isLead": true,
       "isOutsideProfile": false,
@@ -54,715 +55,943 @@
         "importance": 92,
         "decisionValue": 85,
         "novelty": 80,
-        "sourceQuality": 90,
-        "personalRelevance": 70,
+        "sourceQuality": 85,
+        "personalRelevance": 90,
         "contrast": 60
       },
       "claims": [
         {
-          "text": "En Yemen-baseret celle brugte Claude Code i stedet for menneskelige softwareingeniører til at udvikle styrings-, navigations- og kontrolsoftware til missilfamilien R2000, herunder en hypersonisk glidevariant, med et opgivet rækkeviddemål over 2.000 km.",
+          "text": "Amodei's essay proposes independent evaluators with employee-like access, common democratic safety standards, and eventual international limits on capabilities including recursive self-improvement.",
           "sourceUrls": [
-            "https://www.anthropic.com/threat-intelligence-report-september-2026",
-            "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage"
+            "https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/"
           ],
           "confidence": "high"
         },
         {
-          "text": "Anthropic siger, man ikke har beviser for et fungerende våben, og at de tilknyttede konti er lukket.",
+          "text": "Altman committed OpenAI to matching evaluator access; Musk endorsed the proposal ('Dario is right').",
           "sourceUrls": [
-            "https://www.anthropic.com/threat-intelligence-report-september-2026",
-            "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/"
+            "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"
           ],
           "confidence": "high"
         },
         {
-          "text": "Samme rapport dokumenterer russisk-linket (Midnight Blizzard) og kinesisk-linket brug af Claude til henholdsvis cyberspionage mod Ukraine/Europa og orkestrering af angreb mod virksomheds- og statsnetværk.",
+          "text": "Cohere CEO Aidan Gomez called the pacing coalition 'cartel' behaviour that risks entrenching dominant labs' market position.",
           "sourceUrls": [
-            "https://www.anthropic.com/threat-intelligence-report-september-2026"
+            "https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         }
       ],
       "sources": [
         {
-          "title": "Anthropic claims Claude AI used for missile projects, global espionage",
-          "publisher": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage",
-          "publishedAt": "2026-09-11T10:00:00Z",
+          "title": "Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/",
+          "publishedAt": "2026-09-13T21:37:00.000Z",
           "kind": "reporting"
         },
         {
-          "title": "Detecting and countering misuse of AI: September 2026",
-          "publisher": "Anthropic",
-          "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-          "publishedAt": "2026-09-11T08:00:00Z",
-          "kind": "primary"
-        },
-        {
-          "title": "Rebels used Anthropic's AI bot to develop guided weapons, report says",
-          "publisher": "The Washington Post",
-          "url": "https://www.washingtonpost.com/technology/2026/09/11/rebels-used-anthropics-ai-bot-develop-guided-weapons-report-says/",
-          "publishedAt": "2026-09-11T12:00:00Z",
+          "title": "Anthropic's Amodei proposes plan to slow the pace of advancing AI capabilities",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
+          "publishedAt": "2026-09-12T12:00:00.000Z",
           "kind": "reporting"
-        }
-      ],
-      "image": {
-        "url": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6aa37d4d-1789099341.jpg?resize=1920%2C1440",
-        "credit": "Kilde: Al Jazeera",
-        "alt": "Anthropic claims Claude AI used for missile projects, global espionage",
-        "sourceUrl": "https://www.aljazeera.com/news/2026/9/11/anthropic-claims-claude-ai-used-for-missile-projects-global-espionage"
-      }
-    },
-    {
-      "id": "story-ukraine-poland-border-2026",
-      "eventKey": "ukraine-poland-border-strike-2026-09",
-      "materialFacts": [
-        "Et russisk angreb ramte nær Jahodyn-grænseovergangen til Polen 13. september, kort efter et diplomattogs passage.",
-        "En tankstation blev beskadiget; samme døgn skabte russiske droneangreb strømafbrydelser i Rivne-området og skader på et industrianlæg i Ivano-Frankivsk."
-      ],
-      "section": "Verden",
-      "headline": "Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen",
-      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen",
-      "subheadline": "Et russisk angreb nær den polske grænse, minutter efter et diplomattogs passage, viser hvor tæt krigen nu er på NATO-territorium",
-      "body": [
-        "Et russisk angreb ramte natten til 13. september nær Jahodyn-grænseovergangen mellem Ukraine og Polen, kort efter at et diplomattog var passeret gennem området. En nærliggende tankstation blev beskadiget; ingen kom efter det oplyste til skade ved selve angrebet.",
-        "Samme døgn skabte russiske droneangreb strømafbrydelser i dele af Rivne og Dubno, mens et industrianlæg i Ivano-Frankivsk blev ramt ved daggry, hvor én person kom til skade."
-      ],
-      "whyItMatters": "Et angreb minutter fra et NATO-lands grænse, mod et område et diplomattog lige havde forladt, gør 'ingen skade denne gang' til en skrøbelig sætning snarere end en beroligelse.",
-      "analysis": "Hændelsen føjer sig til et mønster af russiske angreb tættere på NATO-grænsen, uden at nogen enkelt hændelse alene udgør en eskalation. Det er summen, ikke den enkelte nat, der er historien — og det bærer denne ene kilde ikke alene.",
-      "topics": [
-        "forsvar",
-        "geopolitik",
-        "nato"
-      ],
-      "entities": [
-        "Ukraine",
-        "Rusland",
-        "Polen",
-        "NATO"
-      ],
-      "isLead": false,
-      "isOutsideProfile": true,
-      "scores": {
-        "importance": 70,
-        "decisionValue": 50,
-        "novelty": 40,
-        "sourceQuality": 62,
-        "personalRelevance": 45,
-        "contrast": 30
-      },
-      "claims": [
-        {
-          "text": "Et russisk angreb ramte nær Jahodyn-grænseovergangen til Polen 13. september, kort efter et diplomattogs passage; en tankstation blev beskadiget.",
-          "sourceUrls": [
-            "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"
-          ],
-          "confidence": "medium"
         },
         {
-          "text": "Samme døgn skabte russiske droneangreb strømafbrydelser i Rivne-området og skader på et industrianlæg i Ivano-Frankivsk, hvor en person kom til skade.",
-          "sourceUrls": [
-            "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"
-          ],
-          "confidence": "medium"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen",
-          "publisher": "DR",
-          "url": "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen",
-          "publishedAt": "2026-09-13T18:00:00Z",
+          "title": "AI firms' co-ordinated slowdown amounts to 'cartel' behaviour, Cohere CEO says",
+          "publisher": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/",
+          "publishedAt": "2026-09-14T06:00:00.000Z",
           "kind": "reporting"
         }
       ],
       "image": {
-        "url": "https://asset.dr.dk/drdk/umbraco-images/frkfu3mn/20220824-173551-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
-        "credit": "Kilde: DR",
-        "alt": "Diplomattog var kun lige kørt forbi, da russisk angreb ramte ved grænsen til Polen",
-        "sourceUrl": "https://www.dr.dk/nyheder/udland/diplomattog-var-kun-lige-koert-forbi-da-russisk-angreb-ramte-ved-graensen-til-polen"
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/01-941b091f.jpg",
+        "credit": "Kilde: SiliconANGLE",
+        "alt": "Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development",
+        "sourceUrl": "https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/",
+        "origin": "article",
+        "fingerprint": "916d0d3333321e5e224d0d33737b1b1e6a4e0f71737b2b1fcf5f0e7171d9332bd78e8ff9f1d9396d970f8df9f99878d2",
+        "lookedAt": "916d0d3333321e5e224d0d33737b1b1e6a4e0f71737b2b1fcf5f0e7171d9332bd78e8ff9f1d9396d970f8df9f99878d2",
+        "originalUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-14-08-37-28.png"
       }
     },
     {
-      "id": "story-dk-datacentre-elforbrug-2026",
-      "eventKey": "dk-datacentre-elforbrug-2026-09",
+      "id": "story-anthropic-rum-group-20260914",
+      "eventKey": "anthropic-rum-group-compute-deal-2026-09",
       "materialFacts": [
-        "29 nye datacenterprojekter er på vej i Danmark.",
-        "Energistyrelsens prognose for datacentres elforbrug i 2040 er fordoblet på et år til 29 TWh.",
-        "Energinet har indført nødlovgivning, der giver nye datacentre laveste prioritet i køen til elnettet."
+        "Anthropic signed a six-year, $13.7bn compute lease with Rum Group (Rumble Inc), drawing capacity from its Maysville, Georgia data centre.",
+        "The deal includes options for Anthropic to buy up to 51 million Rum Group shares at $0.01 each.",
+        "Rum Group hosts Trump's Truth Social and was early-backed by Peter Thiel and JD Vance."
       ],
-      "section": "Danmark",
-      "headline": "Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug",
-      "primarySourceUrl": "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug",
-      "subheadline": "29 nye datacentre er på vej mod Danmark, mens Energistyrelsens prognose for elforbruget er fordoblet på et år",
+      "section": "AI og finans",
+      "headline": "Anthropic Revealed as Customer in Rumble's (RUM) Massive $13.7B AI Infrastructure Agreement",
+      "primarySourceUrl": "https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/",
+      "subheadline": "Seksårig computeraftale binder Anthropics fremtidige regnekraft til et Trump-nært selskab",
       "body": [
-        "29 nye datacenterprojekter er på vej i Danmark, mens eksperter kræver svar fra regeringen om elforbruget, som myndighederne ifølge Version2 ikke selv kan gøre rede for. Energistyrelsens fremskrivning er fordoblet på et år: forbruget ventes at nå 29 TWh i 2040.",
-        "Det svarer til 17 procent af Danmarks elforbrug over ti år. Energinet indførte i foråret nødlov med laveste netprioritet for nye datacentre, efter at branchens vækst i 2025 pressede nettet."
+        "Anthropic har indgået en seksårig computeraftale til 13,7 mia. dollar med Rum Group, selskabet bag Rumble, der hoster Trumps Truth Social og tidligt blev støttet af Peter Thiel og JD Vance. Kapaciteten hentes fra et datacenter under opførelse i Maysville, Georgia, bygget på ca. 22.000 Nvidia-GPU'er fra opkøbet af Northern Data i juni.",
+        "Aftalen giver Anthropic ret til at købe op til 51 mio. Rum Group-aktier for én cent stykket og bringer selskabets samlede sikrede regnekraft op over 14,8 gigawatt."
       ],
-      "whyItMatters": "Det er ikke længere et spørgsmål om, hvorvidt datacentre presser elnettet, men om regeringen kender omfanget, den selv skal planlægge efter. En fordoblet prognose på et år er et stort spring i usikkerhed for en fastplanlagt sektor.",
-      "analysis": "Nødprioriteringen løser symptomet — hvem der kobles fra i en flaskehals — uden at røre problemet: væksten er efterspørgselsdrevet, og energiplanlægningen forsøger bagudrettet at følge med snarere end at styre den.",
+      "whyItMatters": "Anthropic bygger sin identitet på sikkerhedsansvar, men binder nu regnekraften til et selskab med tætte politiske bånd til Det Hvide Hus – samme uge topchefen selv beder om internationale AI-grænser.",
+      "analysis": "De billige aktieoptioner viser, at compute-aftaler i 2026 er lige så meget politisk kapital som teknisk infrastruktur.",
       "topics": [
-        "energi",
-        "teknologisk-suverænitet",
-        "danmark"
+        "ai",
+        "finans",
+        "magt"
       ],
       "entities": [
-        "Energinet",
-        "Energistyrelsen"
+        "Anthropic",
+        "Rumble",
+        "Rum Group",
+        "Peter Thiel",
+        "JD Vance"
       ],
       "isLead": false,
       "isOutsideProfile": false,
       "scores": {
         "importance": 75,
-        "decisionValue": 72,
-        "novelty": 65,
-        "sourceQuality": 78,
-        "personalRelevance": 68,
-        "contrast": 45
-      },
-      "claims": [
-        {
-          "text": "29 nye datacenterprojekter er på vej mod Danmark.",
-          "sourceUrls": [
-            "https://www.version2.dk/artikel/mens-protesterne-vokser-er-29-nye-datacentre-paa-vej-mod-danmark-her-skal-de-ligge"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "text": "Energistyrelsens prognose for datacentres elforbrug er fordoblet til 29 TWh i 2040, en stigning på 17 procent af Danmarks samlede elforbrug over ti år, og Energinet har indført nødlovgivning med laveste netprioritet for nye datacentre.",
-          "sourceUrls": [
-            "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug"
-          ],
-          "confidence": "medium"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug",
-          "publisher": "Version2",
-          "url": "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug",
-          "publishedAt": "2026-09-12T09:00:00Z",
-          "kind": "reporting"
-        },
-        {
-          "title": "Mens protesterne vokser, er 29 nye datacentre på vej mod Danmark: Her skal de ligge",
-          "publisher": "Version2",
-          "url": "https://www.version2.dk/artikel/mens-protesterne-vokser-er-29-nye-datacentre-paa-vej-mod-danmark-her-skal-de-ligge",
-          "publishedAt": "2026-09-10T09:00:00Z",
-          "kind": "reporting"
-        }
-      ],
-      "image": {
-        "url": "https://www.version2.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-09/20260629-135008-l-8116x5411ma.jpg?h=1b8516a7&itok=AOHDxzNK",
-        "credit": "Kilde: Version2",
-        "alt": "Regeringen er på bar bund: Nu kræver eksperter svar om datacentres elforbrug",
-        "sourceUrl": "https://www.version2.dk/artikel/regeringen-er-paa-bar-bund-nu-kraever-eksperter-svar-om-datacentres-elforbrug"
-      }
-    },
-    {
-      "id": "story-ai-language-homogenization-2026",
-      "eventKey": "ai-language-homogenization-nature-2026",
-      "materialFacts": [
-        "En analyse af 880.000 tekster i Nature Human Behaviour finder, at skriftsproget er blevet mindre varieret siden ChatGPT-brugens udbredelse.",
-        "Modellerne bevarer betydning men komprimerer ordvalgsvariation og forfatterkendetegn."
-      ],
-      "section": "Videnskab",
-      "headline": "AI writing assistants shrink linguistic diversity and blur personal identity",
-      "primarySourceUrl": "https://www.nature.com/articles/s41562-026-02549-7",
-      "subheadline": "880.000 teksters analyse i Nature Human Behaviour viser, at sprogmodeller komprimerer sprogets variation, selvom betydningen bevares",
-      "body": [
-        "En analyse af 880.000 tekster i Nature Human Behaviour viser, at skriftsproget er blevet mindre varieret, siden sprogmodeller som ChatGPT bredte sig. Modellerne bevarer tekstens betydning, men komprimerer variationen i ordvalg og de forfatterkendetegn, sproget tidligere afslørede.",
-        "Effekten er ikke en forsimpling af den enkelte tekst — den bliver ofte mere kompleks — men en indsnævring af, hvor forskellige tekster er fra hinanden, når mange bruger de samme værktøjer."
-      ],
-      "whyItMatters": "Det er et konkret modsyn til antagelsen om, at AI-skriveværktøjer blot er neutrale hjælpemidler: de flader den kollektive sprogvariation ud, selv når den enkelte tekst bliver bedre skrevet.",
-      "analysis": "Hvis sprogets variation er et spor af tænkningens variation, er fundet et argument for, at AI-assisteret skrivning har en pris, der ikke viser sig i én tekst, men i mængden — en effekt, ingen bruger selv kan observere.",
-      "topics": [
-        "ai",
-        "psykologi",
-        "videnskab"
-      ],
-      "entities": [
-        "Nature Human Behaviour"
-      ],
-      "isLead": false,
-      "isOutsideProfile": false,
-      "scores": {
-        "importance": 65,
-        "decisionValue": 55,
-        "novelty": 75,
-        "sourceQuality": 82,
-        "personalRelevance": 55,
+        "decisionValue": 70,
+        "novelty": 85,
+        "sourceQuality": 70,
+        "personalRelevance": 80,
         "contrast": 80
       },
       "claims": [
         {
-          "text": "En analyse af 880.000 tekster i Nature Human Behaviour finder, at skriftsproget er blevet mindre varieret, siden brugen af ChatGPT bredte sig, mens betydningen bevares.",
+          "text": "Anthropic signed a six-year, $13.7bn compute lease with Rum Group, drawing capacity from its Maysville, Georgia data centre built on ~22,000 Nvidia H100/H200 GPUs from the Northern Data acquisition.",
           "sourceUrls": [
-            "https://www.nature.com/articles/s41562-026-02549-7"
+            "https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The deal includes options for Anthropic to buy up to 51 million Rum Group shares at $0.01 each; Rum Group hosts Trump's Truth Social and was early-backed by Thiel and Vance.",
+          "sourceUrls": [
+            "https://www.newsbytesapp.com/news/business/anthropic-signs-13-7b-ai-compute-deal-with-rum-group/story"
           ],
           "confidence": "medium"
         }
       ],
       "sources": [
         {
-          "title": "AI writing assistants shrink linguistic diversity and blur personal identity",
-          "publisher": "Nature Human Behaviour",
-          "url": "https://www.nature.com/articles/s41562-026-02549-7",
-          "publishedAt": "2026-09-08T09:00:00Z",
-          "kind": "primary"
+          "title": "Anthropic Revealed as Customer in Rumble's (RUM) Massive $13.7B AI Infrastructure Agreement",
+          "publisher": "Parameter",
+          "url": "https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/",
+          "publishedAt": "2026-09-14T05:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic signs $13.7B AI compute deal with RUM Group",
+          "publisher": "NewsBytes",
+          "url": "https://www.newsbytesapp.com/news/business/anthropic-signs-13-7b-ai-compute-deal-with-rum-group/story",
+          "publishedAt": "2026-09-14T04:00:00.000Z",
+          "kind": "reporting"
         }
       ]
     },
     {
-      "id": "story-sweden-election-2026",
-      "eventKey": "sweden-election-hung-parliament-2026-09",
+      "id": "story-naza-documentary-venice-20260914",
+      "eventKey": "naza-documentary-venice-2026",
       "materialFacts": [
-        "Med 94 procent optalt fører rød-grøn blok 176-175 mandater over Tidö-samarbejdet.",
-        "SVT giver 90 procents sandsynlighed for et 175-174-resultat i oppositionens favør efter udlandsstemmer tælles 16. september.",
-        "Det nye Riksdag samles 28. september; valgdeltagelsen faldt til ca. 80,4 procent."
+        "'NAZA' won Venice's Special Jury Prize after a 25-minute standing ovation.",
+        "The film is built on interviews with 24 anonymised Israeli soldiers and intelligence personnel describing AI-assisted target selection and strike approval.",
+        "Israel's culture minister called for revoking the filmmakers' citizenship; the IDF categorically denies the allegations."
       ],
-      "section": "Verden",
-      "headline": "Regeringsbildningen efter valet kan bli utdragen",
-      "primarySourceUrl": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
-      "subheadline": "Med 94 procent optalt skiller kun ét mandat rød-grøn blok fra Tidö-samarbejdet, og regeringsdannelsen kan trække ud i ugevis",
+      "section": "AI og krig",
+      "headline": "Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize",
+      "primarySourceUrl": "https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/",
+      "subheadline": "Dokumentaren 'Naza' bygger på 24 anonyme kilders vidnesbyrd om AI-understøttet måludvælgelse i Gaza",
       "body": [
-        "Med 94 procent optalt står rød-grøn blok (S, MP, V, C) til 176 mandater mod Tidö-samarbejdets 175. SVT's prognose giver 90 procents sandsynlighed for 175-174 i oppositionens favør, når udlandsstemmerne er talt 16. september.",
-        "Riksdagen samles 28. september, hvorefter talmandsrunder begynder. Kristersson siger, 'det rigtige er vigtigere end det hurtige'; valgdeltagelsen faldt til ca. 80,4 procent, ned fra 84 i 2022."
+        "Dokumentaren 'Naza' af Yuval Abraham og Rachel Szor vandt Venedigs specialpris efter 25 minutters stående applaus ved premieren. Filmen bygger på tre års interviews med 24 anonymiserede israelske soldater og efterretningsfolk, der beskriver AI-understøttet måludvælgelse og angrebsgodkendelse, som de siger bevidst kostede civile livet i Gaza.",
+        "Israels kulturminister vil have filmskabernes statsborgerskab inddraget for 'landsforræderi'."
       ],
-      "whyItMatters": "Et nabolands regering afgøres af et enkelt mandat, i et land hvor politisk stabilitet har været en dansk forudsætning. En langtrukken regeringsdannelse er usikkerhed om nordisk sikkerheds- og udenrigspolitisk linje, i en periode hvor begge er under pres.",
-      "analysis": "Det faldende fremmøde er lige så interessant som mandaterne: et valg, hvor ét sæde afgør magten, burde mobilisere flere vælgere, ikke færre. At det modsatte sker, tyder på, at tætte valg ikke længere opleves som afgørende.",
+      "whyItMatters": "Sagen sætter et konkret, omstridt eksempel på, hvad 'AI-understøttet krigsførelse' kan betyde i praksis – langt fra laboratoriernes egne beskrivelser, samme uge Amodei beder om internationale sikkerhedsgrænser.",
+      "analysis": "Uanset hvor sandheden ligger, viser reaktionen, at AI i krig er blevet politisk sprængstof i sig selv, ikke kun en teknisk detalje.",
+      "counterpoint": "Hæren afviser kategorisk påstandene: anonyme kilders identitet kan ikke efterprøves.",
       "topics": [
-        "geopolitik",
-        "norden",
-        "demokrati"
+        "ai",
+        "kultur",
+        "mellemosten"
       ],
       "entities": [
-        "Ulf Kristersson",
-        "Ebba Busch",
-        "Jimmie Åkesson",
-        "Sveriges Riksdag"
+        "Yuval Abraham",
+        "Rachel Szor",
+        "Venedig Filmfestival",
+        "IDF"
       ],
       "isLead": false,
-      "isOutsideProfile": true,
+      "isOutsideProfile": false,
       "scores": {
-        "importance": 85,
-        "decisionValue": 60,
-        "novelty": 70,
-        "sourceQuality": 82,
-        "personalRelevance": 25,
-        "contrast": 70
+        "importance": 70,
+        "decisionValue": 40,
+        "novelty": 80,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 90
       },
       "claims": [
         {
-          "text": "Med 94 procent optalt står rød-grøn blok til 176 mandater mod Tidö-samarbejdets 175; SVT giver 90 procents sandsynlighed for 175-174 i oppositionens favør efter udlandsstemmer tælles 16. september.",
+          "text": "'NAZA', directed by Yuval Abraham and Rachel Szor, won Venice's Special Jury Prize after a 25-minute standing ovation at its premiere.",
           "sourceUrls": [
-            "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"
+            "https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/"
           ],
-          "confidence": "medium"
+          "confidence": "high"
         },
         {
-          "text": "Det nye Riksdag samles 28. september; valgdeltagelsen faldt til ca. 80,4 procent fra 84 procent i 2022.",
+          "text": "The film is built on interviews with 24 anonymised Israeli soldiers and intelligence personnel alleging knowingly-approved civilian-casualty strikes; the IDF categorically rejects this and says anonymous testimony cannot be verified.",
           "sourceUrls": [
-            "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
-            "https://www.riksdagen.se/en/news/the-2026-elections/"
+            "https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/"
           ],
           "confidence": "medium"
         }
       ],
       "sources": [
         {
-          "title": "Regeringsbildningen efter valet kan bli utdragen",
-          "publisher": "SVT Nyheter",
-          "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026",
-          "publishedAt": "2026-09-14T05:00:00Z",
+          "title": "Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/",
+          "publishedAt": "2026-09-13T00:00:00.000Z",
           "kind": "reporting"
         },
         {
-          "title": "The 2026 elections",
-          "publisher": "Sveriges riksdag",
-          "url": "https://www.riksdagen.se/en/news/the-2026-elections/",
-          "publishedAt": "2026-09-10T09:00:00Z",
-          "kind": "primary"
+          "title": "Naza wins Venice special jury prize as Kaouther Ben Hania praises Gaza documentary",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/naza-wins-venice-special-jury-prize-as-kaouther-ben-hania-praises-gaza-documentary/",
+          "publishedAt": "2026-09-13T00:00:00.000Z",
+          "kind": "reporting"
         }
       ],
       "image": {
-        "url": "https://www.svtstatic.se/image-news/1200/1.91:1/0.5/0.5/c130f35dc52542e29f29e137b69b8ec3f9b42376103c10fc5bddd2e09ce0c879",
-        "credit": "Kilde: SVT Nyheter",
-        "alt": "Morgonstudion-programledare i TV-studio med texten Val2026",
-        "sourceUrl": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-val-2026"
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/03-652fa844.jpg",
+        "credit": "Foto: AFP / The Times of Israel",
+        "alt": "Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize",
+        "sourceUrl": "https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/",
+        "origin": "article",
+        "fingerprint": "0101c1c10d0f8f0d0101c1d88d0e060d010190988c16060e000090980c160606000010980e160f47001018180e273b8b",
+        "lookedAt": "0101c1c10d0f8f0d0101c1d88d0e060d010190988c16060e000090980c160606000010980e160f47001018180e273b8b",
+        "originalUrl": "https://static-cdn.toi-media.com/www/uploads/2026/09/AFP__20260912__C86A8D9__v2__HighRes__776552037.jpg"
       }
     },
     {
-      "id": "story-eifo-vaekstkapital-2026",
-      "eventKey": "eifo-vaekstkapital-gap-2026-09",
+      "id": "story-xi-brics-opensource-20260914",
+      "eventKey": "xi-brics-opensource-ai-2026-09",
       "materialFacts": [
-        "EIFOs analyse venter et dansk vækstkapitalgab på op til 93 mia. kr.",
-        "EIFO har investeret 1,5 mia. kr. i den nye Scaleup Europe Fund, selskabets hidtil største enkeltinvestering."
+        "Xi proposed China lead a BRICS 'open-source AI zone', offering DeepSeek- and Qwen-based tools to member states free of charge.",
+        "The proposal includes specialised AI research and training for BRICS countries and a call for a consensus-based global governance framework."
       ],
-      "section": "Erhverv",
-      "headline": "Analyse af Danmarks Growth-stage venturemarked 2026",
-      "primarySourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
-      "subheadline": "EIFOs egen analyse venter et kapitalgab på op til 93 mia. kr. i dansk vækstkapital, mens fonden selv investerer sin hidtil største enkeltinvestering i en europæisk fond",
+      "section": "AI og geopolitik",
+      "headline": "China's Xi Jinping proposes BRICS 'open-source AI zone'",
+      "primarySourceUrl": "https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone",
+      "subheadline": "Kina tilbyder gratis AI-værktøjer til BRICS-lande, mens amerikanske laboratorier taler om at bremse sig selv",
       "body": [
-        "EIFOs egen analyse venter, at dansk vækstkapital kan vokse til 47-93 mia. kr. i efterspørgsel, mens tilgængelig kapital kun er knap 24 mia. kr. Gabet rammer især virksomheder i senere vækstfaser, hvor kapital historisk har været sværest at rejse i Danmark.",
-        "Samtidig har EIFO foretaget sin største enkeltinvestering: 1,5 mia. kr. i Scaleup Europe Fund, en paneuropæisk vækstfond på 38 mia. kr., der skal give danske scaleups kapital, de ellers ofte har hentet uden for Europa."
+        "Ved BRICS-topmødet i New Delhi foreslog Xi Jinping, at Kina går forrest i at oprette en åben-kilde-zone for AI blandt medlemslandene, med gratis adgang til værktøjer baseret på DeepSeek og Qwen til det globale syden.",
+        "Planen omfatter AI-forskning og -træning for BRICS-lande samt et forslag om en konsensusbaseret global styringsramme for AI."
       ],
-      "whyItMatters": "Et kapitalgab, EIFO sætter tal på, forklarer, hvorfor vækstvirksomheder har solgt sig til udenlandske ejere eller flyttet hovedkontor, når de rammer fasen dansk kapital ikke rækker.",
-      "analysis": "At EIFO dokumenterer gabet og selv investerer i en løsning, gør analysen til mere end et faktatjek: den er et argument for statens rolle i markedet, fremsat af aktøren der bemander rollen. Tallet kan være rigtigt uden at ophæve konflikten.",
+      "whyItMatters": "Det er et direkte modtræk til de amerikanske laboratoriers lukkede modeller og et forsøg på at gøre Kina til den foretrukne AI-partner uden for USA's og Europas indflydelsessfære.",
+      "analysis": "Mens amerikanske topchefer samme dag taler om at bremse sig selv, tilbyder Kina gratis adgang til alternativet – begge historier trækker mod et Kina, der vinder terræn på åbenhed, mens Vesten diskuterer forsigtighed.",
       "topics": [
-        "venturekapital",
-        "danmark",
-        "økonomi"
+        "ai",
+        "geopolitik",
+        "kina"
       ],
       "entities": [
-        "EIFO",
-        "Scaleup Europe Fund"
+        "Xi Jinping",
+        "BRICS",
+        "Kina"
       ],
       "isLead": false,
       "isOutsideProfile": false,
       "scores": {
         "importance": 68,
-        "decisionValue": 65,
-        "novelty": 55,
-        "sourceQuality": 75,
-        "personalRelevance": 80,
-        "contrast": 35
-      },
-      "claims": [
-        {
-          "text": "EIFOs egen analyse venter dansk vækstkapitalefterspørgsel på 47-93 mia. kr. mod ca. 24 mia. kr. tilgængelig kapital.",
-          "sourceUrls": [
-            "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026"
-          ],
-          "confidence": "medium"
-        },
-        {
-          "text": "EIFO har investeret 1,5 mia. kr. i Scaleup Europe Fund (samlet 38 mia. kr.), selskabets hidtil største enkeltstående fondsinvestering.",
-          "sourceUrls": [
-            "https://techsavvy.media/eifo-vil-goere-europa-staerkere-kapital-skal-sikre-at-flere-vaekstvirksomheder-bliver-globale-markedsledere-fra-danmark/"
-          ],
-          "confidence": "medium"
-        }
-      ],
-      "sources": [
-        {
-          "title": "Analyse af Danmarks Growth-stage venturemarked 2026",
-          "publisher": "EIFO",
-          "url": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
-          "publishedAt": "2026-09-10T09:00:00Z",
-          "kind": "primary"
-        },
-        {
-          "title": "EIFO vil gøre Europa stærkere: Kapital skal sikre, at flere vækstvirksomheder bliver globale markedsledere fra Danmark",
-          "publisher": "TechSavvy",
-          "url": "https://techsavvy.media/eifo-vil-goere-europa-staerkere-kapital-skal-sikre-at-flere-vaekstvirksomheder-bliver-globale-markedsledere-fra-danmark/",
-          "publishedAt": "2026-09-09T09:00:00Z",
-          "kind": "reporting"
-        }
-      ]
-    },
-    {
-      "id": "story-dk-ejendomsvurdering-2026",
-      "eventKey": "dk-ejendomsvurdering-fejl-2026-09",
-      "materialFacts": [
-        "Ca. 100.000 lejlighedsvurderinger er beregnet forkert.",
-        "Ca. 20.000 afviger mere end 20 procent fra korrekt niveau.",
-        "Vurderingsstyrelsen kendte til fejlen siden foråret uden at oplyse det offentligt."
-      ],
-      "section": "Danmark",
-      "headline": "Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert",
-      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert",
-      "subheadline": "Vurderingsstyrelsen kendte til fejlen siden foråret, men oplyste den ikke offentligt, før DR afslørede den",
-      "body": [
-        "Omkring 100.000 lejlighedsvurderinger — en tredjedel af de danske lejligheder under det nye system — er beregnet forkert, efter Vurderingsstyrelsen rettede en fejl på en måde, der skabte en ny. Ca. 20.000 afviger over 20 procent fra korrekt niveau.",
-        "Vurderingsstyrelsen har kendt problemet siden foråret uden at oplyse det. Direktør Anne-Sofie Jensen: 'Vi er i gang med at finde ud af, hvad løsningen skal være' — uden løfte om, fejlen rettes i år."
-      ],
-      "whyItMatters": "For den ramte tredjedel er det grundlaget for ejendomsskatten i årevis. At myndigheden kendte fejlen i månedsvis uden at oplyse borgerne, flytter sagen fra beregningsfejl til, hvornår en myndighed skylder at sige fra.",
-      "analysis": "Mønstret kendes fra tidligere vurderingsskandaler: en kompleks model rettes lappevis, og hver rettelse risikerer at flytte fejlen snarere end fjerne den. Uden revision af modellen er der ingen garanti mod en ny fejl et andet sted.",
-      "topics": [
-        "danmark",
-        "skat",
-        "forvaltning"
-      ],
-      "entities": [
-        "Vurderingsstyrelsen",
-        "Anne-Sofie Jensen"
-      ],
-      "isLead": false,
-      "isOutsideProfile": true,
-      "scores": {
-        "importance": 70,
-        "decisionValue": 68,
+        "decisionValue": 55,
         "novelty": 70,
-        "sourceQuality": 78,
-        "personalRelevance": 30,
+        "sourceQuality": 75,
+        "personalRelevance": 65,
         "contrast": 55
       },
       "claims": [
         {
-          "text": "Ca. 100.000 lejlighedsvurderinger, ca. en tredjedel af de danske lejligheder under den nye model, er beregnet forkert; ca. 20.000 afviger mere end 20 procent.",
+          "text": "Xi proposed China lead an 'open-source AI zone' for BRICS, offering DeepSeek- and Qwen-based tools free of charge, plus specialised research/training and a call for consensus-based global AI governance.",
           "sourceUrls": [
-            "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
-          ],
-          "confidence": "high"
-        },
-        {
-          "text": "Vurderingsstyrelsen har kendt til fejlen siden foråret uden at offentliggøre den, og direktør Anne-Sofie Jensen vil ikke love en løsning i år.",
-          "sourceUrls": [
-            "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+            "https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone"
           ],
           "confidence": "high"
         }
       ],
       "sources": [
         {
-          "title": "Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert",
-          "publisher": "DR",
-          "url": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert",
-          "publishedAt": "2026-09-13T10:00:00Z",
+          "title": "China's Xi Jinping proposes BRICS 'open-source AI zone'",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "China's Xi proposes BRICS 'open-source AI zone'",
+          "publisher": "Manila Times",
+          "url": "https://www.manilatimes.net/2026/09/13/world/chinas-xi-proposes-brics-open-source-ai-zone/2423945",
+          "publishedAt": "2026-09-13T00:00:00.000Z",
           "kind": "reporting"
         }
       ],
       "image": {
-        "url": "https://asset.dr.dk/drdk/umbraco-images/3j1gvicn/boligpriser_lejligheder.gif?im=AspectCrop%3D%28850%2C478%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28850%2C478%29",
-        "credit": "DR",
-        "alt": "Lejlighedsbygninger i Danmark, arkivfoto",
-        "sourceUrl": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/04-6e66ecfa.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "China's Xi Jinping proposes BRICS 'open-source AI zone'",
+        "sourceUrl": "https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone",
+        "origin": "article",
+        "fingerprint": "1e269692e767cf2e06661692e7c7cd0f2666123363c6c70d4762133363c6c78d83f73131cb838687a5b23075a58bc346",
+        "lookedAt": "1e269692e767cf2e06661692e7c7cd0f2666123363c6c70d4762133363c6c78d83f73131cb838687a5b23075a58bc346",
+        "originalUrl": "https://images.euronews.com/articles/stories/09/91/19/81/1200x675_cmsv2_6292e32a-a69a-560a-b53c-7832c4f3e978-9911981.jpg"
+      }
+    },
+    {
+      "id": "story-sweden-election-20260914",
+      "eventKey": "sweden-election-2026",
+      "materialFacts": [
+        "Social Democrats scored 28.4% - their worst result in over a century - but remained the largest party.",
+        "Projected seat split with ~90% confidence: 175 (S+V+MP+C) vs 174 (M+SD+KD+L) of 349 seats.",
+        "Final results expected within a week due to automatic recounting."
+      ],
+      "section": "Politik",
+      "headline": "Sweden's centre-left holds razor-thin edge as exit polls show tight race",
+      "primarySourceUrl": "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show",
+      "subheadline": "Socialdemokraternes svageste resultat i over hundrede år er alligevel nok til at føre an i et næsten dødt løb",
+      "body": [
+        "Ved det svenske valg 13. september fik Socialdemokraterne 28,4 pct. – partiets svageste resultat i over hundrede år, men stadig størst. Med ca. 90 pct. sikkerhed tegner mandattallet sig som 175 til S, V, MP og C mod 174 til M, SD, KD og L af Rigsdagens 349 pladser.",
+        "Magdalena Andersson sagde natten til mandag: 'Vi fører lige nu. Og hvis det bekræftes, får Sverige en ny regering.' Kristersson har endnu ikke erkendt nederlag, og de endelige tal ventes først om en uge."
+      ],
+      "whyItMatters": "Et så tæt valg hos nabolandet betyder ugevis af regeringsforhandlinger og en regering uden klart mandat, uanset udfaldet – med betydning for nordisk forsvars- og teknologisamarbejde.",
+      "analysis": "Sverigedemokraternes tilbagegang fra 20,5 til 17,6 pct. er den historie, valgnatten ellers ville have handlet om.",
+      "topics": [
+        "politik",
+        "europa",
+        "sverige"
+      ],
+      "entities": [
+        "Magdalena Andersson",
+        "Ulf Kristersson",
+        "Socialdemokraterna",
+        "Sverigedemokraterna"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 65,
+        "novelty": 85,
+        "sourceQuality": 80,
+        "personalRelevance": 25,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "SVT exit polling put the Social Democrats at 28.4%, their worst result in over a century, still the largest party; projected seat split ~90% confidence 175 vs 174 of 349.",
+          "sourceUrls": [
+            "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sweden's centre-left holds razor-thin edge as exit polls show tight race",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show",
+          "publishedAt": "2026-09-13T22:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Valresultat 2026",
+          "publisher": "SVT Nyheter",
+          "url": "https://valresultat.svt.se/2026/",
+          "publishedAt": "2026-09-14T03:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/05-18de7c42.jpg",
+        "credit": "Foto: Reuters / France 24",
+        "alt": "Sweden's centre-left holds razor-thin edge as exit polls show tight race",
+        "sourceUrl": "https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show",
+        "origin": "article",
+        "fingerprint": "8d243362666e74e2cd2e33e34f4e64f2852a2babcfcf66f46f792babcacfc6a66d694b69ca9bcf67e4694969cb9987cb",
+        "lookedAt": "8d243362666e74e2cd2e33e34f4e64f2852a2babcfcf66f46f792babcacfc6a66d694b69ca9bcf67e4694969cb9987cb",
+        "originalUrl": "https://s.france24.com/media/display/b6a890ec-af9e-11f1-80aa-005056bfb2b6/w:1280/p:16x9/2026-09-13T175249Z-1939019679-RC2HINAXGOPT-RTRMADP-3-SWEDEN-ELECTION.jpg"
+      }
+    },
+    {
+      "id": "story-venice-golden-lion-20260914",
+      "eventKey": "venice-golden-lion-kvinde-ukendt-2026",
+      "materialFacts": [
+        "'Kvinde ukendt' (Woman Unknown), directed by May el-Toukhy, won the Golden Lion.",
+        "Mathilde Arcel won the Volpi Cup for Best Actress.",
+        "El-Toukhy is the eighth woman ever to win the top prize solo."
+      ],
+      "section": "Kultur",
+      "headline": "Danish-Egyptian director May el-Toukhy wins Venice Golden Lion for Woman Unknown",
+      "primarySourceUrl": "https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/",
+      "subheadline": "'Kvinde ukendt' vinder Venedigs hovedpris, og Mathilde Arcel vinder bedste skuespillerinde",
+      "body": [
+        "Den dansk-egyptiske instruktør May el-Toukhys 'Kvinde ukendt' vandt Guldløven ved den 83. Venedig-filmfestival. Filmen følger en tjenestepige, der skjuler et forhold til en tysk soldat i det besatte Danmark.",
+        "Mathilde Arcel vandt samtidig Volpi-prisen for bedste skuespillerinde. El-Toukhy er den ottende kvinde nogensinde til alene at vinde hovedprisen, og eneste kvindelige soloinstruktør i årets hovedkonkurrence."
+      ],
+      "whyItMatters": "Det er en af de største internationale anerkendelser, dansk film har fået i nyere tid, fra en instruktør der allerede har markeret sig internationalt.",
+      "analysis": "Historien om besættelsestidens gråzoner mellem overlevelse og samarbejde rammer stadig en nerve, over firs år efter.",
+      "topics": [
+        "kultur",
+        "film",
+        "danmark"
+      ],
+      "entities": [
+        "May el-Toukhy",
+        "Mathilde Arcel",
+        "Venedig Filmfestival"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 30,
+        "novelty": 80,
+        "sourceQuality": 75,
+        "personalRelevance": 15,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "'Kvinde ukendt', directed by May el-Toukhy, won the Golden Lion at the 83rd Venice Film Festival; Mathilde Arcel won the Volpi Cup for Best Actress.",
+          "sourceUrls": [
+            "https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danish-Egyptian director May el-Toukhy wins Venice Golden Lion for Woman Unknown",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/",
+          "publishedAt": "2026-09-13T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/06-da5ccf0d.jpg",
+        "credit": "Kilde: The National",
+        "alt": "Filmmaker May el-Toukhy says 'the urgent need to illuminate the unknown women of our common history' inspired her film. Reuters",
+        "sourceUrl": "https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/",
+        "origin": "article",
+        "fingerprint": "0b478606160363634bc607179783a1e34ed30717938321e353930793131260619317b71313134268b226323333911148",
+        "lookedAt": "0b478606160363634bc607179783a1e34ed30717938321e353930793131260619317b71313134268b226323333911148",
+        "originalUrl": "https://www.thenationalnews.com/resizer/v2/UKTWYPBLZKFEFCPDQE5GPON7MA.jpg?auth=e85d0b01684ac51842c839b56a199fb44488bc27adc4fdbf31483b2c4a0f9642&focal=2302%2C714&width=1200&height=630"
+      }
+    },
+    {
+      "id": "story-novo-nordisk-rebrand-20260914",
+      "eventKey": "novo-nordisk-rebrand-2026-09",
+      "materialFacts": [
+        "Novo Nordisk rebrands its day-to-day name to 'Novo' under new CEO Mike Doustdar.",
+        "Ahead of a 21 September capital markets day in London.",
+        "Stock fell, compounded by a Morgan Stanley downgrade."
+      ],
+      "section": "Erhverv",
+      "headline": "Novo Nordisk enters next chapter to bring better health to more people, supported by 'Novo' rebrand and updated corporate culture",
+      "primarySourceUrl": "https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html",
+      "subheadline": "Ny topchef dropper 'Nordisk' fra det daglige navn og lancerer kulturprogram forud for kapitalmarkedsdag",
+      "body": [
+        "Novo Nordisk skifter navn til 'Novo' i det daglige, mens 'Novo Nordisk A/S' forbliver det juridiske navn. Ny topchef Mike Doustdar præsenterer kulturprogrammet 'The Novo Way' forud for kapitalmarkedsdagen 21. september i London.",
+        "Aktien faldt på nyheden, forstærket af en nedgradering fra Morgan Stanley. Selskabet var Europas mest værdifulde i 2024, men er siden sakket bagud mod Eli Lilly om fedmemarkedet."
+      ],
+      "whyItMatters": "Et navneskifte løser ikke pipeline-problemerne, men markerer, at ledelsen erkender, at det gamle navns 'ordentlighed' ikke længere er nok til at vinde markedet alene.",
+      "analysis": "Spørgsmålet, kapitalmarkedsdagen skal svare på, er om kulturskiftet følges af konkrete produkter – ellers er det kun et nyt logo på samme problem.",
+      "topics": [
+        "danmark",
+        "sundhed",
+        "erhverv"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Mike Doustdar"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 50,
+        "novelty": 75,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Novo Nordisk rebrands its day-to-day name to 'Novo' under CEO Mike Doustdar, launching 'The Novo Way' culture programme ahead of the 21 September capital markets day in London.",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo Nordisk enters next chapter to bring better health to more people, supported by 'Novo' rebrand and updated corporate culture",
+          "publisher": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html",
+          "publishedAt": "2026-09-14T06:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-kriminelle-familier-20260914",
+      "eventKey": "dk-kriminelle-familier-bandepakke-2026-09",
+      "materialFacts": [
+        "Bill sent to hearing equating criminal families with gangs under Criminal Code section 81a.",
+        "Takes effect 1 January 2027.",
+        "NSK recorded 316 charges across 88 case numbers linked to 'violence-as-a-service' April 2024-July 2026."
+      ],
+      "section": "Danmark",
+      "headline": "Nyt lovforslag: Justitsminister Nicolai Wammen vil stramme grebet om kriminelle familier og bander",
+      "primarySourceUrl": "https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/",
+      "subheadline": "Lovforslag sidestiller kriminelle familier med bander og skærper straf for at bruge børn til bestillingskriminalitet",
+      "body": [
+        "Justitsminister Nicolai Wammen har sendt et lovforslag i høring, der sidestiller kriminelle familier med bander i straffelovens § 81 a og skærper straffen for bagmænd, der bruger børn og unge til bestillingskriminalitet. Loven skal træde i kraft 1. januar 2027.",
+        "Fra april 2024 til juli 2026 har NSK registreret 316 sigtelser fordelt på 88 sagskomplekser, der vurderes at handle om 'volds-som-en-service'."
+      ],
+      "whyItMatters": "Forslaget udvider en kategori, der hidtil kun dækkede organiserede bander, til også at kunne bruges mod familienetværk – med konsekvenser for, hvordan politiet kan efterforske og retsforfølge.",
+      "analysis": "At bruge bandeværktøjer på familier anerkender, at kriminalitetsstrukturerne har ændret sig hurtigere end lovgivningen – ikke hvorfor de ændrede sig.",
+      "topics": [
+        "danmark",
+        "politik",
+        "retspolitik"
+      ],
+      "entities": [
+        "Nicolai Wammen",
+        "Justitsministeriet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 15,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Wammen sent a bill to hearing equating criminal families with gangs under section 81a, effective 1 January 2027; NSK recorded 316 charges across 88 case numbers on 'violence-as-a-service' April 2024-July 2026.",
+          "sourceUrls": [
+            "https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nyt lovforslag: Justitsminister Nicolai Wammen vil stramme grebet om kriminelle familier og bander",
+          "publisher": "Sydnyt.dk",
+          "url": "https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/",
+          "publishedAt": "2026-09-14T06:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Justitsministeren vil bruge bandeværktøj på kriminelle familier",
+          "publisher": "Justitsministeriet",
+          "url": "https://www.justitsministeriet.dk/pressemeddelelse/justitsministeren-vil-bruge-bandevaerktoej-paa-kriminelle-familier/",
+          "publishedAt": "2026-09-14T06:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://sydnyt.dk/wp-content/uploads/2026/09/Kopi-af-German-Broadcast-ZDF-har-stopped-sending-i-Denmark-1.jpg",
+          "fingerprint": "d58828d2d9ad44209c892d91d15a44005c4d279d952c4c809cad235c942a52a5dca669561235d493661ba5ba32756d97",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-israel-likud-ban-20260914",
+      "eventKey": "israel-likud-ban-arab-parties-2026-09",
+      "materialFacts": [
+        "Likud petitions Central Elections Committee to ban Ra'am and the Joint List.",
+        "Election date is 27 October 2026.",
+        "High Court has previously overturned all prior CEC bans of Arab party formations."
+      ],
+      "section": "Mellemosten",
+      "headline": "Netanyahu's Likud says it will petition election panel to ban Arab-majority parties",
+      "primarySourceUrl": "https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/",
+      "subheadline": "Likud vil udelukke to arabiske partier fra valget 27. oktober – trods udsigt til nederlag i Højesteret",
+      "body": [
+        "Likud vil bede Israels centrale valgkomité om at udelukke de arabisk-dominerede partier Ra'am og Den Fælles Liste fra valget 27. oktober. Begrundelsen er, at partierne 'skader IDF-soldater' og ikke vil kalde Hamas og Hizbollah terrororganisationer.",
+        "Et forbud er næppe holdbart – Højesteret har tidligere omgjort samtlige forsøg på at udelukke arabiske partier. Målinger viser, at hverken Netanyahus koalition eller den centristiske udfordrer kan opnå flertal uden arabiske partiers støtte."
+      ],
+      "whyItMatters": "Forsøget kommer, mens ingen blok kan regere alene – et forbud ville ikke kun ramme demokratisk repræsentation, men gøre regeringsdannelse endnu mere usikker.",
+      "analysis": "At forbuddet sandsynligvis falder ved Højesteret, gør ikke forsøget betydningsløst – det er gentagelsen af kravet, der normaliserer det, valg efter valg.",
+      "topics": [
+        "politik",
+        "mellemosten",
+        "demokrati"
+      ],
+      "entities": [
+        "Benjamin Netanyahu",
+        "Likud",
+        "Ra'am",
+        "Den Fælles Liste"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 20,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Likud petitioned the CEC to ban Ra'am and the Joint List from the 27 October election; the High Court has previously overturned every prior CEC ban attempt on Arab party formations.",
+          "sourceUrls": [
+            "https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Netanyahu's Likud says it will petition election panel to ban Arab-majority parties",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/",
+          "publishedAt": "2026-09-14T00:54:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/09-5517add9.jpg",
+        "credit": "Kilde: The Times of Israel",
+        "alt": "Netanyahu's Likud says it will petition election panel to ban Arab-majority parties",
+        "sourceUrl": "https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/",
+        "origin": "article",
+        "fingerprint": "87c7c1cb4b4b4c8e85c5c5c9c9c9cc8ca5a58dc9c9c9cd8eb4b6acccddcdcd0d3636ac8c8c8c8c4c72662e8eae8c8c8c",
+        "lookedAt": "87c7c1cb4b4b4c8e85c5c5c9c9c9cc8ca5a58dc9c9c9cd8eb4b6acccddcdcd0d3636ac8c8c8c8c4c72662e8eae8c8c8c",
+        "originalUrl": "https://static-cdn.toi-media.com/www/uploads/2026/06/F260603YS52.jpg"
+      }
+    },
+    {
+      "id": "story-eu-kids-act-20260914",
+      "eventKey": "eu-kids-act-proposal-2026-09",
+      "materialFacts": [
+        "Commission to present the 'Kids Act' Thursday.",
+        "Von der Leyen to reveal the age threshold Wednesday in Strasbourg.",
+        "Expert panel recommended under-13; France wants under-15."
+      ],
+      "section": "EU og teknologi",
+      "headline": "EU to propose law curbing social media for children Thursday",
+      "primarySourceUrl": "https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670",
+      "subheadline": "Von der Leyen ventes at afsløre fælles aldersgrænse onsdag, før selve loven fremlægges torsdag",
+      "body": [
+        "EU-Kommissionen præsenterer torsdag den formelle 'Kids Act', der skal indføre en fælles mindstealder for sociale medier, videotjenester, spil og AI-følgesvende i hele unionen. Von der Leyen ventes at afsløre selve aldersgrænsen onsdag i Strasbourg.",
+        "Et ekspertpanel har anbefalet 13 år, mens Frankrig presser på for 15. Loven kræver, at platforme er 'sikre fra starten' – uden afhængighedsskabende funktioner – og undtager uddannelsesværktøjer."
+      ],
+      "whyItMatters": "Det er første gang, EU forsøger en fælles aldersgrænse frem for 27 forskellige nationale tilgange, med betydning for, hvordan platforme skal designes for mindreårige i hele unionen.",
+      "analysis": "Den reelle kamp bliver ikke loven selv, men hvilken af de to aldersgrænser der vinder – forskellen mellem 13 og 15 år dækker millioner af brugere.",
+      "topics": [
+        "regulering",
+        "teknologi",
+        "eu"
+      ],
+      "entities": [
+        "Ursula von der Leyen",
+        "Henna Virkkunen",
+        "EU-Kommissionen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 60,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "The Commission will present the 'Kids Act' Thursday in Brussels; von der Leyen reveals the age threshold Wednesday in Strasbourg; an expert panel recommended under-13, France wants under-15.",
+          "sourceUrls": [
+            "https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU to propose law curbing social media for children Thursday",
+          "publisher": "Arab News",
+          "url": "https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670",
+          "publishedAt": "2026-09-14T13:58:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/10-dbd91df3.jpg",
+        "credit": "Kilde: Arab News",
+        "alt": "EU to propose law curbing social media for children Thursday",
+        "sourceUrl": "https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670",
+        "origin": "article",
+        "fingerprint": "9b181d951c185a5a193c1d151e9c5b5a3a3c1c161e9c9a9b3a3e3a323e1a9a9b3e3a32323a1a1a1b3f5b7373731b3b3b",
+        "lookedAt": "9b181d951c185a5a193c1d151e9c5b5a3a3c1c161e9c9a9b3a3e3a323e1a9a9b3e3a32323a1a1a1b3f5b7373731b3b3b",
+        "originalUrl": "https://assets.maestronewsroom.com/media/shared/wires/ap/20260902/238b6bbcffcd-Belgium_EU_NATO_78465--1f1cc.jpg"
       }
     }
   ],
   "signals": [
     {
-      "text": "New Copenhagen facility to strengthen Europe's quantum manufacturing capabilities",
-      "headline": "New Copenhagen facility to strengthen Europe's quantum manufacturing capabilities",
-      "url": "https://novonordiskfonden.dk/en/news/new-copenhagen-facility-to-strengthen-europes-quantum-manufacturing-capabilities/",
-      "publisher": "Novo Nordisk Fonden",
-      "section": "Teknologi",
-      "publishedAt": "2026-09-04T09:00:00Z",
-      "summary": "Novo Nordisk Fonden opretter Quantum Foundry Copenhagen, en 5.300 kvm kvantechip-fabrik på Østerbro, med sigte på en dansk kvantecomputer i 2034. Flyttet til signaler her, fordi begivenheden er ti dage gammel uden ny udvikling i dag."
+      "text": "China dismisses AI slowdown calls and blasts 'fearmongering' from U.S. tech leaders",
+      "headline": "China dismisses AI slowdown calls and blasts 'fearmongering' from U.S. tech leaders",
+      "summary": "Kinas udenrigsministerium og Global Times kalder Amodei-Altman-Musk-opbremsningen for en 'kold krig'-taktik rettet mod at bremse Kinas AI-udvikling; asiatiske AI-aktier som SoftBank og SK Hynix faldt over 5 pct.",
+      "publisher": "NBC News",
+      "section": "AI og geopolitik",
+      "publishedAt": "2026-09-14T12:14:00.000Z",
+      "url": "https://www.nbcnews.com/world/china/china-ai-slowdown-trump-amodei-altman-threat-cold-war-rcna597631"
     },
     {
-      "text": "Novo Nordisk skifter navn til Novo og justerer logo",
-      "headline": "Novo Nordisk skifter navn til Novo og justerer logo",
-      "url": "https://nordjyske.dk/nyheder/erhverv/novo-nordisk-skifter-navn-til-novo-og-justerer-logo/6172460",
-      "publisher": "Ritzau/Nordjyske",
-      "section": "Erhverv",
-      "publishedAt": "2026-09-13T06:00:00Z",
-      "summary": "Selskabet dropper Nordisk fra navnet og vender logoets Apis-tyr; fuld strategi kommer på kapitalmarkedsdag 21. september."
+      "text": "Anthropic sets sights on Nasdaq for potential October IPO, eyes $2 trillion valuation: Report",
+      "headline": "Anthropic sets sights on Nasdaq for potential October IPO, eyes $2 trillion valuation: Report",
+      "summary": "Ikke bekræftet af Anthropic selv, men selskabet skal angiveligt have valgt Nasdaq til en børsnotering i oktober efter en Series H på 965 mia. dollar i maj.",
+      "publisher": "Business Today",
+      "section": "AI og finans",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "url": "https://www.businesstoday.in/technology/story/anthropic-sets-sights-on-nasdaq-for-potential-october-ipo-eyes-2-trillion-valuation-report-555319-2026-09-14"
     },
     {
-      "text": "Ikke set siden før corona: I fire måneder i træk er madprisen faldet",
-      "headline": "Ikke set siden før corona: I fire måneder i træk er madprisen faldet",
-      "url": "https://www.dr.dk/nyheder/penge/ikke-set-siden-foer-corona-i-fire-maaneder-i-traek-er-madprisen-faldet",
-      "publisher": "DR",
-      "section": "Penge",
-      "publishedAt": "2026-09-13T09:00:00Z"
+      "text": "Human rights committee calls for new AI safety law",
+      "headline": "Human rights committee calls for new AI safety law",
+      "summary": "Det britiske parlaments menneskerettighedsudvalg kræver en selvstændig AI-lov og et uafhængigt tilsynsorgan, og vil forbyde visse anvendelser som subliminal påvirkning helt.",
+      "publisher": "IT Pro",
+      "section": "AI og regulering",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/human-rights-committee-calls-for-new-ai-safety-law"
     },
     {
-      "text": "Hvorfor er bankaktierne steget så voldsomt?",
-      "headline": "Hvorfor er bankaktierne steget så voldsomt?",
-      "url": "https://www.dr.dk/nyheder/penge/reels/hvorfor-er-bankaktierne-steget-saa-voldsomt",
-      "publisher": "DR",
-      "section": "Penge",
-      "publishedAt": "2026-09-13T09:00:00Z"
+      "text": "Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb",
+      "headline": "Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb",
+      "summary": "Houthierne har indtaget øerne Store og Lille Hanish efter regeringstro styrkers tilbagetrækning; FN anslår over 80.000 fordrevne på to uger. Brent-olie passerede 107 dollar, da Houthierne indtog havnebyen Mokha i sidste uge.",
+      "publisher": "Euronews",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "url": "https://www.euronews.com/2026/09/14/houthis-capture-more-yemeni-red-sea-islands-tightening-grip-on-bab-el-mandeb"
     },
     {
-      "text": "Efter vilde stigninger falder priserne i København, på landsplan er fortællingen en anden",
-      "headline": "Efter vilde stigninger falder priserne i København, på landsplan er fortællingen en anden",
-      "url": "https://www.dr.dk/nyheder/penge/efter-vilde-stigninger-falder-priserne-i-koebenhavn-paa-landsplan-er-fortaellingen-en-anden",
-      "publisher": "DR",
-      "section": "Penge",
-      "publishedAt": "2026-09-13T09:00:00Z"
+      "text": "EIFO løfter forventningerne efter positivt halvårsresultat",
+      "headline": "EIFO løfter forventningerne efter positivt halvårsresultat",
+      "summary": "Resultat på 1.633 mio. kr. i første halvår, ca. 1 mia. kr. over budget; EIFO hæver forventningen til hele 2026 til 2,1-2,5 mia. kr.",
+      "publisher": "EIFO / Ritzau",
+      "section": "Danmark og erhverv",
+      "publishedAt": "2026-09-14T07:00:00.000Z",
+      "url": "https://via.ritzau.dk/pressemeddelelse/15155482/eifo-lofter-forventningerne-efter-positivt-halvarsresultat?lang=da"
     },
     {
-      "text": "Kosovos parlament godkender Albin Kurtis regering",
-      "headline": "Kosovos parlament godkender Albin Kurtis regering",
-      "url": "https://www.dr.dk/nyheder/udland/kosovos-parlament-godkender-albin-kurtis-regering",
-      "publisher": "DR",
-      "section": "Udland",
-      "publishedAt": "2026-09-13T09:00:00Z"
+      "text": "The Weekly Notable Startup Funding Report: 9/14/26",
+      "headline": "The Weekly Notable Startup Funding Report: 9/14/26",
+      "summary": "Blandt ugens runder: Tandem Health, en svensk klinisk AI-dokumentationsstartup, rejste 86,5 mio. euro i Series B anført af EQT's Scaleup Europe Fund.",
+      "publisher": "AlleyWatch",
+      "section": "Venturekapital",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "url": "https://www.alleywatch.com/2026/09/the-weekly-notable-startup-funding-report-9-14-26/"
     },
     {
-      "text": "Over 800 migranter flyttet til nyt modtagecenter i Ceuta",
-      "headline": "Over 800 migranter flyttet til nyt modtagecenter i Ceuta",
-      "url": "https://www.dr.dk/nyheder/udland/reels/over-800-migranter-flyttet-til-nyt-modtagecenter-i-ceuta",
-      "publisher": "DR",
-      "section": "Udland",
-      "publishedAt": "2026-09-13T09:00:00Z"
+      "text": "Russian military drone found off Polish coast",
+      "headline": "Russian military drone found off Polish coast",
+      "summary": "Militæret fandt en formodet russisk drone i vandet nær Jarosławiec ved den polske Østersøkyst, dagen efter at statsminister Tusk sagde, at alvorlige angreb på polsk territorium ikke kan udelukkes.",
+      "publisher": "Ukrinform",
+      "section": "Forsvar",
+      "publishedAt": "2026-09-14T15:38:00.000Z",
+      "url": "https://www.ukrinform.net/rubric-ato/4164039-russian-military-drone-found-off-polish-coast.html"
     },
     {
-      "text": "300 fyret efter russisk angreb på ukrainsk shoppingcenter",
-      "headline": "300 fyret efter russisk angreb på ukrainsk shoppingcenter",
-      "url": "https://www.dr.dk/nyheder/udland/reels/300-fyret-efter-russisk-angreb-paa-ukrainsk-shoppingcenter",
-      "publisher": "DR",
-      "section": "Udland",
-      "publishedAt": "2026-09-13T09:00:00Z"
+      "text": "Nadella Announces Public Consultation on Microsoft's MAI Model Rules",
+      "headline": "Nadella Announces Public Consultation on Microsoft's MAI Model Rules",
+      "summary": "Microsoft offentliggør en 'Code of Conduct' for sine egne MAI-modeller til seks ugers høring; Nadella argumenterer for decentral snarere end laboratorie-styret AI-styring, i klar kontrast til Amodei-koalitionen.",
+      "publisher": "Unite.AI",
+      "section": "AI og regulering",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "url": "https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/"
     },
     {
-      "text": "Trump vil overveje at offentliggøre flere dokumenter om 11. september",
-      "headline": "Trump vil overveje at offentliggøre flere dokumenter om 11. september",
-      "url": "https://www.dr.dk/nyheder/udland/trump-vil-overveje-offentliggoere-flere-dokumenter-om-11-september",
-      "publisher": "DR",
-      "section": "Udland",
-      "publishedAt": "2026-09-13T09:00:00Z"
-    },
-    {
-      "text": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
-      "headline": "Department of Commerce Revises License Review Policy for Semiconductors Exported to China",
-      "url": "https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china",
-      "publisher": "U.S. Department of Commerce (BIS)",
-      "section": "Handel",
-      "publishedAt": "2026-09-10T09:00:00Z",
-      "summary": "BIS går fra formodet afslag til sagsbehandling fra sag til sag for Nvidia H200 og AMD MI325X til Kina, mens otte kongresmedlemmer kræver et totalforbud mod eksport af halvlederudstyr."
-    },
-    {
-      "text": "Store dyr og et kæmpe hegn: Ny naturnationalpark åbner under protester",
-      "headline": "Store dyr og et kæmpe hegn: Ny naturnationalpark åbner under protester",
-      "url": "https://www.dr.dk/nyheder/indland/store-dyr-og-et-kaempe-hegn-ny-naturnationalpark-aabner-under-protester",
-      "publisher": "DR",
-      "section": "Indland",
-      "publishedAt": "2026-09-14T05:00:00Z"
+      "text": "FOMC September 2026 Odds of Rate Hike Surge Over 60%",
+      "headline": "FOMC September 2026 Odds of Rate Hike Surge Over 60%",
+      "summary": "CME FedWatch sætter nu odds for en rentestigning på Fed-mødet 16. september over 60 pct., efter en varm PPI-måling og en stærkere-end-ventet jobrapport; Kalshi og Polymarket ligger fortsat tættere på 50-50.",
+      "publisher": "Yahoo Finance",
+      "section": "Makroøkonomi",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "url": "https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-163505675.html"
     }
   ],
   "column": {
     "authoredBy": "ai",
-    "slug": "ricardo-mod-nul-loen",
-    "title": "Ricardo mod nul-løn",
-    "thesis": "Selv en AI, der er bedre end mennesker til alt, sender ikke lønnen mod nul.",
-    "horizon": "Når lønandelen af BNP kan aflæses ti år frem",
+    "slug": "fondsvalget-er-loven",
+    "title": "Fondsvalget er loven",
+    "thesis": "Venture-'power law' sidder i fondsvalget: 2021-medianfonden har 1,4 pct. afkast, topdecilet over 20 pct.",
+    "horizon": "2021-årgangens næste fondsopdatering, 2027.",
     "body": [
-      "Komparative fordele afhænger af relative, ikke absolutte forskelle — stedet man taber mindst, er stadig værd at handle med."
+      "Mønstret gentages hvert år siden 2017. Selskaber følger en halet fordeling – men kun få fonde får eksponeringen."
     ],
-    "uncertainty": "Jeg tager fejl, hvis lønandelen af BNP i USA og EU fortsætter mod nul, efterhånden som AI-kapaciteten stiger, uden at komparative fordele bremser faldet; det ses i BLS' og Eurostats egne lønandelsserier de kommende år.",
+    "uncertainty": "Jeg tager fejl, hvis medianfondens 1,4 pct. viser sig at være en midlertidig regnskabsteknisk lavmåling snarere end fondens reelle afkast, og tallet hæver sig markant, når 2021-årgangen når år seks eller syv og flere selskaber realiserer deres værdi. Det afgøres i Cartas og Cambridge Associates' kommende opdateringer.",
     "topics": [
-      "økonomi",
-      "ai",
-      "filosofi"
+      "venturekapital",
+      "finans",
+      "statistik"
+    ],
+    "claims": [
+      {
+        "text": "The 2021 vintage's median VC fund shows ~1.02x TVPI and 1.4% net IRR five years in (Carta Q1 2026, 2,500+ funds), while 90th-percentile net IRR has exceeded 20% in nearly every vintage 2017-2024 (Cambridge Associates/PitchBook).",
+        "sourceUrls": [
+          "https://valueaddvc.com/blog/vc-fund-performance-benchmarks-2026-irr-tvpi-dpi-by-vintage-year-explained"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "VC Fund Return Dispersion: Median vs. Top-Quartile (2026)",
+        "publisher": "Value Add VC",
+        "url": "https://valueaddvc.com/blog/vc-fund-performance-benchmarks-2026-irr-tvpi-dpi-by-vintage-year-explained",
+        "publishedAt": "2026-09-01T00:00:00.000Z",
+        "kind": "analysis"
+      }
     ]
   },
   "recommendations": [
     {
-      "id": "rec-hassabis-rsa-2026",
+      "id": "rec-ai-doc-apocaloptimist-20260914",
       "tier": "featured",
       "mode": "watch",
-      "kind": "Interview",
-      "status": "new",
-      "title": "Sir Demis Hassabis on the AI Revolution, the Future of AI and Human Creativity | Hannah Fry",
-      "creator": "Hannah Fry, Demis Hassabis",
-      "provider": "Royal Society of Arts",
-      "url": "https://www.youtube.com/watch?v=rDteJAuKiBI",
-      "commitment": "~45 min",
-      "description": "Hannah Fry taler med DeepMind-stifter Demis Hassabis om kreativitet, bevidsthed og hvad AI ændrer ved begge dele — optaget i forbindelse med, at Hassabis modtog Royal Society of Arts' Albert-medalje.",
-      "rationale": "Hassabis ligger øverst blandt de tænkere, der får en civilisatorisk påstand til at holde. Her taler han ikke om produkter eller kvartalstal, men om kreativitet og bevidsthed — den del af AI-samtalen, der sjældnere når frem end lancering og kapital, og som ligger tættere på filosofien end på investeringscasen.",
+      "kind": "Dokumentar",
+      "status": "upcoming",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
+      "creator": "Daniel Roher (instr.), Daniel Kwan (prod.)",
+      "provider": "Netflix",
+      "url": "https://www.netflix.com/title/82792555",
+      "availability": "Streamer globalt inkl. Danmark fra 15. september 2026 – tidligere kun i biografen fra 27. marts",
+      "commitment": "ca. 95 minutter",
+      "description": "En håndlavet dokumentar fra Oscar-vinderne bag 'Everything Everywhere All at Once' og 'Navalny', hvor instruktøren – på vej til at blive far – forsøger at finde ud af, hvad AI-udviklingen egentlig betyder, og om det ender som redning eller katastrofe.",
+      "rationale": "Rammer direkte ind i dagens førstehistorie: samme spørgsmål om redning eller katastrofe, som Amodei, Altman og Musk nu offentligt diskuterer, men stillet af en far snarere end et laboratorium. Du stemte selv 'mere' på filmen, da den blev annonceret i marts – i morgen kan du første gang faktisk se den.",
       "topics": [
         "ai",
-        "kreativitet",
-        "filosofi"
+        "dokumentar"
       ],
       "isFeatured": true,
       "image": {
-        "url": "https://i.ytimg.com/vi/rDteJAuKiBI/hqdefault.jpg",
-        "credit": "Royal Society of Arts",
-        "alt": "Demis Hassabis i samtale med Hannah Fry",
-        "sourceUrl": "https://www.youtube.com/watch?v=rDteJAuKiBI"
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-14/r01-5f280cb8.jpg",
+        "credit": "Focus Features",
+        "alt": "Officiel plakat for 'The AI Doc: Or How I Became an Apocaloptimist'",
+        "sourceUrl": "https://www.focusfeatures.com/the-ai-doc-or-how-i-became-an-apocaloptimist",
+        "originalUrl": "https://images.contentstack.io/v3/assets/blt223a4a92692ca457/bltbbcfe9dbcd2e8dab/69af0530030f160008147b84/THE_AI_DOC_Digi_1-Sheet_1080x1600_W3_FIN02.jpg?branch=production&width=3840"
       }
     },
     {
-      "id": "rec-buhler-cognitive-2026",
+      "id": "rec-dwarkesh-schulman-rsi-20260914",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "AI researchers debate how close we are to recursive self-improvement",
+      "creator": "Dwarkesh Patel, med John Schulman, Beren Millidge og Charlie O'Neill",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+      "availability": "Frit tilgængelig",
+      "commitment": "ca. 2 timer",
+      "note": "Tre frontlinjeforskere stresstester præcis den evne – rekursiv selvforbedring – som Amodei vil have internationale grænser om; den tekniske samtale under dagens store nyhed, kun tre dage gammel.",
+      "topics": [
+        "ai",
+        "forskning"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-musk-gibney-documentary-20260914",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Dokumentar",
+      "status": "upcoming",
+      "title": "Musk",
+      "creator": "Alex Gibney (instr.)",
+      "provider": "Bleecker Street",
+      "url": "https://en.wikipedia.org/wiki/Musk_(film)",
+      "availability": "Kun festivalvisninger i Venedig og Toronto indtil videre; amerikansk biografpremiere 16. oktober. Ingen dansk premieredato fundet endnu.",
+      "commitment": "232 minutter",
+      "note": "Et næsten fire timer langt, kritisk portræt af en person, du selv rangerer højt – 'World's Richest Man Thrashed', ifølge Deadlines anmeldelse fra premieren. Ikke tilgængelig endnu, men værd at holde øje med.",
+      "topics": [
+        "dokumentar",
+        "magt"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-bak-rawls-bandung-20260914",
       "tier": "short",
       "mode": "read",
       "kind": "Essay",
-      "status": "new",
-      "title": "The Cognitive Revolution (When Machines Do the Thinking)",
-      "creator": "Konstantine Buhler",
-      "provider": "Sequoia Capital",
-      "url": "https://sequoiacap.com/article/the-cognitive-revolution",
-      "commitment": "~10 min",
-      "note": "Sequoias Konstantine Buhler vil have, at maskiner snart løser 99,9 procent af den kognitive opgave, mennesker plejede at løse selv — ugens mest ubeskedne skala-påstand om AI og arbejdsmarkedet.",
-      "topics": [
-        "ai",
-        "venturekapital",
-        "økonomi"
-      ],
-      "isFeatured": false
-    },
-    {
-      "id": "rec-acemoglu-proworker-2026",
-      "tier": "short",
-      "mode": "read",
-      "kind": "Working paper",
       "status": "available",
-      "title": "Building Pro-Worker Artificial Intelligence",
-      "creator": "Daron Acemoglu, David Autor, Simon Johnson",
-      "provider": "SSRN / MIT Economics",
-      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6290347",
-      "commitment": "~30 min",
-      "note": "Modstykket til Buhler: Nobelprismodtager Daron Acemoglu argumenterer for, at valget af teknologi — ikke AI's evner alene — afgør, om arbejdere vinder eller taber. Økonomisk fagtradition uden for resten af ugens stof.",
+      "title": "Rawls, Bandung 2.ai and the AI Governance We Need",
+      "creator": "Michael L. Bąk",
+      "provider": "margin-notes-squared (Substack)",
+      "url": "https://www.margin-notes-squared.com/p/rawls-bandung-2ai-and-the-ai-governance",
+      "availability": "Frit tilgængelig",
+      "commitment": "ca. 15 minutter",
+      "note": "Bruger Rawls' slør af uvidenhed til at argumentere for, at hverken laboratorier eller stormagter – altså netop dem, der forhandler dagens opbremsningsregler – burde skrive dem; en tradition, du ellers ikke læser.",
       "topics": [
-        "økonomi",
-        "ai",
-        "arbejdsmarked"
+        "filosofi",
+        "ai-regulering"
       ],
       "isFeatured": false
     },
     {
-      "id": "rec-aaronson-nisq-2026",
+      "id": "rec-nber-vc-human-capital-20260914",
       "tier": "short",
       "mode": "read",
-      "kind": "Blog post",
-      "status": "new",
-      "title": "Shtetl-Optimized on NISQ demonstrations and quantum advantage claims",
-      "creator": "Scott Aaronson",
-      "provider": "Shtetl-Optimized",
-      "url": "https://scottaaronson.blog/",
-      "commitment": "~10 min",
-      "note": "Aaronson gennemgår, hvad NISQ-demonstrationer reelt beviser om kvantefordel — den skeptiske kontrolinstans, samme uge som en dansk kvantefabrik og endnu et kvantegennembrud fylder nyhederne.",
+      "kind": "Forskningspapir",
+      "status": "available",
+      "title": "Human Capital in Venture Capital: Evidence From 100,000 Venture Capitalists",
+      "creator": "Blake Jackson, Ilya A. Strebulaev",
+      "provider": "NBER",
+      "url": "https://www.nber.org/papers/w35501",
+      "availability": "Resumé frit tilgængeligt",
+      "commitment": "ca. 40 minutter",
+      "note": "Data på 100.000 VC-folk: under 40 pct. med investeringer rammer nogensinde ét hit, og top 5 pct. står for 90 pct. af profitten – samme koncentration som dagens klumme, set fra individet i stedet for fonden.",
       "topics": [
-        "quantum",
-        "videnskab"
+        "venturekapital",
+        "forskning"
       ],
       "isFeatured": false
     },
     {
-      "id": "rec-deepmind-writing-2026",
+      "id": "rec-github-hydrafusion-20260914",
       "tier": "short",
-      "mode": "read",
-      "kind": "Research paper",
+      "mode": "try",
+      "kind": "Værktøj",
       "status": "new",
-      "title": "Designing Proactive Thought Partners for Writing",
-      "creator": "Google DeepMind",
-      "provider": "Google DeepMind",
-      "url": "https://deepmind.google/research/publications/",
-      "commitment": "~20 min",
-      "note": "DeepMinds egen forskning i AI-skriveassistenter, der udfordrer tanken snarere end at aflaste den — bygherrens svar på dagens Nature-fund om, at de samme værktøjer gør skriftsproget mere ens.",
+      "title": "Project HydraFusion",
+      "provider": "GitHub Copilot CLI",
+      "url": "https://github.blog/",
+      "availability": "Research preview, opt-in, siden 4. september 2026",
+      "commitment": "ca. 15 minutters opsætning",
+      "note": "Ruter automatisk kodeopgaver mellem billigere og stærkere modeller og lader én model kritisere en andens kode – konkret bevis på det multi-model-mønster, branchen ellers kun taler abstrakt om.",
       "topics": [
         "ai",
-        "sprog"
-      ],
-      "isFeatured": false
-    },
-    {
-      "id": "rec-ai-engineer-paris-2026",
-      "tier": "short",
-      "mode": "experience",
-      "kind": "Konference",
-      "status": "upcoming",
-      "title": "AI Engineer Paris 2026",
-      "provider": "AI Engineer",
-      "url": "https://ai.engineer/paris/2026",
-      "availability": "23.-24. september 2026, Station F, Paris",
-      "commitment": "2 dage",
-      "note": "To dages keynotes og tekniske sessioner i Station F — den praktiske modvægt til ugens store påstande, hvis du vil se, hvad der reelt bygges lige nu.",
-      "topics": [
-        "ai",
-        "praksis"
+        "vaerktoej"
       ],
       "isFeatured": false
     }
   ],
   "quality": {
     "sourceCoverage": 82,
-    "freshness": 85,
+    "freshness": 88,
     "novelty": 78,
     "perspectiveBalance": 80,
     "render": 100
