@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-13",
-      "slug": "broedrenes-fald",
-      "claim": "IQ-faldet i Norge (Flynn-effektens vending) er miljøbetinget snarere end dysgenisk/genetisk, fordi det ses inden for familier - mellem brødre født på forskellige tidspunkter, ikke kun mellem generationer.",
-      "horizon": "2030'ernes norske værnepligtsregisterdata",
-      "falsifier": "Faldet fortsætter eller forværres inden for de samme familier gennem 2030'erne, uafhængigt af om formodede miljøårsager (fx skærmtid, søvnmønstre) ændrer sig. Kontrolleres i opfølgende analyser af det norske værnepligtsregister (jf. Bratsberg & Rogeberg, PNAS 2018).",
+      "date": "2026-09-14",
+      "slug": "ricardo-mod-nul-loen",
+      "claim": "Selv en AI, der er bedre end mennesker til alt, sender ikke lønnen mod nul, fordi komparative fordele afhænger af relative snarere end absolutte forskelle.",
+      "horizon": "Når lønandelen af BNP kan aflæses ti år frem",
+      "falsifier": "Lønandelen af BNP i USA og EU fortsætter mod nul, efterhånden som AI-kapaciteten stiger, uden at komparative fordele bremser faldet. Kontrolleres i BLS' og Eurostats egne lønandelsserier de kommende år.",
       "status": "open"
     }
   ]
