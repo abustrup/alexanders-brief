@@ -202,6 +202,20 @@
           "recordedOn": "2026-08-10"
         }
       ]
+    },
+    {
+      "indicator": "dk-elpris-maaned-gennemsnit",
+      "label": "Danske elpriser, gennemsnit for måneden indtil videre",
+      "unit": "kr./kWh",
+      "note": "Startet 2026-09-15 efter prisspidser drevet af Hormuz-konflikten og lav vindproduktion. Sammenlign med samme punkt i tidligere måneder, ikke kun med sidste aflæsning.",
+      "readings": [
+        {
+          "value": "1,00+",
+          "asOf": "1.-14. september 2026",
+          "sourceUrl": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar",
+          "recordedOn": "2026-09-15"
+        }
+      ]
     }
   ]
 }

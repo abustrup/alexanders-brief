@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-14",
-      "slug": "fondsvalget-er-loven",
-      "claim": "Venture-branchens 'power law' bor i hvilken fond man vaelger, ikke i bred eksponering: 2021-aargangens medianfond staar med ca. 1,4 pct. net-IRR fem aar inde, mens 90.-percentilen har ligget over 20 pct. IRR i naesten hvert aargang 2017-2024 (Carta Q1 2026 / Cambridge Associates).",
-      "horizon": "2021-aargangens naeste fulde-aars fondsmarkering, ventet i loebet af 2027",
-      "falsifier": "2021-aargangens medianfond-IRR stiger vaesentligt i den naeste fulde-aars opdatering (Carta eller Cambridge Associates), hvilket ville vise at 1,4 pct. var en midlertidig, urealiseret lavmaaling snarere end fondens reelle afkast. Kontrolleres i Cartas Fund Performance-serie og Cambridge Associates' US Venture Capital Index.",
+      "date": "2026-09-15",
+      "slug": "reguleringen-bag-fusionen",
+      "claim": "Intet kommercielt fusionsanlaeg leverer straem til et offentligt elnet foer 2035 - flaskehalsen er nu tilslutningskoe og godkendelsestid, ikke plasmafysikken.",
+      "horizon": "2035, aflaest i faktisk nettilslutning",
+      "falsifier": "Et kommercielt fusionsanlaeg (fx Commonwealth Fusion Systems' ARC, Helion eller TAE) opnaar reel nettilslutning til et offentligt elnet foer 2035. Kontrolleres i selskabernes egne meddelelser og i det lokale netselskabs (PJM eller tilsvarende) tilslutningsregister.",
       "status": "open"
     }
   ]
