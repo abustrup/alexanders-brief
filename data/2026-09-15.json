@@ -1,0 +1,1243 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-09-15",
+  "date": "2026-09-15",
+  "generatedAt": "2026-09-15T05:30:00.000Z",
+  "readingMinutes": 8,
+  "title": "Alexanders Brief",
+  "dek": "Trump afviser AI-opbremsning som en hoax, en russisk fregat tester Danmark ved Gedser, og Kinas eget sikkerhedsapparat frygter det, Beijing officielt kalder fearmongering",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-trump-rejects-ai-pacing-20260915",
+      "eventKey": "trump-rejects-ai-pacing-2026-09",
+      "section": "AI og magt",
+      "headline": "Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'",
+      "primarySourceUrl": "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700",
+      "subheadline": "To dage efter Amodeis opfordring til at bremse AI kalder Trump det en hoax",
+      "materialFacts": [
+        "Trump kalder AI-risikobekymringer en 'HOAX' på Truth Social og siger, det eneste værn, AI behøver, er 'en STÆRK OG KLOG præsident'",
+        "Trump navngiver og håner Amodei direkte to dage efter dennes opfordring til at bremse udviklingen",
+        "Trump kalder AI 'historiens største økonomiske vækstmotor' og taler om en 'syg konspiration' mod AI-datacentre"
+      ],
+      "body": [
+        "Trump afviser mandag AI-sikkerhedsregler: frygten er 'en HOAX', og det eneste værn er 'en STÆRK OG KLOG præsident'. Opslaget håner Amodei, der to dage før opfordrede til at bremse op.",
+        "Amodei advarede om AI-agentsværme, der kunne overtage dele af internettet. Altman støttede forslaget samme dag."
+      ],
+      "whyItMatters": "Afvisningen fjerner udsigten til føderale AI-regler; industriens opbremsning bliver bremseklodsen.",
+      "analysis": "Tempoet afhænger nu af, om laboratorierne følger Amodei frivilligt, eller Trump gør det til ulempe.",
+      "counterpoint": "Altman fastholdt dog sin støtte til uafhængige evaluatorer.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt",
+        "usa"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Dario Amodei",
+        "Anthropic",
+        "Sam Altman"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 70,
+        "novelty": 78,
+        "sourceQuality": 82,
+        "personalRelevance": 88,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "Trump kaldte AI-frygt en 'HOAX' og sagde, det eneste værn er en stærk, klog præsident.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Amodei offentliggjorde 12. september essayet 'We Must Pace the Frontier' med opfordring til bevidst opbremsning.",
+          "sourceUrls": [
+            "https://www.forbes.com/sites/gabrielalinzainescu/2026/09/13/anthropic-ceo-dario-amodei-calls-for-a-slowdown-in-frontier-ai/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700",
+          "publishedAt": "2026-09-14T15:26:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic CEO Dario Amodei Calls For A Slowdown In Frontier AI",
+          "publisher": "Forbes",
+          "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/09/13/anthropic-ceo-dario-amodei-calls-for-a-slowdown-in-frontier-ai/",
+          "publishedAt": "2026-09-13T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/01-334f0408.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'",
+        "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700",
+        "origin": "article",
+        "fingerprint": "3f3f1f193919192d2f3f3d191d1c18282f3f3c183cac18787f3f3e18bcac34187f7e5a982e6cb535bf6f5b3c6e6cdc37",
+        "lookedAt": "3f3f1f193919192d2f3f3d191d1c18282f3f3c183cac18787f3f3e18bcac34187f7e5a982e6cb535bf6f5b3c6e6cdc37",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-05/260525-trump-rs-2d8d08.jpg",
+        "focus": {
+          "x": 0.299,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-dk-gedser-frigate-flares-20260915",
+      "eventKey": "dk-russia-frigate-flares-gedser-2026-09",
+      "section": "Danmark og forsvar",
+      "headline": "Forsvarets helikopter beskudt med flares fra russisk fregat",
+      "primarySourceUrl": "https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat",
+      "subheadline": "Rusland skød lyskugler mod dansk militærhelikopter ved Gedser",
+      "materialFacts": [
+        "En russisk fregat affyrede to flares mod en dansk Fennec-helikopter under fotoovervågning i internationalt farvand ved Gedser den 14. september",
+        "En af flarene passerede tæt på helikopteren; besætning og fly var uskadte",
+        "Udenrigsministeriet indkaldte den russiske ambassadør; forsvarsminister Jeppe Bruus kalder det et tegn på, at Rusland flytter grænserne for risikovillighed"
+      ],
+      "body": [
+        "En russisk fregat affyrede søndag to lyskugler mod en Fennec-helikopter, der fotograferede skibet ud for Gedser. En flare passerede tæt på; ingen kom til skade.",
+        "Udenrigsministeriet indkaldte den russiske ambassadør. Forsvarsminister Jeppe Bruus kalder det alvorligt og et tegn på, at grænserne er rykket."
+      ],
+      "whyItMatters": "Det er en direkte konfrontation mellem russisk og dansk militærmateriel tæt på dansk territorium.",
+      "analysis": "At Rusland skyder lyskugler mod et NATO-fly uden provokation, føjer sig til flere tætte møder i Østersøen.",
+      "topics": [
+        "danmark",
+        "forsvar",
+        "rusland",
+        "geopolitik"
+      ],
+      "entities": [
+        "Forsvaret",
+        "Jeppe Bruus",
+        "Rusland",
+        "Gedser"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 55,
+        "novelty": 80,
+        "sourceQuality": 85,
+        "personalRelevance": 45,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "En russisk fregat affyrede to flares mod en dansk Fennec-helikopter ved Gedser den 14. september; ingen kom til skade.",
+          "sourceUrls": [
+            "https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udenrigsministeriet indkaldte den russiske ambassadør, og forsvarsminister Jeppe Bruus kaldte episoden alvorlig.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat-naer-gedser"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Forsvarets helikopter beskudt med flares fra russisk fregat",
+          "publisher": "Forsvaret",
+          "url": "https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat",
+          "publishedAt": "2026-09-14T23:02:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Forsvarets helikopter beskudt med flares fra russisk fregat nær Gedser",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat-naer-gedser",
+          "publishedAt": "2026-09-15T05:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/02-f2d5f0cb.jpg",
+        "credit": "Kilde: Forsvaret",
+        "alt": "Forsvarets helikopter beskudt med flares fra russisk fregat",
+        "sourceUrl": "https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat",
+        "origin": "article",
+        "fingerprint": "4f6f253373636b0b4d6f26737363eb4b4d6f24737363e1cb4f6f66737363e1c94f6966e3f3f3e1e94b66e2d3f1d1d1e4",
+        "lookedAt": "4f6f253373636b0b4d6f26737363eb4b4d6f24737363e1cb4f6f66737363e1c94f6966e3f3f3e1e94b66e2d3f1d1d1e4",
+        "originalUrl": "https://www.forsvaret.dk/globalassets/fko---forsvaret/billeder/billeder-til-nyheder/artikel/2026/09-september/-20260914-fennec-rune-dyrholm-arkiv-2026-artikel.jpg",
+        "focus": {
+          "x": 0.379,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-china-ai-party-control-20260915",
+      "eventKey": "china-ai-party-control-warning-2026-09",
+      "section": "AI og geopolitik",
+      "headline": "China's Stance on AI Regulation Comes Into Focus as Trump Rejects New Guardrails",
+      "primarySourceUrl": "https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150",
+      "subheadline": "Kinas efterretningschef frygter AI internt, Beijing kalder USA fearmongering",
+      "materialFacts": [
+        "Chen Yixin, chef for Kinas Ministerium for Statssikkerhed, skriver i statsmagasinet China Cyberspace, at AI truer partiets kontrol og kræver strammere partitilsyn",
+        "Samtidig afviser udenrigsministeriets talsmand Guo Jiakun amerikanske advarsler om AI som 'fearmongering'",
+        "Modsætningen kommer samme uge, som Trump afviser AI-sikkerhedstiltag som en hoax"
+      ],
+      "body": [
+        "Mens Trump kalder AI-risici opspind, skriver Kinas sikkerhedschef Chen Yixin, at AI truer partiets kontrol.",
+        "Det passer dårligt med linjen udadtil: talsmand Guo Jiakun kaldte netop AI-advarsler 'fearmongering'."
+      ],
+      "whyItMatters": "Beijings interne alarm viser, at Kina tager AI-magtrisikoen alvorligt trods retorik mod USA.",
+      "analysis": "Kontrasten svækker ideen om, at AI-bekymring er ren amerikansk konkurrence: partiet frygter selv kontroltab.",
+      "counterpoint": "Advarslen kan læses som påskud for overvågning internt, ikke ægte AI-bekymring.",
+      "topics": [
+        "ai",
+        "kina",
+        "magt",
+        "geopolitik"
+      ],
+      "entities": [
+        "Chen Yixin",
+        "Ministry of State Security",
+        "Guo Jiakun",
+        "Kina"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 40,
+        "novelty": 75,
+        "sourceQuality": 65,
+        "personalRelevance": 60,
+        "contrast": 82
+      },
+      "claims": [
+        {
+          "text": "Chen Yixin skrev, at AI-risici truer partiets kontrol og kræver strammere partitilsyn.",
+          "sourceUrls": [
+            "https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Guo Jiakun afviste offentligt amerikanske AI-advarsler som 'fearmongering'.",
+          "sourceUrls": [
+            "https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "China's Stance on AI Regulation Comes Into Focus as Trump Rejects New Guardrails",
+          "publisher": "Newsweek",
+          "url": "https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150",
+          "publishedAt": "2026-09-14T19:47:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://assets.newsweek.com/wp-content/uploads/2026/09/AP26254642767443.jpg?w=1200&crop=1",
+          "fingerprint": "1b98da1e0f0f2c2d9b989a1e0f4f6c4c9a9c9a1f0f4d4c4c181c1b9f0f0d4e4c1d1d1baf8f0ecece1c1d292faf8e8f8f",
+          "reason": "wrong-person"
+        }
+      ]
+    },
+    {
+      "id": "story-pro-human-assembly-20260915",
+      "eventKey": "pro-human-ai-assembly-sanders-bannon-2026-09",
+      "section": "AI og politik",
+      "headline": "Bernie Sanders and former Trump adviser to join AI event in Washington as tech concerns rise",
+      "primarySourceUrl": "https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/",
+      "subheadline": "Sanders og Bannon: 'Man træder på bremsen, ikke bare slipper gassen'",
+      "materialFacts": [
+        "Bernie Sanders og Steve Bannon deltager tirsdag i Future of Life Institutes 'Pro-Human Assembly' i Washington",
+        "Skuespillere, fagforeningsledere og lovgivere fra begge partier deltager også",
+        "Sanders kalder AI-industriens opbremsningsforslag utilstrækkelige: 'Man træder på bremsen, ikke bare slipper gassen'"
+      ],
+      "body": [
+        "Sanders og tidligere Trump-rådgiver Steve Bannon står tirsdag sammen ved Future of Life Institutes 'Pro-Human Assembly' i Washington.",
+        "Sanders afviser branchens opbremsningsforslag: 'Kører man mod en klippe, letter man ikke bare foden. Man træder på bremsen.'"
+      ],
+      "whyItMatters": "En koalition fra begge fløje er sværere for Kongressen at afvise end en enkelt fløjs krav.",
+      "analysis": "At Sanders og Bannon finder sammen, mens Trump kalder risikoen en hoax, viser AI-debatten bryde højre-venstre op.",
+      "topics": [
+        "ai",
+        "politik",
+        "usa"
+      ],
+      "entities": [
+        "Bernie Sanders",
+        "Steve Bannon",
+        "Future of Life Institute",
+        "Jacob Coxon"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 35,
+        "novelty": 74,
+        "sourceQuality": 62,
+        "personalRelevance": 55,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "Sanders og Bannon deltager i Future of Life Institutes 'Pro-Human Assembly' i Washington 15. september.",
+          "sourceUrls": [
+            "https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Sanders sagde: 'When you are racing towards a cliff, you don't just ease up on the gas pedal ... You hit the brakes.'",
+          "sourceUrls": [
+            "https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bernie Sanders and former Trump adviser to join AI event in Washington as tech concerns rise",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/",
+          "publishedAt": "2026-09-14T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/04-fda1a01d.jpg",
+        "credit": "Kilde: The National",
+        "alt": "US Senator Bernie Sanders is to take part in the event, alongside Hollywood actors. Reuters",
+        "sourceUrl": "https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/",
+        "origin": "article",
+        "fingerprint": "d6a74d5cecee078683874d5cece6070703454c5cece74f47274e4e9cace74f4706cece1e8ce5c7954fcfae1e0ce48597",
+        "lookedAt": "d6a74d5cecee078683874d5cece6070703454c5cece74f47274e4e9cace74f4706cece1e8ce5c7954fcfae1e0ce48597",
+        "originalUrl": "https://www.thenationalnews.com/resizer/v2/WQMSWOW3OKX7RCIIV3FEZQSNYI.jpg?auth=52195dabff1093f064c36da8a4854e5e42328e546eb757aa082dbe50dbd2fe66&smart=true&width=1200&height=630",
+        "focus": {
+          "x": 0.63,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-photonic-vanguard-20260915",
+      "eventKey": "photonic-vanguard-quantum-fab-2026-09",
+      "section": "Quantum og deeptech",
+      "headline": "Photonic Proposes CAD$500 Million Canadian Semiconductor Manufacturing Facility",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/09/14/photonic-proposes-cad500-million-canadian-semiconductor-manufacturing-facility/",
+      "subheadline": "Canadisk kvantefirma foreslår 500 mio. dollar-fabrik mod samme flaskehals som EU's",
+      "materialFacts": [
+        "Photonic Inc. har foreslået 'Project VANGUARD', en fælles halvlederfabrik i Canada til ca. 500 mio. CAD (359 mio. USD)",
+        "Fabrikken skal betjene kunder inden for kvante, AI, rumfart og forsvar og er udvalgt til Canadas officielle investeringssummit-prospekt",
+        "Photonic, grundlagt 2016 i Vancouver af Stephanie Simmons, bygger silicium-spin-foton-kvanteprocessorer"
+      ],
+      "body": [
+        "Photonic foreslår 'Project VANGUARD': en fælles halvlederfabrik til ca. 500 mio. CAD for kunder inden for kvante, AI, rumfart og forsvar.",
+        "Fabrikken skal løse et flaskehalsproblem: manglende pilotfremstilling tvinger canadiske kvantefirmaer udenlands."
+      ],
+      "whyItMatters": "Det er samme kapacitetsproblem, EU's AI-gigafabrikker skal løse: uden lokal fremstilling afhænger ambitioner af udlandet.",
+      "analysis": "At forslaget kommer fra industrien selv viser, hvor akut flaskehalsen føles, men det er fortsat uden finansiering.",
+      "topics": [
+        "quantum",
+        "deeptech",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Photonic Inc.",
+        "Stephanie Simmons",
+        "Canada"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 50,
+        "novelty": 68,
+        "sourceQuality": 60,
+        "personalRelevance": 70,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Photonic foreslog en CA$500M halvlederfabrik for kvante-, AI- og forsvarskunder, udvalgt til Canadas investeringssummit-prospekt.",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/09/14/3360927/0/en/photonic-inc-unveils-project-vanguard-a-proposal-for-a-500m-specialized-semiconductor-manufacturing-facility-to-accelerate-commercialization-of-quantum-ai-and-defence-innovation-in.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Photonic Proposes CAD$500 Million Canadian Semiconductor Manufacturing Facility",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/09/14/photonic-proposes-cad500-million-canadian-semiconductor-manufacturing-facility/",
+          "publishedAt": "2026-09-14T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Photonic Inc. unveils Project VANGUARD, a proposal for a $500M specialized semiconductor manufacturing facility to accelerate commercialization of quantum, AI and defence innovation in Canada",
+          "publisher": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/09/14/3360927/0/en/photonic-inc-unveils-project-vanguard-a-proposal-for-a-500m-specialized-semiconductor-manufacturing-facility-to-accelerate-commercialization-of-quantum-ai-and-defence-innovation-in.html",
+          "publishedAt": "2026-09-14T13:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-scotus-mail-voting-20260915",
+      "eventKey": "us-scotus-mail-voting-block-2026-09",
+      "section": "USA og demokrati",
+      "headline": "In blow to Trump, Supreme Court blocks mail ballot restrictions from taking effect in 2026",
+      "primarySourceUrl": "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/",
+      "subheadline": "Højesteret blokerer Trumps forsøg på at begrænse brevstemmer før midtvejsvalget",
+      "materialFacts": [
+        "Højesteret fastholder en kendelse, der blokerer Trumps dekret om at lade det amerikanske postvæsen afvise brevstemmer, der ikke opfylder nye krav",
+        "Kun dommerne Alito og Thomas var uenige i den upersonlige flertalsafgørelse",
+        "Dommer Kavanaugh skrev, at delstats- og lokale valgmyndigheder ikke havde tid nok til at indføre reglerne før november"
+      ],
+      "body": [
+        "Højesteret fastholder mandag en kendelse, der blokerer Trumps dekret om at lade postvæsenet afvise brevstemmer før midtvejsvalget. Kun Alito og Thomas stemte imod.",
+        "Kavanaugh skrev, at myndighederne ikke havde tid nok til at indføre reglerne inden valget."
+      ],
+      "whyItMatters": "Brevstemmer ved midtvejsvalget fungerer som hidtil, mens spørgsmålet om præsidentens magt over valg forbliver uafklaret.",
+      "analysis": "At kun to af ni dommere var uenige, er et nederlag for at ændre valgregler uden om Kongressen.",
+      "topics": [
+        "usa",
+        "politik",
+        "demokrati",
+        "retssystem"
+      ],
+      "entities": [
+        "Supreme Court",
+        "Donald Trump",
+        "Brett Kavanaugh",
+        "Samuel Alito",
+        "Clarence Thomas"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 65,
+        "novelty": 68,
+        "sourceQuality": 80,
+        "personalRelevance": 15,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Højesteret fastholdt en injunction mod Trumps dekret om brevstemmer; kun Alito og Thomas var uenige.",
+          "sourceUrls": [
+            "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Kavanaugh skrev, at lokale myndigheder ikke havde tid nok til at indføre reglerne før november.",
+          "sourceUrls": [
+            "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "In blow to Trump, Supreme Court blocks mail ballot restrictions from taking effect in 2026",
+          "publisher": "Votebeat",
+          "url": "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/",
+          "publishedAt": "2026-09-15T00:45:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/06-072455c0.jpg",
+        "credit": "Kilde: Votebeat",
+        "alt": "A hand reaches to drop off a mail-in ballot in a drop-box.",
+        "sourceUrl": "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/",
+        "origin": "article",
+        "fingerprint": "949ac94c391d5e9bb29b4d4c393d9e9b1b194c4a393d969a999cce8a3c7c969fac96ce096c7cbe37b69b0b494c7cfe33",
+        "lookedAt": "949ac94c391d5e9bb29b4d4c393d9e9b1b194c4a393d969a999cce8a3c7c969fac96ce096c7cbe37b69b0b494c7cfe33",
+        "originalUrl": "https://www.votebeat.org/resizer/v2/5PFWXDFR45AV5KFWPJZVREPVZQ.jpg?smart=true&auth=a11f9483f557a73828fab7a73b232b2c74eb70827a44770f06dc15388b82c0b5&width=1200&height=630",
+        "focus": {
+          "x": 0.236,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-eu-sanctions-usmanov-20260915",
+      "eventKey": "eu-russia-sanctions-usmanov-delay-2026-09",
+      "section": "EU og geopolitik",
+      "headline": "France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan",
+      "primarySourceUrl": "https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal",
+      "subheadline": "Frankrig og Slovakiet blokerer EU's Rusland-sanktioner for at få en oligark slettet",
+      "materialFacts": [
+        "EU-ambassadører kunne ikke blive enige om den rutinemæssige seks-måneders forlængelse af sanktioner mod ca. 3.000 russisk-forbundne personer og selskaber og forlængede kun med 7 dage til 22. september",
+        "Frankrig sluttede sig til Slovakiet i kravet om at fjerne oligarken Alisjer Usmanov fra listen, angiveligt koblet til løsladelse af franske statsborgere i Aserbajdsjan",
+        "Zelensky kritiserede forhandlingen for at sende et forkert signal midt i krigen"
+      ],
+      "body": [
+        "EU's ambassadører kunne ikke enes om forlængelsen af sanktioner mod ca. 3.000 russisk-forbundne og forlængede kun listen syv dage.",
+        "Frankrig støtter Slovakiets krav om at fjerne oligarken Usmanov, angiveligt led i en løsladelsesaftale for franskmænd i Aserbajdsjan."
+      ],
+      "whyItMatters": "Det er første gang siden invasionen, at EU's sanktionsenighed bryder sammen over én person.",
+      "analysis": "Fastholder Frankrig kravet, kan hele listen for russere bortfalde — én stats interesse truer troværdigheden.",
+      "topics": [
+        "eu",
+        "geopolitik",
+        "rusland",
+        "sanktioner"
+      ],
+      "entities": [
+        "France",
+        "Slovakia",
+        "Alisher Usmanov",
+        "EU",
+        "Volodymyr Zelensky"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 60,
+        "novelty": 72,
+        "sourceQuality": 76,
+        "personalRelevance": 20,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "EU-ambassadører forlængede kun sanktionslisten 7 dage til 22. september efter fransk-slovakisk uenighed.",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Frankrig kræver Usmanov fjernet fra listen, angiveligt koblet til en løsladelsesaftale med Aserbajdsjan.",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal",
+          "publishedAt": "2026-09-14T18:21:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/07-60a0d2b8.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan",
+        "sourceUrl": "https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal",
+        "origin": "article",
+        "fingerprint": "7f697b73637571f37d697b73e2f471617d6d79f3e2f2f2f1fc6cf9ebeaa2f2d2dce4fa6be941b3f3f6ee79c9cd4571b1",
+        "lookedAt": "7f697b73637571f37d697b73e2f471617d6d79f3e2f2f2f1fc6cf9ebeaa2f2d2dce4fa6be941b3f3f6ee79c9cd4571b1",
+        "originalUrl": "https://images.euronews.com/articles/stories/09/91/32/41/1200x675_cmsv2_f98bec57-de7d-52b3-b620-5f227aeb779b-9913241.jpg",
+        "focus": {
+          "x": 0.12,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-nato-lithuania-drone-20260915",
+      "eventKey": "nato-lithuania-drone-shootdown-2026-09",
+      "section": "NATO og forsvar",
+      "headline": "NATO fighters shoot down drone over Lithuania after airspace incursion",
+      "primarySourceUrl": "https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion",
+      "subheadline": "Italienske NATO-fly skyder drone ned over Litauen efter indtrængen fra Belarus",
+      "materialFacts": [
+        "En drone, der menes at komme fra Belarus, blev skudt ned af italienske Eurofighter Typhoon-fly over Kaunas i Litauen lige efter midnat den 15. september",
+        "Vilnius' lufthavn begrænsede kortvarigt luftrummet",
+        "Litauens præsident Nausėda bekræftede nedskydningen og takkede de allierede styrker"
+      ],
+      "body": [
+        "Italienske Eurofighter-fly ved Šiauliai skød lige efter midnat en drone ned over Kaunas i Litauen. Dronen menes at komme fra Belarus.",
+        "Vilnius' lufthavn indførte kortvarigt luftrumsrestriktioner. Præsident Nausėda bekræftede nedskydningen og takkede de allierede styrker."
+      ],
+      "whyItMatters": "Det er endnu en NATO-nedskydning af en drone i alliancens luftrum og forstærker tests af østflanken.",
+      "analysis": "At episoden løses uden yderligere eskalation viser en rutine for hændelser militært, men gentagelsen er svær at afskrive.",
+      "topics": [
+        "forsvar",
+        "nato",
+        "europa",
+        "geopolitik"
+      ],
+      "entities": [
+        "NATO",
+        "Lithuania",
+        "Italy",
+        "Gitanas Nausėda",
+        "Belarus"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 50,
+        "novelty": 70,
+        "sourceQuality": 74,
+        "personalRelevance": 35,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Italienske Eurofighter Typhoon-fly skød en drone fra formodet belarusisk oprindelse ned over Litauen.",
+          "sourceUrls": [
+            "https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Præsident Nausėda bekræftede nedskydningen og takkede de allierede styrker.",
+          "sourceUrls": [
+            "https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NATO fighters shoot down drone over Lithuania after airspace incursion",
+          "publisher": "Aerotime",
+          "url": "https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion",
+          "publishedAt": "2026-09-15T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/08-c9a6a123.jpg",
+        "credit": "Kilde: Aerotime",
+        "alt": "NATO fighters shoot down drone over Lithuania after airspace incursion",
+        "sourceUrl": "https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion",
+        "origin": "article",
+        "fingerprint": "26353470cace810227343470db4e4541a5363670d98e9496a5b636e0998f9591273773e0199a8685e733f3d01c980a24",
+        "lookedAt": "26353470cace810227343470db4e4541a5363670d98e9496a5b636e0998f9591273773e0199a8685e733f3d01c980a24",
+        "originalUrl": "https://www.aerotime.aero/images/2026/09/Italian-Air-Force-Eurofighter-Typhoon-takes-off-from-Siauliai-Air-Base-during-a-NATO-Baltic-Air-Policing.jpg",
+        "focus": {
+          "x": 0.589,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-dk-elpriser-rekord-20260915",
+      "eventKey": "dk-elpriser-rekord-september-2026",
+      "section": "Danmark og energi",
+      "headline": "Prisen på el rammer højeste niveau i næsten to år",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar",
+      "subheadline": "Høje gaspriser og lav vindproduktion sender danske elpriser til det højeste niveau siden 2024",
+      "materialFacts": [
+        "Elprisen i Danmark ramte næsten 7 kr./kWh inkl. moms mandag aften, det højeste niveau i næsten to år",
+        "Årsagen er høje gaspriser, delvist drevet af konflikten ved Hormuzstrædet, kombineret med lav vind- og solproduktion",
+        "September er på vej til at blive den dyreste el-måned siden energikrisen i 2022"
+      ],
+      "body": [
+        "Elprisen ramte mandag aften næsten 7 kr./kWh inkl. moms, det højeste niveau i næsten to år. OK's Troels Skipper peger på høje gaspriser og for lidt vind og sol.",
+        "Gasprisen er presset op af konflikten ved Hormuzstrædet. Fortsætter niveauet, bliver september den dyreste el-måned siden 2022."
+      ],
+      "whyItMatters": "Det er en konkret, målbar konsekvens for danske husholdninger af en konflikt, der ellers virker fjern.",
+      "analysis": "Prisstigningen viser, hvor afhængigt systemet er af gasprisen: vindstille aftener kræver gasbaseret backup.",
+      "topics": [
+        "danmark",
+        "energi",
+        "økonomi"
+      ],
+      "entities": [
+        "Norlys",
+        "OK",
+        "Troels Skipper",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 55,
+        "novelty": 62,
+        "sourceQuality": 78,
+        "personalRelevance": 40,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Elprisen nåede næsten 7 kr./kWh inkl. moms mandag aften, det højeste niveau i næsten to år.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Troels Skipper (OK) forklarer prisstigningen med høje gaspriser og lav vind-/solproduktion.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Prisen på el rammer højeste niveau i næsten to år",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar",
+          "publishedAt": "2026-09-15T06:57:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/09-5c872f96.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Prisen på el rammer højeste niveau i næsten to år",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar",
+        "origin": "article",
+        "fingerprint": "0707c0c0c69fbf0f0b07c4c0a6bf3f2f038384c0a63e1d670383c4c0e6575e67010082c0944b5ade0190838186cfdb9a",
+        "lookedAt": "0707c0c0c69fbf0f0b07c4c0a6bf3f2f038384c0a63e1d670383c4c0e6575e67010082c0944b5ade0190838186cfdb9a",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/zavpydco/20220906-132245-l_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.227,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-russia-drone-train-poland-20260915",
+      "eventKey": "russia-drone-train-poland-border-2026-09",
+      "section": "Ukraine og Europa",
+      "headline": "Russian drone hits train two km from Polish border, rail operator says",
+      "primarySourceUrl": "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+      "subheadline": "Russisk drone rammer tog nær Polens grænse minutter efter vestlige gæster",
+      "materialFacts": [
+        "En russisk drone ramte lokomotivet på et Kyiv-Warszawa-passagertog i Volyn-regionen, cirka 2 km fra NATO-medlemmet Polens grænse, den 13. september",
+        "Boris Johnson og en rådgiver for Friedrich Merz var kort forinden om bord på et tog, der forlod samme station",
+        "Ingen døde ved selve angrebet; den bredere natlige bombardering dræbte mindst tre og sårede 36 andre steder i Ukraine"
+      ],
+      "body": [
+        "En russisk drone ramte natten til søndag et passagertogs lokomotiv nær Polens grænse i Volyn. Et varslingssystem reddede passagerer fra skade.",
+        "Minutter forinden forlod et andet tog stationen med Boris Johnson om bord. Ingen døde her, men natten dræbte mindst tre andre steder i Ukraine."
+      ],
+      "whyItMatters": "Et angreb minutter efter fremtrædende gæster passerede stedet, skærper spørgsmålet om krigens risiko for NATO.",
+      "analysis": "Uanset om nærheden var tilsigtet, viser episoden, hvor lille margin der er til polsk jord.",
+      "topics": [
+        "ukraine",
+        "geopolitik",
+        "europa",
+        "forsvar"
+      ],
+      "entities": [
+        "Ukrzaliznytsia",
+        "Boris Johnson",
+        "Volyn",
+        "Poland",
+        "Ukraine"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 72,
+        "personalRelevance": 30,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "En russisk drone ramte togets lokomotiv ca. 2 km fra Polens grænse; ingen døde ved selve angrebet.",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Boris Johnson og en Merz-rådgiver var kort forinden om bord på et tog, der forlod samme station.",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russian drone hits train two km from Polish border, rail operator says",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+          "publishedAt": "2026-09-13T13:16:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/10-6d7c572d.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "Russian drone hits train two km from Polish border, rail operator says",
+        "sourceUrl": "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+        "origin": "article",
+        "fingerprint": "031f3d584bcb4e16071f7cd9c9c9cb56073f789489c9c9961f3ee0949989899f3efca5b61484149c7fe4243e14941414",
+        "lookedAt": "031f3d584bcb4e16071f7cd9c9c9cb56073f789489c9c9961f3ee0949989899f3efca5b61484149c7fe4243e14941414",
+        "originalUrl": "https://images.euronews.com/articles/stories/09/91/16/73/1200x675_cmsv2_188dced6-9f33-5b2e-8129-cbe57543e4c3-9911673.jpg",
+        "focus": {
+          "x": 0.161,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-indonesia-ferry-capsize-20260915",
+      "eventKey": "indonesia-ferry-capsize-java-sea-2026-09",
+      "section": "Katastrofe",
+      "headline": "Six dead, 129 missing as Indonesian ferry carrying more than 240 capsizes",
+      "primarySourceUrl": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
+      "subheadline": "Færge med 243 om bord kæntrede i Javahavet; eftersøgning fortsætter i høje bølger",
+      "materialFacts": [
+        "Færgen Virgo Transport 8 kæntrede i hårdt vejr i Javahavet den 13. september på vej fra Surabaya til Banjarmasin med 243 om bord",
+        "Seneste optælling: 6 bekræftet døde, 129 savnet, 108 reddet; eftersøgning hæmmet af 2,5 meter høje bølger",
+        "Det 119 meter lange skib blev bygget i Japan i 1987 og solgt til nuværende indonesiske ejer sidste år"
+      ],
+      "body": [
+        "Færgen Virgo Transport 8 kæntrede søndag i hårdt vejr i Javahavet med 243 om bord. Seneste tal: 6 døde, 129 savnet, 108 reddet.",
+        "Det 119 meter lange skib blev bygget i Japan i 1987 og solgt til sin indonesiske operatør sidste år."
+      ],
+      "whyItMatters": "Med over hundrede stadig savnet er dette en af regionens største skibsulykker i år, og tallet kan stige.",
+      "analysis": "Sagen føjer sig til flere sydøstasiatiske færgeulykker, hvor ældre skibe og hårdt vejr rammer overfyldte ruter.",
+      "topics": [
+        "indonesien",
+        "katastrofe",
+        "søfart",
+        "asien"
+      ],
+      "entities": [
+        "Virgo Transport 8",
+        "PT Virgo Karya Shipping",
+        "Indonesia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 20,
+        "novelty": 85,
+        "sourceQuality": 74,
+        "personalRelevance": 5,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Færgen kæntrede med 243 om bord; seneste tal er 6 døde, 129 savnet, 108 reddet.",
+          "sourceUrls": [
+            "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Skibet var 119 meter langt, bygget i Japan i 1987 og solgt til indonesisk operatør sidste år.",
+          "sourceUrls": [
+            "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Six dead, 129 missing as Indonesian ferry carrying more than 240 capsizes",
+          "publisher": "ABC News Australia",
+          "url": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
+          "publishedAt": "2026-09-13T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "6 dead, 130 missing after Indonesia ferry capsizes",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/13/one-dead-102-rescued-after-indonesian-ferry-goes-missing-in-java-sea",
+          "publishedAt": "2026-09-13T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/11-e1d14a20.jpg",
+        "credit": "Kilde: ABC News Australia",
+        "alt": "A ship at a dock",
+        "sourceUrl": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
+        "origin": "article",
+        "fingerprint": "f9fd38ca514c7e78d9fc38cbd51ceff8ed7c3dcdb49ccdf5fd7c04c5b4b4ccedfc7c04cda6340eccfe7606ce53762bae",
+        "lookedAt": "f9fd38ca594c7e78d9fc38cbd51deff8ed7c3dcdb49ccdf5fd7c04c5b4b4ccedfc7c04cda6342eccfe7606ce63762bae",
+        "originalUrl": "https://live-production.wcms.abc-cdn.net.au/1baca07905822941d5b2391fabba686e?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=261&width=1600&height=900&imformat=generic",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Wall Street ends down, calls for AI slowdown pummel chipmakers",
+      "headline": "Wall Street ends down, calls for AI slowdown pummel chipmakers",
+      "summary": "Nvidia faldt 3,4%, Broadcom og AMD over 4%, og Micron over 5%, efter at AI-topchefer inklusive Amodei krævede opbremsning i udviklingen.",
+      "publisher": "GV Wire",
+      "section": "Marked",
+      "publishedAt": "2026-09-14T21:00:00.000Z",
+      "url": "https://gvwire.com/2026/09/14/wall-street-falls-as-ai-anxiety-batters-nvidia-chipmakers/",
+      "topics": [
+        "ai",
+        "aktier",
+        "usa"
+      ]
+    },
+    {
+      "text": "11,8 procent består ikke folkeskolens afgangsprøve i dansk og matematik",
+      "headline": "11,8 procent består ikke folkeskolens afgangsprøve i dansk og matematik",
+      "summary": "Andelen af niendeklasser, der ikke består dansk og matematik, er det højeste niveau siden 2012, op fra 9 procent for ti år siden.",
+      "publisher": "Undervisningsministeriet/Ritzau",
+      "section": "Uddannelse",
+      "publishedAt": "2026-09-14T09:00:00.000Z",
+      "url": "https://via.ritzau.dk/pressemeddelelse/15160389/118-procent-bestar-ikke-folkeskolens-afgangsprove-i-dansk-og-matematik?lang=da",
+      "topics": [
+        "danmark",
+        "uddannelse"
+      ]
+    },
+    {
+      "text": "Attack on Norwegian Parliament website: pro-Russian hackers claim responsibility",
+      "headline": "Attack on Norwegian Parliament website: pro-Russian hackers claim responsibility",
+      "summary": "Gruppen 'Server Killers' lagde Stortingets hjemmeside delvist ned i tre timer og siger, det er hævn for en norsk drone-aftale med Ukraine.",
+      "publisher": "Moja Norwegia",
+      "section": "Cybersikkerhed",
+      "publishedAt": "2026-09-14T15:00:00.000Z",
+      "url": "https://www.mojanorwegia.pl/en/attack-on-norwegian-parliament-website-prorussian-hackers-claim-responsibility-30569.html",
+      "topics": [
+        "cybersikkerhed",
+        "norge",
+        "rusland"
+      ]
+    },
+    {
+      "text": "Kran er væltet ned i ejendom",
+      "headline": "Kran er væltet ned i ejendom",
+      "summary": "En 80 ton tung pælekran væltede ned i en ejendom ved Torvet i Silkeborg under byggearbejde; ingen kom til skade.",
+      "publisher": "TV2 Østjylland",
+      "section": "Indland",
+      "publishedAt": "2026-09-14T15:00:00.000Z",
+      "url": "https://www.tv2ostjylland.dk/silkeborg/kran-er-vaeltet-ned-i-ejendom-ac9c0",
+      "topics": [
+        "danmark"
+      ]
+    },
+    {
+      "text": "Novo to Disclose 'Next Chapter' at Sept. 15 Employee Event",
+      "headline": "Novo to Disclose 'Next Chapter' at Sept. 15 Employee Event",
+      "summary": "Novo Nordisk holdt mandag et personalemøde om selskabets fremtid forud for en strategipræsentation for investorer den 21. september.",
+      "publisher": "Bloomberg",
+      "section": "Erhverv",
+      "publishedAt": "2026-09-15T08:00:00.000Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-11/novo-to-disclose-next-chapter-at-sept-15-employee-event",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
+      "headline": "NASA Welcomes Djibouti as Newest Artemis Accords Signatory",
+      "summary": "Djibouti blev det 72. land og ottende afrikanske land til at underskrive Artemis-aftalerne om fredelig rumudforskning.",
+      "publisher": "NASA",
+      "section": "Rummet",
+      "publishedAt": "2026-09-14T00:00:00.000Z",
+      "url": "https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/",
+      "topics": [
+        "rummet",
+        "afrika"
+      ]
+    },
+    {
+      "text": "Holger Rune to return from injury at upcoming Davis Cup tie",
+      "headline": "Holger Rune to return from injury at upcoming Davis Cup tie",
+      "summary": "Rune vender efter 11 måneders skadespause tilbage i Davis Cup, når Danmark møder Bulgarien 18.-20. september.",
+      "publisher": "ATP Tour",
+      "section": "Sport",
+      "publishedAt": "2026-09-13T00:00:00.000Z",
+      "url": "https://www.atptour.com/en/news/rune-return-davis-cup-2026-september",
+      "topics": [
+        "sport",
+        "danmark"
+      ]
+    },
+    {
+      "text": "The Gemini desktop app is now available for Windows",
+      "headline": "The Gemini desktop app is now available for Windows",
+      "summary": "Google har lanceret en Gemini-app til Windows med genvejen Alt+Space, der giver adgang til AI-hjælp direkte i andre programmer.",
+      "publisher": "Google Workspace Updates",
+      "section": "AI",
+      "publishedAt": "2026-09-11T00:00:00.000Z",
+      "url": "https://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "Fashion designer Bob Mackie, who dressed Cher and Madonna, dies",
+      "headline": "Fashion designer Bob Mackie, who dressed Cher and Madonna, dies",
+      "summary": "Kostumedesigneren, kendt for sit arbejde for blandt andre Cher og Madonna, er død.",
+      "publisher": "AP",
+      "section": "Kultur",
+      "publishedAt": "2026-09-14T12:00:00.000Z",
+      "url": "https://www.dr.dk/",
+      "topics": [
+        "kultur",
+        "usa"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "label": "Danske elpriser, gennemsnit for måneden indtil videre",
+    "indicator": "dk-elpris-maaned-gennemsnit",
+    "value": "1,00+",
+    "unit": "kr./kWh",
+    "asOf": "1.-14. september 2026",
+    "caption": "September er på vej mod at blive den dyreste el-måned siden energikrisen i 2022, drevet af høje gaspriser og lav vindproduktion.",
+    "sourceUrl": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar",
+    "sourceTitle": "Prisen på el rammer højeste niveau i næsten to år"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "reguleringen-bag-fusionen",
+    "title": "Reguleringen bag fusionen",
+    "thesis": "Intet fusionsanlæg leverer strøm til et net før 2035 — flaskehalsen er nu kø, ikke plasmafysik.",
+    "horizon": "2035, aflæst i nettilslutning",
+    "body": [
+      "NRC lempede i 2023 fusionsreglerne under fissionsniveau. Commonwealth Fusion søgte i 2026 om nettilslutning — en kø branchen sætter til 4-6 år."
+    ],
+    "uncertainty": "Tesen svækkes, hvis et kommercielt fusionsanlæg opnår faktisk nettilslutning før 2035, eller hvis en fremtidig sag viser, at plasmafysikken, ikke køen, var den reelle flaskehals.",
+    "topics": [
+      "energi",
+      "deeptech",
+      "regulering"
+    ],
+    "claims": [
+      {
+        "text": "NRC besluttede i 2023 at regulere fusionsanlæg under den lempeligere byproduct-materials-ramme (10 CFR del 30) frem for fissionsrammen.",
+        "sourceUrls": [
+          "https://www.nrc.gov/cdn/doc-collection-news/2023/23-029.pdf"
+        ],
+        "confidence": "high"
+      },
+      {
+        "text": "Commonwealth Fusion søgte i 2026 om nettilslutning til PJM for sit første ARC-anlæg; en sammenlignelig køproces tager typisk fire til seks år.",
+        "sourceUrls": [
+          "https://www.eenews.net/articles/in-a-first-fusion-company-applies-for-us-grid-connection/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "NRC to Regulate Fusion Energy Systems Based on Radiological Hazard",
+        "publisher": "NRC",
+        "url": "https://www.nrc.gov/cdn/doc-collection-news/2023/23-029.pdf",
+        "publishedAt": "2023-04-11T00:00:00.000Z",
+        "kind": "primary"
+      },
+      {
+        "title": "In a first, fusion company applies for US grid connection",
+        "publisher": "E&E News / Politico",
+        "url": "https://www.eenews.net/articles/in-a-first-fusion-company-applies-for-us-grid-connection/",
+        "publishedAt": "2026-06-07T00:00:00.000Z",
+        "kind": "reporting"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-amodei-pace-the-frontier-20260915",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "We Must Pace the Frontier",
+      "creator": "Dario Amodei",
+      "provider": "darioamodei.com",
+      "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "availability": "Frit tilgængeligt online",
+      "commitment": "15 min",
+      "description": "Amodeis eget essay fra 12. september argumenterer for bevidst at bremse AI-udviklingens tempo, med et konkret trepunktsforslag om uafhængige evaluatorer, fælles sikkerhedsstandarder og koordination mellem demokratiske og autoritære stater.",
+      "rationale": "Dette essay er den primære tekst bag dagens største historie: Trumps afvisning, Sanders og Bannons fælles optræden og Kinas interne modsigelse reagerer alle på netop dette argument. At læse Amodeis egne ord, ikke omtalen af dem, giver et grundlag at have en selvstændig holdning fra, fremfor kun at kende reaktionerne på det.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-15/r01-890421cf.jpg",
+        "credit": "Kilde: Anthropic",
+        "alt": "Dario Amodei, adm. direktør for Anthropic",
+        "sourceUrl": "https://www.anthropic.com/company/leadership",
+        "lookedAt": "59d96968d9cbccc5d9194948f98bcec49959d9ccb8898fc699d9d8cca8adaf8ebcdd5ccc28242d2ddc9c9ecc6c706c6d",
+        "originalUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e52eaed407e2469b9cab13568db623aa01877f64-640x800.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-rawls-ai-fairness-20260915",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "Can Rawls' political philosophy help us fix AI fairness?",
+      "creator": "James C. O'Sullivan",
+      "provider": "Substack",
+      "url": "https://jamescosullivan.substack.com/p/rawls-ai-fairness",
+      "commitment": "12 min",
+      "note": "Analytisk/Rawlsiansk politisk filosofi, som slet ikke findes i din læsehistorik: argumenterer for, at AI-systemer bør bedømmes som del af samfundets 'grundstruktur', ikke kun ud fra individuelle valg.",
+      "topics": [
+        "filosofi",
+        "ai",
+        "regulering"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-deepseek-v41-flash-20260915",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Model",
+      "status": "new",
+      "title": "DeepSeek V4.1-Flash",
+      "creator": "DeepSeek",
+      "provider": "Ollama",
+      "url": "https://ollama.com/library/deepseek-v4.1-flash",
+      "commitment": "10 min",
+      "note": "MIT-licenseret åben model, der kan køres lokalt via Ollama; en konkret måde at mærke, hvor langt open source er fra frontier-modellerne lige nu.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nber-ai-labor-forecast-20260915",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Paper",
+      "status": "new",
+      "title": "Forecasting the Economic Effects of AI",
+      "creator": "Ezra Karger",
+      "provider": "NBER",
+      "url": "https://www.nber.org/system/files/working_papers/w35046/w35046.pdf",
+      "commitment": "30 min",
+      "note": "Primærforskning om AI og beskæftigelse i AI-eksponerede fag, et af de områder, du selv har bedt om at få mere af.",
+      "topics": [
+        "ai",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-pro-human-declaration-20260915",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Document",
+      "status": "available",
+      "title": "The Pro-Human AI Declaration",
+      "provider": "Future of Life Institute",
+      "url": "https://futureoflife.org/wp-content/uploads/2026/01/pro-human-ai-declaration.pdf",
+      "commitment": "8 min",
+      "note": "De 33 principper bag dagens Sanders-Bannon-koalition i original form, ikke kun omtalen af mødet.",
+      "topics": [
+        "ai",
+        "politik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-zvi-pace-the-frontier-analysis-20260915",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "We Must Pace The Frontier",
+      "creator": "Zvi Mowshowitz",
+      "provider": "Don't Worry About the Vase",
+      "url": "https://thezvi.wordpress.com/2026/09/14/we-must-pace-the-frontier/",
+      "commitment": "20 min",
+      "note": "Tæt, sætning-for-sætning-analyse af Amodeis essay i det Stratechery-nære register, du har opsøgt før.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-openrouter-20260915",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "So you want to use OpenRouter?",
+      "creator": "Simon Willison",
+      "provider": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "commitment": "10 min",
+      "note": "En praktikers vejledning til at bruge flere AI-modeller gennem ét API, fra en kilde, der tester værktøjer i stedet for blot at referere lanceringer.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chalmers-quantum-lattice-gates-20260915",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Article",
+      "status": "new",
+      "title": "Chalmers Researchers Make Bosonic Quantum Operations More Than 1,000 Times Faster",
+      "provider": "The Quantum Insider",
+      "url": "https://thequantuminsider.com/2026/09/10/chalmers-researchers-faster-bosonic-quantum-operations/",
+      "commitment": "8 min",
+      "note": "Et konkret kvante-fejlkorrektionsresultat, der ellers faldt uden for dagens nyhedsvindue, men fortjener at blive læst alligevel.",
+      "topics": [
+        "quantum",
+        "videnskab"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 92,
+    "freshness": 88,
+    "novelty": 82,
+    "perspectiveBalance": 78,
+    "render": 100
+  }
+}

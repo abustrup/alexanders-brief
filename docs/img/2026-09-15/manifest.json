@@ -1,0 +1,207 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-15",
+  "generatedAt": "2026-09-15T04:47:57.551Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-trump-rejects-ai-pacing-20260915",
+      "headline": "Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-05/260525-trump-rs-2d8d08.jpg",
+      "article": "https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700",
+      "hosted": "01-334f0408.jpg",
+      "srcSize": "1500x1000",
+      "srcFormat": "webp",
+      "srcBytes": 147132,
+      "out": "1333x1000",
+      "bytes": 70087,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.299,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:47:57.972Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-dk-gedser-frigate-flares-20260915",
+      "headline": "Forsvarets helikopter beskudt med flares fra russisk fregat",
+      "source": "https://www.forsvaret.dk/globalassets/fko---forsvaret/billeder/billeder-til-nyheder/artikel/2026/09-september/-20260914-fennec-rune-dyrholm-arkiv-2026-artikel.jpg",
+      "article": "https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat",
+      "hosted": "02-f2d5f0cb.jpg",
+      "srcSize": "1146x694",
+      "srcFormat": "jpeg",
+      "srcBytes": 124532,
+      "out": "1041x694",
+      "bytes": 34984,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-15T04:47:58.709Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-pro-human-assembly-20260915",
+      "headline": "Bernie Sanders and former Trump adviser to join AI event in Washington as tech concerns rise",
+      "source": "https://www.thenationalnews.com/resizer/v2/WQMSWOW3OKX7RCIIV3FEZQSNYI.jpg?auth=52195dabff1093f064c36da8a4854e5e42328e546eb757aa082dbe50dbd2fe66&smart=true&width=1200&height=630",
+      "article": "https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/",
+      "hosted": "04-fda1a01d.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 28238,
+      "out": "945x630",
+      "bytes": 43897,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.63,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:47:58.991Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-scotus-mail-voting-20260915",
+      "headline": "In blow to Trump, Supreme Court blocks mail ballot restrictions from taking effect in 2026",
+      "source": "https://www.votebeat.org/resizer/v2/5PFWXDFR45AV5KFWPJZVREPVZQ.jpg?smart=true&auth=a11f9483f557a73828fab7a73b232b2c74eb70827a44770f06dc15388b82c0b5&width=1200&height=630",
+      "article": "https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/",
+      "hosted": "06-072455c0.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 29755,
+      "out": "945x630",
+      "bytes": 62478,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:47:59.286Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-eu-sanctions-usmanov-20260915",
+      "headline": "France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan",
+      "source": "https://images.euronews.com/articles/stories/09/91/32/41/1200x675_cmsv2_f98bec57-de7d-52b3-b620-5f227aeb779b-9913241.jpg",
+      "article": "https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal",
+      "hosted": "07-60a0d2b8.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 29894,
+      "out": "1012x675",
+      "bytes": 54421,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.12,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:47:59.578Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-nato-lithuania-drone-20260915",
+      "headline": "NATO fighters shoot down drone over Lithuania after airspace incursion",
+      "source": "https://www.aerotime.aero/images/2026/09/Italian-Air-Force-Eurofighter-Typhoon-takes-off-from-Siauliai-Air-Base-during-a-NATO-Baltic-Air-Policing.jpg",
+      "article": "https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion",
+      "hosted": "08-c9a6a123.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 190713,
+      "out": "1600x1067",
+      "bytes": 107547,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.589,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:47:59.973Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-dk-elpriser-rekord-20260915",
+      "headline": "Prisen på el rammer højeste niveau i næsten to år",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/zavpydco/20220906-132245-l_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar",
+      "hosted": "09-5c872f96.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 123784,
+      "out": "1012x675",
+      "bytes": 42294,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.227,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-15T04:48:00.320Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-russia-drone-train-poland-20260915",
+      "headline": "Russian drone hits train two km from Polish border, rail operator says",
+      "source": "https://images.euronews.com/articles/stories/09/91/16/73/1200x675_cmsv2_188dced6-9f33-5b2e-8129-cbe57543e4c3-9911673.jpg",
+      "article": "https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says",
+      "hosted": "10-6d7c572d.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 22251,
+      "out": "1012x675",
+      "bytes": 38935,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.161,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:48:00.591Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-indonesia-ferry-capsize-20260915",
+      "headline": "Six dead, 129 missing as Indonesian ferry carrying more than 240 capsizes",
+      "source": "https://live-production.wcms.abc-cdn.net.au/1baca07905822941d5b2391fabba686e?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=261&width=1600&height=900&imformat=generic",
+      "article": "https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298",
+      "hosted": "11-e1d14a20.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 339467,
+      "out": "1350x900",
+      "bytes": 146281,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-15T04:48:01.057Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-amodei-pace-the-frontier-20260915",
+      "headline": "We Must Pace the Frontier",
+      "source": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e52eaed407e2469b9cab13568db623aa01877f64-640x800.jpg",
+      "article": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "hosted": "r01-890421cf.jpg",
+      "srcSize": "640x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 136451,
+      "out": "640x360",
+      "bytes": 30192,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-15T04:48:01.197Z"
+    }
+  ]
+}

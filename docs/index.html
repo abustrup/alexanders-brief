@@ -818,56 +818,37 @@ button { font: inherit; }
   text-underline-offset: 2px;
 }
 
-/* Editorial broadsheet: the lead article and the signals rail sit side by side
-   and wrap to one column on narrow viewports (intrinsic, no media query). */
+/* THE LEAD, ONE CARD ACROSS THE WHOLE WIDTH [2026-09-14]. It used to share the top
+   of the page with the "Morgenens signaler" rail, and Alexander moved the signals
+   down to just above Klummen and asked for the lead to be laid out like the
+   closing card of the story grid he liked that morning ("EU to propose law curbing
+   social media for children Thursday"): picture left, text right, filling the
+   width. The two columns are the story grid's two columns, so the lead's seam is
+   the seam every card below it hangs off. */
 .lead-layout {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--col-gap);
-  /* Not the default `stretch`. Stretching gave the signals rail the lead
-     article's full 1312px height, so a 592px rail was drawn as a box with 720px
-     of enclosed emptiness inside it, closed off by the section's own double
-     rule. The rail now ends where its last signal ends; app.js fills it to the
-     lead's height from content, which is the other half of the same fix. */
-  align-items: flex-start;
-  /* The 28px between the last signal and the double rule below is these two
-     lines, and it is the designed closing gap — not dead space. Worth writing
-     down, because the "83px of emptiness below Morgenens signaler" reported on
-     2026-09-06 is not below the rail at all: measured in real Chrome at 1440px
-     across the nine briefs 2026-08-29 to 09-06, the space under the rail was
-     exactly 28.0px on seven of them, and the 83px was the RAIL running that far
-     PAST the lead article — so the hole is on the LEFT, under the reaction row.
-     The 1-10 measure is not implicated either way: removing it from the live
-     page changes the lead column's height by 0.0px, because it shares its row
-     with the thumbs and both are 44px.
-     Two of those nine days invert it — 2026-09-03 left 108px under the rail,
-     09-04 left 285px — and no reshuffle of signals can close either.
-     balanceSignalRail has one lever, moving items DOWN, which only ever makes
-     the rail shorter, and on both days every signal already fitted inside the
-     lead's height. If that recurs, the levers are upstream (fewer signals when
-     the lead runs long, which is an editorial decision) or here (this rule
-     stopping short of both columns), never in the mover. */
   padding-bottom: 24px;
   border-bottom: 4px double var(--ink);
 }
-
-#lead-story { flex: 1 1 540px; min-width: 0; }
 
 .story {
   min-width: 0;
 }
 
-/* Lead is stacked internally: image on top, then the full article body. */
+/* Stacked below 900px (picture above text), and the weekly featured grid keeps its
+   own flex layout. */
 .story-lead { display: block; }
 
-/* Front-page hero image stays decisively landscape at every width, so a wide
-   source photo is never cropped into a tall portrait slice. */
-.story-lead .story-media {
-  aspect-ratio: 16 / 9;
+/* Below 900px the lead is stacked and its picture is drawn in exactly the 4:3 frame
+   host:images crops it to (src/editorial/slotFrame.ts, pinned by
+   test/editorial/slotFrame.test.ts). Side by side, from 900px, the frame is the
+   text's height instead: see the shared block under the story grid. */
+.lead-layout .story-lead .story-media {
+  aspect-ratio: 4 / 3;
   margin: 0 0 16px;
 }
 
 .expanded-news,
+.signals-section,
 .short-news-section {
   margin-top: 26px;
 }
@@ -884,7 +865,6 @@ button { font: inherit; }
    exactly the block its label names, and nothing on the page is optically
    centred against tracking any more. */
 .section-heading,
-.signals-title,
 .recommendation-shortlist-title {
   margin: 0;
   padding: 0 0 9px;
@@ -922,38 +902,159 @@ button { font: inherit; }
 @media (min-width: 900px) {
   .story-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 
-  /* An odd number of cards leaves the last row half empty, so the last card
-     takes the whole width instead and becomes the section's closing story:
-     picture left, text right, at the same 573px measure as every other card.
-     Holds for any story count — the brief targets 7-13, i.e. 6-12 cards — and
-     an even count matches nothing, so the grid is untouched. */
-  .story-grid > .story-card:last-child:nth-child(odd) {
-    grid-column: 1 / -1;
+  /* A wide card takes the whole row. Which cards are wide is decided in
+     render/storyGrid.js from which cards have a picture: an odd card at the end,
+     every card with no picture, and a card that would otherwise be left alone in
+     its row by one. Until 2026-09-14 this was one :nth-child(odd) rule for the
+     last card, which could not see pictures. */
+  .story-grid > .story-card.story-wide { grid-column: 1 / -1; }
+
+  /* THE LEAD AND EVERY WIDE PICTURE CARD: PICTURE LEFT, TEXT RIGHT, ENDING
+     TOGETHER [2026-09-15]. Until this date the picture kept its crop frame (4:3
+     lead, 3:2 card) and rode sticky beside the text. On 2026-09-14's shortened
+     stories (500-600 characters, the length from 2026-09-15) that left an empty
+     column under the picture of 326px (lead) and 104px (card) at 1440px, and
+     543px and 377px at 900px, measured in headless Chrome by
+     scripts/check-geometry.mjs. Shorter stories did not close it: the text column
+     carries the headline, the article AND the controls.
+     So the picture now fills its side. It is stretched to the height of the
+     text and cut to it with object-fit: cover, around the focal point host:images
+     stores with the file (image.focus, set as --focus by render/media.js). Its
+     frame is the floor: min-height holds it at the crop frame, so the page only
+     ever trims the SIDES of the hosted file, never its top or bottom, and what the
+     editor saw across the middle of the preview is always on the page.
+     The controls (Læs originalen, Gem, Dokumentation, the thumbs) sit in
+     .story-footer. On a wide card (1100px and up, the 1440px page) they stay under
+     the text and the picture runs the full height, the shape of the EU card
+     Alexander praised on 2026-09-14. On a narrower card they run across the whole
+     card under both columns: in a 406px column the text alone made the lead's
+     picture 0.48:1, a sliver, and without the controls it is 0.63:1. The rows are
+     named by class because the head has up to eight parts and the picture must
+     span exactly those. */
+  .lead-layout .story-lead,
+  .story-grid > .story-card.story-wide {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    /* eight head rows, one flexible row that takes up any slack, the footer */
+    grid-template-rows: repeat(8, auto) 1fr auto;
     column-gap: var(--col-gap);
-    align-content: start;
+    align-items: start;
+    container-type: inline-size;
   }
 
-  .story-grid > .story-card:last-child:nth-child(odd) > * { grid-column: 2; }
+  .lead-layout .story-lead > *,
+  .story-grid > .story-card.story-wide > * { grid-column: 2; }
+  .lead-layout .story-lead > .story-eyebrow,
+  .story-grid > .story-card.story-wide > .story-eyebrow { grid-row: 1; }
+  .lead-layout .story-lead > .story-byline,
+  .story-grid > .story-card.story-wide > .story-byline { grid-row: 2; }
+  .lead-layout .story-lead > .story-headline,
+  .story-grid > .story-card.story-wide > .story-headline { grid-row: 3; }
+  .lead-layout .story-lead > .story-subheadline,
+  .story-grid > .story-card.story-wide > .story-subheadline { grid-row: 4; }
+  .lead-layout .story-lead > .story-body,
+  .story-grid > .story-card.story-wide > .story-body { grid-row: 5; }
+  .lead-layout .story-lead > .editorial-continuation,
+  .story-grid > .story-card.story-wide > .editorial-continuation { grid-row: 6; }
+  .lead-layout .story-lead > .counterpoint-box,
+  .story-grid > .story-card.story-wide > .counterpoint-box { grid-row: 7; }
+  .lead-layout .story-lead > .primary-excerpt-box,
+  .story-grid > .story-card.story-wide > .primary-excerpt-box { grid-row: 8; }
+  .lead-layout .story-lead > .story-footer,
+  .story-grid > .story-card.story-wide > .story-footer { grid-row: 10; align-self: end; }
 
-  /* The picture spans every row the text makes, so the wide card cannot grow a
-     hole of its own under a fixed-ratio image. span 99 is "all of them": the
-     extra rows are implicit, empty and zero-height, and row-gap is 0. */
-  .story-grid > .story-card:last-child:nth-child(odd) > .story-media {
+  .lead-layout .story-lead > .story-media,
+  .story-grid > .story-card.story-wide > .story-media {
     grid-column: 1;
-    grid-row: 1 / span 99;
+    grid-row: 1 / -1;
     align-self: stretch;
     aspect-ratio: auto;
     margin: 0;
+    /* the crop frame as a floor: half the card less the gap, at 3:2 */
+    min-height: calc((100cqi - var(--col-gap)) / 2 * 2 / 3);
   }
+
+  .lead-layout .story-lead > .story-media {
+    min-height: calc((100cqi - var(--col-gap)) / 2 * 3 / 4);
+  }
+
+  @container (max-width: 1099px) {
+    .lead-layout .story-lead > .story-media,
+    .story-grid > .story-card.story-wide > .story-media { grid-row: 1 / 10; }
+    .lead-layout .story-lead > .story-footer,
+    .story-grid > .story-card.story-wide > .story-footer { grid-column: 1 / -1; }
+  }
+
+  /* The controls in reading order: the source button and Gem, then Dokumentation
+     and Fundet via on the same line when they fit, then the thumbs. The thumbs
+     keep their reserved ruler (flex-basis, as everywhere), so they share the
+     line only in a footer wide enough for all of it, the full-width footer of a
+     narrower card or of a text card, and wrap to a line of their own under the
+     text of a 573px column. */
+  .lead-layout .story-lead .story-footer,
+  .story-grid > .story-card.story-wide .story-footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 24px;
+    margin-top: 16px;
+    padding-top: 14px;
+    border-top: 1px solid var(--rule);
+  }
+  .lead-layout .story-lead .story-footer > .story-actions,
+  .lead-layout .story-lead .story-footer > .story-sources,
+  .lead-layout .story-lead .story-footer > .story-discovery,
+  .story-grid > .story-card.story-wide .story-footer > .story-actions,
+  .story-grid > .story-card.story-wide .story-footer > .story-sources,
+  .story-grid > .story-card.story-wide .story-footer > .story-discovery { margin: 0; }
+  .lead-layout .story-lead .story-footer > .feedback-panel,
+  .story-grid > .story-card.story-wide .story-footer > .feedback-panel { flex: 1 1 420px; margin: 0; padding-top: 0; }
 
   /* With the picture hidden the split would leave an empty left column, so the
      text takes the full width and leans on the measure cap on .story-body. */
-  :root[data-images="off"] .story-grid > .story-card:last-child:nth-child(odd) > * {
+  :root[data-images="off"] .lead-layout .story-lead > *,
+  :root[data-images="off"] .story-grid > .story-card.story-wide > * {
     grid-column: 1 / -1;
   }
+
+  /* NO PICTURE, NO EMPTY COLUMN [2026-09-14]. A wide card with no picture has no
+     figure at all (render/media.js), so its text is set across both columns: the
+     headline block across the top, the article in two newspaper columns under it,
+     and the controls across the full width at the bottom.
+     WHY THE CONTROLS SPAN [2026-09-15]. Until this date the buttons, the sources
+     and the thumbs were in the columns too, and a box that cannot split across a
+     column made the two columns end 76-105px apart on 2026-09-14's shortened
+     stories at 1440px (headless Chrome). Now only text is balanced, and text can
+     break between lines, so the columns end within a line of each other. */
+  .lead-layout .story-lead.story-text-only,
+  .story-grid > .story-card.story-wide.story-text-only {
+    display: block;
+    columns: 2;
+    column-gap: var(--col-gap);
+  }
+
+  .story-text-only > .story-eyebrow,
+  .story-text-only > .story-byline,
+  .story-text-only > .story-headline,
+  .story-text-only > .story-subheadline,
+  .story-text-only > .story-footer {
+    column-span: all;
+  }
+
+  .story-text-only > .counterpoint-box,
+  .story-text-only > .primary-excerpt-box { break-inside: avoid; }
+  /* One line may stand alone at a column's top or foot. With the default two, Chrome could not
+     balance 2026-09-14's shortened Swedish-election card closer than 39px at 1440px; with one it
+     balances to 26px, a single line (scripts/check-geometry.mjs). */
+  .story-text-only > .story-body > p,
+  .story-text-only > .editorial-continuation > p { orphans: 1; widows: 1; }
+  .story-text-only > .story-body > p:first-child { margin-top: 0; }
 }
+
+/* Everywhere else the footer is not a box at all: its controls lay out exactly as
+   they did as direct children of the article (the Magasin reading column, a card
+   in the two-up grid, every width under 900px). */
+.story-footer { display: contents; }
 
 .story-card {
   display: flex;
@@ -983,6 +1084,7 @@ button { font: inherit; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: var(--focus, 50% 50%);
   filter: var(--media-filter);
   transition: transform 180ms ease;
 }
@@ -994,24 +1096,6 @@ button { font: inherit; }
    is invisible, so a keyboard reader could not tell the picture link was
    focused. What makes it visible is the shared ring near the top of this file;
    the nudge stays as the flourish. */
-
-.media-fallback {
-  display: grid;
-  place-items: end start;
-  padding: 18px;
-  background:
-    linear-gradient(135deg, color-mix(in srgb, var(--teal) 16%, transparent), transparent 55%),
-    var(--surface);
-}
-
-.media-fallback-label {
-  max-width: 90%;
-  color: var(--ink);
-  font-family: var(--font-display);
-  font-size: 1.6rem;
-  font-weight: 700;
-  line-height: 1;
-}
 
 .image-credit {
   position: absolute;
@@ -1476,7 +1560,7 @@ button { font: inherit; }
 /* The mark cancels the graduation it lands on. */
 .rating-step[aria-checked="true"]::after { background: transparent; }
 
-/* The mark: one 3px ink bar — the weight .signals-title already uses for a
+/* The mark: one 3px ink bar — the weight .section-heading already uses for a
    section rule — that travels along the line to the figure you chose, so a
    changed mind is one movement instead of a collapse and a redraw. The transform
    IS its position, which is why the reduced-motion block below must not null it. */
@@ -1590,20 +1674,6 @@ button { font: inherit; }
   .rating-step:active { transform: none; }
 }
 
-.lead-signals {
-  flex: 1 1 290px;
-  min-width: 0;
-}
-
-/* When the rail wraps under the lead it grows a separating rule on top. */
-@media (max-width: 860px) {
-  .lead-signals {
-    margin-top: 19px;
-    padding-top: 19px;
-    border-top: 1px solid var(--ink);
-  }
-}
-
 .signal-item {
   min-width: 0;
   padding: 13px 0 14px;
@@ -1637,7 +1707,39 @@ button { font: inherit; }
   line-height: 1.4;
 }
 
-/* "Kort fortalt": three items to a row on desktop, two at tablet, one below.
+/* THE SIGNAL'S RATING, since 2026-09-14. The story's own control, thumbs and
+   ruler, every size and colour unchanged — the 44px touch floor and the 3:1 edge
+   are accessibility, not decoration, so they are not what gets cut. What changes
+   is only where it sits, because nine to thirteen of them share one section:
+
+   - ONE ROW, never two. A story card lets the ruler wrap under the thumbs when
+     it is narrow, and holds that second line invisibly at rest so the press moves
+     nothing. Under a signal that reserve was a 54px empty band in every item
+     (Chrome, 2026-09-14, 376px card), the part of the section that read as a wall.
+     nowrap keeps the ruler beside the thumbs at every width; it shrinks instead,
+     and a phone reader corrects a narrow cell with the finger scrub.
+   - PINNED TO THE ITEM'S FOOT, so the controls in one grid row stand on one line
+     instead of stepping with each summary's length.
+   - a smaller glyph inside the same 44px circle, which is where "quiet at rest"
+     can be bought without shrinking anything a finger or an eye needs. */
+.signal-item {
+  display: flex;
+  flex-direction: column;
+}
+.signal-item .feedback-panel {
+  margin-top: auto;
+  padding-top: 10px;
+}
+.signal-item .feedback-controls { flex-wrap: nowrap; }
+.signal-item .rating-scale { flex: 1 1 0; }
+.signal-item .feedback-button svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* "Morgenens signaler" (and the period pages' "Kort fra ugen/måneden/året"; the
+   daily grid was called "Kort fortalt" until 2026-09-14): three items to a row on
+   desktop, two at tablet, one below.
    Laid on six tracks rather than three so the last row can always be filled —
    with three tracks, five signals left a 376x149px empty third cell, the same
    defect as the story grid one section up [measured 2026-09-05]. Six tracks of
@@ -1734,8 +1836,8 @@ button { font: inherit; }
 }
 
 /* The recommendations top mirrors the front page's lead layout: the featured
-   pick reads like the lead story and the shortlist sits in a rail beside it,
-   exactly as "Morgenens signaler" does. Before this the featured card ran the
+   pick reads like the lead story and the shortlist sits in a rail beside it, as
+   "Morgenens signaler" did beside the lead until 2026-09-14. Before this the featured card ran the
    full section width, so its 3:2 image was the largest picture on the page and
    dwarfed the news it followed. Scoped to .recs-layout so Magasin and Feed,
    which build their own recommendation DOM, keep the standalone block. */
@@ -1763,8 +1865,7 @@ button { font: inherit; }
   border-top: 0;
 }
 
-/* When the rail wraps under the featured pick it grows a separating rule,
-   matching .lead-signals at the same breakpoint. */
+/* When the rail wraps under the featured pick it grows a separating rule. */
 @media (max-width: 860px) {
   .recs-layout > .recommendation-shortlist {
     margin-top: 19px;
@@ -2519,12 +2620,28 @@ button { font: inherit; }
   position: absolute;
   inset: 0;
   background-size: cover;
-  background-position: center;
+  background-position: var(--focus, center);
 }
 .mag-hero-scrim {
   position: absolute;
   inset: 0;
   background: linear-gradient(to top, rgba(12, 9, 6, 0.94) 2%, rgba(12, 9, 6, 0.55) 42%, rgba(12, 9, 6, 0.12) 100%);
+}
+/* FROM 900PX THE PICTURE TAKES THE RIGHT 60% AND THE HEADLINE THE DARK LEFT [2026-09-15]. Full
+   bleed, the hero's headline (16ch at up to 5.6rem, about 650px from the left edge) sat across the
+   middle of a 1440x729 picture, and on the 2026-09-14 replay that was Dario Amodei's face: a
+   single portrait's subject stands in the middle, exactly where the headline was. With the picture
+   in a right-hand panel the middle of the picture is at 70% of the width, clear of the headline,
+   and inside the panel the picture is placed by its stored focus. The scrim fades the panel's left
+   edge into the ink ground so the headline's last letters still stand on dark.
+   scripts/check-geometry.mjs measures the focus point against the headline in headless Chrome. */
+@media (min-width: 900px) {
+  .mag-hero-media { left: 40%; }
+  .mag-hero-scrim {
+    background:
+      linear-gradient(to right, var(--ink) 40%, rgba(12, 9, 6, 0.6) 52%, rgba(12, 9, 6, 0) 72%),
+      linear-gradient(to top, rgba(12, 9, 6, 0.7) 0%, rgba(12, 9, 6, 0) 45%);
+  }
 }
 .mag-hero-credit { right: 10px; bottom: 8px; }
 .mag-hero-inner {
@@ -2573,6 +2690,19 @@ button { font: inherit; }
   color: rgba(255, 255, 255, 0.92);
 }
 
+@media (min-width: 900px) and (max-width: 1199px) {
+  /* Narrower, the headline's 16ch at 7vw still reached 533px of a 900px hero and crossed the
+     picture's middle (scripts/check-geometry.mjs, 2026-09-15): the picture takes the right 54%
+     and the headline is held to the left 44% at a size that fits it. */
+  .mag-hero-media { left: 46%; }
+  .mag-hero-scrim {
+    background:
+      linear-gradient(to right, var(--ink) 46%, rgba(12, 9, 6, 0.6) 56%, rgba(12, 9, 6, 0) 72%),
+      linear-gradient(to top, rgba(12, 9, 6, 0.7) 0%, rgba(12, 9, 6, 0) 45%);
+  }
+  .mag-hero-headline { max-width: 44vw; font-size: clamp(2.4rem, 5vw, 3.6rem); }
+  .mag-hero-sub { max-width: 44vw; }
+}
 .mag-reading {
   width: min(720px, calc(100% - 2 * var(--gutter)));
   margin: clamp(28px, 4vw, 48px) auto 0;
@@ -2596,10 +2726,8 @@ button { font: inherit; }
 }
 
 .mag-stories,
-.mag-shortnews,
 .mag-recs { margin-top: clamp(36px, 5vw, 64px); }
 .mag-stories .section-heading,
-.mag-shortnews .section-heading,
 .mag-recs .section-heading {
   font-family: var(--font-display);
   font-size: clamp(2rem, 4vw, 3rem);
@@ -2735,9 +2863,13 @@ button { font: inherit; }
   box-shadow: 0 1px 2px rgba(20, 23, 28, 0.05), 0 6px 18px rgba(20, 23, 28, 0.05);
   overflow: hidden;
 }
-.feed-card-media { position: relative; aspect-ratio: 16 / 9; background: #dfe3e8; overflow: hidden; }
-.feed-hero .feed-card-media { aspect-ratio: 16 / 10; }
-.feed-card-media img { display: block; width: 100%; height: 100%; object-fit: cover; }
+/* Feed draws the hosted frame [2026-09-15]: 4:3 for the lead, 3:2 for every other story, the
+   frames host:images cut the files to (src/editorial/slotFrame.ts). Until this date the hero was
+   16:10 and the cards 16:9, so Feed cut a second strip off the top and bottom of every picture the
+   editor had judged whole. */
+.feed-card-media { position: relative; aspect-ratio: 3 / 2; background: #dfe3e8; overflow: hidden; }
+.feed-hero .feed-card-media { aspect-ratio: 4 / 3; }
+.feed-card-media img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: var(--focus, 50% 50%); }
 .feed-badge {
   position: absolute;
   left: 12px;
@@ -2967,19 +3099,22 @@ button { font: inherit; }
     <div id="audio-controls" class="audio-controls" aria-label="Lydoplæsning" hidden></div>
   </header>
   <main class="page-shell" id="main">
-    <section class="lead-layout" aria-label="Tophistorie og vigtigste signaler">
+    <!-- The page order, set by Alexander on 2026-09-14: the lead alone across the full
+         width, then the stories, the key number, "Morgenens signaler" and Klummen.
+         The signals used to sit in a rail beside the lead, and he moved them down:
+         "det giver ikke mening at de mindst vigtige er øverst". -->
+    <section class="lead-layout" id="lead-section" aria-label="Tophistorie">
       <div id="lead-story"></div>
-      <aside id="lead-signals" class="lead-signals" aria-label="Morgenens signaler"></aside>
     </section>
     <section class="expanded-news" aria-labelledby="story-grid-heading">
       <h2 id="story-grid-heading" class="section-heading">Dagens vigtigste historier</h2>
       <div id="story-grid" class="story-grid"></div>
     </section>
-    <section id="short-news-section" class="short-news-section" aria-labelledby="short-news-heading">
-      <h2 id="short-news-heading" class="section-heading">Kort fortalt</h2>
-      <div id="short-news" class="short-news"></div>
-    </section>
     <div id="key-number-slot" class="key-number-slot" hidden></div>
+    <section id="signals-section" class="signals-section" aria-labelledby="signals-heading" hidden>
+      <h2 id="signals-heading" class="section-heading">Morgenens signaler</h2>
+      <div id="signals" class="short-news"></div>
+    </section>
     <div id="klumme-slot" class="klumme-slot" hidden></div>
     <section id="recommendations-section" class="recommendations-section" aria-labelledby="recommendations-heading" hidden>
       <header class="recommendations-header">
@@ -2999,7 +3134,7 @@ button { font: inherit; }
     <p>Fakta, fortolkning og kilder er samlet i et læsbart flow.</p>
   </footer>
   <p id="feedback-status" class="sr-status" aria-live="polite"></p>
-  <script>globalThis.__BRIEF_DATA__ = {"schemaVersion":1,"kind":"daily","runId":"run-2026-09-14-r148","date":"2026-09-14","generatedAt":"2026-09-14T05:30:00.000Z","readingMinutes":10,"title":"Alexanders Brief","dek":"AI-laboratoriernes topchefer beder samstemmigt om at bremse sig selv, mens Kina afviser det som frygtskabende — plus et svensk valg på en håndfuld mandater og en dansk Guldløve i Venedig.","profileWeights":{"importance":25,"decisionValue":20,"novelty":15,"sourceQuality":15,"personalRelevance":15,"contrast":10},"stories":[{"id":"story-ai-pacing-proposal-20260914","eventKey":"ai-pacing-proposal-2026-09","materialFacts":["Amodei's essay 'We Must Pace the Frontier' proposes independent evaluators with employee-like access, common safety standards among democracies, and eventual international limits on capabilities like recursive self-improvement.","Altman committed OpenAI to the same evaluator access; Musk publicly endorsed the proposal.","Cohere's Aidan Gomez called the coalition 'cartel' behaviour."],"section":"AI og magt","headline":"Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development","primarySourceUrl":"https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/","subheadline":"Anthropics topchef foreslår uafhængige evaluatorer og grænser for AI's udvikling – og får opbakning fra to konkurrenter","body":["Anthropics topchef Dario Amodei foreslår i essayet 'We Must Pace the Frontier', at laboratorierne bevidst sænker tempoet i nye kapabiliteter: uafhængige evaluatorer med medarbejderadgang, fælles sikkerhedsstandarder mellem demokratier og på sigt grænser for evner som rekursiv selvforbedring.","Sam Altman lover samme evaluator-adgang hos OpenAI. Elon Musk skrev kort: 'Dario har ret'. Det er sjældent, at konkurrerende topchefer offentligt lægger sig fast på at bremse sig selv."],"whyItMatters":"Det ændrer, hvem der får indsyn i de mest avancerede modeller, og hvor hurtigt næste generation når markedet – med betydning for kapløbet mod Kina, der samme dag afviste opbremsningen som 'frygtskabende'.","analysis":"Timingen er ikke tilfældig: alle tre forbereder store kapitalrejsninger eller børsnoteringer, hvor offentlig sikkerhedsomtale kan være lige så værdifuld som selve bremsen.","counterpoint":"Cohere-direktør Aidan Gomez kalder det 'kartel-adfærd': når dominerende laboratorier selv skriver reglerne, cementerer de deres markedsposition, mens mindre spillere som hans eget holdes udenfor.","topics":["ai","ai-sikkerhed","magt"],"entities":["Dario Amodei","Sam Altman","Elon Musk","Anthropic","OpenAI","Aidan Gomez","Cohere"],"isLead":true,"isOutsideProfile":false,"scores":{"importance":92,"decisionValue":85,"novelty":80,"sourceQuality":85,"personalRelevance":90,"contrast":60},"claims":[{"text":"Amodei's essay proposes independent evaluators with employee-like access, common democratic safety standards, and eventual international limits on capabilities including recursive self-improvement.","sourceUrls":["https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/"],"confidence":"high"},{"text":"Altman committed OpenAI to matching evaluator access; Musk endorsed the proposal ('Dario is right').","sourceUrls":["https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html"],"confidence":"high"},{"text":"Cohere CEO Aidan Gomez called the pacing coalition 'cartel' behaviour that risks entrenching dominant labs' market position.","sourceUrls":["https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/"],"confidence":"high"}],"sources":[{"title":"Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development","publisher":"SiliconANGLE","url":"https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/","publishedAt":"2026-09-13T21:37:00.000Z","kind":"reporting"},{"title":"Anthropic's Amodei proposes plan to slow the pace of advancing AI capabilities","publisher":"CNBC","url":"https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html","publishedAt":"2026-09-12T12:00:00.000Z","kind":"reporting"},{"title":"AI firms' co-ordinated slowdown amounts to 'cartel' behaviour, Cohere CEO says","publisher":"The Globe and Mail","url":"https://www.theglobeandmail.com/business/technology/article-cohere-ceo-aidan-gomez-criticizes-calls-for-ai-slowdown/","publishedAt":"2026-09-14T06:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/01-941b091f.jpg","credit":"Kilde: SiliconANGLE","alt":"Sam Altman and Elon Musk back Dario Amodei's call to slow down the frontier of AI development","sourceUrl":"https://siliconangle.com/2026/09/13/sam-altman-and-elon-musk-back-dario-amodeis-call-to-slow-down-the-frontier-of-ai-development/","origin":"article","fingerprint":"916d0d3333321e5e224d0d33737b1b1e6a4e0f71737b2b1fcf5f0e7171d9332bd78e8ff9f1d9396d970f8df9f99878d2","lookedAt":"916d0d3333321e5e224d0d33737b1b1e6a4e0f71737b2b1fcf5f0e7171d9332bd78e8ff9f1d9396d970f8df9f99878d2","originalUrl":"https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-14-08-37-28.png"}},{"id":"story-anthropic-rum-group-20260914","eventKey":"anthropic-rum-group-compute-deal-2026-09","materialFacts":["Anthropic signed a six-year, $13.7bn compute lease with Rum Group (Rumble Inc), drawing capacity from its Maysville, Georgia data centre.","The deal includes options for Anthropic to buy up to 51 million Rum Group shares at $0.01 each.","Rum Group hosts Trump's Truth Social and was early-backed by Peter Thiel and JD Vance."],"section":"AI og finans","headline":"Anthropic Revealed as Customer in Rumble's (RUM) Massive $13.7B AI Infrastructure Agreement","primarySourceUrl":"https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/","subheadline":"Seksårig computeraftale binder Anthropics fremtidige regnekraft til et Trump-nært selskab","body":["Anthropic har indgået en seksårig computeraftale til 13,7 mia. dollar med Rum Group, selskabet bag Rumble, der hoster Trumps Truth Social og tidligt blev støttet af Peter Thiel og JD Vance. Kapaciteten hentes fra et datacenter under opførelse i Maysville, Georgia, bygget på ca. 22.000 Nvidia-GPU'er fra opkøbet af Northern Data i juni.","Aftalen giver Anthropic ret til at købe op til 51 mio. Rum Group-aktier for én cent stykket og bringer selskabets samlede sikrede regnekraft op over 14,8 gigawatt."],"whyItMatters":"Anthropic bygger sin identitet på sikkerhedsansvar, men binder nu regnekraften til et selskab med tætte politiske bånd til Det Hvide Hus – samme uge topchefen selv beder om internationale AI-grænser.","analysis":"De billige aktieoptioner viser, at compute-aftaler i 2026 er lige så meget politisk kapital som teknisk infrastruktur.","topics":["ai","finans","magt"],"entities":["Anthropic","Rumble","Rum Group","Peter Thiel","JD Vance"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":75,"decisionValue":70,"novelty":85,"sourceQuality":70,"personalRelevance":80,"contrast":80},"claims":[{"text":"Anthropic signed a six-year, $13.7bn compute lease with Rum Group, drawing capacity from its Maysville, Georgia data centre built on ~22,000 Nvidia H100/H200 GPUs from the Northern Data acquisition.","sourceUrls":["https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/"],"confidence":"high"},{"text":"The deal includes options for Anthropic to buy up to 51 million Rum Group shares at $0.01 each; Rum Group hosts Trump's Truth Social and was early-backed by Thiel and Vance.","sourceUrls":["https://www.newsbytesapp.com/news/business/anthropic-signs-13-7b-ai-compute-deal-with-rum-group/story"],"confidence":"medium"}],"sources":[{"title":"Anthropic Revealed as Customer in Rumble's (RUM) Massive $13.7B AI Infrastructure Agreement","publisher":"Parameter","url":"https://parameter.io/anthropic-revealed-as-customer-in-rumbles-rum-massive-13-7b-ai-infrastructure-agreement/","publishedAt":"2026-09-14T05:00:00.000Z","kind":"reporting"},{"title":"Anthropic signs $13.7B AI compute deal with RUM Group","publisher":"NewsBytes","url":"https://www.newsbytesapp.com/news/business/anthropic-signs-13-7b-ai-compute-deal-with-rum-group/story","publishedAt":"2026-09-14T04:00:00.000Z","kind":"reporting"}]},{"id":"story-naza-documentary-venice-20260914","eventKey":"naza-documentary-venice-2026","materialFacts":["'NAZA' won Venice's Special Jury Prize after a 25-minute standing ovation.","The film is built on interviews with 24 anonymised Israeli soldiers and intelligence personnel describing AI-assisted target selection and strike approval.","Israel's culture minister called for revoking the filmmakers' citizenship; the IDF categorically denies the allegations."],"section":"AI og krig","headline":"Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize","primarySourceUrl":"https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/","subheadline":"Dokumentaren 'Naza' bygger på 24 anonyme kilders vidnesbyrd om AI-understøttet måludvælgelse i Gaza","body":["Dokumentaren 'Naza' af Yuval Abraham og Rachel Szor vandt Venedigs specialpris efter 25 minutters stående applaus ved premieren. Filmen bygger på tre års interviews med 24 anonymiserede israelske soldater og efterretningsfolk, der beskriver AI-understøttet måludvælgelse og angrebsgodkendelse, som de siger bevidst kostede civile livet i Gaza.","Israels kulturminister vil have filmskabernes statsborgerskab inddraget for 'landsforræderi'."],"whyItMatters":"Sagen sætter et konkret, omstridt eksempel på, hvad 'AI-understøttet krigsførelse' kan betyde i praksis – langt fra laboratoriernes egne beskrivelser, samme uge Amodei beder om internationale sikkerhedsgrænser.","analysis":"Uanset hvor sandheden ligger, viser reaktionen, at AI i krig er blevet politisk sprængstof i sig selv, ikke kun en teknisk detalje.","counterpoint":"Hæren afviser kategorisk påstandene: anonyme kilders identitet kan ikke efterprøves.","topics":["ai","kultur","mellemosten"],"entities":["Yuval Abraham","Rachel Szor","Venedig Filmfestival","IDF"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":70,"decisionValue":40,"novelty":80,"sourceQuality":75,"personalRelevance":55,"contrast":90},"claims":[{"text":"'NAZA', directed by Yuval Abraham and Rachel Szor, won Venice's Special Jury Prize after a 25-minute standing ovation at its premiere.","sourceUrls":["https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/"],"confidence":"high"},{"text":"The film is built on interviews with 24 anonymised Israeli soldiers and intelligence personnel alleging knowingly-approved civilian-casualty strikes; the IDF categorically rejects this and says anonymous testimony cannot be verified.","sourceUrls":["https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/"],"confidence":"medium"}],"sources":[{"title":"Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize","publisher":"The Times of Israel","url":"https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"},{"title":"Naza wins Venice special jury prize as Kaouther Ben Hania praises Gaza documentary","publisher":"The National","url":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/naza-wins-venice-special-jury-prize-as-kaouther-ben-hania-praises-gaza-documentary/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/03-652fa844.jpg","credit":"Foto: AFP / The Times of Israel","alt":"Israelis' film alleging AI-assisted killing of Gaza civilians wins Venice jury prize","sourceUrl":"https://www.timesofisrael.com/israeli-film-alleging-ai-assisted-killing-of-gaza-civilians-wins-venice-jury-prize/","origin":"article","fingerprint":"0101c1c10d0f8f0d0101c1d88d0e060d010190988c16060e000090980c160606000010980e160f47001018180e273b8b","lookedAt":"0101c1c10d0f8f0d0101c1d88d0e060d010190988c16060e000090980c160606000010980e160f47001018180e273b8b","originalUrl":"https://static-cdn.toi-media.com/www/uploads/2026/09/AFP__20260912__C86A8D9__v2__HighRes__776552037.jpg"}},{"id":"story-xi-brics-opensource-20260914","eventKey":"xi-brics-opensource-ai-2026-09","materialFacts":["Xi proposed China lead a BRICS 'open-source AI zone', offering DeepSeek- and Qwen-based tools to member states free of charge.","The proposal includes specialised AI research and training for BRICS countries and a call for a consensus-based global governance framework."],"section":"AI og geopolitik","headline":"China's Xi Jinping proposes BRICS 'open-source AI zone'","primarySourceUrl":"https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone","subheadline":"Kina tilbyder gratis AI-værktøjer til BRICS-lande, mens amerikanske laboratorier taler om at bremse sig selv","body":["Ved BRICS-topmødet i New Delhi foreslog Xi Jinping, at Kina går forrest i at oprette en åben-kilde-zone for AI blandt medlemslandene, med gratis adgang til værktøjer baseret på DeepSeek og Qwen til det globale syden.","Planen omfatter AI-forskning og -træning for BRICS-lande samt et forslag om en konsensusbaseret global styringsramme for AI."],"whyItMatters":"Det er et direkte modtræk til de amerikanske laboratoriers lukkede modeller og et forsøg på at gøre Kina til den foretrukne AI-partner uden for USA's og Europas indflydelsessfære.","analysis":"Mens amerikanske topchefer samme dag taler om at bremse sig selv, tilbyder Kina gratis adgang til alternativet – begge historier trækker mod et Kina, der vinder terræn på åbenhed, mens Vesten diskuterer forsigtighed.","topics":["ai","geopolitik","kina"],"entities":["Xi Jinping","BRICS","Kina"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":68,"decisionValue":55,"novelty":70,"sourceQuality":75,"personalRelevance":65,"contrast":55},"claims":[{"text":"Xi proposed China lead an 'open-source AI zone' for BRICS, offering DeepSeek- and Qwen-based tools free of charge, plus specialised research/training and a call for consensus-based global AI governance.","sourceUrls":["https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone"],"confidence":"high"}],"sources":[{"title":"China's Xi Jinping proposes BRICS 'open-source AI zone'","publisher":"Euronews","url":"https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone","publishedAt":"2026-09-14T00:00:00.000Z","kind":"reporting"},{"title":"China's Xi proposes BRICS 'open-source AI zone'","publisher":"Manila Times","url":"https://www.manilatimes.net/2026/09/13/world/chinas-xi-proposes-brics-open-source-ai-zone/2423945","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/04-6e66ecfa.jpg","credit":"Kilde: Euronews","alt":"China's Xi Jinping proposes BRICS 'open-source AI zone'","sourceUrl":"https://www.euronews.com/next/2026/09/14/chinas-xi-jinping-proposes-brics-open-source-ai-zone","origin":"article","fingerprint":"1e269692e767cf2e06661692e7c7cd0f2666123363c6c70d4762133363c6c78d83f73131cb838687a5b23075a58bc346","lookedAt":"1e269692e767cf2e06661692e7c7cd0f2666123363c6c70d4762133363c6c78d83f73131cb838687a5b23075a58bc346","originalUrl":"https://images.euronews.com/articles/stories/09/91/19/81/1200x675_cmsv2_6292e32a-a69a-560a-b53c-7832c4f3e978-9911981.jpg"}},{"id":"story-sweden-election-20260914","eventKey":"sweden-election-2026","materialFacts":["Social Democrats scored 28.4% - their worst result in over a century - but remained the largest party.","Projected seat split with ~90% confidence: 175 (S+V+MP+C) vs 174 (M+SD+KD+L) of 349 seats.","Final results expected within a week due to automatic recounting."],"section":"Politik","headline":"Sweden's centre-left holds razor-thin edge as exit polls show tight race","primarySourceUrl":"https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show","subheadline":"Socialdemokraternes svageste resultat i over hundrede år er alligevel nok til at føre an i et næsten dødt løb","body":["Ved det svenske valg 13. september fik Socialdemokraterne 28,4 pct. – partiets svageste resultat i over hundrede år, men stadig størst. Med ca. 90 pct. sikkerhed tegner mandattallet sig som 175 til S, V, MP og C mod 174 til M, SD, KD og L af Rigsdagens 349 pladser.","Magdalena Andersson sagde natten til mandag: 'Vi fører lige nu. Og hvis det bekræftes, får Sverige en ny regering.' Kristersson har endnu ikke erkendt nederlag, og de endelige tal ventes først om en uge."],"whyItMatters":"Et så tæt valg hos nabolandet betyder ugevis af regeringsforhandlinger og en regering uden klart mandat, uanset udfaldet – med betydning for nordisk forsvars- og teknologisamarbejde.","analysis":"Sverigedemokraternes tilbagegang fra 20,5 til 17,6 pct. er den historie, valgnatten ellers ville have handlet om.","topics":["politik","europa","sverige"],"entities":["Magdalena Andersson","Ulf Kristersson","Socialdemokraterna","Sverigedemokraterna"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":82,"decisionValue":65,"novelty":85,"sourceQuality":80,"personalRelevance":25,"contrast":30},"claims":[{"text":"SVT exit polling put the Social Democrats at 28.4%, their worst result in over a century, still the largest party; projected seat split ~90% confidence 175 vs 174 of 349.","sourceUrls":["https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show"],"confidence":"medium"}],"sources":[{"title":"Sweden's centre-left holds razor-thin edge as exit polls show tight race","publisher":"France 24","url":"https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show","publishedAt":"2026-09-13T22:00:00.000Z","kind":"reporting"},{"title":"Valresultat 2026","publisher":"SVT Nyheter","url":"https://valresultat.svt.se/2026/","publishedAt":"2026-09-14T03:00:00.000Z","kind":"primary"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/05-18de7c42.jpg","credit":"Foto: Reuters / France 24","alt":"Sweden's centre-left holds razor-thin edge as exit polls show tight race","sourceUrl":"https://www.france24.com/en/europe/20260913-sweden-s-centre-left-opposition-leads-election-as-far-right-slips-exit-polls-show","origin":"article","fingerprint":"8d243362666e74e2cd2e33e34f4e64f2852a2babcfcf66f46f792babcacfc6a66d694b69ca9bcf67e4694969cb9987cb","lookedAt":"8d243362666e74e2cd2e33e34f4e64f2852a2babcfcf66f46f792babcacfc6a66d694b69ca9bcf67e4694969cb9987cb","originalUrl":"https://s.france24.com/media/display/b6a890ec-af9e-11f1-80aa-005056bfb2b6/w:1280/p:16x9/2026-09-13T175249Z-1939019679-RC2HINAXGOPT-RTRMADP-3-SWEDEN-ELECTION.jpg"}},{"id":"story-venice-golden-lion-20260914","eventKey":"venice-golden-lion-kvinde-ukendt-2026","materialFacts":["'Kvinde ukendt' (Woman Unknown), directed by May el-Toukhy, won the Golden Lion.","Mathilde Arcel won the Volpi Cup for Best Actress.","El-Toukhy is the eighth woman ever to win the top prize solo."],"section":"Kultur","headline":"Danish-Egyptian director May el-Toukhy wins Venice Golden Lion for Woman Unknown","primarySourceUrl":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/","subheadline":"'Kvinde ukendt' vinder Venedigs hovedpris, og Mathilde Arcel vinder bedste skuespillerinde","body":["Den dansk-egyptiske instruktør May el-Toukhys 'Kvinde ukendt' vandt Guldløven ved den 83. Venedig-filmfestival. Filmen følger en tjenestepige, der skjuler et forhold til en tysk soldat i det besatte Danmark.","Mathilde Arcel vandt samtidig Volpi-prisen for bedste skuespillerinde. El-Toukhy er den ottende kvinde nogensinde til alene at vinde hovedprisen, og eneste kvindelige soloinstruktør i årets hovedkonkurrence."],"whyItMatters":"Det er en af de største internationale anerkendelser, dansk film har fået i nyere tid, fra en instruktør der allerede har markeret sig internationalt.","analysis":"Historien om besættelsestidens gråzoner mellem overlevelse og samarbejde rammer stadig en nerve, over firs år efter.","topics":["kultur","film","danmark"],"entities":["May el-Toukhy","Mathilde Arcel","Venedig Filmfestival"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":55,"decisionValue":30,"novelty":80,"sourceQuality":75,"personalRelevance":15,"contrast":85},"claims":[{"text":"'Kvinde ukendt', directed by May el-Toukhy, won the Golden Lion at the 83rd Venice Film Festival; Mathilde Arcel won the Volpi Cup for Best Actress.","sourceUrls":["https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/"],"confidence":"high"}],"sources":[{"title":"Danish-Egyptian director May el-Toukhy wins Venice Golden Lion for Woman Unknown","publisher":"The National","url":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/06-da5ccf0d.jpg","credit":"Kilde: The National","alt":"Filmmaker May el-Toukhy says 'the urgent need to illuminate the unknown women of our common history' inspired her film. Reuters","sourceUrl":"https://www.thenationalnews.com/arts-culture/film-tv/2026/09/13/danish-egyptian-director-may-el-toukhy-wins-venice-golden-lion-for-woman-unknown/","origin":"article","fingerprint":"0b478606160363634bc607179783a1e34ed30717938321e353930793131260619317b71313134268b226323333911148","lookedAt":"0b478606160363634bc607179783a1e34ed30717938321e353930793131260619317b71313134268b226323333911148","originalUrl":"https://www.thenationalnews.com/resizer/v2/UKTWYPBLZKFEFCPDQE5GPON7MA.jpg?auth=e85d0b01684ac51842c839b56a199fb44488bc27adc4fdbf31483b2c4a0f9642&focal=2302%2C714&width=1200&height=630"}},{"id":"story-novo-nordisk-rebrand-20260914","eventKey":"novo-nordisk-rebrand-2026-09","materialFacts":["Novo Nordisk rebrands its day-to-day name to 'Novo' under new CEO Mike Doustdar.","Ahead of a 21 September capital markets day in London.","Stock fell, compounded by a Morgan Stanley downgrade."],"section":"Erhverv","headline":"Novo Nordisk enters next chapter to bring better health to more people, supported by 'Novo' rebrand and updated corporate culture","primarySourceUrl":"https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html","subheadline":"Ny topchef dropper 'Nordisk' fra det daglige navn og lancerer kulturprogram forud for kapitalmarkedsdag","body":["Novo Nordisk skifter navn til 'Novo' i det daglige, mens 'Novo Nordisk A/S' forbliver det juridiske navn. Ny topchef Mike Doustdar præsenterer kulturprogrammet 'The Novo Way' forud for kapitalmarkedsdagen 21. september i London.","Aktien faldt på nyheden, forstærket af en nedgradering fra Morgan Stanley. Selskabet var Europas mest værdifulde i 2024, men er siden sakket bagud mod Eli Lilly om fedmemarkedet."],"whyItMatters":"Et navneskifte løser ikke pipeline-problemerne, men markerer, at ledelsen erkender, at det gamle navns 'ordentlighed' ikke længere er nok til at vinde markedet alene.","analysis":"Spørgsmålet, kapitalmarkedsdagen skal svare på, er om kulturskiftet følges af konkrete produkter – ellers er det kun et nyt logo på samme problem.","topics":["danmark","sundhed","erhverv"],"entities":["Novo Nordisk","Mike Doustdar"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":62,"decisionValue":50,"novelty":75,"sourceQuality":80,"personalRelevance":45,"contrast":45},"claims":[{"text":"Novo Nordisk rebrands its day-to-day name to 'Novo' under CEO Mike Doustdar, launching 'The Novo Way' culture programme ahead of the 21 September capital markets day in London.","sourceUrls":["https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html"],"confidence":"high"}],"sources":[{"title":"Novo Nordisk enters next chapter to bring better health to more people, supported by 'Novo' rebrand and updated corporate culture","publisher":"GlobeNewswire","url":"https://www.globenewswire.com/news-release/2026/09/14/3360720/0/en/novo-nordisk-enters-next-chapter-to-bring-better-health-to-more-people-supported-by-novo-rebrand-and-updated-corporate-culture.html","publishedAt":"2026-09-14T06:00:00.000Z","kind":"primary"}]},{"id":"story-dk-kriminelle-familier-20260914","eventKey":"dk-kriminelle-familier-bandepakke-2026-09","materialFacts":["Bill sent to hearing equating criminal families with gangs under Criminal Code section 81a.","Takes effect 1 January 2027.","NSK recorded 316 charges across 88 case numbers linked to 'violence-as-a-service' April 2024-July 2026."],"section":"Danmark","headline":"Nyt lovforslag: Justitsminister Nicolai Wammen vil stramme grebet om kriminelle familier og bander","primarySourceUrl":"https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/","subheadline":"Lovforslag sidestiller kriminelle familier med bander og skærper straf for at bruge børn til bestillingskriminalitet","body":["Justitsminister Nicolai Wammen har sendt et lovforslag i høring, der sidestiller kriminelle familier med bander i straffelovens § 81 a og skærper straffen for bagmænd, der bruger børn og unge til bestillingskriminalitet. Loven skal træde i kraft 1. januar 2027.","Fra april 2024 til juli 2026 har NSK registreret 316 sigtelser fordelt på 88 sagskomplekser, der vurderes at handle om 'volds-som-en-service'."],"whyItMatters":"Forslaget udvider en kategori, der hidtil kun dækkede organiserede bander, til også at kunne bruges mod familienetværk – med konsekvenser for, hvordan politiet kan efterforske og retsforfølge.","analysis":"At bruge bandeværktøjer på familier anerkender, at kriminalitetsstrukturerne har ændret sig hurtigere end lovgivningen – ikke hvorfor de ændrede sig.","topics":["danmark","politik","retspolitik"],"entities":["Nicolai Wammen","Justitsministeriet"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":50,"decisionValue":55,"novelty":60,"sourceQuality":70,"personalRelevance":15,"contrast":30},"claims":[{"text":"Wammen sent a bill to hearing equating criminal families with gangs under section 81a, effective 1 January 2027; NSK recorded 316 charges across 88 case numbers on 'violence-as-a-service' April 2024-July 2026.","sourceUrls":["https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/"],"confidence":"high"}],"sources":[{"title":"Nyt lovforslag: Justitsminister Nicolai Wammen vil stramme grebet om kriminelle familier og bander","publisher":"Sydnyt.dk","url":"https://sydnyt.dk/nyt-lovforslag-justitsminister-nicolai-wammen-vil-stramme-grebet-om-kriminelle-familier-og-bander/","publishedAt":"2026-09-14T06:00:00.000Z","kind":"reporting"},{"title":"Justitsministeren vil bruge bandeværktøj på kriminelle familier","publisher":"Justitsministeriet","url":"https://www.justitsministeriet.dk/pressemeddelelse/justitsministeren-vil-bruge-bandevaerktoej-paa-kriminelle-familier/","publishedAt":"2026-09-14T06:00:00.000Z","kind":"primary"}],"imageRejected":[{"url":"https://sydnyt.dk/wp-content/uploads/2026/09/Kopi-af-German-Broadcast-ZDF-har-stopped-sending-i-Denmark-1.jpg","fingerprint":"d58828d2d9ad44209c892d91d15a44005c4d279d952c4c809cad235c942a52a5dca669561235d493661ba5ba32756d97","reason":"chart-or-text-card"}]},{"id":"story-israel-likud-ban-20260914","eventKey":"israel-likud-ban-arab-parties-2026-09","materialFacts":["Likud petitions Central Elections Committee to ban Ra'am and the Joint List.","Election date is 27 October 2026.","High Court has previously overturned all prior CEC bans of Arab party formations."],"section":"Mellemosten","headline":"Netanyahu's Likud says it will petition election panel to ban Arab-majority parties","primarySourceUrl":"https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/","subheadline":"Likud vil udelukke to arabiske partier fra valget 27. oktober – trods udsigt til nederlag i Højesteret","body":["Likud vil bede Israels centrale valgkomité om at udelukke de arabisk-dominerede partier Ra'am og Den Fælles Liste fra valget 27. oktober. Begrundelsen er, at partierne 'skader IDF-soldater' og ikke vil kalde Hamas og Hizbollah terrororganisationer.","Et forbud er næppe holdbart – Højesteret har tidligere omgjort samtlige forsøg på at udelukke arabiske partier. Målinger viser, at hverken Netanyahus koalition eller den centristiske udfordrer kan opnå flertal uden arabiske partiers støtte."],"whyItMatters":"Forsøget kommer, mens ingen blok kan regere alene – et forbud ville ikke kun ramme demokratisk repræsentation, men gøre regeringsdannelse endnu mere usikker.","analysis":"At forbuddet sandsynligvis falder ved Højesteret, gør ikke forsøget betydningsløst – det er gentagelsen af kravet, der normaliserer det, valg efter valg.","topics":["politik","mellemosten","demokrati"],"entities":["Benjamin Netanyahu","Likud","Ra'am","Den Fælles Liste"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":60,"decisionValue":45,"novelty":60,"sourceQuality":65,"personalRelevance":20,"contrast":45},"claims":[{"text":"Likud petitioned the CEC to ban Ra'am and the Joint List from the 27 October election; the High Court has previously overturned every prior CEC ban attempt on Arab party formations.","sourceUrls":["https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/"],"confidence":"high"}],"sources":[{"title":"Netanyahu's Likud says it will petition election panel to ban Arab-majority parties","publisher":"The Times of Israel","url":"https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/","publishedAt":"2026-09-14T00:54:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/09-5517add9.jpg","credit":"Kilde: The Times of Israel","alt":"Netanyahu's Likud says it will petition election panel to ban Arab-majority parties","sourceUrl":"https://www.timesofisrael.com/netanyahus-party-says-it-will-petition-election-panel-to-ban-arab-majority-parties/","origin":"article","fingerprint":"87c7c1cb4b4b4c8e85c5c5c9c9c9cc8ca5a58dc9c9c9cd8eb4b6acccddcdcd0d3636ac8c8c8c8c4c72662e8eae8c8c8c","lookedAt":"87c7c1cb4b4b4c8e85c5c5c9c9c9cc8ca5a58dc9c9c9cd8eb4b6acccddcdcd0d3636ac8c8c8c8c4c72662e8eae8c8c8c","originalUrl":"https://static-cdn.toi-media.com/www/uploads/2026/06/F260603YS52.jpg"}},{"id":"story-eu-kids-act-20260914","eventKey":"eu-kids-act-proposal-2026-09","materialFacts":["Commission to present the 'Kids Act' Thursday.","Von der Leyen to reveal the age threshold Wednesday in Strasbourg.","Expert panel recommended under-13; France wants under-15."],"section":"EU og teknologi","headline":"EU to propose law curbing social media for children Thursday","primarySourceUrl":"https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670","subheadline":"Von der Leyen ventes at afsløre fælles aldersgrænse onsdag, før selve loven fremlægges torsdag","body":["EU-Kommissionen præsenterer torsdag den formelle 'Kids Act', der skal indføre en fælles mindstealder for sociale medier, videotjenester, spil og AI-følgesvende i hele unionen. Von der Leyen ventes at afsløre selve aldersgrænsen onsdag i Strasbourg.","Et ekspertpanel har anbefalet 13 år, mens Frankrig presser på for 15. Loven kræver, at platforme er 'sikre fra starten' – uden afhængighedsskabende funktioner – og undtager uddannelsesværktøjer."],"whyItMatters":"Det er første gang, EU forsøger en fælles aldersgrænse frem for 27 forskellige nationale tilgange, med betydning for, hvordan platforme skal designes for mindreårige i hele unionen.","analysis":"Den reelle kamp bliver ikke loven selv, men hvilken af de to aldersgrænser der vinder – forskellen mellem 13 og 15 år dækker millioner af brugere.","topics":["regulering","teknologi","eu"],"entities":["Ursula von der Leyen","Henna Virkkunen","EU-Kommissionen"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":62,"decisionValue":60,"novelty":60,"sourceQuality":70,"personalRelevance":40,"contrast":50},"claims":[{"text":"The Commission will present the 'Kids Act' Thursday in Brussels; von der Leyen reveals the age threshold Wednesday in Strasbourg; an expert panel recommended under-13, France wants under-15.","sourceUrls":["https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670"],"confidence":"high"}],"sources":[{"title":"EU to propose law curbing social media for children Thursday","publisher":"Arab News","url":"https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670","publishedAt":"2026-09-14T13:58:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/10-dbd91df3.jpg","credit":"Kilde: Arab News","alt":"EU to propose law curbing social media for children Thursday","sourceUrl":"https://www.arabnews.com/world/eu-to-propose-law-curbing-social-media-for-children-thursday-3001670","origin":"article","fingerprint":"9b181d951c185a5a193c1d151e9c5b5a3a3c1c161e9c9a9b3a3e3a323e1a9a9b3e3a32323a1a1a1b3f5b7373731b3b3b","lookedAt":"9b181d951c185a5a193c1d151e9c5b5a3a3c1c161e9c9a9b3a3e3a323e1a9a9b3e3a32323a1a1a1b3f5b7373731b3b3b","originalUrl":"https://assets.maestronewsroom.com/media/shared/wires/ap/20260902/238b6bbcffcd-Belgium_EU_NATO_78465--1f1cc.jpg"}}],"signals":[{"text":"China dismisses AI slowdown calls and blasts 'fearmongering' from U.S. tech leaders","headline":"China dismisses AI slowdown calls and blasts 'fearmongering' from U.S. tech leaders","summary":"Kinas udenrigsministerium og Global Times kalder Amodei-Altman-Musk-opbremsningen for en 'kold krig'-taktik rettet mod at bremse Kinas AI-udvikling; asiatiske AI-aktier som SoftBank og SK Hynix faldt over 5 pct.","publisher":"NBC News","section":"AI og geopolitik","publishedAt":"2026-09-14T12:14:00.000Z","url":"https://www.nbcnews.com/world/china/china-ai-slowdown-trump-amodei-altman-threat-cold-war-rcna597631"},{"text":"Anthropic sets sights on Nasdaq for potential October IPO, eyes $2 trillion valuation: Report","headline":"Anthropic sets sights on Nasdaq for potential October IPO, eyes $2 trillion valuation: Report","summary":"Ikke bekræftet af Anthropic selv, men selskabet skal angiveligt have valgt Nasdaq til en børsnotering i oktober efter en Series H på 965 mia. dollar i maj.","publisher":"Business Today","section":"AI og finans","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.businesstoday.in/technology/story/anthropic-sets-sights-on-nasdaq-for-potential-october-ipo-eyes-2-trillion-valuation-report-555319-2026-09-14"},{"text":"Human rights committee calls for new AI safety law","headline":"Human rights committee calls for new AI safety law","summary":"Det britiske parlaments menneskerettighedsudvalg kræver en selvstændig AI-lov og et uafhængigt tilsynsorgan, og vil forbyde visse anvendelser som subliminal påvirkning helt.","publisher":"IT Pro","section":"AI og regulering","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.itpro.com/technology/artificial-intelligence/human-rights-committee-calls-for-new-ai-safety-law"},{"text":"Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb","headline":"Houthis capture more Yemeni Red Sea islands, tightening grip on Bab el-Mandeb","summary":"Houthierne har indtaget øerne Store og Lille Hanish efter regeringstro styrkers tilbagetrækning; FN anslår over 80.000 fordrevne på to uger. Brent-olie passerede 107 dollar, da Houthierne indtog havnebyen Mokha i sidste uge.","publisher":"Euronews","section":"Geopolitik","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.euronews.com/2026/09/14/houthis-capture-more-yemeni-red-sea-islands-tightening-grip-on-bab-el-mandeb"},{"text":"EIFO løfter forventningerne efter positivt halvårsresultat","headline":"EIFO løfter forventningerne efter positivt halvårsresultat","summary":"Resultat på 1.633 mio. kr. i første halvår, ca. 1 mia. kr. over budget; EIFO hæver forventningen til hele 2026 til 2,1-2,5 mia. kr.","publisher":"EIFO / Ritzau","section":"Danmark og erhverv","publishedAt":"2026-09-14T07:00:00.000Z","url":"https://via.ritzau.dk/pressemeddelelse/15155482/eifo-lofter-forventningerne-efter-positivt-halvarsresultat?lang=da"},{"text":"The Weekly Notable Startup Funding Report: 9/14/26","headline":"The Weekly Notable Startup Funding Report: 9/14/26","summary":"Blandt ugens runder: Tandem Health, en svensk klinisk AI-dokumentationsstartup, rejste 86,5 mio. euro i Series B anført af EQT's Scaleup Europe Fund.","publisher":"AlleyWatch","section":"Venturekapital","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.alleywatch.com/2026/09/the-weekly-notable-startup-funding-report-9-14-26/"},{"text":"Russian military drone found off Polish coast","headline":"Russian military drone found off Polish coast","summary":"Militæret fandt en formodet russisk drone i vandet nær Jarosławiec ved den polske Østersøkyst, dagen efter at statsminister Tusk sagde, at alvorlige angreb på polsk territorium ikke kan udelukkes.","publisher":"Ukrinform","section":"Forsvar","publishedAt":"2026-09-14T15:38:00.000Z","url":"https://www.ukrinform.net/rubric-ato/4164039-russian-military-drone-found-off-polish-coast.html"},{"text":"Nadella Announces Public Consultation on Microsoft's MAI Model Rules","headline":"Nadella Announces Public Consultation on Microsoft's MAI Model Rules","summary":"Microsoft offentliggør en 'Code of Conduct' for sine egne MAI-modeller til seks ugers høring; Nadella argumenterer for decentral snarere end laboratorie-styret AI-styring, i klar kontrast til Amodei-koalitionen.","publisher":"Unite.AI","section":"AI og regulering","publishedAt":"2026-09-13T00:00:00.000Z","url":"https://www.unite.ai/nadella-announces-public-consultation-on-microsofts-mai-model-rules/"},{"text":"FOMC September 2026 Odds of Rate Hike Surge Over 60%","headline":"FOMC September 2026 Odds of Rate Hike Surge Over 60%","summary":"CME FedWatch sætter nu odds for en rentestigning på Fed-mødet 16. september over 60 pct., efter en varm PPI-måling og en stærkere-end-ventet jobrapport; Kalshi og Polymarket ligger fortsat tættere på 50-50.","publisher":"Yahoo Finance","section":"Makroøkonomi","publishedAt":"2026-09-13T00:00:00.000Z","url":"https://finance.yahoo.com/economy/policy/articles/fomc-september-2026-odds-rate-163505675.html"}],"column":{"authoredBy":"ai","slug":"fondsvalget-er-loven","title":"Fondsvalget er loven","thesis":"Venture-'power law' sidder i fondsvalget: 2021-medianfonden har 1,4 pct. afkast, topdecilet over 20 pct.","horizon":"2021-årgangens næste fondsopdatering, 2027.","body":["Mønstret gentages hvert år siden 2017. Selskaber følger en halet fordeling – men kun få fonde får eksponeringen."],"uncertainty":"Jeg tager fejl, hvis medianfondens 1,4 pct. viser sig at være en midlertidig regnskabsteknisk lavmåling snarere end fondens reelle afkast, og tallet hæver sig markant, når 2021-årgangen når år seks eller syv og flere selskaber realiserer deres værdi. Det afgøres i Cartas og Cambridge Associates' kommende opdateringer.","topics":["venturekapital","finans","statistik"],"claims":[{"text":"The 2021 vintage's median VC fund shows ~1.02x TVPI and 1.4% net IRR five years in (Carta Q1 2026, 2,500+ funds), while 90th-percentile net IRR has exceeded 20% in nearly every vintage 2017-2024 (Cambridge Associates/PitchBook).","sourceUrls":["https://valueaddvc.com/blog/vc-fund-performance-benchmarks-2026-irr-tvpi-dpi-by-vintage-year-explained"],"confidence":"medium"}],"sources":[{"title":"VC Fund Return Dispersion: Median vs. Top-Quartile (2026)","publisher":"Value Add VC","url":"https://valueaddvc.com/blog/vc-fund-performance-benchmarks-2026-irr-tvpi-dpi-by-vintage-year-explained","publishedAt":"2026-09-01T00:00:00.000Z","kind":"analysis"}]},"recommendations":[{"id":"rec-ai-doc-apocaloptimist-20260914","tier":"featured","mode":"watch","kind":"Dokumentar","status":"upcoming","title":"The AI Doc: Or How I Became an Apocaloptimist","creator":"Daniel Roher (instr.), Daniel Kwan (prod.)","provider":"Netflix","url":"https://www.netflix.com/title/82792555","availability":"Streamer globalt inkl. Danmark fra 15. september 2026 – tidligere kun i biografen fra 27. marts","commitment":"ca. 95 minutter","description":"En håndlavet dokumentar fra Oscar-vinderne bag 'Everything Everywhere All at Once' og 'Navalny', hvor instruktøren – på vej til at blive far – forsøger at finde ud af, hvad AI-udviklingen egentlig betyder, og om det ender som redning eller katastrofe.","rationale":"Rammer direkte ind i dagens førstehistorie: samme spørgsmål om redning eller katastrofe, som Amodei, Altman og Musk nu offentligt diskuterer, men stillet af en far snarere end et laboratorium. Du stemte selv 'mere' på filmen, da den blev annonceret i marts – i morgen kan du første gang faktisk se den.","topics":["ai","dokumentar"],"isFeatured":true,"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-14/r01-5f280cb8.jpg","credit":"Focus Features","alt":"Officiel plakat for 'The AI Doc: Or How I Became an Apocaloptimist'","sourceUrl":"https://www.focusfeatures.com/the-ai-doc-or-how-i-became-an-apocaloptimist","originalUrl":"https://images.contentstack.io/v3/assets/blt223a4a92692ca457/bltbbcfe9dbcd2e8dab/69af0530030f160008147b84/THE_AI_DOC_Digi_1-Sheet_1080x1600_W3_FIN02.jpg?branch=production&width=3840"}},{"id":"rec-dwarkesh-schulman-rsi-20260914","tier":"short","mode":"listen","kind":"Podcast","status":"new","title":"AI researchers debate how close we are to recursive self-improvement","creator":"Dwarkesh Patel, med John Schulman, Beren Millidge og Charlie O'Neill","provider":"Dwarkesh Podcast","url":"https://www.dwarkesh.com/p/john-beren-charlie","availability":"Frit tilgængelig","commitment":"ca. 2 timer","note":"Tre frontlinjeforskere stresstester præcis den evne – rekursiv selvforbedring – som Amodei vil have internationale grænser om; den tekniske samtale under dagens store nyhed, kun tre dage gammel.","topics":["ai","forskning"],"isFeatured":false},{"id":"rec-musk-gibney-documentary-20260914","tier":"short","mode":"watch","kind":"Dokumentar","status":"upcoming","title":"Musk","creator":"Alex Gibney (instr.)","provider":"Bleecker Street","url":"https://en.wikipedia.org/wiki/Musk_(film)","availability":"Kun festivalvisninger i Venedig og Toronto indtil videre; amerikansk biografpremiere 16. oktober. Ingen dansk premieredato fundet endnu.","commitment":"232 minutter","note":"Et næsten fire timer langt, kritisk portræt af en person, du selv rangerer højt – 'World's Richest Man Thrashed', ifølge Deadlines anmeldelse fra premieren. Ikke tilgængelig endnu, men værd at holde øje med.","topics":["dokumentar","magt"],"isFeatured":false},{"id":"rec-bak-rawls-bandung-20260914","tier":"short","mode":"read","kind":"Essay","status":"available","title":"Rawls, Bandung 2.ai and the AI Governance We Need","creator":"Michael L. Bąk","provider":"margin-notes-squared (Substack)","url":"https://www.margin-notes-squared.com/p/rawls-bandung-2ai-and-the-ai-governance","availability":"Frit tilgængelig","commitment":"ca. 15 minutter","note":"Bruger Rawls' slør af uvidenhed til at argumentere for, at hverken laboratorier eller stormagter – altså netop dem, der forhandler dagens opbremsningsregler – burde skrive dem; en tradition, du ellers ikke læser.","topics":["filosofi","ai-regulering"],"isFeatured":false},{"id":"rec-nber-vc-human-capital-20260914","tier":"short","mode":"read","kind":"Forskningspapir","status":"available","title":"Human Capital in Venture Capital: Evidence From 100,000 Venture Capitalists","creator":"Blake Jackson, Ilya A. Strebulaev","provider":"NBER","url":"https://www.nber.org/papers/w35501","availability":"Resumé frit tilgængeligt","commitment":"ca. 40 minutter","note":"Data på 100.000 VC-folk: under 40 pct. med investeringer rammer nogensinde ét hit, og top 5 pct. står for 90 pct. af profitten – samme koncentration som dagens klumme, set fra individet i stedet for fonden.","topics":["venturekapital","forskning"],"isFeatured":false},{"id":"rec-github-hydrafusion-20260914","tier":"short","mode":"try","kind":"Værktøj","status":"new","title":"Project HydraFusion","provider":"GitHub Copilot CLI","url":"https://github.blog/","availability":"Research preview, opt-in, siden 4. september 2026","commitment":"ca. 15 minutters opsætning","note":"Ruter automatisk kodeopgaver mellem billigere og stærkere modeller og lader én model kritisere en andens kode – konkret bevis på det multi-model-mønster, branchen ellers kun taler abstrakt om.","topics":["ai","vaerktoej"],"isFeatured":false}],"quality":{"sourceCoverage":82,"freshness":88,"novelty":78,"perspectiveBalance":80,"render":100}};</script>
+  <script>globalThis.__BRIEF_DATA__ = {"schemaVersion":1,"kind":"daily","runId":"brief-2026-09-15","date":"2026-09-15","generatedAt":"2026-09-15T05:30:00.000Z","readingMinutes":8,"title":"Alexanders Brief","dek":"Trump afviser AI-opbremsning som en hoax, en russisk fregat tester Danmark ved Gedser, og Kinas eget sikkerhedsapparat frygter det, Beijing officielt kalder fearmongering","profileWeights":{"importance":25,"decisionValue":20,"novelty":15,"sourceQuality":15,"personalRelevance":15,"contrast":10},"stories":[{"id":"story-trump-rejects-ai-pacing-20260915","eventKey":"trump-rejects-ai-pacing-2026-09","section":"AI og magt","headline":"Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'","primarySourceUrl":"https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700","subheadline":"To dage efter Amodeis opfordring til at bremse AI kalder Trump det en hoax","materialFacts":["Trump kalder AI-risikobekymringer en 'HOAX' på Truth Social og siger, det eneste værn, AI behøver, er 'en STÆRK OG KLOG præsident'","Trump navngiver og håner Amodei direkte to dage efter dennes opfordring til at bremse udviklingen","Trump kalder AI 'historiens største økonomiske vækstmotor' og taler om en 'syg konspiration' mod AI-datacentre"],"body":["Trump afviser mandag AI-sikkerhedsregler: frygten er 'en HOAX', og det eneste værn er 'en STÆRK OG KLOG præsident'. Opslaget håner Amodei, der to dage før opfordrede til at bremse op.","Amodei advarede om AI-agentsværme, der kunne overtage dele af internettet. Altman støttede forslaget samme dag."],"whyItMatters":"Afvisningen fjerner udsigten til føderale AI-regler; industriens opbremsning bliver bremseklodsen.","analysis":"Tempoet afhænger nu af, om laboratorierne følger Amodei frivilligt, eller Trump gør det til ulempe.","counterpoint":"Altman fastholdt dog sin støtte til uafhængige evaluatorer.","topics":["ai","ai-sikkerhed","magt","usa"],"entities":["Donald Trump","Dario Amodei","Anthropic","Sam Altman"],"isLead":true,"isOutsideProfile":false,"scores":{"importance":85,"decisionValue":70,"novelty":78,"sourceQuality":82,"personalRelevance":88,"contrast":75},"claims":[{"text":"Trump kaldte AI-frygt en 'HOAX' og sagde, det eneste værn er en stærk, klog præsident.","sourceUrls":["https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700"],"confidence":"high"},{"text":"Amodei offentliggjorde 12. september essayet 'We Must Pace the Frontier' med opfordring til bevidst opbremsning.","sourceUrls":["https://www.forbes.com/sites/gabrielalinzainescu/2026/09/13/anthropic-ceo-dario-amodei-calls-for-a-slowdown-in-frontier-ai/"],"confidence":"medium"}],"sources":[{"title":"Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'","publisher":"NBC News","url":"https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700","publishedAt":"2026-09-14T15:26:00.000Z","kind":"reporting"},{"title":"Anthropic CEO Dario Amodei Calls For A Slowdown In Frontier AI","publisher":"Forbes","url":"https://www.forbes.com/sites/gabrielalinzainescu/2026/09/13/anthropic-ceo-dario-amodei-calls-for-a-slowdown-in-frontier-ai/","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/01-334f0408.jpg","credit":"Kilde: NBC News","alt":"Trump says AI doesn't need guardrails, calls growing concerns 'a hoax'","sourceUrl":"https://www.nbcnews.com/politics/trump-administration/trump-rejects-ai-guardrails-rcna597700","origin":"article","fingerprint":"3f3f1f193919192d2f3f3d191d1c18282f3f3c183cac18787f3f3e18bcac34187f7e5a982e6cb535bf6f5b3c6e6cdc37","lookedAt":"3f3f1f193919192d2f3f3d191d1c18282f3f3c183cac18787f3f3e18bcac34187f7e5a982e6cb535bf6f5b3c6e6cdc37","originalUrl":"https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-05/260525-trump-rs-2d8d08.jpg","focus":{"x":0.299,"y":0}}},{"id":"story-dk-gedser-frigate-flares-20260915","eventKey":"dk-russia-frigate-flares-gedser-2026-09","section":"Danmark og forsvar","headline":"Forsvarets helikopter beskudt med flares fra russisk fregat","primarySourceUrl":"https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat","subheadline":"Rusland skød lyskugler mod dansk militærhelikopter ved Gedser","materialFacts":["En russisk fregat affyrede to flares mod en dansk Fennec-helikopter under fotoovervågning i internationalt farvand ved Gedser den 14. september","En af flarene passerede tæt på helikopteren; besætning og fly var uskadte","Udenrigsministeriet indkaldte den russiske ambassadør; forsvarsminister Jeppe Bruus kalder det et tegn på, at Rusland flytter grænserne for risikovillighed"],"body":["En russisk fregat affyrede søndag to lyskugler mod en Fennec-helikopter, der fotograferede skibet ud for Gedser. En flare passerede tæt på; ingen kom til skade.","Udenrigsministeriet indkaldte den russiske ambassadør. Forsvarsminister Jeppe Bruus kalder det alvorligt og et tegn på, at grænserne er rykket."],"whyItMatters":"Det er en direkte konfrontation mellem russisk og dansk militærmateriel tæt på dansk territorium.","analysis":"At Rusland skyder lyskugler mod et NATO-fly uden provokation, føjer sig til flere tætte møder i Østersøen.","topics":["danmark","forsvar","rusland","geopolitik"],"entities":["Forsvaret","Jeppe Bruus","Rusland","Gedser"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":74,"decisionValue":55,"novelty":80,"sourceQuality":85,"personalRelevance":45,"contrast":60},"claims":[{"text":"En russisk fregat affyrede to flares mod en dansk Fennec-helikopter ved Gedser den 14. september; ingen kom til skade.","sourceUrls":["https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat"],"confidence":"high"},{"text":"Udenrigsministeriet indkaldte den russiske ambassadør, og forsvarsminister Jeppe Bruus kaldte episoden alvorlig.","sourceUrls":["https://www.dr.dk/nyheder/indland/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat-naer-gedser"],"confidence":"high"}],"sources":[{"title":"Forsvarets helikopter beskudt med flares fra russisk fregat","publisher":"Forsvaret","url":"https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat","publishedAt":"2026-09-14T23:02:00.000Z","kind":"primary"},{"title":"Forsvarets helikopter beskudt med flares fra russisk fregat nær Gedser","publisher":"DR","url":"https://www.dr.dk/nyheder/indland/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat-naer-gedser","publishedAt":"2026-09-15T05:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/02-f2d5f0cb.jpg","credit":"Kilde: Forsvaret","alt":"Forsvarets helikopter beskudt med flares fra russisk fregat","sourceUrl":"https://www.forsvaret.dk/da/nyheder/2026/forsvarets-helikopter-beskudt-med-flares-fra-russisk-fregat","origin":"article","fingerprint":"4f6f253373636b0b4d6f26737363eb4b4d6f24737363e1cb4f6f66737363e1c94f6966e3f3f3e1e94b66e2d3f1d1d1e4","lookedAt":"4f6f253373636b0b4d6f26737363eb4b4d6f24737363e1cb4f6f66737363e1c94f6966e3f3f3e1e94b66e2d3f1d1d1e4","originalUrl":"https://www.forsvaret.dk/globalassets/fko---forsvaret/billeder/billeder-til-nyheder/artikel/2026/09-september/-20260914-fennec-rune-dyrholm-arkiv-2026-artikel.jpg","focus":{"x":0.379,"y":1}}},{"id":"story-china-ai-party-control-20260915","eventKey":"china-ai-party-control-warning-2026-09","section":"AI og geopolitik","headline":"China's Stance on AI Regulation Comes Into Focus as Trump Rejects New Guardrails","primarySourceUrl":"https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150","subheadline":"Kinas efterretningschef frygter AI internt, Beijing kalder USA fearmongering","materialFacts":["Chen Yixin, chef for Kinas Ministerium for Statssikkerhed, skriver i statsmagasinet China Cyberspace, at AI truer partiets kontrol og kræver strammere partitilsyn","Samtidig afviser udenrigsministeriets talsmand Guo Jiakun amerikanske advarsler om AI som 'fearmongering'","Modsætningen kommer samme uge, som Trump afviser AI-sikkerhedstiltag som en hoax"],"body":["Mens Trump kalder AI-risici opspind, skriver Kinas sikkerhedschef Chen Yixin, at AI truer partiets kontrol.","Det passer dårligt med linjen udadtil: talsmand Guo Jiakun kaldte netop AI-advarsler 'fearmongering'."],"whyItMatters":"Beijings interne alarm viser, at Kina tager AI-magtrisikoen alvorligt trods retorik mod USA.","analysis":"Kontrasten svækker ideen om, at AI-bekymring er ren amerikansk konkurrence: partiet frygter selv kontroltab.","counterpoint":"Advarslen kan læses som påskud for overvågning internt, ikke ægte AI-bekymring.","topics":["ai","kina","magt","geopolitik"],"entities":["Chen Yixin","Ministry of State Security","Guo Jiakun","Kina"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":64,"decisionValue":40,"novelty":75,"sourceQuality":65,"personalRelevance":60,"contrast":82},"claims":[{"text":"Chen Yixin skrev, at AI-risici truer partiets kontrol og kræver strammere partitilsyn.","sourceUrls":["https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150"],"confidence":"medium"},{"text":"Guo Jiakun afviste offentligt amerikanske AI-advarsler som 'fearmongering'.","sourceUrls":["https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150"],"confidence":"medium"}],"sources":[{"title":"China's Stance on AI Regulation Comes Into Focus as Trump Rejects New Guardrails","publisher":"Newsweek","url":"https://www.newsweek.com/chinas-stance-on-ai-regulation-amid-trumps-post-against-formal-guardrails-12440150","publishedAt":"2026-09-14T19:47:00.000Z","kind":"reporting"}],"imageRejected":[{"url":"https://assets.newsweek.com/wp-content/uploads/2026/09/AP26254642767443.jpg?w=1200&crop=1","fingerprint":"1b98da1e0f0f2c2d9b989a1e0f4f6c4c9a9c9a1f0f4d4c4c181c1b9f0f0d4e4c1d1d1baf8f0ecece1c1d292faf8e8f8f","reason":"wrong-person"}]},{"id":"story-pro-human-assembly-20260915","eventKey":"pro-human-ai-assembly-sanders-bannon-2026-09","section":"AI og politik","headline":"Bernie Sanders and former Trump adviser to join AI event in Washington as tech concerns rise","primarySourceUrl":"https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/","subheadline":"Sanders og Bannon: 'Man træder på bremsen, ikke bare slipper gassen'","materialFacts":["Bernie Sanders og Steve Bannon deltager tirsdag i Future of Life Institutes 'Pro-Human Assembly' i Washington","Skuespillere, fagforeningsledere og lovgivere fra begge partier deltager også","Sanders kalder AI-industriens opbremsningsforslag utilstrækkelige: 'Man træder på bremsen, ikke bare slipper gassen'"],"body":["Sanders og tidligere Trump-rådgiver Steve Bannon står tirsdag sammen ved Future of Life Institutes 'Pro-Human Assembly' i Washington.","Sanders afviser branchens opbremsningsforslag: 'Kører man mod en klippe, letter man ikke bare foden. Man træder på bremsen.'"],"whyItMatters":"En koalition fra begge fløje er sværere for Kongressen at afvise end en enkelt fløjs krav.","analysis":"At Sanders og Bannon finder sammen, mens Trump kalder risikoen en hoax, viser AI-debatten bryde højre-venstre op.","topics":["ai","politik","usa"],"entities":["Bernie Sanders","Steve Bannon","Future of Life Institute","Jacob Coxon"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":55,"decisionValue":35,"novelty":74,"sourceQuality":62,"personalRelevance":55,"contrast":85},"claims":[{"text":"Sanders og Bannon deltager i Future of Life Institutes 'Pro-Human Assembly' i Washington 15. september.","sourceUrls":["https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/"],"confidence":"high"},{"text":"Sanders sagde: 'When you are racing towards a cliff, you don't just ease up on the gas pedal ... You hit the brakes.'","sourceUrls":["https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/"],"confidence":"high"}],"sources":[{"title":"Bernie Sanders and former Trump adviser to join AI event in Washington as tech concerns rise","publisher":"The National","url":"https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/","publishedAt":"2026-09-14T14:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/04-fda1a01d.jpg","credit":"Kilde: The National","alt":"US Senator Bernie Sanders is to take part in the event, alongside Hollywood actors. Reuters","sourceUrl":"https://www.thenationalnews.com/future/technology/2026/09/14/ai-bernie-sanders-steve-bannon-assembly/","origin":"article","fingerprint":"d6a74d5cecee078683874d5cece6070703454c5cece74f47274e4e9cace74f4706cece1e8ce5c7954fcfae1e0ce48597","lookedAt":"d6a74d5cecee078683874d5cece6070703454c5cece74f47274e4e9cace74f4706cece1e8ce5c7954fcfae1e0ce48597","originalUrl":"https://www.thenationalnews.com/resizer/v2/WQMSWOW3OKX7RCIIV3FEZQSNYI.jpg?auth=52195dabff1093f064c36da8a4854e5e42328e546eb757aa082dbe50dbd2fe66&smart=true&width=1200&height=630","focus":{"x":0.63,"y":0}}},{"id":"story-photonic-vanguard-20260915","eventKey":"photonic-vanguard-quantum-fab-2026-09","section":"Quantum og deeptech","headline":"Photonic Proposes CAD$500 Million Canadian Semiconductor Manufacturing Facility","primarySourceUrl":"https://thequantuminsider.com/2026/09/14/photonic-proposes-cad500-million-canadian-semiconductor-manufacturing-facility/","subheadline":"Canadisk kvantefirma foreslår 500 mio. dollar-fabrik mod samme flaskehals som EU's","materialFacts":["Photonic Inc. har foreslået 'Project VANGUARD', en fælles halvlederfabrik i Canada til ca. 500 mio. CAD (359 mio. USD)","Fabrikken skal betjene kunder inden for kvante, AI, rumfart og forsvar og er udvalgt til Canadas officielle investeringssummit-prospekt","Photonic, grundlagt 2016 i Vancouver af Stephanie Simmons, bygger silicium-spin-foton-kvanteprocessorer"],"body":["Photonic foreslår 'Project VANGUARD': en fælles halvlederfabrik til ca. 500 mio. CAD for kunder inden for kvante, AI, rumfart og forsvar.","Fabrikken skal løse et flaskehalsproblem: manglende pilotfremstilling tvinger canadiske kvantefirmaer udenlands."],"whyItMatters":"Det er samme kapacitetsproblem, EU's AI-gigafabrikker skal løse: uden lokal fremstilling afhænger ambitioner af udlandet.","analysis":"At forslaget kommer fra industrien selv viser, hvor akut flaskehalsen føles, men det er fortsat uden finansiering.","topics":["quantum","deeptech","teknologisk-suverænitet"],"entities":["Photonic Inc.","Stephanie Simmons","Canada"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":52,"decisionValue":50,"novelty":68,"sourceQuality":60,"personalRelevance":70,"contrast":35},"claims":[{"text":"Photonic foreslog en CA$500M halvlederfabrik for kvante-, AI- og forsvarskunder, udvalgt til Canadas investeringssummit-prospekt.","sourceUrls":["https://www.globenewswire.com/news-release/2026/09/14/3360927/0/en/photonic-inc-unveils-project-vanguard-a-proposal-for-a-500m-specialized-semiconductor-manufacturing-facility-to-accelerate-commercialization-of-quantum-ai-and-defence-innovation-in.html"],"confidence":"high"}],"sources":[{"title":"Photonic Proposes CAD$500 Million Canadian Semiconductor Manufacturing Facility","publisher":"The Quantum Insider","url":"https://thequantuminsider.com/2026/09/14/photonic-proposes-cad500-million-canadian-semiconductor-manufacturing-facility/","publishedAt":"2026-09-14T00:00:00.000Z","kind":"reporting"},{"title":"Photonic Inc. unveils Project VANGUARD, a proposal for a $500M specialized semiconductor manufacturing facility to accelerate commercialization of quantum, AI and defence innovation in Canada","publisher":"GlobeNewswire","url":"https://www.globenewswire.com/news-release/2026/09/14/3360927/0/en/photonic-inc-unveils-project-vanguard-a-proposal-for-a-500m-specialized-semiconductor-manufacturing-facility-to-accelerate-commercialization-of-quantum-ai-and-defence-innovation-in.html","publishedAt":"2026-09-14T13:00:00.000Z","kind":"primary"}]},{"id":"story-scotus-mail-voting-20260915","eventKey":"us-scotus-mail-voting-block-2026-09","section":"USA og demokrati","headline":"In blow to Trump, Supreme Court blocks mail ballot restrictions from taking effect in 2026","primarySourceUrl":"https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/","subheadline":"Højesteret blokerer Trumps forsøg på at begrænse brevstemmer før midtvejsvalget","materialFacts":["Højesteret fastholder en kendelse, der blokerer Trumps dekret om at lade det amerikanske postvæsen afvise brevstemmer, der ikke opfylder nye krav","Kun dommerne Alito og Thomas var uenige i den upersonlige flertalsafgørelse","Dommer Kavanaugh skrev, at delstats- og lokale valgmyndigheder ikke havde tid nok til at indføre reglerne før november"],"body":["Højesteret fastholder mandag en kendelse, der blokerer Trumps dekret om at lade postvæsenet afvise brevstemmer før midtvejsvalget. Kun Alito og Thomas stemte imod.","Kavanaugh skrev, at myndighederne ikke havde tid nok til at indføre reglerne inden valget."],"whyItMatters":"Brevstemmer ved midtvejsvalget fungerer som hidtil, mens spørgsmålet om præsidentens magt over valg forbliver uafklaret.","analysis":"At kun to af ni dommere var uenige, er et nederlag for at ændre valgregler uden om Kongressen.","topics":["usa","politik","demokrati","retssystem"],"entities":["Supreme Court","Donald Trump","Brett Kavanaugh","Samuel Alito","Clarence Thomas"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":70,"decisionValue":65,"novelty":68,"sourceQuality":80,"personalRelevance":15,"contrast":55},"claims":[{"text":"Højesteret fastholdt en injunction mod Trumps dekret om brevstemmer; kun Alito og Thomas var uenige.","sourceUrls":["https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/"],"confidence":"high"},{"text":"Kavanaugh skrev, at lokale myndigheder ikke havde tid nok til at indføre reglerne før november.","sourceUrls":["https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/"],"confidence":"high"}],"sources":[{"title":"In blow to Trump, Supreme Court blocks mail ballot restrictions from taking effect in 2026","publisher":"Votebeat","url":"https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/","publishedAt":"2026-09-15T00:45:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/06-072455c0.jpg","credit":"Kilde: Votebeat","alt":"A hand reaches to drop off a mail-in ballot in a drop-box.","sourceUrl":"https://www.votebeat.org/national/2026/09/15/trump-mail-voting-executive-order-supreme-court-decision-2026-election/","origin":"article","fingerprint":"949ac94c391d5e9bb29b4d4c393d9e9b1b194c4a393d969a999cce8a3c7c969fac96ce096c7cbe37b69b0b494c7cfe33","lookedAt":"949ac94c391d5e9bb29b4d4c393d9e9b1b194c4a393d969a999cce8a3c7c969fac96ce096c7cbe37b69b0b494c7cfe33","originalUrl":"https://www.votebeat.org/resizer/v2/5PFWXDFR45AV5KFWPJZVREPVZQ.jpg?smart=true&auth=a11f9483f557a73828fab7a73b232b2c74eb70827a44770f06dc15388b82c0b5&width=1200&height=630","focus":{"x":0.236,"y":0}}},{"id":"story-eu-sanctions-usmanov-20260915","eventKey":"eu-russia-sanctions-usmanov-delay-2026-09","section":"EU og geopolitik","headline":"France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan","primarySourceUrl":"https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal","subheadline":"Frankrig og Slovakiet blokerer EU's Rusland-sanktioner for at få en oligark slettet","materialFacts":["EU-ambassadører kunne ikke blive enige om den rutinemæssige seks-måneders forlængelse af sanktioner mod ca. 3.000 russisk-forbundne personer og selskaber og forlængede kun med 7 dage til 22. september","Frankrig sluttede sig til Slovakiet i kravet om at fjerne oligarken Alisjer Usmanov fra listen, angiveligt koblet til løsladelse af franske statsborgere i Aserbajdsjan","Zelensky kritiserede forhandlingen for at sende et forkert signal midt i krigen"],"body":["EU's ambassadører kunne ikke enes om forlængelsen af sanktioner mod ca. 3.000 russisk-forbundne og forlængede kun listen syv dage.","Frankrig støtter Slovakiets krav om at fjerne oligarken Usmanov, angiveligt led i en løsladelsesaftale for franskmænd i Aserbajdsjan."],"whyItMatters":"Det er første gang siden invasionen, at EU's sanktionsenighed bryder sammen over én person.","analysis":"Fastholder Frankrig kravet, kan hele listen for russere bortfalde — én stats interesse truer troværdigheden.","topics":["eu","geopolitik","rusland","sanktioner"],"entities":["France","Slovakia","Alisher Usmanov","EU","Volodymyr Zelensky"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":66,"decisionValue":60,"novelty":72,"sourceQuality":76,"personalRelevance":20,"contrast":65},"claims":[{"text":"EU-ambassadører forlængede kun sanktionslisten 7 dage til 22. september efter fransk-slovakisk uenighed.","sourceUrls":["https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal"],"confidence":"high"},{"text":"Frankrig kræver Usmanov fjernet fra listen, angiveligt koblet til en løsladelsesaftale med Aserbajdsjan.","sourceUrls":["https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal"],"confidence":"medium"}],"sources":[{"title":"France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan","publisher":"Euronews","url":"https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal","publishedAt":"2026-09-14T18:21:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/07-60a0d2b8.jpg","credit":"Kilde: Euronews","alt":"France seeks Usmanov delisting in bid to secure release of French nationals detained in Azerbaijan","sourceUrl":"https://www.euronews.com/my-europe/2026/09/14/french-slovak-veto-deepens-eu-deadlock-on-russia-sanctions-renewal","origin":"article","fingerprint":"7f697b73637571f37d697b73e2f471617d6d79f3e2f2f2f1fc6cf9ebeaa2f2d2dce4fa6be941b3f3f6ee79c9cd4571b1","lookedAt":"7f697b73637571f37d697b73e2f471617d6d79f3e2f2f2f1fc6cf9ebeaa2f2d2dce4fa6be941b3f3f6ee79c9cd4571b1","originalUrl":"https://images.euronews.com/articles/stories/09/91/32/41/1200x675_cmsv2_f98bec57-de7d-52b3-b620-5f227aeb779b-9913241.jpg","focus":{"x":0.12,"y":0}}},{"id":"story-nato-lithuania-drone-20260915","eventKey":"nato-lithuania-drone-shootdown-2026-09","section":"NATO og forsvar","headline":"NATO fighters shoot down drone over Lithuania after airspace incursion","primarySourceUrl":"https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion","subheadline":"Italienske NATO-fly skyder drone ned over Litauen efter indtrængen fra Belarus","materialFacts":["En drone, der menes at komme fra Belarus, blev skudt ned af italienske Eurofighter Typhoon-fly over Kaunas i Litauen lige efter midnat den 15. september","Vilnius' lufthavn begrænsede kortvarigt luftrummet","Litauens præsident Nausėda bekræftede nedskydningen og takkede de allierede styrker"],"body":["Italienske Eurofighter-fly ved Šiauliai skød lige efter midnat en drone ned over Kaunas i Litauen. Dronen menes at komme fra Belarus.","Vilnius' lufthavn indførte kortvarigt luftrumsrestriktioner. Præsident Nausėda bekræftede nedskydningen og takkede de allierede styrker."],"whyItMatters":"Det er endnu en NATO-nedskydning af en drone i alliancens luftrum og forstærker tests af østflanken.","analysis":"At episoden løses uden yderligere eskalation viser en rutine for hændelser militært, men gentagelsen er svær at afskrive.","topics":["forsvar","nato","europa","geopolitik"],"entities":["NATO","Lithuania","Italy","Gitanas Nausėda","Belarus"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":72,"decisionValue":50,"novelty":70,"sourceQuality":74,"personalRelevance":35,"contrast":55},"claims":[{"text":"Italienske Eurofighter Typhoon-fly skød en drone fra formodet belarusisk oprindelse ned over Litauen.","sourceUrls":["https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion"],"confidence":"medium"},{"text":"Præsident Nausėda bekræftede nedskydningen og takkede de allierede styrker.","sourceUrls":["https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion"],"confidence":"high"}],"sources":[{"title":"NATO fighters shoot down drone over Lithuania after airspace incursion","publisher":"Aerotime","url":"https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion","publishedAt":"2026-09-15T04:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/08-c9a6a123.jpg","credit":"Kilde: Aerotime","alt":"NATO fighters shoot down drone over Lithuania after airspace incursion","sourceUrl":"https://www.aerotime.aero/articles/nato-fighters-shoot-down-drone-over-lithuania-after-airspace-incursion","origin":"article","fingerprint":"26353470cace810227343470db4e4541a5363670d98e9496a5b636e0998f9591273773e0199a8685e733f3d01c980a24","lookedAt":"26353470cace810227343470db4e4541a5363670d98e9496a5b636e0998f9591273773e0199a8685e733f3d01c980a24","originalUrl":"https://www.aerotime.aero/images/2026/09/Italian-Air-Force-Eurofighter-Typhoon-takes-off-from-Siauliai-Air-Base-during-a-NATO-Baltic-Air-Policing.jpg","focus":{"x":0.589,"y":0}}},{"id":"story-dk-elpriser-rekord-20260915","eventKey":"dk-elpriser-rekord-september-2026","section":"Danmark og energi","headline":"Prisen på el rammer højeste niveau i næsten to år","primarySourceUrl":"https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar","subheadline":"Høje gaspriser og lav vindproduktion sender danske elpriser til det højeste niveau siden 2024","materialFacts":["Elprisen i Danmark ramte næsten 7 kr./kWh inkl. moms mandag aften, det højeste niveau i næsten to år","Årsagen er høje gaspriser, delvist drevet af konflikten ved Hormuzstrædet, kombineret med lav vind- og solproduktion","September er på vej til at blive den dyreste el-måned siden energikrisen i 2022"],"body":["Elprisen ramte mandag aften næsten 7 kr./kWh inkl. moms, det højeste niveau i næsten to år. OK's Troels Skipper peger på høje gaspriser og for lidt vind og sol.","Gasprisen er presset op af konflikten ved Hormuzstrædet. Fortsætter niveauet, bliver september den dyreste el-måned siden 2022."],"whyItMatters":"Det er en konkret, målbar konsekvens for danske husholdninger af en konflikt, der ellers virker fjern.","analysis":"Prisstigningen viser, hvor afhængigt systemet er af gasprisen: vindstille aftener kræver gasbaseret backup.","topics":["danmark","energi","økonomi"],"entities":["Norlys","OK","Troels Skipper","Danmark"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":58,"decisionValue":55,"novelty":62,"sourceQuality":78,"personalRelevance":40,"contrast":40},"claims":[{"text":"Elprisen nåede næsten 7 kr./kWh inkl. moms mandag aften, det højeste niveau i næsten to år.","sourceUrls":["https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar"],"confidence":"high"},{"text":"Troels Skipper (OK) forklarer prisstigningen med høje gaspriser og lav vind-/solproduktion.","sourceUrls":["https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar"],"confidence":"high"}],"sources":[{"title":"Prisen på el rammer højeste niveau i næsten to år","publisher":"DR","url":"https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar","publishedAt":"2026-09-15T06:57:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/09-5c872f96.jpg","credit":"Kilde: DR","alt":"Prisen på el rammer højeste niveau i næsten to år","sourceUrl":"https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar","origin":"article","fingerprint":"0707c0c0c69fbf0f0b07c4c0a6bf3f2f038384c0a63e1d670383c4c0e6575e67010082c0944b5ade0190838186cfdb9a","lookedAt":"0707c0c0c69fbf0f0b07c4c0a6bf3f2f038384c0a63e1d670383c4c0e6575e67010082c0944b5ade0190838186cfdb9a","originalUrl":"https://asset.dr.dk/drdk/umbraco-images/zavpydco/20220906-132245-l_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29","focus":{"x":0.227,"y":1}}},{"id":"story-russia-drone-train-poland-20260915","eventKey":"russia-drone-train-poland-border-2026-09","section":"Ukraine og Europa","headline":"Russian drone hits train two km from Polish border, rail operator says","primarySourceUrl":"https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says","subheadline":"Russisk drone rammer tog nær Polens grænse minutter efter vestlige gæster","materialFacts":["En russisk drone ramte lokomotivet på et Kyiv-Warszawa-passagertog i Volyn-regionen, cirka 2 km fra NATO-medlemmet Polens grænse, den 13. september","Boris Johnson og en rådgiver for Friedrich Merz var kort forinden om bord på et tog, der forlod samme station","Ingen døde ved selve angrebet; den bredere natlige bombardering dræbte mindst tre og sårede 36 andre steder i Ukraine"],"body":["En russisk drone ramte natten til søndag et passagertogs lokomotiv nær Polens grænse i Volyn. Et varslingssystem reddede passagerer fra skade.","Minutter forinden forlod et andet tog stationen med Boris Johnson om bord. Ingen døde her, men natten dræbte mindst tre andre steder i Ukraine."],"whyItMatters":"Et angreb minutter efter fremtrædende gæster passerede stedet, skærper spørgsmålet om krigens risiko for NATO.","analysis":"Uanset om nærheden var tilsigtet, viser episoden, hvor lille margin der er til polsk jord.","topics":["ukraine","geopolitik","europa","forsvar"],"entities":["Ukrzaliznytsia","Boris Johnson","Volyn","Poland","Ukraine"],"isLead":false,"isOutsideProfile":false,"scores":{"importance":68,"decisionValue":45,"novelty":60,"sourceQuality":72,"personalRelevance":30,"contrast":50},"claims":[{"text":"En russisk drone ramte togets lokomotiv ca. 2 km fra Polens grænse; ingen døde ved selve angrebet.","sourceUrls":["https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says"],"confidence":"high"},{"text":"Boris Johnson og en Merz-rådgiver var kort forinden om bord på et tog, der forlod samme station.","sourceUrls":["https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says"],"confidence":"medium"}],"sources":[{"title":"Russian drone hits train two km from Polish border, rail operator says","publisher":"Euronews","url":"https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says","publishedAt":"2026-09-13T13:16:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/10-6d7c572d.jpg","credit":"Kilde: Euronews","alt":"Russian drone hits train two km from Polish border, rail operator says","sourceUrl":"https://www.euronews.com/my-europe/2026/09/13/russian-drone-hits-train-two-km-from-polish-border-rail-operator-says","origin":"article","fingerprint":"031f3d584bcb4e16071f7cd9c9c9cb56073f789489c9c9961f3ee0949989899f3efca5b61484149c7fe4243e14941414","lookedAt":"031f3d584bcb4e16071f7cd9c9c9cb56073f789489c9c9961f3ee0949989899f3efca5b61484149c7fe4243e14941414","originalUrl":"https://images.euronews.com/articles/stories/09/91/16/73/1200x675_cmsv2_188dced6-9f33-5b2e-8129-cbe57543e4c3-9911673.jpg","focus":{"x":0.161,"y":0}}},{"id":"story-indonesia-ferry-capsize-20260915","eventKey":"indonesia-ferry-capsize-java-sea-2026-09","section":"Katastrofe","headline":"Six dead, 129 missing as Indonesian ferry carrying more than 240 capsizes","primarySourceUrl":"https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298","subheadline":"Færge med 243 om bord kæntrede i Javahavet; eftersøgning fortsætter i høje bølger","materialFacts":["Færgen Virgo Transport 8 kæntrede i hårdt vejr i Javahavet den 13. september på vej fra Surabaya til Banjarmasin med 243 om bord","Seneste optælling: 6 bekræftet døde, 129 savnet, 108 reddet; eftersøgning hæmmet af 2,5 meter høje bølger","Det 119 meter lange skib blev bygget i Japan i 1987 og solgt til nuværende indonesiske ejer sidste år"],"body":["Færgen Virgo Transport 8 kæntrede søndag i hårdt vejr i Javahavet med 243 om bord. Seneste tal: 6 døde, 129 savnet, 108 reddet.","Det 119 meter lange skib blev bygget i Japan i 1987 og solgt til sin indonesiske operatør sidste år."],"whyItMatters":"Med over hundrede stadig savnet er dette en af regionens største skibsulykker i år, og tallet kan stige.","analysis":"Sagen føjer sig til flere sydøstasiatiske færgeulykker, hvor ældre skibe og hårdt vejr rammer overfyldte ruter.","topics":["indonesien","katastrofe","søfart","asien"],"entities":["Virgo Transport 8","PT Virgo Karya Shipping","Indonesia"],"isLead":false,"isOutsideProfile":true,"scores":{"importance":62,"decisionValue":20,"novelty":85,"sourceQuality":74,"personalRelevance":5,"contrast":45},"claims":[{"text":"Færgen kæntrede med 243 om bord; seneste tal er 6 døde, 129 savnet, 108 reddet.","sourceUrls":["https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298"],"confidence":"medium"},{"text":"Skibet var 119 meter langt, bygget i Japan i 1987 og solgt til indonesisk operatør sidste år.","sourceUrls":["https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298"],"confidence":"medium"}],"sources":[{"title":"Six dead, 129 missing as Indonesian ferry carrying more than 240 capsizes","publisher":"ABC News Australia","url":"https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298","publishedAt":"2026-09-13T10:00:00.000Z","kind":"reporting"},{"title":"6 dead, 130 missing after Indonesia ferry capsizes","publisher":"Al Jazeera","url":"https://www.aljazeera.com/news/2026/9/13/one-dead-102-rescued-after-indonesian-ferry-goes-missing-in-java-sea","publishedAt":"2026-09-13T00:00:00.000Z","kind":"reporting"}],"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/11-e1d14a20.jpg","credit":"Kilde: ABC News Australia","alt":"A ship at a dock","sourceUrl":"https://www.abc.net.au/news/2026-09-13/search-underway-for-indonesian-passenger-ship/107148298","origin":"article","fingerprint":"f9fd38ca514c7e78d9fc38cbd51ceff8ed7c3dcdb49ccdf5fd7c04c5b4b4ccedfc7c04cda6340eccfe7606ce53762bae","lookedAt":"f9fd38ca594c7e78d9fc38cbd51deff8ed7c3dcdb49ccdf5fd7c04c5b4b4ccedfc7c04cda6342eccfe7606ce63762bae","originalUrl":"https://live-production.wcms.abc-cdn.net.au/1baca07905822941d5b2391fabba686e?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=261&width=1600&height=900&imformat=generic","focus":{"x":0.1,"y":0}}}],"signals":[{"text":"Wall Street ends down, calls for AI slowdown pummel chipmakers","headline":"Wall Street ends down, calls for AI slowdown pummel chipmakers","summary":"Nvidia faldt 3,4%, Broadcom og AMD over 4%, og Micron over 5%, efter at AI-topchefer inklusive Amodei krævede opbremsning i udviklingen.","publisher":"GV Wire","section":"Marked","publishedAt":"2026-09-14T21:00:00.000Z","url":"https://gvwire.com/2026/09/14/wall-street-falls-as-ai-anxiety-batters-nvidia-chipmakers/","topics":["ai","aktier","usa"]},{"text":"11,8 procent består ikke folkeskolens afgangsprøve i dansk og matematik","headline":"11,8 procent består ikke folkeskolens afgangsprøve i dansk og matematik","summary":"Andelen af niendeklasser, der ikke består dansk og matematik, er det højeste niveau siden 2012, op fra 9 procent for ti år siden.","publisher":"Undervisningsministeriet/Ritzau","section":"Uddannelse","publishedAt":"2026-09-14T09:00:00.000Z","url":"https://via.ritzau.dk/pressemeddelelse/15160389/118-procent-bestar-ikke-folkeskolens-afgangsprove-i-dansk-og-matematik?lang=da","topics":["danmark","uddannelse"]},{"text":"Attack on Norwegian Parliament website: pro-Russian hackers claim responsibility","headline":"Attack on Norwegian Parliament website: pro-Russian hackers claim responsibility","summary":"Gruppen 'Server Killers' lagde Stortingets hjemmeside delvist ned i tre timer og siger, det er hævn for en norsk drone-aftale med Ukraine.","publisher":"Moja Norwegia","section":"Cybersikkerhed","publishedAt":"2026-09-14T15:00:00.000Z","url":"https://www.mojanorwegia.pl/en/attack-on-norwegian-parliament-website-prorussian-hackers-claim-responsibility-30569.html","topics":["cybersikkerhed","norge","rusland"]},{"text":"Kran er væltet ned i ejendom","headline":"Kran er væltet ned i ejendom","summary":"En 80 ton tung pælekran væltede ned i en ejendom ved Torvet i Silkeborg under byggearbejde; ingen kom til skade.","publisher":"TV2 Østjylland","section":"Indland","publishedAt":"2026-09-14T15:00:00.000Z","url":"https://www.tv2ostjylland.dk/silkeborg/kran-er-vaeltet-ned-i-ejendom-ac9c0","topics":["danmark"]},{"text":"Novo to Disclose 'Next Chapter' at Sept. 15 Employee Event","headline":"Novo to Disclose 'Next Chapter' at Sept. 15 Employee Event","summary":"Novo Nordisk holdt mandag et personalemøde om selskabets fremtid forud for en strategipræsentation for investorer den 21. september.","publisher":"Bloomberg","section":"Erhverv","publishedAt":"2026-09-15T08:00:00.000Z","url":"https://www.bloomberg.com/news/articles/2026-09-11/novo-to-disclose-next-chapter-at-sept-15-employee-event","topics":["danmark","erhverv"]},{"text":"NASA Welcomes Djibouti as Newest Artemis Accords Signatory","headline":"NASA Welcomes Djibouti as Newest Artemis Accords Signatory","summary":"Djibouti blev det 72. land og ottende afrikanske land til at underskrive Artemis-aftalerne om fredelig rumudforskning.","publisher":"NASA","section":"Rummet","publishedAt":"2026-09-14T00:00:00.000Z","url":"https://www.nasa.gov/organizations/oiir/artemis-accords/nasa-welcomes-djibouti-as-newest-artemis-accords-signatory/","topics":["rummet","afrika"]},{"text":"Holger Rune to return from injury at upcoming Davis Cup tie","headline":"Holger Rune to return from injury at upcoming Davis Cup tie","summary":"Rune vender efter 11 måneders skadespause tilbage i Davis Cup, når Danmark møder Bulgarien 18.-20. september.","publisher":"ATP Tour","section":"Sport","publishedAt":"2026-09-13T00:00:00.000Z","url":"https://www.atptour.com/en/news/rune-return-davis-cup-2026-september","topics":["sport","danmark"]},{"text":"The Gemini desktop app is now available for Windows","headline":"The Gemini desktop app is now available for Windows","summary":"Google har lanceret en Gemini-app til Windows med genvejen Alt+Space, der giver adgang til AI-hjælp direkte i andre programmer.","publisher":"Google Workspace Updates","section":"AI","publishedAt":"2026-09-11T00:00:00.000Z","url":"https://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html","topics":["ai"]},{"text":"Fashion designer Bob Mackie, who dressed Cher and Madonna, dies","headline":"Fashion designer Bob Mackie, who dressed Cher and Madonna, dies","summary":"Kostumedesigneren, kendt for sit arbejde for blandt andre Cher og Madonna, er død.","publisher":"AP","section":"Kultur","publishedAt":"2026-09-14T12:00:00.000Z","url":"https://www.dr.dk/","topics":["kultur","usa"]}],"keyNumber":{"label":"Danske elpriser, gennemsnit for måneden indtil videre","indicator":"dk-elpris-maaned-gennemsnit","value":"1,00+","unit":"kr./kWh","asOf":"1.-14. september 2026","caption":"September er på vej mod at blive den dyreste el-måned siden energikrisen i 2022, drevet af høje gaspriser og lav vindproduktion.","sourceUrl":"https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar","sourceTitle":"Prisen på el rammer højeste niveau i næsten to år"},"column":{"authoredBy":"ai","slug":"reguleringen-bag-fusionen","title":"Reguleringen bag fusionen","thesis":"Intet fusionsanlæg leverer strøm til et net før 2035 — flaskehalsen er nu kø, ikke plasmafysik.","horizon":"2035, aflæst i nettilslutning","body":["NRC lempede i 2023 fusionsreglerne under fissionsniveau. Commonwealth Fusion søgte i 2026 om nettilslutning — en kø branchen sætter til 4-6 år."],"uncertainty":"Tesen svækkes, hvis et kommercielt fusionsanlæg opnår faktisk nettilslutning før 2035, eller hvis en fremtidig sag viser, at plasmafysikken, ikke køen, var den reelle flaskehals.","topics":["energi","deeptech","regulering"],"claims":[{"text":"NRC besluttede i 2023 at regulere fusionsanlæg under den lempeligere byproduct-materials-ramme (10 CFR del 30) frem for fissionsrammen.","sourceUrls":["https://www.nrc.gov/cdn/doc-collection-news/2023/23-029.pdf"],"confidence":"high"},{"text":"Commonwealth Fusion søgte i 2026 om nettilslutning til PJM for sit første ARC-anlæg; en sammenlignelig køproces tager typisk fire til seks år.","sourceUrls":["https://www.eenews.net/articles/in-a-first-fusion-company-applies-for-us-grid-connection/"],"confidence":"medium"}],"sources":[{"title":"NRC to Regulate Fusion Energy Systems Based on Radiological Hazard","publisher":"NRC","url":"https://www.nrc.gov/cdn/doc-collection-news/2023/23-029.pdf","publishedAt":"2023-04-11T00:00:00.000Z","kind":"primary"},{"title":"In a first, fusion company applies for US grid connection","publisher":"E&E News / Politico","url":"https://www.eenews.net/articles/in-a-first-fusion-company-applies-for-us-grid-connection/","publishedAt":"2026-06-07T00:00:00.000Z","kind":"reporting"}]},"recommendations":[{"id":"rec-amodei-pace-the-frontier-20260915","tier":"featured","mode":"read","kind":"Essay","status":"new","title":"We Must Pace the Frontier","creator":"Dario Amodei","provider":"darioamodei.com","url":"https://darioamodei.com/post/we-must-pace-the-frontier","availability":"Frit tilgængeligt online","commitment":"15 min","description":"Amodeis eget essay fra 12. september argumenterer for bevidst at bremse AI-udviklingens tempo, med et konkret trepunktsforslag om uafhængige evaluatorer, fælles sikkerhedsstandarder og koordination mellem demokratiske og autoritære stater.","rationale":"Dette essay er den primære tekst bag dagens største historie: Trumps afvisning, Sanders og Bannons fælles optræden og Kinas interne modsigelse reagerer alle på netop dette argument. At læse Amodeis egne ord, ikke omtalen af dem, giver et grundlag at have en selvstændig holdning fra, fremfor kun at kende reaktionerne på det.","topics":["ai","ai-sikkerhed","magt"],"isFeatured":true,"image":{"url":"https://abustrup.github.io/alexanders-brief/img/2026-09-15/r01-890421cf.jpg","credit":"Kilde: Anthropic","alt":"Dario Amodei, adm. direktør for Anthropic","sourceUrl":"https://www.anthropic.com/company/leadership","lookedAt":"59d96968d9cbccc5d9194948f98bcec49959d9ccb8898fc699d9d8cca8adaf8ebcdd5ccc28242d2ddc9c9ecc6c706c6d","originalUrl":"https://www-cdn.anthropic.com/images/4zrzovbb/website/e52eaed407e2469b9cab13568db623aa01877f64-640x800.jpg","focus":{"x":0.5,"y":1}}},{"id":"rec-rawls-ai-fairness-20260915","tier":"short","mode":"read","kind":"Essay","status":"new","title":"Can Rawls' political philosophy help us fix AI fairness?","creator":"James C. O'Sullivan","provider":"Substack","url":"https://jamescosullivan.substack.com/p/rawls-ai-fairness","commitment":"12 min","note":"Analytisk/Rawlsiansk politisk filosofi, som slet ikke findes i din læsehistorik: argumenterer for, at AI-systemer bør bedømmes som del af samfundets 'grundstruktur', ikke kun ud fra individuelle valg.","topics":["filosofi","ai","regulering"],"isFeatured":false},{"id":"rec-deepseek-v41-flash-20260915","tier":"short","mode":"try","kind":"Model","status":"new","title":"DeepSeek V4.1-Flash","creator":"DeepSeek","provider":"Ollama","url":"https://ollama.com/library/deepseek-v4.1-flash","commitment":"10 min","note":"MIT-licenseret åben model, der kan køres lokalt via Ollama; en konkret måde at mærke, hvor langt open source er fra frontier-modellerne lige nu.","topics":["ai"],"isFeatured":false},{"id":"rec-nber-ai-labor-forecast-20260915","tier":"short","mode":"read","kind":"Paper","status":"new","title":"Forecasting the Economic Effects of AI","creator":"Ezra Karger","provider":"NBER","url":"https://www.nber.org/system/files/working_papers/w35046/w35046.pdf","commitment":"30 min","note":"Primærforskning om AI og beskæftigelse i AI-eksponerede fag, et af de områder, du selv har bedt om at få mere af.","topics":["ai","økonomi"],"isFeatured":false},{"id":"rec-pro-human-declaration-20260915","tier":"short","mode":"read","kind":"Document","status":"available","title":"The Pro-Human AI Declaration","provider":"Future of Life Institute","url":"https://futureoflife.org/wp-content/uploads/2026/01/pro-human-ai-declaration.pdf","commitment":"8 min","note":"De 33 principper bag dagens Sanders-Bannon-koalition i original form, ikke kun omtalen af mødet.","topics":["ai","politik"],"isFeatured":false},{"id":"rec-zvi-pace-the-frontier-analysis-20260915","tier":"short","mode":"read","kind":"Essay","status":"new","title":"We Must Pace The Frontier","creator":"Zvi Mowshowitz","provider":"Don't Worry About the Vase","url":"https://thezvi.wordpress.com/2026/09/14/we-must-pace-the-frontier/","commitment":"20 min","note":"Tæt, sætning-for-sætning-analyse af Amodeis essay i det Stratechery-nære register, du har opsøgt før.","topics":["ai","ai-sikkerhed"],"isFeatured":false},{"id":"rec-willison-openrouter-20260915","tier":"short","mode":"read","kind":"Essay","status":"new","title":"So you want to use OpenRouter?","creator":"Simon Willison","provider":"simonwillison.net","url":"https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/","commitment":"10 min","note":"En praktikers vejledning til at bruge flere AI-modeller gennem ét API, fra en kilde, der tester værktøjer i stedet for blot at referere lanceringer.","topics":["ai"],"isFeatured":false},{"id":"rec-chalmers-quantum-lattice-gates-20260915","tier":"short","mode":"read","kind":"Article","status":"new","title":"Chalmers Researchers Make Bosonic Quantum Operations More Than 1,000 Times Faster","provider":"The Quantum Insider","url":"https://thequantuminsider.com/2026/09/10/chalmers-researchers-faster-bosonic-quantum-operations/","commitment":"8 min","note":"Et konkret kvante-fejlkorrektionsresultat, der ellers faldt uden for dagens nyhedsvindue, men fortjener at blive læst alligevel.","topics":["quantum","videnskab"],"isFeatured":false}],"quality":{"sourceCoverage":92,"freshness":88,"novelty":82,"perspectiveBalance":78,"render":100}};</script>
   <script>globalThis.__BRIEF_CONFIG__ = {"links":{"daily":"./index.html","weekly":"./week.html","monthly":"./month.html","yearly":"./year.html","archive":"./archive/index.html"},"edition":"daily","feedbackUrl":"https://script.google.com/macros/s/AKfycbzN4QWK4xRbIbBMPZIKNujiTCPWF7uWF8BhZNn7RGSLWDMtrclaL35emdPvWh6kV6AL6A/exec"};</script>
   <script type="module">"use strict";
 (() => {
@@ -3033,6 +3168,29 @@ button { font: inherit; }
     }
   }
 
+  // src/web/render/storyGrid.js
+  function wideCardIndexes(hasPicture) {
+    const wide = /* @__PURE__ */ new Set();
+    let rowOpen = false;
+    hasPicture.forEach((picture, index) => {
+      if (picture) {
+        rowOpen = !rowOpen;
+        return;
+      }
+      if (rowOpen) wide.add(index - 1);
+      wide.add(index);
+      rowOpen = false;
+    });
+    if (rowOpen) wide.add(hasPicture.length - 1);
+    return wide;
+  }
+  function arrangeStoryGrid(grid) {
+    if (!grid) return;
+    const cards = [...grid.children].filter((card) => card.classList.contains("story-card"));
+    const wide = wideCardIndexes(cards.map((card) => !card.classList.contains("story-text-only")));
+    cards.forEach((card, index) => card.classList.toggle("story-wide", wide.has(index)));
+  }
+
   // src/web/render/media.js
   function primarySourceFor(story) {
     return story.sources.find((source) => source.url === story.primarySourceUrl) ?? story.sources[0];
@@ -3044,32 +3202,32 @@ button { font: inherit; }
     }).format(new Date(source.publishedAt));
     return `${source.publisher} \xB7 ${date}`;
   }
+  function focusPosition(image) {
+    const focus = image?.focus;
+    const ok = (value) => typeof value === "number" && Number.isFinite(value) && value >= 0 && value <= 1;
+    if (!focus || !ok(focus.x) || !ok(focus.y)) return null;
+    return `${(focus.x * 100).toFixed(1)}% ${(focus.y * 100).toFixed(1)}%`;
+  }
   function renderMedia(story, primary) {
+    if (!story.image) return null;
     const media = element("figure", "story-media");
-    if (!story.image) {
-      media.classList.add("media-fallback");
-      media.setAttribute("aria-hidden", "true");
-      media.append(element("span", "media-fallback-label", story.section));
-      return media;
-    }
     const image = document.createElement("img");
     image.src = story.image.url;
     image.alt = story.image.alt ?? "";
     image.loading = story.isLead ? "eager" : "lazy";
     image.referrerPolicy = "no-referrer";
+    const focus = focusPosition(story.image);
+    if (focus) media.style.setProperty("--focus", focus);
     if (!story.image.alt) media.setAttribute("aria-hidden", "true");
     const imageLink = externalLink("story-media-link", void 0, primary.url);
     imageLink.setAttribute("aria-label", `L\xE6s originalartiklen \u2013 ${story.headline}`);
     imageLink.append(image);
     const credit = story.image.sourceUrl ? externalLink("image-credit", story.image.credit, story.image.sourceUrl) : element("span", "image-credit", story.image.credit);
     image.addEventListener("error", () => {
-      imageLink.remove();
-      credit.remove();
-      media.classList.add("media-fallback");
-      media.removeAttribute("aria-hidden");
-      media.setAttribute("role", "img");
-      media.setAttribute("aria-label", `${story.section} \u2013 billede kunne ikke indl\xE6ses`);
-      media.append(element("span", "media-fallback-label", story.section));
+      const article = media.closest("article");
+      article?.classList.add("story-text-only");
+      media.remove();
+      if (article?.parentElement?.classList.contains("story-grid")) arrangeStoryGrid(article.parentElement);
     });
     media.append(imageLink, credit);
     return media;
@@ -3108,6 +3266,10 @@ button { font: inherit; }
   var RATING_MORE_THRESHOLD = 6;
   function ratingDirection(rating) {
     return rating >= RATING_MORE_THRESHOLD ? "more" : "less";
+  }
+  var NOUN = { story: "historien", recommendation: "anbefalingen", signal: "signalet" };
+  function contentNoun(contentType) {
+    return NOUN[contentType] ?? NOUN.story;
   }
   function feedbackStorageKey(storyId, contentType = "story") {
     return contentType === "recommendation" ? `brief-feedback:recommendation:${storyId}` : `brief-feedback:${storyId}`;
@@ -3171,10 +3333,7 @@ button { font: inherit; }
   function renderRatingScale(storyId, contentType, revealed) {
     const scale = element("div", "rating-scale");
     scale.setAttribute("role", "radiogroup");
-    scale.setAttribute(
-      "aria-label",
-      contentType === "recommendation" ? "Udbytte af anbefalingen, valgfri, fra 1 til 10" : "Udbytte af historien, valgfri, fra 1 til 10"
-    );
+    scale.setAttribute("aria-label", `Udbytte af ${contentNoun(contentType)}, valgfri, fra 1 til 10`);
     for (let value = RATING_MIN; value <= RATING_MAX; value += 1) {
       const step = element("button", "rating-step", String(value));
       step.type = "button";
@@ -3192,12 +3351,10 @@ button { font: inherit; }
     setRatingRevealed(scale, revealed);
     return scale;
   }
-  function renderFeedback(storyId, contentType = "story") {
+  function renderFeedback(storyId, contentType = "story", name = "") {
     const section = element("section", "feedback-panel");
-    section.setAttribute(
-      "aria-label",
-      contentType === "recommendation" ? "Din reaktion p\xE5 anbefalingen" : "Din reaktion p\xE5 historien"
-    );
+    const label = `Din reaktion p\xE5 ${contentNoun(contentType)}`;
+    section.setAttribute("aria-label", name ? `${label}: ${name}` : label);
     const controls = element("div", "feedback-controls");
     const actions = element("div", "feedback-actions");
     for (const [direction, title, ariaLabel] of FEEDBACK_BUTTONS) {
@@ -3358,6 +3515,42 @@ button { font: inherit; }
     return panel;
   }
 
+  // src/domain/signalId.ts
+  var SIGNAL_ID_PREFIX = "signal-";
+  function cyrb53(text) {
+    let h1 = 3735928559;
+    let h2 = 1103547991;
+    for (let i = 0; i < text.length; i += 1) {
+      const code = text.charCodeAt(i);
+      h1 = Math.imul(h1 ^ code, 2654435761);
+      h2 = Math.imul(h2 ^ code, 1597334677);
+    }
+    h1 = Math.imul(h1 ^ h1 >>> 16, 2246822507);
+    h1 ^= Math.imul(h2 ^ h2 >>> 13, 3266489909);
+    h2 = Math.imul(h2 ^ h2 >>> 16, 2246822507);
+    h2 ^= Math.imul(h1 ^ h1 >>> 13, 3266489909);
+    return 4294967296 * (2097151 & h2) + (h1 >>> 0);
+  }
+  var hashId = (text) => `${SIGNAL_ID_PREFIX}${cyrb53(text).toString(36).padStart(11, "0")}`;
+  function signalIdFrom(url, headline) {
+    return hashId(`${String(url).trim()}
+${String(headline).trim()}`);
+  }
+  var str = (value) => typeof value === "string" ? value : void 0;
+  function signalId(signal) {
+    if (typeof signal.id === "string" && signal.id.startsWith(SIGNAL_ID_PREFIX)) return signal.id;
+    return signalIdFrom(str(signal.url) ?? "", str(signal.headline) ?? str(signal.text) ?? "");
+  }
+  function signalIds(signals) {
+    const seen = /* @__PURE__ */ new Map();
+    return signals.map((signal) => {
+      const base = signalId(signal ?? {});
+      const count = (seen.get(base) ?? 0) + 1;
+      seen.set(base, count);
+      return count === 1 ? base : `${base}-${count}`;
+    });
+  }
+
   // src/web/render/readLater.js
   var STORAGE_KEY = "brief-read-later";
   var MAX_ITEMS = 50;
@@ -3508,6 +3701,7 @@ button { font: inherit; }
     }
     const excerpt = renderPrimaryExcerpt(story.primaryExcerpt);
     if (excerpt) parts.push(excerpt);
+    const footer = element("div", "story-footer");
     const actions = element("div", "story-actions");
     actions.append(externalLink(
       "primary-source-link",
@@ -3515,14 +3709,15 @@ button { font: inherit; }
       primary.url
     ));
     actions.append(renderSaveButton(story, primary.url));
-    parts.push(actions);
+    footer.append(actions);
     const supportingSources = renderSources(
       story.sources.filter((source) => source.url !== primary.url)
     );
-    if (supportingSources) parts.push(supportingSources);
+    if (supportingSources) footer.append(supportingSources);
     const discovery = renderDiscovery(story.discoveredVia);
-    if (discovery) parts.push(discovery);
-    parts.push(renderFeedback(story.id));
+    if (discovery) footer.append(discovery);
+    footer.append(renderFeedback(story.id, "story", story.headline));
+    parts.push(footer);
     return parts;
   }
   function renderStory(story) {
@@ -3530,12 +3725,14 @@ button { font: inherit; }
     article.dataset.storyId = story.id;
     article.dataset.lead = String(story.isLead);
     const primary = primarySourceFor(story);
+    const media = renderMedia(story, primary);
+    if (!media) article.classList.add("story-text-only");
     const byline = element("p", "story-byline", shortPublisherDate(primary));
     const headline = element(story.isLead ? "h2" : "h3", "story-headline");
     headline.append(externalLink("headline-link", story.headline, primary.url));
     const subheadline = element("p", "story-subheadline", story.subheadline);
     article.append(
-      renderMedia(story, primary),
+      ...media ? [media] : [],
       renderStoryEyebrow(story),
       byline,
       headline,
@@ -3544,12 +3741,20 @@ button { font: inherit; }
     );
     return article;
   }
-  function renderSignal(signal) {
+  function renderSignal(signal, position = 0, list = [signal]) {
     const item = element("article", "signal-item");
+    const id = signalIds(list)[position] ?? signalIds([signal])[0];
+    item.dataset.storyId = id;
+    item.dataset.contentType = "signal";
     const meta = [signal.section, signal.publisher].filter(Boolean).join(" \xB7 ");
     if (meta) item.append(element("p", "signal-meta", meta));
-    item.append(externalLink("signal-link", signal.headline ?? signal.text, signal.url));
+    const title = signal.headline ?? signal.text;
+    const link = externalLink("signal-link", title, signal.url);
+    link.id = `${id}-title`;
+    item.setAttribute("aria-labelledby", link.id);
+    item.append(link);
     if (signal.summary) item.append(element("p", "signal-summary", signal.summary));
+    item.append(renderFeedback(id, "signal", title));
     return item;
   }
 
@@ -3845,6 +4050,8 @@ button { font: inherit; }
     if (lead.image) {
       const media = element("div", "mag-hero-media");
       media.style.backgroundImage = `url("${lead.image.url}")`;
+      const focus = focusPosition(lead.image);
+      if (focus) media.style.setProperty("--focus", focus);
       hero.append(media);
       if (lead.image.credit) hero.append(element("span", "image-credit mag-hero-credit", lead.image.credit));
     }
@@ -3887,12 +4094,13 @@ button { font: inherit; }
   }
   function signalsList(signals) {
     const list = element("div", "mag-signals-grid");
-    signals.forEach((signal) => list.append(renderSignal(signal)));
+    signals.forEach((signal, position) => list.append(renderSignal(signal, position, signals)));
     return list;
   }
   function storyGrid(stories) {
     const grid = element("div", "story-grid");
     stories.forEach((story) => grid.append(renderStory(story)));
+    arrangeStoryGrid(grid);
     return grid;
   }
   function keyNumberBand(keyNumber) {
@@ -3947,13 +4155,8 @@ button { font: inherit; }
     const lead = stories.find((story) => story.isLead) ?? stories[0];
     const rest = stories.filter((story) => story !== lead);
     const signals = brief.signals ?? [];
-    const leadSignals = signals.slice(0, 4);
-    const shortNews = signals.slice(4);
     if (lead) {
       main.append(heroSection(lead), readingColumn(lead));
-    }
-    if (leadSignals.length) {
-      main.append(band("mag-signals", [element("h2", "mag-band-title", "Dagens signaler"), signalsList(leadSignals)]));
     }
     if (rest.length) {
       const [featured, ...others] = rest;
@@ -3966,13 +4169,11 @@ button { font: inherit; }
       if (others.length) children.push(storyGrid(others));
       main.append(constrained("mag-stories", children));
     }
-    if (shortNews.length) {
-      const grid = element("div", "short-news");
-      shortNews.forEach((signal) => grid.append(renderSignal(signal)));
-      main.append(constrained("mag-shortnews", [element("h2", "section-heading", "Kort fortalt"), grid]));
-    }
     if (brief.keyNumber) {
       main.append(keyNumberBand(brief.keyNumber));
+    }
+    if (signals.length) {
+      main.append(band("mag-signals", [element("h2", "mag-band-title", "Dagens signaler"), signalsList(signals)]));
     }
     if (brief.column) {
       main.append(klummeBand(brief.column));
@@ -4006,6 +4207,8 @@ button { font: inherit; }
     img.alt = image.alt ?? "";
     img.loading = eager ? "eager" : "lazy";
     img.referrerPolicy = "no-referrer";
+    const focus = focusPosition(image);
+    if (focus) media.style.setProperty("--focus", focus);
     img.addEventListener("error", () => media.remove());
     media.append(img);
     if (badge) media.append(element("span", "feed-badge", badge));
@@ -4031,7 +4234,7 @@ button { font: inherit; }
     body.append(externalLink("feed-cta", "L\xE6s originalen \u2197", primary.url));
     const heroDiscovery = renderDiscovery(lead.discoveredVia);
     if (heroDiscovery) body.append(heroDiscovery);
-    body.append(renderFeedback(lead.id));
+    body.append(renderFeedback(lead.id, "story", lead.headline));
     card.append(body);
     return card;
   }
@@ -4051,14 +4254,14 @@ button { font: inherit; }
     if (sources) body.append(sources);
     const discovery = renderDiscovery(story.discoveredVia);
     if (discovery) body.append(discovery);
-    body.append(renderFeedback(story.id));
+    body.append(renderFeedback(story.id, "story", story.headline));
     card.append(body);
     return card;
   }
   function listCard(title, signals) {
     const card = element("section", "feed-card feed-list");
     card.append(element("h2", "feed-list-title", title));
-    signals.forEach((signal) => card.append(renderSignal(signal)));
+    signals.forEach((signal, position) => card.append(renderSignal(signal, position, signals)));
     return card;
   }
   function keyNumberCard(keyNumber) {
@@ -4104,8 +4307,6 @@ button { font: inherit; }
     const lead = stories.find((story) => story.isLead) ?? stories[0];
     const rest = stories.filter((story) => story !== lead);
     const signals = brief.signals ?? [];
-    const leadSignals = signals.slice(0, 4);
-    const shortNews = signals.slice(4);
     const appBar = element("header", "feed-appbar");
     const top = element("div", "feed-appbar-top");
     top.append(element("span", "feed-logo", "AN"));
@@ -4147,9 +4348,8 @@ button { font: inherit; }
     if (lead) column.append(heroCard(lead));
     column.append(storyWrap);
     renderStories();
-    if (leadSignals.length) column.append(listCard("Dagens signaler", leadSignals));
-    if (shortNews.length) column.append(listCard("Kort fortalt", shortNews));
     if (brief.keyNumber) column.append(keyNumberCard(brief.keyNumber));
+    if (signals.length) column.append(listCard("Dagens signaler", signals));
     if (brief.column) column.append(klummeCard(brief.column));
     if (brief.recommendations?.length) column.append(recommendationCards(brief.recommendations));
     const readLater = element("section", "read-later");
@@ -4256,6 +4456,7 @@ button { font: inherit; }
       moreGrid.replaceChildren(
         ...stories.filter((story) => !story.isLead).map(renderStory)
       );
+      arrangeStoryGrid(moreGrid);
     }
     const numbers = document.querySelector(selectors.numbers);
     const numbersSection = document.querySelector(selectors.numbersSection);
@@ -4397,75 +4598,23 @@ button { font: inherit; }
       klummeSlot.hidden = !klummePanel;
     }
     const leadContainer = document.querySelector("#lead-story");
+    const leadSection = document.querySelector("#lead-section");
     const storyGrid2 = document.querySelector("#story-grid");
-    const leadSignals = document.querySelector("#lead-signals");
-    const shortNews = document.querySelector("#short-news");
-    const shortNewsSection = document.querySelector("#short-news-section");
+    const signals = document.querySelector("#signals");
+    const signalsSection = document.querySelector("#signals-section");
     leadContainer.replaceChildren();
     storyGrid2.replaceChildren();
-    leadSignals.replaceChildren(element("h2", "signals-title", "Morgenens signaler"));
-    shortNews.replaceChildren();
     for (const story of brief.stories) {
       (story.isLead ? leadContainer : storyGrid2).append(renderStory(story));
     }
-    for (const signal of brief.signals) leadSignals.append(renderSignal(signal));
-    shortNewsSection.hidden = true;
+    arrangeStoryGrid(storyGrid2);
+    if (leadSection) leadSection.hidden = leadContainer.childElementCount === 0;
+    if (signals && signalsSection) {
+      signals.replaceChildren(...(brief.signals ?? []).map(renderSignal));
+      signalsSection.hidden = signals.childElementCount === 0;
+    }
     renderRecommendations(brief.recommendations);
     renderQualityFooter(brief.quality);
-    scheduleSignalBalance();
-  }
-  var SHORT_NEWS_MINIMUM = 3;
-  function railOverflowCount(itemHeights, budget) {
-    if (!itemHeights.length) return 0;
-    let rail = 0;
-    let best = null;
-    for (let kept = 1; kept <= itemHeights.length; kept += 1) {
-      rail += itemHeights[kept - 1];
-      const move = itemHeights.length - kept;
-      if (move !== 0 && move < SHORT_NEWS_MINIMUM) continue;
-      const distance = Math.abs(rail - budget);
-      if (best === null || distance < best.distance) best = { move, distance };
-    }
-    return best === null ? 0 : best.move;
-  }
-  function balanceSignalRail() {
-    const lead = document.querySelector("#lead-story");
-    const rail = document.querySelector("#lead-signals");
-    const shortNews = document.querySelector("#short-news");
-    const shortNewsSection = document.querySelector("#short-news-section");
-    if (!lead || !rail || !shortNews || !shortNewsSection) return;
-    for (const item of [...shortNews.querySelectorAll(".signal-item")]) rail.append(item);
-    const items = [...rail.querySelectorAll(".signal-item")];
-    const leadBox = lead.getBoundingClientRect?.() ?? { height: 0, right: 0 };
-    const railBox = rail.getBoundingClientRect?.() ?? { height: 0, left: 0, top: 0 };
-    const title = rail.querySelector(".signals-title");
-    const titleHeight = title?.getBoundingClientRect?.().height ?? 0;
-    const besideTheLead = railBox.left >= leadBox.right - 1;
-    if (!leadBox.height || !items.length || !besideTheLead) {
-      shortNewsSection.hidden = true;
-      return;
-    }
-    const heights = items.map((item) => item.getBoundingClientRect().height);
-    const move = railOverflowCount(heights, leadBox.height - titleHeight);
-    if (move > 0) shortNews.append(...items.slice(items.length - move));
-    shortNewsSection.hidden = move === 0;
-  }
-  var balanceFrame = null;
-  function scheduleSignalBalance() {
-    if (typeof requestAnimationFrame !== "function") return;
-    if (balanceFrame !== null) cancelAnimationFrame(balanceFrame);
-    balanceFrame = requestAnimationFrame(() => {
-      balanceFrame = null;
-      balanceSignalRail();
-    });
-  }
-  if (typeof window !== "undefined" && typeof window.addEventListener === "function") {
-    window.addEventListener("resize", () => {
-      if (document.querySelector("#lead-signals")) scheduleSignalBalance();
-    });
-    document.fonts?.ready?.then?.(() => {
-      if (document.querySelector("#lead-signals")) scheduleSignalBalance();
-    });
   }
   var statusTimer = null;
   function setFeedbackStatus(text) {
@@ -4643,7 +4792,7 @@ button { font: inherit; }
     return true;
   }
   function ratingRevealedMessage(button) {
-    const what = button.closest("article")?.dataset.contentType === "recommendation" ? "anbefalingen" : "historien";
+    const what = contentNoun(button.closest("article")?.dataset.contentType);
     return `Du kan nu give ${what} et udbytte fra 1 til 10.`;
   }
   async function selectRating(step, transport) {
