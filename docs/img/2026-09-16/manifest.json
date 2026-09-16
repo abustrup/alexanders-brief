@@ -1,0 +1,208 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-16",
+  "generatedAt": "2026-09-16T04:45:31.176Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-meta-zuckerberg-ai-pacing-debate-2026-09",
+      "headline": "OpenAI, Anthropic, Google have been in talks on AI safety for weeks",
+      "source": "https://static01.nyt.com/images/2026/09/15/multimedia/15zuckerberg-pbvz/15zuckerberg-pbvz-videoSixteenByNine3000.jpg",
+      "article": "https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks/",
+      "hosted": "01-68d5439a.jpg",
+      "srcSize": "3000x1688",
+      "srcFormat": "jpeg",
+      "srcBytes": 604467,
+      "out": "1600x1200",
+      "bytes": 143846,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.701,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-16T04:45:31.893Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-saudi-eastwest-pipeline-attack-2026-09",
+      "headline": "Saudi Arabia shuts critical oil pipeline after drone attack: What it means",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-12T083435Z_365207060_RC2JHNATPGAI_RTRMADP_3_IRAN-CRISIS-SAUDI-PIPELINE-SATELLITE-BEFORE-AFTER-1789207310.jpg?resize=1200%2C675",
+      "article": "https://www.aljazeera.com/news/2026/9/12/saudi-arabia-shuts-critical-oil-pipeline-after-drone-attack-what-happened",
+      "hosted": "02-6e7bedc9.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 138342,
+      "out": "1012x675",
+      "bytes": 105847,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.623,
+        "y": 0.007
+      },
+      "fetchedAt": "2026-09-16T04:45:32.220Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-china-cancel-xi-trump-summit-taiwan-arms-2026-09",
+      "headline": "China threatens US meeting over arms sales",
+      "source": "https://img.taipeitimes.com/images/2026/09/13/p02-260913-320.jpg",
+      "article": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/13/2003864183",
+      "hosted": "03-232b6212.jpg",
+      "srcSize": "800x534",
+      "srcFormat": "jpeg",
+      "srcBytes": 57983,
+      "out": "800x533",
+      "bytes": 52012,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.482,
+        "y": 0.025
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-16T04:45:32.547Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-us-senate-clarity-act-blocked-2026-09",
+      "headline": "Crypto Clarity Act Fails: List of Senate Republicans Voting With Democrats",
+      "source": "https://assets.newsweek.com/wp-content/uploads/2026/09/AP26104631964122.jpg?w=1200&crop=1",
+      "article": "https://www.newsweek.com/crypto-clarity-act-fails-senate-republicans-vote-with-democrats-12447024",
+      "hosted": "04-b775b248.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 58794,
+      "out": "1200x800",
+      "bytes": 78399,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-16T04:45:33.775Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-sweden-election-2026-final-result",
+      "headline": "Sweden's centre-left edges ahead by three seat in preliminary results",
+      "source": "https://images.euronews.com/articles/stories/09/91/15/29/1200x675_cmsv2_9eeb8734-0ded-500f-a824-c1482c9334fb-9911529.jpg",
+      "article": "https://www.euronews.com/my-europe/2026/09/14/sweden-votes-in-tight-election-as-far-right-eyes-historic-breakthrough",
+      "hosted": "05-d5570fdd.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 225632,
+      "out": "1012x675",
+      "bytes": 192120,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.707
+      },
+      "fetchedAt": "2026-09-16T04:45:34.302Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-openai-preipo-1point2t-2026-09",
+      "headline": "OpenAI Weighs Funding Round At Over $1.2 Trillion Valuation",
+      "source": "https://static01.nyt.com/images/2026/09/15/multimedia/15db-openai-funding-pczb/15db-openai-funding-pczb-facebookJumbo.jpg",
+      "article": "https://www.marketscreener.com/news/openai-weighs-funding-round-at-over-1-2-trillion-valuation-ce785bd2d98cf527",
+      "hosted": "06-7888af64.jpg",
+      "srcSize": "1050x550",
+      "srcFormat": "jpeg",
+      "srcBytes": 120458,
+      "out": "825x550",
+      "bytes": 57179,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.334,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-16T04:45:34.546Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-dk-mobile-ban-schools-pisa-2026-09",
+      "headline": "Regeringens svar på Pisa: Totalforbud mod mobiltelefoner i skolen og en ny trepart",
+      "source": "https://www.folkeskolen.dk/wp-content/uploads/2026/09/10/0h6a3095.jpg",
+      "article": "https://www.folkeskolen.dk/regeringens-svar-paa-pisa-totalforbud-mod-mobiltelefoner-i-skolen-og-en-ny-trepart/",
+      "hosted": "07-825fc3d1.jpg",
+      "srcSize": "1720x1147",
+      "srcFormat": "jpeg",
+      "srcBytes": 154126,
+      "out": "1600x1067",
+      "bytes": 111714,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.527,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-16T04:45:35.436Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-bessent-ai-liability-no-exemption-2026-09",
+      "headline": "Treasury's Scott Bessent says no liability exemptions for AI labs",
+      "source": "https://fedscoop.com/wp-content/uploads/sites/5/2026/09/GettyImages-2295432843.jpg",
+      "article": "https://fedscoop.com/treasury-scott-bessent-ai-labs-liability-exemptions/",
+      "hosted": "08-eb921c79.jpg",
+      "srcSize": "1024x683",
+      "srcFormat": "jpeg",
+      "srcBytes": 98600,
+      "out": "1024x683",
+      "bytes": 59946,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.684,
+        "y": 0.096
+      },
+      "fetchedAt": "2026-09-16T04:45:35.731Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-hunga-tonga-methane-destruction-2026-09",
+      "headline": "Scientists stunned as volcano cloud starts destroying methane",
+      "source": "https://www.sciencedaily.com/images/1920/hunga-tonga-hunga-haapai-eruption.webp",
+      "article": "https://www.sciencedaily.com/releases/2026/09/260915095750.htm",
+      "hosted": "09-ad8cab81.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 98392,
+      "out": "1600x1067",
+      "bytes": 119348,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.686,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-16T04:45:36.119Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-dwarkesh-ajeya-cotra",
+      "headline": "Ajeya Cotra – Inside the OpenAI agent swarm that hacked Hugging Face",
+      "source": "https://img.youtube.com/vi/X50zezLFWWI/maxresdefault.jpg",
+      "article": "https://www.dwarkesh.com/p/ajeya-cotra",
+      "hosted": "r01-3f990b51.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 185272,
+      "out": "1280x720",
+      "bytes": 99893,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-16T04:45:36.350Z"
+    }
+  ]
+}
