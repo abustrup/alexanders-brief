@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-09-16-uafternoon-r2",
+  "runId": "run-2026-09-16-umidday-rDESK",
   "date": "2026-09-16",
-  "generatedAt": "2026-09-16T18:33:19.518Z",
-  "readingMinutes": 8,
+  "generatedAt": "2026-09-16T20:13:36.304Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Ni verificerede historier, ni signaler og seks anbefalinger til den 16. september 2026.",
   "profileWeights": {
@@ -981,6 +981,86 @@
         "at": "2026-09-16T18:33:19.518Z",
         "runId": "run-2026-09-16-uafternoon-r2"
       }
+    },
+    {
+      "id": "story-novo-anthropic-claude-2026-09",
+      "eventKey": "novo-anthropic-drug-discovery-2026-09",
+      "materialFacts": [
+        "Novo Nordisk and Anthropic announced a collaboration on 16 September 2026 to use Anthropic's frontier models in drug discovery",
+        "Novo will test Claude Science in specific R&D workflows and use the models to strengthen its own AI-driven software development",
+        "No financial terms were disclosed"
+      ],
+      "section": "Danmark",
+      "headline": "Novo and Anthropic will collaborate to advance drug discovery with Claude",
+      "primarySourceUrl": "https://www.globenewswire.com/news-release/2026/09/16/3363106/0/en/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-claude.html",
+      "subheadline": "Novo Nordisk skal teste Anthropics Claude Science i sin lægemiddelforskning. Ingen beløb er oplyst.",
+      "body": [
+        "Novo vil bruge Anthropics modeller i forskningen og i sin egen softwareudvikling, og selskaberne skal angribe flaskehalse i lægemiddeludvikling sammen. Novo bruger allerede Claude til forsøgsrapporter: fra måneder til minutter."
+      ],
+      "whyItMatters": "Danmarks største selskab lægger en del af sin forskning hos en amerikansk AI-leverandør.",
+      "analysis": "Meddelelsen nævner hverken beløb, tidsplan eller hvilke workflows det gælder.",
+      "counterpoint": "Doustdar skærer i omkostninger; AI er det billigste sted at love produktivitet.",
+      "topics": [
+        "danmark",
+        "ai",
+        "erhverv",
+        "medicin"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Anthropic",
+        "Mike Doustdar",
+        "Dario Amodei",
+        "Claude"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 58,
+        "novelty": 70,
+        "sourceQuality": 88,
+        "personalRelevance": 88,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Novo Nordisk and Anthropic announced on 16 September 2026 that they will collaborate to accelerate medicine development, with Novo testing Claude Science in specific R&D workflows and using Anthropic's frontier models to strengthen AI-driven software development. No financial terms were disclosed.",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/09/16/3363106/0/en/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-claude.html",
+            "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/09/16/novo-partners-with-anthropic-to-speed-up-drug-development-with-claude/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Novo already uses Claude to automate trial report generation, cutting patient documentation timelines from months to minutes.",
+          "sourceUrls": [
+            "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/09/16/novo-partners-with-anthropic-to-speed-up-drug-development-with-claude/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo and Anthropic will collaborate to advance drug discovery with Claude",
+          "publisher": "Novo Nordisk",
+          "url": "https://www.globenewswire.com/news-release/2026/09/16/3363106/0/en/novo-and-anthropic-will-collaborate-to-advance-drug-discovery-with-claude.html",
+          "publishedAt": "2026-09-16T12:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Novo partners with Anthropic to speed up drug development with Claude",
+          "publisher": "Reuters",
+          "url": "https://www.bnnbloomberg.ca/business/artificial-intelligence/2026/09/16/novo-partners-with-anthropic-to-speed-up-drug-development-with-claude/",
+          "publishedAt": "2026-09-16T13:56:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-09-16T20:13:36.304Z",
+        "runId": "run-2026-09-16-umidday-rDESK"
+      }
     }
   ],
   "signals": [
@@ -1290,6 +1370,12 @@
         "turns": 122,
         "seconds": 1027.1
       }
+    },
+    {
+      "slot": "midday",
+      "at": "2026-09-16T20:13:36.304Z",
+      "runId": "run-2026-09-16-umidday-rDESK",
+      "added": 1
     }
   ]
 }
