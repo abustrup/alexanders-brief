@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-15",
-      "slug": "reguleringen-bag-fusionen",
-      "claim": "Intet kommercielt fusionsanlaeg leverer straem til et offentligt elnet foer 2035 - flaskehalsen er nu tilslutningskoe og godkendelsestid, ikke plasmafysikken.",
-      "horizon": "2035, aflaest i faktisk nettilslutning",
-      "falsifier": "Et kommercielt fusionsanlaeg (fx Commonwealth Fusion Systems' ARC, Helion eller TAE) opnaar reel nettilslutning til et offentligt elnet foer 2035. Kontrolleres i selskabernes egne meddelelser og i det lokale netselskabs (PJM eller tilsvarende) tilslutningsregister.",
+      "date": "2026-09-16",
+      "slug": "gitteret-vinder",
+      "claim": "Myon g-2-anomalien afgøres som en uenighed mellem gitter-QCD og den databaserede metode til Standardmodellens forudsigelse, og gitter-QCD-siden vinder konsensus.",
+      "horizon": "Muon g-2 Theory Initiatives konsensusrapport 2026-27; uafhængigt tjek fra J-PARCs myon g-2/EDM-eksperiment fra 2030",
+      "falsifier": "Theory Initiative lander på den databaserede metode i stedet for gitter-QCD, eller de to metoder forbliver uforenelige og J-PARCs uafhængige måling fra 2030 trækker resultatet tilbage mod den oprindelige anomali. Kontrolleres i Theory Initiativets publicerede white paper og i J-PARC-eksperimentets resultater.",
       "status": "open"
     }
   ]
