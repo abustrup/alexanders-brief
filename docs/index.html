@@ -64,6 +64,18 @@
   --fb-radius: 50%;
   --fb-border-width: 1.5px;
 
+  /* EVERY HEADLINE BUT THE PAGE'S FIRST, since 2026-09-16. Alexander asked for
+     the article headlines - the eight to eleven grid cards, every "Morgenens
+     signaler" line, the klumme, the editor's picks - 50% bigger, and for the
+     lead (Magasin's hero, Feed's hero) to stay where it is. One number does it,
+     so the ratio survives every later size change and can be re-tuned in one
+     place. A rule that carries it is by definition NOT the page's first
+     headline: .story-headline, .mag-hero-headline and .feed-hero deliberately
+     have no var() in their font-size. */
+  --headline-scale: 1.5;
+  /* Magasin's hero, as a token because .mag-featured caps itself against it. */
+  --mag-hero-size: clamp(2.7rem, 7vw, 5.6rem);
+
   /* Canonical theme tokens — default values are the Editorial direction. */
   --bg: #f6efe4;
   --surface: #efe4d3;
@@ -540,7 +552,7 @@ button { font: inherit; }
   margin: 8px 0 0;
   text-wrap: pretty;
   font-family: var(--serif);
-  font-size: 1.5rem;
+  font-size: calc(1.5rem * var(--headline-scale));
   font-style: italic;
   font-weight: 600;
   line-height: 1.18;
@@ -621,7 +633,9 @@ button { font: inherit; }
 .mag-klumme-title {
   margin: 10px 0 0;
   font-family: var(--serif);
-  font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+  /* Same cap as .mag-featured: unscaled this reached 45.9px at 900px against a
+     45px hero. */
+  font-size: min(calc(clamp(1.6rem, 3.4vw, 2.3rem) * var(--headline-scale)), calc(var(--mag-hero-size) * 0.8));
   font-style: italic;
   font-weight: 600;
   line-height: 1.12;
@@ -668,7 +682,7 @@ button { font: inherit; }
 .feed-klumme-title {
   margin: 8px 0 0;
   font-family: var(--serif);
-  font-size: 1.3rem;
+  font-size: calc(1.3rem * var(--headline-scale));
   font-style: italic;
   font-weight: 600;
   line-height: 1.2;
@@ -897,6 +911,18 @@ button { font: inherit; }
      The cost is that the two columns' closing rules no longer line up across a
      row, which is a smaller loss than a hole in the middle of a card. */
   align-items: start;
+}
+
+/* THE ONE BAND WHERE THE PAGE HAS NO SLACK [2026-09-16]. From 900px the lead and
+   every wide card put the picture beside the text and stretch the picture to the
+   text is height; below 900px everything stacks and the height is free. At 900px each
+   column is only 406px, and the full 1.5 scale made the text so tall that the
+   picture was drawn past the shape the editor approved: the lead at 0.562:1
+   against the 0.60:1 floor, a Moerk card at 0.728:1 against 0.75:1
+   (scripts/check-geometry.mjs, both at 900px only; 1024px and up pass at 1.5).
+   So the scale eases to 1.25 in that band alone. */
+@media (min-width: 900px) and (max-width: 1023px) {
+  :root { --headline-scale: 1.25; }
 }
 
 @media (min-width: 900px) {
@@ -1153,7 +1179,13 @@ button { font: inherit; }
   overflow-wrap: anywhere;
   text-wrap: pretty;
   font-family: var(--font-display);
-  font-size: clamp(2rem, 4vw, 2.9rem);
+  /* FLOOR, not a new size [2026-09-16]. Unchanged at 1440 (46.4px). The floor is
+     what --headline-scale forces: a grid card is 1.5rem x the scale, and the old
+     floor of 2rem put the lead at 32px on a phone against a 36px card, so the
+     SECOND story would have carried the page. Written as the scale x 1.8rem and
+     not as a number, so the lead keeps leading a card by a fifth wherever the
+     scale is dialled down (the 900-1023px band below). */
+  font-size: clamp(calc(1.8rem * var(--headline-scale)), 4vw, 2.9rem);
   font-weight: 800;
   hyphens: auto;
   letter-spacing: -0.035em;
@@ -1161,7 +1193,7 @@ button { font: inherit; }
 }
 
 .story-card .story-headline {
-  font-size: 1.5rem;
+  font-size: calc(1.5rem * var(--headline-scale));
   font-weight: 700;
   line-height: 1.06;
 }
@@ -1686,7 +1718,7 @@ button { font: inherit; }
   display: inline;
   overflow-wrap: anywhere;
   font-family: var(--serif);
-  font-size: 1.06rem;
+  font-size: calc(1.06rem * var(--headline-scale));
   font-weight: 700;
   hyphens: auto;
   line-height: 1.18;
@@ -1964,7 +1996,7 @@ button { font: inherit; }
 .recommendation-short-head {
   margin: 0;
   font-family: var(--serif);
-  font-size: 1rem;
+  font-size: calc(1rem * var(--headline-scale));
   line-height: 1.4;
 }
 
@@ -2078,12 +2110,15 @@ button { font: inherit; }
   line-height: 1.02;
 }
 
+/* Deliberately NOT 2.15rem x 1.5 = 51.6px, which would have made a recommendation
+   the largest headline on the page, over the lead story (46.4px). It takes a grid
+   card's size instead, which is still a touch larger than it was (34.4px). */
 .recommendation-featured-card .recommendation-headline {
-  font-size: 2.15rem;
+  font-size: calc(1.5rem * var(--headline-scale));
 }
 
 .recommendation-card .recommendation-headline {
-  font-size: 1.5rem;
+  font-size: calc(1.5rem * var(--headline-scale));
 }
 
 .recommendation-headline-link { text-decoration: none; }
@@ -2365,7 +2400,7 @@ button { font: inherit; }
 }
 
 .featured-grid .story-lead .story-headline {
-  font-size: 1.7rem;
+  font-size: calc(1.7rem * var(--headline-scale));
   line-height: 1.04;
 }
 
@@ -2402,7 +2437,7 @@ button { font: inherit; }
 .thread-title {
   margin: 6px 0 0;
   font-family: var(--serif);
-  font-size: 1.4rem;
+  font-size: calc(1.4rem * var(--headline-scale));
   font-weight: 700;
   letter-spacing: -0.02em;
   line-height: 1.06;
@@ -2676,7 +2711,7 @@ button { font: inherit; }
   margin: 0;
   max-width: 16ch;
   font-family: var(--font-display);
-  font-size: clamp(2.7rem, 7vw, 5.6rem);
+  font-size: var(--mag-hero-size);
   font-weight: 400;
   line-height: 0.96;
 }
@@ -2700,7 +2735,8 @@ button { font: inherit; }
       linear-gradient(to right, var(--ink) 46%, rgba(12, 9, 6, 0.6) 56%, rgba(12, 9, 6, 0) 72%),
       linear-gradient(to top, rgba(12, 9, 6, 0.7) 0%, rgba(12, 9, 6, 0) 45%);
   }
-  .mag-hero-headline { max-width: 44vw; font-size: clamp(2.4rem, 5vw, 3.6rem); }
+  :root { --mag-hero-size: clamp(2.4rem, 5vw, 3.6rem); }
+  .mag-hero-headline { max-width: 44vw; }
   .mag-hero-sub { max-width: 44vw; }
 }
 .mag-reading {
@@ -2740,7 +2776,11 @@ button { font: inherit; }
 }
 .mag-featured { margin: 18px 0 30px; }
 .mag-featured .story-card { padding-bottom: 30px; }
-.mag-featured .story-card .story-headline { font-size: clamp(2rem, 3.6vw, 3rem); }
+/* 50% bigger, but never past four fifths of the hero above it: unscaled the two
+   already met at 900px (48.6 against 45) and on a phone (48 against 43.2). */
+.mag-featured .story-card .story-headline {
+  font-size: min(calc(clamp(2rem, 3.6vw, 3rem) * var(--headline-scale)), calc(var(--mag-hero-size) * 0.8));
+}
 .mag-featured .story-card .story-media { aspect-ratio: 4 / 3; }
 
 .mag-keynumber { background: var(--ink); color: #fff; }
@@ -2917,8 +2957,11 @@ button { font: inherit; }
   text-transform: uppercase;
 }
 .feed-card-headline { margin: 0; font-family: var(--font-display); font-weight: 800; line-height: 1.12; letter-spacing: -0.025em; }
-.feed-hero .feed-card-headline { font-size: 1.5rem; }
-.feed-card:not(.feed-hero) .feed-card-headline { font-size: 1.22rem; }
+/* The one headline on the page that is not 50% bigger by the same number: Feed's
+   hero led its cards by 1.23x, so the scaled card (29.28px) passed it. It now
+   leads the scaled card by 1.25x. */
+.feed-hero .feed-card-headline { font-size: calc(1.22rem * var(--headline-scale) * 1.25); }
+.feed-card:not(.feed-hero) .feed-card-headline { font-size: calc(1.22rem * var(--headline-scale)); }
 .feed-card-headline .headline-link { text-decoration: none; }
 .feed-card-sub { margin: 8px 0 0; color: var(--muted); font-size: 1rem; line-height: 1.4; }
 .feed-why { margin: 12px 0 0; padding: 12px; border-radius: 14px; background: #f6f7f9; }
@@ -2964,7 +3007,7 @@ button { font: inherit; }
 }
 .feed-list .signal-item { padding: 12px 0; border-bottom: 1px solid #f1f2f4; }
 .feed-list .signal-item:last-child { border-bottom: 0; }
-.feed-list .signal-link { font-family: var(--font-display); font-size: 1rem; font-weight: 700; }
+.feed-list .signal-link { font-family: var(--font-display); font-size: calc(1rem * var(--headline-scale)); font-weight: 700; }
 
 .feed-keynumber { padding: 20px; background: linear-gradient(150deg, #14171c, #26303b); color: #fff; }
 .feed-keynumber-kicker {
