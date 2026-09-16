@@ -548,8 +548,16 @@ button { font: inherit; }
   text-transform: uppercase;
 }
 
+/* overflow-wrap and hyphens are what every other headline already had, and the klumme
+   title did not [2026-09-16]. At 1.5x it holds a third less word than it did: measured
+   at 375px in Standard, a 24-character Danish compound now pushes the whole page 53px
+   sideways where the old size fitted it. No title the brief has run reaches that (the
+   longest word in 49 of them is 20 characters), so this closes a trap rather than a
+   fault — which is the moment to close it. */
 .klumme-title {
   margin: 8px 0 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
   text-wrap: pretty;
   font-family: var(--serif);
   font-size: calc(1.5rem * var(--headline-scale));
@@ -632,10 +640,15 @@ button { font: inherit; }
 
 .mag-klumme-title {
   margin: 10px 0 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
   font-family: var(--serif);
-  /* Same cap as .mag-featured: unscaled this reached 45.9px at 900px against a
-     45px hero. */
-  font-size: min(calc(clamp(1.6rem, 3.4vw, 2.3rem) * var(--headline-scale)), calc(var(--mag-hero-size) * 0.8));
+  /* Same floor and ceiling as .mag-featured: unscaled this reached 45.9px at 900px
+     against a 45px hero, and the first cap put it under the grid cards on a phone. */
+  font-size: max(
+    calc(1.5rem * var(--headline-scale)),
+    min(calc(clamp(1.6rem, 3.4vw, 2.3rem) * var(--headline-scale)), calc(var(--mag-hero-size) * 0.9))
+  );
   font-style: italic;
   font-weight: 600;
   line-height: 1.12;
@@ -681,6 +694,8 @@ button { font: inherit; }
 
 .feed-klumme-title {
   margin: 8px 0 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
   font-family: var(--serif);
   font-size: calc(1.3rem * var(--headline-scale));
   font-style: italic;
@@ -915,13 +930,21 @@ button { font: inherit; }
 
 /* THE ONE BAND WHERE THE PAGE HAS NO SLACK [2026-09-16]. From 900px the lead and
    every wide card put the picture beside the text and stretch the picture to the
-   text is height; below 900px everything stacks and the height is free. At 900px each
+   text's height; below 900px everything stacks and the height is free. At 900px each
    column is only 406px, and the full 1.5 scale made the text so tall that the
    picture was drawn past the shape the editor approved: the lead at 0.562:1
-   against the 0.60:1 floor, a Moerk card at 0.728:1 against 0.75:1
-   (scripts/check-geometry.mjs, both at 900px only; 1024px and up pass at 1.5).
-   So the scale eases to 1.25 in that band alone. */
-@media (min-width: 900px) and (max-width: 1023px) {
+   against the 0.60:1 floor, a Mørk card at 0.728:1 against 0.75:1.
+   HOW WIDE THE BAND ACTUALLY IS, measured rather than assumed [2026-09-16, second
+   pass]. Forcing the full scale back on and running the project's own picture judge
+   at every single width from 896 to 960px, on both fixture editions in Editorial and
+   Mørk: the pictures fail at 900-907px and are clean from 908px up. The first cut of
+   this band ran to 1023px, so about 115px of it was unearned and cost the full 50%
+   at laptop widths for nothing. It ends at 939px now — the measured edge plus 32px,
+   because that edge is a TEXT REFLOW boundary (the aspect creeps 0.001 per pixel and
+   then jumps when a headline drops a line), so it moves with the day's headlines.
+   check:geometry measures 900px inside the band and 940px just outside it, so a day
+   whose headlines push the failure past 940 turns that check red rather than the page. */
+@media (min-width: 900px) and (max-width: 939px) {
   :root { --headline-scale: 1.25; }
 }
 
@@ -2112,9 +2135,12 @@ button { font: inherit; }
 
 /* Deliberately NOT 2.15rem x 1.5 = 51.6px, which would have made a recommendation
    the largest headline on the page, over the lead story (46.4px). It takes a grid
-   card's size instead, which is still a touch larger than it was (34.4px). */
+   card's size instead — but never less than the 2.15rem it already was: in the eased
+   band a bare card size is 30px, so the one headline nobody asked to change would have
+   come out 13% SMALLER than before he asked for anything [caught 2026-09-16 by an
+   independent verifier, not by the build]. */
 .recommendation-featured-card .recommendation-headline {
-  font-size: calc(1.5rem * var(--headline-scale));
+  font-size: max(2.15rem, calc(1.5rem * var(--headline-scale)));
 }
 
 .recommendation-card .recommendation-headline {
@@ -2776,10 +2802,17 @@ button { font: inherit; }
 }
 .mag-featured { margin: 18px 0 30px; }
 .mag-featured .story-card { padding-bottom: 30px; }
-/* 50% bigger, but never past four fifths of the hero above it: unscaled the two
-   already met at 900px (48.6 against 45) and on a phone (48 against 43.2). */
+/* 50% bigger, but never past nine tenths of the hero above it: unscaled the two already
+   met at 900px (48.6 against 45) and on a phone (48 against 43.2). And never BELOW an
+   ordinary grid card, which the first cut of this cap did on every phone width — the
+   promoted second story at 34.56px under 36px cards, an inverted page nobody asked for
+   [caught 2026-09-16 by an independent verifier]. The floor is the card, the ceiling is
+   the hero, and at 375px that leaves it 38.9px between 36 and 43.2. */
 .mag-featured .story-card .story-headline {
-  font-size: min(calc(clamp(2rem, 3.6vw, 3rem) * var(--headline-scale)), calc(var(--mag-hero-size) * 0.8));
+  font-size: max(
+    calc(1.5rem * var(--headline-scale)),
+    min(calc(clamp(2rem, 3.6vw, 3rem) * var(--headline-scale)), calc(var(--mag-hero-size) * 0.9))
+  );
 }
 .mag-featured .story-card .story-media { aspect-ratio: 4 / 3; }
 
@@ -2958,9 +2991,12 @@ button { font: inherit; }
 }
 .feed-card-headline { margin: 0; font-family: var(--font-display); font-weight: 800; line-height: 1.12; letter-spacing: -0.025em; }
 /* The one headline on the page that is not 50% bigger by the same number: Feed's
-   hero led its cards by 1.23x, so the scaled card (29.28px) passed it. It now
-   leads the scaled card by 1.25x. */
-.feed-hero .feed-card-headline { font-size: calc(1.22rem * var(--headline-scale) * 1.25); }
+   hero led its cards by 1.23x, so the scaled card (29.28px) passed it. It now leads
+   the scaled card by 1.25x — and never drops under 2.4rem, because Feed is the one
+   look whose hero is smaller than the editor's pick further down the page: in the
+   eased band the hero fell to 30.5px under a 34.4px pick [caught 2026-09-16, at a
+   width the check was not measuring Feed at, which is why it now measures them all]. */
+.feed-hero .feed-card-headline { font-size: max(2.4rem, calc(1.22rem * var(--headline-scale) * 1.25)); }
 .feed-card:not(.feed-hero) .feed-card-headline { font-size: calc(1.22rem * var(--headline-scale)); }
 .feed-card-headline .headline-link { text-decoration: none; }
 .feed-card-sub { margin: 8px 0 0; color: var(--muted); font-size: 1rem; line-height: 1.4; }
