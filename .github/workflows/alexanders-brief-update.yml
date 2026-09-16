@@ -265,6 +265,14 @@ jobs:
             --label="${{ steps.guard.outputs.slot }} update ${{ steps.guard.outputs.date }}" \
             | tee -a "$GITHUB_STEP_SUMMARY"
 
+      # The desk's own completion report. The JSON output carries only the agent's final text, no
+      # transcript, so this is the one place a run explains itself. Added after the first afternoon
+      # run (35133285563, 2026-09-16) dropped a picture nothing in the log could account for.
+      - name: What the desk said it did
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        run: node scripts/ci-desk-report.mjs "$RUNNER_TEMP/agent.json" >> "$GITHUB_STEP_SUMMARY"
+
       # The final picture pass, on THIS RUN'S ADDITIONS ONLY. Measured on 2026-09-16 against the real
       # published edition: `prune:images --final` over a whole update draft dropped two morning
       # pictures (their lookedAt stamps belong to the morning's preview manifest, which is gone), and a
