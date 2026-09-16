@@ -19,23 +19,19 @@ name: Alexanders Brief – update
 run-name: Alexanders Brief – update · slot=${{ inputs.slot || 'cron' }}${{ inputs.dry_run && ' · dry run' || '' }}
 
 on:
-  # schedule: (disabled in this registration commit; see the comment lines below)
+  schedule:
     # Copenhagen, the same timezone key the daily proves works. :04 is the run, :36 the retry; the
     # retry finds the slot already recorded in the archive and ends green in seconds. The slot of a
     # scheduled run is derived from its Copenhagen hour (11-14 midday, 16-19 afternoon), which both
     # crons of each pair fall inside.
-    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
-    # - cron: "4 12 * * *"
-      #   timezone: "Europe/Copenhagen"
-    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
-    # - cron: "36 12 * * *"
-      #   timezone: "Europe/Copenhagen"
-    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
-    # - cron: "4 17 * * *"
-      #   timezone: "Europe/Copenhagen"
-    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
-    # - cron: "36 17 * * *"
-      #   timezone: "Europe/Copenhagen"
+    - cron: "4 12 * * *"
+      timezone: "Europe/Copenhagen"
+    - cron: "36 12 * * *"
+      timezone: "Europe/Copenhagen"
+    - cron: "4 17 * * *"
+      timezone: "Europe/Copenhagen"
+    - cron: "36 17 * * *"
+      timezone: "Europe/Copenhagen"
   workflow_dispatch:
     inputs:
       slot:
@@ -301,11 +297,14 @@ jobs:
             engine/data/${{ steps.guard.outputs.date }}/picture-look.json
           if-no-files-found: warn
 
+      # A dry run runs the merge and the gate too, on purpose [2026-09-16]: the first cloud dry run
+      # skipped both, so the artifact proved the desk and not the promise, and the promise had to be
+      # proven by hand afterwards. Publish still never runs on a dry run.
       # THE PROMISE, enforced. Blocking on purpose: a non-zero exit here stops the publish, and a run
       # that added nothing still finalizes with added: 0 so the page can say "ingen nye historier".
       - name: Merge the additions into today's edition
         id: merge
-        if: ${{ !inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        if: ${{ steps.cap.outputs.proceed == 'true' }}
         env:
           DATE: ${{ steps.guard.outputs.date }}
           SLOT: ${{ steps.guard.outputs.slot }}
@@ -320,7 +319,7 @@ jobs:
 
       - name: Quality gate (blocking)
         id: gate
-        if: ${{ !inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        if: ${{ steps.cap.outputs.proceed == 'true' }}
         timeout-minutes: 15
         env:
           REQUIRE_FLOOR: "true"
