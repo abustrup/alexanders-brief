@@ -1,0 +1,420 @@
+# Alexanders Brief – midday and afternoon updates. The morning workflow writes the edition; this one
+# may ADD two to four stories to it at 12:04 and 17:04 Copenhagen and may change nothing else. Every
+# decision is an engine script, the same rule as the daily: the YAML is order, conditions and
+# parameters only.
+#
+# EXPIRES 2026-10-16. That date is also passed to the guard, so after it every run is red with
+# "renew or delete" and nothing is spent. A routine nobody is watching fails by going unnoticed;
+# this one goes red instead. Renew by moving the date in BOTH places, or delete this file.
+#
+# THE PROMISE: nothing already on the page changes. Not a word of a morning story, not a picture, not
+# the signals, Klummen, the key number or the recommendations. `merge:update --finalize` compares the
+# merged edition against the published one field by field and exits 1 on any other difference, and
+# the publish step below it never runs on a non-zero exit.
+
+name: Alexanders Brief – update
+
+# The run's name carries the slot, because the runs API will not show a past run's dispatch inputs
+# any other way and `ci-attempt-cap.sh --slot` reads it to count one agent run per slot per day.
+run-name: Alexanders Brief – update · slot=${{ inputs.slot || 'cron' }}${{ inputs.dry_run && ' · dry run' || '' }}
+
+on:
+  # schedule: (disabled in this registration commit; see the comment lines below)
+    # Copenhagen, the same timezone key the daily proves works. :04 is the run, :36 the retry; the
+    # retry finds the slot already recorded in the archive and ends green in seconds. The slot of a
+    # scheduled run is derived from its Copenhagen hour (11-14 midday, 16-19 afternoon), which both
+    # crons of each pair fall inside.
+    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
+    # - cron: "4 12 * * *"
+      #   timezone: "Europe/Copenhagen"
+    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
+    # - cron: "36 12 * * *"
+      #   timezone: "Europe/Copenhagen"
+    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
+    # - cron: "4 17 * * *"
+      #   timezone: "Europe/Copenhagen"
+    # REGISTRATION COMMIT 2026-09-16: cron disabled until the engine branch is merged
+    # - cron: "36 17 * * *"
+      #   timezone: "Europe/Copenhagen"
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "Which update run. Blank on a schedule, where the Copenhagen hour decides."
+        required: false
+        type: choice
+        options: ["midday", "afternoon"]
+      date:
+        description: "Edition date YYYY-MM-DD. Blank = today in Europe/Copenhagen."
+        required: false
+        type: string
+      engine_ref:
+        description: "Engine branch to run. Blank = the live branch. Use to trial a change."
+        required: false
+        type: string
+      dry_run:
+        description: "Produce the additions and stop. Publishes nothing; uploads them for review."
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+
+# The daily's group, deliberately: an update must never run while the morning is being written, and a
+# 12:36 retry must queue behind the 12:04 run rather than race it for the same archive.
+concurrency:
+  group: alexanders-brief-daily
+  cancel-in-progress: false
+
+env:
+  TZ: Europe/Copenhagen
+  ENGINE_REPO: abustrup/alexanders-brief-source
+  ENGINE_REF: ${{ inputs.engine_ref || 'feature/news-brief-mvp' }}
+  SITE_URL: https://abustrup.github.io/alexanders-brief
+  PROMPT_PATH: docs/routines/backup-from-claude-dir/brief-update.SKILL.md
+  BRIEF_LABEL: alexanders-brief-update
+  # Written here and read by the guard. Both must move together; see the header.
+  UPDATE_EXPIRES: "2026-10-16"
+  # Pinned, as the daily pins it: an overnight release must not break an unattended run.
+  CLAUDE_CLI_VERSION: "2.1.228"
+  # PAGES_REPO_DIR is set only on the steps that need the website checkout, never job-wide, so the
+  # agent's environment cannot resolve a publish target. Structure, not a rule it could reread.
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    # 90, and the arithmetic matters: the liveness proof is the LAST step, and a job that dies
+    # during it kills a run that has already published — the reader has the new page and the run
+    # is red with no proof either way. The capped steps are the agent (35), the gate (15) and
+    # liveness (20) = 70, leaving 20 minutes for checkout, npm ci, the picture pass, the merge and
+    # the publish, which together have never run past 10. So liveness cannot be the step that
+    # exhausts the job: its own cap expires first, and a timed-out liveness step is a red with a
+    # published page rather than a cancelled job with no record at all.
+    timeout-minutes: 90
+    defaults:
+      run:
+        shell: bash
+        working-directory: engine
+
+    steps:
+      - name: Check out the engine (read-only deploy key)
+        uses: actions/checkout@v7
+        with:
+          repository: ${{ env.ENGINE_REPO }}
+          ref: ${{ env.ENGINE_REF }}
+          ssh-key: ${{ secrets.ENGINE_DEPLOY_KEY }}
+          fetch-depth: 0
+          persist-credentials: false
+          path: engine
+
+      # Its own step rather than four lines added to scripts/ci-preflight.sh: that preflight is shared
+      # with Thomas' branch, which gets none of this, and a file it required there would red his
+      # morning for a routine he does not have.
+      - name: Preflight – update scripts present
+        run: |
+          missing=0
+          for f in scripts/ci-update-mode.sh scripts/ci-attempt-cap.sh scripts/ci-compose-prompt.sh \
+                   scripts/ci-update-pictures.mjs scripts/ci-agent-cost.mjs scripts/ci-gate.sh \
+                   scripts/ci-publish.sh scripts/brief-liveness.sh src/cli/mergeUpdate.ts \
+                   "$PROMPT_PATH"; do
+            if [ -f "$f" ]; then printf '  ok   %s\n' "$f"
+            else printf '::error::%s is missing on %s, so this update run could not work. Nothing was spent.\n' "$f" "$ENGINE_REF"; missing=$((missing + 1)); fi
+          done
+          for s in merge:update update:pictures resolve:images prune:images validate:draft check:draft publish:pages; do
+            if node -e 'const p=require("./package.json");process.exit(p.scripts&&p.scripts[process.argv[1]]?0:1)' "$s"; then
+              printf '  ok   npm run %s\n' "$s"
+            else printf '::error::the npm script "%s" does not exist on %s.\n' "$s" "$ENGINE_REF"; missing=$((missing + 1)); fi
+          done
+          [ "$missing" = "0" ] || exit 1
+
+      # UPDATE / DONE / NOT_PUBLISHED / EXPIRED / UNKNOWN. Red on the last two, with nothing spent.
+      - name: Guard – is today out, and has this slot added to it yet?
+        id: guard
+        env:
+          INPUT_DATE: ${{ inputs.date }}
+          INPUT_SLOT: ${{ inputs.slot }}
+        run: |
+          if [ -n "$INPUT_SLOT" ]; then
+            bash scripts/ci-update-mode.sh "$SITE_URL" "$INPUT_DATE" "--slot=$INPUT_SLOT" "--expires=$UPDATE_EXPIRES"
+          else
+            bash scripts/ci-update-mode.sh "$SITE_URL" "$INPUT_DATE" "--expires=$UPDATE_EXPIRES"
+          fi
+
+      # One place decides whether the rest of this job runs, so twelve `if:` lines cannot drift apart.
+      #
+      # It branches on the guard's VERDICT, not on its mode. The guard folds two different
+      # situations into mode=done — DONE (this slot has already added to today) and NOT_PUBLISHED
+      # (there is no edition to add to at all) — and only the first of them is a sensible dry run.
+      # Reading the mode alone sent a dry run on an unpublished day past a warning about a slot
+      # that had "already added", and it then died at the base copy with an error about a missing
+      # archive. A day whose morning never published has nothing to trial: stop cleanly, in
+      # seconds, spending nothing, exactly as a real run does.
+      - name: Plan
+        id: plan
+        env:
+          VERDICT: ${{ steps.guard.outputs.verdict }}
+          MODE: ${{ steps.guard.outputs.mode }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          GO=false
+          if [ "$MODE" = "update" ]; then
+            GO=true
+          elif [ "$DRY_RUN" = "true" ] && [ "$VERDICT" = "DONE" ]; then
+            # A dry run publishes nothing, and the whole point of dispatching one is to see what
+            # this desk would produce on a slot that has already run.
+            printf '::warning::dry run: the %s slot has already added to %s, but a dry run publishes nothing, so it proceeds to produce an artifact.\n' \
+              "${{ steps.guard.outputs.slot }}" "${{ steps.guard.outputs.date }}"
+            GO=true
+          elif [ "$DRY_RUN" = "true" ] && [ "$VERDICT" = "NOT_PUBLISHED" ]; then
+            printf 'plan: %s has no published edition, so there is nothing for a dry run to add to either. Stopping; nothing was spent.\n' \
+              "${{ steps.guard.outputs.date }}"
+          fi
+          printf 'go=%s\n' "$GO" >> "$GITHUB_OUTPUT"
+          printf 'plan: verdict=%s mode=%s dry_run=%s -> go=%s\n' "$VERDICT" "$MODE" "${DRY_RUN:-false}" "$GO"
+
+      # Full history: the push rebases onto whatever the Mac routines and the morning pushed here.
+      - name: Check out the website repo
+        if: steps.plan.outputs.go == 'true'
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+          path: pages
+
+      - name: Node
+        if: steps.plan.outputs.go == 'true'
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: engine/.nvmrc
+          cache: npm
+          cache-dependency-path: engine/package-lock.json
+
+      - name: Dependencies
+        if: steps.plan.outputs.go == 'true'
+        run: npm ci
+
+      # The base. draft.json is what the agent appends to and what every check downstream reads;
+      # published.json is the same bytes kept beside it, because the agent is told not to read the
+      # website checkout and `update:pictures` needs to know where the published stories end.
+      # The merge's own --base is the website checkout's copy, not this one: a base inside the
+      # engine is a base the agent could edit.
+      - name: Copy today's published edition in as the base
+        if: steps.plan.outputs.go == 'true'
+        env:
+          DATE: ${{ steps.guard.outputs.date }}
+          ARCHIVE: ${{ github.workspace }}/pages/data/${{ steps.guard.outputs.date }}.json
+        run: |
+          [ -s "$ARCHIVE" ] || { printf '::error::the published edition %s is not in the website checkout, so there is nothing to add to.\n' "$ARCHIVE"; exit 1; }
+          mkdir -p "data/$DATE"
+          cp "$ARCHIVE" "data/$DATE/draft.json"
+          cp "$ARCHIVE" "data/$DATE/published.json"
+          node -e 'const b=require(process.argv[1]);console.log(`base: ${b.stories.length} stories, runId ${b.runId}`)' "$(pwd)/data/$DATE/published.json"
+
+      # Advisory, as on the daily: a dead backend costs the dedup memory, not the update.
+      - name: Editorial context (advisory)
+        if: steps.plan.outputs.go == 'true'
+        continue-on-error: true
+        env:
+          BRIEF_API_URL: ${{ secrets.BRIEF_API_URL }}
+          BRIEF_PUBLISH_TOKEN: ${{ secrets.BRIEF_PUBLISH_TOKEN }}
+        run: npm run context
+
+      # ONE agent run per slot per day. A failed update costs the additions, never the morning, so
+      # there is no retry budget here: the reader keeps the page he already has.
+      - name: Attempt cap
+        id: cap
+        if: steps.plan.outputs.go == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          MAX_FULL_ATTEMPTS: ${{ inputs.dry_run && '9' || '1' }}
+        run: bash scripts/ci-attempt-cap.sh "${{ steps.guard.outputs.date }}" "--slot=${{ steps.guard.outputs.slot }}"
+
+      - name: Install the agent, compose the prompt
+        if: steps.cap.outputs.proceed == 'true'
+        env:
+          PROMPT_KIND: update
+          BRIEF_UPDATE_SLOT: ${{ steps.guard.outputs.slot }}
+          PAGES_REPO_DIR: ${{ github.workspace }}/pages
+        run: |
+          npm i -g "@anthropic-ai/claude-code@$CLAUDE_CLI_VERSION"
+          bash scripts/ci-compose-prompt.sh "${{ steps.guard.outputs.date }}" > "$RUNNER_TEMP/run-prompt.md"
+          printf 'composed %s bytes\n' "$(wc -c < "$RUNNER_TEMP/run-prompt.md" | tr -d ' ')"
+
+      # Named exactly as the daily names it: scripts/ci-attempt-cap.sh counts a run as having spent
+      # model time by finding a step whose name matches /editorial agent/i. RENAMING IT DISABLES THE CAP.
+      # stdout is the CLI's own JSON result and is kept, because it is the only record of what this run
+      # cost. A non-zero exit is a warning; the merge and the gate decide.
+      - name: Run the editorial agent
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        timeout-minutes: 35
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" \
+            --output-format json --no-session-persistence --permission-mode acceptEdits \
+            --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
+            --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task \
+            | tee "$RUNNER_TEMP/agent.json"
+
+      # The first place in this project a run's own cost is recorded. Never blocking: an accounting
+      # field must not cost an edition, so the script exits 0 on everything and writes {} when it
+      # found nothing. The numbers also travel into updateRuns[].cost in the merge step below.
+      - name: What this run cost
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        run: |
+          node scripts/ci-agent-cost.mjs "$RUNNER_TEMP/agent.json" --out="$RUNNER_TEMP/cost.json" \
+            --label="${{ steps.guard.outputs.slot }} update ${{ steps.guard.outputs.date }}" \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+
+      # The final picture pass, on THIS RUN'S ADDITIONS ONLY. Measured on 2026-09-16 against the real
+      # published edition: `prune:images --final` over a whole update draft dropped two morning
+      # pictures (their lookedAt stamps belong to the morning's preview manifest, which is gone), and a
+      # plain resolver run rewrote 8 of 9 morning stories. Either would make the merge refuse the run.
+      # So the additions are split out, judged, and joined back; the morning stories are never in the
+      # file the resolver is handed. The merge still checks them afterwards — this is a fix, not a waiver.
+      - name: Look at the added pictures (final pass)
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        env:
+          DATE: ${{ steps.guard.outputs.date }}
+        run: |
+          BASE="${{ github.workspace }}/pages/data/${DATE}.json"
+          npm run --silent update:pictures -- split --draft="data/${DATE}/draft.json" --base="$BASE" --out="data/${DATE}/additions.json"
+          npm run --silent prune:images -- "data/${DATE}/additions.json" --ledger=data/image-ledger.json --final \
+            --archive="${{ github.workspace }}/pages/data" --preview-dir="data/${DATE}/image-previews" --verbose
+          npm run --silent update:pictures -- join --draft="data/${DATE}/draft.json" --base="$BASE" --additions="data/${DATE}/additions.json"
+
+      # A dry run produces the additions and stops. They are the whole point of the run, so they are
+      # uploaded rather than thrown away with the runner.
+      - name: Keep the trial additions for review
+        if: ${{ inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-trial-${{ steps.guard.outputs.slot }}
+          path: |
+            engine/data/${{ steps.guard.outputs.date }}/draft.json
+            engine/data/${{ steps.guard.outputs.date }}/additions.json
+            engine/data/${{ steps.guard.outputs.date }}/image-previews/
+            engine/data/${{ steps.guard.outputs.date }}/picture-look.json
+          if-no-files-found: warn
+
+      # THE PROMISE, enforced. Blocking on purpose: a non-zero exit here stops the publish, and a run
+      # that added nothing still finalizes with added: 0 so the page can say "ingen nye historier".
+      - name: Merge the additions into today's edition
+        id: merge
+        if: ${{ !inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        env:
+          DATE: ${{ steps.guard.outputs.date }}
+          SLOT: ${{ steps.guard.outputs.slot }}
+        run: |
+          COST=""
+          [ -s "$RUNNER_TEMP/cost.json" ] && COST="--cost=$RUNNER_TEMP/cost.json"
+          npm run --silent merge:update -- "data/${DATE}/draft.json" --finalize \
+            --slot="$SLOT" \
+            --run-id="run-${DATE}-u${SLOT}-r${GITHUB_RUN_NUMBER}" \
+            --base="${{ github.workspace }}/pages/data/${DATE}.json" \
+            $COST
+
+      - name: Quality gate (blocking)
+        id: gate
+        if: ${{ !inputs.dry_run && steps.cap.outputs.proceed == 'true' }}
+        timeout-minutes: 15
+        env:
+          REQUIRE_FLOOR: "true"
+          REQUIRE_SOURCE_REACH: "true"
+          REQUIRE_SOURCE_ECHO: "true"
+        run: bash scripts/ci-gate.sh "${{ steps.guard.outputs.date }}"
+
+      # The push credential enters here, after the agent has finished and been judged. BRIEF_UPDATE
+      # turns off the republish restore: on an update that restore would copy the published morning
+      # over the merged edition and then prove it published successfully.
+      - name: Publish
+        id: publish
+        if: ${{ !inputs.dry_run && steps.cap.outputs.proceed == 'true' && steps.merge.outcome == 'success' && steps.gate.outcome == 'success' }}
+        env:
+          BRIEF_UPDATE: ${{ steps.guard.outputs.slot }}
+          BRIEF_FEEDBACK_URL: ${{ secrets.BRIEF_API_URL }}
+          GH_PUSH_TOKEN: ${{ github.token }}
+          PAGES_REPO_DIR: ${{ github.workspace }}/pages
+        run: bash scripts/ci-publish.sh "${{ steps.guard.outputs.date }}"
+
+      - name: Ask GitHub Pages to build
+        if: ${{ steps.publish.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+
+      # The judge of this run's colour: the merged edition carries a new runId, so this proves the
+      # reader's page is the updated one and not the morning's.
+      # Capped at 20 because check-liveness.sh polls: LIVENESS_POLLS 48 x LIVENESS_INTERVAL 15s is
+      # 11m45s of sleeping, plus one page fetch (CURL_TIMEOUT 20s) and one Pages-build query per
+      # poll, neither of which is otherwise bounded. 20 leaves the polling budget its full run and
+      # still expires before the job's own 90 does, which is the point: a step that times out here
+      # is a red run with the page already published and the whole log intact, where a job that
+      # timed out would cancel with no verdict written at all.
+      - name: Prove the reader is served
+        id: served
+        timeout-minutes: 20
+        if: ${{ always() && steps.publish.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PAGES_REPO_DIR: ${{ github.workspace }}/pages
+          PUSHED_SHA: ${{ steps.publish.outputs.sha }}
+        run: bash scripts/brief-liveness.sh "${{ steps.guard.outputs.date }}"
+
+      # THERE IS DELIBERATELY NO LEDGER STEP HERE. The daily has one, and it must not be copied.
+      # scripts/ci-record-ledger.sh does not append to the public ledger; it REBUILDS
+      # data/ledger/indicators.json and column-claims.json from the engine checkout's own copies
+      # and pushes the result. On a morning that is right: the agent has just written today's
+      # indicator readings and Klummen's dated claim into that checkout. An update run writes
+      # neither — it adds stories and nothing else — so its checkout carries only what is
+      # committed on the engine branch, and running this step at 12:04 would push a ledger with
+      # today's Klumme claim deleted, having proved the publish succeeded. The daily's step is left
+      # byte-identical and the script is not made conditional: an update simply does not record a
+      # memory it never formed.
+
+      # From the workspace, not engine/, so a failed engine checkout still gets a summary.
+      - name: Summary
+        if: always()
+        working-directory: ${{ github.workspace }}
+        env:
+          VERDICT: ${{ steps.guard.outputs.verdict }}
+          MODE: ${{ steps.guard.outputs.mode }}
+          DATE: ${{ steps.guard.outputs.date }}
+          SLOT: ${{ steps.guard.outputs.slot }}
+          PUBLISHED_SHA: ${{ steps.publish.outputs.sha }}
+          SERVED: ${{ steps.served.outcome }}
+          # The picture pass runs on exactly this condition, so the summary reports on exactly
+          # this condition. Not on `mode`: a dry run dispatched against a slot that has already
+          # run has mode=done and still looks at pictures.
+          PROCEED: ${{ steps.cap.outputs.proceed }}
+        run: |
+          printf '### %s – %s %s\n\n- guard `%s` · mode `%s` · engine `%s` · expires %s\n- pushed `%s` · served `%s`\n' \
+            "$BRIEF_LABEL" "${DATE:-unresolved}" "${SLOT:-no slot}" "${VERDICT:-none}" "${MODE:-none}" \
+            "$ENGINE_REF" "$UPDATE_EXPIRES" "${PUBLISHED_SHA:-none}" "${SERVED:-skipped}" >> "$GITHUB_STEP_SUMMARY"
+          EDITION="engine/data/${DATE}/draft.json"
+          if [ -n "${DATE:-}" ] && [ -f "$EDITION" ]; then
+            node -e '
+              const brief = require(process.argv[1]);
+              const added = (brief.stories || []).filter((s) => s && s.addedBy && s.addedBy.slot === process.argv[2]);
+              const runs = (brief.updateRuns || []).map((r) => `${r.slot} +${r.added}`).join(", ") || "none";
+              console.log(`- added this run: ${added.length}${added.length ? " — " + added.map((s) => s.headline).join(" · ") : ""}`);
+              console.log(`- update runs on this edition: ${runs}`);
+            ' "$(pwd)/$EDITION" "${SLOT:-}" >> "$GITHUB_STEP_SUMMARY" || true
+          fi
+          # Whether the editor looked at the added pictures. Copied from the daily, ELSE-BRANCH AND
+          # ALL: a missing file means the final pass never ran (a refused flag, a step that failed
+          # under continue-on-error), and that has to be as visible as a look that was skipped —
+          # otherwise the one line that would have said so is simply absent from the summary.
+          LOOK="engine/data/${DATE}/picture-look.json"
+          if [ -n "${DATE:-}" ] && [ "${PROCEED:-}" = "true" ]; then
+            if [ -f "$LOOK" ]; then
+              node -e 'const l=require(process.argv[1]);console.log(`- picture look: ${l.looked?"done":"SKIPPED"} · ${l.matched??l.stamped}/${l.pictures} seen · dropped unseen ${l.droppedUnseen} · ${l.reason}`)' "$(pwd)/$LOOK" >> "$GITHUB_STEP_SUMMARY" || true
+            else
+              printf -- '- picture look: MISSING, the final picture pass did not run\n' >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
