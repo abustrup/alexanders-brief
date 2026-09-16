@@ -80,7 +80,14 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    # 90, and the arithmetic matters: the liveness proof is the LAST step, and a job that dies
+    # during it kills a run that has already published — the reader has the new page and the run
+    # is red with no proof either way. The capped steps are the agent (35), the gate (15) and
+    # liveness (20) = 70, leaving 20 minutes for checkout, npm ci, the picture pass, the merge and
+    # the publish, which together have never run past 10. So liveness cannot be the step that
+    # exhausts the job: its own cap expires first, and a timed-out liveness step is a red with a
+    # published page rather than a cancelled job with no record at all.
+    timeout-minutes: 90
     defaults:
       run:
         shell: bash
@@ -131,23 +138,36 @@ jobs:
           fi
 
       # One place decides whether the rest of this job runs, so twelve `if:` lines cannot drift apart.
-      # A dry run is allowed past DONE: it publishes nothing, and the whole point of dispatching one is
-      # to see what this desk would produce on a slot that has already run.
+      #
+      # It branches on the guard's VERDICT, not on its mode. The guard folds two different
+      # situations into mode=done — DONE (this slot has already added to today) and NOT_PUBLISHED
+      # (there is no edition to add to at all) — and only the first of them is a sensible dry run.
+      # Reading the mode alone sent a dry run on an unpublished day past a warning about a slot
+      # that had "already added", and it then died at the base copy with an error about a missing
+      # archive. A day whose morning never published has nothing to trial: stop cleanly, in
+      # seconds, spending nothing, exactly as a real run does.
       - name: Plan
         id: plan
         env:
+          VERDICT: ${{ steps.guard.outputs.verdict }}
           MODE: ${{ steps.guard.outputs.mode }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
           GO=false
           if [ "$MODE" = "update" ]; then
             GO=true
-          elif [ "$DRY_RUN" = "true" ] && [ "$MODE" = "done" ]; then
-            printf '::warning::dry run: this slot has already added to %s, but a dry run publishes nothing, so it proceeds to produce an artifact.\n' "${{ steps.guard.outputs.date }}"
+          elif [ "$DRY_RUN" = "true" ] && [ "$VERDICT" = "DONE" ]; then
+            # A dry run publishes nothing, and the whole point of dispatching one is to see what
+            # this desk would produce on a slot that has already run.
+            printf '::warning::dry run: the %s slot has already added to %s, but a dry run publishes nothing, so it proceeds to produce an artifact.\n' \
+              "${{ steps.guard.outputs.slot }}" "${{ steps.guard.outputs.date }}"
             GO=true
+          elif [ "$DRY_RUN" = "true" ] && [ "$VERDICT" = "NOT_PUBLISHED" ]; then
+            printf 'plan: %s has no published edition, so there is nothing for a dry run to add to either. Stopping; nothing was spent.\n' \
+              "${{ steps.guard.outputs.date }}"
           fi
           printf 'go=%s\n' "$GO" >> "$GITHUB_OUTPUT"
-          printf 'plan: mode=%s dry_run=%s -> go=%s\n' "$MODE" "${DRY_RUN:-false}" "$GO"
+          printf 'plan: verdict=%s mode=%s dry_run=%s -> go=%s\n' "$VERDICT" "$MODE" "${DRY_RUN:-false}" "$GO"
 
       # Full history: the push rebases onto whatever the Mac routines and the morning pushed here.
       - name: Check out the website repo
@@ -326,8 +346,15 @@ jobs:
 
       # The judge of this run's colour: the merged edition carries a new runId, so this proves the
       # reader's page is the updated one and not the morning's.
+      # Capped at 20 because check-liveness.sh polls: LIVENESS_POLLS 48 x LIVENESS_INTERVAL 15s is
+      # 11m45s of sleeping, plus one page fetch (CURL_TIMEOUT 20s) and one Pages-build query per
+      # poll, neither of which is otherwise bounded. 20 leaves the polling budget its full run and
+      # still expires before the job's own 90 does, which is the point: a step that times out here
+      # is a red run with the page already published and the whole log intact, where a job that
+      # timed out would cancel with no verdict written at all.
       - name: Prove the reader is served
         id: served
+        timeout-minutes: 20
         if: ${{ always() && steps.publish.outcome == 'success' }}
         env:
           GH_TOKEN: ${{ github.token }}
@@ -335,12 +362,16 @@ jobs:
           PUSHED_SHA: ${{ steps.publish.outputs.sha }}
         run: bash scripts/brief-liveness.sh "${{ steps.guard.outputs.date }}"
 
-      - name: Record the cross-day ledger
-        if: ${{ always() && steps.publish.outcome == 'success' }}
-        env:
-          GH_PUSH_TOKEN: ${{ github.token }}
-          PAGES_REPO_DIR: ${{ github.workspace }}/pages
-        run: bash scripts/ci-record-ledger.sh "${{ steps.guard.outputs.date }}"
+      # THERE IS DELIBERATELY NO LEDGER STEP HERE. The daily has one, and it must not be copied.
+      # scripts/ci-record-ledger.sh does not append to the public ledger; it REBUILDS
+      # data/ledger/indicators.json and column-claims.json from the engine checkout's own copies
+      # and pushes the result. On a morning that is right: the agent has just written today's
+      # indicator readings and Klummen's dated claim into that checkout. An update run writes
+      # neither — it adds stories and nothing else — so its checkout carries only what is
+      # committed on the engine branch, and running this step at 12:04 would push a ledger with
+      # today's Klumme claim deleted, having proved the publish succeeded. The daily's step is left
+      # byte-identical and the script is not made conditional: an update simply does not record a
+      # memory it never formed.
 
       # From the workspace, not engine/, so a failed engine checkout still gets a summary.
       - name: Summary
@@ -353,6 +384,10 @@ jobs:
           SLOT: ${{ steps.guard.outputs.slot }}
           PUBLISHED_SHA: ${{ steps.publish.outputs.sha }}
           SERVED: ${{ steps.served.outcome }}
+          # The picture pass runs on exactly this condition, so the summary reports on exactly
+          # this condition. Not on `mode`: a dry run dispatched against a slot that has already
+          # run has mode=done and still looks at pictures.
+          PROCEED: ${{ steps.cap.outputs.proceed }}
         run: |
           printf '### %s – %s %s\n\n- guard `%s` · mode `%s` · engine `%s` · expires %s\n- pushed `%s` · served `%s`\n' \
             "$BRIEF_LABEL" "${DATE:-unresolved}" "${SLOT:-no slot}" "${VERDICT:-none}" "${MODE:-none}" \
@@ -367,7 +402,15 @@ jobs:
               console.log(`- update runs on this edition: ${runs}`);
             ' "$(pwd)/$EDITION" "${SLOT:-}" >> "$GITHUB_STEP_SUMMARY" || true
           fi
+          # Whether the editor looked at the added pictures. Copied from the daily, ELSE-BRANCH AND
+          # ALL: a missing file means the final pass never ran (a refused flag, a step that failed
+          # under continue-on-error), and that has to be as visible as a look that was skipped —
+          # otherwise the one line that would have said so is simply absent from the summary.
           LOOK="engine/data/${DATE}/picture-look.json"
-          if [ -n "${DATE:-}" ] && [ -f "$LOOK" ]; then
-            node -e 'const l=require(process.argv[1]);console.log(`- picture look: ${l.looked?"done":"SKIPPED"} · ${l.matched??l.stamped}/${l.pictures} seen · dropped unseen ${l.droppedUnseen} · ${l.reason}`)' "$(pwd)/$LOOK" >> "$GITHUB_STEP_SUMMARY" || true
+          if [ -n "${DATE:-}" ] && [ "${PROCEED:-}" = "true" ]; then
+            if [ -f "$LOOK" ]; then
+              node -e 'const l=require(process.argv[1]);console.log(`- picture look: ${l.looked?"done":"SKIPPED"} · ${l.matched??l.stamped}/${l.pictures} seen · dropped unseen ${l.droppedUnseen} · ${l.reason}`)' "$(pwd)/$LOOK" >> "$GITHUB_STEP_SUMMARY" || true
+            else
+              printf -- '- picture look: MISSING, the final picture pass did not run\n' >> "$GITHUB_STEP_SUMMARY"
+            fi
           fi
