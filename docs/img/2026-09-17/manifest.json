@@ -1,0 +1,146 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-17",
+  "generatedAt": "2026-09-17T04:33:57.580Z",
+  "pictures": [
+    {
+      "slot": "03",
+      "id": "story-fed-rate-hike-warsh-trump-20260917",
+      "headline": "Fed raises interest rates for the first time since 2023, defying Trump as inflation mounts",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260916-Kevin-Warsh-ch-1527-c36867.jpg",
+      "article": "https://www.nbcnews.com/business/economy/fed-raises-rates-defying-trump-rcna598148",
+      "hosted": "03-53eb556d.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 78676,
+      "out": "945x630",
+      "bytes": 57181,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.509,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-17T04:33:58.176Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-canada-eu-associate-member-20260917",
+      "headline": "Trump threatens tariffs on EU over Canada's bid to become bloc's first associate member",
+      "source": "https://image.cnbcfm.com/api/v1/image/108364134-1789598777418-108364134-17895980362026-09-16t223320z_1555640163_rc2mknadlrnb_rtrmadp_0_usa-trump.jpeg?v=1789598796&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html",
+      "hosted": "05-2b988ebe.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 112412,
+      "out": "1600x1067",
+      "bytes": 104257,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.83,
+        "y": 0.15
+      },
+      "fetchedAt": "2026-09-17T04:33:58.571Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-house-russia-iran-sanctions-graham-act-20260917",
+      "headline": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk",
+      "source": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4689x2638+0+244/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F68%2F585e55424da9b4a2b3209c190254%2Fap26257630971825.jpg",
+      "article": "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham",
+      "hosted": "08-3fb9da23.jpg",
+      "srcSize": "1400x788",
+      "srcFormat": "jpeg",
+      "srcBytes": 309242,
+      "out": "1182x788",
+      "bytes": 163581,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.491,
+        "y": 0.832
+      },
+      "fetchedAt": "2026-09-17T04:33:58.991Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-eu-social-media-under13-20260917",
+      "headline": "EU chief proposes bloc-wide social media ban for kids under 13",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/2026-09-16t071845z-2062402642-rc27knaagugb-rtrmadp-3-eu-stateofunion.JPG?c=original",
+      "article": "https://www.washingtonpost.com/business/2026/09/16/europe-leyen-social-media-ban-kids/c2155166-b1a8-11f1-92c2-5c918f4a6127_story.html",
+      "hosted": "09-10a80219.jpg",
+      "srcSize": "2555x1793",
+      "srcFormat": "jpeg",
+      "srcBytes": 580867,
+      "out": "1600x1067",
+      "bytes": 145861,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.386,
+        "y": 0.35
+      },
+      "fetchedAt": "2026-09-17T04:33:59.564Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-houthi-redsea-islands-port-seizure-20260917",
+      "headline": "Yemen's Houthi rebels seize more key islands in southern Red Sea, tighten grip on shipping routes",
+      "source": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6618x3723+0+345/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F26%2F70548b854bb7801d39d7d604b02f%2Fap26253317964125.jpg",
+      "article": "https://www.washingtontimes.com/news/2026/sep/14/yemens-houthi-rebels-nab-key-islands-red-sea-tighten-grip-shipping/",
+      "hosted": "11-968703e2.jpg",
+      "srcSize": "1400x788",
+      "srcFormat": "jpeg",
+      "srcBytes": 295079,
+      "out": "1182x788",
+      "bytes": 183684,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.234,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-17T04:33:59.933Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-thaci-kosovo-warcrimes-verdict-20260917",
+      "headline": "Kosovo's ex-President Thaci convicted of war crimes, sentenced to 25 years in prison",
+      "source": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x2813+0+297/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F92%2F1e%2Fa8a05440450690bdca01f44b5ddc%2Fap26258396368489.jpg",
+      "article": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+      "hosted": "12-c77e461c.jpg",
+      "srcSize": "1400x788",
+      "srcFormat": "jpeg",
+      "srcBytes": 158034,
+      "out": "1182x788",
+      "bytes": 76257,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.425,
+        "y": 0.543
+      },
+      "fetchedAt": "2026-09-17T04:34:00.227Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-world-press-photo-2026-cph",
+      "headline": "World Press Photo Exhibition 2026",
+      "source": "https://www.worldpressphoto.org/getmedia/5eb76235-1b1e-43c0-9427-e2007edd868d/WPP-2026Contest-POY-CarolGuzy.jpg?maxsidesize=900&resizemode=force",
+      "article": "https://www.worldpressphoto.org/calendar/2026/copenhagen-denmark",
+      "hosted": "r01-63999a36.jpg",
+      "srcSize": "900x568",
+      "srcFormat": "jpeg",
+      "srcBytes": 77993,
+      "out": "900x506",
+      "bytes": 53488,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-17T04:34:01.429Z"
+    }
+  ]
+}

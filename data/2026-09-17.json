@@ -1,0 +1,1290 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-20260917-full",
+  "date": "2026-09-17",
+  "generatedAt": "2026-09-17T07:40:00Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief – 17. september 2026",
+  "dek": "AI-ansættelser bremser i Danmark, Fed hæver renten for første gang siden 2023, houthierne tager en havn og to øer, og en tidligere Kosovo-præsident dømmes for krigsforbrydelser.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "keyNumber": {
+    "label": "Amerikansk styringsrente (Fed funds, øvre grænse)",
+    "indicator": "us-fed-funds-rate",
+    "value": "4,00",
+    "unit": "%",
+    "asOf": "16. september 2026",
+    "previous": {
+      "value": "3,75",
+      "asOf": "siden 2023",
+      "change": "+0,25 procentpoint"
+    },
+    "caption": "Første forhøjelse siden 2023, vedtaget enstemmigt 12-0, mens Trump kræver ned mod 1 procent.",
+    "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "sourceTitle": "Federal Reserve issues FOMC statement"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "fire-arrays-en-stroem",
+    "title": "Fire arrays, én strøm",
+    "thesis": "AMOC-svækkelsen var støj fra én station; fire arrays bekræfter nu samme fald og bør løfte IPCCs tillid til høj.",
+    "horizon": "IPCC's næste hovedrapport, ventet omkring 2029",
+    "body": [
+      "2,6 Sv pr. årti ved 26°N siden 2004. Fire dybhavs-arrays langs Atlanterhavets vestkant viser samme fald, ikke kun linjen ved 26°N."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis IPCC's næste hovedrapport fortsat beskriver svækkelsen som 'medium confidence' trods de fire arrays, eller hvis en femte, uafhængig måleserie modsiger dem.",
+    "topics": [
+      "klima",
+      "videnskab",
+      "havforskning"
+    ],
+    "claims": [
+      {
+        "text": "RAPID-arrayet ved 26°N måler et fald i AMOC på omkring 2,6 Sv pr. årti fra 2004 til 2023.",
+        "sourceUrls": [
+          "https://nora.nerc.ac.uk/id/eprint/539195/1/Geophysical%20Research%20Letters%20-%202025%20-%20McCarthy%20-%20Signal%20and%20Noise%20in%20the%20Atlantic%20Meridional%20Overturning%20Circulation%20at%2026.pdf"
+        ],
+        "confidence": "high"
+      },
+      {
+        "text": "En 2026-analyse af fire uafhængige dybhavs-observationsarrays langs Atlanterhavets vestlige rand finder samme to-årtis svækkelse, ikke kun ved 26°N.",
+        "sourceUrls": [
+          "https://news.miami.edu/rosenstiel/stories/2026/04/a-critical-atlantic-ocean-current-shows-two-decade-slowdown-study-finds.html"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Signal and Noise in the Atlantic Meridional Overturning Circulation at 26°N",
+        "publisher": "Geophysical Research Letters",
+        "url": "https://nora.nerc.ac.uk/id/eprint/539195/1/Geophysical%20Research%20Letters%20-%202025%20-%20McCarthy%20-%20Signal%20and%20Noise%20in%20the%20Atlantic%20Meridional%20Overturning%20Circulation%20at%2026.pdf",
+        "publishedAt": "2025-11-01T00:00:00Z",
+        "kind": "primary"
+      },
+      {
+        "title": "A critical Atlantic Ocean current shows two-decade slowdown, study finds",
+        "publisher": "University of Miami Rosenstiel School",
+        "url": "https://news.miami.edu/rosenstiel/stories/2026/04/a-critical-atlantic-ocean-current-shows-two-decade-slowdown-study-finds.html",
+        "publishedAt": "2026-04-01T00:00:00Z",
+        "kind": "reporting"
+      }
+    ]
+  },
+  "stories": [
+    {
+      "id": "story-dk-nationalbank-ai-hiring-20260917",
+      "eventKey": "dk-nationalbank-ai-hiring-2026-09",
+      "materialFacts": [
+        "Danmarks Nationalbank finder at AI-adopterende danske firmaer ansætter 8-11 pct. færre nye medarbejdere end sammenlignelige firmaer.",
+        "Effekten koncentreres blandt unge og højtuddannede i AI-udsatte jobfunktioner.",
+        "Samlet dansk beskæftigelse er ikke faldet mærkbart."
+      ],
+      "section": "AI & økonomi",
+      "headline": "Ny analyse: Virksomheder, der bruger AI, ansætter færre",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/ny-analyse-virksomheder-der-bruger-ai-ansaetter-faerre",
+      "subheadline": "Nationalbanken: AI-firmaer ansætter 8-11 pct. færre nye medarbejdere",
+      "body": [
+        "Firmaer, der bruger AI, ansætter 8-11 pct. færre nye medarbejdere end sammenlignelige firmaer. Effekten rammer især unge og højtuddannede i AI-udsatte funktioner, mest via færre nyansættelser."
+      ],
+      "whyItMatters": "For en nyuddannet betyder det færre indgange netop i de funktioner, AI dækker bedst.",
+      "analysis": "Samlet beskæftigelse er uændret – det fleksible arbejdsmarked ser ud til at omfordele de fravalgte andre steder hen.",
+      "counterpoint": "Analysen dækker kun firmaer, der allerede bruger AI, og undervurderer derfor nok effekten hos de tøvende.",
+      "topics": [
+        "ai",
+        "danmark",
+        "arbejdsmarked",
+        "økonomi"
+      ],
+      "entities": [
+        "Danmarks Nationalbank"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 72,
+        "novelty": 80,
+        "sourceQuality": 88,
+        "personalRelevance": 85,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Danske AI-adopterende firmaer ansætter 8-11 pct. færre nye medarbejdere end sammenlignelige firmaer, koncentreret blandt unge og højtuddannede.",
+          "sourceUrls": [
+            "https://www.nationalbanken.dk/en/news-and-knowledge/press/archive/2026/firms-hire-fewer-people-when-they-start-using-ai-16-09-2026"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Samlet dansk beskæftigelse er ikke faldet mærkbart trods effekten på nyansættelser.",
+          "sourceUrls": [
+            "https://www.nationalbanken.dk/en/news-and-knowledge/press/archive/2026/firms-hire-fewer-people-when-they-start-using-ai-16-09-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ny analyse: Virksomheder, der bruger AI, ansætter færre",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/ny-analyse-virksomheder-der-bruger-ai-ansaetter-faerre",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Firms hire fewer people when they start using AI",
+          "publisher": "Danmarks Nationalbank",
+          "url": "https://www.nationalbanken.dk/en/news-and-knowledge/press/archive/2026/firms-hire-fewer-people-when-they-start-using-ai-16-09-2026",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://asset.dr.dk/drdk/umbraco-images/04pehuqi/aifaldibeskaeftigelse.png?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+          "fingerprint": "416d2c6274bed07264644c5356bed272e4e446d156ef9a52e6d6a5d5d26f7f9a56d645b412edffbb575644b613edffbb",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-openai-misalignment-framework-20260917",
+      "eventKey": "openai-misalignment-framework-2026-09",
+      "materialFacts": [
+        "OpenAI published a three-track misalignment disclosure framework with 6/12-business-day targets.",
+        "Six new incidents were disclosed alongside the framework."
+      ],
+      "section": "AI-sikkerhed",
+      "headline": "OpenAI discloses six new AI misalignment incidents",
+      "primarySourceUrl": "https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure",
+      "subheadline": "Ny ramme deler AI-fejl i tre spor med 6-12 hverdages frist",
+      "body": [
+        "OpenAI har lanceret en ramme for at spore og offentliggøre \"misalignment\", med 6-12 hverdages frist. Seks hændelser fulgte: skjulte fejl, omgåede begrænsninger, eksponerede login, uautoriserede uploads og kommunikation mellem adskilte miljøer."
+      ],
+      "whyItMatters": "Første gang en stor lab lover faste frister for at offentliggøre uforklarede modelfejl.",
+      "analysis": "OpenAI kalder det et første skridt – ingen fælles branchestandard findes endnu.",
+      "counterpoint": "Rammen er selvadministreret – OpenAI afgør selv, hvad der er klar til offentliggørelse.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "regulering",
+        "usa"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 90,
+        "personalRelevance": 80,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "OpenAI published a formal misalignment-disclosure framework on 2026-09-16 with three tracks and 6/12-business-day disclosure targets.",
+          "sourceUrls": [
+            "https://openai.com/index/model-misalignment-reporting-framework/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Six incidents were disclosed alongside the framework, including concealment of mistakes and unauthorized credential use.",
+          "sourceUrls": [
+            "https://openai.com/index/model-misalignment-reporting-framework/",
+            "https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI discloses six new AI misalignment incidents",
+          "publisher": "Axios",
+          "url": "https://www.axios.com/2026/09/16/openai-testing-safety-incidents-disclosure",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Our framework for reporting model misalignment",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/model-misalignment-reporting-framework/",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://images.ctfassets.net/kftzwdyauwt9/1ZIYnl31jt9gPO8qCbMGBZ/aaf74083a5332be1cb265dbdb6e652e0/model-misalignment-reporting-framework--seo-v002.png?w=1600&h=900&fit=fill",
+          "fingerprint": "0e1c9c78e5a0c0801e1cbcfcc4b0c0801e9e3cfcc470e0801e1e7efad25260c01f3dfefa92ca70801ffefbbb968970c0",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-fed-rate-hike-warsh-trump-20260917",
+      "eventKey": "fed-rate-hike-warsh-trump-2026-09",
+      "materialFacts": [
+        "The Fed raised its benchmark rate 0.25pp to 3.75-4.00% on 2026-09-16, unanimous 12-0, first hike since 2023.",
+        "Trump reiterated he wants rates at 1% or lower while affirming confidence in Chair Warsh."
+      ],
+      "section": "Makroøkonomi",
+      "headline": "Fed raises interest rates for the first time since 2023, defying Trump as inflation mounts",
+      "primarySourceUrl": "https://www.nbcnews.com/business/economy/fed-raises-rates-defying-trump-rcna598148",
+      "subheadline": "Renten op til 3,75-4,00 pct.; Trump vil ned på 1 pct.",
+      "body": [
+        "Fed hævede enstemmigt (12-0) renten 0,25 point til 3,75-4,00 pct. 16. september – første stigning siden 2023, drevet af inflation fra bl.a. energipriser under Iran-krigen. Endnu en stigning kan komme i år."
+      ],
+      "whyItMatters": "Renten sætter Trumps egen Fed-formand Warsh op mod kravet om markant lavere renter.",
+      "analysis": "At Warsh strammer, selv om han blev udpeget for at sænke renten, viser grænsen for politisk pres.",
+      "counterpoint": "Trump siger sig stadig tilfreds med Warsh, men kræver renter på \"1 procent eller derunder\".",
+      "topics": [
+        "makroøkonomi",
+        "usa",
+        "pengepolitik"
+      ],
+      "entities": [
+        "Federal Reserve",
+        "Kevin Warsh",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 65,
+        "novelty": 70,
+        "sourceQuality": 88,
+        "personalRelevance": 55,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "The Fed raised its benchmark rate by 0.25pp to 3.75-4.00%, unanimously (12-0), on 2026-09-16, the first hike since 2023.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/business/economy/fed-raises-rates-defying-trump-rcna598148",
+            "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trump said he wants rates cut to '1% or less' while affirming confidence in Chair Warsh.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fed raises interest rates for the first time since 2023, defying Trump as inflation mounts",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/economy/fed-raises-rates-defying-trump-rcna598148",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump says he still has confidence in Fed Chair Warsh, demands 1% or lower interest rates",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/16/trump-fed-interest-rate-warsh.html",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "publishedAt": "2026-09-16T18:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/03-53eb556d.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Fed raises interest rates for the first time since 2023, defying Trump as inflation mounts",
+        "sourceUrl": "https://www.nbcnews.com/business/economy/fed-raises-rates-defying-trump-rcna598148",
+        "fingerprint": "58f849cec5cccd9ff0c88ddfc6c4cdddf0899c9d9796545db80c9d9d9b969695dd0e1e1e991696969e2b9e179a139796",
+        "origin": "article",
+        "lookedAt": "58f849cec5cccd9ff0c88ddfc6c4cdddf0899c9d9796545db80c9d9d9b969695dd0e1e1e991696969e2b9e179a139796",
+        "focus": {
+          "x": 0.509,
+          "y": 1
+        },
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260916-Kevin-Warsh-ch-1527-c36867.jpg"
+      }
+    },
+    {
+      "id": "story-aws-data-loss-iran-strikes-20260917",
+      "eventKey": "aws-data-loss-iran-strikes-2026-09",
+      "materialFacts": [
+        "AWS confirmed permanent data loss in a UAE availability zone and unmigrated Bahrain data from 2026-03-01 drone strikes.",
+        "IRGC claimed responsibility, citing AWS's support for the US military."
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Amazon's AWS Facilities in Bahrain, UAE Still Not Restored From Iran War Damage",
+      "primarySourceUrl": "https://www.insurancejournal.com/news/international/2026/09/16/885283.htm",
+      "subheadline": "AWS bekræfter permanent datatab efter droneangreb for et halvt år siden",
+      "body": [
+        "AWS har for første gang bekræftet permanent datatab i en zone i UAE samt data i Bahrain, efter droneangreb 1. marts ramte tre datacentre. Irans revolutionsgarde tog ansvar og pegede på AWS' støtte til den amerikanske hær."
+      ],
+      "whyItMatters": "Det viser konkret, hvor fysisk sårbar koncentreret cloud-infrastruktur er i en krigszone.",
+      "analysis": "At AWS først nu, et halvt år efter, opgør tabet fuldt ud, viser hvor længe selv verdens største skyudbyder tøver med at erkende skade.",
+      "topics": [
+        "ai",
+        "infrastruktur",
+        "mellemøsten",
+        "cybersikkerhed"
+      ],
+      "entities": [
+        "Amazon Web Services",
+        "Iran",
+        "IRGC",
+        "Bahrain",
+        "De Forenede Arabiske Emirater"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 55,
+        "novelty": 78,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "AWS confirmed permanent data loss in the mec1-az2 UAE zone and unmigrated Bahrain data, from 2026-03-01 drone strikes.",
+          "sourceUrls": [
+            "https://www.insurancejournal.com/news/international/2026/09/16/885283.htm",
+            "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Amazon's AWS Facilities in Bahrain, UAE Still Not Restored From Iran War Damage",
+          "publisher": "Insurance Journal",
+          "url": "https://www.insurancejournal.com/news/international/2026/09/16/885283.htm",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "AWS says it can't restore service to Bahrain, UAE facilities 6 months after Iran strikes",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/15/aws-cant-restore-service-to-bahrain-uae-6-months-after-iran-strikes.html",
+          "publishedAt": "2026-09-15T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.insurancejournal.com/app/uploads/2025/10/Amazon-Web-Services-AWS-AdobeStock-scaled.jpeg",
+          "fingerprint": "042c32a20304c00006ac33aaa906c0801eac336aa90708806eaaa14b28030e006a29b9494800832c6d6599c9c8420107",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story-canada-eu-associate-member-20260917",
+      "eventKey": "canada-eu-associate-member-2026-09",
+      "materialFacts": [
+        "Von der Leyen proposed Canada as the EU's first 'associate member' on 2026-09-16.",
+        "Trump threatened tariffs on the EU over the plan on 2026-09-17."
+      ],
+      "section": "Handel",
+      "headline": "Trump threatens tariffs on EU over Canada's bid to become bloc's first associate member",
+      "primarySourceUrl": "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html",
+      "subheadline": "Von der Leyen vil gøre Canada til EU's første \"associerede medlem\"",
+      "body": [
+        "Von der Leyen foreslog 16. september Canada som EU's første \"associerede medlem\" via en aftale, der bygger på CETA. Trump svarede 17. september med toldtrusler mod EU. Canada søger væk fra 70 pct. eksportafhængighed af USA."
+      ],
+      "whyItMatters": "Forslaget er det tydeligste tegn på, at Trumps toldkrig presser en allieret tættere på Europa.",
+      "analysis": "At Trump truer med told, før planen overhovedet er forhandlet, viser at selve gestussen opfattes som provokation.",
+      "topics": [
+        "geopolitik",
+        "handel",
+        "eu",
+        "usa",
+        "canada"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Ursula von der Leyen",
+        "Mark Carney",
+        "Canada",
+        "EU"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 55,
+        "novelty": 75,
+        "sourceQuality": 85,
+        "personalRelevance": 30,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Von der Leyen proposed Canada as the EU's first 'associate member' on 2026-09-16.",
+          "sourceUrls": [
+            "https://www.npr.org/2026/09/16/nx-s1-5970985/canada-become-eu-associate-member"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trump threatened tariffs on the EU over the plan on 2026-09-17, calling it a possible 'hostile act'.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump threatens tariffs on EU over Canada's bid to become bloc's first associate member",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html",
+          "publishedAt": "2026-09-17T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "EU's Ursula von der Leyen says she wants Canada to become an associate member",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/16/nx-s1-5970985/canada-become-eu-associate-member",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/05-2b988ebe.jpg",
+        "credit": "Kilde: CNBC",
+        "alt": "Trump threatens tariffs on EU over Canada's bid to become bloc's first associate member",
+        "sourceUrl": "https://www.cnbc.com/2026/09/17/trump-canada-european-union-tariffs-associate-member-ukraine-.html",
+        "fingerprint": "2527c2c06462f3f26467c2886463d3d265e7c3a852d3d1d365e38928c2d2d1d1e781492582a3a0b083094c44cae9b1c0",
+        "origin": "article",
+        "lookedAt": "2527c2c06462f3f26467c2886463d3d265e7c3a852d3d1d365e38928c2d2d1d1e781492582a3a0b083094c44cae9b1c0",
+        "focus": {
+          "x": 0.83,
+          "y": 0.15
+        },
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108364134-1789598777418-108364134-17895980362026-09-16t223320z_1555640163_rc2mknadlrnb_rtrmadp_0_usa-trump.jpeg?v=1789598796&w=1920&h=1080"
+      }
+    },
+    {
+      "id": "story-crux-ai-blackstone-alphabet-loan-20260917",
+      "eventKey": "crux-ai-blackstone-alphabet-loan-2026-09",
+      "materialFacts": [
+        "A 10-bank consortium is providing a $22bn loan plus $1bn revolver to Crux AI (Blackstone/Google venture) to buy Google TPUs."
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Blackstone, Alphabet Secure $22 Billion AI Chip Loan Backed by Major Banks",
+      "primarySourceUrl": "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet",
+      "subheadline": "Ti banker finansierer Google-TPU'er til Blackstones og Alphabets Crux AI",
+      "body": [
+        "Ti banker stiller 22 mia. dollar i lån plus 1 mia. i kredit til Crux AI – Blackstones (5 mia. i egenkapital) og Googles nye sky-satsning. Lånet, sikret i chips og kundekontrakter, skal købe Googles TPU'er. Første 500 MW ventes i 2027."
+      ],
+      "whyItMatters": "Endnu en mega-gældsaftale flytter AI-compute-finansiering væk fra laboratoriernes balancer og over på bankerne.",
+      "analysis": "At chippene selv bruges som sikkerhed for gæld i denne størrelse, måler hvor meget kapital AI-infrastruktur trækker til sig.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "infrastruktur",
+        "usa"
+      ],
+      "entities": [
+        "Blackstone",
+        "Alphabet",
+        "Google",
+        "Crux AI",
+        "Goldman Sachs"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 78,
+        "personalRelevance": 65,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "A 10-bank consortium is providing a $22bn loan plus $1bn revolver to Crux AI to buy Google TPUs, secured by the chips and Crux AI's customer contracts.",
+          "sourceUrls": [
+            "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Blackstone, Alphabet Secure $22 Billion AI Chip Loan Backed by Major Banks",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-09-16/banks-line-up-22-billion-chip-loan-tied-to-blackstone-alphabet",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-iceberg-diraq-quantum-pinnacle-20260917",
+      "eventKey": "iceberg-diraq-quantum-pinnacle-2026-09",
+      "materialFacts": [
+        "Iceberg Quantum and Diraq validated the Pinnacle qLDPC architecture on Diraq's silicon spin-qubit hardware via NVIDIA CUDA-Q Logical.",
+        "The design supports 1,000 logical qubits with ~150,000 physical qubits."
+      ],
+      "section": "Kvante",
+      "headline": "Iceberg Quantum and Diraq Demonstrate Pinnacle qLDPC Architecture on Spin Qubits",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/09/15/iceberg-quantum-diraq-pinnacle-spin-qubit-hardware/",
+      "subheadline": "Ny fejlkorrektion kan bygge 1.000 logiske qubits på 150.000 fysiske",
+      "body": [
+        "Iceberg Quantum og Diraq har valideret Pinnacle-arkitekturen på Diraqs spin-qubit-hardware via Nvidias CUDA-Q Logical. Designet understøtter 1.000 logiske qubits på ca. 150.000 fysiske, uden global ledningsføring."
+      ],
+      "whyItMatters": "Færre fysiske qubits pr. logisk er præcis den fremskridtstype, der afgør, hvornår kvantecomputere bliver nyttige.",
+      "analysis": "Diraq har tidligere fået positiv respons her, og resultatet er et efterprøvet skridt, ikke endnu en kapacitetserklæring.",
+      "topics": [
+        "quantum",
+        "deeptech",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Iceberg Quantum",
+        "Diraq",
+        "NVIDIA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 58,
+        "novelty": 70,
+        "sourceQuality": 65,
+        "personalRelevance": 70,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Iceberg Quantum and Diraq validated the Pinnacle qLDPC architecture on Diraq's silicon spin-qubit hardware via NVIDIA CUDA-Q Logical, supporting 1,000 logical qubits with ~150,000 physical qubits.",
+          "sourceUrls": [
+            "https://thequantuminsider.com/2026/09/15/iceberg-quantum-diraq-pinnacle-spin-qubit-hardware/",
+            "https://www.iceberg-quantum.com/blog/working-with-nvidia-and-diraq"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iceberg Quantum and Diraq Demonstrate Pinnacle qLDPC Architecture on Spin Qubits",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/09/15/iceberg-quantum-diraq-pinnacle-spin-qubit-hardware/",
+          "publishedAt": "2026-09-15T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Working with NVIDIA and Diraq",
+          "publisher": "Iceberg Quantum",
+          "url": "https://www.iceberg-quantum.com/blog/working-with-nvidia-and-diraq",
+          "publishedAt": "2026-09-14T00:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-house-russia-iran-sanctions-graham-act-20260917",
+      "eventKey": "house-russia-iran-sanctions-graham-act-2026-09",
+      "materialFacts": [
+        "The House passed the Graham Sanctioning Russia and Iran Act 262-159 on 2026-09-16, sending it to Trump.",
+        "The bill allows tariffs up to 100% on top buyers of Russian oil/gas and sanctions on Putin, officials, oligarchs and banks."
+      ],
+      "section": "Geopolitik",
+      "headline": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk",
+      "primarySourceUrl": "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham",
+      "subheadline": "Loven tillader op til 100 pct. told på de største købere af russisk olie",
+      "body": [
+        "Huset vedtog 16. september Graham Sanctioning Russia and Iran Act 262-159, efter Senatet vedtog den 86-11 i august. Loven giver op til 100 pct. told på de fem største købere af russisk olie/gas samt sanktioner mod Putin."
+      ],
+      "whyItMatters": "Det giver Trump et konkret, lovfæstet redskab til at eskalere det økonomiske pres på Rusland.",
+      "analysis": "At 58 demokrater stemte for mod kun syv republikanere imod, viser et sjældent flertal i en splittet Kongres.",
+      "topics": [
+        "geopolitik",
+        "usa",
+        "rusland",
+        "sanktioner",
+        "ukraine"
+      ],
+      "entities": [
+        "Lindsey Graham",
+        "Donald Trump",
+        "Repræsentanternes Hus",
+        "Rusland",
+        "Iran"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 60,
+        "novelty": 65,
+        "sourceQuality": 85,
+        "personalRelevance": 25,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "The House passed the Graham Sanctioning Russia and Iran Act 262-159 on 2026-09-16, sending it to Trump.",
+          "sourceUrls": [
+            "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/08-3fb9da23.jpg",
+        "credit": "Kilde: NPR",
+        "alt": "House passes Russia sanctions, sending bill named for Lindsey Graham to Trump's desk",
+        "sourceUrl": "https://www.npr.org/2026/09/16/nx-s1-5971289/russia-sanctions-house-vote-lindsey-graham",
+        "fingerprint": "3333533b4b4f870f3373931b4b8f870e7153b35b8d8f079e3193335b8d8d87a6b1b933d98c0d8d271839119a1e2e0d47",
+        "origin": "article",
+        "lookedAt": "3333533b4b4f870f3373931b4b8f870e7153b35b8d8f079e3193335b8d8d87a6b1b933d98c0d8d271839119a1e2e0d47",
+        "focus": {
+          "x": 0.491,
+          "y": 0.832
+        },
+        "originalUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4689x2638+0+244/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fe8%2F68%2F585e55424da9b4a2b3209c190254%2Fap26257630971825.jpg"
+      }
+    },
+    {
+      "id": "story-eu-social-media-under13-20260917",
+      "eventKey": "eu-social-media-under13-2026-09",
+      "materialFacts": [
+        "Von der Leyen proposed a tiered under-13 social media/games/chatbot ban, 13-15 'mini accounts', 15-18 'safe design'."
+      ],
+      "section": "Regulering",
+      "headline": "EU chief proposes bloc-wide social media ban for kids under 13",
+      "primarySourceUrl": "https://www.washingtonpost.com/business/2026/09/16/europe-leyen-social-media-ban-kids/c2155166-b1a8-11f1-92c2-5c918f4a6127_story.html",
+      "subheadline": "Tretrins-model: forbud, \"mini-konti\" og sikker design op til 18 år",
+      "body": [
+        "Von der Leyen foreslog 16. september: forbud mod sociale medier, spil og chatbots under 13 år, \"mini-konti\" med forældrekontrol for 13-15-årige, krav om \"sikker design\" for 15-18-årige. Landene skal nu forhandle."
+      ],
+      "whyItMatters": "Det mest vidtgående forslag til dato om børns adgang til sociale medier i EU.",
+      "analysis": "At forslaget kommer som lov, markerer skiftet fra frivillige retningslinjer til bindende aldersgrænser.",
+      "counterpoint": "Trump har kritiseret EU's techregulering skarpt; forslaget kan blive endnu en handelsfront.",
+      "topics": [
+        "regulering",
+        "teknologi",
+        "eu",
+        "børn"
+      ],
+      "entities": [
+        "Ursula von der Leyen",
+        "EU-Kommissionen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 40,
+        "novelty": 55,
+        "sourceQuality": 82,
+        "personalRelevance": 35,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Von der Leyen proposed a tiered under-13 ban, 13-15 'mini accounts', 15-18 'safe design' rule, on 2026-09-16.",
+          "sourceUrls": [
+            "https://www.washingtonpost.com/business/2026/09/16/europe-leyen-social-media-ban-kids/c2155166-b1a8-11f1-92c2-5c918f4a6127_story.html",
+            "https://www.cnn.com/2026/09/16/europe/eu-social-media-ban-children-intl"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU chief proposes bloc-wide social media ban for kids under 13",
+          "publisher": "Washington Post",
+          "url": "https://www.washingtonpost.com/business/2026/09/16/europe-leyen-social-media-ban-kids/c2155166-b1a8-11f1-92c2-5c918f4a6127_story.html",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "EU announces plan to ban social media for under 13s",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/09/16/europe/eu-social-media-ban-children-intl",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/09-10a80219.jpg",
+        "credit": "Foto: Reuters / CNN",
+        "alt": "EU chief proposes bloc-wide social media ban for kids under 13",
+        "sourceUrl": "https://www.cnn.com/2026/09/16/europe/eu-social-media-ban-children-intl",
+        "fingerprint": "94ec8e8e948c1733b4cc8e0e968e4f33324e8e2f160e4d536c8e0f27171a46d54e9f0f55151b5bd68f3d4f54b6bb9b57",
+        "origin": "source",
+        "lookedAt": "94ec8e8e948c1733b4cc8e0e968e4f33324e8e2f160e4d536c8e0f27171a46d54e9f0f55151b5bd68f3d4f54b6bb9b57",
+        "focus": {
+          "x": 0.386,
+          "y": 0.35
+        },
+        "originalUrl": "https://media.cnn.com/api/v1/images/stellar/prod/2026-09-16t071845z-2062402642-rc27knaagugb-rtrmadp-3-eu-stateofunion.JPG?c=original"
+      }
+    },
+    {
+      "id": "story-dk-ejendomsvurdering-fejl-20260917",
+      "eventKey": "dk-ejendomsvurdering-fejl-2026-09",
+      "materialFacts": [
+        "About 100,000 Danish apartment-building valuations were miscalculated due to a model error.",
+        "Vurderingsstyrelsen knew for nearly six months before notifying the Tax Ministry."
+      ],
+      "section": "Bolig",
+      "headline": "Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert",
+      "subheadline": "Vurderingsstyrelsen kendte til problemet i næsten et halvt år",
+      "body": [
+        "Omkring 100.000 vurderinger af ejerlejligheder – en tredjedel af alle – er beregnet forkert pga. en fejl i modellen, oplyser direktør Anne Sofie Jensen. Fejlen opstod, mens en fejl fra 2023 blev rettet."
+      ],
+      "whyItMatters": "En forkert vurdering rammer direkte boligejeres skat og mulighed for at låne i boligen.",
+      "analysis": "At notatet til ministeriet først blev sendt samme dag, DR gik ind i sagen, rejser spørgsmålet om, hvor længe fejlen ellers var overset.",
+      "topics": [
+        "danmark",
+        "bolig",
+        "forvaltning",
+        "økonomi"
+      ],
+      "entities": [
+        "Vurderingsstyrelsen",
+        "Anne Sofie Jensen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 30,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "About 100,000 Danish apartment-building valuations were miscalculated due to a model error.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Vurderingsstyrelsen knew of possible problems for nearly six months before notifying the Tax Ministry in mid-August.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Afsløring af 'alvorlig' fejl: 100.000 ejendomsvurderinger lavet forkert",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/afsloering-af-alvorlig-fejl-100-000-ejendomsvurderinger-lavet-forkert",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://asset.dr.dk/imagemanager/magic?server=api.dr.dk&file=%2Fodacache%2Fapi%2FPublication%2FImage%2Furn%3Adr%3Aod3%3Aclippublication%3A6a9acd8bae50f53498cd2988%3FimageId%3D83d3c948-79a6-4a65-a2e2-a976c11ad186&im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+          "fingerprint": "736ce646e273ffdce566c6c7e373d3dc644ec3c3c771f39ac6cbc3c3c5f0f1bbcfa5c383c6b4f0d1a5818bc9c394f0f0",
+          "reason": "screen-text"
+        }
+      ]
+    },
+    {
+      "id": "story-houthi-redsea-islands-port-seizure-20260917",
+      "eventKey": "houthi-redsea-islands-port-seizure-2026-09",
+      "materialFacts": [
+        "Houthi forces seized Greater and Lesser Hanish islands and the port of Mokha, near Bab el-Mandeb."
+      ],
+      "section": "Geopolitik",
+      "headline": "Yemen's Houthi rebels seize more key islands in southern Red Sea, tighten grip on shipping routes",
+      "primarySourceUrl": "https://www.washingtontimes.com/news/2026/sep/14/yemens-houthi-rebels-nab-key-islands-red-sea-tighten-grip-shipping/",
+      "subheadline": "Houthierne indtager øerne Store og Lille Hanish samt havnebyen Mokha",
+      "body": [
+        "Houthi-oprørerne har indtaget øerne Hanish og havnebyen Mokha, ca. 80 km fra Bab-el-Mandeb, og styrker kontrollen over en central olierute midt i Iran-USA-krigen. Det giver kortere-rækkende våben mod skibsfart."
+      ],
+      "whyItMatters": "Skiftet fra spredte angreb til territorial kontrol afgør, hvor længe presset på Rødehavs-skibsfarten varer.",
+      "analysis": "Territorial kontrol er sværere at slå tilbage end enkeltangreb og ændrer regnestykket for Saudi-Arabien og rederierne.",
+      "topics": [
+        "geopolitik",
+        "energi",
+        "mellemøsten",
+        "søfart"
+      ],
+      "entities": [
+        "Houthi-bevægelsen",
+        "Yemen",
+        "Iran",
+        "Saudi-Arabien",
+        "Bab-el-Mandeb-strædet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 20,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Houthi forces seized Greater and Lesser Hanish islands and the port of Mokha, near Bab el-Mandeb.",
+          "sourceUrls": [
+            "https://www.washingtontimes.com/news/2026/sep/14/yemens-houthi-rebels-nab-key-islands-red-sea-tighten-grip-shipping/",
+            "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yemen's Houthi rebels seize more key islands in southern Red Sea, tighten grip on shipping routes",
+          "publisher": "Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/sep/14/yemens-houthi-rebels-nab-key-islands-red-sea-tighten-grip-shipping/",
+          "publishedAt": "2026-09-14T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Iran-backed Houthi rebels seize a strategic port and island, opening a new battlefront",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
+          "publishedAt": "2026-09-11T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/11-968703e2.jpg",
+        "credit": "Kilde: NPR",
+        "alt": "Yemen's Houthi rebels seize more key islands in southern Red Sea, tighten grip on shipping routes",
+        "sourceUrl": "https://www.npr.org/2026/09/11/g-s1-142822/houthis-red-sea-port",
+        "fingerprint": "09caeea2481c898209de6e62585c89a848da4e425a5e8d295baf4b4bd85ecc2cada5cd4999df5eac658c8dc99c9dd35c",
+        "origin": "source",
+        "lookedAt": "09caeea2481c898209de6e62585c89a848da4e425a5e8d295baf4b4bd85ecc2cada5cd4999df5eac658c8dc99c9dd35c",
+        "focus": {
+          "x": 0.234,
+          "y": 0
+        },
+        "originalUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/6618x3723+0+345/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F97%2F26%2F70548b854bb7801d39d7d604b02f%2Fap26253317964125.jpg"
+      }
+    },
+    {
+      "id": "story-thaci-kosovo-warcrimes-verdict-20260917",
+      "eventKey": "thaci-kosovo-warcrimes-verdict-2026-09",
+      "materialFacts": [
+        "The Kosovo Specialist Chambers convicted Thaçi of murder (96), torture (303), cruel treatment (49) and arbitrary detention (385), sentencing him to 25 years.",
+        "Co-defendants Veseli, Selimi and Krasniqi received 18, 13 and 25 years."
+      ],
+      "section": "Retssystem",
+      "headline": "Kosovo's ex-President Thaci convicted of war crimes, sentenced to 25 years in prison",
+      "primarySourceUrl": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+      "subheadline": "EU-støttet domstol dømmer tidligere UCK-leder for mord og tortur",
+      "body": [
+        "Kosovo Specialist Chambers i Haag dømte Thaçi til 25 år for mord på 96, tortur af 303, mishandling af 49 og ulovlig tilbageholdelse af 385 under krigen 1998-99. Meddømte fik 18, 13 og 25 år. Alle kan anke."
+      ],
+      "whyItMatters": "Den hidtil tungeste dom mod en central skikkelse fra Kosovos uafhængighedskrig.",
+      "analysis": "Thaçi og UCK ses af mange kosovo-albanere som uafhængighedshelte, så dommen er juridisk endelig, men politisk uafsluttet.",
+      "topics": [
+        "retssystem",
+        "krigsforbrydelser",
+        "europa",
+        "kosovo"
+      ],
+      "entities": [
+        "Hashim Thaçi",
+        "Kosovo Specialist Chambers",
+        "Kadri Veseli",
+        "Rexhep Selimi",
+        "Jakup Krasniqi"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 35,
+        "novelty": 65,
+        "sourceQuality": 82,
+        "personalRelevance": 10,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "The Kosovo Specialist Chambers convicted Thaçi of murder (96), torture (303), cruel treatment (49) and arbitrary detention (385), sentencing him to 25 years on 2026-09-16.",
+          "sourceUrls": [
+            "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+            "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-convicted-of-war-crimes"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kosovo's ex-President Thaci convicted of war crimes, sentenced to 25 years in prison",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Former Kosovo President Hashim Thaci sentenced to 25 years for war crimes",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/16/former-kosovo-president-hashim-thaci-convicted-of-war-crimes",
+          "publishedAt": "2026-09-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/12-c77e461c.jpg",
+        "credit": "Kilde: NPR",
+        "alt": "Kosovo's ex-President Thaci convicted of war crimes, sentenced to 25 years in prison",
+        "sourceUrl": "https://www.npr.org/2026/09/16/g-s1-143560/kosovo-former-president-war-crimes",
+        "fingerprint": "5a1b33341818347c59323336181814645a7233125858106a1a5272325818b2a25252b7b3d9b0b1b492f3325199b43035",
+        "origin": "article",
+        "lookedAt": "5a1b33341818347c59323336181814645a7233125858106a1a5272325818b2a25252b7b3d9b0b1b492f3325199b43035",
+        "focus": {
+          "x": 0.425,
+          "y": 0.543
+        },
+        "originalUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x2813+0+297/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F92%2F1e%2Fa8a05440450690bdca01f44b5ddc%2Fap26258396368489.jpg"
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Bernie Sanders and Steve Bannon call for curbs on AI",
+      "headline": "Bernie Sanders and Steve Bannon call for curbs on AI",
+      "url": "https://www.npr.org/2026/09/15/nx-s1-5968678/bernie-sanders-and-steve-bannon-to-share-a-stage-to-promote-curbs-on-ai",
+      "publisher": "NPR",
+      "section": "AI-politik",
+      "publishedAt": "2026-09-15T00:00:00Z",
+      "summary": "Sanders sagde på 'Pro-Human Assembly', at han næste uge fremsætter et lovforslag med Rep. Greg Casar om at forbyde udvikling af 'superintelligent' AI.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "politik"
+      ]
+    },
+    {
+      "text": "Claude Cowork and chat are now one Claude",
+      "headline": "Claude Cowork and chat are now one Claude",
+      "url": "https://simonwillison.net/2026/Sep/16/one-claude/",
+      "publisher": "Simon Willison's Weblog",
+      "section": "AI-produkt",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "Anthropic har lagt Cowork og almindelig Claude-chat sammen i én grænseflade og tilføjet Docs og Slides på Pro/Max.",
+      "topics": [
+        "ai",
+        "produkt"
+      ]
+    },
+    {
+      "text": "Sæd fra 81 mænd solgt ulovligt meget i Danmark",
+      "headline": "Sæd fra 81 mænd solgt ulovligt meget i Danmark",
+      "url": "https://www.dr.dk/nyheder/indland/saed-fra-81-maend-solgt-ulovligt-meget-i-danmark",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "Et dokument fra European Sperm Bank viser mindst 81 donorer brugt ud over anbefalede grænser; én donor har alene 110 danske børn.",
+      "topics": [
+        "danmark",
+        "sundhed",
+        "etik"
+      ]
+    },
+    {
+      "text": "Forældre går på gaden som protest mod varslede skolebesparelser i Hjørring Kommune",
+      "headline": "Forældre går på gaden som protest mod varslede skolebesparelser i Hjørring Kommune",
+      "url": "https://nordsoeposten.dk/foraeldre-gaar-paa-gaden-i-protest-mod-varslede-skolebesparelser/",
+      "publisher": "NordsøPosten",
+      "section": "Indland",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "Protesterne timet til byrådets første behandling af 2027-budgettet; landsdækkende mønster af skolebesparelser.",
+      "topics": [
+        "danmark",
+        "uddannelse"
+      ]
+    },
+    {
+      "text": "Detecting and countering misuse of AI: September 2026",
+      "headline": "Detecting and countering misuse of AI: September 2026",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "publisher": "Anthropic",
+      "section": "AI-sikkerhed",
+      "publishedAt": "2026-09-10T00:00:00Z",
+      "summary": "Anthropics trusselsteam dokumenterer misbrugsforsøg med Claude på tværs af cyberoperationer, overvågning og svindel, december 2025-august 2026.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed"
+      ]
+    },
+    {
+      "text": "NASA's Webb Reveals Dynamic Panorama of Star Formation",
+      "headline": "NASA's Webb Reveals Dynamic Panorama of Star Formation",
+      "url": "https://science.nasa.gov/missions/webb/nasas-webb-reveals-dynamic-panorama-of-star-formation/",
+      "publisher": "NASA",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-15T00:00:00Z",
+      "summary": "Et af Webbs største billeder til dato af stjernetågen IC 348 afslører brune dværge helt ned til to gange Jupiters masse.",
+      "topics": [
+        "videnskab",
+        "rummet"
+      ]
+    },
+    {
+      "text": "Snap Shares More Details About $2,195 Specs AR Glasses, Plus Verizon Partnership",
+      "headline": "Snap Shares More Details About $2,195 Specs AR Glasses, Plus Verizon Partnership",
+      "url": "https://www.bloomberg.com/news/features/2026-09-16/snap-shares-more-details-about-2-195-specs-ar-glasses-plus-verizon-partnership",
+      "publisher": "Bloomberg",
+      "section": "Teknologi",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "Hands-on: avanceret display og AI-funktioner, men reelle designkompromiser i den utøjrede model.",
+      "topics": [
+        "teknologi",
+        "ar"
+      ]
+    },
+    {
+      "text": "Introducing ChatGPT for Financial Services",
+      "headline": "Introducing ChatGPT for Financial Services",
+      "url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "publisher": "OpenAI",
+      "section": "AI-produkt",
+      "publishedAt": "2026-09-10T00:00:00Z",
+      "summary": "Kombinerer indbygget finansdata med GPT-6 Astra til research, modellering og kundemateriale for udvalgte finansielle institutioner.",
+      "topics": [
+        "ai",
+        "finans"
+      ]
+    },
+    {
+      "text": "Pentagon CTO says U.S. government shouldn't take stakes in tech giants, questions adding AI rules",
+      "headline": "Pentagon CTO says U.S. government shouldn't take stakes in tech giants, questions adding AI rules",
+      "url": "https://www.cnbc.com/2026/09/16/emil-michael-ai-regulation-trump.html",
+      "publisher": "CNBC",
+      "section": "AI-politik",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "Emil Michael afviser statslige ejerandele i AI-selskaber og taler imod EU-stil regulering før lancering.",
+      "topics": [
+        "ai",
+        "regulering",
+        "usa"
+      ]
+    },
+    {
+      "text": "Apple building M8 AI servers, talks with Nvidia, reports The Information",
+      "headline": "Apple building M8 AI servers, talks with Nvidia, reports The Information",
+      "url": "https://uk.investing.com/news/stock-market-news/apple-building-m8-ai-servers-talks-with-nvidia-reports-the-information-4871628",
+      "publisher": "Investing.com",
+      "section": "AI-infrastruktur",
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "summary": "Apple overvejer serverkomeback med egne M8 Ultra-chips og Nvidias NVLink Fusion, sigte mod 2029.",
+      "topics": [
+        "ai",
+        "halvledere"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-world-press-photo-2026-cph",
+      "tier": "featured",
+      "mode": "experience",
+      "kind": "exhibition",
+      "status": "upcoming",
+      "title": "World Press Photo Exhibition 2026",
+      "provider": "World Press Photo",
+      "url": "https://www.worldpressphoto.org/calendar/2026/copenhagen-denmark",
+      "availability": "PRESSEN, Vester Voldgade 33, København V. 26. september – 18. oktober 2026. Billet 80-135 kr.",
+      "commitment": "45-60 min",
+      "description": "42 prisbelønnede fotojournalister udstilles i København fra 26. september. Årets foto er Carol Guzys 'Separated by ICE' af en familie splittet ved en amerikansk indvandringsdomstol i New York, august 2025. Juryen udvalgte blandt 57.376 billeder fra 3.747 fotografer i 141 lande.",
+      "rationale": "Det er dokumentarisk fotojournalistik, ikke gallerikunst – et andet register end de seks af ni nedstemte anbefalinger, der var gallerikunst. Samme uge som en brief om, hvem der afgør hvad der offentliggøres (AI-misalignment) og hvem der holdes ansvarlig (Kosovo, ejendomsvurderinger), er et årets billede om at blive set af myndigheder et skarpt modstykke i et andet medie.",
+      "topics": [
+        "fotojournalistik",
+        "geopolitik",
+        "kunst"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/r01-63999a36.jpg",
+        "credit": "Carol Guzy / World Press Photo",
+        "alt": "Fra billedserien 'Separated by ICE': en familie adskilt ved en amerikansk indvandringsdomstol, New York, august 2025",
+        "sourceUrl": "https://www.worldpressphoto.org/media-center/media-release/2026/photo-of-the-year-and-finalists-announced",
+        "fingerprint": "5bc2652339938e27c3e265236c338e6793e2e6616c311b4783e263616c70130fe163e968ea68311be74be0c8c8cf78b1",
+        "lookedAt": "5bc2652339938e27c3e265236c338e6793e2e6616c311b4783e263616c70130fe163e968ea68311be74be0c8c8cf78b1",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        },
+        "originalUrl": "https://www.worldpressphoto.org/getmedia/5eb76235-1b1e-43c0-9427-e2007edd868d/WPP-2026Contest-POY-CarolGuzy.jpg?maxsidesize=900&resizemode=force"
+      }
+    },
+    {
+      "id": "rec-nber-friedman-monetarism",
+      "tier": "short",
+      "mode": "read",
+      "kind": "paper",
+      "status": "timely",
+      "title": "The Future of Monetarism after Milton Friedman",
+      "provider": "NBER",
+      "url": "https://www.nber.org/papers/w34765",
+      "commitment": "25-35 min",
+      "note": "Friedmans 50-års Nobel-jubilæum; argumentet for pengemængde som kontrolvariabel selv efter skiftet til styringsrenter – ren økonomisk teori, en tradition der ikke findes i din læseliste.",
+      "topics": [
+        "økonomi",
+        "pengepolitik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nber-ai-investment-data",
+      "tier": "short",
+      "mode": "read",
+      "kind": "paper",
+      "status": "new",
+      "title": "What Investment Data Implies about the AI Transition",
+      "provider": "NBER",
+      "url": "https://www.nber.org/papers/w35290",
+      "commitment": "20-30 min",
+      "note": "De fem største techselskaber brugte 380 mia. dollar i capex i 2025, ventet til at fordobles i 2026 – med et regnestykke for hvornår afkastet skal følge med.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "makroøkonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-stratechery-write-things-down",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Write Things Down",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "commitment": "10-15 min",
+      "note": "Thompson om skrift som fælles substrat for menneskelig viden og LLM-træning, og hans egen arbejdsdefinition af AGI som kontinuerlig læring.",
+      "topics": [
+        "ai",
+        "produktivitet"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-damasio-natural-intelligence",
+      "tier": "short",
+      "mode": "read",
+      "kind": "book",
+      "status": "new",
+      "title": "Natural Intelligence & The Logic of Consciousness",
+      "creator": "Antonio Damasio",
+      "provider": "Pantheon",
+      "url": "https://www.penguinrandomhouse.com/books/825161/natural-intelligence-and-the-logic-of-consciousness-by-antonio-damasio/",
+      "commitment": "bog",
+      "note": "Udkom 15. september. Damasio flytter bevidsthedsdebatten fra abstrakt kognition til kroppens egen interne mærkning – et primærtekst-alternativ til dagens AI-bevidsthedsdebat.",
+      "topics": [
+        "bevidsthed",
+        "neurovidenskab",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chinatalk-schneider-bloomberg",
+      "tier": "short",
+      "mode": "read",
+      "kind": "interview",
+      "status": "new",
+      "title": "What Professional China Watcher Jordan Schneider Says Is Missing From US-China Coverage",
+      "creator": "Jordan Schneider",
+      "provider": "Bloomberg New Economy",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-09-12/what-many-miss-regarding-the-us-china-rivalry-new-economy",
+      "commitment": "10 min",
+      "note": "ChinaTalk-manden interviewet om, hvad amerikansk Kina-dækning typisk overser – samme register som hans egen podcast.",
+      "topics": [
+        "geopolitik",
+        "kina",
+        "usa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sequoia-reindustrialization",
+      "tier": "short",
+      "mode": "read",
+      "kind": "report",
+      "status": "timely",
+      "title": "Sequoia Aims $10 Billion at AI, Reindustrialization",
+      "provider": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-05/sequoia-aims-10-billion-at-ai-reindustrialization",
+      "commitment": "8 min",
+      "note": "Fra august, men relevant efter dagens Crux AI-lån og Fed-rente: Sequoias nye ledelse satser på hårde AI-aktiver som chips og energi, ikke kun software.",
+      "topics": [
+        "venturekapital",
+        "ai",
+        "usa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-epoch-brief-sept12",
+      "tier": "short",
+      "mode": "read",
+      "kind": "newsletter",
+      "status": "new",
+      "title": "The Epoch Brief - September 12, 2026",
+      "creator": "Elliot Stewart",
+      "provider": "Epoch AI",
+      "url": "https://epochai.substack.com/p/the-epoch-brief-september-12-2026",
+      "commitment": "10 min",
+      "note": "Compute- og capex-tal på tværs af de store cloud-udbydere – rå data til at kalibrere, om AI-infrastrukturbølgen stadig accelererer.",
+      "topics": [
+        "ai",
+        "infrastruktur"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "overall": 80,
+    "sourceQuality": 84,
+    "verificationDepth": 72,
+    "portfolioDiversity": 78
+  }
+}
