@@ -202,6 +202,19 @@
           "recordedOn": "2026-08-10"
         }
       ]
+    },
+    {
+      "indicator": "us-fed-funds-rate",
+      "label": "Amerikansk styringsrente (Fed funds, øvre grænse)",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "4,00",
+          "asOf": "16. september 2026",
+          "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+          "recordedOn": "2026-09-17"
+        }
+      ]
     }
   ]
 }
