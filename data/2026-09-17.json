@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-20260917-full",
+  "runId": "run-2026-09-17-uafternoon-r3",
   "date": "2026-09-17",
-  "generatedAt": "2026-09-17T07:40:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-09-17T15:12:15.586Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief – 17. september 2026",
   "dek": "AI-ansættelser bremser i Danmark, Fed hæver renten for første gang siden 2023, houthierne tager en havn og to øer, og en tidligere Kosovo-præsident dømmes for krigsforbrydelser.",
   "profileWeights": {
@@ -982,6 +982,182 @@
         },
         "originalUrl": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/5000x2813+0+297/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F92%2F1e%2Fa8a05440450690bdca01f44b5ddc%2Fap26258396368489.jpg"
       }
+    },
+    {
+      "id": "story-dk-mortgage-5pct-rate-20260917",
+      "eventKey": "dk-mortgage-5pct-rate-2026-09",
+      "materialFacts": [
+        "Jyske Realkredit åbnede et fastforrentet lån til 5 procent torsdag den 17. september 2026.",
+        "København havde i august 36 procent færre solgte ejerlejligheder end i august 2025, den tredjelaveste august siden 2011."
+      ],
+      "section": "Økonomi",
+      "headline": "5-procentlånet er her: 'Man kan låne færre kroner - og har mindre at købe bolig for'",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/5-procentlaanet-er-her-man-kan-laane-faerre-kroner-og-har-mindre-koebe-bolig",
+      "subheadline": "Jyske Realkredit åbner et 5-procents fastlån, mens boligsalget i København bremser.",
+      "body": [
+        "Jyske Realkredit åbnede torsdag et fastforrentet lån til 5 procent efter renteforhøjelser i USA og EU. Økonom Mikkel Høegh: for samme indkomst kan man låne færre kroner. I København blev der i august solgt 36 procent færre ejerlejligheder end sidste år - tredjelaveste august siden 2011."
+      ],
+      "whyItMatters": "Førstegangskøbere får mindre at handle for, og boligmarkedet i København bremser allerede op.",
+      "topics": [
+        "danmark",
+        "bolig",
+        "økonomi",
+        "pengepolitik"
+      ],
+      "entities": [
+        "Jyske Realkredit",
+        "Jyske Bank"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 62,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 55,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Jyske Realkredit åbnede torsdag den 17. september 2026 et fastforrentet lån til 5 procent, efter renteforhøjelser i USA og EU.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/5-procentlaanet-er-her-man-kan-laane-faerre-kroner-og-har-mindre-koebe-bolig"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "København havde i august 2026 solgt 36 procent færre ejerlejligheder end i august 2025 - den tredjelaveste august siden Boligsiden begyndte at måle i 2011.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/der-blev-solgt-faerre-ejerlejligheder-i-august"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "5-procentlånet er her: 'Man kan låne færre kroner - og har mindre at købe bolig for'",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/5-procentlaanet-er-her-man-kan-laane-faerre-kroner-og-har-mindre-koebe-bolig",
+          "publishedAt": "2026-09-17T11:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Der blev solgt færre ejerlejligheder i august",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/der-blev-solgt-faerre-ejerlejligheder-i-august",
+          "publishedAt": "2026-09-17T06:03:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/13-f2e4c1ea.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Arkivfoto af et 'til salg'-skilt fra en dansk boligmægler",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/5-procentlaanet-er-her-man-kan-laane-faerre-kroner-og-har-mindre-koebe-bolig",
+        "origin": "article",
+        "fingerprint": "22679f8d9bdb1bdb236f1f8d99bb9bdb26770f0e19b93b4937570e4a09b9394977364e4b08383859865b4b8a0c3cfc3c",
+        "lookedAt": "22679f8d9bdb1bdb236f1f8d99bb9bdb26770f0e19b93b4937570e4a09b9394977364e4b08383859865b4b8a0c3cfc3c",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/nz4nb2nk/20200901-155805-a.jpg?im=AspectCrop%3D%28720%2C481%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28720%2C481%29",
+        "focus": {
+          "x": 0.773,
+          "y": 0.15
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-17T15:12:15.586Z",
+        "runId": "run-2026-09-17-uafternoon-r3"
+      }
+    },
+    {
+      "id": "story-germany-eurofighter-latvia-election-20260917",
+      "eventKey": "germany-eurofighter-latvia-election-2026-09",
+      "materialFacts": [
+        "Tyskland sender fire Eurofighter-jets og et halvt hundrede soldater til Letlands Lielvārde-base op til parlamentsvalget 3. oktober 2026.",
+        "Letland har ingen egne kampjets og har oplevet russiske dronekrænkelser i juni og august 2026."
+      ],
+      "section": "Geopolitik",
+      "headline": "Germany sending fighter jets to Latvia to protect election from drone incidents",
+      "primarySourceUrl": "https://www.defensenews.com/global/europe/2026/09/17/germany-sending-fighter-jets-to-latvia-to-protect-election-from-drone-incidents/",
+      "subheadline": "Fire tyske Eurofighter-jets skal sikre luftrummet før valget i Letland 3. oktober.",
+      "body": [
+        "Tyskland sender fire Eurofighter-jets og et halvt hundrede soldater til Letlands Lielvārde-base op til parlamentsvalget. Letland har ingen egne kampjets og har oplevet russiske dronekrænkelser i juni og august - dage efter at italienske NATO-jets skød en russisk drone ned over Litauen."
+      ],
+      "whyItMatters": "Endnu en NATO-forstærkning, mens dronekrænkelser bliver et fast mønster langs grænsen til Rusland.",
+      "topics": [
+        "geopolitik",
+        "nato",
+        "rusland",
+        "baltikum"
+      ],
+      "entities": [
+        "Tyskland",
+        "Letland",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 50,
+        "novelty": 65,
+        "sourceQuality": 82,
+        "personalRelevance": 35,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Tyskland sender fire Eurofighter Typhoon-jets fra Taktisk Luftvåbenwing 74 samt et halvt hundrede soldater og teknikere til Lielvārde-basen i Letland for cirka en uge omkring 3. oktober 2026.",
+          "sourceUrls": [
+            "https://www.defensenews.com/global/europe/2026/09/17/germany-sending-fighter-jets-to-latvia-to-protect-election-from-drone-incidents/",
+            "https://www.aerotime.aero/articles/germany-eurofighters-latvia-election-air-defense"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Letland har ingen egne kampjets og bad om støtte efter dronekrænkelser i juni og august 2026; italienske NATO-jets skød en formodet russisk drone ned over Litauen dage forinden.",
+          "sourceUrls": [
+            "https://www.defensenews.com/global/europe/2026/09/17/germany-sending-fighter-jets-to-latvia-to-protect-election-from-drone-incidents/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Germany sending fighter jets to Latvia to protect election from drone incidents",
+          "publisher": "Defense News",
+          "url": "https://www.defensenews.com/global/europe/2026/09/17/germany-sending-fighter-jets-to-latvia-to-protect-election-from-drone-incidents/",
+          "publishedAt": "2026-09-17T16:43:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Germany to send Eurofighters to Latvia to protect airspace during election",
+          "publisher": "AeroTime",
+          "url": "https://www.aerotime.aero/articles/germany-eurofighters-latvia-election-air-defense",
+          "publishedAt": "2026-09-17T15:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-17/14-d7225ffa.jpg",
+        "credit": "Kilde: Defense News",
+        "alt": "Et bevæbnet Eurofighter Typhoon-kampfly på en flyveplads",
+        "sourceUrl": "https://www.defensenews.com/global/europe/2026/09/17/germany-sending-fighter-jets-to-latvia-to-protect-election-from-drone-incidents/",
+        "origin": "article",
+        "fingerprint": "c240d863e2f77b3cc258986262e7f9dcc25890e372e7f1f8d198a0e359d2e1bc9818d0e1d9d3c3f01838c0a1d8d183c8",
+        "lookedAt": "c240d863e2f77b3cc258986262e7f9dcc25890e372e7f1f8d198a0e359d2e1bc9818d0e1d9d3c3f01838c0a1d8d183c8",
+        "originalUrl": "https://www.armytimes.com/resizer/v2/7JTUJENTF5G2BEA6BV5CML5RUY.jpg?width=1200&auth=76d3ce19e250a7af3b9f434859ee41a0dad646466eb539c45a7536edb2a55989",
+        "focus": {
+          "x": 0.296,
+          "y": 0.814
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-17T15:12:15.586Z",
+        "runId": "run-2026-09-17-uafternoon-r3"
+      }
     }
   ],
   "signals": [
@@ -1286,5 +1462,20 @@
     "sourceQuality": 84,
     "verificationDepth": 72,
     "portfolioDiversity": 78
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-17T15:12:15.586Z",
+      "runId": "run-2026-09-17-uafternoon-r3",
+      "added": 2,
+      "cost": {
+        "usd": 6.704648999999998,
+        "inputTokens": 12147735,
+        "outputTokens": 62566,
+        "turns": 132,
+        "seconds": 1122.5
+      }
+    }
+  ]
 }

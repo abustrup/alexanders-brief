@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-17",
-  "generatedAt": "2026-09-17T04:33:57.580Z",
+  "generatedAt": "2026-09-17T15:15:07.705Z",
   "pictures": [
     {
       "slot": "03",
@@ -121,6 +121,47 @@
         "y": 0.543
       },
       "fetchedAt": "2026-09-17T04:34:00.227Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-dk-mortgage-5pct-rate-20260917",
+      "headline": "5-procentlånet er her: 'Man kan låne færre kroner - og har mindre at købe bolig for'",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/nz4nb2nk/20200901-155805-a.jpg?im=AspectCrop%3D%28720%2C481%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%28720%2C481%29",
+      "article": "https://www.dr.dk/nyheder/penge/5-procentlaanet-er-her-man-kan-laane-faerre-kroner-og-har-mindre-koebe-bolig",
+      "hosted": "13-f2e4c1ea.jpg",
+      "srcSize": "720x481",
+      "srcFormat": "webp",
+      "srcBytes": 55888,
+      "out": "720x480",
+      "bytes": 54951,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.773,
+        "y": 0.15
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-17T15:15:08.163Z"
+    },
+    {
+      "slot": "14",
+      "id": "story-germany-eurofighter-latvia-election-20260917",
+      "headline": "Germany sending fighter jets to Latvia to protect election from drone incidents",
+      "source": "https://www.armytimes.com/resizer/v2/7JTUJENTF5G2BEA6BV5CML5RUY.jpg?width=1200&auth=76d3ce19e250a7af3b9f434859ee41a0dad646466eb539c45a7536edb2a55989",
+      "article": "https://www.defensenews.com/global/europe/2026/09/17/germany-sending-fighter-jets-to-latvia-to-protect-election-from-drone-incidents/",
+      "hosted": "14-d7225ffa.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "heif",
+      "srcBytes": 66969,
+      "out": "1200x800",
+      "bytes": 102100,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.296,
+        "y": 0.814
+      },
+      "fetchedAt": "2026-09-17T15:15:08.742Z"
     },
     {
       "slot": "r01",
