@@ -204,15 +204,22 @@
       ]
     },
     {
-      "indicator": "us-fed-funds-rate",
-      "label": "Amerikansk styringsrente (Fed funds, øvre grænse)",
+      "indicator": "anthropic-internal-rd-automation",
+      "label": "Andel af Anthropics interne AI-forskning og -udvikling, som Claude fører",
       "unit": "%",
+      "note": "Startet 2026-09-18 fra Anthropics eget 'R&D Automation Index'. 'Fører' betyder, at modellen løser opgaven fra ende til anden ud fra en prompt, mens et menneske overvåger.",
       "readings": [
         {
-          "value": "4,00",
-          "asOf": "16. september 2026",
-          "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
-          "recordedOn": "2026-09-17"
+          "value": "under 1",
+          "asOf": "februar 2026",
+          "sourceUrl": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+          "recordedOn": "2026-09-18"
+        },
+        {
+          "value": "26",
+          "asOf": "august 2026",
+          "sourceUrl": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+          "recordedOn": "2026-09-18"
         }
       ]
     }
