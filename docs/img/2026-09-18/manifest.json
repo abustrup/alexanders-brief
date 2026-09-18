@@ -1,0 +1,227 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-18",
+  "generatedAt": "2026-09-18T04:48:52.603Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-anthropic-rd-automation-index",
+      "headline": "Measurements for understanding the pace of AI development inside frontier labs",
+      "source": "https://image.cnbcfm.com/api/v1/image/108342837-1785448087702-gettyimages-2256654494-DAVOS_WEF_2026.jpeg?v=1785448353&w=1920&h=1080",
+      "article": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "hosted": "01-ce667267.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 139015,
+      "out": "1440x1080",
+      "bytes": 114706,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.841,
+        "y": 0.098
+      },
+      "fetchedAt": "2026-09-18T04:48:53.084Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-microsoft-openai-theft-filings",
+      "headline": "Microsoft exec called AI scraping 'the largest theft of labor in human history,' new unredacted filings reveal",
+      "source": "https://techcrunch.com/wp-content/uploads/2023/11/GettyImages-1778706504.jpg?resize=1200,783",
+      "article": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+      "hosted": "02-87481770.jpg",
+      "srcSize": "1200x783",
+      "srcFormat": "webp",
+      "srcBytes": 27614,
+      "out": "1174x783",
+      "bytes": 37760,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.375
+      },
+      "fetchedAt": "2026-09-18T04:48:53.473Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-crusoe-series-f",
+      "headline": "Crusoe raises $3.9B to build massive data centers and small modular \"AI factories\"",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800",
+      "article": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+      "hosted": "03-e62e1500.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 65730,
+      "out": "1200x800",
+      "bytes": 71930,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-18T04:48:53.857Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-dk-deepfake-apps-investigation",
+      "headline": "Billede af Filippa blev med AI gjort til pornografisk indhold og brugt i annoncer på Meta",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/1s1p0psm/rams_a_indslag_deepfake_filippa_3-00003910.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/billede-af-filippa-blev-med-ai-gjort-til-pornografisk-indhold-og-brugt-i-annoncer-paa-meta",
+      "hosted": "04-33bd8c26.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 31329,
+      "out": "1012x675",
+      "bytes": 35936,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-18T04:48:54.192Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-sec-tokenized-stocks",
+      "headline": "SEC rolls out long-awaited 'innovation exemption' for tokenized securities venues",
+      "source": "https://cdn.sanity.io/images/s3y3vcno/production/72d2d0f41575a69ebb63c81c3ae0aa0e4b7b3e5c-3308x1862.jpg?auto=format&fm=jpg",
+      "article": "https://www.coindesk.com/policy/2026/09/17/sec-rolls-out-long-awaited-innovation-exemption-for-tokenized-securities-venues",
+      "hosted": "05-eda59684.jpg",
+      "srcSize": "3308x1862",
+      "srcFormat": "jpeg",
+      "srcBytes": 503218,
+      "out": "1600x1067",
+      "bytes": 135513,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-18T04:48:54.944Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-iran-war-trump-direct-talks",
+      "headline": "Trump says 'hopefully we are toward end' of Iran war",
+      "source": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1789616813569-48b92fd4c7497d41.jpg",
+      "article": "https://www.arabnews.com/middle-east/trump-says-hopefully-we-are-toward-end-of-iran-war-3002030",
+      "hosted": "06-bc9485f5.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 157739,
+      "out": "1200x800",
+      "bytes": 80248,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.607
+      },
+      "fetchedAt": "2026-09-18T04:48:55.267Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-dk-haerens-industridag",
+      "headline": "Hærens Industridag 2026: Fremtidens forsvar udvikler vi sammen",
+      "source": "https://www.forsvaret.dk/globalassets/fko---forsvaret/billeder/billeder-til-nyheder/artikel/2026/09-september/artikel/-siku-2023-oksbol-2026-artikel.jpg",
+      "article": "https://www.forsvaret.dk/da/nyheder/2026/harens-industridag-2026-fremtidens-forsvar-udvikler-vi-sammen",
+      "hosted": "08-53512d61.jpg",
+      "srcSize": "1146x694",
+      "srcFormat": "jpeg",
+      "srcBytes": 233778,
+      "out": "1041x694",
+      "bytes": 120005,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-18T04:48:56.379Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-nepal-tibet-flood-attribution",
+      "headline": "Climate change had major role in triggering Nepal floods, scientists say",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/AP26259462407456-1789639076.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/9/17/climate-change-had-major-role-in-triggering-nepal-floods-scientists-say",
+      "hosted": "09-80a4f842.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 526574,
+      "out": "1600x1067",
+      "bytes": 295896,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-18T04:48:56.884Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-quantum-x-labs-cyber",
+      "headline": "Quantum X Labs Launches Quantum-Native Cybersecurity Program Designed to Harness Quantum Properties for Next-Generation Security",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Yossi_Cohen.jpg/1920px-Yossi_Cohen.jpg",
+      "article": "https://www.globenewswire.com/news-release/2026/09/17/3363890/0/en/quantum-x-labs-launches-quantum-native-cybersecurity-program-designed-to-harness-quantum-properties-for-next-generation-security.html",
+      "hosted": "10-90f1b7f6.jpg",
+      "srcSize": "1920x2135",
+      "srcFormat": "jpeg",
+      "srcBytes": 334586,
+      "out": "1600x1067",
+      "bytes": 110109,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-18T04:48:57.402Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-lucid-bolt-robotaxi",
+      "headline": "Lucid Motors has a potential robotaxi partner for Europe",
+      "source": "https://techcrunch.com/wp-content/uploads/2025/04/Luicid-Gravity-interior-9.jpg?resize=1200,675",
+      "article": "https://techcrunch.com/2026/09/17/lucid-motors-has-a-potential-robotaxi-partner-for-europe/",
+      "hosted": "12-a8cfb39d.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 59474,
+      "out": "1012x675",
+      "bytes": 67553,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-18T04:48:57.773Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-rovelli-equality-of-all-things",
+      "headline": "Carlo Rovelli takes aim at analytic philosophy's naive realism",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Carlo_Rovelli_crop.jpg",
+      "article": "https://iai.tv/articles/carlo-rovelli-takes-aim-at-analytic-philosophys-naive-realism-auid-3679",
+      "hosted": "r01-59de8790.jpg",
+      "srcSize": "710x871",
+      "srcFormat": "jpeg",
+      "srcBytes": 399927,
+      "out": "710x399",
+      "bytes": 30490,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-18T04:48:57.904Z"
+    }
+  ]
+}
