@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "2026-09-19-full",
+  "runId": "run-2026-09-19-uafternoon-r13",
   "date": "2026-09-19",
-  "generatedAt": "2026-09-19T05:30:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-09-19T18:07:03.823Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief – 19. september 2026",
   "dek": "Grønland-aftalen splitter Trump, Danmark og Nuuk; AI-fejl nær-udløste en militær konfrontation to gange denne uge; og et amerikansk delstatsopgør mod datacentre.",
   "profileWeights": {
@@ -1027,6 +1027,89 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "story-maersk-fleet-order-20260919",
+      "eventKey": "maersk-26-vessel-newbuilding-order-2026-09",
+      "section": "Erhverv og finans",
+      "materialFacts": [
+        "Mærsk har bekræftet en ordre på 26 store containerskibe på 18.600 TEU hver",
+        "Skibene får dual-fuel-motorer, der kan sejle på flydende gas, og leveres i 2029-2030",
+        "Ordren svarer til omkring 10 procent af Mærsks nuværende kapacitet"
+      ],
+      "headline": "Maersk confirms 26-ship newbuilding spree",
+      "primarySourceUrl": "https://splash247.com/maersk-confirms-26-ship-newbuilding-spree/",
+      "subheadline": "Rederikoncernen bekræfter ordre på 26 containerskibe til levering i 2029-2030",
+      "body": [
+        "Mærsk har bekræftet en ordre på 26 store containerskibe med en kapacitet på 18.600 TEU hver, udstyret med dual-fuel-motorer, der kan sejle på flydende gas. Skibene leveres i 2029 og 2030 og føjer sig til otte skibe af samme type, bestilt i februar hos samme værft."
+      ],
+      "whyItMatters": "Ordren svarer til cirka 10 procent af Mærsks nuværende kapacitet og viser, at rederiet satser på dual-fuel som bro til grønnere skibsfart frem for endnu større skibe.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "shipping",
+        "energi"
+      ],
+      "entities": [
+        "Mærsk",
+        "Vincent Clerc"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 42,
+        "novelty": 62,
+        "sourceQuality": 70,
+        "personalRelevance": 42,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Mærsk har bekræftet en ordre på 26 store containerskibe med en kapacitet på 18.600 TEU hver.",
+          "sourceUrls": [
+            "https://splash247.com/maersk-confirms-26-ship-newbuilding-spree/",
+            "https://maritime-executive.com/article/maersk-confirms-reports-of-large-new-ship-order"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Skibene får dual-fuel-motorer, der kan sejle på flydende gas, og leveres i 2029 og 2030.",
+          "sourceUrls": [
+            "https://splash247.com/maersk-confirms-26-ship-newbuilding-spree/",
+            "https://maritime-executive.com/article/maersk-confirms-reports-of-large-new-ship-order"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ordren svarer til omkring 10 procent af Mærsks nuværende operationelle kapacitet.",
+          "sourceUrls": [
+            "https://maritime-executive.com/article/maersk-confirms-reports-of-large-new-ship-order"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maersk confirms 26-ship newbuilding spree",
+          "publisher": "Splash247",
+          "url": "https://splash247.com/maersk-confirms-26-ship-newbuilding-spree/",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Maersk Confirms Reports of Large New Ship Order",
+          "publisher": "The Maritime Executive",
+          "url": "https://maritime-executive.com/article/maersk-confirms-reports-of-large-new-ship-order",
+          "publishedAt": "2026-09-18T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-19T18:07:03.823Z",
+        "runId": "run-2026-09-19-uafternoon-r13"
+      }
     }
   ],
   "signals": [
@@ -1344,5 +1427,20 @@
     "novelty": 74,
     "perspectiveBalance": 78,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-19T18:07:03.823Z",
+      "runId": "run-2026-09-19-uafternoon-r13",
+      "added": 1,
+      "cost": {
+        "usd": 6.7436618,
+        "inputTokens": 12537046,
+        "outputTokens": 66815,
+        "turns": 102,
+        "seconds": 1010.9
+      }
+    }
+  ]
 }
