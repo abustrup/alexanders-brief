@@ -1,0 +1,187 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-20",
+  "generatedAt": "2026-09-20T04:51:46.827Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-trump-ai-czar-ai-force-20260920",
+      "headline": "Trump says he's creating an AI force and appointing a czar amid concerns over the rapidly developing tech",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-09/260918-president-trump-vsb-2304-97bace.jpg",
+      "article": "https://www.nbcnews.com/politics/white-house/artificial-intelligence-task-force-czar-technology-trump-rcna598688",
+      "hosted": "01-d2de75d5.jpg",
+      "srcSize": "1500x1000",
+      "srcFormat": "webp",
+      "srcBytes": 217056,
+      "out": "1333x1000",
+      "bytes": 85025,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.557,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-20T04:51:47.783Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-russia-sanctions-graham-act-20260920",
+      "headline": "Trump signs sweeping new Russia sanctions bill named in honor of Lindsey Graham",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260919-ukraine-nd-61da61.jpg",
+      "article": "https://www.nbcnews.com/world/russia/trump-signs-sweeping-new-russia-sanctions-bill-honor-lindsey-graham-rcna598675",
+      "hosted": "02-4c2077ee.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 116008,
+      "out": "945x630",
+      "bytes": 47831,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-20T04:51:48.047Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-dk-datacenter-gas-ban-20260920",
+      "headline": "Partier kræver forbud mod datacentre på gasnettet: »Fuldstændig grotesk«",
+      "source": "https://www.version2.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-09/20260629-134622-l-8640x5760ma.jpg?h=9c996549&itok=4fS--6zj",
+      "article": "https://www.version2.dk/artikel/partier-kraever-forbud-mod-datacentre-paa-gasnettet-fuldstaendig-grotesk",
+      "hosted": "04-2b417f18.jpg",
+      "srcSize": "960x540",
+      "srcFormat": "jpeg",
+      "srcBytes": 103987,
+      "out": "810x540",
+      "bytes": 72863,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.571,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-20T04:51:48.443Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-dk-venstre-worst-poll-20260920",
+      "headline": "Venstre får dårligste Voxmeter-måling nogensinde",
+      "source": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/metatag/s3/2026/09-07/20260907095207868_1000.jpg?itok=Ne9-ZkCq",
+      "article": "https://www.kristeligt-dagblad.dk/danmark/venstre-faar-daarligste-voxmeter-maaling-nogensinde",
+      "hosted": "05-644a5270.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 121091,
+      "out": "1080x720",
+      "bytes": 53352,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-20T04:51:49.641Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-nasa-mcgetchin-crater-20260920",
+      "headline": "NASA's Lunar Reconnaissance Orbiter Discovers a New 222-m Diameter Lunar Crater",
+      "source": "https://lroc.im-ldi.com/ckeditor_assets/pictures/1619/content_M1542395927LR_mos.str02.1300pixel.png",
+      "article": "https://newsroom.usra.edu/nasas-lunar-reconnaissance-orbiter-discovers-a-new-222-m-diameter-lunar-crater/",
+      "hosted": "07-c73e799c.jpg",
+      "srcSize": "1100x1100",
+      "srcFormat": "png",
+      "srcBytes": 567397,
+      "out": "1100x733",
+      "bytes": 79707,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-20T04:51:50.246Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-gaza-ceasefire-toll-20260920",
+      "headline": "Israeli fire kills 3 more Palestinians in latest Gaza ceasefire violations",
+      "source": "https://www.ochaopt.org/sites/default/files/images/articles/HRH084nXEAAPMbd.jpg",
+      "article": "https://www.middleeastmonitor.com/20260919-israeli-fire-kills-3-more-palestinians-in-latest-gaza-ceasefire-violations/",
+      "hosted": "08-063c0130.jpg",
+      "srcSize": "2000x1333",
+      "srcFormat": "jpeg",
+      "srcBytes": 650417,
+      "out": "1600x1067",
+      "bytes": 270659,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.396,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-20T04:51:50.812Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-nato-military-committee-cph-20260920",
+      "headline": "NATO Chiefs of Defence in Copenhagen met for the Military Committee Conference",
+      "source": "https://s7g10.scene7.com/is/image/ncia/20260919_chods-photo_0002",
+      "article": "https://www.nato.int/en/news-and-events/articles/news/2026/09/19/nato-chiefs-of-defence-in-copenhagen-met-for-the-military-committee-conference",
+      "hosted": "09-4aa202a0.jpg",
+      "srcSize": "1280x659",
+      "srcFormat": "jpeg",
+      "srcBytes": 130958,
+      "out": "988x659",
+      "bytes": 78325,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.364
+      },
+      "fetchedAt": "2026-09-20T04:51:51.172Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-interconnects-rsi-skepticism-20260920",
+      "headline": "Why I still haven't bought into true RSI",
+      "source": "https://substackcdn.com/image/fetch/$s_!gupy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdad13b2b-20b2-44e0-a84d-732f3be8bee7_4128x4128.jpeg",
+      "article": "https://www.interconnects.ai/p/where-i-stand-on-rsi",
+      "hosted": "10-4df3c5cd.jpg",
+      "srcSize": "4128x4128",
+      "srcFormat": "jpeg",
+      "srcBytes": 1234223,
+      "out": "1600x1067",
+      "bytes": 126141,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.721,
+        "y": 0.061
+      },
+      "fetchedAt": "2026-09-20T04:51:52.013Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-cosmos-pacing-neutrality-20260920",
+      "headline": "Pacing and the Peril of Neutrality",
+      "source": "https://substackcdn.com/image/fetch/$s_!eVbA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5bb047af-9bf1-4c1e-ba55-9748780e0cac_1920x1422.png",
+      "article": "https://blog.cosmos-institute.org/p/pacing-and-the-peril-of-neutrality",
+      "hosted": "r01-8450d1e0.jpg",
+      "srcSize": "1456x1078",
+      "srcFormat": "jpeg",
+      "srcBytes": 211677,
+      "out": "1456x819",
+      "bytes": 144757,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0.21
+      },
+      "fetchedAt": "2026-09-20T04:51:52.252Z"
+    }
+  ]
+}
