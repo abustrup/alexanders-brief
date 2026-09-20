@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-20",
-  "generatedAt": "2026-09-20T04:51:46.827Z",
+  "generatedAt": "2026-09-20T14:20:54.021Z",
   "pictures": [
     {
       "slot": "01",
@@ -162,6 +162,26 @@
         "y": 0.061
       },
       "fetchedAt": "2026-09-20T04:51:52.013Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-moscow-refinery-drone-record-20260920",
+      "headline": "Two killed in Ukrainian drone attack on Moscow, says Russia",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-20T042905Z_1824787393_RC2QMNA5QBAK_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-REFINERY-1789884302.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says",
+      "hosted": "12-21f711bc.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 98806,
+      "out": "1600x1067",
+      "bytes": 104701,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.143,
+        "y": 0.625
+      },
+      "fetchedAt": "2026-09-20T14:20:54.479Z"
     },
     {
       "slot": "r01",

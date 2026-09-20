@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "alexandersbrief-2026-09-20-full",
+  "runId": "run-2026-09-20-uafternoon-r15",
   "date": "2026-09-20",
-  "generatedAt": "2026-09-20T05:30:00.000Z",
-  "readingMinutes": 8,
+  "generatedAt": "2026-09-20T14:18:25.359Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "En AI-czar der afviser grænser, et NATO-formandskab afgjort i København, og et rekordsvagt Venstre",
   "profileWeights": {
@@ -825,6 +825,98 @@
           "kind": "reporting"
         }
       ]
+    },
+    {
+      "id": "story-moscow-refinery-drone-record-20260920",
+      "eventKey": "moscow-refinery-drone-record-2026-09",
+      "materialFacts": [
+        "Ukraine launched roughly 1,600 drones at Russia since Saturday 19 September, including about 450 aimed at Moscow, which the city's mayor called the largest such wave this year",
+        "The Moscow oil refinery, supplying up to 40 percent of the capital's fuel, was damaged in the attack; at least two people were killed in the Moscow region"
+      ],
+      "section": "Ukraine",
+      "headline": "Two killed in Ukrainian drone attack on Moscow, says Russia",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says",
+      "subheadline": "Ukraine rammer Moskvas olieraffinaderi i årets kraftigste droneangreb",
+      "body": [
+        "Ukraine affyrede omkring 1.600 droner mod Rusland siden lørdag, heraf 450 mod Moskva. Mindst to blev dræbt, og et raffinaderi, der dækker op mod 40 procent af hovedstadens brændstof, blev ramt under valget til Dumaen."
+      ],
+      "whyItMatters": "Angrebet rammer Ruslands olieøkonomi midt i valget og viser, at krigen eskalerer trods fredsforsøg andre steder.",
+      "topics": [
+        "ukraine",
+        "rusland",
+        "krig",
+        "energi"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Sergej Sobjanin",
+        "Volodymyr Zelensky",
+        "Moskva"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 40,
+        "novelty": 72,
+        "sourceQuality": 85,
+        "personalRelevance": 25,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Ukraine launched roughly 1,600 drones at Russia since Saturday 19 September, of which about 450 targeted Moscow, described by Moscow mayor Sergei Sobyanin as the largest such attack this year",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says",
+            "https://www.nbcnews.com/world/russia/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-rcna598767"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The Moscow oil refinery, which supplies up to 40 percent of the capital's fuel, was damaged in the attack; at least two people were killed in the Moscow region",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says",
+            "https://www.nbcnews.com/world/russia/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-rcna598767"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Two killed in Ukrainian drone attack on Moscow, says Russia",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says",
+          "publishedAt": "2026-09-20T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Two dead in Moscow region, drones hit oil refinery in Russian capital",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/russia/two-dead-moscow-region-drones-hit-oil-refinery-russian-capital-rcna598767",
+          "publishedAt": "2026-09-20T09:28:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-20/12-21f711bc.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Two killed in Ukrainian drone attack on Moscow, says Russia",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/20/mass-ukrainian-drone-attack-on-moscow-kills-two-russia-says",
+        "origin": "article",
+        "fingerprint": "061e18f8d0314824061e18f89430c905271c58f89430f8854e3858f89730f8841e38d8f81234b0cc7c5c98f812b634e0",
+        "lookedAt": "061e18f8d0314824061e18f89430c905271c58f89430f8854e3858f89730f8841e38d8f81234b0cc7c5c98f812b634e0",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-20T042905Z_1824787393_RC2QMNA5QBAK_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-REFINERY-1789884302.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.143,
+          "y": 0.625
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-20T14:18:25.359Z",
+        "runId": "run-2026-09-20-uafternoon-r15"
+      }
     }
   ],
   "signals": [
@@ -1222,5 +1314,20 @@
     "novelty": 78,
     "perspectiveBalance": 84,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-20T14:18:25.359Z",
+      "runId": "run-2026-09-20-uafternoon-r15",
+      "added": 1,
+      "cost": {
+        "usd": 6.3525938,
+        "inputTokens": 12266727,
+        "outputTokens": 39082,
+        "turns": 108,
+        "seconds": 616.5
+      }
+    }
+  ]
 }
