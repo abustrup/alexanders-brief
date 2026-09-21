@@ -202,20 +202,6 @@
           "recordedOn": "2026-08-10"
         }
       ]
-    },
-    {
-      "indicator": "dk-vaekstkapitalgab",
-      "label": "Dansk vækstkapitalgab: efterspørgsel efter vækstkapital minus forventet tilgængelig kapital",
-      "unit": "mia. kr.",
-      "note": "EIFO's egen analyse. Efterspørgslen er et interval (47-93 mia. kr.); den tilgængelige kapital er sat til under 24 mia. kr. Læs også den udenlandske andel af tilgængelig kapital (ca. 72 pct.), som er en del af hele pointen med serien.",
-      "readings": [
-        {
-          "value": "23-69",
-          "asOf": "2026",
-          "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026",
-          "recordedOn": "2026-09-20"
-        }
-      ]
     }
   ]
 }
