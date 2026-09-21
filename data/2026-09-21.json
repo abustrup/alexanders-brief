@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "20260921-full",
+  "runId": "run-2026-09-21-uafternoon-r19",
   "date": "2026-09-21",
-  "generatedAt": "2026-09-21T10:00:00.000Z",
-  "readingMinutes": 6,
+  "generatedAt": "2026-09-21T16:38:43.029Z",
+  "readingMinutes": 7,
   "title": "Alexanders Brief",
   "dek": "300 milliarder dollar i AI-gæld uden for balancen, Trumps Iran-ultimatum før FN, og Novo dropper 'Nordisk'",
   "profileWeights": {
@@ -647,6 +647,205 @@
           "y": 0.85
         }
       }
+    },
+    {
+      "id": "story-google-dpc-location-fine-20260921",
+      "eventKey": "google-ireland-location-fine-2026-09",
+      "materialFacts": [
+        "Irlands databeskyttelsesmyndighed (DPC) idømmer Google Ireland en bøde på 403 mio. euro for ulovlig og uigennemsigtig brug af lokationsdata i Search, Maps og Android mellem maj 2018 og februar 2020",
+        "Google får seks måneder til at bringe databehandlingen i overensstemmelse og varsler anke af afgørelsen",
+        "Ifølge Irish Times er bøden DPC's fjerde-største GDPR-bøde siden 2018"
+      ],
+      "section": "Teknologi og regulering",
+      "headline": "Irish data protection watchdog fines Google €403m over GDPR breaches",
+      "primarySourceUrl": "https://www.irishtimes.com/business/2026/09/21/irish-data-protection-watchdog-fines-google-403m-over-gdpr-breaches/",
+      "subheadline": "DPC idømmer bøden for ulovlig brug af lokationsdata i Google Search, Maps og Android.",
+      "body": [
+        "Irlands databeskyttelsesmyndighed DPC har idømt Google Ireland en bøde på 403 mio. euro for ulovlig og uigennemsigtig brug af lokationsdata i Search, Maps og Android mellem maj 2018 og februar 2020. Google får seks måneder til at rette op og varsler anke."
+      ],
+      "whyItMatters": "Bøden er DPC-tilsynets fjerde-største GDPR-sag siden 2018 og skærper presset på techgiganters datapraksis i EU.",
+      "topics": [
+        "teknologi",
+        "regulering",
+        "privatliv",
+        "eu"
+      ],
+      "entities": [
+        "Google",
+        "Data Protection Commission"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 52,
+        "sourceQuality": 82,
+        "personalRelevance": 45,
+        "contrast": 38
+      },
+      "claims": [
+        {
+          "text": "Irlands databeskyttelsesmyndighed (DPC) idømte Google Ireland en bøde på 403 mio. euro for ulovlig og uigennemsigtig behandling af lokationsdata i Search, Maps og Android mellem maj 2018 og februar 2020",
+          "sourceUrls": [
+            "https://www.irishtimes.com/business/2026/09/21/irish-data-protection-watchdog-fines-google-403m-over-gdpr-breaches/",
+            "https://www.rte.ie/news/business/2026/0921/1592330-google-fined-403m-by-dpc/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Google har seks måneder til at bringe sin databehandling i overensstemmelse og agter at anke afgørelsen",
+          "sourceUrls": [
+            "https://www.irishtimes.com/business/2026/09/21/irish-data-protection-watchdog-fines-google-403m-over-gdpr-breaches/",
+            "https://www.rte.ie/news/business/2026/0921/1592330-google-fined-403m-by-dpc/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ifølge Irish Times er bøden DPC's fjerde-største GDPR-bøde siden 2018",
+          "sourceUrls": [
+            "https://www.irishtimes.com/business/2026/09/21/irish-data-protection-watchdog-fines-google-403m-over-gdpr-breaches/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Irish data protection watchdog fines Google €403m over GDPR breaches",
+          "publisher": "The Irish Times",
+          "url": "https://www.irishtimes.com/business/2026/09/21/irish-data-protection-watchdog-fines-google-403m-over-gdpr-breaches/",
+          "publishedAt": "2026-09-21T09:53:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Google fined €403m by Irish data watchdog over location data",
+          "publisher": "RTE",
+          "url": "https://www.rte.ie/news/business/2026/0921/1592330-google-fined-403m-by-dpc/",
+          "publishedAt": "2026-09-21T11:28:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.irishtimes.com/resizer/v2/E4ONXUI6D2DKU7SAEXOQ6WFAVE.jpg?auth=a331a285b8bd0c446b986bf1b7ecb37dfceb5b9cd6e51afdf7e038f44dd224d6&smart=true&width=1024&height=683",
+          "fingerprint": "11438f130b393f3831470b130f392f3e61831b130d39697f430f19510f7c496f830d79130f74fccb0d3c98930ffd9658",
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://images.euronews.com/articles/stories/09/92/13/16/1536x864_cmsv2_bab0eb2f-200e-5258-9a89-9592a002c004-9921316.jpg",
+          "fingerprint": "20ceb7e6ea66686a304fb7e6cba7e86aef5b27e6c923f2e8df4d67e6c925f2e89f4c66a7cd6573dc9ec463ad8cac65d3",
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://www.rte.ie/images/0018263d-1600.jpg",
+          "reason": "logo-or-card"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-21T16:38:43.029Z",
+        "runId": "run-2026-09-21-uafternoon-r19"
+      }
+    },
+    {
+      "id": "story-germany-cdu-afd-elections-20260921",
+      "eventKey": "germany-cdu-below-threshold-2026-09",
+      "materialFacts": [
+        "CDU fik 4,9 procent ved delstatsvalget i Mecklenburg-Vorpommern den 20. september 2026 og røg for første gang i partiets historie under spærregrænsen",
+        "AfD vandt Mecklenburg-Vorpommern med 38,2 procent, mere end det dobbelte af resultatet for fem år siden",
+        "I det samtidige valg i Berlin blev Die Linke største parti, og CDU endte på andenpladsen",
+        "Udenrigsminister Lars Løkke Rasmussen kalder resultatet en katastrofe og peger på migration og leveomkostninger som forklaring"
+      ],
+      "section": "Europa og politik",
+      "headline": "Pressure grows on Germany's Chancellor Friedrich Merz after bruising election defeats",
+      "primarySourceUrl": "https://www.euronews.com/my-europe/2026/09/21/ticking-clock-german-far-right-afd-poll-winner-says-merz-twilight-has-begun-after-state-el",
+      "subheadline": "CDU faldt for første gang under spærregrænsen, mens AfD vandt stort i Mecklenburg-Vorpommern.",
+      "body": [
+        "CDU endte søndag på 4,9 procent i Mecklenburg-Vorpommern – under spærregrænsen for første gang i partiets historie – mens AfD vandt med 38,2 procent, dobbelt så meget som for fem år siden. I Berlin blev Die Linke største parti, og CDU røg ned på andenpladsen."
+      ],
+      "whyItMatters": "Løkke kalder resultatet en katastrofe og peger på migration og dyrere brændstof som forklaring.",
+      "topics": [
+        "politik",
+        "tyskland",
+        "europa",
+        "ekstremisme"
+      ],
+      "entities": [
+        "CDU",
+        "AfD",
+        "Friedrich Merz",
+        "Die Linke",
+        "Lars Løkke Rasmussen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 50,
+        "novelty": 78,
+        "sourceQuality": 68,
+        "personalRelevance": 38,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "CDU fik 4,9 procent ved valget i Mecklenburg-Vorpommern den 20. september 2026 og røg for første gang i partiets historie under spærregrænsen, mens AfD vandt med 38,2 procent",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/09/21/ticking-clock-german-far-right-afd-poll-winner-says-merz-twilight-has-begun-after-state-el",
+            "https://www.dr.dk/nyheder/udland/loekke-er-enig-med-merz-tysk-valg-er-en-katastrofe"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "I det samtidige valg i Berlin blev Die Linke største parti, og CDU endte på andenpladsen",
+          "sourceUrls": [
+            "https://www.euronews.com/my-europe/2026/09/21/ticking-clock-german-far-right-afd-poll-winner-says-merz-twilight-has-begun-after-state-el"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Udenrigsminister Lars Løkke Rasmussen kalder resultatet en katastrofe og kobler det til migration og stigende leveomkostninger i Europa",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/loekke-er-enig-med-merz-tysk-valg-er-en-katastrofe"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pressure grows on Germany's Chancellor Friedrich Merz after bruising election defeats",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/my-europe/2026/09/21/ticking-clock-german-far-right-afd-poll-winner-says-merz-twilight-has-begun-after-state-el",
+          "publishedAt": "2026-09-21T10:09:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Løkke er enig med Merz: Tysk valg er en katastrofe",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/loekke-er-enig-med-merz-tysk-valg-er-en-katastrofe",
+          "publishedAt": "2026-09-21T01:36:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-21/10-68ddb938.jpg",
+        "credit": "Associated Press",
+        "alt": "Den tyske forbundskansler Friedrich Merz ved en pressekonference i CDU's hovedkvarter i Berlin, 21. september 2026",
+        "sourceUrl": "https://www.euronews.com/my-europe/2026/09/21/ticking-clock-german-far-right-afd-poll-winner-says-merz-twilight-has-begun-after-state-el",
+        "origin": "article",
+        "fingerprint": "60c2c2d2b2944f10c2c282d1a2b2df21c281838962b29f69898109896122a45f09210929e162228f49490944e9d36320",
+        "lookedAt": "60c2c2d2b2944f10c2c282d1a2b2df21c281838962b29f69898109896122a45f09210929e162228f49490944e9d36320",
+        "originalUrl": "https://images.euronews.com/articles/stories/09/92/13/00/1536x864_cmsv2_db26899c-abad-56fc-b94a-123c800a25a0-9921300.jpg",
+        "focus": {
+          "x": 0.27,
+          "y": 0.85
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-21T16:38:43.029Z",
+        "runId": "run-2026-09-21-uafternoon-r19"
+      }
     }
   ],
   "signals": [
@@ -965,5 +1164,20 @@
     "novelty": 80,
     "perspectiveBalance": 82,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-21T16:38:43.029Z",
+      "runId": "run-2026-09-21-uafternoon-r19",
+      "added": 2,
+      "cost": {
+        "usd": 6.4930921,
+        "inputTokens": 11531429,
+        "outputTokens": 56104,
+        "turns": 113,
+        "seconds": 818.2
+      }
+    }
+  ]
 }

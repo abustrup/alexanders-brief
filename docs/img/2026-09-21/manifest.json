@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-21",
-  "generatedAt": "2026-09-21T10:28:59.848Z",
+  "generatedAt": "2026-09-21T16:38:49.822Z",
   "pictures": [
     {
       "slot": "02",
@@ -81,6 +81,26 @@
         "y": 0.85
       },
       "fetchedAt": "2026-09-21T10:29:01.509Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-germany-cdu-afd-elections-20260921",
+      "headline": "Pressure grows on Germany's Chancellor Friedrich Merz after bruising election defeats",
+      "source": "https://images.euronews.com/articles/stories/09/92/13/00/1536x864_cmsv2_db26899c-abad-56fc-b94a-123c800a25a0-9921300.jpg",
+      "article": "https://www.euronews.com/my-europe/2026/09/21/ticking-clock-german-far-right-afd-poll-winner-says-merz-twilight-has-begun-after-state-el",
+      "hosted": "10-68ddb938.jpg",
+      "srcSize": "1536x864",
+      "srcFormat": "webp",
+      "srcBytes": 75754,
+      "out": "1296x864",
+      "bytes": 57361,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.27,
+        "y": 0.85
+      },
+      "fetchedAt": "2026-09-21T16:38:50.197Z"
     },
     {
       "slot": "r01",
