@@ -1,0 +1,969 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "20260921-full",
+  "date": "2026-09-21",
+  "generatedAt": "2026-09-21T10:00:00.000Z",
+  "readingMinutes": 6,
+  "title": "Alexanders Brief",
+  "dek": "300 milliarder dollar i AI-gæld uden for balancen, Trumps Iran-ultimatum før FN, og Novo dropper 'Nordisk'",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-bigtech-ai-debt-20260921",
+      "eventKey": "bigtech-offbalance-sheet-ai-guarantees-2026-09",
+      "materialFacts": [
+        "FT-analyse: ~300 mia. dollar AI-infrastruktur uden for Big Techs balancer via garantier og SPV'er",
+        "Alphabets garantier steg fra 16,9 til 43,8 mia. dollar på seks måneder",
+        "Metas Hyperion-SPV ~30 mia. dollar; Broadcom ~29 mia. (Anthropic-chips); Nvidia 105 mia. (SoftBank/OpenAI)"
+      ],
+      "section": "AI og kapital",
+      "headline": "Alphabet and Meta's AI Infrastructure Financing: What $300 Billion Off the Balance Sheet Actually Means",
+      "primarySourceUrl": "https://fourweekmba.com/ai-alphabet-meta-ai-infrastructure-off-balance-sheet-300-billio/",
+      "subheadline": "Garantier og selvstændige selskaber skjuler AI-udbygningens gæld for de almindelige regnskabstal.",
+      "body": [
+        "Alphabet, Meta, Nvidia og Broadcom har tilsammen ~300 milliarder dollar AI-infrastruktur uden for balancen. Alphabets garantier steg fra 16,9 til 43,8 milliarder dollar på seks måneder – kun 2 procent når balancen. Nvidia har stillet 105 milliarder dollar i garanti for et SoftBank-anlæg til OpenAI."
+      ],
+      "whyItMatters": "Kreditmodeller bygger på balancetal, så eksponeringen er reel, selv når den ikke tælles med.",
+      "analysis": "Strukturen minder om skjult gæld før 2008 – lånet findes stadig, blot i et andet selskabs navn.",
+      "topics": [
+        "ai",
+        "finans",
+        "venturekapital",
+        "usa"
+      ],
+      "entities": [
+        "Alphabet",
+        "Meta",
+        "Nvidia",
+        "Broadcom",
+        "OpenAI",
+        "Anthropic",
+        "SoftBank"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 68,
+        "novelty": 62,
+        "sourceQuality": 60,
+        "personalRelevance": 75,
+        "contrast": 78
+      },
+      "claims": [
+        {
+          "text": "Big Tech holder ~300 mia. dollar AI-infrastruktur uden for balancen via garantier og SPV'er",
+          "sourceUrls": [
+            "https://fourweekmba.com/ai-alphabet-meta-ai-infrastructure-off-balance-sheet-300-billio/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Alphabets datacenter-garantier steg fra 16,9 til 43,8 mia. dollar på seks måneder",
+          "sourceUrls": [
+            "https://fourweekmba.com/ai-alphabet-meta-ai-infrastructure-off-balance-sheet-300-billio/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Metas Hyperion-SPV rejste ~30 mia. dollar (~27 mia. gæld, ~3 mia. egenkapital fra Blue Owl) og lejer anlægget tilbage til Meta",
+          "sourceUrls": [
+            "https://fourweekmba.com/ai-alphabet-meta-ai-infrastructure-off-balance-sheet-300-billio/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alphabet and Meta's AI Infrastructure Financing: What $300 Billion Off the Balance Sheet Actually Means",
+          "publisher": "FourWeekMBA",
+          "url": "https://fourweekmba.com/ai-alphabet-meta-ai-infrastructure-off-balance-sheet-300-billio/",
+          "publishedAt": "2026-09-20T20:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://i0.wp.com/fourweekmba.com/wp-content/uploads/2026/09/alphabet-meta-ai-infrastructure-off-balance-sheet-300-billion.png?fit=2400%2C1260&ssl=1",
+          "fingerprint": "060e1897effcbffd070b3cb7f7ecbf7f070b34b7f5d93fff0609332bedda2fff0b145b2ba4dd36ba1554a9a56c9b255d",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-us-china-ai-dialogue-20260921",
+      "eventKey": "us-china-ai-safety-notification-2026-09",
+      "materialFacts": [
+        "Bessent og He Lifeng foreslår fast AI-hændelses-meldemekanisme mellem USA og Kina",
+        "Eksportkontrol på chips og halvlederudstyr udtrykkeligt uden for forslaget",
+        "Forberedelse til Trump-Xi-topmøde i Washington senere samme uge"
+      ],
+      "section": "AI og geopolitik",
+      "headline": "US proposes AI safety notification mechanism in talks with China",
+      "primarySourceUrl": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+      "subheadline": "Bessent og Kinas He Lifeng foreslår en fast kanal til at melde AI-hændelser af sikkerhedsbetydning.",
+      "body": [
+        "Bessent og Kinas He Lifeng afsluttede søndag samtaler i New York om en AI-dialog og en meldemekanisme for AI-hændelser med sikkerhedsbetydning. Eksportkontrol indgik ikke. Samtalerne forbereder et Trump-Xi-topmøde senere samme uge."
+      ],
+      "whyItMatters": "En fast kanal mindsker risikoen for, at en AI-hændelse fejltolkes som provokation.",
+      "analysis": "Washington adskiller tydeligvis konkurrence fra krisehåndtering.",
+      "counterpoint": "Skeptikere peger på, at lignende 'gennemsigtigheds'-kanaler sjældent har ændret reel adfærd.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "geopolitik",
+        "usa",
+        "kina"
+      ],
+      "entities": [
+        "Scott Bessent",
+        "He Lifeng",
+        "Jamieson Greer",
+        "Li Chenggang",
+        "USA",
+        "Kina"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 62,
+        "novelty": 65,
+        "sourceQuality": 72,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Bessent og He Lifeng foreslog en AI-dialog med national-sikkerheds-meldemekanisme",
+          "sourceUrls": [
+            "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Eksportkontrol på AI-chips og halvlederudstyr var udtrykkeligt ikke del af forslaget",
+          "sourceUrls": [
+            "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US proposes AI safety notification mechanism in talks with China",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+          "publishedAt": "2026-09-20T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-21/02-a5cfd371.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "US proposes AI safety notification mechanism in talks with China",
+        "sourceUrl": "https://www.aljazeera.com/economy/2026/9/20/us-china-open-high-level-talks-ahead-of-trump-xi-summit",
+        "origin": "article",
+        "fingerprint": "7b7b69c9636b6a6979d9e9c9e1696969ddddada5e56169e99dbdec85c5d5e4e5bc6c4c24c4d4d4c476ce0e2282b2b2da",
+        "lookedAt": "7b7b69c9636b6a6979d9e9c9e1696969ddddada5e56169e99dbdec85c5d5e4e5bc6c4c24c4d4d4c476ce0e2282b2b2da",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab0312d-1789931821.jpg?resize=1920%2C1377",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-iran-ultimatum-unga-20260921",
+      "eventKey": "trump-iran-ultimatum-unga-2026-09",
+      "materialFacts": [
+        "Trump: eneste muligheder for Iran er at 'udslette landet', lade økonomien 'rådne', eller en aftale",
+        "Kommentarerne kommer før Pezeshkian leder Irans delegation til FN's generalforsamling",
+        "Irans militær advarer om 'smertefuldt' modsvar; olien falder fjerde dag i træk på håb om diplomati"
+      ],
+      "section": "Geopolitik",
+      "headline": "Iran vows 'painful' retaliation as Trump piles on pressure ahead of UN General Assembly meeting",
+      "primarySourceUrl": "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html",
+      "subheadline": "Trump peger på tre veje for Iran – udslettelse, kollaps eller en aftale – dagene før FN's generalforsamling.",
+      "body": [
+        "Trump sagde søndag, at de eneste muligheder for Iran er at 'udslette landet', lade økonomien 'rådne', eller en aftale – før Pezeshkian leder Irans FN-delegation. Irans militær advarede om 'smertefuldt' modsvar. Olien faldt fjerde dag i træk på håb om diplomati."
+      ],
+      "whyItMatters": "Krigen er i sin ottende måned; et statsoverhoved, der nævner udslettelse, ændrer billedet.",
+      "analysis": "At Trump er åben for at mødes med Pezeshkian, læses som pres for at nå bordet før topmødet.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten",
+        "krig",
+        "usa"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Iran",
+        "Masoud Pezeshkian",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 78,
+        "personalRelevance": 30,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Trump nævnte 'udslette Iran', økonomisk 'rådne', eller en aftale som de tre muligheder",
+          "sourceUrls": [
+            "https://www.thenationalnews.com/business/energy/2026/09/21/oil-prices-slide-on-hopes-diplomacy-at-un-will-help-end-iran-conflict/",
+            "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Brent faldt 2,12% til 101,67 dollar, fjerde faldende session i træk",
+          "sourceUrls": [
+            "https://www.thenationalnews.com/business/energy/2026/09/21/oil-prices-slide-on-hopes-diplomacy-at-un-will-help-end-iran-conflict/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iran vows 'painful' retaliation as Trump piles on pressure ahead of UN General Assembly meeting",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html",
+          "publishedAt": "2026-09-21T08:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Oil prices slide on hopes diplomacy at UN will help end Iran conflict",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/09/21/oil-prices-slide-on-hopes-diplomacy-at-un-will-help-end-iran-conflict/",
+          "publishedAt": "2026-09-21T05:28:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-21/03-d33ba50c.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Iran vows 'painful' retaliation as Trump piles on pressure ahead of UN General Assembly meeting",
+        "sourceUrl": "https://www.cnbc.com/2026/09/21/us-iran-war-trump-hormuz.html",
+        "origin": "article",
+        "fingerprint": "9f99849751644606999c841678644606b9aca616b8e6c6473c263633b8e6e7c72e26362378e6a7c36727772378ee2783",
+        "lookedAt": "9f99849751644606999c841678644606b9aca616b8e6c6473c263633b8e6e7c72e26362378e6a7c36727772378ee2783",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108357491-1788325337641-gettyimages-2292458261-AA_01092026_2935177.jpeg?v=1788325508&w=1920&h=1080",
+        "focus": {
+          "x": 0.563,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-softbank-openai-bond-20260921",
+      "eventKey": "softbank-junk-bond-openai-2026-09",
+      "materialFacts": [
+        "SoftBank markedsfører $10 mia. i dollarobligationer plus €1 mia. i euro-obligationer",
+        "Del af provenuet finansierer en ny OpenAI-investering, forventet lukket næste måned",
+        "SoftBanks samlede OpenAI-tilsagn nærmer sig 65 mia. dollar; BB+ hos S&P"
+      ],
+      "section": "Kapital",
+      "headline": "SoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports",
+      "primarySourceUrl": "https://www.investing.com/news/stock-market-news/softbank-plans-more-than-11-bln-bond-sale-to-fund-openai-bets-bloomberg-reports-4908226",
+      "subheadline": "SoftBank henter over 11 milliarder dollar i en af årets største højrenteobligationer til en ny OpenAI-investering.",
+      "body": [
+        "SoftBank markedsfører obligationer for over 11 milliarder dollar – blandt de største high-yield-udstedelser nogensinde. Provenuet finansierer delvist en OpenAI-investering næste måned. Det samlede OpenAI-tilsagn nærmer sig 65 milliarder dollar."
+      ],
+      "whyItMatters": "Selv verdens mest aggressive AI-investor henter mere kapital på kreditmarkedet end af egen balance.",
+      "analysis": "Sammen med dagens historie om skjulte AI-garantier: gæld, der ikke fanges af nøgletal.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "finans",
+        "usa"
+      ],
+      "entities": [
+        "SoftBank",
+        "Masayoshi Son",
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 60,
+        "novelty": 58,
+        "sourceQuality": 62,
+        "personalRelevance": 72,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "SoftBank markedsfører >$11 mia. i obligationer ($10 mia. + €1 mia.)",
+          "sourceUrls": [
+            "https://www.investing.com/news/stock-market-news/softbank-plans-more-than-11-bln-bond-sale-to-fund-openai-bets-bloomberg-reports-4908226"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "SoftBanks samlede OpenAI-tilsagn nærmer sig 65 mia. dollar",
+          "sourceUrls": [
+            "https://www.investing.com/news/stock-market-news/softbank-plans-more-than-11-bln-bond-sale-to-fund-openai-bets-bloomberg-reports-4908226"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SoftBank plans more than $11 bln bond sale to fund OpenAI bets, Bloomberg reports",
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/softbank-plans-more-than-11-bln-bond-sale-to-fund-openai-bets-bloomberg-reports-4908226",
+          "publishedAt": "2026-09-20T22:02:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-novo-nordisk-rebrand-20260921",
+      "eventKey": "novo-nordisk-rebrand-cmd-2026-09",
+      "materialFacts": [
+        "Novo Nordisk forkorter navn til 'Novo' og vender Apis-tyr-logoet, ved Capital Markets Day",
+        "Nye 2030/2035-mål: 5+ blockbuster-lanceringer, 150+ mia. kr. nyt salg, 60+ mio. patienter",
+        "Aktien falder over 6% under præsentationen; 13.000 medarbejdere er stoppet siden fyringsrunden i nov. 2025"
+      ],
+      "section": "Dansk erhverv",
+      "headline": "Skæbnedag for Novo",
+      "primarySourceUrl": "https://nyheder.tv2.dk/live/business/2026-09-21-skaebnedag-for-novo",
+      "subheadline": "Novo Nordisk dropper 'Nordisk' fra navnet og vender den 100 år gamle tyr om – men aktien falder trods nye mål.",
+      "body": [
+        "Novo Nordisk forkortede mandag navnet til 'Novo' og vendte Apis-tyr-logoet mod højre. Nye mål: fem-plus blockbustere inden 2030, 150+ mia. kr. i nyt salg i 2035. Aktien faldt over 6 procent under præsentationen.",
+        "Topchef Doustdar varslede flere opkøb. 13.000 er stoppet siden fyringsrunden på 9.000 i november 2025 – flere end først oplyst."
+      ],
+      "whyItMatters": "Danmarks største selskab sætter et ambitiøst mål, mens markedet tvivler på det.",
+      "analysis": "At aktien straffes midt i præsentationen, mens ledelsen taler opkøb, tyder på uløst tillidskrise.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "biotek",
+        "finans"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Mike Doustdar",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "imageSubject": "brand-identity",
+      "scores": {
+        "importance": 68,
+        "decisionValue": 58,
+        "novelty": 70,
+        "sourceQuality": 70,
+        "personalRelevance": 25,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Novo Nordisk forkortede navnet til 'Novo' og vendte logoet på sin Capital Markets Day",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/business/2026-09-21-skaebnedag-for-novo",
+            "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Aktien faldt over 6% under præsentationen trods nye 2030/2035-mål",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/business/2026-09-21-skaebnedag-for-novo",
+            "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "13.000 medarbejdere er stoppet siden fyringsrunden på 9.000 stillinger i nov. 2025",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/business/2026-09-21-skaebnedag-for-novo"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Skæbnedag for Novo",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/live/business/2026-09-21-skaebnedag-for-novo",
+          "publishedAt": "2026-09-21T05:42:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Novo stock falls as much as 7% despite $23 billion sales target for blockbuster obesity drugs",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/novo-nordisk-stock-sales-target-obesity-drugs.html",
+          "publishedAt": "2026-09-21T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-21/05-90ed0e72.jpg",
+        "credit": "Kilde: TV 2",
+        "alt": "Skæbnedag for Novo",
+        "sourceUrl": "https://nyheder.tv2.dk/live/business/2026-09-21-skaebnedag-for-novo",
+        "origin": "article",
+        "fingerprint": "171706d6ccccced9561607d7cecc8c8d46030b938dde8dad1b038fb38d86840d13018f33158d964601000730164e3616",
+        "lookedAt": "171706d6ccccced9561607d7cecc8c8d46030b938dde8dad1b038fb38d86840d13018f33158d964601000730164e3616",
+        "originalUrl": "https://cdn-free.tv2i.dk/e/d/i/editorial/2/e/2/2e29744a-c4c6-402f-8661-0bc045398367?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCw1OCw4NjQwLDQ4NjA&s=f1fbe7c7bc78df149bf2c5a6243c816f",
+        "focus": {
+          "x": 0.889,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-amazon-meta-muse-20260921",
+      "eventKey": "amazon-blocks-meta-muse-2026-09",
+      "materialFacts": [
+        "Amazon blokerer Metas AI-agent Muse fra at handle på Amazon.com fra søndag aften",
+        "Amazon: Muse identificerer sig ikke og gemmer tilsyneladende login-oplysninger",
+        "Meta afviser og siger Muse ikke har adgang til adgangskoder eller betalingsoplysninger"
+      ],
+      "section": "AI og erhverv",
+      "headline": "Amazon blocks Meta's Muse AI assistant in new standoff over agentic shopping",
+      "primarySourceUrl": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+      "subheadline": "Amazon afskærer Metas AI-agent Muse fra at handle på Amazon.com efter anklage om skjult dataindsamling.",
+      "body": [
+        "Amazon blokerede fra søndag aften Metas AI-agent Muse fra at handle for kunder på Amazon.com. Amazon siger, Muse ikke identificerer sig selv og gemmer loginoplysninger. Meta afviser og siger, Muse 'ikke har adgang til adgangskoder eller betalingsoplysninger'."
+      ],
+      "whyItMatters": "Sagen bliver en tidlig præcedens for kontrol med AI-agenter, der handler på konkurrenters sider.",
+      "analysis": "At selskaberne samtidig samarbejder om sky og annoncer, viser konflikten handler om data – ikke fjendtlighed.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa",
+        "forbrugerbeskyttelse"
+      ],
+      "entities": [
+        "Amazon",
+        "Meta",
+        "Muse"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 68,
+        "personalRelevance": 55,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Amazon blokerede Muse fra at handle på Amazon.com fra søndag aften",
+          "sourceUrls": [
+            "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Meta siger Muse ikke har adgang til adgangskoder eller betalingsoplysninger",
+          "sourceUrls": [
+            "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Amazon blocks Meta's Muse AI assistant in new standoff over agentic shopping",
+          "publisher": "GeekWire",
+          "url": "https://www.geekwire.com/2026/amazon-blocks-metas-muse-ai-assistant-in-new-standoff-over-agentic-shopping/",
+          "publishedAt": "2026-09-21T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/muse-ai-window.png?quality=90&strip=all&crop=0%2C11.012266054978%2C100%2C77.975467890045&w=1200",
+          "fingerprint": "b0b0b2680489d249b03272c810200000b032f1ccb0200000b233d1dca000008031719494c200400061b0a66380080000",
+          "reason": "screen-text"
+        }
+      ]
+    },
+    {
+      "id": "story-moscow-duma-drones-20260921",
+      "eventKey": "russia-duma-election-drone-attack-2026-09",
+      "materialFacts": [
+        "Over 1.000 droner mod Rusland, ~450 mod Moskva, på valgets sidste dag",
+        "Moskvas borgmester kalder det største angreb på hovedstaden i krigen",
+        "To dræbt i Moskva-regionen, to dræbt i Kherson inkl. en valgmedarbejder"
+      ],
+      "section": "Krig",
+      "headline": "Ukraine launches heavy Moscow drone attack as Russia votes",
+      "primarySourceUrl": "https://www.cnbc.com/2026/09/20/ukraine-launches-heavy-moscow-drone-attack-as-russia-votes.html",
+      "subheadline": "Over 1.000 droner ramte Rusland natten til søndag – omkring 450 mod Moskva – på valgets sidste dag.",
+      "body": [
+        "Ukraine affyrede over 1.000 droner mod Rusland natten til søndag, ~450 mod Moskva, på Duma-valgets sidste dag. Borgmester Sobjanin kaldte det det største droneangreb på hovedstaden i krigen. To døde i Moskva-regionen, to i det russisk-kontrollerede Kherson, heriblandt en valgmedarbejder."
+      ],
+      "whyItMatters": "At angrebet rammer valgets sidste dag, gør det til et signal mod valghandlingen selv.",
+      "analysis": "Timingen taler for sig selv: Ukraine viser rækkevidde, Kreml vil vise kontrol – foran de samme vælgere.",
+      "topics": [
+        "ukraine",
+        "rusland",
+        "krig",
+        "geopolitik"
+      ],
+      "entities": [
+        "Ukraine",
+        "Russia",
+        "Sergei Sobyanin",
+        "Vladimir Putin",
+        "Moscow"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 40,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 20,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Ukraine affyrede over 1.000 droner, ~450 mod Moskva, natten til søndag",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/09/20/ukraine-launches-heavy-moscow-drone-attack-as-russia-votes.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Moskvas borgmester kaldte det det største droneangreb på Moskva i krigen",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/09/21/russia-election-putin-moscow-attack-ukraine.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ukraine launches heavy Moscow drone attack as Russia votes",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/20/ukraine-launches-heavy-moscow-drone-attack-as-russia-votes.html",
+          "publishedAt": "2026-09-20T20:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "United Russia dominates election after massive Ukraine drone attack",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/09/21/russia-election-putin-moscow-attack-ukraine.html",
+          "publishedAt": "2026-09-21T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-gpt6-wwi-cipher-20260921",
+      "eventKey": "gpt6-astra-wwi-cipher-2026-09",
+      "materialFacts": [
+        "GPT-6 Astra dekrypterede en uløst tysk 1918-flådekode (ADFGVX)",
+        "Beskeden om en engelsk krydser ved Sevastopol blev bekræftet mod HMS Canterburys skibslog"
+      ],
+      "section": "Videnskab",
+      "headline": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time",
+      "primarySourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs",
+      "subheadline": "En udvikler brugte GPT-6 Astra til at knække en 108 år gammel tysk flådekode – og fik den bekræftet i britiske skibslogger.",
+      "body": [
+        "Udvikleren Prinz fik GPT-6 Astra til at dekryptere en uløst tysk ADFGVX-radiobesked fra 1918. Oversat: 'En engelsk krydser ankom til Sevastopol den 24., en allieret eskadre følger den 26.' HMS Canterburys eget skibslog bekræfter ankomsten 24. november 1918."
+      ],
+      "whyItMatters": "Et efterprøvet eksempel på, at sprogmodeller løser opgaver, mennesker opgav for 100 år siden",
+      "analysis": "Værdien er epistemisk, ikke militærhistorisk: resultatet er efterprøvet mod en uafhængig kilde.",
+      "topics": [
+        "ai",
+        "historie",
+        "videnskab"
+      ],
+      "entities": [
+        "Prinz",
+        "OpenAI",
+        "GPT-6 Astra"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 30,
+        "decisionValue": 20,
+        "novelty": 85,
+        "sourceQuality": 55,
+        "personalRelevance": 45,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "GPT-6 Astra dekrypterede en 1918 tysk ADFGVX-radiobesked om et krydser-ankomst ved Sevastopol",
+          "sourceUrls": [
+            "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "HMS Canterburys skibslog bekræfter ankomst i Sevastopol 24. november 1918, eskadre 26.",
+          "sourceUrls": [
+            "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ChatGPT-6 Astra cracks 108-year-old unsolved WWI German code for the first time",
+          "publisher": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs",
+          "publishedAt": "2026-09-21T03:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-21/08-fbc0bb8d.jpg",
+        "credit": "Kilde: Tom's Hardware",
+        "alt": "An 'unsolved' encrypted World War I radio message",
+        "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-108-year-old-unsolved-wwi-german-code-for-the-first-time-radio-message-sharing-enemy-movement-intelligence-had-evaded-decoding-1918-crimean-fleet-warning-verified-against-hms-canterbury-logs",
+        "origin": "article",
+        "fingerprint": "0b4cd9d9d9990e164bd899d999998d16dade19d919190d079adb9c989c9c1c8d9b1c9a9a9a941e8e0f9a99951a94941f",
+        "lookedAt": "0b4cd9d9d9990e164bd899d999998d16dade19d919190d079adb9c989c9c1c8d9b1c9a9a9a941e8e0f9a99951a94941f",
+        "originalUrl": "https://cdn.mos.cms.futurecdn.net/G8KRG6QGgSMerE4dScxCJ9-1920-80.jpg",
+        "focus": {
+          "x": 0.179,
+          "y": 0.85
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Korea reopens military-service alternative for AI talent",
+      "headline": "Korea reopens military-service alternative for AI talent",
+      "summary": "Sydkorea genåbner efter 14 år en ordning, hvor AI-forskere kan udføre værnepligt som tre års forskning i virksomhedslaboratorier fra 2027.",
+      "publisher": "The Korea Herald",
+      "section": "AI",
+      "publishedAt": "2026-09-21T02:00:00.000Z",
+      "url": "https://www.koreaherald.com/article/10879596",
+      "topics": [
+        "ai",
+        "arbejdsmarked"
+      ]
+    },
+    {
+      "text": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+      "headline": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+      "summary": "Ny åben 7B-billedmodel understøtter transparente (RGBA) billeder og op til ti referencebilleder ad gangen, under en forskningslicens.",
+      "publisher": "The Decoder",
+      "section": "AI",
+      "publishedAt": "2026-09-20T12:00:00.000Z",
+      "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "General Assembly High-level Week 2026",
+      "headline": "General Assembly High-level Week 2026",
+      "summary": "FN's generaldebat løber 22.-28. september; Trump taler tirsdag, Zelenskyj og Pezeshkian onsdag, Netanyahu torsdag – krig, AI og klima dominerer dagsordenen.",
+      "publisher": "United Nations",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-21T06:00:00.000Z",
+      "url": "https://www.un.org/en/high-level-week-2026",
+      "topics": [
+        "geopolitik",
+        "fn"
+      ]
+    },
+    {
+      "text": "Fynboerne – kunsten frem for alt – på Hirschsprung.",
+      "headline": "Fynboerne – kunsten frem for alt – på Hirschsprung.",
+      "summary": "Ny udstilling om tre fynske kunstnerpar sætter for første gang de kvindelige kunstnere i centrum.",
+      "publisher": "Kulturkupeen",
+      "section": "Kultur",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "url": "https://www.kulturkupeen.dk/fynboerne-kunsten-frem-for-alt-paa-hirschsprung/",
+      "topics": [
+        "kunst",
+        "danmark"
+      ]
+    },
+    {
+      "text": "Altis Labs Raises US$25 Million Series A Co-Led by OrbiMed and Qiming Venture Partners USA to Accelerate Clinical Development with AI Endpoints",
+      "headline": "Altis Labs Raises US$25 Million Series A Co-Led by OrbiMed and Qiming Venture Partners USA to Accelerate Clinical Development with AI Endpoints",
+      "summary": "AI-modellen IPRO opdagede en signifikant behandlingseffekt 11 måneder før den primære udlæsning i en J&J-kræftforsøgsanalyse.",
+      "publisher": "Innovation Factory",
+      "section": "Kapital",
+      "publishedAt": "2026-09-21T05:00:00.000Z",
+      "url": "https://innovationfactory.ca/altis-labs-raises-us25-million-series-a-co-led-by-orbimed-and-qiming-venture-partners-usa-to-accelerate-clinical-development-with-ai-endpoints/",
+      "topics": [
+        "ai",
+        "biotek"
+      ]
+    },
+    {
+      "text": "UK startup snares $20m to recreate gigs with 'hyper-realistic' digital avatars",
+      "headline": "UK startup snares $20m to recreate gigs with 'hyper-realistic' digital avatars",
+      "summary": "Unit1 Studio rejser £20 mio. til at skalere mixed-reality-avatarkoncerter ud over ABBA Voyage-modellen.",
+      "publisher": "Tech.eu",
+      "section": "Kultur",
+      "publishedAt": "2026-09-21T05:00:00.000Z",
+      "url": "https://tech.eu/2026/09/21/unit1-studio-raises-ps20m-to-scale-avatar-concert-technology",
+      "topics": [
+        "kultur",
+        "venturekapital"
+      ]
+    },
+    {
+      "text": "Anthropic will open its Singapore office in October, chasing OpenAI for Southeast Asia's AI market",
+      "headline": "Anthropic will open its Singapore office in October, chasing OpenAI for Southeast Asia's AI market",
+      "summary": "Femte APAC-kontor for Anthropic; Singapore ligger nummer to af 121 lande i Claude.ai-brug per indbygger.",
+      "publisher": "Fortune",
+      "section": "AI",
+      "publishedAt": "2026-09-16T00:00:00.000Z",
+      "url": "https://fortune.com/2026/09/16/anthropic-open-singapore-office-october-chasing-openai-southeast-asia/",
+      "topics": [
+        "ai",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "China's collection of stock stamp duty jumps more than 80% as AI frenzy boosts trading",
+      "headline": "China's collection of stock stamp duty jumps more than 80% as AI frenzy boosts trading",
+      "summary": "Kina inddrev 216 mia. yuan i stempelafgift jan.-aug., op 82% å/å, mens den chip-tunge Star Market 50 steg 23%.",
+      "publisher": "South China Morning Post",
+      "section": "Finans",
+      "publishedAt": "2026-09-21T04:00:00.000Z",
+      "url": "https://www.scmp.com/business/china-business/article/3368185/chinas-collection-stock-stamp-duty-jumps-more-80-ai-frenzy-boosts-trading",
+      "topics": [
+        "kina",
+        "finans"
+      ]
+    },
+    {
+      "text": "Qupital eyes IPO after landmark $300m Series C round",
+      "headline": "Qupital eyes IPO after landmark $300m Series C round",
+      "summary": "Hongkong-baseret AI-drevet handelsfinansieringsplatform rejser $300 mio. og overvejer en børsnotering.",
+      "publisher": "FinTech Global",
+      "section": "Kapital",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "url": "https://fintech.global/2026/09/15/qupital-eyes-ipo-after-landmark-300m-series-c-round/",
+      "topics": [
+        "venturekapital",
+        "finans"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "testet-og-fejlet",
+    "title": "Testet og fejlet",
+    "thesis": "IIT kaldes ufalsificerbar, men dens egen kerneprognose om vedvarende hjernesynkronisering blev testet i 2025 og fejlede.",
+    "horizon": "Ved næste adversarial-collaboration-runde",
+    "body": [
+      "Det svækker selve anklagen: en teori, hvis kerneprognose kan fejle en forhåndsregistreret test, er per definition falsificerbar."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis IITs egne forskere kan vise, at den fejlede prognose aldrig var del af teoriens kerne, men en perifer forudsigelse – hvilket den oprindelige adversarial-collaboration-artikel selv afviser ved at kalde den kritisk.",
+    "topics": [
+      "filosofi",
+      "videnskab",
+      "bevidsthed"
+    ],
+    "claims": [
+      {
+        "text": "124 forskere kaldte i 2023 IIT for pseudovidenskab pga. manglende falsificerbarhed",
+        "sourceUrls": [
+          "https://www.researchgate.net/publication/374699090_The_Integrated_Information_Theory_of_Consciousness_as_Pseudoscience"
+        ],
+        "confidence": "medium"
+      },
+      {
+        "text": "Cogitate-samarbejdets 2025-resultater i Nature fandt, at manglende vedvarende posterior synkronisering modsiger IITs kernepåstand",
+        "sourceUrls": [
+          "https://www.nature.com/articles/s41586-025-08888-1"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Integrated Information Theory of Consciousness as Pseudoscience",
+        "publisher": "ResearchGate / PsyArXiv",
+        "url": "https://www.researchgate.net/publication/374699090_The_Integrated_Information_Theory_of_Consciousness_as_Pseudoscience",
+        "publishedAt": "2023-09-16T00:00:00.000Z",
+        "kind": "primary"
+      },
+      {
+        "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-025-08888-1",
+        "publishedAt": "2025-06-04T00:00:00.000Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-infinity-machine-20260921",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "Biografi",
+      "status": "available",
+      "title": "The Infinity Machine: Demis Hassabis, DeepMind and the Quest for Superintelligence",
+      "creator": "Sebastian Mallaby",
+      "provider": "Penguin Random House / Allen Lane",
+      "url": "https://www.penguinrandomhouse.com/books/752231/the-infinity-machine-by-sebastian-mallaby/",
+      "availability": "På tryk og som e-bog verden over siden 31. marts 2026",
+      "commitment": "456 sider",
+      "description": "Mallabys biografi om Demis Hassabis bygger på tre års adgang og hundredvis af interviews. Den følger vejen fra skakvidunderbarn og spiludvikler til Nobelprisvinder og DeepMind-stifter, og skildrer kapløbet om kunstig superintelligens og de etiske dilemmaer, det rejser.",
+      "rationale": "Hassabis rykkede fra tredje- til førstepladsen, da Alexander sidst rangerede 31 personer, han ser op til, og Mallabys egen 'The Power Law' ligger på hans aktuelle læsehylde. Bogen giver adgang til netop den person og den forfatter, han allerede selv har peget på – dybere end endnu en 45-minutters samtale kan.",
+      "topics": [
+        "ai",
+        "biografi",
+        "deeptech"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-21/r01-b5277192.jpg",
+        "credit": "Omslag – Penguin Random House",
+        "alt": "Bogomslag til The Infinity Machine af Sebastian Mallaby",
+        "sourceUrl": "https://www.penguinrandomhouse.com/books/752231/the-infinity-machine-by-sebastian-mallaby/",
+        "originalUrl": "https://images.penguinrandomhouse.com/cover/9780593831847",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-econtalk-meritocracy-20260921",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Meritocracy, Exams, and the Knowledge That Matters (with Daisy Christodoulou)",
+      "creator": "Russ Roberts, Daisy Christodoulou",
+      "provider": "EconTalk",
+      "url": "https://www.econtalk.org/meritocracy-exams-and-the-knowledge-that-matters-with-daisy-christodoulou",
+      "commitment": "~1 time",
+      "note": "Et opgør med tanken om, at en hård eksamen i hvad som helst afslører de bedste hoveder – bygget på det kinesiske embedseksamen og den britiske civilreform, relevant for enhver rekrutterings- eller AI-benchmark-kultur.",
+      "topics": [
+        "økonomi",
+        "uddannelse",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-stratechery-write-20260921",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "available",
+      "title": "Write Things Down",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/write-things-down/",
+      "commitment": "~15 min",
+      "note": "Om hvorfor skriftens magt – menneskelig eller AI's – ligger i, hvem der bestemmer hvad der skrives ned, ikke i teknologien selv.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sequoia-brockman-20260921",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Video",
+      "status": "available",
+      "title": "OpenAI's Greg Brockman: Why Human Attention Is the New Bottleneck",
+      "creator": "Greg Brockman, Alfred Lin",
+      "provider": "Sequoia Capital / AI Ascent 2026",
+      "url": "https://www.youtube.com/watch?v=bBS93A0BeNI",
+      "commitment": "~35 min",
+      "note": "Brockman om hvorfor menneskelig opmærksomhed – ikke compute – bliver den næste flaskehals, fra Sequoias AI Ascent 2026.",
+      "topics": [
+        "ai",
+        "venturekapital"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sugrue-nietzsche-20260921",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Forelæsning",
+      "status": "classic",
+      "title": "Nietzsche's Critique of Christianity: The Genealogy of Morals",
+      "creator": "Michael Sugrue",
+      "provider": "YouTube (Genevieve Sugrue)",
+      "url": "https://www.youtube.com/watch?v=7Kuk35VNSEc",
+      "commitment": "~50 min",
+      "note": "En af de 14 Sugrue-forelæsninger, du har gemt men aldrig set – om Nietzsches opgør med kristendommen i Moralens Genealogi, som du selv har læst.",
+      "topics": [
+        "filosofi",
+        "historie"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-founders-rahal-20260921",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "Peter Rahal (RXBAR & David Protein) — The $600M Man Gets Back Into Bars",
+      "creator": "David Senra",
+      "provider": "Founders",
+      "url": "https://www.davidsenra.com/podcast",
+      "commitment": "~1,5 time",
+      "note": "Peter Rahal om at vende tilbage til proteinbarer efter salget af RXBAR for 600 mio. dollar – leverandørkøb, kultur og hvorfor rent investeringsarbejde ikke var nok.",
+      "topics": [
+        "iværksætteri",
+        "erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-folktales-20260921",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Dokumentar",
+      "status": "new",
+      "title": "Folktales",
+      "creator": "Heidi Ewing, Rachel Grady",
+      "provider": "Netflix",
+      "url": "https://www.netflix.com/title/82738426",
+      "availability": "Streaming på Netflix fra september 2026 (tjek regional tilgængelighed)",
+      "commitment": "~100 min",
+      "note": "Ingen AI, ingen VC – tre teenagere på en arktisk norsk efterskole uden mobiltelefoner. Oscar-nominerede instruktører, Sundance-hyldet.",
+      "topics": [
+        "kultur",
+        "dokumentar"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 88,
+    "freshness": 85,
+    "novelty": 80,
+    "perspectiveBalance": 82,
+    "render": 100
+  }
+}
