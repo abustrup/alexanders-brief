@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-22",
-  "generatedAt": "2026-09-22T04:44:21.813Z",
+  "generatedAt": "2026-09-22T15:11:01.743Z",
   "pictures": [
     {
       "slot": "01",
@@ -102,6 +102,68 @@
         "y": 0.15
       },
       "fetchedAt": "2026-09-22T04:44:24.939Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-alibaba-zhenwu-chip-20260922",
+      "headline": "Alibaba teases 10-trillion-parameter model, debuts 'China's most powerful' AI chip",
+      "source": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_generic/public/d8/images/canvas/2026/09/22/c16307a3-3557-4f36-8518-f07ce04631a9_049f1c1b.jpg?itok=ymWSQShS&v=1790055213",
+      "article": "https://www.scmp.com/tech/big-tech/article/3368338/alibaba-teases-10-trillion-parameter-model-debuts-chinas-most-powerful-ai-chip",
+      "hosted": "10-b582d6ac.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 26852,
+      "out": "945x630",
+      "bytes": 27754,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-22T15:11:02.054Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-deepseek-un-security-council-20260922",
+      "headline": "DeepSeek to brief UN Security Council on AI risks this week, Reuters reports",
+      "source": "https://media.thenextweb.com/2026/09/United-Nations-Security-Council-Chamber.jpg",
+      "article": "https://thenextweb.com/news/deepseek-un-security-council-ai-briefing",
+      "hosted": "11-0d91e47f.jpg",
+      "srcSize": "868x488",
+      "srcFormat": "jpeg",
+      "srcBytes": 95252,
+      "out": "732x488",
+      "bytes": 67937,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.411,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-22T15:11:02.452Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-verda-ai-unicorn-20260922",
+      "headline": "Helsinki's Verda becomes Europe's newest AI cloud unicorn after $189M raise",
+      "source": "https://techfundingnews.com/wp-content/uploads/2026/09/Verda-co-founder.png",
+      "article": "https://techfundingnews.com/verda-189m-series-b-unicorn-ai-cloud-helsinki/",
+      "hosted": "12-2e9c8edf.jpg",
+      "srcSize": "800x418",
+      "srcFormat": "webp",
+      "srcBytes": 25938,
+      "out": "627x418",
+      "bytes": 25438,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.143,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-22T15:11:02.734Z"
     },
     {
       "slot": "r01",
