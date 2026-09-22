@@ -1,0 +1,127 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-22",
+  "generatedAt": "2026-09-22T04:44:21.813Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-dk-greenland-usa-signing",
+      "headline": "Grønland-aftale ventes underskrevet ved ceremoni i New York",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/mguk315x/20260807-212916-4_crop001.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/udland/groenland-aftale-ventes-underskrevet-ved-ceremoni-i-new-york",
+      "hosted": "01-f227b07b.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 47190,
+      "out": "900x675",
+      "bytes": 67083,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.435,
+        "y": 0.157
+      },
+      "fetchedAt": "2026-09-22T04:44:22.475Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-openai-math-advisory",
+      "headline": "OpenAI forms math advisory group as its AI resolves more than 100 open problems",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/09/51013975207_8dcac5cf72_k.jpg?resize=1200,900",
+      "article": "https://techcrunch.com/2026/09/21/openai-forms-math-advisory-group-as-its-ai-resolves-more-than-100-open-problems/",
+      "hosted": "02-29e1a7e3.jpg",
+      "srcSize": "1200x900",
+      "srcFormat": "webp",
+      "srcBytes": 341476,
+      "out": "1200x800",
+      "bytes": 269141,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.182,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-22T04:44:23.417Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-novo-cmd",
+      "headline": "Highlights to be presented at Novo's Capital Markets Day",
+      "source": "https://www.novonordisk.com/content/dam/nncorp/global/en/annual-report/images/2025/novo-nordisk-annual-report-2025-hero-image.png",
+      "article": "https://www.globenewswire.com/news-release/2026/09/21/3365171/0/en/highlights-to-be-presented-at-novo-s-capital-markets-day-2026.html",
+      "hosted": "04-e475dc34.jpg",
+      "srcSize": "1000x562",
+      "srcFormat": "png",
+      "srcBytes": 877765,
+      "out": "843x562",
+      "bytes": 30018,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.809,
+        "y": 0.5
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-22T04:44:24.277Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-ukraine-budget-gap",
+      "headline": "Ukraine's Two Deficits: A $27 Billion Defense Shortfall and 140 Russian Ballistic Missiles a Month",
+      "source": "https://www.19fortyfive.com/wp-content/uploads/2025/02/President-Zelensky-of-Ukraine.jpg",
+      "article": "https://www.19fortyfive.com/2026/09/ukraines-two-deficits-a-27-billion-defense-shortfall-and-140-russian-ballistic-missiles-a-month/",
+      "hosted": "05-55f042f6.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 66726,
+      "out": "1080x720",
+      "bytes": 50516,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.713,
+        "y": 0.025
+      },
+      "fetchedAt": "2026-09-22T04:44:24.578Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-plastic-to-fuel",
+      "headline": "A new process turns plastic waste into gasoline and diesel fuel",
+      "source": "https://www.sciencedaily.com/images/1920/scientist-examining-small-plastic-particles-in-laboratory-flask.webp",
+      "article": "https://www.sciencedaily.com/releases/2026/09/260920222405.htm",
+      "hosted": "08-cbfaefdf.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 46490,
+      "out": "1600x1067",
+      "bytes": 73994,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.491,
+        "y": 0.15
+      },
+      "fetchedAt": "2026-09-22T04:44:24.939Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-huang-cbs-2026-09-22",
+      "headline": "Extended interview: Nvidia CEO Jensen Huang on fears about AI",
+      "source": "https://img.youtube.com/vi/xCUala5j7aQ/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=xCUala5j7aQ",
+      "hosted": "r01-ec6b7470.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 121427,
+      "out": "1280x720",
+      "bytes": 79475,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-22T04:44:25.241Z"
+    }
+  ]
+}
