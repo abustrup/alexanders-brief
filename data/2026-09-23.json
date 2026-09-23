@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-09-23-morning-ci1",
+  "runId": "run-2026-09-23-uafternoon-r27",
   "date": "2026-09-23",
-  "generatedAt": "2026-09-23T05:30:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-09-23T15:08:28.925Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Grønlandsaftalen er underskrevet, FN's Sikkerhedsråd hører AI-laboratorierne, og to prisfald samme uge fortæller mere end nogen enkelt lancering",
   "profileWeights": {
@@ -991,6 +991,200 @@
           "reason": "logo-or-card"
         }
       ]
+    },
+    {
+      "id": "story-nscale-bytedance-nvidia-20260923",
+      "eventKey": "nscale-bytedance-nvidia-norway-2026-09",
+      "materialFacts": [
+        "ByteDance-datterselskabet Spring stod for 73% af Nscales omsætning i 2025",
+        "Adgang til 2.304 Nvidia B200-chips via datacenter i Glomfjord, Norge",
+        "Arrangementet er lovligt, men udnytter et hul i USA's eksportkontrol mod Kina"
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Nscale's $35 billion IPO is heavily dependent on ByteDance's access to Nvidia's chips",
+      "primarySourceUrl": "https://fortune.com/2026/09/23/nscale-35-billion-ipo-bytedance-nvidia-chips/",
+      "subheadline": "FT: ByteDance stod for 73% af Nscales omsætning via chip-adgang i Norge",
+      "body": [
+        "ByteDance-datterselskabet Spring stod for 73 procent af britiske Nscales omsætning i 2025 og fik via et datacenter i Glomfjord i Norge adgang til over 2.000 Nvidia B200-chips, som selskabet ikke kan købe direkte i Kina, viser Financial Times."
+      ],
+      "whyItMatters": "Sagen viser, hvor let cloud-udlejning i tredjelande omgår chipkontrollen mod Kina, mens Nscales prospekt ikke nævner kunden.",
+      "topics": [
+        "ai",
+        "halvledere",
+        "eksportkontrol",
+        "usa",
+        "kina"
+      ],
+      "entities": [
+        "ByteDance",
+        "Nscale",
+        "Nvidia",
+        "Spring (SG) Pte. Ltd.",
+        "Financial Times"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 65,
+        "novelty": 78,
+        "sourceQuality": 85,
+        "personalRelevance": 78,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "ByteDance's datterselskab Spring stod for 73 procent af Nscales omsætning i 2025 og fik via et datacenter i Glomfjord, Norge, adgang til 2.304 Nvidia B200-chips",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/23/nscale-35-billion-ipo-bytedance-nvidia-chips/",
+            "https://thenextweb.com/news/nscale-bytedance-biggest-customer-nvidia-b200-norway"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Arrangementet er lovligt, men udnytter et hul i USA's eksportkontrol af avancerede AI-chips til Kina, og Nscale nævner ikke kunden ved navn i sit børsnoteringsprospekt",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/23/nscale-35-billion-ipo-bytedance-nvidia-chips/",
+            "https://thenextweb.com/news/nscale-bytedance-biggest-customer-nvidia-b200-norway"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nscale's $35 billion IPO is heavily dependent on ByteDance's access to Nvidia's chips",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/23/nscale-35-billion-ipo-bytedance-nvidia-chips/",
+          "publishedAt": "2026-09-23T10:33:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "ByteDance brought in nearly 75% of Nscale's 2025 sales, the FT reports",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/nscale-bytedance-biggest-customer-nvidia-b200-norway",
+          "publishedAt": "2026-09-23T14:30:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/13-5988fb03.jpg",
+        "credit": "Foto: Getty Images / Fortune",
+        "alt": "Zhang Yiming, ByteDances grundlægger, foran selskabets hovedkvarter i Beijing",
+        "sourceUrl": "https://fortune.com/2026/09/23/nscale-35-billion-ipo-bytedance-nvidia-chips/",
+        "origin": "article",
+        "fingerprint": "0889a0703c2c30880800e0703c0e2082cc0070707c0e42064820f0f27c0f00844260f0f1fa1f012840505351fb3f5165",
+        "lookedAt": "0889a0703c2c30880800e0703c0e2082cc0070707c0e42064820f0f27c0f00844260f0f1fa1f012840505351fb3f5165",
+        "focus": {
+          "x": 0.889,
+          "y": 0
+        },
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-1137246342.jpg?resize=1200,600"
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-23T15:08:28.925Z",
+        "runId": "run-2026-09-23-uafternoon-r27"
+      }
+    },
+    {
+      "id": "story-iran-us-unga-talks-20260923",
+      "eventKey": "iran-us-unga-talks-pezeshkian-2026-09",
+      "materialFacts": [
+        "Pezeshkian holdt sin første FN-tale siden krigens start",
+        "Witkoff og Kushner mødte iranske mediatorer i timevis om at afslutte krigen",
+        "Iran kobler fremskridt til ophævelse af blokade, frigivne aktiver og genåbning af Hormuzstrædet"
+      ],
+      "section": "Geopolitik",
+      "headline": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz",
+      "subheadline": "Pezeshkian afviste i FN at bøje sig for Trump, mens Witkoff forhandlede i timevis",
+      "body": [
+        "Irans præsident Masoud Pezeshkian holdt sin første FN-tale siden krigens start og kaldte Iran et offer for amerikansk og israelsk terror. Samtidig mødtes USA's udsending Steve Witkoff og Jared Kushner med iranske mediatorer om at afslutte krigen og genåbne Hormuzstrædet."
+      ],
+      "whyItMatters": "Optrapning i retorik og forhandling samtidig viser, at krigens retning stadig er åben efter Trumps trussel om at udslette Iran.",
+      "topics": [
+        "geopolitik",
+        "usa",
+        "iran",
+        "krig",
+        "fn"
+      ],
+      "entities": [
+        "Masoud Pezeshkian",
+        "Steve Witkoff",
+        "Jared Kushner",
+        "Donald Trump",
+        "Iran"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 35,
+        "novelty": 62,
+        "sourceQuality": 82,
+        "personalRelevance": 20,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Pezeshkian holdt sin første FN-tale siden krigens start og afviste at bøje sig for Trumps trussel om at 'udslette' Iran",
+          "sourceUrls": [
+            "https://www.france24.com/en/americas/20260923-live-pezeshkian-set-to-address-un-for-the-first-time-since-us-israel-launched-iran-war"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Witkoff og Kushner mødtes med iranske mediatorer på sidelinjen af FN's generalforsamling om at afslutte krigen og genåbne Hormuzstrædet, og Witkoff kaldte forhandlingsrunden gennemført",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz",
+            "https://tass.com/world/2191377"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/23/us-iran-hold-mediated-unga-talks-on-ending-war-opening-strait-of-hormuz",
+          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Live: Pezeshkian tells UN his country is 'victim' of US 'terrorism'",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/americas/20260923-live-pezeshkian-set-to-address-un-for-the-first-time-since-us-israel-launched-iran-war",
+          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Witkoff calls consultations with Iran through mediators successful",
+          "publisher": "TASS",
+          "url": "https://tass.com/world/2191377",
+          "publishedAt": "2026-09-23T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/14-bd6ea1d9.jpg",
+        "credit": "Foto: AP Photo/Heather Khalifa",
+        "alt": "Irans præsident Masoud Pezeshkian taler ved FN's generalforsamling",
+        "sourceUrl": "https://www.ksat.com/news/world/2026/09/23/irans-president-to-speak-at-the-united-nations-in-rare-wartime-address/",
+        "origin": "article",
+        "fingerprint": "9d99daa859cd8ece9d98cea8d5c58ece9c9dc52c9cc40e8e1d9de52d9ca8078e3c94e4442aaa878e3684e4860a298887",
+        "lookedAt": "9d99daa859cd8ece9d98cea8d5c58ece9c9dc52c9cc40e8e1d9de52d9ca8078e3c94e4442aaa878e3684e4860a298887",
+        "focus": {
+          "x": 0.325,
+          "y": 0
+        },
+        "originalUrl": "https://bc.gmg.io/image/upload/q_auto,c_lfill,w_1600,h_1067,f_jpg/media/gmg/PLS7PFGXAFCTBGVFXQO2WQJ4YI.jpg?api_key=ksat_9a37fc89631abedf"
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-23T15:08:28.925Z",
+        "runId": "run-2026-09-23-uafternoon-r27"
+      }
     }
   ],
   "signals": [
@@ -1294,5 +1488,20 @@
     "novelty": 80,
     "perspectiveBalance": 78,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-23T15:08:28.925Z",
+      "runId": "run-2026-09-23-uafternoon-r27",
+      "added": 2,
+      "cost": {
+        "usd": 5.921126299999999,
+        "inputTokens": 10866238,
+        "outputTokens": 52879,
+        "turns": 125,
+        "seconds": 798.2
+      }
+    }
+  ]
 }
