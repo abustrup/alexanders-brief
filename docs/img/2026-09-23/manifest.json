@@ -1,0 +1,248 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-23",
+  "generatedAt": "2026-09-23T04:46:52.967Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-dk-greenland-usa-signed-20260923",
+      "headline": "Officielt: Aftale mellem Danmark, Grønland og USA er underskrevet",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/cb3po0ei/20260922-174109-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/groenland/officielt-aftale-mellem-danmark-groenland-og-usa-er-underskrevet",
+      "hosted": "01-29cd11db.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 68802,
+      "out": "900x675",
+      "bytes": 56807,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.614,
+        "y": 0.143
+      },
+      "fetchedAt": "2026-09-23T04:46:53.369Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-un-sc-ai-briefing-20260923",
+      "headline": "Sam Altman and Dario Amodei to brief UN Security Council on AI",
+      "source": "https://s.yimg.com/lo/mysterio/api/5412d951ca2f8e4dfe138a90b53a6e28bf23295df66396ccc4077093cbc6ff73/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fquartz_855%2F7f7a0cac8633626787be02777655618f.jpg",
+      "article": "https://www.yahoo.com/news/politics/articles/sam-altman-dario-amodei-brief-174925528.html",
+      "hosted": "02-648d51fa.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 59329,
+      "out": "1012x675",
+      "bytes": 46988,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.613,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-23T04:46:53.648Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-anthropic-opus-55-20260923",
+      "headline": "Anthropic's Claude 5.5 Release: Efficiency Gains and Strategic Consolidation",
+      "source": "https://scx2.b-cdn.net/gfx/news/hires/2026/anthropic-ceo-dario-am-2.jpg",
+      "article": "https://finance.yahoo.com/technology/ai/articles/anthropic-claude-5-5-release-185148663.html",
+      "hosted": "03-d2e3c83f.jpg",
+      "srcSize": "2880x1920",
+      "srcFormat": "jpeg",
+      "srcBytes": 724410,
+      "out": "1600x1067",
+      "bytes": 114684,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.314,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-23T04:46:54.451Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-openai-gpt6-sol-luna-20260923",
+      "headline": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "source": "https://assets.sfstandard.com/image/994911177489/image_cseo2rboq56356pqr22nkquh5v/-S1200x630-FPNG",
+      "article": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "hosted": "04-e4d271de.jpg",
+      "srcSize": "945x630",
+      "srcFormat": "png",
+      "srcBytes": 652747,
+      "out": "945x630",
+      "bytes": 37252,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.571
+      },
+      "fetchedAt": "2026-09-23T04:46:54.837Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-zelensky-trump-unga-20260923",
+      "headline": "Zelensky Offers Energy Truce as Trump Signals Support for Patriot Production in Ukraine",
+      "source": "https://www.adn.com/resizer/v2/4MSH5DUEGI7O5A7PXSBT3R27ME.jpg?auth=527bf540f4f9c95b3b608668daaf623c6670c8dac8f937291548cb3df6e641b7&width=800&height=533",
+      "article": "https://www.kyivpost.com/post/85174",
+      "hosted": "06-32ab59b1.jpg",
+      "srcSize": "800x533",
+      "srcFormat": "heif",
+      "srcBytes": 28611,
+      "out": "799x533",
+      "bytes": 46896,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-23T04:46:55.188Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-intrinsic-core-opensource-20260923",
+      "headline": "Google's Robotics Unit Intrinsic Open-Sources Its Foundational Infrastructure for Intelligent Robots",
+      "source": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-21-09-12-48.png",
+      "article": "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/",
+      "hosted": "07-ee9fb804.jpg",
+      "srcSize": "890x445",
+      "srcFormat": "png",
+      "srcBytes": 337242,
+      "out": "667x445",
+      "bytes": 24167,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0.429
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-23T04:46:55.412Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-gaza-ceasefire-violations-20260923",
+      "headline": "Child among four Palestinians killed in Israeli attacks on Gaza",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6ab1410a95a82-1790001418.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child",
+      "hosted": "08-c372a758.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 158486,
+      "out": "1600x1067",
+      "bytes": 131322,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.559,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-23T04:46:55.814Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-stanford-quantum-sound-20260923",
+      "headline": "Real-time quantum jump in sound observed for first time",
+      "source": "https://thequantuminsider.com/wp-content/uploads/2026/09/Device-1.png",
+      "article": "https://phys.org/news/2026-09-real-quantum.html",
+      "hosted": "09-1866e18a.jpg",
+      "srcSize": "1672x941",
+      "srcFormat": "png",
+      "srcBytes": 286825,
+      "out": "1411x941",
+      "bytes": 81827,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.489,
+        "y": 0.393
+      },
+      "fetchedAt": "2026-09-23T04:46:56.229Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-eu-russia-sanctions-delist-20260923",
+      "headline": "EU members extend Russia sanctions but delist two oligarchs",
+      "source": "https://api.brusselstimes.com/wp-content/uploads/2026/09/d0cd02d4-belgaimage-177052277-1024x681.jpg",
+      "article": "https://www.brusselstimes.com/belgium/2328832/eu-members-extend-russia-sanctions-but-delist-two-oligarchs",
+      "hosted": "10-181c9d9e.jpg",
+      "srcSize": "1024x681",
+      "srcFormat": "jpeg",
+      "srcBytes": 193534,
+      "out": "1021x681",
+      "bytes": 160314,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.782,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-23T04:46:56.826Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-trump-iran-annihilate-20260923",
+      "headline": "Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260921-president-trump-vsb-1621-1819ba.jpg",
+      "article": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085",
+      "hosted": "11-9f3588b6.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 88302,
+      "out": "945x630",
+      "bytes": 55473,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-23T04:46:57.606Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-xbox-halo-restructuring-20260923",
+      "headline": "Microsoft cuts hundreds more jobs, shifts next 'Halo' game to Activision in Xbox overhaul",
+      "source": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/09/Xbox-CEO-Asha-Sharma-Matt-Booty.jpg",
+      "article": "https://www.geekwire.com/2026/microsoft-cuts-hundreds-more-jobs-shifts-next-halo-game-to-activision-in-xbox-overhaul/",
+      "hosted": "12-3276d5a0.jpg",
+      "srcSize": "1066x600",
+      "srcFormat": "jpeg",
+      "srcBytes": 176176,
+      "out": "900x600",
+      "bytes": 74323,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-23T04:46:58.090Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-dwarkesh-noam-brown-20260923",
+      "headline": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "source": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdad7e67f-df3e-4ef5-9456-b98f6c4a0393_3000x3000.png",
+      "article": "https://www.dwarkesh.com/p/noam-brown",
+      "hosted": "r01-a664e87a.jpg",
+      "srcSize": "3000x3000",
+      "srcFormat": "jpeg",
+      "srcBytes": 1010098,
+      "out": "1600x900",
+      "bytes": 245006,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-23T04:46:58.521Z"
+    }
+  ]
+}

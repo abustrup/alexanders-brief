@@ -1,0 +1,1298 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "run-2026-09-23-morning-ci1",
+  "date": "2026-09-23",
+  "generatedAt": "2026-09-23T05:30:00.000Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "Grønlandsaftalen er underskrevet, FN's Sikkerhedsråd hører AI-laboratorierne, og to prisfald samme uge fortæller mere end nogen enkelt lancering",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-dk-greenland-usa-signed-20260923",
+      "eventKey": "dk-greenland-usa-security-signing-2026-09",
+      "materialFacts": [
+        "Aftalen underskrevet i New York tirsdag kl. 17:43",
+        "12 punkter om NATO-tilstedeværelse, øvelser og efterretningsdeling",
+        "Skal ratificeres parlamentarisk i alle tre lande"
+      ],
+      "section": "Grønland og sikkerhed",
+      "headline": "Officielt: Aftale mellem Danmark, Grønland og USA er underskrevet",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/groenland/officielt-aftale-mellem-danmark-groenland-og-usa-er-underskrevet",
+      "subheadline": "Frederiksen, Nielsen og Trump underskrev aftalen i New York om et fast NATO-fodaftryk i Arktis",
+      "body": [
+        "Danmark, Grønland og USA underskrev tirsdag sikkerhedsaftalen med 12 punkter om øget NATO-tilstedeværelse, fælles øvelser og efterretningsdeling i Arktis. Aftalen skal nu ratificeres i alle tre landes parlamenter, før den træder i kraft."
+      ],
+      "whyItMatters": "Aftalen gør et permanent amerikansk militærfodaftryk i Arktis til dansk-grønlandsk politik, ikke kun amerikansk ambition.",
+      "analysis": "Afgørende bliver, om parlamenterne ratificerer uden at udvande de 12 punkter.",
+      "topics": [
+        "danmark",
+        "grønland",
+        "geopolitik",
+        "usa",
+        "forsvar",
+        "arktis",
+        "nato"
+      ],
+      "entities": [
+        "Mette Frederiksen",
+        "Jens-Frederik Nielsen",
+        "Donald Trump",
+        "NATO"
+      ],
+      "isLead": true,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 55,
+        "novelty": 70,
+        "sourceQuality": 90,
+        "personalRelevance": 40,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Frederiksen, Nielsen og Trump underskrev sikkerhedsaftalen i New York tirsdag kl. 17:43",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/officielt-aftale-mellem-danmark-groenland-og-usa-er-underskrevet"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Aftalen indeholder 12 punkter om NATO-tilstedeværelse, øvelser og efterretningsdeling i Arktis",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/groenland/officielt-aftale-mellem-danmark-groenland-og-usa-er-underskrevet"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Officielt: Aftale mellem Danmark, Grønland og USA er underskrevet",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/groenland/officielt-aftale-mellem-danmark-groenland-og-usa-er-underskrevet",
+          "publishedAt": "2026-09-22T15:43:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/01-29cd11db.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Officielt: Aftale mellem Danmark, Grønland og USA er underskrevet",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/groenland/officielt-aftale-mellem-danmark-groenland-og-usa-er-underskrevet",
+        "origin": "article",
+        "fingerprint": "a5a5b131b9a3a388a527353139eba38c263535657d6ca38b26346464704c6121666464e6724ce96366e6e6e570dacee3",
+        "lookedAt": "a5a5b131b9a3a388a527353139eba38c263535657d6ca38b26346464704c6121666464e6724ce96366e6e6e570dacee3",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/cb3po0ei/20260922-174109-l.jpg?im=AspectCrop%3D%281200%2C675%29%2CxPosition%3D.5%2CyPosition%3D.5%3BResize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.614,
+          "y": 0.143
+        }
+      }
+    },
+    {
+      "id": "story-un-sc-ai-briefing-20260923",
+      "eventKey": "deepseek-moonshot-un-security-council-2026-09",
+      "materialFacts": [
+        "Altman briefer fysisk, Amodei virtuelt",
+        "DeepSeek og Moonshot inviteret til at tale",
+        "Frankrig indkaldte mødet som formand for Sikkerhedsrådet"
+      ],
+      "section": "AI og magt",
+      "headline": "Sam Altman and Dario Amodei to brief UN Security Council on AI",
+      "primarySourceUrl": "https://www.yahoo.com/news/politics/articles/sam-altman-dario-amodei-brief-174925528.html",
+      "subheadline": "Amerikanske og kinesiske AI-labs taler samlet i Sikkerhedsrådet om egne risici",
+      "body": [
+        "Frankrig indkaldte onsdag til møde i Sikkerhedsrådet om AI's risici. Altman deltager fysisk, Amodei virtuelt, sammen med Bengio og Hugging Faces Delangue. Usædvanligt nok taler kinesiske DeepSeek og Moonshot også om samme risici."
+      ],
+      "whyItMatters": "Første gang amerikanske og kinesiske AI-labs optræder sammen i FN's øverste sikkerhedsorgan.",
+      "analysis": "Fælles rum betyder ikke fælles konklusion: begge sider kan bruge mødet til at legitimere hver deres fortælling om, hvem der truer sikkerheden.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "geopolitik",
+        "kina",
+        "usa",
+        "fn"
+      ],
+      "entities": [
+        "Sam Altman",
+        "Dario Amodei",
+        "DeepSeek",
+        "Moonshot",
+        "Yoshua Bengio"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 45,
+        "novelty": 65,
+        "sourceQuality": 75,
+        "personalRelevance": 85,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Altman og Amodei briefer FN's Sikkerhedsråd onsdag, indkaldt af Frankrig",
+          "sourceUrls": [
+            "https://www.yahoo.com/news/politics/articles/sam-altman-dario-amodei-brief-174925528.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "DeepSeek og Moonshot er inviteret til at tale ved mødet",
+          "sourceUrls": [
+            "https://www.yahoo.com/news/politics/articles/sam-altman-dario-amodei-brief-174925528.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sam Altman and Dario Amodei to brief UN Security Council on AI",
+          "publisher": "Quartz (via Yahoo News)",
+          "url": "https://www.yahoo.com/news/politics/articles/sam-altman-dario-amodei-brief-174925528.html",
+          "publishedAt": "2026-09-22T17:49:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/02-648d51fa.jpg",
+        "credit": "Kilde: Quartz (via Yahoo News)",
+        "alt": "Sam Altman and Dario Amodei to brief UN Security Council on AI",
+        "sourceUrl": "https://www.yahoo.com/news/politics/articles/sam-altman-dario-amodei-brief-174925528.html",
+        "origin": "article",
+        "fingerprint": "cccd868f4fcd4d4ccccc960f4fcd4d4cc68e968f8ecd4d4c8696168e9e864c4c9e130b1a9f96864e13230f1b1b9b968e",
+        "lookedAt": "cccd868f4fcd4d4ccccc960f4fcd4d4cc68e968f8ecd4d4c8696168e9e864c4c9e130b1a9f96864e13230f1b1b9b968e",
+        "originalUrl": "https://s.yimg.com/lo/mysterio/api/5412d951ca2f8e4dfe138a90b53a6e28bf23295df66396ccc4077093cbc6ff73/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fquartz_855%2F7f7a0cac8633626787be02777655618f.jpg",
+        "focus": {
+          "x": 0.613,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-anthropic-opus-55-20260923",
+      "eventKey": "anthropic-opus-5-5-launch-2026-09",
+      "materialFacts": [
+        "40 procent lavere driftsomkostning end Opus 5",
+        "Pris 4/20 dollar pr. million tokens",
+        "Lanceret samme dag som OpenAI's prisfald"
+      ],
+      "section": "AI",
+      "headline": "Anthropic's Claude 5.5 Release: Efficiency Gains and Strategic Consolidation",
+      "primarySourceUrl": "https://finance.yahoo.com/technology/ai/articles/anthropic-claude-5-5-release-185148663.html",
+      "subheadline": "Opus 5.5 koster 40 procent mindre at drive – samme dag som OpenAI også sænkede priserne",
+      "body": [
+        "Anthropic lancerede Claude Opus 5.5 med 40 procent lavere driftsomkostninger og 30 procent hurtigere output. Ny pris er 4/20 dollar pr. million tokens, 20 procent under Opus 5."
+      ],
+      "whyItMatters": "Når billigste frontier-niveau falder to gange på en uge, ændres hvad der kan automatiseres i produktion i morgen.",
+      "analysis": "Prisfaldet signalerer marginpres lige så meget som fremskridt.",
+      "counterpoint": "En billigere model løser ikke spændingen mellem hastighed og Anthropics sikkerhed-først-profil.",
+      "topics": [
+        "ai",
+        "frontier-modeller",
+        "priser"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude Opus 5.5",
+        "Dario Amodei"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 70,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 90,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Claude Opus 5.5 koster 40 procent mindre at drive end Opus 5 og har over 30 procent hurtigere output",
+          "sourceUrls": [
+            "https://www.anthropic.com/claude-opus-5-5",
+            "https://finance.yahoo.com/technology/ai/articles/anthropic-claude-5-5-release-185148663.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ny pris er 4/20 dollar pr. million tokens, 20 procent under Opus 5",
+          "sourceUrls": [
+            "https://finance.yahoo.com/technology/ai/articles/anthropic-claude-5-5-release-185148663.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic's Claude 5.5 Release: Efficiency Gains and Strategic Consolidation",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-claude-5-5-release-185148663.html",
+          "publishedAt": "2026-09-22T18:51:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Introducing Claude Opus 5.5",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "publishedAt": "2026-09-22T17:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+          "publisher": "Simon Willison's Weblog",
+          "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+          "publishedAt": "2026-09-22T20:00:00.000Z",
+          "kind": "analysis"
+        },
+        {
+          "title": "Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up",
+          "publisher": "Tech Xplore",
+          "url": "https://techxplore.com/news/2026-09-anthropic-ceo-dario-amodei-ai.html",
+          "publishedAt": "2026-09-12T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/03-d2e3c83f.jpg",
+        "credit": "AP Photo/Markus Schreiber, File",
+        "alt": "Dario Amodei, adm. direktør for Anthropic, taler ved World Economic Forum i Davos",
+        "sourceUrl": "https://techxplore.com/news/2026-09-anthropic-ceo-dario-amodei-ai.html",
+        "origin": "source",
+        "fingerprint": "65dbd868d8988c0e66dad8d898988c0ed39ae0dcaa988c8d9b8aa49c4a388c0d1b2aa4ac8b381c2c4940263c8b595c2e",
+        "lookedAt": "65dbd868d8988c0e66dad8d898988c0ed39ae0dcaa988c8d9b8aa49c4a388c0d1b2aa4ac8b381c2c4940263c8b595c2e",
+        "originalUrl": "https://scx2.b-cdn.net/gfx/news/hires/2026/anthropic-ceo-dario-am-2.jpg",
+        "focus": {
+          "x": 0.314,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-openai-gpt6-sol-luna-20260923",
+      "eventKey": "openai-gpt6-sol-luna-launch-2026-09",
+      "materialFacts": [
+        "Priser halveret ift. 5.6-serien",
+        "Sol laver ifølge OpenAI halvt så mange fejl som forgængeren",
+        "Ruller ud til ChatGPT Plus/Pro/Business/Enterprise/Edu samt Free/Go via Luna"
+      ],
+      "section": "AI",
+      "headline": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "primarySourceUrl": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+      "subheadline": "OpenAI halverer priserne på sine mellemklasse-modeller samme dag som Anthropic sænker sine",
+      "body": [
+        "OpenAI lancerede GPT-6 Sol og Luna til halv pris af 5.6-serien. Sol laver ifølge selskabet halvt så mange fejl som forgængeren, til Astra-niveau pålidelighed. Modellerne ruller straks ud i ChatGPT og API'en."
+      ],
+      "whyItMatters": "To laboratorier sænker priserne samme uge – flaskehalsen for AI-adoption flytter fra modelkvalitet til distribution.",
+      "analysis": "Konkurrencen står nu om pris pr. løst opgave, ikke kun benchmarks – det ændrer regnestykket for enhver, der bygger på API'er frem for selv at træne.",
+      "topics": [
+        "ai",
+        "frontier-modeller",
+        "priser"
+      ],
+      "entities": [
+        "OpenAI",
+        "GPT-6 Sol",
+        "GPT-6 Luna"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 65,
+        "novelty": 45,
+        "sourceQuality": 80,
+        "personalRelevance": 88,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "OpenAI halverede API-priserne for Sol og Luna sammenlignet med 5.6-serien",
+          "sourceUrls": [
+            "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+            "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "GPT-6 Sol laver ifølge OpenAI halvt så mange fejl som forgængeren",
+          "sourceUrls": [
+            "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/22/openai-launches-gpt-6-sol-and-luna/",
+          "publishedAt": "2026-09-22T18:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Introducing GPT-6 Sol and Luna",
+          "publisher": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+          "publishedAt": "2026-09-22T18:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/04-e4d271de.jpg",
+        "credit": "Benjamin Fanjoy/Getty Images",
+        "alt": "Sam Altman taler ved Dreamforce-konferencen",
+        "sourceUrl": "https://sfstandard.com/2026/09/16/sam-altman-trust-us/",
+        "fingerprint": "09091852435b9b0088089cd2c1db9b930c009cd2c59b9bb914449ed2c49b9b391446939396919bb992cf319112121919",
+        "lookedAt": "09091852435b9b0088089cd2c1db9b930c009cd2c59b9bb914449ed2c49b9b391446939396919bb992cf319112121919",
+        "originalUrl": "https://assets.sfstandard.com/image/994911177489/image_cseo2rboq56356pqr22nkquh5v/-S1200x630-FPNG",
+        "focus": {
+          "x": 0.9,
+          "y": 0.571
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/09/openai-getty.jpg?resize=1200,800",
+          "fingerprint": "0f82ec0e170e1c1e0792ec8f330e1c1a07b2cc0f330f0c3206a3ce0729170e3106e1ce0769210f2c13e08f17ec68174e",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story-novo-cmd-stock-fall-20260923",
+      "eventKey": "novo-nordisk-cmd-2030-targets-2026-09",
+      "materialFacts": [
+        "Aktien faldt op til 9 procent intradag",
+        "Mål om fem-plus blockbustere inden 2030",
+        "Over 150 mia. kr. i pipeline-salg ventet i 2035"
+      ],
+      "section": "Erhverv og biotek",
+      "headline": "Novo Nordisk Shares Fall 6% as Drugmaker Outlines Growth Targets Through 2030",
+      "primarySourceUrl": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-shares-fall-6-103003509.html",
+      "subheadline": "Novo-aktien faldt op til 9 procent, da investorer fandt kapitalmarkedsdagens mål utilstrækkelige",
+      "body": [
+        "Novo Nordisk-aktien faldt op til 9 procent efter kapitalmarkedsdagen i London mandag. Selskabet sigter mod fem-plus blockbustere inden 2030 og over 150 mia. kr. i pipeline-salg 2035."
+      ],
+      "whyItMatters": "Danmarks største børsnoterede selskab mangler ifølge markedet et svar på det kommende patentudløb.",
+      "analysis": "Kursreaktionen viser, at markedet nu priser Novo efter konkurrenceevne mod Eli Lilly, ikke historisk vækst.",
+      "topics": [
+        "danmark",
+        "biotek",
+        "erhverv",
+        "finans"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Mike Doustdar",
+        "Eli Lilly"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 60,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 55,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Novo-aktien faldt op til 9 procent intradag efter kapitalmarkedsdagen mandag",
+          "sourceUrls": [
+            "https://finance.yahoo.com/healthcare/articles/novo-nordisk-shares-fall-6-103003509.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Novo sigter mod fem-plus blockbuster-lanceringer inden 2030 og over 150 mia. kr. i pipeline-salg i 2035",
+          "sourceUrls": [
+            "https://finance.yahoo.com/healthcare/articles/novo-nordisk-shares-fall-6-103003509.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo Nordisk Shares Fall 6% as Drugmaker Outlines Growth Targets Through 2030",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/healthcare/articles/novo-nordisk-shares-fall-6-103003509.html",
+          "publishedAt": "2026-09-21T10:30:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://s.yimg.com/lo/mysterio/api/110f160d625382c3bc4915a319ce2281558e53c3bcca78bdfdc9b01de6365be7/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finvestorshub_458%2Fc705b46dc1a2cf7609897be0d043d83f.png",
+          "fingerprint": "a3c6e7cbc7a1231ba3c7e5c986a5231383c665898306e11383c6468983076061c7464409030345e0c3c384894a04c3c4",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "story-zelensky-trump-unga-20260923",
+      "eventKey": "zelensky-trump-unga-patriot-energy-2026-09",
+      "materialFacts": [
+        "Ukraine tilbød gensidig energivåbenhvile",
+        "Trump signalerede åbenhed for Patriot-licensproduktion",
+        "Opbygning af kapacitet vurderes at tage 1-1,5 år"
+      ],
+      "section": "Geopolitik",
+      "headline": "Zelensky Offers Energy Truce as Trump Signals Support for Patriot Production in Ukraine",
+      "primarySourceUrl": "https://www.kyivpost.com/post/85174",
+      "subheadline": "Ukraine tilbyder energivåbenhvile, mens Trump åbner for indenlandsk Patriot-produktion",
+      "body": [
+        "Ved et møde på sidelinjen af FN's generalforsamling tilbød Ukraine en energivåbenhvile, hvis Rusland stopper angreb på elnettet. Trump signalerede vilje til at hjælpe med licens til indenlandsk Patriot-produktion."
+      ],
+      "whyItMatters": "Et energivåbenhvile-tilbud før vinteren er et konkret, testbart forhandlingskort.",
+      "analysis": "Patriot-licensen betyder mere på sigt end på vinterens slagmark: Ukraine bliver producent, ikke kun modtager.",
+      "topics": [
+        "geopolitik",
+        "ukraine",
+        "usa",
+        "forsvar"
+      ],
+      "entities": [
+        "Volodymyr Zelensky",
+        "Donald Trump",
+        "Raytheon"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Ukraine tilbød en gensidig energivåbenhvile ved mødet mellem Zelensky og Trump",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/85174"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trump signalerede åbenhed for licens til indenlandsk Patriot-produktion i Ukraine med Raytheons deltagelse",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/85174"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zelensky Offers Energy Truce as Trump Signals Support for Patriot Production in Ukraine",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/85174",
+          "publishedAt": "2026-09-23T00:11:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/06-32ab59b1.jpg",
+        "credit": "AP Photo/Julia Demaree Nikhinson",
+        "alt": "Trump og Zelensky mødes under FN's generalforsamling",
+        "sourceUrl": "https://www.adn.com/nation-world/2026/09/22/trump-suggests-a-ukraine-deal-on-russias-war-could-be-close-while-meeting-with-zelenskyy/",
+        "fingerprint": "2ba2632b2d9b9e8c2a2263292d1a1f8e6b63e1252d3d1b2f49e1c1646c2d395761cac066666d3d134ac9c4eee7c66c38",
+        "lookedAt": "2ba2632b2d9b9e8c2a2263292d1a1f8e6b63e1252d3d1b2f49e1c1646c2d395761cac066666d3d134ac9c4eee7c66c38",
+        "originalUrl": "https://www.adn.com/resizer/v2/4MSH5DUEGI7O5A7PXSBT3R27ME.jpg?auth=527bf540f4f9c95b3b608668daaf623c6670c8dac8f937291548cb3df6e641b7&width=800&height=533",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://static.kyivpost.com/storage/2026/09/19/20a056e86128e220fc58ee9b4202df39.jpg?w=1200&q=90&f=jpg",
+          "fingerprint": "ceccd79e9eded427cec6979e9ede96f64e16573f9edf96b68753172f1fd797123393b72f1f979736b3b32f6f5d17bf33",
+          "reason": "wrong-person"
+        }
+      ]
+    },
+    {
+      "id": "story-intrinsic-core-opensource-20260923",
+      "eventKey": "alphabet-intrinsic-core-opensource-2026-09",
+      "materialFacts": [
+        "Intrinsic Core udgivet under Apache 2.0",
+        "Samler realtidsstyring, posefinding og gribeplanlægning",
+        "Vist på ROSCon 2026 i Toronto"
+      ],
+      "section": "Robotteknologi",
+      "headline": "Google's Robotics Unit Intrinsic Open-Sources Its Foundational Infrastructure for Intelligent Robots",
+      "primarySourceUrl": "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/",
+      "subheadline": "Alphabets robotenhed gør sin grundinfrastruktur gratis for alle udviklere",
+      "body": [
+        "Intrinsic, Alphabets robotenhed, gjorde sin platform Intrinsic Core open source under Apache 2.0 på ROSCon 2026. Platformen samler styring, posefinding og gribeplanlægning i ét lag."
+      ],
+      "whyItMatters": "Når grundlæggende robotinfrastruktur bliver gratis, flytter konkurrencen til hvem der bedst tilpasser den til en fabrikshal.",
+      "analysis": "Alphabet vinder ikke på licensindtægter, men på at Intrinsic Core bliver standarden, andres hardware skal tale med.",
+      "topics": [
+        "ai",
+        "robotteknologi",
+        "open-source",
+        "erhverv"
+      ],
+      "entities": [
+        "Alphabet",
+        "Intrinsic",
+        "Google",
+        "Nvidia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 55,
+        "novelty": 68,
+        "sourceQuality": 70,
+        "personalRelevance": 75,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Intrinsic gjorde Intrinsic Core open source under Apache 2.0 på ROSCon 2026",
+          "sourceUrls": [
+            "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google's Robotics Unit Intrinsic Open-Sources Its Foundational Infrastructure for Intelligent Robots",
+          "publisher": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/",
+          "publishedAt": "2026-09-22T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/07-ee9fb804.jpg",
+        "credit": "Kilde: SiliconANGLE",
+        "alt": "Google's Robotics Unit Intrinsic Open-Sources Its Foundational Infrastructure for Intelligent Robots",
+        "sourceUrl": "https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/",
+        "origin": "article",
+        "fingerprint": "2cb4d052d1c2e63824b4d0d2d1d2c26e24b492d0d390c34b26b09290d29093c3243290905292a09132303110d2122119",
+        "lookedAt": "2cb4d052d1c2e63824b4d0d2d1d2c26e24b492d0d390c34b26b09290d29093c3243290905292a09132303110d2122119",
+        "originalUrl": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-21-09-12-48.png",
+        "focus": {
+          "x": 0.325,
+          "y": 0.429
+        }
+      }
+    },
+    {
+      "id": "story-gaza-ceasefire-violations-20260923",
+      "eventKey": "gaza-ceasefire-violations-toll-2026-09",
+      "materialFacts": [
+        "Fire dræbt, heriblandt et barn",
+        "1.394 dræbte registreret siden våbenhvilen",
+        "Israelske styrker ikke trukket tilbage trods aftale"
+      ],
+      "section": "Mellemøsten",
+      "headline": "Child among four Palestinians killed in Israeli attacks on Gaza",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child",
+      "subheadline": "Fire palæstinensere, heriblandt en 11-årig dreng, dræbt trods våbenhvilen fra 2025",
+      "body": [
+        "Fire palæstinensere, heriblandt den 11-årige Ismail al-Bardawil, blev dræbt i israelske angreb i Gaza søndag og mandag. Gazas sundhedsministerium har registreret 1.394 dræbte siden våbenhvilen i oktober 2025. Israelske styrker er ikke trukket tilbage."
+      ],
+      "whyItMatters": "Tallene viser, at 'våbenhvile' i praksis betyder lavere, men fortsat dødelig konfliktintensitet.",
+      "analysis": "Så længe styrkerne ikke trækker sig tilbage, er aftalens juridiske status vigtigere end dens navn: en nedtrapning, ikke en afslutning.",
+      "topics": [
+        "mellemøsten",
+        "menneskerettigheder",
+        "krig"
+      ],
+      "entities": [
+        "Gaza",
+        "Israel",
+        "Ismail al-Bardawil"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 20,
+        "novelty": 30,
+        "sourceQuality": 78,
+        "personalRelevance": 10,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Fire palæstinensere, heriblandt et barn, blev dræbt i israelske angreb i Gaza",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Gazas sundhedsministerium har registreret 1.394 dræbte siden våbenhvilen i oktober 2025",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Child among four Palestinians killed in Israeli attacks on Gaza",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child",
+          "publishedAt": "2026-09-21T14:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/08-c372a758.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Child among four Palestinians killed in Israeli attacks on Gaza",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/21/israeli-attacks-on-gaza-kill-three-including-a-child",
+        "origin": "article",
+        "fingerprint": "74189ea646033201349c16a6c60332223c9c5323870373623c9c5323870771711c9d5323e30310f03c931362e20301f1",
+        "lookedAt": "74189ea646033201349c16a6c60332223c9c5323870373623c9c5323870771711c9d5323e30310f03c931362e20301f1",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6ab1410a95a82-1790001418.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.559,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-stanford-quantum-sound-20260923",
+      "eventKey": "stanford-quantum-jump-sound-2026-09",
+      "materialFacts": [
+        "Første direkte observation af et kvantespring i lyd i realtid",
+        "2 ms vibrationel levetid muliggjorde gentagne målinger",
+        "Publiceret i Science"
+      ],
+      "section": "Kvantefysik",
+      "headline": "Real-time quantum jump in sound observed for first time",
+      "primarySourceUrl": "https://phys.org/news/2026-09-real-quantum.html",
+      "subheadline": "Stanford-forskere fangede for første gang et lydkvantum i det øjeblik, det skifter tilstand",
+      "body": [
+        "Et Stanford-team observerede for første gang direkte et kvantespring i lyd – en fonon – i realtid, ved at parre en mikroskopisk resonator med en superledende qubit. Resultatet er publiceret i Science."
+      ],
+      "whyItMatters": "Lyd er billigere at måle end lys, så en lydbaseret kvantesensor kunne blive hverdagsudstyr hurtigere end ventet.",
+      "analysis": "Metoden er lige så vigtig som opdagelsen: 2 millisekunders levetid gav nok målinger til at fange selve springet.",
+      "topics": [
+        "videnskab",
+        "kvante",
+        "fysik"
+      ],
+      "entities": [
+        "Stanford University",
+        "Amir Safavi-Naeini"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 25,
+        "novelty": 85,
+        "sourceQuality": 82,
+        "personalRelevance": 60,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Stanford-forskere observerede for første gang et kvantespring i lyd i realtid i en mekanisk resonator",
+          "sourceUrls": [
+            "https://phys.org/news/2026-09-real-quantum.html",
+            "https://news.stanford.edu/stories/2026/09/first-real-time-quantum-jump-sound"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Real-time quantum jump in sound observed for first time",
+          "publisher": "Phys.org",
+          "url": "https://phys.org/news/2026-09-real-quantum.html",
+          "publishedAt": "2026-09-17T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Researchers observe first real-time quantum jump in sound",
+          "publisher": "Stanford Report",
+          "url": "https://news.stanford.edu/stories/2026/09/first-real-time-quantum-jump-sound",
+          "publishedAt": "2026-09-17T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/09-1866e18a.jpg",
+        "credit": "The Quantum Insider",
+        "alt": "Den mekaniske resonator brugt i forsøget, vist som illustration og som elektronmikroskop-optagelse",
+        "sourceUrl": "https://thequantuminsider.com/2026/09/18/researchers-observe-first-real-time-quantum-jump-in-sound/",
+        "fingerprint": "1f2701a4672398011721212467632a5107212826e7652b9825202826e7e5693824002c67e7e4e06900082ce7c5a4e4e9",
+        "lookedAt": "1f2701a4672398011721212467632a5107212826e7652b9825202826e7e5693824002c67e7e4e06900082ce7c5a4e4e9",
+        "originalUrl": "https://thequantuminsider.com/wp-content/uploads/2026/09/Device-1.png",
+        "focus": {
+          "x": 0.489,
+          "y": 0.393
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/hires/2020/1-quantummecha.jpg",
+          "fingerprint": "c25c64f3231d0002d85ec651731d08009dcec2d1532e1c409ee683b151461c04aec381b0b9c32c1ac3818060f889663d",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://www.stanford.edu/sites/default/files/styles/parallax_hero_media_image_full_large_1x/public/hero_lab_picture_final_2_lighter_pc-oliver-hitchcock.jpg",
+          "reason": "no longer resolves (HTTP 404) when refetched"
+        }
+      ]
+    },
+    {
+      "id": "story-eu-russia-sanctions-delist-20260923",
+      "eventKey": "eu-russia-sanctions-delist-usmanov-fridman-2026-09",
+      "materialFacts": [
+        "Sanktioner forlænget 36 måneder mod knap 3.000 personer/selskaber",
+        "Usmanov og Fridman fjernet fra listen",
+        "Ukraine kalder afnoteringen 'skammelig'"
+      ],
+      "section": "Sanktioner",
+      "headline": "EU members extend Russia sanctions but delist two oligarchs",
+      "primarySourceUrl": "https://www.brusselstimes.com/belgium/2328832/eu-members-extend-russia-sanctions-but-delist-two-oligarchs",
+      "subheadline": "EU forlænger Ruslands-sanktioner i 36 måneder, men fjerner to oligarker",
+      "body": [
+        "EU's 27 lande forlængede tirsdag sanktionerne mod knap 3.000 personer og selskaber i 36 måneder mod normalt 6. Prisen, presset igennem af Frankrig og Slovakiet, var at fjerne oligarkerne Usmanov og Fridman fra listen."
+      ],
+      "whyItMatters": "At EU bytter to navne for at holde sanktioner mod 3.000 andre kørende, viser hvor skrøbelig konsensus er.",
+      "analysis": "36 måneder i stedet for 6 gør regimet mindre sårbart over for et lands veto ved næste fornyelse.",
+      "counterpoint": "Ukraine kalder afnoteringen 'skammelig' – et signal om, at pres kan købe en plads ud af listen.",
+      "topics": [
+        "geopolitik",
+        "rusland",
+        "sanktioner",
+        "eu",
+        "ukraine"
+      ],
+      "entities": [
+        "EU",
+        "Alisher Usmanov",
+        "Mikhail Fridman",
+        "Frankrig",
+        "Slovakiet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 30,
+        "novelty": 55,
+        "sourceQuality": 72,
+        "personalRelevance": 15,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "EU forlængede sanktioner mod knap 3.000 personer/selskaber i 36 måneder og fjernede Usmanov og Fridman fra listen",
+          "sourceUrls": [
+            "https://www.brusselstimes.com/belgium/2328832/eu-members-extend-russia-sanctions-but-delist-two-oligarchs"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU members extend Russia sanctions but delist two oligarchs",
+          "publisher": "The Brussels Times",
+          "url": "https://www.brusselstimes.com/belgium/2328832/eu-members-extend-russia-sanctions-but-delist-two-oligarchs",
+          "publishedAt": "2026-09-22T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/10-181c9d9e.jpg",
+        "credit": "Kilde: The Brussels Times",
+        "alt": "EU members extend Russia sanctions but delist two oligarchs",
+        "sourceUrl": "https://www.brusselstimes.com/belgium/2328832/eu-members-extend-russia-sanctions-but-delist-two-oligarchs",
+        "origin": "article",
+        "fingerprint": "8fdf4f3f352e39669fdfc63c342b6c639fcfce3e2e654e799fcfcf7a667a63dc7d875b744a67d8c7878b7df2cdf4cbbc",
+        "lookedAt": "8fdf4f3f352e39669fdfc63c342b6c639fcfce3e2e654e799fcfcf7a667a63dc7d875b744a67d8c7878b7df2cdf4cbbc",
+        "originalUrl": "https://api.brusselstimes.com/wp-content/uploads/2026/09/d0cd02d4-belgaimage-177052277-1024x681.jpg",
+        "focus": {
+          "x": 0.782,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-trump-iran-annihilate-20260923",
+      "eventKey": "trump-iran-ultimatum-unga-2026-09",
+      "materialFacts": [
+        "Trump: kan 'annihilate' Iran eller lade landet indgå en aftale",
+        "Forventer først aftale efter midtvejsvalget i november"
+      ],
+      "section": "Geopolitik",
+      "headline": "Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections",
+      "primarySourceUrl": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085",
+      "subheadline": "Trump: aftale med Iran eller 'tilintetgørelse' – men først efter valget",
+      "body": [
+        "Trump sagde til FN, at Iran enten indgår en aftale eller bliver 'tilintetgjort'. En aftale kommer først efter midtvejsvalget i november, fordi Iran ifølge ham afventer valgresultatet."
+      ],
+      "whyItMatters": "Når en præsident binder en krigsbeslutning til et valg, bliver valget selv en variabel i Irans kalkule.",
+      "analysis": "Tidslinjen er samtidig den klareste invitation til fortsat diplomati, Trump har givet Iran.",
+      "topics": [
+        "geopolitik",
+        "usa",
+        "iran",
+        "krig",
+        "fn"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Iran"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 40,
+        "novelty": 55,
+        "sourceQuality": 90,
+        "personalRelevance": 20,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Trump sagde til FN's generalforsamling han kan 'annihilate' Iran eller lade landet indgå en aftale",
+          "sourceUrls": [
+            "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trump forventer først en aftale efter midtvejsvalget i november",
+          "sourceUrls": [
+            "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085",
+          "publishedAt": "2026-09-22T16:44:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/11-9f3588b6.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Trump tells U.N. he could 'annihilate' Iran but expects a deal after the midterm elections",
+        "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/trump-address-united-nations-general-assembly-iran-war-rcna599085",
+        "origin": "article",
+        "fingerprint": "edf3b389a5f4f672e533b3a525e6f6f2e371a1a424a6f6f36961a0242466a5f7e8606426666666e25064622647676662",
+        "lookedAt": "edf3b389a5f4f672e533b3a525e6f6f2e371a1a424a6f6f36961a0242466a5f7e8606426666666e25064622647676662",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260921-president-trump-vsb-1621-1819ba.jpg",
+        "focus": {
+          "x": 0.102,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-xbox-halo-restructuring-20260923",
+      "eventKey": "microsoft-xbox-halo-activision-restructuring-2026-09",
+      "materialFacts": [
+        "Ca. 600 stillinger nedlagt globalt, 268 i Xbox Game Studios",
+        "Næste Halo-spil flyttes til Activision",
+        "Ninja Theory risikerer lukning"
+      ],
+      "section": "Spil og teknologi",
+      "headline": "Microsoft cuts hundreds more jobs, shifts next 'Halo' game to Activision in Xbox overhaul",
+      "primarySourceUrl": "https://www.geekwire.com/2026/microsoft-cuts-hundreds-more-jobs-shifts-next-halo-game-to-activision-in-xbox-overhaul/",
+      "subheadline": "Microsoft lægger 600 job ned og flytter Halo-udvikling til Activision",
+      "body": [
+        "Microsoft nedlægger ca. 600 stillinger globalt, heraf 268 i Xbox Game Studios. Det næste Halo-spil flyttes til Activision, mens Ninja Theory risikerer lukning efter to opkøbsforsøg faldt til jorden."
+      ],
+      "whyItMatters": "At Halo flytter studie viser, at Microsoft nu prioriterer rentabilitet over at eje sine ikoniske IP'er internt.",
+      "analysis": "Konsolideringen betyder, at Xbox' identitet fremover handler mindre om egne studier og mere om abonnementer.",
+      "topics": [
+        "teknologi",
+        "erhverv",
+        "spil"
+      ],
+      "entities": [
+        "Microsoft",
+        "Xbox",
+        "Activision",
+        "Halo Studios",
+        "Ninja Theory"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 20,
+        "novelty": 45,
+        "sourceQuality": 72,
+        "personalRelevance": 20,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Microsoft nedlægger omkring 600 stillinger globalt, heraf 268 i Xbox Game Studios, og flytter næste Halo-spil til Activision",
+          "sourceUrls": [
+            "https://www.geekwire.com/2026/microsoft-cuts-hundreds-more-jobs-shifts-next-halo-game-to-activision-in-xbox-overhaul/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft cuts hundreds more jobs, shifts next 'Halo' game to Activision in Xbox overhaul",
+          "publisher": "GeekWire",
+          "url": "https://www.geekwire.com/2026/microsoft-cuts-hundreds-more-jobs-shifts-next-halo-game-to-activision-in-xbox-overhaul/",
+          "publishedAt": "2026-09-22T07:13:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/12-3276d5a0.jpg",
+        "credit": "Thurrott.com",
+        "alt": "Xbox-ledelsen Asha Sharma og Matt Booty",
+        "sourceUrl": "https://www.thurrott.com/games/341892/xbox-announces-more-job-cuts-and-studio-reorgs-with-next-halo-game-developed-by-activision",
+        "fingerprint": "faf7130e672c0f17daf71b4e476c0e25f6bb5b4e47652e05f2bb5b4b43c77e0ff95b9bcbd383dc0f59bb9b999103b6ef",
+        "lookedAt": "faf7130e672c0f17daf71b4e476c0e25f6bb5b4e47652e05f2bb5b4b43c77e0ff95b9bcbd383dc0f59bb9b999103b6ef",
+        "originalUrl": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2026/09/Xbox-CEO-Asha-Sharma-Matt-Booty.jpg",
+        "focus": {
+          "x": 0.325,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://cdn.geekwire.com/wp-content/uploads/2026/09/xbox-msft-1260x945.jpg",
+          "fingerprint": "994bcb4b4b834e8acdcbcb4b4b8b348b8f8b0bc9c90b320f8b8909898909320189898d8d8585bb041595858484841504",
+          "reason": "logo-or-card"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Trump and Xi Meet in Washington Under Shadow of AI, Trade and Rare Earth Tensions",
+      "headline": "Trump and Xi Meet in Washington Under Shadow of AI, Trade and Rare Earth Tensions",
+      "summary": "Xis første statsbesøg i USA i 11 år finder sted 24. september med AI, told, sjældne jordarter og landbrugshandel på dagsordenen.",
+      "publisher": "U.S. News",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "url": "https://www.usnews.com/news/national-news/articles/2026-09-21/trump-and-xi-meet-in-washington-under-shadow-of-ai-trade-and-rare-earth-tensions",
+      "topics": [
+        "geopolitik",
+        "kina",
+        "usa",
+        "handel",
+        "ai"
+      ]
+    },
+    {
+      "text": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "headline": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "summary": "Praktikeranalyse af samme uges prisfald fra Anthropic og OpenAI og de faktiske ydelsesforskelle bag dem.",
+      "publisher": "Simon Willison's Weblog",
+      "section": "AI",
+      "publishedAt": "2026-09-22T20:00:00.000Z",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "topics": [
+        "ai",
+        "analyse",
+        "priser"
+      ]
+    },
+    {
+      "text": "Hacking group ShinyHunters claims it breached the FBI, stole agents' and applicants' data",
+      "headline": "Hacking group ShinyHunters claims it breached the FBI, stole agents' and applicants' data",
+      "summary": "Gruppen hævder at have udnyttet en zero-day i Oracle PeopleSoft til at stjæle 2-3 TB data; FBI har ikke bekræftet angrebet.",
+      "publisher": "TechCrunch",
+      "section": "Cybersikkerhed",
+      "publishedAt": "2026-09-22T00:00:00.000Z",
+      "url": "https://techcrunch.com/2026/09/22/hacking-group-shinyhunters-claims-it-breached-the-fbi-stole-agents-and-applicants-data/",
+      "topics": [
+        "cybersikkerhed",
+        "usa"
+      ]
+    },
+    {
+      "text": "Ny måling er den dårligste for Venstre nogensinde",
+      "headline": "Ny måling er den dårligste for Venstre nogensinde",
+      "summary": "Epinion måler Venstre til 7,1 procent, et fald på 2,2 procentpoint siden august og det laveste nogensinde for partiet.",
+      "publisher": "DR",
+      "section": "Dansk politik",
+      "publishedAt": "2026-09-23T04:00:00.000Z",
+      "url": "https://www.dr.dk/nyheder/politik/ny-maaling-er-den-daarligste-venstre-nogensinde-det-er-katastrofalt",
+      "topics": [
+        "danmark",
+        "politik",
+        "meningsmåling"
+      ]
+    },
+    {
+      "text": "MIT engineers design an aerial microrobot that can fly as fast as a bumblebee",
+      "headline": "MIT engineers design an aerial microrobot that can fly as fast as a bumblebee",
+      "summary": "Ny AI-styring øger en 4 cm flyverobots hastighed med ca. 450 procent og lader den udføre 10 saltomortaler på 11 sekunder.",
+      "publisher": "MIT EECS",
+      "section": "Robotteknologi",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "url": "https://www.eecs.mit.edu/mit-engineers-design-an-aerial-microrobot-that-can-fly-as-fast-as-a-bumblebee/",
+      "topics": [
+        "videnskab",
+        "robotteknologi",
+        "ai"
+      ]
+    },
+    {
+      "text": "SpaceX will try to put Starship in orbit for the first time on September 28",
+      "headline": "SpaceX will try to put Starship in orbit for the first time on September 28",
+      "summary": "Første orbitale Starship-opsendelse planlagt 28. september med 26 Starlink V3-satellitter som nyttelast.",
+      "publisher": "TechCrunch",
+      "section": "Rumfart",
+      "publishedAt": "2026-09-15T00:00:00.000Z",
+      "url": "https://techcrunch.com/2026/09/15/spacex-will-try-to-put-starship-in-orbit-for-the-first-time-on-september-28/",
+      "topics": [
+        "rumfart",
+        "teknologi"
+      ]
+    },
+    {
+      "text": "Tsikhanouskaya: Lukashenko ready to let Putin use Belarus for new attacks on Ukraine",
+      "headline": "Tsikhanouskaya: Lukashenko ready to let Putin use Belarus for new attacks on Ukraine",
+      "summary": "Den belarusiske oppositionsleder advarer om, at Lukasjenko fortsat stiller territorium og infrastruktur til rådighed for mulige russiske angreb fra nord.",
+      "publisher": "Ukrinform",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-23T00:00:00.000Z",
+      "url": "https://www.ukrinform.net/rubric-polytics/4166964-tsikhanouskaya-lukashenko-ready-to-let-putin-use-belarus-for-new-attacks-on-ukraine.html",
+      "topics": [
+        "geopolitik",
+        "belarus",
+        "rusland",
+        "ukraine"
+      ]
+    },
+    {
+      "text": "A strange circle on satellite maps turned out to be a 390-million-year-old impact crater",
+      "headline": "A strange circle on satellite maps turned out to be a 390-million-year-old impact crater",
+      "summary": "En amatørastronom fandt i 2024 en 25 km ring på satellitkort under planlægning af en campingtur; geologer bekræftede i 2025 et nedslagskrater, nu kaldet Uhackatik.",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081101.htm",
+      "topics": [
+        "videnskab",
+        "geologi",
+        "serendipitet"
+      ]
+    },
+    {
+      "text": "Regeringen foreslår totalforbud mod mobiltelefoner i skolerne",
+      "headline": "Regeringen foreslår totalforbud mod mobiltelefoner i skolerne",
+      "summary": "Efter historisk dårlige PISA-resultater foreslår regeringen totalforbud mod mobiler og private skærme i undervisning og frikvarter, med en trepart og 1 mia. kr. afsat.",
+      "publisher": "Information",
+      "section": "Dansk politik",
+      "publishedAt": "2026-09-08T00:00:00.000Z",
+      "url": "https://www.information.dk/indland/2026/09/regeringen-forbyde-mobiltelefoner-skolerne",
+      "topics": [
+        "danmark",
+        "politik",
+        "uddannelse"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "stemmeparadokset",
+    "title": "Stemmeparadokset",
+    "thesis": "Arrows sætning viser, at ingen model kan aggregere præferencer retfærdigt og konsistent på én gang.",
+    "horizon": "Ved næste postmortem om et laboratoriums præferencetræning",
+    "body": [
+      "En AI trænet på rangeringer vil derfor skifte holdning, når et irrelevant tredje svar dukker op. Det er matematik, ikke en fejl."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis et laboratorium kan vise, at dets præferencemodel systematisk opfylder uafhængighed af irrelevante alternativer – eller hvis ingen dokumenteret reversering nogensinde dukker op på trods af grundig undersøgelse af produktionsmodeller.",
+    "topics": [
+      "ai",
+      "filosofi",
+      "matematik"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-dwarkesh-noam-brown-20260923",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Podcast-interview",
+      "status": "new",
+      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "creator": "Dwarkesh Patel, med Noam Brown (OpenAI)",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/noam-brown",
+      "availability": "Tilgængelig nu, hele verden",
+      "commitment": "ca. 2 t",
+      "description": "OpenAI-forskeren Noam Brown diskuterer multi-agent-systemer, hvad den nuværende eksplosion i matematisk fremskridt fortæller om at automatisere AI-forskning, og hvordan man kan vide, om modeller reelt er alignede, før recursive self-improvement for alvor sætter ind.",
+      "rationale": "Dette er den type samtale, han faktisk genser: en laboratorieforsker, ikke en kommentator, der lægger konkrete mekanismer på bordet i stedet for overordnede påstande. Den svarer direkte på et spørgsmål, dagens Sikkerhedsråds-briefing rejser, men ikke besvarer: hvordan ville man overhovedet vide, at en model er alignet, før den forbedrer sig selv?",
+      "topics": [
+        "ai",
+        "frontier-modeller",
+        "ai-sikkerhed",
+        "forskning"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-23/r01-a664e87a.jpg",
+        "credit": "Dwarkesh Podcast",
+        "alt": "Dwarkesh Podcasts officielle cover art",
+        "sourceUrl": "https://www.dwarkesh.com/p/noam-brown",
+        "originalUrl": "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdad7e67f-df3e-4ef5-9456-b98f6c4a0393_3000x3000.png",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-stratechery-ai-human-condition-20260923",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "AI and the Human Condition",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/ai-and-the-human-condition/",
+      "commitment": "ca. 15 min",
+      "note": "Thompsons skarpeste forsøg på at sætte ord på, hvad billig intelligens faktisk gør ved arbejde og mening – læs den som modvægt til dagens to prislanceringer.",
+      "topics": [
+        "ai",
+        "filosofi",
+        "samfund"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chinatalk-radicalizes-20260923",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "How Chinese AI Radicalizes",
+      "creator": "Irene Zhang",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/how-anthropic-became-chinas-goliath",
+      "commitment": "ca. 12 min",
+      "note": "Forklarer, hvorfor kinesiske forskere hører amerikanske sikkerhedsargumenter som indeslutning, ikke omsorg – relevant baggrund til dagens Sikkerhedsråds-briefing.",
+      "topics": [
+        "ai",
+        "kina",
+        "geopolitik",
+        "teknologisk suverænitet"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-lex-scull-psychiatry-20260923",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Podcast-interview",
+      "status": "new",
+      "title": "Crisis in Psychiatry – Historian of Psychiatry Explains",
+      "creator": "Lex Fridman, med Andrew Scull",
+      "provider": "Lex Fridman Podcast (#502)",
+      "url": "https://www.youtube.com/watch?v=cqCqKtgCCV0",
+      "commitment": "ca. 20 min (uddrag) / 3 t (fuld)",
+      "note": "En videnskabshistoriker dekonstruerer psykiatriens autoritetskrav fra Freud til antipsykotika – uden for AI-profilen, men relevant for interessen i bevidsthed og psykologi.",
+      "topics": [
+        "psykiatri",
+        "videnskabshistorie",
+        "psykologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-arxiv-ai-bubble-20260923",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Forskningsartikel",
+      "status": "available",
+      "title": "Boom, Bubble, or Buildout? A Multi-Method Evaluation of Whether Artificial Intelligence Is in an Ongoing Financial Bubble",
+      "creator": "Qianan Wang, Zen Chen",
+      "provider": "arXiv",
+      "url": "https://arxiv.org/abs/2606.01575",
+      "commitment": "ca. 40 min",
+      "note": "Modsyn til dagens prisfald og lab-optimisme: en femdelt diagnostisk metode konkluderer 'lokaliserede boble-dynamikker', ikke den store vækstfortælling laboratorierne selv sælger.",
+      "topics": [
+        "ai",
+        "finans",
+        "venturekapital"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-qodo-2-20260923",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Værktøj",
+      "status": "available",
+      "title": "Introducing Qodo 2.0 and the Next Generation of AI Code Review",
+      "creator": "Qodo",
+      "provider": "Qodo",
+      "url": "https://www.qodo.ai/blog/introducing-qodo-2-0-agentic-code-review/",
+      "commitment": "ca. 20 min at sætte op",
+      "note": "Multi-agent kodegennemgang med højeste recall i markedstest – konkret afprøvelig, ikke kun endnu en demo.",
+      "topics": [
+        "ai",
+        "software",
+        "værktøjer"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nozick-asu-20260923",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Bog",
+      "status": "classic",
+      "title": "Anarchy, State, and Utopia",
+      "creator": "Robert Nozick",
+      "provider": "Basic Books (1974)",
+      "url": "https://www.basicbooks.com/titles/robert-nozick/anarchy-state-and-utopia/9780465002702/",
+      "commitment": "flere uger",
+      "note": "Primærteksten i den analytiske politiske filosofi, der er helt fraværende i hans læste bøger – Nozicks svar til Rawls, ikke en oversigtsartikel om det.",
+      "topics": [
+        "politisk filosofi",
+        "libertarianisme",
+        "retfærdighed"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 92,
+    "freshness": 88,
+    "novelty": 80,
+    "perspectiveBalance": 78,
+    "render": 100
+  }
+}
