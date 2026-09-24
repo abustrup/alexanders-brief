@@ -59,11 +59,11 @@
       "status": "open"
     },
     {
-      "date": "2026-09-23",
-      "slug": "stemmeparadokset",
-      "claim": "Arrows umulighedssaetning betyder, at en AI-model trraenet paa aggregerede menneskelige rangeringer (RLHF) vil skifte holdning, naar et irrelevant tredje svar tilfoejes eller fjernes fra sammenligningen - en dokumenterbar reversering, ikke kun et teoretisk resultat.",
-      "horizon": "Ved naeste offentliggjorte postmortem om et laboratoriums praeferencetraening, hvor en model dokumenteret skifter rangering af to svar pga. et irrelevant tredje",
-      "falsifier": "Et laboratorium beviser, at dets praeferencemodel systematisk opfylder uafhaengighed af irrelevante alternativer - eller ingen dokumenteret reversering nogensinde dukker op paa trods af grundig undersoegelse af produktionsmodeller.",
+      "date": "2026-09-24",
+      "slug": "subsidiekonkurrencen",
+      "claim": "Det globale minimumsselskabsskat-gulv på 15 pct. (Pillar Two) stopper ikke landes konkurrence om at tiltrække investeringer; konkurrencen flytter fra skattesatser til tilskud, der ikke fremgår af nogen skattestatistik.",
+      "horizon": "EU's statsstøttetal for 2027-2029, sammenlignet med årene før Pillar Two",
+      "falsifier": "EU's statsstøttestatistik og OECD's FDI-opgørelser viser, at den samlede offentlige understøttelse af udenlandske investeringer falder mærkbart efter Pillar Two, i stedet for blot at skifte form fra skat til tilskud.",
       "status": "open"
     }
   ]
