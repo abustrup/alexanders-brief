@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-24",
-  "generatedAt": "2026-09-24T09:51:39.248Z",
+  "generatedAt": "2026-09-24T15:18:08.506Z",
   "pictures": [
     {
       "slot": "03",
@@ -161,6 +161,67 @@
         "y": 1
       },
       "fetchedAt": "2026-09-24T09:51:42.779Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-samsik-cyber-threat-high-20260924",
+      "headline": "Truslen fra destruktive cyberangreb hæves til høj",
+      "source": "https://samsik.dk/wp-content/uploads/2025/10/Laila-Reenberg-Direktoer-SAMSIK.webp",
+      "article": "https://samsik.dk/artikler/2026/09/truslen-fra-destruktive-cyberangreb-haeves-til-hoej/",
+      "hosted": "11-7f90202d.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "webp",
+      "srcBytes": 661238,
+      "out": "1600x1067",
+      "bytes": 91491,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0.061
+      },
+      "fetchedAt": "2026-09-24T15:18:12.958Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-transluce-openai-hacking-campaign-20260924",
+      "headline": "Health data attack the 'first' government hack by autonomous AI, researchers say",
+      "source": "https://static01.nyt.com/images/2026/09/24/multimedia/24int-oz-aihack-tvcg/24int-oz-aihack-tvcg-facebookJumbo.jpg",
+      "article": "https://www.abc.net.au/news/2026-09-24/openai-agents-plotted-to-access-data-amid-medicare-hack/107189504",
+      "hosted": "12-b8599e73.jpg",
+      "srcSize": "1050x550",
+      "srcFormat": "webp",
+      "srcBytes": 46060,
+      "out": "825x550",
+      "bytes": 48448,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 0.075
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-24T15:18:13.208Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-whitehouse-memo-anthropic-doomerism-20260924",
+      "headline": "Scoop: Trump allies open new front on Anthropic CEO as face of AI 'doomerism'",
+      "source": "https://www.cryptopolitan.com/wp-content/uploads/2026/09/Trump-allies-cast-Anthropic-CEO-Amodei-as-the-face-of-AI-doomerism.webp",
+      "article": "https://www.yahoo.com/news/politics/articles/scoop-trump-allies-open-front-090005661.html",
+      "hosted": "13-bf387a31.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "webp",
+      "srcBytes": 54292,
+      "out": "1080x720",
+      "bytes": 50423,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-24T15:18:13.541Z"
     },
     {
       "slot": "r01",
