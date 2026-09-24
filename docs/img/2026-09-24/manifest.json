@@ -1,0 +1,186 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-24",
+  "generatedAt": "2026-09-24T09:51:39.248Z",
+  "pictures": [
+    {
+      "slot": "03",
+      "id": "story-openai-medicare-breach-20260924",
+      "headline": "OpenAI hacked Medicare portal, Prime Minister Anthony Albanese says",
+      "source": "https://live-production.wcms.abc-cdn.net.au/d3920e9cef15931f48c130104d139567?impolicy=wcms_crop_resize&cropH=3156&cropW=5611&xPos=0&yPos=55&width=1600&height=900&imformat=generic",
+      "article": "https://www.abc.net.au/news/2026-09-24/ai-agent-accessed-australian-government-site-pm-says/107189078",
+      "hosted": "03-f1d02d80.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 209144,
+      "out": "1350x900",
+      "bytes": 87421,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.134,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-24T09:51:39.826Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-trump-xi-trade-truce-20260924",
+      "headline": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6ab4512f701bf-1790202159.jpg",
+      "article": "https://www.cnbc.com/amp/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+      "hosted": "04-214a0df0.jpg",
+      "srcSize": "6000x4000",
+      "srcFormat": "webp",
+      "srcBytes": 632548,
+      "out": "1600x1067",
+      "bytes": 81310,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.116,
+        "y": 0.204
+      },
+      "fetchedAt": "2026-09-24T09:51:40.463Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-anthropic-enzyme-discovery-20260924",
+      "headline": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "source": "https://cdn.sanity.io/images/4zrzovbb/website/394de337d8a5d8db93a1c048fa1cb53e16a09625-2048x1240.jpg",
+      "article": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "hosted": "05-e860b575.jpg",
+      "srcSize": "2048x1240",
+      "srcFormat": "jpeg",
+      "srcBytes": 195732,
+      "out": "1600x1067",
+      "bytes": 109234,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.677,
+        "y": 0.146
+      },
+      "fetchedAt": "2026-09-24T09:51:40.865Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-zelensky-trump-energy-truce-20260924",
+      "headline": "Zelensky Offers Energy Truce as Trump Signals Support for Patriot Production in Ukraine",
+      "source": "https://assets.kyivindependent.com/content/images/2026/09/GettyImages-2296605684_20260922-184811_20260922-184858.jpg",
+      "article": "https://kyivindependent.com/zelensky-meets-trump-at-un-amid-push-for-russia-ukraine-energy-truce/",
+      "hosted": "06-74f63465.jpg",
+      "srcSize": "1200x851",
+      "srcFormat": "jpeg",
+      "srcBytes": 126391,
+      "out": "1200x800",
+      "bytes": 98840,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-24T09:51:41.188Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-meta-connect-vr-glasses-20260924",
+      "headline": "Meta Launches $1,299 VR Headset That Look Like Glasses to Rival Apple Vision Pro",
+      "source": "https://image.cnbcfm.com/api/v1/image/108367194-1790203487519-gettyimages-2296202855-20090101260924-99-740118.jpeg?v=1790203638&w=1920&h=1080",
+      "article": "https://www.bloomberg.com/news/articles/2026-09-23/meta-launches-1-299-vr-headset-that-look-like-glasses-to-rival-apple-vision-pro",
+      "hosted": "07-563043e8.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 114414,
+      "out": "1600x1067",
+      "bytes": 116718,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.243,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-24T09:51:41.573Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-fe-threat-assessment-20260924",
+      "headline": "Pressemøde om truslen fra Rusland",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/d/4/5/d45b6fe8-53c2-447c-ba64-1c778b80d70a?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCw5OCw1ODEzLDMyNzA&s=0cc8cefcbdba8fd3b82de0d6783c27ec",
+      "article": "https://nyheder.tv2.dk/live/samfund/2026-09-24-pressemoede-om-truslen-fra-rusland",
+      "hosted": "08-85b8a760.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 104489,
+      "out": "1080x720",
+      "bytes": 148897,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-24T09:51:42.106Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-trump-media-ban-hearing-20260924",
+      "headline": "Federal judge expected to rule on White House ban of 3 news outlets",
+      "source": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4932x2774+0+257/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fa8%2Fd9%2F0a21cddf4d56a527ef5a95fe71dc%2Fgettyimages-2295956926.jpg",
+      "article": "https://www.npr.org/2026/09/23/nx-s1-5979101/federal-judge-hearing-trump-ban-cnn-ms-now-politico",
+      "hosted": "09-e54cf692.jpg",
+      "srcSize": "1400x787",
+      "srcFormat": "jpeg",
+      "srcBytes": 254997,
+      "out": "1180x787",
+      "bytes": 141032,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.782,
+        "y": 0.057
+      },
+      "fetchedAt": "2026-09-24T09:51:42.502Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-weinstein-sentenced-20260924",
+      "headline": "Harvey Weinstein sentenced to 15 years on New York sex crime conviction",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260923-harvey-weinstein-mn-1200-a47771.jpg",
+      "article": "https://www.nbcnews.com/news/us-news/harvey-weinstein-sentenced-15-years-new-york-sex-crime-conviction-rcna599213",
+      "hosted": "10-53f171ef.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 102450,
+      "out": "945x630",
+      "bytes": 55298,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-24T09:51:42.779Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-jared-diamond-cwt-20260924",
+      "headline": "Jared Diamond on Leaders, Luck, and Irreplaceability",
+      "source": "https://conversationswithtyler.com/wp-content/uploads/2026/08/CWT-301-JaredDiamond-header-2000x874.png",
+      "article": "https://conversationswithtyler.com/episodes/jared-diamond/",
+      "hosted": "r01-3e947375.jpg",
+      "srcSize": "2000x874",
+      "srcFormat": "webp",
+      "srcBytes": 213500,
+      "out": "1553x874",
+      "bytes": 96327,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-24T09:51:43.021Z"
+    }
+  ]
+}
