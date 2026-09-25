@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-25",
-  "generatedAt": "2026-09-25T04:32:03.930Z",
+  "generatedAt": "2026-09-25T15:23:46.168Z",
   "pictures": [
     {
       "slot": "02",
@@ -162,6 +162,46 @@
         "y": 0.15
       },
       "fetchedAt": "2026-09-25T04:32:08.135Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-anthropic-akamai-cloud-20260925",
+      "headline": "Anthropic teams up with Akamai in $11.6bn cloud partnership",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/FTL_2022.jpg/1920px-FTL_2022.jpg",
+      "article": "https://www.itpro.com/infrastructure/anthropic-teams-up-with-akamai-in-usd11-6bn-cloud-partnership",
+      "hosted": "10-f45c1ede.jpg",
+      "srcSize": "1920x1716",
+      "srcFormat": "jpeg",
+      "srcBytes": 845054,
+      "out": "1600x1067",
+      "bytes": 183686,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.388,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-25T15:23:46.771Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-microsoft-copilot-superapp-20260925",
+      "headline": "Microsoft unveils Copilot super app, targeting business users with AI agents",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2262944185-e1790293251629.jpg?format=webp&w=1440&quality=75",
+      "article": "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/",
+      "hosted": "11-90e6769d.jpg",
+      "srcSize": "1440x942",
+      "srcFormat": "webp",
+      "srcBytes": 16384,
+      "out": "1413x942",
+      "bytes": 29698,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.334,
+        "y": 0.943
+      },
+      "fetchedAt": "2026-09-25T15:23:47.222Z"
     },
     {
       "slot": "r01",

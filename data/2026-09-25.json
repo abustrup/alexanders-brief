@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-20260925-full",
+  "runId": "run-2026-09-25-uafternoon-r35",
   "date": "2026-09-25",
-  "generatedAt": "2026-09-25T05:00:00.000Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-09-25T15:21:15.346Z",
+  "readingMinutes": 8,
   "title": "Alexanders Brief",
   "dek": "Ni historier og ti signaler: laboratorierne bygger deres eget AI-tilsyn, Oracle støder på gas og tilladelser, og Novo's data er stærke, mens aktien falder",
   "profileWeights": {
@@ -752,6 +752,191 @@
           "reason": "chart-or-text-card"
         }
       ]
+    },
+    {
+      "id": "story-anthropic-akamai-cloud-20260925",
+      "eventKey": "anthropic-akamai-cloud-deal-2026-09",
+      "materialFacts": [
+        "Akamai og Anthropic har udvidet deres aftale til op til 11,6 mia. dollar over syv aar, med mulighed for udvidelse til 20 mia. dollar",
+        "Akamai har udstedt en warrant til Anthropic paa op til 5 procent af Akamais udestaaende aktier"
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Anthropic teams up with Akamai in $11.6bn cloud partnership",
+      "primarySourceUrl": "https://www.itpro.com/infrastructure/anthropic-teams-up-with-akamai-in-usd11-6bn-cloud-partnership",
+      "subheadline": "Akamais stoerste aftale nogensinde giver Anthropic mere regnekraft og Akamai aktier i bytte",
+      "body": [
+        "Akamai og Anthropic udvider deres aftale til op til 11,6 mia. dollar over syv aar, med mulighed for udvidelse til 20 mia. Anthropic faar adgang til mere skyinfrastruktur til CPU-behov, og Akamai faar en warrant paa op til 5 procent af egne aktier. Akamai-aktien steg 20 procent."
+      ],
+      "whyItMatters": "Aftalen viser, hvor stort Anthropics behov for regnekraft er, og hvor taet AI-selskaber binder sig til cloud-leverandoerer.",
+      "topics": [
+        "ai",
+        "ai-infrastruktur",
+        "erhverv",
+        "teknologi"
+      ],
+      "entities": [
+        "Anthropic",
+        "Akamai",
+        "Tom Leighton"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 76,
+        "decisionValue": 70,
+        "novelty": 75,
+        "sourceQuality": 80,
+        "personalRelevance": 85,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Anthropic og Akamai har indgaaet en syvaarig aftale om skyinfrastruktur til op til 11,6 mia. dollar, med mulighed for udvidelse til 20 mia. dollar",
+          "sourceUrls": [
+            "https://www.itpro.com/infrastructure/anthropic-teams-up-with-akamai-in-usd11-6bn-cloud-partnership",
+            "https://www.sec.gov/Archives/edgar/data/0001086222/000119312526401048/d288154dex991.htm"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Akamai har udstedt en warrant til Anthropic paa op til 5 procent af Akamais udestaaende aktier, og Akamai-aktien steg op til 20 procent efter nyheden",
+          "sourceUrls": [
+            "https://www.itpro.com/infrastructure/anthropic-teams-up-with-akamai-in-usd11-6bn-cloud-partnership",
+            "https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic teams up with Akamai in $11.6bn cloud partnership",
+          "publisher": "IT Pro",
+          "url": "https://www.itpro.com/infrastructure/anthropic-teams-up-with-akamai-in-usd11-6bn-cloud-partnership",
+          "publishedAt": "2026-09-25T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Akamai Announces $11.6 Billion Multi-year Agreement with Anthropic to Support Growing Demand",
+          "publisher": "Akamai Technologies",
+          "url": "https://www.akamai.com/newsroom/press-release/akamai-announces-11-6-billion-multi-year-agreement-with-anthropic-to-support-growing-demand",
+          "publishedAt": "2026-09-24T20:01:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Akamai Technologies, Inc. Form 8-K",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001086222/000119312526401048/d288154dex991.htm",
+          "publishedAt": "2026-09-24T20:01:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/10-f45c1ede.jpg",
+        "credit": "Foto: Vanja Savic / Nasdaq, Inc. (CC BY-SA 4.0)",
+        "alt": "Tom Leighton, adm. direktør og medstifter af Akamai",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:FTL_2022.jpg",
+        "origin": "library",
+        "fingerprint": "ce9e9a9c984e4c4d869f9d9c184e464c9f9f9d941c5a46469f1d1c949c1b4e461d3e3e36949d5b073e3e3636369c9993",
+        "lookedAt": "ce9e9a9c984e4c4d869f9d9c184e464c9f9f9d941c5a46469f1d1c949c1b4e461d3e3e36949d5b073e3e3636369c9993",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/FTL_2022.jpg/1920px-FTL_2022.jpg",
+        "focus": {
+          "x": 0.388,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-25T15:21:15.346Z",
+        "runId": "run-2026-09-25-uafternoon-r35"
+      }
+    },
+    {
+      "id": "story-microsoft-copilot-superapp-20260925",
+      "eventKey": "microsoft-copilot-super-app-autopilot-2026-09",
+      "materialFacts": [
+        "Microsoft har lanceret en samlet Copilot-app med Home, Code og den autonome agent Autopilot",
+        "Appen anvender modeller fra Anthropic, OpenAI og xAI, og skal forsvare Microsofts kontorsoftware mod konkurrenter"
+      ],
+      "section": "AI-produkter",
+      "headline": "Microsoft unveils Copilot super app, targeting business users with AI agents",
+      "primarySourceUrl": "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/",
+      "subheadline": "Chat, kode og en autonom agent samles i en app mod OpenAI og Meta",
+      "body": [
+        "Microsoft har lanceret en ny udgave af Copilot, der samler chat, Office-vaerktoejer, kodehjaelp og den autonome agent Autopilot i en app. Appen traekker paa modeller fra Anthropic, OpenAI og xAI og skal forsvare kontorsoftwaren mod konkurrenter som OpenAI og Meta."
+      ],
+      "whyItMatters": "Microsoft konkurrerer nu direkte med de AI-laboratorier, hvis modeller det selv videresaelger til kunderne.",
+      "topics": [
+        "ai",
+        "teknologi",
+        "erhverv"
+      ],
+      "entities": [
+        "Microsoft",
+        "Satya Nadella",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 68,
+        "sourceQuality": 72,
+        "personalRelevance": 75,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Microsoft har lanceret en samlet Copilot-app med tre dele: Home, Code og den autonome agent Autopilot",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/",
+            "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Copilot bruger modeller fra Anthropic, OpenAI og xAI, og Microsoft 365 Copilot havde over 30 mio. betalende brugere i juli 2026",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft unveils Copilot super app, targeting business users with AI agents",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/",
+          "publishedAt": "2026-09-25T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Introducing the new Copilot with Home, Code and Autopilot",
+          "publisher": "The Official Microsoft Blog",
+          "url": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+          "publishedAt": "2026-09-25T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/11-90e6769d.jpg",
+        "credit": "Foto: Sven Hoppe/picture alliance via Getty Images",
+        "alt": "Satya Nadella, adm. direktør for Microsoft, taler på scenen foran Copilot-logoet",
+        "sourceUrl": "https://fortune.com/2026/09/25/microsoft-unveils-copilot-super-app-targeting-business-users-with-ai-agents/",
+        "fingerprint": "6968ccec64c4c5c469eccecc50c4e5c4e8c6ecced2c4a584d886a4cdd2c6c44586a6268d9392c0450626068f9bb382c8",
+        "lookedAt": "6968ccec64c4c5c469eccecc50c4e5c4e8c6ecced2c4a584d886a4cdd2c6c44586a6268d9392c0450626068f9bb382c8",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2262944185-e1790293251629.jpg?format=webp&w=1440&quality=75",
+        "focus": {
+          "x": 0.334,
+          "y": 0.943
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-25T15:21:15.346Z",
+        "runId": "run-2026-09-25-uafternoon-r35"
+      }
     }
   ],
   "signals": [
@@ -1064,5 +1249,20 @@
     "novelty": 74,
     "perspectiveBalance": 70,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-25T15:21:15.346Z",
+      "runId": "run-2026-09-25-uafternoon-r35",
+      "added": 2,
+      "cost": {
+        "usd": 6.3799961000000005,
+        "inputTokens": 12154480,
+        "outputTokens": 46511,
+        "turns": 115,
+        "seconds": 676.3
+      }
+    }
+  ]
 }
