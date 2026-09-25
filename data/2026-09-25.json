@@ -1,0 +1,1068 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-20260925-full",
+  "date": "2026-09-25",
+  "generatedAt": "2026-09-25T05:00:00.000Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "Ni historier og ti signaler: laboratorierne bygger deres eget AI-tilsyn, Oracle støder på gas og tilladelser, og Novo's data er stærke, mens aktien falder",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-safa-frontier-standards-20260925",
+      "eventKey": "openai-google-anthropic-frontier-ai-standards-agency-2026-09",
+      "materialFacts": [
+        "OpenAI, Google og Anthropic bygger et fælles selvregulerende organ for frontier-AI, foreløbigt kaldet Standards Authority for Frontier AI",
+        "De har bedt Sriram Krishnan lede det som topchef",
+        "Organet skal operere uden regeringskontrol med sigte på start i 2027"
+      ],
+      "section": "AI og magt",
+      "headline": "The companies racing to build frontier AI are now racing to govern it",
+      "primarySourceUrl": "https://www.cio.com/article/4226392/the-companies-racing-to-build-frontier-ai-are-now-racing-to-govern-it.html",
+      "subheadline": "OpenAI, Google og Anthropic bygger deres eget tilsyn med frontier-AI — uden staten",
+      "body": [
+        "De tre laboratorier har bedt Sriram Krishnan, tidligere AI-rådgiver i Det Hvide Hus, lede et nyt organ — foreløbigt kaldet Standards Authority for Frontier AI. Det skal sætte standarder for risikovurdering og test før lancering af nye modeller, uden for regeringens kontrol, med sigte på start i 2027."
+      ],
+      "whyItMatters": "Første gang de tre største AI-labs selv skriver reglerne for, hvornår en model er sikker nok til at udgive.",
+      "analysis": "OpenAI kalder det fælles standarder — men samme uge bad topcheferne selv FN's Sikkerhedsråd om rigtigt statsligt tilsyn.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt",
+        "regulering"
+      ],
+      "entities": [
+        "OpenAI",
+        "Google",
+        "Anthropic",
+        "Sriram Krishnan"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 70,
+        "novelty": 78,
+        "sourceQuality": 62,
+        "personalRelevance": 88,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "OpenAI, Google og Anthropic bygger et fælles selvregulerende organ for frontier-AI (SAFA)",
+          "sourceUrls": [
+            "https://www.cio.com/article/4226392/the-companies-racing-to-build-frontier-ai-are-now-racing-to-govern-it.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "De tre labs har bedt Sriram Krishnan lede organet som topchef",
+          "sourceUrls": [
+            "https://www.cio.com/article/4226392/the-companies-racing-to-build-frontier-ai-are-now-racing-to-govern-it.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "OpenAI: sikker AI-udvikling kræver fælles standarder, fælles målinger og indberetning af hændelser",
+          "sourceUrls": [
+            "https://www.cio.com/article/4226392/the-companies-racing-to-build-frontier-ai-are-now-racing-to-govern-it.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The companies racing to build frontier AI are now racing to govern it",
+          "publisher": "CIO.com",
+          "url": "https://www.cio.com/article/4226392/the-companies-racing-to-build-frontier-ai-are-now-racing-to-govern-it.html",
+          "publishedAt": "2026-09-24T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.cio.com/wp-content/uploads/2026/09/4226392-0-87089900-1790296420-AI-governance-shutterstock_2636712261.jpg?quality=50&strip=all",
+          "fingerprint": "3337959496b2730e533796969692631f35b7b61617176123773636361b17616273333f233b2361e971375d272b7127c8",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://ichef.bbci.co.uk/images/ic/1024x576/p0l7jnbt.jpg",
+          "fingerprint": "8cc31f194f07f9848ce31e99cd07718c9ce31e98ec0771c490671cd0ac0731ccc16f1c652d0633e8c37e33556d8613e8",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story-oracle-force-majeure-20260925",
+      "eventKey": "oracle-force-majeure-project-jupiter-2026-09",
+      "materialFacts": [
+        "Oracle har sendt en force majeure-meddelelse til udvikleren Blue Owl om Project Jupiter-datacenteret",
+        "En forsinket gasrørledning og en ventende luftkvalitetstilladelse er årsagen"
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+      "primarySourceUrl": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+      "subheadline": "Oracle skyder sig fri af forsinkelser på sit datacenter i New Mexico",
+      "body": [
+        "Oracle har sendt en force majeure-meddelelse til udvikleren Blue Owl om Project Jupiter, Stargate-kampagnens datacenter i New Mexico. Meddelelsen udskyder betaling, hvis anlægget ikke er klar i 2028 — årsagen er en forsinket gasrørledning og en ventende miljøtilladelse."
+      ],
+      "whyItMatters": "Selv AI-infrastrukturens flagskibsprojekt støder på tilladelser og gas — ikke kapital.",
+      "analysis": "Oracle fastholder planen. Men et værktøj til at udskyde betaling bruges normalt, når forsinkelse er ventet.",
+      "topics": [
+        "ai",
+        "ai-infrastruktur",
+        "erhverv",
+        "energi"
+      ],
+      "entities": [
+        "Oracle",
+        "Blue Owl Capital",
+        "OpenAI",
+        "SoftBank",
+        "Bloom Energy"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 68,
+        "novelty": 72,
+        "sourceQuality": 68,
+        "personalRelevance": 75,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Oracle sendte en force majeure-meddelelse til Blue Owl om Project Jupiter",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Gasrørledningen til anlægget er forsinket til februar 2027; luftkvalitetstilladelsen afgøres senest 23. november",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+          "publishedAt": "2026-09-24T18:11:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/02-e078cb40.jpg",
+        "credit": "Foto: Getty Images / TechCrunch",
+        "alt": "Oracle sends force majeure notice on its New Mexico Stargate data center",
+        "sourceUrl": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+        "origin": "article",
+        "fingerprint": "0114acac0c04165e04f62e4e0e1416da160e2e46061616da060f67572716160b032fb7d767970b0b1767979b6b1b4b0b",
+        "lookedAt": "0114acac0c04165e04f62e4e0e1416da160e2e46061616da060f67572716160b032fb7d767970b0b1767979b6b1b4b0b",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2022/06/GettyImages-528022874.jpg?w=1024",
+        "focus": {
+          "x": 0.83,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-novo-cagrisema-20260925",
+      "eventKey": "novo-nordisk-cagrisema-phase3-cmd-2026-09",
+      "materialFacts": [
+        "CagriSema slog tirzepatid på vægttab i fase 3-forsøget REIMAGINE 5",
+        "CagriSema slog placebo klart i fase 3-forsøget REDEFINE 9",
+        "NVO-aktien faldt alligevel omkring 7,9 procent på dagen"
+      ],
+      "section": "Dansk biotek",
+      "headline": "Novo's CagriSema delivers superior weight loss versus tirzepatide in REIMAGINE 5 trial",
+      "primarySourceUrl": "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html",
+      "subheadline": "Stærke data for Novo's CagriSema — men aktien falder på pris-frygt",
+      "body": [
+        "CagriSema gav 12,4% vægttab mod 9,1% for tirzepatid i fase 3-forsøget REIMAGINE 5, med uændret god HbA1c-effekt. I REDEFINE 9 gav det 21,0% vægttab mod 2,0% for placebo. Alligevel faldt NVO-aktien cirka 7,9 procent på dagen."
+      ],
+      "whyItMatters": "Investorerne ser forbi de gode data og frygter i stedet priser efter patentudløb.",
+      "analysis": "Data viser, at CagriSema virker. Markedet spørger, om Novo kan tage betalt, når eneretten forsvinder.",
+      "topics": [
+        "danmark",
+        "biotek",
+        "sundhed",
+        "erhverv"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "CagriSema"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 60,
+        "novelty": 65,
+        "sourceQuality": 70,
+        "personalRelevance": 55,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "CagriSema gav 12,4% vægttab mod 9,1% for tirzepatid i REIMAGINE 5, med non-inferior HbA1c-effekt",
+          "sourceUrls": [
+            "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "CagriSema gav 21,0% vægttab mod 2,0% for placebo i REDEFINE 9",
+          "sourceUrls": [
+            "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "NVO-aktien lukkede ca. 7,9% lavere på dagen",
+          "sourceUrls": [
+            "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo's CagriSema delivers superior weight loss versus tirzepatide in REIMAGINE 5 trial",
+          "publisher": "StockTitan / Novo Nordisk",
+          "url": "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html",
+          "publishedAt": "2026-09-21T09:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/03-3b448e12.jpg",
+        "credit": "Kilde: StockTitan / Novo Nordisk",
+        "alt": "Novo Nordisk CagriSema trial shows 12.4% weight loss",
+        "sourceUrl": "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html",
+        "origin": "article",
+        "fingerprint": "3938dee0971be31f313cd2e0c73be307709c83e0c33969077c9fa1e0c33d6dc37c19a1e8c33b6dc13d2860faab7b6c4c",
+        "lookedAt": "3938dee0971be31f313cd2e0c73be307709c83e0c33969077c9fa1e0c33d6dc37c19a1e8c33b6dc13d2860faab7b6c4c",
+        "originalUrl": "https://www.stocktitan.net/news_covers/Novo_s_CagriSema_delivers_superior_weight_loss_versus_tirzepatide_in_REIMAGINE_5_trial_1506627.webp",
+        "focus": {
+          "x": 0.848,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-suncatcher-launch-20260925",
+      "eventKey": "google-project-suncatcher-satellite-launch-2026-09",
+      "materialFacts": [
+        "Googles Project Suncatcher-prototype med fire TPU'er skal opsendes 1. oktober",
+        "Missionen tester, om AI-chips overlever opsendelse, stråling og køling i kredsløb"
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Google Gearing Up to Launch Experimental \"Data Center\" Into Space Next Week",
+      "primarySourceUrl": "https://futurism.com/future-society/google-launch-experimental-data-center-space",
+      "subheadline": "Google sender sin første satellit-computer i kredsløb 1. oktober",
+      "body": [
+        "Google opsender en køleskabsstor prototype med fire TPU'er på en SpaceX-raket fra Vandenberg. Det etårige forsøg tester, om chips klarer opsendelse, stråling og køling uden luft — før en planlagt konstellation fra 2027."
+      ],
+      "whyItMatters": "Rumbaserede datacentre kunne omgå landjordens strøm- og pladsbegrænsninger for AI.",
+      "analysis": "Googles egen forskningschef sætter forventningerne lavt: intet nyttigt operationelt i flere år endnu.",
+      "topics": [
+        "ai",
+        "ai-infrastruktur",
+        "rummet",
+        "teknologi"
+      ],
+      "entities": [
+        "Google",
+        "SpaceX",
+        "Planet Labs",
+        "James Manyika"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 80,
+        "sourceQuality": 65,
+        "personalRelevance": 70,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Suncatcher-satellitten med fire TPU'er opsendes 1. oktober på en SpaceX Falcon 9",
+          "sourceUrls": [
+            "https://futurism.com/future-society/google-launch-experimental-data-center-space"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Google SVP James Manyika: 'vi forventer ikke... at vi vil have noget brugbart operationelt i de kommende år'",
+          "sourceUrls": [
+            "https://futurism.com/future-society/google-launch-experimental-data-center-space"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Gearing Up to Launch Experimental \"Data Center\" Into Space Next Week",
+          "publisher": "Futurism",
+          "url": "https://futurism.com/future-society/google-launch-experimental-data-center-space",
+          "publishedAt": "2026-09-24T15:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/04-386f16f9.jpg",
+        "credit": "Kilde: Futurism",
+        "alt": "Google Gearing Up to Launch Experimental \"Data Center\" Into Space Next Week",
+        "sourceUrl": "https://futurism.com/future-society/google-launch-experimental-data-center-space",
+        "origin": "article",
+        "fingerprint": "703a3939351d8fc6703a393c343c0f87783b5c3c363e0e0738395c3c32360e07f8bc5e7e7337270fbcfe5e7d6373270f",
+        "lookedAt": "703a3939351d8fc6703a393c343c0f87783b5c3c363e0e0738395c3c32360e07f8bc5e7e7337270fbcfe5e7d6373270f",
+        "originalUrl": "https://futurism.com/wp-content/uploads/2026/09/google-launch-experimental-data-center-space.jpg?w=1200",
+        "focus": {
+          "x": 0.323,
+          "y": 0.925
+        }
+      }
+    },
+    {
+      "id": "story-venezuela-rodriguez-20260925",
+      "eventKey": "trump-rodriguez-venezuela-meeting-2026-09",
+      "materialFacts": [
+        "Trump mødtes med Venezuelas fungerende præsident Delcy Rodriguez 22. september",
+        "Det var første møde siden USA tilfangetog Nicolas Maduro i januar 2026"
+      ],
+      "section": "Geopolitik",
+      "headline": "Trump meets Venezuela's Rodriguez for first time since Maduro's capture",
+      "primarySourceUrl": "https://theprint.in/world/trump-meets-venezuelas-rodriguez-for-first-time-since-maduros-capture/3050527/",
+      "subheadline": "Trump og Venezuelas leder mødtes første gang siden Maduros fald",
+      "body": [
+        "Trump mødte Venezuelas leder Delcy Rodriguez 22. september under FN's generalforsamling — første møde siden USA tilfangetog Nicolas Maduro i januar. Delegationen forhandler energi- og gældsvilkår efter augustaftalen om USA's kontrol over landets oliereserver."
+      ],
+      "whyItMatters": "USA normaliserer forholdet til regeringen efter Maduro, uden krav om valg.",
+      "analysis": "Trump: 'sejrherren tager byttet' — en linje, der peger på augustaftalens oliekontrol.",
+      "counterpoint": "Over 50 demonstranter uden for FN kaldte Rodriguez 'samme regime, nyt ansigt'.",
+      "topics": [
+        "geopolitik",
+        "sydamerika",
+        "usa",
+        "energi"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Delcy Rodriguez",
+        "Nicolas Maduro",
+        "PDVSA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 62,
+        "novelty": 68,
+        "sourceQuality": 70,
+        "personalRelevance": 20,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Trump mødte Delcy Rodriguez 22. september, første gang siden Maduros tilfangetagelse i januar 2026",
+          "sourceUrls": [
+            "https://theprint.in/world/trump-meets-venezuelas-rodriguez-for-first-time-since-maduros-capture/3050527/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rodriguez' delegation forhandler energi-, mine- og gældsvilkår for at gøre Venezuela 'investerbart'",
+          "sourceUrls": [
+            "https://theprint.in/world/trump-meets-venezuelas-rodriguez-for-first-time-since-maduros-capture/3050527/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Trump citeret for 'to the victor belong the spoils'; over 50 demonstranter krævede frie valg",
+          "sourceUrls": [
+            "https://theprint.in/world/trump-meets-venezuelas-rodriguez-for-first-time-since-maduros-capture/3050527/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump meets Venezuela's Rodriguez for first time since Maduro's capture",
+          "publisher": "Reuters (via ThePrint)",
+          "url": "https://theprint.in/world/trump-meets-venezuelas-rodriguez-for-first-time-since-maduros-capture/3050527/",
+          "publishedAt": "2026-09-23T06:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/05-76f449c3.jpg",
+        "credit": "Kilde: Reuters (via ThePrint)",
+        "alt": "Trump meets Venezuela's Rodriguez for first time since Maduro's capture",
+        "sourceUrl": "https://theprint.in/world/trump-meets-venezuelas-rodriguez-for-first-time-since-maduros-capture/3050527/",
+        "origin": "article",
+        "fingerprint": "337349c9c969e11a7351c9c9c94d603a73d9d9ddcccce063d9d894848cdccce3999cb4b48c9cdcd01c5466160e0cbe96",
+        "lookedAt": "337349c9c969e11a7351c9c9c94d603a73d9d9ddcccce063d9d894848cdccce3999cb4b48c9cdcd01c5466160e0cbe96",
+        "originalUrl": "https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/Trump_573.jpg",
+        "focus": {
+          "x": 0.296,
+          "y": 0.043
+        }
+      }
+    },
+    {
+      "id": "story-whitehouse-press-ban-20260925",
+      "eventKey": "trump-white-house-press-ban-judge-blocks-2026-09",
+      "materialFacts": [
+        "En amerikansk dommer beordrede Det Hvide Hus til at genindsætte CNN, MS NOW og Politico",
+        "Dommeren fandt Trumps forbud 'højst sandsynligt forfatningsstridigt'"
+      ],
+      "section": "USA og pressefrihed",
+      "headline": "CNN, MS NOW and Politico allowed back at the White House after judge blocked Trump's ban",
+      "primarySourceUrl": "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391",
+      "subheadline": "Dommer beordrer Det Hvide Hus til at lukke CNN, MS NOW og Politico ind igen",
+      "body": [
+        "Dommer Timothy Kelly udstedte et 14-dages forbud mod udelukkelsen af CNN, MS NOW og Politico og fandt den 'højst sandsynligt forfatningsstridig'. Han afviste sikkerhedsbegrundelsen — Trump kaldte selv forbuddet et svar på 'FAKE NEWS'. Adgangen blev genoprettet samme dag."
+      ],
+      "whyItMatters": "Domstolen sætter en foreløbig grænse for, hvor langt en regering kan straffe navngivne medier.",
+      "analysis": "Kelly lagde vægt på, at medierne ikke fik varsel eller mulighed for at blive hørt, før adgangen blev inddraget.",
+      "topics": [
+        "politik",
+        "usa",
+        "pressefrihed",
+        "jura"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Timothy Kelly",
+        "CNN",
+        "Politico",
+        "MS NOW"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 55,
+        "novelty": 70,
+        "sourceQuality": 72,
+        "personalRelevance": 25,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Dommer Timothy Kelly udstedte et 14-dages TRO og fandt forbuddet 'højst sandsynligt forfatningsstridigt'",
+          "sourceUrls": [
+            "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "De tre medier fik deres adgang til Det Hvide Hus genoprettet samme dag",
+          "sourceUrls": [
+            "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "CNN, MS NOW and Politico allowed back at the White House after judge blocked Trump's ban",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391",
+          "publishedAt": "2026-09-24T20:47:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/06-b618f07c.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "CNN, MS NOW and Politico allowed back at the White House after judge blocked Trump's ban",
+        "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/judge-ruling-white-house-restore-access-media-ban-cnn-politico-ms-now-rcna599391",
+        "origin": "article",
+        "fingerprint": "8f17360e86ae864c275b370e86aaaa8e17d3270e862b2b921fc1670f862b2d2b9de1674f862b4d6d90e3274f87294d4c",
+        "lookedAt": "8f17360e86ae864c275b370e86aaaa8e17d3270e862b2b921fc1670f862b2d2b9de1674f862b4d6d90e3274f87294d4c",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260923-white-house-press-briefing-room-mn-1415-e4c494.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0.957
+        }
+      }
+    },
+    {
+      "id": "story-france-saudi-yanbu-20260925",
+      "eventKey": "france-troops-saudi-yanbu-oil-2026-09",
+      "materialFacts": [
+        "Frankrig sender soldater, radar og luftforsvar for at beskytte Saudi-Arabiens Yanbu-olieterminal",
+        "Beslutningen følger gentagne houthi- og iransk-støttede angreb på saudisk olieinfrastruktur"
+      ],
+      "section": "Geopolitik og energi",
+      "headline": "France Sending Forces To Help Defend Saudi Arabia's Red Sea Oil Facilities",
+      "primarySourceUrl": "https://www.twz.com/news-features/france-sending-forces-to-help-defend-saudi-arabias-red-sea-oil-facilities",
+      "subheadline": "Frankrig sender soldater til at beskytte Saudi-Arabiens olieterminal",
+      "body": [
+        "Macron har meddelt, at Frankrig sender soldater, radar og luftforsvar til at beskytte olieterminalen Yanbu efter gentagne houthi- og iransk-støttede angreb på saudisk olieinfrastruktur, senest 10.-11. september. Han oplyste ikke antal soldater eller ankomsttidspunkt."
+      ],
+      "whyItMatters": "En europæisk stormagt går nu direkte ind i beskyttelsen af Golf-olieinfrastruktur.",
+      "analysis": "Macron: 'ikke for at blande os i nogen konflikt, men for at beskytte dette anlæg.'",
+      "topics": [
+        "geopolitik",
+        "forsvar",
+        "energi",
+        "mellemøsten"
+      ],
+      "entities": [
+        "Emmanuel Macron",
+        "Saudi-Arabien",
+        "Houthi-bevægelsen",
+        "Yanbu"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 50,
+        "novelty": 62,
+        "sourceQuality": 68,
+        "personalRelevance": 18,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Macron meddelte, at Frankrig sender soldater, radar og luftforsvar til Yanbu-terminalen",
+          "sourceUrls": [
+            "https://www.twz.com/news-features/france-sending-forces-to-help-defend-saudi-arabias-red-sea-oil-facilities"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Macron oplyste ikke troppestyrke, udstyr eller ankomsttidspunkt",
+          "sourceUrls": [
+            "https://www.twz.com/news-features/france-sending-forces-to-help-defend-saudi-arabias-red-sea-oil-facilities"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "France Sending Forces To Help Defend Saudi Arabia's Red Sea Oil Facilities",
+          "publisher": "TWZ",
+          "url": "https://www.twz.com/news-features/france-sending-forces-to-help-defend-saudi-arabias-red-sea-oil-facilities",
+          "publishedAt": "2026-09-24T16:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/07-ce8e2550.jpg",
+        "credit": "Kilde: TWZ",
+        "alt": "France Sending Forces To Help Defend Saudi Arabia's Red Sea Oil Facilities",
+        "sourceUrl": "https://www.twz.com/news-features/france-sending-forces-to-help-defend-saudi-arabias-red-sea-oil-facilities",
+        "origin": "article",
+        "fingerprint": "00116145cace76010001434f838366400820430b8083833000e047099093937010e04780909191e1a0c3091000000111",
+        "lookedAt": "00116145cace76010001434f838366400820430b8083833000e047099093937010e04780909191e1a0c3091000000111",
+        "originalUrl": "https://www.twz.com/wp-content/uploads/2026/09/Yanbu.jpg?w=1200",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-doj-musk-x-eu-20260925",
+      "eventKey": "us-doj-musk-x-eu-fine-challenge-2026-09",
+      "materialFacts": [
+        "USA's justitsministerium søger at støtte Elon Musks retssag mod EU's bøde til X",
+        "Bøden på 120 mio. euro kom efter en to-årig DSA-undersøgelse"
+      ],
+      "section": "Tech og regulering",
+      "headline": "US government seeks to join Elon Musk in challenge against EU's fine on X",
+      "primarySourceUrl": "https://wtaq.com/2026/09/24/us-government-seeks-to-join-elon-musk-in-challenge-against-eus-fine-on-x/",
+      "subheadline": "USA støtter Musk i sagen mod EU's bøde til X",
+      "body": [
+        "USA's justitsministerium støtter Elon Musks retssag mod EU's bøde på 120 mio. euro til X efter en to-årig DSA-undersøgelse. Ministeriet mener, EU-Kommissionen 'uretmæssigt forsøgte at udvide sin myndighed' til amerikanske selskaber uden for dens jurisdiktion."
+      ],
+      "whyItMatters": "Sagen tester, om EU kan håndhæve digitale regler over amerikanske techselskaber.",
+      "analysis": "Argumentet handler ikke om X's overholdelse — men om EU har ret til at pålægge det.",
+      "counterpoint": "EU-Kommissionen fastholder, at reglerne er neutrale og gælder alle platforme uanset hjemland.",
+      "topics": [
+        "regulering",
+        "usa",
+        "eu",
+        "teknologi"
+      ],
+      "entities": [
+        "Elon Musk",
+        "X",
+        "Europa-Kommissionen",
+        "Brett Shumate"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 48,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 45,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "DOJ søgte om at støtte Musks retssag mod EU's 120 mio. euro-bøde til X ved EU's Almindelige Domstol",
+          "sourceUrls": [
+            "https://wtaq.com/2026/09/24/us-government-seeks-to-join-elon-musk-in-challenge-against-eus-fine-on-x/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Shumate: Kommissionen 'uretmæssigt forsøgte at udvide sin myndighed til at nå amerikanske selskaber'",
+          "sourceUrls": [
+            "https://wtaq.com/2026/09/24/us-government-seeks-to-join-elon-musk-in-challenge-against-eus-fine-on-x/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US government seeks to join Elon Musk in challenge against EU's fine on X",
+          "publisher": "Reuters (via WTAQ)",
+          "url": "https://wtaq.com/2026/09/24/us-government-seeks-to-join-elon-musk-in-challenge-against-eus-fine-on-x/",
+          "publishedAt": "2026-09-24T17:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://storage.googleapis.com/media.mwcradio.com/mimesis/2026-09/24/2026-09-24T201515Z_2_LYNXMPEM8N1VB_RTROPTP_3_OECD-EDUCATION.JPG",
+          "fingerprint": "1f0b9bd361cd9d361f0b99d161cc1c1e570919b3e1c41c1e650959b2e5d43c3e2c299962a5d48e366c3991622594da2e",
+          "reason": "logo-or-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/08-e1e002e0.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "US government seeks to join Elon Musk in challenge against EU's fine on X",
+        "sourceUrl": "https://www.cnbc.com/2026/09/25/us-government-seeks-to-join-musk-in-challenge-against-eus-fine-on-x.html",
+        "origin": "coverage",
+        "fingerprint": "1e8c8c89898da5d91e9c1c09090ca490161c1c0c0d0c24b4161c1c0c0c0c46263614340c0c0c4666163434160c0c06c7",
+        "lookedAt": "1e8c8c89898da5d91e9c1c09090ca490161c1c0c0d0c24b4161c1c0c0c0c46263614340c0c0c4666163434160c0c06c7",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108020197-1723632641567-gettyimages-1564897605-AA_30072023_1291304.jpeg?v=1765177680&w=1200&h=1200",
+        "focus": {
+          "x": 0.379,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-iso45010-menopause-20260925",
+      "eventKey": "iso45010-menopause-workplace-standard-2026-09",
+      "materialFacts": [
+        "ISO 45010, verdens første standard om menstruation og overgangsalder på arbejdspladsen, er lanceret",
+        "Danmark har bidraget til standarden siden 2024"
+      ],
+      "section": "Arbejdsmarked",
+      "headline": "Fra tabu til global standard: Ny standard skal hjælpe arbejdspladser med menstruation og overgangsalder",
+      "primarySourceUrl": "https://via.ritzau.dk/pressemeddelelse/15169523/fra-tabu-til-global-standard-ny-standard-skal-hjaelpe-arbejdspladser-med-menstruation-og-overgangsalder?lang=da",
+      "subheadline": "Verdens første ISO-standard om overgangsalder på jobbet er klar",
+      "body": [
+        "ISO 45010, verdens første standard om menstruation og overgangsalder på arbejdspladsen, er lanceret med dansk bidrag siden 2024. En undersøgelse fra Københavns Universitet fandt, at 97 procent af danske kvinder oplever overgangsaldersymptomer."
+      ],
+      "whyItMatters": "Et tys-tys-emne på danske arbejdspladser får nu en fælles international ramme.",
+      "analysis": "Dansk Standards Lise Aagesen Schmidt: 'Det nye er, at virksomheder spørger, hvordan de støtter medarbejderne.'",
+      "topics": [
+        "danmark",
+        "arbejdsmarked",
+        "sundhed",
+        "ligestilling"
+      ],
+      "entities": [
+        "Dansk Standard",
+        "Lise Aagesen Schmidt"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 40,
+        "novelty": 75,
+        "sourceQuality": 60,
+        "personalRelevance": 12,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "ISO 45010 er verdens første standard om menstruation og overgangsalder på arbejdspladsen, med dansk bidrag siden 2024",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15169523/fra-tabu-til-global-standard-ny-standard-skal-hjaelpe-arbejdspladser-med-menstruation-og-overgangsalder?lang=da"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "KiSO-undersøgelse (2025): 97% af danske kvinder oplever overgangsaldersymptomer, over 25% med seks eller flere moderate-svære symptomer",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15169523/fra-tabu-til-global-standard-ny-standard-skal-hjaelpe-arbejdspladser-med-menstruation-og-overgangsalder?lang=da"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fra tabu til global standard: Ny standard skal hjælpe arbejdspladser med menstruation og overgangsalder",
+          "publisher": "Dansk Standard / Ritzau",
+          "url": "https://via.ritzau.dk/pressemeddelelse/15169523/fra-tabu-til-global-standard-ny-standard-skal-hjaelpe-arbejdspladser-med-menstruation-og-overgangsalder?lang=da",
+          "publishedAt": "2026-09-23T08:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/09-278b6072.jpg",
+        "credit": "Foto: Getty Images / Dansk Industri",
+        "alt": "Kontorarbejdsplads, illustrativt for artiklen om ISO 45010-standarden for menstruation og overgangsalder på arbejdet",
+        "sourceUrl": "https://www.danskindustri.dk/vi-radgiver-dig/personale/nyhedsarkiver---personaleforhold/nyheder-om-arbejdsmiljo/2026/9/ny-international-standard-og-webinar-om-menstruel-sundhed-og-overgangsalder-pa-arbejdspladsen",
+        "origin": "coverage",
+        "fingerprint": "e2078d2c3a3969a9638d8c2c3939696821a4ac6c3939796840242c6c3d7d7c6c46264e4c7cbc7cec4646cecc76bc7cfc",
+        "lookedAt": "e2078d2c3a3969a9638d8c2c3939696821a4ac6c3939796840242c6c3d7d7c6c46264e4c7cbc7cec4646cecc76bc7cfc",
+        "originalUrl": "https://www.danskindustri.dk/globalassets/billeder-til-fri-brug/arbejdsmarked/gettyimages-1023551840_1600x900.jpg",
+        "focus": {
+          "x": 0.8,
+          "y": 0.15
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://via.ritzau.dk/data/images/public/9476114/15169523/e20cd4b4-81be-47d6-bca6-9dbc93712efa-w_960.jpg",
+          "fingerprint": "09061021870e680009061561ae866828020044e8a68e4848039042eaab2fd8c800146aaa6a2f25d841b24949ea6d6590",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Hackers drain $351.6 million from Bitget in possibly 2026's biggest crypto heist",
+      "headline": "Hackers drain $351.6 million from Bitget in possibly 2026's biggest crypto heist",
+      "summary": "Bitget bekræfter angreb på hot wallets 24. september; udbetalinger sat på pause, og et brugerfond på 464 mio. dollar skal dække tabet.",
+      "publisher": "CoinDesk",
+      "section": "Kryptovaluta",
+      "publishedAt": "2026-09-24T20:00:00.000Z",
+      "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
+      "topics": [
+        "kryptovaluta",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "text": "New York Sues Polymarket US as 'Illegal Gambling Business'",
+      "headline": "New York Sues Polymarket US as 'Illegal Gambling Business'",
+      "summary": "Justitsminister Letitia James anlægger sag mod Polymarket US for ulovligt spil; Polymarket sagsøger staten tilbage samme dag.",
+      "publisher": "Bloomberg",
+      "section": "Regulering",
+      "publishedAt": "2026-09-24T14:00:00.000Z",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-24/new-york-accuses-polymarket-us-of-running-unlicensed-gambling",
+      "topics": [
+        "regulering",
+        "fintech"
+      ]
+    },
+    {
+      "text": "Cornell Demonstrates Standing-Wave Cooling for Trapped-Ion Quantum Computing",
+      "headline": "Cornell Demonstrates Standing-Wave Cooling for Trapped-Ion Quantum Computing",
+      "summary": "Cornell-forskere køler fanget-ion-kvantebits 3,3 gange hurtigere med en ny metode — et kendt flaskehalsproblem for kvantecomputere.",
+      "publisher": "The Quantum Insider",
+      "section": "Kvante",
+      "publishedAt": "2026-09-21T10:00:00.000Z",
+      "url": "https://thequantuminsider.com/2026/09/21/cornell-standing-wave-eit-cooling-trapped-ions/",
+      "topics": [
+        "kvante",
+        "deeptech"
+      ]
+    },
+    {
+      "text": "MPC raises repo rate to 7.25%",
+      "headline": "MPC raises repo rate to 7.25%",
+      "summary": "Sydafrikas centralbank hæver renten til 7,25 procent på baggrund af stigende inflation og nye brændstofchok.",
+      "publisher": "SAnews",
+      "section": "Økonomi",
+      "publishedAt": "2026-09-23T12:00:00.000Z",
+      "url": "https://www.sanews.gov.za/south-africa/mpc-raises-repo-rate-725",
+      "topics": [
+        "økonomi",
+        "afrika"
+      ]
+    },
+    {
+      "text": "Nationwide measles vaccination campaign to resume Sept 25 in Bangladesh: Health minister",
+      "headline": "Nationwide measles vaccination campaign to resume Sept 25 in Bangladesh: Health minister",
+      "summary": "Bangladesh genoptager sin landsdækkende mæslinge-vaccinationskampagne i dag midt i et voksende udbrud.",
+      "publisher": "The Daily Star",
+      "section": "Sundhed",
+      "publishedAt": "2026-09-24T10:00:00.000Z",
+      "url": "https://www.thedailystar.net/news/healthcare/disease/news/nationwide-measles-vaccination-campaign-resume-sept-25-bangladesh-health-minister-4269531",
+      "topics": [
+        "sundhed",
+        "asien"
+      ]
+    },
+    {
+      "text": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
+      "headline": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
+      "summary": "Politiet anholdt omkring 30-100 demonstranter, heriblandt skuespillere og politikere, uden for FN forud for Netanyahus tale.",
+      "publisher": "Al Jazeera",
+      "section": "Mellemøsten",
+      "publishedAt": "2026-09-25T02:00:00.000Z",
+      "url": "https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu",
+      "topics": [
+        "mellemøsten",
+        "politik"
+      ]
+    },
+    {
+      "text": "Naleraq-formand kritiserer Grønlands aftale med USA for ensidige fordele",
+      "headline": "Naleraq-formand kritiserer Grønlands aftale med USA for ensidige fordele",
+      "summary": "Pele Broberg mener, at forsvars- og sikkerhedsaftalen giver amerikanerne fordele uden tilstrækkelig modydelse til Grønland.",
+      "publisher": "Berlingske (via EU-repræsentationen)",
+      "section": "Grønland",
+      "publishedAt": "2026-09-24T06:00:00.000Z",
+      "url": "https://denmark.representation.ec.europa.eu/news/eu-i-dagens-aviser-torsdag-den-24-september-2026-2026-09-24_da",
+      "topics": [
+        "danmark",
+        "grønland"
+      ]
+    },
+    {
+      "text": "Trump administration asks Supreme Court to allow quick third-country deportations",
+      "headline": "Trump administration asks Supreme Court to allow quick third-country deportations",
+      "summary": "Regeringen beder Højesteret om at ophæve en ankedomstols kendelse, der kræver, at migranter kan gøre indsigelse før udvisning til et tredjeland.",
+      "publisher": "The Washington Post",
+      "section": "USA",
+      "publishedAt": "2026-09-24T21:00:00.000Z",
+      "url": "https://www.washingtonpost.com/politics/2026/09/24/trump-administration-asks-supreme-court-allow-third-country-deportations-now/",
+      "topics": [
+        "usa",
+        "jura"
+      ]
+    },
+    {
+      "text": "Wall Street holds near its record as Brent oil falls below $100 per barrel",
+      "headline": "Wall Street holds near its record as Brent oil falls below $100 per barrel",
+      "summary": "Brentolien faldt til under 100 dollar tønden, ned fra næsten 110 dollar ugen før, men fortsat langt over niveauet før Iran-krigen.",
+      "publisher": "Associated Press (via Local10)",
+      "section": "Energi",
+      "publishedAt": "2026-09-22T20:00:00.000Z",
+      "url": "https://www.local10.com/news/2026/09/22/wall-street-holds-near-its-record-as-brent-oil-falls-below-100-per-barrel/",
+      "topics": [
+        "energi",
+        "olie"
+      ]
+    },
+    {
+      "text": "Xi, Trump conclude bilateral meeting",
+      "headline": "Xi, Trump conclude bilateral meeting",
+      "summary": "Det knap en time lange topmøde endte med en bekræftet forlængelse af handelsvåbenhvilen til 10. januar og en aftale om at drøfte AI-risici videre.",
+      "publisher": "The Washington Times",
+      "section": "Geopolitik",
+      "publishedAt": "2026-09-24T19:00:00.000Z",
+      "url": "https://www.washingtontimes.com/news/2026/sep/24/xi-jinping-trump-conclude-bilateral-meeting/",
+      "topics": [
+        "geopolitik",
+        "usa",
+        "kina"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "indicator": "cagrisema-redefine9-weight-loss-pct",
+    "label": "CagriSemas vægttab i REDEFINE 9-forsøget",
+    "value": "21,0",
+    "unit": "%",
+    "asOf": "uge 68, fase 3",
+    "caption": "Mod 2,0 procent for placebo. Ny indikator i dag — følges videre ved FDA's ventede afgørelse i 4. kvartal 2026.",
+    "sourceUrl": "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html",
+    "sourceTitle": "Novo's CagriSema delivers superior weight loss versus tirzepatide in REIMAGINE 5 trial"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "konstanten-er-ikke-konstant",
+    "title": "Konstanten er ikke konstant",
+    "thesis": "DESI's fulde femårsdata i 2027 vil styrke, ikke afkræfte, beviset for at mørk energi ændrer styrke over tid.",
+    "horizon": "DESI's fulde femårsresultater, ventet 2027",
+    "body": [
+      "BAO- og supernovadata afviger nu 3-4 sigma fra en fast kosmologisk konstant, og retningen har holdt fra DR1 til DR2."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis 2027-resultaterne falder tilbage mod ren LambdaCDM, når supernova-kalibrering og andre systematikker er renset ud af analysen.",
+    "topics": [
+      "videnskab",
+      "fysik",
+      "kosmologi"
+    ],
+    "claims": [
+      {
+        "text": "DESI's BAO-, CMB- og supernovadata favoriserer nu w0 > -1 og wa < 0, med LambdaCDM afvist ved ca. 3-4 sigma",
+        "sourceUrls": [
+          "https://cerncourier.com/desi-hints-at-evolving-dark-energy/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "DESI hints at evolving dark energy",
+        "publisher": "CERN Courier",
+        "url": "https://cerncourier.com/desi-hints-at-evolving-dark-energy/",
+        "publishedAt": "2026-06-01T00:00:00.000Z",
+        "kind": "analysis"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-altman-unsc-20260925",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "Officiel tale",
+      "status": "new",
+      "title": "Sam Altman's remarks at the United Nations Security Council",
+      "creator": "Sam Altman",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "commitment": "~15 min",
+      "description": "Altmans egne bemærkninger til FN's Sikkerhedsråd 23. september, hvor han sammen med Dario Amodei opfordrede til internationale AI-standarder.",
+      "rationale": "Læs den sammen med dagens forsidehistorie: samme uge de tre labs bygger deres eget tilsyn uden staten, bad deres topchefer FN om det modsatte. Spændingen mellem de to er mere lærerig end nogen af delene alene.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt",
+        "geopolitik"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-25/r01-c581b8aa.jpg",
+        "credit": "Foto: UN Photo/Ariana Lindquist",
+        "alt": "Sam Altman taler ved mikrofonen under FN's Sikkerhedsråds møde om AI og international sikkerhed",
+        "sourceUrl": "https://news.un.org/en/story/2026/09/1168414",
+        "originalUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/23-09-2026-UN-Photo-Sam-Altman.jpg/image1170x530cropped.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-hassabis-standards-20260925",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Nyhedsartikel",
+      "status": "timely",
+      "title": "DeepMind CEO calls for an independent standards body to regulate frontier AI",
+      "creator": "Demis Hassabis",
+      "provider": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/deepmind-ceo-calls-for-an-independent-standards-body-to-regulate-frontier-ai/",
+      "commitment": "~6 min",
+      "note": "Hassabis' forslag fra juli om et FINRA-lignende tilsyn — det, de tre labs nu bygger. Se, hvor tæt idéen og virkeligheden er endt.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-pricewar-20260925",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyseblog",
+      "status": "available",
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "creator": "Simon Willison",
+      "provider": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "commitment": "~8 min",
+      "note": "En praktikers blik på ugens tre modellanceringer og prisfald — hvad der reelt ændrede sig, ikke hvad labs siger ændrede sig.",
+      "topics": [
+        "ai",
+        "frontier-modeller",
+        "priser"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-daedalus-rawls-ai-20260925",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Akademisk essay",
+      "status": "available",
+      "title": "Toward a Theory of Justice for Artificial Intelligence",
+      "provider": "Daedalus (MIT Press)",
+      "url": "https://direct.mit.edu/daed/article/151/2/218/110610/Toward-a-Theory-of-Justice-for-Artificial",
+      "commitment": "~25 min",
+      "note": "Rawlsiansk fordelingsretfærdighed anvendt på AI-styring — modstykket til selvregulering, skrevet i en tradition hans læseliste ikke rummer.",
+      "topics": [
+        "ai",
+        "filosofi",
+        "politisk-teori"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-quantuminsider-cornell-20260925",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Videnskabsartikel",
+      "status": "new",
+      "title": "Cornell Researchers Demonstrate Standing-Wave EIT Cooling for Trapped Ions",
+      "provider": "The Quantum Insider",
+      "url": "https://thequantuminsider.com/2026/09/21/cornell-standing-wave-eit-cooling-trapped-ions/",
+      "commitment": "~7 min",
+      "note": "Et konkret, dateret ingeniørresultat — 3,3 gange hurtigere køling af fanget-ion-qubits — frem for endnu en kapitalrunde-overskrift.",
+      "topics": [
+        "kvante",
+        "deeptech",
+        "videnskab"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-zuckerberg-stern-20260925",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Videointerview",
+      "status": "available",
+      "title": "Mark Zuckerberg rejects calls for industrywide AI slowdown",
+      "creator": "Joanna Stern",
+      "provider": "NBC News",
+      "url": "https://www.nbcnews.com/tech/tech-news/mark-zuckerberg-interview-ai-slowdown-meta-muse-openai-chatgpt-rcna599279",
+      "commitment": "~18 min",
+      "note": "Zuckerbergs direkte modsvar til Amodei/Altman/Musks opfordring til at bremse AI-udviklingen — en reel uenighed, ikke kunstig balance.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 78,
+    "freshness": 88,
+    "novelty": 74,
+    "perspectiveBalance": 70,
+    "render": 100
+  }
+}
