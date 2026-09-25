@@ -57,14 +57,6 @@
       "horizon": "Juli 2031, aflaest i PRIS01",
       "falsifier": "Afstanden mellem tjenester og varer i PRIS01 er uaendret eller mindre i juli 2031 end 11,5 procentpoint. Tesen svaekkes ogsaa, hvis frisoer, boernepasning og haandvaerkerarbejde holder op med at stige hurtigere end det samlede indeks tre aar i traek. Kontrolleres i Danmarks Statistiks tabel PRIS01.",
       "status": "open"
-    },
-    {
-      "date": "2026-09-24",
-      "slug": "subsidiekonkurrencen",
-      "claim": "Det globale minimumsselskabsskat-gulv på 15 pct. (Pillar Two) stopper ikke landes konkurrence om at tiltrække investeringer; konkurrencen flytter fra skattesatser til tilskud, der ikke fremgår af nogen skattestatistik.",
-      "horizon": "EU's statsstøttetal for 2027-2029, sammenlignet med årene før Pillar Two",
-      "falsifier": "EU's statsstøttestatistik og OECD's FDI-opgørelser viser, at den samlede offentlige understøttelse af udenlandske investeringer falder mærkbart efter Pillar Two, i stedet for blot at skifte form fra skat til tilskud.",
-      "status": "open"
     }
   ]
 }
