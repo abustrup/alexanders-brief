@@ -127,6 +127,13 @@
           "asOf": "juli 2026",
           "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52491",
           "recordedOn": "2026-08-06"
+        },
+        {
+          "value": "145",
+          "asOf": "august 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52492",
+          "recordedOn": "2026-09-26",
+          "note": "Op 6,3 pct. fra juli, men færre tabte job (346) end juli."
         }
       ]
     },

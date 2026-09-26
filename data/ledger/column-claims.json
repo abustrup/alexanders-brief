@@ -57,6 +57,14 @@
       "horizon": "Juli 2031, aflaest i PRIS01",
       "falsifier": "Afstanden mellem tjenester og varer i PRIS01 er uaendret eller mindre i juli 2031 end 11,5 procentpoint. Tesen svaekkes ogsaa, hvis frisoer, boernepasning og haandvaerkerarbejde holder op med at stige hurtigere end det samlede indeks tre aar i traek. Kontrolleres i Danmarks Statistiks tabel PRIS01.",
       "status": "open"
+    },
+    {
+      "date": "2026-09-26",
+      "slug": "maximin-taber-bag-sloeret",
+      "claim": "Rawls' forudsigelse om enstemmig tilslutning til maximin bag et slør af uvidenhed holder ikke empirisk; forsøgsdeltagere vælger næsten aldrig maximin frem for gennemsnit-med-bundgrænse.",
+      "horizon": "Næste store, forhåndsregistrerede gentagelse af Frohlich og Oppenheimers eksperimentelle design",
+      "falsifier": "Et stort, forhåndsregistreret forsøg finder maximin som det hyppigste valg frem for gennemsnit-med-bund. Kontrolleres mod publicerede replikationer af Frohlich, Oppenheimer og Eavey (1987) og senere forsøg i samme tradition.",
+      "status": "open"
     }
   ]
 }
