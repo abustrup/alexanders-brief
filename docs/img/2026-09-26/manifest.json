@@ -1,0 +1,147 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-26",
+  "generatedAt": "2026-09-26T04:47:04.252Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-xi-trump-washington-summit-20260926",
+      "headline": "Trump-Xi visit wraps up with few achievements announced",
+      "source": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/09/25/88bb3344-a2e6-43df-b657-c72253c0b702/thumbnail/1200x630g2/edffb4a60b89426236d186f726abd90a/gettyimages-2296993948.jpg",
+      "article": "https://www.cbsnews.com/live-updates/trump-china-xi-jinping-state-visit-dinner-tariffs-ai/",
+      "hosted": "01-8fac594a.jpg",
+      "srcSize": "1024x538",
+      "srcFormat": "webp",
+      "srcBytes": 97086,
+      "out": "717x538",
+      "bytes": 57500,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.136,
+        "y": 0.1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-26T04:47:04.503Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-iran-hormuz-sevenday-plan-20260926",
+      "headline": "What's in Iran's seven-day plan to reopen the Strait of Hormuz?",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/2026-09-24T161522Z_424661068_RC26KNAV043K_RTRMADP_3_IRAN-CRISIS-UN-TALKS-1790346205.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz",
+      "hosted": "04-6d9ffda7.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 313400,
+      "out": "1600x1067",
+      "bytes": 240725,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-26T04:47:04.888Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-openai-agents-government-sites-20260926",
+      "headline": "OpenAI says AI agents interacted with Education, Commerce, SEC websites in US",
+      "source": "https://wlos.com/resources/media2/16x9/6000/1320/0x313/90/4548e572-5369-40d4-b9bd-0daa5cae4a70-GettyImages2296995697.jpg",
+      "article": "https://wlos.com/news/nation-world/openai-says-ai-agents-interacted-with-education-commerce-sec-websites-in-us",
+      "hosted": "06-d081920f.jpg",
+      "srcSize": "1320x743",
+      "srcFormat": "webp",
+      "srcBytes": 70780,
+      "out": "1114x743",
+      "bytes": 56804,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.4
+      },
+      "fetchedAt": "2026-09-26T04:47:05.287Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-tekever-series-d-20260926",
+      "headline": "TEKEVER raises $580M Series D at $6.4B valuation",
+      "source": "https://cdn.tech.eu/uploads/2026/09/untitled-design-35-38.png",
+      "article": "https://tech.eu/2026/09/23/tekever-raises-580m-series-d-at-6-4b-valuation/",
+      "hosted": "08-547be93d.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "webp",
+      "srcBytes": 226538,
+      "out": "1080x720",
+      "bytes": 59925,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 0.257
+      },
+      "fetchedAt": "2026-09-26T04:47:05.545Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-cnn-airforceone-pool-removed-20260926",
+      "headline": "White House again removes CNN from TV pool duties, blocks Air Force One access",
+      "source": "https://www.ms.now/wp-content/uploads/2026/09/260925-cnn-back-white-house-ground-pi.webp?w=1200&h=630&crop=1",
+      "article": "https://www.ms.now/news/cnn-white-house-tv-pool-media-ban-xi",
+      "hosted": "10-825ee84a.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 66916,
+      "out": "945x630",
+      "bytes": 59324,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.818,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-26T04:47:05.970Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-drc-ebola-spread-20260926",
+      "headline": "DR Congo's Ebola outbreak spreads to two new health zones, WHO says",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6ab6e4f3-1790371059.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says",
+      "hosted": "11-200bf070.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 283682,
+      "out": "1600x1067",
+      "bytes": 192039,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-26T04:47:06.255Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-sandel-justice-fair-start-2026-09-26",
+      "headline": "Justice: What's the Right Thing to Do? Episode 08 – \"What's a Fair Start?\"",
+      "source": "https://img.youtube.com/vi/VcL66zx_6No/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=VcL66zx_6No",
+      "hosted": "r01-c2ccf244.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 119036,
+      "out": "1280x720",
+      "bytes": 108917,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-26T04:47:06.467Z"
+    }
+  ]
+}
