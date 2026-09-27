@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-09-27-morning-r1",
+  "runId": "run-2026-09-27-uafternoon-r43",
   "date": "2026-09-27",
-  "generatedAt": "2026-09-27T08:50:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-09-27T15:25:01.627Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "AI-tilsyn forsvinder fra en FN-våbenaftale, DeepMind lækker talent til ikke-transformer-væddemål, og Sydafrika tæller 27 døde på én weekend.",
   "profileWeights": {
@@ -915,6 +915,204 @@
           "y": 0.439
         }
       }
+    },
+    {
+      "id": "story-raf-fairford-terror-charge-2026-09-27",
+      "eventKey": "raf-fairford-terrorism-preparation-charge-2026-09",
+      "materialFacts": [
+        "Politiet skærpede mistanken fra sprængstoflov til forberedelse af en terrorhandling for de fem anholdte.",
+        "Basen var i højeste alarmberedskab, FPCON Delta, dagen før anholdelserne."
+      ],
+      "section": "Verden",
+      "headline": "5 men arrested near a U.K. air base used by U.S. forces on suspicion of preparing a terrorist act",
+      "primarySourceUrl": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+      "subheadline": "Mistanken er skærpet til forberedelse af en terrorhandling.",
+      "body": [
+        "Fem mænd anholdt nær RAF Fairford sigtes nu for forberedelse til en terrorhandling, efter først at være anholdt under Explosives Act. Politiet fik kl. 00.45 anmeldelse om tre mistænkelige køretøjer. Omkring 85 husstande i Whelford blev evakueret, og basen var i højeste alarmberedskab, FPCON Delta."
+      ],
+      "whyItMatters": "Basen har sendt B-1B-bombefly mod Iran, der kalder baser som denne lovlige mål under Hormuz-krisen.",
+      "topics": [
+        "forsvar",
+        "geopolitik",
+        "uk",
+        "iran",
+        "terror"
+      ],
+      "entities": [
+        "RAF Fairford",
+        "Gloucestershire Police",
+        "Counter Terrorism Policing",
+        "Iran",
+        "Wes Streeting"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 40,
+        "novelty": 68,
+        "sourceQuality": 78,
+        "personalRelevance": 40,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Fem mænd blev anholdt nær RAF Fairford på mistanke om forberedelse til en terrorhandling, efter oprindeligt at være anholdt under Explosives Act.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+            "https://abcnews.com/International/uk-police-arrest-explosives-act-major-incident-us/story?id=136793301"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Omkring 85 husstande i Whelford-området blev evakueret som forholdsregel, mens en ammunitionsrydningsenhed undersøgte køretøjerne.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+            "https://abcnews.com/International/uk-police-arrest-explosives-act-major-incident-us/story?id=136793301"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "RAF Fairford blev sat i højeste alarmberedskab, FPCON Delta, dagen inden anholdelserne.",
+          "sourceUrls": [
+            "https://theaviationist.com/2026/09/27/major-incident-raf-fairford/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "5 men arrested near a U.K. air base used by U.S. forces on suspicion of preparing a terrorist act",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+          "publishedAt": "2026-09-27T13:53:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "UK police arrest 5 men under terrorism, explosives acts close to US air base",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/International/uk-police-arrest-explosives-act-major-incident-us/story?id=136793301",
+          "publishedAt": "2026-09-27T13:27:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "'Major Incident' Near RAF Fairford After Arrests Made Under Explosives Act",
+          "publisher": "The Aviationist",
+          "url": "https://theaviationist.com/2026/09/27/major-incident-raf-fairford/",
+          "publishedAt": "2026-09-27T09:28:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/13-448d8315.jpg",
+        "credit": "Foto: Getty Images / CBS News",
+        "alt": "Politibil og skilt med 'Police Road Closed' ved afspærringen nær RAF Fairford",
+        "sourceUrl": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+        "origin": "article",
+        "fingerprint": "260034256424310226202421446431230630222246e660614076626586e64270b4e3eba483e7c7d036e3e9a60347c781",
+        "lookedAt": "260034256424310226202421446431230630222246e660614076626586e64270b4e3eba483e7c7d036e3e9a60347c781",
+        "originalUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/27/d0f1a348-3f8f-4163-a8a9-c8a6ab46112e/thumbnail/1200x630/65eb211b78c9ad794414fb087d0a002b/gettyimages-2297371374.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0.743
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-27T15:25:01.627Z",
+        "runId": "run-2026-09-27-uafternoon-r43"
+      }
+    },
+    {
+      "id": "story-swiss-neutrality-referendum-2026-09-27",
+      "eventKey": "swiss-neutrality-referendum-nato-2026-09",
+      "materialFacts": [
+        "69 pct. af schweizerne stemte nej til at skrive en strengere, 'evig og bevæbnet' neutralitet ind i forfatningen.",
+        "Forslaget ville have forbudt fredstidssamarbejde med NATO og bundet sanktioner til FN's godkendelse."
+      ],
+      "section": "Verden",
+      "headline": "Swiss Voters Reject Bid to Enshrine Stricter Neutrality",
+      "primarySourceUrl": "https://www.swissinfo.ch/eng/swiss-voters-reject-bid-to-enshrine-stricter-neutrality/92126770",
+      "subheadline": "Et forslag om 'evig og bevæbnet' neutralitet faldt med 69 pct. nej.",
+      "body": [
+        "69 procent af de schweiziske vælgere stemte 27. september nej til et forfatningsforslag fra Schweiz' Folkeparti (SVP). Forslaget ville forbyde samarbejde med militæralliancer som NATO, undtagen ved angreb, og kun tillade FN-godkendte sanktioner. Det svarer på Schweiz' Rusland-sanktioner efter Ukraine-invasionen."
+      ],
+      "whyItMatters": "Nej'et bevarer regeringens frihed til at fortolke neutraliteten og holde fast i Rusland-sanktionerne.",
+      "topics": [
+        "geopolitik",
+        "europa",
+        "nato",
+        "sikkerhedspolitik",
+        "schweiz"
+      ],
+      "entities": [
+        "Schweiz",
+        "SVP",
+        "Christoph Blocher",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 35,
+        "novelty": 80,
+        "sourceQuality": 78,
+        "personalRelevance": 45,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "69 procent af de schweiziske vælgere stemte nej til et forfatningsforslag om at gøre neutraliteten 'evig og bevæbnet'.",
+          "sourceUrls": [
+            "https://www.swissinfo.ch/eng/swiss-voters-reject-bid-to-enshrine-stricter-neutrality/92126770"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Forslaget fra Schweiz' Folkeparti (SVP) ville have forbudt samarbejde med militæralliancer som NATO undtagen ved angreb, og kun tilladt sanktioner godkendt af FN's Sikkerhedsråd.",
+          "sourceUrls": [
+            "https://www.swissinfo.ch/eng/swiss-voters-reject-bid-to-enshrine-stricter-neutrality/92126770",
+            "https://www.aljazeera.com/news/2026/9/27/swiss-voters-set-to-reject-tighter-neutrality-rules-in-referendum"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Swiss Voters Reject Bid to Enshrine Stricter Neutrality",
+          "publisher": "SWI swissinfo.ch",
+          "url": "https://www.swissinfo.ch/eng/swiss-voters-reject-bid-to-enshrine-stricter-neutrality/92126770",
+          "publishedAt": "2026-09-27T10:03:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Swiss voters set to reject tighter neutrality rules in referendum",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/27/swiss-voters-set-to-reject-tighter-neutrality-rules-in-referendum",
+          "publishedAt": "2026-09-27T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/14-0dd39423.jpg",
+        "credit": "Foto: AFP / Al Jazeera",
+        "alt": "Kampagneplakater i Schweiz, herunder en plakat med teksten 'Non à l'initiative sur la neutralité', der opfordrer til at stemme nej",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/9/27/swiss-voters-set-to-reject-tighter-neutrality-rules-in-referendum",
+        "origin": "source",
+        "fingerprint": "921626b43d96e678121626a43c36c6f2162666262c3687e313634f666c772fc323cbef6a6e763b07e3c9a7efede6f32b",
+        "lookedAt": "921626b43d96e678121626a43c36c6f2162666262c3687e313634f666c772fc323cbef6a6e763b07e3c9a7efede6f32b",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab63db73f92-1790328247.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.28,
+          "y": 0.393
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-09-27T15:25:01.627Z",
+        "runId": "run-2026-09-27-uafternoon-r43"
+      }
     }
   ],
   "signals": [
@@ -1279,5 +1477,20 @@
     "sourceCoverage": 92,
     "novelty": 80,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-09-27T15:25:01.627Z",
+      "runId": "run-2026-09-27-uafternoon-r43",
+      "added": 2,
+      "cost": {
+        "usd": 7.161082200000002,
+        "inputTokens": 13614570,
+        "outputTokens": 52261,
+        "turns": 130,
+        "seconds": 1107.6
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-27",
-  "generatedAt": "2026-09-27T09:15:05.690Z",
+  "generatedAt": "2026-09-27T15:27:52.723Z",
   "pictures": [
     {
       "slot": "01",
@@ -242,6 +242,46 @@
         "y": 0.439
       },
       "fetchedAt": "2026-09-27T09:15:11.474Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-raf-fairford-terror-charge-2026-09-27",
+      "headline": "5 men arrested near a U.K. air base used by U.S. forces on suspicion of preparing a terrorist act",
+      "source": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/27/d0f1a348-3f8f-4163-a8a9-c8a6ab46112e/thumbnail/1200x630/65eb211b78c9ad794414fb087d0a002b/gettyimages-2297371374.jpg",
+      "article": "https://www.cbsnews.com/news/england-raf-fairford-us-military-air-force-bomb-disposal/",
+      "hosted": "13-448d8315.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 297958,
+      "out": "945x630",
+      "bytes": 155085,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.743
+      },
+      "fetchedAt": "2026-09-27T15:27:53.283Z"
+    },
+    {
+      "slot": "14",
+      "id": "story-swiss-neutrality-referendum-2026-09-27",
+      "headline": "Swiss Voters Reject Bid to Enshrine Stricter Neutrality",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6ab63db73f92-1790328247.jpg?resize=1920%2C1440",
+      "article": "https://www.swissinfo.ch/eng/swiss-voters-reject-bid-to-enshrine-stricter-neutrality/92126770",
+      "hosted": "14-0dd39423.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 180716,
+      "out": "1600x1067",
+      "bytes": 190629,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.28,
+        "y": 0.393
+      },
+      "fetchedAt": "2026-09-27T15:27:53.838Z"
     },
     {
       "slot": "r01",
