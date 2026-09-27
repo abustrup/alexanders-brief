@@ -1,0 +1,267 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-27",
+  "generatedAt": "2026-09-27T09:15:05.690Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-un-ccw-ai-weapons-2026-09-27",
+      "headline": "U.S., Russia stripped human oversight from global AI weapons pact",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2d0dem.img",
+      "article": "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/",
+      "hosted": "01-989e2e15.jpg",
+      "srcSize": "2700x1800",
+      "srcFormat": "jpeg",
+      "srcBytes": 1692151,
+      "out": "1600x1200",
+      "bytes": 304910,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.864,
+        "y": 0.993
+      },
+      "fetchedAt": "2026-09-27T09:15:06.539Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-us-china-si-dialogue-2026-09-27",
+      "headline": "White House: Trump, Xi agreed on 'super intelligence' dialogue",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2d0ZbL.img",
+      "article": "https://www.upi.com/Top_News/US/2026/09/26/White-House-Trump-Xi-agree-super-intelligence-dialogue/1951790465468/",
+      "hosted": "02-342ee1fe.jpg",
+      "srcSize": "1366x768",
+      "srcFormat": "jpeg",
+      "srcBytes": 70856,
+      "out": "1152x768",
+      "bytes": 53628,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.764,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-27T09:15:06.830Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-ea-anthropic-trump-2026-09-27",
+      "headline": "How 'Effective Altruism' went from fringe philosophy to Trump's AI villain",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2226709730-e1790117697772.jpg?resize=1200,600",
+      "article": "https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/",
+      "hosted": "03-329a67fd.jpg",
+      "srcSize": "1200x600",
+      "srcFormat": "webp",
+      "srcBytes": 36258,
+      "out": "900x600",
+      "bytes": 45634,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.191,
+        "y": 0.9
+      },
+      "fetchedAt": "2026-09-27T09:15:07.202Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-deepmind-exodus-2026-09-27",
+      "headline": "Google DeepMind Exodus Sparks VC Frenzy for AI's Next Big Thing",
+      "source": "https://s.yimg.com/lo/mysterio/api/ffe6fe127a62689fd291104f3dbc75ee16554787609ddbdbf023acc82ff8fe44/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2F964e0a5a7e8ab9f2d2045663569bd213.jpg",
+      "article": "https://finance.yahoo.com/technology/ai/articles/google-deepmind-exodus-sparks-vc-154517490.html",
+      "hosted": "04-0733ff14.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 181204,
+      "out": "1200x800",
+      "bytes": 160333,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-27T09:15:07.572Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-quantum-string-breaking-2026-09-27",
+      "headline": "Quantum device simulates matter \"popping into existence\"",
+      "source": "https://pratt.duke.edu/wp-content/uploads/2023/09/chris-monroe-1.jpg",
+      "article": "https://phys.org/news/2026-09-quantum-device-simulates.html",
+      "hosted": "05-8b01a39c.jpg",
+      "srcSize": "800x450",
+      "srcFormat": "webp",
+      "srcBytes": 40792,
+      "out": "675x450",
+      "bytes": 33155,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.332,
+        "y": 0.339
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-27T09:15:07.889Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-monzo-nubank-2026-09-27",
+      "headline": "Monzo in talks on sale to Nubank at about £10 billion valuation, Sky News reports",
+      "source": "https://www.telegraph.co.uk/content/dam/business/2026/09/26/TELEMMGLPICT000504795047_17904341459180_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=OG-Standard",
+      "article": "https://live.euronext.com/en/financial-news/monzo-talks-sale-nubank-about-ps10-billion-valuation-sky-news-reports",
+      "hosted": "06-f019eacc.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 170323,
+      "out": "1080x720",
+      "bytes": 69534,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.782,
+        "y": 0.761
+      },
+      "fetchedAt": "2026-09-27T09:15:08.441Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-taction-apple-2026-09-27",
+      "headline": "Apple Hit With A $5.7 Billion Verdict For Alleged Patent Infringement",
+      "source": "https://www.engadget.com/img/gallery/apple-hit-with-a-5-7-billion-verdict-for-alleged-patent-infringement/l-intro-1790441929.jpg",
+      "article": "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
+      "hosted": "07-87bbd14a.jpg",
+      "srcSize": "1600x899",
+      "srcFormat": "jpeg",
+      "srcBytes": 207038,
+      "out": "1348x899",
+      "bytes": 66677,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.057
+      },
+      "fetchedAt": "2026-09-27T09:15:08.760Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-walmart-ai-pricing-2026-09-27",
+      "headline": "Walmart CEO Pledges No Personalized Pricing As Surveillance Pricing Scrutiny Grows",
+      "source": "https://theshelbyreport.com/wp-content/uploads/2026/04/Modern_Walmart_Supercenter_Exterior.jpg",
+      "article": "https://theshelbyreport.com/2026/09/25/walmart-ceo-pledges-no-personalized-pricing-as-surveillance-pricing-scrutiny-grows/",
+      "hosted": "08-596dfb0d.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 248168,
+      "out": "1600x1067",
+      "bytes": 172039,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.809,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-27T09:15:09.250Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-brazil-betting-ban-2026-09-27",
+      "headline": "Brazil's Lula bans online betting as re-election race tightens",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260926-lula-nd-8efd96.jpg",
+      "article": "https://www.nbcnews.com/world/brazil/brazils-lula-bans-online-betting-reelection-race-tightens-rcna599959",
+      "hosted": "09-04c63bcb.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 163302,
+      "out": "945x630",
+      "bytes": 71721,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.175,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-27T09:15:09.904Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-nk-bitget-crypto-2026-09-27",
+      "headline": "North Korea accused of plundering Bitget for $387 million in year's biggest crypto attack",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2291692264_be5882-e1790357416812.jpg?resize=1200,600",
+      "article": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/",
+      "hosted": "10-cc310cf9.jpg",
+      "srcSize": "1200x600",
+      "srcFormat": "webp",
+      "srcBytes": 38690,
+      "out": "900x600",
+      "bytes": 40232,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-27T09:15:10.243Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-south-africa-shootings-2026-09-27",
+      "headline": "At least 27 people killed in 2 mass shootings in South Africa's Johannesburg, Capetown",
+      "source": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/09/27/a0958659-2e88-40dc-8e33-a614dcbb993e/thumbnail/1200x630/c70f50677320853c4ac7d049fa859ebb/gettyimages-1541244068.jpg",
+      "article": "https://www.cbsnews.com/news/mass-shooting-south-africa-johannesburg-capetown/",
+      "hosted": "11-e2fc5296.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 175786,
+      "out": "945x630",
+      "bytes": 113965,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.134,
+        "y": 0.761
+      },
+      "fetchedAt": "2026-09-27T09:15:10.564Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-raf-fairford-2026-09-27",
+      "headline": "Homes evacuated close to RAF base and several men arrested under 'Explosives Act' as Army called in to examine vehicles",
+      "source": "https://images.globalplayer.com/images/844897?crop=16_9&width=1200&signature=emuDEs3pERm5p8nB_k7fNMCMSMU=",
+      "article": "https://www.lbc.co.uk/article/homes-evacuated-close-to-raf-base-men-arrested-5Hjdj7B_2/",
+      "hosted": "12-b99dc5bc.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 88786,
+      "out": "1012x675",
+      "bytes": 67950,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.307,
+        "y": 0.439
+      },
+      "fetchedAt": "2026-09-27T09:15:11.474Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-dwarkesh-noam-brown-0927",
+      "headline": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "source": "https://i.ytimg.com/vi/6AgOfiZOWiY/maxresdefault.jpg",
+      "article": "https://www.dwarkesh.com/p/noam-brown",
+      "hosted": "r01-839079d4.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 166349,
+      "out": "1280x720",
+      "bytes": 89471,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-27T09:15:11.657Z"
+    }
+  ]
+}

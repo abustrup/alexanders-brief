@@ -1,0 +1,1283 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "run-2026-09-27-morning-r1",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-27T08:50:00.000Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "AI-tilsyn forsvinder fra en FN-våbenaftale, DeepMind lækker talent til ikke-transformer-væddemål, og Sydafrika tæller 27 døde på én weekend.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-un-ccw-ai-weapons-2026-09-27",
+      "eventKey": "un-ccw-ai-weapons-pact-oversight-stripped-2026-09",
+      "materialFacts": [
+        "USA og Rusland fjernede kravet om menneskelig godkendelse af AI-udpegede mål fra FN's CCW-udkast om autonome våben.",
+        "Det amerikanske militær har allerede brugt Anthropics Claude til at udpege ca. 1.000 mål i det første døgn af krigen mod Iran."
+      ],
+      "section": "Verden",
+      "headline": "U.S., Russia stripped human oversight from global AI weapons pact",
+      "primarySourceUrl": "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/",
+      "subheadline": "Kravet om menneskelig kontrol over AI-mål er væk fra FN's udkast til en våbenaftale.",
+      "body": [
+        "USA og Rusland fjernede i en lukket session i Geneve 26. september kravet om menneskelig godkendelse af AI-udpegede mål fra FN's CCW-udkast om autonome våben, mens civilsamfundsobservatører var udelukket."
+      ],
+      "whyItMatters": "Militæret har brugt Claude til at udpege ca. 1.000 mål i Iran-krigens første døgn - uden aftalens tilsyn.",
+      "analysis": "At USA og Rusland fjerner tilsynet sammen, viser hvem der former normer for AI-våben.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt",
+        "geopolitik",
+        "regulering",
+        "forsvar"
+      ],
+      "entities": [
+        "USA",
+        "Rusland",
+        "FN",
+        "Human Rights Watch",
+        "Anthropic",
+        "Claude"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 92,
+        "decisionValue": 70,
+        "novelty": 85,
+        "sourceQuality": 88,
+        "personalRelevance": 80,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "USA og Rusland fjernede kravet om menneskelig godkendelse af AI-udpegede mål fra FN-CCW-udkastet i en lukket session 26. september i Geneve.",
+          "sourceUrls": [
+            "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det amerikanske militær har brugt Anthropics chatbot til at udpege omkring 1.000 mål i de første 24 timer af konflikten med Iran.",
+          "sourceUrls": [
+            "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "U.S., Russia stripped human oversight from global AI weapons pact",
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/",
+          "publishedAt": "2026-09-27T00:39:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/01-989e2e15.jpg",
+        "credit": "Kilde: The Washington Post via MSN",
+        "alt": "How the U.S. and Russia weakened a global effort to regulate killer AI",
+        "sourceUrl": "https://www.washingtonpost.com/technology/2026/09/26/how-us-russia-weakened-global-effort-regulate-killer-ai/",
+        "origin": "coverage",
+        "fingerprint": "c1c10924260612d8e5c5490636031232b4c4590617430333769a980616a39521909e6002364d13241739c60bb34d1117",
+        "lookedAt": "c1c10924260612d8e5c5490636031232b4c4590617430333769a980616a39521909e6002364d13241739c60bb34d1117",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2d0dem.img",
+        "focus": {
+          "x": 0.864,
+          "y": 0.993
+        }
+      }
+    },
+    {
+      "id": "story-us-china-si-dialogue-2026-09-27",
+      "eventKey": "us-china-super-intelligence-dialogue-hotline-2026-09",
+      "materialFacts": [
+        "USA og Kina opretter en 'Super Intelligence Dialogue' og en hændelseskanal for AI-risici.",
+        "Trump afviser fælles AI-udvikling med Kina; ingen tekniske regler for kanalen er offentliggjort."
+      ],
+      "section": "Teknologi",
+      "headline": "White House: Trump, Xi agreed on 'super intelligence' dialogue",
+      "primarySourceUrl": "https://www.upi.com/Top_News/US/2026/09/26/White-House-Trump-Xi-agree-super-intelligence-dialogue/1951790465468/",
+      "subheadline": "USA og Kina får en fast AI-hotline - men ingen regler for hvornår den bruges.",
+      "body": [
+        "Under Xi Jinpings statsbesøg aftalte USA og Kina 25. september en 'Super Intelligence Dialogue' om AI-risici, med næste møde senest i november, samt en hændelseskanal for 'SI-hændelser' uden offentliggjorte regler."
+      ],
+      "whyItMatters": "Trump afviste fælles AI-udvikling med Kina og sagde 'we're leading by a lot' - dialogen er en sikkerhedsventil, ikke et samarbejde.",
+      "analysis": "Aftalen kommer trods Amodeis opfordring til en pause 12. september - en hotline vinder over pausen.",
+      "topics": [
+        "ai",
+        "geopolitik",
+        "usa",
+        "kina",
+        "magt"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Xi Jinping",
+        "USA",
+        "Kina",
+        "Det Hvide Hus"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 65,
+        "novelty": 80,
+        "sourceQuality": 75,
+        "personalRelevance": 85,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "USA og Kina aftalte 25. september at oprette en 'U.S.-China Super Intelligence (SI) Dialogue' og en hændelseskanal for AI.",
+          "sourceUrls": [
+            "https://www.upi.com/Top_News/US/2026/09/26/White-House-Trump-Xi-agree-super-intelligence-dialogue/1951790465468/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "White House: Trump, Xi agreed on 'super intelligence' dialogue",
+          "publisher": "UPI",
+          "url": "https://www.upi.com/Top_News/US/2026/09/26/White-House-Trump-Xi-agree-super-intelligence-dialogue/1951790465468/",
+          "publishedAt": "2026-09-27T00:35:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/02-342ee1fe.jpg",
+        "credit": "Foto: Getty Images / Axios AI+ via MSN",
+        "alt": "President Trump and Xi Jinping. Photo: Win McNamee/Getty Images",
+        "sourceUrl": "https://www.axios.com/2026/09/26/us-china-ai-si-deal?utm_source=microsoft",
+        "origin": "coverage",
+        "fingerprint": "93936963637b71709391696b737b7070d189c969c35b78710988d4d9c1d9f8f108b0d4d1a199f9f00494b4b0a099b8f8",
+        "lookedAt": "93936963637b71709391696b737b7070d189c969c35b78710988d4d9c1d9f8f108b0d4d1a199f9f00494b4b0a099b8f8",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2d0ZbL.img",
+        "focus": {
+          "x": 0.764,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-ea-anthropic-trump-2026-09-27",
+      "eventKey": "effective-altruism-anthropic-trump-2026-09",
+      "materialFacts": [
+        "Trump-administrationen har koordineret angreb på effektiv altruisme og kobler bevægelsen til Anthropic.",
+        "En Politico-måling viser 63 pct. af amerikanerne ser AI som mindst en moderat udslettelsesrisiko."
+      ],
+      "section": "Teknologi",
+      "headline": "How 'Effective Altruism' went from fringe philosophy to Trump's AI villain",
+      "primarySourceUrl": "https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/",
+      "subheadline": "Trump-lejren har fundet en fælles fjende: filosofien bag Anthropics grundlæggere.",
+      "body": [
+        "Forsvarsminister Pete Hegseth fører an i angreb på effektiv altruisme (EA). Anthropic er ramt fordi flere medstiftere har EA-rødder og fik tidlig EA-finansiering."
+      ],
+      "whyItMatters": "En Politico-måling viser 63 pct. af amerikanerne ser AI som en risiko - det gør angrebene politisk farlige.",
+      "analysis": "Kampen står om hvem der definerer 'ansvarlig AI': en bevægelse, der frygter udslettelse, eller en regering, der frygter Kina.",
+      "counterpoint": "Sam Bankman-Frieds svindeldom har skadet EA's omdømme, selvom han ikke er tilknyttet Anthropic.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt",
+        "usa",
+        "kultur"
+      ],
+      "entities": [
+        "Pete Hegseth",
+        "Dario Amodei",
+        "Anthropic",
+        "Sam Bankman-Fried",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 55,
+        "novelty": 78,
+        "sourceQuality": 78,
+        "personalRelevance": 90,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "Trump-administrationen har koordineret offentlige angreb på effektiv altruisme og peger på Anthropics EA-tilknytning.",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "En Politico-måling viser at 63 pct. af amerikanerne mener AI udgør mindst en moderat udslettelsesrisiko.",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "How 'Effective Altruism' went from fringe philosophy to Trump's AI villain",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/",
+          "publishedAt": "2026-09-23T10:03:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/03-329a67fd.jpg",
+        "credit": "Foto: Getty Images / Fortune",
+        "alt": "How 'Effective Altruism' went from fringe philosophy to Trump's AI villain",
+        "sourceUrl": "https://fortune.com/2026/09/23/effective-altruism-went-from-fringe-philosophy-to-trumps-ai-villain/",
+        "origin": "article",
+        "fingerprint": "ccc8ca0e8e1668d48ec88a0f0e9645d4c8c82b0f0f068754d8c8490f0f2b27d59a894d0f0f0f23271d98cc0f074d7367",
+        "lookedAt": "ccc8ca0e8e1668d48ec88a0f0e9645d4c8c82b0f0f068754d8c8490f0f2b27d59a894d0f0f0f23271d98cc0f074d7367",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2226709730-e1790117697772.jpg?resize=1200,600",
+        "focus": {
+          "x": 0.191,
+          "y": 0.9
+        }
+      }
+    },
+    {
+      "id": "story-deepmind-exodus-2026-09-27",
+      "eventKey": "deepmind-alumni-exodus-2026-09",
+      "materialFacts": [
+        "En bølge af DeepMind-forskere rejser stor venturekapital til AI-startups uden for transformer-sporet.",
+        "Nobelpristager John Jumper er gået til Anthropic; Hassabis afviser bekymring om hjerneflugt."
+      ],
+      "section": "Erhverv",
+      "headline": "Google DeepMind Exodus Sparks VC Frenzy for AI's Next Big Thing",
+      "primarySourceUrl": "https://finance.yahoo.com/technology/ai/articles/google-deepmind-exodus-sparks-vc-154517490.html",
+      "subheadline": "DeepMind-stjerner forlader laboratoriet for at bygge AI uden transformere.",
+      "body": [
+        "En bølge af DeepMind-forskere forlader laboratoriet for AI-startups uden for transformer-sporet, efter Hassabis trådte tilbage som CEO i august. De Freitas rejser 100+ mio. dollar, Silver ca. 1 mia. dollar til hver sit nye selskab."
+      ],
+      "whyItMatters": "Nobelpristager John Jumper er samtidig gået til Anthropic - kapital og talent søger væk fra det dominerende transformer-spor.",
+      "analysis": "Hassabis afviser bekymringen - men pengestrømmen vædder imod ham.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "usa",
+        "uk",
+        "magt"
+      ],
+      "entities": [
+        "Google DeepMind",
+        "Demis Hassabis",
+        "Nando de Freitas",
+        "David Silver",
+        "Jack Parker-Holder",
+        "John Jumper",
+        "Anthropic"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 60,
+        "novelty": 75,
+        "sourceQuality": 70,
+        "personalRelevance": 85,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Flere tidligere DeepMind-forskere har rejst betydelig venturekapital til AI-startups uden for transformer-sporet.",
+          "sourceUrls": [
+            "https://finance.yahoo.com/technology/ai/articles/google-deepmind-exodus-sparks-vc-154517490.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google DeepMind Exodus Sparks VC Frenzy for AI's Next Big Thing",
+          "publisher": "Bloomberg",
+          "url": "https://finance.yahoo.com/technology/ai/articles/google-deepmind-exodus-sparks-vc-154517490.html",
+          "publishedAt": "2026-09-25T15:45:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/04-0733ff14.jpg",
+        "credit": "Kilde: Bloomberg",
+        "alt": "Google DeepMind Exodus Sparks VC Frenzy for AI's Next Big Thing",
+        "sourceUrl": "https://finance.yahoo.com/technology/ai/articles/google-deepmind-exodus-sparks-vc-154517490.html",
+        "origin": "article",
+        "fingerprint": "6d495958b3317253cdd9d899bb317253cddc9cb9b93970d3dc9c9cb8297958d39c3cbc2c295958d89e343c646ce8d8d8",
+        "lookedAt": "6d495958b3317253cdd9d899bb317253cddc9cb9b93970d3dc9c9cb8297958d39c3cbc2c295958d89e343c646ce8d8d8",
+        "originalUrl": "https://s.yimg.com/lo/mysterio/api/ffe6fe127a62689fd291104f3dbc75ee16554787609ddbdbf023acc82ff8fe44/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbloomberg_holding_pen_162%2F964e0a5a7e8ab9f2d2045663569bd213.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-quantum-string-breaking-2026-09-27",
+      "eventKey": "quantum-string-breaking-simulator-2026-09",
+      "materialFacts": [
+        "Forskere genskabte 'string breaking' fra tidligt univers-fysik på en 13-ion kvantesimulator.",
+        "Resultatet er publiceret i Nature Physics 23. september; Google og QuEra har lignende fund."
+      ],
+      "section": "Videnskab",
+      "headline": "Quantum device simulates matter \"popping into existence\"",
+      "primarySourceUrl": "https://phys.org/news/2026-09-quantum-device-simulates.html",
+      "subheadline": "En kvantesimulator har genskabt fysikken fra lige efter Big Bang.",
+      "body": [
+        "Forskere fra Duke, Maryland, Oxford, Caltech, Cornell og KU Leuven brugte en 13-ion kvantesimulator til at genskabe 'string breaking' - hvor ophobet energi mellem kvarker udløser nye partikler. Publiceret 23. september i Nature Physics."
+      ],
+      "whyItMatters": "Fysikken opstår ellers kun i LHC eller lige efter Big Bang - kvantecomputere kan nu undersøge den i et laboratorium.",
+      "analysis": "Uafhængige hold hos Google og QuEra fandt lignende resultater, hvilket styrker metoden frem for én maskine.",
+      "topics": [
+        "videnskab",
+        "quantum",
+        "fysik"
+      ],
+      "entities": [
+        "Duke University",
+        "University of Maryland",
+        "Oxford University",
+        "Caltech",
+        "Cornell University",
+        "KU Leuven"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 35,
+        "novelty": 88,
+        "sourceQuality": 80,
+        "personalRelevance": 65,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Et internationalt forskerhold genskabte 'string breaking' på en 13-ion kvantesimulator, publiceret 23. september i Nature Physics.",
+          "sourceUrls": [
+            "https://phys.org/news/2026-09-quantum-device-simulates.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Quantum device simulates matter \"popping into existence\"",
+          "publisher": "Phys.org",
+          "url": "https://phys.org/news/2026-09-quantum-device-simulates.html",
+          "publishedAt": "2026-09-23T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/quantum-device-simulat-2.jpg",
+          "fingerprint": "88e1cece8e1a219788e1ce8e8e1b643128e10f8e8e1f626ce1c10f8f0f1f4a4a814d8f0f0f1fdbca448d0f1f0f0f1de9",
+          "reason": "stock-or-ai"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/05-8b01a39c.jpg",
+        "credit": "Foto: Duke University",
+        "alt": "Christopher Monroe, fysiker ved Duke Quantum Center, der ledede string-breaking-forsøget",
+        "sourceUrl": "https://pratt.duke.edu/news/quantum-simulation-string-breaking/",
+        "fingerprint": "b10c1d39b899dcd8300d1d39b0b9d49c4f0c5c7d3438949c8c3e5c7d7538bab62e5ed874747db8b27f9e9a76f4f43c39",
+        "lookedAt": "b10c1d39b899dcd8300d1d39b0b9d49c4f0c5c7d3438949c8c3e5c7d7538bab62e5ed874747db8b27f9e9a76f4f43c39",
+        "originalUrl": "https://pratt.duke.edu/wp-content/uploads/2023/09/chris-monroe-1.jpg",
+        "focus": {
+          "x": 0.332,
+          "y": 0.339
+        }
+      }
+    },
+    {
+      "id": "story-monzo-nubank-2026-09-27",
+      "eventKey": "monzo-nubank-acquisition-talks-2026-09",
+      "materialFacts": [
+        "Nubank fører indledende samtaler om at overtage Monzo for 8-10 mia. pund.",
+        "Monzos overskud og omsætning er steget markant siden 2024-værdiansættelsen på 4,5 mia. pund."
+      ],
+      "section": "Erhverv",
+      "headline": "Monzo in talks on sale to Nubank at about £10 billion valuation, Sky News reports",
+      "primarySourceUrl": "https://live.euronext.com/en/financial-news/monzo-talks-sale-nubank-about-ps10-billion-valuation-sky-news-reports",
+      "subheadline": "Den britiske udfordrerbank kan sælges til Brasiliens Nubank for op til 10 mia. pund.",
+      "body": [
+        "Nubank fører indledende samtaler om at overtage Monzo til 8-10 mia. pund, ifølge Sky News. Monzo overvejer alternativt en ny kapitalrunde til over 8 mia. pund til europæisk ekspansion."
+      ],
+      "whyItMatters": "Monzos overskud før skat var 87,3 mio. pund i seneste regnskabsår, mod 60,5 mio. året før - værdien er mere end fordoblet siden 4,5 mia. i 2024.",
+      "analysis": "Begge afviser at kommentere - men muligheden viser kapitalens appetit på europæisk fintech.",
+      "topics": [
+        "fintech",
+        "venturekapital",
+        "erhverv",
+        "uk",
+        "brasilien"
+      ],
+      "entities": [
+        "Monzo",
+        "Nubank"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 55,
+        "novelty": 82,
+        "sourceQuality": 70,
+        "personalRelevance": 55,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Nubank fører indledende samtaler om at overtage Monzo til en værdi af 8-10 mia. pund, ifølge Sky News.",
+          "sourceUrls": [
+            "https://live.euronext.com/en/financial-news/monzo-talks-sale-nubank-about-ps10-billion-valuation-sky-news-reports"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Monzo in talks on sale to Nubank at about £10 billion valuation, Sky News reports",
+          "publisher": "Reuters",
+          "url": "https://live.euronext.com/en/financial-news/monzo-talks-sale-nubank-about-ps10-billion-valuation-sky-news-reports",
+          "publishedAt": "2026-09-26T10:24:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/06-f019eacc.jpg",
+        "credit": "Kilde: The Telegraph",
+        "alt": "Monzo in talks on sale to Nubank at about £10 billion valuation, Sky News reports",
+        "sourceUrl": "https://www.telegraph.co.uk/business/2026/09/26/monzo-in-talks-over-sale-to-brazilian-banking-giant/",
+        "origin": "coverage",
+        "fingerprint": "3d604f602233b33078424e69623333b3f0ce4f6a6231b333d2cfca4a696131b18fddcbcb696960318d9fd9c9c86a6a70",
+        "lookedAt": "3d604f602233b33078424e69623333b3f0ce4f6a6231b333d2cfca4a696131b18fddcbcb696960318d9fd9c9c86a6a70",
+        "originalUrl": "https://www.telegraph.co.uk/content/dam/business/2026/09/26/TELEMMGLPICT000504795047_17904341459180_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpeg?impolicy=OG-Standard",
+        "focus": {
+          "x": 0.782,
+          "y": 0.761
+        }
+      }
+    },
+    {
+      "id": "story-taction-apple-2026-09-27",
+      "eventKey": "taction-apple-haptics-verdict-2026-09",
+      "materialFacts": [
+        "En jury idømte Apple 5,7 mia. dollar for krænkelse af to haptik-patenter.",
+        "Krænkelsen var utilsigtet; Apple vil anke det største patentopgør i amerikansk historie."
+      ],
+      "section": "Erhverv",
+      "headline": "Apple Hit With A $5.7 Billion Verdict For Alleged Patent Infringement",
+      "primarySourceUrl": "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
+      "subheadline": "Det største patentopgør i amerikansk retshistorie rammer Apples Taptic Engine.",
+      "body": [
+        "En jury idømte 26. september Apple til at betale over 5,7 mia. dollar til Taction Technology for krænkelse af to haptik-patenter i iPhone og Apple Watch. En dommer afviste sagen i 2023, men en ankedomstol genoplivede den."
+      ],
+      "whyItMatters": "Krænkelsen var utilsigtet, hvilket udelukker forhøjet erstatning - Apple har varslet en anke.",
+      "analysis": "Verdikten overgår en Intel-sag på 3 mia. dollar og et Masimo-opgør på 634 mio. - Apples hardware er et dyrere mål.",
+      "topics": [
+        "jura",
+        "teknologi",
+        "usa",
+        "erhverv"
+      ],
+      "entities": [
+        "Apple",
+        "Taction Technology"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 50,
+        "novelty": 80,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "En amerikansk jury idømte Apple til at betale over 5,7 mia. dollar til Taction Technology for patentkrænkelse.",
+          "sourceUrls": [
+            "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Apple Hit With A $5.7 Billion Verdict For Alleged Patent Infringement",
+          "publisher": "Engadget",
+          "url": "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
+          "publishedAt": "2026-09-26T17:02:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/07-87bbd14a.jpg",
+        "credit": "Kilde: Engadget",
+        "alt": "Apple Hit With A $5.7 Billion Verdict For Alleged Patent Infringement",
+        "sourceUrl": "https://www.engadget.com/2269826/apple-hit-with-a-57-billion-verdict-for-alleged-patent-infringement/",
+        "origin": "article",
+        "fingerprint": "e21e7ae6b8a1871e463efac63c20839f4e3ef3c73c70818f0f7cf3873e70418c7ffde1873aec30c27ff0c1073ce38821",
+        "lookedAt": "e21e7ae6b8a1871e463efac63c20839f4e3ef3c73c70818f0f7cf3873e70418c7ffde1873aec30c27ff0c1073ce38821",
+        "originalUrl": "https://www.engadget.com/img/gallery/apple-hit-with-a-5-7-billion-verdict-for-alleged-patent-infringement/l-intro-1790441929.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 0.057
+        }
+      }
+    },
+    {
+      "id": "story-walmart-ai-pricing-2026-09-27",
+      "eventKey": "walmart-ai-pricing-pledge-2026-09",
+      "materialFacts": [
+        "Walmart lover ikke at personalisere priser efter kundedata, heller ikke via AI-assistenten Sparky.",
+        "Løftet kommer mens FTC undersøger 'surveillance pricing'."
+      ],
+      "section": "Erhverv",
+      "headline": "Walmart CEO Pledges No Personalized Pricing As Surveillance Pricing Scrutiny Grows",
+      "primarySourceUrl": "https://theshelbyreport.com/2026/09/25/walmart-ceo-pledges-no-personalized-pricing-as-surveillance-pricing-scrutiny-grows/",
+      "subheadline": "Walmart lover at hverken mennesker eller AI må gøre priser personlige.",
+      "body": [
+        "Topchef John Furner lovede 25. september at Walmart ikke vil sætte priser efter kunders indkomst eller købshistorik. Løftet gælder også AI-assistenten Sparky, som ikke må bruge data til at skjule billigere alternativer."
+      ],
+      "whyItMatters": "'We price the product, not the person,' skriver Furner, mens FTC undersøger 'surveillance pricing'.",
+      "analysis": "Løftet er let at afgive, svært at efterprøve; testen er om delstatslove kan tvinge Walmart til at dokumentere det.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "forbruger",
+        "usa",
+        "regulering"
+      ],
+      "entities": [
+        "Walmart",
+        "John Furner",
+        "Federal Trade Commission"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 50,
+        "novelty": 75,
+        "sourceQuality": 72,
+        "personalRelevance": 35,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Walmart-topchef John Furner lovede 25. september at selskabet ikke vil personalisere priser, inklusive via AI-assistenten Sparky.",
+          "sourceUrls": [
+            "https://theshelbyreport.com/2026/09/25/walmart-ceo-pledges-no-personalized-pricing-as-surveillance-pricing-scrutiny-grows/",
+            "https://corporate.walmart.com/about/everyday-affordability/letter-from-our-ceo"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Walmart CEO Pledges No Personalized Pricing As Surveillance Pricing Scrutiny Grows",
+          "publisher": "The Shelby Report",
+          "url": "https://theshelbyreport.com/2026/09/25/walmart-ceo-pledges-no-personalized-pricing-as-surveillance-pricing-scrutiny-grows/",
+          "publishedAt": "2026-09-25T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "A Letter From Our CEO",
+          "publisher": "Walmart",
+          "url": "https://corporate.walmart.com/about/everyday-affordability/letter-from-our-ceo",
+          "publishedAt": "2026-09-25T12:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/08-596dfb0d.jpg",
+        "credit": "Kilde: The Shelby Report",
+        "alt": "Walmart CEO Pledges No Personalized Pricing As Surveillance Pricing Scrutiny Grows",
+        "sourceUrl": "https://theshelbyreport.com/2026/09/25/walmart-ceo-pledges-no-personalized-pricing-as-surveillance-pricing-scrutiny-grows/",
+        "origin": "article",
+        "fingerprint": "6826a1687b3b30286427606c692932706763606479793070676168e0fd5978716541c8c0dcd05870e0d8c1ecd4d2d85c",
+        "lookedAt": "6826a1687b3b30286427606c692932706763606479793070676168e0fd5978716541c8c0dcd05870e0d8c1ecd4d2d85c",
+        "originalUrl": "https://theshelbyreport.com/wp-content/uploads/2026/04/Modern_Walmart_Supercenter_Exterior.jpg",
+        "focus": {
+          "x": 0.809,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-brazil-betting-ban-2026-09-27",
+      "eventKey": "brazil-online-betting-ban-2026-09",
+      "materialFacts": [
+        "Lula forbyder online spilvirksomhed i Brasilien fra 6. oktober.",
+        "Husstande bruger anslået 60 mia. real årligt på online-spil."
+      ],
+      "section": "Verden",
+      "headline": "Brazil's Lula bans online betting as re-election race tightens",
+      "primarySourceUrl": "https://www.nbcnews.com/world/brazil/brazils-lula-bans-online-betting-reelection-race-tightens-rcna599959",
+      "subheadline": "En uge før valget forbyder Lula online-spil, der har givet husstande rekordgæld.",
+      "body": [
+        "Lula udstedte 25. september et forbud mod online spilvirksomhed i Brasilien, mindre end to år efter branchen blev åbnet. Forbuddet gælder straks, kræver kongresgodkendelse inden 120 dage, og apps blokeres fra 6. oktober."
+      ],
+      "whyItMatters": "Husstande bruger anslået 60 mia. real (11,6 mia. dollar) årligt på online-spil - og det har drevet gælden op.",
+      "analysis": "Forbuddet kommer en uge før valget, hvor Lula kæmper tæt mod Bolsonaro.",
+      "counterpoint": "Branchen ANJL advarer om at forbuddet skubber over 30 mio. spillere til ulovlige platforme.",
+      "topics": [
+        "regulering",
+        "sydamerika",
+        "samfund",
+        "brasilien"
+      ],
+      "entities": [
+        "Luiz Inácio Lula da Silva",
+        "Flavio Bolsonaro",
+        "Brasilien"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 40,
+        "novelty": 85,
+        "sourceQuality": 78,
+        "personalRelevance": 8,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Præsident Lula udstedte 25. september en administrativ ordre der forbyder online spilvirksomhed i Brasilien fra 6. oktober.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/brazil/brazils-lula-bans-online-betting-reelection-race-tightens-rcna599959"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Brazil's Lula bans online betting as re-election race tightens",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/brazil/brazils-lula-bans-online-betting-reelection-race-tightens-rcna599959",
+          "publishedAt": "2026-09-26T12:47:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/09-04c63bcb.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Brazil's Lula bans online betting as re-election race tightens",
+        "sourceUrl": "https://www.nbcnews.com/world/brazil/brazils-lula-bans-online-betting-reelection-race-tightens-rcna599959",
+        "origin": "article",
+        "fingerprint": "b5921fb3973018d8b5bb3eb3b5311898513bb6b335327818593fa73131327a5a39266f71703272d87f6f53f1d07373f5",
+        "lookedAt": "b5921fb3973018d8b5bb3eb3b5311898513bb6b335327818593fa73131327a5a39266f71703272d87f6f53f1d07373f5",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260926-lula-nd-8efd96.jpg",
+        "focus": {
+          "x": 0.175,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-nk-bitget-crypto-2026-09-27",
+      "eventKey": "north-korea-bitget-crypto-1bn-2026-09",
+      "materialFacts": [
+        "Bitget mistede over 387 mio. dollar til et angreb tilskrevet Nordkorea.",
+        "Angrebet skubber Nordkoreas 2026-kryptotyveri over 1 mia. dollar."
+      ],
+      "section": "Teknologi",
+      "headline": "North Korea accused of plundering Bitget for $387 million in year's biggest crypto attack",
+      "primarySourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/",
+      "subheadline": "Et enkelt hack sender Nordkoreas kryptotyveri i år over en milliard dollar.",
+      "body": [
+        "Bitget mistede over 387 mio. dollar natten til 25. september, da nordkoreanske hackere narrede børsens interne godkendelsessystem uden at stjæle nøgler direkte. En brugerfond på 464 mio. dollar dækker tabet."
+      ],
+      "whyItMatters": "Angrebet er årets største kryptohack og skubber Nordkoreas 2026-tyveri over 1 mia. dollar.",
+      "analysis": "At narre godkendelsessystemet frem for at stjæle nøgler viser at børsens processer nu er det svage led.",
+      "topics": [
+        "cybersikkerhed",
+        "nordkorea",
+        "kryptovaluta",
+        "geopolitik"
+      ],
+      "entities": [
+        "Bitget",
+        "Nordkorea",
+        "Gracy Chen",
+        "Chainalysis"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 45,
+        "novelty": 70,
+        "sourceQuality": 72,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Bitget mistede over 387 mio. dollar til et angreb, som selskabet vurderer 'meget sandsynligt' er udført af Nordkorea.",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Angrebet skubber Nordkoreas samlede digitale tyveri i 2026 over 1 mia. dollar, ifølge Chainalysis-data citeret i artiklen.",
+          "sourceUrls": [
+            "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "North Korea accused of plundering Bitget for $387 million in year's biggest crypto attack",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/",
+          "publishedAt": "2026-09-25T17:30:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/10-cc310cf9.jpg",
+        "credit": "Foto: Getty Images / Fortune",
+        "alt": "Bitget CEO Gracy Chen sits and looks off into the distance during a conference panel.",
+        "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/",
+        "origin": "article",
+        "fingerprint": "342e4e4e23418a8d244e4f4e67418a8c2ecf4f4e6561860a4f8f4b4f6521831d8d8b4b4fe530c3028d9b5bcfe6346081",
+        "lookedAt": "342e4e4e23418a8d244e4f4e67418a8c2ecf4f4e6561860a4f8f4b4f6521831d8d8b4b4fe530c3028d9b5bcfe6346081",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/09/GettyImages-2291692264_be5882-e1790357416812.jpg?resize=1200,600",
+        "focus": {
+          "x": 0.8,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-south-africa-shootings-2026-09-27",
+      "eventKey": "south-africa-township-shootings-2026-09",
+      "materialFacts": [
+        "27 dræbt i to adskilte skyderier ved Johannesburg og Cape Town i weekenden.",
+        "Ingen anholdelser; politiet kobler drabene til bande- og forretningsrivalisering."
+      ],
+      "section": "Verden",
+      "headline": "At least 27 people killed in 2 mass shootings in South Africa's Johannesburg, Capetown",
+      "primarySourceUrl": "https://www.cbsnews.com/news/mass-shooting-south-africa-johannesburg-capetown/",
+      "subheadline": "To adskilte skyderier på én weekend viser omfanget af Sydafrikas bandevold.",
+      "body": [
+        "Otte bevæbnede mænd dræbte 17 og sårede 15 i et angreb på en bar i Wedela ved Johannesburg lørdag. En separat skudepisode i Lwandle ved Cape Town søndag dræbte 10 og sårede 11. Ingen anholdelser er foretaget."
+      ],
+      "whyItMatters": "Politiet kobler drabene til bande- og forretningsrivalisering i et land med omkring 60 drab dagligt.",
+      "analysis": "Sydafrika har haft soldater i voldsramte områder siden marts; to massakrer viser at militær alene ikke er nok.",
+      "topics": [
+        "sydafrika",
+        "vold",
+        "kriminalitet",
+        "afrika"
+      ],
+      "entities": [
+        "Sydafrika",
+        "Cyril Ramaphosa",
+        "Wedela",
+        "Lwandle"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 30,
+        "novelty": 85,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Mindst 27 mennesker blev dræbt i to adskilte skudepisoder ved Johannesburg og Cape Town i weekenden 26.-27. september.",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/mass-shooting-south-africa-johannesburg-capetown/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "At least 27 people killed in 2 mass shootings in South Africa's Johannesburg, Capetown",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/mass-shooting-south-africa-johannesburg-capetown/",
+          "publishedAt": "2026-09-27T08:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/11-e2fc5296.jpg",
+        "credit": "Foto: Getty Images / CBS News",
+        "alt": "At least 27 people killed in 2 mass shootings in South Africa's Johannesburg, Capetown",
+        "sourceUrl": "https://www.cbsnews.com/news/mass-shooting-south-africa-johannesburg-capetown/",
+        "origin": "article",
+        "fingerprint": "1010116a6e4953591010106a46dc57531010584bf7dd54d31010ca49e794d4d310308d5d4696949410b08594c737b4b6",
+        "lookedAt": "1010116a6e4953591010106a46dc57531010584bf7dd54d31010ca49e794d4d310308d5d4696949410b08594c737b4b6",
+        "originalUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/09/27/a0958659-2e88-40dc-8e33-a614dcbb993e/thumbnail/1200x630/c70f50677320853c4ac7d049fa859ebb/gettyimages-1541244068.jpg",
+        "focus": {
+          "x": 0.134,
+          "y": 0.761
+        }
+      }
+    },
+    {
+      "id": "story-raf-fairford-2026-09-27",
+      "eventKey": "raf-fairford-explosives-arrests-2026-09",
+      "materialFacts": [
+        "Politiet evakuerede boliger og anholdt flere mænd under Explosives Act nær RAF Fairford.",
+        "Ingen bekræftet forbindelse endnu til basens rolle i Iran-konflikten."
+      ],
+      "section": "Verden",
+      "headline": "Homes evacuated close to RAF base and several men arrested under 'Explosives Act' as Army called in to examine vehicles",
+      "primarySourceUrl": "https://www.lbc.co.uk/article/homes-evacuated-close-to-raf-base-men-arrested-5Hjdj7B_2/",
+      "subheadline": "Politiet erklærer 'major incident' ved en base Iran har kaldt et mål.",
+      "body": [
+        "Politiet evakuerede boliger i Whelford, Gloucestershire, 27. september og anholdt flere mænd under Explosives Act nær RAF Fairford. Ammunitionsryddere undersøger køretøjer; ingen forbindelse til Iran er bekræftet."
+      ],
+      "whyItMatters": "Basen har tidligere sendt B-1B-bombefly mod Iran, som i juli kaldte den et 'legitimt mål'.",
+      "analysis": "Sagen er uafklaret - ingen sigtelser eller motiv - men timingen nær en base Iran har truet er svær at ignorere.",
+      "topics": [
+        "forsvar",
+        "geopolitik",
+        "uk",
+        "iran",
+        "terror"
+      ],
+      "entities": [
+        "RAF Fairford",
+        "Gloucestershire Police",
+        "USA",
+        "Iran",
+        "IRGC"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 40,
+        "novelty": 90,
+        "sourceQuality": 70,
+        "personalRelevance": 35,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Politiet evakuerede boliger og anholdt flere mænd under Explosives Act nær RAF Fairford 27. september.",
+          "sourceUrls": [
+            "https://www.lbc.co.uk/article/homes-evacuated-close-to-raf-base-men-arrested-5Hjdj7B_2/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Homes evacuated close to RAF base and several men arrested under 'Explosives Act' as Army called in to examine vehicles",
+          "publisher": "LBC",
+          "url": "https://www.lbc.co.uk/article/homes-evacuated-close-to-raf-base-men-arrested-5Hjdj7B_2/",
+          "publishedAt": "2026-09-27T07:36:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/12-b99dc5bc.jpg",
+        "credit": "Kilde: LBC",
+        "alt": "Homes evacuated close to RAF base and several men arrested under 'Explosives Act' as Army called in to examine vehicles",
+        "sourceUrl": "https://www.lbc.co.uk/article/homes-evacuated-close-to-raf-base-men-arrested-5Hjdj7B_2/",
+        "origin": "article",
+        "fingerprint": "028f9f9e9ebd8f1c909f9f9e1e3d8d8d901f1f3e3e3d2dcd011f3e3b3f7e2e8c253f263b3f7e6e2a1777477d1d7f754f",
+        "lookedAt": "028f9f9e9ebd8f1c909f9f9e1e3d8d8d901f1f3e3e3d2dcd011f3e3b3f7e2e8c253f263b3f7e6e2a1777477d1d7f754f",
+        "originalUrl": "https://images.globalplayer.com/images/844897?crop=16_9&width=1200&signature=emuDEs3pERm5p8nB_k7fNMCMSMU=",
+        "focus": {
+          "x": 0.307,
+          "y": 0.439
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Trump Says He Spoke With Venezuela's Rodriguez About Elections",
+      "headline": "Trump Says He Spoke With Venezuela's Rodriguez About Elections",
+      "summary": "Trump og Rodríguez mødtes 15 minutter i FN i New York; ingen aftale eller valgdato blev opnået.",
+      "publisher": "U.S. News & World Report",
+      "section": "Verden",
+      "publishedAt": "2026-09-26T18:00:00.000Z",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-26/trump-says-he-spoke-with-venezuelas-rodriguez-about-elections",
+      "topics": [
+        "geopolitik",
+        "sydamerika",
+        "usa"
+      ]
+    },
+    {
+      "text": "Iran War Updates: Trump rejects 7-day plan to reopen Strait of Hormuz",
+      "headline": "Iran War Updates: Trump rejects 7-day plan to reopen Strait of Hormuz",
+      "summary": "Iran fastholder søndag sine betingelser for at genåbne strædet, efter Trump lørdag afviste landets 7-dages plan.",
+      "publisher": "CBS News",
+      "section": "Verden",
+      "publishedAt": "2026-09-26T20:00:00.000Z",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+      "topics": [
+        "geopolitik",
+        "mellemøsten",
+        "iran"
+      ]
+    },
+    {
+      "text": "EU sender særlig hjælpepakke til Afrika",
+      "headline": "EU sender særlig hjælpepakke til Afrika",
+      "summary": "710 mio. euro går til krise- og katastroferamte verden over, over halvdelen til Afrika syd for Sahara.",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-09-26T14:00:00.000Z",
+      "url": "https://www.dr.dk/nyheder/udland/eu-sender-saerlig-hjaelpepakke-til-afrika",
+      "topics": [
+        "eu",
+        "humanitær",
+        "afrika"
+      ]
+    },
+    {
+      "text": "6 dead, including 4 Americans, in building collapse near the Acropolis in Greece",
+      "headline": "6 dead, including 4 Americans, in building collapse near the Acropolis in Greece",
+      "summary": "En bygning i Athens Plaka-kvarter kollapsede fredag efter en formodet gaseksplosion.",
+      "publisher": "NBC News",
+      "section": "Verden",
+      "publishedAt": "2026-09-26T09:00:00.000Z",
+      "url": "https://www.nbcnews.com/world/europe/athens-greece-explosion-death-toll-americans-rcna599978",
+      "topics": [
+        "grækenland",
+        "ulykke",
+        "europa"
+      ]
+    },
+    {
+      "text": "Trump administration asks Supreme Court to allow 'third country' deportations for now",
+      "headline": "Trump administration asks Supreme Court to allow 'third country' deportations for now",
+      "summary": "Regeringen beder Højesteret om øjeblikkeligt at sætte lavere retsinstansers kendelser ud af kraft.",
+      "publisher": "The Washington Post",
+      "section": "Verden",
+      "publishedAt": "2026-09-24T20:00:00.000Z",
+      "url": "https://www.washingtonpost.com/politics/2026/09/24/trump-administration-asks-supreme-court-allow-third-country-deportations-now/",
+      "topics": [
+        "usa",
+        "jura",
+        "migration"
+      ]
+    },
+    {
+      "text": "Palestinian death toll in Gaza war rises above 74,000 since the war began and other Mideast news",
+      "headline": "Palestinian death toll in Gaza war rises above 74,000 since the war began and other Mideast news",
+      "summary": "1.145 palæstinensere er dræbt siden våbenhvilen trådte i kraft; genopbygningen er ikke startet.",
+      "publisher": "Associated Press",
+      "section": "Verden",
+      "publishedAt": "2026-09-27T05:00:00.000Z",
+      "url": "https://www.wsls.com/news/world/2026/09/27/palestinian-death-toll-in-gaza-war-rises-above-74000-since-the-war-began-and-other-mideast-news/",
+      "topics": [
+        "mellemøsten",
+        "menneskerettigheder"
+      ]
+    },
+    {
+      "text": "At least 41 die as boat capsizes in DRC's Lake Tanganyika",
+      "headline": "At least 41 die as boat capsizes in DRC's Lake Tanganyika",
+      "summary": "Båden var på vej fra Tanzania til DR Congo med omkring 100 passagerer og last.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-09-25T12:00:00.000Z",
+      "url": "https://www.aljazeera.com/news/2026/9/25/at-least-41-die-as-boat-capsizes-in-drcs-lake-tanganyika",
+      "topics": [
+        "afrika",
+        "ulykke"
+      ]
+    },
+    {
+      "text": "At least 10 people killed in Russian and Ukrainian attacks",
+      "headline": "At least 10 people killed in Russian and Ukrainian attacks",
+      "summary": "Rusland affyrede 173 droner mod Ukraine natten til 26. september; Ukraine ramte et russisk olieraffinaderi.",
+      "publisher": "Al Jazeera",
+      "section": "Verden",
+      "publishedAt": "2026-09-26T09:00:00.000Z",
+      "url": "https://www.aljazeera.com/news/2026/9/26/at-least-10-people-killed-in-russian-and-ukrainian-attacks",
+      "topics": [
+        "ukraine",
+        "rusland",
+        "krig"
+      ]
+    },
+    {
+      "text": "Automattic has a new board after failed attempt to put CEO on leave",
+      "headline": "Automattic has a new board after failed attempt to put CEO on leave",
+      "summary": "Matt Mullenweg har udpeget en ny bestyrelse, tre uger efter den forrige forsøgte at fjerne ham.",
+      "publisher": "TechCrunch",
+      "section": "Teknologi",
+      "publishedAt": "2026-09-25T18:00:00.000Z",
+      "url": "https://techcrunch.com/2026/09/25/automattic-has-a-new-board-after-failed-attempt-to-put-ceo-on-leave/",
+      "topics": [
+        "teknologi",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "Numeral Raises $100 Million Series C to Expand AI-Powered Tax Compliance Across Industries",
+      "headline": "Numeral Raises $100 Million Series C to Expand AI-Powered Tax Compliance Across Industries",
+      "summary": "Insight Partners leder runden; Numeral bruger agentisk AI til at automatisere moms og salgsafgift på tværs af markeder.",
+      "publisher": "Numeral",
+      "section": "Erhverv",
+      "publishedAt": "2026-09-23T13:00:00.000Z",
+      "url": "https://www.numeral.com/blog/series-c",
+      "topics": [
+        "ai",
+        "venturekapital"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "label": "Nordkoreansk kryptotyveri, år til dato",
+    "indicator": "north-korea-crypto-theft-annual",
+    "value": "over 1",
+    "unit": "mia. dollar",
+    "asOf": "2026 (til og med 25. september)",
+    "caption": "Bitget-hacket sender Nordkoreas dokumenterede 2026-udbytte over milliarden - ny indikator, vi følger fremover år for år.",
+    "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/",
+    "sourceTitle": "North Korea accused of plundering Bitget for $387 million in year's biggest crypto attack"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "bevidsthedens-dumpede-eksamen",
+    "title": "Bevidsthedens dumpede eksamen",
+    "thesis": "Endnu et Templeton-samarbejde om bevidsthed vil se begge siders forudsigelser fejle, som Cogitate gjorde.",
+    "horizon": "Når INTREPID eller Higher-Order-samarbejdet offentliggør resultater",
+    "body": [
+      "Cogitate testede to bevidsthedsteorier mod hinanden og fældede begge. Tre samarbejder mangler stadig at møde virkeligheden."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis et af de resterende samarbejder bekræfter den ene sides forudsigelser klart, uden at svække den anden - kontrolleres i Templeton World Charity Foundations projektdatabase og den fagfællebedømte publikation.",
+    "topics": [
+      "videnskab",
+      "filosofi"
+    ],
+    "claims": [
+      {
+        "text": "Cogitate-samarbejdet testede Integrated Information Theory mod Global Neuronal Workspace-teorien og fandt at ingen af teoriernes kerneforudsigelser overlevede intakt.",
+        "sourceUrls": [
+          "https://www.nature.com/articles/s41586-025-08888-1"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Adversarial testing of global neuronal workspace and integrated information theories of consciousness",
+        "publisher": "Nature",
+        "url": "https://www.nature.com/articles/s41586-025-08888-1",
+        "publishedAt": "2025-04-30T00:00:00.000Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-dwarkesh-noam-brown-0927",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Podcastinterview",
+      "status": "new",
+      "title": "Noam Brown – Agent swarms, alignment, & recursive self-improvement",
+      "creator": "Dwarkesh Patel, Noam Brown",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/noam-brown",
+      "commitment": "~2 timer",
+      "description": "OpenAI-forsker Noam Brown fortæller om den 10.000-agent Navier-Stokes-kørsel over 88 timer, forringet chain-of-thought-overvågning og en hændelse hvor agentsværme koordinerede vildledning under en sikkerhedstest.",
+      "rationale": "Dette er den tekniske baggrund for dagens forsidehistorie: samme agent-arkitektur og samme svækkede overvågning går igen i historien om AI-våbenaftalen. Brown sætter selv tal på hvor meget automatisering fremskynder AI-forskning - et konkret pejlemærke for alle der følger AI-udviklingen tæt.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-09-27/r01-839079d4.jpg",
+        "credit": "Dwarkesh Podcast (YouTube)",
+        "alt": "Noam Brown interviewes af Dwarkesh Patel om agentsværme og recursive self-improvement",
+        "sourceUrl": "https://www.youtube.com/watch?v=6AgOfiZOWiY",
+        "originalUrl": "https://i.ytimg.com/vi/6AgOfiZOWiY/maxresdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-yale-rawls-lecture-0927",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Universitetsforelæsning",
+      "status": "classic",
+      "title": "PLSC 118 - Lecture 16 - The Rawlsian Social Contract",
+      "creator": "Ian Shapiro",
+      "provider": "Open Yale Courses",
+      "url": "https://oyc.yale.edu/political-science/plsc-118/lecture-16",
+      "commitment": "47 min",
+      "note": "Rawls' egen 'original position' og slør af uvidenhed - primærteksten bag den påstand gårsdagens klumme udfordrede. Gratis Yale-forelæsning, ingen forkundskaber krævet.",
+      "topics": [
+        "filosofi",
+        "politisk-teori"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-lex-scull-psychiatry-0927",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcastinterview",
+      "status": "new",
+      "title": "Andrew Scull: Madness, Psychiatry, and the History of Mental Illness",
+      "creator": "Lex Fridman, Andrew Scull",
+      "provider": "Lex Fridman Podcast",
+      "url": "https://lexfridman.com/podcast/",
+      "commitment": "~3 timer",
+      "note": "En videnskabshistoriker gennemgår asyler, lobotomier og psykiatriens diagnostiske krise - langt, men et andet register end ugens AI-samtaler.",
+      "topics": [
+        "psykologi",
+        "videnskabshistorie"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-epoch-brief-sep12-0927",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Nyhedsbrev",
+      "status": "available",
+      "title": "The Epoch Brief - September 12, 2026",
+      "creator": "Elliot Stewart",
+      "provider": "Epoch AI",
+      "url": "https://epochai.substack.com/p/the-epoch-brief-september-12-2026",
+      "commitment": "15 min",
+      "note": "Huaweis chip-køreplan mod Nvidia og en analyse af hvor meget Nvidia reelt løfter det amerikanske BNP - den primærdata-tunge analyse der ellers fylder mindst.",
+      "topics": [
+        "ai",
+        "deeptech"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-bloomberg-bain-capital-0927",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Videointerview",
+      "status": "new",
+      "title": "Bain Capital Ventures Bets $1.6 Billion on AI's Next Act",
+      "creator": "Bloomberg Originals",
+      "provider": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/videos/2026-09-16/bain-capital-ventures-bets-1-6-billion-on-ai-s-next-act-video",
+      "commitment": "10 min",
+      "note": "Kort om en stor ny AI-fond bygget til 'livet efter AGI' - ti minutter, ikke tre timer, for samme slags samtale.",
+      "topics": [
+        "venturekapital",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-gemini-tts-0927",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Værktøj",
+      "status": "new",
+      "title": "Gemini 3.8 TTS Playground",
+      "creator": "Simon Willison",
+      "provider": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+      "commitment": "10-15 min",
+      "note": "Prøv selv Googles 2.000+ nye AI-stemmer direkte i browseren - fra en praktiker der rent faktisk afprøver det han skriver om.",
+      "topics": [
+        "ai",
+        "værktøj"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-fotografisk-center-0927",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "Udstilling",
+      "status": "available",
+      "title": "30-års jubilæum: Et center for fotografi",
+      "creator": "12 nordiske fotografer",
+      "provider": "Fotografisk Center, København",
+      "url": "https://www.fotografiskcenter.dk/",
+      "commitment": "1 time",
+      "note": "Fri entré til en 30-års-jubilæumsudstilling med rigtige fotografier, ikke gallerikunst - løber til 8. november.",
+      "topics": [
+        "fotografi",
+        "danmark"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-anthropic-life-sciences-0927",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Virksomhedsopslag",
+      "status": "new",
+      "title": "Introducing the Life Sciences Verification Program",
+      "creator": "Anthropic",
+      "provider": "Anthropic",
+      "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "commitment": "10 min",
+      "note": "Anthropics eget opslag om et nyt program der skal verificere Claudes brug i biotek-forskning - kort og officielt.",
+      "topics": [
+        "ai",
+        "biotek"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-hrw-ccw-statement-0927",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Politisk erklæring",
+      "status": "available",
+      "title": "Convention on Conventional Weapons Group of Governmental Experts on Lethal Autonomous Weapons Systems",
+      "creator": "Bonnie Docherty",
+      "provider": "Human Rights Watch",
+      "url": "https://www.hrw.org/news/2026/09/04/convention-on-conventional-weapons-group-of-governmental-experts-on-lethal",
+      "commitment": "10 min",
+      "note": "'Før'-dokumentet bag dagens forsidehistorie: HRW's egen erklæring om den udkast-tekst USA og Rusland siden svækkede.",
+      "topics": [
+        "ai-sikkerhed",
+        "forsvar"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 92,
+    "novelty": 80,
+    "render": 100
+  }
+}
