@@ -57,6 +57,14 @@
       "horizon": "Juli 2031, aflaest i PRIS01",
       "falsifier": "Afstanden mellem tjenester og varer i PRIS01 er uaendret eller mindre i juli 2031 end 11,5 procentpoint. Tesen svaekkes ogsaa, hvis frisoer, boernepasning og haandvaerkerarbejde holder op med at stige hurtigere end det samlede indeks tre aar i traek. Kontrolleres i Danmarks Statistiks tabel PRIS01.",
       "status": "open"
+    },
+    {
+      "date": "2026-09-28",
+      "slug": "rising-star-begravelsen",
+      "claim": "Påstanden om, at Homo naledi bevidst begravede sine døde i Rising Star-hulesystemet, vil fortsat mangle videnskabelig konsensus i 2030, fordi feltarbejde i en næsten utilgængelig hule ikke kan levere den uafhængige efterprøvning, en så usædvanlig påstand kræver.",
+      "horizon": "2030, når feltet har haft tid til uafhængige udgravninger",
+      "falsifier": "Et hold uden bånd til det oprindelige team udgraver et sammenligneligt fund i Rising Star-systemet og bekræfter samme begravelsesmønster inden 2030, eller fagfællebedømmelsen når reel enighed, i den ene eller anden retning, inden da. Kontrolleres i peer-reviewed litteratur (eLife og efterfølgende replikationsforsøg).",
+      "status": "open"
     }
   ]
 }
