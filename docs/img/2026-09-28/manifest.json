@@ -1,0 +1,227 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-09-28",
+  "generatedAt": "2026-09-28T05:55:23.445Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-openai-anthropic-ai-incidents-20260928",
+      "headline": "OpenAI, Anthropic Probe Tens of Thousands of AI Security Incidents",
+      "source": "https://image.cnbcfm.com/api/v1/image/108367086-1790191953634-gettyimages-2296171253-UNGA_2026.jpeg?v=1790192037&w=1920&h=1080",
+      "article": "https://www.iphoneincanada.ca/2026/09/27/openai-anthropic-probe-tens-of-thousands-of-ai-security-incidents/",
+      "hosted": "01-031b38b9.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 186394,
+      "out": "1440x1080",
+      "bytes": 137966,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.307,
+        "y": 0.993
+      },
+      "fetchedAt": "2026-09-28T05:55:23.941Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-trump-amodei-dinner-20260928",
+      "headline": "Anthropic CEO Amodei to have dinner with Trump at White House",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2d4iL6.img",
+      "article": "https://www.aljazeera.com/economy/2026/9/28/anthropic-ceo-amodei-to-have-dinner-with-trump-at-white-house",
+      "hosted": "02-6465c09a.jpg",
+      "srcSize": "1366x768",
+      "srcFormat": "jpeg",
+      "srcBytes": 103851,
+      "out": "1152x768",
+      "bytes": 72516,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.218,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-28T05:55:24.270Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-china-nvidia-rtx-approval-20260928",
+      "headline": "China reportedly may let Alibaba and ByteDance buy new Nvidia chips",
+      "source": "https://cdn.wccftech.com/wp-content/uploads/2026/09/nvidia-rtx-pro-5500.jpg",
+      "article": "https://thenextweb.com/news/china-alibaba-bytedance-nvidia-rtx-pro-5500",
+      "hosted": "04-8d28014e.jpg",
+      "srcSize": "1200x1200",
+      "srcFormat": "jpeg",
+      "srcBytes": 175424,
+      "out": "1200x800",
+      "bytes": 28167,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.943
+      },
+      "fetchedAt": "2026-09-28T05:55:25.049Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-precision-neuroscience-seriesd-20260928",
+      "headline": "Precision Neuroscience Raises $250 Million Series D To Advance Brain-Computer Interface Technology",
+      "source": "https://static01.nyt.com/images/2026/09/24/business/24db-precision-array/24db-precision-array-facebookJumbo.jpg",
+      "article": "https://pulse2.com/precision-neuroscience-raises-250-million-series-d-to-advance-brain-computer-interface-technology/",
+      "hosted": "05-fb6caf6f.jpg",
+      "srcSize": "1050x549",
+      "srcFormat": "webp",
+      "srcBytes": 24236,
+      "out": "823x549",
+      "bytes": 25682,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.268,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-09-28T05:55:25.267Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-ethiopia-tigray-war-20260928",
+      "headline": "Fighting raises conflict fears in Ethiopia",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/09/image-1790476639.jpg?resize=1634%2C1080&quality=80",
+      "article": "https://www.taipeitimes.com/News/world/archives/2026/09/26/2003864935",
+      "hosted": "06-5276ea55.jpg",
+      "srcSize": "1634x1080",
+      "srcFormat": "webp",
+      "srcBytes": 125466,
+      "out": "1600x1067",
+      "bytes": 157597,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.866,
+        "y": 0.832
+      },
+      "fetchedAt": "2026-09-28T05:55:25.656Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-spacex-starship-orbital-20260928",
+      "headline": "SpaceX pins hopes on Starship's first orbital test launch",
+      "source": "https://s7d2.scene7.com/is/image/TWCNews/09-27-2026_Starship_13_Test_Flight_Part_02",
+      "article": "https://mynews13.com/fl/orlando/space/2026/09/27/spacex-pins-hopes-on-starship-s-first-orbital-test-launch",
+      "hosted": "07-92307ef9.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 119830,
+      "out": "1080x720",
+      "bytes": 85497,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.571,
+        "y": 0.804
+      },
+      "fetchedAt": "2026-09-28T05:55:25.934Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-us-china-trade-truce-20260928",
+      "headline": "U.S. and China agree to extend trade truce through Jan. 10, Bessent says",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-08/260824-scott-bessent-ew-1209p-adc4a3.jpg",
+      "article": "https://www.nbcnews.com/business/economy/us-china-extend-trade-truce-trump-rcna599525",
+      "hosted": "08-6815b0aa.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 79548,
+      "out": "945x630",
+      "bytes": 53003,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.764,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-28T05:55:26.183Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-libya-sharara-blockade-20260928",
+      "headline": "Libya's Largest Oilfield Hit by New Armed Group Blockade",
+      "source": "https://images.euronews.com/articles/stories/09/92/31/19/1200x675_cmsv2_facf181d-7940-5e47-96d3-a4a6e58eca3f-9923119.jpg",
+      "article": "https://oilprice.com/Latest-Energy-News/World-News/Libyas-Largest-Oilfield-Hit-by-New-Armed-Group-Blockade.html",
+      "hosted": "10-c0995865.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 25670,
+      "out": "1012x675",
+      "bytes": 43987,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-28T05:55:26.492Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-ukraine-books-destroyed-20260928",
+      "headline": "Rusland har bombet over 13 millioner bøger til aske i Ukraine på blot to måneder",
+      "source": "https://asset.dr.dk/imagemanager/magic?server=api.dr.dk&file=%2Fodacache%2Fapi%2FPublication%2FImage%2Furn%3Adr%3Aod3%3Aclippublication%3A6ab8091cd14f160001889965%3FimageId%3D98dcd0c9-e6a7-4003-b5d6-d5e9476a2c5b&im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/kultur/rusland-har-bombet-over-13-millioner-boeger-til-aske-i-ukraine-paa-blot-maaneder",
+      "hosted": "11-3f543d2f.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 67311,
+      "out": "1012x675",
+      "bytes": 88228,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-28T05:55:26.819Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-kong-frederik-portraet-20260928",
+      "headline": "'Grimt', 'en ommer' og 'dragende': Nyt portræt af kong Frederik deler vandene",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/pf4ihpag/frederik-10-riddersalen-14-asb-frederiksborg.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/kultur/grimt-en-ommer-og-dragende-nyt-portraet-af-kong-frederik-deler-vandene",
+      "hosted": "12-2d69932a.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 259877,
+      "out": "1012x675",
+      "bytes": 143810,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.37,
+        "y": 1
+      },
+      "fetchedAt": "2026-09-28T05:55:27.255Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-infleqtion-zero-to-quantum-2026-09-28",
+      "headline": "Zero to Quantum in 60 Seconds",
+      "source": "https://img.youtube.com/vi/TdJSMra_qz0/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=TdJSMra_qz0",
+      "hosted": "r01-c9317b00.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 157902,
+      "out": "1280x720",
+      "bytes": 102260,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-09-28T05:55:27.464Z"
+    }
+  ]
+}
