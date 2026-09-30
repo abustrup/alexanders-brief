@@ -248,8 +248,14 @@ jobs:
         env:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
         run: |
+          # EFFORT LOWERED TO medium, 2026-09-30, at Alexander's request to spend fewer tokens. The model
+          # here is claude-sonnet-5, whose default is high [docs: code.claude.com/docs/en/model-config],
+          # so this is a real reduction. What it does and does not buy: measured on 11 update runs, about
+          # two thirds of a run's cost is re-reading the conversation on each of ~120 steps, and only
+          # ~14% is output, so expect a modest saving, not a halving. Judge it by updateRuns[].cost.
+          # REVERT: delete the --effort line. To go further, low; to restore, high.
           claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" \
-            --output-format json --no-session-persistence --permission-mode acceptEdits \
+            --output-format json --no-session-persistence --permission-mode acceptEdits --effort medium \
             --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
             --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task \
             | tee "$RUNNER_TEMP/agent.json"
