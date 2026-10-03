@@ -260,6 +260,29 @@ jobs:
             --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task \
             | tee "$RUNNER_TEMP/agent.json"
 
+      # WHY THESE TWO STEPS EXIST [2026-10-03]. The 29 Sep - 2 Oct mornings went unpublished because a Pro
+      # usage window runs out inside the run ("You've hit your session limit"), the agent exits with no
+      # edition, and ci-attempt-cap.sh then counted that run as spent: two of them used up both attempts by
+      # 06:10, and the runs GitHub fired after the 10:40 reset were refused. A run the account refused to
+      # serve spent nothing worth counting. The first step looks; the second exists only so that the cap
+      # (scripts/ci-attempt-cap.sh) can see, in the run's step list, that this one should not be counted.
+      - name: Did a usage limit or login refusal stop the agent?
+        id: limit
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        run: |
+          if grep -qiE 'hit your [a-z0-9 -]{0,20}limit|organization has disabled|failed to authenticate|credit balance is too low' "$RUNNER_TEMP/agent.json" 2>/dev/null; then
+            echo "limit=true" >> "$GITHUB_OUTPUT"
+            printf '::warning::The agent was stopped before it could add anything: %s\n' \
+              "$(grep -ioE 'hit your [a-z0-9 -]{0,20}limit|organization has disabled[^"]{0,60}' "$RUNNER_TEMP/agent.json" | head -1)"
+          else
+            echo "limit=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Agent stopped before it could work (usage limit or login)
+        if: steps.limit.outputs.limit == 'true'
+        run: echo "This run spent no model time worth counting. The retry cap will not count it, so the :36 retry can still add today."
+
       # The first place in this project a run's own cost is recorded. Never blocking: an accounting
       # field must not cost an edition, so the script exits 0 on everything and writes {} when it
       # found nothing. The numbers also travel into updateRuns[].cost in the merge step below.

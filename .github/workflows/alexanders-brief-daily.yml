@@ -16,6 +16,11 @@ on:
       timezone: "Europe/Copenhagen"
     - cron: "13 7 * * *"
       timezone: "Europe/Copenhagen"
+    # AFTER THE USAGE WINDOW RESETS [2026-10-03]. A Pro window opened by the 05:45 run resets about 10:40, so a
+    # morning killed by the limit can only succeed after that. The guard ends this run in seconds when
+    # today is already out, so on a good day it costs nothing.
+    - cron: "57 10 * * *"
+      timezone: "Europe/Copenhagen"
   workflow_dispatch:
     inputs:
       date:
@@ -211,7 +216,32 @@ jobs:
           claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" \
             --output-format text --no-session-persistence --permission-mode acceptEdits --effort medium \
             --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
-            --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task
+            --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task 2>&1 \
+            | tee "$RUNNER_TEMP/agent.out"
+
+      # WHY THESE TWO STEPS EXIST [2026-10-03]. The 29 Sep - 2 Oct mornings went unpublished because a Pro
+      # usage window runs out inside the run ("You've hit your session limit"), the agent exits with no
+      # edition, and ci-attempt-cap.sh then counted that run as spent: two of them used up both attempts by
+      # 06:10, and the runs GitHub fired after the 10:40 reset were refused. A run the account refused to
+      # serve spent nothing worth counting. The first step looks; the second exists only so that the cap
+      # (scripts/ci-attempt-cap.sh) can see, in the run's step list, that this one should not be counted.
+      - name: Did a usage limit or login refusal stop the agent?
+        id: limit
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        run: |
+          if grep -qiE 'hit your [a-z0-9 -]{0,20}limit|organization has disabled|failed to authenticate|credit balance is too low' "$RUNNER_TEMP/agent.out" 2>/dev/null \
+             && [ ! -f "data/${{ steps.guard.outputs.date }}/draft.json" ]; then
+            echo "limit=true" >> "$GITHUB_OUTPUT"
+            printf '::warning::The agent was stopped before it could produce an edition: %s\n' \
+              "$(grep -iE 'hit your|organization has disabled|failed to authenticate|credit balance' "$RUNNER_TEMP/agent.out" | head -1 | cut -c1-200)"
+          else
+            echo "limit=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Agent stopped before it could work (usage limit or login)
+        if: steps.limit.outputs.limit == 'true'
+        run: echo "This run spent no model time worth counting. The retry cap will not count it, so a run after the limit resets can still publish today."
 
       - name: Length report (advisory)
         if: steps.cap.outputs.proceed == 'true'
