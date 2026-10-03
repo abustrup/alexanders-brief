@@ -1,0 +1,27 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-03",
+  "generatedAt": "2026-10-03T04:07:26.040Z",
+  "pictures": [
+    {
+      "slot": "r01",
+      "id": "rec-hassabis-00001",
+      "headline": "Exclusive: Demis Hassabis on AGI, curing diseases with AI",
+      "source": "https://media.beehiiv.com/cdn-cgi/image/fit=scale-down,format=auto,onerror=redirect,quality=80,width=800/uploads/asset/file/1e57ef43-480c-4b9e-8850-52b130b7c040/7350de35-9497-4c1c-8702-61acdd5d3a60.png",
+      "article": "https://www.therundown.ai/p/exclusive-demis-hassabis-on-agi-curing-diseases-with-ai",
+      "hosted": "r01-d6f0aafb.jpg",
+      "srcSize": "800x450",
+      "srcFormat": "heif",
+      "srcBytes": 28191,
+      "out": "800x450",
+      "bytes": 42854,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0.31
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-03T04:07:26.628Z"
+    }
+  ]
+}
