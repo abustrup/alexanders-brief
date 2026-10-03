@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-20261003",
+  "runId": "run-2026-10-03-uafternoon-r67",
   "date": "2026-10-03",
-  "generatedAt": "2026-10-03T06:40:00.000Z",
+  "generatedAt": "2026-10-03T14:44:45.212Z",
   "readingMinutes": 7,
   "title": "Alexanders Brief",
   "dek": "Syv historier, ni signaler og AI-redaktørens valg",
@@ -749,5 +749,20 @@
     "sourceCoverage": 95,
     "novelty": 65,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-03T14:44:45.212Z",
+      "runId": "run-2026-10-03-uafternoon-r67",
+      "added": 0,
+      "cost": {
+        "usd": 1.9378686,
+        "inputTokens": 1619703,
+        "outputTokens": 10881,
+        "turns": 46,
+        "seconds": 214.8
+      }
+    }
+  ]
 }
