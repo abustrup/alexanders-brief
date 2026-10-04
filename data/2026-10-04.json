@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-04-morning-r1",
+  "runId": "run-2026-10-04-uafternoon-r71",
   "date": "2026-10-04",
-  "generatedAt": "2026-10-04T06:30:00Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-10-04T15:23:31.701Z",
+  "readingMinutes": 8,
   "title": "Alexanders Brief – 4. oktober 2026",
   "dek": "AI-politik samles under efterretningsvæsenet, en sikkerhedschef forlader OpenAI, og G7 åbner oliereserverne mens inflationen stiger.",
   "profileWeights": {
@@ -587,6 +587,98 @@
           "reason": "wrong-person"
         }
       ]
+    },
+    {
+      "id": "story-2026-10-04-merz-kyiv-visit",
+      "eventKey": "merz-kyiv-surprise-visit-2026-10",
+      "materialFacts": [
+        "Forbundskansler Friedrich Merz ankom uanmeldt til Kyiv søndag med specialtog, ledsaget af økonomiminister Katherina Reiche og repræsentanter for tyske forsvars- og energivirksomheder",
+        "Tyskland lover tusinder af opfangerdroner mod russiske jetdrevne droner i de kommende måneder",
+        "En milliard euro afsættes til fælles produktion af langtrækkende våben med Ukraine, og 350 millioner euro til genopbygning af beskadigede kraftværker"
+      ],
+      "section": "Geopolitik",
+      "headline": "Merz makes surprise visit to Kyiv: Germany pledges further aid to Ukraine",
+      "primarySourceUrl": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+      "subheadline": "Uanmeldt besøg følges af tilsagn om droner, våben og genopbygning.",
+      "body": [
+        "Merz ankom uanmeldt til Kyiv søndag med specialtog, ledsaget af økonomiminister Katherina Reiche og tyske forsvars- og energivirksomheder. Tyskland lover tusinder af opfangerdroner mod russiske droner, en milliard euro til fælles våbenproduktion og 350 millioner euro til genopbygning af kraftværker før femte krigsvinter."
+      ],
+      "whyItMatters": "Besøget kommer, mens støtten til Ukraine-hjælp smuldrer i Tyskland, hvor AfD nu måler over CDU.",
+      "topics": [
+        "geopolitik",
+        "forsvar",
+        "europa",
+        "ukraine"
+      ],
+      "entities": [
+        "Friedrich Merz",
+        "Volodymyr Zelensky",
+        "Katherina Reiche",
+        "Tyskland",
+        "Ukraine"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 65,
+        "novelty": 75,
+        "sourceQuality": 78,
+        "personalRelevance": 15,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Merz travelled unannounced to Kyiv by special train on 4 October 2026, accompanied by Economy Minister Katherina Reiche and German defence and energy company representatives",
+          "sourceUrls": [
+            "https://www.bundeskanzler.de/bk-de/aktuelles/bundeskanzler-merz-in-kyjiw-2455606",
+            "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Germany pledged thousands of interceptor drones, 1 billion euros for joint long-range weapons production, and 350 million euros for Ukrainian power plant reconstruction",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Merz makes surprise visit to Kyiv: Germany pledges further aid to Ukraine",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+          "publishedAt": "2026-10-04T12:14:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Bundeskanzler Merz in Kyjiw",
+          "publisher": "Bundesregierung",
+          "url": "https://www.bundeskanzler.de/bk-de/aktuelles/bundeskanzler-merz-in-kyjiw-2455606",
+          "publishedAt": "2026-10-04T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-04/09-6213effc.jpg",
+        "credit": "Kilde: AP Photo",
+        "alt": "Zelenskyy og Merz taler til pressen med en beskadiget bygning fra Det Nationale Videnskabsakademi i baggrunden",
+        "sourceUrl": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+        "origin": "source",
+        "fingerprint": "94243830f24e2d8c04647830f24f2c8c6666783071c72e2ce6ecb87072c75e4ee5bdfa7262e3174f6c5a7a72f1619a97",
+        "lookedAt": "94243830f24e2d8c04647830f24f2c8c6666783071c72e2ce6ecb87072c75e4ee5bdfa7262e3174f6c5a7a72f1619a97",
+        "originalUrl": "https://images.euronews.com/articles/stories/09/93/84/71/1536x864_cmsv2_13659adc-e60d-52af-8338-cfb4b556d545-9938471.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-04T15:23:31.701Z",
+        "runId": "run-2026-10-04-uafternoon-r71"
+      }
     }
   ],
   "signals": [
@@ -911,5 +1003,20 @@
     "sourceQuality": 68,
     "personalRelevance": 52,
     "contrast": 48
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-04T15:23:31.701Z",
+      "runId": "run-2026-10-04-uafternoon-r71",
+      "added": 1,
+      "cost": {
+        "usd": 3.3382826000000008,
+        "inputTokens": 5151603,
+        "outputTokens": 21460,
+        "turns": 66,
+        "seconds": 354.7
+      }
+    }
+  ]
 }

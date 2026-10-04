@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-04",
-  "generatedAt": "2026-10-04T11:11:59.678Z",
+  "generatedAt": "2026-10-04T15:26:02.344Z",
   "pictures": [
     {
       "slot": "01",
@@ -122,6 +122,26 @@
         "y": 0.661
       },
       "fetchedAt": "2026-10-04T11:12:03.648Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-2026-10-04-merz-kyiv-visit",
+      "headline": "Merz makes surprise visit to Kyiv: Germany pledges further aid to Ukraine",
+      "source": "https://images.euronews.com/articles/stories/09/93/84/71/1536x864_cmsv2_13659adc-e60d-52af-8338-cfb4b556d545-9938471.jpg",
+      "article": "https://www.euronews.com/2026/10/04/merz-makes-surprise-visit-to-kyiv-germany-pledges-further-aid-to-ukraine",
+      "hosted": "09-6213effc.jpg",
+      "srcSize": "1536x864",
+      "srcFormat": "webp",
+      "srcBytes": 137370,
+      "out": "1296x864",
+      "bytes": 136035,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-04T15:26:02.794Z"
     },
     {
       "slot": "r01",
