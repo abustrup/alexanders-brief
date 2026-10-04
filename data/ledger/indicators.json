@@ -23,6 +23,16 @@
           "asOf": "juli 2026",
           "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-31072026-ap",
           "recordedOn": "2026-08-01"
+        },
+        {
+          "value": "3,2",
+          "asOf": "august 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap"
+        },
+        {
+          "value": "3,8",
+          "asOf": "september 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
         }
       ]
     },
@@ -100,6 +110,11 @@
           "asOf": "2. kvartal 2026",
           "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results",
           "recordedOn": "2026-08-05"
+        },
+        {
+          "value": "6,7",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://ir.amd.com/news-events/press-releases/detail/1295/amd-reports-second-quarter-2026-financial-results"
         }
       ]
     },
@@ -127,6 +142,16 @@
           "asOf": "juli 2026",
           "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52491",
           "recordedOn": "2026-08-06"
+        },
+        {
+          "value": "137",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52491"
+        },
+        {
+          "value": "145",
+          "asOf": "august 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=52492"
         }
       ]
     },
@@ -146,6 +171,11 @@
           "asOf": "1. halvår 2026",
           "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1",
           "recordedOn": "2026-08-07"
+        },
+        {
+          "value": "80,5",
+          "asOf": "1. halvår 2026",
+          "sourceUrl": "https://www.rheinmetall.com/en/media/news-watch/news/2026/08/2026-08-06-rheinmetall-news-half-yearly-financial-report-h1"
         }
       ]
     },
@@ -167,6 +197,11 @@
           "asOf": "juli 2026",
           "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm",
           "recordedOn": "2026-08-08"
+        },
+        {
+          "value": "-23.000",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.bls.gov/news.release/empsit.nr0.htm"
         }
       ]
     },
@@ -186,6 +221,11 @@
           "asOf": "juli 2026",
           "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en",
           "recordedOn": "2026-08-09"
+        },
+        {
+          "value": "131,1",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.fao.org/newsroom/detail/fao-food-price-index-edges-up-amid-weather--energy-and-geopolitical-concerns/en"
         }
       ]
     },
@@ -200,6 +240,317 @@
           "asOf": "juni 2026",
           "sourceUrl": "https://www.dst.dk/da/Statistik/nyt/NytHtml?cid=52456",
           "recordedOn": "2026-08-10"
+        },
+        {
+          "value": "+6,4",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/nyt/NytHtml?cid=52456"
+        }
+      ]
+    },
+    {
+      "indicator": "tsmc-monthly-revenue",
+      "label": "TSMC's månedlige omsætning",
+      "unit": "mia. NT$",
+      "readings": [
+        {
+          "value": "442,68",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm",
+          "recordedOn": "2026-08-12"
+        },
+        {
+          "value": "467,58",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm",
+          "recordedOn": "2026-08-12"
+        },
+        {
+          "value": "467,58",
+          "asOf": "juli 2026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm"
+        }
+      ]
+    },
+    {
+      "indicator": "euroarea-industrial-production-mom",
+      "label": "Industriproduktion i euroområdet, månedlig ændring",
+      "unit": "%",
+      "note": "Sæsonkorrigeret månedlig ændring, Eurostats euro-indikatorudgivelse. Startet 2026-08-14 som modstykke til den danske serie dk-industriproduktion-maaned. Eurostat reviderer bagud og kraftigt: maj 2026 blev skrevet om fra -0,2 til +0,3 pct. i junitallets udgivelse. Læs den reviderede række, ikke overskriftstallet fra måneden før.",
+      "readings": [
+        {
+          "value": "+0,3",
+          "asOf": "maj 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/4-13082026-ap",
+          "recordedOn": "2026-08-14",
+          "note": "Revideret op fra -0,2 pct. i den oprindelige opgørelse."
+        },
+        {
+          "value": "0,0",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/4-13082026-ap",
+          "recordedOn": "2026-08-14"
+        },
+        {
+          "value": "0,0",
+          "asOf": "juni 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/4-13082026-ap"
+        }
+      ]
+    },
+    {
+      "indicator": "umich-consumer-sentiment",
+      "label": "Amerikansk forbrugertillid (University of Michigan)",
+      "unit": "indeks",
+      "note": "Månedlig. Foreløbig måling udkommer midt i måneden, endelig sidst i måneden — hold rækken på samme type (foreløbig mod foreløbig), ellers er det ikke samme serie. Kilde: sca.isr.umich.edu.",
+      "readings": [
+        {
+          "value": "55,2",
+          "asOf": "juli 2026",
+          "sourceUrl": "http://www.sca.isr.umich.edu/",
+          "recordedOn": "2026-08-15"
+        },
+        {
+          "value": "51,0",
+          "asOf": "august 2026 (foreløbig)",
+          "sourceUrl": "http://www.sca.isr.umich.edu/",
+          "recordedOn": "2026-08-15",
+          "note": "Fald på ca. 8 pct. Etårs-inflationsforventning op fra 4,2 til 4,3 pct. Endelig augustmåling ventes 28. august 2026."
+        },
+        {
+          "value": "51,0",
+          "asOf": "august 2026 (foreløbig)",
+          "sourceUrl": "http://www.sca.isr.umich.edu/"
+        }
+      ]
+    },
+    {
+      "indicator": "euroarea-gdp-qoq",
+      "label": "Eurozonens BNP, kvartal til kvartal",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "0,2",
+          "asOf": "4. kvartal 2025",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "recordedOn": "2026-08-16"
+        },
+        {
+          "value": "0,0",
+          "asOf": "1. kvartal 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "recordedOn": "2026-08-16"
+        },
+        {
+          "value": "0,4",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap",
+          "recordedOn": "2026-08-16"
+        },
+        {
+          "value": "0,4",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-14082026-ap"
+        }
+      ]
+    },
+    {
+      "indicator": "baidu-gpu-cloud-growth",
+      "label": "Baidus GPU-cloudomsætning, vækst år til år",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "184",
+          "asOf": "1. kvartal 2026",
+          "sourceUrl": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results",
+          "recordedOn": "2026-08-19",
+          "note": "Sammenligningstal oplyst i 2. kvartals regnskabsmeddelelse."
+        },
+        {
+          "value": "283",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results",
+          "recordedOn": "2026-08-19"
+        },
+        {
+          "value": "283",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://ir.baidu.com/news-releases/news-release-details/baidu-announces-second-quarter-2026-results"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-erhvervstillid",
+      "label": "Erhvervstillidsindikatoren i Danmark",
+      "unit": "indeks",
+      "readings": [
+        {
+          "value": "106,7",
+          "asOf": "august 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52463",
+          "recordedOn": "2026-08-27",
+          "note": "Højeste niveau siden april 2022. Ændring +1,4 point fra juli til august, hvilket indebærer 105,3 i juli. Offentliggjort af DST 21. august 2026."
+        },
+        {
+          "value": "106,7",
+          "asOf": "august 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52463"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-loenindeks-aarlig",
+      "label": "Dansk lønindeks, årlig ændring",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "3,2",
+          "asOf": "4. kvartal 2025"
+        },
+        {
+          "value": "3,2",
+          "asOf": "1. kvartal 2026"
+        },
+        {
+          "value": "3,2",
+          "asOf": "2. kvartal 2026"
+        },
+        {
+          "value": "3,2",
+          "asOf": "2. kvartal 2026",
+          "sourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=52558"
+        }
+      ]
+    },
+    {
+      "indicator": "fed-septemberforhoejelse-sandsynlighed",
+      "label": "Markedets sandsynlighed for en amerikansk renteforhøjelse i september",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "57",
+          "asOf": "28. august 2026",
+          "sourceUrl": "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-28-dow-sp-500-nasdaq-dip-fed-warsh-jackson-hole-speech-081514091.html"
+        }
+      ]
+    },
+    {
+      "indicator": "drc-ebola-cases-cumulative",
+      "label": "Bekræftede ebolatilfælde, igangværende udbrud i DR Congo",
+      "unit": "bekræftede tilfælde",
+      "readings": [
+        {
+          "value": "4.686",
+          "asOf": "12. august 2026",
+          "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-vc-large-round-share",
+      "label": "Andel danske venture-runder over 6,7 mio. euro",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "22",
+          "asOf": "1. halvår 2026",
+          "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026"
+        }
+      ]
+    },
+    {
+      "indicator": "brent-crude-oil-price",
+      "label": "Brent-olie",
+      "unit": "USD/tønde",
+      "readings": [
+        {
+          "value": "104,61",
+          "asOf": "11. september 2026",
+          "sourceUrl": "https://www.cnbc.com/2026/09/11/oil-price-today-iran-brent-wti-trump.html"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-nationalbank-repo-rate",
+      "label": "Danmarks Nationalbanks foliorente",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "2,10",
+          "asOf": "september 2026",
+          "sourceUrl": "https://nyheder.tv2.dk/live/penge/2026-09-10-ny-renteudmelding-og-udvikling-paa-boligmarkedet"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-elpris-maaned-gennemsnit",
+      "label": "Danske elpriser, gennemsnit for måneden indtil videre",
+      "unit": "kr./kWh",
+      "readings": [
+        {
+          "value": "1,00+",
+          "asOf": "1.-14. september 2026",
+          "sourceUrl": "https://www.dr.dk/nyheder/penge/prisen-paa-el-rammer-hoejeste-niveau-i-naesten-aar"
+        }
+      ]
+    },
+    {
+      "indicator": "us-fed-funds-rate",
+      "label": "Amerikansk styringsrente (Fed funds, øvre grænse)",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "4,00",
+          "asOf": "16. september 2026",
+          "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+        }
+      ]
+    },
+    {
+      "indicator": "anthropic-internal-rd-automation",
+      "label": "Andel af Anthropics interne AI-forskning og -udvikling, som Claude fører",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "26",
+          "asOf": "august 2026",
+          "sourceUrl": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+        }
+      ]
+    },
+    {
+      "indicator": "dk-vaekstkapitalgab",
+      "label": "Dansk vækstkapitalgab: efterspørgsel efter vækstkapital minus forventet tilgængelig kapital",
+      "unit": "mia. kr.",
+      "readings": [
+        {
+          "value": "23-69",
+          "asOf": "2026",
+          "sourceUrl": "https://eifo.dk/videnshub/analyse-af-danmarks-growth-stage-venturemarked-2026"
+        }
+      ]
+    },
+    {
+      "indicator": "cagrisema-redefine9-weight-loss-pct",
+      "label": "CagriSemas vægttab i REDEFINE 9-forsøget",
+      "unit": "%",
+      "readings": [
+        {
+          "value": "21,0",
+          "asOf": "uge 68, fase 3",
+          "sourceUrl": "https://www.stocktitan.net/news/NVO/novo-s-cagri-sema-delivers-superior-weight-loss-versus-tirzepatide-luzc9kpilblh.html"
+        }
+      ]
+    },
+    {
+      "indicator": "north-korea-crypto-theft-annual",
+      "label": "Nordkoreansk kryptotyveri, år til dato",
+      "unit": "mia. dollar",
+      "readings": [
+        {
+          "value": "over 1",
+          "asOf": "2026 (til og med 25. september)",
+          "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
         }
       ]
     }

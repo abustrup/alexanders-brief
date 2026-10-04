@@ -57,6 +57,182 @@
       "horizon": "Juli 2031, aflaest i PRIS01",
       "falsifier": "Afstanden mellem tjenester og varer i PRIS01 er uaendret eller mindre i juli 2031 end 11,5 procentpoint. Tesen svaekkes ogsaa, hvis frisoer, boernepasning og haandvaerkerarbejde holder op med at stige hurtigere end det samlede indeks tre aar i traek. Kontrolleres i Danmarks Statistiks tabel PRIS01.",
       "status": "open"
+    },
+    {
+      "date": "2026-08-12",
+      "slug": "staten-er-allerede-blevet-betalt",
+      "claim": "Europæiske statsfonde, der tog ejerandele for at genanvende afkastet, kommer til at flytte kapital mod senere, sikrere finansieringsrunder og væk fra frø- og opstartsfasen, fordi afkastet er målbart og additionaliteten ikke er.",
+      "horizon": "Statsfondenes egne årsrapporter frem mod 2032",
+      "falsifier": "Fondene fastholder eller øger deres andel af kapital i frø- og opstartsfasen frem mod 2032, samtidig med at de rapporterer afkast. Kontrolleres i fondenes egne årsrapporter og i EIF-koncernens aktivitetsopgørelser.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-13",
+      "slug": "reformen-der-virkede",
+      "claim": "Forskellen på 52 procentpoint mellem positive resultater i den almindelige psykologilitteratur (96 pct.) og i registrerede rapporter (44 pct.) er ikke særegen for psykologien; en tilsvarende sammenligning i medicin eller økonomi vil vise et hul af samme størrelsesorden, altså titalls procentpoint.",
+      "horizon": "Når korpusset af registrerede rapporter i medicin og økonomi er stort nok til samme sammenligning, formentlig inden for fem til ti år",
+      "falsifier": "En tilsvarende sammenligning af registrerede rapporter mod den almindelige litteratur i medicin eller økonomi finder et hul under 20 procentpoint. Kontrolleres i metaforskningslitteraturen, herunder Advances in Methods and Practices in Psychological Science, Nature Human Behaviour og Center for Open Science's egne opgørelser.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-14",
+      "slug": "fabrikken-er-den-nemme-del",
+      "claim": "Den bindende begrænsning for europæisk oprustning er bemanding, ikke produktionskapacitet: Tysklands mål om 260.000 aktive soldater i 2035 kræver omkring 8.300 netto om året fra de 185.196, der stod i uniform 30. juni 2026, mod en observeret nettotilvækst på 3.600 fra januar 2025 til januar 2026.",
+      "horizon": "31. december 2029, med årlige aflæsninger",
+      "falsifier": "Tysklands aktive styrke passerer 205.000 inden udgangen af 2029 uden en form for pligt. Kontrolleres i Bundeswehrs egne personaltal på bundeswehr.de/de/organisation/zahlen-daten-fakten/personalzahlen-bundeswehr. Tesen svækkes også, hvis afgangen falder, mens tilgangen holder.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-16",
+      "slug": "fastkursens-naeste-krise",
+      "claim": "Fastkurspolitikkens næste alvorlige prøve bliver et forsvar mod en for stærk krone, ikke mod en svag; Nationalbanken forbliver derfor på eller under ECB's indlånsrente.",
+      "horizon": "Inden 2030",
+      "falsifier": "Nationalbanken sætter indskudsbevisrenten over ECB's indlånsrente og holder den der i mere end et kvartal, eller den næste store intervention består i at købe kroner mod euro for at bremse en svækkelse. Kontrolleres i Nationalbankens rentehistorik og interventionsstatistik.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-18",
+      "slug": "den-der-forbroed-sig-findes-ikke-laengere",
+      "claim": "Retspraksis vil gradvist tillaegge dokumenteret psykologisk diskontinuitet (hukommelsestab, personlighedsaendring efter hjerneskade) vaegt som formildende omstaendighed ved straf for forbrydelser begaaet mere end tredive aar tidligere, i takt med at Parfits reduktionistiske syn paa personidentitet bliver empirisk maalbart.",
+      "horizon": "Det kommende aartier, aflaest i domme og strafudmaalingsvejledninger for aartier-gamle sager",
+      "falsifier": "Domstole fortsaetter med at idoemme og fastholde tunge, rent gengaeldende straffe for forbrydelser over tredive aar gamle uden at lade dokumenteret psykologisk diskontinuitet taelle som formildende, i mindst et aartiende fremover.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-19",
+      "slug": "wieners-tilbud",
+      "claim": "Fagbevægelsen får ikke ejerskab i den AI, der automatiserer dens fag; aftalerne bliver om varsling og afvikling, fordi tidshorisonten er for lang til at mobilisere på — samme mekanisme som dræbte Wieners tilbud til Reuther i 1949.",
+      "horizon": "Inden 2031",
+      "falsifier": "En større vestlig fagforening opnår inden 2031 en reel ejer- eller royaltyandel i de systemer, der erstatter dens medlemmers arbejde — ikke en høringsret, en varslingsfrist eller en fratrædelsesordning. Kontrolleres i overenskomsttekster og fagforbundenes egne årsberetninger.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-20",
+      "slug": "jevons-paradoks-og-ai-strommen",
+      "claim": "Billigere AI-inferens vil oege, ikke mindske, det samlede globale elforbrug til AI-databehandling de kommende aar - Jevons paradoks slaar effektivitetsgevinsten.",
+      "horizon": "Naar et par aars elforbrugsdata fra datacentre foreligger",
+      "falsifier": "AI-relateret elforbrug bremser op eller falder, mens inferensprisen pr. token fortsat falder markant. Kontrolleres i IEA's aarlige Electricity-rapport (datacenterafsnittet) og i store cloud-udbyderes egne rapporterede elforbrugstal.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-21",
+      "slug": "prognosemagerens-forspring",
+      "claim": "Gabet mellem de bedste AI-prognosesystemer og topmenneskelige superprognosemagere, malt til 0,026 i Brier-score i det oprindelige ForecastBench-benchmark, lukker til under 0,01 senest ved udgangen af 2027.",
+      "horizon": "Ved udgangen af 2027, aflaest paa ForecastBenchs egen liveliste",
+      "falsifier": "ForecastBenchs liveliste viser stadig et Brier-score-gab paa mindst 0,01 mellem det bedste system og superprognosemagerne ved udgangen af 2027.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-22",
+      "slug": "noerdoestpassagens-oekonomi",
+      "claim": "Nordøstpassagen forbliver en marginal containerrute mod 2030: sæsonvindue og forsikringspræmie sætter grænsen, ikke geopolitik.",
+      "horizon": "2030, aflæst i Rosatoms årlige NSR-trafiktal",
+      "falsifier": "Containervolumen på ruten vokser markant uden en usædvanlig mild is-sæson eller et forsikringsgennembrud. Kontrolleres i Rosatoms årlige NSR-trafikopgørelser og Copernicus' is-data.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-23",
+      "slug": "det-forhaandsaftalte-nederlag",
+      "claim": "IIT bestod sin egen 2025-adversarial-test ved at sænke kravet (fra 'vedvarende synkronisering bagtil er nødvendig' til 'bagerste hjernebark alene er tilstrækkelig'), ikke ved at indfri den oprindelige, skarpere forudsigelse.",
+      "horizon": "Næste forhåndsregistrerede adversarial test af bevidsthedsteorier, der specifikt gentester den nedskrevne 'posterior hot zone'-version af IIT",
+      "falsifier": "En sådan test finder IIT-fortalerne fastholdende den oprindelige, skarpere forudsigelse (vedvarende synkronisering) frem for den svagere version, eller feltet behandler 2025-resultatet som en klar falsifikation snarere end en stiltiende nedskrivning. Kontrolleres i Cogitate-konsortiets opfølgende publikationer og i IIT-fortalernes egne svar i fagfællebedømt litteratur.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-26",
+      "slug": "fotografiets-aegthedspanik",
+      "claim": "AI-billeders ægthedspanik gentager malernes panik over fotografiet i det nittende århundrede, og »en hånd rørte det« vil tabe som kunstkriterium igen, ligesom det gjorde dengang.",
+      "horizon": "Når et stort kunstmuseum indlemmer en AI-genereret billedserie i sin fotosamling frem for i en særskilt kategori",
+      "falsifier": "Kunstinstitutionerne fastholder i stedet en varig kategorisk adskillelse mellem fotografisk og AI-genereret billede i mindst et årti fremover - det ville vise, at kriteriet holder på en måde, malerkritikken aldrig gjorde.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-27",
+      "slug": "befolkningstoppen-rykker-naermere",
+      "claim": "FN's næste revision af World Population Prospects flytter verdens befolkningstop tidligere og lavere end de 10,3 mia. i midten af 2080'erne, som WPP 2024 fremskriver.",
+      "horizon": "Ved næste WPP-revision",
+      "falsifier": "Hvis den næste WPP-revision holder toppen i midten af 2080'erne eller flytter den senere eller højere, er påstanden forkert. Et enkelt stort land, der bryder fertilitetsnedgangen, ville være nok.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-28",
+      "slug": "prisen-paa-en-ung-grundlaegger",
+      "claim": "Venturekapitalens forkærlighed for unge grundlæggere er en vurdering af pris frem for af talent: gennemsnitsalderen ved grundlæggelsen af de 1 ud af 1.000 hurtigst voksende nye amerikanske virksomheder er 45,0 år, mens kapitalen fortrinsvis går til væsentligt yngre grundlæggere, fordi de sælger billigere og udvandes lettere.",
+      "horizon": "Når ejerandele ved første institutionelle runde brydes op på grundlæggerens alder",
+      "falsifier": "Grundlæggernes ejerandel ved første institutionelle runde falder ikke systematisk med lavere alder, når branche, sektor og rundestørrelse holdes konstant.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-30",
+      "slug": "rawls-regning-for-ai",
+      "claim": "Differensprincippet gør kun AI-drevet vækst retfærdig, hvis den nederste indkomstgruppe reelt vinder i faste kroner, ikke kun relativt til toppen.",
+      "horizon": "Når de kommende års reallønsdata for lønbunden foreligger",
+      "falsifier": "Lønbundens realindkomst vokser på linje med toppens gevinst fra AI-drevet produktivitet. Kontrolleres i Danmarks Statistiks og BLS' decilopdelte indkomststatistik.",
+      "status": "open"
+    },
+    {
+      "date": "2026-08-31",
+      "slug": "stemmernes-pris-paa-et-marked",
+      "claim": "Prognosemarkeders kalibrering falder, når få store handlende dominerer volumen, fordi priser da flytter sig efter overbevisning frem for information.",
+      "horizon": "Når Polymarket og Kalshi (eller uafhængige forskere) offentliggør koncentrationsjusteret kalibrering, dvs. Brier-scorer opdelt på handlerandel",
+      "falsifier": "Koncentrationsjusterede studier viser uændret eller forbedret kalibrering, selv når en lille gruppe handlende står for størstedelen af volumen på Polymarket og Kalshi.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-01",
+      "slug": "licensen-ikke-plasmaet",
+      "claim": "Helions leverance af fusionsstrøm til Microsoft (kontraktens 2028-frist) glider, og når den gør, er årsagen NRC's nye Part 53-licensproces, ikke plasmafysikken.",
+      "horizon": "Leveringsfristen i Helion-Microsoft-aftalen, 2028",
+      "falsifier": "Helion leverer kontraktens strøm til Microsofts net inden udgangen af 2028, eller en eventuel forsinkelse skyldes en teknisk fejl i plasmaet snarere end sagsbehandling. Kontrolleres i Helions egne pressemeddelelser og i NRC's sagsdatabase.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-02",
+      "slug": "gennemsnittet-der-loj",
+      "claim": "Det norske IQ-fald startede tidligere blandt de socioøkonomisk bedst stillede end hidtil antaget, og var kun skjult i befolkningsgennemsnittet fordi uddannelsesekspansion løftede lavere sociale lag; den maskering er nu udtømt i Norden.",
+      "horizon": "Næste offentliggjorte analyse af norske værnepligtsdata for årgange født efter 2005",
+      "falsifier": "Fremtidige data viser at faldet blandt højtstillede stopper eller vender, mens gennemsnittet fortsat trækkes ned af lavere sociale lag - dvs. at masken ikke er udtømt, men blot flyttet.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-03",
+      "slug": "prisen-ingen-jagter",
+      "claim": "Ingen af de seks resterende Millennium-priser (P vs. NP, Riemann-hypotesen, Yang-Mills, Navier-Stokes, Birch og Swinnerton-Dyer, Hodge-formodningen) bliver lost inden 2035. Poincare-formodningen er den eneste af de syv, der allerede er lost.",
+      "horizon": "2035, Clay Mathematics Institutes liste",
+      "falsifier": "En anden Millennium-formodning bliver bevist og offentligt anerkendt af Clay Mathematics Institute for 2035. Kontrolleres pa instituttets egen liste.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-04",
+      "slug": "moerk-energi-lyver-maaske",
+      "claim": "DESI's baryon-akustiske-oscillations-data foretraekker en tidsvarierende moerk energi-tilstandsligning (w0-waCDM) frem for en konstant kosmologisk konstant, og denne praeference bestaar (styrkes eller holder) i DESI's tredje datafrigivelse.",
+      "horizon": "DESI's tredje datafrigivelse (DR3), ventet 2027",
+      "falsifier": "DESI DR3 landau taettere paa w = -1 end de nuvaerende DR2-analyser, eller Euclids uafhaengige maalinger modsiger et skiftende w frem for at bekraefte det. Kontrolleres i DESI's egne data-releases og Euclid Consortiums kosmologi-publikationer.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-05",
+      "slug": "renten-der-ikke-vil-ned",
+      "claim": "R-star (den neutrale realrente i New York Feds Holston-Laubach-Williams-model) stiger strukturelt og vender ikke tilbage mod 2010'ernes nulpunkt.",
+      "horizon": "New York Feds opdatering 27. november 2026 og fremadrettede kvartalsvise opdateringer",
+      "falsifier": "Estimatet falder tilbage mod 1 pct. eller derunder uden en forudgående recession, der mekanisk tvinger det ned. Kontrolleres i New York Feds egen r-star-serie på newyorkfed.org/research/policy/rstar.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-07",
+      "slug": "fristen-ingen-har-flyttet",
+      "claim": "Forsinkelsen i overgangen til post-kvante-kryptografi er organisatorisk og indkobsmaessig, ikke kryptografisk -- standarderne har ligget klar siden 2024.",
+      "horizon": "31. december 2030 (NIST IR 8547 / OMB M-26-15 deprecation-frist for foederale hoejvaerdisystemer)",
+      "falsifier": "OMB rapporterer i 2031, at et flertal af foederale hoejvaerdisystemer naaede 2030-fristen for at udfase RSA og ECDSA. Kontrolleres i OMB's og NIST's egne compliance-rapporter under IR 8547.",
+      "status": "open"
+    },
+    {
+      "date": "2026-09-08",
+      "slug": "testen-uden-taber",
+      "claim": "Cogitate-forsøget i 2025 afgjorde ikke mellem IIT og GNWT, fordi IIT endnu ikke er formuleret som én risikabel, falsificerbar forudsigelse; uden den er striden filosofisk, ikke empirisk.",
+      "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
+      "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
+      "status": "open"
     }
   ]
 }
