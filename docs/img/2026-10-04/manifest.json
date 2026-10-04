@@ -1,0 +1,147 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-04",
+  "generatedAt": "2026-10-04T11:11:59.678Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-2026-10-04-clayton-si-force",
+      "headline": "Trump Taps Jay Clayton as New US AI Czar to Lead Super Intelligence Force",
+      "source": "https://www.briefs.co/wp-content/uploads/2026/10/jay-clayton-tapped-as-trump-s-new-ai-czar-to-helm-120-day-su.png",
+      "article": "https://insideai.news/news/ai-policy-and-regulation/jay-clayton-ai-czar/13562/",
+      "hosted": "01-5951672c.jpg",
+      "srcSize": "1080x720",
+      "srcFormat": "png",
+      "srcBytes": 1001957,
+      "out": "960x720",
+      "bytes": 72438,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.565,
+        "y": 0.004
+      },
+      "fetchedAt": "2026-10-04T11:12:00.057Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-2026-10-04-eurozone-inflation",
+      "headline": "Euro area annual inflation up to 3.8%",
+      "source": "https://ec.europa.eu/eurostat/documents/2995521/18500214/Marian%20Weyo_shutterstock_384773458_RV.jpg/cc820d42-8108-3e33-628a-ebadae36effe",
+      "article": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap",
+      "hosted": "03-8af7f1d2.jpg",
+      "srcSize": "1000x563",
+      "srcFormat": "jpeg",
+      "srcBytes": 389332,
+      "out": "844x563",
+      "bytes": 41000,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.661,
+        "y": 0.714
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-04T11:12:01.452Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-2026-10-04-g7-oil-release",
+      "headline": "G7 countries to release 100 million barrels of diesel and crude oil to curb fuel prices",
+      "source": "https://live-production.wcms.abc-cdn.net.au/d6f24cd01079b83316aef7c6c8483c21?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=1600&height=900&imformat=generic",
+      "article": "https://www.abc.net.au/news/2026-10-03/g7-to-release-100m-barrels-oil-in-bid-to-curb-soaring-prices/107224282",
+      "hosted": "04-3a56e913.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 202503,
+      "out": "1350x900",
+      "bytes": 83010,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.134,
+        "y": 0.204
+      },
+      "fetchedAt": "2026-10-04T11:12:01.880Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-2026-10-04-houthi-aramco",
+      "headline": "Yemen's Houthis say they attacked Aramco facility in Riyadh with missiles, drones",
+      "source": "https://thumb.spokesman.com/9CjaopITZFA2LyfAQlat657y1Ik=/2400x1260/smart/media.spokesman.com/photos/2026/10/03/6ac15c12d93d5.image.jpg",
+      "article": "https://www.spokesman.com/stories/2026/oct/03/yemens-houthis-say-they-attacked-aramco-facility-i/",
+      "hosted": "05-b7269956.jpg",
+      "srcSize": "2400x1260",
+      "srcFormat": "webp",
+      "srcBytes": 68090,
+      "out": "1600x1067",
+      "bytes": 81762,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.143,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-04T11:12:02.316Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-2026-10-04-pakistan-india",
+      "headline": "Pakistan, India summon diplomats after two people killed in border incident",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20250424__43CA6VF__v1__HighRes__IndiaKashmirPakistanUnrest-1791022218.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/3/pakistan-summons-indian-diplomat-over-border-killing-of-two-pakistanis",
+      "hosted": "06-8d5ca487.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 237812,
+      "out": "1600x1067",
+      "bytes": 232255,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 0.1
+      },
+      "fetchedAt": "2026-10-04T11:12:02.758Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-2026-10-04-dk-elnet-akutplan",
+      "headline": "Akutplan for elnettet er nu landet - men vejen dertil har været alt andet end snorlige",
+      "source": "https://danskerhverv.imgix.net/contentassets/8e127881a67d41859b933f11424c1040/elnet-S3NnZG5UWmIzOGhiNEhBb0dycXJHMzFWbUlNPQ.jpg",
+      "article": "https://danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/artikel",
+      "hosted": "07-d16a47be.jpg",
+      "srcSize": "2904x2211",
+      "srcFormat": "jpeg",
+      "srcBytes": 3390136,
+      "out": "1600x1067",
+      "bytes": 235316,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.482,
+        "y": 0.661
+      },
+      "fetchedAt": "2026-10-04T11:12:03.648Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-2026-10-04-epoch-agents",
+      "headline": "How many AI agents could we run?",
+      "source": "https://epoch.ai/assets/images/posts/2026/estimating-the-agent-population/figure-7.jpg",
+      "article": "https://epoch.ai/publications/estimating-the-agent-population",
+      "hosted": "r01-2d60a47c.jpg",
+      "srcSize": "1290x1344",
+      "srcFormat": "jpeg",
+      "srcBytes": 351267,
+      "out": "1290x726",
+      "bytes": 44676,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-04T11:12:03.858Z"
+    }
+  ]
+}
