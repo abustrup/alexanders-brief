@@ -1,0 +1,26 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-07",
+  "generatedAt": "2026-10-07T04:24:40.629Z",
+  "pictures": [
+    {
+      "slot": "r08",
+      "id": "rec-am-i-documentary-2026-10",
+      "headline": "AM I?",
+      "source": "https://img.youtube.com/vi/KbTvUOx2A6c/maxresdefault.jpg",
+      "article": "https://youtu.be/KbTvUOx2A6c",
+      "hosted": "r08-9c000901.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 214598,
+      "out": "1280x720",
+      "bytes": 104549,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-07T04:24:40.929Z"
+    }
+  ]
+}

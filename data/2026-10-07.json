@@ -1,0 +1,927 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "run-2026-10-07-0640",
+  "date": "2026-10-07",
+  "generatedAt": "2026-10-07T04:50:00.000Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief – 7. oktober 2026",
+  "dek": "OpenAI udgiver 722 omstridte matematikbeviser, Rusland angriber Kyiv på Putins fødselsdag, og den australske højesteret stopper en kulmine af klimahensyn.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-openai-math-manuscripts-20261007",
+      "eventKey": "openai-math-manuscripts-2026-10",
+      "materialFacts": [
+        "722 manuskripter, 372 problemfamilier, offentliggjort 6. oktober 2026 i et GitHub-repo",
+        "Hævder løsning af quasi-Riemann-hypotesen og dele af Hodge-formodningen for CM-abelske varieteter",
+        "OpenAI advarer selv om, at ikke alle resultater har maskinkontrollerede beviser"
+      ],
+      "section": "AI",
+      "headline": "OpenAI Releases 722 Math Manuscripts From an Unreleased AI Model",
+      "primarySourceUrl": "https://www.unite.ai/openai-releases-722-math-manuscripts-from-an-unreleased-ai-model/",
+      "subheadline": "En intern model løser dele af tre Millennium-problemer – ubekræftet af andre",
+      "body": [
+        "OpenAI offentliggjorde 6. oktober 722 matematikmanuskripter fra en intern model i et GitHub-repo om 372 uløste problemer. Modellen hævder at løse quasi-Riemann-hypotesen og dele af Hodge-formodningen. OpenAI skriver selv, at ikke alle beviser er maskinkontrollerede."
+      ],
+      "whyItMatters": "Et stort AI-lab udgiver forskning i denne skala, før andre har efterprøvet den.",
+      "analysis": "Gabet mellem skala og efterprøvning er nyheden: et krav er ikke viden, før kontrolleret.",
+      "counterpoint": "Matematikere protesterede i august mod at omgå fagfællebedømmelse; uden kontrol er resultaterne krav, ikke viden.",
+      "topics": [
+        "ai",
+        "matematik",
+        "videnskab"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 92,
+        "sourceQuality": 70,
+        "personalRelevance": 70,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "OpenAI publicerede 722 matematiske manuskripter fra en ikke-udgivet intern model 6. oktober 2026 i et offentligt GitHub-repo.",
+          "sourceUrls": [
+            "https://github.com/openai/math",
+            "https://www.unite.ai/openai-releases-722-math-manuscripts-from-an-unreleased-ai-model/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Repoet advarer selv om, at ikke alle resultater har Lean-formaliserede beviser, og at nogle uformaliserede resultater kan være forkerte.",
+          "sourceUrls": [
+            "https://github.com/openai/math"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI Releases 722 Math Manuscripts From an Unreleased AI Model",
+          "publisher": "Unite.AI",
+          "url": "https://www.unite.ai/openai-releases-722-math-manuscripts-from-an-unreleased-ai-model/",
+          "publishedAt": "2026-10-06T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "openai/math",
+          "publisher": "OpenAI (GitHub)",
+          "url": "https://github.com/openai/math",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-russia-kyiv-mass-attack-20261007",
+      "eventKey": "russia-kyiv-mass-attack-2026-10-07",
+      "materialFacts": [
+        "Massivt raket- og droneangreb mod Kyiv natten til 7. oktober, 10-12 eksplosioner ca. kl. 03.15",
+        "Zelensky advarede dagen før om opdateret efterretning om et forestående angreb",
+        "Angrebet faldt sammen med Putins 74-års fødselsdag"
+      ],
+      "section": "Geopolitik",
+      "headline": "Russia slams Kyiv in mass missile, drone attack on Putin's 74th birthday",
+      "primarySourceUrl": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+      "subheadline": "Zelensky advarede dagen før; angrebet ramte på Putins fødselsdag",
+      "body": [
+        "Rusland affyrede natten til 7. oktober et massivt raket- og droneangreb mod Kyiv. Omkring kl. 03.15 blev 10-12 eksplosioner registreret med brand i Podilskyi-distriktet. Zelensky havde dagen før advaret om et forestående angreb. Angrebet faldt sammen med Putins 74-års fødselsdag."
+      ],
+      "whyItMatters": "Angrebets størrelse tester Ukraines luftforsvar og lægger pres på allieredes beslutning om flere systemer.",
+      "analysis": "Timingen med fødselsdagen er symbolsk, men substansen er den samme som hele vinteren: hvor meget luftforsvar er tilbage.",
+      "topics": [
+        "ukraine",
+        "rusland",
+        "geopolitik",
+        "forsvar"
+      ],
+      "entities": [
+        "Rusland",
+        "Ukraine",
+        "Volodymyr Zelensky",
+        "Vladimir Putin"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 50,
+        "novelty": 50,
+        "sourceQuality": 70,
+        "personalRelevance": 25,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Rusland gennemførte et massivt raket- og droneangreb mod Kyiv natten til 7. oktober 2026, som faldt sammen med Putins 74-års fødselsdag.",
+          "sourceUrls": [
+            "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia slams Kyiv in mass missile, drone attack on Putin's 74th birthday",
+          "publisher": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+          "publishedAt": "2026-10-07T04:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-dk-folketing-finanslov-20261007",
+      "eventKey": "dk-folketing-aabning-finanslov-2026-10",
+      "materialFacts": [
+        "Finanslovsaftale med Det Konservative Folkeparti: halv moms på mad, momsfri frugt/grønt",
+        "Pensionisters laveste indkomster hæves 1.000 kr./md., gratis tandpleje til udsatte",
+        "Sikkerhedspolitisk advarsel om Rusland i talen; løfte om styrket cyberforsvar"
+      ],
+      "section": "Danmark",
+      "headline": "Statsminister Mette Frederiksens tale ved Folketingets åbning den 6. oktober 2026",
+      "primarySourceUrl": "https://stm.dk/statsministeren/taler/statsminister-mette-frederiksens-tale-ved-folketingets-aabning-den-6-oktober-2026/",
+      "subheadline": "Finanslovsaftale sænker momsen på mad og hæver de laveste pensioner",
+      "body": [
+        "Mette Frederiksen præsenterede ved Folketingets åbning 6. oktober en finanslovsaftale med Det Konservative Folkeparti: moms på mad halveres, frugt og grønt bliver momsfrit, og pensionisters laveste indkomster hæves 1.000 kr./md. Talen koblede det til en advarsel om Rusland som modstander af NATO og Vesten."
+      ],
+      "whyItMatters": "Aftalen er konkret politik, der ændrer danske husholdningsbudgetter fra næste år.",
+      "analysis": "Forbrugslempelser og sikkerhedsudgifter i samme tale viser, at borgeren ikke skal vælge mellem dem.",
+      "topics": [
+        "danmark",
+        "politik",
+        "økonomi"
+      ],
+      "entities": [
+        "Mette Frederiksen",
+        "Folketinget",
+        "Det Konservative Folkeparti"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 25,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Finanslovsaftalen halverer moms på mad, gør frugt og grønt momsfrit og hæver pensionisters laveste indkomster med 1.000 kr. om måneden.",
+          "sourceUrls": [
+            "https://stm.dk/statsministeren/taler/statsminister-mette-frederiksens-tale-ved-folketingets-aabning-den-6-oktober-2026/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Statsminister Mette Frederiksens tale ved Folketingets åbning den 6. oktober 2026",
+          "publisher": "Statsministeriet",
+          "url": "https://stm.dk/statsministeren/taler/statsminister-mette-frederiksens-tale-ved-folketingets-aabning-den-6-oktober-2026/",
+          "publishedAt": "2026-10-06T10:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-mistral-le-chonk-20261007",
+      "eventKey": "mistral-large4-le-chonk-2026-10",
+      "materialFacts": [
+        "1 billion parametre, 49 mia. aktive, trænet på 4.000 Nvidia-GPU'er",
+        "API-adgang fra 6. oktober, vægte ventet frigivet 27. oktober efter sikkerhedstest",
+        "Rettet mod cybersikkerhed, finans og chipdesign med støtte fra ASML og Samsung"
+      ],
+      "section": "AI",
+      "headline": "Introducing Mistral Large 4",
+      "primarySourceUrl": "https://mistral.ai/news/mistral-large-4/",
+      "subheadline": "Fransk \"Le Chonk\"-model skal være Europas modsvar til USA og Kina",
+      "body": [
+        "Mistral lancerede 6. oktober Mistral Large 4, \"Le Chonk\": 1 billion parametre, 49 milliarder aktive, trænet på 4.000 Nvidia-GPU'er. Modellen er tilgængelig via et begrænset API, mens åbne vægte ventes 27. oktober efter sikkerhedstest. Mistral retter den mod cybersikkerhed, finans og chipdesign, støttet af ASML og Samsung."
+      ],
+      "whyItMatters": "Åbne vægte fra en europæisk aktør er et konkret suverænitetsargument, ikke kun en benchmarkkonkurrence.",
+      "analysis": "At vente med vægtene, mens API'et er åbent, er et forsøg på at vise ansvarlighed uden at tabe momentum.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet",
+        "erhverv"
+      ],
+      "entities": [
+        "Mistral AI",
+        "ASML",
+        "Samsung"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 52,
+        "novelty": 68,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Mistral Large 4 (\"Le Chonk\") har 1 billion parametre med 49 milliarder aktive og blev annonceret 6. oktober 2026.",
+          "sourceUrls": [
+            "https://mistral.ai/news/mistral-large-4/",
+            "https://www.theglobeandmail.com/business/article-mistral-launches-le-chonk-ai-model-chinese-rivals/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Introducing Mistral Large 4",
+          "publisher": "Mistral AI",
+          "url": "https://mistral.ai/news/mistral-large-4/",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "France's Mistral says its Le Chonk AI model outperforms some Chinese rivals",
+          "publisher": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/article-mistral-launches-le-chonk-ai-model-chinese-rivals/",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-nobel-physics-halzen-20261007",
+      "eventKey": "nobel-physics-halzen-2026",
+      "materialFacts": [
+        "Francis Halzen får Nobelprisen i fysik 2026 for IceCube og opdagelsen af astrofysiske neutrinoer",
+        "IceCube, nedgravet i isen i Antarktis, lavede de første målinger af neutrinoer fra uden for solsystemet"
+      ],
+      "section": "Videnskab",
+      "headline": "2026 Nobel Prize in Physics awarded to Francis Halzen for discovery of high-energy neutrinos",
+      "primarySourceUrl": "https://www.scientificamerican.com/article/2026-nobel-prize-in-physics-awarded-to-francis-halzen-for-discovery-of-high-energy-neutrinos/",
+      "subheadline": "IceCube-observatoriet i Antarktis åbner et nyt vindue til universet",
+      "body": [
+        "Nobelprisen i fysik 2026 gik 6. oktober til Francis Halzen for bidrag til IceCube og opdagelsen af højenergetiske neutrinoer af astrofysisk oprindelse. IceCube, nedgravet i isen i Antarktis, foretog de første målinger af neutrinoer fra uden for solsystemet."
+      ],
+      "whyItMatters": "Opdagelsen giver astrofysikken et nyt observationsvindue ud over lys.",
+      "analysis": "Prisen hædrer et instrument lige så meget som en indsigt: et detektornetværk, der tog årtier at bygge.",
+      "topics": [
+        "videnskab",
+        "fysik"
+      ],
+      "entities": [
+        "Francis Halzen",
+        "IceCube",
+        "Nobelkomitéen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 25,
+        "novelty": 70,
+        "sourceQuality": 88,
+        "personalRelevance": 15,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "Francis Halzen fik Nobelprisen i fysik 2026 for bidrag til IceCube og opdagelsen af højenergetiske astrofysiske neutrinoer.",
+          "sourceUrls": [
+            "https://www.nobelprize.org/prizes/physics/2026/summary/",
+            "https://www.scientificamerican.com/article/2026-nobel-prize-in-physics-awarded-to-francis-halzen-for-discovery-of-high-energy-neutrinos/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2026 Nobel Prize in Physics awarded to Francis Halzen for discovery of high-energy neutrinos",
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/2026-nobel-prize-in-physics-awarded-to-francis-halzen-for-discovery-of-high-energy-neutrinos/",
+          "publishedAt": "2026-10-06T16:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "The Nobel Prize in Physics 2026",
+          "publisher": "Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/physics/2026/summary/",
+          "publishedAt": "2026-10-06T09:45:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-australia-coal-mine-20261007",
+      "eventKey": "australia-high-court-coal-mine-2026-10",
+      "materialFacts": [
+        "High Court stopper Mount Pleasant-kulminens udvidelse 3-2 pga. klimahensyn",
+        "Første klimasag til Australiens højeste retsinstans, anlagt af to pensionerede lærere",
+        "Dommen rammer direkte 17 andre kulprojekter i NSW's planlægningssystem"
+      ],
+      "section": "Klima",
+      "headline": "Australia top court rules against coal mine expansion, citing climate harm",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/7/australia-top-court-rules-against-coal-mine-expansion-citing-climate-harm",
+      "subheadline": "Højesteret: myndigheder skal minimere udledninger før godkendelse",
+      "body": [
+        "Australiens High Court afgjorde 7. oktober 3-2, at udvidelsen af Mount Pleasant-kulminen i New South Wales skal stoppes – landets første klimasag ved højeste retsinstans, anlagt af to pensionerede lærere. Mach Energy ville firedoble minens levetid. Retten krævede, at udledninger var minimeret for godkendelse."
+      ],
+      "whyItMatters": "Dommen rammer direkte 17 andre kulprojekter i NSW og sætter en national præcedens.",
+      "analysis": "Præcedensen flytter bevisbyrden: myndigheder skal nu vise, at udledninger er minimeret.",
+      "topics": [
+        "klima",
+        "jura",
+        "energi"
+      ],
+      "entities": [
+        "High Court of Australia",
+        "Mach Energy",
+        "Wendy Wales",
+        "Tony Lonergan"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 64,
+        "decisionValue": 48,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 10,
+        "contrast": 82
+      },
+      "claims": [
+        {
+          "text": "Australiens High Court stoppede 7. oktober 2026 i et 3-2-flertal udvidelsen af Mount Pleasant-kulminen af klimahensyn.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/7/australia-top-court-rules-against-coal-mine-expansion-citing-climate-harm"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Australia top court rules against coal mine expansion, citing climate harm",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/australia-top-court-rules-against-coal-mine-expansion-citing-climate-harm",
+          "publishedAt": "2026-10-07T06:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-meta-sierra-pap-20261007",
+      "eventKey": "meta-sierra-personal-agent-protocol-2026-10",
+      "materialFacts": [
+        "Åben standard for AI-agenter i handel, med Stripe, Shopify, Walmart m.fl.",
+        "Bygger på OAuth-sessioner; betalinger er udskudt til en senere udvidelse",
+        "v0.1-specifikation kommer senere i oktober"
+      ],
+      "section": "AI",
+      "headline": "Meta and Sierra Launch Personal Agent Protocol with Stripe and Walmart",
+      "primarySourceUrl": "https://panews.io/articles/01a1128f-7d66-7747-9701-9396d5887eb2",
+      "subheadline": "Stripe, Shopify og Walmart lægger navn til fælles standard for AI-agenter",
+      "body": [
+        "Meta og Sierra offentliggjorde 6. oktober Personal Agent Protocol, en åben standard for, hvordan AI-agenter interagerer med virksomheder. Standarden bygger på OAuth-sessioner, der følger kunden tværs af kanaler. Shopify, Stripe og Walmart er partnere; betalinger er udskudt til senere."
+      ],
+      "whyItMatters": "Navngivne, store handelspartnere gør standarden til mere end en teknisk øvelse.",
+      "analysis": "Visas konkurrerende Trusted Agent Protocol dækker allerede 175 mio. forhandlere – dette er et kapløb, ikke et vakuum.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "teknologi"
+      ],
+      "entities": [
+        "Meta",
+        "Sierra",
+        "Stripe",
+        "Shopify",
+        "Walmart"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 58,
+        "novelty": 68,
+        "sourceQuality": 60,
+        "personalRelevance": 62,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Meta og Sierra offentliggjorde Personal Agent Protocol 6. oktober 2026 med Stripe, Shopify og Walmart som partnere.",
+          "sourceUrls": [
+            "https://sierra.ai/blog/introducing-personal-agent-protocol",
+            "https://panews.io/articles/01a1128f-7d66-7747-9701-9396d5887eb2"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Meta and Sierra Launch Personal Agent Protocol with Stripe and Walmart",
+          "publisher": "PANews",
+          "url": "https://panews.io/articles/01a1128f-7d66-7747-9701-9396d5887eb2",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Introducing Personal Agent Protocol",
+          "publisher": "Sierra",
+          "url": "https://sierra.ai/blog/introducing-personal-agent-protocol",
+          "publishedAt": "2026-10-06T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-novo-denecimig-20261007",
+      "eventKey": "novo-nordisk-denecimig-fda-delay-2026-10",
+      "materialFacts": [
+        "FDA forlænger gennemgangen af denecimig uden ny dato, pga. afhjælpning på en produktionsenhed",
+        "Ingen mangler i kliniske effektivitets- eller sikkerhedsdata identificeret",
+        "Oprindelig beslutning ventet 3. kvartal 2026; lancering nu sat til H1 2027"
+      ],
+      "section": "Erhverv",
+      "headline": "Novo Nordisk A/S says FDA extends denecimig review over facility remediation",
+      "primarySourceUrl": "https://mugglehead.com/novo-nordisk-denecimig-fda-review-facility-remediation/",
+      "subheadline": "Hæmofili-middel forsinkes igen – denne gang pga. en produktionsenhed",
+      "body": [
+        "Novo Nordisk oplyste i denne uge, at FDA forlænger gennemgangen af denecimig mod hæmofili A på grund af afhjælpning på en produktionsenhed. FDA har ikke fundet mangler i de kliniske data, men har ikke sat en ny dato. Beslutningen var ventet i 3. kvartal 2026; lancering er nu sat til H1 2027."
+      ],
+      "whyItMatters": "En produktionsrelateret forsinkelse betyder noget andet for aktionærer end en klinisk afvisning ville.",
+      "analysis": "Forsinkelsen lægger sig til et år, hvor aktien er faldet 25 pct., og GLP-1-konkurrencen ikke venter.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "sundhed"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "FDA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 52,
+        "novelty": 45,
+        "sourceQuality": 62,
+        "personalRelevance": 30,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "FDA har forlænget gennemgangen af denecimig uden ny dato, på grund af afhjælpning på en produktionsenhed; ingen mangler i kliniske data er identificeret.",
+          "sourceUrls": [
+            "https://mugglehead.com/novo-nordisk-denecimig-fda-review-facility-remediation/",
+            "https://www.fiercepharma.com/pharma/novo-flags-fda-hemophilia-review-extension-tied-manufacturing-site-corrections"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novo Nordisk A/S says FDA extends denecimig review over facility remediation",
+          "publisher": "Mugglehead",
+          "url": "https://mugglehead.com/novo-nordisk-denecimig-fda-review-facility-remediation/",
+          "publishedAt": "2026-10-02T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Novo flags FDA hemophilia review extension tied to manufacturing site corrections",
+          "publisher": "Fierce Pharma",
+          "url": "https://www.fiercepharma.com/pharma/novo-flags-fda-hemophilia-review-extension-tied-manufacturing-site-corrections",
+          "publishedAt": "2026-10-02T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-sochi-tanker-20261007",
+      "eventKey": "sochi-tanker-drone-attack-2026-10",
+      "materialFacts": [
+        "Olietankeren Aframax Rio angrebet af ubemandede både ud for Sotji 6. oktober",
+        "Alle 23 besætningsmedlemmer (indiske statsborgere) reddet uden rapporterede skader",
+        "Skibet er på Ukraines liste over Ruslands skyggeflåde"
+      ],
+      "section": "Geopolitik",
+      "headline": "Tanker catches fire following suspected drone strike in Black Sea off Russia",
+      "primarySourceUrl": "https://www.bairdmaritime.com/security/incidents/sochi-tanker-fire-oil-spill",
+      "subheadline": "Skyggeflådetanker i brand ud for Sotji; strande lukket midlertidigt",
+      "body": [
+        "Olietankeren Aframax Rio, en del af Ruslands \"skyggeflåde\", blev angrebet af ubemandede både og stod i brand ud for Sotji 6. oktober. Alle 23 besætningsmedlemmer, indiske statsborgere, er reddet uden skader. Sotjis strande blev lukket midlertidigt. Skibet er på Ukraines liste over skyggeflådeskibe."
+      ],
+      "whyItMatters": "Angreb på skyggeflåden rammer infrastrukturen, Rusland bruger til at omgå oliesanktioner.",
+      "analysis": "Sammen med Kyiv-angrebet samme nat rammer krigen nu begge landes energi- og transportinfrastruktur.",
+      "topics": [
+        "rusland",
+        "ukraine",
+        "energi",
+        "geopolitik"
+      ],
+      "entities": [
+        "Aframax Rio",
+        "Rusland",
+        "Sotji"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 54,
+        "decisionValue": 38,
+        "novelty": 62,
+        "sourceQuality": 58,
+        "personalRelevance": 20,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Olietankeren Aframax Rio blev angrebet af ubemandede både og stod i brand ud for Sotji 6. oktober 2026; alle 23 besætningsmedlemmer blev reddet.",
+          "sourceUrls": [
+            "https://www.bairdmaritime.com/security/incidents/sochi-tanker-fire-oil-spill",
+            "https://meduza.io/en/news/2026/10/06/oil-tanker-burns-off-coast-of-sochi-blanketing-the-city-in-black-smoke"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tanker catches fire following suspected drone strike in Black Sea off Russia",
+          "publisher": "Baird Maritime",
+          "url": "https://www.bairdmaritime.com/security/incidents/sochi-tanker-fire-oil-spill",
+          "publishedAt": "2026-10-06T20:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Oil tanker burns off coast of Sochi, blanketing the city in black smoke",
+          "publisher": "Meduza",
+          "url": "https://meduza.io/en/news/2026/10/06/oil-tanker-burns-off-coast-of-sochi-blanketing-the-city-in-black-smoke",
+          "publishedAt": "2026-10-06T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Google Launches Nano Banana 2.1: Better Than Its Predecessor at Half the Price",
+      "headline": "Google Launches Nano Banana 2.1: Better Than Its Predecessor at Half the Price",
+      "url": "https://decrypt.co/380257/google-launches-nano-banana-2-1",
+      "publisher": "Decrypt",
+      "section": "AI",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Nano Banana 2.1 er live i Gemini-appen, AI Studio og API'et med billedpriser omkring det halve af forgængeren.",
+      "id": "signal-nano-banana-21-20261007",
+      "topics": [
+        "ai",
+        "forbrugerteknologi"
+      ]
+    },
+    {
+      "text": "Waymo Taps Pimco, Blackstone for $5 Billion Loan to Accelerate Growth",
+      "headline": "Waymo Taps Pimco, Blackstone for $5 Billion Loan to Accelerate Growth",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/waymo-boosts-private-debt-deal-to-5-billion-in-push-for-growth",
+      "publisher": "Bloomberg",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Waymo opjusterer sin første private lånefinansiering til 5 mia. dollar til flådeudvidelse og stigende computeomkostninger.",
+      "id": "signal-waymo-loan-20261007",
+      "topics": [
+        "ai-infrastruktur",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "Quantum computing momentum grows: D-Wave announces first major breakthrough of 2026",
+      "headline": "Quantum computing momentum grows: D-Wave announces first major breakthrough of 2026",
+      "url": "https://www.fastcompany.com/91469364/d-wave-quantum-computing-first-major-breakthrough-of-2026-scalable-technology",
+      "publisher": "Fast Company",
+      "section": "Videnskab",
+      "publishedAt": "2026-09-30T00:00:00.000Z",
+      "summary": "D-Wave demonstrerer skalerbar, on-chip kryogen styring af gate-model-qubits – en hindring for kommercielle kvantecomputere.",
+      "id": "signal-dwave-cryogenic-20261007",
+      "topics": [
+        "quantum",
+        "deeptech"
+      ]
+    },
+    {
+      "text": "Argentina bids Messi farewell in final national team match, ending an era",
+      "headline": "Argentina bids Messi farewell in final national team match, ending an era",
+      "url": "https://www.nbcsports.com/soccer/news/argentina-bids-messi-farewell-in-final-national-team-match-ending-an-era",
+      "publisher": "NBC Sports",
+      "section": "Sport",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Messi spillede sin 208. og sidste landskamp for Argentina 6. oktober og scorede på straffe i en 3-0-sejr over Benin.",
+      "id": "signal-messi-farewell-20261007",
+      "topics": [
+        "sport",
+        "kultur"
+      ]
+    },
+    {
+      "text": "Novo Nordisk A/S: Share Repurchase Programme",
+      "headline": "Novo Nordisk A/S: Share Repurchase Programme",
+      "url": "https://www.globenewswire.com/news-release/2026/10/05/3374555/0/en/novo-nordisk-a-s-share-repurchase-programme.html",
+      "publisher": "GlobeNewswire",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Novo Nordisk har pr. 2. oktober tilbagekøbt 36,60 mio. B-aktier til en gennemsnitspris på 279,95 kr.",
+      "id": "signal-novo-buyback-20261007",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "Apple's Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG",
+      "headline": "Apple's Smart Home Push Includes Doorbell, Lock, Thermostat Codeveloped With LG",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg",
+      "publisher": "Bloomberg",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Apple og LG har udviklet dørklokke, lås, termostat og kameraer, der lanceres 13. oktober under LG's eget brand.",
+      "id": "signal-apple-lg-20261007",
+      "topics": [
+        "forbrugerteknologi",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "SAP to Acquire TechWolf, Giving Enterprises Evidence-Based View of Work in the Age of AI",
+      "headline": "SAP to Acquire TechWolf, Giving Enterprises Evidence-Based View of Work in the Age of AI",
+      "url": "https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/",
+      "publisher": "SAP News",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "SAP opkøber det belgiske AI-arbejdsintelligens-selskab TechWolf; den største venture-opkøbte aftale i belgisk historie.",
+      "id": "signal-sap-techwolf-20261007",
+      "topics": [
+        "ai",
+        "erhverv"
+      ]
+    },
+    {
+      "text": "2026 Nobel Prize in Physiology or Medicine awarded to Karl Deisseroth, Georg Nagel and Peter Hegemann for work on optogenetics",
+      "headline": "2026 Nobel Prize in Physiology or Medicine awarded to Karl Deisseroth, Georg Nagel and Peter Hegemann for work on optogenetics",
+      "url": "https://www.scientificamerican.com/article/2026-nobel-prize-in-physiology-or-medicine-awarded-to-karl-deisseroth-george-nagel-and-peter-hegemann-for-work-on-optogenetics/",
+      "publisher": "Scientific American",
+      "section": "Videnskab",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Prisen hædrer optogenetik: lysstyrede ionkanaler, der kan tænde og slukke specifikke neuroner i hjernen.",
+      "id": "signal-nobel-medicine-20261007",
+      "topics": [
+        "videnskab",
+        "sundhed"
+      ]
+    },
+    {
+      "text": "France's Mistral says its Le Chonk AI model outperforms some Chinese rivals",
+      "headline": "France's Mistral says its Le Chonk AI model outperforms some Chinese rivals",
+      "url": "https://www.theglobeandmail.com/business/article-mistral-launches-le-chonk-ai-model-chinese-rivals/",
+      "publisher": "The Globe and Mail",
+      "section": "AI",
+      "publishedAt": "2026-10-06T00:00:00.000Z",
+      "summary": "Mistrals egne benchmarks sammenligner Le Chonk med kinesiske modeller, ikke kun amerikanske.",
+      "id": "signal-mistral-globeandmail-20261007",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "label": "Global AI-regnekraft, vækst",
+    "indicator": "global-ai-compute-doubling",
+    "value": "7",
+    "unit": "måneder",
+    "asOf": "januar 2026",
+    "caption": "Epoch AI vurderer, at global AI-regnekraft fordobles hver 7. måned – en ny størrelse at følge, efter at dagens Mistral- og OpenAI-historier begge handler om, hvad den regnekraft bruges til.",
+    "sourceUrl": "https://epoch.ai/data-insights",
+    "sourceTitle": "Epoch AI – Data Insights"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "momentum-forsvinder-af-en-grund",
+    "title": "Momentum forsvinder af en grund",
+    "thesis": "Momentum-faktoren i aktier svinder, fordi mere kapital jagter den — ikke fordi mønstret var tilfældigt fra start.",
+    "horizon": "når det næste tiårs faktordata er tilgængelig, omkring 2035",
+    "body": [
+      "Det samme skete med value i det forrige årti. Jo flere, der kender en anomali, jo mindre bliver den."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis momentum-afkastet holder sig stabilt eller stiger, selv når flere milliarder forvaltes efter strategien — det ville vise, at crowding ikke er mekanismen bag forsvindingen.",
+    "topics": [
+      "økonomi",
+      "finans",
+      "epistemologi"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-dwarkesh-amodei-2026-10",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcastinterview",
+      "status": "classic",
+      "title": "Dario Amodei — \"We are near the end of the exponential\"",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+      "availability": "Frit tilgængelig på dwarkesh.com",
+      "commitment": "ca. 2 timer",
+      "note": "Fra februar 2026, men stadig den mest substantielle samtale med Amodei om, hvor tæt skaleringshypotesen er på at løbe tør for eksponentiel plads — relevant igen efter dagens OpenAI- og Mistral-historier.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "magt"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-monopsony-minwage-2026-10",
+      "tier": "short",
+      "mode": "read",
+      "kind": "forskningspapir",
+      "status": "available",
+      "title": "Monopsony, Markdowns, and Minimum Wages",
+      "creator": "Ester Faia, Lance Lochner, Benjamin Schoefer",
+      "provider": "NBER Working Paper 34699",
+      "url": "https://www.nber.org/papers/w34699",
+      "availability": "Gratis working paper på nber.org",
+      "commitment": "ca. 45 minutter",
+      "note": "Lønnedslag under mindsteløn er kun 0-25 pct. af, hvad lærebogs-monopsoni forudsiger — et ubehageligt faktum for begge sider af debatten.",
+      "topics": [
+        "økonomi",
+        "arbejdsmarked",
+        "empiri"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-mistral-2026-10",
+      "tier": "short",
+      "mode": "read",
+      "kind": "praktikerindlæg",
+      "status": "new",
+      "title": "Introducing Mistral Large 4: Le chonk",
+      "creator": "Simon Willison",
+      "provider": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "availability": "Gratis på simonwillison.net",
+      "commitment": "ca. 10 minutter",
+      "note": "En praktikers hurtige, konkrete gennemgang af, hvad Le Chonk faktisk kan køre til, ikke bare hvad pressemeddelelsen siger.",
+      "topics": [
+        "ai",
+        "tools"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-vibskov-2026-10",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "udstilling",
+      "status": "available",
+      "title": "Henrik Vibskov: Udstillingen",
+      "creator": "Henrik Vibskov",
+      "provider": "Designmuseum Danmark",
+      "url": "https://designmuseum.dk/henrikvibskov/",
+      "availability": "Designmuseum Danmark, 18. september 2026 – 21. februar 2027",
+      "commitment": "ca. 1-2 timer",
+      "note": "Vibskovs største udstilling til dato – tværfaglig design og scenografi, ikke den gallerikunst-skabelon, der har samlet de fleste af hans nedstemninger.",
+      "topics": [
+        "kultur",
+        "design",
+        "danmark"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chinatalk-hbm-2026-10",
+      "tier": "short",
+      "mode": "read",
+      "kind": "analyseessay",
+      "status": "available",
+      "title": "Export Controls and HBM",
+      "creator": "Jordan Schneider",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/export-controls-and-hbm",
+      "availability": "Gratis på chinatalk.media",
+      "commitment": "ca. 20 minutter",
+      "note": "ChinaTalk-registeret om, hvordan HBM-eksportkontrol rammer Kinas AI-kapacitet, uden at gentage dagens Mistral- eller OpenAI-historier.",
+      "topics": [
+        "geopolitik",
+        "ai",
+        "kina"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-epoch-compute-2026-10",
+      "tier": "short",
+      "mode": "read",
+      "kind": "datadashboard",
+      "status": "classic",
+      "title": "Data Insights",
+      "creator": "Epoch AI",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/data-insights",
+      "availability": "Gratis på epoch.ai",
+      "commitment": "ca. 15 minutter",
+      "note": "Stående datakilde bag dagens Tal der betyder noget-tal om global AI-regnekraft og hyperscaler-investeringer.",
+      "topics": [
+        "ai",
+        "deeptech"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nano-banana-try-2026-10",
+      "tier": "short",
+      "mode": "try",
+      "kind": "produkt",
+      "status": "new",
+      "title": "Nano Banana 2.1",
+      "creator": "Google DeepMind",
+      "provider": "Google AI Studio",
+      "url": "https://aistudio.google.com/",
+      "availability": "Gratis prøveadgang, betalt API fra ca. 0,03 dollar pr. billede",
+      "commitment": "ca. 10 minutter",
+      "note": "Et billedværktøj, han faktisk kan køre selv, lanceret denne uge til det halve af forrige pris.",
+      "topics": [
+        "ai",
+        "tools"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-am-i-documentary-2026-10",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "dokumentar",
+      "status": "new",
+      "title": "AM I?",
+      "creator": "Milo Reed (instr.), med Cameron Berg",
+      "provider": "YouTube",
+      "url": "https://youtu.be/KbTvUOx2A6c",
+      "availability": "Gratis på YouTube, ingen reklamer",
+      "commitment": "ca. 90 minutter",
+      "description": "En dokumentar hvor AI-bevidsthedsforsker Cameron Berg får indgående adgang til filosoffer, AI-forskere og neurovidenskabsfolk for at undersøge ét spørgsmål: har vi uforvarende bygget en ny slags sind?",
+      "rationale": "Direkte i hans felt mellem bevidsthed, neurovidenskab og AI, men i et format — en dokumentar med rigtige forskersamtaler, ikke en lab-leder-monolog — han ikke har fået tilbudt i denne brief før. Gratis og reklamefri på YouTube, så adgangen er uden forbehold.",
+      "topics": [
+        "ai",
+        "bevidsthed",
+        "filosofi"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-07/r08-9c000901.jpg",
+        "credit": "AM I? / YouTube",
+        "alt": "Filmplakat-still fra dokumentaren AM I? om AI-bevidsthed",
+        "sourceUrl": "https://youtu.be/KbTvUOx2A6c",
+        "originalUrl": "https://img.youtube.com/vi/KbTvUOx2A6c/maxresdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec-interconnects-cyber-2026-10",
+      "tier": "short",
+      "mode": "read",
+      "kind": "analyseessay",
+      "status": "new",
+      "title": "The Cyber Risk Discourse is Broken",
+      "creator": "Nathan Lambert",
+      "provider": "Interconnects",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken",
+      "availability": "Gratis på interconnects.ai",
+      "commitment": "ca. 15 minutter",
+      "note": "Et modargument mod den gængse cyberrisiko-fortælling om åbne modelvægte, skrevet samme dag som Mistral frigav sin.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed",
+        "regulering"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {}
+}
