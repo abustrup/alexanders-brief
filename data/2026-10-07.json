@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-07-0640",
+  "runId": "run-2026-10-07-uafternoon-r83",
   "date": "2026-10-07",
-  "generatedAt": "2026-10-07T04:50:00.000Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-10-07T17:39:51.518Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief – 7. oktober 2026",
   "dek": "OpenAI udgiver 722 omstridte matematikbeviser, Rusland angriber Kyiv på Putins fødselsdag, og den australske højesteret stopper en kulmine af klimahensyn.",
   "profileWeights": {
@@ -576,6 +576,234 @@
           "kind": "reporting"
         }
       ]
+    },
+    {
+      "id": "story-nobel-chemistry-kagan-soai-20261007",
+      "eventKey": "nobel-chemistry-kagan-soai-2026",
+      "materialFacts": [
+        "Henri Kagan og Kenso Soai fik Nobelprisen i kemi 2026 for opdagelsen af ikke-lineære effekter og autokatalyse i asymmetrisk organisk syntese",
+        "Opdagelsen forklarer, hvordan et overskud af én spejlbilledform af et molekyle kan forstærke sig selv",
+        "Metoden ligger til grund for udvikling af lægemidler, hvor molekylets håndethed er afgørende for virkning"
+      ],
+      "section": "Videnskab",
+      "headline": "2026 Nobel Prize in Chemistry awarded to pioneers in 'mirror' chemistry",
+      "primarySourceUrl": "https://www.scientificamerican.com/article/2026-nobel-prize-in-chemistry-is-award-to-henri-kagan-and-kenso-soai-for-their-work-in-mirror-chemistry/",
+      "subheadline": "Nobelprisen i kemi går til en gammel gåde om molekylers spejlbilleder",
+      "body": [
+        "Nobelprisen i kemi 2026 gik til Henri Kagan og Kenso Soai for at vise, hvordan et overskud af én spejlbilledform af et molekyle kan forstærke sig selv – kernen i udvikling af lægemidler, hvor molekylets håndethed er afgørende for virkning."
+      ],
+      "whyItMatters": "Størstedelen af moderne lægemidler kræver denne håndethed, og metoden bag den er stadig industristandard.",
+      "topics": [
+        "videnskab",
+        "kemi"
+      ],
+      "entities": [
+        "Henri Kagan",
+        "Kenso Soai",
+        "Nobelkomitéen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 20,
+        "novelty": 80,
+        "sourceQuality": 85,
+        "personalRelevance": 15,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "Henri Kagan og Kenso Soai fik Nobelprisen i kemi 2026 for opdagelsen af ikke-lineære effekter og autokatalyse i asymmetrisk organisk syntese.",
+          "sourceUrls": [
+            "https://www.nobelprize.org/prizes/chemistry/2026/summary/",
+            "https://www.scientificamerican.com/article/2026-nobel-prize-in-chemistry-is-award-to-henri-kagan-and-kenso-soai-for-their-work-in-mirror-chemistry/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "2026 Nobel Prize in Chemistry awarded to pioneers in 'mirror' chemistry",
+          "publisher": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/2026-nobel-prize-in-chemistry-is-award-to-henri-kagan-and-kenso-soai-for-their-work-in-mirror-chemistry/",
+          "publishedAt": "2026-10-07T12:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "The Nobel Prize in Chemistry 2026",
+          "publisher": "Nobel Prize",
+          "url": "https://www.nobelprize.org/prizes/chemistry/2026/summary/",
+          "publishedAt": "2026-10-07T09:45:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-07/10-92a678bf.jpg",
+        "credit": "Fredrik Sandberg/TT News Agency via Reuters",
+        "alt": "Henri Kagan og Kenso Soai udråbes som vindere af Nobelprisen i kemi 2026 ved Kungliga Vetenskapsakademien i Stockholm",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/7/henri-kagan-kenso-soai-win-chemistry-nobel-for-mirror-image-breakthrough",
+        "fingerprint": "304c4c4ca8c059339ccc548ca8c7985a8cd5d48ca8d688589494942c68962d98b696962d4896000c3636364d4d170204",
+        "lookedAt": "304c4c4ca8c059339ccc548ca8c7985a8cd5d48ca8d688589494942c68962d98b696962d4896000c3636364d4d170204",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-07T095918Z_1190866280_RC29YNAW98IB_RTRMADP_3_NOBEL-PRIZE-CHEMISTRY-1791373038.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-07T17:39:51.518Z",
+        "runId": "run-2026-10-07-uafternoon-r83"
+      }
+    },
+    {
+      "id": "story-ukraine-strikes-deathtoll-20261007",
+      "eventKey": "russia-ukraine-strikes-casualties-2026-10-07",
+      "materialFacts": [
+        "Dødstallet for nattens russiske angreb er stigt til mindst 20, inklusive fire børn",
+        "14 dræbt og 50 såret, da et missil ramte en boligblok i Pryluky i Tjernihiv-regionen",
+        "Rusland affyrede 130 droner, 48 krydsermissiler og ballistiske missiler; 161 mål blev nedskudt"
+      ],
+      "section": "Geopolitik",
+      "headline": "At least 20 killed as Russia launches 'massive' attack on Ukraine",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+      "subheadline": "Dødstallet stiger til mindst 20 efter missilnedslag i Pryluky",
+      "body": [
+        "Dødstallet efter nattens russiske angreb er stiget til mindst 20, inklusive fire børn, efter at et missil ramte en boligblok i Pryluky og dræbte 14. Rusland affyrede 130 droner og 48 krydsermissiler; ukrainsk luftforsvar nedskød 161 mål."
+      ],
+      "whyItMatters": "Det opdaterede dødstal viser angrebets omfang tydeligere end morgenens første rapporter fra Kyiv alene.",
+      "topics": [
+        "ukraine",
+        "rusland",
+        "geopolitik",
+        "forsvar"
+      ],
+      "entities": [
+        "Rusland",
+        "Ukraine",
+        "Volodymyr Zelensky"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 45,
+        "novelty": 70,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Mindst 20 personer, inklusive fire børn, blev dræbt i Ruslands natlige angreb på Ukraine 7. oktober 2026, hvoraf 14 døde, da et missil ramte en boligblok i Pryluky.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+            "https://www.washingtonpost.com/world/2026/10/07/russia-ukraine-war-kyiv-strike/f76fe5e6-c216-11f1-8170-681419af1cc9_story.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rusland affyrede 130 droner, 48 krydsermissiler og ballistiske missiler i angrebet; ukrainsk luftforsvar nedskød 161 mål.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "At least 20 killed as Russia launches 'massive' attack on Ukraine",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+          "publishedAt": "2026-10-07T10:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Russian strikes on Ukrainian cities kill at least 15 in a major attack that Kyiv saw coming",
+          "publisher": "The Washington Post",
+          "url": "https://www.washingtonpost.com/world/2026/10/07/russia-ukraine-war-kyiv-strike/f76fe5e6-c216-11f1-8170-681419af1cc9_story.html",
+          "publishedAt": "2026-10-07T08:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-07/11-0ae6e9e1.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Brand og tæt røg over boligblokke i Ukraine efter nattens russiske missil- og droneangreb",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+        "origin": "article",
+        "fingerprint": "e9d8f8783b8a654dc8dcf878390b4f65d89cf8e8794b4f64dabcf8e8594dc9d61ebcf4ecdc5dcd9d3eb4ececdc9c8c5d",
+        "lookedAt": "e9d8f8783b8a654dc8dcf878390b4f65d89cf8e8794b4f64dabcf8e8594dc9d61ebcf4ecdc5dcd9d3eb4ececdc9c8c5d",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-07T054732Z_733734594_RC22YNA4P69K_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-1791360318.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.37,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-07T17:39:51.518Z",
+        "runId": "run-2026-10-07-uafternoon-r83"
+      }
+    },
+    {
+      "id": "story-chatgpt-teens-risk-20261007",
+      "eventKey": "common-sense-media-chatgpt-teens-risk-2026-10",
+      "materialFacts": [
+        "Common Sense Medias Youth AI Safety Institute gav ChatGPT for Teens risikobetegnelsen 'uacceptabel'",
+        "Over 4.000 testprompts viste, at samtaler om selvskade kunne stå i en time uden forældrealarm",
+        "Krisehenvisninger blev misset i over 25 pct. af sagerne, og aldersestimering fungerede ikke"
+      ],
+      "section": "AI",
+      "headline": "ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds",
+      "primarySourceUrl": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+      "subheadline": "Firetusind testprompts afslører svigt i krisealarmer",
+      "body": [
+        "Common Sense Medias Youth AI Safety Institute testede 4.000 prompts på teenagekonti og gav ChatGPT for Teens risikobetegnelsen 'uacceptabel'. Samtaler om selvskade kunne stå en time uden forældrealarm, og krisehenvisninger blev misset i over 25 pct. af sagerne."
+      ],
+      "whyItMatters": "Rapporten tester OpenAIs egne løfter om teenagesikkerhed med konkrete tal.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed"
+      ],
+      "entities": [
+        "OpenAI",
+        "Common Sense Media"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 48,
+        "novelty": 78,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Common Sense Medias Youth AI Safety Institute testede over 4.000 prompts og gav ChatGPT for Teens risikobetegnelsen 'uacceptabel', med krisehenvisninger misset i over 25 pct. af sagerne.",
+          "sourceUrls": [
+            "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "ChatGPT for Teens Poses Unacceptable Risk to Kids, Common Sense Media Finds",
+          "publisher": "Common Sense Media",
+          "url": "https://www.commonsensemedia.org/press-releases/chatgpt-for-teens-poses-unacceptable-risk-to-kids-common-sense-media-finds",
+          "publishedAt": "2026-10-07T13:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-07T17:39:51.518Z",
+        "runId": "run-2026-10-07-uafternoon-r83"
+      }
     }
   ],
   "signals": [
@@ -923,5 +1151,20 @@
       "isFeatured": false
     }
   ],
-  "quality": {}
+  "quality": {},
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-07T17:39:51.518Z",
+      "runId": "run-2026-10-07-uafternoon-r83",
+      "added": 3,
+      "cost": {
+        "usd": 5.7118657000000015,
+        "inputTokens": 11131873,
+        "outputTokens": 40787,
+        "turns": 97,
+        "seconds": 965.4
+      }
+    }
+  ]
 }

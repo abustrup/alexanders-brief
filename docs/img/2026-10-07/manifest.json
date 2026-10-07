@@ -1,7 +1,47 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-07",
-  "generatedAt": "2026-10-07T04:24:40.629Z",
+  "generatedAt": "2026-10-07T17:42:22.140Z",
   "pictures": [
+    {
+      "slot": "10",
+      "id": "story-nobel-chemistry-kagan-soai-20261007",
+      "headline": "2026 Nobel Prize in Chemistry awarded to pioneers in 'mirror' chemistry",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-07T095918Z_1190866280_RC29YNAW98IB_RTRMADP_3_NOBEL-PRIZE-CHEMISTRY-1791373038.jpg",
+      "article": "https://www.scientificamerican.com/article/2026-nobel-prize-in-chemistry-is-award-to-henri-kagan-and-kenso-soai-for-their-work-in-mirror-chemistry/",
+      "hosted": "10-92a678bf.jpg",
+      "srcSize": "7680x5120",
+      "srcFormat": "jpeg",
+      "srcBytes": 21330655,
+      "out": "1600x1067",
+      "bytes": 220331,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-07T17:42:23.480Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-ukraine-strikes-deathtoll-20261007",
+      "headline": "At least 20 killed as Russia launches 'massive' attack on Ukraine",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-07T054732Z_733734594_RC22YNA4P69K_RTRMADP_3_UKRAINE-CRISIS-ATTACK-KYIV-1791360318.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/7/at-least-two-killed-in-kyiv-as-russia-launches-massive-attack-on-ukraine",
+      "hosted": "11-0ae6e9e1.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 180660,
+      "out": "1600x1067",
+      "bytes": 114505,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.37,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-07T17:42:23.718Z"
+    },
     {
       "slot": "r08",
       "id": "rec-am-i-documentary-2026-10",
