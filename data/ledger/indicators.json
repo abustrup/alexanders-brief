@@ -28,11 +28,6 @@
           "value": "3,2",
           "asOf": "august 2026",
           "sourceUrl": "https://ec.europa.eu/eurostat/en/web/products-euro-indicators/w/2-17092026-ap"
-        },
-        {
-          "value": "3,8",
-          "asOf": "september 2026",
-          "sourceUrl": "https://ec.europa.eu/eurostat/web/products-euro-indicators/w/2-02102026-ap"
         }
       ]
     },
@@ -551,6 +546,19 @@
           "value": "over 1",
           "asOf": "2026 (til og med 25. september)",
           "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
+        }
+      ]
+    },
+    {
+      "indicator": "global-ai-compute-doubling",
+      "label": "Global AI-regnekraft, fordoblingstid",
+      "unit": "måneder",
+      "readings": [
+        {
+          "value": "7",
+          "asOf": "januar 2026",
+          "sourceUrl": "https://epoch.ai/data-insights",
+          "recordedOn": "2026-10-07"
         }
       ]
     }
