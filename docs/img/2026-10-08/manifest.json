@@ -1,0 +1,107 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-08",
+  "generatedAt": "2026-10-08T11:48:27.536Z",
+  "pictures": [
+    {
+      "slot": "02",
+      "id": "story-openai-math-manuscripts-2026-10",
+      "headline": "OpenAI publishes 722 maths papers written by a model it has not released",
+      "source": "https://media.thenextweb.com/2026/09/sam-altman-green-sweater-speaking-dark-stage-devday-livestream-1736.avif",
+      "article": "https://thenextweb.com/news/openai-maths-722-papers-unreleased-model-github",
+      "hosted": "02-d920e9c7.jpg",
+      "srcSize": "868x488",
+      "srcFormat": "heif",
+      "srcBytes": 14335,
+      "out": "732x488",
+      "bytes": 18105,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-08T11:48:27.843Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-anne-carson-nobel-literature-2026",
+      "headline": "Anne Carson wins Nobel Prize in Literature 2026",
+      "source": "https://www.irishtimes.com/resizer/v2/HN6VITM73VG4N3LUBOCGIZTUIM.jpg?smart=true&auth=57e114429bce8876330162eab09f9a43de62d690306da20363fe5ceea3d72e3e&width=1200&height=630",
+      "article": "https://www.irishtimes.com/culture/books/2026/10/08/anne-carson-wins-nobel-prize-in-literature-2026/",
+      "hosted": "05-c9b88d18.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 12215,
+      "out": "945x630",
+      "bytes": 33155,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.518,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-08T11:48:28.165Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-onomondo-aspirity-eifo-2026-10",
+      "headline": "Onomondo announces majority investment from Aspirity Partners to scale global IoT",
+      "source": "https://cdn.growth.onomondo.com/app/uploads/2026/09/30073438/Onomondo-Aspirity-SmallGroup-1024x683.jpg",
+      "article": "https://onomondo.com/blog/onomondo-announces-majority-investment-from-aspirity-partners-to-scale-global-iot/",
+      "hosted": "06-7e0d6f30.jpg",
+      "srcSize": "1024x683",
+      "srcFormat": "heif",
+      "srcBytes": 60749,
+      "out": "1024x683",
+      "bytes": 96602,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.125,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-08T11:48:28.967Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-margaret-hamilton-obituary-2026-10",
+      "headline": "Margaret Hamilton, computing pioneer who led software development for the Apollo program, dies at 90",
+      "source": "https://news.mit.edu/sites/default/files/images/202610/margaret-hamilton-portrait-toan-trinh-mit-technology-review-A1_1.png",
+      "article": "https://news.mit.edu/2026/margaret-hamilton-computing-pioneer-dies-1007",
+      "hosted": "07-945ad5c1.jpg",
+      "srcSize": "1000x667",
+      "srcFormat": "png",
+      "srcBytes": 734606,
+      "out": "1000x667",
+      "bytes": 47706,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.311
+      },
+      "fetchedAt": "2026-10-08T11:48:29.216Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-anne-carson-life-is-not-fair",
+      "headline": "Anne Carson: Life is Not Fair",
+      "source": "https://img.youtube.com/vi/ksH3FIs0eJs/maxresdefault.jpg",
+      "article": "https://channel.louisiana.dk/video/anne-carson-life-is-not-fair",
+      "hosted": "r01-02a959d7.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 116377,
+      "out": "1280x720",
+      "bytes": 58959,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-08T11:48:29.384Z"
+    }
+  ]
+}
