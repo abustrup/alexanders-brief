@@ -548,19 +548,6 @@
           "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
         }
       ]
-    },
-    {
-      "indicator": "global-ai-compute-doubling",
-      "label": "Global AI-regnekraft, fordoblingstid",
-      "unit": "måneder",
-      "readings": [
-        {
-          "value": "7",
-          "asOf": "januar 2026",
-          "sourceUrl": "https://epoch.ai/data-insights",
-          "recordedOn": "2026-10-07"
-        }
-      ]
     }
   ]
 }
