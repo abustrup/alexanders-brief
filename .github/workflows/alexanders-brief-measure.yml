@@ -29,6 +29,11 @@ on:
         description: "Engine branch whose files the agent loads (CLAUDE.md and the rest). Blank = the live branch."
         required: false
         type: string
+      smoke_system:
+        description: "Run the smoke test with the short system prompt too (the final flag set), not only the tool list."
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -230,7 +235,9 @@ jobs:
         run: |
           mkdir -p "$RUNNER_TEMP/measure"
           status=0
-          claude -p "$SMOKE_PROMPT" \
+          EXTRA=()
+          if [ "${{ inputs.smoke_system }}" = "true" ]; then EXTRA=(--system-prompt "$SYSTEM_PROMPT"); fi
+          claude -p "$SMOKE_PROMPT" "${EXTRA[@]}" \
             --output-format stream-json --verbose --no-session-persistence --permission-mode acceptEdits --effort medium \
             --max-turns 25 --tools "$TOOLS" --disable-slash-commands \
             --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
