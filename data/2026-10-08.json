@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "alexandersbrief-2026-10-08",
+  "runId": "run-2026-10-08-uafternoon-r87",
   "date": "2026-10-08",
-  "generatedAt": "2026-10-08T14:00:00.000Z",
-  "readingMinutes": 6,
+  "generatedAt": "2026-10-08T17:33:10.256Z",
+  "readingMinutes": 7,
   "title": "Alexanders Brief – 8. oktober 2026",
   "dek": "CPR-læk, et matematik-stridspunkt der rykker ind i krypto, en Nobelpris til Anne Carson og en pioner i softwarehistorien.",
   "profileWeights": {
@@ -582,6 +582,188 @@
           "y": 0.311
         }
       }
+    },
+    {
+      "id": "story-google-gemini-agent-2026-10",
+      "eventKey": "google-gemini-agent-2026-10",
+      "materialFacts": [
+        "Google Cloud lancerer Gemini agent, en samlet AI-agent til virksomheder",
+        "Agenten vælger mellem Googles modeller og Anthropics Claude og får egen Workspace-konto"
+      ],
+      "section": "AI",
+      "headline": "Welcome to Gemini at Work 2026: Introducing the Gemini agent",
+      "primarySourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+      "subheadline": "Én samlet AI-agent til arbejde, med egen Workspace-konto.",
+      "body": [
+        "Google Cloud lancerede torsdag Gemini agent: en AI-agent, der svarer på spørgsmål, skriver kode og udfører flerdages opgaver. Agenten får egen Workspace-konto, opretter underagenter og vælger mellem Googles modeller og Anthropics Claude."
+      ],
+      "whyItMatters": "Færdigheder til investeringsresearch skærper konkurrencen med Anthropics virksomhedsprodukter.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "teknologi"
+      ],
+      "entities": [
+        "Google Cloud",
+        "Thomas Kurian",
+        "Gemini agent",
+        "Anthropic"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 75,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Google Cloud lancerede torsdag Gemini agent, en samlet AI-agent til virksomheder, der kan udføre flerdages arbejdsopgaver",
+          "sourceUrls": [
+            "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Agenten kan vælge mellem Googles egne modeller og Anthropics Claude og får en branchefærdighed til investeringsresearch i finanssektoren",
+          "sourceUrls": [
+            "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Welcome to Gemini at Work 2026: Introducing the Gemini agent",
+          "publisher": "Google Cloud",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026",
+          "publishedAt": "2026-10-08T17:30:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Google Cloud announces 'Gemini agent' as 'universal agent for work'",
+          "publisher": "9to5Google",
+          "url": "https://9to5google.com/2026/10/08/gemini-agent-google-cloud/",
+          "publishedAt": "2026-10-08T17:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/image_3.max-2100x2100_0CYZWqn.jpg",
+          "fingerprint": "100c0e3717070002220c0f2717470005210e2f2737570005601e6b6f329608929616696372b2c4000ffac9cb5353a300",
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/10/Gemini-agent.jpg?quality=82&strip=all&resize=1200,628",
+          "fingerprint": "f262657175602321f8c26d71e4417161d9d37cf0e4c04161d943ecf4a2c0c1e89100acb4aaaad1903264a6b661a000a4",
+          "reason": "chart-or-text-card"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-08T17:33:10.256Z",
+        "runId": "run-2026-10-08-uafternoon-r87"
+      }
+    },
+    {
+      "id": "story-usa-green-card-microsoft-adobe-2026-10",
+      "eventKey": "usa-green-card-microsoft-adobe-suspension-2026-10",
+      "materialFacts": [
+        "USA suspenderer Microsoft, Adobe og seks IT-outsourcingselskaber fra programmet for grønne kort",
+        "Vance anklager selskaberne for svig i visumprocessen"
+      ],
+      "section": "Teknologi og politik",
+      "headline": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers",
+      "primarySourceUrl": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+      "subheadline": "Vance anklager otte selskaber for visumsvig.",
+      "body": [
+        "Vicepræsident JD Vance meddelte torsdag, at USA suspenderer Microsoft, Adobe og seks IT-outsourcingselskaber fra programmet for grønne kort til udenlandske medarbejdere og anklager dem for svig i visumprocessen."
+      ],
+      "whyItMatters": "Det rammer selskaber med tusinder på H-1B-visum og skærper linjen mod udenlandsk tech-arbejdskraft.",
+      "topics": [
+        "usa",
+        "politik",
+        "teknologi",
+        "arbejdsmarked"
+      ],
+      "entities": [
+        "JD Vance",
+        "Microsoft",
+        "Adobe",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 50,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 45,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Vicepræsident JD Vance meddelte, at USA suspenderer Microsoft, Adobe, Capgemini, Cognizant, HCL, Infosys, Tata og Wipro fra programmet for grønne kort",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Regeringen behandler ikke nye eller verserende ansøgninger fra de otte selskaber og anklager dem for svig",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+          "publishedAt": "2026-10-08T15:42:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "The Trump administration is suspending Microsoft from a green card program, alleging fraud",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/trump-administration/microsoft-suspended-green-cards-h-1b-visa-j-1-visa-vance-rcna602314",
+          "publishedAt": "2026-10-08T16:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269268389.jpg?resize=1200,800",
+          "fingerprint": "070b2d07e493a3738b0d2d07e492b3a30b0c4503e41011c10d042702c7545a4904660103c6b6bb5a4a49430187a6b929",
+          "reason": "logo-or-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-08/09-048380bf.jpg",
+        "credit": "Foto: Mark Schiefelbein / Pool via Getty Images",
+        "alt": "Vicepræsident JD Vance taler ved en mikrofon",
+        "sourceUrl": "https://www.nbcnews.com/politics/trump-administration/microsoft-suspended-green-cards-h-1b-visa-j-1-visa-vance-rcna602314",
+        "origin": "source",
+        "fingerprint": "2093c7c40183a7673283c7c6018103e71383c582000181231305c3828240558533828389820a5250120201050129cad2",
+        "lookedAt": "2093c7c40183a7673283c7c6018103e71383c582000181231305c3828240558533828389820a5250120201050129cad2",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260914-jd-vance-mn-1600-c57d71.jpg",
+        "focus": {
+          "x": 0.755,
+          "y": 0.943
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-08T17:33:10.256Z",
+        "runId": "run-2026-10-08-uafternoon-r87"
+      }
     }
   ],
   "signals": [
@@ -811,5 +993,20 @@
     "novelty": 75,
     "perspectiveBalance": 70,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-08T17:33:10.256Z",
+      "runId": "run-2026-10-08-uafternoon-r87",
+      "added": 2,
+      "cost": {
+        "usd": 4.673704500000002,
+        "inputTokens": 7740605,
+        "outputTokens": 40873,
+        "turns": 88,
+        "seconds": 677.9
+      }
+    }
+  ]
 }

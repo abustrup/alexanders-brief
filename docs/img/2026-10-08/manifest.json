@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-08",
-  "generatedAt": "2026-10-08T11:48:27.536Z",
+  "generatedAt": "2026-10-08T17:33:16.276Z",
   "pictures": [
     {
       "slot": "02",
@@ -82,6 +82,26 @@
         "y": 0.311
       },
       "fetchedAt": "2026-10-08T11:48:29.216Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-usa-green-card-microsoft-adobe-2026-10",
+      "headline": "US bars Microsoft, Adobe, and major IT firms from green card program for skilled foreign workers",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260914-jd-vance-mn-1600-c57d71.jpg",
+      "article": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/",
+      "hosted": "09-048380bf.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 70256,
+      "out": "945x630",
+      "bytes": 45695,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.755,
+        "y": 0.943
+      },
+      "fetchedAt": "2026-10-08T17:33:16.608Z"
     },
     {
       "slot": "r01",
