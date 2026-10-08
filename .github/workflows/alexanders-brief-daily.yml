@@ -172,23 +172,27 @@ jobs:
       # TOKEN DIET [2026-10-08]. Input is 99.6% of what a run costs (cost = turns x context size), so what
       # the agent used to fetch and carry through ~120 turns is now packed by plain code before it starts:
       # recent.md / recent-full.md (the last 30 days, for the repeat check) and taste.md (the reader's votes
-      # as a few lines). The archive is read from the sibling pages checkout. Fails open twice: the script
-      # writes a one-line file when its inputs are missing, and if the script itself is absent from this
-      # engine ref the lines below write the same kind of file, because a run must never fail for want of
-      # its memory. The day's own edition is left out on purpose: a replace run must not be steered away
-      # from the news it is replacing.
+      # as a few lines). The archive is read from the sibling pages checkout. Fails open, and fails TO THE OLD
+      # BEHAVIOUR: if the script errors or is absent from this engine ref, the lines below delete whatever it
+      # left half-written and write NOTHING. The prompt header only switches to the pack when recent.md
+      # exists; with no file it keeps the three WebFetch dedup URLs, which are then the only repeat check
+      # there is (context.json carries no history). A placeholder file here would switch the header over
+      # and take that check away, with the run still green [fixed 2026-10-09]. The day's own edition is
+      # left out on purpose: a replace run must not be steered away from the news it is replacing.
       - name: Pack the 30-day memory and the reader's taste
         if: steps.cap.outputs.proceed == 'true'
         continue-on-error: true
         env:
           DATE: ${{ steps.guard.outputs.date }}
         run: |
-          npm run --silent ci:context-pack -- "$DATE" --archive="${{ github.workspace }}/pages/data" \
-            || for f in recent taste; do
-                 mkdir -p "data/$DATE"
-                 [ -s "data/$DATE/$f.md" ] || printf 'The context pack did not run on engine %s, so there is no %s.md. Say so in your report.\n' "$ENGINE_REF" "$f" > "data/$DATE/$f.md"
-               done
-          ls -l "data/$DATE/recent.md" "data/$DATE/taste.md"
+          if ! npm run --silent ci:context-pack -- "$DATE" --archive="${{ github.workspace }}/pages/data"; then
+            # Only the pack's own outputs; context.json stays. Globs, so a file the engine adds later
+            # (columns.md) is covered without an edit here.
+            rm -f "data/$DATE"/recent*.md "data/$DATE"/columns*.md "data/$DATE"/taste*.md
+            printf '::warning::the context pack failed on engine %s; no pack files were left behind, so the prompt falls back to the three-edition WebFetch text.\n' "$ENGINE_REF"
+          fi
+          PACKED="$(find "data/$DATE" -maxdepth 1 \( -name 'recent*.md' -o -name 'columns*.md' -o -name 'taste*.md' \) 2>/dev/null | sort || true)"
+          if [ -n "$PACKED" ]; then ls -l $PACKED; else echo "no pack files for $DATE"; fi
 
       # The header ci-compose-prompt.sh prepends is load-bearing: it relocates the Mac paths, forbids the
       # agent's own publish step (prompt step 9), and says these logs are public. See ENGINE-CONTRACT.md.
@@ -307,48 +311,41 @@ jobs:
             --label="daily ${{ steps.guard.outputs.date }}" \
             | tee -a "$GITHUB_STEP_SUMMARY"
 
+      # WHAT THIS PRINTS IS PUBLIC [2026-10-09]: the log and the step summary of this repo are both readable
+      # by anyone. ci:profile prints counts (turns, tokens, calls per tool) and, for the 8 bulkiest tool
+      # results and the files read twice, the tool name, the target (a file path, a URL, a search query, the
+      # start of a command) and the size in characters. It never prints a tool result, a file's content or
+      # the agent's text. So it does reveal which files and pages the desk opened, what it searched for and
+      # the first words of its commands, and nothing it read inside them. The filter after it is a second
+      # lock that does not depend on the engine ref being the current one: every table cell is cut to 90
+      # characters (the script cuts a target to 70) and every line to 1,000.
       - name: Where the tokens went (profile)
         if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
         continue-on-error: true
-        run: npm run --silent ci:profile -- "$RUNNER_TEMP/agent.stream" | tee -a "$GITHUB_STEP_SUMMARY"
+        run: |
+          FILTER='
+            const MAX_CELL = 90, MAX_LINE = 1000;
+            const clip = (t, n) => { const c = Array.from(t); return c.length > n ? c.slice(0, n - 1).join("") + "…" : t; };
+            const rows = require("fs").readFileSync(0, "utf8").split("\n").map((line) => {
+              if (line.startsWith("|")) line = line.split(/(?<!\\)\|/).map((cell) => clip(cell, MAX_CELL)).join("|");
+              return clip(line, MAX_LINE);
+            });
+            process.stdout.write(rows.join("\n"));
+          '
+          npm run --silent ci:profile -- "$RUNNER_TEMP/agent.stream" | node -e "$FILTER" | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: What the desk said it did
         if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
         continue-on-error: true
         run: node scripts/ci-desk-report.mjs "$RUNNER_TEMP/agent.json" >> "$GITHUB_STEP_SUMMARY"
 
-      # The transcript, for seven days, so the next diet starts from a measurement and a bad morning can be
-      # read after the fact. Artifacts are NOT masked the way the log is, and this repo is public, so the
-      # token and anything token-shaped is cut out first; the step that uploads sends only the cleaned
-      # copy and sends nothing if the cleaning failed.
-      - name: Clean the transcript before keeping it
-        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
-        continue-on-error: true
-        env:
-          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
-        run: |
-          node -e '
-            const fs = require("fs");
-            const secret = process.env.CLAUDE_CODE_OAUTH_TOKEN || "";
-            let text = fs.readFileSync(process.argv[1], "utf8");
-            if (secret.length >= 8) text = text.split(secret).join("[redacted]");
-            text = text
-              .replace(/sk-ant-[A-Za-z0-9_-]{16,}/g, "[redacted]")
-              .replace(/gh[pousr]_[A-Za-z0-9]{16,}/g, "[redacted]")
-              .replace(/github_pat_[A-Za-z0-9_]{20,}/g, "[redacted]");
-            fs.writeFileSync(process.argv[2], text);
-            console.log("transcript cleaned: " + text.length + " characters");
-          ' "$RUNNER_TEMP/agent.stream" "$RUNNER_TEMP/agent-stream.cleaned.jsonl"
-
-      - name: Keep the transcript for seven days
-        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          name: agent-stream-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/agent-stream.cleaned.jsonl
-          retention-days: 7
-          if-no-files-found: ignore
+      # NO TRANSCRIPT UPLOAD, ON PURPOSE [2026-10-09]. On 2026-10-08 a step here kept the whole stream as a
+      # 7-day artifact after cutting out tokens. This repo is public and the artifacts of a public repo can
+      # be downloaded by any signed-in GitHub user, while the stream holds the full text of every file the
+      # agent Read, the private editorial profile among them. Cutting token-shaped strings does nothing for
+      # that. The measurement lives on in the profile step above (counts, tool, target, size; no content).
+      # Do not add an upload of agent.stream, agent.err or agent.json back; the only files this job uploads
+      # are the dry-run draft and its pictures.
 
       - name: Length report (advisory)
         if: steps.cap.outputs.proceed == 'true'
