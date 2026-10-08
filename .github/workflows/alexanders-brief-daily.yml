@@ -169,6 +169,27 @@ jobs:
           MAX_FULL_ATTEMPTS: ${{ inputs.dry_run && '99' || (inputs.replace_today && '4' || '2') }}
         run: bash scripts/ci-attempt-cap.sh "${{ steps.guard.outputs.date }}"
 
+      # TOKEN DIET [2026-10-08]. Input is 99.6% of what a run costs (cost = turns x context size), so what
+      # the agent used to fetch and carry through ~120 turns is now packed by plain code before it starts:
+      # recent.md / recent-full.md (the last 30 days, for the repeat check) and taste.md (the reader's votes
+      # as a few lines). The archive is read from the sibling pages checkout. Fails open twice: the script
+      # writes a one-line file when its inputs are missing, and if the script itself is absent from this
+      # engine ref the lines below write the same kind of file, because a run must never fail for want of
+      # its memory. The day's own edition is left out on purpose: a replace run must not be steered away
+      # from the news it is replacing.
+      - name: Pack the 30-day memory and the reader's taste
+        if: steps.cap.outputs.proceed == 'true'
+        continue-on-error: true
+        env:
+          DATE: ${{ steps.guard.outputs.date }}
+        run: |
+          npm run --silent ci:context-pack -- "$DATE" --archive="${{ github.workspace }}/pages/data" \
+            || for f in recent taste; do
+                 mkdir -p "data/$DATE"
+                 [ -s "data/$DATE/$f.md" ] || printf 'The context pack did not run on engine %s, so there is no %s.md. Say so in your report.\n' "$ENGINE_REF" "$f" > "data/$DATE/$f.md"
+               done
+          ls -l "data/$DATE/recent.md" "data/$DATE/taste.md"
+
       # The header ci-compose-prompt.sh prepends is load-bearing: it relocates the Mac paths, forbids the
       # agent's own publish step (prompt step 9), and says these logs are public. See ENGINE-CONTRACT.md.
       - name: Install the agent, compose the prompt
@@ -213,11 +234,38 @@ jobs:
           # two thirds of a run's cost is re-reading the conversation on each of ~120 steps, and only
           # ~14% is output, so expect a modest saving, not a halving. Judge it by updateRuns[].cost.
           # REVERT: delete the --effort line. To go further, low; to restore, high.
+          #
+          # STREAM, NOT TEXT [2026-10-08]. The whole transcript goes to a file and the log stays short: it is
+          # what `npm run ci:profile` reads to say where the tokens went, and the step below pulls the final
+          # result object out of it so the cost, limit and desk-report steps read a file shaped exactly as
+          # the update's. stderr (the CLI's own diagnostics, login and limit messages) still reaches the log.
+          status=0
           claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" \
-            --output-format text --no-session-persistence --permission-mode acceptEdits --effort medium \
+            --output-format stream-json --verbose --no-session-persistence --permission-mode acceptEdits --effort medium \
             --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
-            --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task 2>&1 \
-            | tee "$RUNNER_TEMP/agent.out"
+            --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task \
+            > "$RUNNER_TEMP/agent.stream" 2> "$RUNNER_TEMP/agent.err" || status=$?
+          cat "$RUNNER_TEMP/agent.err" >&2
+          exit "$status"
+
+      # The last `result` event of the stream, as the one JSON object the cost and desk-report scripts read.
+      # No result event (the CLI died mid-run) falls back to the last JSON line, so the limit check below
+      # still sees whatever the CLI said last. Named so the attempt cap does not mistake it for the agent.
+      - name: Keep the final result of the run
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        run: |
+          node -e '
+            const fs = require("fs");
+            let result = "", lastJson = "";
+            for (const line of fs.readFileSync(process.argv[1], "utf8").split("\n")) {
+              if (!line.startsWith("{")) continue;
+              try { const event = JSON.parse(line); lastJson = line; if (event && event.type === "result") result = line; } catch {}
+            }
+            const keep = result || lastJson;
+            if (keep) fs.writeFileSync(process.argv[2], keep + "\n");
+            console.log(result ? "final result kept" : keep ? "no result event; kept the last JSON line" : "the stream held no JSON at all");
+          ' "$RUNNER_TEMP/agent.stream" "$RUNNER_TEMP/agent.json"
 
       # WHY THESE TWO STEPS EXIST [2026-10-03]. The 29 Sep - 2 Oct mornings went unpublished because a Pro
       # usage window runs out inside the run ("You've hit your session limit"), the agent exits with no
@@ -225,16 +273,20 @@ jobs:
       # 06:10, and the runs GitHub fired after the 10:40 reset were refused. A run the account refused to
       # serve spent nothing worth counting. The first step looks; the second exists only so that the cap
       # (scripts/ci-attempt-cap.sh) can see, in the run's step list, that this one should not be counted.
+      # Since 2026-10-08 it looks at the final result and at stderr, the two places the text output of the
+      # old step carried those messages, and not at the whole transcript, where a fetched page could say it.
       - name: Did a usage limit or login refusal stop the agent?
         id: limit
         if: steps.cap.outputs.proceed == 'true'
         continue-on-error: true
         run: |
-          if grep -qiE 'hit your [a-z0-9 -]{0,20}limit|organization has disabled|failed to authenticate|credit balance is too low' "$RUNNER_TEMP/agent.out" 2>/dev/null \
+          WORDS='hit your [a-z0-9 -]{0,20}limit|organization has disabled|failed to authenticate|credit balance is too low'
+          SHOW='hit your [a-z0-9 -]{0,20}limit|organization has disabled[^"]{0,60}|failed to authenticate[^"]{0,60}|credit balance is too low'
+          if grep -qiE "$WORDS" "$RUNNER_TEMP/agent.json" "$RUNNER_TEMP/agent.err" 2>/dev/null \
              && [ ! -f "data/${{ steps.guard.outputs.date }}/draft.json" ]; then
             echo "limit=true" >> "$GITHUB_OUTPUT"
-            printf '::warning::The agent was stopped before it could produce an edition: %s\n' \
-              "$(grep -iE 'hit your|organization has disabled|failed to authenticate|credit balance' "$RUNNER_TEMP/agent.out" | head -1 | cut -c1-200)"
+            FOUND="$(grep -ihoE "$SHOW" "$RUNNER_TEMP/agent.json" "$RUNNER_TEMP/agent.err" 2>/dev/null | head -1)" || true
+            printf '::warning::The agent was stopped before it could produce an edition: %s\n' "$FOUND"
           else
             echo "limit=false" >> "$GITHUB_OUTPUT"
           fi
@@ -242,6 +294,61 @@ jobs:
       - name: Agent stopped before it could work (usage limit or login)
         if: steps.limit.outputs.limit == 'true'
         run: echo "This run spent no model time worth counting. The retry cap will not count it, so a run after the limit resets can still publish today."
+
+      # The daily now reports itself the way the update does [2026-10-08]. Never blocking: an accounting
+      # line must not cost an edition, so each of these three can fail without anyone noticing but the
+      # summary. The profile reads the whole transcript (where the tokens went, which results were bulky,
+      # which files were read twice); the desk report is the agent's own account of what it did.
+      - name: What this run cost
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        run: |
+          node scripts/ci-agent-cost.mjs "$RUNNER_TEMP/agent.json" \
+            --label="daily ${{ steps.guard.outputs.date }}" \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Where the tokens went (profile)
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        run: npm run --silent ci:profile -- "$RUNNER_TEMP/agent.stream" | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: What the desk said it did
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        run: node scripts/ci-desk-report.mjs "$RUNNER_TEMP/agent.json" >> "$GITHUB_STEP_SUMMARY"
+
+      # The transcript, for seven days, so the next diet starts from a measurement and a bad morning can be
+      # read after the fact. Artifacts are NOT masked the way the log is, and this repo is public, so the
+      # token and anything token-shaped is cut out first; the step that uploads sends only the cleaned
+      # copy and sends nothing if the cleaning failed.
+      - name: Clean the transcript before keeping it
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          node -e '
+            const fs = require("fs");
+            const secret = process.env.CLAUDE_CODE_OAUTH_TOKEN || "";
+            let text = fs.readFileSync(process.argv[1], "utf8");
+            if (secret.length >= 8) text = text.split(secret).join("[redacted]");
+            text = text
+              .replace(/sk-ant-[A-Za-z0-9_-]{16,}/g, "[redacted]")
+              .replace(/gh[pousr]_[A-Za-z0-9]{16,}/g, "[redacted]")
+              .replace(/github_pat_[A-Za-z0-9_]{20,}/g, "[redacted]");
+            fs.writeFileSync(process.argv[2], text);
+            console.log("transcript cleaned: " + text.length + " characters");
+          ' "$RUNNER_TEMP/agent.stream" "$RUNNER_TEMP/agent-stream.cleaned.jsonl"
+
+      - name: Keep the transcript for seven days
+        if: ${{ always() && steps.cap.outputs.proceed == 'true' }}
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-stream-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/agent-stream.cleaned.jsonl
+          retention-days: 7
+          if-no-files-found: ignore
 
       - name: Length report (advisory)
         if: steps.cap.outputs.proceed == 'true'
