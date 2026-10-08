@@ -244,9 +244,17 @@ jobs:
           # result object out of it so the cost, limit and desk-report steps read a file shaped exactly as
           # the update's. stderr (the CLI's own diagnostics, login and limit messages) still reaches the log.
           status=0
-          claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" \
+          # LEAN LOAD, 2026-10-09. Every turn re-reads the whole conversation, so what is loaded before the
+          # first turn is paid for ~120 times. Measured in this runner (CLI 2.1.228, one trivial call):
+          # base context 32,092 tokens with the default tool list and system prompt, 19,054 with --tools
+          # restricted to what the run uses, 11,024 with config/agent-system-prompt.md instead of Claude
+          # Code's default prompt. The tool smoke test passed under exactly these flags (all tools called
+          # and landed). An engine ref without the file keeps the default prompt. REVERT: delete LEAN.
+          LEAN=(--tools "Read,Write,Edit,Glob,Grep,Bash,WebSearch,WebFetch" --disable-slash-commands)
+          if [ -s config/agent-system-prompt.md ]; then LEAN+=(--system-prompt "$(cat config/agent-system-prompt.md)"); fi
+          claude -p "$(cat "$RUNNER_TEMP/run-prompt.md")" "${LEAN[@]}" \
             --output-format stream-json --verbose --no-session-persistence --permission-mode acceptEdits --effort medium \
-            --allowedTools Read Write Edit Glob Grep WebSearch WebFetch TodoWrite "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
+            --allowedTools Read Write Edit Glob Grep WebSearch WebFetch "Bash(npm run *)" "Bash(node *)" "Bash(wc *)" "Bash(date *)" \
             --disallowedTools "Bash(npm run publish*)" "Bash(git *)" "Bash(gh *)" "Bash(curl *)" "Bash(ssh *)" Task \
             > "$RUNNER_TEMP/agent.stream" 2> "$RUNNER_TEMP/agent.err" || status=$?
           cat "$RUNNER_TEMP/agent.err" >&2
