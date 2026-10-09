@@ -548,6 +548,18 @@
           "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
         }
       ]
+    },
+    {
+      "indicator": "dk-forsvar-beredskab-pct-bnp-2030",
+      "label": "Dansk forsvars- og beredskabsmål for 2030",
+      "unit": "pct. af BNP",
+      "readings": [
+        {
+          "value": "5,0",
+          "asOf": "2026-10-09 (finanslovforslag 2027)",
+          "sourceUrl": "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/"
+        }
+      ]
     }
   ]
 }
