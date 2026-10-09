@@ -1,0 +1,208 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-09",
+  "generatedAt": "2026-10-09T11:49:50.451Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-dk-finanslov2027",
+      "headline": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+      "source": "https://fm.dk/media/cftd2z4b/pige-i-skole.png?width=1200&height=630&v=1dd5762545f5bd0",
+      "article": "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+      "hosted": "01-6e818342.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "png",
+      "srcBytes": 1021529,
+      "out": "840x630",
+      "bytes": 53508,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.136,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-09T11:49:51.823Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-nobel-peace-pillay",
+      "headline": "2026 Nobel Peace Prize awarded to Navi Pillay",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6ac8bbed-1791540205.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay",
+      "hosted": "02-7832e772.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 170672,
+      "out": "1600x1067",
+      "bytes": 122699,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.079
+      },
+      "fetchedAt": "2026-10-09T11:49:52.287Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-openai-fired-safety",
+      "headline": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2dTru2.img",
+      "article": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+      "hosted": "03-b7e20da8.jpg",
+      "srcSize": "4206x2804",
+      "srcFormat": "jpeg",
+      "srcBytes": 1099559,
+      "out": "1600x1067",
+      "bytes": 83324,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0.536
+      },
+      "fetchedAt": "2026-10-09T11:49:52.987Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-dk-childhood-mortality",
+      "headline": "Barndom i modgang: Børn der vokser op med flere belastninger har større risiko for at dø tidligere",
+      "source": "https://nyheder.ku.dk/alle_nyheder/2026/10/Barndom_i_modgang_1100x600.png/",
+      "article": "https://sund.ku.dk/nyheder/nyheder-2026/10/barndom-i-modgang-boern-der-vokser-op-med-flere-belastninger-har-stoerre-risiko-for-at-doe-tidligere",
+      "hosted": "07-af722bcf.jpg",
+      "srcSize": "1100x600",
+      "srcFormat": "png",
+      "srcBytes": 232347,
+      "out": "900x600",
+      "bytes": 41506,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.607
+      },
+      "fetchedAt": "2026-10-09T11:49:54.043Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-dk-systematic-drone",
+      "headline": "Ny aftale styrker Forsvarets evne til at reagere på dronetrusler",
+      "source": "https://www.fmi.dk/globalassets/fmi/billeder/artikel/2026/q4/-hca-drones-rjn-p1-1146x694-2026-artikel.jpg",
+      "article": "https://www.fmi.dk/da/nyheder/2026/pm---ny-aftale-styrker-forsvarets-evne-til-at-reagere-pa-dronetrusler/",
+      "hosted": "08-77b6608e.jpg",
+      "srcSize": "1146x694",
+      "srcFormat": "jpeg",
+      "srcBytes": 128021,
+      "out": "1041x694",
+      "bytes": 60045,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.402,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-09T11:49:54.845Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-us-microsoft-greencard",
+      "headline": "'80% of filings were for existing staff': Microsoft pushes back on Vance's H-1B visa claims",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ac8ae5c07f7b-1791536732.jpg",
+      "article": "https://www.businesstoday.in/latest/corporate/story/80-of-h-1b-visa-filings-were-for-existing-staff-says-microsoft-after-us-suspends-8-firms-from-green-card-programme-560541-2026-10-09",
+      "hosted": "09-51de1fc5.jpg",
+      "srcSize": "5263x3509",
+      "srcFormat": "webp",
+      "srcBytes": 339346,
+      "out": "1600x1067",
+      "bytes": 101289,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.17,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-09T11:49:55.434Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-gaza-ceasefire-1yr",
+      "headline": "Gaza ceasefire exists in name only, say more than 100 organizations",
+      "source": "https://www.amnesty.org/en/wp-content/uploads/2026/10/319571-1024x433.jpg",
+      "article": "https://www.amnesty.org/en/latest/news/2026/10/gaza-ceasefire-exists-in-name-only-say-more-than-100-organizations/",
+      "hosted": "10-31ca7e22.jpg",
+      "srcSize": "1024x433",
+      "srcFormat": "jpeg",
+      "srcBytes": 455829,
+      "out": "649x433",
+      "bytes": 46419,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.393,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-09T11:49:55.803Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-pfizer-tukysa",
+      "headline": "Pfizer's TUKYSA Regimen Receives FDA Approval as Front-Line Maintenance Treatment for HER2+ Metastatic Breast Cancer",
+      "source": "https://qtxasset.com/quartz/qcloud5/media/image/Tukysa.jpg?VersionId=oNO1Q._uU8urave_W32XFAEHpNhWhPla",
+      "article": "https://www.pfizer.com/news/press-release/press-release-detail/pfizers-tukysa-regimen-receives-fda-approval-front-line",
+      "hosted": "11-9a01241b.jpg",
+      "srcSize": "1280x785",
+      "srcFormat": "jpeg",
+      "srcBytes": 145389,
+      "out": "1177x785",
+      "bytes": 30608,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0.625
+      },
+      "fetchedAt": "2026-10-09T11:49:56.134Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-taku-pakasoa",
+      "headline": "Tuvalu PM Teo urges Pacific leaders to unite behind Taku Pakasoa climate declaration",
+      "source": "https://cassette.sphdigital.com.sg/image/straitstimes/24133d2364a00493d147f388e78c6cf464a8619ab42d4addf985035d5965a67f?w=1200",
+      "article": "https://pina.com.fj/2026/10/07/tuvalu-pm-teo-urges-pacific-leaders-to-unite-behind-taku-pakasoa-climate-declaration/",
+      "hosted": "12-c89eaeb7.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 189965,
+      "out": "945x630",
+      "bytes": 104231,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.643
+      },
+      "fetchedAt": "2026-10-09T11:49:56.495Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-dwarkesh-sisheppard",
+      "headline": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "source": "https://img.youtube.com/vi/KbhNeFEqZS4/maxresdefault.jpg",
+      "article": "https://www.dwarkesh.com/p/si-sheppard",
+      "hosted": "r01-220dbf08.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 229651,
+      "out": "1280x720",
+      "bytes": 126957,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-09T11:49:56.711Z"
+    }
+  ]
+}
