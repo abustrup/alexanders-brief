@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-09",
-  "generatedAt": "2026-10-09T11:49:50.451Z",
+  "generatedAt": "2026-10-09T17:06:19.796Z",
   "pictures": [
     {
       "slot": "01",
@@ -183,6 +183,47 @@
         "y": 0.643
       },
       "fetchedAt": "2026-10-09T11:49:56.495Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-dk-krydstogtafgift-kritik",
+      "headline": "Krydstogtafgift giver stor kritik: '200 kroner per passager er voldsomt'",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/mczfyady/cruise.jpg?im=SmartCrop%2Csize%3D%28720%2C540%29",
+      "article": "https://www.dr.dk/nyheder/indland/krydstogtafgift-giver-stor-kritik-200-kroner-per-passager-er-voldsomt",
+      "hosted": "13-48eed5d1.jpg",
+      "srcSize": "720x540",
+      "srcFormat": "heif",
+      "srcBytes": 95983,
+      "out": "720x480",
+      "bytes": 84396,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.482,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-09T17:06:20.236Z"
+    },
+    {
+      "slot": "14",
+      "id": "story-dk-saedbank-mangelfuld-kontrol",
+      "headline": "Ny udvikling i sædskandale: Styrelse erkender mangelfuld kontrol med sædbanker",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/bslalueu/20250710-163436-5.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/ny-udvikling-i-saedskandale-styrelse-erkender-mangelfuld-kontrol-med-saedbanker",
+      "hosted": "14-694e5765.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 41980,
+      "out": "1012x675",
+      "bytes": 48183,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.116,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-09T17:06:20.559Z"
     },
     {
       "slot": "r01",

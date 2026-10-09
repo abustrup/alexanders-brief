@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "alexanders-brief-2026-10-09",
+  "runId": "run-2026-10-09-uafternoon-r91",
   "date": "2026-10-09",
-  "generatedAt": "2026-10-09T05:30:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-09T17:06:12.701Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Finanslov, et Nobelfredspris til en Gaza-undersøger, og to danske sikkerhedshistorier fra samme morgen.",
   "profileWeights": {
@@ -909,6 +909,177 @@
           "y": 0.643
         }
       }
+    },
+    {
+      "id": "story-dk-krydstogtafgift-kritik",
+      "eventKey": "dk-krydstogtafgift-kritik-2026-10",
+      "materialFacts": [
+        "Finanslovforslaget indeholder en afgift på 200 kroner per krydstogtpassager fra 2028",
+        "Afgiften skal give staten 300 millioner kroner årligt",
+        "VisitAarhus, Dansk Erhverv og Dansk Industri advarer om, at rederier vælger danske havne fra"
+      ],
+      "section": "Danmark",
+      "headline": "Krydstogtafgift giver stor kritik: '200 kroner per passager er voldsomt'",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/krydstogtafgift-giver-stor-kritik-200-kroner-per-passager-er-voldsomt",
+      "subheadline": "Dansk Erhverv, Dansk Industri og Aarhus Havn advarer mod ny afgift i finanslovforslaget",
+      "body": [
+        "Finanslovforslaget indfører en afgift på 200 kroner per krydstogtpassager fra 2028, som skal give staten 300 millioner kroner årligt. VisitAarhus, Dansk Erhverv og Dansk Industri advarer om, at rederier kan vælge danske havne fra."
+      ],
+      "whyItMatters": "Kritikken rammer en konkret finanslovspost, før forslaget forhandles i Folketinget.",
+      "topics": [
+        "danmark",
+        "økonomi",
+        "erhverv"
+      ],
+      "entities": [
+        "VisitAarhus",
+        "Dansk Erhverv",
+        "Dansk Industri",
+        "Aarhus Havn",
+        "Pia Lange Christensen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 25,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Finanslovforslaget indfører en afgift på 200 kroner per krydstogtpassager fra 2028 med forventet statsindtægt på 300 millioner kroner årligt",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/krydstogtafgift-giver-stor-kritik-200-kroner-per-passager-er-voldsomt"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Krydstogtafgift giver stor kritik: '200 kroner per passager er voldsomt'",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/krydstogtafgift-giver-stor-kritik-200-kroner-per-passager-er-voldsomt",
+          "publishedAt": "2026-10-09T14:31:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Business groups warn 200 DKK cruise passenger tax could drive tourists away",
+          "publisher": "The Copenhagen Post",
+          "url": "https://cphpost.dk/2026-10-09/news/round-up/business-groups-warn-200-dkk-cruise-passenger-tax-could-drive-tourists-away/",
+          "publishedAt": "2026-10-09T14:45:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-09/13-48eed5d1.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Krydstogtskib ved dansk havn, hvor regeringen vil indføre en afgift på 200 kroner per passager",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/krydstogtafgift-giver-stor-kritik-200-kroner-per-passager-er-voldsomt",
+        "origin": "article",
+        "fingerprint": "17278b112989130327479b1128892303a7461a8068082103075a39807808483397993980680948688a387d00e00c584a",
+        "lookedAt": "17278b112989130327479b1128892303a7461a8068082103075a39807808483397993980680948688a387d00e00c584a",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/mczfyady/cruise.jpg?im=SmartCrop%2Csize%3D%28720%2C540%29",
+        "focus": {
+          "x": 0.482,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-09T17:06:12.701Z",
+        "runId": "run-2026-10-09-uafternoon-r91"
+      }
+    },
+    {
+      "id": "story-dk-saedbank-mangelfuld-kontrol",
+      "eventKey": "dk-saedbank-mangelfuld-kontrol-2026-10",
+      "materialFacts": [
+        "Styrelsen for Patientsikkerhed har kun dokumenteret tre stikprøvekontroller af sæddonorers børnetal siden 2013",
+        "Myndigheden hævdede tidligere faste kontroller, men kan nu ikke bekræfte dem",
+        "Sundhedsminister Ida Auken har bedt om en fuld redegørelse senest udgangen af januar"
+      ],
+      "section": "Danmark",
+      "headline": "Ny udvikling i sædskandale: Styrelse erkender mangelfuld kontrol med sædbanker",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/ny-udvikling-i-saedskandale-styrelse-erkender-mangelfuld-kontrol-med-saedbanker",
+      "subheadline": "Styrelsen for Patientsikkerhed kan ikke dokumentere lovpligtige stikprøver siden 2013",
+      "body": [
+        "Styrelsen for Patientsikkerhed erkender kun tre stikprøvekontroller af sæddonorers børnetal siden 2013, selv om loven kræver det. Myndigheden hævdede tidligere faste kontroller, men kan nu ikke bekræfte dem. Ida Auken kalder det dybt utilfredsstillende og vil have en redegørelse i januar."
+      ],
+      "whyItMatters": "Svigtet rejser tvivl om tilsynet med sædbanker og rammer tusindvis af donorbørn og familier.",
+      "topics": [
+        "danmark",
+        "sundhed",
+        "tilsyn"
+      ],
+      "entities": [
+        "Styrelsen for Patientsikkerhed",
+        "Ida Auken",
+        "European Sperm Bank"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 45,
+        "novelty": 65,
+        "sourceQuality": 85,
+        "personalRelevance": 20,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Styrelsen for Patientsikkerhed har siden 2013 kun dokumenteret tre stikprøvekontroller af sæddonorers børnetal og kan ikke bekræfte tidligere hævdede faste kontroller",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/ny-udvikling-i-saedskandale-styrelse-erkender-mangelfuld-kontrol-med-saedbanker"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ny udvikling i sædskandale: Styrelse erkender mangelfuld kontrol med sædbanker",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/ny-udvikling-i-saedskandale-styrelse-erkender-mangelfuld-kontrol-med-saedbanker",
+          "publishedAt": "2026-10-09T04:01:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Styrelse erkender mangelfuld kontrol med sædbanker",
+          "publisher": "Kristeligt Dagblad",
+          "url": "https://www.kristeligt-dagblad.dk/danmark/styrelse-erkender-mangelfuld-kontrol-med-saedbanker",
+          "publishedAt": "2026-10-09T06:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://asset.dr.dk/imagemanager/magic?server=api.dr.dk&file=%2Fodacache%2Fapi%2FPublication%2FImage%2Furn%3Adr%3Aod3%3Aclippublication%3A6aa7daa740fe5a2bfc571afa%3FimageId%3Dd6af7cc7-f8de-4fff-836e-ab98a939365a&im=SmartCrop%2Csize%3D%281200%2C675%29",
+          "fingerprint": "b2b9b9b9b8cc4d0fb8b8b9b9b8ce4d0f3838783938cecd4d78787c7c7c5ecdcc78fcec6c7c5a8e8efcfcececfedbde0e",
+          "reason": "screen-text"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-09/14-694e5765.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Kilde i DRs dækning af sædskandalen, fotograferet ved et vindue",
+        "sourceUrl": "https://www.dr.dk/nyheder/indland/ny-udvikling-i-saedskandale-styrelse-erkender-mangelfuld-kontrol-med-saedbanker",
+        "origin": "article",
+        "fingerprint": "26361716361e5e5e66363716b6961e5e733232b3b3130f9f333333b323338f9f3333333363332f0d313171316161790d",
+        "lookedAt": "26361716361e5e5e66363716b6961e5e733232b3b3130f9f333333b323338f9f3333333363332f0d313171316161790d",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/bslalueu/20250710-163436-5.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.116,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-09T17:06:12.701Z",
+        "runId": "run-2026-10-09-uafternoon-r91"
+      }
     }
   ],
   "signals": [
@@ -1264,5 +1435,20 @@
     "importance": 65,
     "decisionValue": 47,
     "novelty": 62
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-09T17:06:12.701Z",
+      "runId": "run-2026-10-09-uafternoon-r91",
+      "added": 2,
+      "cost": {
+        "usd": 2.9558470000000003,
+        "inputTokens": 4750956,
+        "outputTokens": 28520,
+        "turns": 86,
+        "seconds": 512.9
+      }
+    }
+  ]
 }
