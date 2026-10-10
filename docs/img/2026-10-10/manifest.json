@@ -1,0 +1,126 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-10",
+  "generatedAt": "2026-10-10T15:26:17.160Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-trumpputin-20261010",
+      "headline": "Trump struck a diesel deal with Putin just weeks after signing Russia sanctions. Zelenskyy calls it 'a weak decision'",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/10/AP26282588885513-e1791580115162.jpg?format=webp&w=1440&quality=75",
+      "article": "https://fortune.com/2026/10/09/trump-putin-russian-diesel-deal-zelenskyy-sanctions/",
+      "hosted": "01-32787afc.jpg",
+      "srcSize": "1440x960",
+      "srcFormat": "webp",
+      "srcBytes": 44348,
+      "out": "1280x960",
+      "bytes": 75028,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.154,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-10T15:26:17.809Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-anthropicunint-20261010",
+      "headline": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/10/GettyImages-1490947739.jpg?w=1024",
+      "article": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "hosted": "02-1e5b8fb7.jpg",
+      "srcSize": "1024x679",
+      "srcFormat": "jpeg",
+      "srcBytes": 213881,
+      "out": "1018x679",
+      "bytes": 135402,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.37,
+        "y": 0.886
+      },
+      "fetchedAt": "2026-10-10T15:26:18.120Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-senatehyperscaler-20261010",
+      "headline": "Exclusive: Senate Investigation Challenges Big Tech's Case for AI Data Centers",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2dRdj1.img",
+      "article": "https://time.com/article/2026/10/08/senate-investigation-ai-data-centers/",
+      "hosted": "04-57ca87fc.jpg",
+      "srcSize": "4206x2804",
+      "srcFormat": "jpeg",
+      "srcBytes": 1130586,
+      "out": "1600x1067",
+      "bytes": 158117,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.361,
+        "y": 0.375
+      },
+      "fetchedAt": "2026-10-10T15:26:18.795Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-sachsenanhalt-20261010",
+      "headline": "Trotz Vetternwirtschafts-Skandal: Tobias Rausch ist der erste Landtagspräsident aus der AfD",
+      "source": "https://correctiv.org/wp-content/uploads/2026/10/20260604-afd-ulrich-siegmund-tobias-rausch-scaled-e1791188427198-1445x790.jpg",
+      "article": "https://correctiv.org/aktuelles/kandidierenden-check/2026/10/06/tobias-rausch-afd-landtagspraesident-ueberblick/",
+      "hosted": "06-9ba72245.jpg",
+      "srcSize": "1445x790",
+      "srcFormat": "jpeg",
+      "srcBytes": 256870,
+      "out": "1185x790",
+      "bytes": 93653,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.527,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-10T15:26:20.313Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-cockroachindia-20261010",
+      "headline": "India's 'Cockroach' leaders detained; New Delhi in lockdown",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/1nall3y0/20261010-095519-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown",
+      "hosted": "07-6366a563.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 181934,
+      "out": "1012x675",
+      "bytes": 103535,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.996
+      },
+      "fetchedAt": "2026-10-10T15:26:20.702Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-garicano-20261010",
+      "headline": "Luis Garicano on Spain, Europe, and the Future of Work",
+      "source": "https://conversationswithtyler.com/wp-content/uploads/2026/09/LuisGaricano-header-2000x874.png",
+      "article": "https://conversationswithtyler.com/episodes/luis-garicano/",
+      "hosted": "r01-c8d3e894.jpg",
+      "srcSize": "2000x874",
+      "srcFormat": "webp",
+      "srcBytes": 775588,
+      "out": "1553x874",
+      "bytes": 127219,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-10T15:26:20.989Z"
+    }
+  ]
+}
