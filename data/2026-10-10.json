@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-10-ci",
+  "runId": "run-2026-10-10-uafternoon-r95",
   "date": "2026-10-10",
-  "generatedAt": "2026-10-10T05:30:00.000Z",
+  "generatedAt": "2026-10-10T15:53:49.076Z",
   "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Diesel til Putin, Anthropics løbske agenter og en AfD-parlamentspræsident",
@@ -987,5 +987,20 @@
   },
   "quality": {
     "overall": 80
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-10T15:53:49.076Z",
+      "runId": "run-2026-10-10-uafternoon-r95",
+      "added": 0,
+      "cost": {
+        "usd": 0.9710764000000001,
+        "inputTokens": 459433,
+        "outputTokens": 10343,
+        "turns": 32,
+        "seconds": 189.3
+      }
+    }
+  ]
 }
