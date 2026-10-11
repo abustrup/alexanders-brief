@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "2026-10-11-daily",
+  "runId": "run-2026-10-11-uafternoon-r99",
   "date": "2026-10-11",
-  "generatedAt": "2026-10-11T11:25:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-11T16:30:00.708Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "Trump vil udskifte Zelenskyj, Nadella kræver et nødstop til AI, og et jordskælv sætter Panama i undtagelsestilstand.",
   "profileWeights": {
@@ -784,6 +784,228 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "riyadh-airport-houthi-attack-2026-10",
+      "eventKey": "riyadh-airport-houthi-attack-2026-10",
+      "materialFacts": [
+        "Houthi-bevægelsen har angrebet King Khalid International Airport i Riyadh tre gange på en uge",
+        "Et missilangreb lørdag dræbte mindst 12 og sårede 309 fra otte lande, det blodigste angreb på Saudi-Arabien i et årti",
+        "Søndag ramte endnu et projektil en terminal, og koalitionen skød en krydsermissil ned nær lufthavnen",
+        "Trump siger, at USA overvejer at gå direkte ind i krigen mod Houthierne efter saudisk opfordring"
+      ],
+      "section": "Geopolitik",
+      "headline": "Saudi airport struck again a day after deadly attack",
+      "primarySourceUrl": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+      "subheadline": "Et tredje missilangreb på Riyadhs lufthavn dræbte mindst 12 og sårede over 300.",
+      "body": [
+        "Houthierne har angrebet Riyadhs lufthavn tre gange på en uge. Lørdag dræbte et missil mindst 12 i det blodigste angreb på Saudi-Arabien i et årti. Søndag ramte endnu et projektil en terminal, og koalitionen skød en krydsermissil ned nær lufthavnen, der er lukket. Trump overvejer nu at lade USA gå ind i krigen."
+      ],
+      "whyItMatters": "En amerikansk indtræden kan optrappe en konflikt, der lammer Rødehavets søfart og saudisk olieinfrastruktur.",
+      "topics": [
+        "mellemøsten",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Houthi-bevægelsen",
+        "Saudi-Arabien",
+        "Donald Trump",
+        "King Khalid International Airport"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 65,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 15,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Et missilangreb mod Riyadhs lufthavn lørdag dræbte mindst 12 og sårede 309, det blodigste angreb på Saudi-Arabien i et årti.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trump siger, at USA overvejer at gå ind i krigen mod Houthierne efter en anmodning fra kronprins Mohammed bin Salman.",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Saudi airport struck again a day after deadly attack",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+          "publishedAt": "2026-10-11T10:09:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-11/11-40d23ce2.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Saudi airport struck again a day after deadly attack",
+        "sourceUrl": "https://www.nbcnews.com/world/middle-east/saudi-airport-attack-trump-us-join-fight-houthis-rcna602744",
+        "origin": "article",
+        "fingerprint": "9cdffe9e7824001a96fff69b59262408b6fdf65bd926a609b7bd775959662624adaff39dd9e262026e6b939c9ca1c363",
+        "lookedAt": "9cdffe9e7824001a96fff69b59262408b6fdf65bd926a609b7bd775959662624adaff39dd9e262026e6b939c9ca1c363",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261010-Riyadh-airport-ch-1122-493857.jpg",
+        "focus": {
+          "x": 0.893,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-11T16:30:00.708Z",
+        "runId": "run-2026-10-11-uafternoon-r99"
+      }
+    },
+    {
+      "id": "zelensky-responds-trump-president-2026-10",
+      "eventKey": "zelensky-responds-trump-president-2026-10",
+      "materialFacts": [
+        "Zelenskyy svarede søndag på Trumps krav om, at Ukraine bør få en ny præsident",
+        "Han sagde, det er op til det ukrainske folk at vælge en leder",
+        "Zelenskyy tilbød valg, hvis Rusland går med til 60 dages total våbenstilstand",
+        "Han lagde ansvaret for krigen alene hos Rusland og tilbød at stoppe angreb på russiske raffinaderier mod, at Rusland stopper angreb på ukrainsk energiinfrastruktur"
+      ],
+      "section": "Geopolitik",
+      "headline": "'Up to our people' to pick leader, Zelenskyy responds to Trump's pledge for new elections in Ukraine",
+      "primarySourceUrl": "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u",
+      "subheadline": "Zelenskyy afviser Trumps krav om ny præsident og kræver våbenstilstand før valg.",
+      "body": [
+        "Zelenskyy svarede søndag på Trumps krav om en ny ukrainsk præsident: Det er op til vores folk at vælge en leder. Valg kan holdes, hvis Rusland går med til 60 dages våbenstilstand, sagde han, og lagde ansvaret for krigen hos Rusland alene."
+      ],
+      "whyItMatters": "Svaret lægger presset tilbage på Washington og Moskva, mens Trumps krav splitter fredsprocessen.",
+      "topics": [
+        "ukraine",
+        "usa",
+        "krig",
+        "magt"
+      ],
+      "entities": [
+        "Volodymyr Zelenskyy",
+        "Donald Trump",
+        "Ukraine",
+        "Rusland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 78,
+        "personalRelevance": 30,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Zelenskyy sagde, det er op til det ukrainske folk at vælge en leder, og afviste dermed Trumps krav om en ny præsident.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Zelenskyy tilbød valg mod 60 dages total russisk våbenstilstand og foreslog at stoppe angreb på raffinaderier mod, at Rusland stopper angreb på energiinfrastruktur.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Up to our people' to pick leader, Zelenskyy responds to Trump's pledge for new elections in Ukraine",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/10/11/up-to-our-people-to-pick-leader-zelenskyy-responds-to-trumps-pledge-for-new-elections-in-u",
+          "publishedAt": "2026-10-11T14:19:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-11T16:30:00.708Z",
+        "runId": "run-2026-10-11-uafternoon-r99"
+      }
+    },
+    {
+      "id": "djibouti-migrant-shipwreck-2026-10",
+      "eventKey": "djibouti-migrant-shipwreck-2026-10",
+      "materialFacts": [
+        "En båd med 305 migranter kæntrede natten til 9. oktober nær Obock i Djibouti på vej mod Yemen",
+        "IOM oplyser søndag, at dødstallet er steget til mindst 139, mens 84 stadig er meldt forsvundet",
+        "82 overlevede og får nødhjælp fra IOM i Obock",
+        "IOM kalder det et af de dødeligste skibsforlis på denne migrationsrute"
+      ],
+      "section": "Verden",
+      "headline": "Death Toll in Djibouti Shipwreck Climbs to 139, UN Migration",
+      "primarySourceUrl": "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration",
+      "subheadline": "Mindst 139 migranter druknede, da en overfyldt båd kæntrede ud for Djibouti.",
+      "body": [
+        "En båd med 305 migranter kæntrede natten til 9. oktober nær Obock i Djibouti på vej mod Yemen. IOM oplyser søndag, at dødstallet er steget til mindst 139, mens 84 er forsvundet. 82 overlevede og får nødhjælp af IOM. Organisationen kalder det et af de dødeligste forlis på ruten."
+      ],
+      "whyItMatters": "Et af de dødeligste forlis på en rute, FN længe har advaret om, viser den stigende dødelighed uden lovlige alternativer.",
+      "topics": [
+        "migration",
+        "menneskerettigheder",
+        "afrika"
+      ],
+      "entities": [
+        "IOM",
+        "Djibouti",
+        "Yemen",
+        "Amy Pope"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 20,
+        "novelty": 55,
+        "sourceQuality": 82,
+        "personalRelevance": 8,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "IOM oplyser, at dødstallet efter skibsforliset ud for Djibouti er steget til mindst 139, mens 84 er meldt forsvundet.",
+          "sourceUrls": [
+            "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Båden havde 305 migranter ombord og kæntrede natten til 9. oktober nær Obock på vej mod Yemen.",
+          "sourceUrls": [
+            "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Death Toll in Djibouti Shipwreck Climbs to 139, UN Migration",
+          "publisher": "International Organization for Migration (IOM)",
+          "url": "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration",
+          "publishedAt": "2026-10-11T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-11T16:30:00.708Z",
+        "runId": "run-2026-10-11-uafternoon-r99"
+      }
     }
   ],
   "signals": [
@@ -1122,5 +1344,20 @@
     "balance": 75,
     "diversity": 70,
     "novelty": 68
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-11T16:30:00.708Z",
+      "runId": "run-2026-10-11-uafternoon-r99",
+      "added": 3,
+      "cost": {
+        "usd": 3.608785699999999,
+        "inputTokens": 5434836,
+        "outputTokens": 40895,
+        "turns": 86,
+        "seconds": 832.1
+      }
+    }
+  ]
 }
