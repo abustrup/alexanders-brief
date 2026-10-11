@@ -233,14 +233,6 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
-    },
-    {
-      "date": "2026-10-10",
-      "slug": "benfords-lov-beviser-intet-alene",
-      "claim": "En Benford-afvigelse er svagt bevis for svindel, da loven gælder enhver skala-invariant talrække.",
-      "horizon": "Næste gang en domstol bruger en Benford-afvigelse alene som bevis",
-      "falsifier": "En fremtidig, forhåndsregistreret retssag eller revisionsrapport viser, at en Benford-afvigelse alene - uden understøttende transaktionsbevis - holder til en fældende afgørelse i en uafhængig instans.",
-      "status": "open"
     }
   ]
 }
