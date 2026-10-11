@@ -1,0 +1,147 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-11",
+  "generatedAt": "2026-10-11T11:29:30.601Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "trump-zelensky-new-president-2026-10",
+      "headline": "Trump says Ukraine should get a new president as he blames Zelenskyy for US diesel prices",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6aca11e2670e2-1791627746.jpg?resize=1920%2C1440",
+      "article": "https://www.washingtonpost.com/world/2026/10/10/russia-ukraine-war-trump-putin-diesel/c108e9f6-c47a-11f1-8170-681419af1cc9_story.html",
+      "hosted": "01-6f5a8265.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 303424,
+      "out": "1600x1200",
+      "bytes": 261934,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.476,
+        "y": 0.761
+      },
+      "fetchedAt": "2026-10-11T11:29:31.250Z"
+    },
+    {
+      "slot": "02",
+      "id": "nadella-ai-emergency-brake-2026-10",
+      "headline": "Microsoft's Satya Nadella says AI models need an 'emergency brake'",
+      "source": "https://techcrunch.com/wp-content/uploads/2023/11/satya-nadella-2_web.png?w=1000",
+      "article": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "hosted": "02-5992c1da.jpg",
+      "srcSize": "1000x667",
+      "srcFormat": "png",
+      "srcBytes": 286048,
+      "out": "1000x667",
+      "bytes": 21329,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0.043
+      },
+      "fetchedAt": "2026-10-11T11:29:31.475Z"
+    },
+    {
+      "slot": "04",
+      "id": "houthi-saudi-oil-escalation-2026-10",
+      "headline": "Iran-backed Houthis target Saudi oil facility as hostilities escalate in Yemen",
+      "source": "https://live-production.wcms.abc-cdn.net.au/6e898ebf87d5e1e820377a8fb1c9ea9d?impolicy=wcms_crop_resize&cropH=1948&cropW=3463&xPos=0&yPos=0&width=1600&height=900&imformat=generic",
+      "article": "https://www.abc.net.au/news/2026-10-04/houthi-saudi-yemen-iraq-middle-east-hostilities/107226524",
+      "hosted": "04-68f4c3cc.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 259450,
+      "out": "1350x900",
+      "bytes": 95769,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.518,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-11T11:29:31.921Z"
+    },
+    {
+      "slot": "05",
+      "id": "panama-earthquake-emergency-2026-10",
+      "headline": "Panama declares a state of emergency as powerful quake aftershocks rattle communities",
+      "source": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/5N4VR7U5CHU4LKUL3OABK4OTQY.jpg?auth=f55f89274d1f61f9002b4d06a4afdaae1119b7d69da86594283727240cdf1d8b&width=1440",
+      "article": "https://www.bostonglobe.com/2026/10/11/world/panama-declares-state-of-emergency-as-quake-aftershocks-rattle-communities",
+      "hosted": "05-acc50ac8.jpg",
+      "srcSize": "1440x960",
+      "srcFormat": "heif",
+      "srcBytes": 172676,
+      "out": "1440x960",
+      "bytes": 226323,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.12,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-11T11:29:32.584Z"
+    },
+    {
+      "slot": "06",
+      "id": "hummelgaard-eu-budget-2026-10",
+      "headline": "Hummelgaard har ikke ligefrem set sig varm på irsk udspil til EU-budget",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/nvxauzyi/20261009-112613-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/udland/hummelgaard-har-ikke-ligefrem-set-sig-varm-paa-irsk-udspil-til-eu-budget",
+      "hosted": "06-110e1e77.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 145996,
+      "out": "1012x675",
+      "bytes": 64768,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 0.129
+      },
+      "fetchedAt": "2026-10-11T11:29:32.958Z"
+    },
+    {
+      "slot": "10",
+      "id": "brussels-austerity-protests-2026-10",
+      "headline": "Police clash with protesters in Brussels as thousands march against spending cuts",
+      "source": "https://images.euronews.com/articles/stories/09/94/66/12/1200x675_cmsv2_78ba201c-ea81-55ff-9fa7-c12a3f954f6a-9946612.jpg",
+      "article": "https://www.africanews.com/2026/10/10/police-clash-with-protesters-in-brussels-as-thousands-march-against-spending-cuts/",
+      "hosted": "10-49bae4db.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 181226,
+      "out": "1012x675",
+      "bytes": 146910,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.464,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-11T11:29:33.411Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-ai-doc-apocaloptimist",
+      "headline": "The AI Doc: Or How I Became an Apocaloptimist",
+      "source": "https://resizing.flixster.com/qyUr8VjyTy9PD8vW_UxX-Om2yjk=/68x102/v2/https://resizing.flixster.com/BhE49z6xOkLRFjBWBNAl_c5bV_o=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzVjZWRmM2Q5LThmMWQtNGFlYi1iYWMxLTZlYTMwZTAzNjdjZi5qcGc=",
+      "article": "https://www.netflix.com/title/82792555",
+      "hosted": "r01-830f5bc0.jpg",
+      "srcSize": "68x102",
+      "srcFormat": "jpeg",
+      "srcBytes": 4570,
+      "out": "68x38",
+      "bytes": 1426,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-11T11:29:33.704Z"
+    }
+  ]
+}
