@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-13",
-  "generatedAt": "2026-10-13T17:20:30.910Z",
+  "generatedAt": "2026-10-13T17:42:51.645Z",
   "pictures": [
     {
       "slot": "01",
@@ -222,6 +222,47 @@
         "y": 0.761
       },
       "fetchedAt": "2026-10-13T17:20:38.293Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-femerncyber-13",
+      "headline": "Hovedentreprenør på Femern-projektet ramt af cyberhændelse",
+      "source": "https://femern.com/media/y5ynffpr/dsc_4852-1600px.jpg?width=1200&height=800&quality=75&v=1dd5a254b209820",
+      "article": "https://femern.com/da/presse/nyheder/hovedentreprenor-pa-femern-projektet-ramt-af-cyberhaendelse/",
+      "hosted": "13-d15ae34e.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 179999,
+      "out": "1200x800",
+      "bytes": 169801,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.375
+      },
+      "fetchedAt": "2026-10-13T17:42:53.091Z"
+    },
+    {
+      "slot": "14",
+      "id": "story-danfosscyber-14",
+      "headline": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
+      "source": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh64tQNgn3aqDhyphenhyphengoK8NxQG3DPvWWi0fP185meJUr14eUmcX18mKJdkUz6QsMU6bTxmwAtHrd8I0J5FQjvTENA1-N1F60zsR1x2iDzaJNhPbg_6iGYTELpBOwiTbBiaMWLmWQ4naaMfCLCcThNEfC302zF-YCjlev6138DvUrXfr5noGCpZaT9JnGd7hUw/s1700-nu-rw-lo-l85-e365/supermarket.jpg",
+      "article": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
+      "hosted": "14-8311d432.jpg",
+      "srcSize": "900x470",
+      "srcFormat": "webp",
+      "srcBytes": 111350,
+      "out": "705x470",
+      "bytes": 70414,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.152,
+        "y": 0.061
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-13T17:42:53.448Z"
     },
     {
       "slot": "r01",
