@@ -1,0 +1,248 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-13",
+  "generatedAt": "2026-10-13T17:20:30.910Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-houthi-riyadh-01",
+      "headline": "Houthi missile attack targets Saudi capital Riyadh for third day in a row",
+      "source": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-10-11T133451Z_158209492_RC211OAHP5D3_RTRMADP_3_IRAN-CRISIS-SAUDI-AIRPORT-1024x706.jpg",
+      "article": "https://www.aljazeera.com/news/2026/10/12/houthi-missile-attack-targets-saudi-capital-riyadh-for-third-day-in-a-row",
+      "hosted": "01-3bd71a1f.jpg",
+      "srcSize": "1024x706",
+      "srcFormat": "jpeg",
+      "srcBytes": 94254,
+      "out": "941x706",
+      "bytes": 49604,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.864,
+        "y": 0.321
+      },
+      "fetchedAt": "2026-10-13T17:20:31.276Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-hormuz-02",
+      "headline": "Strait of Hormuz attacks surge as Iran steps up campaign against US-backed oil shipping",
+      "source": "https://www.thenationalnews.com/resizer/v2/IL47LEHNCJDDJLOND6JQWQDPDU.jpg?auth=7792b53afca012d8c1b35c4967a347ce7472a2b0977f04c5fe4f7d1c88ddef60&smart=true&width=1200&height=630",
+      "article": "https://www.thenationalnews.com/news/gulf/2026/10/13/strait-of-hormuz-attacks-surge-as-iran-steps-up-campaign-against-us-backed-oil-shipping/",
+      "hosted": "02-97252c2c.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 79633,
+      "out": "945x630",
+      "bytes": 89963,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-13T17:20:31.740Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-fairford-03",
+      "headline": "British PM Burnham: Iran 'almost certainly' behind RAF Fairford plot",
+      "source": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/10/f29fca3782c5f54ef916c5d9a578509b.jpg",
+      "article": "https://www.upi.com/Top_News/World-News/2026/10/12/burnham-links-iran-to-raf-fairford-plot/8711791828862/",
+      "hosted": "03-81d4cf83.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 106430,
+      "out": "1080x720",
+      "bytes": 68696,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.161,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-13T17:20:32.068Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-maia300-04",
+      "headline": "Microsoft announces Maia 300, its next-generation custom AI chip",
+      "source": "https://news.microsoft.com/source/emea/wp-content/uploads/2026/10/Maia-300-prototype-chip-00-scaled.png",
+      "article": "https://news.microsoft.com/source/emea/2026/10/microsoft-announces-maia-300-its-next-generation-custom-ai-chip/",
+      "hosted": "04-373140e9.jpg",
+      "srcSize": "2560x1440",
+      "srcFormat": "png",
+      "srcBytes": 1762478,
+      "out": "1600x1067",
+      "bytes": 73094,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-13T17:20:33.934Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-decart-06",
+      "headline": "Amazon Reportedly In Talks To Acquire AI Startup Decart For Around $7 Billion",
+      "source": "https://cdn.pulse2.com/cdn/2019/04/Amazon.jpg",
+      "article": "https://pulse2.com/amazon-reportedly-in-talks-to-acquire-ai-startup-decart-for-around-7-billion/",
+      "hosted": "06-236b99c3.jpg",
+      "srcSize": "1000x667",
+      "srcFormat": "jpeg",
+      "srcBytes": 184018,
+      "out": "1000x667",
+      "bytes": 135397,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.429,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-13T17:20:34.559Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-epilepsy-07",
+      "headline": "AI platform allows real-time conversation between patients and their medical devices",
+      "source": "https://tupa-q-001.sitecorecontenthub.cloud/api/public/content/490d00088eda42b0a5765569f8bf20ae?v=c74f37b3&t=16x9",
+      "article": "https://www.pennmedicine.org/news/ai-platform-allows-patients-to-text-with-their-medical-device",
+      "hosted": "07-581bd122.jpg",
+      "srcSize": "1024x576",
+      "srcFormat": "png",
+      "srcBytes": 858013,
+      "out": "864x576",
+      "bytes": 50117,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-13T17:20:35.601Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-nobeleconomics-08",
+      "headline": "Nobel Prize in economics goes to Hall, Woodford for work on boom-bust cycles",
+      "source": "https://npr.brightspotcdn.com/dims3/default/strip/false/crop/7794x4384+0+0/resize/1400/quality/85/format/jpeg/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F26%2F78%2Fddfdc1d243f09e93115d2fbd57d2%2Fgettyimages-2299286819.jpg",
+      "article": "https://www.npr.org/2026/10/09/nx-s1-5996634/nobel-prize-in-economics",
+      "hosted": "08-89d965b0.jpg",
+      "srcSize": "1400x787",
+      "srcFormat": "jpeg",
+      "srcBytes": 201191,
+      "out": "1180x787",
+      "bytes": 109916,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.286
+      },
+      "fetchedAt": "2026-10-13T17:20:36.182Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-homeview-09",
+      "headline": "Apple HomeView Won't Be Available in the European Union",
+      "source": "https://www.apple.com/newsroom/images/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/article/Apple-HomeView-lineup-261013_Full-Bleed-Image.jpg.large.jpg",
+      "article": "https://www.macrumors.com/2026/10/13/apple-homeview-wont-be-available-in-eu/",
+      "hosted": "09-261bd181.jpg",
+      "srcSize": "1440x810",
+      "srcFormat": "jpeg",
+      "srcBytes": 98887,
+      "out": "1215x810",
+      "bytes": 65738,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.179,
+        "y": 0.643
+      },
+      "fetchedAt": "2026-10-13T17:20:36.611Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-worldbankchina-10",
+      "headline": "World Bank raises China 2026 GDP growth forecast to 4.5% on high-tech exports",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2dEv3y.img",
+      "article": "https://www.icis.com/explore/resources/news/2026/10/08/11236427/world-bank-raises-china-2026-gdp-growth-forecast-to-4-5-on-high-tech-exports/",
+      "hosted": "10-51507aa8.jpg",
+      "srcSize": "1910x1000",
+      "srcFormat": "jpeg",
+      "srcBytes": 650203,
+      "out": "1500x1000",
+      "bytes": 437054,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.396,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-13T17:20:37.333Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-cop31-11",
+      "headline": "Türkiye: COP31 Host Curbs Environment Defenders",
+      "source": "https://www.hrw.org/sites/default/files/styles/opengraph/public/media_2026/10/202610eca_Tu%CC%88rkiye_Pers%CC%A7embe%20Plateau_protest_1.jpeg?h=ddc58dd3&itok=3brWyUBl",
+      "article": "https://www.hrw.org/news/2026/10/13/turkiye-cop31-host-curbs-environment-defenders",
+      "hosted": "11-4be5f7c4.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 213103,
+      "out": "1012x675",
+      "bytes": 166304,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.42,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-13T17:20:37.804Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-bulgaria-12",
+      "headline": "Eleven sailors missing after drone attack sinks cargo ship off Bulgarian coast",
+      "source": "https://images.euronews.com/articles/stories/09/94/96/52/1536x864_cmsv2_76bd7fe0-de37-5fb6-9317-fc94f0527942-9949652.jpg",
+      "article": "https://www.irishtimes.com/world/europe/2026/10/13/eleven-sailors-missing-after-drone-attack-sinks-cargo-ship-off-bulgarian-coast/",
+      "hosted": "12-839a708f.jpg",
+      "srcSize": "1536x864",
+      "srcFormat": "webp",
+      "srcBytes": 162498,
+      "out": "1296x864",
+      "bytes": 148378,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.809,
+        "y": 0.761
+      },
+      "fetchedAt": "2026-10-13T17:20:38.293Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-instadocs-aigonewild",
+      "headline": "Instadocs: AI Gone Wild",
+      "source": "https://image.tmdb.org/t/p/w780/ybMAd7Tkd3T7XlCv4Ps54r1yC1M.jpg",
+      "article": "https://www.netflix.com/tudum/articles/instadocs-ai-gone-wild-release-date-news",
+      "hosted": "r01-c2e392df.jpg",
+      "srcSize": "780x1170",
+      "srcFormat": "webp",
+      "srcBytes": 104852,
+      "out": "780x439",
+      "bytes": 43366,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-13T17:20:38.724Z"
+    }
+  ]
+}
