@@ -1,0 +1,209 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-14",
+  "generatedAt": "2026-10-14T04:43:31.370Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story01openaibugging",
+      "headline": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/10/alfozanchecking_on_device.png",
+      "article": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+      "hosted": "01-94a20bce.jpg",
+      "srcSize": "956x823",
+      "srcFormat": "webp",
+      "srcBytes": 231732,
+      "out": "956x717",
+      "bytes": 49634,
+      "crop": "attention",
+      "frame": "lead",
+      "focus": {
+        "x": 0.841,
+        "y": 0.249
+      },
+      "fetchedAt": "2026-10-14T04:43:32.435Z"
+    },
+    {
+      "slot": "03",
+      "id": "story03anthropicreplicate",
+      "headline": "AI could self-replicate on home devices within 'months', Anthropic says",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-09T211004Z_976748305_RC29LNA6BXUH_RTRMADP_3_ANTHROPIC-PHILADELPHIA-1791854253_8f87dd-1791854986.jpg?resize=1200%2C630&quality=80",
+      "article": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+      "hosted": "03-388643da.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 48888,
+      "out": "945x630",
+      "bytes": 46913,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-14T04:43:32.856Z"
+    },
+    {
+      "slot": "04",
+      "id": "story04ebola",
+      "headline": "Ebola spreads in eastern DRC as Kenya confirms imported case",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/Hygienist-at-an-Ebola-treatment-center-in-Bunia-1791552746.jpg",
+      "article": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case",
+      "hosted": "04-9680edb4.jpg",
+      "srcSize": "2560x1920",
+      "srcFormat": "webp",
+      "srcBytes": 712146,
+      "out": "1600x1067",
+      "bytes": 369141,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.589
+      },
+      "fetchedAt": "2026-10-14T04:43:33.513Z"
+    },
+    {
+      "slot": "05",
+      "id": "story05djibouti",
+      "headline": "139 people dead, including 15 children, after migrant boat capsizes off Africa: \"Overwhelmed with all the bodies\"",
+      "source": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/12/441411e4-4265-4502-bbfd-6f4f3838e6d9/thumbnail/1200x630/0a01ee2899d9cf21f7dfaa06625753e1/ap26285345282239.jpg",
+      "article": "https://www.cbsnews.com/news/migrant-boat-capsizes-djibouti-over-100-dead/",
+      "hosted": "05-2becd9f0.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 128968,
+      "out": "945x630",
+      "bytes": 90324,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.875,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-14T04:43:33.798Z"
+    },
+    {
+      "slot": "06",
+      "id": "story06blacksea",
+      "headline": "Drone attack sinks ship off Bulgaria's Black Sea coast, PM says",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6acdd402-1791874050.jpg?resize=1200%2C675",
+      "article": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says",
+      "hosted": "06-fa8820a1.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 118718,
+      "out": "1012x675",
+      "bytes": 98693,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.261,
+        "y": 0.761
+      },
+      "fetchedAt": "2026-10-14T04:43:34.098Z"
+    },
+    {
+      "slot": "07",
+      "id": "story07burnham",
+      "headline": "UK to Fast-Track Air Defense Missiles for Ukraine as Burnham Hosts Zelensky in London",
+      "source": "https://static.kyivpost.com/storage/2026/10/14/51733520f90bae0eca0abdde8f2285fd.jpg",
+      "article": "https://www.kyivpost.com/post/86974",
+      "hosted": "07-fdf667c4.jpg",
+      "srcSize": "1024x684",
+      "srcFormat": "jpeg",
+      "srcBytes": 97969,
+      "out": "1024x683",
+      "bytes": 42263,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.191,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-14T04:43:34.375Z"
+    },
+    {
+      "slot": "08",
+      "id": "story08finanslov",
+      "headline": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/6/2/0/62083b85-6a94-48b5-9752-72bce06784dd?ixlib=js-3.8.0&w=624&h=351&q=45&auto=format&fit=crop&rect64=MCwxMDgsNTYxNiwzMTYz&s=09a8ba4dbeeec5f45dd3d04bd64e152a",
+      "article": "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+      "hosted": "08-acabcb52.jpg",
+      "srcSize": "624x351",
+      "srcFormat": "heif",
+      "srcBytes": 11860,
+      "out": "526x351",
+      "bytes": 22122,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-14T04:43:34.645Z"
+    },
+    {
+      "slot": "09",
+      "id": "story09astribot",
+      "headline": "Startup Funding News Today, October 13, 2026: Astribot, CarbonFarm, Clueso, Ubitium, Epyr & More",
+      "source": "https://newatlas-brightspot.s3.ap-southeast-2.amazonaws.com/8a/69/13314b1a4c9dac7a963584310d4d/astribot.jpg",
+      "article": "https://techstartups.com/2026/10/13/startup-funding-news-today-october-13-2026-astribot-carbonfarm-ubitium-epyr-more/",
+      "hosted": "09-570434ca.jpg",
+      "srcSize": "1239x826",
+      "srcFormat": "jpeg",
+      "srcBytes": 515554,
+      "out": "1239x826",
+      "bytes": 61771,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-14T04:43:36.457Z"
+    },
+    {
+      "slot": "10",
+      "id": "story10mexico",
+      "headline": "Mexico's defense secretary expresses concern over growing use of drone technology by drug cartels",
+      "source": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/14/thumbs_b_c_e7f620ffd5b16b08af83d8f093ad0d6e.jpg",
+      "article": "https://aa.com.tr/en/americas/mexico-s-defense-secretary-expresses-concern-over-growing-use-of-drone-technology-by-drug-cartels/4087944",
+      "hosted": "10-5ccbf94f.jpg",
+      "srcSize": "864x486",
+      "srcFormat": "webp",
+      "srcBytes": 48076,
+      "out": "729x486",
+      "bytes": 44472,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.296,
+        "y": 0.096
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-14T04:43:36.788Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec01atomarine",
+      "headline": "Atomarine: Floating Nuclear Data Centers",
+      "source": "https://img.youtube.com/vi/unRTV4ZJXts/hqdefault.jpg",
+      "article": "https://www.ycombinator.com/launches/Rwg-atomarine-floating-nuclear-data-centers",
+      "hosted": "r01-f6015878.jpg",
+      "srcSize": "480x360",
+      "srcFormat": "jpeg",
+      "srcBytes": 19450,
+      "out": "480x270",
+      "bytes": 18749,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-14T04:43:36.903Z"
+    }
+  ]
+}

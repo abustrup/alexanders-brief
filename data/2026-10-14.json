@@ -1,0 +1,1247 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-10-14",
+  "date": "2026-10-14",
+  "generatedAt": "2026-10-14T05:30:00Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief, 14. oktober 2026",
+  "dek": "En saudiarabisk OpenAI-ingeniør anklaget for aflytning, Gemini 4 Argon ude i fuld skala, Anthropic advarer om selvkopierende AI -- og en ebola-epidemi med 4.200 døde, som WHO fastholder ikke skal mødes med rejserestriktioner.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story01openaibugging",
+      "eventKey": "openai-engineer-saudi-bugging-arrest-2026-10",
+      "materialFacts": [
+        "DOJ anklagede Abdulrahman Alfozan, 35, saudisk statsborger og OpenAI-ingeniør siden juli 2025, for ulovlig aflytning",
+        "En lydoptager blev fundet i en USB-port bag et tv i et bestyrelseslokale 30. september; en anden i Alfozans taske 5. oktober",
+        "FBI-direktør Kash Patel og efterretningschef Jay Clayton kobler sagen til NSPM-11 og 'the global superintelligence race'",
+        "OpenAI siger, intet tyder på at modelvægte, kildekode eller kundedata blev tilgået; Alfozan er fyret"
+      ],
+      "section": "AI",
+      "headline": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+      "primarySourceUrl": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+      "subheadline": "Justitsministeriet kobler sagen til kampen om superintelligens",
+      "body": [
+        "Abdulrahman Alfozan, 35, OpenAI-ingeniør siden juli 2025, er anklaget for aflytning efter en optager i et bestyrelseslokales tv 30. september; endnu en lå i hans taske 5. oktober. FBI's Kash Patel kobler sagen til 'superintelligens' og NSPM-11. OpenAI fandt ingen tegn på datatilgang."
+      ],
+      "whyItMatters": "Sagen viser, hvor politisk ladet kontraspionage om AI-laboratorier er blevet.",
+      "analysis": "En USB-mikrofon, der udløser sikkerhedsudtalelser, siger mere om 'superintelligens' som kategori end truslen.",
+      "counterpoint": "Anklagen lyder kun på aflytning, og OpenAI fandt ingen tegn på datatab.",
+      "topics": [
+        "ai",
+        "usa",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "OpenAI",
+        "Abdulrahman Alfozan",
+        "FBI",
+        "Kash Patel"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 65,
+        "novelty": 85,
+        "sourceQuality": 90,
+        "personalRelevance": 80,
+        "contrast": 80
+      },
+      "claims": [
+        {
+          "text": "DOJ charged Abdulrahman Alfozan with illegal interception of oral communications after devices were found Sept 30 and Oct 5",
+          "sourceUrls": [
+            "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "OpenAI found no indication model weights, source code or customer data were accessed; Alfozan was fired",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Saudi National Arrested For Installing Surreptitious Audio Recording Device At OpenAI",
+          "publisher": "U.S. Department of Justice",
+          "url": "https://www.justice.gov/opa/pr/saudi-national-arrested-installing-surreptitious-audio-recording-device-openai",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/13/openai-employee-arrested-recording-device.html",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/01-94a20bce.jpg",
+        "credit": "OpenAI/DOJ via Fortune",
+        "alt": "Overvågningsbillede af Abdulrahman Alfozan, der undersøger stedet bag tv'et, hvor optageren blev fundet",
+        "sourceUrl": "https://www.fortune.com/2026/10/13/fbi-arrests-openai-employee-charged-planting-secret-recording-device-conference-room/",
+        "fingerprint": "304c4849490104014c4c49494d0004008c0e49498c0404000c16484c8c040402171a084c8e040202131a0a0c0e060202",
+        "lookedAt": "304c4849490104014c4c49494d0004008c0e49498c0404000c16484c8c040402171a084c8e040202131a0a0c0e060202",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/10/alfozanchecking_on_device.png",
+        "focus": {
+          "x": 0.841,
+          "y": 0.249
+        }
+      }
+    },
+    {
+      "id": "story02gemini4argon",
+      "eventKey": "gemini-4-argon-ga-2026-10",
+      "materialFacts": [
+        "Gemini 4 Argon fik generel adgang 13. oktober via API og for Ultra/Pro-abonnenter",
+        "Fra 30. september var modellen begrænset til Googles 'Fairwind'-program for betroede cyberforsvarere",
+        "Introduktionspris 2/10 dollar per million input/output-tokens, stiger til 4/20 dollar efter 30. november",
+        "1 million tokens kontekst; Google sigter mod softwareudvikling, virksomhedsarbejde og cyberforsvar"
+      ],
+      "section": "AI",
+      "headline": "Google makes Gemini 4 Argon broadly available with limited-time low API pricing of $2/$10 per 1M token",
+      "primarySourceUrl": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+      "subheadline": "Model testet på cyberforsvarere, før resten af verden fik den",
+      "body": [
+        "Google åbnede 13. oktober Gemini 4 Argon for alle, efter en lukket test med cyberforsvarere. Introprisen -- 2/10 dollar per million tokens -- firdobles 30. november, mod softwareudvikling og cyberforsvar."
+      ],
+      "whyItMatters": "At teste modellen på cyberforsvarere først er en ny sikkerhedsgate for frontier-modeller.",
+      "analysis": "Prisfaldet er marketing, ikke et signal om fremtidens inferenspris.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Google DeepMind",
+        "Gemini 4 Argon"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 70,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 85,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Gemini 4 Argon reached general availability Oct 13 via API and Ultra/Pro, at $2/$10 per million tokens rising after Nov 30",
+          "sourceUrls": [
+            "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google makes Gemini 4 Argon broadly available with limited-time low API pricing of $2/$10 per 1M token",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Gemini 4 Argon: our next era of frontier intelligence",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "publishedAt": "2026-09-30T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://images.ctfassets.net/jdtwqhzvc2n1/22OYeZmozQwlzZF3rW2j3A/7680a2cbd10d95653de2d562ea5f0f38/Argon_Takes_Flight_from_the_Periodic_Table.png?w=1200&h=675&fit=fill&f=center&q=80",
+          "fingerprint": "36766c8e43544654b3e63e8e43545555fbee3e8b41d455d5c3ce3f0bc19496d2cbef3d0381b0b696cb7e1d01c0303233",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/g4_30-09-26_key-art_blog.width-1300.png",
+          "fingerprint": "3c78f0e2d2c28e183cf8f0e193828e1e78f0e0e1b383021ef8f0e0e13183021ff8f0e0e02181000ff0e0c0b070010909",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story03anthropicreplicate",
+      "eventKey": "anthropic-self-replicating-ai-iot-2026-10",
+      "materialFacts": [
+        "Anthropics Frontier Red Team testede selvkopiering af AI-modeller på forbruger-IoT-udstyr",
+        "En 26-mia.-parameter model blev delt over 15 billige Android-tv-bokse (~55 dollar stykket), 0,39 tokens/sekund",
+        "GLM-5.2 nåede alle otte mål for kopiering i 4 af 5 forsøg; en 9-mia.-model kørte på 8 af 9 testede hardwaretyper",
+        "Holdet venter det nødvendige niveau nået inden udgangen af 2026, hvis udviklingen følger sin hidtidige kurve"
+      ],
+      "section": "AI",
+      "headline": "AI could self-replicate on home devices within 'months', Anthropic says",
+      "primarySourceUrl": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+      "subheadline": "Et botnet af billige tv-bokse kan snart køre en fungerende AI-model",
+      "body": [
+        "Anthropics rødt-hold delte en 26-mia.-model over 15 billige tv-bokse (0,39 tokens/sek). GLM-5.2 nåede alle otte kopieringstrin i 4 af 5 forsøg. Teamet venter kapaciteten nået inden 2026 er omme -- svær at lukke ned, uden centralt sted at slukke."
+      ],
+      "whyItMatters": "Risikoen flytter fra datacentre til de mest underbeskyttede apparater i hjem og kontor.",
+      "analysis": "Anthropic sælger selv løsningen til risikoen, det her dokumenterer.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed"
+      ],
+      "entities": [
+        "Anthropic",
+        "Frontier Red Team"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 80,
+        "sourceQuality": 85,
+        "personalRelevance": 80,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "A 26B model was sharded across 15 off-brand Android TV boxes at 0.39 tokens/second; GLM-5.2 reached all eight replication nodes in 4 of 5 trials",
+          "sourceUrls": [
+            "https://www.anthropic.com/research/self-replicating-ai"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AI could self-replicate on home devices within 'months', Anthropic says",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "AI models may be capable of self-replicating without access to a datacenter",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/research/self-replicating-ai",
+          "publishedAt": "2026-10-12T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/03-388643da.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "AI could self-replicate on home devices within ‘months’, Anthropic says",
+        "sourceUrl": "https://www.aljazeera.com/economy/2026/10/13/ai-could-self-replicate-on-home-devices-within-months-anthropic-says",
+        "origin": "article",
+        "fingerprint": "fbf33393393b7b59fb333b9339797e59f9373d933979ff7961b535b33c70fbf9617c34313cf4b9fc6ffe30317cfcf0fb",
+        "lookedAt": "fbf33393393b7b59fb333b9339797e59f9373d933979ff7961b535b33c70fbf9617c34313cf4b9fc6ffe30317cfcf0fb",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-09T211004Z_976748305_RC29LNA6BXUH_RTRMADP_3_ANTHROPIC-PHILADELPHIA-1791854253_8f87dd-1791854986.jpg?resize=1200%2C630&quality=80",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story04ebola",
+      "eventKey": "ebola-drc-kenya-spread-2026-10",
+      "materialFacts": [
+        "WHO: 8.728 bekræftede ebolatilfælde og 4.205 døde i 64 sundhedszoner i 7 provinser i DRC pr. 6. oktober (48,2% dødelighed)",
+        "Kenya bekræftede sit første importerede tilfælde 6. oktober; patienten rejste DRC-Uganda-Nairobi og døde 5. oktober",
+        "Læger uden Grænser: behandlingskapaciteten er 'strakt til sin grænse'; kontaktopfølgning ligger på 80,4% mod et mål på 85%",
+        "WHO fastholder: ingen rejse- eller handelsrestriktioner mod de ramte lande"
+      ],
+      "section": "Verden",
+      "headline": "Ebola spreads in eastern DRC as Kenya confirms imported case",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case",
+      "subheadline": "4.200 døde, og epidemien har nu nået Kenya",
+      "body": [
+        "Ebolaudbruddet i østlige DRC har krævet 4.205 liv blandt 8.728 tilfælde -- 48,2% dødelighed pr. 6. oktober. Kenya bekræftede samme dag sit første tilfælde; patienten døde dagen efter. MSF: kapaciteten er 'strakt til grænsen'."
+      ],
+      "whyItMatters": "Et udbrud med næsten halv dødelighed, der krydser grænser, skal med uanset interesse.",
+      "analysis": "WHOs linje mod rejserestriktioner bygger på erfaring: isolation har før gjort mere skade end godt.",
+      "counterpoint": "Kenya har selv skærpet grænsekontrol -- en opstramning, stik mod WHOs linje.",
+      "topics": [
+        "sundhed",
+        "videnskab"
+      ],
+      "entities": [
+        "WHO",
+        "DRC",
+        "Kenya",
+        "MSF"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 25,
+        "novelty": 45,
+        "sourceQuality": 95,
+        "personalRelevance": 15,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "WHO recorded 8,728 confirmed cases and 4,205 deaths across 64 health zones as of Oct 6 (48.2% CFR); WHO advises against travel/trade restrictions",
+          "sourceUrls": [
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Kenya confirmed its first imported case Oct 6; the patient died Oct 5 after travelling via Uganda",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ebola spreads in eastern DRC as Kenya confirms imported case",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case",
+          "publishedAt": "2026-10-11T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+          "publishedAt": "2026-10-08T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/04-9680edb4.jpg",
+        "credit": "Al Jazeera",
+        "alt": "En hygienist ved et ebolabehandlingscenter i Bunia, DR Congo",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/11/ebola-spreads-in-eastern-drc-as-kenya-confirms-imported-case",
+        "fingerprint": "51d6cce57564cba5f2dacee5646543a5fadacaa6e6e6c7a3fbdbcaa2e6a6a6c99bdb4b63e6e6a68d9ddbcbe3e7676747",
+        "lookedAt": "51d6cce57564cba5f2dacee5646543a5fadacaa6e6e6c7a3fbdbcaa2e6a6a6c99bdb4b63e6e6a68d9ddbcbe3e7676747",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/Hygienist-at-an-Ebola-treatment-center-in-Bunia-1791552746.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0.589
+        }
+      }
+    },
+    {
+      "id": "story05djibouti",
+      "eventKey": "djibouti-shipwreck-migrants-2026-10",
+      "materialFacts": [
+        "En båd med over 300 personer kæntrede natten mellem 8. og 9. oktober ved Guhere nord for Obock, Djibouti, på vej mod Yemen",
+        "IOM: mindst 139 bekræftet døde, heraf 15 børn; 84 fortsat forsvundet; omkring 82 overlevende, alle etiopiske statsborgere",
+        "IOM's missionschef i Djibouti: lokale redningsfolk var 'overvældede af alle de lig, der blev ved med at komme'",
+        "IOM kalder det et af de dødeligste skibsforlis på ruten, hvor over 900 migranter er døde eller forsvundet det seneste år"
+      ],
+      "section": "Verden",
+      "headline": "139 people dead, including 15 children, after migrant boat capsizes off Africa: \"Overwhelmed with all the bodies\"",
+      "primarySourceUrl": "https://www.cbsnews.com/news/migrant-boat-capsizes-djibouti-over-100-dead/",
+      "subheadline": "Et af de dødeligste forlis på ruten mod Yemen",
+      "body": [
+        "En overfyldt båd med over 300 mennesker kæntrede natten 8.-9. oktober nær Obock, Djibouti, mod Yemen. IOM bekræfter mindst 139 døde, heraf 15 børn, og 84 forsvundne; 82 overlevede, alle etiopiske. Redningsfolk var 'overvældede' af lig, siger IOM."
+      ],
+      "whyItMatters": "Ruten mod Yemen og Golfstaterne er en af verdens dødeligste, uden vægt svarende til tabstallene.",
+      "analysis": "At overlevende alle er etiopiske viser beskyttelsens svaghed mellem fattige og rige regioner.",
+      "topics": [
+        "migration",
+        "menneskerettigheder"
+      ],
+      "entities": [
+        "IOM",
+        "Djibouti",
+        "Etiopien"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 15,
+        "novelty": 40,
+        "sourceQuality": 85,
+        "personalRelevance": 10,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "At least 139 confirmed dead including 15 children, 84 missing, ~82 survivors (all Ethiopian), after a boat of 300+ capsized near Obock overnight Oct 8-9",
+          "sourceUrls": [
+            "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "139 people dead, including 15 children, after migrant boat capsizes off Africa: \"Overwhelmed with all the bodies\"",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/migrant-boat-capsizes-djibouti-over-100-dead/",
+          "publishedAt": "2026-10-12T10:45:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Death Toll in Djibouti Shipwreck Climbs to 139, UN Migration",
+          "publisher": "IOM",
+          "url": "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration",
+          "publishedAt": "2026-10-11T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/05-2becd9f0.jpg",
+        "credit": "Kilde: CBS News",
+        "alt": "139 people dead, including 15 children, after migrant boat capsizes off Africa: \"Overwhelmed with all the bodies\"",
+        "sourceUrl": "https://www.cbsnews.com/news/migrant-boat-capsizes-djibouti-over-100-dead/",
+        "origin": "article",
+        "fingerprint": "f1c901b1b4b4908ed1181170b6b49089d0181030b636b59d9418d0b2b236b6901c1810b2333776321158103373365777",
+        "lookedAt": "f1c901b1b4b4908ed1181170b6b49089d0181030b636b59d9418d0b2b236b6901c1810b2333776321158103373365777",
+        "originalUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/12/441411e4-4265-4502-bbfd-6f4f3838e6d9/thumbnail/1200x630/0a01ee2899d9cf21f7dfaa06625753e1/ap26285345282239.jpg",
+        "focus": {
+          "x": 0.875,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story06blacksea",
+      "eventKey": "black-sea-drone-attack-bulgaria-2026-10",
+      "materialFacts": [
+        "Droner ramte to fragtskibe ud for Bulgariens kyst natten mellem 12. og 13. oktober",
+        "HS Dignity sank -- 5 af besætningen reddet, 11 forsvundet; Chelsea 3's 15 besætningsmedlemmer reddet uskadte",
+        "Premierminister Rumen Radev tilkaldte den russiske ambassadør; Rusland afviser kendskab til angrebet",
+        "EU-kommissionsformand von der Leyen: 'Sortehavet er blevet endnu en front i Ruslands eskalerende krig mod Ukraine'"
+      ],
+      "section": "Verden",
+      "headline": "Drone attack sinks ship off Bulgaria's Black Sea coast, PM says",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says",
+      "subheadline": "Elleve søfolk forsvundet efter droneangreb mod to skibe",
+      "body": [
+        "Droner ramte to fragtskibe ud for Bulgarien natten 12.-13. oktober. HS Dignity sank -- fem reddet, elleve forsvundet -- mens Chelsea 3's 15 kom uskadte fra det. Radev tilkaldte Ruslands ambassadør: udfaldet 'tjener Rusland', uden direkte anklage."
+      ],
+      "whyItMatters": "Et angreb på civil skibsfart i NATO-vande flytter krigens konsekvenser ind i europæisk søfart.",
+      "analysis": "Tilbageholdenheden med at anklage Rusland viser, hvor svært et signaturløst angreb er at svare på.",
+      "topics": [
+        "krig",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Bulgarien",
+        "Rumen Radev",
+        "Rusland",
+        "NATO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 30,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 25,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Drones struck two ships off Bulgaria overnight Oct 12-13; HS Dignity sank (5 rescued, 11 missing), Chelsea 3's 15 crew rescued unharmed",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Drone attack sinks ship off Bulgaria's Black Sea coast, PM says",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/06-fa8820a1.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Drone attack sinks ship off Bulgaria’s Black Sea coast, PM says",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/13/drone-attack-sinks-ship-off-bulgarias-black-sea-coast-pm-says",
+        "origin": "article",
+        "fingerprint": "b9c9ee1c6ccec0e0c9cdfe1eeccec1d0c9c2da1ee0cec3d8cef35a1ee08e83c8d3ab5b1bf4cf87c0d9ad5f1bf452575b",
+        "lookedAt": "b9c9ee1c6ccec0e0c9cdfe1eeccec1d0c9c2da1ee0cec3d8cef35a1ee08e83c8d3ab5b1bf4cf87c0d9ad5f1bf452575b",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/reuters_6acdd402-1791874050.jpg?resize=1200%2C675",
+        "focus": {
+          "x": 0.261,
+          "y": 0.761
+        }
+      }
+    },
+    {
+      "id": "story07burnham",
+      "eventKey": "uk-burnham-zelensky-missiles-london-2026-10",
+      "materialFacts": [
+        "Burnham var vært for Zelensky i London 14. oktober og fremskyndede 10 mio. pund af et program på 1,6 mia. pund/5.000 missiler",
+        "Burnham bad ministre forberede yderligere sanktioner, militær og finansiel støtte 'i de kommende uger'",
+        "Finansminister John Healey opfordrer allierede til at bakke et forbud mod russisk LNG og tilknyttede søtransporttjenester",
+        "Besøget følger dages spænding mellem UK og USA efter Trumps lempelse af sanktioner mod russisk diesel"
+      ],
+      "section": "Verden",
+      "headline": "UK to Fast-Track Air Defense Missiles for Ukraine as Burnham Hosts Zelensky in London",
+      "primarySourceUrl": "https://www.kyivpost.com/post/86974",
+      "subheadline": "Nye missiler fremskyndes midt i britisk-amerikansk spænding",
+      "body": [
+        "Burnham var 14. oktober vært for Zelensky i London og lovede at fremskynde 10 mio. pund af et 1,6 mia.-pund-missilprogram. Besøget følger spænding med Washington, siden Trump lettede sanktioner mod russisk diesel -- en aftale Zelensky kalder 'en gave' til Putin."
+      ],
+      "whyItMatters": "Storbritannien strammer sin linje, netop som USA's linje mod Rusland løsner sig.",
+      "analysis": "Ti millioner pund fremskyndet ud af en flerårig pakke er mest et politisk signal om samhørighed.",
+      "topics": [
+        "krig",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Andy Burnham",
+        "Volodymyr Zelensky",
+        "UK"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 35,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Burnham pledged to fast-track GBP10m of a GBP1.6bn/5,000-missile LMM programme and instructed ministers to prepare further sanctions and aid",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/86974"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UK to Fast-Track Air Defense Missiles for Ukraine as Burnham Hosts Zelensky in London",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/86974",
+          "publishedAt": "2026-10-14T02:09:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/07-fdf667c4.jpg",
+        "credit": "Toby Melville/AFP",
+        "alt": "Andy Burnham og Volodymyr Zelensky ved et tidligere møde",
+        "sourceUrl": "https://www.kyivpost.com/post/86974",
+        "fingerprint": "c54d25b3b2332323cf4d21b332732363cb4422323273716199e56272725051418ce0725270f1d1d14462d2d0e121f1b9",
+        "lookedAt": "c54d25b3b2332323cf4d21b332732363cb4422323273716199e56272725051418ce0725270f1d1d14462d2d0e121f1b9",
+        "originalUrl": "https://static.kyivpost.com/storage/2026/10/14/51733520f90bae0eca0abdde8f2285fd.jpg",
+        "focus": {
+          "x": 0.191,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story08finanslov",
+      "eventKey": "danmark-finanslovforslag-2027-2026-10",
+      "materialFacts": [
+        "Finansminister Peter Hummelgaard fremlagde 9. oktober regeringens finanslovforslag 'Et stærkere forsvar af Danmark'",
+        "Forsvar og beredskab skal nå mindst 5% af BNP i 2030, heraf 3,5 procentpoint til egentligt forsvar",
+        "10,1 mia. kr. i skattelettelser i 2030: mellemskat og toptopskat afskaffes, selskabsskatten sænkes 3 procentpoint",
+        "1,2 mia. kr. afsættes til børneområdet i 2027; første behandling i Folketinget er 19. oktober"
+      ],
+      "section": "Danmark",
+      "headline": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+      "primarySourceUrl": "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+      "subheadline": "Forsvar til 5% af BNP og afskaffelse af mellemskatten",
+      "body": [
+        "Hummelgaard fremlagde 9. oktober finanslovforslaget 'Et stærkere forsvar af Danmark'. Forsvar og beredskab skal nå mindst 5% af BNP i 2030. Forslaget giver 10,1 mia. kr. i skattelettelser i 2030: mellemskat og toptopskat afskaffes. 1,2 mia. kr. til børn i 2027."
+      ],
+      "whyItMatters": "Det er prioriteringen mellem forsvar, skat og velfærd, der afgør finanspolitikken fire år frem.",
+      "analysis": "Skattelettelserne slår fuldt igennem i 2030, mens forsvarsløftet er bindende nu -- regningen forhandles senere.",
+      "topics": [
+        "danmark",
+        "økonomi",
+        "forsvar"
+      ],
+      "entities": [
+        "Peter Hummelgaard",
+        "Finansministeriet",
+        "Folketinget"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 45,
+        "sourceQuality": 90,
+        "personalRelevance": 55,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "The 2027 budget proposal targets at least 5% of GDP for defence/emergency preparedness by 2030 and abolishes the mellemskat and toptopskat",
+          "sourceUrls": [
+            "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+          "publisher": "Finansministeriet",
+          "url": "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+          "publishedAt": "2026-10-09T06:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/08-acabcb52.jpg",
+        "credit": "Ida Marie Odgaard/Ritzau Scanpix",
+        "alt": "Finansminister Peter Hummelgaard og øvrige ministre fremlægger finanslovforslaget",
+        "sourceUrl": "https://nyheder.tv2.dk/politik/2026-10-09-her-er-de-centrale-dele-af-regeringens-udspil-til-finanslov",
+        "fingerprint": "d1c58d95363a1a03c4c29f16323a1a1ac2821e16322b3b1bc20b16127329391b0b1b17937b796d39595917b379594c7c",
+        "lookedAt": "d1c58d95363a1a03c4c29f16323a1a1ac2821e16322b3b1bc20b16127329391b0b1b17937b796d39595917b379594c7c",
+        "originalUrl": "https://cdn-free.tv2i.dk/e/d/i/editorial/6/2/0/62083b85-6a94-48b5-9752-72bce06784dd?ixlib=js-3.8.0&w=624&h=351&q=45&auto=format&fit=crop&rect64=MCwxMDgsNTYxNiwzMTYz&s=09a8ba4dbeeec5f45dd3d04bd64e152a",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://fm.dk/media/cftd2z4b/pige-i-skole.png?width=1200&height=630&v=1dd5762545f5bd0",
+          "fingerprint": "4d1d593863876f7f5f5e597c63871f7f5e5adc7c67851fef9abadc7c45851edfbfbebcb4c5851b1f7d1dbeb48484033f",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "story09astribot",
+      "eventKey": "astribot-funding-round-2026-10",
+      "materialFacts": [
+        "Shenzhen-baserede Astribot rejste 1 mia. RMB (ca. 149,4 mio. dollar) til en værdisætning på 15 mia. RMB",
+        "Runden ledes af kapital knyttet til Shenzhen Investment Holdings, med flere fonde og en returnerende investor",
+        "Astribot bruger kabeldrevet aktuering kombineret med sin egen 'Lumo'-AI-model til robotstyring",
+        "Selskabet melder ordrer på tusinder af robotter; faktiske leverede mængder er endnu ikke dokumenteret"
+      ],
+      "section": "Erhverv",
+      "headline": "Startup Funding News Today, October 13, 2026: Astribot, CarbonFarm, Clueso, Ubitium, Epyr & More",
+      "primarySourceUrl": "https://techstartups.com/2026/10/13/startup-funding-news-today-october-13-2026-astribot-carbonfarm-ubitium-epyr-more/",
+      "subheadline": "Kinesisk humanoid-robotfirma hæver værdisætning til 15 mia. RMB",
+      "body": [
+        "Astribot i Shenzhen har rejst 1 mia. RMB (ca. 149,4 mio. dollar) til en værdi på 15 mia. RMB. Selskabet bygger humanoide robotter med kabeldrevet aktuering og egen 'Lumo'-model. Astribot melder ordrer på tusinder af robotter, men leverede mængder er ikke dokumenteret udefra."
+      ],
+      "whyItMatters": "Kina presser kapital ind i humanoid robotik i et tempo, der konkurrerer med USA og Europa.",
+      "analysis": "Ordre- og kapacitetstal fra selskabet selv er reklametekst, til en tredjepart bekræfter dem.",
+      "topics": [
+        "kina",
+        "erhverv",
+        "ai"
+      ],
+      "entities": [
+        "Astribot",
+        "Shenzhen Investment Holdings"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 60,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 70,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Astribot raised RMB 1bn (~$149.4m) at an RMB 15bn valuation led by Shenzhen Investment Holdings-linked capital",
+          "sourceUrls": [
+            "https://techstartups.com/2026/10/13/startup-funding-news-today-october-13-2026-astribot-carbonfarm-ubitium-epyr-more/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Startup Funding News Today, October 13, 2026: Astribot, CarbonFarm, Clueso, Ubitium, Epyr & More",
+          "publisher": "Tech Startups",
+          "url": "https://techstartups.com/2026/10/13/startup-funding-news-today-october-13-2026-astribot-carbonfarm-ubitium-epyr-more/",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/09-570434ca.jpg",
+        "credit": "New Atlas",
+        "alt": "Astribots S1-robot udfører en præcisionsopgave med sine arme",
+        "sourceUrl": "https://newatlas.com/robotics/astribot-s1-fast-humanoid-robot/",
+        "fingerprint": "ed79574d797a9b88ed7b575d78ea9b9aec1355dcf8e89919fc91969cb8e9ad19b593969e38e86d3d303b2b3e2cc95464",
+        "lookedAt": "ed79574d797a9b88ed7b575d78ea9b9aec1355dcf8e89919fc91969cb8e9ad19b593969e38e86d3d303b2b3e2cc95464",
+        "originalUrl": "https://newatlas-brightspot.s3.ap-southeast-2.amazonaws.com/8a/69/13314b1a4c9dac7a963584310d4d/astribot.jpg",
+        "focus": {
+          "x": 0.236,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story10mexico",
+      "eventKey": "mexico-cartel-drone-warfare-2026-10",
+      "materialFacts": [
+        "Mexicos forsvarsminister Ricardo Trevilla Trejo udtrykte 14. oktober bekymring over kartellers brug af droner",
+        "Militæret beslaglagde 15 fiberoptiske dronekomponenter i Sinaloa 4. og 11. oktober -- teknologi kendt fra Ukraine-krigen",
+        "Bekymringen er knyttet til rapporter om, at meksikanske kartelmedlemmer kæmper som lejesoldater i Ukraine for at lære dronetaktik",
+        "I august fordrev droneangreb fra kriminelle grupper beboere i Los Bayados, Guerrero"
+      ],
+      "section": "Verden",
+      "headline": "Mexico's defense secretary expresses concern over growing use of drone technology by drug cartels",
+      "primarySourceUrl": "https://aa.com.tr/en/americas/mexico-s-defense-secretary-expresses-concern-over-growing-use-of-drone-technology-by-drug-cartels/4087944",
+      "subheadline": "Kartellerne lærer dronekrigsførelse fra Ukraine",
+      "body": [
+        "Forsvarsminister Trevilla Trejo sagde 14. oktober, at kartellernes brug af droner 'bekymrer os i hele landet'. Militæret beslaglagde 15 fiberoptiske dronekomponenter i Sinaloa -- kendt fra Ukraine, men uden sprængladninger. Bekymringen følger rapporter om kartelmedlemmer som lejesoldater i Ukraine for at lære dronetaktik."
+      ],
+      "whyItMatters": "Teknologi og taktik fra en europæisk krig vandrer ind i Latinamerikas kartelkrige.",
+      "analysis": "At delene manglede sprængladning viser et felt under opbygning, ikke en dronekrig.",
+      "topics": [
+        "sikkerhedspolitik",
+        "forsvar"
+      ],
+      "entities": [
+        "Ricardo Trevilla Trejo",
+        "SEDENA",
+        "Mexico"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 25,
+        "novelty": 55,
+        "sourceQuality": 65,
+        "personalRelevance": 25,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "SEDENA's Trevilla Trejo voiced concern over cartel drone use; military seized 15 fibre-optic drone components in Sinaloa Oct 4 and 11",
+          "sourceUrls": [
+            "https://aa.com.tr/en/americas/mexico-s-defense-secretary-expresses-concern-over-growing-use-of-drone-technology-by-drug-cartels/4087944"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mexico's defense secretary expresses concern over growing use of drone technology by drug cartels",
+          "publisher": "Anadolu Agency",
+          "url": "https://aa.com.tr/en/americas/mexico-s-defense-secretary-expresses-concern-over-growing-use-of-drone-technology-by-drug-cartels/4087944",
+          "publishedAt": "2026-10-14T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/10-5ccbf94f.jpg",
+        "credit": "Anadolu Agency",
+        "alt": "Billede i forbindelse med Mexicos forsvarsministeriums udmelding om kartel-droner",
+        "sourceUrl": "https://aa.com.tr/en/americas/mexico-s-defense-secretary-expresses-concern-over-growing-use-of-drone-technology-by-drug-cartels/4087944",
+        "fingerprint": "73998c9a9a1a5bc9599c9c9999185e499c9c9c1999185f591c9c1c1839185d9c0c0c1d181a585c9d2e2c1cba5a5a96b4",
+        "lookedAt": "73998c9a9a1a5bc9599c9c9999185e499c9c9c1999185f591c9c1c1839185d9c0c0c1d181a585c9d2e2c1cba5a5a96b4",
+        "originalUrl": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/14/thumbs_b_c_e7f620ffd5b16b08af83d8f093ad0d6e.jpg",
+        "focus": {
+          "x": 0.296,
+          "y": 0.096
+        }
+      }
+    },
+    {
+      "id": "story11cop31",
+      "eventKey": "cop31-pre-summit-climate-finance-2026-10",
+      "materialFacts": [
+        "COP31, med formandskab fra Tyrkiet (Murat Kurum), afholdes 9.-20. november i Antalya",
+        "Et ledertopmøde i Tuvalu og et pre-COP i Fiji blev holdt 5.-8. oktober",
+        "FN's budskab: at overskride Paris-målene er 'ikke en grund til at give op' på hurtigere handling",
+        "Prioriteter: at levere COP29's klimafinansieringsmål til udviklingslande og styrke klimatilpasning"
+      ],
+      "section": "Verden",
+      "headline": "'Overshoot is not a reason to surrender': UN calls for accelerated climate action ahead of COP31 summit",
+      "primarySourceUrl": "https://news.un.org/en/story/2026/10/1168555",
+      "subheadline": "FN presser på for klimafinansiering før novembertopmødet",
+      "body": [
+        "Forud for COP31 i Antalya 9.-20. november brugte FN et topmøde i Tuvalu til at advare om, at en overskridelse af Paris-målene 'ikke er en grund til at give op'. Prioriteten er COP29's klimafinansieringsmål til udviklingslande. Ingen nye tilsagn blev annonceret."
+      ],
+      "whyItMatters": "Sproget om at 'ikke give op' signalerer, at FN selv forventer at overskride 1,5-gradersmålet.",
+      "analysis": "At erkende overskridelse offentligt forhindrer et teknisk nederlag i at blive en undskyldning.",
+      "topics": [
+        "klima"
+      ],
+      "entities": [
+        "FN",
+        "Tyrkiet",
+        "Tuvalu"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 20,
+        "novelty": 35,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "UN officials used an Oct 5-8 Fiji/Tuvalu pre-COP push to warn that overshooting Paris goals is 'not a reason to surrender' ahead of COP31 (Antalya, Nov 9-20)",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/10/1168555"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Overshoot is not a reason to surrender': UN calls for accelerated climate action ahead of COP31 summit",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168555",
+          "publishedAt": "2026-10-08T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://i.ytimg.com/vi/YiDF4NiJuGc/maxresdefault.jpg",
+          "fingerprint": "6460e7838deca3296470e58b9ceca429d0e4c7ab2ccd6629d0e6c6292655ed42d4a6a64d65d5eccbe5a5ac4444b4e4ca",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story12novartis",
+      "eventKey": "novartis-lamprene-leprosy-access-2026-10",
+      "materialFacts": [
+        "FDA godkendte 13. oktober Novartis' supplerende ansøgning for Lamprene (clofazimin) mod spedalskhed",
+        "Godkendelsen fjerner det tidligere restriktive 'managed access'-program",
+        "Patienter kan nu få medicinen gratis gennem et specialapotek i stedet for den tidligere besværlige adgang",
+        "Novartis stopper kommerciel salg; amerikanske myndigheder overtager gratis distribution"
+      ],
+      "section": "Sundhed",
+      "headline": "Novartis (NVS) Gains FDA Approval for Lamprene, Enhancing Patient Access",
+      "primarySourceUrl": "https://www.gurufocus.com/news/9121584/novartis-nvs-gains-fda-approval-for-lamprene-enhancing-patient-access",
+      "subheadline": "Spedalskhedsmedicin bliver gratis efter to årtiers begrænset adgang",
+      "body": [
+        "FDA godkendte 13. oktober Novartis' ansøgning for Lamprene, hvilket fjerner et managed-access-program fra 2004. Patienter kan få det gratis via et specialapotek. Novartis stopper salget, og amerikanske myndigheder overtager distributionen af midlet mod en forsømt sygdom med for få tilfælde i rige lande."
+      ],
+      "whyItMatters": "Det løser et adgangsproblem for en sygdom, markedet har ignoreret i årtier",
+      "analysis": "Staten overtager distributionen -- en indrømmelse af, at visse sygdomme aldrig bliver en forretning.",
+      "topics": [
+        "sundhed"
+      ],
+      "entities": [
+        "Novartis",
+        "FDA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 35,
+        "decisionValue": 20,
+        "novelty": 55,
+        "sourceQuality": 55,
+        "personalRelevance": 10,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "FDA approved Novartis's sNDA for Lamprene on Oct 13, ending managed-access restrictions so patients can get it free via a specialty pharmacy",
+          "sourceUrls": [
+            "https://www.gurufocus.com/news/9121584/novartis-nvs-gains-fda-approval-for-lamprene-enhancing-patient-access"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Novartis (NVS) Gains FDA Approval for Lamprene, Enhancing Patient Access",
+          "publisher": "GuruFocus",
+          "url": "https://www.gurufocus.com/news/9121584/novartis-nvs-gains-fda-approval-for-lamprene-enhancing-patient-access",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect",
+      "headline": "IonQ Demonstrates 1,000 Entanglement Events per Second in Quantum Interconnect",
+      "url": "https://thequantuminsider.com/2026/10/09/ionq-1000-entanglement-events-per-second-quantum-interconnect/",
+      "publisher": "The Quantum Insider",
+      "section": "Videnskab",
+      "publishedAt": "2026-10-09T00:00:00Z",
+      "topics": [
+        "videnskab"
+      ],
+      "summary": "IonQ opnåede over 1.000 'entanglement'-hændelser i sekundet mellem en fanget ion-qubit og en solid-state kvantehukommelse -- fire gange hurtigere end den tidligere rekord."
+    },
+    {
+      "text": "IRGC claims it struck a third supertanker in the Strait of Hormuz over two days",
+      "headline": "IRGC claims it struck a third supertanker in the Strait of Hormuz over two days",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-7-day-proposal/",
+      "publisher": "CBS News",
+      "section": "Verden",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "krig",
+        "iran"
+      ],
+      "summary": "Irans revolutionsgarde siger, den har ramt endnu en supertanker i Hormuzstrædet, det tredje angreb på to dage."
+    },
+    {
+      "text": "Higgsfield takes AI video from 1 minute to over 10",
+      "headline": "Higgsfield takes AI video from 1 minute to over 10",
+      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "publisher": "OpenAI",
+      "section": "AI",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "ai"
+      ],
+      "summary": "Higgsfield bygger videre på GPT-6 Astra for at lave AI-videoer på over 10 minutter med mere præcis billedstyring."
+    },
+    {
+      "text": "Cognition's SWE-2 coding model claims parity with frontier models at 70% lower cost",
+      "headline": "Cognition's SWE-2 coding model claims parity with frontier models at 70% lower cost",
+      "url": "https://x.com/cognition/status/2098069235733823965",
+      "publisher": "Cognition",
+      "section": "AI",
+      "publishedAt": "2026-10-10T00:00:00Z",
+      "topics": [
+        "ai"
+      ],
+      "summary": "Cognition siger, dens nye SWE-2-model matcher frontier-modeller på kodning til 70 procent lavere pris efter skaleret RL-træning."
+    },
+    {
+      "text": "Soufflé Therapeutics Announces Oversubscribed $135 Million Series B Financing",
+      "headline": "Soufflé Therapeutics Announces Oversubscribed $135 Million Series B Financing",
+      "url": "https://endpoints.news/souffle-gets-135m-for-three-rna-medicines/",
+      "publisher": "Endpoints News",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "erhverv",
+        "sundhed"
+      ],
+      "summary": "RNA-selskabet Soufflé rejser 135 mio. dollar til tre kliniske programmer mod muskelsygdomme og hjertesvigt."
+    },
+    {
+      "text": "Tidal Ventures leads $3.43M seed round into Mastercard-backed RedOwl",
+      "headline": "Tidal Ventures leads $3.43M seed round into Mastercard-backed RedOwl",
+      "url": "https://dealroom.co/news/161920-tidal-ventures-leads-3-69m-seed-round-into-mastercard-backed-redowl/",
+      "publisher": "Dealroom",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "erhverv"
+      ],
+      "summary": "Den Melbourne-baserede fintech RedOwl, støttet af Mastercard, rejser en seedrunde til at opdage lækket indtjening hos virksomheder."
+    },
+    {
+      "text": "Ubitium raises $14 million for a new processor architecture designed for autonomous machines",
+      "headline": "Ubitium raises $14 million for a new processor architecture designed for autonomous machines",
+      "url": "https://techstartups.com/2026/10/13/startup-funding-news-today-october-13-2026-astribot-carbonfarm-ubitium-epyr-more/",
+      "publisher": "Tech Startups",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "deeptech",
+        "erhverv"
+      ],
+      "summary": "Chipstartuppen Ubitium rejser 14 mio. dollar til en ny processorarkitektur til autonome maskiner."
+    },
+    {
+      "text": "Epyr secures €15 million to expand industrial thermal storage",
+      "headline": "Epyr secures €15 million to expand industrial thermal storage",
+      "url": "https://techstartups.com/2026/10/13/startup-funding-news-today-october-13-2026-astribot-carbonfarm-ubitium-epyr-more/",
+      "publisher": "Tech Startups",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "klima",
+        "erhverv"
+      ],
+      "summary": "Den franske energistartup Epyr rejser 15 mio. euro til at udbygge industriel termisk lagring."
+    },
+    {
+      "text": "FDA Accepts BLA for Formycon and Zydus' FYB206, the First Publicly Announced Keytruda Biosimilar Under Review",
+      "headline": "FDA Accepts BLA for Formycon and Zydus' FYB206, the First Publicly Announced Keytruda Biosimilar Under Review",
+      "url": "https://www.biopharminternational.com/view/fda-accepts-bla-for-formycon-and-zydus-fyb206-the-first-publicly-announced-keytruda-biosimilar-under-review",
+      "publisher": "BioPharm International",
+      "section": "Sundhed",
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "topics": [
+        "sundhed"
+      ],
+      "summary": "FDA har accepteret ansøgningen for FYB206, det første offentligt kendte Keytruda-biosimilar under vurdering."
+    },
+    {
+      "text": "Munich Quantum Software Forum 2026",
+      "headline": "Munich Quantum Software Forum 2026",
+      "url": "https://www.eventbrite.com/e/munich-quantum-software-forum-2026-registration-1992513899711",
+      "publisher": "MQSF",
+      "section": "Videnskab",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "topics": [
+        "videnskab",
+        "ai"
+      ],
+      "summary": "Det to-dages forum i München samler kvantesoftware-branchen med omkring 50 software-pitches fra blandt andre IQM, QuEra og Quantinuum."
+    },
+    {
+      "text": "DIU Low Cost ISR submissions close October 14",
+      "headline": "DIU Low Cost ISR submissions close October 14",
+      "url": "https://www.diu.mil/",
+      "publisher": "Defense Innovation Unit",
+      "section": "Forsvar",
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "topics": [
+        "forsvar"
+      ],
+      "summary": "Det amerikanske forsvarsministeriums innovationsenhed lukker i dag for ansøgninger til et billigt ISR-droneprogram med fly-off i 2027."
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "selvselektionens-pris",
+    "title": "Selvselektion",
+    "thesis": "Senere WFH-studier vil vise stigende gevinster, ikke fordi hjemmearbejde bliver bedre, men fordi selvselektion ophobes",
+    "horizon": "Når et nyt forsøg genmåler efter frit valg",
+    "body": [
+      "I Blooms forsøg gav hjemmearbejde 13% mere. Valgte folk selv, steg det til 22% -- arbejdet var uændret. Valgfrihed filtrerer tallene."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis et kontrolleret forsøg, der holder selvselektion konstant over tid -- f.eks. ved at låse deltagerne til deres oprindelige arbejdssted i flere år -- stadig finder stigende gevinster. Så er forklaringen reel læring eller vanedannelse, ikke selektion.",
+    "topics": [
+      "arbejdsmarked",
+      "økonomi",
+      "psykologi"
+    ],
+    "claims": [
+      {
+        "text": "In Bloom's Ctrip experiment, home working raised performance 13%; after workers could choose their location and over half switched, the gain almost doubled to 22%",
+        "sourceUrls": [
+          "https://www.nber.org/papers/w18871"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Does Working from Home Work? Evidence from a Chinese Experiment",
+        "publisher": "NBER",
+        "url": "https://www.nber.org/papers/w18871",
+        "publishedAt": "2013-03-01T00:00:00Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "quality": {
+    "sourceCoverage": 95,
+    "freshness": 90,
+    "novelty": 80,
+    "perspectiveBalance": 85,
+    "render": 100
+  },
+  "recommendations": [
+    {
+      "id": "rec01atomarine",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "product-demo",
+      "status": "new",
+      "title": "Atomarine: Floating Nuclear Data Centers",
+      "creator": "Atomarine",
+      "provider": "Y Combinator",
+      "url": "https://www.ycombinator.com/launches/Rwg-atomarine-floating-nuclear-data-centers",
+      "availability": "Frit tilgængeligt YC Launch-opslag med video",
+      "commitment": "10 minutter",
+      "description": "Atomarine (YC S26) bygger standardiserede datacenter-pramme, der ankres 10-12 sømil ude og drives af separate atomkraft-forsyningsskibe. Selskabet hævder 75-100 MW per platform, en PUE på 1,1 ved brug af havvand til kølning, og første gasdrevne pilot i 2028 med skift til modulære atomreaktorer senere.",
+      "rationale": "Det er den konkrete, kvantificerede version af det spørgsmål, du allerede følger i Danmark -- hvem bygger datacenterkapacitet, og hvad koster den -- blot flyttet offshore, hvor nettilslutning og naboprotester ikke er flaskehalsen. Tallene (PUE 1,1, 450 MW-campusmål) er noget at holde op mod de danske net-kø-tal, ikke bare endnu en AI-infrastrukturpitch.",
+      "topics": [
+        "deeptech",
+        "energi",
+        "ai"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/r01-f6015878.jpg",
+        "credit": "Y Combinator / Atomarine",
+        "alt": "Illustration af Atomarines flydende datacenter-pram til havs",
+        "sourceUrl": "https://www.youtube.com/watch?v=unRTV4ZJXts",
+        "lookedAt": "1b45c5e792d2f33b56d5e5a7d2d2f1fb8586e4a75252d1f9a7a4e46593b3b1f123a46567b3b1b5b126e4e5c732396032",
+        "originalUrl": "https://img.youtube.com/vi/unRTV4ZJXts/hqdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec02jesudason",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "timely",
+      "title": "Rob Jesudason (Serendipity Capital): Why quantum investors must triangulate across rival modalities",
+      "creator": "Rob Jesudason",
+      "provider": "The Superposition Guy's Podcast",
+      "url": "https://podcast.yboger.com/2026/08/17/rob-jesudason-ceo-and-founder-of-serendipity-capital/",
+      "commitment": "~40 minutter",
+      "note": "CEO'en for en 1,3 mia. dollar kvante-fond om, hvordan man vurderer konkurrerende qubit-teknologier -- direkte svar på det investeringsblik, din egen lytteprofil efterspørger mest og ser mindst af.",
+      "topics": [
+        "investering",
+        "videnskab"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec03christensen",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "talk",
+      "status": "classic",
+      "title": "How Will You Measure Your Life?",
+      "creator": "Clayton Christensen",
+      "provider": "TEDxBoston",
+      "url": "https://www.youtube.com/watch?v=tvos4nORf_Y",
+      "commitment": "~20 minutter",
+      "note": "Et argument for, at managementteori er et tænkeredskab, ikke jargon -- den disciplin, der helt mangler i din læseliste, fra manden bag Innovator's Dilemma.",
+      "topics": [
+        "ledelse",
+        "strategi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec04nber",
+      "tier": "short",
+      "mode": "read",
+      "kind": "working-paper",
+      "status": "new",
+      "title": "Tax Incentives and Venture Capital Risk-Taking: Evidence from the QSBS Program",
+      "creator": "NBER",
+      "provider": "NBER",
+      "url": "https://www.nber.org/system/files/working_papers/w35418/w35418.pdf",
+      "commitment": "~30 minutter",
+      "note": "Første empiriske svar på om skattefordele (QSBS) reelt flytter venturekapital mod mere risikable, innovative startups.",
+      "topics": [
+        "investering",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec05ionq",
+      "tier": "short",
+      "mode": "read",
+      "kind": "research-note",
+      "status": "new",
+      "title": "IonQ Demonstrates World-First Quantum Memory-Enhanced Interconnect for Distributed Quantum Applications",
+      "creator": "IonQ",
+      "provider": "IonQ",
+      "url": "https://investors.ionq.com/news/news-details/2026/IonQ-Demonstrates-World-First-Quantum-Memory-Enhanced-Interconnect-for-Distributed-Quantum-Applications/default.aspx",
+      "commitment": "~10 minutter",
+      "note": "Den primære meddelelse bag dagens entanglement-rekord -- hvordan kvantesystemer begynder at skalere som datacentre.",
+      "topics": [
+        "videnskab",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec06anthropicmulti",
+      "tier": "short",
+      "mode": "read",
+      "kind": "research-note",
+      "status": "available",
+      "title": "Patterns and problems in emerging multiagent systems",
+      "creator": "Anthropic Frontier Red Team",
+      "provider": "Anthropic",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "commitment": "~15 minutter",
+      "note": "Samme hold som dagens selvkopierings-rapport, her om hvordan AI-agenter fejler, når de koordinerer uden menneskeligt tilsyn.",
+      "topics": [
+        "ai",
+        "ai-sikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec07ycdemoday",
+      "tier": "short",
+      "mode": "read",
+      "kind": "article",
+      "status": "available",
+      "title": "The 9 buzziest startups from Y Combinator's latest Demo Day, according to VCs",
+      "creator": "TechCrunch",
+      "provider": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+      "commitment": "~10 minutter",
+      "note": "Konteksten for Atomarines batch -- hvorfor dette holds deeptech-skæve årgang skiller sig ud for investorerne.",
+      "topics": [
+        "erhverv",
+        "deeptech"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec08sugrue",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "lecture",
+      "status": "classic",
+      "title": "Great Minds - Part 4 - Hegel: The Phenomenology of Geist",
+      "creator": "Michael Sugrue",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=0F8REGux8qs",
+      "commitment": "~50 minutter",
+      "note": "Den Hegel-forelæsning fra samme serie, du allerede har gemt Kierkegaard og Nietzsche fra -- den, du endnu ikke har set.",
+      "topics": [
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec09willison",
+      "tier": "short",
+      "mode": "try",
+      "kind": "tool",
+      "status": "new",
+      "title": "llm-gemini 0.35",
+      "creator": "Simon Willison",
+      "provider": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "commitment": "~10 minutter",
+      "note": "Hans CLI-plugin opdateret til at køre dagens Gemini 4 Argon direkte fra terminalen, inklusive prisdetaljerne før decemberstigningen.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    }
+  ]
+}
