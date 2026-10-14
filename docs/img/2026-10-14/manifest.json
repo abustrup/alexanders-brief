@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-14",
-  "generatedAt": "2026-10-14T04:43:31.370Z",
+  "generatedAt": "2026-10-14T15:13:49.083Z",
   "pictures": [
     {
       "slot": "01",
@@ -183,6 +183,26 @@
       },
       "underFloor": true,
       "fetchedAt": "2026-10-14T04:43:36.788Z"
+    },
+    {
+      "slot": "13",
+      "id": "story13femerncyber",
+      "headline": "Efter \"cyberhændelse\" ved Femern: Minister vil drøfte tiltag",
+      "source": "https://image.nordjyske.dk/users/nordjyske/images/164274682.jpg?t[strip]=true&t[quality]=95&t[crop][width]=5776&t[crop][height]=3032&t[crop][x]=0&t[crop][y]=819&t[resize][width]=1200&t[resize][height]=630&accessToken=38ebf1b1acc10eb57523b383abeee14331e6f4eb5847075490730e6540c909b3",
+      "article": "https://www.licitationen.dk/article/view/1251049/efter_cyberhaendelse_ved_femernminister_vil_drofte_tiltag",
+      "hosted": "13-13ee550f.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 319643,
+      "out": "945x630",
+      "bytes": 110240,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.764,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-14T15:13:49.472Z"
     },
     {
       "slot": "r01",

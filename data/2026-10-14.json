@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-10-14",
+  "runId": "run-2026-10-14-uafternoon-r111",
   "date": "2026-10-14",
-  "generatedAt": "2026-10-14T05:30:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-14T15:11:37.066Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief, 14. oktober 2026",
   "dek": "En saudiarabisk OpenAI-ingeniør anklaget for aflytning, Gemini 4 Argon ude i fuld skala, Anthropic advarer om selvkopierende AI -- og en ebola-epidemi med 4.200 døde, som WHO fastholder ikke skal mødes med rejserestriktioner.",
   "profileWeights": {
@@ -885,6 +885,177 @@
           "kind": "reporting"
         }
       ]
+    },
+    {
+      "id": "story13femerncyber",
+      "eventKey": "femern-baelt-cyberangreb-2026-10",
+      "materialFacts": [
+        "FLC, hovedentreprenør på Femern Bælt-tunnelen, udsat for cyberhændelse natten til tirsdag 13. oktober",
+        "Wifi, computere, mail og adgangskontrol ved Rødbyhavn ude af drift; skibe i projektet uden it-adgang",
+        "Beredskabsminister Lisbeth Bech-Nielsen (SF) indkalder Folketingets partier bag cyberstrategien",
+        "Myndighederne undersøger stadig hændelsen; for tidligt at konkludere noget om årsag"
+      ],
+      "section": "Danmark",
+      "headline": "Efter \"cyberhændelse\" ved Femern: Minister vil drøfte tiltag",
+      "primarySourceUrl": "https://www.licitationen.dk/article/view/1251049/efter_cyberhaendelse_ved_femernminister_vil_drofte_tiltag",
+      "subheadline": "Cyberangreb lammede Femern-entreprenørens it, mens Danmark skærper cyberberedskab",
+      "body": [
+        "Femern Link Contractors, hovedentreprenøren på Femern Bælt-tunnelen, blev natten til tirsdag ramt af en cyberhændelse. Wifi, computere og mail lå nede, adgangskontrollen ved Rødbyhavn stod stille, og flere skibe kunne ikke tilgå deres it-systemer."
+      ],
+      "whyItMatters": "Ministeren indkalder nu partierne bag cyberstrategien for at drøfte modforanstaltninger mod angreb på kritisk infrastruktur.",
+      "topics": [
+        "danmark",
+        "sikkerhedspolitik",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Femern Link Contractors",
+        "Sund & Bælt",
+        "Lisbeth Bech-Nielsen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 50,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 45,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "FLC blev udsat for en cyberhændelse natten til tirsdag, der lukkede dele af it-systemet ved Femern-byggeriet",
+          "sourceUrls": [
+            "https://femern.com/da/presse/nyheder/hovedentreprenor-pa-femern-projektet-ramt-af-cyberhaendelse/",
+            "https://www.licitationen.dk/article/view/1251049/efter_cyberhaendelse_ved_femernminister_vil_drofte_tiltag"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Minister Lisbeth Bech-Nielsen (SF) indkalder partierne bag Danmarks cyberstrategi efter hændelsen",
+          "sourceUrls": [
+            "https://www.licitationen.dk/article/view/1251049/efter_cyberhaendelse_ved_femernminister_vil_drofte_tiltag"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Efter \"cyberhændelse\" ved Femern: Minister vil drøfte tiltag",
+          "publisher": "Licitationen (Ritzau)",
+          "url": "https://www.licitationen.dk/article/view/1251049/efter_cyberhaendelse_ved_femernminister_vil_drofte_tiltag",
+          "publishedAt": "2026-10-14T05:46:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Hovedentreprenør på Femern-projektet ramt af cyberhændelse",
+          "publisher": "Femern A/S",
+          "url": "https://femern.com/da/presse/nyheder/hovedentreprenor-pa-femern-projektet-ramt-af-cyberhaendelse/",
+          "publishedAt": "2026-10-13T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-14/13-13ee550f.jpg",
+        "credit": "Kilde: Licitationen (Ritzau)",
+        "alt": "Efter \"cyberhændelse\" ved Femern: Minister vil drøfte tiltag",
+        "sourceUrl": "https://www.licitationen.dk/article/view/1251049/efter_cyberhaendelse_ved_femernminister_vil_drofte_tiltag",
+        "origin": "article",
+        "fingerprint": "64c4c4c4300d2b00d446564412840929c646564622860d39d2d2d2c602020e69939393850173461da1b1b58541714307",
+        "lookedAt": "64c4c4c4300d2b00d446564412840929c646564622860d39d2d2d2c602020e69939393850173461da1b1b58541714307",
+        "originalUrl": "https://image.nordjyske.dk/users/nordjyske/images/164274682.jpg?t[strip]=true&t[quality]=95&t[crop][width]=5776&t[crop][height]=3032&t[crop][x]=0&t[crop][y]=819&t[resize][width]=1200&t[resize][height]=630&accessToken=38ebf1b1acc10eb57523b383abeee14331e6f4eb5847075490730e6540c909b3",
+        "focus": {
+          "x": 0.764,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-14T15:11:37.066Z",
+        "runId": "run-2026-10-14-uafternoon-r111"
+      }
+    },
+    {
+      "id": "story14anthropicsg",
+      "eventKey": "anthropic-singapore-office-mou-2026-10",
+      "materialFacts": [
+        "Anthropic åbnede 14. oktober sit femte Asien-Stillehavs-kontor i Singapore",
+        "Hensigtserklæring (MOU) underskrevet med Singapores digitaliseringsministerium (MDDI)",
+        "MOU dækker AI-sikkerhed, modelevaluering, ansvarlig AI-udbredelse og AI-kompetencer i det offentlige",
+        "Claude bruges allerede af GovTech Singapore, Grab og DBS Bank"
+      ],
+      "section": "AI",
+      "headline": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "primarySourceUrl": "https://www.anthropic.com/news/singapore-office-opening",
+      "subheadline": "Claude-udbyder binder sig til AI-sikkerhed og offentlig AI-brug i Singapore",
+      "body": [
+        "Anthropic åbnede onsdag sit femte Asien-kontor i Singapore og underskrev en hensigtserklæring med landets digitaliseringsministerium om AI-sikkerhed, modelevaluering og ansvarlig AI-udbredelse. Claude driver allerede dele af GovTech Singapore, Grab og DBS Bank."
+      ],
+      "whyItMatters": "Singapore er et af de første lande med en formel AI-sikkerhedsaftale med et frontier-lab.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet",
+        "kina"
+      ],
+      "entities": [
+        "Anthropic",
+        "Singapores regering",
+        "GovTech Singapore"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 42,
+        "novelty": 65,
+        "sourceQuality": 85,
+        "personalRelevance": 75,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Anthropic åbnede et Singapore-kontor og underskrev en MOU med Singapores digitaliseringsministerium om AI-sikkerhed og ansvarlig udbredelse",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/singapore-office-opening",
+            "https://www.tribuneindia.com/news/business/anthropic-opens-office-in-singapore-partners-with-government-on-ai-safety-and-adoption"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "publishedAt": "2026-10-14T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Anthropic opens office in Singapore, partners with government on AI safety and adoption",
+          "publisher": "The Tribune",
+          "url": "https://www.tribuneindia.com/news/business/anthropic-opens-office-in-singapore-partners-with-government-on-ai-safety-and-adoption",
+          "publishedAt": "2026-10-14T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.tribuneindia.com/sortd-service/imaginary/v22-01/jpg/large/high?url=dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9tZWRpYTkxMDlmMjQwLWM3Y2MtMTFmMS05N2QyLTcxMzIwNTZiZTJjZS5qcGc=",
+          "fingerprint": "00d425d4d025d400009065929245900000d421d49061000000004299b9422100000241ba285522000010849274944200",
+          "reason": "logo-or-wordmark"
+        },
+        {
+          "url": "https://e27.co/wp-content/uploads/2026/10/Anthropic_SG.jpeg",
+          "reason": "generated-graphic",
+          "fingerprint": "35966677e7e48399b4d64673c7c6879996d65673a5c6a78917d7d3f5b78787239293b3f226378727131331f2267787a3"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-14T15:11:37.066Z",
+        "runId": "run-2026-10-14-uafternoon-r111"
+      }
     }
   ],
   "signals": [
@@ -1242,6 +1413,21 @@
         "ai"
       ],
       "isFeatured": false
+    }
+  ],
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-14T15:11:37.066Z",
+      "runId": "run-2026-10-14-uafternoon-r111",
+      "added": 2,
+      "cost": {
+        "usd": 3.7155092,
+        "inputTokens": 5458063,
+        "outputTokens": 31628,
+        "turns": 93,
+        "seconds": 606
+      }
     }
   ]
 }
