@@ -1,0 +1,996 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-10-15-001",
+  "date": "2026-10-15",
+  "generatedAt": "2026-10-15T05:30:00Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "Sanktioner mod Rusland, Anthropics prisdiskussion, en dansk regnefejl og tre historier uden for det, du plejer at læse.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story01eu-sanktion",
+      "eventKey": "eu-sanktion-1646-rusland-2026-10",
+      "materialFacts": [
+        "1.646 nye navne (743 personer, 826 enheder) på EU's sanktionsliste",
+        "Godkendt 12. oktober i Luxembourg",
+        "Samlet ca. 4.650 navne sanktioneret siden invasionen",
+        "USA's Trump har samtidig indgået dieselaftale med Rusland"
+      ],
+      "section": "Geopolitik",
+      "headline": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+      "primarySourceUrl": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+      "subheadline": "EU skærper sanktionerne mod Rusland, mens USA samtidig lemper sine.",
+      "body": [
+        "EU godkendte 12. oktober sin største sanktionsudvidelse mod Rusland siden invasionen: 1.646 nye navne, knyttet til kæden bag Ruslands ballistiske missiler. I alt er nu ca. 4.650 navne sanktioneret siden 2022."
+      ],
+      "whyItMatters": "Listen rammer forsvarsindustrien direkte, men dens effekt afhænger af, at andre magter ikke modarbejder den.",
+      "analysis": "For første gang rammer listen også lovgivere fra besatte områders underkendte valg.",
+      "counterpoint": "Samme uge lempede USA's Trump sanktioner mod russisk olie via en dieselaftale, som bipartisanske senatorer siger bryder USA's egen sanktionslov.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik",
+        "rusland"
+      ],
+      "entities": [
+        "EU",
+        "Kaja Kallas",
+        "Rusland",
+        "Ukraine",
+        "Donald Trump"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 35,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "EU vedtog 12. oktober 2026 1.646 nye navne (743 personer, 826 enheder) på sin Rusland-sanktionsliste, i alt ca. 4.650 siden invasionen.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USA's præsident Trump har indgået en dieselaftale med Rusland, som bipartisanske senatorer siger modarbejder USA's sanktionslov.",
+          "sourceUrls": [
+            "https://time.com/article/2026/10/12/republicans-democrats-call-for-trump-to-reverse-course-on-russia-diesel-deal/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+          "publishedAt": "2026-10-07T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Republicans Denounce Trump's Diesel Deal With Russia's Putin Amid Mounting Backlash",
+          "publisher": "TIME",
+          "url": "https://time.com/article/2026/10/12/republicans-democrats-call-for-trump-to-reverse-course-on-russia-diesel-deal/",
+          "publishedAt": "2026-10-12T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/01-6888b971.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+        "sourceUrl": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+        "origin": "article",
+        "fingerprint": "37b797f8dcc5e7af77b7bafadc94e77f37b2bae89e9ce767332339499e9c86e36b295dca561db683617cdcdb5a161c26",
+        "lookedAt": "37b797f8dcc5e7af77b7bafadc94e77f37b2bae89e9ce767332339499e9c86e36b295dca561db683617cdcdb5a161c26",
+        "originalUrl": "https://images.euronews.com/articles/stories/09/94/25/81/1200x675_cmsv2_25ff35e1-c942-5209-a3fc-907b7b74ef13-9942581.jpg",
+        "focus": {
+          "x": 0.136,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story02anthropic-ipo",
+      "eventKey": "anthropic-preipo-investor-day-2026-10",
+      "materialFacts": [
+        "Investordag 14. okt. i San Francisco",
+        "Medierapporteret mål 1,8-2 billioner dollar",
+        "Analytiker: op til 93 pct. overvurderet"
+      ],
+      "section": "Erhverv",
+      "headline": "Anthropic Discloses Q3 Financial Data for the First Time Ahead of IPO: What Investors Need to Know",
+      "primarySourceUrl": "https://www.tradingkey.com/analysis/stocks/us-stocks/262215419-anthropic-discloses-q3-financials-first-time-ipo-what-investors-need-knowtradingkey",
+      "subheadline": "Investordag skal bane vejen for AI-branchens største børsnotering.",
+      "body": [
+        "Anthropic holdt 14. oktober en investordag for investorer forud for en børsnotering. WSJ, Reuters og Bloomberg rapporterer et mål på 1,8-2 billioner dollar - ubekræftet, da S-1 stadig ikke er offentlig."
+      ],
+      "whyItMatters": "En børsnotering i den størrelse gør Anthropic til et af markedets mest omsatte AI-væddemål.",
+      "analysis": "Prisen afhænger af, om væksten holder, når rabatterede API-kald fylder mere.",
+      "counterpoint": "Analytiker Kyle Guske II (New Constructs) regner selskabet op til 93 pct. overvurderet ved 2 billioner dollar.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Anthropic",
+        "New Constructs",
+        "Kyle Guske II"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 68,
+        "novelty": 58,
+        "sourceQuality": 60,
+        "personalRelevance": 80,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Anthropic afholdt 14. oktober 2026 en investordag i San Francisco forud for en planlagt børsnotering.",
+          "sourceUrls": [
+            "https://www.tradingkey.com/analysis/stocks/us-stocks/262215419-anthropic-discloses-q3-financials-first-time-ipo-what-investors-need-knowtradingkey"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Medier rapporterer et børsnoteringsmål på 1,8-2 billioner dollar, uden at selskabet har bekræftet det.",
+          "sourceUrls": [
+            "https://www.tradingkey.com/analysis/stocks/us-stocks/262215419-anthropic-discloses-q3-financials-first-time-ipo-what-investors-need-knowtradingkey",
+            "https://247wallst.com/investing/2026/10/08/unprecedented-test-of-investor-gullibility-analyst-says-anthropic-could-be-overvalued-by-as-much-as-93-at-a-2-trillion-ipo-valuation/"
+          ],
+          "confidence": "low"
+        },
+        {
+          "text": "Analytiker Kyle Guske II (New Constructs) vurderer selskabet op til 93 pct. overvurderet ved 2 billioner dollar.",
+          "sourceUrls": [
+            "https://247wallst.com/investing/2026/10/08/unprecedented-test-of-investor-gullibility-analyst-says-anthropic-could-be-overvalued-by-as-much-as-93-at-a-2-trillion-ipo-valuation/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic Discloses Q3 Financial Data for the First Time Ahead of IPO: What Investors Need to Know",
+          "publisher": "TradingKey",
+          "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262215419-anthropic-discloses-q3-financials-first-time-ipo-what-investors-need-knowtradingkey",
+          "publishedAt": "2026-10-14T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "\"Unprecedented Test Of Investor Gullibility\": Analyst Says Anthropic Could Be Overvalued By As Much As 93% At A $2 Trillion IPO Valuation",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/08/unprecedented-test-of-investor-gullibility-analyst-says-anthropic-could-be-overvalued-by-as-much-as-93-at-a-2-trillion-ipo-valuation/",
+          "publishedAt": "2026-10-08T12:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://resource.tradingkey.com/uploads/20260604/anthropic-1-7c6c2e8535f546d6bd9c17af156a4b7f.jpg",
+          "fingerprint": "d803adb7323b8cc088077db7333b2d880907fe37333b2dcc0106fa35333b7c8c671ee337317b7c6e073ce367707b7af0",
+          "reason": "screen-text"
+        }
+      ]
+    },
+    {
+      "id": "story03kvaelstof",
+      "eventKey": "aarhus-universitet-kvaelstof-regnefejl-2026-10",
+      "materialFacts": [
+        "Fejl i beregning af kvælstofudvaskning fra vårbyg med efterafgrøder",
+        "Regulering træder i kraft 1. januar 2027",
+        "Minister tager fejlen 'meget alvorligt'"
+      ],
+      "section": "Danmark",
+      "headline": "Aarhus Universitet undskylder fejl i beregning bag kvælstofregulering",
+      "primarySourceUrl": "https://nyheder.tv2.dk/samfund/2026-10-14-aarhus-universitet-undskylder-fejl-i-beregning-bag-kvaelstofregulering",
+      "subheadline": "Fejl i universitetets tal kan have sat forkerte krav for landmænd fra nytår.",
+      "body": [
+        "Aarhus Universitet har undskyldt en fejl i beregningen af kvælstofudvaskning fra vårbyg med efterafgrøder - et af tallene bag den nye kvælstofregulering. Fejlen blev fundet, da universitetet trippelcheckede tallene efter at Seges Innovation pegede på samme regnefejl."
+      ],
+      "whyItMatters": "Reguleringen gælder fra 1. januar 2027 og fastsætter landmænds braklægningskrav.",
+      "analysis": "Minister Rabjerg Madsen (S) tager fejlen 'meget alvorligt' og vil have tallene rettet, før de kan nyde alles tillid.",
+      "topics": [
+        "danmark",
+        "landbrug",
+        "miljø"
+      ],
+      "entities": [
+        "Aarhus Universitet",
+        "Christian Rabjerg Madsen",
+        "Seges Innovation"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 65,
+        "personalRelevance": 10,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Aarhus Universitet har indrømmet en fejl i beregningen af kvælstofudvaskning fra vårbyg med efterafgrøder bag den nye kvælstofregulering.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/samfund/2026-10-14-aarhus-universitet-undskylder-fejl-i-beregning-bag-kvaelstofregulering"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aarhus Universitet undskylder fejl i beregning bag kvælstofregulering",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/samfund/2026-10-14-aarhus-universitet-undskylder-fejl-i-beregning-bag-kvaelstofregulering",
+          "publishedAt": "2026-10-14T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/03-b05f47e8.jpg",
+        "credit": "Kilde: TV 2",
+        "alt": "Aarhus Universitet undskylder fejl i beregning bag kvælstofregulering",
+        "sourceUrl": "https://nyheder.tv2.dk/samfund/2026-10-14-aarhus-universitet-undskylder-fejl-i-beregning-bag-kvaelstofregulering",
+        "origin": "article",
+        "fingerprint": "cb39393993c2a324c9797938938ba52e587078399399c52a746c7c3d0399c1666068783c310998c2ea5a5a5e0a491896",
+        "lookedAt": "cb39393993c2a324c9797938938ba52e587078399399c52a746c7c3d0399c1666068783c310998c2ea5a5a5e0a491896",
+        "originalUrl": "https://cdn-free.tv2i.dk/e/d/i/editorial/3/f/7/3f77044e-bfc6-492c-9150-ab5846034ef4?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCwzNzksNzI0NCw0MDc1&s=cd591822223b8390569c16b57fc11e46",
+        "focus": {
+          "x": 0.202,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story04dengue",
+      "eventKey": "florida-dengue-rekordudbrud-2026-10",
+      "materialFacts": [
+        "252 lokalt smittede tilfælde",
+        "1 dødsfald i Hillsborough County",
+        "To amter har erklæret nødsituation"
+      ],
+      "section": "Sundhed",
+      "headline": "Dengue Outbreak Sets Florida Record, Prompts Local Emergency Declarations",
+      "primarySourceUrl": "https://www.theepochtimes.com/us/dengue-outbreak-sets-florida-record-prompts-local-emergency-declarations-6099117",
+      "subheadline": "Floridas største dengueudbrud i årtier tvinger amter til nødsituation.",
+      "body": [
+        "Florida har 252 lokalt smittede denguetilfælde i 2026 - det største udbrud i en amerikansk stat i årtier. Hillsborough County har de fleste tilfælde og det eneste dødsfald, en 80-årig kvinde fra Tampa. Hillsborough og Pinellas har erklæret nødsituation for at sprøjte mod myg døgnet rundt."
+      ],
+      "whyItMatters": "Udbruddet viser, hvor hurtigt tropiske sygdomme nu etablerer sig lokalt i det sydlige USA.",
+      "analysis": "Nødsituationen giver hurtigere føderal refusion af bekæmpelsesudgifter, men ændrer ikke på, at myggene allerede er der.",
+      "topics": [
+        "sundhed",
+        "usa"
+      ],
+      "entities": [
+        "Hillsborough County",
+        "Florida Department of Health"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 40,
+        "novelty": 65,
+        "sourceQuality": 60,
+        "personalRelevance": 5,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Florida har 252 lokalt smittede denguetilfælde i 2026, det største udbrud i en amerikansk stat i årtier, med ét dødsfald i Hillsborough County.",
+          "sourceUrls": [
+            "https://www.theepochtimes.com/us/dengue-outbreak-sets-florida-record-prompts-local-emergency-declarations-6099117"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dengue Outbreak Sets Florida Record, Prompts Local Emergency Declarations",
+          "publisher": "The Epoch Times",
+          "url": "https://www.theepochtimes.com/us/dengue-outbreak-sets-florida-record-prompts-local-emergency-declarations-6099117",
+          "publishedAt": "2026-10-03T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/04-ac2090c3.jpg",
+        "credit": "Kilde: FOX 13 Tampa Bay via MSN",
+        "alt": "Hillsborough County dengue outbreak prompts statewide mosquito-spraying effort",
+        "sourceUrl": "https://www.fox13news.com/news/hillsborough-county-dengue-outbreak-prompts-statewide-mosquito-spraying-effort",
+        "origin": "coverage",
+        "fingerprint": "4866acc6ca8ac10766672c868b098103c5ed2c868b898541c56c06978d090480c66c1616850c1c84ce4d1313140c1ca6",
+        "lookedAt": "4866acc6ca8ac10766672c868b098103c5ed2c868b898541c56c06978d090480c66c1616850c1c84ce4d1313140c1ca6",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2efTB3.img",
+        "focus": {
+          "x": 0.102,
+          "y": 0.364
+        }
+      }
+    },
+    {
+      "id": "story05ipcc",
+      "eventKey": "ipcc-ar7-forsinkelse-2026-10",
+      "materialFacts": [
+        "Rusland, Saudi-Arabien, Indien, Kina og Kenya ønsker forsinkelse",
+        "Uden ny rapport før 2028 bruges 2021-22-data",
+        "65. IPCC-plenum i oktober 2026"
+      ],
+      "section": "Klima",
+      "headline": "Inside the deadlock at the world's top climate science body",
+      "primarySourceUrl": "https://kathmandupost.com/world/2026/10/09/inside-the-deadlock-at-the-world-s-top-climate-science-body",
+      "subheadline": "Olielande og Kina vil skubbe FN's klimarapport til efter 2028.",
+      "body": [
+        "På IPCC's 65. plenum presser Rusland, Saudi-Arabien, Indien, Kina og Kenya for at forsinke den syvende hovedvurdering (AR7), mens EU, UK og USA vil holde fast i 2028. Uden ny rapport skal lande bruge data fra 2021-22."
+      ],
+      "whyItMatters": "Forsinkelsen afgør, hvilken videnskab regeringer kan bruge, når de sætter klimamål og -finansiering.",
+      "analysis": "Kenyas Joyce Kimutai: hurtigt forløb udelukker forskere fra fattige lande; Schipper kalder politik 'elefanten i rummet'.",
+      "counterpoint": "Forfatter Joeri Rogelj advarer: forældede data kan 'cherry-pickes' i forhandlingerne.",
+      "topics": [
+        "klima",
+        "international-politik"
+      ],
+      "entities": [
+        "IPCC",
+        "Joyce Kimutai",
+        "Lisa Schipper",
+        "Joeri Rogelj"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 35,
+        "novelty": 60,
+        "sourceQuality": 62,
+        "personalRelevance": 5,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Rusland, Saudi-Arabien, Indien, Kina og Kenya presser for at forsinke IPCC's AR7, mens EU, UK og USA ønsker den fastholdt til 2028.",
+          "sourceUrls": [
+            "https://kathmandupost.com/world/2026/10/09/inside-the-deadlock-at-the-world-s-top-climate-science-body"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Inside the deadlock at the world's top climate science body",
+          "publisher": "Kathmandu Post",
+          "url": "https://kathmandupost.com/world/2026/10/09/inside-the-deadlock-at-the-world-s-top-climate-science-body",
+          "publishedAt": "2026-10-09T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/05-e6069965.jpg",
+        "credit": "Kilde: Kathmandu Post",
+        "alt": "Inside the deadlock at the world's top climate science body",
+        "sourceUrl": "https://kathmandupost.com/world/2026/10/09/inside-the-deadlock-at-the-world-s-top-climate-science-body",
+        "origin": "article",
+        "fingerprint": "073f73eb767c7c741f7df36976766c747f74f36df6f3ecdc79b6f1edd3f36cdc7ab2e5ccd3f3eedd7bf4e4ced3b1e2ee",
+        "lookedAt": "073f73eb767c7c741f7df36976766c747f74f36df6f3ecdc79b6f1edd3f36cdc7ab2e5ccd3f3eedd7bf4e4ced3b1e2ee",
+        "originalUrl": "https://assets-cdn.kathmandupost.com/uploads/source/news/2026/world/20261009T060932Z2LYNXMPEM980CHRTROPTP4CLIMATECHANGEIPCCSCIENCE-1791548416.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story06fda",
+      "eventKey": "fda-rare-disease-framework-2026-10",
+      "materialFacts": [
+        "Lanceret 14. oktober 2026",
+        "Ledet af FDA's Rare Disease Innovation Hub",
+        "Offentligt møde 28. oktober"
+      ],
+      "section": "Biotek",
+      "headline": "FDA Launches the Rare Disease Framework Initiative to Develop a Holistic, Fit-For-Purpose Framework for Rare Disease Drug Development",
+      "primarySourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease",
+      "subheadline": "FDA vil gentænke godkendelser for sjældne sygdomme efter kritik af uklare krav.",
+      "body": [
+        "FDA lancerede 14. oktober et rammeværk for lægemidler mod sjældne sygdomme, ledet af myndighedens Rare Disease Innovation Hub. Målet er konsekvente krav til små patientpopulationer, hvor firmaer tidligere har klaget over uforudsete afslag."
+      ],
+      "whyItMatters": "Klarere spilleregler kan sænke risikoen ved lægemidler, hvor forsøg i sagens natur er små.",
+      "analysis": "FDA-chef Kyle Diamantas: myndigheden vil 'kæmpe hårdt for patienterne' med en risikobaseret tilgang.",
+      "topics": [
+        "biotek",
+        "sundhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "FDA",
+        "Kyle Diamantas"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 58,
+        "novelty": 55,
+        "sourceQuality": 82,
+        "personalRelevance": 40,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "FDA lancerede 14. oktober 2026 'Rare Disease Framework Initiative', ledet af FDA's Rare Disease Innovation Hub.",
+          "sourceUrls": [
+            "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Fungerende FDA-chef Kyle Diamantas: 'The FDA will fight hard for patients by building a more consistent, predictable, and innovative approach to rare disease drug development.'",
+          "sourceUrls": [
+            "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FDA Launches the Rare Disease Framework Initiative to Develop a Holistic, Fit-For-Purpose Framework for Rare Disease Drug Development",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-launches-rare-disease-framework-initiative-develop-holistic-fit-purpose-framework-rare-disease",
+          "publishedAt": "2026-10-14T12:00:00Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story07lockheed",
+      "eventKey": "lockheed-avio-rocket-motor-2026-10",
+      "materialFacts": [
+        "Produktion i Hurt, Virginia",
+        "Giver Lockheed en ekstra motorleverandør",
+        "Produktion ventes i 2029"
+      ],
+      "section": "Forsvar",
+      "headline": "Avio, Lockheed sign agreement for solid rocket motor production",
+      "primarySourceUrl": "https://breakingdefense.com/2026/10/avio-lockheed-sign-agreement-for-solid-rocket-motor-production/",
+      "subheadline": "Italiensk-amerikansk aftale skal løse en flaskehals i USA's missilproduktion.",
+      "body": [
+        "Lockheed Martin og italienske Avio har indgået en aftale om, at Avio USA skal bygge raketmotorer til missilerne ER GMLRS og Precision Strike Missile i sit nye anlæg i Hurt, Virginia - en ekstra leverandør ud over Lockheeds nuværende."
+      ],
+      "whyItMatters": "USA's forsvarsindustri har kæmpet med flaskehalse i raketmotorer - en ekstra leverandør reducerer risikoen.",
+      "analysis": "Avios chef Jim Syring kalder det en kapacitetsreservation, der gavner begge parter.",
+      "topics": [
+        "forsvar",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Lockheed Martin",
+        "Avio",
+        "Jim Syring",
+        "Tim Cahill"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 35,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Lockheed Martin og Avio har underskrevet en aftale om produktion af solide raketmotorer til ER GMLRS og Precision Strike Missile i Hurt, Virginia, med produktionsstart i 2029.",
+          "sourceUrls": [
+            "https://breakingdefense.com/2026/10/avio-lockheed-sign-agreement-for-solid-rocket-motor-production/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Avio, Lockheed sign agreement for solid rocket motor production",
+          "publisher": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/10/avio-lockheed-sign-agreement-for-solid-rocket-motor-production/",
+          "publishedAt": "2026-10-13T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/07-f8026651.jpg",
+        "credit": "Kilde: Breaking Defense",
+        "alt": "Avio, Lockheed sign agreement for solid rocket motor production",
+        "sourceUrl": "https://breakingdefense.com/2026/10/avio-lockheed-sign-agreement-for-solid-rocket-motor-production/",
+        "origin": "article",
+        "fingerprint": "040c983c7094903c240c983460b0a1382408183c68b031382c181c3ce87030600c1a3c7cf8e070601a3c7c78f8d06060",
+        "lookedAt": "040c983c7094903c240c983460b0a1382408183c68b031382c181c3ce87030600c1a3c7cf8e070601a3c7c78f8d06060",
+        "originalUrl": "https://breakingdefense.com/wp-content/uploads/sites/13/2024/12/prsm-inc-1-launch-e1791924458169.jpg",
+        "focus": {
+          "x": 0.17,
+          "y": 0.957
+        }
+      }
+    },
+    {
+      "id": "story08warsaw",
+      "eventKey": "warsaw-security-forum-droner-kampvogne-2026-10",
+      "materialFacts": [
+        "Diskussion om balance mellem droner og kampvogne",
+        "Fælles produktion med ukrainske firmaer anbefalet"
+      ],
+      "section": "Forsvar",
+      "headline": "European officials weigh mix of high-tech drones and heavy armor",
+      "primarySourceUrl": "https://www.defensenews.com/global/europe/2026/10/14/european-officials-weigh-mix-of-high-tech-drones-and-heavy-armor/",
+      "subheadline": "Europæiske forsvarsministre strides om, hvor meget af forsvaret der kan droneficeres.",
+      "body": [
+        "Ved Warsaw Security Forum diskuterede europæiske forsvarsministre, hvordan droner og tunge kampvogne skal kombineres til NATO's østflanke. Litauens Robertas Kaunas: Ukraine bruger kampvogne med antidrone-beskyttelse; Nederlandenes minister fremhævede fælles udvikling med ukrainske firmaer."
+      ],
+      "whyItMatters": "Valget mellem droner og tungt materiel afgør, hvor Europas forsvarsmilliarder bruges.",
+      "analysis": "Tidligere minister Šakalienė: 'landmanøvrer kan ikke gennemføres med droner alene' - mod synet på droner som erstatning.",
+      "topics": [
+        "forsvar",
+        "geopolitik",
+        "europa"
+      ],
+      "entities": [
+        "Warsaw Security Forum",
+        "Robertas Kaunas",
+        "Dilan Yeşilgöz-Zegerius",
+        "Dovilė Šakalienė"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 42,
+        "novelty": 45,
+        "sourceQuality": 62,
+        "personalRelevance": 40,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Ved Warsaw Security Forum diskuterede europæiske forsvarsministre balancen mellem droner og tunge kampvogne til NATO's østflanke.",
+          "sourceUrls": [
+            "https://www.defensenews.com/global/europe/2026/10/14/european-officials-weigh-mix-of-high-tech-drones-and-heavy-armor/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "European officials weigh mix of high-tech drones and heavy armor",
+          "publisher": "Defense News",
+          "url": "https://www.defensenews.com/global/europe/2026/10/14/european-officials-weigh-mix-of-high-tech-drones-and-heavy-armor/",
+          "publishedAt": "2026-10-14T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/08-55aa291d.jpg",
+        "credit": "Kilde: Defense News",
+        "alt": "European officials weigh mix of high-tech drones and heavy armor",
+        "sourceUrl": "https://www.defensenews.com/global/europe/2026/10/14/european-officials-weigh-mix-of-high-tech-drones-and-heavy-armor/",
+        "origin": "article",
+        "fingerprint": "182b12f266ce987b182b5372664ece99091153b2e6c7ce100c1153b3e7c7cfba24d2db39e7c7c78f1a599b79e78787cf",
+        "lookedAt": "182b12f266ce987b182b5372664ece99091153b2e6c7ce100c1153b3e7c7cfba24d2db39e7c7c78f1a599b79e78787cf",
+        "originalUrl": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/PVJUY2XQYRBAVMREPVYOP2RZWM.jpg?width=1200&auth=c4cf48455e4fb3fa22ac9f18dac5138abea5def33abb8bd37c5f3505ea699139",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story09singapore",
+      "eventKey": "anthropic-singapore-kontor-mou-2026-10",
+      "materialFacts": [
+        "Femte kontor i Asien-Stillehavsregionen",
+        "MOU om AI-sikkerhed og hændelsesrespons",
+        "Over 1.000 offentlige og private kunder i Singapore"
+      ],
+      "section": "Teknologi",
+      "headline": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "primarySourceUrl": "https://www.anthropic.com/news/singapore-office-opening",
+      "subheadline": "Anthropic binder sig til at dele sikkerhedstest med Singapores regering.",
+      "body": [
+        "Anthropic åbnede 14. oktober sit femte kontor i Asien-Stillehavsregionen i Singapore og underskrev en aftale med ministeriet for digital udvikling om AI-sikkerhed, modeltest og hændelsesrespons, indgået under Singapore International Cyber Week."
+      ],
+      "whyItMatters": "Et af de første eksempler på, at et frontlab formelt binder sig til at dele sikkerhedsstandarder med en stat uden for USA.",
+      "analysis": "Singapore er allerede et af Claudes mest aktive markeder, med over 1.000 offentlige og private kunder.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Anthropic",
+        "Ben Mann",
+        "Singapores regering"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 42,
+        "novelty": 55,
+        "sourceQuality": 72,
+        "personalRelevance": 75,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "Anthropic åbnede 14. oktober 2026 et kontor i Singapore og underskrev en MOU med Singapores regering om AI-sikkerhed og test.",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/singapore-office-opening"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/singapore-office-opening",
+          "publishedAt": "2026-10-14T12:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/09-aa297c12.jpg",
+        "credit": "Ministry of Digital Development and Information (MDDI), Singapore",
+        "alt": "Underskrivelsen af MOU mellem Anthropic og Singapores ministerium for digital udvikling under Singapore International Cyber Week",
+        "sourceUrl": "https://itbrief.asia/story/anthropic-opens-singapore-office-signs-ai-safety-pact",
+        "origin": "coverage",
+        "fingerprint": "de9393d2b0a2ec0f9b9b8bb2b07246cd93ab83b0b971464e252525b1b971d7da0424002969b0f4a3460001646c68a297",
+        "lookedAt": "de9393d2b0a2ec0f9b9b8bb2b07246cd93ab83b0b971464e252525b1b971d7da0424002969b0f4a3460001646c68a297",
+        "originalUrl": "https://itbrief.asia/uploads/story/2026/10/15/Anthropic-MDDI_MOU_Signing__13_Oct__-_Credit_MDDI-story-321454.webp",
+        "focus": {
+          "x": 0.198,
+          "y": 0.421
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "headline": "HCLTech and Anthropic announce global partnership for agentic AI adoption",
+      "text": "HCLTech and Anthropic announce global partnership for agentic AI adoption",
+      "url": "https://www.anthropic.com/news",
+      "publisher": "Anthropic",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-14T12:00:00Z",
+      "summary": "HCLTech og Anthropic opretter en dedikeret forretningsenhed og integrerer Claude-modeller i HCLTechs produkter.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "FDA Expands Approval for ImmunityBio's Anktiva in Bladder Cancer, Boosting IBRX Stock",
+      "text": "FDA Expands Approval for ImmunityBio's Anktiva in Bladder Cancer, Boosting IBRX Stock",
+      "url": "https://www.gurufocus.com/news/9123730/fda-expands-approval-for-immunitybios-anktiva-in-bladder-cancer-boosting-ibrx-stock",
+      "publisher": "GuruFocus",
+      "section": "Biotek",
+      "publishedAt": "2026-10-14T12:00:00Z",
+      "summary": "FDA udvidede godkendelsen af Anktiva til alle BCG-uresponsive blærekræftpatienter, tre måneder før den planlagte beslutningsdato.",
+      "topics": [
+        "biotek",
+        "sundhed"
+      ]
+    },
+    {
+      "headline": "Krydstogtafgift giver stor kritik: '200 kroner per passager er voldsomt'",
+      "text": "Krydstogtafgift giver stor kritik: '200 kroner per passager er voldsomt'",
+      "url": "https://www.dr.dk/nyheder/indland/krydstogtafgift-giver-stor-kritik-200-kroner-per-passager-er-voldsomt",
+      "publisher": "DR",
+      "section": "Danmark",
+      "publishedAt": "2026-10-13T12:00:00Z",
+      "summary": "Regeringens forslag om 200 kr. i afgift pr. krydstogtpassager fra 2028 skal give staten 300 mio. kr., men møder kritik fra branchen.",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "SpaceX launches Falcon 9 carrying CRS-35 cargo mission to the ISS",
+      "text": "SpaceX launches Falcon 9 carrying CRS-35 cargo mission to the ISS",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-falcon-9-starlink-mission-for-1st-time-in-more-than-3-weeks-photo",
+      "publisher": "Space.com",
+      "section": "Rumfart",
+      "publishedAt": "2026-10-13T12:00:00Z",
+      "summary": "35. kommercielle forsyningsmission bragte mere end tre tons gods til den internationale rumstation.",
+      "topics": [
+        "rumfart",
+        "videnskab"
+      ]
+    },
+    {
+      "headline": "Novo Nordisk Details Progress in DKK 15 Billion Share Buyback Programme",
+      "text": "Novo Nordisk Details Progress in DKK 15 Billion Share Buyback Programme",
+      "url": "https://www.tipranks.com/news/company-announcements/novo-nordisk-details-progress-in-dkk-15-billion-share-buyback-programme-5",
+      "publisher": "TipRanks",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-13T12:00:00Z",
+      "summary": "Novo Nordisk opdaterer fremdriften i sit tilbagekøbsprogram på 15 mia. kr.",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "Republicans Denounce Trump's Diesel Deal With Russia's Putin Amid Mounting Backlash",
+      "text": "Republicans Denounce Trump's Diesel Deal With Russia's Putin Amid Mounting Backlash",
+      "url": "https://time.com/article/2026/10/12/republicans-democrats-call-for-trump-to-reverse-course-on-russia-diesel-deal/",
+      "publisher": "TIME",
+      "section": "Geopolitik",
+      "publishedAt": "2026-10-12T12:00:00Z",
+      "summary": "Zelensky siger russiske angreb på energianlæg brød Trumps udmeldte våbenstilstand og sårede 33 i Ukraine.",
+      "topics": [
+        "geopolitik",
+        "ukraine"
+      ]
+    },
+    {
+      "headline": "Dansk Erhverv tilslutter sig Seniorløftet: Det skal være mere attraktivt at blive længere i arbejde",
+      "text": "Dansk Erhverv tilslutter sig Seniorløftet: Det skal være mere attraktivt at blive længere i arbejde",
+      "url": "https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/dansk-erhverv-tilslutter-sig-seniorloftet-det-skal-vare-mere-attraktivt-at-blive-langere-i-arbejde/",
+      "publisher": "Dansk Erhverv",
+      "section": "Danmark",
+      "publishedAt": "2026-10-14T12:00:00Z",
+      "summary": "Dansk Erhverv, PFA og HK går sammen om et initiativ, der skal gøre det mere attraktivt for seniorer at blive på arbejdsmarkedet.",
+      "topics": [
+        "danmark",
+        "arbejdsmarked"
+      ]
+    },
+    {
+      "headline": "Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C",
+      "text": "Atom Computing, Diraq, IBM and IonQ Advance to DARPA QBI Stage C",
+      "url": "https://www.hpcwire.com/2026/10/07/atom-computing-diraq-ibm-and-ionq-advance-to-darpa-qbi-stage-c",
+      "publisher": "HPCwire",
+      "section": "Quantum",
+      "publishedAt": "2026-10-07T12:00:00Z",
+      "summary": "DARPA giver op til 300 mio. dollar til hvert af de fire selskaber i den sidste verifikationsfase af sit Quantum Benchmarking Initiative.",
+      "topics": [
+        "quantum",
+        "deeptech"
+      ]
+    },
+    {
+      "headline": "Mistral unveils latest model in sovereign AI push",
+      "text": "Mistral unveils latest model in sovereign AI push",
+      "url": "https://techxplore.com/news/2026-10-france-mistral-unveils-latest-sovereign.html",
+      "publisher": "Tech Xplore",
+      "section": "AI",
+      "publishedAt": "2026-10-06T12:00:00Z",
+      "summary": "Mistral Large 4 er en etbillion-parameter model, der skal gøre europæiske virksomheder og myndigheder uafhængige af amerikanske og kinesiske AI-labs.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "label": "USA's forbrugerprisindeks, år til år",
+    "indicator": "us-cpi-yoy",
+    "value": "3,7",
+    "unit": "pct.",
+    "asOf": "september 2026",
+    "caption": "Første CPI-tal siden regeringslukningen; måneds-til-måneds-stigning på 0,6 pct. er den højeste siden august.",
+    "sourceUrl": "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "sourceTitle": "Consumer Price Index Summary - 2026 M09 Results"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "peltzman-effekten-flytter-risiko",
+    "title": "Sikkerhed flytter risiko",
+    "thesis": "En sikrere teknologi inviterer mere risiko andetsteds - skaden falder mindre end teknologien skulle forudsige.",
+    "horizon": "Næste års skadesdata efter en ny sikkerhedsteknologis indførelse",
+    "body": [
+      "Peltzman viste i 1975, at bilseler sænkede dødsulykker for bilister, men lod fodgængeres dødstal stige."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis næste datasæt viser, at skaden falder proportionalt med teknologiens egen effektivitet uden kompensation - så er risikokompensation ikke den dominerende mekanisme, og sikkerhedsteknologi er simpelthen en gave, ikke en omfordeling af risiko.",
+    "topics": [
+      "adfærd",
+      "teknologi",
+      "psykologi"
+    ],
+    "claims": [
+      {
+        "text": "Peltzmans 1975-studie fandt, at sikkerhedssele-lovgivning sænkede dødsulykker blandt bilister, men var forbundet med flere dræbte fodgængere og cyklister.",
+        "sourceUrls": [
+          "https://www.journals.uchicago.edu/doi/10.1086/260352"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Effects of Automobile Safety Regulation",
+        "publisher": "Journal of Political Economy",
+        "url": "https://www.journals.uchicago.edu/doi/10.1086/260352",
+        "publishedAt": "1975-08-01T00:00:00Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec01defensescoop",
+      "tier": "featured",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "Unmanned warfare has now expanded to the high seas. Is the U.S. ready?",
+      "creator": "Michael Connor og Yoni Tobin",
+      "provider": "DefenseScoop",
+      "url": "https://defensescoop.com/2026/10/07/unmanned-warfare-has-expanded-to-the-high-seas-is-the-us-ready/",
+      "availability": "Frit tilgængelig",
+      "commitment": "10-15 minutter",
+      "description": "To forsvarsanalytikere gennemgår, hvordan ubemandede fartøjer ændrer flådekrigsførelse i 2026: en ukrainsk dronebåd sænkede et russisk overfladefartøj, USA bygger 30 robotskibe á ca. 40 mio. dollar, og Taiwan har bestilt over 200.000 engangsdroner.",
+      "rationale": "Maritim sikkerhed er et af de emner, din egen seerhistorik selv flager som underserveret - og denne analyse giver konkrete tal (pris pr. skib, ordrestørrelser) du kan bruge, hvis du skal vurdere forsvars-deeptech som investeringscase, i stedet for endnu en AI-lab-prognose.",
+      "topics": [
+        "forsvar",
+        "maritim",
+        "deeptech"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-15/r01-9e60e7b3.jpg",
+        "credit": "Nina Liashonok/Ukrinform/NurPhoto via Getty Images",
+        "alt": "Det ukrainske ubemandede overfladefartøj Barracuda under test i det sydlige Ukraine",
+        "sourceUrl": "https://defensescoop.com/2026/10/07/unmanned-warfare-has-expanded-to-the-high-seas-is-the-us-ready/",
+        "lookedAt": "1b5696c9e8f878f91ad2938dccf878f99a93938dccf87cf893a3a34cdcf8faf431210b4c9cfafaf8481149de9efab8f9",
+        "fingerprint": "1b5696c9e8f878f91ad2938dccf878f99a93938dccf87cf893a3a34cdcf8faf431210b4c9cfafaf8481149de9efab8f9",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        },
+        "originalUrl": "https://defensescoop.com/wp-content/uploads/sites/8/2026/10/Ukrainian-USV.jpg?w=1013"
+      }
+    },
+    {
+      "id": "rec02crary",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "available",
+      "title": "Philosophy in the Time of Techno-Fascism",
+      "creator": "Alice Crary",
+      "provider": "Public Seminar",
+      "url": "https://publicseminar.org/2026/04/philosophy-in-the-time-of-techno-fascism/",
+      "note": "Filosof argumenterer, at longtermism - ideen om at hypotetiske fremtidige AI-gevinster opvejer nutidige skader - er et ideologisk dække, ikke en neutral etik; en direkte udfordring til 'størst mulig påstand vinder'-logikken.",
+      "topics": [
+        "filosofi",
+        "ai-etik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec03epoch",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "available",
+      "title": "Is a compute crunch coming?",
+      "creator": "Luke Emberson og Jaime Sevilla",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/gradient-updates/is-a-compute-crunch-coming",
+      "note": "Tal-tung analyse af, om efterspørgslen efter AI-tokens vokser hurtigere (ca. 10x årligt) end udbuddet af inferenskapacitet (ca. 3,4x) - relevant baggrund for dagens Anthropic-prisdebat.",
+      "topics": [
+        "ai",
+        "deeptech"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec04chinatalk",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "Kevin Roose on the AGI Believers: Oppenheimer with Equity",
+      "creator": "Jordan Schneider og Kevin Roose",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/the-agi-chronicles",
+      "note": "Roose, forfatter til bogen 'The AGI Chronicles', fortæller historien om, hvorfor AGI blev bygget på tro snarere end bare penge og chips - og hvad der driver Altman, Amodei og Hassabis.",
+      "topics": [
+        "ai",
+        "historie"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec05institutionaledge",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "From Qubits to Portfolios: The Investor's Guide to Quantum Computing",
+      "creator": "Angelo Calvello med Daniel Volz og Elisabetta Basilico",
+      "provider": "The Institutional Edge",
+      "url": "https://angelo-calvellos-podcast.castos.com/episodes/from-qubits-to-portfolios-the-investors-guide-to-quantum-computing",
+      "commitment": "47 minutter",
+      "note": "Et af de få stykker indhold, der direkte adresserer kvante-investering - et felt din egen videoeksport efterspørger mere af, end den finder.",
+      "topics": [
+        "quantum",
+        "investering"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec06openai",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk dokument",
+      "status": "available",
+      "title": "On the Navier-Stokes Millennium Prize Problem",
+      "creator": "OpenAI",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/navier-stokes-solution/",
+      "note": "Selskabets egen fremstilling af sit omstridte bevis - læs den primære kilde selv, ikke kun striden om den, før du tager stilling til, hvad en AI-genereret matematisk bevisførelse faktisk beviser.",
+      "topics": [
+        "ai",
+        "matematik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec07willison",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Værktøj",
+      "status": "new",
+      "title": "Tool: Scrimshaw Jukebox",
+      "creator": "Simon Willison",
+      "provider": "tools.simonwillison.net",
+      "url": "https://tools.simonwillison.net/scrimshaw-jukebox",
+      "note": "Willison testede, om Claude Opus 5.5 kan komponere spilmusik i browseren - seks originale adventure-spor, skrevet som ren tekst og afspillet af en synth; et konkret, ikke-kodende eksempel på modelkapacitet.",
+      "topics": [
+        "ai",
+        "produkt"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec08kubrick",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Boksæt",
+      "status": "upcoming",
+      "title": "The Complete Kubrick",
+      "creator": "Stanley Kubrick",
+      "provider": "Criterion Collection",
+      "url": "https://www.criterion.com/boxsets/9000-the-complete-kubrick",
+      "availability": "Udkommer 20. oktober 2026",
+      "note": "30-disk 4K-samling af alle 13 Kubrick-film plus shorts og 25+ timers nyt interviewmateriale - en lejlighed til primærmateriale om en af dine højest rangerede skabere, ikke endnu en artikel om ham.",
+      "topics": [
+        "film",
+        "klassiker"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {}
+}

@@ -1,0 +1,167 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-15",
+  "generatedAt": "2026-10-15T08:40:34.757Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story01eu-sanktion",
+      "headline": "EU agrees to sanction over 1,600 people and entities linked to Russia's war",
+      "source": "https://images.euronews.com/articles/stories/09/94/25/81/1200x675_cmsv2_25ff35e1-c942-5209-a3fc-907b7b74ef13-9942581.jpg",
+      "article": "https://www.euronews.com/2026/10/07/eu-agrees-to-sanction-over-1600-people-and-entities-linked-to-russias-war",
+      "hosted": "01-6888b971.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 37668,
+      "out": "900x675",
+      "bytes": 53243,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.136,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-15T08:40:35.154Z"
+    },
+    {
+      "slot": "03",
+      "id": "story03kvaelstof",
+      "headline": "Aarhus Universitet undskylder fejl i beregning bag kvælstofregulering",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/3/f/7/3f77044e-bfc6-492c-9150-ab5846034ef4?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCwzNzksNzI0NCw0MDc1&s=cd591822223b8390569c16b57fc11e46",
+      "article": "https://nyheder.tv2.dk/samfund/2026-10-14-aarhus-universitet-undskylder-fejl-i-beregning-bag-kvaelstofregulering",
+      "hosted": "03-b05f47e8.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 174473,
+      "out": "1080x720",
+      "bytes": 184215,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.202,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-15T08:40:35.836Z"
+    },
+    {
+      "slot": "04",
+      "id": "story04dengue",
+      "headline": "Dengue Outbreak Sets Florida Record, Prompts Local Emergency Declarations",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2efTB3.img",
+      "article": "https://www.theepochtimes.com/us/dengue-outbreak-sets-florida-record-prompts-local-emergency-declarations-6099117",
+      "hosted": "04-ac2090c3.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 148900,
+      "out": "1080x720",
+      "bytes": 105741,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 0.364
+      },
+      "fetchedAt": "2026-10-15T08:40:36.239Z"
+    },
+    {
+      "slot": "05",
+      "id": "story05ipcc",
+      "headline": "Inside the deadlock at the world's top climate science body",
+      "source": "https://assets-cdn.kathmandupost.com/uploads/source/news/2026/world/20261009T060932Z2LYNXMPEM980CHRTROPTP4CLIMATECHANGEIPCCSCIENCE-1791548416.jpg",
+      "article": "https://kathmandupost.com/world/2026/10/09/inside-the-deadlock-at-the-world-s-top-climate-science-body",
+      "hosted": "05-e6069965.jpg",
+      "srcSize": "1500x1000",
+      "srcFormat": "jpeg",
+      "srcBytes": 321356,
+      "out": "1500x1000",
+      "bytes": 294959,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-15T08:40:36.803Z"
+    },
+    {
+      "slot": "07",
+      "id": "story07lockheed",
+      "headline": "Avio, Lockheed sign agreement for solid rocket motor production",
+      "source": "https://breakingdefense.com/wp-content/uploads/sites/13/2024/12/prsm-inc-1-launch-e1791924458169.jpg",
+      "article": "https://breakingdefense.com/2026/10/avio-lockheed-sign-agreement-for-solid-rocket-motor-production/",
+      "hosted": "07-f8026651.jpg",
+      "srcSize": "998x562",
+      "srcFormat": "jpeg",
+      "srcBytes": 75096,
+      "out": "843x562",
+      "bytes": 44192,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.17,
+        "y": 0.957
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-15T08:40:37.083Z"
+    },
+    {
+      "slot": "08",
+      "id": "story08warsaw",
+      "headline": "European officials weigh mix of high-tech drones and heavy armor",
+      "source": "https://archetype-military-times-prod.web.arc-cdn.net/resizer/v2/PVJUY2XQYRBAVMREPVYOP2RZWM.jpg?width=1200&auth=c4cf48455e4fb3fa22ac9f18dac5138abea5def33abb8bd37c5f3505ea699139",
+      "article": "https://www.defensenews.com/global/europe/2026/10/14/european-officials-weigh-mix-of-high-tech-drones-and-heavy-armor/",
+      "hosted": "08-55aa291d.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "heif",
+      "srcBytes": 9554,
+      "out": "1200x800",
+      "bytes": 27234,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-15T08:40:37.429Z"
+    },
+    {
+      "slot": "09",
+      "id": "story09singapore",
+      "headline": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "source": "https://itbrief.asia/uploads/story/2026/10/15/Anthropic-MDDI_MOU_Signing__13_Oct__-_Credit_MDDI-story-321454.webp",
+      "article": "https://www.anthropic.com/news/singapore-office-opening",
+      "hosted": "09-aa297c12.jpg",
+      "srcSize": "1200x677",
+      "srcFormat": "webp",
+      "srcBytes": 56580,
+      "out": "1015x677",
+      "bytes": 75230,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.198,
+        "y": 0.421
+      },
+      "fetchedAt": "2026-10-15T08:40:38.661Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec01defensescoop",
+      "headline": "Unmanned warfare has now expanded to the high seas. Is the U.S. ready?",
+      "source": "https://defensescoop.com/wp-content/uploads/sites/8/2026/10/Ukrainian-USV.jpg?w=1013",
+      "article": "https://defensescoop.com/2026/10/07/unmanned-warfare-has-expanded-to-the-high-seas-is-the-us-ready/",
+      "hosted": "r01-9e60e7b3.jpg",
+      "srcSize": "1013x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 180350,
+      "out": "1013x570",
+      "bytes": 85567,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-15T08:40:38.925Z"
+    }
+  ]
+}
