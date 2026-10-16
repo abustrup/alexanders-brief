@@ -1,0 +1,241 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-16",
+  "generatedAt": "2026-10-16T08:45:41.832Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story01anthropicipo",
+      "headline": "Anthropic's $2 Trillion IPO Dream Meets a $1.5 Trillion Reality Check",
+      "source": "https://media.gettyimages.com/id/2261514586/photo/key-speakers-at-anthropics-builder-summit.jpg?s=594x594&w=0&k=20&c=P6aPml8utsRiJVx6cD_IkGzuWSMDHrBiMWVhIXLVMq8=",
+      "article": "https://finance.yahoo.com/technology/ai/articles/anthropic-2-trillion-ipo-dream-045506897.html",
+      "hosted": "01-7e191689.jpg",
+      "srcSize": "594x396",
+      "srcFormat": "jpeg",
+      "srcBytes": 84090,
+      "out": "528x396",
+      "bytes": 21008,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.557,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-16T08:45:42.176Z"
+    },
+    {
+      "slot": "02",
+      "id": "story02starshield",
+      "headline": "Order to limit Starshield for Ukraine came from inside White House, Reuters reports",
+      "source": "https://image.cnbcfm.com/api/v1/image/108173882-1752844539526-gettyimages-2225696381-mms28707_1cm2uml7.jpeg?v=1752844582&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/10/16/order-to-limit-starshield-for-ukraine-came-from-inside-white-house-reuters-reports.html",
+      "hosted": "02-4171356a.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 259817,
+      "out": "1600x1067",
+      "bytes": 235552,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.884,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-16T08:45:42.722Z"
+    },
+    {
+      "slot": "04",
+      "id": "story04ftc",
+      "headline": "Scoop: The FTC demanded documents from AI giants over recent safety incidents",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2ejkiH.img",
+      "article": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+      "hosted": "04-069c34db.jpg",
+      "srcSize": "1412x1412",
+      "srcFormat": "jpeg",
+      "srcBytes": 352062,
+      "out": "1412x941",
+      "bytes": 162460,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.179,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-16T08:45:43.235Z"
+    },
+    {
+      "slot": "05",
+      "id": "story05romania",
+      "headline": "Seven missing after two tankers catch fire off Romania's Black Sea coast",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/ap_6ad0f643299a9-1792079427.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/15/ship-catches-fire-in-romanias-waters-amid-rising-attacks-in-the-black-sea",
+      "hosted": "05-fd0187f9.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 201654,
+      "out": "1600x1067",
+      "bytes": 187195,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.279,
+        "y": 0.5
+      },
+      "fetchedAt": "2026-10-16T08:45:43.866Z"
+    },
+    {
+      "slot": "06",
+      "id": "story06willow",
+      "headline": "Google Demonstrates Method to Cut Errors in Quantum Computing's 'Magic States'",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2eki5J.img",
+      "article": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+      "hosted": "06-ec85fad0.jpg",
+      "srcSize": "900x600",
+      "srcFormat": "jpeg",
+      "srcBytes": 64120,
+      "out": "900x600",
+      "bytes": 48979,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-16T08:45:44.113Z"
+    },
+    {
+      "slot": "07",
+      "id": "story07kongsberg",
+      "headline": "Kongsberg to build production facility for counter-drone systems in Poland",
+      "source": "https://defence-industry.eu/wp-content/uploads/2026/10/Kongsberg-to-build-production-facility-for-counter-drone-systems-in-Poland.jpg",
+      "article": "https://defence-industry.eu/kongsberg-to-build-production-facility-for-counter-drone-systems-in-poland/",
+      "hosted": "07-c0724824.jpg",
+      "srcSize": "960x558",
+      "srcFormat": "jpeg",
+      "srcBytes": 56228,
+      "out": "837x558",
+      "bytes": 38850,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-16T08:45:44.401Z"
+    },
+    {
+      "slot": "08",
+      "id": "story08eusummit",
+      "headline": "EU summit: Costa takes charge of budget talks as leaders stick to red lines",
+      "source": "https://images.euronews.com/articles/stories/09/95/21/99/1536x864_cmsv2_624a754d-fa93-5276-ad29-4c2cd09cf5c4-9952199.jpg",
+      "article": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices",
+      "hosted": "08-6b287c17.jpg",
+      "srcSize": "1536x864",
+      "srcFormat": "webp",
+      "srcBytes": 135792,
+      "out": "1296x864",
+      "bytes": 142225,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.639,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-16T08:45:44.795Z"
+    },
+    {
+      "slot": "09",
+      "id": "story09metaapple",
+      "headline": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs",
+      "source": "https://www.apple.com/newsroom/images/2026/08/apple-introduces-new-mac-studio-with-m5-max-and-m5-ultra/article/Apple-Mac-Studio-hero-260825_big.jpg.large.jpg",
+      "article": "https://www.axios.com/2026/10/15/apple-and-meta-bury-the-hatchet-for-ai",
+      "hosted": "09-4a753142.jpg",
+      "srcSize": "980x551",
+      "srcFormat": "jpeg",
+      "srcBytes": 15982,
+      "out": "826x551",
+      "bytes": 11020,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.191,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-16T08:45:45.389Z"
+    },
+    {
+      "slot": "10",
+      "id": "story10euukraine",
+      "headline": "European Commission releases €2.86 billion for Ukraine's drones, missiles and air defence under €90 billion support loan programme",
+      "source": "https://defence-industry.eu/wp-content/uploads/2026/05/Ukraine-and-Germany-expand-defence-partnership-through-air-defence-drone-production-and-technology-cooperation.jpeg",
+      "article": "https://defence-industry.eu/european-commission-releases-e2-86-billion-for-ukraines-drones-missiles-and-air-defence-under-e90-billion-support-loan-programme/",
+      "hosted": "10-86eb2818.jpg",
+      "srcSize": "900x507",
+      "srcFormat": "jpeg",
+      "srcBytes": 143085,
+      "out": "760x507",
+      "bytes": 52889,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.227,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-16T08:45:45.666Z"
+    },
+    {
+      "slot": "11",
+      "id": "story11gaza",
+      "headline": "A US-brokered ceasefire was supposed to end the war in Gaza. A year later, progress has stalled",
+      "source": "https://web-cdnprod.aa.com.tr/uploads/Contents/2026/10/15/thumbs_b_c_f3a6f77e03a046494bcf3a23421220b9.jpg",
+      "article": "https://www.washingtonpost.com/national/2026/10/10/israel-palestinians-hamas-war-gaza-ceasefire-explainer/dcff0b64-c46a-11f1-8170-681419af1cc9_story.html",
+      "hosted": "11-586ba4d1.jpg",
+      "srcSize": "864x486",
+      "srcFormat": "webp",
+      "srcBytes": 78560,
+      "out": "729x486",
+      "bytes": 61785,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.63,
+        "y": 0.625
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-16T08:45:47.069Z"
+    },
+    {
+      "slot": "12",
+      "id": "story12immunitybio",
+      "headline": "FDA approves an expanded indication for nogapendekin alfa inbakicept-pmln for BCG-unresponsive non-muscle invasive bladder cancer",
+      "source": "https://qtxasset.com/quartz/qcloud5/media/image/fiercepharma/1644345670/FDA.jpg?VersionId=Y_ExpycBz5asjINKhoKywmcCRyDN8pLV",
+      "article": "https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-expanded-indication-nogapendekin-alfa-inbakicept-pmln-bcg-unresponsive-non-muscle",
+      "hosted": "12-aa3d1ae7.jpg",
+      "srcSize": "800x534",
+      "srcFormat": "webp",
+      "srcBytes": 57060,
+      "out": "800x533",
+      "bytes": 55548,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.305,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-16T08:45:47.433Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec01scion",
+      "headline": "Redesigning source control at Anthropic",
+      "source": "https://www.anthropic.com/_next/image?url=%2Fimages%2Fredesigning-source-control%2Fmerges-per-day.png",
+      "article": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "hosted": null,
+      "reason": "download failed: HTTP 400"
+    }
+  ]
+}
