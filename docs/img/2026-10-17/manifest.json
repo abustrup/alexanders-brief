@@ -1,0 +1,186 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-17",
+  "generatedAt": "2026-10-17T04:25:25.068Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "s1-kina-eksport",
+      "headline": "China proposes AI export curbs to manage security",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2emT1Z.img",
+      "article": "https://www.taipeitimes.com/News/biz/archives/2026/10/17/2003866098",
+      "hosted": "01-80c6f44a.jpg",
+      "srcSize": "1024x682",
+      "srcFormat": "jpeg",
+      "srcBytes": 276720,
+      "out": "909x682",
+      "bytes": 77955,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.773,
+        "y": 0.1
+      },
+      "fetchedAt": "2026-10-17T04:25:25.426Z"
+    },
+    {
+      "slot": "02",
+      "id": "s2-anthropic-lov",
+      "headline": "Anthropic Quietly Pushes AI Safety Bill That Would Limit Government Power to Block Dangerous Models",
+      "source": "https://lawcommentary.sfo3.cdn.digitaloceanspaces.com/.cache/articles/01M53VR622AFPN23K1NJT8R5F2.jpg/b014f532b9d4d9f3",
+      "article": "https://www.lawcommentary.com/articles/anthropic-ai-safety-bill-government-powers",
+      "hosted": "02-c0392a9f.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 110515,
+      "out": "945x630",
+      "bytes": 70900,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 0.689
+      },
+      "fetchedAt": "2026-10-17T04:25:25.646Z"
+    },
+    {
+      "slot": "03",
+      "id": "s3-anthropic-omsaetning",
+      "headline": "Anthropic's Q3 revenue is said to hit $16.8 billion ahead of IPO",
+      "source": "https://image.cnbcfm.com/api/v1/image/108368277-1790360556847-108368277-17903603812026-09-25t180005z_1304128046_rc29lnaagwzx_rtrmadp_0_usa-pentagon-anthropic-lawsuit.jpg?v=1790360568&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+      "hosted": "03-76886491.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 107904,
+      "out": "1600x1067",
+      "bytes": 89713,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.245,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-17T04:25:25.951Z"
+    },
+    {
+      "slot": "04",
+      "id": "s4-eu-ai-act",
+      "headline": "EU's AI rules face first enforcement test over lab incidents",
+      "source": "https://images.euronews.com/articles/stories/09/95/04/26/1200x675_cmsv2_cd21343b-1e04-5f65-ba0a-af0f79bdb270-9950426.jpg",
+      "article": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+      "hosted": "04-ff5e8473.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 54078,
+      "out": "1012x675",
+      "bytes": 70337,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.17,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-17T04:25:26.218Z"
+    },
+    {
+      "slot": "05",
+      "id": "s5-nist-kurve",
+      "headline": "Claude reveals ECDSA curve origins",
+      "source": "https://assets.buttondown.email/images/fc811646-65b3-4c41-9a2c-ff68584f75b5.jpeg?w=960&fit=max",
+      "article": "https://www.anthropic.com/research/ecdsa-curve-origins",
+      "hosted": "05-88d7fa05.jpg",
+      "srcSize": "960x744",
+      "srcFormat": "jpeg",
+      "srcBytes": 54026,
+      "out": "960x640",
+      "bytes": 42788,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.254,
+        "y": 0.679
+      },
+      "fetchedAt": "2026-10-17T04:25:26.429Z"
+    },
+    {
+      "slot": "06",
+      "id": "s6-ema-foundayo",
+      "headline": "New oral GLP-1 medicine for weight management and type 2 diabetes",
+      "source": "https://www.ema.europa.eu/sites/default/files/styles/ema_smp_opengraph/public/2024-07/EMA_building_202407_v1-copyright-EMA.png.webp?itok=1P_03bnR",
+      "article": "https://www.ema.europa.eu/en/news/new-oral-glp-1-medicine-weight-management-type-2-diabetes",
+      "hosted": "06-736c9a84.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 149706,
+      "out": "945x630",
+      "bytes": 112771,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-17T04:25:26.763Z"
+    },
+    {
+      "slot": "07",
+      "id": "s7-eu-ukraine",
+      "headline": "Zelensky's ask: 300 Patriot missiles, 70 billion euros, and Russian assets",
+      "source": "https://s.yimg.com/lo/mysterio/api/3f5f85e24ecfea2221d809ad5bca30a440e8c4638f6780d60e09966c2c085963/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fkyiv_independent_articles_496%2F2f6a51b6c316ce7780d4763e1ed48287.jpg",
+      "article": "https://www.yahoo.com/news/politics/articles/zelenskys-ask-300-patriot-missiles-145931430.html",
+      "hosted": "07-1895077e.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 40742,
+      "out": "1200x800",
+      "bytes": 50649,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.143,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-17T04:25:27.120Z"
+    },
+    {
+      "slot": "08",
+      "id": "s8-unicef-gaza",
+      "headline": "Gaza: 340 children killed despite ceasefire agreement - UNICEF",
+      "source": "https://www.unicef.org/mena/sites/unicef.org.mena/files/UNI751091.webp",
+      "article": "https://news.un.org/en/story/2026/10/1168611",
+      "hosted": "08-ba04d172.jpg",
+      "srcSize": "1536x1091",
+      "srcFormat": "webp",
+      "srcBytes": 197638,
+      "out": "1536x1024",
+      "bytes": 213973,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.571
+      },
+      "fetchedAt": "2026-10-17T04:25:27.480Z"
+    },
+    {
+      "slot": "r01",
+      "id": "r1-anthropic-employment",
+      "headline": "How employment is changing at Anthropic",
+      "source": "https://www-cdn.anthropic.com/images/4zrzovbb/website/e6c18d30f931ae76d4b600558f5a11377306f1d9-2000x1125.jpg",
+      "article": "https://www.anthropic.com/research/employment-at-anthropic",
+      "hosted": "r01-8f66ef97.jpg",
+      "srcSize": "2000x1125",
+      "srcFormat": "jpeg",
+      "srcBytes": 1012739,
+      "out": "1600x900",
+      "bytes": 413576,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-17T04:25:27.867Z"
+    }
+  ]
+}
