@@ -233,6 +233,14 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
+    },
+    {
+      "date": "2026-10-18",
+      "slug": "kellys-sejr",
+      "claim": "Kelly-kriteriet, ikke forventet nytteteori, beskriver optimal vækst, fordi afkast multiplicerer over tid.",
+      "horizon": "Næste store sammenligning af Kelly- og MPT-strategier",
+      "falsifier": "En stor kvantitativ sammenligning af fuld-Kelly- og MPT-baserede fondsafkast over en fuld markedscyklus viser, at MPT leverer højere geometrisk vækst end fraktioneret Kelly-positionering.",
+      "status": "open"
     }
   ]
 }

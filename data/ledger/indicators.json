@@ -264,6 +264,11 @@
           "value": "467,58",
           "asOf": "juli 2026",
           "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1046179/000104617926000471/tsm-revenue20260810.htm"
+        },
+        {
+          "value": "511,86",
+          "asOf": "september 2026",
+          "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm"
         }
       ]
     },
