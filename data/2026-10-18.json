@@ -1,0 +1,719 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-10-18-001",
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T05:30:00.000Z",
+  "readingMinutes": 6,
+  "title": "Alexanders Brief – 18. oktober 2026",
+  "dek": "Starlink i Ukraine, AI-chippenge hos TSMC, en 20 år gammel kvante-flaskehals, og et ebolaudbrud der passerer 9.000 tilfælde.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-zelensky-starlink-01",
+      "eventKey": "zelensky-starlink-restrictions-planned-operation-2026-10",
+      "materialFacts": [
+        "Starlink-hastighed i Ukraine begrænset til 161 km/t",
+        "Grænsetest viste 180 km/t uden begrænsning i EU-lande",
+        "SpaceX har ikke svaret offentligt"
+      ],
+      "section": "Sikkerhedspolitik",
+      "headline": "'Planned operation' — Zelensky confirms Ukraine's Starlink access not fully restored",
+      "primarySourceUrl": "https://kyivindependent.com/planned-operation-zelensky-confirms-ukraines-starlink-access-not-fully-restored/",
+      "subheadline": "Ukraine får 161 km/t i fart-loft på Starlink – uden begrænsning få kilometer væk i EU",
+      "body": [
+        "Zelensky kalder hastighedsbegrænsningen på Ukraines Starlink en 'planlagt operation'. Loftet på 161 km/t slår interceptor-droner mod Ruslands jetdrevne Shahed-droner fra; grænsetest viste 180 km/t uden begrænsning i EU. SpaceX har ikke svaret offentligt."
+      ],
+      "whyItMatters": "Uden interceptorer mister Ukraine et værn mod Ruslands hurtigste droner.",
+      "analysis": "Beskyldningen sætter et firma midt i krigen: hvem styrer satellitadgangen, styrer slagfeltet.",
+      "counterpoint": "Amerikanske kanaler har peget på tekniske fejl – en forklaring Zelensky afviser.",
+      "topics": [
+        "sikkerhedspolitik",
+        "usa",
+        "krig"
+      ],
+      "entities": [
+        "Volodymyr Zelensky",
+        "SpaceX",
+        "Starlink",
+        "Elon Musk"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 60,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 55,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "Zelensky kalder begrænsningerne en 'planlagt operation' og siger loftet på 161 km/t gælder i Ukraine, men ikke over grænsen i EU, hvor tests viste 180 km/t.",
+          "sourceUrls": [
+            "https://kyivindependent.com/planned-operation-zelensky-confirms-ukraines-starlink-access-not-fully-restored/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Planned operation' — Zelensky confirms Ukraine's Starlink access not fully restored",
+          "publisher": "Kyiv Independent",
+          "url": "https://kyivindependent.com/planned-operation-zelensky-confirms-ukraines-starlink-access-not-fully-restored/",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Zelenskyy Says Starlink Limits on Ukraine Military Are a 'Planned Operation'",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-17/zelenskyy-says-starlink-restrictions-on-ukraine-look-deliberate",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-tsmc-q3-02",
+      "eventKey": "tsmc-q3-2026-record-revenue-ai-demand",
+      "materialFacts": [
+        "Q3-omsætning 46,72 mia. dollar, +41,2 pct. år-til-år",
+        "Nettooverskud NT$763,06 mia., +68,7 pct.",
+        "HPC/AI-chips 68 pct. af omsætningen, op fra 57 pct."
+      ],
+      "section": "AI og erhverv",
+      "headline": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+      "primarySourceUrl": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+      "subheadline": "AI-efterspørgsel driver Taiwans chipgigant til rekordoverskud for sjette kvartal i træk",
+      "body": [
+        "TSMC's Q3-omsætning var 46,72 mia. dollar, 41,2 pct. højere end året før, med rekordoverskud på NT$763,06 mia. (+68,7 pct.). AI-chips udgjorde 68 pct. af omsætningen, op fra 57 pct. for et år siden. Selskabet venter 52,3-54,3 mia. dollar i Q4."
+      ],
+      "whyItMatters": "TSMC er flaskehalsen for AI-chips, og den stigende andel viser, hvor koncentreret efterspørgslen er blevet.",
+      "analysis": "AI-kunder betaler nu for kapacitet år i forvejen – prisfastsættelse, ikke kun volumen, driver overskuddet.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "TSMC"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 72,
+        "novelty": 45,
+        "sourceQuality": 90,
+        "personalRelevance": 75,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "TSMC's Q3 2026-omsætning var 46,72 mia. dollar (+41,2 pct. år-til-år), nettooverskud NT$763,06 mia. (+68,7 pct.), HPC 68 pct. af omsætningen mod 57 pct. året før; Q4-guidance 52,3-54,3 mia. dollar.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+            "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "TSMC posts record profit for a sixth straight quarter, beating estimates on AI boom",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/15/tsmc-third-quarter-profit-global-ai-.html",
+          "publishedAt": "2026-10-15T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing Co Ltd - Form 6-K - Q3 2026 earnings release",
+          "publisher": "TSMC / SEC",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+          "publishedAt": "2026-10-15T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-google-quantum-03",
+      "eventKey": "google-willow-magic-state-cultivation-science-2026-10",
+      "materialFacts": [
+        "40x fejlreduktion, 99,99 pct. logisk fidelitet for T-states",
+        "Publiceret i Science 15. oktober 2026",
+        "Magic-state-forberedelse kan ellers æde op til 95 pct. af en quantumcomputers ressourcer"
+      ],
+      "section": "Videnskab",
+      "headline": "Google Demonstrates Method to Cut Errors in Quantum Computing's 'Magic States'",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+      "subheadline": "Willow-chippen når 99,99 pct. fidelitet og angriber et 20 år gammelt ressourceproblem",
+      "body": [
+        "Google Quantum AI viste 'magic state cultivation' på Willow: ca. 40x færre fejl, 99,99 pct. fidelitet for T-states, i Science 15. oktober. Teknikken renser en fejlfyldt tilstand via målinger i stedet for at ville perfektion fra start. Forberedelsen kan ellers æde 95 pct. af en quantumcomputers ressourcer."
+      ],
+      "whyItMatters": "Flaskehalsen for fejlkorrigeret quantumberegning rykker fra teori til ingeniørarbejde.",
+      "analysis": "Google siger selv, metoden skal vises ved større systemer, før den betyder noget praktisk.",
+      "topics": [
+        "videnskab",
+        "ai"
+      ],
+      "entities": [
+        "Google Quantum AI",
+        "Willow"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 35,
+        "novelty": 80,
+        "sourceQuality": 72,
+        "personalRelevance": 45,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Google Quantum AI demonstrerede magic state cultivation på Willow med ca. 40x fejlreduktion og 99,99 pct. logisk fidelitet for T-states, publiceret i Science 15. oktober 2026.",
+          "sourceUrls": [
+            "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+            "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Demonstrates Method to Cut Errors in Quantum Computing's 'Magic States'",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Magic state cultivation on a superconducting quantum processor",
+          "publisher": "Google Research / Science",
+          "url": "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/",
+          "publishedAt": "2026-10-15T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-deepseek-flash-04",
+      "eventKey": "deepseek-v4-1-flash-1017-benchmarks-2026-10",
+      "materialFacts": [
+        "77,0 pct. på DeepSWE for ca. 0,20 dollar per opgave",
+        "Slår Claude Opus 5, GPT-5.6 Sol, Kimi K3, GLM 5.3 på udvalgte tests",
+        "Åbne vægte; uafhængige benchmarks endnu ikke offentliggjort"
+      ],
+      "section": "AI",
+      "headline": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+      "primarySourceUrl": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+      "subheadline": "Kinesisk åben model slår Claude Opus 5 og GPT-5.6 Sol for en femtedel af prisen",
+      "body": [
+        "V4.1 Flash-1017 opnår 77,0 pct. på DeepSWE for ca. 0,20 dollar/opgave, mod ca. 0,50 dollar for forgængeren. Efter egne tal slår modellen Claude Opus 5, GPT-5.6 Sol, Kimi K3 og GLM 5.3 på udvalgte agent- og kodningsopgaver. Vægtene er åbne; uafhængige benchmarks foreligger ikke."
+      ],
+      "whyItMatters": "Prisfaldet ændrer regnestykket for, hvem der kan bygge AI-produkter i stor skala.",
+      "analysis": "Tallene er DeepSeeks egne; 'slår' gælder udvalgte tests – et spring, ikke efterprøvet.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "DeepSeek"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 65,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 70,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "DeepSeek V4.1 Flash-1017 opnår 77,0 pct. på DeepSWE for ca. 0,20 dollar per opgave og slår efter DeepSeeks egne benchmarks Claude Opus 5, GPT-5.6 Sol, Kimi K3 og GLM 5.3 på udvalgte opgaver; uafhængige tal foreligger ikke endnu.",
+          "sourceUrls": [
+            "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Deepseek V4.1 Flash 1017 beats larger rivals in agentic tasks while once again massively cutting per-task costs",
+          "publisher": "The Decoder",
+          "url": "https://the-decoder.com/deepseek-v4-1-flash-1017-beats-larger-rivals-in-agentic-tasks-while-once-again-massively-cutting-per-task-costs/",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-disney-character-05",
+      "eventKey": "disney-character-ai-hire-180m-2026-10",
+      "materialFacts": [
+        "66 Character.AI-medarbejdere hyret for ca. 60 mio. dollar/år",
+        "Character.AI's tidl. CEO blev Disneys koncern-CTO 2. oktober",
+        "Disney bød 20 mio. dollar på udvalgte IP-rettigheder i konkursboet"
+      ],
+      "section": "AI og erhverv",
+      "headline": "Disney Commits $60 Million Annually to Character.AI Employees Following Mass Internal Layoffs",
+      "primarySourceUrl": "https://wdwnt.com/2026/10/disney-commits-60-million-annually-to-character-ai-employees-following-mass-internal-layoffs/",
+      "subheadline": "Samme Character.AI, Disney fik et påkrav mod, er nu arbejdsgiver for 66 af dets folk",
+      "body": [
+        "Disney hyrer 66 medarbejdere fra konkursramte Character.AI for ca. 60 mio. dollar/år – 180 mio. over tre år plus 30 mio. i bonus. Tidl. topchef Karandeep Anand blev 2. oktober Disneys koncern-CTO. Disney har også budt 20 mio. på IP-rettigheder."
+      ],
+      "whyItMatters": "Selskabet, der sagsøgte Character.AI, betaler nu for samme kompetence.",
+      "analysis": "Et køb af folk: Disney vil selv bygge AI-figurer, ikke platformen, der gjorde det først.",
+      "counterpoint": "Character.AI er kritiseret for skadelig adfærd hos unge brugere.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "entities": [
+        "Disney",
+        "Character.AI",
+        "Karandeep Anand"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 68,
+        "personalRelevance": 55,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Disney hyrer 66 Character.AI-medarbejdere for ca. 60 mio. dollar/år (ca. 180 mio. dollar over tre år plus 30 mio. dollar i retention); Character.AI's tidl. CEO Karandeep Anand blev Disneys koncern-CTO 2. oktober; Disney bød 20 mio. dollar på udvalgte IP-rettigheder.",
+          "sourceUrls": [
+            "https://wdwnt.com/2026/10/disney-commits-60-million-annually-to-character-ai-employees-following-mass-internal-layoffs/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Disney Commits $60 Million Annually to Character.AI Employees Following Mass Internal Layoffs",
+          "publisher": "WDW News Today",
+          "url": "https://wdwnt.com/2026/10/disney-commits-60-million-annually-to-character-ai-employees-following-mass-internal-layoffs/",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Disney Offers Soft Landing to Staff at Troubled Character.AI",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/newsletters/2026-10-17/disney-offers-soft-landing-to-staff-at-troubled-character-ai",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-drc-ebola-06",
+      "eventKey": "drc-ebola-outbreak-9000-cases-2026-10",
+      "materialFacts": [
+        "9.066 bekræftede tilfælde, 4.381 dødsfald per 13. oktober",
+        "Spredt til syv provinser; smitte i Uganda og Kenya",
+        "Ingen godkendt vaccine eller behandling mod denne Ebola-stamme"
+      ],
+      "section": "Verden",
+      "headline": "DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/13/dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-transmission-falter",
+      "subheadline": "9.066 tilfælde og knap 48 pct. dødelighed i verdens andenstørste ebolaudbrud",
+      "body": [
+        "Udbruddet af Bundibugyo-virus i DR Congo har 9.066 tilfælde og 4.381 døde per 13. oktober – kun overgået af epidemien i Vestafrika 2014-16. Smitten er spredt til syv provinser og over grænserne til Uganda og Kenya. Ingen vaccine er godkendt, og lokal mistro samt M23-konflikt gør indsatsen sværere."
+      ],
+      "whyItMatters": "Uden vaccine afhænger forløbet af smitteopsporing i et konfliktområde, ikke af medicin.",
+      "analysis": "WHO forbereder et vaccineforsøg, men en dødelighed på 48 pct. betyder, det kommer for sent for de fleste.",
+      "topics": [
+        "sundhed",
+        "afrika"
+      ],
+      "entities": [
+        "WHO",
+        "DR Congo"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 25,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "9.066 bekræftede tilfælde og 4.381 dødsfald per 13. oktober 2026 (ca. 48 pct. dødelighed) i det Bundibugyo-forårsagede ebolaudbrud i DR Congo, spredt til syv provinser.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/13/dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-transmission-falter",
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "DR Congo Ebola cases pass 9,000 as efforts to curb transmission falter",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/13/dr-congo-ebola-cases-pass-9000-as-efforts-to-curb-transmission-falter",
+          "publishedAt": "2026-10-13T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+          "publishedAt": "2026-10-08T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-france-protests-07",
+      "eventKey": "france-protests-cost-of-living-1200-arrests-2026-10",
+      "materialFacts": [
+        "550.000 demonstranter nationalt (officielt tal), arrangørers tal 800.000",
+        "1.200 anholdt, 150 politifolk såret",
+        "Rådhus i Limoges sat i brand"
+      ],
+      "section": "Verden",
+      "headline": "Chaotic scenes as organisers of French protests claim 800,000 have taken to streets",
+      "primarySourceUrl": "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests",
+      "subheadline": "1.200 anholdt og et rådhus i brand, da leveomkostninger drev hundredtusinder på gaden",
+      "body": [
+        "Indenrigsministeren talte 550.000 demonstranter nationalt, 110.000 i Paris; arrangørerne hævdede 800.000. Lecornu meldte 1.200 anholdte og 150 sårede betjente; rådhuset i Limoges brændte. Demonstranterne protesterede mod brændstofpriser, leveomkostninger og forholdene på gymnasier."
+      ],
+      "whyItMatters": "Skalaen gør det til Frankrigs mest voldsomme uro i flere år.",
+      "analysis": "Macron lover retsforfølgelse af hærværk, men kravene bag protesten løses ikke af en politiindsats.",
+      "topics": [
+        "frankrig",
+        "politik"
+      ],
+      "entities": [
+        "France",
+        "Emmanuel Macron",
+        "Sébastien Lecornu"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 15,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 5,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "550.000 demonstranter nationalt (110.000 i Paris) ifølge indenrigsministeren, 800.000 ifølge arrangørerne; 1.200 anholdte, 150 sårede politifolk, rådhuset i Limoges sat i brand.",
+          "sourceUrls": [
+            "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chaotic scenes as organisers of French protests claim 800,000 have taken to streets",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/france/20261017-live-france-s-yellow-vests-throw-their-weight-behind-mounting-student-protests",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Singapore office and government MOU",
+      "headline": "Singapore office and government MOU",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "publisher": "Anthropic",
+      "section": "AI",
+      "publishedAt": "2026-10-14T00:00:00.000Z",
+      "summary": "Anthropic åbner sit femte asiatiske kontor i Singapore og underskriver en hensigtserklæring med landets digitaliseringsministerium.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ]
+    },
+    {
+      "text": "An update on independent evaluators",
+      "headline": "An update on independent evaluators",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "publisher": "Anthropic",
+      "section": "AI",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "Anthropic giver METR, SecureBio og Accenture dybere adgang til at vurdere risici i virksomhedens modeller.",
+      "topics": [
+        "ai",
+        "sikkerhed"
+      ]
+    },
+    {
+      "text": "Bringing GPT-Rosalind to academic research labs",
+      "headline": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "publisher": "OpenAI",
+      "section": "AI",
+      "publishedAt": "2026-10-15T00:00:00.000Z",
+      "summary": "OpenAI lancerer en akademisk plan for GPT-Rosalind til forskningslaboratorier.",
+      "topics": [
+        "ai",
+        "videnskab"
+      ]
+    },
+    {
+      "text": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "headline": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publisher": "OpenAI",
+      "section": "AI",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "Stack Overflow tredobler tilmeldinger efter lancering af et ChatGPT-plugin til udviklerspørgsmål.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "Meta quietly deletes AI training clause from its new business terms",
+      "headline": "Meta quietly deletes AI training clause from its new business terms",
+      "url": "https://startupfortune.com/meta-quietly-deletes-ai-training-clause-from-its-new-business-terms/",
+      "publisher": "Startup Fortune",
+      "section": "AI",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Meta fjernede ordet 'train' fra sine kommercielle vilkår efter kritik fra udgivere; vilkårene gælder fra 30. oktober.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "OpenCode discloses distillation attack that hit 1.4% of Console users",
+      "headline": "OpenCode discloses distillation attack that hit 1.4% of Console users",
+      "url": "https://cryptobriefing.com/opencode-distillation-attack-api-key-breach/",
+      "publisher": "Crypto Briefing",
+      "section": "Sikkerhed",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Angribere fik adgang til API-nøgler til OpenAI, Anthropic og Google hos 1,4 pct. af OpenCodes Console-brugere via et nedlagt legacy-system.",
+      "topics": [
+        "ai",
+        "sikkerhed"
+      ]
+    },
+    {
+      "text": "TikTok \"Permanently Suspends\" the 'Musk' Film Ad Account, Raising Suppression Fears",
+      "headline": "TikTok \"Permanently Suspends\" the 'Musk' Film Ad Account, Raising Suppression Fears",
+      "url": "https://www.hollywoodreporter.com/news/politics-news/musk-movie-tiktok-banned-theaters-showtimes-1236734308/",
+      "publisher": "The Hollywood Reporter",
+      "section": "Medier",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "TikTok har permanent lukket reklamekontoen for Alex Gibneys Musk-dokumentar, mens filmen udvider til over 470 biografer.",
+      "topics": [
+        "medier",
+        "usa"
+      ]
+    },
+    {
+      "text": "Turkey confirms Hex founder Richard Heart's arrest, says police seized $7.15 million and six cold wallets",
+      "headline": "Turkey confirms Hex founder Richard Heart's arrest, says police seized $7.15 million and six cold wallets",
+      "url": "https://www.theblock.co/news/regulation/2026-10-17-turkey-confirms-hex-founder-richard-hearts-arrest-says-police-seized-7-15-million-and-six-cold-wallets-418852",
+      "publisher": "The Block",
+      "section": "Kryptovaluta",
+      "publishedAt": "2026-10-17T00:00:00.000Z",
+      "summary": "Tyrkiske myndigheder bekræfter anholdelsen af Hex-grundlægger Richard Heart i Istanbul på en finsk Interpol-efterlysning.",
+      "topics": [
+        "kryptovaluta",
+        "retssystem"
+      ]
+    },
+    {
+      "text": "Large fire breaks out after deadly incident at Canadian military base, officials say",
+      "headline": "Large fire breaks out after deadly incident at Canadian military base, officials say",
+      "url": "https://www.cbsnews.com/news/deadly-incident-fire-alberta-canada-military-base-cfb-wainwright/",
+      "publisher": "CBS News",
+      "section": "Verden",
+      "publishedAt": "2026-10-17T22:56:00.000Z",
+      "summary": "Dødsfald og sårede bekræftet efter brand på CFB Wainwright i Alberta; årsagen er ikke fastslået, og antallet af omkomne er ikke oplyst.",
+      "topics": [
+        "canada",
+        "sikkerhedspolitik"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "label": "TSMC's månedsomsætning",
+    "indicator": "tsmc-monthly-revenue",
+    "value": "511,86",
+    "unit": "mia. NT$",
+    "asOf": "september 2026",
+    "previous": {
+      "value": "467,58",
+      "asOf": "juli 2026",
+      "change": "+9,5 pct."
+    },
+    "caption": "TSMC's omsætning for september 2026, op 54,6 pct. år-til-år, drevet af AI-chip-efterspørgsel.",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+    "sourceTitle": "TSMC September 2026 Revenue Report"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "kellys-sejr",
+    "title": "Kellys sejr",
+    "thesis": "Kelly-kriteriet, ikke forventet nytteteori, beskriver optimal vækst, fordi afkast multiplicerer over tid.",
+    "horizon": "Næste store sammenligning af Kelly- og MPT-strategier",
+    "body": [
+      "Nytteteori gennemsnitter over mulige verdener; en investor lever kun én tidslinje, hvor tab ganges ind i alt fremtidigt afkast."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis en stor sammenligning af fuld-Kelly- og MPT-baserede fondsafkast over en fuld markedscyklus viser, at MPT-tilgangen leverer højere geometrisk, ikke blot aritmetisk, vækst end fraktioneret Kelly-positionering.",
+    "topics": [
+      "økonomi",
+      "finans"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-musk-doc-01",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "documentary",
+      "status": "new",
+      "title": "Musk",
+      "creator": "Alex Gibney",
+      "provider": "Bleecker Street (biograf)",
+      "url": "https://bleeckerstreetmedia.com/musk",
+      "availability": "I biografer i USA fra 9. oktober 2026 (over 470 skærme); dansk biografdato ikke bekræftet. Senere på HBO/Max uden fastsat dato.",
+      "commitment": "ca. 4 timer (235 min.)",
+      "description": "Alex Gibneys næsten fire timer lange dokumentar bygger på Teslas egne medarbejderudsagn og optagelser af dødsulykker med selvkørende biler, samt en syntetisk 'AI-Elon'-samtale bygget på hans egne citater, fordi Musk selv afviste at medvirke.",
+      "rationale": "Musk ligger stadig i hans eget top-10 over beundrede personer. Gibneys dokumentation af Tesla-ansattes egne udsagn og de faktiske ulykkesoptagelser er det skarpeste tilgængelige modsyn på netop den placering - ikke endnu en artikel om AI, men beviset bag en position, han selv har taget.",
+      "topics": [
+        "erhverv",
+        "teknologi"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-18/r01-16b6297d.jpg",
+        "credit": "Bleecker Street / HBO Documentary Films (teaterplakat)",
+        "alt": "Plakat for dokumentarfilmen 'Musk' af Alex Gibney",
+        "sourceUrl": "https://bleeckerstreetmedia.com/musk",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/en/c/c5/Musk_poster.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-dwarkesh-02",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Si Sheppard – How did a few hundred Spanish soldiers topple two empires?",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/si-sheppard",
+      "commitment": "ca. 90 min.",
+      "note": "Samme vært som AI-samtalerne, men militærhistorie i stedet: hvorfor et par hundrede spaniere kunne vælte Aztekerriget og Inkariget.",
+      "topics": [
+        "historie"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-vanhorn-03",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Why Economics Forsook Democracy",
+      "creator": "Robert Van Horn",
+      "provider": "ProMarket",
+      "url": "https://www.promarket.org/2026/10/14/why-economics-forsook-democracy/",
+      "commitment": "ca. 10 min.",
+      "note": "Argumenterer mod en tradition fraværende fra hans læste bøger: at Chicago-skolens markedsfrihed kostede dens demokratiske forudsætning, som Friedman skrev ud af bogen.",
+      "topics": [
+        "økonomi",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20vc-04",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Pro Rata Lawsuit: Valar Atomics vs Day One VC",
+      "creator": "Harry Stebbings",
+      "provider": "20VC",
+      "url": "https://www.thefabulous.co/pod/20vc/pro-rata-lawsuit-valar-atomics-vs-day-one-vc/",
+      "commitment": "ca. 20 min.",
+      "note": "En pro rata-tvist mellem en grundlægger og dennes seed-investor - konkret kapitalstruktur-mekanik, ikke bare AI-hype.",
+      "topics": [
+        "venturekapital",
+        "erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-science-05",
+      "tier": "short",
+      "mode": "read",
+      "kind": "paper",
+      "status": "new",
+      "title": "Magic state cultivation on a superconducting quantum processor",
+      "creator": "Google Quantum AI",
+      "provider": "Google Research / Science",
+      "url": "https://research.google/pubs/magic-state-cultivation-on-a-superconducting-quantum-processor/",
+      "commitment": "ca. 25 min.",
+      "note": "Primærteksten bag dagens quantum-historie for den, der vil se metoden selv, ikke bare dækningen af den.",
+      "topics": [
+        "videnskab",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-norby-06",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "koncert",
+      "status": "timely",
+      "title": "Cæcilie Norby",
+      "creator": "Cæcilie Norby",
+      "provider": "Det Kongelige Teater, Gamle Scene",
+      "url": "https://www.livenation.dk/event/c%C3%A6cilie-norby-k%C3%B8benhavn-k-tickets-edp1646068",
+      "availability": "I aften, 18. oktober 2026, kl. 20.00, København",
+      "commitment": "ca. 2 timer",
+      "note": "Koncert med numre fra hendes Blue Note-repertoire i aften - brud med gallerislots-standarddefault; jazz, ikke billedkunst.",
+      "topics": [
+        "musik",
+        "danmark"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 80,
+    "freshness": 85,
+    "novelty": 70,
+    "perspectiveBalance": 75,
+    "render": 100
+  }
+}

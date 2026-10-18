@@ -1,0 +1,27 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-18",
+  "generatedAt": "2026-10-18T04:20:45.180Z",
+  "pictures": [
+    {
+      "slot": "r01",
+      "id": "rec-musk-doc-01",
+      "headline": "Musk",
+      "source": "https://upload.wikimedia.org/wikipedia/en/c/c5/Musk_poster.jpg",
+      "article": "https://bleeckerstreetmedia.com/musk",
+      "hosted": "r01-16b6297d.jpg",
+      "srcSize": "260x384",
+      "srcFormat": "jpeg",
+      "srcBytes": 95862,
+      "out": "260x146",
+      "bytes": 7779,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-18T04:20:45.362Z"
+    }
+  ]
+}
