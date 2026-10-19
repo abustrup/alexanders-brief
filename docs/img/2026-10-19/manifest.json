@@ -1,0 +1,210 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-19",
+  "generatedAt": "2026-10-19T04:43:17.910Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-ukraine-drones-20261019",
+      "headline": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261018__D3M74UK__v1__HighRes__RussiaUkraineConflict-1792313964.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+      "hosted": "01-b3c23a77.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 187648,
+      "out": "1600x1200",
+      "bytes": 158306,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.864,
+        "y": 0.273
+      },
+      "fetchedAt": "2026-10-19T04:43:18.608Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-anthropic-pbf-20261019",
+      "headline": "Investing in the public benefit",
+      "source": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/13/25440684-a077-4f05-b97d-5b59548fe738/thumbnail/620x465g2/39a2f1b64f86efc80ad71d4ec659bc43/dario-amodei-1280.jpg",
+      "article": "https://www.anthropic.com/news/public-benefit-fund",
+      "hosted": "02-a9f2c7f9.jpg",
+      "srcSize": "620x465",
+      "srcFormat": "webp",
+      "srcBytes": 16864,
+      "out": "620x413",
+      "bytes": 20842,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.491,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-19T04:43:18.945Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-venezuela-machado-20261019",
+      "headline": "Venezuela opposition renews support for Maria Corina Machado as leader",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ad53d6be9-1792359787.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader",
+      "hosted": "04-d43b922a.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 145714,
+      "out": "1600x1067",
+      "bytes": 145228,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.314,
+        "y": 0.925
+      },
+      "fetchedAt": "2026-10-19T04:43:19.421Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-shipwreck-turkey-20261019",
+      "headline": "World's oldest shipwreck found off Turkey, archaeologists say: \"Time capsule at the bottom of the sea\"",
+      "source": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/14/8c5f8d10-6719-4f24-8e34-b4fd9b9804dd/thumbnail/1200x630/fa549691dc9effe640fe27eef16108c8/221686df-7472-4c06-a363-5c792a154053-1.jpg",
+      "article": "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/",
+      "hosted": "05-18b1c461.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 102960,
+      "out": "945x630",
+      "bytes": 78079,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.848,
+        "y": 0.429
+      },
+      "fetchedAt": "2026-10-19T04:43:19.804Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-china-gdp-20261019",
+      "headline": "China's economic growth accelerates to 4.5% in third quarter",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_avif,q_auto:best/rockcms/2026-10/261014-shanghai-rs-745f75.jpg",
+      "article": "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227",
+      "hosted": "06-6e4b5609.jpg",
+      "srcSize": "560x373",
+      "srcFormat": "heif",
+      "srcBytes": 88544,
+      "out": "559x373",
+      "bytes": 58167,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.83,
+        "y": 0.204
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-19T04:43:20.483Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-finanslov-2027-20261019",
+      "headline": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+      "source": "https://regeringen.dk/media/pk1hcwmo/ffl27.jpg?rxy=0.5218850079445726,0.47573985303775407&width=1200&height=630&v=1dd57e357021590",
+      "article": "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+      "hosted": "07-2d17c521.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 539817,
+      "out": "945x630",
+      "bytes": 63267,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-19T04:43:22.768Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-nvidia-hbm-20261019",
+      "headline": "Samsung to Tap TSMC for Nvidia's Custom HBM Base Die",
+      "source": "https://wimg.sedaily.com/news/cms/2026/10/18/news-p.v1.20261018.2495c1b8486c45c6824a49a2e6059581_P2.png",
+      "article": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+      "hosted": "09-fc98a96f.jpg",
+      "srcSize": "500x334",
+      "srcFormat": "png",
+      "srcBytes": 114878,
+      "out": "500x333",
+      "bytes": 7211,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.639,
+        "y": 0.939
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-19T04:43:24.530Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-sudan-darfur-20261019",
+      "headline": "Drone strike kills at least 10 civilians in West Darfur",
+      "source": "https://cdnapisec.kaltura.com/p/2503451/thumbnail/entry_id/1_vgw69rea/width/1280/height/720/type/1",
+      "article": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+      "hosted": "10-f9544fce.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 556548,
+      "out": "1080x720",
+      "bytes": 108522,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-19T04:43:25.070Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-drc-ebola-20261019",
+      "headline": "DR Congo Ebola Outbreak Spreads To Nord-Ubangi, Kenya Cases Reach Eight",
+      "source": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/XSL2LVTG4RFZPEI5KWGJJNPSZI.jpg?api_key=clickorlando_488cff2bcc157b2e",
+      "article": "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8",
+      "hosted": "11-785d5799.jpg",
+      "srcSize": "700x467",
+      "srcFormat": "jpeg",
+      "srcBytes": 100526,
+      "out": "700x467",
+      "bytes": 68846,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.721,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-19T04:43:25.593Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-david-silver-ineffable",
+      "headline": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "source": "https://i.ytimg.com/vi/L4SWQebqhek/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=L4SWQebqhek",
+      "hosted": "r01-cb02ea01.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 155889,
+      "out": "1280x720",
+      "bytes": 86637,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-19T04:43:25.834Z"
+    }
+  ]
+}

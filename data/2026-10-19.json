@@ -1,0 +1,1409 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-10-19-full-01",
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T04:20:00Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "Ukraine svarer på Trumps sanktionslempelse med over 1.000 droner, Anthropic øremærker en femtedel af aktierne til almennyttige formål, og et 4.700 år gammelt skibsvrag ved Tyrkiet er samtidigt med pyramiderne.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-ukraine-drones-20261019",
+      "eventKey": "ukraine-1000-drone-strike-petersburg-trump-2026-10",
+      "materialFacts": [
+        "Ukraine fløj over 1.000 droner mod Rusland natten til 19. oktober",
+        "Mindst én dræbt, fem såret i Sankt Petersborg; olieterminal og -depot brændte",
+        "Trump ophævede fredag planlagte sanktioner mod russisk energieksport",
+        "Zelensky: Rusland har brudt energi-våbenstilstanden 76 gange på en uge"
+      ],
+      "section": "Udland",
+      "headline": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+      "subheadline": "Trump ophæver sanktioner mod Rusland, Ukraine svarer med over 1.000 droner.",
+      "body": [
+        "Ukraine fløj over 1.000 droner mod Rusland natten til 19. oktober. Rusland siger, det skød 1.015 ned, men en olieterminal i Sankt Petersborg brændte, og mindst én blev dræbt. Det skete, efter Trump fredag ophævede planlagte sanktioner mod russisk energi."
+      ],
+      "whyItMatters": "Zelensky: Rusland har brudt energi-våbenstilstanden 76 gange på en uge – valget er fred versus pression.",
+      "analysis": "Washington vægter forhandling over straf for brudt våbenstilstand, mens Kyiv eskalerer for at presse krigsprisen.",
+      "counterpoint": "Trump: skarpe sanktioner nu ville skræmme Rusland fra forhandlingsbordet.",
+      "topics": [
+        "sikkerhedspolitik",
+        "usa",
+        "krig"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Volodymyr Zelensky",
+        "Donald Trump"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 85,
+        "personalRelevance": 55,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Ukraine fløj over 1.000 droner mod Rusland natten til 18.-19. oktober; Rusland hævder at have nedskudt 1.015",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+            "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mindst én dræbt og fem såret i Sankt Petersborg; en olieterminal og et oliedepot brændte",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Trump underskrev fredag en ordre, der ophæver planlagte sanktioner mod russisk energieksport",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Zelensky siger Rusland har brudt energi-våbenstilstanden 76 gange på en uge",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+          "publishedAt": "2026-10-19T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump says he's 'negotiating Peace' as Ukraine launches 1,000 drones at Russia amid continued back-and-forth strikes",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/ukraine-russia-drone-st-petersburg-oil-facilites/",
+          "publishedAt": "2026-10-19T00:45:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/01-b3c23a77.jpg",
+        "credit": "Foto: AFP / Al Jazeera",
+        "alt": "Ukraine launches over 1,000 drones at Russia, setting oil facilities ablaze",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/18/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites",
+        "origin": "article",
+        "fingerprint": "e539f0e4eff36a01edb9f4e4eff34b48acb8f6e66db3f94c3838d6e6ccb3b9cf3872d623cc7338ad78d3d269cc5b7b7c",
+        "lookedAt": "e539f0e4eff36a01edb9f4e4eff34b48acb8f6e66db3f94c3838d6e6ccb3b9cf3872d623cc7338ad78d3d269cc5b7b7c",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261018__D3M74UK__v1__HighRes__RussiaUkraineConflict-1792313964.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.864,
+          "y": 0.273
+        }
+      }
+    },
+    {
+      "id": "story-anthropic-pbf-20261019",
+      "eventKey": "anthropic-public-benefit-fund-5pct-2026-10",
+      "materialFacts": [
+        "Anthropic vil afsætte 5 pct. af aktierne til en ny Public Benefit Fund, under forbehold af aktionærgodkendelse",
+        "Yderligere 2 pct. kan tilføjes for hver 50 pct. stigning i selskabets værdi",
+        "Fonden er en selvstændig LLC, der ikke må bruges til lobbyarbejde eller politiske donationer",
+        "Samlet med stifternes 80 pct.-pant når den almennyttige andel op mod 20 pct."
+      ],
+      "section": "Teknologi",
+      "headline": "Investing in the public benefit",
+      "primarySourceUrl": "https://www.anthropic.com/news/public-benefit-fund",
+      "subheadline": "Anthropic øremærker op mod 20 pct. af aktierne til almennyttige formål før en børsnotering.",
+      "body": [
+        "Anthropic vil, under forbehold af aktionærgodkendelse, lægge 5 pct. af aktierne i en ny Public Benefit Fund – en selvstændig LLC, der ikke må bruges til lobbyarbejde. Bestyrelsen kan lægge 2 pct. mere til for hver 50 pct. værdistigning. Med stifternes 80 pct.-pant når andelen op mod 20 pct."
+      ],
+      "whyItMatters": "Strukturen lægger et lag mellem Anthropics ejere og fremtidigt overskud, før offentlige investorer kommer ind.",
+      "analysis": "Timingen, lige før en børsnotering, gør fonden til et signal om ansvarlighed, ikke kun en gave.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "entities": [
+        "Anthropic",
+        "Dario Amodei"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 65,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 85,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Anthropic vil afsætte 5 pct. af aktierne til en ny Public Benefit Fund, under forbehold af aktionærgodkendelse",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/public-benefit-fund"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Yderligere 2 pct. kan tilføjes efter bestyrelsens skøn for hver 50 pct. stigning i selskabets værdi over en baseline",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/public-benefit-fund"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Sammenlagt med stifternes 80 pct.-pant og medarbejdernes matchprogram vil omkring 20 pct. af aktierne være øremærket almennyttige formål",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/public-benefit-fund",
+            "https://www.business-standard.com/world-news/anthropic-commits-5-of-its-stock-to-a-new-public-benefit-fund-ahead-of-ipo-126101900032_1.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Investing in the public benefit",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/public-benefit-fund",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Anthropic commits 5% of its stock to a new 'public benefit' fund ahead of IPO",
+          "publisher": "Business Standard",
+          "url": "https://www.business-standard.com/world-news/anthropic-commits-5-of-its-stock-to-a-new-public-benefit-fund-ahead-of-ipo-126101900032_1.html",
+          "publishedAt": "2026-10-19T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-07/31/thumb/fitandfill/1200X628/1785486049-3662.JPG",
+          "fingerprint": "2010830d21078b472211830c21079b4fa221810c79071f8ba521011e78473d952460031e78c31b2fac40031ef8c38f4a",
+          "reason": "logo-or-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/02-a9f2c7f9.jpg",
+        "credit": "Kilde: CBS News",
+        "alt": "Anthropics topchef Dario Amodei",
+        "sourceUrl": "https://www.cbsnews.com/news/anthropic-ceo-dario-amodei-on-ai-risks/",
+        "fingerprint": "47970f979a588485c7130f93929844a493135f9393989426331b5b9313989446119b1b33331c9096999b1931313434b4",
+        "lookedAt": "47970f979a588485c7130f93929844a493135f9393989426331b5b9313989446119b1b33331c9096999b1931313434b4",
+        "originalUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/13/25440684-a077-4f05-b97d-5b59548fe738/thumbnail/620x465g2/39a2f1b64f86efc80ad71d4ec659bc43/dario-amodei-1280.jpg",
+        "focus": {
+          "x": 0.491,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-nscale-coreweave-20261019",
+      "eventKey": "nscale-microsoft-essex-withdrawal-2026-10",
+      "materialFacts": [
+        "Microsoft opsiger ankerlejer-aftalen i Nscales planlagte datacenter i Essex (23.000 Nvidia-chips)",
+        "UK Power Networks: strøm til stedet er først klar i 2030'erne",
+        "Microsoft og Anthropic stod for 85 pct. af Nscales kontraktbeholdning (103 mia. dollar) bag en børsnotering op til 35 mia. dollar",
+        "CoreWeaves 2032-obligationsrente steg til over 15 pct. fra ca. 9 pct.; CDS-spænd fordobledes fra 368 til 643 bp (6.-10. okt.)"
+      ],
+      "section": "Erhverv",
+      "headline": "Microsoft scraps UK data center deal with Nscale, putting IPO plans at risk",
+      "primarySourceUrl": "https://cryptobriefing.com/microsoft-scraps-nscale-uk-data-center-deal/",
+      "subheadline": "Microsoft trækker sig som ankerlejer i Essex, mens CoreWeaves rente når 15 pct.",
+      "body": [
+        "Microsoft har opsagt lejen af 23.000 Nvidia-chips i Nscales datacenter i Essex, da strøm først er klar i 2030erne. Microsoft og Anthropic stod for 85 pct. af kontrakterne bag en børsnotering op til 35 mia. dollar. Samme uge steg CoreWeaves obligationsrente til 15 pct. fra 9 pct."
+      ],
+      "whyItMatters": "To uafhængige hændelser samme uge peger på samme flaskehals: strøm og kundeomsætning, ikke kapital.",
+      "analysis": "Når obligationsejere priser risiko højere end aktiemarkedet, plejer det at komme først i en nedtur.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Microsoft",
+        "Nscale",
+        "Nvidia",
+        "CoreWeave"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 70,
+        "novelty": 65,
+        "sourceQuality": 70,
+        "personalRelevance": 80,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Microsoft har opsagt sin ankerlejer-aftale om 23.000 Nvidia GB300-chips i Nscales planlagte datacenter i Essex",
+          "sourceUrls": [
+            "https://cryptobriefing.com/microsoft-scraps-nscale-uk-data-center-deal/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "UK Power Networks har meddelt, at elnettet først har kapacitet til stedet i starten til midten af 2030'erne",
+          "sourceUrls": [
+            "https://cryptobriefing.com/microsoft-scraps-nscale-uk-data-center-deal/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Microsoft og Anthropic stod for ca. 85 pct. af Nscales kontraktbeholdning på 103 mia. dollar bag en børsnotering vurderet op til 35 mia. dollar",
+          "sourceUrls": [
+            "https://cryptobriefing.com/microsoft-scraps-nscale-uk-data-center-deal/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "CoreWeaves obligationsrente for 2032-noterne steg til over 15 pct. fra ca. 9 pct. i sommer, og CDS-spændet steg fra 368 til 643 basispoint 6.-10. oktober",
+          "sourceUrls": [
+            "https://startupfortune.com/coreweave-bond-yields-near-15-percent-as-stock-sinks-on-ai-debt-fears/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft scraps UK data center deal with Nscale, putting IPO plans at risk",
+          "publisher": "CryptoBriefing",
+          "url": "https://cryptobriefing.com/microsoft-scraps-nscale-uk-data-center-deal/",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "CoreWeave bond yields near 15 percent as stock sinks on AI debt fears",
+          "publisher": "Startup Fortune",
+          "url": "https://startupfortune.com/coreweave-bond-yields-near-15-percent-as-stock-sinks-on-ai-debt-fears/",
+          "publishedAt": "2026-10-15T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://static.cryptobriefing.com/wp-content/uploads/2023/08/17141908/diego-headshot.jpg",
+          "fingerprint": "73c9d9f9f879dc8ce1cdd8f9f87a989cc98cbcf8f878b89c8cbcbcfcf979f99c1e2e5ef8f8f9f9bc5a5a525adcbcf9f8",
+          "reason": "wrong-person"
+        },
+        {
+          "url": "https://runtimewire.com/api/storage/uploads/hero-images/nscale-loughton-datacentre-grid-power-delay-94fa21ab.png?w=1600&fmt=webp",
+          "fingerprint": "98a66f6c0c103038bc4e6d6c0c1030e83a4f4c4e4c0830e09bcfcc4d4c0c3030c3cccccdcd0c7032cf8e8e8e868648f8",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://static.cryptobriefing.com/wp-content/uploads/2026/10/18045324/library-microsoft-scraps-uk-data-center-deal-with-nscale-putting-800x450.png",
+          "fingerprint": null,
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://startupfortune.com/wp-content/uploads/2026/10/openai-nvidia-coreweave.jpg",
+          "fingerprint": null,
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-venezuela-machado-20261019",
+      "eventKey": "venezuela-opposition-machado-maduro-torture-2026-10",
+      "materialFacts": [
+        "Oppositionsalliancen PUD bekræftede 18. oktober sin støtte til Maria Corina Machado som leder",
+        "Alliancen fremlagde 14 krav til en demokratisk overgang, bl.a. frie valg og løsladelse af politiske fanger",
+        "Maduro og hustruen Cilia Flores erklærede sig ikke-skyldige i nye amerikanske tortur-anklager",
+        "Maduro og Flores har siddet fængslet i New York siden januar"
+      ],
+      "section": "Udland",
+      "headline": "Venezuela opposition renews support for Maria Corina Machado as leader",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader",
+      "subheadline": "Oppositionen bakker op om Machado, mens Maduro nægter sig skyldig i tortur.",
+      "body": [
+        "Oppositionsalliancen PUD bekræftede søndag sin støtte til Machado, i eksil siden hun modtog Nobels fredspris i december, og fremlagde 14 krav til en overgang. Maduro og hustruen Cilia Flores er samtidig tiltalt i USA for tortur."
+      ],
+      "whyItMatters": "Samlingen om én leder er den klareste test af et nyt valg, Machado sigter mod i 2027.",
+      "analysis": "At USA fører straffesag mod en fanget statsleder er sjældent og lægger pres på en forhandlet overgang.",
+      "counterpoint": "Maduro afviser anklagerne som falske og kalder sagen politisk motiveret.",
+      "topics": [
+        "udenrigspolitik",
+        "retssystem"
+      ],
+      "entities": [
+        "Maria Corina Machado",
+        "Nicolas Maduro",
+        "Venezuela",
+        "Delcy Rodriguez"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 35,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 15,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Oppositionsalliancen PUD mødtes søndag i Caracas og bekræftede sin støtte til Maria Corina Machado",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Alliancen fremlagde 14 krav til en demokratisk overgang, bl.a. frie valg og løsladelse af politiske fanger",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Maduro og Cilia Flores erklærede sig ikke-skyldige i nye amerikanske tiltaler for tortur og har siddet fængslet i New York siden januar",
+          "sourceUrls": [
+            "https://abcnews.com/US/venezuelas-nicolas-maduro-pleads-guilty-torture/story?id=137292473"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Venezuela opposition renews support for Maria Corina Machado as leader",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Venezuela's Nicolas Maduro pleads not guilty to torture",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/US/venezuelas-nicolas-maduro-pleads-guilty-torture/story?id=137292473",
+          "publishedAt": "2026-10-15T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/04-d43b922a.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Venezuela opposition renews support for Maria Corina Machado as leader",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/18/venezuela-opposition-renews-support-for-maria-corina-machado-as-leader",
+        "origin": "article",
+        "fingerprint": "2660c8db6c6431596260ca996e663089e0c992156ec67022c0cd92554ec6ec63c8859254cec7c7ec8c091296858f83ce",
+        "lookedAt": "2660c8db6c6431596260ca996e663089e0c992156ec67022c0cd92554ec6ec63c8859254cec7c7ec8c091296858f83ce",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ad53d6be9-1792359787.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.314,
+          "y": 0.925
+        }
+      }
+    },
+    {
+      "id": "story-shipwreck-turkey-20261019",
+      "eventKey": "oldest-shipwreck-turkey-bronze-age-2026-10",
+      "materialFacts": [
+        "Skibsvrag fundet nær Kekova-øen ved Antalya, 30 meter under havoverfladen, dateret 4.400-4.700 år",
+        "Over 30 keramiske lagringskrukker og tre stenankre fundet; krukker indeholder rester af olivenolie eller vin",
+        "Skibet, ca. 10 meter langt, antages at have fragtet gods vestpå mod Troja eller Kreta",
+        "Tidligere rekordholder var et vrag fundet ved den græske ø Dokos i 1975, ca. 4.200 år gammelt"
+      ],
+      "section": "Videnskab",
+      "headline": "World's oldest shipwreck found off Turkey, archaeologists say: \"Time capsule at the bottom of the sea\"",
+      "primarySourceUrl": "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/",
+      "subheadline": "Et 4.700 år gammelt skibsvrag ved Tyrkiet er samtidigt med pyramiderne i Giza.",
+      "body": [
+        "Arkæologer har fundet, hvad de kalder verdens ældste skibsvrag, 30 meter under havet ved Antalya. Skroget er forsvundet, men ladningen er bevaret: over 30 krukker og tre stenankre med rester af olivenolie eller vin. Skibet fragtede gods mod Troja eller Kreta. Rekorden var et vrag fra 1975."
+      ],
+      "whyItMatters": "Fundet flytter den ældste dokumenterede søhandel i Middelhavet tilbage i tid.",
+      "analysis": "At skroget er borte, men lasten intakt, er informationen: det er varerne, forskerne lærer mest af.",
+      "topics": [
+        "videnskab",
+        "historie"
+      ],
+      "entities": [
+        "Hakan Öniz",
+        "Karin Sowada",
+        "Tyrkiet",
+        "Akdeniz University"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 35,
+        "decisionValue": 10,
+        "novelty": 85,
+        "sourceQuality": 75,
+        "personalRelevance": 10,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Vraget, fundet 30 meter under havet nær Kekova-øen ved Antalya, dateres til 4.400-4.700 år gammelt",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/",
+            "https://www.thenationalnews.com/arts-culture/2026/10/14/worlds-oldest-known-shipwreck-lost-more-than-4000-years-ago-found-off-turkey/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mere end 30 keramiske krukker og tre stenankre fundet; rester tyder på olivenolie eller vin fra Jordandalen",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Den tidligere rekordholder var et vrag fundet ved den græske ø Dokos i 1975, ca. 4.200 år gammelt",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "World's oldest shipwreck found off Turkey, archaeologists say: \"Time capsule at the bottom of the sea\"",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/",
+          "publishedAt": "2026-10-14T17:44:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "'World's oldest known shipwreck' lost more than 4,000 years ago found off Turkey",
+          "publisher": "The National News",
+          "url": "https://www.thenationalnews.com/arts-culture/2026/10/14/worlds-oldest-known-shipwreck-lost-more-than-4000-years-ago-found-off-turkey/",
+          "publishedAt": "2026-10-14T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/05-18b1c461.jpg",
+        "credit": "Kilde: CBS News",
+        "alt": "World's oldest shipwreck found off Turkey, archaeologists say: \"Time capsule at the bottom of the sea\"",
+        "sourceUrl": "https://www.cbsnews.com/news/worlds-oldest-shipwreck-found-turkey-archaeologists/",
+        "origin": "article",
+        "fingerprint": "ffff3f31c18793b3ffff373581c793b3ffff77a581870bb3ffff762480078f33fff7772620474519fff3f34628424506",
+        "lookedAt": "ffff3f31c18793b3ffff373581c793b3ffff77a581870bb3ffff762480078f33fff7772620474519fff3f34628424506",
+        "originalUrl": "https://assets1.cbsnewsstatic.com/hub/i/r/2026/10/14/8c5f8d10-6719-4f24-8e34-b4fd9b9804dd/thumbnail/1200x630/fa549691dc9effe640fe27eef16108c8/221686df-7472-4c06-a363-5c792a154053-1.jpg",
+        "focus": {
+          "x": 0.848,
+          "y": 0.429
+        }
+      }
+    },
+    {
+      "id": "story-china-gdp-20261019",
+      "eventKey": "china-q3-gdp-4-5pct-ai-export-2026-10",
+      "materialFacts": [
+        "Kinas BNP voksede 4,5 pct. år-til-år i 3. kvartal, over forventet 4,4 pct., op fra 4,3 pct. i 2. kvartal",
+        "Industriproduktion i september +5,5 pct., detailomsætning +1,1 pct., begge over forventning",
+        "Fremgangen tilskrives eksport drevet af global AI-efterspørgsel; indenlandsk efterspørgsel forbliver svag",
+        "Ejendomsinvesteringer faldt 20,6 pct. år-til-år jan.-sept., en forværring fra 19,9 pct."
+      ],
+      "section": "Økonomi",
+      "headline": "China's economic growth accelerates to 4.5% in third quarter",
+      "primarySourceUrl": "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227",
+      "subheadline": "Eksport drevet af AI-boomet trækker Kinas vækst op, mens boligmarkedet forværres.",
+      "body": [
+        "Kinas BNP voksede 4,5 pct. år til år i tredje kvartal, over ventet 4,4 pct. Fremgangen tilskrives eksport drevet af global AI-efterspørgsel. Boligmarkedet forværres: ejendomsinvesteringerne faldt 20,6 pct. i de første ni måneder."
+      ],
+      "whyItMatters": "Kina holder årsmålet, men væksten bæres af eksport og stat.",
+      "analysis": "Når AI-drevet eksport maskerer et svagt boligmarked, flytter risikoen for en opbremsning sig blot et kvartal.",
+      "counterpoint": "En analytiker: væksten er eksport- og statsdrevet, hjemmemarkedet endnu ikke selvbærende.",
+      "topics": [
+        "økonomi",
+        "kina"
+      ],
+      "entities": [
+        "Kina",
+        "National Bureau of Statistics"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 40,
+        "sourceQuality": 70,
+        "personalRelevance": 25,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Kinas BNP voksede 4,5 pct. år-til-år i 3. kvartal 2026, over forventet 4,4 pct. og op fra 4,3 pct. i 2. kvartal",
+          "sourceUrls": [
+            "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227",
+            "https://money.usnews.com/investing/news/articles/2026-10-18/chinas-economic-growth-accelerates-to-4-5-in-third-quarter"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Industriproduktionen i september voksede 5,5 pct. år-til-år, detailomsætningen 1,1 pct.",
+          "sourceUrls": [
+            "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ejendomsinvesteringerne faldt 20,6 pct. år-til-år i de første ni måneder af 2026, en forværring fra 19,9 pct.",
+          "sourceUrls": [
+            "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "China's economic growth accelerates to 4.5% in third quarter",
+          "publisher": "Investing.com (Reuters)",
+          "url": "https://www.investing.com/news/economy-news/chinas-economic-growth-accelerates-to-45-in-third-quarter-4956227",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "China's Economic Growth Accelerates to 4.5% in Third Quarter",
+          "publisher": "U.S. News (Reuters)",
+          "url": "https://money.usnews.com/investing/news/articles/2026-10-18/chinas-economic-growth-accelerates-to-4-5-in-third-quarter",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/06-6e4b5609.jpg",
+        "credit": "Foto: Costfoto/NurPhoto via Getty",
+        "alt": "Lianyungang-havnen i Jiangsu-provinsen, Kina",
+        "sourceUrl": "https://www.nbcnews.com/world/asia/china-september-exports-soar-putting-1-trillion-trade-surplus-sight-rcna603410",
+        "fingerprint": "17293452ca6ce4d6372574d38acc6ce627647693c94d4ee665e4b2914d4dcece64e6b331cdcccedfc66333308c8e8e9b",
+        "lookedAt": "17293452ca6ce4d6372574d38acc6ce627647693c94d4ee665e4b2914d4dcece64e6b331cdcccedfc66333308c8e8e9b",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_avif,q_auto:best/rockcms/2026-10/261014-shanghai-rs-745f75.jpg",
+        "focus": {
+          "x": 0.83,
+          "y": 0.204
+        }
+      }
+    },
+    {
+      "id": "story-finanslov-2027-20261019",
+      "eventKey": "dansk-finanslovforslag-2027-2026-10",
+      "materialFacts": [
+        "Regeringen fremsatte 9. oktober forslag til finanslov for 2027",
+        "Forsvarsudgifter skal nå 3,5 pct. af BNP i 2030",
+        "Børnepasning får 1,2 mia. kr. i 2027; laveste pensionister får ca. 1.600 kr. mere om måneden før skat",
+        "Gratis transport til unge under 22 år: 800 mio. kr. i 2027, stigende til 1 mia. kr. årligt"
+      ],
+      "section": "Indland",
+      "headline": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+      "primarySourceUrl": "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+      "subheadline": "Regeringens forslag til finanslov for 2027 hæver pensionister, børnepasning og forsvar.",
+      "body": [
+        "Regeringen fremsatte 9. oktober sit forslag til finanslov for 2027. Forsvarsudgifterne skal nå 3,5 pct. af BNP i 2030. Børnepasning tilføres 1,2 mia. kr., mens de laveste pensionister får omkring 1.600 kr. mere om måneden før skat."
+      ],
+      "whyItMatters": "Forslaget er regeringens udspil, ikke vedtaget lov – tallene afhænger af forhandlingerne i Folketinget.",
+      "analysis": "Prioriteringen af pensionister og børnefamilier frem for skattelettelser er en omfordeling, der skal forhandles.",
+      "topics": [
+        "danmark",
+        "økonomi"
+      ],
+      "entities": [
+        "Peter Hummelgaard",
+        "Pia Olsen Dyhr",
+        "Jakob Engel-Schmidt",
+        "Martin Lidegaard"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 45,
+        "novelty": 50,
+        "sourceQuality": 85,
+        "personalRelevance": 50,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Regeringen fremsatte 9. oktober 2026 sit forslag til finanslov for 2027 med fokus på tryghed, velfærd og grøn omstilling",
+          "sourceUrls": [
+            "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Forsvarsudgifterne skal nå 3,5 pct. af BNP i 2030",
+          "sourceUrls": [
+            "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "De laveste pensionister får en månedlig stigning på ca. 1.600 kr. før skat (ca. 1.000 kr. efter skat)",
+          "sourceUrls": [
+            "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+          "publisher": "Regeringen.dk",
+          "url": "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+          "publishedAt": "2026-10-09T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Finanslovforslag med fokus på tryghed og sikkerhed, løft af velfærden og grøn omstilling",
+          "publisher": "Finansministeriet",
+          "url": "https://fm.dk/nyheder/nyhedsarkiv/2026/oktober/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+          "publishedAt": "2026-10-09T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/07-2d17c521.jpg",
+        "credit": "Kilde: Regeringen.dk",
+        "alt": "Regeringen præsenterer finanslovsforslaget for 2027 på et pressemøde i Finansministeriet.",
+        "sourceUrl": "https://regeringen.dk/aktuelt/nyheder/2026/finanslovforslag-med-fokus-paa-tryghed-og-sikkerhed-loeft-af-velfaerden-og-groen-omstilling/",
+        "origin": "article",
+        "fingerprint": "496d6d2eaab233b9696d656e2ba333394c44456e69253535c4d4474e4d252535d6d6c7dbc8656575969687dbcec66666",
+        "lookedAt": "496d6d2eaab233b9696d656e2ba333394c44456e69253535c4d4474e4d252535d6d6c7dbc8656575969687dbcec66666",
+        "originalUrl": "https://regeringen.dk/media/pk1hcwmo/ffl27.jpg?rxy=0.5218850079445726,0.47573985303775407&width=1200&height=630&v=1dd57e357021590",
+        "focus": {
+          "x": 0.563,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-worldid-banks-20261019",
+      "eventKey": "world-id-suite-banks-deepfake-2026-10",
+      "materialFacts": [
+        "World lancerede 18. oktober på Money20/20 en World ID-pakke til banker",
+        "Pakken samler World ID-app, World ID for Zoom (nu generelt tilgængelig) og World ID for Agents",
+        "OpenExchange, Bain Capital, VanEck og Outtake er designpartnere; ingen bank har annonceret brug",
+        "Over 18 mio. har et Proof of Human-bevis; Deloitte anslår AI-svindel i USA kan nå 40 mia. dollar i 2027"
+      ],
+      "section": "Teknologi",
+      "headline": "World launches World ID suite for banks, makes Zoom deepfake check generally available",
+      "primarySourceUrl": "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869",
+      "subheadline": "Sam Altmans identitetsprojekt skal lade banker skelne mennesker fra AI-agenter.",
+      "body": [
+        "World, medstiftet af Sam Altman, lancerede 18. oktober en pakke til banker: World ID-appen, World ID for Zoom – nu bredt tilgængelig – der bekræfter opkaldsdeltagere er mennesker, og World ID for Agents til AI-agenter. Ingen bank har annonceret brug endnu."
+      ],
+      "whyItMatters": "Deloitte anslår, AI-drevet svindel i USA kan nå 40 mia. dollar i 2027 – uden en etableret identitetsstandard.",
+      "analysis": "At ingen bank er navngivet som kunde viser, World sælger en løsning, finanssektoren ikke har prissat endnu.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "entities": [
+        "World",
+        "Sam Altman",
+        "Tools for Humanity",
+        "Zoom"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 60,
+        "personalRelevance": 70,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "World lancerede 18. oktober 2026 på Money20/20 en World ID-pakke rettet mod banker og finansielle institutioner",
+          "sourceUrls": [
+            "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Pakken samler World ID-appen, World ID for Zoom (generelt tilgængelig efter betatest siden april) og World ID for Agents",
+          "sourceUrls": [
+            "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Over 18 mio. mennesker har et Proof of Human-bevis; Deloitte anslår AI-drevet svindel i USA kan nå 40 mia. dollar i 2027",
+          "sourceUrls": [
+            "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "World launches World ID suite for banks, makes Zoom deepfake check generally available",
+          "publisher": "The Block",
+          "url": "https://www.theblock.co/news/ecosystems/2026-10-18-world-launches-world-id-suite-banks-418869",
+          "publishedAt": "2026-10-18T21:10:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2024/02/20240220_Wordlcoin_News.jpg",
+          "fingerprint": null,
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=1200,fit=cover,format=jpeg,quality=80/wp/uploads/2024/02/20240220_Wordlcoin_News.jpg",
+          "fingerprint": "8d8da63b3ba6cc348d96231b1b23962c8c966359596396ce8e2349151549338e1761dcb4b49c611f71ccb22222b2cc71",
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://startupfortune.com/wp-content/uploads/2026/10/world-id-alex-blania-tools-for-humanity-1024x576.jpg",
+          "fingerprint": "ff7fe7f3e3e32202ff1fe3f3eba3a323ff0fe3b3eba3a323ff0fe3b1e1e161613f83f131414541490fe1f0f0c0ccc0c8",
+          "reason": "subject-cut"
+        }
+      ]
+    },
+    {
+      "id": "story-nvidia-hbm-20261019",
+      "eventKey": "nvidia-nvhbm-tsmc-3nm-standardisering-2026-10",
+      "materialFacts": [
+        "Nvidia har bedt Samsung, SK Hynix og Micron standardisere NVHBM base die-produktion til TSMCs 3 nm-proces",
+        "Core die skal bruge sjette generations 1c DRAM-teknologi",
+        "Samsung vil for første gang bruge TSMC i selve HBM-fremstillingen, men beholder egen produktion til standard-HBM",
+        "Formålet er ensartet ydelse og mindre behov for separat validering af hver leverandørs chip"
+      ],
+      "section": "Teknologi",
+      "headline": "Samsung to Tap TSMC for Nvidia's Custom HBM Base Die",
+      "primarySourceUrl": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+      "subheadline": "Nvidia tvinger hukommelsesleverandører til samme TSMC-proces for ensartet ydelse.",
+      "body": [
+        "Nvidia har bedt Samsung, SK Hynix og Micron standardisere produktionen af HBM-hukommelsens base die til TSMCs 3 nm-proces. Samsung vil for første gang bruge TSMC i HBM-fremstillingen, men beholder egen produktion til standard-hukommelse."
+      ],
+      "whyItMatters": "At Nvidia dikterer en konkurrents produktionsproces viser, hvor meget magt chipdesigneren har.",
+      "analysis": "Samsungs accept, trods tabt kontrol over egen proces, viser hvor afgørende Nvidia-ordrer er for forretningen.",
+      "topics": [
+        "teknologisk-suverænitet",
+        "ai"
+      ],
+      "entities": [
+        "Nvidia",
+        "Samsung",
+        "SK Hynix",
+        "Micron",
+        "TSMC"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 65,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Nvidia har bedt Samsung, SK Hynix og Micron standardisere NVHBM base die-produktionen til TSMCs 3 nm-proces og bruge sjette generations 1c DRAM til core die",
+          "sourceUrls": [
+            "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+            "https://www.thestar.com.my/tech/tech-news/2026/10/18/samsung-to-use-tsmc-technology-for-nvidia039s-next-generation-memory-chips-seoul-newspaper-reports"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Det er første gang Samsung bruger TSMC i selve HBM-fremstillingstrinnet; Samsung beholder egen produktion til standard-HBM",
+          "sourceUrls": [
+            "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Samsung to Tap TSMC for Nvidia's Custom HBM Base Die",
+          "publisher": "Seoul Economic Daily",
+          "url": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+          "publishedAt": "2026-10-18T16:47:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Samsung to use TSMC technology for Nvidia's next-generation memory chips, Seoul newspaper reports",
+          "publisher": "The Star (Reuters)",
+          "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/samsung-to-use-tsmc-technology-for-nvidia039s-next-generation-memory-chips-seoul-newspaper-reports",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://apicms.thestar.com.my/uploads/images/2026/10/18/4168509.jpg",
+          "fingerprint": "8727354a2b27877887251a6a6b2f075a07642acb6a6a278b6eb02a8b8a4b420b462929ad2dc9cb47ab6d6dad6d48c9ad",
+          "reason": "logo-or-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/09-fc98a96f.jpg",
+        "credit": "Kilde: Seoul Economic Daily",
+        "alt": "En computerchip under inspektion",
+        "sourceUrl": "https://en.sedaily.com/finance/2026/10/18/samsung-to-use-tsmc-for-base-die-in-nvidias-custom-hbm",
+        "fingerprint": "792d3b0307170701782d3303131f0303684c7301131b0b036a0d7101131b0f031ec9e1011b191d050ce0300119190f1b",
+        "lookedAt": "792d3b0307170701782d3303131f0303684c7301131b0b036a0d7101131b0f031ec9e1011b191d050ce0300119190f1b",
+        "originalUrl": "https://wimg.sedaily.com/news/cms/2026/10/18/news-p.v1.20261018.2495c1b8486c45c6824a49a2e6059581_P2.png",
+        "focus": {
+          "x": 0.639,
+          "y": 0.939
+        }
+      }
+    },
+    {
+      "id": "story-sudan-darfur-20261019",
+      "eventKey": "sudan-rsf-drone-strikes-darfur-kordofan-2026-10",
+      "materialFacts": [
+        "Droneangreb nær Sanaqit, Vestdarfur, dræbte 17. oktober mindst 10 civile, sårede fem; RSF beskyldes",
+        "Ofre var internt fordrevne, bl.a. børn ned til tre år, der høstede afgrøder",
+        "Samme dag dræbte angreb nær Ankush, Vestkordofan, fire civile i en patientlastbil; Sudans hær beskyldes",
+        "FN's Sikkerhedsråd hørte 16. okt.: 20 mio. i akut hungersnød, 200.000 på katastrofeniveau"
+      ],
+      "section": "Udland",
+      "headline": "Drone strike kills at least 10 civilians in West Darfur",
+      "primarySourceUrl": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+      "subheadline": "RSF beskyldes for endnu et droneangreb på fordrevne civile, mens FN varsler hungersnød.",
+      "body": [
+        "Et droneangreb nær Sanaqit i Vestdarfur dræbte 17. oktober mindst 10 civile, blandt dem børn ned til tre år; RSF beskyldes. Samme dag dræbte et angreb fire civile i en lastbil med patienter i Vestkordofan; her beskyldes Sudans hær. FN hørte 16. oktober, 20 mio. er i akut hungersnød."
+      ],
+      "whyItMatters": "Sudans krig har ikke været omtalt i denne brief de seneste 30 dage, selv om FN taler om hungersnød.",
+      "analysis": "Når begge krigsparter beskyldes for at angribe civile samme dag, er det en krig uden fronter at skjule sig bag.",
+      "topics": [
+        "krig",
+        "menneskerettigheder"
+      ],
+      "entities": [
+        "RSF",
+        "Sudans hær",
+        "Darfur",
+        "Kordofan"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 20,
+        "novelty": 70,
+        "sourceQuality": 65,
+        "personalRelevance": 5,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Et droneangreb nær Sanaqit/Bir Siliba i Sirba-distriktet, Vestdarfur, dræbte 17. oktober mindst 10 civile og sårede fem; RSF beskyldes",
+          "sourceUrls": [
+            "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+            "https://allafrica.com/stories/202610190015.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Samme dag dræbte et angreb nær Ankush i Vestkordofan fire civile i en lastbil med patienter; Sudans hær beskyldes",
+          "sourceUrls": [
+            "https://allafrica.com/stories/202610190015.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "FN's Sikkerhedsråd behandlede 16. oktober Sudans krig: 20 mio. i akut hungersnød, 200.000 på katastrofeniveau",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/10/1168612"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Drone strike kills at least 10 civilians in West Darfur",
+          "publisher": "Radio Tamazuj",
+          "url": "https://www.radiotamazuj.org/en/news/article/drone-strike-kills-at-least-10-civilians-in-west-darfur",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Sudan: Drone Strikes Kill Civilians in Darfur and Kordofan As Attacks Target Eastern Sudan",
+          "publisher": "allAfrica",
+          "url": "https://allafrica.com/stories/202610190015.html",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Security Council LIVE: Sudan's war spreads as drones and hunger take a deadly toll",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/10/1168612",
+          "publishedAt": "2026-10-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/10-f9544fce.jpg",
+        "credit": "Kilde: UN News",
+        "alt": "FNs Sikkerhedsråd under mødet 16. oktober om Sudans krig",
+        "sourceUrl": "https://news.un.org/en/story/2026/10/1168612",
+        "origin": "source",
+        "fingerprint": "3772722fc7de938336f2f32fc7d7b39733b3b50d8ad3b9b373b5a5050b833db1516564064b0b973c76767687490933b4",
+        "lookedAt": "3772722fc7de938336f2f32fc7d7b39733b3b50d8ad3b9b373b5a5050b833db1516564064b0b973c76767687490933b4",
+        "originalUrl": "https://cdnapisec.kaltura.com/p/2503451/thumbnail/entry_id/1_vgw69rea/width/1280/height/720/type/1",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-drc-ebola-20261019",
+      "eventKey": "drc-ebola-8th-province-kenya-spread-2026-10",
+      "materialFacts": [
+        "DR Congo havde pr. 16. oktober 9.415 bekræftede ebola-tilfælde og 4.536 døde (dødelighed 48,2 pct.)",
+        "67 nye tilfælde og 26 dødsfald i det seneste døgn, 44 i epicenteret Ituri",
+        "Smitten har spredt sig til en ottende provins, Nord-Ubangi, mod Den Centralafrikanske Republik",
+        "Kenya har nu otte bekræftede tilfælde"
+      ],
+      "section": "Videnskab",
+      "headline": "DR Congo Ebola Outbreak Spreads To Nord-Ubangi, Kenya Cases Reach Eight",
+      "primarySourceUrl": "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8",
+      "subheadline": "Udbruddet har nået en ottende provins, og dødeligheden ligger på 48 pct.",
+      "body": [
+        "DR Congo havde pr. 16. oktober 9.415 bekræftede ebola-tilfælde og 4.536 døde siden maj – en dødelighed på 48,2 pct. 67 nye tilfælde kom til det seneste døgn. Smitten har nu spredt sig til en ottende provins, og Kenya har otte bekræftede tilfælde."
+      ],
+      "whyItMatters": "Spredningen til en ny provins og et nyt land viser, udbruddet ikke er under kontrol seks måneder efter start.",
+      "analysis": "En dødelighed på 48 pct. er blandt de højeste i et ebolaudbrud og sætter en grænse for smitteopsporing.",
+      "topics": [
+        "videnskab",
+        "sundhed"
+      ],
+      "entities": [
+        "DR Congo",
+        "Kenya",
+        "WHO"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 15,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 5,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "DR Congo havde pr. 16. oktober 2026 9.415 bekræftede ebola-tilfælde og 4.536 døde siden udbruddet startede i maj, en dødelighed på 48,2 pct.",
+          "sourceUrls": [
+            "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8",
+            "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udbruddet har spredt sig til en ottende provins, Nord-Ubangi, der grænser til Den Centralafrikanske Republik",
+          "sourceUrls": [
+            "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Kenyas sundhedsministerium bekræftede søndag endnu et tilfælde, så landets samlede antal nu er otte",
+          "sourceUrls": [
+            "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "DR Congo Ebola Outbreak Spreads To Nord-Ubangi, Kenya Cases Reach Eight",
+          "publisher": "Newscord",
+          "url": "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8",
+          "publishedAt": "2026-10-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+          "publisher": "World Health Organization",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON619",
+          "publishedAt": "2026-10-17T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/11-785d5799.jpg",
+        "credit": "Kilde: Newscord",
+        "alt": "DR Congo Ebola Outbreak Spreads To Nord-Ubangi, Kenya Cases Reach Eight",
+        "sourceUrl": "https://newscord.org/article/dr-congo-ebola-outbreak-spreads-to-nord-ubangi-kenya-cases-reach-eight--Story_20261018_DRCongosfastmovingEba03a92c8",
+        "origin": "article",
+        "fingerprint": "f3a5c5c687656d0b73a586c6a6a44d49a72447464626c44d2406868647268684248787878726a687a6a3070707876707",
+        "lookedAt": "f3a5c5c687656d0b73a586c6a6a44d49a72447464626c44d2406868647268684248787878726a687a6a3070707876707",
+        "originalUrl": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/XSL2LVTG4RFZPEI5KWGJJNPSZI.jpg?api_key=clickorlando_488cff2bcc157b2e",
+        "focus": {
+          "x": 0.721,
+          "y": 0
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Introducing Timestral",
+      "headline": "Introducing Timestral",
+      "url": "https://mistral.ai/news/timestral",
+      "publisher": "Mistral AI",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "summary": "Mistrals første familie af tidsserie-modeller (5M-209M parametre) til probabilistiske prognoser, effektive på CPU.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "'Inference is becoming the defining AI workload': Intel GPU D-series launched with the world's largest 480GB capacity and air-cooled 350W design",
+      "headline": "'Inference is becoming the defining AI workload': Intel GPU D-series launched with the world's largest 480GB capacity and air-cooled 350W design",
+      "url": "https://www.techradar.com/pro/behold-intel-plans-a-480gb-gpu-a-video-card-with-more-memory-than-the-average-laptop-ssd-has-storage-but-of-course-its-for-ai-and-curiously-it-will-use-lppdr5x-not-even-gddr7",
+      "publisher": "TechRadar Pro",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-18T00:00:00Z",
+      "summary": "Intels nye D-serie-GPU rummer op til 480GB LPDDR5X-hukommelse og 1,3 petaflops ved 350W, målrettet AI-inferens.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ]
+    },
+    {
+      "text": "Exclusive: Stand raises $70 million at $1 billion valuation to price wildfire risk by treating homes like airplanes in flight",
+      "headline": "Exclusive: Stand raises $70 million at $1 billion valuation to price wildfire risk by treating homes like airplanes in flight",
+      "url": "https://fortune.com/2026/10/15/stand-insurance-wildfire-unicorn-raises-70-million-1-billion-valuation/",
+      "publisher": "Fortune",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "summary": "Forsikringsstartuppen Stand rejser 70 mio. dollar og bygger digitale tvillinger af huse for at prissætte brandrisiko.",
+      "topics": [
+        "erhverv",
+        "ai"
+      ]
+    },
+    {
+      "text": "Nearly All Volume on FIFA-Linked Prediction Market Is Circular Trading",
+      "headline": "Nearly All Volume on FIFA-Linked Prediction Market Is Circular Trading",
+      "url": "https://www.wsj.com/finance/nearly-all-volume-on-fifa-linked-prediction-market-is-circular-trading-549393f3",
+      "publisher": "The Wall Street Journal",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-17T00:00:00Z",
+      "summary": "WSJ: 795 konti finansieret af ADI Predictstreets egen gebyrtegnebog stod for 99 pct. af handlen på det FIFA-partnerede prognosemarked.",
+      "topics": [
+        "erhverv"
+      ]
+    },
+    {
+      "text": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+      "headline": "Anthropic consults law firms to set fair negotiation norms before AI agents start cutting deals",
+      "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+      "publisher": "The Decoder",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-18T00:00:00Z",
+      "summary": "Anthropic henter advokater til at formulere forhandlingsnormer for AI-agenter, der skal købslå på brugeres vegne.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "Bringing GPT-Rosalind to academic research labs",
+      "headline": "Bringing GPT-Rosalind to academic research labs",
+      "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "publisher": "OpenAI",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "summary": "OpenAI udvider akademisk adgang til sin forskningsmodel Rosalind.",
+      "topics": [
+        "ai",
+        "videnskab"
+      ]
+    },
+    {
+      "text": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "headline": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "url": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "publisher": "OpenAI",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-16T00:00:00Z",
+      "summary": "Stack Overflow melder tredoblet tilmelding efter integration med en ChatGPT-plugin for AI-agenter.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "African Startups Raise $2.49B in 9 Months as Q3 Rebounds",
+      "headline": "African Startups Raise $2.49B in 9 Months as Q3 Rebounds",
+      "url": "https://techcabal.com/2026/10/15/african-startups-raise-2-49b-in-9-months/",
+      "publisher": "TechCabal",
+      "section": "Erhverv",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "summary": "Afrikanske startups har rejst 2,49 mia. dollar i årets første ni måneder; Nigeria og Kenya topper listen.",
+      "topics": [
+        "erhverv"
+      ]
+    },
+    {
+      "text": "Touchscreen MacBook Pro Could Launch on November 6",
+      "headline": "Touchscreen MacBook Pro Could Launch on November 6",
+      "url": "https://www.macrumors.com/2026/10/15/touchscreen-macbook-pro-november-6/",
+      "publisher": "MacRumors",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-15T00:00:00Z",
+      "summary": "Apples butiksreset natten til 6. november peger på en lancering af en touchscreen-MacBook Pro samme dag.",
+      "topics": [
+        "teknologi"
+      ]
+    },
+    {
+      "text": "Thousands of Novo Nordisk insulin pens stolen from Dutch wholesaler",
+      "headline": "Thousands of Novo Nordisk insulin pens stolen from Dutch wholesaler",
+      "url": "https://nltimes.nl/2026/10/17/thousands-novo-nordisk-insulin-pens-stolen-dutch-wholesaler",
+      "publisher": "NL Times",
+      "section": "Sundhed",
+      "publishedAt": "2026-10-17T00:00:00Z",
+      "summary": "Tusinder af Novo Nordisk-insulinpenne stjålet fra en hollandsk grossist; politiet undersøger risikoen for ulovligt videresalg.",
+      "topics": [
+        "sundhed"
+      ]
+    },
+    {
+      "text": "RIKEN Demonstrates High-Fidelity Simultaneous Control of Silicon Spin Qubits Above 99.9% Threshold",
+      "headline": "RIKEN Demonstrates High-Fidelity Simultaneous Control of Silicon Spin Qubits Above 99.9% Threshold",
+      "url": "https://quantumcomputingreport.com/riken-demonstrates-high-fidelity-simultaneous-control-of-silicon-spin-qubits-above-99-9-threshold/",
+      "publisher": "Quantum Computing Report",
+      "section": "Videnskab",
+      "publishedAt": "2026-10-17T00:00:00Z",
+      "summary": "RIKEN og samarbejdspartnere når over 99,9 pct. fidelitet ved samtidig styring af fem silicium-spin-qubits.",
+      "topics": [
+        "videnskab",
+        "teknologisk-suverænitet"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "benchmarkets-maal",
+    "title": "Benchmarkets mål",
+    "thesis": "Et AI-benchmark, der bliver et finansieringsmål, holder op med at måle den evne, det skulle vise.",
+    "horizon": "Inden for 12 måneder",
+    "body": [
+      "Goodharts lov: når et mål bliver målet selv, optimeres tallet, ikke evnen bagved."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis forskellen mellem den bedste model og menneskelig baseline på et navngivet, endnu uopfyldt frontier-benchmark lukker lige hurtigt som på et helt nyt benchmark i samme periode — det ville vise generel fremgang, ikke benchmark-specifik optimering.",
+    "topics": [
+      "ai",
+      "videnskabsfilosofi"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-david-silver-ineffable",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Podcast-interview",
+      "status": "new",
+      "title": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "creator": "David Silver, Lasse Espeholt (interviewet af Sequoia Capital)",
+      "provider": "Sequoia Capital (Training Data)",
+      "url": "https://www.youtube.com/watch?v=L4SWQebqhek",
+      "availability": "Frit tilgængelig på YouTube og podcastplatforme.",
+      "commitment": "Langt interview",
+      "description": "AlphaGo-skaberen David Silver og medstifter Lasse Espeholt fra Ineffable Intelligence forklarer deres plan om en 'superlearner', der opnår viden alene ved at interagere med sine omgivelser, uden forhåndstrænede data.",
+      "rationale": "Silver fjernede menneskedata helt i AlphaGo Zero, og den overgik AlphaGo på under to døgn; nu kører han samme væddemål på superintelligens og sætter selv en frist: stærke tegn inden et år, superintelligens inden tre. Det er en konkret, daterbar påstand om verdens retning, ikke en generel AI-opdatering, og den kommer fra Sequoia, det første sted profilens egen research peger på at søge.",
+      "topics": [
+        "ai",
+        "deeptech"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-19/r01-cb02ea01.jpg",
+        "credit": "Sequoia Capital (Training Data)",
+        "alt": "Videominiature fra samtalen mellem David Silver og Lasse Espeholt på Sequoias Training Data",
+        "sourceUrl": "https://www.youtube.com/watch?v=L4SWQebqhek",
+        "originalUrl": "https://i.ytimg.com/vi/L4SWQebqhek/maxresdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-naza-documentary",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Dokumentarfilm",
+      "status": "new",
+      "title": "NAZA",
+      "creator": "Yuval Abraham, Rachel Szor",
+      "provider": "Dogwoof",
+      "url": "https://en.wikipedia.org/wiki/NAZA_(film)",
+      "availability": "I biografer i Storbritannien og Irland fra 16. oktober 2026 via Dogwoof.",
+      "commitment": "77 min.",
+      "note": "Dokumentar om AI-målsøgningssystemet 'Lavender' i Gaza-krigen, bygget på tre års anonyme interviews med israelske officerer – en kritisk modvægt til laboratorie-optimismen i resten af listen.",
+      "topics": [
+        "ai",
+        "etik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nber-financing-ai-buildout",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Working paper",
+      "status": "new",
+      "title": "Financing the AI Buildout",
+      "creator": "Stijn Van Nieuwerburgh",
+      "provider": "NBER",
+      "url": "https://www.nber.org/papers/w35865",
+      "availability": "Frit resumé, fuld PDF kræver NBER-adgang.",
+      "commitment": "Working paper",
+      "note": "Et 188 GW databygge-program til 2032 kræver op mod 9.000 mia. dollar; papiret kortlægger de lån, leasingkonstruktioner og specialvehikler, der nu finansierer det, og hvor risikoen gemmer sig.",
+      "topics": [
+        "ai",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sep-epistemology-ai",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Encyklopædiopslag",
+      "status": "new",
+      "title": "Epistemology of Artificial Intelligence",
+      "creator": "Claus Beisbart",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/epistemology-ai/",
+      "availability": "Frit tilgængelig.",
+      "commitment": "Lang artikel",
+      "note": "Nyt opslag (16. okt.) om, hvornår man kan være berettiget til at tro på en AI-models output – analytisk filosofi, en tradition uden for den vanlige læseliste.",
+      "topics": [
+        "filosofi",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-epoch-cyber-eci",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Datainsigt",
+      "status": "new",
+      "title": "Open-weight models trail closed models in cyber capabilities by 6–7 months",
+      "creator": "Jaeho Lee, Alexander Barry",
+      "provider": "Epoch AI",
+      "url": "https://epoch.ai/data-insights",
+      "availability": "Frit tilgængelig.",
+      "commitment": "5 min.",
+      "note": "Et tal at følge: Z.ai's GLM-5.3 er det bedste åbne model på Epochs Cyber-benchmark, men scorer, hvor den lukkede front stod for et halvt år siden.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-interconnects-meta-frontiers",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "Meta shakes up the frontiers, open and closed",
+      "creator": "Nathan Lambert",
+      "provider": "Interconnects",
+      "url": "https://www.interconnects.ai/p/meta-shakes-up-the-frontiers-open-and-closed",
+      "availability": "Frit tilgængelig.",
+      "commitment": "10 min.",
+      "note": "Praktikerens læsning af, hvad Metas seneste modelstrategi faktisk ændrer for både åbne og lukkede modeller.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sequoia-vahdat-orbital",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "Training Data: Amin Vahdat on orbital data centers and why FLOPS is a vanity metric",
+      "creator": "Amin Vahdat",
+      "provider": "Sequoia Capital (Training Data)",
+      "url": "https://sequoiacap.com/podcasts",
+      "availability": "Frit tilgængelig.",
+      "commitment": "~50 min.",
+      "note": "Googles AI-infrastrukturchef om datacentre i kredsløb og compute i 100.000-accelerator-skala.",
+      "topics": [
+        "ai",
+        "deeptech"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chinatalk-drone-dominance",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "Inside America's Fight for Drone Dominance",
+      "creator": "Jordan Schneider, med Travis Metz (DIU)",
+      "provider": "ChinaTalk",
+      "url": "https://www.youtube.com/watch?v=GxyrrdErQRk",
+      "availability": "Frit tilgængelig.",
+      "commitment": "~60 min.",
+      "note": "DIU's fungerende direktør om, hvorfor det amerikanske droneindustri er bred, men ikke dyb, og afhængig af kinesiske komponenter.",
+      "topics": [
+        "forsvar",
+        "sikkerhedspolitik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-photography-now",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "Udstilling",
+      "status": "available",
+      "title": "Photography Now!",
+      "creator": "Galleri Image, Galleri Nicolai Wallner, Martin Asbæk Gallery, Oblong, V1 Gallery",
+      "provider": "Det Kgl. Bibliotek (Den Sorte Diamant)",
+      "url": "https://galleriimage.dk/nyheder/photography-now-galleri-image-udstiller-i-den-sorte-diamant/",
+      "availability": "Den Sorte Diamant, København, 10. sept. 2026 – 27. jan. 2027.",
+      "commitment": "~1 time",
+      "note": "Fem danske udstillingssteder samlet om, hvad samtidsfotografi er i dag – fra traditionelt billede til installation og video.",
+      "topics": [
+        "kultur"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 95,
+    "outsideProfileShare": 36,
+    "render": 100
+  }
+}
