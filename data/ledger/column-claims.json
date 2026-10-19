@@ -235,11 +235,11 @@
       "status": "open"
     },
     {
-      "date": "2026-10-18",
-      "slug": "kellys-sejr",
-      "claim": "Kelly-kriteriet, ikke forventet nytteteori, beskriver optimal vækst, fordi afkast multiplicerer over tid.",
-      "horizon": "Næste store sammenligning af Kelly- og MPT-strategier",
-      "falsifier": "En stor kvantitativ sammenligning af fuld-Kelly- og MPT-baserede fondsafkast over en fuld markedscyklus viser, at MPT leverer højere geometrisk vækst end fraktioneret Kelly-positionering.",
+      "date": "2026-10-19",
+      "slug": "benchmarkets-maal",
+      "claim": "Et navngivet, endnu uopfyldt frontier-AI-benchmark lukker gabet til menneskelig baseline HURTIGERE end et helt nyt, ubrugt benchmark gør i samme periode — fordi det kendte benchmark er blevet et optimeringsmål i sig selv.",
+      "horizon": "Inden for 12 måneder (ca. 2027-10-19)",
+      "falsifier": "Jeg tager fejl, hvis det kendte benchmark lukker LIGE SÅ HURTIGT (eller langsommere) end et nyt, ubrugt benchmark i samme periode — det ville vise generel fremgang, ikke benchmark-specifik gaming.",
       "status": "open"
     }
   ]
