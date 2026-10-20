@@ -1,0 +1,108 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-20",
+  "generatedAt": "2026-10-20T04:57:20.927Z",
+  "pictures": [
+    {
+      "slot": "07",
+      "id": "story-finland-mines",
+      "headline": "Finland seeking one million land mines as it eyes Russian threat",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ad64f0972-1792429833.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/19/finland-seeking-one-million-land-mines-as-it-eyes-russian-threat",
+      "hosted": "07-ef1794e3.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 2251812,
+      "out": "1600x1067",
+      "bytes": 86361,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-20T04:57:21.542Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-trump-sanctions-hold",
+      "headline": "US ties with Ukraine hit new low as Trump slights Zelenskyy and eases up on Russia",
+      "source": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/AC2JSUFYPNG6XMIY2EGTLVB4UU.jpg?api_key=wsls_8c3a4bc35af7684e",
+      "article": "https://www.wsls.com/news/politics/2026/10/19/us-ties-with-ukraine-hit-new-low-as-trump-slights-zelenskyy-and-eases-up-on-russia/",
+      "hosted": "08-46d23157.jpg",
+      "srcSize": "700x467",
+      "srcFormat": "jpeg",
+      "srcBytes": 57195,
+      "out": "700x467",
+      "bytes": 45111,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-20T04:57:22.006Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-alzheimers-fn1",
+      "headline": "Newly Found Genetic Variant Defends Against Alzheimer's Disease",
+      "source": "https://www.cuimc.columbia.edu/sites/default/files/styles/cola_media_1280_16_9/public/media/images/teaser/2023-07/v2-fda-approval-alzheimers-treatment-lecanemab-teaser.jpg?itok=R-s3opRn",
+      "article": "https://www.cuimc.columbia.edu/news/newly-found-genetic-variant-defends-against-alzheimers-disease",
+      "hosted": "09-24d55c02.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 82739,
+      "out": "1080x720",
+      "bytes": 72650,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.875,
+        "y": 0.046
+      },
+      "fetchedAt": "2026-10-20T04:57:22.281Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-cfdp-manosfaeren",
+      "headline": "Unge mænds feed flyder over med kvindefjendsk indhold: De eksponeres næsten dagligt",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/chjphjw3/20260927-040025-4-1920x1280web.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/unge-maends-feed-flyder-over-med-kvindefjendsk-indhold-de-eksponeres-naesten-dagligt",
+      "hosted": "12-422e5234.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 20105,
+      "out": "1012x675",
+      "bytes": 22552,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0.275
+      },
+      "fetchedAt": "2026-10-20T04:57:22.608Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-fotografisk-center-30",
+      "headline": "30th Anniversary: A Centre for Photography",
+      "source": "https://fotografiskcenter.dk/sites/default/files/styles/full_m/public/2026-08/1-Marianne-Engberg_Sea-Shells_%231422.png?itok=NZUPbzEW",
+      "article": "https://www.fotografiskcenter.dk/en",
+      "hosted": "r01-1b06b20c.jpg",
+      "srcSize": "856x842",
+      "srcFormat": "png",
+      "srcBytes": 505095,
+      "out": "856x482",
+      "bytes": 12830,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-20T04:57:23.765Z"
+    }
+  ]
+}
