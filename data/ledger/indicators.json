@@ -548,26 +548,6 @@
           "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
         }
       ]
-    },
-    {
-      "indicator": "anthropic-quarterly-revenue",
-      "label": "Anthropics kvartalsomsætning",
-      "unit": "mia. dollar",
-      "readings": [
-        {
-          "value": "4,8",
-          "asOf": "1. kvartal 2026"
-        },
-        {
-          "value": "11,5",
-          "asOf": "2. kvartal 2026"
-        },
-        {
-          "value": "16,8",
-          "asOf": "3. kvartal 2026",
-          "sourceUrl": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html"
-        }
-      ]
     }
   ]
 }
