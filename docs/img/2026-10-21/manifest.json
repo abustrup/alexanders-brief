@@ -1,0 +1,147 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-21",
+  "generatedAt": "2026-10-21T04:34:09.165Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "anthropic-s1-financials-20261021",
+      "headline": "Anthropic Could Spend $750 Billion on Computing Costs, WSJ Says",
+      "source": "https://static01.nyt.com/images/2026/10/13/multimedia/ANTHROPIC-INVESTORS-HFO-zgtc/ANTHROPIC-INVESTORS-HFO-zgtc-facebookJumbo.jpg",
+      "article": "https://www.bloomberg.com/news/articles/2026-10-20/anthropic-could-spend-750-billion-on-computing-costs-wsj-says",
+      "hosted": "01-5b06c20a.jpg",
+      "srcSize": "1050x550",
+      "srcFormat": "webp",
+      "srcBytes": 27848,
+      "out": "733x550",
+      "bytes": 25359,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.817,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-21T04:34:09.559Z"
+    },
+    {
+      "slot": "02",
+      "id": "mydefence-espionage-20261021",
+      "headline": "To ukrainere sigtet i spionsag mod nordjysk forsvarsvirksomhed",
+      "source": "https://mydefence.com/wp-content/uploads/2024/11/MyDefence_1654-scaled.jpg",
+      "article": "https://www.limfjordupdate.dk/to-ukrainere-sigtet-i-spionsag-mod-nordjysk-forsvarsvirksomhed/",
+      "hosted": "02-1bef8e44.jpg",
+      "srcSize": "2560x1708",
+      "srcFormat": "jpeg",
+      "srcBytes": 428152,
+      "out": "1600x1067",
+      "bytes": 154949,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.686,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-21T04:34:10.086Z"
+    },
+    {
+      "slot": "03",
+      "id": "musk-starlink-ukraine-20261021",
+      "headline": "Musk ordered slowdown of Starlink in Ukraine, WSJ reports",
+      "source": "https://thehill.com/wp-content/uploads/sites/2/2026/10/AP26272731431004-e1791408507806.jpg?w=1280",
+      "article": "https://www.investing.com/news/stock-market-news/musk-ordered-slowdown-of-starlink-in-ukraine-wsj-reports-4961491",
+      "hosted": "03-70887171.jpg",
+      "srcSize": "1280x719",
+      "srcFormat": "webp",
+      "srcBytes": 91534,
+      "out": "1078x719",
+      "bytes": 93432,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.884,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-21T04:34:10.597Z"
+    },
+    {
+      "slot": "06",
+      "id": "spacex-tesla-merger-20261021",
+      "headline": "Musk Says SpaceX, Tesla Have Formed Committees to Explore Merger",
+      "source": "https://image.cnbcfm.com/api/v1/image/108321429-1781294762866-SpaceXs_IPO_Raises_75_Billion_In_Biggest_Debut_Of_-2280589225-Getty.jpg?v=1781294803&w=1920&h=1080",
+      "article": "https://www.bloomberg.com/news/articles/2026-10-20/musk-says-spacex-tesla-have-formed-committees-to-explore-merger",
+      "hosted": "06-b6b297ff.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 166504,
+      "out": "1600x1067",
+      "bytes": 156872,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.848,
+        "y": 0.85
+      },
+      "fetchedAt": "2026-10-21T04:34:11.012Z"
+    },
+    {
+      "slot": "07",
+      "id": "mandate-buying-bill-20261021",
+      "headline": "Efter Løkkes kælder-tilbud til Fonseca: Nyt lovforslag skal stoppe køb af mandater",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/gcwnbg5f/llrogfonseca_3.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/politik/efter-loekkes-kaelder-tilbud-til-fonseca-nyt-lovforslag-skal-stoppe-koeb-af-mandater",
+      "hosted": "07-4aacec16.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 99643,
+      "out": "1012x675",
+      "bytes": 81856,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.83,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-21T04:34:11.468Z"
+    },
+    {
+      "slot": "10",
+      "id": "alberta-referendum-20261021",
+      "headline": "Alberta votes by large majority to remain part of Canada in boost for Carney",
+      "source": "https://image.cnbcfm.com/api/v1/image/108436313-1792485711809-gettyimages-2300447967-Ron-Palmer-1459836.jpeg?v=1792489251&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/10/20/alberta-canada-vote-remain.html",
+      "hosted": "10-d441fdc0.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 523144,
+      "out": "1600x1067",
+      "bytes": 415362,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.343,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-21T04:34:12.007Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-cwt-ahamed-20261021",
+      "headline": "Liaquat Ahamed on Financial Crises, Gold, and the Lessons of 1873 (Ep. 293)",
+      "source": "https://conversationswithtyler.com/wp-content/uploads/2026/09/CWT-294-LiaquatAhamed-header-2000x874.png",
+      "article": "https://conversationswithtyler.com/episodes/liaquat-ahamed/",
+      "hosted": "r01-67360e0a.jpg",
+      "srcSize": "2000x874",
+      "srcFormat": "webp",
+      "srcBytes": 533062,
+      "out": "1553x874",
+      "bytes": 119810,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-21T04:34:12.271Z"
+    }
+  ]
+}
