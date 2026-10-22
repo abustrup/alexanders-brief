@@ -1,0 +1,187 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-22",
+  "generatedAt": "2026-10-22T04:36:20.062Z",
+  "pictures": [
+    {
+      "slot": "02",
+      "id": "story-ukraine-talks-2026-10-22",
+      "headline": "Putin and Zelenskyy back three-way US peace talks on Ukraine",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/AFP__20261021__D3XR3G4__v2__HighRes__RussiaUsUkraineDiplomacyConflict-1792595907.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/21/witkoff-in-russia-for-putin-meeting-after-positive-talks-with-zelenskyy",
+      "hosted": "02-a5ae8525.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 2654232,
+      "out": "1600x1067",
+      "bytes": 131479,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.936
+      },
+      "fetchedAt": "2026-10-22T04:36:20.630Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-quantinuum-2026-10-22",
+      "headline": "Quantinuum Breaks Error-Correction World Record by 10x, Validating its Leading Path to Fault-Tolerant Quantum Computing by 2029",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2fz1i3.img",
+      "article": "https://www.quantinuum.com/press-releases/quantinuum-breaks-error-correction-world-record-by-10x-validating-its-leading-path-to-fault-tolerant-quantum-computing-by-2029",
+      "hosted": "03-c1eae8eb.jpg",
+      "srcSize": "1280x854",
+      "srcFormat": "jpeg",
+      "srcBytes": 198545,
+      "out": "1280x853",
+      "bytes": 120877,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.179,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-22T04:36:20.881Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-claude-duet-2026-10-22",
+      "headline": "Anthropic takes on ChatGPT Dots and Meta Muse with Claude Duet",
+      "source": "https://image.cnbcfm.com/api/v1/image/108338734-1784745509530-gettyimages-2280291449-ANTHROPIC_CIRCUIT.jpeg?v=1787672726&w=1920&h=1080",
+      "article": "https://9to5mac.com/2026/10/21/anthropic-takes-on-chatgpt-dots-and-meta-muse-with-claude-duet/",
+      "hosted": "04-217745ec.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 113114,
+      "out": "1600x1067",
+      "bytes": 92924,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-22T04:36:21.191Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-meta-q3-2026-10-22",
+      "headline": "Meta Reports Third Quarter 2026 Results",
+      "source": "https://image.cnbcfm.com/api/v1/image/108367421-1790256222248-gettyimages-2296215846-META_CONNECT.jpeg?v=1790802260&w=1920&h=1080",
+      "article": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "hosted": "05-a7e59e43.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 135547,
+      "out": "1600x1067",
+      "bytes": 112502,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-22T04:36:21.473Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-eu-arctic-2026-10-22",
+      "headline": "EU revises Arctic strategy as pressure from Russia, US grows",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ad7a7dd430d-1792518109.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/20/eu-revises-arctic-strategy-as-pressure-from-russia-us-grows",
+      "hosted": "06-06dd6dad.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 142868,
+      "out": "1600x1067",
+      "bytes": 123650,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-22T04:36:21.785Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-pet-sabotage-2026-10-22",
+      "headline": "Paraplyorganisation om spionsag: 'Vi må ikke lade os intimidere'",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/pfdp2ald/20261020-170051-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://dr.dk/nyheder/indland/paraplyorganisation-om-spionsag-vi-maa-ikke-lade-os-intimidere",
+      "hosted": "08-7e9bc931.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 22115,
+      "out": "1012x675",
+      "bytes": 41235,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-22T04:36:22.035Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-unep-2026-10-22",
+      "headline": "New UNEP report lays out emission cuts needed for return to 1.5°C",
+      "source": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/fabersam-photovoltaic-4525177_1280.jpg.jpeg?h=c673cd1c&itok=GE4oBMqO",
+      "article": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
+      "hosted": "11-48b392a0.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 186698,
+      "out": "945x630",
+      "bytes": 140329,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.839,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-22T04:36:23.015Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-sap-q3-2026-10-22",
+      "headline": "SAP Quarterly Statement Q3 2026",
+      "source": "https://cassette.sphdigital.com.sg/image/straitstimes/b823f459c01b3742fa0f6ca9ad640af52bebcd072d136445e2a32a760abe0aac?w=1200",
+      "article": "https://www.prnewswire.com/news-releases/sap-quarterly-statement-q3-2026-302915956.html",
+      "hosted": "12-e636e055.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 88340,
+      "out": "945x630",
+      "bytes": 53345,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.666,
+        "y": 0.725
+      },
+      "fetchedAt": "2026-10-22T04:36:23.204Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-artificial-2026-10-22",
+      "headline": "Artificial",
+      "source": "https://upload.wikimedia.org/wikipedia/en/3/39/Artificial_poster.jpg",
+      "article": "https://www.youtube.com/watch?v=Tk8LiaAyCls",
+      "hosted": "r01-2091fceb.jpg",
+      "srcSize": "260x385",
+      "srcFormat": "jpeg",
+      "srcBytes": 66817,
+      "out": "260x146",
+      "bytes": 12116,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-22T04:36:23.368Z"
+    }
+  ]
+}
