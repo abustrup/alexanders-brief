@@ -1,0 +1,26 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-23",
+  "generatedAt": "2026-10-23T04:33:27.607Z",
+  "pictures": [
+    {
+      "slot": "r01",
+      "id": "rec-2026-10-23-you-can-see-everything",
+      "headline": "You Can See Everything",
+      "source": "https://api-asset-production.s3.amazonaws.com/media/images/ycse_100726_final.jpg",
+      "article": "https://a24films.com/films/you-can-see-everything",
+      "hosted": "r01-a79016f1.jpg",
+      "srcSize": "2025x3000",
+      "srcFormat": "jpeg",
+      "srcBytes": 2420408,
+      "out": "1600x900",
+      "bytes": 215855,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-23T04:33:28.461Z"
+    }
+  ]
+}
