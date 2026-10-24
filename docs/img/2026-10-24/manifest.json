@@ -1,0 +1,168 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-24",
+  "generatedAt": "2026-10-24T09:48:42.319Z",
+  "pictures": [
+    {
+      "slot": "02",
+      "id": "story-openai-noinet",
+      "headline": "OpenAI says it's cutting off internet access for frontier model training",
+      "source": "https://image.cnbcfm.com/api/v1/image/108369650-17907047662026-09-29t175655z_1984658352_rc25tna4oh81_rtrmadp_0_ai-openai.jpeg?v=1792537167&w=1920&h=1080",
+      "article": "https://www.engadget.com/2296019/openai-says-its-cutting-off-internet-access-for-frontier-model-training/",
+      "hosted": "02-cf40204e.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 109336,
+      "out": "1600x1067",
+      "bytes": 97148,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.279,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-24T09:48:42.719Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-uk-aibl",
+      "headline": "Introducing the AI Biosecurity Lab",
+      "source": "https://assets.publishing.service.gov.uk/media/5a37da9d40f0b649cfaf7b27/s960_cabinet-office.jpg",
+      "article": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+      "hosted": "04-658ed920.jpg",
+      "srcSize": "960x640",
+      "srcFormat": "jpeg",
+      "srcBytes": 129427,
+      "out": "960x640",
+      "bytes": 60138,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-24T09:48:43.474Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-dk-missiles",
+      "headline": "Dansk forsvar styrkes med to nye typer langtrækkende missiler",
+      "source": "https://akamai-aptoma-production.bmcdn.dk/users/berlingske/images/165045436.webp?t[strip]=true&t[resize][width]=1440&t[quality]=70&accessToken=eb98d89b2887d0ad65d3548f66facf364e0a9bb991a9b3230e9b938a5d2fc473",
+      "article": "https://www.fmn.dk/da/nyheder/2026/dansk-forsvar-styrkes-med-to-nye-typer-langtrakkende-missiler/",
+      "hosted": "06-8cdc8e1f.jpg",
+      "srcSize": "1440x871",
+      "srcFormat": "webp",
+      "srcBytes": 33284,
+      "out": "1306x871",
+      "bytes": 38554,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.116,
+        "y": 0.375
+      },
+      "fetchedAt": "2026-10-24T09:48:43.748Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-google-privacy",
+      "headline": "Google makes a privacy policy exception to use your Gmail and Photos data for ads",
+      "source": "https://www.androidauthority.com/wp-content/uploads/2025/03/google-apps-folder-pixel-9-pro-scaled.jpeg",
+      "article": "https://www.androidauthority.com/google-personal-intelligence-privacy-3727111/",
+      "hosted": "09-34277be0.jpg",
+      "srcSize": "2560x1440",
+      "srcFormat": "jpeg",
+      "srcBytes": 384911,
+      "out": "1600x1067",
+      "bytes": 105390,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-24T09:48:44.073Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-iran-cables",
+      "headline": "Iran Has Detailed Plans to Hit Gulf Undersea Cables if War Resumes, Officials Say",
+      "source": "https://www.algemeiner.com/wp-content/uploads/2026/10/2026-10-23T165851Z_1_LYNXMPEM9M1LQ_RTROPTP_4_IRAN-CRISIS-CABLES-PLAN-1.jpg",
+      "article": "https://www.algemeiner.com/2026/10/23/iran-detailed-plans-hit-gulf-undersea-cables-war-resumes-officials-say/",
+      "hosted": "10-a9981e53.jpg",
+      "srcSize": "720x400",
+      "srcFormat": "jpeg",
+      "srcBytes": 72378,
+      "out": "600x400",
+      "bytes": 15826,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.561,
+        "y": 0.854
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-24T09:48:44.309Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-greenland-church",
+      "headline": "\"A sensation\": Archeologists reveal Norse church in Greenland",
+      "source": "https://www.medievalists.net/wp-content/uploads/2026/09/medieval26092410-scaled.jpg",
+      "article": "https://thevikingherald.com/article/a-sensation-archeologists-reveal-norse-church-in-greenland/1436",
+      "hosted": "11-4db82ffc.jpg",
+      "srcSize": "2560x1891",
+      "srcFormat": "jpeg",
+      "srcBytes": 1109141,
+      "out": "1600x1067",
+      "bytes": 330790,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.711,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-24T09:48:44.786Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-ebola",
+      "headline": "WHO warns 'more complex' Ebola outbreak now present in 3 African countries",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ada5e584810-1792695896.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/amp/news/2026/10/22/who-warns-more-complex-ebola-outbreak-now-present-in-3-african-countries",
+      "hosted": "12-c66fe4ed.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 171446,
+      "out": "1600x1067",
+      "bytes": 154460,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.7,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-24T09:48:45.222Z"
+    },
+    {
+      "slot": "r02",
+      "id": "rec-scaling-era",
+      "headline": "The Scaling Era: An Oral History of AI, 2019–2025",
+      "source": "https://images.stripeassets.com/fzn2n1nzq965/37hf9sWSuPV9LtZZT3l9Po/2fdd0efed4857452c6c9c605196f16db/TSE_zine_2x.png?q=80",
+      "article": "https://books.apple.com/us/book/the-scaling-era/id6743567797",
+      "hosted": "r02-703a0a5d.jpg",
+      "srcSize": "862x1294",
+      "srcFormat": "png",
+      "srcBytes": 124744,
+      "out": "862x485",
+      "bytes": 49782,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-24T09:48:45.513Z"
+    }
+  ]
+}
