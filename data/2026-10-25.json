@@ -1,0 +1,1143 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "alexandersbrief-20261025-0640",
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T05:40:00.000Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "AI's matematikbevis under lup, Apollo ser ingen ROI uden for tech, og Israel går til valg om to dage",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-quasi-riemann-01",
+      "eventKey": "quasi-riemann-ai-proof-review-2026-10",
+      "materialFacts": [
+        "OpenAI offentliggjorde 722 AI-genererede matematikmanuskripter 6. oktober 2026",
+        "Et af dem hævder at bevise kvasi-Riemann-hypotesen",
+        "Quanta Magazine rapporterede 19. oktober, at navngivne talteoretikere gennemgår beviset og i stigende grad tror det holder",
+        "Ingen af de to bevisversioner er fagfællebedømt endnu"
+      ],
+      "section": "AI og matematik",
+      "headline": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "primarySourceUrl": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "subheadline": "Matematikere gennemgår stadig OpenAIs påstand om et gennembrud",
+      "body": [
+        "OpenAI offentliggjorde 6. oktober 722 AI-genererede matematikmanuskripter, blandt dem et bevis for 'kvasi-Riemann-hypotesen'. Quanta Magazine skrev 19. oktober, at matematikere som Sarnak nu gennemgår beviset og tror, det holder."
+      ],
+      "whyItMatters": "Hvis beviset holder, er det første gang en model selvstændigt har løst et problem af denne skala.",
+      "analysis": "Entusiasmen er reel, men det er en gennemgang i gang, ikke en konklusion.",
+      "counterpoint": "Ingen version er fagfællebedømt, og matematikere advarer om, at AI-manuskripter belaster kvalitetskontrollen.",
+      "topics": [
+        "ai",
+        "matematik",
+        "videnskab"
+      ],
+      "entities": [
+        "OpenAI",
+        "Peter Sarnak",
+        "Maksym Radziwiłł",
+        "Alexander Dunn"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 80,
+        "novelty": 88,
+        "sourceQuality": 85,
+        "personalRelevance": 82,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "OpenAI offentliggjorde 722 AI-genererede matematikmanuskripter 6. oktober 2026, heriblandt et bevis for kvasi-Riemann-hypotesen",
+          "sourceUrls": [
+            "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Talteoretikere Peter Sarnak, Maksym Radziwiłł og Alexander Dunn gennemgår beviset og tror i stigende grad, det holder, men det er ikke fagfællebedømt",
+          "sourceUrls": [
+            "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+          "publisher": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ]
+    },
+    {
+      "id": "story-apollo-ai-roi-02",
+      "eventKey": "apollo-ai-roi-outside-tech-2026-10",
+      "materialFacts": [
+        "Apollo's Daily Spark (24. oktober) finder ingen produktivitetsgevinst fra AI uden for techsektoren",
+        "Omsætning per medarbejder stiger for Mag 7, men er flad for resten af S&P 500",
+        "Apollo citerer Ramp-data: AI-udgifter er koncentreret hos VC-finansierede firmaer, ikke almindelige selskaber"
+      ],
+      "section": "AI og kapital",
+      "headline": "No Signs of AI Payoff Outside the Tech Sector",
+      "primarySourceUrl": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "subheadline": "Apollos egen analyse finder stigende margin hos Mag 7, fladt hos alle andre",
+      "body": [
+        "Apollos Daily Spark (24. oktober) finder intet målbart afkast af AI uden for techselskaberne. Omsætning og margin stiger for 'Mag 7', men er flade for resten af S&P 500. AI-brugen sidder hos venturefirmaer, siger Apollo."
+      ],
+      "whyItMatters": "Afkastet sidder hos dem, der sælger teknologien, ikke hos dem, der bruger den.",
+      "analysis": "Pointen er ikke, at AI er overvurderet, men at effekten tager længere tid end antaget.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Apollo Global Management",
+        "S&P 500"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 85,
+        "novelty": 75,
+        "sourceQuality": 82,
+        "personalRelevance": 88,
+        "contrast": 90
+      },
+      "claims": [
+        {
+          "text": "Omsætning per medarbejder og profitmargin stiger for Mag 7, men er flade for resten af S&P 500",
+          "sourceUrls": [
+            "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ramp-data viser, at AI-udgifter er stærkt koncentreret hos venturefinansierede firmaer",
+          "sourceUrls": [
+            "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "No Signs of AI Payoff Outside the Tech Sector",
+          "publisher": "Apollo Global Management",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+          "publishedAt": "2026-10-24T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
+          "fingerprint": "0306048c8427a1c003020c8c802561c003020c452525256003020cc42224256003060c82aa242564030c0c0a4b252764",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story-replit-shift-03",
+      "eventKey": "replit-openai-anthropic-spend-shift-2026-10",
+      "materialFacts": [
+        "The Information rapporterede 24. oktober, at Replit har flyttet det meste AI-forbrug fra Anthropic til OpenAI",
+        "OpenAI gav over 30% rabat i en aftale værd over 100 mio. dollar om året",
+        "Anthropic afviste at forlænge Replits tidligere rabat uden et højere forbrugstilsagn"
+      ],
+      "section": "AI og erhverv",
+      "headline": "Replit is no longer working with Anthropic, CEO says",
+      "primarySourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "subheadline": "AI-leverandørvalg flytter i stigende grad på pris, ikke kun kvalitet",
+      "body": [
+        "Replit har flyttet det meste af sit AI-forbrug fra Anthropic til OpenAI efter en rabat på 30%+ værd over 100 mio. dollar årligt, skrev The Information 24. oktober. Anthropic afviste at forlænge rabatten; OpenAI er nu standard i Replit Agent."
+      ],
+      "whyItMatters": "Det er et datapunkt i priskonkurrencen, der afgør, hvem der vinder enterprise-kunder.",
+      "analysis": "Et selskab med dyr IPO-vurdering tåler ikke at tabe kunder på pris; det er et signal om marginpres hos Anthropic.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Replit",
+        "OpenAI",
+        "Anthropic",
+        "Amjad Masad"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 82,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 85,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Replit flyttede det meste AI-forbrug fra Anthropic til OpenAI efter en rabataftale værd over 100 mio. dollar årligt",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Anthropic har stadig syv Claude-modeller tilgængelige i Replits katalog",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Replit is no longer working with Anthropic, CEO says",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+          "publishedAt": "2026-10-17T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/03-d37b58e2.jpg",
+        "credit": "Kilde: TechCrunch",
+        "alt": "Replits topchef Amjad Masad i interviewstol til TechCrunch Disrupt",
+        "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+        "origin": "article",
+        "fingerprint": "4c3233b868e8e8e08c32b13c6ceacae93a33b0346cc9dec97b31b07464cddecd71b1b076e4cc9d9fb0b0baf6e5ac8e9f",
+        "lookedAt": "4c3233b868e8e8e08c32b13c6ceacae93a33b0346cc9dec97b31b07464cddecd71b1b076e4cc9d9fb0b0baf6e5ac8e9f",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+        "focus": {
+          "x": 0.613,
+          "y": 0.057
+        }
+      }
+    },
+    {
+      "id": "story-tenstorrent-se-04",
+      "eventKey": "tenstorrent-series-e-2026-10",
+      "materialFacts": [
+        "Tenstorrent lukkede en Series E på 1,5 mia. dollar 19. oktober ved en værdi på 6,2 mia. dollar",
+        "Det er mere end dobbelt værdien fra 2024-runden",
+        "Runden ledes af Trace Capital og Innovation X"
+      ],
+      "section": "AI-chips og kapital",
+      "headline": "Tenstorrent Announces a $1.5B Series E at a $6.2B Valuation",
+      "primarySourceUrl": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+      "subheadline": "Nvidia-alternativet rejser kapital til egne AI-servere og chip-licenser",
+      "body": [
+        "Tenstorrent lukkede 19. oktober en Series E på 1,5 mia. dollar ved en værdi på 6,2 mia. dollar, mere end dobbelt 2024-runden, ledt af Trace Capital. Pengene skal skalere egne servere og chip-IP'en, selskabet licenserer ud, efter det afviste opkøbssnak med Intel."
+      ],
+      "whyItMatters": "Kapitalmarkedet finansierer fortsat Nvidia-alternativer, selv efter Apollos tal om svag AI-ROI.",
+      "analysis": "En fordobling på to år er en vædning på, at AI-compute vokser hurtigere end markedet kan mættes.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "venture"
+      ],
+      "entities": [
+        "Tenstorrent",
+        "Trace Capital",
+        "Innovation X"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 75,
+        "novelty": 68,
+        "sourceQuality": 85,
+        "personalRelevance": 80,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Tenstorrent lukkede en Series E på 1,5 mia. dollar ved en værdi på 6,2 mia. dollar den 19. oktober",
+          "sourceUrls": [
+            "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tenstorrent Announces a $1.5B Series E at a $6.2B Valuation",
+          "publisher": "Tenstorrent",
+          "url": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+          "publishedAt": "2026-10-19T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/04-8bd57a4f.jpg",
+        "credit": "Kilde: Tenstorrent",
+        "alt": "Tenstorrents Galaxy-serverhardware med selskabets logo",
+        "sourceUrl": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+        "origin": "article",
+        "fingerprint": "b50f43471f9b63e7b84f43c70f9b11e71e4bc3c78f9b99e70f8382868f1b1a618f818786061d3d30000503060e3d3d3d",
+        "lookedAt": "b50f43471f9b63e7b84f43c70f9b11e71e4bc3c78f9b99e70f8382868f1b1a618f818786061d3d30000503060e3d3d3d",
+        "originalUrl": "https://cdn.sanity.io/images/jpb4ed5r/production/28e4c07c8accd02347954b425a41f599c7f3a087-2600x1857.jpg",
+        "focus": {
+          "x": 0.675,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-canada-vc-plan-05",
+      "eventKey": "canada-venture-capital-plan-2026-10",
+      "materialFacts": [
+        "Canada annoncerede 22. oktober en venturekapitalplan på 1,75 mia. CAD",
+        "Planen består af en fond-af-fonde på 1 mia. CAD og en tidlig/vækst-strategi på 750 mio. CAD",
+        "Regeringen forventer, at planen udløser mindst 3,8 mia. CAD i privat kapital"
+      ],
+      "section": "Venture og politik",
+      "headline": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
+      "primarySourceUrl": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
+      "subheadline": "Canada vil holde på hurtigt voksende startups med statslig fondskapital",
+      "body": [
+        "Canada satte 22. oktober gang i en plan om 1,75 mia. CAD til venturekapital: en fond-af-fonde på 1 mia. CAD og en tidlig- og vækststrategi på 750 mio. CAD. Regeringen venter, pakken udløser mindst 3,8 mia. CAD i privat kapital."
+      ],
+      "whyItMatters": "Det løser samme problem som EIFO i Europa: lav risikovillig kapital finder ikke selv vej til tidlige faser.",
+      "analysis": "Om pengene virker, afhænger af, hvor hurtigt strukturen når forvaltere, der matcher med privat kapital.",
+      "topics": [
+        "erhverv",
+        "venture"
+      ],
+      "entities": [
+        "Canada",
+        "Mélanie Joly"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 72,
+        "novelty": 62,
+        "sourceQuality": 78,
+        "personalRelevance": 75,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Canada annoncerede en venturekapitalplan på 1,75 mia. CAD den 22. oktober, delt i to programmer",
+          "sourceUrls": [
+            "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
+          "publisher": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/05-8bc514c5.jpg",
+        "credit": "Kilde: The Globe and Mail",
+        "alt": "Industriminister Mélanie Joly taler ved en talerstol",
+        "sourceUrl": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
+        "origin": "article",
+        "fingerprint": "9c304900c83930123c68c900c838301234e58c04e8ac78106cdc0404e40cfc70ca0c0404e48c7efc1e020202b6ee5e5e",
+        "lookedAt": "9c304900c83930123c68c900c838301234e58c04e8ac78106cdc0404e40cfc70ca0c0404e48c7efc1e020202b6ee5e5e",
+        "originalUrl": "https://www.theglobeandmail.com/resizer/v2/G54OHWOU7NF7PJDL5JDATVZBAY.jpg?auth=c6ccb1da134cb468db8886968cf4202e54192b271e4ad5b82c81bc09e68ed112&width=1200&height=800&quality=80&smart=true",
+        "focus": {
+          "x": 0.9,
+          "y": 0.15
+        }
+      }
+    },
+    {
+      "id": "story-unep-emissions-06",
+      "eventKey": "unep-emissions-gap-report-2026-10",
+      "materialFacts": [
+        "UNEP's Emissions Gap Report 2026 (21. oktober) siger, at 1,5 grader nu sandsynligvis overskrides",
+        "Selv det laveste 'overshoot'-scenarie giver topopvarmning på 1,7-1,8 grader",
+        "Fulde nationale klimaplaner (NDC'er) ville kun reducere udslip 5-8% til 2030, mod de nødvendige 18%"
+      ],
+      "section": "Klima",
+      "headline": "New UNEP report lays out emission cuts needed for return to 1.5°C",
+      "primarySourceUrl": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
+      "subheadline": "UNEP sætter nu 1,5 grader som et mål, verden må vende tilbage til",
+      "body": [
+        "UNEP skrev 21. oktober i sin Emissions Gap Report, at selv det mest optimistiske scenarie giver topopvarmning på 1,7-1,8 grader, før temperaturen eventuelt bringes under 1,5 grader senere. Fuld implementering af klimaløfter ville kun reducere udslip 5-8% til 2030, mod nødvendige 18%."
+      ],
+      "whyItMatters": "UNEP regner nu 1,5 grader som et mål at vende tilbage til, ikke en grænse, verden kan holde.",
+      "analysis": "Afstanden mellem løfter og det, der kræves, er ikke mindre i år.",
+      "primaryExcerpt": {
+        "quote": "peak warming by around the middle of the century is limited to 1.7-1.8°C",
+        "sourceUrl": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
+        "sourceTitle": "New UNEP report lays out emission cuts needed for return to 1.5°C"
+      },
+      "topics": [
+        "klima",
+        "videnskab"
+      ],
+      "entities": [
+        "UNEP"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 55,
+        "novelty": 58,
+        "sourceQuality": 92,
+        "personalRelevance": 30,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "UNEP's Emissions Gap Report 2026 sætter topopvarmning til 1,7-1,8 grader selv på den laveste overskridelsesbane",
+          "sourceUrls": [
+            "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Fulde nationale klimaplaner reducerer kun udslip 5-8% til 2030 mod de nødvendige 18%",
+          "sourceUrls": [
+            "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "New UNEP report lays out emission cuts needed for return to 1.5°C",
+          "publisher": "UNEP",
+          "url": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/06-48b392a0.jpg",
+        "credit": "Kilde: UNEP",
+        "alt": "Luftfoto af solcelleanlæg på mark",
+        "sourceUrl": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
+        "origin": "article",
+        "fingerprint": "690900071d3a470fc90400071f79e70ecc0400071f3ce106040240070f3cf106020080072e3ffca301900007669f7ecc",
+        "lookedAt": "690900071d3a470fc90400071f79e70ecc0400071f3ce106040240070f3cf106020080072e3ffca301900007669f7ecc",
+        "originalUrl": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/fabersam-photovoltaic-4525177_1280.jpg.jpeg?h=c673cd1c&itok=eY4tm5Nw",
+        "focus": {
+          "x": 0.839,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-lseg-octus-07",
+      "eventKey": "lseg-octus-acquisition-2026-10",
+      "materialFacts": [
+        "LSEG køber kreditdataselskabet Octus for 3,535 mia. dollar kontant",
+        "Sælger er Permira og Octus' ledelse",
+        "Det private kreditmarked anslås nu til 3,5 billioner dollar"
+      ],
+      "section": "Finans",
+      "headline": "LSEG to acquire Octus, creating market leader across public and private credit solutions",
+      "primarySourceUrl": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+      "subheadline": "Børsgiganten kaster sig over privat kreditdata",
+      "body": [
+        "LSEG meddelte 22. oktober, at selskabet køber kreditdatafirmaet Octus for 3,535 mia. dollar fra Permira – største opkøb siden Refinitiv i 2019. Octus leverer kreditdata til hedgefonde, hvor LSEG historisk har stået svagt. Det private kreditmarked er nu ca. 3,5 billioner dollar."
+      ],
+      "whyItMatters": "Datainfrastrukturselskaber konsoliderer sig om privat kredit, et segment der ikke er prissat som aktiemarkeder.",
+      "analysis": "For LSEG er handlen en vædning på, at illikvid kreditdata bliver lige så værdifuld som offentlige markedsdata.",
+      "topics": [
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "LSEG",
+        "Octus",
+        "Permira"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 68,
+        "novelty": 58,
+        "sourceQuality": 88,
+        "personalRelevance": 50,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "LSEG køber Octus for 3,535 mia. dollar kontant fra Permira og Octus' ledelse",
+          "sourceUrls": [
+            "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "LSEG to acquire Octus, creating market leader across public and private credit solutions",
+          "publisher": "LSEG",
+          "url": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ]
+    },
+    {
+      "id": "story-php-foundation-08",
+      "eventKey": "php-foundation-underfunded-2026-10",
+      "materialFacts": [
+        "PHP Foundation har én fuldtidsmedarbejder og 14 primært deltidskontraktorer på et budget omkring 974.000 dollar om året",
+        "To kritiske PHP-sårbarheder blev fundet og patchet i ugen op til 24. oktober",
+        "OpenAI, Wiz og Calif hjalp med at koordinere rettelsen"
+      ],
+      "section": "Softwareinfrastruktur",
+      "headline": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+      "primarySourceUrl": "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says",
+      "subheadline": "Sproget bag op mod 70% af nettet holdes oppe af en håndfuld deltidsfolk",
+      "body": [
+        "PHP Foundations direktør Elizabeth Barron sagde til Reuters (24. oktober), fonden kører på 'én fuldtidsmedarbejder og 14 deltidskontraktorer' på et budget omkring 974.000 dollar årligt – efter to sårbarheder blev patchet samme uge med hjælp fra OpenAI."
+      ],
+      "whyItMatters": "Sproget bag nettet holdes oppe af for få folk.",
+      "analysis": "AI hjælper med at finde fejl og belaster samtidig open source med flere forslag.",
+      "counterpoint": "Stigningen i kodeforslag kommer nok delvist fra AI-assisteret udvikling – samme værktøj øger altså også belastningen.",
+      "topics": [
+        "teknologi",
+        "sikkerhed"
+      ],
+      "entities": [
+        "PHP Foundation",
+        "Elizabeth Barron",
+        "OpenAI",
+        "Wiz"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 62,
+        "novelty": 68,
+        "sourceQuality": 75,
+        "personalRelevance": 48,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "PHP Foundation har én fuldtidsmedarbejder og 14 primært deltidskontraktorer på et budget omkring 974.000 dollar årligt",
+          "sourceUrls": [
+            "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "To kritiske PHP-sårbarheder blev fundet og patchet i ugen op til 24. oktober med hjælp fra OpenAI, Wiz og Calif",
+          "sourceUrls": [
+            "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+          "publisher": "The Standard (Reuters)",
+          "url": "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says",
+          "publishedAt": "2026-10-24T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/08-5159b3c5.jpg",
+        "credit": "Kilde: The Standard (Reuters)",
+        "alt": "Skærmbillede af PHP-kildekode i en editor",
+        "sourceUrl": "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says",
+        "origin": "article",
+        "fingerprint": "40c0c0c0d1c0c0c9c0c0c0c0c081c0cd808089808099808c8280818080a900840320000002081804132404250b482c03",
+        "lookedAt": "40c0c0c0d1c0c0c9c0c0c0c0c081c0cd808089808099808c8280818080a900840320000002081804132404250b482c03",
+        "originalUrl": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/d98b221be44a89f6286624d7b27bb1c3/2026-10/noname_61.png",
+        "focus": {
+          "x": 0.875,
+          "y": 0.554
+        }
+      }
+    },
+    {
+      "id": "story-moderna-vaccine-09",
+      "eventKey": "moderna-merck-melanoma-vaccine-phase3-2026-10",
+      "materialFacts": [
+        "Intismeran autogene plus Keytruda reducerede risikoen for tilbagefald eller død ved modermærkekræft med 42% i et fase 3-studie",
+        "Det er det første positive fase 3-resultat for en individualiseret mRNA-kræftvaccine",
+        "Studiet omfattede 1.137 patienter, hvis tumorer var fjernet kirurgisk"
+      ],
+      "section": "Sundhed",
+      "headline": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+      "primarySourceUrl": "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+      "subheadline": "Første positive fase 3-resultat for en individualiseret kræftvaccine",
+      "body": [
+        "Modernas og Mercks individualiserede mRNA-vaccine, med Keytruda, reducerede risikoen for tilbagefald eller død ved modermærkekræft 42% versus Keytruda alene i et fase 3-studie med 1.137 patienter – første positive fase 3-resultat for en person-specifik kræftvaccine."
+      ],
+      "whyItMatters": "Det er første direkte bevis på, at en personlig mRNA-vaccine forlænger sygdomsfri periode i et stort studie.",
+      "analysis": "Resultatet flytter mRNA fra lovende idé til målbar effekt, men pris og produktionstid afgør, hvor hurtigt den når flest.",
+      "topics": [
+        "sundhed",
+        "videnskab"
+      ],
+      "entities": [
+        "Moderna",
+        "Merck",
+        "Keytruda"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 42,
+        "novelty": 88,
+        "sourceQuality": 78,
+        "personalRelevance": 18,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Intismeran autogene plus Keytruda reducerede risikoen for tilbagefald eller død med 42% versus Keytruda alene i et 1.137-patient fase 3-studie",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/09-72a596ef.jpg",
+        "credit": "Foto: Getty Images / CNN",
+        "alt": "Mikroskopbillede af modermærkekræft-celler farvet til histologisk undersøgelse",
+        "sourceUrl": "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+        "origin": "article",
+        "fingerprint": "3da4a24c48a95b123c26a9cc48299a532663adcccd69995a6765accccd49299aed646c8a848c4814e26c4a8b8e8ecdcc",
+        "lookedAt": "3da4a24c48a95b123c26a9cc48299a532663adcccd69995a6765accccd49299aed646c8a848c4814e26c4a8b8e8ecdcc",
+        "originalUrl": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2230131139-20261022202031528.jpg?c=original",
+        "focus": {
+          "x": 0.721,
+          "y": 0.589
+        }
+      }
+    },
+    {
+      "id": "story-google-magicstate-10",
+      "eventKey": "google-willow-magic-state-cultivation-2026-10",
+      "materialFacts": [
+        "Googles Willow-chip reducerede fejl i 'magic state'-forberedelse omkring 40 gange med en metode kaldet 'magic state cultivation'",
+        "Resultatet, publiceret i Science, nåede 99,99% logisk fidelitet og brugte højst 54 af chippens 105 qubits",
+        "Kun omkring 8% af forberedelsesforsøgene lykkes, og fejlraten er stadig langt fra det, praktisk kryptoanalyse ville kræve"
+      ],
+      "section": "Kvanteteknologi",
+      "headline": "Google Demonstrates Method to Cut Errors in Quantum Computing's 'Magic States'",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+      "subheadline": "Willow-chippen rydder en gammel flaskehals for fejlkorrigerede kvantecomputere",
+      "body": [
+        "Google Quantum AI demonstrerede 'magic state cultivation', en metode der reducerer fejl i kvantetilstande 40 gange. Resultatet, i Science, nåede 99,99% fidelitet med højst 54 af Willow-chippens 105 qubits. Kun 8% af forsøgene lykkes, og fejlraten er langt fra praktisk brug."
+      ],
+      "whyItMatters": "Det flytter kvantecomputere tættere på nyttig fejlkorrektion, ikke blot en rekord.",
+      "analysis": "Afstanden til en relevant maskine er stor, men det er en reduktion af en flaskehals.",
+      "topics": [
+        "kvante",
+        "videnskab"
+      ],
+      "entities": [
+        "Google Quantum AI",
+        "Willow"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 38,
+        "novelty": 72,
+        "sourceQuality": 72,
+        "personalRelevance": 62,
+        "contrast": 22
+      },
+      "claims": [
+        {
+          "text": "Googles Willow-chip reducerede fejl i magic-state-forberedelse omkring 40 gange og nåede 99,99% logisk fidelitet",
+          "sourceUrls": [
+            "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google Demonstrates Method to Cut Errors in Quantum Computing's 'Magic States'",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://thequantuminsider.com/wp-content/uploads/2026/10/Magic-State-with-an-Iridescent-Sphere.png",
+          "fingerprint": "0c327169697916080c7269696979b28c1471684de9f9330c3261ccccccf8710671e88e8ee4fc7833e09e8e8e46acfcf0",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "story-copenhagen-turbine-11",
+      "eventKey": "copenhagen-molecular-turbine-2026-10",
+      "materialFacts": [
+        "Et internationalt forskerhold med centrale bidrag fra Københavns Universitet har bygget verdens mindste turbine",
+        "Molekylet måler omkring en milliontedel af en millimeter og roterer, når strøm sendes igennem det",
+        "Forskerne kan styre både retning og hastighed af rotationen"
+      ],
+      "section": "Videnskab",
+      "headline": "Maskine i molekylestørrelse: Forskere har bygget verdens mindste turbine",
+      "primarySourceUrl": "https://via.ritzau.dk/pressemeddelelse/15242856/maskine-i-molekylestorrelse-forskere-har-bygget-verdens-mindste-turbine?lang=da",
+      "subheadline": "Et helix-molekyle roterer kontrolleret, når der sendes strøm igennem det",
+      "body": [
+        "Et forskerhold med bidrag fra Københavns Universitet har bygget verdens mindste turbine: et helix-molekyle på en milliontedel millimeter, der roterer ved strøm, publiceret i Nature. Forskerne styrer både retning og hastighed – ikke set før. Per Hedegård: det kan betyde noget for elbilbatterier."
+      ],
+      "whyItMatters": "Det er et fremskridt i molekylære maskiner, hidtil mest proof-of-concept uden kontrol.",
+      "analysis": "Vejen til en batterikomponent er lang, men kontrollen afgør, om det bliver mere end kuriosum.",
+      "topics": [
+        "videnskab",
+        "danmark"
+      ],
+      "entities": [
+        "Københavns Universitet",
+        "Niels Bohr Institutet",
+        "Per Hedegård"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 32,
+        "novelty": 90,
+        "sourceQuality": 78,
+        "personalRelevance": 25,
+        "contrast": 38
+      },
+      "claims": [
+        {
+          "text": "Forskere har bygget et enkelt-molekyle turbine, der roterer kontrolleret, når strøm sendes igennem det, publiceret i Nature",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15242856/maskine-i-molekylestorrelse-forskere-har-bygget-verdens-mindste-turbine?lang=da"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Maskine i molekylestørrelse: Forskere har bygget verdens mindste turbine",
+          "publisher": "Ritzau",
+          "url": "https://via.ritzau.dk/pressemeddelelse/15242856/maskine-i-molekylestorrelse-forskere-har-bygget-verdens-mindste-turbine?lang=da",
+          "publishedAt": "2026-10-23T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://via.ritzau.dk/data/images/public/13561237/15242856/b6cae5d8-05fd-4b30-ba2e-1477d0445892-w_960.jpg",
+          "fingerprint": "10087ad0b46f17232008f8d0b46d17236029f892b46457230439fa9a34665a234d79db1a3466d7231c791955b2e6ca25",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-israel-election-12",
+      "eventKey": "israel-legislative-election-2026-10",
+      "materialFacts": [
+        "Israel går til valg 27. oktober, den senest mulige dato",
+        "Det er det første valg siden Hamas' angreb 7. oktober 2023",
+        "Meningsmålinger viser, at hverken Netanyahus koalition eller oppositionen klart har de 61 mandater, der kræves for regeringsmagt"
+      ],
+      "section": "Geopolitik",
+      "headline": "Israel's Election: Understanding Who's Who and What's at Stake",
+      "primarySourceUrl": "https://www.cfr.org/articles/israels-election-whos-who-and-whats-at-stake",
+      "subheadline": "Israel går til valg om to dage i et folkeafstemningslignende valg om Netanyahu",
+      "body": [
+        "Israel afholder parlamentsvalg 27. oktober – senest lovligt mulige dato og det første siden 7. oktober 2023. 38 partier er registreret, og hverken Netanyahus koalition eller oppositionen har klar vej til de 61 mandater, valget kræver. Det handler om Netanyahus 19 år ved magten."
+      ],
+      "whyItMatters": "Udfaldet afgør ikke kun indenrigspolitik, men krigene i Gaza og Iran.",
+      "analysis": "At ingen blok har klart mandat betyder, valgnatten ikke afgør noget alene – forhandlinger bagefter bliver den reelle kamp.",
+      "topics": [
+        "geopolitik",
+        "krig"
+      ],
+      "entities": [
+        "Benjamin Netanyahu",
+        "Knesset",
+        "Israel"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 38,
+        "novelty": 62,
+        "sourceQuality": 85,
+        "personalRelevance": 18,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Israel afholder parlamentsvalg 27. oktober 2026, det første siden 7. oktober 2023",
+          "sourceUrls": [
+            "https://www.cfr.org/articles/israels-election-whos-who-and-whats-at-stake"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Hverken Netanyahus koalition eller oppositionen har ifølge meningsmålinger en klar vej til de 61 mandater, der kræves",
+          "sourceUrls": [
+            "https://www.cfr.org/articles/israels-election-whos-who-and-whats-at-stake"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israel's Election: Understanding Who's Who and What's at Stake",
+          "publisher": "Council on Foreign Relations",
+          "url": "https://www.cfr.org/articles/israels-election-whos-who-and-whats-at-stake",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/12-30e06f04.jpg",
+        "credit": "Kilde: Council on Foreign Relations",
+        "alt": "Valgplakater med israelske politikere i gaden i Tel Aviv",
+        "sourceUrl": "https://www.cfr.org/articles/israels-election-whos-who-and-whats-at-stake",
+        "origin": "article",
+        "fingerprint": "d3ecccccecccdd59dbcccccceec6dcd8fccccccecec6cc9ceece8e8ececac69c8e8e8e8e8fcb8f9e0f570b4b07c9cb0e",
+        "lookedAt": "d3ecccccecccdd59dbcccccceec6dcd8fccccccecec6cc9ceece8e8ececac69c8e8e8e8e8fcb8f9e0f570b4b07c9cb0e",
+        "originalUrl": "https://assets.cfr.org/images/t_og_image_landscape/v1792686368/IsraelElex_A/IsraelElex_A.jpg",
+        "focus": {
+          "x": 0.227,
+          "y": 0
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery",
+      "headline": "FDA Approves Immunotherapy That May Allow Certain Patients with Rectal Cancer to Avoid Chemotherapy, Radiation and Surgery",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-immunotherapy-may-allow-certain-patients-rectal-cancer-avoid-chemotherapy-radiation-and",
+      "publisher": "FDA",
+      "section": "Sundhed",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "FDA gav accelereret godkendelse til dostarlimab alene for en undergruppe af lokalt fremskreden endetarmskræft; 68% havde fuld respons efter 12 måneder ved investigator-vurdering.",
+      "topics": [
+        "sundhed"
+      ]
+    },
+    {
+      "text": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations",
+      "headline": "Moonshot's Kimi K3.1 Pro flirts with open weights leadership amid paid influencer scandal allegations",
+      "url": "https://venturebeat.com/technology/moonshots-kimi-k3-1-pro-flirts-with-open-weights-leadership-amid-paid-influencer-scandal-allegations",
+      "publisher": "VentureBeat",
+      "section": "AI",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Uautentificerede screenshots hævder, at Moonshot bad influencere promovere Kimi K3.1 Pro uden at oplyse et betalt samarbejde; Moonshot har ikke svaret.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "Dessa – the Conversation Model trained only on speech",
+      "headline": "Dessa – the Conversation Model trained only on speech",
+      "url": "https://block.xyz/dessa",
+      "publisher": "Block",
+      "section": "AI",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Block viste Dessa, en fuld-duplex talemodel trænet uden tekst, der kører lokalt på en MacBook Pro M4 Max; kun en forskningspreview med venteliste.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "Beam Therapeutics to Present Initial Data from Phase 1/2 Trial of BEAM-301 in Glycogen Storage Disease Type Ia (GSDIa) at the ESGCT 33rd Annual Congress",
+      "headline": "Beam Therapeutics to Present Initial Data from Phase 1/2 Trial of BEAM-301 in Glycogen Storage Disease Type Ia (GSDIa) at the ESGCT 33rd Annual Congress",
+      "url": "https://investors.beamtx.com/news-releases/news-release-details/beam-therapeutics-present-initial-data-phase-12-trial-beam-301",
+      "publisher": "Beam Therapeutics",
+      "section": "Biotek",
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "summary": "Beams in vivo-baseeditor BEAM-301 genoprettede glukoseproduktion hos GSDIa-patienter; ingen dosisbegrænsende toksicitet rapporteret.",
+      "topics": [
+        "sundhed"
+      ]
+    },
+    {
+      "text": "CERN and Mistral plan Large Physics Model trained on billions of simulated LHC collisions",
+      "headline": "CERN and Mistral plan Large Physics Model trained on billions of simulated LHC collisions",
+      "url": "https://news.europawire.eu/cern-and-mistral-plan-large-physics-model-trained-on-billions-of-simulated-lhc-collisions/eu-press-release/2026/10/16/12/54/06/183249/",
+      "publisher": "EuropaWire",
+      "section": "AI",
+      "publishedAt": "2026-10-16T00:00:00.000Z",
+      "summary": "CERN og Mistral vil bygge en 'Large Physics Model' trænet på milliarder af simulerede LHC-kollisioner til partikelfysik.",
+      "topics": [
+        "ai",
+        "videnskab"
+      ]
+    },
+    {
+      "text": "Prime Medicine Announces First Patient Dosed in Global Phase 1/2 Clinical Trial of PM577a for H1069Q-Mutated Wilson Disease",
+      "headline": "Prime Medicine Announces First Patient Dosed in Global Phase 1/2 Clinical Trial of PM577a for H1069Q-Mutated Wilson Disease",
+      "url": "https://investors.primemedicine.com/news-releases/news-release-details/prime-medicine-announces-first-patient-dosed-global-phase-12",
+      "publisher": "Prime Medicine",
+      "section": "Biotek",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Første patient doseret med PM577a, Prime Medicines in vivo 'prime editor' mod Wilsons sygdom – første kendte brug af prime editing inde i en levende person.",
+      "topics": [
+        "sundhed"
+      ]
+    },
+    {
+      "text": "European defencetech hits record $7.4B as investment nearly triples in 2026",
+      "headline": "European defencetech hits record $7.4B as investment nearly triples in 2026",
+      "url": "https://tech.eu/2026/10/05/european-defencetech-hits-record-7-4b-as-investment-nearly-triples-in-2026",
+      "publisher": "Tech.eu",
+      "section": "Venture",
+      "publishedAt": "2026-10-05T00:00:00.000Z",
+      "summary": "Europæisk forsvars-venturekapital er næsten tredoblet i 2026 til 7,4 mia. dollar, ventet 10,5 mia. ved årets udgang; Tyskland leder med 3,5 mia.",
+      "topics": [
+        "forsvar",
+        "venture"
+      ]
+    },
+    {
+      "text": "Se lovprogrammet for folketingsåret 2026-2027 på det ansættelses- og arbejdsretlige område",
+      "headline": "Se lovprogrammet for folketingsåret 2026-2027 på det ansættelses- og arbejdsretlige område",
+      "url": "https://www.danskerhverv.dk/presse-og-nyheder/nyheder/2026/oktober/se-lovprogrammet-for-folketingsaret-2026-2027-pa-det-ansattelses--og-arbejdsretlige-omrade",
+      "publisher": "Dansk Erhverv",
+      "section": "Danmark",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Regeringens lovprogram for 2026-2027 lister 207 lov- og beslutningsforslag; flere arbejdsretlige forslag havde første behandling 22. oktober.",
+      "topics": [
+        "danmark"
+      ]
+    },
+    {
+      "text": "Starlink seems to be working normally again in Ukraine",
+      "headline": "Starlink seems to be working normally again in Ukraine",
+      "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine/",
+      "publisher": "TechCrunch",
+      "section": "Geopolitik",
+      "publishedAt": "2026-10-24T00:00:00.000Z",
+      "summary": "Ukraines forsvarsministerium siger, at Starlink/Starshield er tilbage på fuld hastighed efter en uges begrænsninger; Musk siger Ukraine brød aftalevilkårene.",
+      "topics": [
+        "geopolitik",
+        "krig"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "rec-amodei-circuit-01",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Interview",
+      "status": "new",
+      "title": "Inside the Mind of Anthropic CEO Dario Amodei",
+      "creator": "Emily Chang (Bloomberg, The Circuit) med Dario Amodei",
+      "provider": "Bloomberg Originals (YouTube)",
+      "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
+      "availability": "Tilgængelig nu, hele verden, gratis på YouTube",
+      "commitment": "ca. 25 min",
+      "description": "Emily Chang interviewer Anthropic-chef Dario Amodei om hans vej fra San Francisco, kapløbet mod OpenAI, konfrontationen med Pentagon om militær brug af Claude, og hvordan han selv beskriver AI's 'endgame'.",
+      "rationale": "Amodei er den af de to AI-chefer øverst på hans egen liste, og her taler han længere og mere ucensureret om Pentagon-sporet end i de korte nyhedsklip – direkte brugbart for at vurdere, hvor seriøst forsvarsspor Anthropic reelt forfølger.",
+      "topics": [
+        "ai",
+        "forsvar"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/r01-4f91617d.jpg",
+        "credit": "Bloomberg Originals",
+        "alt": "Dario Amodei i interview med Emily Chang til Bloombergs The Circuit",
+        "sourceUrl": "https://www.youtube.com/watch?v=x2VHFgyawPE",
+        "originalUrl": "https://i.ytimg.com/vi/x2VHFgyawPE/maxresdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec-dwarkesh-intel-01",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Podcast-video",
+      "status": "new",
+      "title": "What will computer chips look like in 2045?",
+      "creator": "Dwarkesh Patel med Intel-CTO Pushkar Ranade",
+      "provider": "Dwarkesh Podcast (YouTube)",
+      "url": "https://www.dwarkesh.com/p/intel-tour",
+      "availability": "Gratis, hele verden",
+      "commitment": "ca. 90 min",
+      "note": "Dwarkesh besøger Intels fabrik og taler med CTO Pushkar Ranade: verdens lager af chipfremstillingsudstyr kan kun fordoble topmoderne produktion, selv om AI-efterspørgslen tredobles årligt.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-hayek-knowledge-02",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "classic",
+      "title": "The Use of Knowledge in Society",
+      "creator": "F. A. Hayek",
+      "provider": "Econlib",
+      "url": "https://www.econlib.org/library/Essays/hykKnw.html",
+      "availability": "Gratis, hele verden",
+      "commitment": "25 min",
+      "note": "Hayeks klassiske argument om, at prissystemet løser et informationsproblem, ingen central planlægger kan – en direkte udfordring til den mission-orienterede statstænkning i bøger som Mazzucatos, som står på læselisten.",
+      "topics": [
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-tao-ai-math-03",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Levende dokument",
+      "status": "new",
+      "title": "Terence Tao on AI — a living summary",
+      "creator": "Terence Tao",
+      "provider": "teorth.github.io",
+      "url": "https://teorth.github.io/tao-web/ai-views.html",
+      "availability": "Gratis, hele verden",
+      "commitment": "15 min",
+      "note": "Opdateret 23. oktober: Fields-medaljist Taos egen, løbende vurdering af AI i matematik – skeptisk over for benchmark-drevet udvikling, og et direkte modstykke til dagens forside om kvasi-Riemann-beviset.",
+      "topics": [
+        "matematik",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-battledrones-04",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Browser-spil",
+      "status": "new",
+      "title": "Release: battledrones v14: Compass Rose, a four player map",
+      "creator": "Simon Willison",
+      "provider": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "availability": "Gratis i browseren, hele verden",
+      "commitment": "10 min",
+      "note": "Et lille, personligt sideprojekt: et fire-spiller kort med rotationssymmetri, der understøtter både AI- og menneskespillere via WebSocket – et konkret eksempel på, hvad en enkelt udvikler kan bygge med dagens værktøjer.",
+      "topics": [
+        "ai",
+        "værktøjer"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-anthropic-agentskills-05",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Brancheopdatering",
+      "status": "new",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "creator": "Anthropic",
+      "provider": "anthropic.com",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "availability": "Gratis, hele verden",
+      "commitment": "8 min",
+      "note": "Anthropic donerer sin 'Agent Skills'-standard til en ny, uafhængig stiftelse med over 70 platforme allerede tilknyttet – et tidligt skridt mod en fælles standard for, hvad AI-agenter kan gøre tværs af leverandører.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-transformer-cyberpocalypse-06",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "PHP code flaw begins the cyberpocalypse — sort of",
+      "creator": "Shakeel Hashim",
+      "provider": "Transformer",
+      "url": "https://www.transformernews.ai/p/php-flaw-cyberpocalypse-is-here-sort-of",
+      "availability": "Gratis, hele verden",
+      "commitment": "10 min",
+      "note": "Dybere analyse af samme PHP-sårbarhed som dagens nyhed om PHP Foundation, med fokus på, hvorfor OpenAI selv advarer om flere lignende fund i de kommende måneder.",
+      "topics": [
+        "sikkerhed",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-interconnects-superintelligence-07",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "I expect rapid progress but not towards general superintelligence",
+      "creator": "Nathan Lambert",
+      "provider": "Interconnects",
+      "url": "https://www.interconnects.ai/p/i-expect-rapid-progress-but-not-towards",
+      "availability": "Gratis, hele verden",
+      "commitment": "12 min",
+      "note": "En respekteret AI-forskers argument for, at ingeniørfremskridt vil accelerere uden nødvendigvis at føre til generel superintelligens – et nyttigt modtræk til dagens Apollo-historie om overvurderet AI-effekt.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "store-profetiers-overlevelse",
+    "title": "Store profetiers overlevelse",
+    "thesis": "En forudsigelses størrelse afgør, hvor længe den huskes, uafhængigt af om den holdt.",
+    "horizon": "inden for fem år",
+    "body": [
+      "Beskedne forudsigelser dør stille, selv når de rammer rigtigt. Store overlever fejlslagenhed, fordi de bliver en reference, andre måler sig op imod."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis man om nogle år kan vise, at beskedne forudsigelser, der også slog fejl, citeres og huskes lige så ofte som store, mislykkede forudsigelser inden for samme felt.",
+    "topics": [
+      "epistemologi",
+      "forudsigelser"
+    ]
+  },
+  "quality": {}
+}

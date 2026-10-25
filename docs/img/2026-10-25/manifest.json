@@ -1,0 +1,166 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-25",
+  "generatedAt": "2026-10-25T05:54:36.001Z",
+  "pictures": [
+    {
+      "slot": "03",
+      "id": "story-replit-shift-03",
+      "headline": "Replit is no longer working with Anthropic, CEO says",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
+      "article": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "hosted": "03-d37b58e2.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 93942,
+      "out": "1200x800",
+      "bytes": 55733,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.613,
+        "y": 0.057
+      },
+      "fetchedAt": "2026-10-25T05:54:36.364Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-tenstorrent-se-04",
+      "headline": "Tenstorrent Announces a $1.5B Series E at a $6.2B Valuation",
+      "source": "https://cdn.sanity.io/images/jpb4ed5r/production/28e4c07c8accd02347954b425a41f599c7f3a087-2600x1857.jpg",
+      "article": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e",
+      "hosted": "04-8bd57a4f.jpg",
+      "srcSize": "2600x1857",
+      "srcFormat": "jpeg",
+      "srcBytes": 326722,
+      "out": "1600x1067",
+      "bytes": 118348,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.675,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-25T05:54:37.038Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-canada-vc-plan-05",
+      "headline": "Ottawa kicks off process to give $1.75-billion boost to venture capital sector",
+      "source": "https://www.theglobeandmail.com/resizer/v2/G54OHWOU7NF7PJDL5JDATVZBAY.jpg?auth=c6ccb1da134cb468db8886968cf4202e54192b271e4ad5b82c81bc09e68ed112&width=1200&height=800&quality=80&smart=true",
+      "article": "https://www.theglobeandmail.com/business/article-ottawa-175-billion-venture-capital-sector-support/",
+      "hosted": "05-8bc514c5.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "heif",
+      "srcBytes": 28179,
+      "out": "1200x800",
+      "bytes": 60536,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.15
+      },
+      "fetchedAt": "2026-10-25T05:54:37.412Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-unep-emissions-06",
+      "headline": "New UNEP report lays out emission cuts needed for return to 1.5°C",
+      "source": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/fabersam-photovoltaic-4525177_1280.jpg.jpeg?h=c673cd1c&itok=eY4tm5Nw",
+      "article": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
+      "hosted": "06-48b392a0.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 186698,
+      "out": "945x630",
+      "bytes": 140329,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.839,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-25T05:54:38.323Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-php-foundation-08",
+      "headline": "PHP Foundation 'under-funded' with one full-time staff member, director says",
+      "source": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/d98b221be44a89f6286624d7b27bb1c3/2026-10/noname_61.png",
+      "article": "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says",
+      "hosted": "08-5159b3c5.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "png",
+      "srcBytes": 366779,
+      "out": "1200x800",
+      "bytes": 69406,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.875,
+        "y": 0.554
+      },
+      "fetchedAt": "2026-10-25T05:54:38.635Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-moderna-vaccine-09",
+      "headline": "Experimental mRNA vaccine cuts risk melanoma returns by 42%",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2230131139-20261022202031528.jpg?c=original",
+      "article": "https://www.cnn.com/2026/10/22/health/mnra-cancer-vaccine-moderna",
+      "hosted": "09-72a596ef.jpg",
+      "srcSize": "3000x1875",
+      "srcFormat": "jpeg",
+      "srcBytes": 1478881,
+      "out": "1600x1067",
+      "bytes": 498264,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.721,
+        "y": 0.589
+      },
+      "fetchedAt": "2026-10-25T05:54:39.473Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-israel-election-12",
+      "headline": "Israel's Election: Understanding Who's Who and What's at Stake",
+      "source": "https://assets.cfr.org/images/t_og_image_landscape/v1792686368/IsraelElex_A/IsraelElex_A.jpg",
+      "article": "https://www.cfr.org/articles/israels-election-whos-who-and-whats-at-stake",
+      "hosted": "12-30e06f04.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 103255,
+      "out": "945x630",
+      "bytes": 69385,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.227,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-25T05:54:39.754Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-amodei-circuit-01",
+      "headline": "Inside the Mind of Anthropic CEO Dario Amodei",
+      "source": "https://i.ytimg.com/vi/x2VHFgyawPE/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=x2VHFgyawPE",
+      "hosted": "r01-4f91617d.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 196042,
+      "out": "1280x720",
+      "bytes": 76300,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-25T05:54:40.096Z"
+    }
+  ]
+}
