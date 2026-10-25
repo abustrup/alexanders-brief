@@ -501,6 +501,7 @@ jobs:
           PICTURE_MECHANICAL_TIMEOUT_S: "480"
           PICTURE_DESK_TIMEOUT_S: "1080"
           STAGE_TIMEOUT_S: "1800"
+          REPICTURE: ${{ inputs.repicture_today }}
         run: |
           F="data/${DATE}/draft.json"
           LOOK="data/${DATE}/picture-look.json"
@@ -518,9 +519,18 @@ jobs:
           cp "$F" "$RUNNER_TEMP/draft.before-picture-desk.json"
           STAGE_RECORD="data/${DATE}/picture-stage.json"
           stage_rc=0
+          # STRICT [2026-10-25]. The stage runs its final pass strict (a picture without a matching lookedAt stamp
+          # goes, whatever its origin) once a desk pass has completed. A repicture asks for it always: the published
+          # stories are the point of it, and an edition redone with a dead desk must keep only the pictures that were
+          # looked at (the published ones carry their stamps), never add the resolver's unlooked ones to a story the
+          # published edition deliberately left bare.
+          STAGE_STRICT=""
+          if [ "${REPICTURE:-}" = "true" ]; then STAGE_STRICT="--strict"; fi
+          HAS_STAGE=0
           if node -e 'const p=require("./package.json");process.exit(p.scripts&&p.scripts["ci:picture-stage"]?0:1)'; then
+            HAS_STAGE=1
             timeout --kill-after=60 "$STAGE_TIMEOUT_S" \
-              npm run --silent ci:picture-stage -- "$F" --date="$DATE" \
+              npm run --silent ci:picture-stage -- "$F" --date="$DATE" $STAGE_STRICT \
                 --archive="${{ github.workspace }}/pages/data" --ledger=data/image-ledger.json \
                 --preview-dir="data/${DATE}/image-previews" || stage_rc=$?
             if [ "$stage_rc" != "0" ]; then
@@ -547,8 +557,14 @@ jobs:
             stage_rc=126
           fi
           # The quality gate refuses the WHOLE edition if any story picture lacks its alt text or its source page
-          # (image-metadata-incomplete), and the stage is promised never to block a publish. A picture the desk
-          # set by hand without them is taken out here, so one forgotten field costs a picture and not the morning.
+          # (image-metadata-incomplete) and, since the desk may replace a recommendation image by hand, if any
+          # recommendation image lacks them or the featured pick has none (recommendation-image-incomplete,
+          # recommendation-featured-image-missing). The stage is promised never to block a publish, so a picture
+          # the desk set without them is taken out here: a story picture goes (the story runs as text), a
+          # recommendation image goes back to the one from before the desk. One forgotten field costs a picture and
+          # not the morning. [2026-10-25: recommendations added; the rule lives in the engine, where it is tested:
+          # scripts/ci-picture-report.mjs net, test/scripts/ciPictureReport.test.ts.] An engine ref from before
+          # that has no desk, so no desk-made recommendation image either: it keeps the old stories-only block.
           cat > "$RUNNER_TEMP/picture-net.js" <<'JS'
           const fs = require("fs");
           const file = process.argv[2];
@@ -566,11 +582,26 @@ jobs:
             console.log("::warning::picture desk: the picture of story " + out.join(", ") + " has no alt text or no source page, which the quality gate refuses for the whole edition, so it was taken out and the story runs as text");
           }
           JS
-          node "$RUNNER_TEMP/picture-net.js" "$F"
+          if [ -f scripts/ci-picture-report.mjs ] && grep -q 'case "net"' scripts/ci-picture-report.mjs; then
+            node scripts/ci-picture-report.mjs net "$F" --before="$RUNNER_TEMP/draft.before-picture-desk.json"
+          else
+            node "$RUNNER_TEMP/picture-net.js" "$F"
+          fi
           if [ "$stage_rc" != "0" ] || [ ! -f "$LOOK" ]; then
-            printf '::warning::picture desk: the stage did not finish cleanly (code %s), so the final pass runs alone and takes away every picture nobody looked at.\n' "$stage_rc"
+            # Strict when the stage left a record that a desk pass COMPLETED before it was cut off (or on a
+            # repicture); lenient otherwise, which keeps a story's own article picture even though nobody looked
+            # at it, as it always did, and says so. Never strict on an engine ref without the stage: its
+            # resolver would refuse the unknown flag and the final pass would not run at all (HAS_STAGE, because
+            # stage_rc is overwritten with 126 above when the stage record is absent).
+            FALLBACK_STRICT=""
+            if [ "$HAS_STAGE" = "1" ] && { [ "${REPICTURE:-}" = "true" ] || [ "$(node scripts/ci-picture-report.mjs completed --scr="data/${DATE}/picture-stage" 2>/dev/null)" = "true" ]; }; then
+              FALLBACK_STRICT="--strict"
+              printf '::warning::picture desk: the stage did not finish cleanly (code %s), but a desk pass had completed, so the final pass runs alone and strict: it takes away every picture without a matching look stamp, whatever its origin.\n' "$stage_rc"
+            else
+              printf '::warning::picture desk: the stage did not finish cleanly (code %s) and no desk pass is known to have completed, so the final pass runs alone and lenient: it takes away every picture nobody looked at EXCEPT a story'"'"'s own article picture, which stays unlooked.\n' "$stage_rc"
+            fi
             rm -f "$LOOK"
-            npm run --silent prune:images -- "$F" --ledger=data/image-ledger.json --final --archive="${{ github.workspace }}/pages/data" --preview-dir="data/${DATE}/image-previews" --verbose
+            npm run --silent prune:images -- "$F" --ledger=data/image-ledger.json --final $FALLBACK_STRICT --archive="${{ github.workspace }}/pages/data" --preview-dir="data/${DATE}/image-previews" --verbose
           fi
 
       # REPICTURE, after the desk: a picture the desk left alone keeps its hosted copy [2026-10-25]. The
@@ -740,7 +771,7 @@ jobs:
             # one-line verdict, and the line that says so when the stage left no record at all.
             STAGE="engine/data/${DATE}/picture-stage.json"
             if [ -f "$STAGE" ]; then
-              node -e 'const s=require(process.argv[1]);console.log(s.ran?`- picture desk: ${s.met?"floor met":"FLOOR MISSED"} · ${s.withPicture}/${s.stories} stories with a picture · lead ${s.leadHasPicture?"has one":s.leadRecorded?"none, search recorded":"NONE"} · ${s.passes} pass(es)`:`- picture desk: did not run · ${s.reason||"no reason recorded"}`)' "$(pwd)/$STAGE" >> "$GITHUB_STEP_SUMMARY" || true
+              node -e 'const s=require(process.argv[1]);console.log(s.ran?`- picture desk: ${s.met?(s.metByRecordsOnly?"floor met BY RECORDS ONLY":"floor met"):"FLOOR MISSED"} · ${s.withPicture}/${s.stories} stories with a picture (${Math.round(100*(s.coverage||0))}%, floor ${Math.round(100*(s.floor||0))}%) · lead ${s.leadHasPicture?"has one":s.leadRecorded?"none, search recorded":"NONE"} · ${s.passes} pass(es) · final ${s.strict?"strict":"lenient"}${(s.unlooked||[]).length?" · UNLOOKED "+s.unlooked.length:""}`:`- picture desk: did not run · ${s.reason||"no reason recorded"}`)' "$(pwd)/$STAGE" >> "$GITHUB_STEP_SUMMARY" || true
             else
               printf -- '- picture desk: NO RECORD, the stage did not run on this engine ref or was cut off\n' >> "$GITHUB_STEP_SUMMARY"
             fi

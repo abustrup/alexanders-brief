@@ -459,10 +459,17 @@ jobs:
           ADD="data/${DATE}/additions.json"
           npm run --silent update:pictures -- split --draft="data/${DATE}/draft.json" --base="$BASE" --out="$ADD"
           cp "$ADD" "$RUNNER_TEMP/additions.before-picture-desk.json"
+          # STRICT, ALWAYS, on additions [2026-10-25]. The additions are extras on a page that already stands: Alexander
+          # (2026-09-16) "same quality and method as other pics if possible, if not possible just forget it". So a
+          # picture nobody looked at never ships here, whether the desk completed or not: the stage and the explicit
+          # final pass below both run `--strict`. Only on an engine ref that has the stage: an older resolver would
+          # refuse the unknown flag, and the final pass would not run at all.
+          STRICT=""
           if node -e 'const p=require("./package.json");process.exit(p.scripts&&p.scripts["ci:picture-stage"]?0:1)'; then
+            STRICT="--strict"
             stage_rc=0
             timeout --kill-after=60 "$STAGE_TIMEOUT_S" \
-              npm run --silent ci:picture-stage -- "$ADD" --date="$DATE" \
+              npm run --silent ci:picture-stage -- "$ADD" --date="$DATE" $STRICT \
                 --archive="${{ github.workspace }}/pages/data" --ledger=data/image-ledger.json \
                 --preview-dir="data/${DATE}/image-previews" || stage_rc=$?
             if [ "$stage_rc" != "0" ]; then
@@ -486,6 +493,8 @@ jobs:
           # The quality gate refuses the WHOLE edition if any story picture lacks its alt text or its source page
           # (image-metadata-incomplete), and the stage is promised never to block a publish. A picture the desk
           # set by hand without them is taken out here, so one forgotten field costs a picture and not the update.
+          # [2026-10-25: the rule lives in the engine, where it is tested (scripts/ci-picture-report.mjs net); an
+          # engine ref without it keeps the block below, which is what this step always ran.]
           cat > "$RUNNER_TEMP/picture-net.js" <<'JS'
           const fs = require("fs");
           const file = process.argv[2];
@@ -503,8 +512,12 @@ jobs:
             console.log("::warning::picture desk: the picture of added story " + out.join(", ") + " has no alt text or no source page, which the quality gate refuses for the whole edition, so it was taken out and the story runs as text");
           }
           JS
-          node "$RUNNER_TEMP/picture-net.js" "$ADD"
-          npm run --silent prune:images -- "$ADD" --ledger=data/image-ledger.json --final \
+          if [ -f scripts/ci-picture-report.mjs ] && grep -q 'case "net"' scripts/ci-picture-report.mjs; then
+            node scripts/ci-picture-report.mjs net "$ADD" --before="$RUNNER_TEMP/additions.before-picture-desk.json" --label="added story"
+          else
+            node "$RUNNER_TEMP/picture-net.js" "$ADD"
+          fi
+          npm run --silent prune:images -- "$ADD" --ledger=data/image-ledger.json --final $STRICT \
             --archive="${{ github.workspace }}/pages/data" --preview-dir="data/${DATE}/image-previews" --verbose
           npm run --silent update:pictures -- join --draft="data/${DATE}/draft.json" --base="$BASE" --additions="$ADD"
 
@@ -646,7 +659,7 @@ jobs:
             # one-line verdict, and the line that says so when the stage left no record at all.
             STAGE="engine/data/${DATE}/picture-stage.json"
             if [ -f "$STAGE" ]; then
-              node -e 'const s=require(process.argv[1]);console.log(s.ran?`- picture desk: ${s.met?"floor met":"FLOOR MISSED"} · ${s.withPicture}/${s.stories} added stories with a picture · ${s.passes} pass(es)`:`- picture desk: did not run · ${s.reason||"no reason recorded"}`)' "$(pwd)/$STAGE" >> "$GITHUB_STEP_SUMMARY" || true
+              node -e 'const s=require(process.argv[1]);console.log(s.ran?`- picture desk: ${s.met?(s.metByRecordsOnly?"floor met BY RECORDS ONLY":"floor met"):"FLOOR MISSED"} · ${s.withPicture}/${s.stories} added stories with a picture (${Math.round(100*(s.coverage||0))}%, floor ${Math.round(100*(s.floor||0))}%) · ${s.passes} pass(es) · final ${s.strict?"strict":"lenient"}${(s.unlooked||[]).length?" · UNLOOKED "+s.unlooked.length:""}`:`- picture desk: did not run · ${s.reason||"no reason recorded"}`)' "$(pwd)/$STAGE" >> "$GITHUB_STEP_SUMMARY" || true
             else
               printf -- '- picture desk: NO RECORD, the stage did not run on this engine ref or was cut off\n' >> "$GITHUB_STEP_SUMMARY"
             fi
