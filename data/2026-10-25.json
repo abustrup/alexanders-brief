@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "alexandersbrief-20261025-0640",
+  "runId": "run-2026-10-25-p446",
   "date": "2026-10-25",
   "generatedAt": "2026-10-25T05:40:00.000Z",
   "readingMinutes": 9,
@@ -80,6 +80,27 @@
           "publishedAt": "2026-10-19T00:00:00.000Z",
           "kind": "reporting"
         }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/01-dd99e11e.jpg",
+        "credit": "Kilde: Caltech / Quanta Magazine",
+        "alt": "Alexander Dunn, Caltech-matematiker, foran en tavle med beregninger",
+        "sourceUrl": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+        "origin": "article",
+        "fingerprint": "636163f3626293a3434141f3634293a1c9c1c1a161c183a1c8c1a161e1c585a1c181a060c0c480a1404061e0c0a2a2a2",
+        "lookedAt": "636163f3626293a3434141f3634293a1c9c1c1a161c183a1c8c1a161e1c585a1c181a060c0c480a1404061e0c0a2a2a2",
+        "originalUrl": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Alexander-Dunn-cr.Caltech-V2.webp",
+        "focus": {
+          "x": 0.253,
+          "y": 0.044
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://www.quantamagazine.org/wp-content/uploads/2026/10/ReimannAI-crEmilyBuder_GuanHueiWu-Social.jpg",
+          "fingerprint": "8e83113131dba3ad071512323199b329055532313135b16a549c337970301c2b52262168f8701449526268696871b20a",
+          "reason": "chart-or-text-card"
+        }
       ]
     },
     {
@@ -148,8 +169,27 @@
           "url": "https://www.apollo.com/content/dam/apolloaem/apollo-default-page-share-image/apollo-og-image.png",
           "fingerprint": "0306048c8427a1c003020c8c802561c003020c452525256003020cc42224256003060c82aa242564030c0c0a4b252764",
           "reason": "logo-or-card"
+        },
+        {
+          "url": "https://www.apollo.com/content/dam/apolloaem/images/media/re-paper-image.jpg",
+          "fingerprint": "b24d4d9292926c64324c4c931313644ccccccc1133314444cc8ccc313131c6c4ac8ce73035311cc60c0ef13434703c87",
+          "reason": "stock-or-ai"
         }
-      ]
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/02-8842e446.jpg",
+        "credit": "Foto: Getty Images / Fortune",
+        "alt": "Torsten Slok, cheføkonom i Apollo Global Management, taler ved et Bloomberg-arrangement",
+        "sourceUrl": "https://fortune.com/2026/07/06/ai-productivity-gains-bubble-painful-repricing-markets-torsten-slok/",
+        "origin": "coverage",
+        "fingerprint": "53a745cccd4dd99b5327c5cccc4cd89b4105c6cccc8cdc99258686cdcc0c9498268686cccc0e969e472307464e1f1e96",
+        "lookedAt": "53a745cccd4dd99b5327c5cccc4cd89b4105c6cccc8cdc99258686cdcc0c9498268686cccc0e969e472307464e1f1e96",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-1651912360-e1782939505974.jpg",
+        "focus": {
+          "x": 0.402,
+          "y": 1
+        }
+      }
     },
     {
       "id": "story-replit-shift-03",
@@ -220,8 +260,8 @@
         "alt": "Replits topchef Amjad Masad i interviewstol til TechCrunch Disrupt",
         "sourceUrl": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
         "origin": "article",
-        "fingerprint": "4c3233b868e8e8e08c32b13c6ceacae93a33b0346cc9dec97b31b07464cddecd71b1b076e4cc9d9fb0b0baf6e5ac8e9f",
-        "lookedAt": "4c3233b868e8e8e08c32b13c6ceacae93a33b0346cc9dec97b31b07464cddecd71b1b076e4cc9d9fb0b0baf6e5ac8e9f",
+        "fingerprint": "4d3233b868e8e8e89c32b13c6ceacae93a33b0346cc9dee97b31b07464cddecd71b1b076e4cc9d9f30b0baf6e5ac8e9f",
+        "lookedAt": "4d3233b868e8e8e89c32b13c6ceacae93a33b0346cc9dee97b31b07464cddecd71b1b076e4cc9d9f30b0baf6e5ac8e9f",
         "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/10/replit-ceo-masad.jpg?resize=1200,800",
         "focus": {
           "x": 0.613,
@@ -431,18 +471,25 @@
           "kind": "primary"
         }
       ],
+      "imageRejected": [
+        {
+          "url": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/fabersam-photovoltaic-4525177_1280.jpg.jpeg?h=c673cd1c&itok=eY4tm5Nw",
+          "fingerprint": "690900071d3a470fc90400071f79e70ecc0400071f3ce106040240070f3cf106020080072e3ffca301900007669f7ecc",
+          "reason": "off-topic"
+        }
+      ],
       "image": {
-        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/06-48b392a0.jpg",
-        "credit": "Kilde: UNEP",
-        "alt": "Luftfoto af solcelleanlæg på mark",
-        "sourceUrl": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
-        "origin": "article",
-        "fingerprint": "690900071d3a470fc90400071f79e70ecc0400071f3ce106040240070f3cf106020080072e3ffca301900007669f7ecc",
-        "lookedAt": "690900071d3a470fc90400071f79e70ecc0400071f3ce106040240070f3cf106020080072e3ffca301900007669f7ecc",
-        "originalUrl": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/fabersam-photovoltaic-4525177_1280.jpg.jpeg?h=c673cd1c&itok=eY4tm5Nw",
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/06-a5bf802c.jpg",
+        "credit": "Foto: IAEA Imagebank, Wikimedia Commons (CC BY 2.0)",
+        "alt": "Inger Andersen, UNEP's administrerende direktør, taler ved et klimaarrangement",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inger_Anderson_(cop28_9975)_(53365998467).jpg",
+        "origin": "library",
+        "fingerprint": "c7c2d2d2d0d060e8c7d292939090d2e2c29292939092d2c292b212b3b0b2b2c1325030b33031b1b15151613330303131",
+        "lookedAt": "c7c2d2d2d0d060e8c7d292939090d2e2c29292939092d2c292b212b3b0b2b2c1325030b33031b1b15151613330303131",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Inger_Anderson_%28cop28_9975%29_%2853365998467%29.jpg/1920px-Inger_Anderson_%28cop28_9975%29_%2853365998467%29.jpg",
         "focus": {
-          "x": 0.839,
-          "y": 0
+          "x": 0.718,
+          "y": 0.704
         }
       }
     },
@@ -499,7 +546,21 @@
           "publishedAt": "2026-10-22T00:00:00.000Z",
           "kind": "primary"
         }
-      ]
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/07-98b2d007.jpg",
+        "credit": "Kilde: Bloomberg",
+        "alt": "LSEG to acquire Octus, creating market leader across public and private credit solutions",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-22/lseg-agrees-3-5-billion-deal-to-buy-credit-firm-octus",
+        "origin": "coverage",
+        "fingerprint": "8fcfbc9e737307c38fde3c1e71f135879fde3c1bb1f371079e7c3e9b30f7f1279e7e1e9b70d6f164f67e0f997032f1e0",
+        "lookedAt": "8fcfbc9e737307c38fde3c1e71f135879fde3c1bb1f371079e7c3e9b30f7f1279e7e1e9b70d6f164f67e0f997032f1e0",
+        "originalUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8xAX5ZKJIr8/v1/1200x800.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      }
     },
     {
       "id": "story-php-foundation-08",
@@ -565,19 +626,26 @@
         }
       ],
       "image": {
-        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/08-5159b3c5.jpg",
-        "credit": "Kilde: The Standard (Reuters)",
-        "alt": "Skærmbillede af PHP-kildekode i en editor",
-        "sourceUrl": "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says",
-        "origin": "article",
-        "fingerprint": "40c0c0c0d1c0c0c9c0c0c0c0c081c0cd808089808099808c8280818080a900840320000002081804132404250b482c03",
-        "lookedAt": "40c0c0c0d1c0c0c9c0c0c0c0c081c0cd808089808099808c8280818080a900840320000002081804132404250b482c03",
-        "originalUrl": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/d98b221be44a89f6286624d7b27bb1c3/2026-10/noname_61.png",
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/08-83da9c57.jpg",
+        "credit": "Kilde: PHPConnect '26",
+        "alt": "Elizabeth Barron, Executive Director for PHP Foundation",
+        "sourceUrl": "https://connect.phptalks.org/speakers/elizabeth-barron",
+        "origin": "coverage",
+        "fingerprint": "b88e9e3e1e0e0d5d1c8e062e2a2a0f8c5e9e262e2b2b4f0c1e0f274b5b6f4f4e1f27755f5d4d4d9f2f47b6ddbd5ccc9d",
+        "lookedAt": "b88e9e3e1e0e0d5d1c8e062e2a2a0f8c5e9e262e2b2b4f0c1e0f274b5b6f4f4e1f27755f5d4d4d9f2f47b6ddbd5ccc9d",
+        "originalUrl": "https://connect.phptalks.org/_next/image?url=%2Fimages%2Fspeakers%2FElizabeth.jpeg&w=3840&q=80",
         "focus": {
-          "x": 0.875,
-          "y": 0.554
+          "x": 0.607,
+          "y": 1
         }
-      }
+      },
+      "imageRejected": [
+        {
+          "url": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/d98b221be44a89f6286624d7b27bb1c3/2026-10/noname_61.png",
+          "fingerprint": "40c0c0c0d1c0c0c9c0c0c0c0c081c0cd808089808099808c8280818080a900840320000002081804132404250b482c03",
+          "reason": "screen-text"
+        }
+      ]
     },
     {
       "id": "story-moderna-vaccine-09",
@@ -707,7 +775,21 @@
           "fingerprint": "0c327169697916080c7269696979b28c1471684de9f9330c3261ccccccf8710671e88e8ee4fc7833e09e8e8e46acfcf0",
           "reason": "stock-or-ai"
         }
-      ]
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/10-36e3e892.jpg",
+        "credit": "Kilde: Google",
+        "alt": "Googles Willow-kvantechip holdt i en handske-beklædt hånd",
+        "sourceUrl": "https://interestingengineering.com/science/google-willow-quantum-chip-magic-state-errors",
+        "origin": "coverage",
+        "fingerprint": "e5a6c6c5e5870624e4a78645e48703a4e4a78746c6870744e52787c6c68707456527a786c6870785250727a786c70705",
+        "lookedAt": "e5a6c6c5e5870624e4a78645e48703a4e4a78746c6870744e52787c6c68707456527a786c6870785250727a786c70705",
+        "originalUrl": "https://cms.interestingengineering.com/wp-content/uploads/2026/10/Untitled-Design-2026-10-16T011335.716.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0.411
+        }
+      }
     },
     {
       "id": "story-copenhagen-turbine-11",
@@ -769,7 +851,21 @@
           "fingerprint": "10087ad0b46f17232008f8d0b46d17236029f892b46457230439fa9a34665a234d79db1a3466d7231c791955b2e6ca25",
           "reason": "chart-or-text-card"
         }
-      ]
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/11-3142bd66.jpg",
+        "credit": "Kilde: Danmarks Frie Forskningsfond",
+        "alt": "Michael Pittelkow, professor i kemi ved Københavns Universitet, hvis forskningsgruppe byggede den molekylære turbine",
+        "sourceUrl": "https://dff.dk/hvad-har-vi-stoettet/forskerportraetter/sapere-aude-portraetter/eksterne-personer/dff-forskningsledere-2015/michael-pittelkow/",
+        "origin": "coverage",
+        "fingerprint": "1eb30c1e4e8c6cfb17b30c169f8cece933295e179f4a6ced332d5e179fcb0eec691e9b17939d0a2ece9edb33339d198b",
+        "lookedAt": "1eb30c1e4e8c6cfb17b30c169f8cece933295e179f4a6ced332d5e179fcb0eec691e9b17939d0a2ece9edb33339d198b",
+        "originalUrl": "https://dff.dk/media/2ysjo3co/michael-pittelkow.jpeg?width=768&format=webp&quality=92&v=1db82cbd9d94b30",
+        "focus": {
+          "x": 0.438,
+          "y": 0.129
+        }
+      }
     },
     {
       "id": "story-israel-election-12",

@@ -1,7 +1,47 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-25",
-  "generatedAt": "2026-10-25T05:54:36.001Z",
+  "generatedAt": "2026-10-25T22:19:52.413Z",
   "pictures": [
+    {
+      "slot": "01",
+      "id": "story-quasi-riemann-01",
+      "headline": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "source": "https://www.quantamagazine.org/wp-content/uploads/2026/10/Alexander-Dunn-cr.Caltech-V2.webp",
+      "article": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "hosted": "01-dd99e11e.jpg",
+      "srcSize": "1268x705",
+      "srcFormat": "webp",
+      "srcBytes": 200000,
+      "out": "940x705",
+      "bytes": 69526,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.253,
+        "y": 0.044
+      },
+      "fetchedAt": "2026-10-25T22:19:52.803Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-apollo-ai-roi-02",
+      "headline": "No Signs of AI Payoff Outside the Tech Sector",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/07/GettyImages-1651912360-e1782939505974.jpg",
+      "article": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+      "hosted": "02-8842e446.jpg",
+      "srcSize": "2880x1920",
+      "srcFormat": "webp",
+      "srcBytes": 423692,
+      "out": "1600x1067",
+      "bytes": 101950,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.402,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-25T22:19:53.938Z"
+    },
     {
       "slot": "03",
       "id": "story-replit-shift-03",
@@ -66,41 +106,61 @@
       "slot": "06",
       "id": "story-unep-emissions-06",
       "headline": "New UNEP report lays out emission cuts needed for return to 1.5°C",
-      "source": "https://s3.eu-west-1.amazonaws.com/cdn.unenvironment.org/unepcorporaterevamp_prod/s3fs-public/styles/social_share/public/2026-10/fabersam-photovoltaic-4525177_1280.jpg.jpeg?h=c673cd1c&itok=eY4tm5Nw",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Inger_Anderson_%28cop28_9975%29_%2853365998467%29.jpg/1920px-Inger_Anderson_%28cop28_9975%29_%2853365998467%29.jpg",
       "article": "https://www.unep.org/en/news-and-stories/press-release/new-unep-report-lays-out-emission-cuts-needed-return-15degc",
-      "hosted": "06-48b392a0.jpg",
-      "srcSize": "1200x630",
+      "hosted": "06-a5bf802c.jpg",
+      "srcSize": "1920x1280",
       "srcFormat": "jpeg",
-      "srcBytes": 186698,
-      "out": "945x630",
-      "bytes": 140329,
+      "srcBytes": 268977,
+      "out": "1600x1067",
+      "bytes": 103700,
       "crop": "centre",
       "frame": "card",
       "focus": {
-        "x": 0.839,
+        "x": 0.718,
+        "y": 0.704
+      },
+      "fetchedAt": "2026-10-25T22:19:54.399Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-lseg-octus-07",
+      "headline": "LSEG to acquire Octus, creating market leader across public and private credit solutions",
+      "source": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i8xAX5ZKJIr8/v1/1200x800.jpg",
+      "article": "https://www.lseg.com/en/media-centre/press-releases/2026/lseg-acquire-octus-public-private-credit-solutions",
+      "hosted": "07-98b2d007.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 86411,
+      "out": "1200x800",
+      "bytes": 76681,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
         "y": 0
       },
-      "fetchedAt": "2026-10-25T05:54:38.323Z"
+      "fetchedAt": "2026-10-25T22:19:54.698Z"
     },
     {
       "slot": "08",
       "id": "story-php-foundation-08",
       "headline": "PHP Foundation 'under-funded' with one full-time staff member, director says",
-      "source": "https://image.hkstandard.com.hk/f/1200p0/0x0/100/none/d98b221be44a89f6286624d7b27bb1c3/2026-10/noname_61.png",
+      "source": "https://connect.phptalks.org/_next/image?url=%2Fimages%2Fspeakers%2FElizabeth.jpeg&w=3840&q=80",
       "article": "https://www.thestandard.com.hk/world/article/346373/PHP-Foundation-under-funded-with-one-full-time-staff-member-director-says",
-      "hosted": "08-5159b3c5.jpg",
-      "srcSize": "1200x800",
-      "srcFormat": "png",
-      "srcBytes": 366779,
-      "out": "1200x800",
-      "bytes": 69406,
-      "crop": "centre",
+      "hosted": "08-83da9c57.jpg",
+      "srcSize": "2102x2102",
+      "srcFormat": "webp",
+      "srcBytes": 241124,
+      "out": "1600x1067",
+      "bytes": 102038,
+      "crop": "upper",
       "frame": "card",
       "focus": {
-        "x": 0.875,
-        "y": 0.554
+        "x": 0.607,
+        "y": 1
       },
-      "fetchedAt": "2026-10-25T05:54:38.635Z"
+      "fetchedAt": "2026-10-25T22:19:55.168Z"
     },
     {
       "slot": "09",
@@ -121,6 +181,47 @@
         "y": 0.589
       },
       "fetchedAt": "2026-10-25T05:54:39.473Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-google-magicstate-10",
+      "headline": "Google Demonstrates Method to Cut Errors in Quantum Computing's 'Magic States'",
+      "source": "https://cms.interestingengineering.com/wp-content/uploads/2026/10/Untitled-Design-2026-10-16T011335.716.jpg",
+      "article": "https://thequantuminsider.com/2026/10/16/google-demonstrates-method-to-cut-errors-in-quantum-computings-magic-states/",
+      "hosted": "10-36e3e892.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 47632,
+      "out": "1600x1067",
+      "bytes": 80583,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.411
+      },
+      "fetchedAt": "2026-10-25T22:19:55.853Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-copenhagen-turbine-11",
+      "headline": "Maskine i molekylestørrelse: Forskere har bygget verdens mindste turbine",
+      "source": "https://dff.dk/media/2ysjo3co/michael-pittelkow.jpeg?width=768&format=webp&quality=92&v=1db82cbd9d94b30",
+      "article": "https://via.ritzau.dk/pressemeddelelse/15242856/maskine-i-molekylestorrelse-forskere-har-bygget-verdens-mindste-turbine?lang=da",
+      "hosted": "11-3142bd66.jpg",
+      "srcSize": "768x511",
+      "srcFormat": "webp",
+      "srcBytes": 47972,
+      "out": "766x511",
+      "bytes": 33018,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.129
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-25T22:19:56.925Z"
     },
     {
       "slot": "12",
