@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-25",
-  "generatedAt": "2026-10-25T22:19:52.413Z",
+  "generatedAt": "2026-10-25T22:34:12.024Z",
   "pictures": [
     {
       "slot": "01",
@@ -242,6 +242,26 @@
         "y": 0
       },
       "fetchedAt": "2026-10-25T05:54:39.754Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-spacex-gpu-debt-01",
+      "headline": "Musk says SpaceX raised $40 billion in debt for GPUs",
+      "source": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieOi7X0rNQHM/v0/1200x800.jpg",
+      "article": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "hosted": "13-2648bf57.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 104397,
+      "out": "1200x800",
+      "bytes": 94319,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.721,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-25T22:34:12.313Z"
     },
     {
       "slot": "r01",

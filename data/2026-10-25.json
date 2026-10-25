@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-25-p446",
+  "runId": "run-2026-10-25-uafternoon-r160",
   "date": "2026-10-25",
-  "generatedAt": "2026-10-25T05:40:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-25T22:31:40.523Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "AI's matematikbevis under lup, Apollo ser ingen ROI uden for tech, og Israel går til valg om to dage",
   "profileWeights": {
@@ -942,6 +942,89 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "story-spacex-gpu-debt-01",
+      "eventKey": "spacex-gpu-debt-close-2026-10",
+      "materialFacts": [
+        "Elon Musk skrev på X den 25. oktober 2026, at SpaceX har lukket 40 milliarder dollar i lån til køb af Nvidia-GPU'er",
+        "Lånet er primært tilbagekaldeligt og dækker GPU-leverancer i 1. og 2. kvartal 2027",
+        "Musk henviser til SpaceX' investment grade-rating samt indtægter fra Starlink og raketlanceringer som sikkerhed for lånet",
+        "Musk sagde samtidig, at kreditmarkederne nu stort set er lukket for selskaber uden omsætning uafhængig af AI-datacentre"
+      ],
+      "section": "AI og erhverv",
+      "headline": "Musk says SpaceX raised $40 billion in debt for GPUs",
+      "primarySourceUrl": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "subheadline": "SpaceX låner 40 mia. dollar til GPU'er, mens kreditmarkedet lukker for andre",
+      "body": [
+        "Elon Musk skrev på X den 25. oktober, at SpaceX har lukket 40 milliarder dollar i lån til Nvidia-GPU'er, der leveres i 1. og 2. kvartal 2027. Lånet er muliggjort af selskabets investment grade-rating og indtægter fra Starlink og raketlanceringer."
+      ],
+      "whyItMatters": "Musk siger samtidig, at kreditmarkedet nu er lukket for AI-selskaber uden anden omsætning.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "SpaceX",
+        "Elon Musk",
+        "Nvidia",
+        "Starlink"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 78,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 80,
+        "contrast": 62
+      },
+      "claims": [
+        {
+          "text": "Elon Musk sagde, at SpaceX har lukket 40 milliarder dollar i lån til GPU-køb, primært tilbagekaldeligt og rettet mod leverancer i 1. og 2. kvartal 2027",
+          "sourceUrls": [
+            "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Musk sagde, at kreditmarkederne nu stort set er lukket for selskaber uden omsætning uafhængig af AI-datacentre",
+          "sourceUrls": [
+            "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Musk says SpaceX raised $40 billion in debt for GPUs",
+          "publisher": "Reuters",
+          "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+          "publishedAt": "2026-10-25T20:05:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-25/13-2648bf57.jpg",
+        "credit": "Kilde: Bloomberg",
+        "alt": "SpaceX' bygning med en brugt Falcon 9-raket udstillet foran facaden",
+        "sourceUrl": "https://www.bloomberg.com/news/articles/2026-10-25/musk-says-spacex-closed-40-billion-debt-deal-blasts-neoclouds",
+        "origin": "coverage",
+        "fingerprint": "70a1cbd36fddbe6df2a5cbb36ddc9aeef24599a36dd61afee20c99a54dd69b7b460c316554c692594c18216e96869319",
+        "lookedAt": "70a1cbd36fddbe6df2a5cbb36ddc9aeef24599a36dd61afee20c99a54dd69b7b460c316554c692594c18216e96869319",
+        "originalUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ieOi7X0rNQHM/v0/1200x800.jpg",
+        "focus": {
+          "x": 0.721,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-25T22:31:40.523Z",
+        "runId": "run-2026-10-25-uafternoon-r160"
+      }
     }
   ],
   "signals": [
@@ -1235,5 +1318,20 @@
       "forudsigelser"
     ]
   },
-  "quality": {}
+  "quality": {},
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-10-25T22:31:40.523Z",
+      "runId": "run-2026-10-25-uafternoon-r160",
+      "added": 1,
+      "cost": {
+        "usd": 2.020096,
+        "inputTokens": 2611889,
+        "outputTokens": 20036,
+        "turns": 67,
+        "seconds": 531.4
+      }
+    }
+  ]
 }
