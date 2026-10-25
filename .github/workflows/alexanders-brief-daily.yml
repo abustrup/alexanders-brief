@@ -89,11 +89,14 @@ env:
 jobs:
   brief:
     runs-on: ubuntu-latest
-    # 180, was 150 until 2026-10-25. The capped steps are the agent (100), the picture desk (30) and the
-    # gate (15), plus liveness (about 15 of polling) = 160, leaving 20 for checkout, npm ci, publish and
-    # the ledger. Liveness is the LAST step: a job that dies during it kills a run that has already
-    # published, so the sum of the step caps, not the usual 55-minute morning, is what this has to cover.
-    timeout-minutes: 180
+    # 220, was 180 until 2026-10-25 (round 2), and 150 before that. The capped steps are the agent (100), the
+    # picture desk (stage cap 60 minutes, step cap 64) and the gate (15), plus liveness (about 15 of polling) =
+    # 194, leaving 26 for checkout, npm ci, publish and the ledger. Liveness is the LAST step: a job that dies
+    # during it kills a run that has already published, so the sum of the step caps, not the usual 55-minute
+    # morning, is what this has to cover. Round 2 raised the desk from 30 to 60 minutes: its turn budget went
+    # from 70 to 160 after a real dry run was stopped at 70, and two 25-minute passes plus the lead-only pass
+    # have to fit; a normal run uses about 7 minutes per pass (71 turns took 401 s).
+    timeout-minutes: 220
     defaults:
       run:
         shell: bash
@@ -482,15 +485,18 @@ jobs:
       #     fails the run and never blocks the publish.
       # The engine ref may be an older branch that has no ci:picture-stage (engine_ref is an input): it then
       # runs the old final pass, exactly as this step did before, so this file can land before the engine.
-      # Time caps: 480 s per resolver run and 1,080 s per desk pass inside the stage (two passes at most), and
-      # 1,800 s for the whole stage from outside. The runner's own step limit is the second lock.
+      # Time caps: 480 s per resolver run, 1,500 s per desk pass inside the stage (two passes at most, and a
+      # third, lead only, capped at 600 s by the stage itself), and 3,600 s for the whole stage from outside.
+      # The runner's own step limit (64 minutes) is the second lock. [Round 2, 2026-10-25: 1,080 and 1,800 before.
+      # A real dry run was stopped at its 70-turn limit after 401 s, so the desk's turn budget is 160 now (the
+      # stage's default) and its per-pass time was raised in step; the time cap is the lock, not the budget.]
       # A dead image URL renders as an empty grey box. The final pass runs before the gate so the
       # gate and the renderer both see known-good images.
       - name: Picture desk (guaranteed stage)
         id: pictures
         if: ${{ steps.cap.outputs.proceed == 'true' }}
         continue-on-error: true
-        timeout-minutes: 34
+        timeout-minutes: 64
         env:
           # DATE is not a job-wide variable in this workflow; every other step reads the
           # date from the guard's output. Using ${DATE} here resolved to "data//draft.json"
@@ -499,8 +505,8 @@ jobs:
           DATE: ${{ steps.guard.outputs.date }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           PICTURE_MECHANICAL_TIMEOUT_S: "480"
-          PICTURE_DESK_TIMEOUT_S: "1080"
-          STAGE_TIMEOUT_S: "1800"
+          PICTURE_DESK_TIMEOUT_S: "1500"
+          STAGE_TIMEOUT_S: "3600"
           REPICTURE: ${{ inputs.repicture_today }}
         run: |
           F="data/${DATE}/draft.json"

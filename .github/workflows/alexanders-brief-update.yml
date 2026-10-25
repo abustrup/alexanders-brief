@@ -97,15 +97,17 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # 110, was 90 until 2026-10-25, and the arithmetic matters: the liveness proof is the LAST step, and
-    # a job that dies during it kills a run that has already published — the reader has the new page
-    # and the run is red with no proof either way. The capped steps are the agent (35), the picture
-    # desk on the additions (18), the gate (15) and liveness (20) = 88, leaving 22 minutes for
-    # checkout, npm ci, the rest of the picture pass, the merge and the publish, which together
+    # 120, was 110 (and 90 until 2026-10-25), and the arithmetic matters: the liveness proof is the LAST
+    # step, and a job that dies during it kills a run that has already published — the reader has the new
+    # page and the run is red with no proof either way. The capped steps are the agent (35), the picture
+    # desk on the additions (stage cap 25, step cap 29), the gate (15) and liveness (20) = 99, leaving 21
+    # minutes for checkout, npm ci, the rest of the picture pass, the merge and the publish, which together
     # (the picture desk aside) have never run past 10. So liveness cannot be the step that
     # exhausts the job: its own cap expires first, and a timed-out liveness step is a red with a
-    # published page rather than a cancelled job with no record at all.
-    timeout-minutes: 110
+    # published page rather than a cancelled job with no record at all. [Round 2, 2026-10-25: the desk's
+    # stage cap went from 18 to 25 minutes so that a second pass, which the stage now sends whenever the
+    # first was stopped, has room after a first pass of 8 minutes and two resolver runs.]
+    timeout-minutes: 120
     defaults:
       run:
         shell: bash
@@ -443,17 +445,19 @@ jobs:
       # stage that is cut off by its time cap or absent from this engine ref leaves the explicit final
       # pass below to take away whatever nobody looked at, as it always did. Its name carries no "editorial
       # agent", which ci-attempt-cap.sh counts as an agent run. Time caps: 240 s per resolver run and 480 s
-      # per desk pass inside the stage, 1,080 s for the whole stage from outside.
+      # per desk pass inside the stage, 1,500 s for the whole stage from outside (1,080 until round 2 of
+      # 2026-10-25: the stage now sends a second pass whenever the first was stopped, and two passes of 480 s
+      # plus two resolver runs need 1,440 s). The desk's turn budget is the stage's default, 160.
       - name: Picture desk on the additions, then the final pass
         if: steps.cap.outputs.proceed == 'true'
         continue-on-error: true
-        timeout-minutes: 24
+        timeout-minutes: 29
         env:
           DATE: ${{ steps.guard.outputs.date }}
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           PICTURE_MECHANICAL_TIMEOUT_S: "240"
           PICTURE_DESK_TIMEOUT_S: "480"
-          STAGE_TIMEOUT_S: "1080"
+          STAGE_TIMEOUT_S: "1500"
         run: |
           BASE="${{ github.workspace }}/pages/data/${DATE}.json"
           ADD="data/${DATE}/additions.json"
