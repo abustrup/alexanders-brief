@@ -3,9 +3,21 @@
 # decision is an engine script, the same rule as the daily: the YAML is order, conditions and
 # parameters only.
 #
-# EXPIRES 2026-10-16. That date is also passed to the guard, so after it every run is red with
+# EXPIRES 2026-11-25. That date is also passed to the guard, so after it every run is red with
 # "renew or delete" and nothing is spent. A routine nobody is watching fails by going unnoticed;
 # this one goes red instead. Renew by moving the date in BOTH places, or delete this file.
+# Renewed 2026-10-25 by Alexander's request ("make sure it is working"): the date had passed on
+# 2026-10-16 and every run since was red with "This update routine expired" (17 of 34 runs between 10-17
+# and 10-25), so the 12:04 and 17:04 updates had stopped landing. It moved by 30 days, from 2026-10-16.
+#
+# WHICH SLOT [2026-10-25]. GitHub delivered all 152 update crons of this repo 139-582 minutes late
+# (median 283, none within 2 hours; measured 2026-10-25), and the slot used to be read from the hour the
+# run ARRIVED: the 12:xx crons arrived at 15-21 h and were named "afternoon", the 17:xx crons arrived at
+# 19:47-00:24 and fell in no window, and midday never landed (0 of 76). A scheduled run now names its slot
+# from the cron that fired it: github.event.schedule goes to the guard and the cap as BRIEF_EVENT_SCHEDULE
+# and into the run name as sched=[...], and the engine reads the HOUR field of that string. The exact text
+# GitHub sends for a timezone-keyed cron was not known when this was written, so the guard prints the raw
+# string on every run; read it in the first scheduled run's log and tell the engine if it differs.
 #
 # THE PROMISE: nothing already on the page changes. Not a word of a morning story, not a picture, not
 # the signals, Klummen, the key number or the recommendations. `merge:update --finalize` compares the
@@ -16,14 +28,18 @@ name: Alexanders Brief – update
 
 # The run's name carries the slot, because the runs API will not show a past run's dispatch inputs
 # any other way and `ci-attempt-cap.sh --slot` reads it to count one agent run per slot per day.
-run-name: Alexanders Brief – update · slot=${{ inputs.slot || 'cron' }}${{ inputs.dry_run && ' · dry run' || '' }}
+# A dispatch writes slot=midday or slot=afternoon. A scheduled run writes slot=cron and, after it,
+# sched=[<the cron string that fired it>]: the cap reads the slot of a scheduled run from that string
+# (github.event.schedule), because the hour the run started says nothing when GitHub delivers a
+# 12:04 cron at 21:00. `slot=` stays before `sched=`: the cap reads the first one that names a slot.
+run-name: "Alexanders Brief – update · slot=${{ inputs.slot || 'cron' }}${{ github.event.schedule && format(' · sched=[{0}]', github.event.schedule) || '' }}${{ inputs.dry_run && ' · dry run' || '' }}"
 
 on:
   schedule:
     # Copenhagen, the same timezone key the daily proves works. :04 is the run, :36 the retry; the
     # retry finds the slot already recorded in the archive and ends green in seconds. The slot of a
-    # scheduled run is derived from its Copenhagen hour (11-14 midday, 16-19 afternoon), which both
-    # crons of each pair fall inside.
+    # scheduled run is read from the hour field of the cron that fired it (12 midday, 17 afternoon),
+    # which both crons of each pair share, and not from the hour the run arrives: see the header.
     - cron: "4 12 * * *"
       timezone: "Europe/Copenhagen"
     - cron: "36 12 * * *"
@@ -35,7 +51,7 @@ on:
   workflow_dispatch:
     inputs:
       slot:
-        description: "Which update run. Blank on a schedule, where the Copenhagen hour decides."
+        description: "Which update run. Blank on a schedule, where the cron that fired the run decides."
         required: false
         type: choice
         options: ["midday", "afternoon"]
@@ -71,7 +87,8 @@ env:
   PROMPT_PATH: docs/routines/backup-from-claude-dir/brief-update.SKILL.md
   BRIEF_LABEL: alexanders-brief-update
   # Written here and read by the guard. Both must move together; see the header.
-  UPDATE_EXPIRES: "2026-10-16"
+  # Renewed 2026-10-25 by Alexander's request "make sure it is working" (was 2026-10-16): REVIEW 2026-11-25.
+  UPDATE_EXPIRES: "2026-11-25"
   # Pinned, as the daily pins it: an overnight release must not break an unattended run.
   CLAUDE_CLI_VERSION: "2.1.228"
   # PAGES_REPO_DIR is set only on the steps that need the website checkout, never job-wide, so the
@@ -80,14 +97,15 @@ env:
 jobs:
   update:
     runs-on: ubuntu-latest
-    # 90, and the arithmetic matters: the liveness proof is the LAST step, and a job that dies
-    # during it kills a run that has already published — the reader has the new page and the run
-    # is red with no proof either way. The capped steps are the agent (35), the gate (15) and
-    # liveness (20) = 70, leaving 20 minutes for checkout, npm ci, the picture pass, the merge and
-    # the publish, which together have never run past 10. So liveness cannot be the step that
+    # 110, was 90 until 2026-10-25, and the arithmetic matters: the liveness proof is the LAST step, and
+    # a job that dies during it kills a run that has already published — the reader has the new page
+    # and the run is red with no proof either way. The capped steps are the agent (35), the picture
+    # desk on the additions (18), the gate (15) and liveness (20) = 88, leaving 22 minutes for
+    # checkout, npm ci, the rest of the picture pass, the merge and the publish, which together
+    # (the picture desk aside) have never run past 10. So liveness cannot be the step that
     # exhausts the job: its own cap expires first, and a timed-out liveness step is a red with a
     # published page rather than a cancelled job with no record at all.
-    timeout-minutes: 90
+    timeout-minutes: 110
     defaults:
       run:
         shell: bash
@@ -125,11 +143,17 @@ jobs:
           [ "$missing" = "0" ] || exit 1
 
       # UPDATE / DONE / NOT_PUBLISHED / EXPIRED / UNKNOWN. Red on the last two, with nothing spent.
+      # The expiry reaches the guard as --expires=$UPDATE_EXPIRES (renewed to 2026-11-25 on 2026-10-25, see the
+      # header), checked before the slot. The slot is the dispatch input when there is one, otherwise the hour
+      # field of BRIEF_EVENT_SCHEDULE, the cron string GitHub says fired this run, otherwise the Copenhagen
+      # clock. A scheduled run that arrives at Copenhagen hour 0-10 is yesterday's cron delivered late and
+      # ends green as NOT_PUBLISHED without touching the network.
       - name: Guard – is today out, and has this slot added to it yet?
         id: guard
         env:
           INPUT_DATE: ${{ inputs.date }}
           INPUT_SLOT: ${{ inputs.slot }}
+          BRIEF_EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: |
           if [ -n "$INPUT_SLOT" ]; then
             bash scripts/ci-update-mode.sh "$SITE_URL" "$INPUT_DATE" "--slot=$INPUT_SLOT" "--expires=$UPDATE_EXPIRES"
@@ -224,6 +248,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           MAX_FULL_ATTEMPTS: ${{ inputs.dry_run && '9' || '1' }}
+          # The guard has already named the slot, so this run's own slot never needs it; the cap reads the
+          # same cron string from the NAMES of earlier runs (sched=[...]) to tell which slot each one was.
+          BRIEF_EVENT_SCHEDULE: ${{ github.event.schedule }}
         run: bash scripts/ci-attempt-cap.sh "${{ steps.guard.outputs.date }}" "--slot=${{ steps.guard.outputs.slot }}"
 
       # TOKEN DIET [2026-10-08]. Input is 99.6% of what a run costs (cost = turns x context size), so what
@@ -399,23 +426,87 @@ jobs:
       # Do not add an upload of agent.stream, agent.err or agent.json back; the only files this job uploads
       # are the dry-run draft, additions and pictures.
 
-      # The final picture pass, on THIS RUN'S ADDITIONS ONLY. Measured on 2026-09-16 against the real
-      # published edition: `prune:images --final` over a whole update draft dropped two morning
-      # pictures (their lookedAt stamps belong to the morning's preview manifest, which is gone), and a
-      # plain resolver run rewrote 8 of 9 morning stories. Either would make the merge refuse the run.
+      # The picture desk and the final picture pass, on THIS RUN'S ADDITIONS ONLY. Measured on 2026-09-16
+      # against the real published edition: `prune:images --final` over a whole update draft dropped two
+      # morning pictures (their lookedAt stamps belong to the morning's preview manifest, which is gone), and
+      # a plain resolver run rewrote 8 of 9 morning stories. Either would make the merge refuse the run.
       # So the additions are split out, judged, and joined back; the morning stories are never in the
       # file the resolver is handed. The merge still checks them afterwards — this is a fix, not a waiver.
-      - name: Look at the added pictures (final pass)
+      #
+      # THE PICTURE DESK [2026-10-25] runs between the split and the final pass. Until then the pictures of
+      # the additions were only a request inside the agent's last phase, which it skipped on the days it
+      # skipped the morning's, and this step then only took pictures away. `npm run ci:picture-stage` is
+      # the same stage the morning runs, on additions.json: the resolver fills, one picture-desk agent
+      # looks and searches, the stage checks its own result. Same standard as the morning's pictures
+      # (Alexander, 2026-09-16: "same quality and method as other pics if possible, if not possible just
+      # forget it"): a story that gets no true picture runs as text. The stage never fails the run, and a
+      # stage that is cut off by its time cap or absent from this engine ref leaves the explicit final
+      # pass below to take away whatever nobody looked at, as it always did. Its name carries no "editorial
+      # agent", which ci-attempt-cap.sh counts as an agent run. Time caps: 240 s per resolver run and 480 s
+      # per desk pass inside the stage, 1,080 s for the whole stage from outside.
+      - name: Picture desk on the additions, then the final pass
         if: steps.cap.outputs.proceed == 'true'
         continue-on-error: true
+        timeout-minutes: 24
         env:
           DATE: ${{ steps.guard.outputs.date }}
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          PICTURE_MECHANICAL_TIMEOUT_S: "240"
+          PICTURE_DESK_TIMEOUT_S: "480"
+          STAGE_TIMEOUT_S: "1080"
         run: |
           BASE="${{ github.workspace }}/pages/data/${DATE}.json"
-          npm run --silent update:pictures -- split --draft="data/${DATE}/draft.json" --base="$BASE" --out="data/${DATE}/additions.json"
-          npm run --silent prune:images -- "data/${DATE}/additions.json" --ledger=data/image-ledger.json --final \
+          ADD="data/${DATE}/additions.json"
+          npm run --silent update:pictures -- split --draft="data/${DATE}/draft.json" --base="$BASE" --out="$ADD"
+          cp "$ADD" "$RUNNER_TEMP/additions.before-picture-desk.json"
+          if node -e 'const p=require("./package.json");process.exit(p.scripts&&p.scripts["ci:picture-stage"]?0:1)'; then
+            stage_rc=0
+            timeout --kill-after=60 "$STAGE_TIMEOUT_S" \
+              npm run --silent ci:picture-stage -- "$ADD" --date="$DATE" \
+                --archive="${{ github.workspace }}/pages/data" --ledger=data/image-ledger.json \
+                --preview-dir="data/${DATE}/image-previews" || stage_rc=$?
+            if [ "$stage_rc" != "0" ]; then
+              printf '::warning::picture desk: the stage ended with exit code %s (124 means it ran out of its %s seconds); what it left is checked below.\n' "$stage_rc" "$STAGE_TIMEOUT_S"
+            fi
+          else
+            printf '::warning::picture desk: engine ref %s has no ci:picture-stage, so only the final pass runs on the additions.\n' "$ENGINE_REF"
+          fi
+          # A desk killed mid-edit must not hand the join a broken file; an empty list of stories is fine. The newest
+          # readable copy comes back: the stage keeps one before each desk pass, then the one from before the desk.
+          readable() { node -e 'const d=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit(Array.isArray(d.stories)?0:1)' "$1" 2>/dev/null; }
+          if ! readable "$ADD"; then
+            for snap in $(ls -1r "data/${DATE}/picture-stage"/before-*.json 2>/dev/null) "$RUNNER_TEMP/additions.before-picture-desk.json"; do
+              if readable "$snap"; then
+                printf '::warning::picture desk: %s is not readable after the stage, so %s was put back.\n' "$ADD" "$(basename "$snap")"
+                cp "$snap" "$ADD"
+                break
+              fi
+            done
+          fi
+          # The quality gate refuses the WHOLE edition if any story picture lacks its alt text or its source page
+          # (image-metadata-incomplete), and the stage is promised never to block a publish. A picture the desk
+          # set by hand without them is taken out here, so one forgotten field costs a picture and not the update.
+          cat > "$RUNNER_TEMP/picture-net.js" <<'JS'
+          const fs = require("fs");
+          const file = process.argv[2];
+          const raw = fs.readFileSync(file, "utf8");
+          const brief = JSON.parse(raw);
+          const out = [];
+          (brief.stories || []).forEach((story, index) => {
+            const image = story && story.image;
+            if (image && (!image.alt || !image.sourceUrl)) { delete story.image; out.push(index + 1); }
+          });
+          if (out.length) {
+            const indent = /^\{\r?\n(\s+)/.exec(raw);
+            fs.writeFileSync(file + ".tmp", JSON.stringify(brief, null, indent ? indent[1].length : 2) + "\n");
+            fs.renameSync(file + ".tmp", file);
+            console.log("::warning::picture desk: the picture of added story " + out.join(", ") + " has no alt text or no source page, which the quality gate refuses for the whole edition, so it was taken out and the story runs as text");
+          }
+          JS
+          node "$RUNNER_TEMP/picture-net.js" "$ADD"
+          npm run --silent prune:images -- "$ADD" --ledger=data/image-ledger.json --final \
             --archive="${{ github.workspace }}/pages/data" --preview-dir="data/${DATE}/image-previews" --verbose
-          npm run --silent update:pictures -- join --draft="data/${DATE}/draft.json" --base="$BASE" --additions="data/${DATE}/additions.json"
+          npm run --silent update:pictures -- join --draft="data/${DATE}/draft.json" --base="$BASE" --additions="$ADD"
 
       # A dry run produces the additions and stops. They are the whole point of the run, so they are
       # uploaded rather than thrown away with the runner.
@@ -429,6 +520,7 @@ jobs:
             engine/data/${{ steps.guard.outputs.date }}/additions.json
             engine/data/${{ steps.guard.outputs.date }}/image-previews/
             engine/data/${{ steps.guard.outputs.date }}/picture-look.json
+            engine/data/${{ steps.guard.outputs.date }}/picture-stage.json
           if-no-files-found: warn
 
       # A dry run runs the merge and the gate too, on purpose [2026-09-16]: the first cloud dry run
@@ -549,5 +641,13 @@ jobs:
               node -e 'const l=require(process.argv[1]);console.log(`- picture look: ${l.looked?"done":"SKIPPED"} · ${l.matched??l.stamped}/${l.pictures} seen · dropped unseen ${l.droppedUnseen} · ${l.reason}`)' "$(pwd)/$LOOK" >> "$GITHUB_STEP_SUMMARY" || true
             else
               printf -- '- picture look: MISSING, the final picture pass did not run\n' >> "$GITHUB_STEP_SUMMARY"
+            fi
+            # The stage's own block (per-story table, the desk's report) was written by the stage. This is the
+            # one-line verdict, and the line that says so when the stage left no record at all.
+            STAGE="engine/data/${DATE}/picture-stage.json"
+            if [ -f "$STAGE" ]; then
+              node -e 'const s=require(process.argv[1]);console.log(s.ran?`- picture desk: ${s.met?"floor met":"FLOOR MISSED"} · ${s.withPicture}/${s.stories} added stories with a picture · ${s.passes} pass(es)`:`- picture desk: did not run · ${s.reason||"no reason recorded"}`)' "$(pwd)/$STAGE" >> "$GITHUB_STEP_SUMMARY" || true
+            else
+              printf -- '- picture desk: NO RECORD, the stage did not run on this engine ref or was cut off\n' >> "$GITHUB_STEP_SUMMARY"
             fi
           fi
