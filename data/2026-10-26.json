@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-10-26-full",
+  "runId": "run-2026-10-26-umidday-r161",
   "date": "2026-10-26",
-  "generatedAt": "2026-10-26T06:45:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-26T17:27:41.357Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "Ni dokumenterede historier og elleve signaler",
   "profileWeights": {
@@ -731,6 +731,185 @@
           "y": 0.536
         }
       }
+    },
+    {
+      "id": "anthropic-ipo-s1-filing-2026-10",
+      "eventKey": "anthropic-ipo-s1-filing-2026-10",
+      "materialFacts": [
+        "Anthropic indsendte S-1-registrering til SEC mandag med henblik på notering på Nasdaq under tickeren ANT.",
+        "Omsætning på 16,3 mia. dollar i H1 2026, underskud på 80,7 mia. dollar, overvejende ikke-kontant.",
+        "Goldman Sachs og Morgan Stanley fører en gruppe på 22 banker; notering ventes ugen om 16. november til 1.500-2.000 mia. dollar."
+      ],
+      "section": "Erhverv",
+      "headline": "Anthropic files for Nasdaq IPO as half-year revenue hits $16.3bn",
+      "primarySourceUrl": "https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1",
+      "subheadline": "Claude-udvikleren søger mod Nasdaq i en historisk stor børsnotering.",
+      "body": [
+        "Anthropic indsendte mandag sin S-1 til SEC med henblik på notering på Nasdaq under symbolet ANT. Omsætningen var 16,3 mia. dollar i første halvår 2026, underskuddet 80,7 mia., mest ikke-kontant. Goldman Sachs og Morgan Stanley fører 22 banker; notering ventes om 16. november til 1.500-2.000 mia. dollar."
+      ],
+      "whyItMatters": "Det gør Anthropic til en af de største børsnoteringer nogensinde og en målestok for AI-væksthistoriens pris.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Anthropic",
+        "SEC",
+        "Nasdaq",
+        "Goldman Sachs",
+        "Morgan Stanley"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 65,
+        "novelty": 85,
+        "sourceQuality": 75,
+        "personalRelevance": 85,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Anthropic indsendte S-1 til SEC og vil notere sig på Nasdaq under tickeren ANT.",
+          "sourceUrls": [
+            "https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1",
+            "https://www.anthropic.com/news/s1-sec"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "H1 2026-omsætning på 16,3 mia. dollar og nettounderskud på 80,7 mia. dollar.",
+          "sourceUrls": [
+            "https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic files for Nasdaq IPO as half-year revenue hits $16.3bn",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1",
+          "publishedAt": "2026-10-26T14:38:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-26/10-7d5619bd.jpg",
+        "credit": "Foto: Getty Images / CNN",
+        "alt": "Dario Amodei, administrerende direktør og medstifter af Anthropic",
+        "sourceUrl": "https://www.cnn.com/2026/10/26/tech/anthropic-files-ipo",
+        "origin": "coverage",
+        "fingerprint": "3d1d0c1636766762393d0c17367676693d2c0e133276d2c93c2e321b33f3d2c22e2e331b33f3d3cb0f3b4b1931f1d389",
+        "lookedAt": "3d1d0c1636766762393d0c17367676693d2c0e133276d2c93c2e321b33f3d2c22e2e331b33f3d3cb0f3b4b1931f1d389",
+        "originalUrl": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2280291489.jpg?c=original",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://media.thenextweb.com/2026/10/amjad-masad-replit-techcrunch-disrupt-2026-stage.avif",
+          "fingerprint": "99999818989ad74699991c1898189b5691919c1818181b9330340e1838181bdb343e2e3838189bd9322f4c5a591a1a91",
+          "reason": "wrong-person"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-26T17:27:41.357Z",
+        "runId": "run-2026-10-26-umidday-r161"
+      }
+    },
+    {
+      "id": "microsoft-voluntary-buyouts-ai-2026-10",
+      "eventKey": "microsoft-voluntary-buyouts-ai-2026-10",
+      "materialFacts": [
+        "Microsoft tilbyder frivillig fratrædelse til ca. 60.000 medarbejdere på vicedirektørniveau og derunder.",
+        "Omfatter udvalgte teams i USA, Canada, Indien og Storbritannien; datacentre, salg og marketing er undtaget.",
+        "Medarbejdere beslutter i december og fratræder senest 31. december; det er selskabets anden frivillige runde i 2026."
+      ],
+      "section": "Erhverv",
+      "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+      "primarySourceUrl": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+      "subheadline": "En fjerdedel af arbejdsstyrken får tilbud om frivillig fratrædelse.",
+      "body": [
+        "Microsoft tilbyder frivillig fratrædelse til ca. 60.000 medarbejdere på vicedirektørniveau og derunder i USA, Canada, Indien og Storbritannien; datacentre, salg og marketing er undtaget. De beslutter i december og fratræder senest 31. december. Det er årets anden runde, mens selskabet venter at bruge ca. 190 mia. dollar i år, mest til AI."
+      ],
+      "whyItMatters": "Det viser, hvor AI-investeringer fortrænger lønomkostninger hos en stor arbejdsgiver.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Microsoft",
+        "Amy Coleman"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 70,
+        "novelty": 75,
+        "sourceQuality": 80,
+        "personalRelevance": 75,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Microsoft tilbyder frivillig fratrædelse til ca. 60.000 medarbejdere på udvalgte teams.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+            "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft offers buyouts to around 60,000 employees, reports say",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+          "publishedAt": "2026-10-26T15:58:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Microsoft offers voluntary buyouts to 60,000 employees as AI leads to efficiency push",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-26/11-787e01af.jpg",
+        "credit": "Foto: Getty Images / TechCrunch",
+        "alt": "Microsoft offers buyouts to around 60,000 employees, reports say",
+        "sourceUrl": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+        "origin": "article",
+        "fingerprint": "070b2d07e493a3738b0d2d07e492b3a30b0c4503e41011c10d042702c7545a4904660103c6b6bb5a4a49430187a6b929",
+        "lookedAt": "070b2d07e493a3738b0d2d07e492b3a30b0c4503e41011c10d042702c7545a4904660103c6b6bb5a4a49430187a6b929",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269268389.jpg?resize=1200,800",
+        "focus": {
+          "x": 0.589,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-26T17:27:41.357Z",
+        "runId": "run-2026-10-26-umidday-r161"
+      }
     }
   ],
   "signals": [
@@ -993,5 +1172,20 @@
   },
   "quality": {
     "editorial": 80
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-10-26T17:27:41.357Z",
+      "runId": "run-2026-10-26-umidday-r161",
+      "added": 2,
+      "cost": {
+        "usd": 2.0855517000000003,
+        "inputTokens": 2671003,
+        "outputTokens": 25891,
+        "turns": 60,
+        "seconds": 410.5
+      }
+    }
+  ]
 }

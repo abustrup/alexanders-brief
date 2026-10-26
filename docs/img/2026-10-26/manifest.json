@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-26",
-  "generatedAt": "2026-10-26T05:32:53.911Z",
+  "generatedAt": "2026-10-26T17:27:47.513Z",
   "pictures": [
     {
       "slot": "01",
@@ -162,6 +162,46 @@
         "y": 0.536
       },
       "fetchedAt": "2026-10-26T05:32:58.530Z"
+    },
+    {
+      "slot": "10",
+      "id": "anthropic-ipo-s1-filing-2026-10",
+      "headline": "Anthropic files for Nasdaq IPO as half-year revenue hits $16.3bn",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2280291489.jpg?c=original",
+      "article": "https://thenextweb.com/news/anthropic-ipo-filing-nasdaq-ant-s-1",
+      "hosted": "10-7d5619bd.jpg",
+      "srcSize": "2000x1334",
+      "srcFormat": "jpeg",
+      "srcBytes": 330469,
+      "out": "1600x1067",
+      "bytes": 124493,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-26T17:27:48.055Z"
+    },
+    {
+      "slot": "11",
+      "id": "microsoft-voluntary-buyouts-ai-2026-10",
+      "headline": "Microsoft offers buyouts to around 60,000 employees, reports say",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/04/GettyImages-2269268389.jpg?resize=1200,800",
+      "article": "https://techcrunch.com/2026/10/26/microsoft-offers-buyouts-to-around-60000-employees-reports-say/",
+      "hosted": "11-787e01af.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 67132,
+      "out": "1200x800",
+      "bytes": 99159,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.589,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-26T17:27:48.364Z"
     },
     {
       "slot": "r01",
