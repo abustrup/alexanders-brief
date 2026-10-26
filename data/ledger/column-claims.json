@@ -233,6 +233,14 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
+    },
+    {
+      "date": "2026-10-26",
+      "slug": "serien-uden-slutning",
+      "claim": "En serie uden fastlagt sæsonantal får lavere bedømmelse over tid, fordi forfatterne skriver uden at kende slutningen.",
+      "horizon": "Når en systematisk sammenligning af sæsonbedømmelser findes",
+      "falsifier": "En systematisk sammenligning af IMDb- eller Rotten Tomatoes-bedømmelser pr. sæson for afsluttede versus åbne prestigeserier, der ikke viser et fald for de åbne.",
+      "status": "open"
     }
   ]
 }
