@@ -1,0 +1,187 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-26",
+  "generatedAt": "2026-10-26T05:32:53.911Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "brazil-lula-fourth-term-2026-10",
+      "headline": "Brazil's Lula beats odds and seals re-election, rival Bolsonaro demands annulment",
+      "source": "https://s.france24.com/media/display/d08bd462-d0d0-11f1-ab21-bdb9616e85cf/w:1280/p:16x9/2026-10-25T220534Z-34599975-RC2KAOAZJ6YN-RTRMADP-3-BRAZIL-ELECTION.jpg",
+      "article": "https://www.france24.com/en/americas/20261026-brazil-s-president-lula-da-silva-beats-flavio-bolsonaro-to-win-re-election",
+      "hosted": "01-c48dba7e.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 105478,
+      "out": "960x720",
+      "bytes": 72240,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.594,
+        "y": 0.314
+      },
+      "fetchedAt": "2026-10-26T05:32:54.252Z"
+    },
+    {
+      "slot": "02",
+      "id": "serbia-vucic-concedes-2026-10",
+      "headline": "Student List wins Serbian election in political earthquake as Vučić concedes defeat",
+      "source": "https://images.euronews.com/articles/stories/09/96/64/70/1200x675_cmsv2_aa948c8a-b411-56ee-aac3-0ccfb32c5e5f-9966470.jpg",
+      "article": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won",
+      "hosted": "02-2dc5200f.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 105257,
+      "out": "1012x675",
+      "bytes": 111890,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.341,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-26T05:32:54.649Z"
+    },
+    {
+      "slot": "03",
+      "id": "eu-ai-act-first-enforcement-2026-10",
+      "headline": "EU's AI rules face first enforcement test over lab incidents",
+      "source": "https://images.euronews.com/articles/stories/09/95/04/26/1200x675_cmsv2_cd21343b-1e04-5f65-ba0a-af0f79bdb270-9950426.jpg",
+      "article": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+      "hosted": "03-ff5e8473.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 54078,
+      "out": "1012x675",
+      "bytes": 70337,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.17,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-26T05:32:54.958Z"
+    },
+    {
+      "slot": "04",
+      "id": "sk-hynix-kioxia-dividend-2026-10",
+      "headline": "SK hynix weighs $12.1 billion special dividend, newspaper says",
+      "source": "https://d18r0a86za96sg.cloudfront.net/wp-content/uploads/2026/07/14044554/3.-skhynix-lists-adrs-on-nasdaq_01-1-768x432-1.jpg",
+      "article": "https://www.koreaherald.com/article/10914252",
+      "hosted": "04-b573d539.jpg",
+      "srcSize": "768x432",
+      "srcFormat": "jpeg",
+      "srcBytes": 45635,
+      "out": "648x432",
+      "bytes": 25259,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-26T05:32:55.201Z"
+    },
+    {
+      "slot": "06",
+      "id": "riken-silicon-qubit-2026-10",
+      "headline": "RIKEN Team Improves Parallel Control of Silicon Spin Qubits",
+      "source": "https://qfsrg.riken.jp/file/face/12_Leon_rev.jpg",
+      "article": "https://thequantuminsider.com/2026/10/19/riken-team-improves-parallel-control-of-silicon-spin-qubits/",
+      "hosted": "06-ffb33ab5.jpg",
+      "srcSize": "1554x1555",
+      "srcFormat": "jpeg",
+      "srcBytes": 612122,
+      "out": "1554x1036",
+      "bytes": 175552,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.298,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-26T05:32:57.494Z"
+    },
+    {
+      "slot": "07",
+      "id": "ukraine-trilateral-talks-2026-10",
+      "headline": "Trilateral peace talks with Russia, US negotiators to begin in November, Zelensky says",
+      "source": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2300637120_20261023-194329.jpg",
+      "article": "https://kyivindependent.com/trilateral-peace-talks-with-russia-us-negotiators-to-begin-in-november-zelensky-says/",
+      "hosted": "07-c207afb5.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 186581,
+      "out": "1600x1067",
+      "bytes": 97833,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0.293
+      },
+      "fetchedAt": "2026-10-26T05:32:57.863Z"
+    },
+    {
+      "slot": "08",
+      "id": "block-dessa-speech-ai-2026-10",
+      "headline": "Dessa - the Conversation Model trained only on speech",
+      "source": "https://www.coindesk.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fs3y3vcno%2Fproduction%2F7aad17172474a7876af59da08b2b538535468c12-2048x1365.jpg%3Frect%3D0%2C107%2C2048%2C1152%26w%3D1920%26h%3D1080%26auto%3Dformat&w=1200&q=75",
+      "article": "https://block.xyz/dessa",
+      "hosted": "08-f1a2c1af.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 19875,
+      "out": "1012x675",
+      "bytes": 44943,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-26T05:32:58.173Z"
+    },
+    {
+      "slot": "09",
+      "id": "ai-chip-backed-debt-2026-10",
+      "headline": "Blackstone's Chip Financing Fuels AI Debt Market Reshaping Global Credit",
+      "source": "https://image.cnbcfm.com/api/v1/image/108433898-1792439982335-gettyimages-2299248528-wm020115_ej7axcme.jpeg?v=1792440027&w=1920&h=1080",
+      "article": "https://www.bloomberg.com/news/articles/2026-10-23/blackstone-bet-on-chips-drove-a-debt-boom-thats-upending-credit",
+      "hosted": "09-bb36ba8e.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 107726,
+      "out": "1600x1067",
+      "bytes": 106883,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.191,
+        "y": 0.536
+      },
+      "fetchedAt": "2026-10-26T05:32:58.530Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-featured-hassabis-amodei-wef",
+      "headline": "FULL DISCUSSION: Google's Demis Hassabis, Anthropic's Dario Amodei Debate the World After AGI",
+      "source": "https://img.youtube.com/vi/02YLwsCKUww/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=02YLwsCKUww",
+      "hosted": "r01-65989dec.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 170138,
+      "out": "1280x720",
+      "bytes": 88005,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-26T05:32:58.719Z"
+    }
+  ]
+}
