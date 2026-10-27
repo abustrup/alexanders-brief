@@ -235,11 +235,11 @@
       "status": "open"
     },
     {
-      "date": "2026-10-26",
-      "slug": "serien-uden-slutning",
-      "claim": "En serie uden fastlagt sæsonantal får lavere bedømmelse over tid, fordi forfatterne skriver uden at kende slutningen.",
-      "horizon": "Når en systematisk sammenligning af sæsonbedømmelser findes",
-      "falsifier": "En systematisk sammenligning af IMDb- eller Rotten Tomatoes-bedømmelser pr. sæson for afsluttede versus åbne prestigeserier, der ikke viser et fald for de åbne.",
+      "date": "2026-10-27",
+      "slug": "det-andet-ciffer",
+      "claim": "Fabrikerede regnskabstal afviger fra Benfords lov, og afvigelsen findes ofte allerede i de offentliggjorte tal, før nogen har set efter.",
+      "horizon": "ved afsløringen af den næste regnskabsskandale",
+      "falsifier": "Den næste store afslørede regnskabssvindel, undersøgt med Benfords lov på de offentliggjorte tal, viser ingen afvigelse; eller en gennemgang af tidligere sager (Wirecard, Enron) finder ingen.",
       "status": "open"
     }
   ]
