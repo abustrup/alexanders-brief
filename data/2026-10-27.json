@@ -1,0 +1,1263 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-20261027",
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T05:30:00.000Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "27. oktober 2026 – OpenAI hævder at have modbevist en kompleksitetsteoretisk grundsætning, Europas fem største forsvarsmagter navngiver Rusland, og EIFO finansierer ukrainsk våbenproduktion i Danmark",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-openai-eth-2026-10-27",
+      "eventKey": "openai-eth-disproof-2026-10",
+      "materialFacts": [
+        "Model producerede naturligt-sprog-bevis 2026-10-16, Lean-formalisering 2026-10-17, offentliggjort 2026-10-25.",
+        "Algoritmen tæller løsninger til k-CNF-formler i ca. 2^(n/(log n)^(1/2+o(1))) tid.",
+        "To af ETH-hypotesens oprindelige fremsættere, Impagliazzo og Paturi, samt Ryan Williams, gennemgår kravet offentligt.",
+        "Samme dag fremlagde OpenAI yderligere to påstande: et bevis for 'local smoothing'-formodningen og en eksistens-bevisstrategi for Yang-Mills/QCD."
+      ],
+      "section": "AI og matematik",
+      "headline": "OpenAI announces proof that the Exponential Time Hypothesis is false",
+      "primarySourceUrl": "https://pasqualepillitteri.it/en/news/27422/openai-eth-disproved-local-smoothing-kakeya",
+      "subheadline": "En model hævder at vælte en grundsætning – ingen uafhængig part har bekræftet det",
+      "body": [
+        "OpenAI siger, at en model har bevist, at Exponential Time Hypothesis er falsk: antagelsen om, at de hårdeste logiske problemer kun løses eksponentielt hurtigt. Beviset kom 16. oktober, blev Lean-formaliseret dagen efter og udgivet 25. oktober."
+      ],
+      "whyItMatters": "Holder beviset, rykker det en grundsten i kompleksitetsteori, som kryptografi bygger på.",
+      "analysis": "Lean fjerner tvivl om logisk gyldighed, ikke om antagelserne holder i praksis – derfor revisionen.",
+      "counterpoint": "Intet uafhængigt hold har bekræftet det; ETH-medfremsætterne Impagliazzo og Paturi gennemgår kravet nu.",
+      "topics": [
+        "ai",
+        "matematik",
+        "videnskab"
+      ],
+      "entities": [
+        "OpenAI",
+        "Russell Impagliazzo",
+        "Ramamohan Paturi",
+        "Ryan Williams"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 60,
+        "novelty": 90,
+        "sourceQuality": 70,
+        "personalRelevance": 85,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "Beviset blev til 16.-25. oktober 2026 og er formaliseret i Lean, men ikke uafhængigt bekræftet.",
+          "sourceUrls": [
+            "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Et panel med ETH-hypotesens medfremsættere Impagliazzo og Paturi samt Ryan Williams gennemgår kravet offentligt.",
+          "sourceUrls": [
+            "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+            "https://pasqualepillitteri.it/en/news/27422/openai-eth-disproved-local-smoothing-kakeya"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI Says Its Models Produced Three Proofs in Math, CS, and Physics",
+          "publisher": "Unite.AI",
+          "url": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI announces proof that the Exponential Time Hypothesis is false",
+          "publisher": "Pasquale Pillitteri",
+          "url": "https://pasqualepillitteri.it/en/news/27422/openai-eth-disproved-local-smoothing-kakeya",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/01-d5f42545.jpg",
+        "credit": "Kilde: Engadget",
+        "alt": "Arkivfoto af OpenAI: administrerende direktør Sam Altman på scenen under DevDay 2026",
+        "sourceUrl": "https://www.engadget.com/2271985/openai-dev-day-live-blog-chatgpt-news/",
+        "origin": "coverage",
+        "fingerprint": "24244d16164f1b8f2425cd36174b0b992646843713434b3966460633338b8f1d0686067323098d8d8706577343090d04",
+        "lookedAt": "24244d16164f1b8f2425cd36174b0b992646843713434b3966460633338b8f1d0686067323098d8d8706577343090d04",
+        "originalUrl": "https://www.engadget.com/img/gallery/openai-dev-day-live-blog-chatgpt-news/l-intro-1791568937.jpg",
+        "focus": {
+          "x": 0.557,
+          "y": 0.004
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://pasqualepillitteri.it/uploads/img/news/openai-eth-falsa-local-smoothing-kakeya-cover-4x3.webp",
+          "fingerprint": "4298386a64641644c33c38da66441f06a33430e846d62a07587821e8c6c69c435a586118c3a3ba415bc048c883832b40",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "story-e5-paris-2026-10-27",
+      "eventKey": "e5-paris-defence-declaration-2026-10",
+      "materialFacts": [
+        "Forsvarsministre fra Frankrig, Tyskland, Italien, Polen og Storbritannien mødtes i Paris 26. oktober 2026.",
+        "Erklæringen kalder Rusland 'den mest akutte og langvarige trussel mod den euro-atlantiske sikkerhed'.",
+        "De fem forpligter sig til 'større politisk og militær ledelse' i NATO og til sikkerhedsgarantier for Ukraine efter en fredsaftale."
+      ],
+      "section": "Sikkerhedspolitik",
+      "headline": "E5 Defence Ministers' Statement: 26 October 2026",
+      "primarySourceUrl": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+      "subheadline": "Europas fem militærmagter navngiver Rusland og lover større eget ansvar i NATO",
+      "body": [
+        "Forsvarsministrene fra Frankrig, Tyskland, Italien, Polen og Storbritannien – E5 – udsendte 26. oktober en erklæring efter mødet i Paris. De fem lover 'større politisk og militær ledelse' i NATO og fortsat støtte til Ukraine, inklusive sikkerhedsgarantier efter en fredsaftale."
+      ],
+      "whyItMatters": "Europas fem militært tungeste lande vil tage mere ansvar selv, uden at vente på bredere NATO- eller EU-konsensus.",
+      "analysis": "Formatet lader de fem koordinere kapacitetshuller direkte – hurtigere end hele NATO, men med risiko for et A- og B-hold.",
+      "topics": [
+        "sikkerhedspolitik",
+        "forsvar"
+      ],
+      "entities": [
+        "Frankrig",
+        "Tyskland",
+        "Italien",
+        "Polen",
+        "Storbritannien",
+        "NATO",
+        "Rusland",
+        "Ukraine"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 85,
+        "personalRelevance": 45,
+        "contrast": 35
+      },
+      "primaryExcerpt": {
+        "quote": "Russia represents the most acute and long-term threat to Euro-Atlantic security and stability.",
+        "sourceUrl": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+        "sourceTitle": "E5 Defence Ministers' Statement: 26 October 2026"
+      },
+      "claims": [
+        {
+          "text": "De fem forsvarsministre kalder Rusland den mest akutte og langvarige trussel mod euro-atlantisk sikkerhed.",
+          "sourceUrls": [
+            "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "E5 Defence Ministers' Statement: 26 October 2026",
+          "publisher": "UK Government",
+          "url": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Europe's top five defence powers to name Russia as greatest threat",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/europe/2026/10/26/europes-top-five-defence-powers-to-name-russia-as-greatest-threat/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/02-9a513b09.jpg",
+        "credit": "Foto: EPA via The National",
+        "alt": "Deltagerne ved E5-forsvarsministermødet i Paris den 26. oktober 2026",
+        "sourceUrl": "https://www.thenationalnews.com/news/europe/2026/10/26/europes-top-five-defence-powers-to-name-russia-as-greatest-threat/",
+        "origin": "source",
+        "fingerprint": "037f76363437772d537f76b6b626766a97fd72b2a66e72eaffff5373636f72ebfd53537372425bfbfcd991d1f3d3dad9",
+        "lookedAt": "037f76363437772d537f76b6b626766a97fd72b2a66e72eaffff5373636f72ebfd53537372425bfbfcd991d1f3d3dad9",
+        "originalUrl": "https://www.thenationalnews.com/resizer/v2/NLOG7MDVCCBVG4EUQ3OUJTYGVQ.jpg?auth=c72b60a871e28b0413a5d63c24d430fabda634d873b13ced4fba0388f9e5ab28&smart=true&width=1200&height=630",
+        "focus": {
+          "x": 0.107,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-eifo-firepoint-2026-10-27",
+      "eventKey": "eifo-fire-point-financing-2026-10",
+      "materialFacts": [
+        "EIFO stiller DKK 750 mio. (ca. 113 mio. dollar) i statsgaranteret finansiering til rådighed for Fire Point.",
+        "Pengene finansierer en fabrik til fast raketdrivmiddel ved Skrydstrup, forventet i drift ultimo 2027.",
+        "Garantien skyldes, at krigen gør det svært for Fire Point at få et almindeligt banklån i Danmark."
+      ],
+      "section": "Forsvar og erhverv",
+      "headline": "EIFO provides financing for Ukrainian defence production in Denmark",
+      "primarySourceUrl": "https://eifo.dk/en/knowledge-hub/eifo-provides-financing-for-ukrainian-defence-production-in-denmark",
+      "subheadline": "Staten garanterer 750 mio. kr. til ukrainsk raketproduktion i Sønderjylland",
+      "body": [
+        "EIFO oplyste 21. oktober, at den stiller DKK 750 mio. (ca. 113 mio. dollar) i statsgaranteret finansiering til det ukrainske forsvarsfirma Fire Points fabrik for fast raketdrivmiddel nær Skrydstrup ved Vojens, ventet i drift ultimo 2027. Garantien findes, fordi krigen gør et almindeligt banklån svært."
+      ],
+      "whyItMatters": "Det flytter dele af Ukraines våbenproduktion til dansk jord, finansieret af staten.",
+      "analysis": "Statsgaranti frem for tilskud lægger risikoen hos staten, men holder ejerskab og teknologi hos Fire Point.",
+      "topics": [
+        "danmark",
+        "forsvar",
+        "erhverv"
+      ],
+      "entities": [
+        "EIFO",
+        "Fire Point",
+        "Danmark",
+        "Ukraine",
+        "Skrydstrup Flyvestation",
+        "Vojens"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 70,
+        "personalRelevance": 70,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "EIFO garanterer DKK 750 mio. til Fire Points fabrik ved Skrydstrup, drift ultimo 2027.",
+          "sourceUrls": [
+            "https://eifo.dk/en/knowledge-hub/eifo-provides-financing-for-ukrainian-defence-production-in-denmark",
+            "https://kyivindependent.com/denmark-guarantees-113-million-loan-for-ukrainian-defense-company-fire-point/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EIFO provides financing for Ukrainian defence production in Denmark",
+          "publisher": "EIFO",
+          "url": "https://eifo.dk/en/knowledge-hub/eifo-provides-financing-for-ukrainian-defence-production-in-denmark",
+          "publishedAt": "2026-10-21T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Denmark guarantees $113 million loan for Ukrainian defense company Fire Point",
+          "publisher": "Kyiv Independent",
+          "url": "https://kyivindependent.com/denmark-guarantees-113-million-loan-for-ukrainian-defense-company-fire-point/",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/03-ce0170e7.jpg",
+        "credit": "Foto: AP/Efrem Lukatsky via Kyiv Independent",
+        "alt": "En medarbejder efterser en kampdrone i Fire Points fabrik i Ukraine (arkivfoto, 18. august 2025)",
+        "sourceUrl": "https://kyivindependent.com/denmark-guarantees-113-million-loan-for-ukrainian-defense-company-fire-point/",
+        "origin": "source",
+        "fingerprint": "2bcbd81f79f98a3e6b9abc1f78f9811ec999be1b78fc819ec93dbe1bf9fc00851dac7f19f8fe9c202cfa1f51fcfefe38",
+        "lookedAt": "2bcbd81f79f98a3e6b9abc1f78f9811ec999be1b78fc819ec93dbe1bf9fc00851dac7f19f8fe9c202cfa1f51fcfefe38",
+        "originalUrl": "https://assets.kyivindependent.com/content/images/2026/10/AP25231590873937_20260518-170244_20261021-152459-16x9.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0.786
+        }
+      }
+    },
+    {
+      "id": "story-china-export-2026-10-27",
+      "eventKey": "china-ai-export-controls-draft-2026-10",
+      "materialFacts": [
+        "Kinas handelsministerium offentliggjorde 16. oktober et udkast til eksportkontrol på 40 teknologisystemer, 23 AI-relaterede.",
+        "Udkastet retter sig mod sprogmodeller, AI-chipdesign og computerklynger over bestemte præstationsgrænser.",
+        "Offentlig høring løber til 15. november, hvorefter en endelig version ventes."
+      ],
+      "section": "Teknologisk suverænitet",
+      "headline": "China says it will curb tech exports, including AI, citing national security risks",
+      "primarySourceUrl": "https://www.pbs.org/newshour/world/china-says-it-will-curb-tech-exports-including-ai-citing-national-security-risks",
+      "subheadline": "Kina vil kræve eksportlicens på 23 AI-teknologier midt i en spæd handelsvåbenhvile",
+      "body": [
+        "Kinas handelsministerium fremlagde 16. oktober et udkast til eksportkontrol på 40 teknologier, 23 AI-relaterede. Høring løber til 15. november. Samme uge protesterede Beijing mod en amerikansk ordre om DeepSeek."
+      ],
+      "whyItMatters": "Et kinesisk eksportregime for AI former, hvem danske firmaer kan samarbejde med.",
+      "analysis": "Kontrollen ligner mest et forsøg på at holde avancerede systemer hjemme end et pressionsmiddel mod USA.",
+      "counterpoint": "De fleste teknologier undtages reelle restriktioner – bredere i navn end praksis.",
+      "topics": [
+        "teknologisk-suverænitet",
+        "ai",
+        "geopolitik"
+      ],
+      "entities": [
+        "Kina",
+        "Handelsministeriet",
+        "USA",
+        "DeepSeek"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 45,
+        "sourceQuality": 65,
+        "personalRelevance": 60,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Kinas udkast dækker 40 teknologisystemer, 23 AI-relaterede, med høring til 15. november.",
+          "sourceUrls": [
+            "https://www.pbs.org/newshour/world/china-says-it-will-curb-tech-exports-including-ai-citing-national-security-risks"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "China says it will curb tech exports, including AI, citing national security risks",
+          "publisher": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/china-says-it-will-curb-tech-exports-including-ai-citing-national-security-risks",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "China targets AI technology exports with new controls as US trade truce frays",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/future/technology/2026/10/16/china-targets-ai-technology-exports-with-new-controls-as-us-trade-truce-frays/",
+          "publishedAt": "2026-10-16T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/04-3d8a1535.jpg",
+        "credit": "Kilde: The National",
+        "alt": "Chinese President Xi Jinping, left, and US President Donald Trump are at loggerheads over export controls. Reuters",
+        "sourceUrl": "https://www.thenationalnews.com/future/technology/2026/10/16/china-targets-ai-technology-exports-with-new-controls-as-us-trade-truce-frays/",
+        "origin": "source",
+        "fingerprint": "3919d9d9d8d19ba33839b9b9f890992338b8b8b9b8b499a138383838b8b4349478783c383c3a26345c5c7c787c7a6372",
+        "lookedAt": "3919d9d9d8d19ba33839b9b9f890992338b8b8b9b8b499a138383838b8b4349478783c383c3a26345c5c7c787c7a6372",
+        "originalUrl": "https://www.thenationalnews.com/resizer/v2/TY633K3BMEJQG3TW5T3NYCETHY.jpg?auth=9c90ca9efa7b4134e328b78f39231488bb855d566669cba184eda5ab32b2f26b&smart=true&width=1200&height=630",
+        "focus": {
+          "x": 0.857,
+          "y": 0.571
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://d3i6fh83elv35t.cloudfront.net/static/2026/10/2026-07-18T152522Z_416417339_RC26GMAK9V8F_RTRMADP_3_CHINA-AI-1024x683.jpg",
+          "fingerprint": "83691b1a5aa62997314d1b9b9aa3293544cc191b99236d798448595999234d484c59595d9c3943ccdd99dc9c9c38e5c7",
+          "reason": "off-topic"
+        }
+      ]
+    },
+    {
+      "id": "story-aaif-2026-10-27",
+      "eventKey": "anthropic-agent-skills-donation-aaif-2026-10",
+      "materialFacts": [
+        "Anthropic donerer standarden Agent Skills, navn, logo, GitHub-organisation og domænet agentskills.io til Agentic AI Foundation under Linux Foundation.",
+        "Over 70 agent-platforme, bl.a. ChatGPT, Cursor, GitHub Copilot og VS Code, har integreret Agent Skills.",
+        "Siden standarden udkom i december 2025 er omkring 1 million 'skills' udgivet med næsten 280 millioner installationer."
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "Donating Agent Skills to the Agentic AI Foundation",
+      "primarySourceUrl": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "subheadline": "Anthropic giver agent-standard til en neutral fond efter 70 platformes opbakning",
+      "body": [
+        "Anthropic meddelte 22. oktober, at det donerer standarden Agent Skills, navn og domæne til Agentic AI Foundation (Linux Foundation), stiftet med Block og OpenAI. 70+ platforme – ChatGPT, Cursor, Copilot, VS Code – har integreret den; siden december er 1 mio. 'skills' udgivet med 280 mio. installationer."
+      ],
+      "whyItMatters": "At give en standard videre før en konkurrent bygger sin egen er en vej til fastholdelse i et umættet marked.",
+      "analysis": "Donationen koster kontrol over mærket, men øger chancen for, at netop denne standard vinder.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Anthropic",
+        "Agentic AI Foundation",
+        "Linux Foundation",
+        "OpenAI",
+        "Block",
+        "ChatGPT",
+        "Cursor",
+        "GitHub Copilot"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 45,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 10
+      },
+      "claims": [
+        {
+          "text": "Anthropic donerer Agent Skills til Agentic AI Foundation; 70+ platforme, ca. 1 mio. skills, ca. 280 mio. installationer.",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Donating Agent Skills to the Agentic AI Foundation",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+          "publishedAt": "2026-10-22T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/AI-1.png",
+          "fingerprint": "93818e4ac3d174e4a1858c49c3d2e666028b4bc943936a76820a0988c392d8e74b099a8dc793906b4a8a8e95c5b1b1aa",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "story-novolilly-2026-10-27",
+      "eventKey": "novo-nordisk-eli-lilly-ad-ruling-2026-10",
+      "materialFacts": [
+        "Dommer Zahid Quraishi afviste 27. oktober Novo Nordisks krav om midlertidigt forbud mod Eli Lillys reklamer.",
+        "Eli Lillys reklamer sammenligner 20,2% vægttab for Zepbound mod 13,7% for Wegovy.",
+        "Dommeren fandt, at Novo ikke havde vist uoprettelig skade; recepttallene var stabile april-juli."
+      ],
+      "section": "Erhverv",
+      "headline": "US judge rejects Novo Nordisk bid to halt Eli Lilly's weight-loss drug ads",
+      "primarySourceUrl": "https://www.business-standard.com/world-news/us-judge-rejects-novo-nordisk-bid-to-halt-eli-lilly-s-weight-loss-drug-ads-126102700107_1.html",
+      "subheadline": "Dommer lader Eli Lilly fortsætte reklamer, Novo kalder dem vildledende",
+      "body": [
+        "Dommer Zahid Quraishi afviste 27. oktober Novos krav om forbud mod Eli Lillys reklamer, der sammenligner 20,2% vægttab mod 13,7% for Wegovy. Novo mener sammenligningen bruger ulige doser; dommeren fandt ingen uoprettelig skade."
+      ],
+      "whyItMatters": "Afgørelsen lader Eli Lillys reklamer stå, mens Novos hovedsag om vildledende markedsføring kører.",
+      "analysis": "At dommeren vægtede receptdata over påstået goodwill-skade sætter en høj bevisbyrde.",
+      "counterpoint": "Novo Nordisk påpeger, at afgørelsen ikke tager stilling til, om reklamerne er vildledende.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "biotek",
+        "usa"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Eli Lilly",
+        "Zahid Quraishi",
+        "Wegovy",
+        "Zepbound",
+        "Mounjaro"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 45,
+        "novelty": 55,
+        "sourceQuality": 60,
+        "personalRelevance": 55,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Dommer Quraishi afviste 27. oktober 2026 et forbud mod Eli Lillys ads; sagen om vildledende reklame fortsætter.",
+          "sourceUrls": [
+            "https://www.business-standard.com/world-news/us-judge-rejects-novo-nordisk-bid-to-halt-eli-lilly-s-weight-loss-drug-ads-126102700107_1.html",
+            "https://www.ibj.com/articles/judge-wont-block-lilly-ads-for-weight-loss-drugs-in-ruling-against-novo-nordisk"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US judge rejects Novo Nordisk bid to halt Eli Lilly's weight-loss drug ads",
+          "publisher": "Business Standard",
+          "url": "https://www.business-standard.com/world-news/us-judge-rejects-novo-nordisk-bid-to-halt-eli-lilly-s-weight-loss-drug-ads-126102700107_1.html",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Judge won't block Lilly ads for weight-loss drugs in ruling against Novo Nordisk",
+          "publisher": "Indianapolis Business Journal",
+          "url": "https://www.ibj.com/articles/judge-wont-block-lilly-ads-for-weight-loss-drugs-in-ruling-against-novo-nordisk",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/06-dd9dcaf0.jpg",
+        "credit": "Kilde: Business Standard",
+        "alt": "Arkivfoto af Novo Nordisks skilt og hovedkvarter",
+        "sourceUrl": "https://www.business-standard.com/world-news/us-judge-rejects-novo-nordisk-bid-to-halt-eli-lilly-s-weight-loss-drug-ads-126102700107_1.html",
+        "origin": "article",
+        "fingerprint": "fad6d2d9c1c6c9cda6f2d2d8c0c6cdcde3b3b398e0c6cc8da3b3b19de4c3cc8c63313514b4a38b8c21353652b423011e",
+        "lookedAt": "fad6d2d9c1c6c9cda6f2d2d8c0c6cdcde3b3b398e0c6cc8da3b3b19de4c3cc8c63313514b4a38b8c21353652b423011e",
+        "originalUrl": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/06/thumb/fitandfill/1200X628/1778060364-5461.JPG",
+        "focus": {
+          "x": 0.1,
+          "y": 0.957
+        }
+      }
+    },
+    {
+      "id": "story-un-gaza-2026-10-27",
+      "eventKey": "un-gaza-genocide-report-2026-10",
+      "materialFacts": [
+        "FN's uafhængige undersøgelseskommission siger, Israel fortsat begår folkedrabshandlinger i Gaza efter våbenhvilen fra oktober 2025.",
+        "Israelsk territorial kontrol i Gaza er udvidet fra 53% til mindst 60% siden våbenhvilen; mindst 196 palæstinensere, heraf 43 børn, er dræbt langs frontlinjen.",
+        "Mere end 1.400 palæstinensere er dræbt i Gaza i året efter våbenhvilen, ifølge det palæstinensiske sundhedsministerium."
+      ],
+      "section": "Geopolitik",
+      "headline": "Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds",
+      "primarySourceUrl": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+      "subheadline": "FN: Israel fortsætter folkedrab",
+      "body": [
+        "FN's undersøgelseskommission sagde 26. oktober, at Israel fortsat begår folkedrabshandlinger i Gaza trods våbenhvilen fra 2025. Kontrollen er udvidet fra 53% til 60%; 196 dræbt, 43 børn."
+      ],
+      "whyItMatters": "Rapporten viser, at drab fortsætter efter en våbenhvile, der skulle stoppe det.",
+      "analysis": "Kommissionen kan ikke anklage, men fund kan bruges i senere straffesager mod leverandør.",
+      "counterpoint": "Israel afviser anklagerne om folkedrab og har længe kritiseret kommissionens arbejde som partisk.",
+      "topics": [
+        "geopolitik",
+        "menneskerettigheder"
+      ],
+      "entities": [
+        "FN",
+        "Uafhængig International Undersøgelseskommission",
+        "Srinivasan Muralidhar",
+        "Israel",
+        "Gaza"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 30,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 20,
+        "contrast": 60
+      },
+      "primaryExcerpt": {
+        "quote": "Israel's expansion of territorial control in Gaza continues to result in the killing and harming of Palestinian civilians who approach or cross the Yellow Line.",
+        "sourceUrl": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+        "sourceTitle": "Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds"
+      },
+      "claims": [
+        {
+          "text": "Israelsk kontrol i Gaza udvidet fra 53% til mindst 60% siden våbenhvilen; mindst 196 dræbt langs linjen, heraf 43 børn.",
+          "sourceUrls": [
+            "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+            "https://www.thenationalnews.com/news/us/2026/10/26/gaza-ceasefire-genocide-un/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds",
+          "publisher": "OHCHR",
+          "url": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Gaza ceasefire has not stopped Israeli 'genocidal acts', UN commission says",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/us/2026/10/26/gaza-ceasefire-genocide-un/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/07-7adb856a.jpg",
+        "credit": "Foto: Reuters via The National",
+        "alt": "Sørgende til begravelsen for tre palæstinensere dræbt ved et israelsk angreb, ved Al-Shifa-hospitalet i Gaza by, 25. oktober",
+        "sourceUrl": "https://www.thenationalnews.com/news/us/2026/10/26/gaza-ceasefire-genocide-un/",
+        "origin": "source",
+        "fingerprint": "18182eae0e48071d18482faf8e8c031718472d2d1facc9070cc72d2d5f0c880346456c6d5b4f4cc1434c6ccd1b9f4c4c",
+        "lookedAt": "18182eae0e48071d18482faf8e8c031718472d2d1facc9070cc72d2d5f0c880346456c6d5b4f4cc1434c6ccd1b9f4c4c",
+        "originalUrl": "https://www.thenationalnews.com/resizer/v2/GW3R3YLI2MWZ7CJU5HOARBCHAI.jpg?auth=7f9253c32c8b9ef937ed600ad2369013cb1b261652676dda32022a3e89786094&smart=true&width=1200&height=630",
+        "focus": {
+          "x": 0.613,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-israel-election-2026-10-27",
+      "eventKey": "israel-election-2026-10-27",
+      "materialFacts": [
+        "Israel går til valg 27. oktober 2026, første valg siden angrebet 7. oktober 2023.",
+        "Sidste Maariv-måling gav oppositionens 'forandringsblok' 54 mandater mod 48 til Netanyahus blok, begge under de 61 mandater, der kræves for regeringsmagt.",
+        "Valgkampen har handlet om ansvar for sikkerhedssvigt, ultraortodokses undtagelse fra militærtjeneste og arabisk-ledede partiers deltagelse."
+      ],
+      "section": "Demokrati",
+      "headline": "Israel heads to the polls as shift to the right dominates critical election",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election",
+      "subheadline": "Israel stemmer i sit første valg siden 7. oktober 2023, uden sikker føring",
+      "body": [
+        "Israel går til valg 27. oktober, det første siden Hamas-angrebet 7. oktober 2023. Sidste måling gav oppositionen under Gadi Eisenkot 54 mandater mod 48 til Netanyahus blok – begge under de 61, der kræves for regeringsmagt. Kampen har handlet om ansvar for sikkerhedssvigt og militærfritagelse."
+      ],
+      "whyItMatters": "Resultatet afgør, om Netanyahus højreorienterede koalition fortsætter, eller en centristisk blok tager over.",
+      "analysis": "At ingen blok når spærregrænsen betyder, at mindre partiers krav bliver afgørende for retningen.",
+      "topics": [
+        "demokrati",
+        "geopolitik"
+      ],
+      "entities": [
+        "Benjamin Netanyahu",
+        "Gadi Eisenkot",
+        "Likud",
+        "Knesset",
+        "Israel"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 40,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 15,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Sidste Maariv-måling: oppositionens blok 54 mandater, Netanyahus blok 48, begge under 61.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israel heads to the polls as shift to the right dominates critical election",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Israel election 2026: War, security and coalition math",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/israel-election-netanyahu-iran-gaza-palestine.html",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/08-4cd95b64.jpg",
+        "credit": "Foto: Erik Marmor/Getty via Al Jazeera",
+        "alt": "Premierminister og Likud-leder Benjamin Netanyahu taler til tilhængere i Tel Aviv, 17. september",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election",
+        "origin": "article",
+        "fingerprint": "d91c3c38d3677f79992c1a38936767393c2c5a38b347673b6c4e1b383193e36bde8d197871b3c7cbad3d39f8f033a3c1",
+        "lookedAt": "d91c3c38d3677f79992c1a38936767393c2c5a38b347673b6c4e1b383193e36bde8d197871b3c7cbad3d39f8f033a3c1",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ac26efa5e-1791127290.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.1,
+          "y": 0.536
+        }
+      }
+    },
+    {
+      "id": "story-oleshky-2026-10-27",
+      "eventKey": "ukraine-oleshky-ceasefire-2026-10",
+      "materialFacts": [
+        "Lokal våbenhvile i det russisk-besatte Oleshky trådte i kraft 27. oktober kl. 03.00 Kyiv-tid.",
+        "Mere end 6.000 civile, heraf omkring 200 børn, har siden slutningen af maj 2026 været afskåret fra regelmæssig fødevareforsyning.",
+        "Det Hvide Hus siger, at førstedame Melania Trump hjalp med at formidle aftalen; Rusland og Ukraine har separat bekræftet trepartssamtaler med USA i Abu Dhabi i første halvdel af november."
+      ],
+      "section": "Geopolitik",
+      "headline": "Local ceasefire in besieged Oleshky begins, Ukrainian, Russian officials say",
+      "primarySourceUrl": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+      "subheadline": "En afgrænset våbenhvile skal evakuere civile fra den belejrede by Oleshky",
+      "body": [
+        "En lokal våbenhvile i Oleshky trådte i kraft 27. oktober for mineoprydning, fødevarer og evakuering. Over 6.000 civile, heraf cirka 200 børn, har siden maj været afskåret fra forsyning. Melania Trump hjalp med at formidle aftalen; trepartssamtaler med USA følger i november."
+      ],
+      "whyItMatters": "Et afgrænset gennembrud tester, om siderne kan overholde en aftale før de større samtaler.",
+      "analysis": "At en tredje part fik aftalen i hus uden om formelle spor viser, personlige kanaler kan løse afgrænsede problemer.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Oleshky",
+        "Kherson",
+        "Melania Trump",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 35,
+        "novelty": 65,
+        "sourceQuality": 65,
+        "personalRelevance": 25,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Våbenhvilen i Oleshky trådte i kraft 27. oktober kl. 03.00 Kyiv-tid for en humanitær mission.",
+          "sourceUrls": [
+            "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Local ceasefire in besieged Oleshky begins, Ukrainian, Russian officials say",
+          "publisher": "Kyiv Independent",
+          "url": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+          "publishedAt": "2026-10-26T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Russia, Ukraine trilateral peace talks scheduled for first half of November",
+          "publisher": "Anadolu Agency",
+          "url": "https://www.aa.com.tr/en/eurasia/russia-ukraine-trilateral-peace-talks-scheduled-for-first-half-of-november/4098424",
+          "publishedAt": "2026-10-25T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/09-5f2577b5.jpg",
+        "credit": "Foto: Danylo Antoniuk/Ukrinform/NurPhoto via Getty Images",
+        "alt": "Aktivister holder skilte til støtte for beboerne i Oleshky ved en demonstration i Kyiv, 6. oktober",
+        "sourceUrl": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+        "origin": "article",
+        "fingerprint": "6559d9cd4b836361745d9dcd89838371d45c1c8d898383f194941c8c8801a3b196969c8c0c00012136b72c060d440141",
+        "lookedAt": "6559d9cd4b836361745d9dcd89838371d45c1c8d898383f194941c8c8801a3b196969c8c0c00012136b72c060d440141",
+        "originalUrl": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2298460671_20261027-024809_20261027-025013.jpg",
+        "focus": {
+          "x": 0.8,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-spacex-flight15-2026-10-27",
+      "eventKey": "spacex-starship-flight15-double-catch-2026-10",
+      "materialFacts": [
+        "Elon Musk meddelte 20. oktober på SpaceX's regnskabsopkald, at Flight 15 vil forsøge at fange begge Starship-trin.",
+        "Booster 22 gennemførte en statisk test af sine Raptor 3-motorer 25. oktober.",
+        "Intet tidligere Starship-opsendelse har fanget begge trin; skibet er oftest gået tabt eller er blevet opbrugt."
+      ],
+      "section": "Rumfart",
+      "headline": "SpaceX will attempt 1st-ever double Starship rocket catch on next test launch, a 'profound technology milestone,' Elon Musk says",
+      "primarySourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+      "subheadline": "SpaceX vil forsøge at fange både booster og skib på samme flyvning",
+      "body": [
+        "Elon Musk sagde 20. oktober, at Flight 15 næste måned vil forsøge at fange begge Starship-trin – aldrig før gjort. Booster 22 testede 25. oktober. Skibet er hidtil oftest tabt; kun boosteren er fanget."
+      ],
+      "whyItMatters": "Et dobbeltfang sænker prisen pr. flyvning og kræves for gentagen brug",
+      "analysis": "Musk har varslet milepæle før flyvninger, der endte med tab af fartøjet – ambition, mønster",
+      "counterpoint": "Starship har forsinkelser og eksplosioner på netop de trin, der nu skal fanges samtidig.",
+      "topics": [
+        "rumfart",
+        "teknologi"
+      ],
+      "entities": [
+        "SpaceX",
+        "Elon Musk",
+        "Starship",
+        "Super Heavy",
+        "Booster 22"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 30,
+        "novelty": 60,
+        "sourceQuality": 55,
+        "personalRelevance": 30,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Musk annoncerede 20. oktober 2026 et planlagt dobbeltfang på Flight 15; Booster 22 statisk testet 25. oktober.",
+          "sourceUrls": [
+            "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+            "https://www.space.com/space-exploration/launches-spacecraft/spacex-ignites-giant-super-heavy-booster-engines-ahead-of-daring-starship-launch-video"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SpaceX will attempt 1st-ever double Starship rocket catch on next test launch, a 'profound technology milestone,' Elon Musk says",
+          "publisher": "Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+          "publishedAt": "2026-10-20T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "SpaceX ignites giant Super Heavy booster engines ahead of daring Starship launch (video)",
+          "publisher": "Space.com",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-ignites-giant-super-heavy-booster-engines-ahead-of-daring-starship-launch-video",
+          "publishedAt": "2026-10-25T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/10-b1be273d.jpg",
+        "credit": "Kilde: Space.com",
+        "alt": "Starships øverste trin og Super Heavy-boosteren adskilles over opsendelsestårnet i Texas under en tidligere testflyvning",
+        "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+        "origin": "article",
+        "fingerprint": "272f371717971b33271f371f17973b332f1f371f17133b311f37371f17133b391f37371f3f32336d1f37379f3f33337b",
+        "lookedAt": "272f371717971b33271f371f17973b332f1f371f17133b311f37371f17133b391f37371f3f32336d1f37379f3f33337b",
+        "originalUrl": "https://cdn.mos.cms.futurecdn.net/2Bd2iSfNPm9ugmCJu55V3P-1200-80.jpg",
+        "focus": {
+          "x": 0.438,
+          "y": 0.5
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/bdHKBGYDk9vQ58gCeTzvgW-2318-80.jpg",
+          "fingerprint": "c0c42028286ada44c02020686c689844802268686c689850826248686c6c889823c4d8c8e5cdc9b9a1c099cde5c5cd0d",
+          "reason": "screen-text"
+        }
+      ]
+    },
+    {
+      "id": "story-hibsago-2026-10-27",
+      "eventKey": "fda-hibsago-bepirovirsen-approval-2026-10",
+      "materialFacts": [
+        "FDA godkendte GSK's Hibsago (bepirovirsen) 20. oktober, forud for tidsfristen 26. oktober.",
+        "Godkendt i kombination med standard antiviral behandling til voksne med kronisk hepatitis B uden cirrhose, med undertrykt HBV-DNA og HBsAg under 3000 IU/mL.",
+        "Godkendelsen kom under FDA's prioriterede gennemgang og 'Breakthrough Therapy'-status."
+      ],
+      "section": "Biotek",
+      "headline": "Hibsago (bepirovirsen) approved in the US for the treatment of chronic hepatitis B (CHB)",
+      "primarySourceUrl": "https://www.gsk.com/en-gb/media/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb/",
+      "subheadline": "Første antisense-lægemiddel mod kronisk hepatitis B godkendt i USA, før fristen",
+      "body": [
+        "FDA godkendte 20. oktober GSK's Hibsago (bepirovirsen) mod kronisk hepatitis B, seks dage før fristen. Stoffet er et antisense-oligonukleotid, givet med antiviral behandling til voksne uden cirrhose med undertrykt HBV-DNA. Godkendt under prioriteret gennemgang."
+      ],
+      "whyItMatters": "Det er den første godkendte antisense-behandling mod en sygdom uden kurativ standardbehandling i dag.",
+      "analysis": "At FDA godkendte seks dage før fristen afspejler en klar datapakke snarere end politisk pres.",
+      "topics": [
+        "biotek",
+        "sundhed"
+      ],
+      "entities": [
+        "GSK",
+        "FDA",
+        "Ionis",
+        "Hibsago"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 35,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 25,
+        "contrast": 10
+      },
+      "claims": [
+        {
+          "text": "FDA godkendte Hibsago (bepirovirsen) 20. oktober 2026 til kronisk hepatitis B under prioriteret gennemgang.",
+          "sourceUrls": [
+            "https://www.gsk.com/en-gb/media/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb/",
+            "https://www.biospace.com/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hibsago (bepirovirsen) approved in the US for the treatment of chronic hepatitis B (CHB)",
+          "publisher": "GSK",
+          "url": "https://www.gsk.com/en-gb/media/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb/",
+          "publishedAt": "2026-10-20T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Hibsago (bepirovirsen) Approved in the US for the Treatment of Chronic Hepatitis B (CHB)",
+          "publisher": "BioSpace",
+          "url": "https://www.biospace.com/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb",
+          "publishedAt": "2026-10-20T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/11-bc56011e.jpg",
+        "credit": "Kilde: GSK",
+        "alt": "Arkivfoto fra GSKs laboratorium i Stevenage, Storbritannien",
+        "sourceUrl": "https://www.gsk.com/en-gb/media/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb/",
+        "origin": "article",
+        "fingerprint": "0c44ce0e2475d3ce44c4cf0a2476d39744c6cf8d2676f292868f8f0d2666f292838f050c6767f3d307964656e567e3f1",
+        "lookedAt": "0c44ce0e2475d3ce44c4cf0a2476d39744c6cf8d2676f292868f8f0d2666f292838f050c6767f3d307964656e567e3f1",
+        "originalUrl": "https://www.gsk.com/media/p3clrlre/stvg_2_2022_smtlab_17_hess.jpg?width=600&format=webp&quality=100&v=1dbd496701ca530&hmac=ab24aca71bcd831e94bc74c882b7abfdb757d8f146e8db21ae52c0375a0fd10d",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://static.biospace.com/dims4/default/d32393a/2147483647/strip/true/crop/1120x630+40+0/resize/1440x810!/quality/90/?url=https%3A%2F%2Fk1-prod-biospace.s3.us-east-2.amazonaws.com%2Fbrightspot%2Fcc%2F88%2Fa9fddaf440db946b77e1d45d2e26%2Fbiospace-5.png",
+          "fingerprint": "00242cc95d0d440000322cc9d54c440488224cc8c5b4402088624d88a4b428a088628c996436261204510c1da6520221",
+          "reason": "logo-or-card"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "headline": "GPT-6.1 Terra",
+      "text": "GPT-6.1 Terra",
+      "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "publisher": "Simon Willison",
+      "section": "AI",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "OpenAI udgav GPT-6.1 Terra med fokus på visuel ræsonnering og computerbrug til konkurrencedygtig pris i forhold til forgængeren.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "headline": "Forslag til finanslov for finansåret 2027",
+      "text": "Forslag til finanslov for finansåret 2027",
+      "url": "https://fm.dk/udgivelser/2026/oktober/forslag-til-finanslov-for-finansaaret-2027/",
+      "publisher": "Finansministeriet",
+      "section": "Danmark",
+      "publishedAt": "2026-10-09T00:00:00.000Z",
+      "summary": "Regeringens finanslovsforslag hæver forsvarsudgifter til 3,5% af BNP i 2030 og foreslår lavere selskabsskat og afskaffelse af topskatten.",
+      "topics": [
+        "danmark",
+        "økonomi"
+      ]
+    },
+    {
+      "headline": "China's Ministry of Commerce issues formal objection to US order stripping DeepSeek from federal systems",
+      "text": "China's Ministry of Commerce issues formal objection to US order stripping DeepSeek from federal systems",
+      "url": "https://startupfortune.com/china-opposes-us-deepseek-ban-as-it-drafts-its-own-export-controls/",
+      "publisher": "Startup Fortune",
+      "section": "AI",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Kina kalder en amerikansk ordre om at fjerne DeepSeek fra føderale systemer i strid med forståelsen mellem Xi og Trump.",
+      "topics": [
+        "ai",
+        "geopolitik"
+      ]
+    },
+    {
+      "headline": "Nvidia CEO Jensen Huang says quantum computers could help train AI",
+      "text": "Nvidia CEO Jensen Huang says quantum computers could help train AI",
+      "url": "https://cryptobriefing.com/jensen-huang-quantum-computing-ai-training/",
+      "publisher": "Crypto Briefing",
+      "section": "AI",
+      "publishedAt": "2026-10-25T00:00:00.000Z",
+      "summary": "Huang foreslår, at kvantecomputere kan simulere biologi og kemi og dermed generere syntetisk træningsdata til AI-modeller.",
+      "topics": [
+        "ai",
+        "quantum"
+      ]
+    },
+    {
+      "headline": "Europe Intelligence Brief for Monday, October 26, 2026",
+      "text": "Europe Intelligence Brief for Monday, October 26, 2026",
+      "url": "https://www.riotimesonline.com/europe-intelligence-brief-monday-october-26-2026/",
+      "publisher": "Rio Times",
+      "section": "Forsvar",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Frankrig testede en laser mod droner ombord på hangarskibet Charles de Gaulle under dets igangværende togt.",
+      "topics": [
+        "forsvar"
+      ]
+    },
+    {
+      "headline": "Lockheed Martin's subsidiary PZL Mielec to produce F-35 wiring harnesses in Poland",
+      "text": "Lockheed Martin's subsidiary PZL Mielec to produce F-35 wiring harnesses in Poland",
+      "url": "https://defence-industry.eu/lockheed-martins-subsidiary-pzl-mielec-to-produce-f-35-wiring-harnesses-in-poland/",
+      "publisher": "Defence Industry Europe",
+      "section": "Forsvar",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "summary": "Første levering af F-35-ledningsnet fra den polske fabrik er planlagt til juli 2027.",
+      "topics": [
+        "forsvar"
+      ]
+    },
+    {
+      "headline": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+      "text": "NVIDIA Runs Record Simulation of Fault-Tolerant Quantum Computing at Jülich Supercomputing Centre",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
+      "publisher": "Nvidia",
+      "section": "Kvante",
+      "publishedAt": "2026-10-19T00:00:00.000Z",
+      "summary": "En 104-qubit-simulation på JUPITER validerede en metode, der kræver 90% færre fysiske qubits til fejltolerant kvantecomputing.",
+      "topics": [
+        "quantum"
+      ]
+    },
+    {
+      "headline": "Novo's CagriSema was associated with 25% weight loss on average for women in a post hoc analysis of REDEFINE 1 presented at The Menopause Society Annual Meeting",
+      "text": "Novo's CagriSema was associated with 25% weight loss on average for women in a post hoc analysis of REDEFINE 1 presented at The Menopause Society Annual Meeting",
+      "url": "https://www.biospace.com/press-releases/novos-cagrisema-was-associated-with-25-weight-loss-on-average-for-women-in-a-post-hoc-analysis-of-redefine-1-presented-at-the-menopause-society-annual-meeting",
+      "publisher": "BioSpace",
+      "section": "Biotek",
+      "publishedAt": "2026-10-20T00:00:00.000Z",
+      "summary": "Post-hoc-analysen bruger et effektestimat, der antager fortsat behandling og ingen anden vægttabsbehandling.",
+      "topics": [
+        "biotek"
+      ]
+    },
+    {
+      "headline": "Open call for guest investigators in the life sciences",
+      "text": "Open call for guest investigators in the life sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "publisher": "Anthropic",
+      "section": "AI",
+      "publishedAt": "2026-10-22T00:00:00.000Z",
+      "summary": "Anthropic åbner for, at udenforstående forskere kan bruge selskabets modeller på life science-forskning som gæsteforskere.",
+      "topics": [
+        "ai",
+        "biotek"
+      ]
+    },
+    {
+      "headline": "Awiqli Weekly Insulin Approved for Kids 10 and Up, but Child Data Come From One 18-Patient Dosing Study",
+      "text": "Awiqli Weekly Insulin Approved for Kids 10 and Up, but Child Data Come From One 18-Patient Dosing Study",
+      "url": "https://www.inkl.com/news/awiqli-weekly-insulin-approved-for-kids-10-and-up-but-child-data-come-from-one-18-patient-dosing-study",
+      "publisher": "Inkl",
+      "section": "Biotek",
+      "publishedAt": "2026-10-23T00:00:00.000Z",
+      "summary": "Awiqli, Novo Nordisks ugentlige basalinsulin, er godkendt til børn fra 10 år med type 2-diabetes, syv måneder efter godkendelse til voksne.",
+      "topics": [
+        "biotek"
+      ]
+    },
+    {
+      "headline": "Starship reaches orbit, releases 26 'V3' Starlink satellites",
+      "text": "Starship reaches orbit, releases 26 'V3' Starlink satellites",
+      "url": "https://www.lightreading.com/satellite/starship-reaches-orbit-releases-26-high-capacity-v3-starlink-satellites",
+      "publisher": "Light Reading",
+      "section": "Rumfart",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "summary": "Starship fløj 28. september sin første mission til orbit og satte 26 Starlink V3-satellitter ud, hver med op til 1 Tbit/s kapacitet.",
+      "topics": [
+        "rumfart"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "det-andet-ciffer",
+    "title": "Det andet ciffer",
+    "thesis": "Fabrikerede regnskabstal afviger fra Benfords lov, og afvigelsen findes i tallene selv",
+    "horizon": "ved den næste regnskabsskandale",
+    "body": [
+      "Benfords lov siger, at cirka 30% af tal i voksende mængder starter med 1, kun 5% med 9. Et opfundet tal glemmer skævheden; revisorer bruger testen til at fange det."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis den næste store afslørede regnskabssvindel – undersøgt med samme test anvendt på de tal, selskabet offentliggjorde før afsløringen – ikke viser en målbar afvigelse fra Benfords forventede cifferfordeling, eller hvis en systematisk gennemgang af tidligere sager (Wirecard, Enron) ikke finder den afvigelse, nogen allerede har offentliggjort.",
+    "topics": [
+      "matematik",
+      "revision"
+    ],
+    "claims": [
+      {
+        "text": "Benfords lov forudsiger, at cirka 30% af førstecifre i naturlige talmængder er 1, og cirka 5% er 9.",
+        "sourceUrls": [
+          "https://www.sciencedirect.com/science/article/pii/S1877050922017665"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Integrated application of Benford's Law tests to detect corporate fraud",
+        "publisher": "ScienceDirect",
+        "url": "https://www.sciencedirect.com/science/article/pii/S1877050922017665",
+        "publishedAt": "2022-01-01T00:00:00.000Z",
+        "kind": "analysis"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-lexfridman-crisis-math",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Podcast (video)",
+      "status": "new",
+      "title": "AI Crisis in Math",
+      "creator": "Lex Fridman med Ankur Moitra, Steven Brunton og Alex Kontorovich",
+      "provider": "Lex Fridman Podcast",
+      "url": "https://www.youtube.com/watch?v=ZAzWPE9CItg",
+      "availability": "Tilgængelig nu, alle regioner",
+      "commitment": "3 t 43 min",
+      "description": "Tre matematikere – Moitra (MIT, kompleksitetsteori), Brunton (University of Washington, strømningsdynamik) og Kontorovich (Rutgers, talteori og Lean-baserede beviser) – diskuterer, at AI-systemer på få uger har produceret løsningsforslag til flere af matematikkens sværeste problemer.",
+      "rationale": "Dagens førstehistorie handler om en AI-model, der hævder at have væltet en kompleksitetsteoretisk grundsætning, uden uafhængig bekræftelse endnu. Kontorovich arbejder netop med Lean-baseret beviskontrol, den samme metode OpenAI brugte – så dette giver dig et værktøj til selv at vurdere, hvor meget den slags formalisering reelt beviser, i stedet for blot at læse endnu en nyhedsartikel om kravet.",
+      "topics": [
+        "ai",
+        "matematik"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/r01-e1aaca3b.jpg",
+        "credit": "Lex Fridman Podcast",
+        "alt": "Lex Fridman i samtale med tre matematikere om AI og matematikkens kriseøjeblik",
+        "sourceUrl": "https://www.youtube.com/watch?v=ZAzWPE9CItg",
+        "originalUrl": "https://i.ytimg.com/vi/ZAzWPE9CItg/maxresdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec-anthropic-s1",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Børsprospekt",
+      "status": "new",
+      "title": "Anthropic, PBC - Form S-1",
+      "provider": "U.S. Securities and Exchange Commission",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
+      "commitment": "1-2 timer (uddrag)",
+      "note": "Selve registreringsdokumentet fra 26. oktober, ikke et referat af det – det primærdokument, en investeringsanalytiker rent faktisk læser.",
+      "topics": [
+        "erhverv",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-openai-blog-proofs",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk blogindlæg",
+      "status": "new",
+      "title": "Working with academic communities to build scientific understanding",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "commitment": "10-15 min",
+      "note": "OpenAIs egen fremstilling af de tre matematik/fysik-påstande bag dagens førstehistorie, læst ved siden af kritikken.",
+      "topics": [
+        "ai",
+        "matematik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-quine-two-dogmas",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Primærtekst, filosofi",
+      "status": "classic",
+      "title": "Two Dogmas of Empiricism",
+      "creator": "W.V.O. Quine",
+      "provider": "The Philosophical Review (1951)",
+      "url": "https://www.theologie.uzh.ch/dam/jcr:ffffffff-fbd6-1538-0000-000070cf64bc/Quine51.pdf",
+      "commitment": "35-45 min",
+      "note": "Analytisk filosofi i primærtekst, en tradition uden for de 74 læste titler; angriber selve skellet mellem analytiske og syntetiske sandheder, som meget af hans kontinentale læsning tager for givet.",
+      "topics": [
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-webframe",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Værktøj / blogindlæg",
+      "status": "new",
+      "title": "webframe: evaluated as a scraper and a sandbox",
+      "creator": "Simon Willison",
+      "provider": "simonwillison.net",
+      "url": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+      "commitment": "10 min",
+      "note": "Et værktøj, Simon Willison faktisk har afprøvet til web-scraping og sandboxing, ikke bare en annoncering.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-stratechery-end-internet",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "The End of the Internet",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/the-end-of-the-internet/",
+      "commitment": "15-20 min",
+      "note": "Thompson argumenterer for mindre, fællesskabsdrevne platforme frem for skala, som svar på sikkerhedshuller og AI's pres på det åbne internet.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nvidia-ising",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Åbne AI-modeller",
+      "status": "new",
+      "title": "NVIDIA Launches Ising, the World's First Open AI Models to Accelerate the Path to Useful Quantum Computers",
+      "provider": "NVIDIA",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Ising-the-Worlds-First-Open-AI-Models-to-Accelerate-the-Path-to-Useful-Quantum-Computers/default.aspx",
+      "commitment": "20-30 min",
+      "note": "Konkrete, afprøvelige åbne modeller til kvantecomputing-forskning, et underbetjent interesseområde i arkivet.",
+      "topics": [
+        "quantum",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-anyons-arxiv",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Forskningsartikel",
+      "status": "new",
+      "title": "Interferometric braiding of non-Abelian anyons",
+      "creator": "Francesco Debortoli, Fabian Grusdt",
+      "provider": "arXiv",
+      "url": "https://arxiv.org/abs/2610.06203",
+      "commitment": "30-40 min",
+      "note": "Primærartikel (5. oktober) om en byggesten i topologisk kvantecomputing, læst direkte, ikke i et referat.",
+      "topics": [
+        "quantum"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 90,
+    "freshness": 95,
+    "novelty": 85,
+    "perspectiveBalance": 85,
+    "render": 90
+  }
+}

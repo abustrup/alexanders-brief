@@ -1,0 +1,227 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-27",
+  "generatedAt": "2026-10-27T09:19:53.725Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-openai-eth-2026-10-27",
+      "headline": "OpenAI announces proof that the Exponential Time Hypothesis is false",
+      "source": "https://www.engadget.com/img/gallery/openai-dev-day-live-blog-chatgpt-news/l-intro-1791568937.jpg",
+      "article": "https://pasqualepillitteri.it/en/news/27422/openai-eth-disproved-local-smoothing-kakeya",
+      "hosted": "01-d5f42545.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 152470,
+      "out": "1200x900",
+      "bytes": 45482,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.557,
+        "y": 0.004
+      },
+      "fetchedAt": "2026-10-27T09:19:54.172Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-e5-paris-2026-10-27",
+      "headline": "E5 Defence Ministers' Statement: 26 October 2026",
+      "source": "https://www.thenationalnews.com/resizer/v2/NLOG7MDVCCBVG4EUQ3OUJTYGVQ.jpg?auth=c72b60a871e28b0413a5d63c24d430fabda634d873b13ced4fba0388f9e5ab28&smart=true&width=1200&height=630",
+      "article": "https://www.gov.uk/government/news/e5-defence-ministers-statement-26-october-2026",
+      "hosted": "02-9a513b09.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 36543,
+      "out": "945x630",
+      "bytes": 51421,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.107,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-27T09:19:54.776Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-eifo-firepoint-2026-10-27",
+      "headline": "EIFO provides financing for Ukrainian defence production in Denmark",
+      "source": "https://assets.kyivindependent.com/content/images/2026/10/AP25231590873937_20260518-170244_20261021-152459-16x9.jpg",
+      "article": "https://eifo.dk/en/knowledge-hub/eifo-provides-financing-for-ukrainian-defence-production-in-denmark",
+      "hosted": "03-ce0170e7.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 85998,
+      "out": "1012x675",
+      "bytes": 62727,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.786
+      },
+      "fetchedAt": "2026-10-27T09:19:55.097Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-china-export-2026-10-27",
+      "headline": "China says it will curb tech exports, including AI, citing national security risks",
+      "source": "https://www.thenationalnews.com/resizer/v2/TY633K3BMEJQG3TW5T3NYCETHY.jpg?auth=9c90ca9efa7b4134e328b78f39231488bb855d566669cba184eda5ab32b2f26b&smart=true&width=1200&height=630",
+      "article": "https://www.pbs.org/newshour/world/china-says-it-will-curb-tech-exports-including-ai-citing-national-security-risks",
+      "hosted": "04-3d8a1535.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 22849,
+      "out": "945x630",
+      "bytes": 43489,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 0.571
+      },
+      "fetchedAt": "2026-10-27T09:19:55.355Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-novolilly-2026-10-27",
+      "headline": "US judge rejects Novo Nordisk bid to halt Eli Lilly's weight-loss drug ads",
+      "source": "https://bsmedia.business-standard.com/_media/bs/img/article/2026-05/06/thumb/fitandfill/1200X628/1778060364-5461.JPG",
+      "article": "https://www.business-standard.com/world-news/us-judge-rejects-novo-nordisk-bid-to-halt-eli-lilly-s-weight-loss-drug-ads-126102700107_1.html",
+      "hosted": "06-dd9dcaf0.jpg",
+      "srcSize": "1200x628",
+      "srcFormat": "heif",
+      "srcBytes": 16730,
+      "out": "942x628",
+      "bytes": 46417,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.957
+      },
+      "fetchedAt": "2026-10-27T09:19:55.729Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-un-gaza-2026-10-27",
+      "headline": "Israel has committed war crimes and crimes against humanity in the Occupied Palestinian Territory amid continuing genocide in Gaza, UN Commission of Inquiry finds",
+      "source": "https://www.thenationalnews.com/resizer/v2/GW3R3YLI2MWZ7CJU5HOARBCHAI.jpg?auth=7f9253c32c8b9ef937ed600ad2369013cb1b261652676dda32022a3e89786094&smart=true&width=1200&height=630",
+      "article": "https://www.ohchr.org/en/press-releases/2026/10/israel-has-committed-war-crimes-and-crimes-against-humanity-occupied",
+      "hosted": "07-7adb856a.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 88201,
+      "out": "945x630",
+      "bytes": 91400,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.613,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-27T09:19:56.069Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-israel-election-2026-10-27",
+      "headline": "Israel heads to the polls as shift to the right dominates critical election",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/getty_6ac26efa5e-1791127290.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/27/israel-heads-to-the-polls-as-shift-to-the-right-dominates-critical-election",
+      "hosted": "08-4cd95b64.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 505760,
+      "out": "1600x1067",
+      "bytes": 183962,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.536
+      },
+      "fetchedAt": "2026-10-27T09:19:56.603Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-oleshky-2026-10-27",
+      "headline": "Local ceasefire in besieged Oleshky begins, Ukrainian, Russian officials say",
+      "source": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2298460671_20261027-024809_20261027-025013.jpg",
+      "article": "https://kyivindependent.com/local-ceasefire-in-besieged-oleshky-begins-ukrainian-russian-officials-say/",
+      "hosted": "09-5f2577b5.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 141727,
+      "out": "1200x800",
+      "bytes": 125157,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-27T09:19:56.946Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-spacex-flight15-2026-10-27",
+      "headline": "SpaceX will attempt 1st-ever double Starship rocket catch on next test launch, a 'profound technology milestone,' Elon Musk says",
+      "source": "https://cdn.mos.cms.futurecdn.net/2Bd2iSfNPm9ugmCJu55V3P-1200-80.jpg",
+      "article": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-attempt-1st-ever-double-starship-rocket-catch-on-next-test-launch-a-profound-technology-milestone-elon-musk-says",
+      "hosted": "10-b1be273d.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 72055,
+      "out": "1012x675",
+      "bytes": 48911,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.5
+      },
+      "fetchedAt": "2026-10-27T09:19:57.350Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-hibsago-2026-10-27",
+      "headline": "Hibsago (bepirovirsen) approved in the US for the treatment of chronic hepatitis B (CHB)",
+      "source": "https://www.gsk.com/media/p3clrlre/stvg_2_2022_smtlab_17_hess.jpg?width=600&format=webp&quality=100&v=1dbd496701ca530&hmac=ab24aca71bcd831e94bc74c882b7abfdb757d8f146e8db21ae52c0375a0fd10d",
+      "article": "https://www.gsk.com/en-gb/media/press-releases/hibsago-bepirovirsen-approved-in-the-us-for-the-treatment-of-chronic-hepatitis-b-chb/",
+      "hosted": "11-bc56011e.jpg",
+      "srcSize": "600x400",
+      "srcFormat": "webp",
+      "srcBytes": 97290,
+      "out": "600x400",
+      "bytes": 33250,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-27T09:19:57.587Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-lexfridman-crisis-math",
+      "headline": "AI Crisis in Math",
+      "source": "https://i.ytimg.com/vi/ZAzWPE9CItg/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=ZAzWPE9CItg",
+      "hosted": "r01-e1aaca3b.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 177529,
+      "out": "1280x720",
+      "bytes": 97917,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-27T09:19:57.786Z"
+    }
+  ]
+}
