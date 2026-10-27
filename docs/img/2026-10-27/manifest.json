@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-27",
-  "generatedAt": "2026-10-27T09:19:53.725Z",
+  "generatedAt": "2026-10-27T16:35:48.018Z",
   "pictures": [
     {
       "slot": "01",
@@ -202,6 +202,26 @@
       },
       "underFloor": true,
       "fetchedAt": "2026-10-27T09:19:57.587Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-coreweave-denmark-2026-10-27",
+      "headline": "CoreWeave Expands Global AI Cloud Platform With New Capacity in Denmark and First Global AI Network Backbone",
+      "source": "https://www.atnorth.com/wp-content/uploads/2026/02/ATN-DEN01-WEB-04.jpg",
+      "article": "https://www.coreweave.com/news/coreweave-expands-global-ai-cloud-platform-with-new-capacity-in-denmark-and-first-ai-network-backbone",
+      "hosted": "12-11e45533.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 646404,
+      "out": "1600x1067",
+      "bytes": 99154,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-27T16:35:48.401Z"
     },
     {
       "slot": "r01",

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-20261027",
+  "runId": "run-2026-10-27-umidday-r165",
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T05:30:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-27T16:33:58.084Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "27. oktober 2026 – OpenAI hævder at have modbevist en kompleksitetsteoretisk grundsætning, Europas fem største forsvarsmagter navngiver Rusland, og EIFO finansierer ukrainsk våbenproduktion i Danmark",
   "profileWeights": {
@@ -927,6 +927,98 @@
           "reason": "logo-or-card"
         }
       ]
+    },
+    {
+      "id": "story-coreweave-denmark-2026-10-27",
+      "eventKey": "coreweave-denmark-datacenter-2026-10",
+      "materialFacts": [
+        "CoreWeave har aktiveret det meste af 22,5 MW IT-kapacitet hos atNorths DEN01-datacenter i København, selskabets første anlæg i Danmark.",
+        "Kapaciteten kører på Nvidia Blackwell-systemer med Quantum-X800 InfiniBand-netværk.",
+        "Overskudsvarme fra centret leveres til Københavns fjernvarmenet via en aftale med atNorth.",
+        "Udvidelsen bringer CoreWeaves europæiske fodaftryk til ni datacentre i fem lande (UK, Spanien, Sverige, Norge, Danmark)."
+      ],
+      "section": "Teknologi og erhverv",
+      "headline": "CoreWeave Expands Global AI Cloud Platform With New Capacity in Denmark and First Global AI Network Backbone",
+      "primarySourceUrl": "https://www.coreweave.com/news/coreweave-expands-global-ai-cloud-platform-with-new-capacity-in-denmark-and-first-ai-network-backbone",
+      "subheadline": "Amerikansk cloud-selskab åbner sit første danske AI-datacenter i København",
+      "body": [
+        "CoreWeave oplyste 27. oktober, at det har aktiveret det meste af 22,5 MW IT-kapacitet hos atNorths DEN01-center i København, selskabets første anlæg i Danmark, med Nvidia Blackwell-chips. Overskudsvarme fra centret leveres til Københavns fjernvarmenet."
+      ],
+      "whyItMatters": "Det er endnu en udenlandsk AI-datacenterinvestering i Danmark, denne gang kommerciel og uden statstilskud.",
+      "topics": [
+        "danmark",
+        "ai",
+        "teknologisk-suverænitet",
+        "erhverv"
+      ],
+      "entities": [
+        "CoreWeave",
+        "atNorth",
+        "Nvidia",
+        "København",
+        "Danmark"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 50,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 75,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "CoreWeave har aktiveret 22,5 MW IT-kapacitet hos atNorths DEN01-center i København, sit første anlæg i Danmark.",
+          "sourceUrls": [
+            "https://www.coreweave.com/news/coreweave-expands-global-ai-cloud-platform-with-new-capacity-in-denmark-and-first-ai-network-backbone"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "CoreWeave Expands Global AI Cloud Platform With New Capacity in Denmark and First Global AI Network Backbone",
+          "publisher": "CoreWeave",
+          "url": "https://www.coreweave.com/news/coreweave-expands-global-ai-cloud-platform-with-new-capacity-in-denmark-and-first-ai-network-backbone",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "CoreWeave Activates Denmark AI Capacity and Extends Global Network Backbone",
+          "publisher": "Unite.AI",
+          "url": "https://www.unite.ai/coreweave-activates-denmark-ai-capacity-and-extends-global-network-backbone/",
+          "publishedAt": "2026-10-27T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/12-11e45533.jpg",
+        "credit": "Kilde: atNorth",
+        "alt": "atNorths DEN01-datacenter i Ballerup ved København, hvor CoreWeave har aktiveret sin første danske AI-kapacitet",
+        "sourceUrl": "https://www.atnorth.com/nordic-data-centers/denmark-data-centers/copenhagen-metro-site/",
+        "origin": "source",
+        "fingerprint": "20c33c00009c069612c03e00001c861641c63e00001c982209c21a01201c1c2300cb1d0140361c1205cd0c01a0763e1a",
+        "lookedAt": "20c33c00009c069612c03e00001c861641c63e00001c982209c21a01201c1c2300cb1d0140361c1205cd0c01a0763e1a",
+        "originalUrl": "https://www.atnorth.com/wp-content/uploads/2026/02/ATN-DEN01-WEB-04.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://cdn.prod.website-files.com/62bc66d283fd9c34ffec780a/6adf89a0b611cb96f1e9aef5_coreweave-earth-network_meta-share_1200x630.jpg",
+          "fingerprint": "00880f77feffde7c04900f77fefffff6042107f7faefffb60f1107f6fbefffbe000307f6fbef6f7ff80763e7f9ceefd7",
+          "reason": "stock-or-ai"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-27T16:33:58.084Z",
+        "runId": "run-2026-10-27-umidday-r165"
+      }
     }
   ],
   "signals": [
@@ -1259,5 +1351,20 @@
     "novelty": 85,
     "perspectiveBalance": 85,
     "render": 90
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-10-27T16:33:58.084Z",
+      "runId": "run-2026-10-27-umidday-r165",
+      "added": 1,
+      "cost": {
+        "usd": 1.5821145999999993,
+        "inputTokens": 1544027,
+        "outputTokens": 19642,
+        "turns": 44,
+        "seconds": 340
+      }
+    }
+  ]
 }
