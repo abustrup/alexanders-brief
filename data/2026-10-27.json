@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-27-umidday-r165",
+  "runId": "run-2026-10-27-uafternoon-r167",
   "date": "2026-10-27",
-  "generatedAt": "2026-10-27T16:33:58.084Z",
-  "readingMinutes": 10,
+  "generatedAt": "2026-10-27T20:36:55.427Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "27. oktober 2026 – OpenAI hævder at have modbevist en kompleksitetsteoretisk grundsætning, Europas fem største forsvarsmagter navngiver Rusland, og EIFO finansierer ukrainsk våbenproduktion i Danmark",
   "profileWeights": {
@@ -1019,6 +1019,97 @@
         "at": "2026-10-27T16:33:58.084Z",
         "runId": "run-2026-10-27-umidday-r165"
       }
+    },
+    {
+      "id": "story-israel-election-exitpolls-2026-10-27",
+      "eventKey": "israel-election-2026-10-27-exitpolls",
+      "materialFacts": [
+        "Stemmelokalerne i Israel lukkede tirsdag aften 27. oktober 2026.",
+        "Kanal 12-exitpoll: Eisenkots blok 52, Netanyahus blok 50, arabiske partier 18.",
+        "Kanal 13-exitpoll: Eisenkots blok 53, Netanyahus blok 50, arabiske partier 17.",
+        "Ingen blok når de 61 mandater, der kræves for et flertal i Knesset."
+      ],
+      "section": "Demokrati",
+      "headline": "Israel election exit polls: Opposition edges Netanyahu, Likud largest as Arab parties surge",
+      "primarySourceUrl": "https://www.ynetnews.com/article/skd97fc2gl",
+      "subheadline": "Exitpolls efter stemmelokalernes lukning viser intet klart flertal",
+      "body": [
+        "Exitpolls fra Kanal 12 og 13 tirsdag aften giver Eisenkots blok 52-53 mandater mod 50 til Netanyahu, mens arabisk-ledede partier får et rekordstort antal på 17-18. Likud er største enkeltparti. Ingen blok når de 61 mandater, der kræves for regeringsmagt."
+      ],
+      "whyItMatters": "Tallene er exitpolls, ikke det endelige resultat, men peger mod uger med koalitionsforhandlinger uden sikker vinder.",
+      "topics": [
+        "demokrati",
+        "geopolitik"
+      ],
+      "entities": [
+        "Benjamin Netanyahu",
+        "Gadi Eisenkot",
+        "Likud",
+        "Knesset",
+        "Israel"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 35,
+        "novelty": 70,
+        "sourceQuality": 60,
+        "personalRelevance": 15,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Kanal 12-exitpoll: Eisenkots blok 52 mandater, Netanyahus blok 50, arabiske partier 18.",
+          "sourceUrls": [
+            "https://www.ynetnews.com/article/skd97fc2gl",
+            "https://www.timesofisrael.com/liveblog_entry/channel-12-exit-poll-shows-no-clear-victor-netanyahus-likud-is-largest-party-but-his-opponents-have-bigger-bloc/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Kanal 13-exitpoll: Eisenkots blok 53 mandater, Netanyahus blok 50, arabiske partier 17.",
+          "sourceUrls": [
+            "https://www.ynetnews.com/article/skd97fc2gl"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Israel election exit polls: Opposition edges Netanyahu, Likud largest as Arab parties surge",
+          "publisher": "Ynetnews",
+          "url": "https://www.ynetnews.com/article/skd97fc2gl",
+          "publishedAt": "2026-10-27T20:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Channel 12 exit poll shows no clear victor: Netanyahu's Likud is largest party but his opponents have bigger bloc",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/channel-12-exit-poll-shows-no-clear-victor-netanyahus-likud-is-largest-party-but-his-opponents-have-bigger-bloc/",
+          "publishedAt": "2026-10-27T19:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-27/13-aa9ec615.jpg",
+        "credit": "Kilde: Ynetnews",
+        "alt": "Israel election exit polls: Opposition edges Netanyahu, Likud largest as Arab parties surge",
+        "sourceUrl": "https://www.ynetnews.com/article/skd97fc2gl",
+        "origin": "article",
+        "fingerprint": "a7a5b5b636b6929e2535b5233636b29a643525633377331b627664657373735372766d6773d3f3b3f3f3cce3f3f3b3f2",
+        "lookedAt": "a7a5b5b636b6929e2535b5233636b29a643525633377331b627664657373735372766d6773d3f3b3f3f3cce3f3f3b3f2",
+        "originalUrl": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/25/rJnCEx32Gx/rJnCEx32Gx_0_97_850_479_0_large.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-27T20:36:55.427Z",
+        "runId": "run-2026-10-27-uafternoon-r167"
+      }
     }
   ],
   "signals": [
@@ -1364,6 +1455,19 @@
         "outputTokens": 19642,
         "turns": 44,
         "seconds": 340
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-10-27T20:36:55.427Z",
+      "runId": "run-2026-10-27-uafternoon-r167",
+      "added": 1,
+      "cost": {
+        "usd": 1.6606766999999998,
+        "inputTokens": 1646754,
+        "outputTokens": 17545,
+        "turns": 47,
+        "seconds": 389.3
       }
     }
   ]

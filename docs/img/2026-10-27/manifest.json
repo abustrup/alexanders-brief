@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-27",
-  "generatedAt": "2026-10-27T16:35:48.018Z",
+  "generatedAt": "2026-10-27T20:38:48.259Z",
   "pictures": [
     {
       "slot": "01",
@@ -222,6 +222,27 @@
         "y": 1
       },
       "fetchedAt": "2026-10-27T16:35:48.401Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-israel-election-exitpolls-2026-10-27",
+      "headline": "Israel election exit polls: Opposition edges Netanyahu, Likud largest as Arab parties surge",
+      "source": "https://ynet-pic1.yit.co.il/picserver6/crop_images/2026/10/25/rJnCEx32Gx/rJnCEx32Gx_0_97_850_479_0_large.jpg",
+      "article": "https://www.ynetnews.com/article/skd97fc2gl",
+      "hosted": "13-aa9ec615.jpg",
+      "srcSize": "490x276",
+      "srcFormat": "webp",
+      "srcBytes": 34230,
+      "out": "414x276",
+      "bytes": 25141,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-27T20:38:48.570Z"
     },
     {
       "slot": "r01",
