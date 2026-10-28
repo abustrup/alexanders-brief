@@ -1,0 +1,270 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-28",
+  "generatedAt": "2026-10-28T08:43:14.434Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-anthropic-s1-20261028",
+      "headline": "AI giant Anthropic files for an IPO that could break records",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2280291489.jpg?c=original&q=w_860,c_fill",
+      "article": "https://www.npr.org/2026/10/26/nx-s1-6014772/anthropic-ai-ipo-could-break-records",
+      "hosted": "01-35cf4235.jpg",
+      "srcSize": "860x574",
+      "srcFormat": "jpeg",
+      "srcBytes": 43113,
+      "out": "765x574",
+      "bytes": 28475,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.549,
+        "y": 0.143
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-28T08:43:14.784Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-iran-war-cost-20261028",
+      "headline": "Iran war has cost $47 billion, U.S. military says",
+      "source": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/03/03/be3aaa73-52ea-45a9-beb9-b85904827254/thumbnail/1200x630/200a6caa02216a982bb6f0ff658fb532/gettyimages-2263711928.jpg",
+      "article": "https://www.cbsnews.com/news/iran-war-cost-centcom-47-billion/",
+      "hosted": "02-b01de124.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 38042,
+      "out": "945x630",
+      "bytes": 36144,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.357
+      },
+      "fetchedAt": "2026-10-28T08:43:15.029Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-nordic-putin-call-20261028",
+      "headline": "Kremlin downplays rare Putin call from leaders of Finland and Norway",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae0fe482156-1793130056.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/27/russia-targets-kyiv-as-finnish-norwegian-leaders-hold-rare-call-with-putin",
+      "hosted": "03-cb7d2a21.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 194200,
+      "out": "1600x1067",
+      "bytes": 148864,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.711,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-28T08:43:15.432Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-genie4-20261028",
+      "headline": "Genie 4: A new generation of world simulation",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Demis_Hassabis_at_2024_Nobel_Week_3.jpg/1920px-Demis_Hassabis_at_2024_Nobel_Week_3.jpg",
+      "article": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "hosted": "04-f9f8a334.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 262452,
+      "out": "1600x1067",
+      "bytes": 103609,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-28T08:43:15.788Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-mithril-20261028",
+      "headline": "Anthropic buys drug startup, reports Claude results with 6 partners",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg/1920px-Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg",
+      "article": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/anthropic-buys-drug-startup-reports-claude-results-with-6-partners/",
+      "hosted": "05-ae6a4f74.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 295395,
+      "out": "1600x1067",
+      "bytes": 109189,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.514,
+        "y": 0.368
+      },
+      "fetchedAt": "2026-10-28T08:43:16.225Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-skhynix-20261028",
+      "headline": "SK Hynix Q3 revenue up 328% YoY to ~$78.8B, operating profit up 632%",
+      "source": "https://wimg.heraldcorp.com/news/cms/2025/01/02/news-p.v1.20250102.0f40de0c542b4d779696df4c0f73af68_P1.png",
+      "article": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
+      "hosted": "06-2fb76a6e.jpg",
+      "srcSize": "512x384",
+      "srcFormat": "png",
+      "srcBytes": 233014,
+      "out": "512x341",
+      "bytes": 13889,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.455,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-28T08:43:18.121Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-openai-tpu-20261028",
+      "headline": "OpenAI plans to buy Google TPUs as it widens its chip supply",
+      "source": "https://techcrunch.com/wp-content/uploads/2025/04/Ironwood.jpg?resize=1200,800",
+      "article": "https://runtimewire.com/article/openai-plans-to-buy-google-tpus",
+      "hosted": "07-0ee49b86.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 39126,
+      "out": "1200x800",
+      "bytes": 46148,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0.482
+      },
+      "fetchedAt": "2026-10-28T08:43:18.390Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-cagrisema-20261028",
+      "headline": "Novo's CagriSema helped women lose 25% of weight on average, analysis shows",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/still-22568831-1797106-22-still.jpg?c=original&q=w_860,c_fill",
+      "article": "https://www.cnbc.com/2026/10/20/novo-cagrisema-women-weight-loss-analysis.html",
+      "hosted": "08-6d950179.jpg",
+      "srcSize": "860x484",
+      "srcFormat": "jpeg",
+      "srcBytes": 47551,
+      "out": "726x484",
+      "bytes": 35149,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-28T08:43:18.576Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-eurohpc-20261028",
+      "headline": "EU opens AI Gigafactories call to spur over EUR 30 billion in investments",
+      "source": "https://www.fz-juelich.de/en/news/archive/press-release/2025/ceremony-jupiter/buehne-6-fz-julich-5-sept-2026_dsc8036.jpg/@@images/image/great",
+      "article": "https://balkangreenenergynews.com/eu-opens-ai-gigafactories-call-to-spur-over-eur-30-billion-in-investments/",
+      "hosted": "09-36fc25c4.jpg",
+      "srcSize": "1200x500",
+      "srcFormat": "jpeg",
+      "srcBytes": 135764,
+      "out": "750x500",
+      "bytes": 53434,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.766,
+        "y": 0.743
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-28T08:43:19.926Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-wmo-ghg-20261028",
+      "headline": "Greenhouse gas levels once again reach record high",
+      "source": "https://wmo.int/sites/default/files/2026-10/Ko%20Barrett_GHG%20Bulletin%20Launch_2026.jpg",
+      "article": "https://wmo.int/news/media-centre/greenhouse-gas-levels-once-again-reach-record-high",
+      "hosted": "10-537ea1ec.jpg",
+      "srcSize": "1449x823",
+      "srcFormat": "png",
+      "srcBytes": 903965,
+      "out": "1234x823",
+      "bytes": 74446,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.398,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-28T08:43:20.259Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-fairford-20261028",
+      "headline": "2 men charged with helping Iran over incident at U.S.-run military base in Britain",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261005-fairford-mb-1146-3f44c8.jpg",
+      "article": "https://www.nbcnews.com/world/united-kingdom/men-charged-raf-fairford-us-military-base-uk-iran-war-rcna605883",
+      "hosted": "11-e457bb54.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 65914,
+      "out": "945x630",
+      "bytes": 46782,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-28T08:43:20.741Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-israel-election-20261028",
+      "headline": "Five key takeaways from Israel's parliamentary elections",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/2026-10-28T000633Z_793668612_RC2ZBOAFXEI7_RTRMADP_3_ISRAEL-ELECTION-1793148037.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/28/five-key-takeaways-from-israels-parliamentary-elections",
+      "hosted": "12-ced98fb8.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 123490,
+      "out": "1600x1067",
+      "bytes": 125035,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.83,
+        "y": 0.743
+      },
+      "fetchedAt": "2026-10-28T08:43:21.118Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-jensen-huang-ycss-20261028",
+      "headline": "Jensen Huang: The Mindset That Built NVIDIA",
+      "source": "https://i.ytimg.com/vi/I4B37S1dyQQ/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=I4B37S1dyQQ",
+      "hosted": "r01-59ffc7ce.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 309057,
+      "out": "1280x720",
+      "bytes": 143884,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-28T08:43:21.339Z"
+    }
+  ]
+}
