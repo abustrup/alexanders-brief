@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-28",
-  "generatedAt": "2026-10-28T17:25:21.430Z",
+  "generatedAt": "2026-10-28T21:02:29.233Z",
   "pictures": [
     {
       "slot": "01",
@@ -265,6 +265,26 @@
         "y": 0
       },
       "fetchedAt": "2026-10-28T17:25:21.881Z"
+    },
+    {
+      "slot": "15",
+      "id": "story-anthropic-spend-tools-20261028",
+      "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "source": "https://www-cdn.anthropic.com/images/4zrzovbb/website/49810dc8aa0de730866f49a164df84646226e880-1152x864.jpg",
+      "article": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "hosted": "15-2199db1b.jpg",
+      "srcSize": "1152x864",
+      "srcFormat": "jpeg",
+      "srcBytes": 108659,
+      "out": "1152x768",
+      "bytes": 90536,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 0.939
+      },
+      "fetchedAt": "2026-10-28T21:02:29.568Z"
     },
     {
       "slot": "r01",

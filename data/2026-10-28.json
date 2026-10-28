@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-28-umidday-r169",
+  "runId": "run-2026-10-28-uafternoon-r171",
   "date": "2026-10-28",
-  "generatedAt": "2026-10-28T17:22:48.577Z",
-  "readingMinutes": 10,
+  "generatedAt": "2026-10-28T20:59:54.510Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "Anthropic går mod børsen, Pentagon sætter pris på Iran-krigen, og Norge og Finland ringer til Putin",
   "profileWeights": {
@@ -1182,6 +1182,169 @@
         "at": "2026-10-28T17:22:48.577Z",
         "runId": "run-2026-10-28-umidday-r169"
       }
+    },
+    {
+      "id": "story-gemini4carbon-20261028",
+      "eventKey": "google-gemini4-carbon-launch-2026-10",
+      "materialFacts": [
+        "Annonceret 28. oktober 2026 af Google DeepMind",
+        "Ranker nr. 1 på Artificial Analysis Intelligence Index v5.0 med score 59",
+        "Rulles først ud til udvalgte cybersikkerhedsforsvarere i Googles Fairwind Program",
+        "Introduktionspris 2 USD/million input-tokens, 10 USD/million output-tokens"
+      ],
+      "section": "AI",
+      "headline": "Gemini 4 Carbon: our next frontier model",
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "subheadline": "Googles nye model tager førstepladsen på benchmarks med fokus på cybersikkerhed",
+      "body": [
+        "Google DeepMind lancerede 28. oktober Gemini 4 Carbon, nu nummer ét på Artificial Analysis Intelligence Index v5.0 med score 59, op fra 50 for Argon. Modellen er bygget til cybersikkerhed og klarer sårbarhedsjagt og patch-generering markant bedre, men er kun åben for udvalgte forsvarere i Googles Fairwind Program."
+      ],
+      "whyItMatters": "Endnu en skiftende førsteplads viser, at kapløbet mellem Google, OpenAI og Anthropic måles i uger.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ],
+      "entities": [
+        "Google DeepMind",
+        "Gemini"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 74,
+        "decisionValue": 62,
+        "novelty": 78,
+        "sourceQuality": 85,
+        "personalRelevance": 74,
+        "contrast": 32
+      },
+      "claims": [
+        {
+          "text": "Google DeepMind announced Gemini 4 Carbon on 28 October 2026, ranked first on the Artificial Analysis Intelligence Index v5.0 with a score of 59",
+          "sourceUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gemini 4 Carbon: our next frontier model",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+          "publishedAt": "2026-10-28T18:25:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Google unveils Gemini 4 Carbon, retaking the world’s No. 1 spot on updated, harder benchmarks — but access is limited",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited",
+          "publishedAt": "2026-10-28T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://images.ctfassets.net/jdtwqhzvc2n1/4OAOGOnNyN9WsGPOlCF5Nz/1956dd2e778b2ae3e0b794a804f1c92b/Carbon_King_Rising_Above_the_Periodic_Table__1_.png?w=1200&h=675&fit=fill&f=center&q=80",
+          "fingerprint": "f8f0c4e439188681b0c4a4e478188685f8c626e474188a03c8e626e6643c0b03d22727e6e67c0d0bb32566c3c67a5c4c",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/vlcsnap-2026-10-27-10h06m52s461-1152x648.png",
+          "fingerprint": "dbd1d11859d998a2d9d91058599998a1f9d01058d99998a9d8945058d859953c90b2d0d094dc341432b2b09012dc3012",
+          "reason": "screen-text"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-28T20:59:54.510Z",
+        "runId": "run-2026-10-28-uafternoon-r171"
+      }
+    },
+    {
+      "id": "story-anthropic-spend-tools-20261028",
+      "eventKey": "anthropic-enterprise-spend-visibility-tools-2026-10",
+      "materialFacts": [
+        "Lanceret 28. oktober 2026 til Claude Code-virksomhedskunder",
+        "Anthropic oplyser 900% net revenue retention fra Q3 2025 til Q3 2026",
+        "Claude Code-forbrug er vokset 10x siden starten af 2026 og udgør nu ca. 2% af virksomheders samlede ingeniøromkostninger",
+        "Data fra rapporteringsværktøjerne bruges ifølge Anthropic ikke til modeltræning som standard"
+      ],
+      "section": "AI",
+      "headline": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "primarySourceUrl": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "subheadline": "Nye rapporteringsværktøjer skal vise effekten af Claude Code",
+      "body": [
+        "Anthropic lancerede 28. oktober rapporteringsværktøjer og delte budgetter, så kunder kan følge teams forbrug af Claude Code. Forbruget er vokset tigange siden start 2026 og udgør nu ca. 2% af kundernes ingeniøromkostninger, mens nettoomsætningsfastholdelsen er 900% fra Q3 2025 til Q3 2026."
+      ],
+      "whyItMatters": "Tallene kommer, mens Anthropic forbereder børsnotering, og giver et konkret mål for Claude Codes vægt i kunders budgetter.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "entities": [
+        "Anthropic",
+        "Claude"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 56,
+        "decisionValue": 60,
+        "novelty": 55,
+        "sourceQuality": 78,
+        "personalRelevance": 72,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Anthropic launched enterprise spend-visibility and pooled-budget tools for Claude Code on 28 October 2026, citing 900% net revenue retention Q3 2025 to Q3 2026",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+          "publishedAt": "2026-10-28T19:19:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/01-workstreams-overview.png",
+          "fingerprint": "10193370c2c5c030901541d0c2c1c8309061c0d0c1c4c84024408090a184888004098990e280080008290010c2000400",
+          "reason": "chart-or-text-card"
+        },
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/03-most-common-frictions.png",
+          "fingerprint": "901002e4e8f1e00e900000d6d8d0d0d0902081d2d0c8d0d18000818284888890800080a280a488900000000001020008",
+          "reason": "chart-or-text-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-28/15-2199db1b.jpg",
+        "credit": "Kilde: Anthropic",
+        "alt": "Arkivfoto af Anthropics kontor, hvor medarbejdere mødes",
+        "sourceUrl": "https://www.anthropic.com/company",
+        "origin": "source",
+        "fingerprint": "4c4c4c5d99d98903cccc8c9c90998903cc8c8c9c9099ad218e8e0e1a10311c2d8e8e9a9a32301c6c0f0f19193134345e",
+        "lookedAt": "4c4c4c5d99d98903cccc8c9c90998903cc8c8c9c9099ad218e8e0e1a10311c2d8e8e9a9a32301c6c0f0f19193134345e",
+        "originalUrl": "https://www-cdn.anthropic.com/images/4zrzovbb/website/49810dc8aa0de730866f49a164df84646226e880-1152x864.jpg",
+        "focus": {
+          "x": 0.857,
+          "y": 0.939
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-28T20:59:54.510Z",
+        "runId": "run-2026-10-28-uafternoon-r171"
+      }
     }
   ],
   "signals": [
@@ -1504,6 +1667,19 @@
         "outputTokens": 26729,
         "turns": 82,
         "seconds": 773.7
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-10-28T20:59:54.510Z",
+      "runId": "run-2026-10-28-uafternoon-r171",
+      "added": 2,
+      "cost": {
+        "usd": 1.6259834000000002,
+        "inputTokens": 1981046,
+        "outputTokens": 21903,
+        "turns": 55,
+        "seconds": 334.5
       }
     }
   ]
