@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-29",
-  "generatedAt": "2026-10-29T17:36:50.056Z",
+  "generatedAt": "2026-10-29T21:03:58.335Z",
   "pictures": [
     {
       "slot": "01",
@@ -244,6 +244,26 @@
         "y": 0.832
       },
       "fetchedAt": "2026-10-29T17:36:50.970Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-alphabet-worst-day-20261029",
+      "headline": "Alphabet shares record their worst day ever, shedding $500 billion in value",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-09/250905-google-se-314p-22bbd0.jpg",
+      "article": "https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322",
+      "hosted": "13-c514414a.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 74568,
+      "out": "945x630",
+      "bytes": 46054,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.509,
+        "y": 0.643
+      },
+      "fetchedAt": "2026-10-29T21:03:58.684Z"
     },
     {
       "slot": "r01",

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-29-umidday-r173",
+  "runId": "run-2026-10-29-uafternoon-r175",
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T17:36:09.325Z",
-  "readingMinutes": 10,
+  "generatedAt": "2026-10-29T21:03:42.437Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief – 29. oktober 2026",
   "dek": "Gemini 4 Carbon, Alphabets rekordkvartal, et togsammenstød i Spanien og klimaets sundhedsregning.",
   "profileWeights": {
@@ -1067,6 +1067,95 @@
         "at": "2026-10-29T17:36:09.325Z",
         "runId": "run-2026-10-29-umidday-r173"
       }
+    },
+    {
+      "id": "story-alphabet-worst-day-20261029",
+      "eventKey": "alphabet-stock-worst-day-2026-10-29",
+      "materialFacts": [
+        "Alphabet-aktien faldt 12,6% torsdag, markedsværdien faldt op mod 524 mia. dollar",
+        "Frit cash flow negativt med 9,07 mia. dollar i 3. kvartal – andet kvartal i træk",
+        "Søgevæksten bremsede op; CBO Philipp Schindler peger på færre annoncer i AI Mode"
+      ],
+      "section": "Erhverv",
+      "headline": "Alphabet shares record their worst day ever, shedding $500 billion in value",
+      "primarySourceUrl": "https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322",
+      "subheadline": "Markedsværdien faldt op mod 524 mia. dollar efter onsdagens regnskab",
+      "body": [
+        "Alphabets aktie faldt 12,6% torsdag og udslettede op mod 524 mia. dollar i markedsværdi – det næststørste tab for en børsnoteret amerikansk aktie nogensinde. Frit cash flow var negativt med 9,07 mia. dollar i 3. kvartal, andet kvartal i træk, mens søgevæksten bremsede op."
+      ],
+      "whyItMatters": "Udsalget viser, at investorer nu kræver et afkast af AI-investeringerne, ikke blot vækst i dem.",
+      "topics": [
+        "erhverv",
+        "ai",
+        "usa"
+      ],
+      "entities": [
+        "Alphabet",
+        "Google",
+        "Philipp Schindler"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 70,
+        "novelty": 55,
+        "sourceQuality": 85,
+        "personalRelevance": 75,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Aktien faldt 12,6% torsdag, og markedsværdien faldt med op til 524 mia. dollar efter kvartalsregnskabet",
+          "sourceUrls": [
+            "https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322",
+            "https://247wallst.com/investing/2026/10/29/alphabet-stock-drops-12-can-its-dividend-survive-the-ai-spending-boom/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Frit cash flow var negativt med 9,07 mia. dollar i 3. kvartal, andet kvartal i træk med negativt cash flow",
+          "sourceUrls": [
+            "https://247wallst.com/investing/2026/10/29/alphabet-stock-drops-12-can-its-dividend-survive-the-ai-spending-boom/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alphabet shares record their worst day ever, shedding $500 billion in value",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322",
+          "publishedAt": "2026-10-29T20:33:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Alphabet Stock Drops 12%. Can Its Dividend Survive the AI Spending Boom?",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/29/alphabet-stock-drops-12-can-its-dividend-survive-the-ai-spending-boom/",
+          "publishedAt": "2026-10-29T19:17:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-29/13-c514414a.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Arkivfoto af Googles skilt ved hovedkvarteret",
+        "sourceUrl": "https://www.nbcnews.com/business/markets/alphabet-google-stock-ai-advertising-rcna606322",
+        "origin": "article",
+        "fingerprint": "fc8786ce4e0605788606068e8a0606380706878f8b0f06140303830f4b0b07160303038dcd0903270101058dad4d0927",
+        "lookedAt": "fc8786ce4e0605788606068e8a0606380706878f8b0f06140303830f4b0b07160303038dcd0903270101058dad4d0927",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-09/250905-google-se-314p-22bbd0.jpg",
+        "focus": {
+          "x": 0.509,
+          "y": 0.643
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-29T21:03:42.437Z",
+        "runId": "run-2026-10-29-uafternoon-r175"
+      }
     }
   ],
   "signals": [
@@ -1397,6 +1486,19 @@
         "outputTokens": 32767,
         "turns": 78,
         "seconds": 571.9
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-10-29T21:03:42.437Z",
+      "runId": "run-2026-10-29-uafternoon-r175",
+      "added": 1,
+      "cost": {
+        "usd": 1.9720671999999995,
+        "inputTokens": 2355434,
+        "outputTokens": 23740,
+        "turns": 62,
+        "seconds": 417.5
       }
     }
   ]
