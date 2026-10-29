@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-29",
-  "generatedAt": "2026-10-29T05:30:20.195Z",
+  "generatedAt": "2026-10-29T17:36:50.056Z",
   "pictures": [
     {
       "slot": "01",
@@ -204,6 +204,46 @@
         "y": 1
       },
       "fetchedAt": "2026-10-29T05:30:25.083Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-cohere-canada-20261029",
+      "headline": "Canada announces landmark investment in Cohere to scale secure, sovereign AI",
+      "source": "https://image.cnbcfm.com/api/v1/image/107433889-1719441078229-Aidan_Gomez_2.png?v=1719441156&w=1920&h=1080",
+      "article": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+      "hosted": "11-7c175440.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 83906,
+      "out": "1600x1067",
+      "bytes": 100147,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 0.239
+      },
+      "fetchedAt": "2026-10-29T17:36:50.583Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-spainprotests-20261029",
+      "headline": "Protests erupt in Spain after train crash kills dozens",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261029-spain-4-rs-2076f6.jpg",
+      "article": "https://www.nbcnews.com/world/spain/spain-train-crash-far-right-protesters-prime-minister-pedro-sanchez-rcna606291",
+      "hosted": "12-ccbc99e7.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 145464,
+      "out": "945x630",
+      "bytes": 56227,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0.832
+      },
+      "fetchedAt": "2026-10-29T17:36:50.970Z"
     },
     {
       "slot": "r01",

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-10-29",
+  "runId": "run-2026-10-29-umidday-r173",
   "date": "2026-10-29",
-  "generatedAt": "2026-10-29T05:00:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-29T17:36:09.325Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief – 29. oktober 2026",
   "dek": "Gemini 4 Carbon, Alphabets rekordkvartal, et togsammenstød i Spanien og klimaets sundhedsregning.",
   "profileWeights": {
@@ -890,6 +890,183 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-cohere-canada-20261029",
+      "eventKey": "cohere-canada-sovereign-ai-investment-2026-10",
+      "materialFacts": [
+        "Canadas regering annoncerede 29/10 en aktieinvestering på op til 1,6 mia. dollar i Cohere",
+        "Investeringen sker side om side med Nvidia, Bell Ventures og tyske Schwarz Group (leadinvestor)",
+        "Cohere sigter mod en Serie E-runde på op til 7 mia. CAD ved en værdisætning på 35,7 mia. CAD",
+        "Cohere forpligter sig til 1.000 nye canadiske teknologijob og 1,7 mia. dollar i datacenterkapacitet før 2030"
+      ],
+      "section": "AI",
+      "headline": "Canada announces landmark investment in Cohere to scale secure, sovereign AI",
+      "primarySourceUrl": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+      "subheadline": "Canadas regering tager en statslig andel i Coheres 7 mia. CAD-runde",
+      "body": [
+        "Mark Carney annoncerede i Montréal, at Canada investerer op til 1,6 mia. dollar som aktiekapital i Cohere, side om side med Nvidia og tyske Schwarz Group, der leder selskabets Serie E-runde på op til 7 mia. CAD ved en værdisætning på 35,7 mia. CAD — landets største private kapitalrejsning."
+      ],
+      "whyItMatters": "En stat medfinansierer nu et nationalt AI-selskab for at sikre kontrol over modeller og data.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Cohere",
+        "Mark Carney",
+        "Government of Canada",
+        "Aidan Gomez",
+        "Nvidia",
+        "Schwarz Group",
+        "Bell Ventures"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 75,
+        "novelty": 70,
+        "sourceQuality": 92,
+        "personalRelevance": 80,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Canadas regering investerer op til 1,6 mia. dollar aktiekapital i Cohere, annonceret 29/10 af PM Mark Carney",
+          "sourceUrls": [
+            "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+            "https://www.newswire.ca/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-811489745.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Cohere sigter mod en Serie E-runde på op til 7 mia. CAD ved en værdisætning på 35,7 mia. CAD",
+          "sourceUrls": [
+            "https://www.newswire.ca/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-811489745.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Canada announces landmark investment in Cohere to scale secure, sovereign AI",
+          "publisher": "Prime Minister of Canada",
+          "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+          "publishedAt": "2026-10-29T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Cohere Announces Series E Fundraise Targeting CAD $7 Billion to Meet Surging Global Demand for Secure, Sovereign AI",
+          "publisher": "Cohere (via CNW/PR Newswire)",
+          "url": "https://www.newswire.ca/news-releases/cohere-announces-series-e-fundraise-targeting-cad-7-billion-to-meet-surging-global-demand-for-secure-sovereign-ai-811489745.html",
+          "publishedAt": "2026-10-29T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-29/11-7c175440.jpg",
+        "credit": "CNBC",
+        "alt": "Aidan Gomez, medstifter og topchef for Cohere",
+        "sourceUrl": "https://www.cnbc.com/2024/07/06/cohere-ceo-and-ex-google-researcher-aidan-gomez-on-how-ai-makes-money.html",
+        "origin": "coverage",
+        "fingerprint": "cacacbcdfc3c76f8cacaceccfe3cf6fccb8b8eccfd3ef6fa89898eceb27eb6f3198d8ecab27bbff70c0e8e4b73f9bff7",
+        "lookedAt": "cacacbcdfc3c76f8cacaceccfe3cf6fccb8b8eccfd3ef6fa89898eceb27eb6f3198d8ecab27bbff70c0e8e4b73f9bff7",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/107433889-1719441078229-Aidan_Gomez_2.png?v=1719441156&w=1920&h=1080",
+        "focus": {
+          "x": 0.889,
+          "y": 0.239
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-29T17:36:09.325Z",
+        "runId": "run-2026-10-29-umidday-r173"
+      }
+    },
+    {
+      "id": "story-spainprotests-20261029",
+      "eventKey": "spain-train-crash-protests-2026-10",
+      "materialFacts": [
+        "Dødstallet efter togulykken i Toledo er opjusteret til mindst 74",
+        "Demonstranter samledes natten til 29/10 uden for transportministeriet i Madrid",
+        "Politiet brugte tåregas, efter demonstranter kastede blus mod kordonen",
+        "Transportminister Óscar Puente kaldte ordren om at genoptage det involverede tog \"uforklarlig\"",
+        "Spanien holder parlamentsvalg 29. november, fire uger efter ulykken"
+      ],
+      "section": "Verden",
+      "headline": "Protests erupt in Spain after train crash kills dozens",
+      "primarySourceUrl": "https://www.nbcnews.com/world/spain/spain-train-crash-far-right-protesters-prime-minister-pedro-sanchez-rcna606291",
+      "subheadline": "Dødstal opjusteret til 74, demonstranter krævede Sánchez afsat",
+      "body": [
+        "Dødstallet efter togulykken i Toledo er opjusteret til mindst 74. Natten til torsdag samledes demonstranter, flere tilknyttet Vox, uden for transportministeriet i Madrid og krævede Sánchez og minister Óscar Puente afsat. Politiet brugte tåregas, da demonstranter kastede blus mod kordonen."
+      ],
+      "whyItMatters": "Ulykken rammer Sánchez i optakten til valget 29. november og skærper spørgsmålet om ansvar for jernbanesikkerheden.",
+      "topics": [
+        "spanien",
+        "politik",
+        "transport"
+      ],
+      "entities": [
+        "Pedro Sánchez",
+        "Óscar Puente",
+        "Vox"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 25,
+        "novelty": 70,
+        "sourceQuality": 85,
+        "personalRelevance": 10,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Dødstallet efter togulykken i Toledo er opjusteret til mindst 74",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/spain/spain-train-crash-far-right-protesters-prime-minister-pedro-sanchez-rcna606291"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Demonstranter krævede Sánchez og Puente afsat, politiet brugte tåregas natten til 29/10",
+          "sourceUrls": [
+            "https://www.nbcnews.com/world/spain/spain-train-crash-far-right-protesters-prime-minister-pedro-sanchez-rcna606291"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Protests erupt in Spain after train crash kills dozens",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/spain/spain-train-crash-far-right-protesters-prime-minister-pedro-sanchez-rcna606291",
+          "publishedAt": "2026-10-29T10:51:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-29/12-ccbc99e7.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Optøjer i Spanien natten til den 29. oktober, efter togulykken der kostede snesevis af dødsfald",
+        "sourceUrl": "https://www.nbcnews.com/world/spain/spain-train-crash-far-right-protesters-prime-minister-pedro-sanchez-rcna606291",
+        "origin": "article",
+        "fingerprint": "3f3f3f1c1d1d0e0f3f3d3f3c1c1c0e0f3f3f3f3c3c1e0f0f3d3f3e3e3e1e0f0f3f3e7e7f2f3f1f0f777fff7f6d7f3f0d",
+        "lookedAt": "3f3f3f1c1d1d0e0f3f3d3f3c1c1c0e0f3f3f3f3c3c1e0f0f3d3f3e3e3e1e0f0f3f3e7e7f2f3f1f0f777fff7f6d7f3f0d",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261029-spain-4-rs-2076f6.jpg",
+        "focus": {
+          "x": 0.379,
+          "y": 0.832
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-29T17:36:09.325Z",
+        "runId": "run-2026-10-29-umidday-r173"
+      }
     }
   ],
   "signals": [
@@ -1207,5 +1384,20 @@
     "novelty": 72,
     "perspectiveBalance": 80,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-10-29T17:36:09.325Z",
+      "runId": "run-2026-10-29-umidday-r173",
+      "added": 2,
+      "cost": {
+        "usd": 3.1567902000000014,
+        "inputTokens": 3944280,
+        "outputTokens": 32767,
+        "turns": 78,
+        "seconds": 571.9
+      }
+    }
+  ]
 }
