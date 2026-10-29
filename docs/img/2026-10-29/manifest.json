@@ -1,0 +1,229 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-29",
+  "generatedAt": "2026-10-29T05:30:20.195Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-gemini4carbon-20261029",
+      "headline": "Gemini 4 Carbon: our next frontier model",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Demis_Hassabis_at_2024_Nobel_Week_3.jpg/1280px-Demis_Hassabis_at_2024_Nobel_Week_3.jpg",
+      "article": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "hosted": "01-02d87aa2.jpg",
+      "srcSize": "1280x853",
+      "srcFormat": "jpeg",
+      "srcBytes": 126503,
+      "out": "1137x853",
+      "bytes": 70647,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.398,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-29T05:30:20.630Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-alphabetq3-20261029",
+      "headline": "Alphabet reports Q3 2026 revenue of $127.6 billion",
+      "source": "https://static01.nyt.com/images/2026/10/28/multimedia/28biz-google-earnings-pcmt/28biz-google-earnings-pcmt-facebookJumbo.jpg",
+      "article": "https://9to5google.com/2026/10/28/alphabet-q3-2026-earnings/",
+      "hosted": "02-61d73250.jpg",
+      "srcSize": "1050x549",
+      "srcFormat": "webp",
+      "srcBytes": 86624,
+      "out": "823x549",
+      "bytes": 70036,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.482,
+        "y": 0.15
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-29T05:30:20.908Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-samsungq3-20261029",
+      "headline": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
+      "source": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/10/28135809/Samsung-Corporate-More-Stories-Third-Quarter-2026-Results_Thumb932.jpg",
+      "article": "https://www.koreaherald.com/article/10918815",
+      "hosted": "03-e7a1d402.jpg",
+      "srcSize": "932x524",
+      "srcFormat": "jpeg",
+      "srcBytes": 157426,
+      "out": "786x524",
+      "bytes": 80312,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-29T05:30:21.175Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-openaisuit-20261029",
+      "headline": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Wade_Foster%2C_Jack_Altman%2C_%26_Sam_Altman_%2852530311472%29.jpg/1280px-Wade_Foster%2C_Jack_Altman%2C_%26_Sam_Altman_%2852530311472%29.jpg",
+      "article": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+      "hosted": "04-23235e8d.jpg",
+      "srcSize": "1280x852",
+      "srcFormat": "jpeg",
+      "srcBytes": 337206,
+      "out": "1278x852",
+      "bytes": 207667,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-29T05:30:21.628Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-fedhold-20261029",
+      "headline": "Federal Reserve issues FOMC statement",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Swearing-in_ceremony_for_Federal_Reserve_Chair_Kevin_Warsh_at_the_White_House%2C_Friday%2C_May_22%2C_2026_-_5.jpg/1280px-Swearing-in_ceremony_for_Federal_Reserve_Chair_Kevin_Warsh_at_the_White_House%2C_Friday%2C_May_22%2C_2026_-_5.jpg",
+      "article": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "hosted": "05-4b1cdb30.jpg",
+      "srcSize": "1280x853",
+      "srcFormat": "jpeg",
+      "srcBytes": 232655,
+      "out": "1279x853",
+      "bytes": 141261,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-29T05:30:22.021Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-spaintrain-20261029",
+      "headline": "High-speed train crash in Spain leaves at least 68 dead, dozens injured, officials say",
+      "source": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/10/28/9030ed7e-5d65-4d5a-ae1e-239cda254394/thumbnail/1200x630/496f8456d3825d3672e1c485aae76219/ap26301360905635.jpg",
+      "article": "https://www.cbsnews.com/news/spain-train-crash-toledo-urda/",
+      "hosted": "06-9ddd915f.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 153434,
+      "out": "945x630",
+      "bytes": 94555,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.825,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-29T05:30:22.374Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-lancetcountdown-20261029",
+      "headline": "Climate change is a growing health emergency, Lancet Countdown warns",
+      "source": "https://lancetcountdown.org/wp-content/uploads/2024/06/Marina-Romanello.png",
+      "article": "https://www.who.int/news/item/28-10-2026-climate-change-is-a-growing-health-emergency--lancet-countdown-warns",
+      "hosted": "07-3299b28b.jpg",
+      "srcSize": "500x500",
+      "srcFormat": "webp",
+      "srcBytes": 205146,
+      "out": "500x333",
+      "bytes": 15988,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.307,
+        "y": 0.761
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-29T05:30:22.659Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-nvisionqubit-20261029",
+      "headline": "German startup NVision shows new path to quantum computing chips in Nature paper",
+      "source": "https://thequantuminsider.com/wp-content/uploads/2026/10/2026-10-28_19-18.png",
+      "article": "https://live.euronext.com/en/financial-news/german-startup-nvision-shows-new-path-quantum-computing-chips-nature-paper",
+      "hosted": "08-1d491b40.jpg",
+      "srcSize": "1272x712",
+      "srcFormat": "webp",
+      "srcBytes": 195082,
+      "out": "1068x712",
+      "bytes": 140710,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.429,
+        "y": 0.146
+      },
+      "fetchedAt": "2026-10-29T05:30:23.108Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-ukukraine-20261029",
+      "headline": "UK boosts support to Ukraine with £10 billion package",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gfeUY.img",
+      "article": "https://www.gov.uk/government/news/uk-boosts-support-to-ukraine-with-10-billion-package",
+      "hosted": "09-ab917af9.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 242990,
+      "out": "1600x1067",
+      "bytes": 132500,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-29T05:30:23.513Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-samplix-20261029",
+      "headline": "Danish BioTech Samplix secures €25 million in first close of financing round to scale antibody discovery",
+      "source": "https://samplix.com/files/samplix/media/frontpage/DE50cartridge-closeup.jpg",
+      "article": "https://www.eu-startups.com/2026/10/danish-biotech-samplix-secures-e25-million-in-first-close-of-financing-round-to-scale-antibody-discovery",
+      "hosted": "10-a012783b.jpg",
+      "srcSize": "1200x826",
+      "srcFormat": "jpeg",
+      "srcBytes": 274522,
+      "out": "1200x800",
+      "bytes": 84225,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-29T05:30:25.083Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-sequoia-training-data-silver-20261029",
+      "headline": "David Silver and Lasse Espeholt of Ineffable Intelligence: A Superlearner for the Age of Experience",
+      "source": "https://i.ytimg.com/vi/L4SWQebqhek/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=L4SWQebqhek",
+      "hosted": "r01-cb02ea01.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 155889,
+      "out": "1280x720",
+      "bytes": 86637,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-29T05:30:25.275Z"
+    }
+  ]
+}
