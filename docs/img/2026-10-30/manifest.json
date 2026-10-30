@@ -1,0 +1,228 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-30",
+  "generatedAt": "2026-10-30T05:30:53.202Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-0001",
+      "headline": "Binance loses over $6 billion in the largest crypto hack to date",
+      "source": "https://images.financemagnates.com/images/Changpeng%20Zhao%2C%20the%20founder%20of%20Binance_id_f0bafb07-2c9c-42be-a0b7-07661545b590_size975.jpg",
+      "article": "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+      "hosted": "01-24676923.jpg",
+      "srcSize": "975x541",
+      "srcFormat": "jpeg",
+      "srcBytes": 104731,
+      "out": "721x541",
+      "bytes": 27443,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.5,
+        "y": 0.233
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-30T05:30:53.493Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-0002",
+      "headline": "Amazon.com Announces Third Quarter Results",
+      "source": "https://thumb.spokesman.com/wO_Md3But-8907RsQKtRe75BgVU=/2500x0/smart/media.spokesman.com/photos/2026/10/29/6ae3c36ee0ba2.hires.jpg",
+      "article": "https://www.businesswire.com/news/home/20261028373648/en/Amazon.com-Announces-Third-Quarter-Results",
+      "hosted": "02-4d11219a.jpg",
+      "srcSize": "2500x1666",
+      "srcFormat": "webp",
+      "srcBytes": 199398,
+      "out": "1600x1067",
+      "bytes": 117113,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-30T05:30:53.968Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-0003",
+      "headline": "Microsoft Announces First Quarter Results",
+      "source": "https://image.cnbcfm.com/api/v1/image/108471082-1793218589052-108471082-1793137958265-gettyimages-2300588268-AFP_D3UD8G4.jpeg?v=1793218676&w=1920&h=1080",
+      "article": "https://www.microsoft.com/en-us/investor/earnings/fy-2027-q1/press-release-webcast",
+      "hosted": "03-84525cc2.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 76685,
+      "out": "1600x1067",
+      "bytes": 79953,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.789,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T05:30:54.305Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-0004",
+      "headline": "Nvidia investing $3 billion in Meta in Muse partnership",
+      "source": "https://image.cnbcfm.com/api/v1/image/108333087-17836325902026-07-09t212757z_1706285672_rc2kamahyrd8_rtrmadp_0_media-sunvalley.jpeg?v=1783632643&w=1920&h=1080",
+      "article": "https://www.axios.com/2026/10/27/nvidia-meta-muse-investment",
+      "hosted": "04-1877bfad.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 128884,
+      "out": "1600x1067",
+      "bytes": 111378,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.721,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T05:30:54.608Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-0005",
+      "headline": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition — concerns raised over competition in AI and pressure on customers",
+      "source": "https://image.cnbcfm.com/api/v1/image/108416313-1792099132044-gettyimages-2299644955-AFP_D3B329K.jpeg?v=1793222589&w=1920&h=1080",
+      "article": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers",
+      "hosted": "05-0b75d69c.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 107153,
+      "out": "1600x1067",
+      "bytes": 110295,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.279,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T05:30:54.904Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-0006",
+      "headline": "Ukraine paused attacks on oil refineries for 3 days as Russia continued strikes on energy infrastructure, Zelensky says",
+      "source": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-2300427683_20261020-155823.jpg",
+      "article": "https://kyivindependent.com/ukraine-paused-attacks-on-oil-refineries-for-3-days-as-russia-continued-strikes-on-energy-infrastructure-zelensky-says/",
+      "hosted": "06-98e46f14.jpg",
+      "srcSize": "1920x1282",
+      "srcFormat": "jpeg",
+      "srcBytes": 192157,
+      "out": "1600x1067",
+      "bytes": 107580,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T05:30:55.231Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-0007",
+      "headline": "OpenAI Says Its Models Produced Three Proofs in Math, CS, and Physics",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Sam_Altman_CropEdit_James_Tamim.jpg/1280px-Sam_Altman_CropEdit_James_Tamim.jpg",
+      "article": "https://www.unite.ai/openai-says-its-models-produced-three-proofs-in-math-cs-and-physics/",
+      "hosted": "07-ced0615f.jpg",
+      "srcSize": "1280x1281",
+      "srcFormat": "jpeg",
+      "srcBytes": 472166,
+      "out": "1280x853",
+      "bytes": 118292,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.554,
+        "y": 0.411
+      },
+      "fetchedAt": "2026-10-30T05:30:55.694Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-0008",
+      "headline": "ECB President Christine Lagarde to step down next February, months before her mandate ends",
+      "source": "https://images.euronews.com/articles/stories/09/97/16/46/1200x675_cmsv2_81b2ead3-3f5e-55ea-8845-42cceedf1a15-9971646.jpg",
+      "article": "https://www.euronews.com/2026/10/29/ecb-president-christine-lagarde-to-step-down-in-february-months-before-her-term-ends",
+      "hosted": "08-ec104d57.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 57149,
+      "out": "1012x675",
+      "bytes": 65318,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.875,
+        "y": 0.393
+      },
+      "fetchedAt": "2026-10-30T05:30:56.022Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-0009",
+      "headline": "Ny international lufthavn i Grønland godkendt",
+      "source": "https://cdn.trafikstyrelsen.dk/trafikstyrelsen/Media/639288192906378719/ilulissat-7-web.jpeg?width=1024&height=512&format=jpeg&mode=crop",
+      "article": "https://www.trafikstyrelsen.dk/nyheder/2026/okt/ny-international-lufthavn-i-groenland-godkendt",
+      "hosted": "09-a39d56a1.jpg",
+      "srcSize": "1024x512",
+      "srcFormat": "webp",
+      "srcBytes": 49242,
+      "out": "768x512",
+      "bytes": 34234,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-30T05:30:56.286Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-0010",
+      "headline": "A Jurassic mammaliaform swimmer and transformation of the mammalian pharynx",
+      "source": "https://www.discoverwildlife.com/resources/content/f347d34d-c1a6-4a00-b570-b78c2dcb3211/fd584dab-b224-4ae6-81dd-f5f370f981d9/d2c714a7-77eb-4b1f-9526-68743ed6de62/Specimen.image-jpeg-1-scaled.jpeg?preview=false&platform=WEB&deviceId=ff31f0bd-b1e6-4c32-94a5-415c5b9c3298",
+      "article": "https://www.nature.com/articles/s41586-026-11107-0",
+      "hosted": "10-53059721.jpg",
+      "srcSize": "2560x1330",
+      "srcFormat": "jpeg",
+      "srcBytes": 853488,
+      "out": "1600x1067",
+      "bytes": 419793,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-30T05:30:56.991Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-00001",
+      "headline": "Jensen Huang's Keynote Highlights at NVIDIA GTC Berlin 2026",
+      "source": "https://img.youtube.com/vi/rF1EsryCAwc/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=rF1EsryCAwc",
+      "hosted": "r01-eda96550.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 79455,
+      "out": "1280x720",
+      "bytes": 44392,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T05:30:57.218Z"
+    }
+  ]
+}
