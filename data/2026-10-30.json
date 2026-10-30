@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-20261030",
+  "runId": "run-2026-10-30-umidday-r177",
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T05:30:00.000Z",
-  "readingMinutes": 8,
+  "generatedAt": "2026-10-30T17:08:43.023Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Det største kryptohack i historien, et AI-kapløb der splitter markedet, og Lagarde går før tid",
   "profileWeights": {
@@ -889,6 +889,202 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-0011",
+      "eventKey": "binance-hack-north-korea-attribution-2026-10",
+      "materialFacts": [
+        "TRM Labs og Chainalysis tilskriver Binance-hacket Nordkoreas TraderTraitor-enhed",
+        "Forberedelserne startede mindst 36 timer før og brugte Tornado Cash til at finansiere angrebswallets",
+        "Omkring 2,7 mia. dollar var frosset ved midnat 30. oktober, men over 2,4 mia. dollar i ETH og BTC kan ingen udsteder fryse",
+        "Bitcoin faldt til omkring 77.000 dollar, mens aktier i Intel og Amazon også faldt på frygt for AI-investeringer"
+      ],
+      "section": "Erhverv",
+      "headline": "North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History",
+      "primarySourceUrl": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+      "subheadline": "TRM Labs og Chainalysis kæder hacket til Nordkoreas Lazarus-gruppe",
+      "body": [
+        "TRM Labs og Chainalysis tilskriver hacket Nordkoreas TraderTraitor-enhed, kendt fra Bybit-hacket. Forberedelserne startede mindst 36 timer før, via Tornado Cash.",
+        "Ved midnat 30. oktober var kun 2,7 mia. dollar frosset; over 2,4 mia. dollar i ether og bitcoin kan ingen udsteder fryse."
+      ],
+      "whyItMatters": "En statslig aktør bag verdens største kryptohack gør det til en sikkerhedspolitisk, ikke bare teknisk, risiko.",
+      "topics": [
+        "kryptovaluta",
+        "cybersikkerhed",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Binance",
+        "TRM Labs",
+        "Chainalysis",
+        "TraderTraitor",
+        "Lazarus Group"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 50,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 40,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "TRM Labs og Chainalysis tilskriver det 6,36 mia. dollar store Binance-hack Nordkoreas TraderTraitor-enhed",
+          "sourceUrls": [
+            "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Omkring 2,7 mia. dollar var frosset ved midnat 30. oktober, mens over 2,4 mia. dollar i ETH og BTC ikke kan fryses",
+          "sourceUrls": [
+            "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History",
+          "publisher": "TRM Labs",
+          "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "TRM and Chainalysis Tie $6.4B Binance Hack to North Korea's TraderTraitor",
+          "publisher": "Decrypt",
+          "url": "https://decrypt.co/382224/trm-and-chainalysis-tie-6-4b-binance-hack-to-north-koreas-tradertraitor",
+          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-30/11-fa0604ef.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "Besøgende taler med Binance-medarbejdere ved selskabets stand med Binance-logoet på en kryptomesse",
+        "sourceUrl": "https://www.nbcnews.com/business/markets/binance-pledges-cover-billions-stolen-assets-hack-rcna606517",
+        "origin": "coverage",
+        "fingerprint": "002a2682034c6d79005752830bc5cc7c215b52810906cc6cb597c101894684ccb39be00518c607842bdac20c09830f06",
+        "lookedAt": "002a2682034c6d79005752830bc5cc7c215b52810906cc6cb597c101894684ccb39be00518c607842bdac20c09830f06",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261030-binance-mn-0830-7338f0.jpg",
+        "focus": {
+          "x": 0.236,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://cdn.prod.website-files.com/6082dc5b670562507b3587b4/6ae3fcce33b01dca39613694_834d44b2.jpeg",
+          "fingerprint": "9c5ce4b11810c0c43c4cc4131818b0c01ccca432383830801cc4241a39383920148430793d7d3930866272793d3c3c79",
+          "reason": "chart-or-text-card"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-30T17:08:43.023Z",
+        "runId": "run-2026-10-30-umidday-r177"
+      }
+    },
+    {
+      "id": "story-0012",
+      "eventKey": "intel-amazon-selloff-ai-capex-fears-2026-10",
+      "materialFacts": [
+        "Intel-aktien faldt op til 29 pct. fredag efter et svagt fjerdekvartal-udsyn på 15-16 mia. dollar i omsætning",
+        "Finansdirektøren venter, at pc-nedgangen fortsætter mindst til midten af 2027",
+        "Amazon og Intel ventede samlet at udslette omkring 300 mia. dollar i markedsværdi",
+        "Nasdaq-100 var på vej mod et samlet fald på omkring 1.000 mia. dollar fredag"
+      ],
+      "section": "Erhverv",
+      "headline": "Intel Sinks 29% On Earnings—As AI Spending Fears Worsen Tech Selloff",
+      "primarySourceUrl": "https://www.forbes.com/sites/fionariley/2026/10/30/intel-sinks-29-on-earnings-as-ai-spending-fears-worsen-tech-selloff",
+      "subheadline": "Svagt udsyn fra Intel lægger sig til bekymring om AI-udgifter",
+      "body": [
+        "Intel-aktien faldt op til 29 pct. fredag efter et udsyn på 15-16 mia. dollar for fjerde kvartal, drevet af en pc-nedgang, der ventes at vare til midt 2027.",
+        "Faldet lagde sig til frygten for Amazons AI-udgifter. De to ventede at udslette 300 mia. dollar i markedsværdi, med Nasdaq-100 ned mod 1.000 mia. dollar."
+      ],
+      "whyItMatters": "Markedet begynder at sætte en pris på, hvor meget AI-investeringer må koste techgiganterne.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "finans"
+      ],
+      "entities": [
+        "Intel",
+        "Amazon",
+        "Nasdaq"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 60,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Intel-aktien faldt op til 29 pct. fredag efter et udsyn på 15-16 mia. dollar for fjerde kvartal",
+          "sourceUrls": [
+            "https://www.forbes.com/sites/fionariley/2026/10/30/intel-sinks-29-on-earnings-as-ai-spending-fears-worsen-tech-selloff"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Amazon og Intel ventede at udslette omkring 300 mia. dollar i markedsværdi, mens Nasdaq-100 var på vej mod et fald på omkring 1.000 mia. dollar",
+          "sourceUrls": [
+            "https://www.techbuzz.ai/articles/amazon-drops-4-intel-crashes-29-on-ai-spending-fears"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Intel Sinks 29% On Earnings—As AI Spending Fears Worsen Tech Selloff",
+          "publisher": "Forbes",
+          "url": "https://www.forbes.com/sites/fionariley/2026/10/30/intel-sinks-29-on-earnings-as-ai-spending-fears-worsen-tech-selloff",
+          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Amazon Drops 4%, Intel Crashes 29% on AI Spending Fears",
+          "publisher": "TechBuzz.ai",
+          "url": "https://www.techbuzz.ai/articles/amazon-drops-4-intel-crashes-29-on-ai-spending-fears",
+          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-30/12-1edc807b.jpg",
+        "credit": "CHENG Yu-chen/AFP via Getty Images",
+        "alt": "Intels administrerende direktør Lip-Bu Tan taler ved et arrangement",
+        "sourceUrl": "https://www.cnbc.com/2026/10/30/amazon-intel-earnings-big-tech-ai-spending-concerns.html",
+        "origin": "coverage",
+        "fingerprint": "e4448486a6e62627a6440416e66666674646061666e66767464606136766e7674247061363e3e3e34b070d3373c3e3c3",
+        "lookedAt": "e4448486a6e62627a6440416e66666674646061666e66767464606136766e7674247061363e3e3e34b070d3373c3e3c3",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108477592-1793377481413-108477592-1793228653912-gettyimages-2278669397-AFP_B4P96JN.jpg?v=1793377502&w=1920&h=1080",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://imageio.forbes.com/specials-images/imageserve/6ae4a45e713413e3ea6bf9ab/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+          "fingerprint": "9217ce0adac8cbb42317ea29dbc829b6237fc92b9ba908b903ff49aaaba9088d3fcf4c2bab2d010dffcc4d69296c6204",
+          "reason": "logo-or-card"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-10-30T17:08:43.023Z",
+        "runId": "run-2026-10-30-umidday-r177"
+      }
     }
   ],
   "signals": [
@@ -1223,5 +1419,20 @@
     "sourceCoverage": 100,
     "novelty": 70,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-10-30T17:08:43.023Z",
+      "runId": "run-2026-10-30-umidday-r177",
+      "added": 2,
+      "cost": {
+        "usd": 1.5769729,
+        "inputTokens": 1783256,
+        "outputTokens": 19104,
+        "turns": 46,
+        "seconds": 325.1
+      }
+    }
+  ]
 }

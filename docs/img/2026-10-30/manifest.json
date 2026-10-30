@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-30",
-  "generatedAt": "2026-10-30T05:30:53.202Z",
+  "generatedAt": "2026-10-30T17:08:51.654Z",
   "pictures": [
     {
       "slot": "01",
@@ -203,6 +203,46 @@
         "y": 1
       },
       "fetchedAt": "2026-10-30T05:30:56.991Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-0011",
+      "headline": "North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-10/261030-binance-mn-0830-7338f0.jpg",
+      "article": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+      "hosted": "11-fa0604ef.jpg",
+      "srcSize": "1500x1000",
+      "srcFormat": "webp",
+      "srcBytes": 286480,
+      "out": "1500x1000",
+      "bytes": 155522,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-30T17:08:52.204Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-0012",
+      "headline": "Intel Sinks 29% On Earnings—As AI Spending Fears Worsen Tech Selloff",
+      "source": "https://image.cnbcfm.com/api/v1/image/108477592-1793377481413-108477592-1793228653912-gettyimages-2278669397-AFP_B4P96JN.jpg?v=1793377502&w=1920&h=1080",
+      "article": "https://www.forbes.com/sites/fionariley/2026/10/30/intel-sinks-29-on-earnings-as-ai-spending-fears-worsen-tech-selloff",
+      "hosted": "12-1edc807b.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 212163,
+      "out": "1600x1067",
+      "bytes": 158755,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-30T17:08:52.763Z"
     },
     {
       "slot": "r01",
