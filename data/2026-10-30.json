@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-10-30-umidday-r177",
+  "runId": "run-2026-10-30-uafternoon-r179",
   "date": "2026-10-30",
-  "generatedAt": "2026-10-30T17:08:43.023Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-10-30T20:38:49.956Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Det største kryptohack i historien, et AI-kapløb der splitter markedet, og Lagarde går før tid",
   "profileWeights": {
@@ -1085,6 +1085,171 @@
         "at": "2026-10-30T17:08:43.023Z",
         "runId": "run-2026-10-30-umidday-r177"
       }
+    },
+    {
+      "id": "story-0013",
+      "eventKey": "big-tech-cash-return-ai-capex-2026-10",
+      "materialFacts": [
+        "Microsoft, Alphabet, Amazon, Meta og Oracle returnerede 9,3% af pengestrømmen til aktionærer i de første ni måneder af 2026, ned fra 27,4% i 2025",
+        "Driftspengestrømmen steg 29% til 542,9 mia. dollar, mens investeringerne fordobledes til 556,9 mia. dollar",
+        "De fem selskaber havde samlet et underskud på 14 mia. dollar i frit cash flow, første gang siden 2011",
+        "Aktietilbagekøb faldt 83% til 13,6 mia. dollar; Alphabet og Meta købte ingen aktier tilbage"
+      ],
+      "section": "Erhverv",
+      "headline": "Big Tech returns smallest share of cash to shareholders in 15 years",
+      "primarySourceUrl": "https://www.theglobeandmail.com/investing/article-big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years/",
+      "subheadline": "Opkøb falder 83%, mens AI æder techgiganternes pengestrøm",
+      "body": [
+        "Microsoft, Alphabet, Amazon, Meta og Oracle returnerede kun 9,3% af pengestrømmen til aktionærerne i årets første ni måneder, ned fra 27,4% sidste år. AI-investeringerne fordobledes til 556,9 mia. dollar og oversteg driftspengestrømmen for første gang siden 2011, et samlet underskud på 14 mia. dollar, viser en Reuters-analyse."
+      ],
+      "whyItMatters": "Uden tilbagekøbenes kunstige løft af indtjening pr. aktie skal AI-satsningen bære sig selv på reel vækst.",
+      "topics": [
+        "erhverv",
+        "finans"
+      ],
+      "entities": [
+        "Microsoft",
+        "Alphabet",
+        "Amazon",
+        "Meta",
+        "Oracle"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 60,
+        "novelty": 50,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "De fem selskaber returnerede 9,3% af pengestrømmen til aktionærer i 2026 mod 27,4% i 2025",
+          "sourceUrls": [
+            "https://www.theglobeandmail.com/investing/article-big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Investeringerne fordobledes til 556,9 mia. dollar og oversteg driftspengestrømmen, et underskud på 14 mia. dollar",
+          "sourceUrls": [
+            "https://www.theglobeandmail.com/investing/article-big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Big Tech returns smallest share of cash to shareholders in 15 years",
+          "publisher": "Reuters (The Globe and Mail)",
+          "url": "https://www.theglobeandmail.com/investing/article-big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years/",
+          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-30/13-e3b5b7f2.jpg",
+        "credit": "Reuters",
+        "alt": "Et skilt med Microsoft-logoet på virksomhedens campus i Redmond, Washington, 26. oktober 2026",
+        "sourceUrl": "https://www.theglobeandmail.com/investing/article-big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years/",
+        "origin": "article",
+        "fingerprint": "7978e8c9d1eb032bf9b8e8c9f1e9010bf9a8e8a8a1ac01013d6ccc20206a490065ec4c24606a5840e4cccc6462aa988a",
+        "lookedAt": "7978e8c9d1eb032bf9b8e8c9f1e9010bf9a8e8a8a1ac01013d6ccc20206a490065ec4c24606a5840e4cccc6462aa988a",
+        "originalUrl": "https://www.theglobeandmail.com/resizer/v2/TNDTAURS75HTDJFG4PCX3QV5TA.JPG?auth=f9d7e5d8719316c0597c2e1e661eb7fbb8855b6a4e845a731bde56e05e41f0b1&width=1200&height=800&quality=80&smart=true",
+        "focus": {
+          "x": 0.875,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-30T20:38:49.956Z",
+        "runId": "run-2026-10-30-uafternoon-r179"
+      }
+    },
+    {
+      "id": "story-0014",
+      "eventKey": "google-suncatcher-first-response-2026-10",
+      "materialFacts": [
+        "Googles Project Suncatcher-prototype blev opsendt 1. oktober 2026 med SpaceX's Transporter-18-mission",
+        "Satellitten kørte den første AI-inferens fra en data center-klasse TPU i kredsløb",
+        "En jordstation uploadede en prompt til satellittens Gemma 4-model, som svarede med et haiku om rummet",
+        "Google planlægger to sammenkoblede satellitter som næste milepæl i 2027"
+      ],
+      "section": "Teknologi",
+      "headline": "We've received our first response from the Project Suncatcher prototype satellite",
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "subheadline": "Googles rumsatellit kørte en AI-model i kredsløb og skrev et haiku",
+      "body": [
+        "Googles Project Suncatcher-prototype, opsendt 1. oktober, har kørt sin første AI-inferens fra en TPU i kredsløb: en jordstation uploadede en prompt til satellittens Gemma 4-model, som svarede med et haiku om rummet. Google kalder det \"Hello World\" og planlægger to sammenkoblede satellitter i 2027."
+      ],
+      "whyItMatters": "Lykkes det at drive AI-chips på solenergi i kredsløb, flytter strømflaskehalsen ud af atmosfæren.",
+      "topics": [
+        "ai",
+        "teknologi",
+        "videnskab"
+      ],
+      "entities": [
+        "Google",
+        "Travis Beals",
+        "Gemma 4"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 40,
+        "decisionValue": 25,
+        "novelty": 75,
+        "sourceQuality": 80,
+        "personalRelevance": 45,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Satellitten kørte den første AI-inferens fra en data center-klasse TPU i kredsløb og svarede med et haiku",
+          "sourceUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Prototypen blev opsendt 1. oktober 2026 med SpaceX's Transporter-18-mission",
+          "sourceUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "We've received our first response from the Project Suncatcher prototype satellite",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+          "publishedAt": "2026-10-30T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-10-30/14-801b8adb.jpg",
+        "credit": "Planet Labs PBC",
+        "alt": "Project Suncatcher-prototypesatellitten med solpaneler, bygget af Planet Labs, fotograferet før opsendelsen",
+        "sourceUrl": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+        "origin": "coverage",
+        "fingerprint": "0121262622232339212022222323616920022323632161614053636373716061495363535152506292d3c2d3d3d3d2d0",
+        "lookedAt": "0121262622232339212022222323616920022323632161614053636373716061495363535152506292d3c2d3d3d3d2d0",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
+        "focus": {
+          "x": 0.455,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-10-30T20:38:49.956Z",
+        "runId": "run-2026-10-30-uafternoon-r179"
+      }
     }
   ],
   "signals": [
@@ -1432,6 +1597,19 @@
         "outputTokens": 19104,
         "turns": 46,
         "seconds": 325.1
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-10-30T20:38:49.956Z",
+      "runId": "run-2026-10-30-uafternoon-r179",
+      "added": 2,
+      "cost": {
+        "usd": 2.3917647000000004,
+        "inputTokens": 3281619,
+        "outputTokens": 28319,
+        "turns": 69,
+        "seconds": 383.9
       }
     }
   ]

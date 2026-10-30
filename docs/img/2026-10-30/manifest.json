@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-30",
-  "generatedAt": "2026-10-30T17:08:51.654Z",
+  "generatedAt": "2026-10-30T20:38:58.497Z",
   "pictures": [
     {
       "slot": "01",
@@ -243,6 +243,46 @@
         "y": 1
       },
       "fetchedAt": "2026-10-30T17:08:52.763Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-0013",
+      "headline": "Big Tech returns smallest share of cash to shareholders in 15 years",
+      "source": "https://www.theglobeandmail.com/resizer/v2/TNDTAURS75HTDJFG4PCX3QV5TA.JPG?auth=f9d7e5d8719316c0597c2e1e661eb7fbb8855b6a4e845a731bde56e05e41f0b1&width=1200&height=800&quality=80&smart=true",
+      "article": "https://www.theglobeandmail.com/investing/article-big-tech-returns-smallest-share-of-cash-to-shareholders-in-15-years/",
+      "hosted": "13-e3b5b7f2.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "heif",
+      "srcBytes": 224535,
+      "out": "1200x800",
+      "bytes": 204528,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.875,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T20:38:58.941Z"
+    },
+    {
+      "slot": "14",
+      "id": "story-0014",
+      "headline": "We've received our first response from the Project Suncatcher prototype satellite",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/10/DSC_0298.jpg?resize=1200,800",
+      "article": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "hosted": "14-801b8adb.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 127134,
+      "out": "1200x800",
+      "bytes": 141172,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.455,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-30T20:38:59.188Z"
     },
     {
       "slot": "r01",
