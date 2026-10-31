@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-10-31-01",
+  "runId": "run-2026-10-31-umidday-r181",
   "date": "2026-10-31",
-  "generatedAt": "2026-10-31T05:30:00Z",
+  "generatedAt": "2026-10-31T16:06:53.754Z",
   "readingMinutes": 9,
   "title": "Alexanders Brief – 31. oktober 2026",
   "dek": "Polens forfatningsdomstol, OpenAIs skrumpede kapitalrunde, en klonet direktørstemme i Dansk Industri, og et studie der firdobler slangebiddets dødstal.",
@@ -1288,5 +1288,20 @@
     "novelty": 78,
     "perspectiveBalance": 80,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-10-31T16:06:53.754Z",
+      "runId": "run-2026-10-31-umidday-r181",
+      "added": 0,
+      "cost": {
+        "usd": 1.6691435,
+        "inputTokens": 1066013,
+        "outputTokens": 15690,
+        "turns": 45,
+        "seconds": 307.3
+      }
+    }
+  ]
 }
