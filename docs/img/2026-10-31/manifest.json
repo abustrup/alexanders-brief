@@ -1,0 +1,207 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-10-31",
+  "generatedAt": "2026-10-31T05:39:02.423Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-2026-10-31-poland",
+      "headline": "Polish police deployed to top court after head judge suspended",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae524afc685-1793402031.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended",
+      "hosted": "01-321f4037.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 173648,
+      "out": "1600x1200",
+      "bytes": 160329,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.349,
+        "y": 0.279
+      },
+      "fetchedAt": "2026-10-31T05:39:02.974Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-2026-10-31-divoice",
+      "headline": "DI-direktørs stemme brugt til svindelforsøg mod medarbejder",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/3ejd343t/20260910-210817-7.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/di-direktoers-stemme-brugt-til-svindelforsoeg-mod-medarbejder",
+      "hosted": "03-6641b374.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 62328,
+      "out": "1012x675",
+      "bytes": 42213,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-31T05:39:03.370Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-2026-10-31-patriot",
+      "headline": "US approves $2.1 billion Patriot missile sale to Ukraine as NATO commander dismisses delivery concerns",
+      "source": "https://assets.kyivindependent.com/content/images/2026/10/GettyImages-1251802290_20261030-212007_20261030-212201.jpg",
+      "article": "https://kyivindependent.com/us-approves-2-1-billion-patriot-missile-sale-to-ukraine-as-nato-commander-dismisses-delivery-concerns/",
+      "hosted": "04-6aca5956.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 149273,
+      "out": "1200x800",
+      "bytes": 125117,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-31T05:39:03.752Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-2026-10-31-baseten",
+      "headline": "Baseten Seeks $2 Billion in Funding at $26 Billion and $30 Billion Valuations",
+      "source": "https://substack-post-media.s3.amazonaws.com/public/images/bfedd710-97af-4259-9892-1d16ec5de734_900x600.webp",
+      "article": "https://www.tokenpost.com/news/business/45307",
+      "hosted": "05-4aa3f96d.jpg",
+      "srcSize": "900x600",
+      "srcFormat": "webp",
+      "srcBytes": 54938,
+      "out": "900x600",
+      "bytes": 67519,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.83,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-31T05:39:04.313Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-2026-10-31-skoler",
+      "headline": "\"Det er så mærkeligt\": Danske skoler ramt af mystiske AI-anmodninger",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/mvdhax4p/20200420-084805-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/det-er-saa-maerkeligt-danske-skoler-ramt-af-mystiske-ai-anmodninger",
+      "hosted": "06-3f302e0b.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 146506,
+      "out": "1012x675",
+      "bytes": 108630,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.88,
+        "y": 0.111
+      },
+      "fetchedAt": "2026-10-31T05:39:04.642Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-2026-10-31-novo",
+      "headline": "Tidligere Novo-direktør fik over 100 millioner med sig efter fyring",
+      "source": "https://image.nordjyske.dk/users/nordjyske/images/143803581.jpg?t[strip]=true&t[quality]=75&t[crop][width]=4000&t[crop][height]=2250&t[crop][x]=0&t[crop][y]=0&t[resize][width]=1200&t[resize][height]=675&accessToken=14e469a93f4ff76ff21992904d88d730580622a948d2cd7b796cf9906c14f61f",
+      "article": "https://www.dr.dk/nyheder/seneste/tidligere-novo-direktoer-fik-over-100-millioner-med-sig-efter-fyring",
+      "hosted": "07-c1262ebb.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 53817,
+      "out": "1012x675",
+      "bytes": 46281,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-31T05:39:04.887Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-2026-10-31-snake",
+      "headline": "Estimates of global burden of snakebite: A literature review and geostatistical modelling study",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Egyptian_Saw-scaled_Viper_%28Echis_pyramidum%29%28captive_specimen%29_%2814873438714%29.jpg/1920px-Egyptian_Saw-scaled_Viper_%28Echis_pyramidum%29%28captive_specimen%29_%2814873438714%29.jpg",
+      "article": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005201",
+      "hosted": "09-fedf6fee.jpg",
+      "srcSize": "1920x1242",
+      "srcFormat": "jpeg",
+      "srcBytes": 733288,
+      "out": "1600x1067",
+      "bytes": 310130,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0.286
+      },
+      "fetchedAt": "2026-10-31T05:39:05.659Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-2026-10-31-robots",
+      "headline": "Google, Anthropic and others to support new AI crawling opt-out standard",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg/1920px-Secretary_of_State_Peter_Kyle_visits_Anthropic_in_San_Francisco._%2854098999333%29.jpg",
+      "article": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/",
+      "hosted": "10-4ad64cd9.jpg",
+      "srcSize": "1920x1281",
+      "srcFormat": "jpeg",
+      "srcBytes": 659863,
+      "out": "1600x1067",
+      "bytes": 274453,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-10-31T05:39:06.236Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-2026-10-31-venstre",
+      "headline": "Venstre bløder vælgere til to overraskende partier",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/d/b/9/db942a1d-51b8-4f42-b042-e4e61d052795?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MTQ5MSwzNTEsNDg2NiwyNzM1&s=c40599760b497d0562c19b3509af047b",
+      "article": "https://nyheder.tv2.dk/politik/2026-10-23-venstre-bloeder-vaelgere-til-to-overraskende-partier",
+      "hosted": "12-266ceb77.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 43081,
+      "out": "1080x720",
+      "bytes": 81444,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 0
+      },
+      "fetchedAt": "2026-10-31T05:39:06.737Z"
+    },
+    {
+      "slot": "r01",
+      "id": "reco-2026-10-31-caro",
+      "headline": "Robert Caro – The master biographer reflects at 91",
+      "source": "https://substackcdn.com/image/fetch/$s_!QEPJ!,w_88,h_88,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F90fa9666-5b8b-4685-a8fb-4b64cb7e0333_1080x1080.png",
+      "article": "https://www.dwarkesh.com/p/robert-caro",
+      "hosted": "r01-e9740d6d.jpg",
+      "srcSize": "88x88",
+      "srcFormat": "jpeg",
+      "srcBytes": 2988,
+      "out": "88x50",
+      "bytes": 1832,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-10-31T05:39:06.881Z"
+    }
+  ]
+}
