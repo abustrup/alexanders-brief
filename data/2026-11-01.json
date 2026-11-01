@@ -1,0 +1,1051 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-11-01-full-01",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T05:18:06.962Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "Nordkoreas 6,36 mia. dollar-kryptokup, en skåret OpenAI-finansieringsrunde, en forfatningskrise i Polen og et biodiversitetsforlig fra Yerevan",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "nk-binance-hack-2026-11-01",
+      "eventKey": "north-korea-binance-hack-2026-10",
+      "materialFacts": [
+        "6,36 mia. dollar stjålet fra Binance 29. oktober på ti blockchains",
+        "FBI og TRM Labs tilskriver angrebet gruppen TraderTraitor",
+        "Ca. 2,7 mia. dollar i stablecoins frosset af udstedere",
+        "Binance har udskudt sin reserveopgørelse til mandag"
+      ],
+      "section": "Kryptosikkerhed",
+      "headline": "North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History",
+      "primarySourceUrl": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+      "subheadline": "FBI og analysefirmaer peger på Nordkorea bag historiens største kryptokup.",
+      "body": [
+        "6,36 mia. dollar blev stjålet fra Binance 29. oktober på ti blockchains. FBI og TRM Labs peger på gruppen TraderTraitor. Ca. 2,7 mia. dollar i stablecoins blev frosset; resten har angriberen stadig."
+      ],
+      "whyItMatters": "Summen overgår Nordkoreas øvrige valutaindtægter og blotlægger skrøbelig signeringsinfrastruktur.",
+      "analysis": "Spredningen over ti kæder på under en time peger på et planlægningsniveau over tidligere kryptokup.",
+      "counterpoint": "Binance har udskudt sin reserveopgørelse, hvilket har næret inside job-rygter trods FBIs forklaring.",
+      "topics": [
+        "cybersikkerhed",
+        "kryptovaluta",
+        "geopolitik",
+        "usa"
+      ],
+      "entities": [
+        "Binance",
+        "TraderTraitor",
+        "FBI",
+        "TRM Labs",
+        "Elliptic",
+        "Chainalysis",
+        "Nordkorea"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 95,
+        "decisionValue": 80,
+        "novelty": 90,
+        "sourceQuality": 90,
+        "personalRelevance": 55,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "6,36 mia. dollar blev stjålet fra Binance 29. oktober 2026 på ti blockchains",
+          "sourceUrls": [
+            "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "FBI og TRM Labs tilskriver angrebet den nordkoreanske gruppe TraderTraitor",
+          "sourceUrls": [
+            "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+            "https://www.elliptic.co/insights/binance-largest-hack-in-history/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Spekulation om et internt job bredte sig, da Binance udskød sin reserveopgørelse",
+          "sourceUrls": [
+            "https://news.bitcoin.com/security/binance-hack-inside-job-theories-proof-of-reserves/",
+            "https://www.elliptic.co/insights/binance-largest-hack-in-history/"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        {
+          "title": "North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History",
+          "publisher": "TRM Labs",
+          "url": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+          "publishedAt": "2026-10-30T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "$6.3 billion Binance hack was likely work of North Korea, blockchain intel firms say",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/binance-hack-north-korea/",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "The largest theft in history: North Korea likely behind the $6.4 billion Binance hack",
+          "publisher": "Elliptic",
+          "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "analysis"
+        },
+        {
+          "title": "Binance Inside Job Theories Explode Ahead of Monday's Reserve Reports",
+          "publisher": "Bitcoin.com",
+          "url": "https://news.bitcoin.com/security/binance-hack-inside-job-theories-proof-of-reserves/",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/01-f1f8d38c.jpg",
+        "credit": "Kilde: The New York Times",
+        "alt": "En bruger tjekker Binance-appen med live kryptopriser på sin telefon efter det historiske hack af børsen",
+        "sourceUrl": "https://www.nytimes.com/2026/10/31/technology/binance-hack-crypto-north-korea.html",
+        "origin": "coverage",
+        "fingerprint": "e7e5e5c5c586a5c4a5a5a584c5858484a5a4648495858524a4a4e484959485a5a4a4a4041594142424a4a42424303422",
+        "lookedAt": "e7e5e5c5c586a5c4a5a5a584c5858484a5a4648495858524a4a4e484959485a5a4a4a4041594142424a4a42424303422",
+        "originalUrl": "https://static01.nyt.com/images/2026/11/01/business/00biz-binance-ticktock/00biz-binance-ticktock-facebookJumbo.jpg",
+        "focus": {
+          "x": 0.227,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://static.news.bitcoin.com/wp-content/uploads/2026/10/binance-hack-fallout_-aave-freezes-lending-across-16-networks.jpg",
+          "fingerprint": "cf79309895131828cf79343831171848ff7434383637184af174343036321999f0707078367231b870f07a787272f230",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://cdn.prod.website-files.com/6082dc5b670562507b3587b4/6ae3fcce33b01dca39613694_834d44b2.jpeg",
+          "fingerprint": "9c5ce4b11810c0c43c4cc4131818b0c01ccca432383830801cc4241a39383920148430793d7d3930866272793d3c3c79",
+          "reason": "chart-or-text-card"
+        },
+        {
+          "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gtMTF.img",
+          "fingerprint": "c3236365d53bf0b48363656ff25ff0b40145e56ef80ff8b64dc0e76fb98ffdf2c1b4e76da8a3dcf09064cb5ef8211ffc",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "openai-funding-cut-2026-11-01",
+      "eventKey": "openai-funding-round-cut-2026-10",
+      "materialFacts": [
+        "Målet for finansieringsrunden skåret fra 30 til ca. 20 mia. dollar",
+        "Ventet værdisætning skåret fra 1,4 til 1,25 billioner dollar",
+        "Ca. 11 mia. dollar er tilsagt indtil videre"
+      ],
+      "section": "AI og kapital",
+      "headline": "OpenAI reportedly lowers funding target for new round",
+      "primarySourceUrl": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "subheadline": "Målet er skåret fra 30 til 20 mia. dollar, værdien fra 1,4 til 1,25 billioner.",
+      "body": [
+        "OpenAI har sænket målet for sin finansieringsrunde fra 30 til ca. 20 mia. dollar; værdien er skåret fra 1,4 til 1,25 billioner. Ca. 11 mia. dollar er tilsagt, under halvdelen af målet."
+      ],
+      "whyItMatters": "Et skåret mål fra verdens mest profilerede AI-selskab tyder på, at markedet nu prissætter AI-udgifter anderledes.",
+      "analysis": "Usædvanligt: et stort AI-lab nedjusterer kapitalbehovet i stedet for at skalere det op.",
+      "counterpoint": "Selv skåret ville runden stadig være historiens største private finansiering.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 70,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 85,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "OpenAI har sænket sit finansieringsmål fra 30 til ca. 20 mia. dollar og værdisætningen fra 1,4 til 1,25 billioner dollar",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI reportedly lowers funding target for new round",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/02-37157396.jpg",
+        "credit": "Kilde: CNBC via MSN",
+        "alt": "OpenAI's topchef Sam Altman taler på Oracle AI World i Las Vegas den 27. oktober 2026",
+        "sourceUrl": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+        "origin": "coverage",
+        "fingerprint": "5914e4ccececcf991c34e6ccecec86991c36c6ceacece60bb6a6cece2cece64f37a7cdcf26cce647a74f85cd664ecfa7",
+        "lookedAt": "5914e4ccececcf991c34e6ccecec86991c36c6ceacece60bb6a6cece2cece64f37a7cdcf26cce647a74f85cd664ecfa7",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2guEwq.img",
+        "focus": {
+          "x": 0.657,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "google-quantum-magic-2026-11-01",
+      "eventKey": "google-magic-state-cultivation-2026-10",
+      "materialFacts": [
+        "Magic state cultivation demonstreret på Willow-processoren",
+        "40 gange færre fejl, logisk fidelitet på 99,99 pct.",
+        "Publiceret i Science"
+      ],
+      "section": "Kvanteteknologi",
+      "headline": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+      "primarySourceUrl": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "subheadline": "Metoden giver 40 gange færre fejl på Googles Willow-processor.",
+      "body": [
+        "Google Quantum AI har vist, at magic state cultivation virker i praksis på Willow-processoren og giver 40 gange færre fejl. T-states nåede en logisk fidelitet på 99,99 pct. Resultatet, publiceret i Science, løser en flaskehals, hvor op til 95 pct. af kapaciteten ellers går til disse tilstande."
+      ],
+      "whyItMatters": "Flaskehalsen har stået mellem laboratorieresultater og en kvantecomputer, der reelt kan bruges nyttigt.",
+      "analysis": "Et fald fra 95 pct. flytter spørgsmålet fra fysisk mulighed til ingeniørskala.",
+      "topics": [
+        "quantum",
+        "videnskab",
+        "ai"
+      ],
+      "entities": [
+        "Google Quantum AI",
+        "Willow"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 55,
+        "novelty": 85,
+        "sourceQuality": 90,
+        "personalRelevance": 70,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Magic state cultivation gav 40 gange færre fejl og 99,99 pct. logisk fidelitet på Willow-processoren",
+          "sourceUrls": [
+            "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+          "publisher": "Google",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+          "publishedAt": "2026-10-15T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/03-023f2dbb.jpg",
+        "credit": "Kilde: Google",
+        "alt": "Googles topchef Sundar Pichai ved en af Google Quantum AI's kvantecomputere i laboratoriet i Santa Barbara",
+        "sourceUrl": "https://sites.google.com/pressatgoogle.com/quantum",
+        "origin": "source",
+        "fingerprint": "a46ec6d6868189a06467c792878189a066e7d793138688a847c7931313821008c38393131313200c833191b393131310",
+        "lookedAt": "a46ec6d6868189a06467c792878189a066e7d793138688a847c7931313821008c38393131313200c833191b393131310",
+        "originalUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vVlubi5AIcQoO0P-azz8lrOBU4ObFzYAC33_Fw1usgkwLuWO7nhz5tVuu8L5oa9RIMlIFKROJWZiAO7BgrvNpK3wnvxFk_k6rkZ3CdYNADJqzi5n75_lUsCehuc84RfHL07opA2geOu4zO17H-eGSI6Guq0c2BXDrQGOBRlEvBSInMyCgVnzO8tA1tKK-JsS0vjQ8lBAIlHB08Fts=w1280",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "meta-fourier-robot-2026-11-01",
+      "eventKey": "meta-humanoid-robot-fourier-2026-10",
+      "materialFacts": [
+        "Prototypen 'Max' bygget med Fourier på ca. tre måneder",
+        "1,5 meter høj, Nvidia Jetson Thor-chip, femfingrede hænder",
+        "Et 'Max 2'-forløb er påbegyndt"
+      ],
+      "section": "Robotteknologi",
+      "headline": "Meta develops humanoid robot prototype with Chinese firm Fourier, begins second-generation project",
+      "primarySourceUrl": "https://www.digitaltoday.co.kr/en/view/122209/meta-develops-humanoid-robot-prototype-with-chinese-firm-fourier-launches-second-generation-project",
+      "subheadline": "Prototypen 'Max' blev bygget på tre måneder; en efterfølger er i gang.",
+      "body": [
+        "Meta har bygget humanoid-prototypen 'Max' med den kinesiske startup Fourier på ca. tre måneder. Robotten er 1,5 meter høj, bruger Nvidias Jetson Thor-chip og har femfingrede hænder. Et nyt forløb, 'Max 2', er påbegyndt. Meta siger arbejdet er intern forskning uden planer om salg."
+      ],
+      "whyItMatters": "Samarbejdet viser, hvor afhængig Metas robotsatsning er af kinesisk hardwareekspertise.",
+      "analysis": "Tre måneder fra idé til prototype er usædvanligt hurtigt for humanoide robotter.",
+      "topics": [
+        "ai",
+        "robotteknologi"
+      ],
+      "entities": [
+        "Meta",
+        "Fourier"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 45,
+        "novelty": 75,
+        "sourceQuality": 60,
+        "personalRelevance": 70,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Meta og Fourier byggede prototypen 'Max' på ca. tre måneder; et 'Max 2'-forløb er påbegyndt",
+          "sourceUrls": [
+            "https://www.digitaltoday.co.kr/en/view/122209/meta-develops-humanoid-robot-prototype-with-chinese-firm-fourier-launches-second-generation-project",
+            "https://www.theinformation.com/articles/meta-built-humanoid-prototype-chinese-startup-ramp-robotics-push"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Meta develops humanoid robot prototype with Chinese firm Fourier, begins second-generation project",
+          "publisher": "Digital Today",
+          "url": "https://www.digitaltoday.co.kr/en/view/122209/meta-develops-humanoid-robot-prototype-with-chinese-firm-fourier-launches-second-generation-project",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Meta Built Humanoid Prototype With Chinese Startup To Ramp Up Robotics Push",
+          "publisher": "The Information",
+          "url": "https://www.theinformation.com/articles/meta-built-humanoid-prototype-chinese-startup-ramp-robotics-push",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://cdn.digitaltoday.co.kr/news/photo/202611/711625_659134_2846.jpg",
+          "fingerprint": "49a4496b6d4e200c48a44a4a6c5e204c5a255a5a4c5a22045224d9dbeeda2324518899dbaeaa8924518999d925adad22",
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://tii.imgix.net/production/articles/18087/e0dccb6e-5d64-40c7-be5e-76da17926003.png?fm=jpg&auto=compress&w=1200&frame=0",
+          "fingerprint": "4f1f5357173734b59d1b535717b3b6b49f99d31717b3b3361d99953717317362bdb19731936be36339b1b7b1b31b6363",
+          "reason": "off-topic"
+        },
+        {
+          "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2grvKB.img",
+          "fingerprint": "01077c504f7ffc00031cf4d00ffffe00017efa98877fffc069f6b2890c3fffc857ffb908478dffff56715998bf13dfff",
+          "reason": "off-topic"
+        },
+        {
+          "url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2grdOt.img",
+          "fingerprint": "c28a161ab377679d4b1b173a33d7f5ad5b9b373d31f3f7a59d3d355d31bbb7a41d33167c7039b3b6647316faf06d3933",
+          "reason": "off-topic"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/04-5f35fddf.jpg",
+        "credit": "Kilde: The Robot Report",
+        "alt": "Fourier Intelligence's GR-2-humanoidrobot samler farvede klodser op i en demonstration",
+        "sourceUrl": "https://www.therobotreport.com/fourier-launches-gr-2-humanoid-software-platform/",
+        "origin": "coverage",
+        "fingerprint": "4042c22c6848c0804242822c6848c8804243822c4cc9c8c012410a6ec4c5c8c041890a4ec484cccc49094bce8646444c",
+        "lookedAt": "4042c22c6848c0804242822c6848c8804243822c4cc9c8c012410a6ec4c5c8c041890a4ec484cccc49094bce8646444c",
+        "originalUrl": "https://www.therobotreport.com/wp-content/uploads/2024/09/fourier-gr2-pick.jpg",
+        "focus": {
+          "x": 0.111,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "anthropic-insights-2026-11-01",
+      "eventKey": "anthropic-insights-external-research-pilot-2026-10",
+      "materialFacts": [
+        "Tre forskergrupper fik adgang via 'Anthropic Insights'",
+        "Ca. 250.000 anonymiserede Claude-samtaler fra april-maj analyseret",
+        "Anthropic søger nu flere forskere til et udvidet program"
+      ],
+      "section": "AI-forskning",
+      "headline": "Enabling independent research on how people use Claude",
+      "primarySourceUrl": "https://www.anthropic.com/research/enabling-independent-research",
+      "subheadline": "Tre eksterne forskergrupper fik adgang til aggregerede Claude-brugsdata.",
+      "body": [
+        "Anthropic har givet forskere fra Stanford, Oxford og METR adgang til at analysere ca. 250.000 anonymiserede Claude-samtaler fra april-maj via værktøjet 'Anthropic Insights'. Grupperne satte selv forskningsspørgsmålene, og Anthropic udførte dataudtrækket uden at se de rå samtaler eller styre analysen."
+      ],
+      "whyItMatters": "Modellen lader udenforstående efterprøve AI-brug, uden at selskabet kontrollerer konklusionerne.",
+      "analysis": "Anthropic søger nu flere forskere -- et tegn på et fast program, ikke et engangsforsøg.",
+      "topics": [
+        "ai",
+        "forskning"
+      ],
+      "entities": [
+        "Anthropic",
+        "Stanford SALT Lab",
+        "Oxford Human Information Processing Lab",
+        "METR"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 75,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Tre forskergrupper analyserede ca. 250.000 anonymiserede Claude-samtaler fra april-maj 2026 via Anthropic Insights",
+          "sourceUrls": [
+            "https://www.anthropic.com/research/enabling-independent-research"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Enabling independent research on how people use Claude",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/research/enabling-independent-research",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Enabling independent research on how people use Claude",
+          "publisher": "The Living Library",
+          "url": "https://thelivinglib.org/enabling-independent-research-on-how-people-use-claude/",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/05-ad62599c.jpg",
+        "credit": "Kilde: Human Information Processing Lab",
+        "alt": "Medlemmer af Oxford Human Information Processing Lab på vandretur ved Granada",
+        "sourceUrl": "https://humaninformationprocessing.com/photos/",
+        "origin": "source",
+        "fingerprint": "00ae2c88d3e5264200ae2c88b3e7262a0caf4e89b1f5e66b4d2d4e09b1a1a6634e2eca4838a2726267abdb583862e3a3",
+        "lookedAt": "00ae2c88d3e5264200ae2c88b3e7262a0caf4e89b1f5e66b4d2d4e09b1a1a6634e2eca4838a2726267abdb583862e3a3",
+        "originalUrl": "https://humaninformationprocessing.com/assets/images/lab%20hike.jpg",
+        "focus": {
+          "x": 0.307,
+          "y": 0.257
+        }
+      }
+    },
+    {
+      "id": "poland-tribunal-crisis-2026-11-01",
+      "eventKey": "poland-constitutional-tribunal-crisis-2026-10",
+      "materialFacts": [
+        "Formand og vicepræsident for forfatningsdomstolen suspenderet i en måned",
+        "Politi sendt til domstolen",
+        "Præsident Nawrocki afbrød statsrejse og indkaldte krisemøde"
+      ],
+      "section": "Europa",
+      "headline": "Polish president holds crisis talks in court standoff",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+      "subheadline": "En dommer suspenderede domstolens leder; politi rykkede ud, og domstolen taler om et kup.",
+      "body": [
+        "Dommer Anna Korwin-Piotrowska har suspenderet forfatningsdomstolens formand Bogdan Święczkowski og hans vicepræsident i en måned og overtog selv ledelsen. Politi blev sendt til domstolen, som selv kalder suspenderingen et 'coup d'état'. Præsident Nawrocki afbrød en statsrejse til Senegal."
+      ],
+      "whyItMatters": "Striden rammer kernen af regeringens forsøg på at fjerne dommere udpeget af den tidligere PiS-regering.",
+      "analysis": "At en enkelt dommer kan suspendere domstolens leder viser, hvor uklare spillereglerne er blevet.",
+      "topics": [
+        "demokrati",
+        "eu",
+        "geopolitik"
+      ],
+      "entities": [
+        "Karol Nawrocki",
+        "Bogdan Święczkowski",
+        "Anna Korwin-Piotrowska",
+        "Forfatningsdomstolen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 50,
+        "novelty": 60,
+        "sourceQuality": 80,
+        "personalRelevance": 20,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Dommer Anna Korwin-Piotrowska suspenderede forfatningsdomstolens formand og vicepræsident i en måned",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Polish president holds crisis talks in court standoff",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+          "publishedAt": "2026-11-01T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Polish president turns back from Senegal trip as top court chief suspended",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/world/europe/polish-president-turns-back-senegal-trip-top-court-chief-suspended-rcna606626",
+          "publishedAt": "2026-10-30T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/06-5d469a07.jpg",
+        "credit": "Foto: AFP / Al Jazeera",
+        "alt": "Polsk politi i optøjsudstyr står over for demonstranter med polske flag ved forfatningsdomstolen i Warszawa",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+        "origin": "article",
+        "fingerprint": "ae29492b392426ccaa284929313946de2a69c969307546566d4c894c7074f6424ccc88cc72fcf68bce4c2c8e71f8e6b3",
+        "lookedAt": "ae29492b392426ccaa284929313946de2a69c969307546566d4c894c7074f6424ccc88cc72fcf68bce4c2c8e71f8e6b3",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae67ae8c1f6-1793489640.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.827,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "cop17-yerevan-2026-11-01",
+      "eventKey": "cop17-yerevan-pathway-biodiversity-2026-10",
+      "materialFacts": [
+        "'Yerevan Pathway' vedtaget efter natlige forhandlinger",
+        "Over 1,8 mia. dollar ny finansiering annonceret",
+        "Årligt mål er mindst 200 mia. dollar fra 2030"
+      ],
+      "section": "Klima og natur",
+      "headline": "COP17 delivers fragile deal to boost conservation and funding for nature",
+      "primarySourceUrl": "https://www.climatechangenews.com/2026/10/31/cop17-delivers-fragile-deal-scaling-up-biodiversity-conservation-armenia-cbd/",
+      "subheadline": "Landene vedtog 'Yerevan Pathway', men pengene er langt fra målet på 200 mia. dollar.",
+      "body": [
+        "Efter forhandlinger natten igennem i Yerevan har lande vedtaget 'Yerevan Pathway', en opfølgning på Kunming-Montreal-rammen for biodiversitet. Aftalen lover hurtigere handling mod skadelige subsidier. Over 1,8 mia. dollar blev annonceret under konferencen, langt fra det årlige mål på mindst 200 mia. dollar fra 2030."
+      ],
+      "whyItMatters": "Naturgenopretning halter år efter år, og aftalen tester, om lande vil levere penge, ikke kun ord.",
+      "analysis": "Gabet mellem det annoncerede og det nødvendige beløb er over hundrede gange.",
+      "topics": [
+        "klima",
+        "miljø",
+        "fn"
+      ],
+      "entities": [
+        "COP17",
+        "Yerevan Pathway",
+        "FN"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 40,
+        "novelty": 60,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "'Yerevan Pathway' blev vedtaget med over 1,8 mia. dollar ny finansiering annonceret, mod et mål på mindst 200 mia. dollar årligt fra 2030",
+          "sourceUrls": [
+            "https://www.climatechangenews.com/2026/10/31/cop17-delivers-fragile-deal-scaling-up-biodiversity-conservation-armenia-cbd/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "COP17 delivers fragile deal to boost conservation and funding for nature",
+          "publisher": "Climate Change News",
+          "url": "https://www.climatechangenews.com/2026/10/31/cop17-delivers-fragile-deal-scaling-up-biodiversity-conservation-armenia-cbd/",
+          "publishedAt": "2026-10-31T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/07-1f7cc5fb.jpg",
+        "credit": "Kilde: Climate Change News",
+        "alt": "Delegerede klapper ved afslutningen af COP17-topmødet i Jerevan, Armenien",
+        "sourceUrl": "https://www.climatechangenews.com/2026/10/31/cop17-delivers-fragile-deal-scaling-up-biodiversity-conservation-armenia-cbd/",
+        "origin": "article",
+        "fingerprint": "3364c4607466d6b04c64e460706246b54cc2c460727247b5426242e2d2f2e397ababa2e2dbd3e3d7298b6ae999d1e240",
+        "lookedAt": "3364c4607466d6b04c64e460706246b54cc2c460727247b5426242e2d2f2e397ababa2e2dbd3e3d7298b6ae999d1e240",
+        "originalUrl": "https://www.climatechangenews.com/wp-content/files/2026/10/COP17-close.jpeg",
+        "focus": {
+          "x": 0.143,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "inovio-voceryq-2026-11-01",
+      "eventKey": "inovio-voceryq-dna-medicine-approval-2026-10",
+      "materialFacts": [
+        "FDA godkendte VOCERYQ 30. oktober med accelereret proces",
+        "7 af 26 evaluerbare patienter undgik kirurgi efter et år",
+        "Et bekræftende studie følger"
+      ],
+      "section": "Biotek",
+      "headline": "FDA Approves First Plasmid DNA-based Immunotherapy for Adults with Recurrent Respiratory Papillomatosis",
+      "primarySourceUrl": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+      "subheadline": "VOCERYQ er godkendt; 7 af 26 patienter undgik kirurgi efter et år i studiet.",
+      "body": [
+        "FDA har givet accelereret godkendelse til Inovios VOCERYQ, det første DNA-baserede lægemiddel af sin slags, til voksne med recidiverende respiratorisk papillomatose. Godkendelsen bygger på et studie med 32 patienter, hvor 7 af 26 evaluerbare ikke behøvede kirurgi i det første år. Et bekræftende studie følger."
+      ],
+      "whyItMatters": "Sygdommen kræver ofte gentagne operationer resten af livet; færre operationer er en reel forskel.",
+      "analysis": "Godkendelsen afhænger af det kommende bekræftende studie.",
+      "topics": [
+        "biotek",
+        "medicin"
+      ],
+      "entities": [
+        "Inovio Pharmaceuticals",
+        "FDA",
+        "VOCERYQ"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 35,
+        "novelty": 80,
+        "sourceQuality": 85,
+        "personalRelevance": 15,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "FDA godkendte VOCERYQ 30. oktober 2026 baseret på 7 af 26 evaluerbare patienter uden kirurgibehov efter et år",
+          "sourceUrls": [
+            "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FDA Approves First Plasmid DNA-based Immunotherapy for Adults with Recurrent Respiratory Papillomatosis",
+          "publisher": "U.S. Food and Drug Administration",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+          "publishedAt": "2026-10-30T00:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Voceryq Gains FDA Accelerated Approval for Recurrent Respiratory Papillomatosis",
+          "publisher": "HCPLive",
+          "url": "https://www.hcplive.com/view/voceryq-gains-fda-accelerated-approval-for-recurrent-respiratory-papillomatosis",
+          "publishedAt": "2026-10-30T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://cdn.sanity.io/images/0vv8moc6/hcplive/8c9fc7db85bab8d7795d7e7f3fe25112d090c457-400x400.webp?w=1200&fit=max&fm=png",
+          "fingerprint": "1009a49a6a6684621884661a5b6680501986661959624a100946b659d9e3cb080fa233189ce18b040343bb9c9ad5a5c9",
+          "reason": "logo-or-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/08-d713305b.jpg",
+        "credit": "Kilde: IEEE Spectrum",
+        "alt": "INOVIO's CELLECTRA-indgivelsesanordning, der bruges til at injicere et DNA-lægemiddel i huden",
+        "sourceUrl": "https://spectrum.ieee.org/inovios-electrical-device-zaps-a-covid19-vaccine-into-the-body",
+        "origin": "coverage",
+        "fingerprint": "387e1b988e4741243c77191c8e4f41247e73181c8ec74944f7d9183c9e87c946f198182c1e9789cab0185d2d2f13958a",
+        "lookedAt": "387e1b988e4741243c77191c8e4f41247e73181c8ec74944f7d9183c9e87c946f198182c1e9789cab0185d2d2f13958a",
+        "originalUrl": "https://spectrum.ieee.org/media-library/image-of-a-person-receiving-a-vaccine-via-the-cellectra-3psp-device.jpg?id=27044857&width=1200&height=900",
+        "focus": {
+          "x": 0.243,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "france-protests-2026-11-01",
+      "eventKey": "france-youth-protests-third-weekend-2026-10",
+      "materialFacts": [
+        "Tredje demonstrationsweekend i træk, startet af gymnasieelever",
+        "320.000 deltagere lørdag mod 550.000 og 410.000 i ugerne før",
+        "70.000 politifolk udstationeret, over 560 anholdt"
+      ],
+      "section": "Europa",
+      "headline": "Third weekend of protests in France as youth-led rallies sweep Europe",
+      "primarySourceUrl": "https://www.abc.net.au/news/2026-11-01/germany-france-europe-youth-protests/107333208",
+      "subheadline": "320.000 demonstrerede lørdag, færre end ugerne før, med 70.000 politifolk udstationeret.",
+      "body": [
+        "Frankrig oplevede sin tredje demonstrationsweekend i træk, startet af gymnasieelever mod forfaldne skoler, siden bredt til vrede over leveomkostninger. Regeringen anslog 320.000 deltagere lørdag, mod 550.000 den 17. oktober og 410.000 den 24. oktober. Over 560 er anholdt, og lignende demonstrationer er set i Tyskland og Italien."
+      ],
+      "whyItMatters": "Bevægelsen samler en generations utilfredshed med uddannelse og levevilkår.",
+      "analysis": "Det faldende tal kan læses som udtrætning eller som regeringen, der vinder tid.",
+      "topics": [
+        "frankrig",
+        "demokrati"
+      ],
+      "entities": [
+        "Frankrig",
+        "Paris"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 30,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 10,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "320.000 demonstrerede i Frankrig lørdag mod 550.000 og 410.000 i de to foregående weekender; over 560 blev anholdt",
+          "sourceUrls": [
+            "https://www.abc.net.au/news/2026-11-01/germany-france-europe-youth-protests/107333208"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Third weekend of protests in France as youth-led rallies sweep Europe",
+          "publisher": "ABC News",
+          "url": "https://www.abc.net.au/news/2026-11-01/germany-france-europe-youth-protests/107333208",
+          "publishedAt": "2026-11-01T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/09-02c6d172.jpg",
+        "credit": "Kilde: ABC News",
+        "alt": "En demonstrant i Batman-kostume foran en brændende barrikade under en protest i en fransk by",
+        "sourceUrl": "https://www.abc.net.au/news/2026-11-01/germany-france-europe-youth-protests/107333208",
+        "origin": "article",
+        "fingerprint": "60cc8c9496761617f4cc0cb692723217f4cc0e3692723337c64c4e3633e3f3338e0e5e3233cb6b330e9e5b7331b9c9f9",
+        "lookedAt": "60cc8c9496761617f4cc0cb692723217f4cc0e3692723337c64c4e3633e3f3338e0e5e3233cb6b330e9e5b7331b9c9f9",
+        "originalUrl": "https://live-production.wcms.abc-cdn.net.au/6ccf631b87f387e4adacca07bfde1259?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=1600&height=900&imformat=generic",
+        "focus": {
+          "x": 0.379,
+          "y": 0.15
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Gemini 4 Carbon: our next frontier model",
+      "headline": "Gemini 4 Carbon: our next frontier model",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "publisher": "Google DeepMind",
+      "section": "AI",
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "summary": "Gemini 4 Carbon topper Artificial Analysis Intelligence Index v5 og er optimeret til at finde og rette sikkerhedsfejl i kode.",
+      "topics": [
+        "ai",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "text": "Federal Reserve issues FOMC statement",
+      "headline": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "publisher": "Federal Reserve",
+      "section": "Økonomi",
+      "publishedAt": "2026-10-28T18:00:00Z",
+      "summary": "Fed holder styringsrenten på 3,75-4,00 pct.; to medlemmer stemte for en forhøjelse.",
+      "topics": [
+        "usa",
+        "økonomi"
+      ]
+    },
+    {
+      "text": "Anthropic Targets November IPO After Delays, Eyes SpaceX-Sized Debut",
+      "headline": "Anthropic Targets November IPO After Delays, Eyes SpaceX-Sized Debut",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-01/anthropic-said-to-target-mega-ipo-before-thanksgiving-holiday",
+      "publisher": "Bloomberg",
+      "section": "Finans",
+      "publishedAt": "2026-10-01T00:00:00Z",
+      "summary": "Formel markedsføring af børsnoteringen ventes at begynde i ugen fra 9. november.",
+      "topics": [
+        "ai",
+        "finans"
+      ]
+    },
+    {
+      "text": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "headline": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "publisher": "The Hacker News",
+      "section": "Cybersikkerhed",
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "summary": "En sårbarhed i ChatGPTs HTML-preview gav kontoovertagelse via delte links; OpenAI rettede fejlen otte dage efter rapportering.",
+      "topics": [
+        "ai",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "text": "John Ternus tells WIRED Apple won't ship AI for AI's sake",
+      "headline": "John Ternus tells WIRED Apple won't ship AI for AI's sake",
+      "url": "https://thenextweb.com/news/john-ternus-wired-apple-ai-for-ais-sake",
+      "publisher": "Wired",
+      "section": "AI",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "summary": "Apples nye CEO siger selskabet ikke vil 'ship AI for AI's sake'; Tim Cook hjælper med politik.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ]
+    },
+    {
+      "text": "Ukrainian delegation arrives in occupied Oleshky to facilitate humanitarian ceasefire",
+      "headline": "Ukrainian delegation arrives in occupied Oleshky to facilitate humanitarian ceasefire",
+      "url": "https://www.ukrinform.net/block-lastnews",
+      "publisher": "Ukrinform",
+      "section": "Krigen i Ukraine",
+      "publishedAt": "2026-10-30T00:00:00Z",
+      "summary": "En ukrainsk delegation skal lette en humanitær våbenstilstand i det russisk-besatte Oleshky i Kherson.",
+      "topics": [
+        "krig",
+        "ukraine"
+      ]
+    },
+    {
+      "text": "OpenAI ships Python SDK 3.42.0",
+      "headline": "OpenAI ships Python SDK 3.42.0",
+      "url": "https://github.com/openai/openai-python/releases",
+      "publisher": "OpenAI (GitHub)",
+      "section": "AI",
+      "publishedAt": "2026-10-31T00:00:00Z",
+      "summary": "Ny SDK-version tilføjer konfigurerbar context compaction og agent-session review.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ]
+    },
+    {
+      "text": "Kollegaer i massevis reagerer på Mylenbergs død: 'Troels var enestående'",
+      "headline": "Kollegaer i massevis reagerer på Mylenbergs død: 'Troels var enestående'",
+      "url": "https://www.dr.dk/nyheder/indland/kollegaer-i-massevis-reagerer-paa-mylenbergs-doed-troels-var-enestaaende",
+      "publisher": "DR",
+      "section": "Medier",
+      "publishedAt": "2026-11-01T00:00:00Z",
+      "summary": "Danske mediekolleger reagerer på journalisten Troels Mylenbergs død.",
+      "topics": [
+        "medier",
+        "danmark"
+      ]
+    },
+    {
+      "text": "'En katastrofe i slowmotion': TV 2s håndtering af udskældt program kritiseres",
+      "headline": "'En katastrofe i slowmotion': TV 2s håndtering af udskældt program kritiseres",
+      "url": "https://www.dr.dk/nyheder/indland/en-katastrofe-i-slowmotion-tv-2s-haandtering-af-udskaeldt-program-kritiseres",
+      "publisher": "DR",
+      "section": "Medier",
+      "publishedAt": "2026-11-01T00:00:00Z",
+      "summary": "Kritik af TV 2s håndtering af et omdiskuteret program.",
+      "topics": [
+        "medier",
+        "danmark"
+      ]
+    },
+    {
+      "text": "Én stor militærbase: Trump deler nyt billede af Grønland",
+      "headline": "Én stor militærbase: Trump deler nyt billede af Grønland",
+      "url": "https://www.dr.dk/nyheder/udland/en-stor-militaerbase-trump-deler-nyt-billede-af-groenland",
+      "publisher": "DR",
+      "section": "Udland",
+      "publishedAt": "2026-10-31T22:14:00Z",
+      "summary": "Trump delte et billede af en landingsbane og militærfly med teksten 'Velkommen til Grønland' på Truth Social.",
+      "topics": [
+        "grønland",
+        "geopolitik"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "multiplikatorens-aarstid",
+    "title": "Multiplikatorens årstid",
+    "thesis": "Finanspolitiske multiplikatorer er størst i en recession, mindst nær fuld beskæftigelse.",
+    "horizon": "inden for to år",
+    "body": [
+      "En krone erstatter intet i en recession, men fortrænger investering i et stramt marked. Stimulus regnes i dag efter en effekt, konjunkturen ikke leverer."
+    ],
+    "uncertainty": "Tesen er forkert, hvis en finanspolitisk lempelse i en stram økonomi måles med en multiplikator på linje med, hvad man observerede under en recession -- det vil sige, at den offentlige udgift ikke fortrænger privat investering i et presset arbejdsmarked, som teorien ellers forudsiger.",
+    "topics": [
+      "økonomi",
+      "makroøkonomi"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-econtalk-bessis-01",
+      "tier": "featured",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Nature, Nurture, and Identical Twins (with David Bessis)",
+      "creator": "Russ Roberts med David Bessis",
+      "provider": "EconTalk (Econlib)",
+      "url": "https://www.econtalk.org/nature-nurture-and-identical-twins-with-david-bessis/",
+      "availability": "Frit tilgængelig, alle regioner",
+      "commitment": "ca. 70 min",
+      "description": "Matematikeren David Bessis gennemgår de metodiske svagheder i 'tvillinger opvokset separat'-studier -- selektionsbias, små stikprøver og måneders delt prænatal miljø -- og udfordrer, hvor rent naturligt eksperimentet reelt er.",
+      "rationale": "Et håndværksmæssigt argument fra en matematiker, ikke en popularisator, om hvor meget af menneskelig variation der faktisk kan tilskrives gener versus unikke individuelle forløb. Betaler sin tid med et argument, der kan flytte en vurdering af, hvad 'medfødt potentiale' overhovedet forklarer.",
+      "topics": [
+        "psykologi",
+        "videnskab"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/r01-5d11ef1a.jpg",
+        "credit": "Kilde: EconTalk / Econlib",
+        "alt": "EconTalk-podcastens officielle cover art",
+        "sourceUrl": "https://en.wikipedia.org/wiki/EconTalk",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/en/4/4c/EconTalk.png",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-mintzberg-myth-02",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "available",
+      "title": "Myth 1: Lofty leadership tops mere management",
+      "creator": "Henry Mintzberg",
+      "provider": "Mintzberg.org",
+      "url": "https://mintzberg.org/blog/myth-1-lofty-leadership",
+      "note": "Angriber direkte fortællingen om, at karismatisk lederskab står over kedelig ledelse -- en tradition, der ikke findes i de 74 læste titler.",
+      "topics": [
+        "ledelse",
+        "organisation"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-elliptic-binance-03",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk analyse",
+      "status": "available",
+      "title": "The largest theft in history: North Korea likely behind the $6.4 billion Binance hack",
+      "creator": "Dr. Tom Robinson",
+      "provider": "Elliptic",
+      "url": "https://www.elliptic.co/insights/binance-largest-hack-in-history/",
+      "note": "Dybere kæde-for-kæde-analyse af dagens lead-historie end nyhedsreferatet giver plads til.",
+      "topics": [
+        "kryptovaluta",
+        "cybersikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-parameter-chatgpt-04",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk skriv",
+      "status": "available",
+      "title": "Do the Math: How We Took Over ChatGPT Accounts",
+      "provider": "Parameter",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "note": "Selvstændig, teknisk gennemgang af kædeudnyttelsen bag dagens ChatGPT-sårbarhedssignal.",
+      "topics": [
+        "ai",
+        "cybersikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nesformer-05",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Teknisk projekt",
+      "status": "new",
+      "title": "nesformer",
+      "creator": "Drew Breunig",
+      "provider": "GitHub",
+      "url": "https://github.com/dbreunig/nesformer",
+      "note": "En NES-emulator, der kører inden i en sprogmodels vægte -- kuriositet med reel teknisk substans.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-quantumera-sklarin-06",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "available",
+      "title": "Democratizing Quantum Venture Investing with Chris Sklarin",
+      "creator": "Chris Sklarin",
+      "provider": "The New Quantum Era",
+      "url": "https://www.newquantumera.com/podcast/democratizing-quantum-venture-investing-with-chris-sklarin/",
+      "note": "Kvante og venturekapital i samme samtale -- et hul profilen selv navngiver.",
+      "topics": [
+        "quantum",
+        "venture"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-spawn-07",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Teknisk gennemgang",
+      "status": "new",
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "creator": "Simon Willison",
+      "provider": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+      "note": "Konkret agent-demonstration (Spawn), ikke en opsummering af en model-lancering.",
+      "topics": [
+        "ai",
+        "produkt"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 94,
+    "freshness": 92,
+    "novelty": 80,
+    "perspectiveBalance": 78,
+    "render": 100
+  }
+}

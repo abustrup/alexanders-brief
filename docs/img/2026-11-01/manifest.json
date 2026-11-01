@@ -1,0 +1,210 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-01",
+  "generatedAt": "2026-11-01T05:40:15.193Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "nk-binance-hack-2026-11-01",
+      "headline": "North Korea Steals USD 6.36 Billion From Binance in the Largest Hack in History",
+      "source": "https://static01.nyt.com/images/2026/11/01/business/00biz-binance-ticktock/00biz-binance-ticktock-facebookJumbo.jpg",
+      "article": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+      "hosted": "01-f1f8d38c.jpg",
+      "srcSize": "1050x550",
+      "srcFormat": "webp",
+      "srcBytes": 24488,
+      "out": "733x550",
+      "bytes": 32742,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.227,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-01T05:40:15.517Z"
+    },
+    {
+      "slot": "02",
+      "id": "openai-funding-cut-2026-11-01",
+      "headline": "OpenAI reportedly lowers funding target for new round",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2guEwq.img",
+      "article": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "hosted": "02-37157396.jpg",
+      "srcSize": "1910x1000",
+      "srcFormat": "jpeg",
+      "srcBytes": 78735,
+      "out": "1500x1000",
+      "bytes": 68243,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.657,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-01T05:40:15.943Z"
+    },
+    {
+      "slot": "03",
+      "id": "google-quantum-magic-2026-11-01",
+      "headline": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+      "source": "https://sites.google.com/sitesv-images-rt/AMxu72vVlubi5AIcQoO0P-azz8lrOBU4ObFzYAC33_Fw1usgkwLuWO7nhz5tVuu8L5oa9RIMlIFKROJWZiAO7BgrvNpK3wnvxFk_k6rkZ3CdYNADJqzi5n75_lUsCehuc84RfHL07opA2geOu4zO17H-eGSI6Guq0c2BXDrQGOBRlEvBSInMyCgVnzO8tA1tKK-JsS0vjQ8lBAIlHB08Fts=w1280",
+      "article": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+      "hosted": "03-023f2dbb.jpg",
+      "srcSize": "1280x580",
+      "srcFormat": "jpeg",
+      "srcBytes": 234478,
+      "out": "870x580",
+      "bytes": 93597,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-01T05:40:16.282Z"
+    },
+    {
+      "slot": "04",
+      "id": "meta-fourier-robot-2026-11-01",
+      "headline": "Meta develops humanoid robot prototype with Chinese firm Fourier, begins second-generation project",
+      "source": "https://www.therobotreport.com/wp-content/uploads/2024/09/fourier-gr2-pick.jpg",
+      "article": "https://www.digitaltoday.co.kr/en/view/122209/meta-develops-humanoid-robot-prototype-with-chinese-firm-fourier-launches-second-generation-project",
+      "hosted": "04-5f35fddf.jpg",
+      "srcSize": "770x500",
+      "srcFormat": "jpeg",
+      "srcBytes": 77221,
+      "out": "750x500",
+      "bytes": 29575,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-01T05:40:16.544Z"
+    },
+    {
+      "slot": "05",
+      "id": "anthropic-insights-2026-11-01",
+      "headline": "Enabling independent research on how people use Claude",
+      "source": "https://humaninformationprocessing.com/assets/images/lab%20hike.jpg",
+      "article": "https://www.anthropic.com/research/enabling-independent-research",
+      "hosted": "05-ad62599c.jpg",
+      "srcSize": "3648x2736",
+      "srcFormat": "jpeg",
+      "srcBytes": 552403,
+      "out": "1600x1067",
+      "bytes": 216950,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.307,
+        "y": 0.257
+      },
+      "fetchedAt": "2026-11-01T05:40:17.220Z"
+    },
+    {
+      "slot": "06",
+      "id": "poland-tribunal-crisis-2026-11-01",
+      "headline": "Polish president holds crisis talks in court standoff",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae67ae8c1f6-1793489640.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/1/polish-president-holds-crisis-talks-in-court-standoff",
+      "hosted": "06-5d469a07.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 525750,
+      "out": "1600x1067",
+      "bytes": 349832,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.827,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-01T05:40:17.833Z"
+    },
+    {
+      "slot": "07",
+      "id": "cop17-yerevan-2026-11-01",
+      "headline": "COP17 delivers fragile deal to boost conservation and funding for nature",
+      "source": "https://www.climatechangenews.com/wp-content/files/2026/10/COP17-close.jpeg",
+      "article": "https://www.climatechangenews.com/2026/10/31/cop17-delivers-fragile-deal-scaling-up-biodiversity-conservation-armenia-cbd/",
+      "hosted": "07-1f7cc5fb.jpg",
+      "srcSize": "1600x1066",
+      "srcFormat": "jpeg",
+      "srcBytes": 342371,
+      "out": "1599x1066",
+      "bytes": 174303,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.143,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-01T05:40:18.362Z"
+    },
+    {
+      "slot": "08",
+      "id": "inovio-voceryq-2026-11-01",
+      "headline": "FDA Approves First Plasmid DNA-based Immunotherapy for Adults with Recurrent Respiratory Papillomatosis",
+      "source": "https://spectrum.ieee.org/media-library/image-of-a-person-receiving-a-vaccine-via-the-cellectra-3psp-device.jpg?id=27044857&width=1200&height=900",
+      "article": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-plasmid-dna-based-immunotherapy-adults-recurrent-respiratory-papillomatosis",
+      "hosted": "08-d713305b.jpg",
+      "srcSize": "1200x900",
+      "srcFormat": "webp",
+      "srcBytes": 54152,
+      "out": "1200x800",
+      "bytes": 61530,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.243,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-01T05:40:18.698Z"
+    },
+    {
+      "slot": "09",
+      "id": "france-protests-2026-11-01",
+      "headline": "Third weekend of protests in France as youth-led rallies sweep Europe",
+      "source": "https://live-production.wcms.abc-cdn.net.au/6ccf631b87f387e4adacca07bfde1259?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=260&width=1600&height=900&imformat=generic",
+      "article": "https://www.abc.net.au/news/2026-11-01/germany-france-europe-youth-protests/107333208",
+      "hosted": "09-02c6d172.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 269649,
+      "out": "1350x900",
+      "bytes": 112449,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0.15
+      },
+      "fetchedAt": "2026-11-01T05:40:19.436Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-econtalk-bessis-01",
+      "headline": "Nature, Nurture, and Identical Twins (with David Bessis)",
+      "source": "https://upload.wikimedia.org/wikipedia/en/4/4c/EconTalk.png",
+      "article": "https://www.econtalk.org/nature-nurture-and-identical-twins-with-david-bessis/",
+      "hosted": "r01-5d11ef1a.jpg",
+      "srcSize": "316x316",
+      "srcFormat": "png",
+      "srcBytes": 28949,
+      "out": "316x178",
+      "bytes": 5980,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-01T05:40:19.662Z"
+    }
+  ]
+}
