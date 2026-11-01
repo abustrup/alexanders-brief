@@ -87,7 +87,28 @@ env:
   # cannot resolve a target inside the agent's environment. Structure, not a rule the agent could reread.
 
 jobs:
+  # PAUSED 2026-11-01 at Alexander's request: spend no Claude tokens on this brief, even if that means no
+  # new edition, until Tuesday 2026-11-03 22:00 Copenhagen. This job costs nothing; when the time passes the
+  # brief job below runs again by itself. To lift the pause early, delete this job and the two lines
+  # (needs, if) on `brief`; to move it, change PAUSED_UNTIL here and in the update workflow.
+  pause-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      paused: ${{ steps.g.outputs.paused }}
+    steps:
+      - id: g
+        run: |
+          PAUSED_UNTIL="2026-11-03 22:00"
+          if [ "$(date +%s)" -lt "$(TZ=Europe/Copenhagen date -d "$PAUSED_UNTIL" +%s)" ]; then
+            echo "paused=true" >> "$GITHUB_OUTPUT"
+            echo "PAUSED until $PAUSED_UNTIL Copenhagen (Alexander's instruction, 2026-11-01). No agent started, no tokens spent." | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            echo "paused=false" >> "$GITHUB_OUTPUT"
+          fi
   brief:
+    needs: pause-gate
+    if: needs.pause-gate.outputs.paused != 'true'
     runs-on: ubuntu-latest
     # 220, was 180 until 2026-10-25 (round 2), and 150 before that. The capped steps are the agent (100), the
     # picture desk (stage cap 60 minutes, step cap 64) and the gate (15), plus liveness (about 15 of polling) =

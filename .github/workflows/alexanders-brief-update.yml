@@ -95,7 +95,26 @@ env:
   # agent's environment cannot resolve a publish target. Structure, not a rule it could reread.
 
 jobs:
+  # PAUSED 2026-11-01 at Alexander's request: spend no Claude tokens on this brief until Tuesday 2026-11-03
+  # 22:00 Copenhagen. Costs nothing; the update job runs again by itself afterwards. Same date as the daily.
+  pause-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    outputs:
+      paused: ${{ steps.g.outputs.paused }}
+    steps:
+      - id: g
+        run: |
+          PAUSED_UNTIL="2026-11-03 22:00"
+          if [ "$(date +%s)" -lt "$(TZ=Europe/Copenhagen date -d "$PAUSED_UNTIL" +%s)" ]; then
+            echo "paused=true" >> "$GITHUB_OUTPUT"
+            echo "PAUSED until $PAUSED_UNTIL Copenhagen (Alexander's instruction, 2026-11-01). No agent started, no tokens spent." | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            echo "paused=false" >> "$GITHUB_OUTPUT"
+          fi
   update:
+    needs: pause-gate
+    if: needs.pause-gate.outputs.paused != 'true'
     runs-on: ubuntu-latest
     # 120, was 110 (and 90 until 2026-10-25), and the arithmetic matters: the liveness proof is the LAST
     # step, and a job that dies during it kills a run that has already published — the reader has the new
