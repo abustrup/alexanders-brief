@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "2026-11-01-full-01",
+  "runId": "run-2026-11-01-umidday-r185",
   "date": "2026-11-01",
-  "generatedAt": "2026-11-01T05:18:06.962Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-11-01T17:13:11.866Z",
+  "readingMinutes": 8,
   "title": "Alexanders Brief",
   "dek": "Nordkoreas 6,36 mia. dollar-kryptokup, en skåret OpenAI-finansieringsrunde, en forfatningskrise i Polen og et biodiversitetsforlig fra Yerevan",
   "profileWeights": {
@@ -758,6 +758,107 @@
           "y": 0.15
         }
       }
+    },
+    {
+      "id": "binance-fbi-attribution-withdrawals-2026-11-01",
+      "eventKey": "binance-hack-fbi-attribution-withdrawals-2026-11",
+      "materialFacts": [
+        "FBI, USSS og IRS-CI tilskriver officielt Binance-tyveriet til nordkoreanske TraderTraitor",
+        "Myndighederne opfordrer børser og DeFi-tjenester til at blokere over 600 adresser",
+        "Binance har genvundet 95 pct. af de 6,3 mia. dollar",
+        "Binance genåbnede søndag udbetalinger i faser, startende med bitcoin og ether"
+      ],
+      "section": "Kryptosikkerhed",
+      "headline": "Binance resumes withdrawals following $6.3 billion breach",
+      "primarySourceUrl": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+      "subheadline": "FBI udpeger Nordkorea officielt, og Binance genåbner udbetalinger efter 95 pct. genvinding.",
+      "body": [
+        "FBI, Secret Service og IRS-CI oplyser, at nordkoreanske TraderTraitor stod bag Binance-tyveriet 29. oktober, og opfordrer børser til at blokere over 600 hvidvaskadresser. Binance har genvundet 95 pct. af de 6,3 mia. dollar og genåbnede søndag udbetalinger i faser."
+      ],
+      "whyItMatters": "Officiel attribution gør hvidvasksporet til en sanktionssag for myndigheder, ikke blot en privat analyse.",
+      "topics": [
+        "cybersikkerhed",
+        "kryptovaluta",
+        "geopolitik",
+        "usa"
+      ],
+      "entities": [
+        "Binance",
+        "TraderTraitor",
+        "FBI",
+        "U.S. Secret Service",
+        "IRS-CI",
+        "Nordkorea"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 65,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 55,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "FBI, USSS og IRS-CI tilskriver officielt tyveriet til den nordkoreanske gruppe TraderTraitor",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+            "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Binance har genvundet 95 pct. af de 6,3 mia. dollar og genåbnede udbetalinger i faser fra søndag",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Binance resumes withdrawals following $6.3 billion breach",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+          "publishedAt": "2026-11-01T16:20:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses",
+          "publisher": "CoinDesk",
+          "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses",
+          "publishedAt": "2026-11-01T05:29:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-01/10-a2cffbf9.jpg",
+        "credit": "Kilde: Getty Images / CNN",
+        "alt": "Changpeng Zhao, medstifter af Binance, taler ved en konference",
+        "sourceUrl": "https://www.cnn.com/2026/10/30/tech/binance-crypto-heist-hnk-intl",
+        "origin": "coverage",
+        "fingerprint": "12ae9b49295b1bac3abac9892d5b9b2c2a39c909045b9b3c4b6880480a5a9939eac08484010ad999ec048482858d591c",
+        "lookedAt": "12ae9b49295b1bac3abac9892d5b9b2c2a39c909045b9b3c4b6880480a5a9939eac08484010ad999ec048482858d591c",
+        "originalUrl": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2291692470.jpg?c=original&q=w_860,c_fill",
+        "focus": {
+          "x": 0.848,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/binance-2206279918.jpg?resize=1200,800",
+          "fingerprint": "9118b4d672acbe14b190b65373ad3c16b13032d373cf2d763434539333cf6d7d3672539331c94d6d34d3931a39c94ecd",
+          "reason": "logo-or-card"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-01T17:13:11.866Z",
+        "runId": "run-2026-11-01-umidday-r185"
+      }
     }
   ],
   "signals": [
@@ -1047,5 +1148,20 @@
     "novelty": 80,
     "perspectiveBalance": 78,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-01T17:13:11.866Z",
+      "runId": "run-2026-11-01-umidday-r185",
+      "added": 1,
+      "cost": {
+        "usd": 2.0836716000000006,
+        "inputTokens": 2282994,
+        "outputTokens": 22909,
+        "turns": 54,
+        "seconds": 365.9
+      }
+    }
+  ]
 }
