@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-04",
-  "generatedAt": "2026-11-04T18:49:10.835Z",
+  "generatedAt": "2026-11-04T22:00:16.226Z",
   "pictures": [
     {
       "slot": "01",
@@ -221,6 +221,26 @@
         "y": 0
       },
       "fetchedAt": "2026-11-04T18:49:12.201Z"
+    },
+    {
+      "slot": "12",
+      "id": "s-us-markets-midterm-rally-20261104",
+      "headline": "Stock market today: Dow surges 1,500 points in best day of 2026, S&P 500 and Nasdaq rally after historic midterm election",
+      "source": "https://s.yimg.com/lo/mysterio/api/19f751e66e20cc3b5fcd1fef69a91d2b27e25fdda1c2a75fc47cc1ab94eb60f3/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fgettyimages-2264208944_1538.jpg",
+      "article": "https://finance.yahoo.com/markets/live/stock-market-today-dow-sp-500-nasdaq-midterm-elections-earnings-140752043.html",
+      "hosted": "12-5efc7dd3.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 99144,
+      "out": "1200x800",
+      "bytes": 112678,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.705,
+        "y": 0.779
+      },
+      "fetchedAt": "2026-11-04T22:00:16.568Z"
     },
     {
       "slot": "r01",
