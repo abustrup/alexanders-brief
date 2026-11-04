@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "2026-11-04-full",
+  "runId": "run-2026-11-04-umidday-r198",
   "date": "2026-11-04",
-  "generatedAt": "2026-11-04T05:30:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-04T18:46:21.331Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "Anthropic søger Nasdaq, Grønland siger ja til USA-aftalen, og en 4,5 milliarder år gammel asteroide bærer livets bogstaver.",
   "profileWeights": {
@@ -783,6 +783,172 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "s-ai-datacenter-ballot-backlash-20261104",
+      "eventKey": "us-midterms-ai-datacenter-ballot-backlash-2026-11",
+      "materialFacts": [
+        "Vælgere i over 30 lokalsamfund i ni amerikanske stater stemte 4. november for forbud, moratorier eller skærpede krav til AI-datacentre",
+        "Mange af afstemningerne endte med 70 procent eller mere imod projekterne, ifølge Semafors optælling af resultaterne",
+        "Banker og kapitalforvaltere bag udbygningen er ifølge Semafor begyndt at indregne lokal modstand som en kreditrisiko"
+      ],
+      "section": "AI og marked",
+      "headline": "US voters roundly reject data centers in ballot measures",
+      "primarySourceUrl": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+      "subheadline": "Over 30 lokalsamfund i ni stater stemte mod databokse.",
+      "body": [
+        "Ved tirsdagens midtvejsvalg stemte vælgere i over 30 lokalsamfund i ni amerikanske stater for forbud eller skærpede krav til AI-datacentre, mange afstemninger med 70 procent eller mere imod. Banker bag udbygningen begynder nu at indregne lokal modstand som en kreditrisiko."
+      ],
+      "whyItMatters": "Det ændrer regnestykket for AI-infrastrukturbølgen, som investorer har prissat som uundgåelig.",
+      "topics": [
+        "ai",
+        "usa",
+        "erhverv"
+      ],
+      "entities": [
+        "CoreWeave",
+        "Greg Abbott"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 80,
+        "novelty": 75,
+        "sourceQuality": 85,
+        "personalRelevance": 85,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Vælgere i over 30 lokalsamfund i ni stater stemte 4. november mod AI-datacentre, mange afstemninger med 70 procent eller mere imod",
+          "sourceUrls": [
+            "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Banker og kapitalforvaltere bag datacenterudbygningen er begyndt at indregne lokal modstand som en kreditrisiko",
+          "sourceUrls": [
+            "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US voters roundly reject data centers in ballot measures",
+          "publisher": "Semafor",
+          "url": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+          "publishedAt": "2026-11-04T13:54:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-04/10-172798fe.jpg",
+        "credit": "Kilde: Getty Images / ABC News",
+        "alt": "Teksas' guvernør Greg Abbott taler til pressen efter at have stemt ved midtvejsvalget",
+        "sourceUrl": "https://abcnews.com/Politics/texas-democrats-data-centers-winning-issue/story?id=137684995",
+        "origin": "coverage",
+        "fingerprint": "c7a7e6a666c68f6ec767e7a6e6c7c54f47476367e7c3c745c7c74363e3c387c6c7d34363e3c38346d2d3c9c3e181914a",
+        "lookedAt": "c7a7e6a666c68f6ec767e7a6e6c7c54f47476367e7c3c745c7c74363e3c387c6c7d34363e3c38346d2d3c9c3e181914a",
+        "originalUrl": "https://i.abcnewsfe.com/a/03a9d656-4c23-4df2-96dc-cfbb9f5f19e9/greg-abbott-01-gty-jt-261030_1793385356851_hpEmbed_3x2.jpg",
+        "focus": {
+          "x": 0.473,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://img.semafor.com/3539e9f8436bba6661848f82fb4f45f4c0ffc41e-6500x4333.jpg?rect=0,461,6500,3413&w=1200&h=630&q=75&auto=format",
+          "fingerprint": "ce0cf88681088e07463cf08691098e07063cb80311188b072ef8ba03111c890bbcf03f4111141c0df8797f0114161e0d",
+          "reason": "off-topic"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-04T18:46:21.331Z",
+        "runId": "run-2026-11-04-umidday-r198"
+      }
+    },
+    {
+      "id": "s-indonesia-jakarta-troops-20261104",
+      "eventKey": "indonesia-jakarta-troop-deployment-wiretap-scandal-2026-11",
+      "materialFacts": [
+        "Indonesiens militær udsendte 4. november over 20.000 soldater og personel til Jakarta, med 13.140 yderligere i beredskab",
+        "Tre politigeneraler, heriblandt nyudnævnt stabschef Listyo Sigit Prabowo, blev anholdt for ulovlig aflytning af præsident Prabowo Subianto i 2025-2026",
+        "Præsidentpaladset karakteriserer aflytningen som en handling, der 'peger mod forræderi'"
+      ],
+      "section": "Geopolitik",
+      "headline": "Indonesia deploys troops to boost Jakarta's security after generals' arrest",
+      "primarySourceUrl": "https://abcnews.com/International/wireStory/indonesias-military-deploys-thousands-troops-boost-jakartas-security-137838412",
+      "subheadline": "20.000 soldater sendt ind efter generalers anholdelse for aflytning.",
+      "body": [
+        "Indonesiens militær har udsendt over 20.000 soldater til Jakarta, med 13.140 yderligere i beredskab, efter at tre politigeneraler - heriblandt stabschef Listyo Sigit Prabowo - blev anholdt for ulovlig aflytning af præsident Prabowo Subianto i 2025-2026."
+      ],
+      "whyItMatters": "En aflytningsskandale i politiets top rejser spørgsmål om magtbalancen i Indonesien.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Prabowo Subianto",
+        "Listyo Sigit Prabowo"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 35,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Indonesiens militær udsendte over 20.000 soldater til Jakarta 4. november 2026, med 13.140 yderligere i beredskab",
+          "sourceUrls": [
+            "https://abcnews.com/International/wireStory/indonesias-military-deploys-thousands-troops-boost-jakartas-security-137838412"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Tre politigeneraler, heriblandt stabschef Listyo Sigit Prabowo, blev anholdt for ulovlig aflytning af præsident Prabowo Subianto mellem 2025 og 2026",
+          "sourceUrls": [
+            "https://abcnews.com/International/wireStory/indonesias-military-deploys-thousands-troops-boost-jakartas-security-137838412"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Indonesia deploys troops to boost Jakarta's security after generals' arrest",
+          "publisher": "The Associated Press",
+          "url": "https://abcnews.com/International/wireStory/indonesias-military-deploys-thousands-troops-boost-jakartas-security-137838412",
+          "publishedAt": "2026-11-04T06:19:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-04/11-a8c5b9d3.jpg",
+        "credit": "Kilde: The Associated Press",
+        "alt": "Indonesia deploys troops to boost Jakarta's security after generals' arrest",
+        "sourceUrl": "https://abcnews.com/International/wireStory/indonesias-military-deploys-thousands-troops-boost-jakartas-security-137838412",
+        "origin": "article",
+        "fingerprint": "f42e4e8f8fc4ccccac6ecf8f8dc4c68d6cefc30f9dc486866e8fcf0da48686864f25cb0e2e26860757aa8b2e2e674703",
+        "lookedAt": "f42e4e8f8fc4ccccac6ecf8f8dc4c68d6cefc30f9dc486866e8fcf0da48686864f25cb0e2e26860757aa8b2e2e674703",
+        "originalUrl": "https://i.abcnewsfe.com/a/9f00fb19-042f-496f-bcbe-d3f817216087/wirestory_8e598661a904d8af89b35ea04d420506_16x9.jpg?w=1600",
+        "focus": {
+          "x": 0.111,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-04T18:46:21.331Z",
+        "runId": "run-2026-11-04-umidday-r198"
+      }
     }
   ],
   "signals": [
@@ -1066,5 +1232,20 @@
     "novelty": 80,
     "perspectiveBalance": 85,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-04T18:46:21.331Z",
+      "runId": "run-2026-11-04-umidday-r198",
+      "added": 2,
+      "cost": {
+        "usd": 1.9676643999999994,
+        "inputTokens": 2837406,
+        "outputTokens": 26292,
+        "turns": 59,
+        "seconds": 579.1
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-04",
-  "generatedAt": "2026-11-04T05:30:58.008Z",
+  "generatedAt": "2026-11-04T18:49:10.835Z",
   "pictures": [
     {
       "slot": "01",
@@ -181,6 +181,46 @@
         "y": 0
       },
       "fetchedAt": "2026-11-04T05:31:02.775Z"
+    },
+    {
+      "slot": "10",
+      "id": "s-ai-datacenter-ballot-backlash-20261104",
+      "headline": "US voters roundly reject data centers in ballot measures",
+      "source": "https://i.abcnewsfe.com/a/03a9d656-4c23-4df2-96dc-cfbb9f5f19e9/greg-abbott-01-gty-jt-261030_1793385356851_hpEmbed_3x2.jpg",
+      "article": "https://www.semafor.com/article/11/04/2026/us-voters-roundly-reject-data-centers-in-ballot-measures",
+      "hosted": "10-172798fe.jpg",
+      "srcSize": "3072x2044",
+      "srcFormat": "heif",
+      "srcBytes": 163028,
+      "out": "1600x1067",
+      "bytes": 110566,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.473,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T18:49:11.797Z"
+    },
+    {
+      "slot": "11",
+      "id": "s-indonesia-jakarta-troops-20261104",
+      "headline": "Indonesia deploys troops to boost Jakarta's security after generals' arrest",
+      "source": "https://i.abcnewsfe.com/a/9f00fb19-042f-496f-bcbe-d3f817216087/wirestory_8e598661a904d8af89b35ea04d420506_16x9.jpg?w=1600",
+      "article": "https://abcnews.com/International/wireStory/indonesias-military-deploys-thousands-troops-boost-jakartas-security-137838412",
+      "hosted": "11-a8c5b9d3.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "heif",
+      "srcBytes": 86514,
+      "out": "1350x900",
+      "bytes": 96090,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T18:49:12.201Z"
     },
     {
       "slot": "r01",
