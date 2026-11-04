@@ -1,0 +1,207 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-04",
+  "generatedAt": "2026-11-04T05:30:58.008Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "s-anthropic-ipo-20261104",
+      "headline": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "source": "https://image.cnbcfm.com/api/v1/image/108254389-1772565827216-108254389-17689275282026-01-20t124808z_1149863023_rc205jas0xak_rtrmadp_0_davos-meeting.jpeg?v=1777907000&w=1920&h=1080",
+      "article": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "hosted": "01-90b1f10f.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 116144,
+      "out": "1440x1080",
+      "bytes": 111620,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.651,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T05:30:59.242Z"
+    },
+    {
+      "slot": "02",
+      "id": "s-us-midterms-20261104",
+      "headline": "2026 midterms: Democrats win the Senate",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/005-261019-edm-politics-uscapitol-10192026-test-8-2.jpg?c=original",
+      "article": "https://www.npr.org/2026/11/03/g-s1-149526/2026-midterms-congress-balance-of-power",
+      "hosted": "02-1bb86d5a.jpg",
+      "srcSize": "3122x2081",
+      "srcFormat": "jpeg",
+      "srcBytes": 417336,
+      "out": "1600x1067",
+      "bytes": 96366,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.423,
+        "y": 0.15
+      },
+      "fetchedAt": "2026-11-04T05:30:59.638Z"
+    },
+    {
+      "slot": "03",
+      "id": "s-iran-hormuz-20261104",
+      "headline": "US strikes Iranian targets in the Strait of Hormuz, official says, leaving unclear what comes next",
+      "source": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-08-14T135207Z_2024186339_RC2DYMAS9U9B_RTRMADP_3_IRAN-CRISIS-SHIPPING-SPILLS-1024x741.jpg",
+      "article": "https://www.washingtonpost.com/national/2026/11/03/iran-us-strikes-strait-hormuz/1aed601e-d76d-11f1-930a-e08f8086f5ac_story.html",
+      "hosted": "03-a591d4b7.jpg",
+      "srcSize": "1024x741",
+      "srcFormat": "jpeg",
+      "srcBytes": 96185,
+      "out": "1024x683",
+      "bytes": 60798,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.884,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-04T05:31:00.012Z"
+    },
+    {
+      "slot": "04",
+      "id": "s-google-schools-20261104",
+      "headline": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "source": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Designing_responsible_AI_for_learning_hero.width-1300.png",
+      "article": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "hosted": "04-cb6080ee.jpg",
+      "srcSize": "1300x731",
+      "srcFormat": "png",
+      "srcBytes": 907068,
+      "out": "1096x731",
+      "bytes": 79430,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.711,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T05:31:00.339Z"
+    },
+    {
+      "slot": "05",
+      "id": "s-canva-layoffs-20261104",
+      "headline": "Canva layoffs impact 1,200 after design giant's 'hardest year ever'",
+      "source": "https://assets.smartcompany.com.au/wp-content/uploads/sites/4/2026/08/20260710153348002730-original-1.jpg?quality=70&w=1312",
+      "article": "https://www.forbes.com.au/news/innovation/canva-layoffs-impact-1200-employees/",
+      "hosted": "05-fedbc6fe.jpg",
+      "srcSize": "1312x738",
+      "srcFormat": "webp",
+      "srcBytes": 51556,
+      "out": "1107x738",
+      "bytes": 79304,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T05:31:00.983Z"
+    },
+    {
+      "slot": "06",
+      "id": "s-greenland-deal-20261104",
+      "headline": "Greenland parliament approves security deal with US, Denmark",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aea170da6b26-1793726221.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/3/greenland-parliament-approves-security-deal-with-us-denmark",
+      "hosted": "06-d61c1a0b.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 157136,
+      "out": "1600x1067",
+      "bytes": 143445,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-04T05:31:01.438Z"
+    },
+    {
+      "slot": "07",
+      "id": "s-cpr-leak-20261104",
+      "headline": "1,1 millioner har søgt om kreditadvarsel efter CPR-læk",
+      "source": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/main_image_1880x1058/s3/2026/10-08/20261008095716879_1000.jpg?itok=kqPDrITU",
+      "article": "https://www.dr.dk/nyheder/indland/1-1-millioner-har-soegt-om-kreditadvarsel-efter-cpr-laek",
+      "hosted": "07-cfa140fd.jpg",
+      "srcSize": "1880x1058",
+      "srcFormat": "jpeg",
+      "srcBytes": 138082,
+      "out": "1587x1058",
+      "bytes": 63966,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0.039
+      },
+      "fetchedAt": "2026-11-04T05:31:01.762Z"
+    },
+    {
+      "slot": "08",
+      "id": "s-poland-tribunal-20261104",
+      "headline": "Poland's Rule-of-Law Crisis Deepens as Rival Judges Claim Control of Top Court",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/10/afp_6ae67ae8c1f6-1793489640.jpg?resize=1920%2C1440",
+      "article": "https://balkaninsight.com/2026/11/02/polands-rule-of-law-crisis-deepens-as-rival-judges-claim-control-of-top-court/",
+      "hosted": "08-5d469a07.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 525750,
+      "out": "1600x1067",
+      "bytes": 349832,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.827,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T05:31:02.365Z"
+    },
+    {
+      "slot": "09",
+      "id": "s-ryugu-nucleobases-20261104",
+      "headline": "All 5 genetic \"letters\" of DNA and RNA discovered in a 4.5-billion-year-old asteroid",
+      "source": "https://www.sciencedaily.com/images/1920/ryugu-sample-in-return-capsule.webp",
+      "article": "https://www.sciencedaily.com/releases/2026/11/261102075903.htm",
+      "hosted": "09-246b5834.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 157590,
+      "out": "1600x1067",
+      "bytes": 175193,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-04T05:31:02.775Z"
+    },
+    {
+      "slot": "r01",
+      "id": "r-quantum-venture-lepske",
+      "headline": "Quantum Venture Investing from the Lab to the Market with Marie Lepske",
+      "source": "https://img.transistorcdn.com/rK8cU-chSHjQC7jPeH14_ShQJbx2iRJxsC79MqOxaKs/rs:fill:0:0:1/w:800/h:800/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS8yZmZl/YmRlZTAxNDY3MWJk/NmI2MGVkMGMxYmFh/MTM2Mi5wbmc.webp",
+      "article": "https://newquantumera.transistor.fm/112",
+      "hosted": "r01-03f249df.jpg",
+      "srcSize": "800x800",
+      "srcFormat": "webp",
+      "srcBytes": 26404,
+      "out": "800x450",
+      "bytes": 33282,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-04T05:31:02.959Z"
+    }
+  ]
+}
