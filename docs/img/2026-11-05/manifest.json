@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-05",
-  "generatedAt": "2026-11-05T05:21:31.484Z",
+  "generatedAt": "2026-11-05T18:54:21.128Z",
   "pictures": [
     {
       "slot": "01",
@@ -68,8 +68,19 @@
       "headline": "A thousand fewer paths to root",
       "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1920px-1515_Third_Street.jpg",
       "article": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
-      "hosted": null,
-      "reason": "download failed: HTTP 429"
+      "hosted": "04-d4f6aaf9.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 736788,
+      "out": "1600x1067",
+      "bytes": 344659,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.314,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-05T18:54:21.779Z"
     },
     {
       "slot": "05",
@@ -150,6 +161,67 @@
         "y": 0
       },
       "fetchedAt": "2026-11-05T05:21:34.947Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-nasdaq-selloff-2026-11-05",
+      "headline": "Dow plunges 1,200 points, Nasdaq into correction territory after midterm results stock rally",
+      "source": "https://i.abcnewsfe.com/a/b710bb54-e988-4f92-b47c-5367ec6a3d22/nyse-1-rt-jef-261105_1793894156320_hpMain_16x9.jpg?w=1600",
+      "article": "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888",
+      "hosted": "09-434be4a0.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "heif",
+      "srcBytes": 67919,
+      "out": "1350x900",
+      "bytes": 96518,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.541,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-05T18:54:22.354Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-openai-community-compact-2026-11-05",
+      "headline": "OpenAI promises to pay for AI data center electricity as voters push back against rising power bills",
+      "source": "https://www.washingtonexaminer.com/wp-content/uploads/2026/10/AP26272706519882.jpg",
+      "article": "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/",
+      "hosted": "10-9afa1b53.jpg",
+      "srcSize": "1024x682",
+      "srcFormat": "webp",
+      "srcBytes": 130056,
+      "out": "1023x682",
+      "bytes": 132052,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.446,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-05T18:54:22.675Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-cisa-fbi-refrigeration-advisory-2026-11-05",
+      "headline": "US agencies warn of refrigeration hacks amid suspected attacks on military bases",
+      "source": "https://cdn.nextgov.com/media/img/cd/2026/11/05/110526refrigeratorNG/860x394.jpg",
+      "article": "https://www.nextgov.com/cybersecurity/2026/11/us-agencies-warn-refrigeration-hacks-amid-suspected-attacks-military-bases/417071/",
+      "hosted": "11-a37e511f.jpg",
+      "srcSize": "860x394",
+      "srcFormat": "jpeg",
+      "srcBytes": 137474,
+      "out": "591x394",
+      "bytes": 53964,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-05T18:54:22.930Z"
     },
     {
       "slot": "r01",

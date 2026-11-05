@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-05",
+  "runId": "run-2026-11-05-umidday-r202",
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T06:00:00.000Z",
-  "readingMinutes": 8,
+  "generatedAt": "2026-11-05T18:52:44.940Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "Datacentre afgjorde amerikanske valg, en AI kan nu redigere en anden AIs hjerne, og Hongkongs sidste store demokratistemme får ti år mere.",
   "profileWeights": {
@@ -431,13 +431,18 @@
         }
       ],
       "image": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1920px-1515_Third_Street.jpg",
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-05/04-d4f6aaf9.jpg",
         "credit": "Foto: Coolcaesar, Wikimedia Commons (CC BY-SA)",
         "alt": "OpenAIs daværende hovedkvarter på 1515 Third Street i San Francisco.",
         "sourceUrl": "https://commons.wikimedia.org/wiki/File:1515_Third_Street.jpg",
         "origin": "library",
         "fingerprint": "9c74e6a466c624b4bce6ee6666c6467076e6ee6e62c68a62f6c76a6a638383eac38bcbcbebc3078b8fcdcdc5edc11505",
-        "lookedAt": "9c74e6a466c624b4bce6ee6666c6467076e6ee6e62c68a62f6c76a6a638383eac38bcbcbebc3078b8fcdcdc5edc11505"
+        "lookedAt": "9c74e6a466c624b4bce6ee6666c6467076e6ee6e62c68a62f6c76a6a638383eac38bcbcbebc3078b8fcdcdc5edc11505",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1920px-1515_Third_Street.jpg",
+        "focus": {
+          "x": 0.314,
+          "y": 1
+        }
       }
     },
     {
@@ -765,6 +770,259 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "story-nasdaq-selloff-2026-11-05",
+      "eventKey": "nasdaq-ai-selloff-midterms-2026-11",
+      "materialFacts": [
+        "Nasdaq Composite faldt op til 4,8% torsdag 5. november og gik i korrektion, over 10% under rekorden fra 6. oktober.",
+        "Dow Jones faldt ca. 1.220 point (-2,2%), S&P 500 faldt 3,2%.",
+        "Nvidia faldt 7%, AMD 12%, SanDisk over 15%.",
+        "Udsalget vendte onsdagens stigning på 1.570 point (+3%), som fulgte valgresultatet."
+      ],
+      "section": "AI og politik",
+      "headline": "Dow plunges 1,200 points, Nasdaq into correction territory after midterm results stock rally",
+      "primarySourceUrl": "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888",
+      "subheadline": "Nasdaq falder op mod 5% og går i korrektion dagen efter valgsejr.",
+      "body": [
+        "Nasdaq faldt op til 4,8% torsdag og gik i korrektion, over 10% under rekorden fra 6. oktober. Dow faldt ca. 1.220 point, S&P 500 3,2%. Nvidia faldt 7%, AMD 12%, SanDisk over 15%, da investorer vurderede regulatorisk risiko for AI-sektoren efter demokratisk valgsejr."
+      ],
+      "whyItMatters": "Udsalget vender valgrallyet og viser, at markedet nu priser politisk risiko ind i AI-datacenterbyggeriet.",
+      "topics": [
+        "ai",
+        "usa",
+        "finans",
+        "erhverv"
+      ],
+      "entities": [
+        "Nvidia",
+        "AMD",
+        "SanDisk"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 80,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 85,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Nasdaq Composite faldt op til 4,8% torsdag og gik i korrektion, mere end 10% under rekorden fra 6. oktober.",
+          "sourceUrls": [
+            "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Dow Jones faldt ca. 1.220 point (-2,2%), S&P 500 faldt 3,2%; Nvidia -7%, AMD -12%, SanDisk over -15%.",
+          "sourceUrls": [
+            "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dow plunges 1,200 points, Nasdaq into correction territory after midterm results stock rally",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888",
+          "publishedAt": "2026-11-05T12:35:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-05/09-434be4a0.jpg",
+        "credit": "Kilde: ABC News",
+        "alt": "Dow plunges 1,200 points, Nasdaq into correction territory after midterm results stock rally",
+        "sourceUrl": "https://abcnews.com/Business/dow-plunges-1200-points-shedding-midterm-results-stock/story?id=137880888",
+        "origin": "article",
+        "fingerprint": "193ea7861b1d9191192e27021b1d1aba3a2e271b1b1c1a381a6627091d1c0a396e46662d1d1e5f09e7c7622c3c3e1e1d",
+        "lookedAt": "193ea7861b1d9191192e27021b1d1aba3a2e271b1b1c1a381a6627091d1c0a396e46662d1d1e5f09e7c7622c3c3e1e1d",
+        "originalUrl": "https://i.abcnewsfe.com/a/b710bb54-e988-4f92-b47c-5367ec6a3d22/nyse-1-rt-jef-261105_1793894156320_hpMain_16x9.jpg?w=1600",
+        "focus": {
+          "x": 0.541,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-05T18:52:44.940Z",
+        "runId": "run-2026-11-05-umidday-r202"
+      }
+    },
+    {
+      "id": "story-openai-community-compact-2026-11-05",
+      "eventKey": "openai-national-community-compact-2026-11",
+      "materialFacts": [
+        "OpenAI offentliggjorde 5. november sin 'National Community Compact' og 'Compute Campus Policy Blueprint'.",
+        "Selskabet lover at betale den fulde pris for strøm og nettilslutning ved datacentre, det selv ejer og driver.",
+        "OpenAI lover at undgå fortrolighedsaftaler med lokale embedsmænd, med begrænsede undtagelser for følsomme oplysninger.",
+        "Planen følger, at vælgere i 10 stater stemte imod 40 af 41 lokale datacenter-forslag ved tirsdagens valg."
+      ],
+      "section": "AI og politik",
+      "headline": "OpenAI promises to pay for AI data center electricity as voters push back against rising power bills",
+      "primarySourceUrl": "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/",
+      "subheadline": "OpenAI dropper NDA'er og lover fuld dækning af strømregningen.",
+      "body": [
+        "OpenAIs nye 'National Community Compact' lover, at kommende datacentre, selskabet selv ejer, hverken kræver NDA'er af embedsmænd eller lader borgere betale for strøm. Planen kommer to dage efter, at vælgere i 10 stater stemte imod 40 af 41 datacenter-forslag."
+      ],
+      "whyItMatters": "Løftet svarer på valgnederlaget og sætter normen for, hvad lokalsamfund fremover kan kræve af AI-selskaber.",
+      "topics": [
+        "ai",
+        "usa",
+        "politik",
+        "energi"
+      ],
+      "entities": [
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 75,
+        "novelty": 65,
+        "sourceQuality": 60,
+        "personalRelevance": 80,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "OpenAI lover at betale fuld pris for strøm og nettilslutning og undgå NDA'er med embedsmænd ved datacentre, det selv ejer og driver.",
+          "sourceUrls": [
+            "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/",
+            "https://www.benzinga.com/markets/tech/26/11/62913504/openai-vows-cover-ai-data-center-electricity-costs-residents-bills"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Vælgere i 10 stater stemte imod 40 af 41 lokale datacenter-forslag.",
+          "sourceUrls": [
+            "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "OpenAI promises to pay for AI data center electricity as voters push back against rising power bills",
+          "publisher": "TechStartups.com",
+          "url": "https://techstartups.com/2026/11/05/openai-promises-to-pay-for-ai-data-center-electricity-as-voters-push-back-against-rising-power-bills/",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "OpenAI Pledges to Shield American Households From AI Data Center Power Costs: 'We'll Pay the Full Cost of'",
+          "publisher": "Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/11/62913504/openai-vows-cover-ai-data-center-electricity-costs-residents-bills",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-05/10-9afa1b53.jpg",
+        "credit": "Kilde: AP",
+        "alt": "Besøgende samlet under et OpenAI-skilt ved et af firmaets arrangementer.",
+        "sourceUrl": "https://www.washingtonexaminer.com/policy/technology/4794034/openai-new-data-center-guidelines-midterm-election-moratoriums/",
+        "origin": "coverage",
+        "fingerprint": "0fd6b633f0accdad0fd23263f0aaed8d97727263f22aac8e92737361f8732f4eb2b3b3e1f9516d6e29b375a0f8d0f44f",
+        "lookedAt": "0fd6b633f0accdad0fd23263f0aaed8d97727263f22aac8e92737361f8732f4eb2b3b3e1f9516d6e29b375a0f8d0f44f",
+        "originalUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2026/10/AP26272706519882.jpg",
+        "focus": {
+          "x": 0.446,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-05T18:52:44.940Z",
+        "runId": "run-2026-11-05-umidday-r202"
+      }
+    },
+    {
+      "id": "story-cisa-fbi-refrigeration-advisory-2026-11-05",
+      "eventKey": "cisa-fbi-refrigeration-advisory-2026-11",
+      "materialFacts": [
+        "CISA, FBI, HHS, USDA og DOT udsendte 5. november en fælles advarsel om trusler mod industrielle køle- og kølekædesystemer.",
+        "Ondsindede aktører udnytter internetforbundne temperatur- og kølestyringer i detailbutikker og kølehuse.",
+        "Udnyttelse kan ændre temperaturen og skabe brandrisiko, varespild og ændret servicelivstid.",
+        "Advarslen følger mistænkte angreb på seks amerikanske militærbutikker siden august og europæiske angreb på bl.a. Carrefour."
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "US agencies warn of refrigeration hacks amid suspected attacks on military bases",
+      "primarySourceUrl": "https://www.nextgov.com/cybersecurity/2026/11/us-agencies-warn-refrigeration-hacks-amid-suspected-attacks-military-bases/417071/",
+      "subheadline": "CISA og FBI advarer om trussel mod køleanlæg efter angreb i Europa og USA.",
+      "body": [
+        "CISA, FBI og tre andre myndigheder udsendte torsdag en fælles advarsel om aktører, der udnytter kølestyringer i supermarkeder og kølehuse. Udnyttelse kan skabe brandrisiko og varespild. Advarslen følger mistænkte angreb på seks militærbutikker siden august og angreb mod Carrefour i Europa."
+      ],
+      "whyItMatters": "Advarslen udvider sagen fra europæiske supermarkeder til amerikansk infrastruktur som hospitaler.",
+      "topics": [
+        "cybersikkerhed",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "CISA",
+        "FBI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 70,
+        "sourceQuality": 75,
+        "personalRelevance": 50,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "CISA, FBI, HHS, USDA og DOT udsendte 5. november en fælles advarsel om ondsindede aktører, der udnytter internetforbundne temperatur- og kølestyringer.",
+          "sourceUrls": [
+            "https://www.nextgov.com/cybersecurity/2026/11/us-agencies-warn-refrigeration-hacks-amid-suspected-attacks-military-bases/417071/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Advarslen følger mistænkte angreb på seks militærbutikker siden august og angreb på blodbanker i Frankrig og supermarkeder i Sverige, Belgien og Luxembourg.",
+          "sourceUrls": [
+            "https://www.nextgov.com/cybersecurity/2026/11/us-agencies-warn-refrigeration-hacks-amid-suspected-attacks-military-bases/417071/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US agencies warn of refrigeration hacks amid suspected attacks on military bases",
+          "publisher": "Nextgov/FCW",
+          "url": "https://www.nextgov.com/cybersecurity/2026/11/us-agencies-warn-refrigeration-hacks-amid-suspected-attacks-military-bases/417071/",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-05/11-a37e511f.jpg",
+        "credit": "Kilde: Nextgov/FCW",
+        "alt": "Ansat rydder tomme, strømløse fryseskabe i et ICA-supermarked på Odengatan i Stockholm, 2. november 2026.",
+        "sourceUrl": "https://www.nextgov.com/cybersecurity/2026/11/us-agencies-warn-refrigeration-hacks-amid-suspected-attacks-military-bases/417071/",
+        "origin": "article",
+        "fingerprint": "9a9f1b1d1f8cb9f19a9f1b1c1e4e38701a1b5a1e1a5f1c78131b5b1e1bdb9e7c1b1d9b1e1bdb9b5e1f589b1a59db0b3a",
+        "lookedAt": "9a9f1b1d1f8cb9f19a9f1b1c1e4e38701a1b5a1e1a5f1c78131b5b1e1bdb9e7c1b1d9b1e1bdb9b5e1f589b1a59db0b3a",
+        "originalUrl": "https://cdn.nextgov.com/media/img/cd/2026/11/05/110526refrigeratorNG/860x394.jpg",
+        "focus": {
+          "x": 0.379,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-05T18:52:44.940Z",
+        "runId": "run-2026-11-05-umidday-r202"
+      }
     }
   ],
   "signals": [
@@ -1039,5 +1297,20 @@
     "novelty": 80,
     "perspectiveBalance": 85,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-05T18:52:44.940Z",
+      "runId": "run-2026-11-05-umidday-r202",
+      "added": 3,
+      "cost": {
+        "usd": 2.1483834,
+        "inputTokens": 2813826,
+        "outputTokens": 31813,
+        "turns": 62,
+        "seconds": 477
+      }
+    }
+  ]
 }
