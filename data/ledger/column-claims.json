@@ -235,11 +235,11 @@
       "status": "open"
     },
     {
-      "date": "2026-11-04",
-      "slug": "tolerancens-grense-popper",
-      "claim": "Poppers tolerance-paradoks forsvarer vold mødt med magt, ikke forbud mod lovlig antidemokratisk tale - en afgørelse, der dømmer et parti hovedsageligt for ytringer, går videre end Poppers eget argument.",
-      "horizon": "Når en forfatningsdomstol afgør et partiforbud hovedsageligt med henvisning til ytringer frem for konkrete voldshandlinger",
-      "falsifier": "En fagfællebedømt læsning af Det åbne samfund og dets fjender, der viser, Popper eksplicit medregner lovlig, ikke-voldelig antidemokratisk tale i sit tolerance-paradoks.",
+      "date": "2026-11-05",
+      "slug": "goodharts-benchmark",
+      "claim": "Et AI-benchmark holder op med at måle fremskridt, når det bliver et optimeringsmål; metrikken og evnen den skulle vise, skilles ad under pres.",
+      "horizon": "Inden for 12 måneder",
+      "falsifier": "Et benchmark, der har eksisteret over to år og fortsat optimeres direkte imod, fortsætter med at korrelere lige stærkt med uafhængigt målt, praktisk nytte som ved sin introduktion.",
       "status": "open"
     }
   ]
