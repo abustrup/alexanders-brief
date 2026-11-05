@@ -1,0 +1,176 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-05",
+  "generatedAt": "2026-11-05T05:21:31.484Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-datacenter-2026-11-05",
+      "headline": "It Was a Data Center Election After All",
+      "source": "https://image.cnbcfm.com/api/v1/image/108504597-1793634512855-gettyimages-2300814844-datacenter_keith_007.jpeg?v=1793634543&w=1920&h=1080",
+      "article": "https://reason.com/2026/11/04/it-was-a-data-center-election-after-all/",
+      "hosted": "01-ba017e8a.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 206669,
+      "out": "1440x1080",
+      "bytes": 167285,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.5,
+        "y": 0.354
+      },
+      "fetchedAt": "2026-11-05T05:21:32.046Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-mit-weights-2026-11-05",
+      "headline": "Forget retraining - AI can now tweak another AI's weights",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/MIT_Computer_Science_and_Artificial_Intelligence_Laboratory_%28CSAIL%29_%2854960889464%29.jpg/1920px-MIT_Computer_Science_and_Artificial_Intelligence_Laboratory_%28CSAIL%29_%2854960889464%29.jpg",
+      "article": "https://www.theregister.com/ai-and-ml/2026/11/03/forget-retraining-ai-can-now-tweak-another-ais-weights/5307105",
+      "hosted": "02-c2ce6c23.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 872488,
+      "out": "1600x1067",
+      "bytes": 382362,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.866,
+        "y": 0.714
+      },
+      "fetchedAt": "2026-11-05T05:21:32.825Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-novo-2026-11-05",
+      "headline": "Novo Nordisk hæver 2026-forventningerne efter stærkt salg af Wegovy-pillen",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Novo_Nordisk_headquarters_building_Denmark.jpg/1920px-Novo_Nordisk_headquarters_building_Denmark.jpg",
+      "article": "https://npinvestor.dk/nyheder/novo-nordisk-haever-2026-forventningerne-efter-staerkt-salg-af-wegovy-pillen/",
+      "hosted": "03-0cdb298f.jpg",
+      "srcSize": "1920x1242",
+      "srcFormat": "jpeg",
+      "srcBytes": 570117,
+      "out": "1600x1067",
+      "bytes": 231491,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.116,
+        "y": 0.275
+      },
+      "fetchedAt": "2026-11-05T05:21:33.362Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-openai-root-2026-11-05",
+      "headline": "A thousand fewer paths to root",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/1515_Third_Street.jpg/1920px-1515_Third_Street.jpg",
+      "article": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "hosted": null,
+      "reason": "download failed: HTTP 429"
+    },
+    {
+      "slot": "05",
+      "id": "story-danfoss-2026-11-05",
+      "headline": "New Wave of Refrigeration Cyberattacks Hits Supermarkets Across Europe, Forcing Stores to Pull Food",
+      "source": "https://image.nordjyske.dk/users/nordjyske/images/165990379.jpg?t[strip]=true&t[quality]=95&t[crop][width]=4000&t[crop][height]=2100&t[crop][x]=0&t[crop][y]=282&t[resize][width]=1200&t[resize][height]=630&accessToken=6bef593a6be5c0c76adae09cd98a9595a7efe79b1674b984496659f1b930a04f",
+      "article": "https://thehackernews.com/2026/11/second-wave-of-cyberattacks-hits.html",
+      "hosted": "05-d65eeedf.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 223330,
+      "out": "945x630",
+      "bytes": 51175,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.679,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-05T05:21:33.628Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-arkea-2026-11-05",
+      "headline": "Additional Information Following the Cyberattack on Crédit Mutuel Arkéa",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Cr%C3%A9dit_Mutuel_Ark%C3%A9a_b%C3%A2timent_Mirabeau.jpg/1280px-Cr%C3%A9dit_Mutuel_Ark%C3%A9a_b%C3%A2timent_Mirabeau.jpg",
+      "article": "https://www.financialcontent.com/article/actus-2026-11-4-credit-mutuel-arkea-additional-information-following-the-cyberattack-on-crdit-mutuel-arka",
+      "hosted": "06-d8b092a1.jpg",
+      "srcSize": "1280x721",
+      "srcFormat": "jpeg",
+      "srcBytes": 262139,
+      "out": "1081x721",
+      "bytes": 150077,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.209,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-05T05:21:34.081Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-wong-2026-11-05",
+      "headline": "Demokratiforkæmper i Hongkong idømmes ti års fængsel",
+      "source": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/metatag/s3/2026/11-05/20261105044459803_1000.jpg?itok=M19U2B0e",
+      "article": "https://www.kristeligt-dagblad.dk/udland/demokratiforkaemper-i-hongkong-idoemmes-ti-aars-faengsel",
+      "hosted": "07-a04b339b.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 107501,
+      "out": "1080x720",
+      "bytes": 43168,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0.357
+      },
+      "fetchedAt": "2026-11-05T05:21:34.356Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-ebola-2026-11-05",
+      "headline": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo, Kenya and Nigeria",
+      "source": "https://cdn.who.int/media/images/default-source/topics/diseases-and-conditions/ebola-virus/ebola-vaccine-trial-in-drc.jpg?sfvrsn=9cfd2766_9",
+      "article": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+      "hosted": "08-2d161504.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 492276,
+      "out": "1600x1067",
+      "bytes": 192192,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.684,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-05T05:21:34.947Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-econtalk-china-shock",
+      "headline": "Revisiting the China Shock (with Joseph Francis)",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/a0/13/c5/a013c54f-362a-670d-a75c-1c5486dfc40f/mza_6055952261821533990.jpg/600x600bb.jpg",
+      "article": "https://www.econtalk.org/revisiting-the-china-shock-with-joseph-francis",
+      "hosted": "r01-0770f696.jpg",
+      "srcSize": "600x600",
+      "srcFormat": "jpeg",
+      "srcBytes": 35530,
+      "out": "600x338",
+      "bytes": 12164,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-05T05:21:35.196Z"
+    }
+  ]
+}
