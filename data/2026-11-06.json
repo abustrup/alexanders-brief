@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-06-full-01",
+  "runId": "run-2026-11-06-umidday-r206",
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T06:30:00.000Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-11-06T18:07:18.973Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Et uafhængigt review sætter spørgsmålstegn ved Anthropics egen historie om AI-acceleration, Danmark nærmer sig en AI-regnekraft-beslutning, og 30.000 gymnasieelever lagde bøgerne.",
   "profileWeights": {
@@ -976,6 +976,352 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-nvidia-huang-congress-2026-11-06",
+      "eventKey": "nvidia-huang-china-congress-briefing-2026-11",
+      "materialFacts": [
+        "House committee chairmen Mast, Moolenaar and Crawford sent a letter on 2026-11-05 to Nvidia CEO Jensen Huang requesting a closed-door briefing",
+        "The briefing concerns reported intelligence findings that Megaspeed executive Alice Huang relayed information to Beijing and had a close relationship with Jensen Huang",
+        "Proposed briefing date 2026-11-18, response deadline 2026-11-11; Nvidia says only ordinary business information was shared"
+      ],
+      "section": "AI",
+      "headline": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+      "subheadline": "Tre udvalgsformænd kræver lukket briefing om Kina-kontakt",
+      "body": [
+        "Formændene for Kongressens udvalg for udenrigspolitik, Kina og efterretning sendte 5. november et brev til Nvidias topchef Jensen Huang. De kræver en lukket briefing om hans forhold til Alice Huang, en kinesisk Megaspeed-direktør, som efterretning ifølge rapporter har udpeget som kanal til Beijing."
+      ],
+      "whyItMatters": "Nvidia skal nu forsvare topchefens Kina-kontakter dagen før et ventet regnskab.",
+      "topics": [
+        "ai",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Megaspeed",
+        "Alice Huang",
+        "House Foreign Affairs Committee"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 70,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 75,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Three House committee chairmen (Mast, Moolenaar, Crawford) sent a letter on 2026-11-05 requesting Jensen Huang brief Congress in closed session on 2026-11-18 about his relationship with Alice Huang, reported by intelligence as a PRC intelligence asset",
+          "sourceUrls": [
+            "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Nvidia responded that Huang meets thousands of customer executives yearly and that Alice Huang received only ordinary business information, not trade secrets",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Chairmen Mast, Moolenaar, and Crawford Request Jensen Huang Brief Congress on Link to Chinese Intelligence Asset",
+          "publisher": "U.S. House Committee on Foreign Affairs",
+          "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+          "publishedAt": "2026-11-05T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-06/12-e5043dba.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+        "sourceUrl": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+        "origin": "article",
+        "fingerprint": "e7c787c7c399998dc787a7a7c339189cc783a3a7c131181c870323258551581a8103632784c1585a4343636206c49098",
+        "lookedAt": "e7c787c7c399998dc787a7a7c339189cc783a3a7c131181c870323258551581a8103632784c1585a4343636206c49098",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108237918-1793908643837-108237918-1765118171532-gettyimages-2249151004-HUANG_SENATE.jpg?v=1793915165&w=1920&h=1080",
+        "focus": {
+          "x": 0.116,
+          "y": 0.589
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-06T18:07:18.973Z",
+        "runId": "run-2026-11-06-umidday-r206"
+      }
+    },
+    {
+      "id": "story-ai-nasdaq-selloff-2026-11-06",
+      "eventKey": "ai-chip-nasdaq-correction-texas-election-2026-11",
+      "materialFacts": [
+        "Nasdaq fell 5.5% on 2026-11-05, its worst day since April 2025, entering correction territory",
+        "Nvidia lost about $450bn in market value; AMD, Micron and others fell double digits",
+        "Selloff followed Democratic gubernatorial wins, including Texas governor-elect Gina Hinojosa, who campaigned for a data-center construction pause"
+      ],
+      "section": "AI-infrastruktur",
+      "headline": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+      "subheadline": "Texas-valg udløste det værste AI-aktiefald siden april 2025",
+      "body": [
+        "Nasdaq faldt 5,5 procent torsdag og gik i korrektion. Nvidia tabte ca. 450 mia. dollar i markedsværdi, AMD og Micron faldt tocifret. Udløseren var demokratiske guvernørsejre i stater med store AI-datacentre, især Texas, hvis nyvalgte guvernør Gina Hinojosa har krævet stop for nye datacentre."
+      ],
+      "whyItMatters": "Investorer frygter, politisk modstand kan bremse den datacenter-udbygning, AI-opsvinget hænger på.",
+      "topics": [
+        "ai",
+        "usa",
+        "erhverv"
+      ],
+      "entities": [
+        "Nvidia",
+        "Qualcomm",
+        "AMD",
+        "Micron",
+        "Nasdaq",
+        "Gina Hinojosa"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 80,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 85,
+        "contrast": 75
+      },
+      "claims": [
+        {
+          "text": "Nasdaq fell 5.5% on 2026-11-05, Nvidia down more than 9% and lost about $450bn in market cap, worst Nasdaq day since April 2025",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Texas governor-elect Gina Hinojosa campaigned on a moratorium on new data-center construction; about 27% of planned US data-center gigawatts are in Texas",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+          "publishedAt": "2026-11-05T15:18:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
+          "publishedAt": "2026-11-04T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-06/13-ea8454a9.jpg",
+        "credit": "Foto: Reuters / CNBC",
+        "alt": "En trader følger kursskærme under det store chip-udsalg, der sendte Nasdaq ned 5. november 2026",
+        "sourceUrl": "https://www.cnbc.com/2026/11/04/stock-market-today-live-updates.html",
+        "origin": "coverage",
+        "fingerprint": "6c6a6e6e6a4f555d4c464e4e4d4fd5dd4d4dcecdc5ddd7d5cdc5cec5c5dc979684848fa4848c9f97a6a68e2626269f37",
+        "lookedAt": "6c6a6e6e6a4f555d4c464e4e4d4fd5dd4d4dcecdc5ddd7d5cdc5cec5c5dc979684848fa4848c9f97a6a68e2626269f37",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108521820-17938340262026-11-04t221244z_1731985317_rc29hoal49t3_rtrmadp_0_usa-stocks.jpeg?v=1793834118&w=1920&h=1280",
+        "focus": {
+          "x": 0.218,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://image.cnbcfm.com/api/v1/image/108447197-1792682617949-gettyimages-2301325199-3h4a6821_7uqxvgux.jpeg?v=1792682661&w=1920&h=1080",
+          "fingerprint": "070787924e2a69c9074783b24f6f684d07070bb2cd4d73cc078708338dcd71cc830308619c8df58d030908c11a04b4b0",
+          "reason": "off-topic"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-06T18:07:18.973Z",
+        "runId": "run-2026-11-06-umidday-r206"
+      }
+    },
+    {
+      "id": "story-psi-aaronson-ambainis-2026-11-06",
+      "eventKey": "psi-aaronson-ambainis-proof-2026-11",
+      "materialFacts": [
+        "Physical Superintelligence says an internal research system running a non-public Anthropic model proved the Aaronson-Ambainis conjecture, open since 2008",
+        "The proof was found on the third day of the run and verified step-by-step by the Lean proof assistant; manuscript and formalization are public",
+        "The proof is not yet peer-reviewed; no public assessment from Aaronson or Ambainis as of publication"
+      ],
+      "section": "Kvante",
+      "headline": "A proof of the Aaronson‑Ambainis conjecture",
+      "primarySourceUrl": "https://psi.inc/research/aaronson-ambainis/",
+      "subheadline": "AI-system løste 18 år gammelt kvanteproblem for Physical Superintelligence",
+      "body": [
+        "Et internt forskningssystem hos Physical Superintelligence, der kører en ikke-offentlig Anthropic-model, fandt på tredje døgn et bevis for Aaronson-Ambainis-formodningen fra 2008. Beviset er tjekket af bevisassistenten Lean, der verificerer hvert skridt, og er offentliggjort. Beviset er endnu ikke fagfællebedømt."
+      ],
+      "whyItMatters": "Formodningen afgør, hvor stor fordel kvantecomputere har på tilfældige input, centralt for kvanteforskningen.",
+      "topics": [
+        "ai",
+        "kvante",
+        "videnskab"
+      ],
+      "entities": [
+        "Physical Superintelligence",
+        "Anthropic",
+        "Scott Aaronson",
+        "Andris Ambainis"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 40,
+        "novelty": 80,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "PSI's internal research system, running a non-public Anthropic model, produced a Lean-verified proof of the Aaronson-Ambainis conjecture on day three of the run; manuscript and formalization are public, not yet peer-reviewed",
+          "sourceUrls": [
+            "https://psi.inc/research/aaronson-ambainis/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A proof of the Aaronson‑Ambainis conjecture",
+          "publisher": "Physical Superintelligence",
+          "url": "https://psi.inc/research/aaronson-ambainis/",
+          "publishedAt": "2026-11-06T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://psi.inc/og/ring-arch-2.png",
+          "fingerprint": "5c32f1d89c8c8f178d73f0989cac8f070e71f0983c2c0e0333f0e0183c2e2e06f1f0e01c4d6e660ff0f0f03c6cc64646",
+          "reason": "stock-or-ai"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-06/14-cca44f75.jpg",
+        "credit": "Easy n / Wikimedia Commons (public domain)",
+        "alt": "Arkivfoto af Scott Aaronson, medopdager af den kvanteformodning, et AI-system nu har bevist",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scott_Aaronson_retouched.jpg",
+        "origin": "library",
+        "fingerprint": "b1b132e8ccd4d4e8b1b931e8ccb2a6c8257931ec8cb292aa647971cc8e2931226c69f8cc0c2d3521ec60d88e4d6c302a",
+        "lookedAt": "b1b132e8ccd4d4e8b1b931e8ccb2a6c8257931ec8cb292aa647971cc8e2931226c69f8cc0c2d3521ec60d88e4d6c302a",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Scott_Aaronson_retouched.jpg/1920px-Scott_Aaronson_retouched.jpg",
+        "focus": {
+          "x": 0.563,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-06T18:07:18.973Z",
+        "runId": "run-2026-11-06-umidday-r206"
+      }
+    },
+    {
+      "id": "story-eifo-tekever-odense-2026-11-06",
+      "eventKey": "eifo-tekever-odense-investment-2026-11",
+      "materialFacts": [
+        "EIFO invests about DKK 100m in Tekever as part of a DKK 3.7bn Series D round, at a DKK 42.5bn valuation",
+        "Tekever opens its first Nordic base in Odense",
+        "Tekever has logged more than 50,000 operational drone flight hours in Ukraine and holds contracts in Germany, the UK and Portugal"
+      ],
+      "section": "Danmark",
+      "headline": "Trecifret millioninvestering bringer europæisk forsvarsteknologi til Odense",
+      "primarySourceUrl": "https://via.ritzau.dk/pressemeddelelse/15272200/trecifret-millioninvestering-bringer-europaeisk-forsvarsteknologi-til-odense?lang=da",
+      "subheadline": "EIFO går ind i Tekevers 3,7 mia. kr.-runde",
+      "body": [
+        "Danmarks Eksport- og Investeringsfond investerer omkring 100 mio. kroner i droneselskabet Tekever, der rejser 3,7 mia. kroner og værdisættes til 42,5 mia. kroner. Tekever har over 50.000 operative flyvetimer i Ukraine og kontrakter i Tyskland, Storbritannien og Portugal, og åbner nu sin første nordiske base i Odense."
+      ],
+      "whyItMatters": "Dansk statskapital går ind i Europas droneoprustning og trækker forsvarsteknologi til Fyn.",
+      "topics": [
+        "danmark",
+        "teknologisk-suverænitet",
+        "erhverv"
+      ],
+      "entities": [
+        "EIFO",
+        "Tekever",
+        "Peder Lundquist",
+        "Ricardo Mendes",
+        "Odense"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 75,
+        "personalRelevance": 80,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "EIFO invests approximately DKK 100 million in Tekever as part of a DKK 3.7 billion Series D round at a DKK 42.5 billion post-money valuation; Tekever opens its first Nordic base in Odense",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15272200/trecifret-millioninvestering-bringer-europaeisk-forsvarsteknologi-til-odense?lang=da"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trecifret millioninvestering bringer europæisk forsvarsteknologi til Odense",
+          "publisher": "EIFO (Danmarks Eksport- og Investeringsfond)",
+          "url": "https://via.ritzau.dk/pressemeddelelse/15272200/trecifret-millioninvestering-bringer-europaeisk-forsvarsteknologi-til-odense?lang=da",
+          "publishedAt": "2026-11-06T14:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-06/15-687d5b05.jpg",
+        "credit": "Foto: Ritzau Scanpix / EIFO (Danmarks Eksport- og Investeringsfond)",
+        "alt": "Trecifret millioninvestering bringer europæisk forsvarsteknologi til Odense",
+        "sourceUrl": "https://via.ritzau.dk/pressemeddelelse/15272200/trecifret-millioninvestering-bringer-europaeisk-forsvarsteknologi-til-odense?lang=da",
+        "origin": "article",
+        "fingerprint": "b1a1aaaaa8e0e399a1a1ababa8a0e989606169696d64c149714949496c4cc149c4ccc84dccccd0c4cccccccccdce9190",
+        "lookedAt": "b1a1aaaaa8e0e399a1a1ababa8a0e989606169696d64c149714949496c4cc149c4ccc84dccccd0c4cccccccccdce9190",
+        "originalUrl": "https://via.ritzau.dk/data/images/public/13561323/15272200/549eff49-0bf6-47d1-878b-baebfaf2bb17-w_960.jpg",
+        "focus": {
+          "x": 0.875,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-06T18:07:18.973Z",
+        "runId": "run-2026-11-06-umidday-r206"
+      }
     }
   ],
   "signals": [
@@ -1282,5 +1628,20 @@
     "novelty": 78,
     "perspectiveBalance": 85,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-06T18:07:18.973Z",
+      "runId": "run-2026-11-06-umidday-r206",
+      "added": 4,
+      "cost": {
+        "usd": 2.5101698,
+        "inputTokens": 3564623,
+        "outputTokens": 35758,
+        "turns": 74,
+        "seconds": 505.7
+      }
+    }
+  ]
 }

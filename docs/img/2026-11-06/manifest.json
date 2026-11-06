@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-06",
-  "generatedAt": "2026-11-06T05:49:27.346Z",
+  "generatedAt": "2026-11-06T18:07:26.014Z",
   "pictures": [
     {
       "slot": "01",
@@ -221,6 +221,86 @@
         "y": 1
       },
       "fetchedAt": "2026-11-06T05:49:37.187Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-nvidia-huang-congress-2026-11-06",
+      "headline": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+      "source": "https://image.cnbcfm.com/api/v1/image/108237918-1793908643837-108237918-1765118171532-gettyimages-2249151004-HUANG_SENATE.jpg?v=1793915165&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+      "hosted": "12-e5043dba.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 120048,
+      "out": "1600x1067",
+      "bytes": 120804,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.116,
+        "y": 0.589
+      },
+      "fetchedAt": "2026-11-06T18:07:26.368Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-ai-nasdaq-selloff-2026-11-06",
+      "headline": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+      "source": "https://image.cnbcfm.com/api/v1/image/108521820-17938340262026-11-04t221244z_1731985317_rc29hoal49t3_rtrmadp_0_usa-stocks.jpeg?v=1793834118&w=1920&h=1280",
+      "article": "https://www.cnbc.com/2026/11/05/qualcomm-earnings-chip-stocks-election.html",
+      "hosted": "13-ea8454a9.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 353695,
+      "out": "1600x1067",
+      "bytes": 267802,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.218,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-06T18:07:26.759Z"
+    },
+    {
+      "slot": "14",
+      "id": "story-psi-aaronson-ambainis-2026-11-06",
+      "headline": "A proof of the Aaronson‑Ambainis conjecture",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Scott_Aaronson_retouched.jpg/1920px-Scott_Aaronson_retouched.jpg",
+      "article": "https://psi.inc/research/aaronson-ambainis/",
+      "hosted": "14-cca44f75.jpg",
+      "srcSize": "1920x1479",
+      "srcFormat": "jpeg",
+      "srcBytes": 351404,
+      "out": "1600x1067",
+      "bytes": 136734,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-06T18:07:27.171Z"
+    },
+    {
+      "slot": "15",
+      "id": "story-eifo-tekever-odense-2026-11-06",
+      "headline": "Trecifret millioninvestering bringer europæisk forsvarsteknologi til Odense",
+      "source": "https://via.ritzau.dk/data/images/public/13561323/15272200/549eff49-0bf6-47d1-878b-baebfaf2bb17-w_960.jpg",
+      "article": "https://via.ritzau.dk/pressemeddelelse/15272200/trecifret-millioninvestering-bringer-europaeisk-forsvarsteknologi-til-odense?lang=da",
+      "hosted": "15-687d5b05.jpg",
+      "srcSize": "960x785",
+      "srcFormat": "jpeg",
+      "srcBytes": 126155,
+      "out": "960x640",
+      "bytes": 88312,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.875,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-06T18:07:27.407Z"
     },
     {
       "slot": "r01",
