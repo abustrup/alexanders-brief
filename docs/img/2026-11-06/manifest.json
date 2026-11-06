@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-06",
-  "generatedAt": "2026-11-06T18:07:26.014Z",
+  "generatedAt": "2026-11-06T21:31:53.707Z",
   "pictures": [
     {
       "slot": "01",
@@ -301,6 +301,26 @@
         "y": 1
       },
       "fetchedAt": "2026-11-06T18:07:27.407Z"
+    },
+    {
+      "slot": "16",
+      "id": "story-nasdaq-rebound-jobs-report-2026-11-06",
+      "headline": "Stock market today: Nasdaq and S&P 500 rebound, Dow slips to cap bruising week for AI stocks",
+      "source": "https://www.reuters.com/resizer/v2/M6J47OK5NVKMXH4LAVLZ3X6PAI.jpg?auth=4978597f5ed0200a2a4e7a5e73449bd9062a2a0a9bd09a7b36d4a8012f557205&width=1200&quality=80",
+      "article": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-6-dow-sp-500-nasdaq-jobs-report-earnings-135953863.html",
+      "hosted": "16-675ee4e1.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "heif",
+      "srcBytes": 51392,
+      "out": "1200x800",
+      "bytes": 94377,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-06T21:31:54.054Z"
     },
     {
       "slot": "r01",
