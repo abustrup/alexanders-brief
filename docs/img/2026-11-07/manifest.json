@@ -1,0 +1,231 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-07",
+  "generatedAt": "2026-11-07T05:49:47.760Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "s1huangspy",
+      "headline": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+      "source": "https://image.cnbcfm.com/api/v1/image/108237918-1793908643837-108237918-1765118171532-gettyimages-2249151004-HUANG_SENATE.jpg?v=1793915165&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+      "hosted": "01-f60ee0e1.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 120048,
+      "out": "1440x1080",
+      "bytes": 107759,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.3,
+        "y": 0.845
+      },
+      "fetchedAt": "2026-11-07T05:49:48.993Z"
+    },
+    {
+      "slot": "02",
+      "id": "s2paraguay",
+      "headline": "Paraguay president impeached, under house arrest amid banking crisis",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gVOuZ.img",
+      "article": "https://www.upi.com/Top_News/World/2026/11/06/paraguay-president-impeached-house-arrest/",
+      "hosted": "02-aa5c4a6a.jpg",
+      "srcSize": "1200x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 80871,
+      "out": "1200x800",
+      "bytes": 58251,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.595,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-07T05:49:49.243Z"
+    },
+    {
+      "slot": "03",
+      "id": "s3venezuela",
+      "headline": "Trump pushes Venezuela for agreement allowing U.S. troops to stay",
+      "source": "https://www.inquirer.com/resizer/v2/RVMODXMHVR24QMVBMAXRA27ZAQ.jpg?auth=2eb705c07ae88bf592926aab6199f1a4c79977d46c9bbd04074dd0e0212a96cf&width=800&height=533&smart=true",
+      "article": "https://www.inquirer.com/news/nation-world/venezuela-us-military-presence-long-term-trump-rodriguez-rubio-machado-maduro-drug-boats-20261103.html",
+      "hosted": "03-3cfc486a.jpg",
+      "srcSize": "800x533",
+      "srcFormat": "heif",
+      "srcBytes": 67619,
+      "out": "799x533",
+      "bytes": 77709,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-07T05:49:49.517Z"
+    },
+    {
+      "slot": "05",
+      "id": "s5cop31x",
+      "headline": "COP31 summit faces tough test as climate threats mount",
+      "source": "https://www.rte.ie/images/0025239e-1600.jpg",
+      "article": "https://www.rte.ie/news/world/2026/1106/1598207-cop31-climate-talks/",
+      "hosted": "05-1f5b004c.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "webp",
+      "srcBytes": 177396,
+      "out": "1350x900",
+      "bytes": 145427,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.661
+      },
+      "fetchedAt": "2026-11-07T05:49:49.837Z"
+    },
+    {
+      "slot": "06",
+      "id": "s6openai1",
+      "headline": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports",
+      "source": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/OpenAI-2.png",
+      "article": "https://www.investing.com/news/stock-market-news/openai-secures-11-billion-funding-at-125-trillion-valuation-bloomberg-news-reports-5009182",
+      "hosted": "06-1a768c23.jpg",
+      "srcSize": "1256x668",
+      "srcFormat": "png",
+      "srcBytes": 771655,
+      "out": "1002x668",
+      "bytes": 59833,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.541,
+        "y": 0.346
+      },
+      "fetchedAt": "2026-11-07T05:49:50.184Z"
+    },
+    {
+      "slot": "07",
+      "id": "s7alicebob",
+      "headline": "Alice & Bob Demonstrates Multi-Hour Physical Bit-Flip Suppression on Single-Cat and Helium 2 Processors",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Alice_%26_Bob_Helium_Chip.jpg/1920px-Alice_%26_Bob_Helium_Chip.jpg",
+      "article": "https://quantumcomputingreport.com/alice-bob-demonstrates-multi-hour-physical-bit-flip-suppression-on-single-cat-and-helium-2-processors/",
+      "hosted": "07-69dc5964.jpg",
+      "srcSize": "1920x1310",
+      "srcFormat": "jpeg",
+      "srcBytes": 480596,
+      "out": "1600x1067",
+      "bytes": 147639,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.857,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-07T05:49:50.597Z"
+    },
+    {
+      "slot": "08",
+      "id": "s8rybrevant",
+      "headline": "Johnson & Johnson announces U.S. FDA Approval of RYBREVANT FASPRO as First and Only Dual-Targeted Therapy for Advanced Head and Neck Cancer",
+      "source": "https://medcitynews.com/wp-content/uploads/sites/7/2026/11/RYBREVANT_FASPRO_Johnson_and_Johnson.jpg",
+      "article": "https://www.jnj.com/media-center/press-releases/johnson-johnson-announces-u-s-fda-approval-of-rybrevant-faspro-amivantamab-and-hyaluronidase-lpuj-as-first-and-only-dual-targeted-therapy-for-advanced-head-and-neck-cancer",
+      "hosted": "08-5d520e4c.jpg",
+      "srcSize": "784x523",
+      "srcFormat": "jpeg",
+      "srcBytes": 104271,
+      "out": "784x523",
+      "bytes": 59366,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.271,
+        "y": 0.871
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-07T05:49:50.850Z"
+    },
+    {
+      "slot": "09",
+      "id": "s9msoracle",
+      "headline": "Microsoft is winding down its deal to rent AI computing from Oracle",
+      "source": "https://www.bing.com/th?id=ONUT.ynIhlkd3fY3nQ5OEDUyLNw&pid=News",
+      "article": "https://thenextweb.com/news/microsoft-winds-down-oracle-ai-cloud-capacity-deal",
+      "hosted": "09-9ecd934d.jpg",
+      "srcSize": "700x466",
+      "srcFormat": "jpeg",
+      "srcBytes": 56325,
+      "out": "699x466",
+      "bytes": 57443,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.657,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-07T05:49:51.065Z"
+    },
+    {
+      "slot": "11",
+      "id": "s11rheinmetall",
+      "headline": "Financial report for Q3 2026 – Record growth and a high level of profitability",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Armin_Papperger_%282026%29.jpg/1920px-Armin_Papperger_%282026%29.jpg",
+      "article": "https://www.rheinmetall.com/en/media/news-watch/news/2026/11/2026-11-05-rheinmetall-news-quarterly-statement-q3",
+      "hosted": "11-bc8341b1.jpg",
+      "srcSize": "1920x1995",
+      "srcFormat": "jpeg",
+      "srcBytes": 503022,
+      "out": "1600x1067",
+      "bytes": 131073,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.464,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-07T05:49:51.486Z"
+    },
+    {
+      "slot": "12",
+      "id": "s12psiproof",
+      "headline": "A proof of the Aaronson‑Ambainis conjecture",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Scott_Aaronson_retouched.jpg",
+      "article": "https://psi.inc/research/aaronson-ambainis/",
+      "hosted": "12-27943491.jpg",
+      "srcSize": "575x443",
+      "srcFormat": "jpeg",
+      "srcBytes": 265201,
+      "out": "575x383",
+      "bytes": 26545,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.563,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-07T05:49:51.663Z"
+    },
+    {
+      "slot": "r01",
+      "id": "r1stratechery",
+      "headline": "Anthropic S-1, The Cost of Compute, Who Is Paying?",
+      "source": "https://stratechery.com/wp-content/uploads/2025/01/Stratechery-logo-1.svg",
+      "article": "https://stratechery.com/2026/anthropic-s-1-the-cost-of-compute-who-is-paying/",
+      "hosted": "r01-05d07c34.jpg",
+      "srcSize": "537x70",
+      "srcFormat": "svg",
+      "srcBytes": 3772,
+      "out": "124x70",
+      "bytes": 1739,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0.168
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-07T05:49:51.859Z"
+    }
+  ]
+}
