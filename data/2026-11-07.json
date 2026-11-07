@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-07-full",
+  "runId": "run-2026-11-07-umidday-r210",
   "date": "2026-11-07",
-  "generatedAt": "2026-11-07T06:00:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-07T16:57:51.159Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief – 7. november 2026",
   "dek": "Nvidias topchef indkaldes til Kongressen om en påstået kinesisk spionrelation, Paraguays præsident afsat efter bankkollaps, og et kvanteprogram siger det har løst et 18 år gammelt matematisk problem.",
   "profileWeights": {
@@ -929,6 +929,179 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "u1h200shell",
+      "eventKey": "nvidia-h200-china-shell-companies-vetting-2026-11",
+      "materialFacts": [
+        "New York Times fandt tomme kontoradresser hos mindst to kinesiske H200-licenshavere",
+        "New Matrix-ejere knyttet til Wise Road Capital, på USA entity list siden 2024",
+        "Maginfra forbundet til den sanktionerede serverproducent Inspur"
+      ],
+      "section": "AI og sikkerhedspolitik",
+      "headline": "Two US-Cleared Nvidia H200 Firms in China Had Empty Offices",
+      "primarySourceUrl": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/",
+      "subheadline": "To kinesiske licenshavere til Nvidias H200-chips har tomme kontoradresser.",
+      "body": [
+        "New York Times fandt, at Beijing-selskabet New Matrix, godkendt til at samle Nvidia H200-chips, har en adresse, der er en tom, grå skal med løse ledninger. Ejerne er knyttet til Wise Road Capital, som USA satte på sin entity list i 2024. Selskabet Maginfra er forbundet til den sanktionerede serverproducent Inspur."
+      ],
+      "whyItMatters": "Sagen rejser tvivl om USA’s screening af kinesiske aftagere af avancerede AI-chips.",
+      "topics": [
+        "ai",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Nvidia",
+        "New Matrix",
+        "Maginfra",
+        "Wise Road Capital",
+        "Inspur",
+        "U.S. Department of Commerce"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 45,
+        "novelty": 70,
+        "sourceQuality": 55,
+        "personalRelevance": 55,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "New York Times fandt tomme kontoradresser hos de Commerce-godkendte H200-licenshavere New Matrix og Maginfra, med ejerforbindelser til Wise Road Capital og Inspur.",
+          "sourceUrls": [
+            "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/",
+            "https://www.techbuzz.ai/articles/nvidia-s-h200-chips-reached-china-through-ghost-company"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Two US-Cleared Nvidia H200 Firms in China Had Empty Offices",
+          "publisher": "The New York Times (via FourWeekMBA)",
+          "url": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/",
+          "publishedAt": "2026-11-07T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia's H200 Chips Reached China Through Ghost Company",
+          "publisher": "The Tech Buzz",
+          "url": "https://www.techbuzz.ai/articles/nvidia-s-h200-chips-reached-china-through-ghost-company",
+          "publishedAt": "2026-11-07T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-07/13-c4778e64.jpg",
+        "credit": "Kilde: The Tech Buzz",
+        "alt": "Nvidia H200 AI-accelerationschip monteret på et printkort",
+        "sourceUrl": "https://www.techbuzz.ai/articles/nvidia-s-h200-chips-reached-china-through-ghost-company",
+        "origin": "source",
+        "fingerprint": "9df8f8dcdcb0f8c3bdf8e89cdef0b4c13cfaac9edee836d8fae82c9e9be8734ce9e86e1f8bcc61f3f84c7e3f298ef0e7",
+        "lookedAt": "9df8f8dcdcb0f8c3bdf8e89cdef0b4c13cfaac9edee836d8fae82c9e9be8734ce9e86e1f8bcc61f3f84c7e3f298ef0e7",
+        "originalUrl": "https://www.techbuzz.ai/cdn-cgi/image/width=1200,height=900,quality=80,format=auto,fit=cover/https://charming-card-d91ad3487b.media.strapiapp.com/nvidia_s_h200_chips_reached_china_through_ghost_company_fdc715edf1.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://i0.wp.com/fourweekmba.com/wp-content/uploads/2026/11/chart_w1389-1.png?fit=1600%2C900&ssl=1",
+          "fingerprint": "3020e070484848947440e17048c8c085ca00c0f2c8c8c0d0c110c0d0c8c88090e500c0e0808080800000a0a090909000",
+          "reason": "chart-or-text-card"
+        }
+      ],
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-07T16:57:51.159Z",
+        "runId": "run-2026-11-07-umidday-r210"
+      }
+    },
+    {
+      "id": "u2krakow",
+      "eventKey": "poland-krakow-market-square-shooting-2026-11",
+      "materialFacts": [
+        "Mindst fem dræbt og et dusin såret på Krakows hovedtorv 7. november",
+        "Gerningsmand kørte bil ind på torvet og skød vilkårligt, blev uskadeliggjort af politiet",
+        "Intet motiv oplyst; statsminister Tusk lover fuld undersøgelse"
+      ],
+      "section": "Udland",
+      "headline": "Five dead, dozen injured in Krakow shooting, police say",
+      "primarySourceUrl": "https://www.rte.ie/news/world/2026/1107/1598368-poland-shooting/",
+      "subheadline": "En mand kørte ind på Krakows hovedtorv og skød vilkårligt mod folk.",
+      "body": [
+        "Mindst fem mennesker blev dræbt og et dusin såret, da en polsk mand lørdag kørte en bil ind på Krakows historiske hovedtorv og skød vilkårligt. Politiet skød og uskadeliggjorde gerningsmanden, der blev kørt til hospital. Statsminister Donald Tusk sagde, at baggrund og omstændigheder undersøges; intet motiv er oplyst."
+      ],
+      "whyItMatters": "Skyderier er sjældne i Polen, der er på øget alarmberedskab mod russisk hybridkrigsførelse.",
+      "topics": [
+        "eu",
+        "kriminalitet"
+      ],
+      "entities": [
+        "Donald Tusk",
+        "Karol Nawrocki",
+        "Krakow"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 25,
+        "novelty": 85,
+        "sourceQuality": 75,
+        "personalRelevance": 10,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Mindst fem dræbt og et dusin såret i skyderi på Krakows hovedtorv 7. november 2026; gerningsmanden uskadeliggjort af politiet.",
+          "sourceUrls": [
+            "https://www.rte.ie/news/world/2026/1107/1598368-poland-shooting/",
+            "https://notesfrompoland.com/2026/11/07/fatalities-reported-in-shooting-on-historical-market-square-in-krakow/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Five dead, dozen injured in Krakow shooting, police say",
+          "publisher": "RTÉ",
+          "url": "https://www.rte.ie/news/world/2026/1107/1598368-poland-shooting/",
+          "publishedAt": "2026-11-07T16:50:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Five killed in shooting around market square in Polish city of Kraków",
+          "publisher": "Notes from Poland",
+          "url": "https://notesfrompoland.com/2026/11/07/fatalities-reported-in-shooting-on-historical-market-square-in-krakow/",
+          "publishedAt": "2026-11-07T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-07/14-8aa7360d.jpg",
+        "credit": "Kilde: RTÉ",
+        "alt": "Five dead, dozen injured in Krakow shooting, police say",
+        "sourceUrl": "https://www.rte.ie/news/world/2026/1107/1598368-poland-shooting/",
+        "origin": "article",
+        "fingerprint": "989930c1e5bc7831981820c4e43c78719c3862c4e4567a713c38c28446765e72386a8282a2a69edb79c9818329a1a79f",
+        "lookedAt": "989930c1e5bc7831981820c4e43c78719c3862c4e4567a713c38c28446765e72386a8282a2a69edb79c9818329a1a79f",
+        "originalUrl": "https://www.rte.ie/images/00254d42-1600.jpg",
+        "focus": {
+          "x": 0.134,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-07T16:57:51.159Z",
+        "runId": "run-2026-11-07-umidday-r210"
+      }
     }
   ],
   "signals": [
@@ -1238,5 +1411,20 @@
     "novelty": 74,
     "perspectiveBalance": 78,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-07T16:57:51.159Z",
+      "runId": "run-2026-11-07-umidday-r210",
+      "added": 2,
+      "cost": {
+        "usd": 2.2725341000000006,
+        "inputTokens": 2517153,
+        "outputTokens": 27168,
+        "turns": 70,
+        "seconds": 440.7
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-07",
-  "generatedAt": "2026-11-07T05:49:47.760Z",
+  "generatedAt": "2026-11-07T16:57:58.111Z",
   "pictures": [
     {
       "slot": "01",
@@ -205,6 +205,46 @@
       },
       "underFloor": true,
       "fetchedAt": "2026-11-07T05:49:51.663Z"
+    },
+    {
+      "slot": "13",
+      "id": "u1h200shell",
+      "headline": "Two US-Cleared Nvidia H200 Firms in China Had Empty Offices",
+      "source": "https://www.techbuzz.ai/cdn-cgi/image/width=1200,height=900,quality=80,format=auto,fit=cover/https://charming-card-d91ad3487b.media.strapiapp.com/nvidia_s_h200_chips_reached_china_through_ghost_company_fdc715edf1.jpg",
+      "article": "https://fourweekmba.com/ai-two-us-cleared-nvidia-h200-firms-in-china-had-empty-offices/",
+      "hosted": "13-c4778e64.jpg",
+      "srcSize": "1200x900",
+      "srcFormat": "heif",
+      "srcBytes": 88341,
+      "out": "1200x800",
+      "bytes": 117783,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-07T16:57:58.676Z"
+    },
+    {
+      "slot": "14",
+      "id": "u2krakow",
+      "headline": "Five dead, dozen injured in Krakow shooting, police say",
+      "source": "https://www.rte.ie/images/00254d42-1600.jpg",
+      "article": "https://www.rte.ie/news/world/2026/1107/1598368-poland-shooting/",
+      "hosted": "14-8aa7360d.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "webp",
+      "srcBytes": 183942,
+      "out": "1350x900",
+      "bytes": 138089,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.134,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-07T16:57:59.050Z"
     },
     {
       "slot": "r01",
