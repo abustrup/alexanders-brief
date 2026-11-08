@@ -233,6 +233,14 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
+    },
+    {
+      "date": "2026-11-08",
+      "slug": "kostsygdommens-logik",
+      "claim": "Sundhed og uddannelse bliver relativt dyrere, fordi deres produktivitet vokser langsommere end industriens (Baumols kostsygdom).",
+      "horizon": "inden for ti år",
+      "falsifier": "Tesen er forkert, hvis generativ AI de næste ti år komprimerer arbejdstimer pr. patient/elev markant, så sundheds- og uddannelsesandelen af BNP falder eller stagnerer snarere end stiger.",
+      "status": "open"
     }
   ]
 }
