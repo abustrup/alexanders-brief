@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-08",
-  "generatedAt": "2026-11-08T05:46:56.824Z",
+  "generatedAt": "2026-11-08T17:16:12.564Z",
   "pictures": [
     {
       "slot": "01",
@@ -183,6 +183,26 @@
         "y": 1
       },
       "fetchedAt": "2026-11-08T05:47:01.410Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-anthropic-onepwr-2026-11-08",
+      "headline": "Anthropic Agrees to $3.4 Billion Gas-Generator Deal, FT Reports",
+      "source": "https://www.heavyquipmag.com/wp-content/uploads/2026/07/C10886455.jpeg",
+      "article": "https://www.theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center",
+      "hosted": "11-d0b1bcda.jpg",
+      "srcSize": "1200x920",
+      "srcFormat": "jpeg",
+      "srcBytes": 216465,
+      "out": "1200x800",
+      "bytes": 173320,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-08T17:16:12.918Z"
     },
     {
       "slot": "r01",

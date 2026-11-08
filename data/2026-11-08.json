@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-08-0640",
+  "runId": "run-2026-11-08-umidday-r214",
   "date": "2026-11-08",
-  "generatedAt": "2026-11-08T06:40:00.000Z",
-  "readingMinutes": 8,
+  "generatedAt": "2026-11-08T17:13:42.306Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Spionmistanke om Nvidia-chefen, AI-pengenes midterm-regnskab, og en europæisk gigafabrik der skal genindsendes",
   "profileWeights": {
@@ -892,6 +892,97 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-anthropic-onepwr-2026-11-08",
+      "eventKey": "anthropic-onepwr-gas-generators-2026-11",
+      "materialFacts": [
+        "Anthropic betaler 3,4 mia. dollar for OnePWRs bestilling af 1,7 GW gasgeneratorer",
+        "Handlen blev indgået i slut-september, omtalt af FT søndag",
+        "Anthropic overtager ordren og installationsarbejdet, ikke selskabet OnePWR",
+        "FT kalder det det største kendte enkeltkøb af kraftudstyr fra et AI-selskab"
+      ],
+      "section": "AI og energi",
+      "headline": "Anthropic Agrees to $3.4 Billion Gas-Generator Deal, FT Reports",
+      "primarySourceUrl": "https://www.theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center",
+      "subheadline": "AI-selskabet springer ventelisten over for gasturbiner",
+      "body": [
+        "Anthropic betaler 3,4 mia. dollar for en bestilling på 1,7 gigawatt Caterpillar-gasgeneratorer, lagt for to år siden af texanske OnePWR Solutions. Financial Times skriver søndag, at Anthropic køber ordren og installationskapaciteten, ikke selve OnePWR."
+      ],
+      "whyItMatters": "Fabrikskapaciteten for gasturbiner er løbet tør, og det er hurtigere at overtage en gammel ordre end bestille ny, hvilket viser hvor presset strøm nu er for AI-datacentre.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "energi",
+        "usa"
+      ],
+      "entities": [
+        "Anthropic",
+        "OnePWR Solutions",
+        "Caterpillar"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 66,
+        "decisionValue": 60,
+        "novelty": 56,
+        "sourceQuality": 68,
+        "personalRelevance": 76,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Anthropic betalte 3,4 mia. dollar for OnePWRs bestilling af 1,7 GW Caterpillar-gasgeneratorer",
+          "sourceUrls": [
+            "https://www.theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center",
+            "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Handlen blev indgået i slut-september 2026, offentliggjort af FT søndag 8. november 2026",
+          "sourceUrls": [
+            "https://www.theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic Agrees to $3.4 Billion Gas-Generator Deal, FT Reports",
+          "publisher": "TheEnergyMag",
+          "url": "https://www.theenergymag.com/news/market-news/anthropic-gas-generation-acquisition-ai-data-center",
+          "publishedAt": "2026-11-08T14:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic buys $3.4bn of gas generators for its data centres, FT reports",
+          "publisher": "The Next Web",
+          "url": "https://thenextweb.com/news/anthropic-3-4bn-gas-generators-onepwr-ft",
+          "publishedAt": "2026-11-08T14:34:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-08/11-d0b1bcda.jpg",
+        "credit": "Kilde: Caterpillar / HeavyQuip Magazine",
+        "alt": "Cat-gasgenerator installeret i et datacenters strømrum, samme type udstyr som Anthropic nu har sikret sig",
+        "sourceUrl": "https://www.heavyquipmag.com/2026/07/29/caterpillar-is-finding-its-next-growth-engine-inside-the-ai-power-crunch/",
+        "origin": "coverage",
+        "fingerprint": "62b15e777b39f9a061325a77fb3df988743bdbf2fb3d7cd5339bfbf2f93d7cd4399bf3bbb96d7cfc3d99f5bbb97c6efe",
+        "lookedAt": "62b15e777b39f9a061325a77fb3df988743bdbf2fb3d7cd5339bfbf2f93d7cd4399bf3bbb96d7cfc3d99f5bbb97c6efe",
+        "originalUrl": "https://www.heavyquipmag.com/wp-content/uploads/2026/07/C10886455.jpeg",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-08T17:13:42.306Z",
+        "runId": "run-2026-11-08-umidday-r214"
+      }
     }
   ],
   "signals": [
@@ -1186,5 +1277,20 @@
     "novelty": 70,
     "perspectiveBalance": 70,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-08T17:13:42.306Z",
+      "runId": "run-2026-11-08-umidday-r214",
+      "added": 1,
+      "cost": {
+        "usd": 2.3925533000000003,
+        "inputTokens": 3354886,
+        "outputTokens": 24623,
+        "turns": 73,
+        "seconds": 542.2
+      }
+    }
+  ]
 }
