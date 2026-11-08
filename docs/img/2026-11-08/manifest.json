@@ -1,0 +1,208 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-08",
+  "generatedAt": "2026-11-08T05:46:56.824Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-huang-spy-2026-11-08",
+      "headline": "US intelligence believes NVIDIA CEO Jensen Huang had romance link with suspected Chinese spy",
+      "source": "https://img.theweek.in/content/dam/week/en/archive/news/world/images/2026/11/7/Jensen-huang-alice-huang-le-nvidia-megaspeed.jpg",
+      "article": "https://www.theweek.in/news/world/2026/11/07/us-intelligence-believes-nvidia-ceo-jensen-huang-had-romance-link-with-suspected-chinese-spy.html",
+      "hosted": "01-efad6026.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 40362,
+      "out": "900x675",
+      "bytes": 51418,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.864,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-08T05:46:57.271Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-ai-pac-midterm-2026-11-08",
+      "headline": "Where AI money worked in the midterms",
+      "source": "https://img.semafor.com/52d100da549f54e7e2b34f69056bda23a631f04e-5400x3602.jpg?rect=0,384,5400,2835&w=1200&h=630&q=75&auto=format",
+      "article": "https://www.semafor.com/article/11/05/2026/where-ai-money-worked-in-the-midterms",
+      "hosted": "02-d9fdc422.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 144179,
+      "out": "945x630",
+      "bytes": 107564,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.491,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-08T05:46:57.751Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-ionq-q3-2026-11-08",
+      "headline": "IonQ Announces Record 3Q26 Revenues and Raises FY2026 Guidance to $505 - $515 Million as Backlog Grows to $1.2 Billion",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/IonQ_headquarters_College_Park_MD.jpg/1280px-IonQ_headquarters_College_Park_MD.jpg",
+      "article": "https://ionq.com/news/ionq-announces-record-3q26-revenues-and-raises-fy2026-guidance-to-505---515-million-as-backlog-grows-to-1-2-billion",
+      "hosted": "03-f81fd226.jpg",
+      "srcSize": "1280x733",
+      "srcFormat": "jpeg",
+      "srcBytes": 238232,
+      "out": "1099x733",
+      "bytes": 129242,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.7,
+        "y": 0.975
+      },
+      "fetchedAt": "2026-11-08T05:46:58.154Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-eurohpc-resubmit-2026-11-08",
+      "headline": "EuroHPC Requires Bidders to Resubmit AI Gigafactory Proposals",
+      "source": "https://www.eurohpc-ju.europa.eu/sites/default/files/styles/oe_theme_ratio_3_2_medium/public/2026-10/DSC07544.JPG?h=5e08a8b6&itok=x1uyOQ95",
+      "article": "https://www.hpcwire.com/off-the-wire/eurohpc-requires-bidders-to-resubmit-ai-gigafactory-proposals/",
+      "hosted": "04-50b67cb9.jpg",
+      "srcSize": "600x400",
+      "srcFormat": "jpeg",
+      "srcBytes": 35267,
+      "out": "600x400",
+      "bytes": 33594,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-08T05:46:58.931Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-spacex-starbase-2026-11-08",
+      "headline": "Texas Gov.-Elect Hinojosa Targets AI Data Center Moratorium",
+      "source": "https://img.digitimes.com/newsshow/20261106pd223_files/2_b.jpg",
+      "article": "https://teslanorth.com/2026/11/06/hinojosa-texas-data-center-moratorium/",
+      "hosted": "05-0fc80f57.jpg",
+      "srcSize": "640x427",
+      "srcFormat": "jpeg",
+      "srcBytes": 73916,
+      "out": "640x427",
+      "bytes": 33090,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.686,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-08T05:46:59.249Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-krakow-2026-11-08",
+      "headline": "Gunman opens fire in Polish city of Krakow, killing 6 people and wounding 16",
+      "source": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-07T160714Z_1117404640_RC23JOAAMWVH_RTRMADP_3_POLAND-SHOOTING-1024x683.jpg",
+      "article": "https://www.pbs.org/newshour/world/gunman-opens-fire-in-polish-city-of-krakow-killing-6-people-and-injuring-15",
+      "hosted": "07-e028f481.jpg",
+      "srcSize": "1024x683",
+      "srcFormat": "jpeg",
+      "srcBytes": 237215,
+      "out": "1024x683",
+      "bytes": 158400,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-08T05:46:59.696Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-mexc-2026-11-08",
+      "headline": "Operation Economic Outcast Severs MEXC Global's Access to the U.S. Financial System",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/United_States_Treasury_building_2023.jpg/1280px-United_States_Treasury_building_2023.jpg",
+      "article": "https://www.fincen.gov/news/news-releases/operation-economic-outcast-severs-mexc-globals-access-us-financial-system",
+      "hosted": "08-49516a85.jpg",
+      "srcSize": "1280x960",
+      "srcFormat": "jpeg",
+      "srcBytes": 230623,
+      "out": "1280x853",
+      "bytes": 139100,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-08T05:47:00.068Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-claimlane-2026-11-08",
+      "headline": "Claimlane Raises €5.6M Series A",
+      "source": "https://cdn.prod.website-files.com/685e464bb2146ff66acc60d8/6aec60001d1b354be9316a67_Claimlane%20Team.jpg",
+      "article": "https://www.thesaasnews.com/news/claimlane-raises-5-6m-series-a/",
+      "hosted": "09-47658406.jpg",
+      "srcSize": "4236x2824",
+      "srcFormat": "jpeg",
+      "srcBytes": 1317964,
+      "out": "1600x1067",
+      "bytes": 286774,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.675,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-08T05:47:00.854Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-ukraine-2026-11-08",
+      "headline": "ISW Russian Offensive Campaign Assessment, November 8, 2026",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2gWP3n.img",
+      "article": "https://www.kyivpost.com/post/86531",
+      "hosted": "10-d3d727f4.jpg",
+      "srcSize": "1731x974",
+      "srcFormat": "jpeg",
+      "srcBytes": 394341,
+      "out": "1461x974",
+      "bytes": 306356,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.729,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-08T05:47:01.410Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-lexfridman-math-ai",
+      "headline": "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "source": "https://img.youtube.com/vi/ZAzWPE9CItg/maxresdefault.jpg",
+      "article": "https://lexfridman.com/math-ai-crisis-transcript/",
+      "hosted": "r01-e1aaca3b.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 177529,
+      "out": "1280x720",
+      "bytes": 97917,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-08T05:47:01.669Z"
+    }
+  ]
+}
