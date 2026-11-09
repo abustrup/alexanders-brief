@@ -235,11 +235,11 @@
       "status": "open"
     },
     {
-      "date": "2026-11-08",
-      "slug": "kostsygdommens-logik",
-      "claim": "Sundhed og uddannelse bliver relativt dyrere, fordi deres produktivitet vokser langsommere end industriens (Baumols kostsygdom).",
-      "horizon": "inden for ti år",
-      "falsifier": "Tesen er forkert, hvis generativ AI de næste ti år komprimerer arbejdstimer pr. patient/elev markant, så sundheds- og uddannelsesandelen af BNP falder eller stagnerer snarere end stiger.",
+      "date": "2026-11-09",
+      "slug": "modellen-der-spiser-sin-egen-prognose",
+      "claim": "En makroøkonomisk model estimeret under én politik vil fejlforudsige systematisk mere, når den bruges til at designe en anden politik, end når politikken er uændret (Lucas-kritikken).",
+      "horizon": "Næste store afvigelse mellem Fed-prognose og udfald efter en rentebeslutning",
+      "falsifier": "Hvis centralbankers prognosefejl efter politikskift ikke er systematisk større end efter uændret politik, renset for almindelig datastøj.",
       "status": "open"
     }
   ]
