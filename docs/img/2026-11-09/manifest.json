@@ -1,0 +1,248 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-09",
+  "generatedAt": "2026-11-09T05:31:02.412Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-anthropic-s1a-2026-11-09",
+      "headline": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2297195052-e1793790879669.jpg?format=webp&w=1440&quality=75",
+      "article": "https://www.anthropic.com/news/s1-sec",
+      "hosted": "01-eedd5a33.jpg",
+      "srcSize": "1440x959",
+      "srcFormat": "webp",
+      "srcBytes": 114722,
+      "out": "1278x959",
+      "bytes": 139631,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.521,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-09T05:31:02.894Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-tekever-eifo-2026-11-09",
+      "headline": "DefenceTech unicorn TEKEVER strengthens Nordic ambitions amid €520 million funding round",
+      "source": "https://www.joint-forces.com/wp-content/uploads/2026/11/Tekever-AR3-Evolution.jpg",
+      "article": "https://www.eu-startups.com/2026/11/defencetech-unicorn-tekever-strengthens-nordic-ambitions-amid-e520-million-funding-round/",
+      "hosted": "02-5a5f75ca.jpg",
+      "srcSize": "900x600",
+      "srcFormat": "jpeg",
+      "srcBytes": 297015,
+      "out": "900x600",
+      "bytes": 44165,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.361,
+        "y": 0.057
+      },
+      "fetchedAt": "2026-11-09T05:31:03.111Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-google-aimode-2026-11-09",
+      "headline": "Alphabet (GOOGL) Q3 2026 Earnings Call Transcript",
+      "source": "https://image.cnbcfm.com/api/v1/image/108309206-1779213871939-108309206-1779210844055-108309206-1779210774213-gettyimages-2276576410-GOOGLE_IO.jpg?v=1782157746&w=1920&h=1080",
+      "article": "https://www.fool.com/earnings/call-transcripts/2026/10/29/alphabet-googl-q3-2026-earnings-call-transcript/",
+      "hosted": "03-af0c3779.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 65082,
+      "out": "1600x1067",
+      "bytes": 57093,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-09T05:31:03.348Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-huang-rubio-2026-11-09",
+      "headline": "Nvidia CEO faces scrutiny over alleged intelligence links as company opens investigation",
+      "source": "https://d341l694dl30ad.cloudfront.net/images/cms/2026/10/13/6ace6a14ee31e35dc8f35f42/original/4833bfe6-1354-46f9-a355-f1033c7d9d1b-1791912468428.jpg?width=1080&format=jpg&quality=80",
+      "article": "https://www.trtworld.com/article/d2e806250f07",
+      "hosted": "04-79bbe615.jpg",
+      "srcSize": "1080x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 64899,
+      "out": "1080x720",
+      "bytes": 57015,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0.482
+      },
+      "fetchedAt": "2026-11-09T05:31:03.497Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-taiwan-chips-2026-11-09",
+      "headline": "Taiwan to criminalize Nvidia AI chip smuggling to China",
+      "source": "https://asiatimes.com/wp-content/uploads/2026/11/B300.png",
+      "article": "https://asiatimes.com/2026/11/taiwan-to-criminalize-nvidia-ai-chip-smuggling-to-china/",
+      "hosted": "05-1cbe9eae.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "png",
+      "srcBytes": 1114545,
+      "out": "1012x675",
+      "bytes": 50985,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.675,
+        "y": 0.921
+      },
+      "fetchedAt": "2026-11-09T05:31:03.789Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-ibm-quantum-2026-11-09",
+      "headline": "IBM Unveils Its Most Advanced Quantum Computer in Chicago, Marking a Milestone for Illinois's Quantum Future",
+      "source": "https://newsroom.ibm.com/image/Illinois_Quantum_center_+ribboncutting_social.jpg",
+      "article": "https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future",
+      "hosted": "06-5b248a69.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 1656733,
+      "out": "1600x1067",
+      "bytes": 292499,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.243,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-09T05:31:04.222Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-jobs-report-2026-11-09",
+      "headline": "What The Strong October Jobs Report Means For Fed Rate Hikes",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg/1920px-Marriner_S._Eccles_Federal_Reserve_Board_Building.jpg",
+      "article": "https://www.forbes.com/sites/harryholzer/2026/11/06/job-market-bounces-back-in-octoberfed-rate-increase-now-more-likely/",
+      "hosted": "07-6ed5db1c.jpg",
+      "srcSize": "1920x1065",
+      "srcFormat": "jpeg",
+      "srcBytes": 555072,
+      "out": "1597x1065",
+      "bytes": 279381,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.352,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-09T05:31:04.645Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-abu-dhabi-2026-11-09",
+      "headline": "Zelenskyy accuses Russia of escalating strikes ahead of peace talks",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6aee9afba7bdd-1794022139.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents",
+      "hosted": "08-897caa72.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 344884,
+      "out": "1600x1067",
+      "bytes": 245623,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.53,
+        "y": 0.257
+      },
+      "fetchedAt": "2026-11-09T05:31:05.021Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-uniqure-2026-11-09",
+      "headline": "FDA grants uniQure's Huntington's gene therapy priority review, teeing up 'defining milestone'",
+      "source": "https://qtxasset.com/quartz/qcloud5/media/image/UNIQURE.jpg?VersionId=GkSQT1E8WQL7HCnowB2AC3e0oRc3w9yR",
+      "article": "https://www.fiercebiotech.com/biotech/fda-grants-uniqure-review-its-huntingtons-drug-approval-would-be-defining-milestone",
+      "hosted": "09-d6dc110e.jpg",
+      "srcSize": "1000x563",
+      "srcFormat": "jpeg",
+      "srcBytes": 84646,
+      "out": "844x563",
+      "bytes": 58690,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.764,
+        "y": 0.057
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-09T05:31:05.255Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-koalicja-2026-11-09",
+      "headline": "European troops set to train in Poland for postwar Ukraine deployment",
+      "source": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2235378977.jpg.jpg",
+      "article": "https://www.defensenews.com/news/2026/11/07/european-troops-set-to-train-in-poland-for-postwar-ukraine-deployment/",
+      "hosted": "10-1f5b4770.jpg",
+      "srcSize": "2676x1784",
+      "srcFormat": "webp",
+      "srcBytes": 563184,
+      "out": "1600x1067",
+      "bytes": 114419,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.83,
+        "y": 0.093
+      },
+      "fetchedAt": "2026-11-09T05:31:07.217Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-cop31-2026-11-09",
+      "headline": "COP31 Opens in Turkey: Clean Energy, Climate Finance and U.S. Withdrawal Shape Antalya Summit",
+      "source": "https://static01.nyt.com/images/2026/11/08/multimedia/08CLI-COP31-01-mgpv/08CLI-COP31-01-mgpv-facebookJumbo.jpg",
+      "article": "https://eurasiabusinessnews.com/2026/11/08/cop31-opens-in-turkey-clean-energy-climate-finance-and-u-s-withdrawal-shape-antalya-summit/",
+      "hosted": "11-ac3457a9.jpg",
+      "srcSize": "1050x550",
+      "srcFormat": "webp",
+      "srcBytes": 89696,
+      "out": "825x550",
+      "bytes": 76989,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.616,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-09T05:31:07.442Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-lex-moitra-brunton-2026-11-09",
+      "headline": "AI Crisis in Math: Navier-Stokes, Riemann Hypothesis & Complexity Theory",
+      "source": "https://img.youtube.com/vi/ZAzWPE9CItg/maxresdefault.jpg",
+      "article": "https://lexfridman.com/math-ai-crisis",
+      "hosted": "r01-e1aaca3b.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 177529,
+      "out": "1280x720",
+      "bytes": 97917,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-09T05:31:07.633Z"
+    }
+  ]
+}
