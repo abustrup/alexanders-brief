@@ -1,0 +1,168 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-10",
+  "generatedAt": "2026-11-10T07:29:30.800Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-abudhabi1",
+      "headline": "US-mediated talks with Russia and Ukraine on ending war to start in Abu Dhabi, Europe watches nervously",
+      "source": "https://static.themoscowtimes.com/image/article_1360/8a/AFP__20260218__97ZC3TZ__v1__MidRes__SwitzerlandUsUkraineDiplomacy.jpg",
+      "article": "https://www.malaymail.com/news/world/2026/11/10/us-mediated-talks-with-russia-and-ukraine-on-ending-war-to-start-in-abu-dhabi-europe-watches-nervously/242703",
+      "hosted": "01-e9f08477.jpg",
+      "srcSize": "1360x765",
+      "srcFormat": "jpeg",
+      "srcBytes": 181780,
+      "out": "1020x765",
+      "bytes": 61715,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.854,
+        "y": 0.993
+      },
+      "fetchedAt": "2026-11-10T07:29:31.157Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-ingloan1",
+      "headline": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+      "source": "https://image.cnbcfm.com/api/v1/image/108355111-1787834785359-gettyimages-2292235029-dji_20260826152250_0043_d_o63c17gu.jpeg?v=1787834843&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "hosted": "02-df7670ba.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 309639,
+      "out": "1600x1067",
+      "bytes": 283619,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.414,
+        "y": 0.939
+      },
+      "fetchedAt": "2026-11-10T07:29:31.661Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-eifooska1",
+      "headline": "Nyt initiativ skal sikre kapital til flere danske unicorn-kandidater",
+      "source": "https://via.ritzau.dk/data/images/public/13561323/15276935/a7d90cd6-3732-40ce-8507-884e9a9d83fa-w_960.jpg",
+      "article": "https://via.ritzau.dk/pressemeddelelse/15276935/nyt-initiativ-skal-sikre-kapital-til-flere-danske-unicorn-kandidater?lang=da",
+      "hosted": "03-91349a4a.jpg",
+      "srcSize": "960x640",
+      "srcFormat": "jpeg",
+      "srcBytes": 77773,
+      "out": "960x640",
+      "bytes": 71005,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.307,
+        "y": 0.725
+      },
+      "fetchedAt": "2026-11-10T07:29:32.025Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-groot2a1",
+      "headline": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "source": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ambi-robotics.jpg",
+      "article": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "hosted": "04-4a0edfa3.jpg",
+      "srcSize": "2048x1365",
+      "srcFormat": "jpeg",
+      "srcBytes": 276960,
+      "out": "1600x1067",
+      "bytes": 232612,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.821,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-10T07:29:32.513Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-goldman1a",
+      "headline": "Goldman restricts Claude Code, GitHub for traders and bankers",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/200_West_Street_October_2024_001.jpg/1920px-200_West_Street_October_2024_001.jpg",
+      "article": "https://dealroom.co/news/169162-goldman-restricts-claude-code-github-for-traders-and-bankers/",
+      "hosted": "05-07c1ff8b.jpg",
+      "srcSize": "1920x863",
+      "srcFormat": "jpeg",
+      "srcBytes": 428316,
+      "out": "1294x863",
+      "bytes": 244137,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-10T07:29:32.954Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-wmoext1",
+      "headline": "'Exceptional' extreme temperatures to continue into next year, UN reports",
+      "source": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/30-01-2025-UNICEF-Thailand-01.jpg/image1170x530cropped.jpg",
+      "article": "https://news.un.org/en/story/2026/11/1168760",
+      "hosted": "06-1be4e956.jpg",
+      "srcSize": "1170x530",
+      "srcFormat": "jpeg",
+      "srcBytes": 78147,
+      "out": "795x530",
+      "bytes": 51349,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.898,
+        "y": 0.411
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-10T07:29:33.625Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-scotush2a1",
+      "headline": "Court to consider the reach of Article III courts in immigration contract dispute",
+      "source": "https://cdn.sanity.io/images/pito4za5/production/3c9ea1990aff8ef4c95ad6903fd5b2cdbc5b1879-5712x4284.jpg?rect=0,650,5712,2985&w=1200&h=627&fit=crop",
+      "article": "https://www.scotusblog.com/2026/11/court-to-consider-the-reach-of-article-iii-courts-in-immigration-contract-dispute/",
+      "hosted": "07-4157cf47.jpg",
+      "srcSize": "1200x627",
+      "srcFormat": "jpeg",
+      "srcBytes": 139079,
+      "out": "940x627",
+      "bytes": 102093,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.85
+      },
+      "fetchedAt": "2026-11-10T07:29:33.935Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-nuisancebear1",
+      "headline": "Nuisance Bear",
+      "source": "https://images.mubicdn.net/images/film/461644/cache-1102741-1765481564/image-w1280.jpg?size=800x",
+      "article": "https://mubi.com/en/us/films/nuisance-bear-2026",
+      "hosted": "r01-10f6b0a1.jpg",
+      "srcSize": "800x450",
+      "srcFormat": "webp",
+      "srcBytes": 19842,
+      "out": "800x450",
+      "bytes": 17413,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0.414
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-10T07:29:34.190Z"
+    }
+  ]
+}

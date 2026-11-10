@@ -1,0 +1,907 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-11-10-full01",
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T07:30:00Z",
+  "readingMinutes": 5,
+  "title": "Alexanders Brief",
+  "dek": "Abu Dhabi-forhandlinger, et dansk kapitalgab, en bank der bremser AI - og et klimarapport der ikke er til forhandling",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-abudhabi1",
+      "eventKey": "ukraine-russia-us-abu-dhabi-talks-begin-2026-11",
+      "materialFacts": [
+        "Trilaterale forhandlinger mellem USA, Ukraine og Rusland starter i Abu Dhabi 10.-11. november, første møde på dette niveau siden februar",
+        "Witkoff og Kushner leder den amerikanske delegation, Umerov Ukraines og Medinsky Ruslands",
+        "Tre tidligere runder endte uden en samlet aftale; Rusland kræver at Ukraine opgiver NATO-ambitioner"
+      ],
+      "section": "Geopolitik",
+      "headline": "US-mediated talks with Russia and Ukraine on ending war to start in Abu Dhabi, Europe watches nervously",
+      "primarySourceUrl": "https://www.malaymail.com/news/world/2026/11/10/us-mediated-talks-with-russia-and-ukraine-on-ending-war-to-start-in-abu-dhabi-europe-watches-nervously/242703",
+      "subheadline": "Første trilaterale møde siden februar skal afklare sikkerhed og Donbas.",
+      "body": [
+        "USA, Ukraine og Rusland indleder 10.-11. november forhandlinger i Abu Dhabi om krigens afslutning - første møde på dette niveau siden februar. Witkoff og Kushner leder den amerikanske delegation, Umerov Ukraines og Medinsky Ruslands."
+      ],
+      "whyItMatters": "Resultatet afgør om krigen får en forhandlet afslutning, og hvor meget indflydelse Europa får på vilkårene.",
+      "analysis": "At mødet sker efter måneders stilstand er et signal om amerikansk pres for en hurtig aftale.",
+      "counterpoint": "Tre tidligere runder endte uden aftale, og Rusland fastholder krav Zelensky har afvist.",
+      "topics": [
+        "sikkerhedspolitik",
+        "krig",
+        "usa",
+        "geopolitik"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "USA",
+        "Steve Witkoff",
+        "Jared Kushner",
+        "Vladimir Medinsky",
+        "Rustem Umerov"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 70,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Trilaterale forhandlinger mellem USA, Ukraine og Rusland begynder 10.-11. november i Abu Dhabi, det første møde på dette niveau siden februar",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/88971"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Rusland kræver at Ukraine opgiver NATO-ambitioner og udelukker udenlandske tropper; Zelensky har afvist neutralitet",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/88971"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US-mediated talks with Russia and Ukraine on ending war to start in Abu Dhabi, Europe watches nervously",
+          "publisher": "Malay Mail",
+          "url": "https://www.malaymail.com/news/world/2026/11/10/us-mediated-talks-with-russia-and-ukraine-on-ending-war-to-start-in-abu-dhabi-europe-watches-nervously/242703",
+          "publishedAt": "2026-11-10T06:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US Sets Nov. 10-11 Ukraine-Russia Talks in Abu Dhabi as Trump Pushes for Peace Deal",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/88971",
+          "publishedAt": "2026-11-03T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/01-e9f08477.jpg",
+        "credit": "Foto: Harold Cunningham / AFP",
+        "alt": "Vladimir Medinsky, Ruslands chefforhandler, ankommer til tidligere runde af Ukraine-forhandlingerne i Geneve, 18. februar 2026.",
+        "sourceUrl": "https://www.themoscowtimes.com/2026/11/03/us-mediated-ukraine-peace-talks-to-resume-in-abu-dhabi-next-week-a94160",
+        "origin": "coverage",
+        "fingerprint": "70f179687058cc707272686870789ce07272686868789882e1e9ece8e8f89a0ee9edcce8e8ecbc1a68cccccd6c6c7618",
+        "lookedAt": "70f179687058cc707272686870789ce07272686868789882e1e9ece8e8f89a0ee9edcce8e8ecbc1a68cccccd6c6c7618",
+        "originalUrl": "https://static.themoscowtimes.com/image/article_1360/8a/AFP__20260218__97ZC3TZ__v1__MidRes__SwitzerlandUsUkraineDiplomacy.jpg",
+        "focus": {
+          "x": 0.854,
+          "y": 0.993
+        }
+      }
+    },
+    {
+      "id": "story-ingloan1",
+      "eventKey": "ing-ai-datacenter-loan-sale-2026-11",
+      "materialFacts": [
+        "ING sælger ca. 500 mio. dollar i 12 lån knyttet til AI-datacentre i et samlet bud; frist 19. november",
+        "Porteføljen inkluderer en andel i Stargate-anlægget i New Mexico samt Vantage Data Centers og CyrusOne",
+        "JPMorgan, Morgan Stanley, SMBC og MUFG flytter samme type kreditrisiko videre"
+      ],
+      "section": "Erhverv",
+      "headline": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+      "subheadline": "Banken sælger 12 lån i et samlet bud med frist 19. november.",
+      "body": [
+        "ING udbyder omkring 500 mio. dollar i lån til AI-datacentre i et samlet bud. Porteføljen inkluderer en andel i Stargate-anlægget i New Mexico samt lån til Vantage Data Centers og CyrusOne. JPMorgan, Morgan Stanley, SMBC og MUFG flytter samme kreditrisiko til kreditfonde og forsikringsselskaber."
+      ],
+      "whyItMatters": "Når banker sælger risikoen fra egne AI-datacenterlån, tvivler de selv på afkastet af byggeboomet.",
+      "analysis": "Timingen følger demokratiske valggevinster, der øger udsigten til strammere datacenterregulering.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "ING",
+        "Vantage Data Centers",
+        "CyrusOne",
+        "OpenAI",
+        "SoftBank",
+        "Oracle",
+        "Stargate"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 65,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "ING sælger omkring 500 mio. dollar i 12 lån knyttet til AI-datacentre i et samlet bud; bud skal afgives senest 19. november",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Porteføljen inkluderer en bid på 25 mio. dollar knyttet til Stargate-anlægget i New Mexico samt Vantage og CyrusOne",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+          "publishedAt": "2026-11-06T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/02-df7670ba.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "AI debt concerns grow as ING reportedly seeks buyers for $500 million of data center loans",
+        "sourceUrl": "https://www.cnbc.com/2026/11/06/ing-ai-data-center-loans-debt.html",
+        "origin": "article",
+        "fingerprint": "81602453699a460420e006936d9f867620e406994c2d8aa660c52291ca641b2664b22610c9c639cb84234d3098cf723d",
+        "lookedAt": "81602453699a460420e006936d9f867620e406994c2d8aa660c52291ca641b2664b22610c9c639cb84234d3098cf723d",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108355111-1787834785359-gettyimages-2292235029-dji_20260826152250_0043_d_o63c17gu.jpeg?v=1787834843&w=1920&h=1080",
+        "focus": {
+          "x": 0.414,
+          "y": 0.939
+        }
+      }
+    },
+    {
+      "id": "story-eifooska1",
+      "eventKey": "eifo-oska-capital-vaekstkapital-2026-11",
+      "materialFacts": [
+        "EIFO lancerer joint venture med Oska Capital (Mads Ditlevsen, Peter Balslev, tidl. EQT)",
+        "Første investering: 100 mio. kr. i Ønskeskyen, heraf 40 mio. kr. fra EIFO, med Weco som medinvestor",
+        "EIFO vurderer et kapitalgab på mindst 24 mia. kr. for danske vækstvirksomheder mod 2035"
+      ],
+      "section": "Dansk erhverv",
+      "headline": "Nyt initiativ skal sikre kapital til flere danske unicorn-kandidater",
+      "primarySourceUrl": "https://via.ritzau.dk/pressemeddelelse/15276935/nyt-initiativ-skal-sikre-kapital-til-flere-danske-unicorn-kandidater?lang=da",
+      "subheadline": "EIFO og Oska Capital investerer første 100 mio. kr. i Ønskeskyen.",
+      "body": [
+        "EIFO lancerer et joint venture med investorerne Mads Ditlevsen og Peter Balslev, tidligere fra EQT, via det nye Oska Capital. Første investering er 100 mio. kr. i Ønskeskyen, heraf 40 mio. kr. fra EIFO, med Weco som medinvestor. EIFO vurderer et kapitalgab på mindst 24 mia. kr. mod 2035."
+      ],
+      "whyItMatters": "Uden mere dansk vækstkapital risikerer værdiskabelsen fra fremtidens unicorn-kandidater at ende hos udlandet.",
+      "analysis": "At EIFO henter EQT-folk ind er et forsøg på at tiltrække privat kapital, fonden ikke selv kan levere.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "EIFO",
+        "Oska Capital",
+        "Mads Ditlevsen",
+        "Peter Balslev",
+        "Ønskeskyen",
+        "Weco",
+        "Christoph Junge"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 60,
+        "novelty": 65,
+        "sourceQuality": 65,
+        "personalRelevance": 75,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "EIFO og Oska Capital (Mads Ditlevsen, Peter Balslev) lancerer et joint venture for dansk vækstkapital; første investering er 100 mio. kr. i Ønskeskyen, heraf 40 mio. kr. fra EIFO",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15276935/nyt-initiativ-skal-sikre-kapital-til-flere-danske-unicorn-kandidater?lang=da"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "EIFO vurderer et kapitalgab på mindst 24 mia. kr. for danske vækstvirksomheder frem mod 2035",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15276935/nyt-initiativ-skal-sikre-kapital-til-flere-danske-unicorn-kandidater?lang=da"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nyt initiativ skal sikre kapital til flere danske unicorn-kandidater",
+          "publisher": "Ritzau (EIFO pressemeddelelse)",
+          "url": "https://via.ritzau.dk/pressemeddelelse/15276935/nyt-initiativ-skal-sikre-kapital-til-flere-danske-unicorn-kandidater?lang=da",
+          "publishedAt": "2026-11-09T10:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Danish unicorn candidates lack capital—a new initiative aims to bridge the gap",
+          "publisher": "TechSavvy",
+          "url": "https://techsavvy.media/en/danish-unicorn-candidates-lack-capital-a-new-initiative-aims-to-bridge-the-gap/",
+          "publishedAt": "2026-11-09T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/03-91349a4a.jpg",
+        "credit": "Kilde: Ritzau (EIFO pressemeddelelse)",
+        "alt": "Nyt initiativ skal sikre kapital til flere danske unicorn-kandidater",
+        "sourceUrl": "https://via.ritzau.dk/pressemeddelelse/15276935/nyt-initiativ-skal-sikre-kapital-til-flere-danske-unicorn-kandidater?lang=da",
+        "origin": "article",
+        "fingerprint": "9f96b67979d9596097b6b67959d95960b6b6325959d9d9d9373773d9d9d8d8d9733771d8d8d89c9c7373d8989898989c",
+        "lookedAt": "9f96b67979d9596097b6b67959d95960b6b6325959d9d9d9373773d9d9d8d8d9733771d8d8d89c9c7373d8989898989c",
+        "originalUrl": "https://via.ritzau.dk/data/images/public/13561323/15276935/a7d90cd6-3732-40ce-8507-884e9a9d83fa-w_960.jpg",
+        "focus": {
+          "x": 0.307,
+          "y": 0.725
+        }
+      }
+    },
+    {
+      "id": "story-groot2a1",
+      "eventKey": "nvidia-groot2-isaaclab3-corl-2026-11",
+      "materialFacts": [
+        "Nvidia offentliggjorde GR00T 2, en open world-action-model på 2 mia. parametre, ved CoRL 2026 i Austin",
+        "71% succes med én demonstration pr. opgave, 95% med fem, på tværs af robotkroppe",
+        "Isaac Lab 3.0 giver op til 2,5x hurtigere træning; koden frigives open source i december"
+      ],
+      "section": "Teknologi",
+      "headline": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "primarySourceUrl": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "subheadline": "GR00T 2 lærer nye opgaver af få demonstrationer.",
+      "body": [
+        "Nvidia viste ved CoRL 2026 i Austin GR00T 2, en åben world-action-model på 2 mia. parametre. Én model fungerer på gribearme, dexterøse hænder og humanoide robotter. Med én demonstration når modellen 71% succes på 50 ukendte opgaver, med fem 95%. Isaac Lab 3.0 giver op til 2,5x hurtigere træning."
+      ],
+      "whyItMatters": "Et fundament der lærer nye robotkroppe af få eksempler sænker omkostningen ved automatisering.",
+      "analysis": "Koden frigives først i december - 'open' er i dag mest et løfte, ikke en efterprøvet påstand.",
+      "topics": [
+        "ai",
+        "teknologi",
+        "robotics"
+      ],
+      "entities": [
+        "Nvidia",
+        "CoRL 2026",
+        "UC Berkeley",
+        "University of Washington",
+        "Bosch Research",
+        "Siemens"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 50,
+        "novelty": 70,
+        "sourceQuality": 75,
+        "personalRelevance": 70,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "GR00T 2 er en åben world-action-model på 2 mia. parametre bygget på Cosmos-Predict2.5, offentliggjort ved CoRL 2026",
+          "sourceUrls": [
+            "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Modellen opnåede 71% succes med én demonstration pr. opgave og 95% med fem demonstrationer",
+          "sourceUrls": [
+            "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+            "https://www.unite.ai/nvidia-introduces-gr00t-2-for-robots-learning-from-human-video/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+          "publisher": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+          "publishedAt": "2026-11-09T18:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "NVIDIA Introduces GR00T 2 for Robots Learning From Human Video",
+          "publisher": "Unite.AI",
+          "url": "https://www.unite.ai/nvidia-introduces-gr00t-2-for-robots-learning-from-human-video/",
+          "publishedAt": "2026-11-09T20:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/04-4a0edfa3.jpg",
+        "credit": "Kilde: Nvidia / Ambi Robotics",
+        "alt": "Ambi Robotics' robotarme sorterer pakker i et lager, som del af Nvidias CoRL-partnerskaber om robotsimulation.",
+        "sourceUrl": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+        "origin": "article",
+        "fingerprint": "a6d25a3928eba78fe2d2b83868e9b387e29b29286aecb12783b96c28eaeeed63993c6c68e949ec613c6cee68cdcdcfe4",
+        "lookedAt": "a6d25a3928eba78fe2d2b83868e9b387e29b29286aecb12783b96c28eaeeed63993c6c68e949ec613c6cee68cdcdcfe4",
+        "originalUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/11/ambi-robotics.jpg",
+        "focus": {
+          "x": 0.821,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-goldman1a",
+      "eventKey": "goldman-sachs-claude-code-restriction-2026-11",
+      "materialFacts": [
+        "Goldman Sachs begrænsede i oktober adgangen til Claude Code og GitHubs AI-værktøjer til ingeniører og 'strats'",
+        "Ca. 12.000 ingeniører bevarer fuld adgang; tradere og bankfolk mistede den",
+        "Goldman og Morgan Stanley er lead underwriters på Anthropics forestående børsnotering"
+      ],
+      "section": "Erhverv",
+      "headline": "Goldman restricts Claude Code, GitHub for traders and bankers",
+      "primarySourceUrl": "https://dealroom.co/news/169162-goldman-restricts-claude-code-github-for-traders-and-bankers/",
+      "subheadline": "Kun ingeniører og 'strats' har nu fuld adgang til AI-kodeværktøjer.",
+      "body": [
+        "Goldman Sachs strammede i oktober adgangen til Claude Code og GitHubs AI-værktøjer, så kun ca. 12.000 ingeniører og 'strats' har fuld adgang. Tradere og bankfolk, der i månedsvis byggede hurtige prototyper med værktøjerne, mistede adgangen. Banken henviser til en gennemgang af produktivitet og risikostyring."
+      ],
+      "whyItMatters": "Et af Wall Streets mest AI-venlige huse strammer adgangen snarere end at udvide den.",
+      "analysis": "Goldman er samtidig lead underwriter på Anthropics kommende børsnotering, hvilket gør det til et usædvanligt forbehold.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Goldman Sachs",
+        "Anthropic",
+        "Claude Code",
+        "GitHub",
+        "Nick Carcaterra"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 60,
+        "novelty": 45,
+        "sourceQuality": 55,
+        "personalRelevance": 75,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Goldman Sachs begrænsede i oktober adgangen til Claude Code og GitHubs AI-kodeværktøjer til ingeniører og 'strats', efter måneders bredere adgang",
+          "sourceUrls": [
+            "https://dealroom.co/news/169162-goldman-restricts-claude-code-github-for-traders-and-bankers/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Goldman restricts Claude Code, GitHub for traders and bankers",
+          "publisher": "Dealroom",
+          "url": "https://dealroom.co/news/169162-goldman-restricts-claude-code-github-for-traders-and-bankers/",
+          "publishedAt": "2026-11-03T14:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/05-07c1ff8b.jpg",
+        "credit": "Foto: Kidfly182, Wikimedia Commons (CC BY 4.0)",
+        "alt": "Arkivfoto af Goldman Sachs' hovedkvarter på 200 West Street i New York.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:200_West_Street_October_2024_001.jpg",
+        "origin": "library",
+        "fingerprint": "428101043c60c202c38100043c70c012810000063e72c013000000063e72c980000001073e70c2a4080820239f70e100",
+        "lookedAt": "428101043c60c202c38100043c70c012810000063e72c013000000063e72c980000001073e70c2a4080820239f70e100",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/200_West_Street_October_2024_001.jpg/1920px-200_West_Street_October_2024_001.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://sg-imgs.dealroom.co/bc3d0df8a1dca34147af372eed2f0c18.jpeg?cs=origin&w=1200&h=630&fit=crop&crop=faces%2Ccenter&q=85",
+          "fingerprint": "959514a5494b5b1b9594a4244959591b9494242448c9d98936362666c8c8d99936266664ad89a998366666c5ed0d0dbc",
+          "reason": "off-topic"
+        }
+      ]
+    },
+    {
+      "id": "story-wmoext1",
+      "eventKey": "wmo-exceptional-extreme-temperatures-report-2026-11",
+      "materialFacts": [
+        "Jan-sep 2026 lå i gennemsnit ca. 1,47°C over førindustrielt niveau; de seneste 12 år er de varmeste målt",
+        "Over 30.000 overdødsfald i Europa i sommer, heraf ca. 16.000 under hedebølgen 22.-28. juni",
+        "WMO peger på en kraftig El Niño som selvstændig driver ud over den menneskeskabte opvarmning"
+      ],
+      "section": "Klima",
+      "headline": "'Exceptional' extreme temperatures to continue into next year, UN reports",
+      "primarySourceUrl": "https://news.un.org/en/story/2026/11/1168760",
+      "subheadline": "WMO: De seneste 12 år er alle blandt de varmeste målt.",
+      "body": [
+        "WMO rapporterer at januar-september 2026 i gennemsnit lå ca. 1,47 grader over førindustrielt niveau. Rapporten peger på en kraftig El Niño, der frigiver varme fra havet, som en selvstændig driver. Over 30.000 døde af overdødelighed i Europa i sommer, heraf ca. 16.000 under hedebølgen 22.-28. juni."
+      ],
+      "whyItMatters": "Rapporten kommer under COP31 og sætter tal på at ekstremvejr nu er en vedvarende sundhedskrise.",
+      "analysis": "At El Niño er en selvstændig driver betyder ikke at opvarmningen stopper når den klinger af.",
+      "topics": [
+        "klima",
+        "sundhed"
+      ],
+      "entities": [
+        "WMO",
+        "FN",
+        "António Guterres",
+        "Celeste Saulo",
+        "COP31"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 30,
+        "novelty": 40,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Januar-september 2026 lå i gennemsnit ca. 1,47°C over før-industrielt niveau; de seneste 12 år er individuelt de varmeste målt",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168760"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Over 30.000 overdødsfald i Europa i sommer, heraf ca. 16.000 under hedebølgen 22.-28. juni",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168760"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Exceptional' extreme temperatures to continue into next year, UN reports",
+          "publisher": "UN News / WMO",
+          "url": "https://news.un.org/en/story/2026/11/1168760",
+          "publishedAt": "2026-11-09T09:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/06-1be4e956.jpg",
+        "credit": "Kilde: UNICEF / UN News",
+        "alt": "To piger står på udtørret, revnet jord i Ban Phai-distriktet, Khon Kaen-provinsen i Thailand, ramt af tørke.",
+        "sourceUrl": "https://news.un.org/en/story/2026/11/1168760",
+        "origin": "article",
+        "lookedAt": "fc6cdc58581c5c1d6c6cdc5858185c0c6c6c5e5a5a1a9e4c6cecdd59db191d4e66edda59db1a1e5d6eef5e58da1a3bbe",
+        "fingerprint": "fc6cdc58581c5c1d6c6cdc5858185c0c6c6c5e5a5a1a9e4c6cecdd59db191d4e66edda59db1a1e5d6eef5e58da1a3bbe",
+        "originalUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Embargoed/30-01-2025-UNICEF-Thailand-01.jpg/image1170x530cropped.jpg",
+        "focus": {
+          "x": 0.898,
+          "y": 0.411
+        }
+      }
+    },
+    {
+      "id": "story-scotush2a1",
+      "eventKey": "scotus-sun-valley-orchards-h2a-2026-11",
+      "materialFacts": [
+        "Højesteret hørte 10. november mundtlige indlæg om forvaltningsmyndigheders strafmyndighed over H-2A-overtrædelser",
+        "3. appelkreds afgjorde enstemmigt at Department of Labors fremgangsmåde var forfatningsstridig",
+        "Sagen kan omdefinere grænserne for amerikanske forvaltningsmyndigheders strafmyndighed bredt"
+      ],
+      "section": "Ret",
+      "headline": "Court to consider the reach of Article III courts in immigration contract dispute",
+      "primarySourceUrl": "https://www.scotusblog.com/2026/11/court-to-consider-the-reach-of-article-iii-courts-in-immigration-contract-dispute/",
+      "subheadline": "Sagen kan begrænse myndigheders ret til selv at idømme bøder.",
+      "body": [
+        "USA's højesteret hørte 10. november indlæg om hvorvidt arbejdsministeriet kan idømme bøder for H-2A-overtrædelser via egne forvaltningsdomstole, eller skal gå gennem en uafhængig domstol efter forfatningens artikel III. Den 3. appelkreds afgjorde tidligere enstemmigt at agenturets fremgangsmåde var forfatningsstridig."
+      ],
+      "whyItMatters": "En afgørelse kan ramme bredere end landbruget og sætte grænsen for myndigheders strafmyndighed.",
+      "analysis": "Sagen fortsætter højesterets vedvarende skepsis mod forvaltningsmyndigheders domsmagt.",
+      "topics": [
+        "usa",
+        "demokrati",
+        "ret"
+      ],
+      "entities": [
+        "US Supreme Court",
+        "Department of Labor",
+        "Sun Valley Orchards"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 35,
+        "novelty": 50,
+        "sourceQuality": 70,
+        "personalRelevance": 5,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Højesteret hørte 10. november mundtlige indlæg om hvorvidt Department of Labor kan idømme bøder for H-2A-overtrædelser via egne forvaltningsdomstole eller skal gå gennem en føderal domstol",
+          "sourceUrls": [
+            "https://www.scotusblog.com/cases/department-of-labor-v-sun-valley-orchards-llc/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "3. appelkreds afgjorde enstemmigt at agenturets fremgangsmåde var forfatningsstridig",
+          "sourceUrls": [
+            "https://www.scotusblog.com/cases/department-of-labor-v-sun-valley-orchards-llc/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Court to consider the reach of Article III courts in immigration contract dispute",
+          "publisher": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/2026/11/court-to-consider-the-reach-of-article-iii-courts-in-immigration-contract-dispute/",
+          "publishedAt": "2026-11-05T10:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Department of Labor v. Sun Valley Orchards, LLC (25-966)",
+          "publisher": "SCOTUSblog",
+          "url": "https://www.scotusblog.com/cases/department-of-labor-v-sun-valley-orchards-llc/",
+          "publishedAt": "2026-11-05T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/07-4157cf47.jpg",
+        "credit": "Kilde: SCOTUSblog",
+        "alt": "Court to consider the reach of Article III courts in immigration contract dispute",
+        "sourceUrl": "https://www.scotusblog.com/2026/11/court-to-consider-the-reach-of-article-iii-courts-in-immigration-contract-dispute/",
+        "origin": "article",
+        "fingerprint": "0046a380899b89ff0cc6a38089990bbd46c7018809194b2d4fc341080819112d47c140050818118dc3c044011a1830b1",
+        "lookedAt": "0046a380899b89ff0cc6a38089990bbd46c7018809194b2d4fc341080819112d47c140050818118dc3c044011a1830b1",
+        "originalUrl": "https://cdn.sanity.io/images/pito4za5/production/3c9ea1990aff8ef4c95ad6903fd5b2cdbc5b1879-5712x4284.jpg?rect=0,650,5712,2985&w=1200&h=627&fit=crop",
+        "focus": {
+          "x": 0.1,
+          "y": 0.85
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Vestas vinder nye ordrer på i alt 115 MW",
+      "text": "Vestas vinder nye ordrer på i alt 115 MW",
+      "url": "https://ugebrev.dk/flashnews/vestas-vinder-nye-ordrer-paa-i-alt-115-mw",
+      "publisher": "Ugebrev",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-09T08:00:00Z",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "Ørsted Posts DKK 69.5 Billion in Q3 Revenue as Nine-Month EBIT Falls",
+      "text": "Ørsted Posts DKK 69.5 Billion in Q3 Revenue as Nine-Month EBIT Falls",
+      "url": "https://tokenpost.com/news/business/50707",
+      "publisher": "TokenPost",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-05T09:00:00Z",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "Novo Nordisk hæver 2026-forventningerne efter stærkt salg af Wegovy-pillen",
+      "text": "Novo Nordisk hæver 2026-forventningerne efter stærkt salg af Wegovy-pillen",
+      "url": "https://npinvestor.dk/nyheder/novo-nordisk-haever-2026-forventningerne-efter-staerkt-salg-af-wegovy-pillen",
+      "publisher": "NP Investor",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-05T07:00:00Z",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "sundhed"
+      ]
+    },
+    {
+      "headline": "IonQ Announces Record 3Q26 Revenues and Raises FY2026 Guidance to $505 - $515 Million as Backlog Grows to $1.2 Billion",
+      "text": "IonQ Announces Record 3Q26 Revenues and Raises FY2026 Guidance to $505 - $515 Million as Backlog Grows to $1.2 Billion",
+      "url": "https://ionq.com/news/ionq-announces-record-3q26-revenues-and-raises-fy2026-guidance-to-505---515-million-as-backlog-grows-to-1-2-billion",
+      "publisher": "IonQ",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-08T13:00:00Z",
+      "topics": [
+        "ai",
+        "teknologi"
+      ]
+    },
+    {
+      "headline": "SpaceX to conduct 15th starship test launch in mid-November",
+      "text": "SpaceX to conduct 15th starship test launch in mid-November",
+      "url": "https://themalaysianreserve.com/2026/11/08/spacex-to-conduct-15th-starship-test-launch-in-mid-november/",
+      "publisher": "The Malaysian Reserve",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-08T10:00:00Z",
+      "topics": [
+        "teknologi"
+      ]
+    },
+    {
+      "headline": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+      "text": "AWS Key Management Service now supports ML-KEM for post-quantum key encapsulation",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/10/kms-ml-kem-post-quantum/",
+      "publisher": "AWS",
+      "section": "Teknologi",
+      "publishedAt": "2026-10-26T15:00:00Z",
+      "topics": [
+        "teknologi"
+      ]
+    },
+    {
+      "headline": "Nvidia CEO faces scrutiny over alleged intelligence links as company opens investigation",
+      "text": "Nvidia CEO faces scrutiny over alleged intelligence links as company opens investigation",
+      "url": "https://trtworld.com/article/d2e806250f07",
+      "publisher": "TRT World",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-09T11:00:00Z",
+      "topics": [
+        "usa",
+        "teknologi"
+      ]
+    },
+    {
+      "headline": "France dealt a fresh blow as budget rejected ahead of strikes",
+      "text": "France dealt a fresh blow as budget rejected ahead of strikes",
+      "url": "https://www.cnbc.com/2026/11/05/france-budget-debt-strikes.html",
+      "publisher": "CNBC",
+      "section": "Politik",
+      "publishedAt": "2026-11-05T10:00:00Z",
+      "topics": [
+        "eu"
+      ]
+    },
+    {
+      "headline": "Maersk, Hapag-Lloyd return four more Gemini services to Suez",
+      "text": "Maersk, Hapag-Lloyd return four more Gemini services to Suez",
+      "url": "https://en.portnews.ru/news/396924/",
+      "publisher": "PortNews",
+      "section": "Erhverv",
+      "publishedAt": "2026-09-14T09:00:00Z",
+      "topics": [
+        "danmark",
+        "erhverv"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "hastighedsgraensen-for-evolution",
+    "title": "Hastighedsgrænsen for evolution",
+    "thesis": "Selektion kan kun udskifte gener i en bestand med begrænset hastighed - Haldanes grænse, ikke mangel på arvelig variation.",
+    "horizon": "inden for ti år",
+    "body": [
+      "Grænsen følger af hvor mange individer en art tåler at miste pr. generation, ikke af tilfældig biologi."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis fremtidige studier af hurtig human evolution viser allelspredning hurtigere end den klassiske selektionsgrænse tillader, uden at forklaringen er stående variation eller blød selektion - det ville kræve en revision af grænsen selv.",
+    "topics": [
+      "evolution",
+      "genetik",
+      "videnskabshistorie"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-nuisancebear1",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Dokumentarfilm",
+      "status": "new",
+      "title": "Nuisance Bear",
+      "creator": "Gabriela Osio Vanden og Jack Weisman",
+      "provider": "Mubi",
+      "url": "https://mubi.com/en/us/films/nuisance-bear-2026",
+      "availability": "I biografer i Los Angeles fra 6. november; Mubi-udrulning følger",
+      "commitment": "89 min",
+      "description": "Vinder af Sundance' amerikanske dokumentar-jurypris 2026. En isbjørn navigerer turister, dyreværn og jægere, mens dens gamle vandringsrute kolliderer med menneskers verden.",
+      "rationale": "Ingen AI- eller VC-vinkel - filmen er valgt på håndværk og prisbelønning alene, dagens bevidste serendipitet. De to debutregissører udvider deres Oscar-shortlistede kortfilm fra 2021 til en fuld, prisvindende vérité-fortælling uden voiceover.",
+      "topics": [
+        "natur",
+        "dokumentar"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/r01-10f6b0a1.jpg",
+        "credit": "Mubi",
+        "alt": "Pressefoto af isbjørn fra dokumentarfilmen Nuisance Bear",
+        "sourceUrl": "https://mubi.com/en/us/films/nuisance-bear-2026",
+        "originalUrl": "https://images.mubicdn.net/images/film/461644/cache-1102741-1765481564/image-w1280.jpg?size=800x",
+        "focus": {
+          "x": 0.5,
+          "y": 0.414
+        }
+      }
+    },
+    {
+      "id": "rec-sep-closure1",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Encyklopædiartikel",
+      "status": "new",
+      "title": "Epistemic Closure",
+      "creator": "Marc Alspector-Kelly",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/closure-epistemic/",
+      "note": "Analytisk epistemologi, en helt uberørt tradition i læsehistorien: om hvorvidt at vide P og at P medfører Q giver dig viden om Q - kernen i skeptiske argumenter.",
+      "topics": [
+        "filosofi",
+        "epistemologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-davidjulius1",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Q&A",
+      "status": "new",
+      "title": "Audience Q&A with Nobel laureate Dr. David Julius",
+      "creator": "David Julius",
+      "provider": "The Linda Hall Library",
+      "url": "https://www.youtube.com/watch?v=ePKaffFl_hc",
+      "note": "Nobelprisvinder i fysiologi besvarer spørgsmål om smertereceptorer efter sit foredrag 4. november - biologi helt uden AI-vinkel.",
+      "topics": [
+        "biologi",
+        "sundhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chinatalk1",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "WarTalk: Lame Duck War, Pete on Notice, Team Yankee",
+      "creator": "Jordan Schneider med Phoebe Chow",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/wartalk-lame-duck-war-pete-on-notice",
+      "note": "Midtvejsvalgets eftervirkninger for Pentagon, Kongres og krigsministerposten - konkret opfølgning, ikke endnu en AI-episode.",
+      "topics": [
+        "geopolitik",
+        "usa"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-caplanbook1",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Blogindlæg",
+      "status": "new",
+      "title": "Unbeatable: The Brutally Honest Case for Free Markets",
+      "creator": "Tyler Cowen om Bryan Caplans bog",
+      "provider": "Marginal Revolution",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/unbeatable-the-brutally-honest-case-for-free-markets.html",
+      "note": "Cowen om hvordan markeder afskærmer os fra 'social desirability bias' ved at levere upopulære, men gavnlige resultater.",
+      "topics": [
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-riverlanepaper1",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Forskningsartikel",
+      "status": "new",
+      "title": "Discovering correlated error mechanisms: data-driven augmentation of detector error models improving decoding",
+      "creator": "Zohar Schwartzman-Nowik, Matthew P. Stafford, Boris M. Varbanov, Joan Camps (Riverlane)",
+      "provider": "arXiv",
+      "url": "https://arxiv.org/abs/2611.06605",
+      "note": "Riverlane-forskere viser 20% bedre fejlundertrykkelse i surface-code kvantefejlkorrektion ved at lære korrelerede fejl direkte af data.",
+      "topics": [
+        "quantum",
+        "forskning"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-cosmosverif1",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Essay",
+      "status": "new",
+      "title": "Verification Is Not Knowledge",
+      "creator": "Jessica Hullman",
+      "provider": "Cosmos Institute",
+      "url": "https://blog.cosmos-institute.org/p/verification-is-not-knowledge",
+      "note": "Et teknisk korrekt AI-resultat er ikke automatisk viden - det kræver en fællesskab der vil stå bag det, ifølge filosof Robert Brandom.",
+      "topics": [
+        "filosofi",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-uvtool1",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Udviklerværktøj",
+      "status": "available",
+      "title": "uv",
+      "creator": "Astral",
+      "provider": "Astral",
+      "url": "https://docs.astral.sh/uv/",
+      "note": "Python-pakkehåndtering skrevet i Rust, 10-100x hurtigere end pip - værd at prøve selv, ikke bare læse om.",
+      "topics": [
+        "software",
+        "udvikling"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-99pi-gold1",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "100 Objects #23: Coin From the Ship of Gold",
+      "creator": "Roman Mars (produceret af Annie Brown og Isabel Angell)",
+      "provider": "99% Invisible",
+      "url": "https://99percentinvisible.org/episode/100-objects-023-coin-from-the-ship-of-gold/",
+      "note": "Guldet fra SS Central Americas forlis i 1857 udløste det første globale finanspanik og fik et efterspil der ødelagde en mands liv over et århundrede senere.",
+      "topics": [
+        "historie",
+        "økonomi"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 92,
+    "freshness": 85,
+    "novelty": 78,
+    "perspectiveBalance": 88,
+    "render": 100
+  }
+}
