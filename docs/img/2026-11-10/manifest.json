@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-10",
-  "generatedAt": "2026-11-10T18:51:55.387Z",
+  "generatedAt": "2026-11-10T21:51:54.961Z",
   "pictures": [
     {
       "slot": "01",
@@ -203,6 +203,26 @@
         "y": 0
       },
       "fetchedAt": "2026-11-10T18:51:57.777Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-coreweaveq3",
+      "headline": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+      "source": "https://image.cnbcfm.com/api/v1/image/108521329-1793831093043-gettyimages-2256660712-DAVOS_WEF_2026.jpeg?v=1793831130&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "hosted": "11-e043bf69.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 88021,
+      "out": "1600x1067",
+      "bytes": 86197,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-10T21:51:55.332Z"
     },
     {
       "slot": "r01",

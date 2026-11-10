@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-10-umidday-r222",
+  "runId": "run-2026-11-10-uafternoon-r224",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T18:51:28.845Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-11-10T21:51:26.760Z",
+  "readingMinutes": 8,
   "title": "Alexanders Brief",
   "dek": "Abu Dhabi-forhandlinger, et dansk kapitalgab, en bank der bremser AI - og et klimarapport der ikke er til forhandling",
   "profileWeights": {
@@ -892,6 +892,101 @@
         "at": "2026-11-10T18:51:28.845Z",
         "runId": "run-2026-11-10-umidday-r222"
       }
+    },
+    {
+      "id": "story-coreweaveq3",
+      "eventKey": "coreweave-q3-2026-earnings-debt",
+      "materialFacts": [
+        "CoreWeave omsætning Q3 2026: 3,66 mia. dollar, op 168 pct. år/år, over skøn på 3,55 mia.",
+        "Ordrebog (revenue backlog) voksede fra ca. 104 mia. dollar (30. juni) til 132,5 mia. dollar (30. september)",
+        "Selskabet hævede 2026-omsætningsguidance til 13,0-13,3 mia. dollar; bærer ca. 47 mia. dollar i gæld, og dele af obligationerne handles med renter over 16 pct."
+      ],
+      "section": "Erhverv",
+      "headline": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "subheadline": "Obligationsrenter over 16 pct. afslører finansieringspresset trods stærkt kvartal.",
+      "body": [
+        "CoreWeave løftede omsætningen 168 pct. til 3,66 mia. dollar og hævede 2026-forventningen til 13,0-13,3 mia. Ordrebogen voksede fra 104 til 132,5 mia. dollar. Selskabet bærer dog næsten 47 mia. dollar i gæld, og dele af obligationerne handles nu med renter over 16 pct."
+      ],
+      "whyItMatters": "Det underbygger ING-sagen: omsætningen vokser hurtigt, men markedet priser nu større risiko i gælden bag byggeboomet.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "CoreWeave",
+        "Michael Intrator"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 65,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "CoreWeaves Q3-omsætning var 3,66 mia. dollar, op 168 pct. år/år, mod skøn på 3,55 mia.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ordrebogen (revenue backlog) var 132,5 mia. dollar ved udgangen af Q3, op fra ca. 104 mia. ved udgangen af Q2",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+            "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "CoreWeave bærer omkring 47 mia. dollar i gæld, og nogle af obligationerne handler med renter over 16 pct.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+          "publishedAt": "2026-11-10T21:19:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "CoreWeave Reports Strong Third Quarter 2026 Results",
+          "publisher": "CoreWeave, Inc.",
+          "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+          "publishedAt": "2026-11-10T21:05:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/11-e043bf69.jpg",
+        "credit": "Foto: Getty Images / Bloomberg",
+        "alt": "Michael Intrator, administrerende direktør for CoreWeave, under et tv-interview under World Economic Forum i Davos",
+        "sourceUrl": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+        "origin": "article",
+        "fingerprint": "644c1c1f9b98185c444c159fbb181818cc4c359f3f38181a8e563d1f373c181a96b2161b673c3c5bb5b71e1a4f743c3b",
+        "lookedAt": "644c1c1f9b98185c444c159fbb181818cc4c359f3f38181a8e563d1f373c181a96b2161b673c3c5bb5b71e1a4f743c3b",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108521329-1793831093043-gettyimages-2256660712-DAVOS_WEF_2026.jpeg?v=1793831130&w=1920&h=1080",
+        "focus": {
+          "x": 0.2,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-10T21:51:26.760Z",
+        "runId": "run-2026-11-10-uafternoon-r224"
+      }
     }
   ],
   "signals": [
@@ -1205,6 +1300,19 @@
         "outputTokens": 25257,
         "turns": 51,
         "seconds": 406.1
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-10T21:51:26.760Z",
+      "runId": "run-2026-11-10-uafternoon-r224",
+      "added": 1,
+      "cost": {
+        "usd": 2.6831480999999995,
+        "inputTokens": 3373481,
+        "outputTokens": 32703,
+        "turns": 72,
+        "seconds": 522.8
       }
     }
   ]
