@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-10-full01",
+  "runId": "run-2026-11-10-umidday-r222",
   "date": "2026-11-10",
-  "generatedAt": "2026-11-10T07:30:00Z",
-  "readingMinutes": 5,
+  "generatedAt": "2026-11-10T18:51:28.845Z",
+  "readingMinutes": 7,
   "title": "Alexanders Brief",
   "dek": "Abu Dhabi-forhandlinger, et dansk kapitalgab, en bank der bremser AI - og et klimarapport der ikke er til forhandling",
   "profileWeights": {
@@ -603,6 +603,295 @@
           "y": 0.85
         }
       }
+    },
+    {
+      "id": "story-abudhabiday1",
+      "eventKey": "ukraine-russia-us-abudhabi-day-one-2026-11",
+      "materialFacts": [
+        "Zelensky kaldte første forhandlingsdag i Abu Dhabi \"konstruktiv\", med fokus på fangeudveksling og sikkerhedsgarantier",
+        "Kushner: parternes uenigheder er indsnævret, men Rusland kræver fuld tilbagetrækning fra Donetsk og Luhansk",
+        "Forhandlingerne genoptages 11. november"
+      ],
+      "section": "Udland",
+      "headline": "Zelensky Calls First Day of Abu Dhabi Talks 'Constructive,' Names Prisoner Release as Priority",
+      "primarySourceUrl": "https://www.kyivpost.com/post/89694",
+      "subheadline": "Kushner: kløften er indsnævret, men territorium uløst",
+      "body": [
+        "Efter 4,5 timers forhandlinger i Abu Dhabi kaldte Zelensky dagen \"konstruktiv\", med fokus på fangeudveksling og sikkerhedsgarantier. Kushner sagde, at uenighederne er indsnævret, men Rusland kræver fuld kontrol over Donetsk og Luhansk, hvilket Zelensky afviser. Talks genoptages onsdag."
+      ],
+      "whyItMatters": "En reel sikkerhedsgaranti afhænger af, om Europa får plads ved bordet, ikke kun USA og Rusland.",
+      "topics": [
+        "sikkerhedspolitik",
+        "krig",
+        "usa",
+        "geopolitik"
+      ],
+      "entities": [
+        "Volodymyr Zelensky",
+        "Jared Kushner",
+        "Steve Witkoff",
+        "Rustem Umerov",
+        "Vladimir Medinsky"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 65,
+        "novelty": 50,
+        "sourceQuality": 75,
+        "personalRelevance": 40,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Zelensky kaldte den første forhandlingsdag i Abu Dhabi \"konstruktiv\", med fokus på fangeudveksling og sikkerhedsgarantier",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/89694"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Rusland kræver fuld tilbagetrækning fra Donetsk og Luhansk, mens Zelensky afviser at opgive forsvaret territorium",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/89694",
+            "https://united24media.com/war-in-ukraine/ukraine-russia-us-talks-wrap-first-day-as-kushner-says-gaps-are-narrowing-24244"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Forhandlingerne genoptages 11. november",
+          "sourceUrls": [
+            "https://www.kyivpost.com/post/89694"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zelensky Calls First Day of Abu Dhabi Talks 'Constructive,' Names Prisoner Release as Priority",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/89694",
+          "publishedAt": "2026-11-10T18:15:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ukraine and Russia End First Day of Talks With Security and Territory Still Unresolved",
+          "publisher": "United24 Media",
+          "url": "https://united24media.com/war-in-ukraine/ukraine-russia-us-talks-wrap-first-day-as-kushner-says-gaps-are-narrowing-24244",
+          "publishedAt": "2026-11-10T16:20:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/08-6bf2b35b.jpg",
+        "credit": "Kilde: Getty Images",
+        "alt": "Jared Kushner (i midten) og den amerikanske udsending Steve Witkoff deltager i Ukraine-Rusland-forhandlingerne i Abu Dhabi den 10. november 2026.",
+        "sourceUrl": "https://united24media.com/war-in-ukraine/ukraine-russia-us-talks-wrap-first-day-as-kushner-says-gaps-are-narrowing-24244",
+        "origin": "coverage",
+        "fingerprint": "1f1f1d1f4dac3f5f1d150c9f8d063e9f15550f938d0646b995950f350406479bb60f0f5a25a657d5364f2f5b26262797",
+        "lookedAt": "1f1f1d1f4dac3f5f1d150c9f8d063e9f15550f938d0646b995950f350406479bb60f0f5a25a657d5364f2f5b26262797",
+        "originalUrl": "https://storage.united24media.com/thumbs/1014x676@2x/e/9d/3736e8ef9c3eba134a407e7397bf09de.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-10T18:51:28.845Z",
+        "runId": "run-2026-11-10-umidday-r222"
+      }
+    },
+    {
+      "id": "story-fireworksbreach",
+      "eventKey": "fireworks-ai-second-breach-disclosure-2026-11",
+      "materialFacts": [
+        "Tredjeparts cloud-udbyder, der hoster Fireworks AI R&D-maskiner, blev hacket 23. oktober; angriberne nåede udviklingsmiljøet 24. oktober",
+        "Eksponerede data: fakturering, delvise modelvægte og datasæt for nogle kunder; ikke betalingskortnumre",
+        "Selskabets andet sikkerhedsbrud på få uger; Palo Alto Networks Unit 42 undersøger sagen"
+      ],
+      "section": "Teknologi",
+      "headline": "Fireworks AI discloses new breach after cloud provider hack",
+      "primarySourceUrl": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+      "subheadline": "Anden sikkerhedsbrist hos AI-infrastrukturselskab på få uger",
+      "body": [
+        "Fireworks AI oplyser, at en leverandørs cloud-system blev hacket 23. oktober, hvorefter angriberne nåede udviklingsmiljøet 24. oktober. Det eksponerede fakturering, delvise modelvægte og datasæt for nogle kunder, ikke betalingskortnumre. Det er selskabets andet brud på få uger; Unit 42 undersøger sagen."
+      ],
+      "whyItMatters": "Gentagne brud hos en AI-infrastrukturleverandør rejser spørgsmål om datasikkerhed ved outsourcing.",
+      "topics": [
+        "ai",
+        "teknologi",
+        "kriminalitet"
+      ],
+      "entities": [
+        "Fireworks AI",
+        "Palo Alto Networks",
+        "Unit 42"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 65,
+        "personalRelevance": 55,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "En tredjeparts cloud-udbyder, der hoster Fireworks AI R&D-maskiner, blev hacket 23. oktober, og angriberne nåede Fireworks' udviklingsmiljø 24. oktober",
+          "sourceUrls": [
+            "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+            "https://fireworks.ai/security/bulletins/october-2026-security-incident"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det eksponerede fakturering, delvise modelvægte og datasæt for nogle kunder, men ikke betalingskortnumre",
+          "sourceUrls": [
+            "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fireworks AI discloses new breach after cloud provider hack",
+          "publisher": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+          "publishedAt": "2026-11-10T07:49:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Fireworks October 2026 security incident",
+          "publisher": "Fireworks AI",
+          "url": "https://fireworks.ai/security/bulletins/october-2026-security-incident",
+          "publishedAt": "2026-11-09T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.bleepstatic.com/content/hl-images/2026/11/10/Fireworks-headpic.jpg",
+          "fingerprint": "74c33b032cd71e90d806b30b26541230e01a61076e852238036ca1476206522718e5a007ca8734d6c8666097d0473ee1",
+          "reason": "logo-or-card"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/09-0a0d6097.jpg",
+        "credit": "Kilde: Fireworks AI",
+        "alt": "Arkivfoto af Benny Chen, medstifter af Fireworks AI.",
+        "sourceUrl": "https://fireworks.ai/about",
+        "origin": "source",
+        "fingerprint": "7269496231e0cce871c9c96071e0ceace9c9c96161e0ceaccdc5c9c161e0c448848498c061e0c44b849890c4e1f0c085",
+        "lookedAt": "7269496231e0cce871c9c96071e0ceace9c9c96161e0ceaccdc5c9c161e0c448848498c061e0c44b849890c4e1f0c085",
+        "originalUrl": "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fhorizon%2F23f4d84edc4e7d7dc7a233a2339ca19cec556dc4-512x512.png%3Fauto%3Dformat&w=3840&q=75",
+        "focus": {
+          "x": 0.621,
+          "y": 0.168
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-10T18:51:28.845Z",
+        "runId": "run-2026-11-10-umidday-r222"
+      }
+    },
+    {
+      "id": "story-gefiondcai",
+      "eventKey": "netcompany-eifo-dcai-gefion-investment-2026-11",
+      "materialFacts": [
+        "Netcompany tegner nye aktier for 325 mio. kr. i Danish Centre for AI Innovation (DCAI), som driver AI-supercomputeren Gefion",
+        "EIFO investerer 150 mio. kr.; Novo Nordisk Fonden forbliver størst aktionær",
+        "Efter runden ejer Novo Nordisk Fonden 52,6 pct., EIFO 23,7 pct. og Netcompany 23,7 pct."
+      ],
+      "section": "Dansk erhverv",
+      "headline": "Danmarks AI-supercomputer Gefion tager næste skridt: Ny ejerkreds og investering på 500 mio. kr. skal styrke ansvarlig og suveræn AI",
+      "primarySourceUrl": "https://via.ritzau.dk/pressemeddelelse/15277479/danmarks-ai-supercomputer-gefion-tager-naeste-skridt-ny-ejerkreds-og-investering-pa-500-mio-kr-skal-styrke-ansvarlig-og-suveraen-ai?lang=da",
+      "subheadline": "Netcompany investerer 325 mio. kr. og bliver medejer",
+      "body": [
+        "Netcompany tegner aktier for 325 mio. kr. i DCAI, som driver AI-supercomputeren Gefion, mens EIFO skyder 150 mio. kr. ind. Novo Nordisk Fonden forbliver størst med 52,6 pct., EIFO og Netcompany ejer hver 23,7 pct. Pengene skal gøre Gefion til en kommerciel, suveræn AI-platform."
+      ],
+      "whyItMatters": "Et børsnoteret IT-selskab bliver medejer af statens AI-supercomputer, mod kommerciel drift.",
+      "topics": [
+        "danmark",
+        "ai",
+        "teknologisk-suverænitet",
+        "erhverv"
+      ],
+      "entities": [
+        "Netcompany",
+        "EIFO",
+        "Novo Nordisk Fonden",
+        "Danish Centre for AI Innovation",
+        "Gefion",
+        "André Rogaczewski",
+        "Martin Lidegaard"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 65,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 80,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "Netcompany tegner aktier for 325 mio. kr. og EIFO for 150 mio. kr. i DCAI, som driver Gefion",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15277479/danmarks-ai-supercomputer-gefion-tager-naeste-skridt-ny-ejerkreds-og-investering-pa-500-mio-kr-skal-styrke-ansvarlig-og-suveraen-ai?lang=da"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Efter investeringen ejer Novo Nordisk Fonden 52,6 pct., og EIFO og Netcompany hver 23,7 pct.",
+          "sourceUrls": [
+            "https://via.ritzau.dk/pressemeddelelse/15277479/danmarks-ai-supercomputer-gefion-tager-naeste-skridt-ny-ejerkreds-og-investering-pa-500-mio-kr-skal-styrke-ansvarlig-og-suveraen-ai?lang=da",
+            "https://www.globenewswire.com/news-release/2026/11/10/3399149/0/en/netcompany-invests-in-danish-centre-for-ai-innovation-a-s-the-company-behind-the-gefion-ai-supercomputer.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danmarks AI-supercomputer Gefion tager næste skridt: Ny ejerkreds og investering på 500 mio. kr. skal styrke ansvarlig og suveræn AI",
+          "publisher": "Ritzau (EIFO pressemeddelelse)",
+          "url": "https://via.ritzau.dk/pressemeddelelse/15277479/danmarks-ai-supercomputer-gefion-tager-naeste-skridt-ny-ejerkreds-og-investering-pa-500-mio-kr-skal-styrke-ansvarlig-og-suveraen-ai?lang=da",
+          "publishedAt": "2026-11-10T06:53:45Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Netcompany invests in Danish Centre for AI Innovation A/S, the company behind the Gefion AI supercomputer",
+          "publisher": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/10/3399149/0/en/netcompany-invests-in-danish-centre-for-ai-innovation-a-s-the-company-behind-the-gefion-ai-supercomputer.html",
+          "publishedAt": "2026-11-10T07:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-10/10-a572ce04.jpg",
+        "credit": "Kilde: Ritzau (EIFO pressemeddelelse)",
+        "alt": "Repræsentanter for Netcompany, EIFO, Novo Nordisk Fonden og DCAI samt erhvervsminister Martin Lidegaard ved pressemødet om den udvidede ejerkreds bag AI-supercomputeren Gefion.",
+        "sourceUrl": "https://via.ritzau.dk/pressemeddelelse/15277479/danmarks-ai-supercomputer-gefion-tager-naeste-skridt-ny-ejerkreds-og-investering-pa-500-mio-kr-skal-styrke-ansvarlig-og-suveraen-ai?lang=da",
+        "origin": "article",
+        "fingerprint": "bc981c4eccb19a1bbabcbc4c44b5ba1aba3caecece74295b3a3aaa8aca5269597a2a6b4aca926c6c2b6b4bcb4bbb4d45",
+        "lookedAt": "bc981c4eccb19a1bbabcbc4c44b5ba1aba3caecece74295b3a3aaa8aca5269597a2a6b4aca926c6c2b6b4bcb4bbb4d45",
+        "originalUrl": "https://via.ritzau.dk/data/images/public/13561323/15277479/44c38cc5-2c7c-465f-8f0a-642164fc54c0-w_960.jpg",
+        "focus": {
+          "x": 0.2,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-10T18:51:28.845Z",
+        "runId": "run-2026-11-10-umidday-r222"
+      }
     }
   ],
   "signals": [
@@ -903,5 +1192,20 @@
     "novelty": 78,
     "perspectiveBalance": 88,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-10T18:51:28.845Z",
+      "runId": "run-2026-11-10-umidday-r222",
+      "added": 3,
+      "cost": {
+        "usd": 1.9991723000000001,
+        "inputTokens": 2066126,
+        "outputTokens": 25257,
+        "turns": 51,
+        "seconds": 406.1
+      }
+    }
+  ]
 }

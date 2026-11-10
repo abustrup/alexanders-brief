@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-10",
-  "generatedAt": "2026-11-10T07:29:30.800Z",
+  "generatedAt": "2026-11-10T18:51:55.387Z",
   "pictures": [
     {
       "slot": "01",
@@ -142,6 +142,67 @@
         "y": 0.85
       },
       "fetchedAt": "2026-11-10T07:29:33.935Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-abudhabiday1",
+      "headline": "Zelensky Calls First Day of Abu Dhabi Talks 'Constructive,' Names Prisoner Release as Priority",
+      "source": "https://storage.united24media.com/thumbs/1014x676@2x/e/9d/3736e8ef9c3eba134a407e7397bf09de.jpg",
+      "article": "https://www.kyivpost.com/post/89694",
+      "hosted": "08-6bf2b35b.jpg",
+      "srcSize": "2028x1352",
+      "srcFormat": "jpeg",
+      "srcBytes": 326711,
+      "out": "1600x1067",
+      "bytes": 145710,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-10T18:51:57.328Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-fireworksbreach",
+      "headline": "Fireworks AI discloses new breach after cloud provider hack",
+      "source": "https://fireworks.ai/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fpv37i0yn%2Fhorizon%2F23f4d84edc4e7d7dc7a233a2339ca19cec556dc4-512x512.png%3Fauto%3Dformat&w=3840&q=75",
+      "article": "https://www.bleepingcomputer.com/news/security/fireworks-ai-discloses-new-breach-after-cloud-provider-hack/",
+      "hosted": "09-0a0d6097.jpg",
+      "srcSize": "512x512",
+      "srcFormat": "webp",
+      "srcBytes": 13788,
+      "out": "512x341",
+      "bytes": 10715,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.168
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-10T18:51:57.534Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-gefiondcai",
+      "headline": "Danmarks AI-supercomputer Gefion tager næste skridt: Ny ejerkreds og investering på 500 mio. kr. skal styrke ansvarlig og suveræn AI",
+      "source": "https://via.ritzau.dk/data/images/public/13561323/15277479/44c38cc5-2c7c-465f-8f0a-642164fc54c0-w_960.jpg",
+      "article": "https://via.ritzau.dk/pressemeddelelse/15277479/danmarks-ai-supercomputer-gefion-tager-naeste-skridt-ny-ejerkreds-og-investering-pa-500-mio-kr-skal-styrke-ansvarlig-og-suveraen-ai?lang=da",
+      "hosted": "10-a572ce04.jpg",
+      "srcSize": "960x640",
+      "srcFormat": "jpeg",
+      "srcBytes": 96231,
+      "out": "960x640",
+      "bytes": 86350,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.2,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-10T18:51:57.777Z"
     },
     {
       "slot": "r01",
