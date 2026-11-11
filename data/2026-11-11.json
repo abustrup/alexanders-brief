@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-11-01",
+  "runId": "run-2026-11-11-umidday-r226",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T05:30:00Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-11-11T18:43:50.241Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Anthropic går på børsen, Nvidia ryster på en skandale, Danmark donerer igen til Ukraine - og syv andre historier fra et presset døgn",
   "profileWeights": {
@@ -687,6 +687,183 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "story-zelensky-folketinget-2026-11-11",
+      "eventKey": "zelensky-folketinget-speech-2026-11",
+      "materialFacts": [
+        "Zelenskyj talte onsdag 11. november 2026 fra Folketingets talerstol i Folketingssalen",
+        "Første udenlandske statsleder nogensinde til at tale fra podiet i Folketingssalen",
+        "Han citerede: 'I har nogle bedre naboer end os. Vi har Rusland som nabo'",
+        "Femte besøg i Danmark siden Ruslands fulde invasion i 2022; audiens hos Kong Frederik X"
+      ],
+      "section": "Danmark og sikkerhedspolitik",
+      "headline": "Zelenskyj fra Folketingets talerstol: Danmark har nogle bedre naboer end os",
+      "primarySourceUrl": "https://www.kristeligt-dagblad.dk/danmark/zelenskyj-fra-folketingets-talerstol-hvem-der-bare-var-dansker-i-har-bedre-naboer-end-vi",
+      "subheadline": "Ukrainsk præsident holdt historisk tale i Folketingssalen og mødte Kong Frederik",
+      "body": [
+        "Zelenskyj talte onsdag som første udenlandske statsleder nogensinde fra Folketingets talerstol, mødt med stående bifald. Han sagde: »I har nogle bedre naboer end os. Vi har Rusland som nabo«. Det var hans femte besøg i Danmark siden invasionen i 2022, og han havde også audiens hos Kong Frederik X."
+      ],
+      "whyItMatters": "Besøget cementerer Danmark som fast allieret, mens krigen fortsat definerer dansk sikkerhedspolitik.",
+      "topics": [
+        "danmark",
+        "sikkerhedspolitik",
+        "krig"
+      ],
+      "entities": [
+        "Volodymyr Zelenskyj",
+        "Folketinget",
+        "Kong Frederik X",
+        "Danmark",
+        "Ukraine"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 35,
+        "novelty": 60,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Zelenskyj spoke 2026-11-11 from the podium of Folketingssalen, the first foreign head of state ever to do so",
+          "sourceUrls": [
+            "https://www.kristeligt-dagblad.dk/danmark/zelenskyj-fra-folketingets-talerstol-hvem-der-bare-var-dansker-i-har-bedre-naboer-end-vi"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "It was his fifth visit to Denmark since Russia's full invasion in 2022, including an audience with King Frederik X",
+          "sourceUrls": [
+            "https://www.kristeligt-dagblad.dk/danmark/zelenskyj-fra-folketingets-talerstol-hvem-der-bare-var-dansker-i-har-bedre-naboer-end-vi",
+            "https://avisendanmark.dk/politik/zelenskyj-er-stolt-over-at-holde-tale-i-folketingssalen"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zelenskyj fra Folketingets talerstol: Danmark har nogle bedre naboer end os",
+          "publisher": "Kristeligt Dagblad",
+          "url": "https://www.kristeligt-dagblad.dk/danmark/zelenskyj-fra-folketingets-talerstol-hvem-der-bare-var-dansker-i-har-bedre-naboer-end-vi",
+          "publishedAt": "2026-11-11T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Zelenskyj i Folketingssalen: Alle drømmer om Danmark som nabo",
+          "publisher": "Avisen Danmark",
+          "url": "https://avisendanmark.dk/politik/zelenskyj-er-stolt-over-at-holde-tale-i-folketingssalen",
+          "publishedAt": "2026-11-11T12:30:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-11/08-ae4add7f.jpg",
+        "credit": "Foto: Ritzau Scanpix / Kristeligt Dagblad",
+        "alt": "Zelenskyj fra Folketingets talerstol: Danmark har nogle bedre naboer end os",
+        "sourceUrl": "https://www.kristeligt-dagblad.dk/danmark/zelenskyj-fra-folketingets-talerstol-hvem-der-bare-var-dansker-i-har-bedre-naboer-end-vi",
+        "origin": "article",
+        "fingerprint": "c848c5a6c0607809c8ccc427a0606438cc8c8427e040647c84848627c420c2e494860227c440b2c216066347c2c041f1",
+        "lookedAt": "c848c5a6c0607809c8ccc427a0606438cc8c8427e040647c84848627c420c2e494860227c440b2c216066347c2c041f1",
+        "originalUrl": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/metatag/s3/scanpix/2026-11/20261111-120208-L.jpg?itok=3IRMWF_I",
+        "focus": {
+          "x": 0.818,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-11T18:43:50.241Z",
+        "runId": "run-2026-11-11-umidday-r226"
+      }
+    },
+    {
+      "id": "story-nvidia-huang-subpoena-2026-11-11",
+      "eventKey": "nvidia-huang-congress-subpoena-threat-2026-11",
+      "materialFacts": [
+        "Reps. Brian Mast, Rick Crawford og John Moolenaar sendte Huang et brev i sidste uge med krav om lukket briefing",
+        "Mast sagde til ABC News 10. november, han er klar til at stævne Huang uden svar onsdag 11. november",
+        "Ingen stævning er endnu udstedt; sagen handler om Huangs forhold til en kvinde mistænkt for kinesisk efterretningsarbejde",
+        "Republikanerne mister udvalgskontrol i januar 2027, hvilket kan ugyldiggøre en eventuel stævning"
+      ],
+      "section": "Teknologi og sikkerhedspolitik",
+      "headline": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
+      "primarySourceUrl": "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782",
+      "subheadline": "Tre udvalgsformænd satte Huang en frist til onsdag i spion-sagen",
+      "body": [
+        "Brian Mast, Rick Crawford og John Moolenaar sendte sidste uge Huang et brev med krav om et lukket briefing om hans forhold til en kvinde, amerikansk efterretning mener arbejder for Kina. Mast sagde til ABC News, han er klar til at stævne Huang uden svar onsdag, af bekymring for kinesisk adgang til Nvidias chips."
+      ],
+      "whyItMatters": "En stævning vil tvinge Huang til at vidne under ed og lægge endnu et politisk risikolag på Nvidia.",
+      "topics": [
+        "ai",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "Brian Mast",
+        "Rick Crawford",
+        "John Moolenaar",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 52,
+        "novelty": 55,
+        "sourceQuality": 68,
+        "personalRelevance": 55,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Reps. Mast, Crawford and Moolenaar sent Huang a letter the week of 2026-11-02 demanding a closed-door briefing on his reported relationship",
+          "sourceUrls": [
+            "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mast told ABC News on 2026-11-10 he is prepared to subpoena Huang absent a response by Wednesday 2026-11-11; no subpoena had been issued as of publication",
+          "sourceUrls": [
+            "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782",
+          "publishedAt": "2026-11-10T22:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-11/09-1b8b3c86.jpg",
+        "credit": "Kilde: ABC News",
+        "alt": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
+        "sourceUrl": "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782",
+        "origin": "article",
+        "fingerprint": "0b3293e2939a589b2a3293e1919ada79623391e591999afa613195e090301bda613584f2923431917036c4f3b1367531",
+        "lookedAt": "0b3293e2939a589b2a3293e1919ada79623391e591999afa613195e090301bda613584f2923431917036c4f3b1367531",
+        "originalUrl": "https://i.abcnewsfe.com/a/501a4878-11e6-41a3-9233-9e98e7c73bb8/Jensen-gty-er-261110_1794339641227_hpMain_16x9.jpg?w=1600",
+        "focus": {
+          "x": 0.684,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-11T18:43:50.241Z",
+        "runId": "run-2026-11-11-umidday-r226"
+      }
     }
   ],
   "signals": [
@@ -951,5 +1128,20 @@
     "novelty": 78,
     "perspectiveBalance": 80,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-11T18:43:50.241Z",
+      "runId": "run-2026-11-11-umidday-r226",
+      "added": 2,
+      "cost": {
+        "usd": 1.5072847999999999,
+        "inputTokens": 1765406,
+        "outputTokens": 24436,
+        "turns": 44,
+        "seconds": 337
+      }
+    }
+  ]
 }

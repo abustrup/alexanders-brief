@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-11",
-  "generatedAt": "2026-11-11T05:32:03.465Z",
+  "generatedAt": "2026-11-11T18:43:56.895Z",
   "pictures": [
     {
       "slot": "01",
@@ -121,6 +121,46 @@
         "y": 0
       },
       "fetchedAt": "2026-11-11T05:32:06.443Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-zelensky-folketinget-2026-11-11",
+      "headline": "Zelenskyj fra Folketingets talerstol: Danmark har nogle bedre naboer end os",
+      "source": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/metatag/s3/scanpix/2026-11/20261111-120208-L.jpg?itok=3IRMWF_I",
+      "article": "https://www.kristeligt-dagblad.dk/danmark/zelenskyj-fra-folketingets-talerstol-hvem-der-bare-var-dansker-i-har-bedre-naboer-end-vi",
+      "hosted": "08-ae4add7f.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 189572,
+      "out": "1080x720",
+      "bytes": 61198,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.818,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-11T18:43:57.175Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-nvidia-huang-subpoena-2026-11-11",
+      "headline": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
+      "source": "https://i.abcnewsfe.com/a/501a4878-11e6-41a3-9233-9e98e7c73bb8/Jensen-gty-er-261110_1794339641227_hpMain_16x9.jpg?w=1600",
+      "article": "https://abcnews.com/Politics/house-republicans-issuing-subpoena-nvidia-ceo-jensen-huang/story?id=138022782",
+      "hosted": "09-1b8b3c86.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "heif",
+      "srcBytes": 97354,
+      "out": "1350x900",
+      "bytes": 95129,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.684,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T18:43:57.524Z"
     },
     {
       "slot": "r01",
