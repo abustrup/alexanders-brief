@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-11",
-  "generatedAt": "2026-11-11T18:43:56.895Z",
+  "generatedAt": "2026-11-11T22:40:01.779Z",
   "pictures": [
     {
       "slot": "01",
@@ -161,6 +161,26 @@
         "y": 0
       },
       "fetchedAt": "2026-11-11T18:43:57.524Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-nvidia-huang-powell-2026-11-11",
+      "headline": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair — with an employee",
+      "source": "https://image.cnbcfm.com/api/v1/image/108548916-1794403429337-108548916-1794403365942-gettyimages-2299714787-UK_HUANG.jpg?v=1794403440&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "hosted": "10-b89cf040.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 110089,
+      "out": "1600x1067",
+      "bytes": 113591,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T22:40:02.185Z"
     },
     {
       "slot": "r01",

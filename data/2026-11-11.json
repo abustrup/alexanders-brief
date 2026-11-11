@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-11-umidday-r226",
+  "runId": "run-2026-11-11-uafternoon-r228",
   "date": "2026-11-11",
-  "generatedAt": "2026-11-11T18:43:50.241Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-11T22:39:54.570Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Anthropic går på børsen, Nvidia ryster på en skandale, Danmark donerer igen til Ukraine - og syv andre historier fra et presset døgn",
   "profileWeights": {
@@ -864,6 +864,96 @@
         "at": "2026-11-11T18:43:50.241Z",
         "runId": "run-2026-11-11-umidday-r226"
       }
+    },
+    {
+      "id": "story-nvidia-huang-powell-2026-11-11",
+      "eventKey": "nvidia-huang-second-affair-powell-2026-11",
+      "materialFacts": [
+        "New York Times rapporterer, med fem kilder fra virksomheden, at Jensen Huang har haft et forhold til Kimberly Powell, Nvidias sundhedsdirektør, som rapporterer til ham",
+        "De to skal angiveligt have udvist ømhed på et hotel i San Jose under GTC-konferencen i marts",
+        "Nvidia har ikke bekræftet historien over for CNBC",
+        "Aktien faldt over 3 pct. i efterhandel onsdag og er ned 7 pct. for ugen, sjette uge med fald i træk"
+      ],
+      "section": "AI og erhverv",
+      "headline": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair — with an employee",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "subheadline": "New York Times: Nvidia-topchef havde forhold til underordnet direktør",
+      "body": [
+        "New York Times skriver, med fem kilder fra virksomheden, at Jensen Huang har haft et forhold til Kimberly Powell, Nvidias sundhedsdirektør, der rapporterer til ham. Nvidia har ikke bekræftet historien. Aktien faldt over 3 pct. i efterhandel onsdag, sjette ugentlige nedgang i træk."
+      ],
+      "whyItMatters": "Et forhold til en underordnet skærper tvivlen om ledelsen, midt i bestyrelsens undersøgelse.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Kimberly Powell",
+        "The New York Times"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 50,
+        "novelty": 62,
+        "sourceQuality": 76,
+        "personalRelevance": 55,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "New York Times, citing five people who worked at Nvidia, reports Jensen Huang had a past relationship with Kimberly Powell, Nvidia's VP of healthcare who reports to him; the two were allegedly affectionate at a hotel during the March GTC conference",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+            "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-allegedly-involved-in-a-second-affair-with-an-nvidia-exec-221824237.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Nvidia shares fell more than 3% in after-hours trading on 2026-11-11 after the report, and are down 7% for the week, a sixth consecutive weekly decline",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair — with an employee",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+          "publishedAt": "2026-11-11T22:06:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia CEO Huang allegedly involved in a second affair with an Nvidia exec",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-allegedly-involved-in-a-second-affair-with-an-nvidia-exec-221824237.html",
+          "publishedAt": "2026-11-11T22:33:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-11/10-b89cf040.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Nvidia stock slides after NYT report alleges Jensen Huang had a second affair — with an employee",
+        "sourceUrl": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+        "origin": "article",
+        "fingerprint": "0389888c999868ba01891c2c3c187c6808081c2c2c387c40085c1c2c2c3c7cc4581e146e6e3c38ae9a96364f4e3e38be",
+        "lookedAt": "0389888c999868ba01891c2c3c187c6808081c2c2c387c40085c1c2c2c3c7cc4581e146e6e3c38ae9a96364f4e3e38be",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108548916-1794403429337-108548916-1794403365942-gettyimages-2299714787-UK_HUANG.jpg?v=1794403440&w=1920&h=1080",
+        "focus": {
+          "x": 0.8,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-11T22:39:54.570Z",
+        "runId": "run-2026-11-11-uafternoon-r228"
+      }
     }
   ],
   "signals": [
@@ -1141,6 +1231,19 @@
         "outputTokens": 24436,
         "turns": 44,
         "seconds": 337
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-11T22:39:54.570Z",
+      "runId": "run-2026-11-11-uafternoon-r228",
+      "added": 1,
+      "cost": {
+        "usd": 2.169183,
+        "inputTokens": 2346771,
+        "outputTokens": 22224,
+        "turns": 63,
+        "seconds": 445.8
       }
     }
   ]
