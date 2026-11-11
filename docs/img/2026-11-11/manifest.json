@@ -1,0 +1,146 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-11",
+  "generatedAt": "2026-11-11T05:32:03.465Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-anthropic-ipo-2026-11-11",
+      "headline": "Anthropic launches roadshow for proposed initial public offering",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2297253363-e1794320243739.jpg",
+      "article": "https://www.anthropic.com/news/roadshow-launch",
+      "hosted": "01-8cf30596.jpg",
+      "srcSize": "2880x1920",
+      "srcFormat": "webp",
+      "srcBytes": 384588,
+      "out": "1600x1200",
+      "bytes": 167548,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.299,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:04.421Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-nvidia-huang-2026-11-11",
+      "headline": "Nvidia sells off for second day in fallout from Jensen Huang's affair with alleged spy",
+      "source": "https://image.cnbcfm.com/api/v1/image/108546365-1794257665106-108546365-17942336732026-10-19t181225z_1947160221_rc2h6oa4b07j_rtrmadp_0_germany-politics-merz-nvidia.jpeg?v=1794257684&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "hosted": "02-ba19fd02.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 165519,
+      "out": "1600x1067",
+      "bytes": 146787,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.134,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:04.780Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-denmark-ukraine-2026-11-11",
+      "headline": "Danmark i ny milliarddonation til Ukraine",
+      "source": "https://images.euronews.com/articles/stories/09/98/71/16/1920x1080_cmsv2_cfbb564c-bc81-5cc0-b7c1-35bc7fa9114d-9987116.jpg",
+      "article": "https://www.dr.dk/nyheder/seneste/danmark-i-ny-milliarddonation-til-ukraine",
+      "hosted": "03-1a078ed9.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 171112,
+      "out": "1600x1067",
+      "bytes": 169668,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:05.063Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-us-cpi-fed-2026-11-11",
+      "headline": "CPI inflation report: October 2026",
+      "source": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1705/3403909/2000w_q95.jpg",
+      "article": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
+      "hosted": "04-28a42f0b.jpg",
+      "srcSize": "2000x1331",
+      "srcFormat": "webp",
+      "srcBytes": 643272,
+      "out": "1600x1067",
+      "bytes": 222247,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:05.454Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-us-army-spy-2026-11-11",
+      "headline": "Senior U.S. Army soldier arrested in U.K. on suspicion of assisting Russian intelligence",
+      "source": "https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2507/9186323/1000w_q95.jpg",
+      "article": "https://www.nbcnews.com/world/united-kingdom/us-army-member-arrested-uk-suspicion-working-russian-intelligence-rcna608616",
+      "hosted": "05-7589b3a9.jpg",
+      "srcSize": "1000x667",
+      "srcFormat": "webp",
+      "srcBytes": 99786,
+      "out": "1000x667",
+      "bytes": 54547,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:05.654Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-lhcb-decay-2026-11-11",
+      "headline": "Evidence of rarest particle decay after 42-year search",
+      "source": "https://www.physics.ox.ac.uk/sites/default/files/styles/meta_open_graph/public/header_images_group/LHCbImage2.jpg?itok=lhS1nl_5",
+      "article": "https://www.physics.ox.ac.uk/news/evidence-rarest-particle-decay-after-42-year-search",
+      "hosted": "07-cbf72d9d.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 159115,
+      "out": "945x630",
+      "bytes": 121913,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:06.443Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-lexfridman-ukraine-2026-11-11",
+      "headline": "Russia-Ukraine War: Putin, Zelenskyy, Drones and the Future of Warfare",
+      "source": "https://i.ytimg.com/vi/2hJkprFnzhY/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=2hJkprFnzhY",
+      "hosted": "r01-6b74f9a2.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 187396,
+      "out": "1280x720",
+      "bytes": 103463,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-11T05:32:06.584Z"
+    }
+  ]
+}
