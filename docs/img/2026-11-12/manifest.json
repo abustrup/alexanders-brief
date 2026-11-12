@@ -1,0 +1,247 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-12",
+  "generatedAt": "2026-11-12T05:40:30.936Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-abudhabi-2026-11-12",
+      "headline": "Russia and Ukraine agree to a large prisoner exchange as talks end with no major breakthrough",
+      "source": "https://d3i6fh83elv35t.cloudfront.net/static/2026/11/2026-11-10T084928Z_834195917_RC2WKOA4TVSC_RTRMADP_3_UKRAINE-CRISIS-TALKS-1024x692.jpg",
+      "article": "https://www.pbs.org/newshour/world/russia-and-ukraine-agree-to-a-large-prisoner-exchange-as-talks-end-with-no-major-breakthrough",
+      "hosted": "01-e6f9afba.jpg",
+      "srcSize": "1024x692",
+      "srcFormat": "jpeg",
+      "srcBytes": 118717,
+      "out": "922x692",
+      "bytes": 63101,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.367,
+        "y": 0.676
+      },
+      "fetchedAt": "2026-11-12T05:40:31.290Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-mississippi-2026-11-12",
+      "headline": "Democrat Scott Colom wins Mississippi 2026 Senate race, flipping seat in upset",
+      "source": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/36519ebd-53fa-4245-bebb-374d7d2a4ffa/thumbnail/1200x630g2/fa13e777a5ae3c303bad1bcc63a12c65/ap26215492775167.jpg",
+      "article": "https://www.cbsnews.com/news/mississippi-2026-senate-scott-colom-cindy-hyde-smith/",
+      "hosted": "02-27d1ef8d.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 51254,
+      "out": "945x630",
+      "bytes": 45659,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.429
+      },
+      "fetchedAt": "2026-11-12T05:40:31.531Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-gaza-2026-11-12",
+      "headline": "Israeli strike kills six at southern Gaza hospital: civil defence",
+      "source": "https://media.assettype.com/gulfnews%2F2026-11-12%2Fxj7b27jw%2FGaza-bomb.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+      "article": "https://gulfnews.com/world/mena/israeli-strike-kills-six-at-southern-gaza-hospital-civil-defence-1.500744391",
+      "hosted": "03-97a56faf.jpg",
+      "srcSize": "1200x900",
+      "srcFormat": "heif",
+      "srcBytes": 48677,
+      "out": "1200x800",
+      "bytes": 64620,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.42,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-12T05:40:31.951Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-baltic-2026-11-12",
+      "headline": "NATO fighter jets miss drone as air-threat alerts sweep Baltic states",
+      "source": "https://www.aerotime.aero/images/2026/11/An-Italian-Air-Force-Eurofighter-Typhoon-takes-off-at-dusk-during-NATO-Baltic-air-defense-operations.jpg",
+      "article": "https://www.aerotime.aero/articles/nato-fighter-misses-drone-baltic-air-alerts",
+      "hosted": "04-346cdf1a.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 117312,
+      "out": "1600x1067",
+      "bytes": 65472,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.743
+      },
+      "fetchedAt": "2026-11-12T05:40:32.316Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-mercor-2026-11-12",
+      "headline": "Organizing human intelligence for the entire economy",
+      "source": "https://assets.sfstandard.com/image/994911177489/image_dtbqorsvjt38vf7v714sgnv35p/-S3840x2561-FPNG",
+      "article": "https://www.mercor.com/blog/series-d/",
+      "hosted": "05-3feee462.jpg",
+      "srcSize": "3840x2560",
+      "srcFormat": "png",
+      "srcBytes": 7279722,
+      "out": "1600x1067",
+      "bytes": 163376,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.227,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-12T05:40:33.150Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-ibmq-2026-11-12",
+      "headline": "IBM Quantum Nighthawk Demonstrates New Levels of Speed and Quality, with Plans to Scale Beyond 1,000 Qubits in 2027",
+      "source": "https://www.chicagotribune.com/wp-content/uploads/2026/11/CTC-L-ibm-quantum-computer-019_268749213.jpg?w=5000&h=3333",
+      "article": "https://newsroom.ibm.com/2026-11-11-ibm-quantum-nighthawk-demonstrates-new-levels-of-speed-and-quality,-with-plans-to-scale-beyond-1,000-qubits-in-2027",
+      "hosted": "06-b45f26c3.jpg",
+      "srcSize": "5000x3333",
+      "srcFormat": "webp",
+      "srcBytes": 3056080,
+      "out": "1600x1067",
+      "bytes": 250592,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-12T05:40:36.623Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-bayer-2026-11-12",
+      "headline": "FDA Approves First Factor XIa Inhibitor to Help Prevent Stroke in Certain Adults at High Risk",
+      "source": "https://www.bing.com/th?id=ONUT.m3RUvpkSH04jFI7kX_8wFg&pid=News",
+      "article": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk",
+      "hosted": "08-c7b65361.jpg",
+      "srcSize": "700x366",
+      "srcFormat": "jpeg",
+      "srcBytes": 18710,
+      "out": "549x366",
+      "bytes": 15522,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-12T05:40:38.647Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-msci-2026-11-12",
+      "headline": "Strategy, Metaplanet lose MSCI index membership in November reshuffle",
+      "source": "https://www.tbstat.com/cdn-cgi/image/width=1600,height=900,fit=cover,format=jpeg,quality=80/wp/uploads/2026/11/Screenshot-2026-11-09-at-11.15.36.png",
+      "article": "https://www.theblock.co/news/markets/2026-11-11-strategy-metaplanet-lose-msci-index-membership-november-reshuffle-438437",
+      "hosted": "09-e5f23a70.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 273785,
+      "out": "1350x900",
+      "bytes": 195851,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.88,
+        "y": 0.429
+      },
+      "fetchedAt": "2026-11-12T05:40:39.038Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-greenland-2026-11-12",
+      "headline": "Folketinget har sat amerikansk forsvarsaftale på dagsordenen",
+      "source": "https://image.sermitsiaq.ag/2428518.jpg?imageId=2428518&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "article": "https://www.sermitsiaq.ag/samfund/folketinget-har-sat-amerikansk-forsvarsaftale-pa-dagsordenen/2438921",
+      "hosted": "10-6eed999e.jpg",
+      "srcSize": "1200x683",
+      "srcFormat": "jpeg",
+      "srcBytes": 141231,
+      "out": "1024x683",
+      "bytes": 66559,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.832
+      },
+      "fetchedAt": "2026-11-12T05:40:39.318Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-fueltax-2026-11-12",
+      "headline": "Skatteaftale på vej: Billigere benzin og diesel til næste år",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/0/0/7/0074306c-58ee-4009-afa1-ac2d68efbe85?ixlib=js-3.8.0&w=1904&h=1071&q=45&auto=format&fit=crop&rect64=MCwzNzAsODY0MCw0ODUz&s=d57328e3fd39b23ab0eac40e388834d1",
+      "article": "https://www.dr.dk/nyheder/politik/skatteaftale-paa-vej-billigere-benzin-og-diesel-til-naeste-aar",
+      "hosted": "11-edc29ce6.jpg",
+      "srcSize": "1904x1071",
+      "srcFormat": "heif",
+      "srcBytes": 291578,
+      "out": "1600x1067",
+      "bytes": 318985,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-12T05:40:40.211Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-alphagenome-2026-11-12",
+      "headline": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Demis_Hassabis_at_2024_Nobel_Week_3.jpg/1280px-Demis_Hassabis_at_2024_Nobel_Week_3.jpg",
+      "article": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "hosted": "12-a497990a.jpg",
+      "srcSize": "1280x853",
+      "srcFormat": "jpeg",
+      "srcBytes": 126503,
+      "out": "1279x853",
+      "bytes": 76586,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-12T05:40:40.501Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-ycse-2026-11-12",
+      "headline": "You Can See Everything",
+      "source": "https://api-asset-production.s3.amazonaws.com/media/images/ycse_100726_final.jpg",
+      "article": "https://a24films.com/films/you-can-see-everything",
+      "hosted": "r01-a79016f1.jpg",
+      "srcSize": "2025x3000",
+      "srcFormat": "jpeg",
+      "srcBytes": 2420408,
+      "out": "1600x900",
+      "bytes": 215855,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-12T05:40:40.968Z"
+    }
+  ]
+}
