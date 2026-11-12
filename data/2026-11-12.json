@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-12-01",
+  "runId": "run-2026-11-12-umidday-r230",
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T05:30:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-12T18:59:51.373Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "12 historier, 10 signaler og ni anbefalinger til torsdag den 12. november",
   "profileWeights": {
@@ -990,6 +990,197 @@
           "reason": "stock-or-ai"
         }
       ]
+    },
+    {
+      "id": "story-nvidia-huang-2026-11-12",
+      "eventKey": "nvidia-jensen-huang-ceo-resignation-2026-11",
+      "materialFacts": [
+        "Nvidias bestyrelse accepterede 11. november Jensen Huangs fratræden som CEO, præsident og bestyrelsesmedlem med øjeblikkelig virkning.",
+        "Fratrædelsen fulgte afsløringer om Huangs forhold til en kvinde anklaget for kinesisk spionage og til en Nvidia-vicedirektør, som udløste FBI- og kongresundersøgelser.",
+        "CFO Colette Kress er konstitueret CEO, og Harvey C. Jones er udpeget til bestyrelsens første formand.",
+        "Nvidia-aktien faldt op til 14 procent efter nyheden."
+      ],
+      "section": "Teknologi",
+      "headline": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+      "subheadline": "Bestyrelsen godkendte fratræden efter affærer og spionage-mistanke",
+      "body": [
+        "Nvidias bestyrelse accepterede onsdag Jensen Huangs fratræden som CEO, præsident og bestyrelsesmedlem med øjeblikkelig virkning, efter at hans forhold til en kvinde anklaget for kinesisk spionage og til en Nvidia-vicedirektør udløste undersøgelser fra FBI og Kongressen. CFO Colette Kress er konstitueret CEO."
+      ],
+      "whyItMatters": "Nvidia er rygraden i AI-boomet, og lederskiftet uden udpeget efterfølger rammer tilliden til investeringscyklussen.",
+      "topics": [
+        "ai",
+        "teknologi",
+        "erhverv"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "Harvey C. Jones"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 75,
+        "novelty": 80,
+        "sourceQuality": 85,
+        "personalRelevance": 80,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Jensen Huang fratrådte som Nvidias CEO, præsident og bestyrelsesmedlem med øjeblikkelig virkning den 11. november 2026.",
+          "sourceUrls": [
+            "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+            "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Fratrædelsen kom efter afsløringer om affærer, inklusive med en kvinde amerikanske myndigheder mener arbejdede for Kina, hvilket udløste FBI- og kongresundersøgelser.",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "CFO Colette Kress blev udpeget til konstitueret CEO, og Harvey C. Jones blev bestyrelsens første formand.",
+          "sourceUrls": [
+            "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "NVIDIA Announces CEO Transition",
+          "publisher": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "NVIDIA CORP - Form 8-K",
+          "publisher": "U.S. Securities and Exchange Commission",
+          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm",
+          "publishedAt": "2026-11-12T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-12/13-61318ea5.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Nvidia CEO Jensen Huang resigns amid spy scandal and market loss",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/12/ai-titan-jensen-huang-out-as-nvidia-ceo",
+        "origin": "article",
+        "fingerprint": "e1f0f1e96cf62d0de861e1646cf6450de869646468f6574c68e8e4e4e2f677d4e8eac2d2d0f6a6a2d0d0d0d0d2b436a7",
+        "lookedAt": "e1f0f1e96cf62d0de861e1646cf6450de869646468f6574c68e8e4e4e2f677d4e8eac2d2d0f6a6a2d0d0d0d0d2b436a7",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af5c64b-1794491979.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.111,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-12T18:59:51.373Z",
+        "runId": "run-2026-11-12-umidday-r230"
+      }
+    },
+    {
+      "id": "story-nordefco-2026-11-12",
+      "eventKey": "nordic-defence-agreement-nordefco-oslo-2026-11",
+      "materialFacts": [
+        "De nordiske forsvarsministre (Danmark, Norge, Sverige, Finland, Island) mødtes 11.-12. november i Oslo og blev enige om at indlede arbejdet med en ny fælles forsvarsaftale.",
+        "Aftalen skal fjerne juridiske hindringer for at flytte soldater og materiel over de nordiske grænser.",
+        "Dansk forsvarsminister Jeppe Bruus kalder det et skridt til at integrere det nordiske forsvarssamarbejde yderligere."
+      ],
+      "section": "Sikkerhedspolitik",
+      "headline": "Nordiske lande arbejder på ny forsvarsaftale",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/nordiske-lande-arbejder-paa-ny-forsvarsaftale",
+      "subheadline": "Fire nordiske lande vil lette bevægelsen af soldater og materiel over landegrænser",
+      "body": [
+        "De nordiske forsvarsministre blev onsdag og torsdag i Oslo enige om at indlede arbejdet med en ny fælles forsvarsaftale, der skal fjerne juridiske hindringer for at flytte soldater og materiel mellem landene. Forsvarsminister Jeppe Bruus kalder aftalen et skridt til at integrere forsvarssamarbejdet yderligere."
+      ],
+      "whyItMatters": "Aftalen peger på et Norden, der organiserer sig til hurtigere fælles respons på en regional trussel.",
+      "topics": [
+        "danmark",
+        "sikkerhedspolitik",
+        "forsvar"
+      ],
+      "entities": [
+        "Jeppe Bruus",
+        "NORDEFCO",
+        "Danmark",
+        "Norge",
+        "Sverige",
+        "Finland",
+        "Island"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "De nordiske forsvarsministre blev i Oslo enige om at indlede arbejdet med en ny fælles forsvarsaftale.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/nordiske-lande-arbejder-paa-ny-forsvarsaftale",
+            "https://avisendanmark.dk/udland/de-nordiske-lande-arbejder-paa-ny-forsvarsaftale"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nordiske lande arbejder på ny forsvarsaftale",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/nordiske-lande-arbejder-paa-ny-forsvarsaftale",
+          "publishedAt": "2026-11-12T11:28:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "De nordiske lande arbejder på ny forsvarsaftale",
+          "publisher": "Ritzau/Avisen Danmark",
+          "url": "https://avisendanmark.dk/udland/de-nordiske-lande-arbejder-paa-ny-forsvarsaftale",
+          "publishedAt": "2026-11-12T11:15:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-12/14-c7d12e64.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Nordiske lande arbejder på ny forsvarsaftale",
+        "sourceUrl": "https://www.dr.dk/nyheder/seneste/nordiske-lande-arbejder-paa-ny-forsvarsaftale",
+        "origin": "article",
+        "fingerprint": "c6465ada898cc4d8c7d5da98880e85d0d5d59999084a84a194949d19484b0e04929c3c584a994f069a3e3c9a9a9c8d4f",
+        "lookedAt": "c6465ada898cc4d8c7d5da98880e85d0d5d59999084a84a194949d19484b0e04929c3c584a994f069a3e3c9a9a9c8d4f",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/ojsjds0t/20261112-113854-l_crop001.jpg?im=SmartCrop%2Csize%3D%28700%2C394%29",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-12T18:59:51.373Z",
+        "runId": "run-2026-11-12-umidday-r230"
+      }
     }
   ],
   "signals": [
@@ -1314,5 +1505,20 @@
     ],
     "claims": [],
     "sources": []
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-12T18:59:51.373Z",
+      "runId": "run-2026-11-12-umidday-r230",
+      "added": 2,
+      "cost": {
+        "usd": 3.0213028,
+        "inputTokens": 4726142,
+        "outputTokens": 32552,
+        "turns": 85,
+        "seconds": 553.8
+      }
+    }
+  ]
 }
