@@ -548,19 +548,6 @@
           "sourceUrl": "https://fortune.com/2026/09/25/north-korea-bitget-387-million-crypto-attack/"
         }
       ]
-    },
-    {
-      "indicator": "us-core-cpi-mom",
-      "label": "Amerikansk kerneinflation (CPI), måned-til-måned",
-      "unit": "%",
-      "readings": [
-        {
-          "value": "0,3",
-          "asOf": "oktober 2026",
-          "sourceUrl": "https://www.bls.gov/news.release/cpi.htm",
-          "recordedOn": "2026-11-11"
-        }
-      ]
     }
   ]
 }
