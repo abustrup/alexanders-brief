@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-12-umidday-r230",
+  "runId": "run-2026-11-12-uafternoon-r232",
   "date": "2026-11-12",
-  "generatedAt": "2026-11-12T18:59:51.373Z",
+  "generatedAt": "2026-11-12T22:11:24.480Z",
   "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "12 historier, 10 signaler og ni anbefalinger til torsdag den 12. november",
@@ -1518,6 +1518,19 @@
         "outputTokens": 32552,
         "turns": 85,
         "seconds": 553.8
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-12T22:11:24.480Z",
+      "runId": "run-2026-11-12-uafternoon-r232",
+      "added": 0,
+      "cost": {
+        "usd": 1.5049921999999996,
+        "inputTokens": 897863,
+        "outputTokens": 15004,
+        "turns": 41,
+        "seconds": 255.6
       }
     }
   ]
