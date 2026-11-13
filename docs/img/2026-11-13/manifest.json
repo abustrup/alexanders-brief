@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-13",
-  "generatedAt": "2026-11-13T05:30:32.266Z",
+  "generatedAt": "2026-11-13T22:06:09.208Z",
   "pictures": [
     {
       "slot": "01",
@@ -202,6 +202,46 @@
         "y": 1
       },
       "fetchedAt": "2026-11-13T05:30:37.577Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-faa-ground-stop-2026-11-13",
+      "headline": "FAA issues nationwide ground stop due to 'extraordinary circumstances'",
+      "source": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/13/85caa013-fa0a-436b-a48a-b5d4b328b307/thumbnail/1200x630/414413f9114c6b61484f1df3a34d1514/gettyimages-2258970069.jpg",
+      "article": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+      "hosted": "12-00ba83ac.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 74204,
+      "out": "945x630",
+      "bytes": 61578,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-13T22:06:09.547Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-microsoft365-outage-2026-11-13",
+      "headline": "Microsoft 365 Outage Resolving After Nearly 24 Hours",
+      "source": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/3078adce-27fa-4f9b-b304-dbc4d6858df6/thumbnail/1200x630/66b309a0e07f93cb5bc2f636b440c201/gettyimages-2302285784.jpg",
+      "article": "https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/",
+      "hosted": "13-f5f4fe7e.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 64742,
+      "out": "945x630",
+      "bytes": 52500,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-13T22:06:09.776Z"
     },
     {
       "slot": "r01",

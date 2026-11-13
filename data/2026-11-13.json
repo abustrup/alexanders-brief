@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-13-umidday-r234",
+  "runId": "run-2026-11-13-uafternoon-r236",
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T18:29:02.986Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-13T22:03:16.871Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Fredag den 13. november 2026",
   "profileWeights": {
@@ -942,6 +942,202 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-faa-ground-stop-2026-11-13",
+      "eventKey": "faa-landsdaekkende-ground-stop-2026-11",
+      "materialFacts": [
+        "FAA udsendte fredag aften amerikansk tid et landsdækkende ground stop for alle afgående flyvninger",
+        "Årsagen var et kommunikationsproblem, der ramte flere Air Route Traffic Control Centers, efter udfald i udstyr på O'Hare og Midway i Chicago",
+        "Det er kun anden landsdækkende ground stop siden 11. september 2001; den seneste var i januar 2023",
+        "Indgående internationale flyvninger blev vurderet enkeltvis; FAA undersøgte fortsat årsagen, da historien blev dækket"
+      ],
+      "section": "Verden",
+      "headline": "FAA issues nationwide ground stop due to 'extraordinary circumstances'",
+      "primarySourceUrl": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+      "subheadline": "Et kommunikationsproblem lammede fredag al afgående flytrafik i USA.",
+      "body": [
+        "FAA beordrede fredag aften et landsdækkende ground stop for alle afgående flyvninger efter et kommunikationsproblem i flere Air Route Traffic Control Centers, kort efter udfald på Chicagos O'Hare og Midway. Transportminister Sean Duffy sagde, at teknikere undersøgte sagen."
+      ],
+      "whyItMatters": "Det er kun anden landsdækkende lukning af amerikansk luftrum siden 11. september 2001.",
+      "topics": [
+        "usa",
+        "luftfart",
+        "sikkerhed"
+      ],
+      "entities": [
+        "FAA",
+        "Sean Duffy",
+        "O'Hare",
+        "Midway"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 55,
+        "novelty": 80,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "FAA udsendte et landsdækkende ground stop for alle afgående flyvninger i USA",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+            "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det er kun anden landsdækkende ground stop siden 11. september 2001",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FAA issues nationwide ground stop due to 'extraordinary circumstances'",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+          "publishedAt": "2026-11-13T21:41:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ground stop ordered for all airports nationwide for 'reasons of safety'",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+          "publishedAt": "2026-11-13T21:09:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "FAA issues nationwide ground stop citing communication issues affecting 'multiple' air traffic control facilities",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+          "publishedAt": "2026-11-13T21:01:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-13/12-00ba83ac.jpg",
+        "credit": "Foto: Getty Images / CBS News",
+        "alt": "FAA issues nationwide ground stop due to 'extraordinary circumstances'",
+        "sourceUrl": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+        "origin": "article",
+        "fingerprint": "fb7756b7e3adc968fb7736b3e1a58969fdfb373361244dc9fbeb777161648eccfbebb731c1642fc6ed7f3220c4f46f87",
+        "lookedAt": "fb7756b7e3adc968fb7736b3e1a58969fdfb373361244dc9fbeb777161648eccfbebb731c1642fc6ed7f3220c4f46f87",
+        "originalUrl": "https://assets2.cbsnewsstatic.com/hub/i/r/2026/10/13/85caa013-fa0a-436b-a48a-b5d4b328b307/thumbnail/1200x630/414413f9114c6b61484f1df3a34d1514/gettyimages-2258970069.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-13T22:03:16.871Z",
+        "runId": "run-2026-11-13-uafternoon-r236"
+      }
+    },
+    {
+      "id": "story-microsoft365-outage-2026-11-13",
+      "eventKey": "microsoft-365-nedbrud-genopretning-2026-11",
+      "materialFacts": [
+        "Microsoft 365-nedbruddet startede torsdag ved 16.17 UTC og ramte Exchange Online, Teams, Copilot og dele af SharePoint i 74 lande",
+        "Downdetector registrerede op mod 130.000 fejlrapporter på det højeste",
+        "Microsoft sagde fredag kl. 18.00 UTC, at man så 'bred genopretning og stabilitet', men meldte stadig om forsinket mailflow uden udmeldt tidspunkt for fuld normalisering",
+        "Microsoft tilskriver fejlen en tidligere netværksopgradering og afviser, at nedbruddet skyldtes cyberangreb eller AI-agenter"
+      ],
+      "section": "Teknologi",
+      "headline": "Microsoft 365 Outage Resolving After Nearly 24 Hours",
+      "primarySourceUrl": "https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/",
+      "subheadline": "Microsoft melder om fremgang efter et døgns globale nedbrud.",
+      "body": [
+        "Microsoft 365 var ramt af et globalt nedbrud fra torsdag, der lammede Outlook, Teams, Copilot og dele af SharePoint i 74 lande og gav op mod 130.000 fejlrapporter på Downdetector. Fredag aften meldte Microsoft om bred genopretning, men uden tidsplan for, hvornår mailafleveringen er helt normal."
+      ],
+      "whyItMatters": "Virksomheder og myndigheder har i et døgn måttet undvære centrale arbejdsredskaber.",
+      "topics": [
+        "teknologi",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Microsoft",
+        "Exchange Online",
+        "Microsoft Teams",
+        "Microsoft Copilot"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 50,
+        "novelty": 45,
+        "sourceQuality": 68,
+        "personalRelevance": 55,
+        "contrast": 10
+      },
+      "claims": [
+        {
+          "text": "Nedbruddet ramte Exchange Online, Teams, Copilot og dele af SharePoint i 74 lande",
+          "sourceUrls": [
+            "https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/",
+            "https://www.cio.com/article/4248596/m365-services-slowly-come-back-online-after-global-outage-2.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Microsoft meldte fredag kl. 18.00 UTC om bred genopretning og stabilitet uden fast tidspunkt for fuld normalisering",
+          "sourceUrls": [
+            "https://www.cio.com/article/4248596/m365-services-slowly-come-back-online-after-global-outage-2.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft 365 Outage Resolving After Nearly 24 Hours",
+          "publisher": "MacRumors",
+          "url": "https://www.macrumors.com/2026/11/13/microsoft-365-outage-resolving/",
+          "publishedAt": "2026-11-13T19:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "M365 services slowly come back online after global outage",
+          "publisher": "CIO",
+          "url": "https://www.cio.com/article/4248596/m365-services-slowly-come-back-online-after-global-outage-2.html",
+          "publishedAt": "2026-11-13T18:04:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-13/13-f5f4fe7e.jpg",
+        "credit": "Foto: Getty Images / CBS News",
+        "alt": "Arkivfoto af Microsofts skilt ved virksomhedens kontor",
+        "sourceUrl": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+        "origin": "coverage",
+        "fingerprint": "479e38e35f7c200fcf3e78d15f7c60070f3ef8d15f7e70413f7ef8d2db9f78c07ffef8d299bffed8fffcf892583fbfff",
+        "lookedAt": "479e38e35f7c200fcf3e78d15f7c60070f3ef8d15f7e70413f7ef8d2db9f78c07ffef8d299bffed8fffcf892583fbfff",
+        "originalUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/13/3078adce-27fa-4f9b-b304-dbc4d6858df6/thumbnail/1200x630/66b309a0e07f93cb5bc2f636b440c201/gettyimages-2302285784.jpg",
+        "focus": {
+          "x": 0.236,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://images.macrumors.com/t/XDDmYifhTHqlPNpCu6HOaC1eljk=/1600x/article-new/2026/11/microsoft-365-icons.jpg",
+          "fingerprint": "8c9d7332cec22d2c8c937330cbc32c0c0cb33159cbcb644c17b33059cbc3c03cb27a709c9591c0666969b49c831080c0",
+          "reason": "stock-or-ai"
+        }
+      ],
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-13T22:03:16.871Z",
+        "runId": "run-2026-11-13-uafternoon-r236"
+      }
     }
   ],
   "signals": [
@@ -1268,6 +1464,19 @@
         "outputTokens": 0,
         "turns": 1,
         "seconds": 0.2
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-13T22:03:16.871Z",
+      "runId": "run-2026-11-13-uafternoon-r236",
+      "added": 2,
+      "cost": {
+        "usd": 2.888959300000001,
+        "inputTokens": 4109132,
+        "outputTokens": 34612,
+        "turns": 84,
+        "seconds": 641.5
       }
     }
   ]
