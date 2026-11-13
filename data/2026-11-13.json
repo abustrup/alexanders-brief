@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "daily-2026-11-13-0700",
+  "runId": "run-2026-11-13-umidday-r234",
   "date": "2026-11-13",
-  "generatedAt": "2026-11-13T07:00:00Z",
+  "generatedAt": "2026-11-13T18:29:02.986Z",
   "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Fredag den 13. november 2026",
@@ -1255,5 +1255,20 @@
     "diversity": 78,
     "freshness": 82,
     "verification": 80
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-13T18:29:02.986Z",
+      "runId": "run-2026-11-13-umidday-r234",
+      "added": 0,
+      "cost": {
+        "usd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "turns": 1,
+        "seconds": 0.2
+      }
+    }
+  ]
 }
