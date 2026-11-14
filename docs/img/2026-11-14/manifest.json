@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-14",
-  "generatedAt": "2026-11-14T05:55:45.919Z",
+  "generatedAt": "2026-11-14T20:39:48.590Z",
   "pictures": [
     {
       "slot": "01",
@@ -162,6 +162,47 @@
       },
       "underFloor": true,
       "fetchedAt": "2026-11-14T05:55:49.307Z"
+    },
+    {
+      "slot": "12",
+      "id": "s12-microsoft-restored",
+      "headline": "Microsoft says services fully restored after hourslong global outage",
+      "source": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/SGK6PRNVPRFUZF2ZS5JRYSGRK4.jpg?api_key=click2houston_85fdeb57f8cd3635",
+      "article": "https://www.click2houston.com/business/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/",
+      "hosted": "12-a2bebc69.jpg",
+      "srcSize": "700x467",
+      "srcFormat": "jpeg",
+      "srcBytes": 77414,
+      "out": "700x467",
+      "bytes": 66046,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.848,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-14T20:39:48.973Z"
+    },
+    {
+      "slot": "13",
+      "id": "s13-faa-ground-stop",
+      "headline": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af7c626ea3f-1794623014.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+      "hosted": "13-cb818e27.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 332984,
+      "out": "1600x1067",
+      "bytes": 207975,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.304
+      },
+      "fetchedAt": "2026-11-14T20:39:49.426Z"
     },
     {
       "slot": "r01",

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "runId": "brief-20261114",
+  "runId": "run-2026-11-14-uafternoon-r240",
   "date": "2026-11-14",
-  "generatedAt": "2026-11-14T05:30:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-14T20:39:41.560Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Microsofts døgn-lange nedbrud, Anthropics prisspænd før børsnoteringen, og Nvidias jagt på en afløser for Huang",
   "profileWeights": {
@@ -926,6 +926,186 @@
           "reason": "stock-or-ai"
         }
       ]
+    },
+    {
+      "id": "s12-microsoft-restored",
+      "eventKey": "microsoft-global-outage-resolved-2026-11",
+      "section": "Teknologi",
+      "headline": "Microsoft says services fully restored after hourslong global outage",
+      "primarySourceUrl": "https://www.click2houston.com/business/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/",
+      "subheadline": "Microsoft melder alle tjenester genoprettet efter nedbrud i 70+ lande",
+      "body": [
+        "Microsoft meddelte lørdag, at arbejdet med at rette fejlen er afsluttet, og at drift er genoprettet for de sidste ramte kunder. Nedbruddet lagde i flere dage Outlook, Teams, Copilot og Exchange Online ned i over 70 lande."
+      ],
+      "whyItMatters": "Microsoft afviser cyberangreb og peger på en fejl under en netværksopgradering; nedbruddet ramte myndigheder, hospitaler og banker.",
+      "topics": [
+        "teknologi",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Microsoft"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 58,
+        "sourceQuality": 78,
+        "personalRelevance": 50,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Microsoft said Saturday 2026-11-14 it had completed work to address the underlying issue and restored service to the remaining impacted customers and regions",
+          "sourceUrls": [
+            "https://www.click2houston.com/business/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "The outage affected Microsoft 365 services (Outlook, Teams, Copilot, Exchange Online) in more than 70 countries; Microsoft says it was not a cyberattack or caused by AI agents, and traces it to an issue during a network capacity upgrade",
+          "sourceUrls": [
+            "https://www.click2houston.com/business/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Microsoft says services fully restored after hourslong global outage",
+          "publisher": "Click2Houston (AP)",
+          "url": "https://www.click2houston.com/business/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/",
+          "publishedAt": "2026-11-14T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Microsoft says it has \"restored\" service and and addressed \"underlying issue\" after worldwide outage",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+          "publishedAt": "2026-11-14T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "materialFacts": [
+        "Microsoft said 2026-11-14 that all Microsoft 365 services are fully restored",
+        "Outage lasted from 2026-11-12 and affected over 70 countries, including governments, courts, healthcare, airlines and banks",
+        "Microsoft attributes the cause to a network capacity upgrade issue, not a cyberattack or AI agents"
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-14/12-a2bebc69.jpg",
+        "credit": "Kilde: Click2Houston (AP)",
+        "alt": "Microsofts hovedkvarter i Redmond med virksomhedens logo og navn på skilt",
+        "sourceUrl": "https://www.click2houston.com/business/2026/11/14/microsoft-says-services-fully-restored-after-hourslong-global-outage/",
+        "origin": "article",
+        "fingerprint": "47240cc0b2822c314624148092922c7042169480521b4e7463169410b2198b4e7a168430b3595bca35372e707158984b",
+        "lookedAt": "47240cc0b2822c314624148092922c7042169480521b4e7463169410b2198b4e7a168430b3595bca35372e707158984b",
+        "originalUrl": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/SGK6PRNVPRFUZF2ZS5JRYSGRK4.jpg?api_key=click2houston_85fdeb57f8cd3635",
+        "focus": {
+          "x": 0.848,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-14T20:39:41.560Z",
+        "runId": "run-2026-11-14-uafternoon-r240"
+      }
+    },
+    {
+      "id": "s13-faa-ground-stop",
+      "eventKey": "faa-nationwide-ground-stop-2026-11",
+      "section": "USA",
+      "headline": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+      "subheadline": "Det længste amerikanske flystop i 25 år ramte lufttrafikken",
+      "body": [
+        "FAA indførte fredag et landsdækkende stop for alle afgange efter en telefejl i flere kontrolcentre. Stoppet blev hævet efter godt fire timer, men over 4.700 fly blev aflyst og 10.000 forsinket, og omkring 1,5 mio. passagerer ramt."
+      ],
+      "whyItMatters": "Årsagen var overbelastede, forældede routere hos entreprenøren L3Harris, ikke et cyberangreb; Duffy kræver nu 50 mia. dollar til opgradering.",
+      "topics": [
+        "usa",
+        "infrastruktur"
+      ],
+      "entities": [
+        "Federal Aviation Administration",
+        "L3Harris",
+        "Sean Duffy"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 40,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 25,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "FAA issued a nationwide ground stop 2026-11-13 at 3:54pm ET after a telecommunications outage hit multiple air route traffic control centers; lifted after about 4 hours 21 minutes",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Over 4,700 flights cancelled and 10,000 delayed on 2026-11-13, roughly 1.5 million passengers affected, with about 700 further cancellations scheduled for 2026-11-14",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Officials attribute the outage to overloaded, aging routers and infrastructure, tied to contractor L3Harris work converting copper to fiber lines; no sign of cyberattack",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+          "publishedAt": "2026-11-14T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "FAA blames Friday's ground stop on 'equipment issue' during telecoms network upgrade",
+          "publisher": "NPR",
+          "url": "https://www.npr.org/2026/11/14/nx-s1-6040952/faa-ground-stop-airplane-travel",
+          "publishedAt": "2026-11-14T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "materialFacts": [
+        "FAA issued first nationwide ground stop since the January 2023 NOTAM outage, lasting about 4 hours 21 minutes on 2026-11-13",
+        "Over 4,700 flights cancelled and 10,000 delayed Friday; about 1.5 million passengers affected",
+        "Cause traced to overloaded routers during contractor L3Harris copper-to-fiber upgrade work, not a cyberattack",
+        "Transportation Secretary Sean Duffy calls for $50 billion in air traffic control infrastructure upgrades"
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-14/13-cb818e27.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Rejsende venter ved bagagebånd i lufthavn under FAA's groundstop",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+        "origin": "article",
+        "fingerprint": "4d4407158d8cac7ccc4687158c8cac5ccec685368c8e2e4ce68317360c0e2e4e830236334d0d0e4e0b0a23634e5c1e6f",
+        "lookedAt": "4d4407158d8cac7ccc4687158c8cac5ccec685368c8e2e4ce68317360c0e2e4e830236334d0d0e4e0b0a23634e5c1e6f",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/epa_6af7c626ea3f-1794623014.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.9,
+          "y": 0.304
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-14T20:39:41.560Z",
+        "runId": "run-2026-11-14-uafternoon-r240"
+      }
     }
   ],
   "signals": [
@@ -1171,5 +1351,20 @@
     "novelty": 80,
     "perspectiveBalance": 85,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-11-14T20:39:41.560Z",
+      "runId": "run-2026-11-14-uafternoon-r240",
+      "added": 2,
+      "cost": {
+        "usd": 1.8755347999999992,
+        "inputTokens": 2141973,
+        "outputTokens": 22975,
+        "turns": 55,
+        "seconds": 514.4
+      }
+    }
+  ]
 }
