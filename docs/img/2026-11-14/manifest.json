@@ -1,0 +1,187 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-14",
+  "generatedAt": "2026-11-14T05:55:45.919Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "s01-msft-outage",
+      "headline": "Microsoft says it's seeing 'continued recovery progress' as it battles major worldwide outage",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af6c919a6f5-1794558233.jpg?resize=1920%2C1440",
+      "article": "https://www.cbsnews.com/news/microsoft-battling-major-outage/",
+      "hosted": "01-0da6ce7d.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 179392,
+      "out": "1600x1200",
+      "bytes": 119786,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.864,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-14T05:55:46.417Z"
+    },
+    {
+      "slot": "02",
+      "id": "s02-anthropic-ipo",
+      "headline": "Anthropic Expected to Begin IPO Roadshow Week of November 9, Per CNBC",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Dario_Amodei_at_TechCrunch_Disrupt_2023_04.jpg/1920px-Dario_Amodei_at_TechCrunch_Disrupt_2023_04.jpg",
+      "article": "https://unusualwhales.com/news/anthropic-ipo-roadshow-week-november-9-cnbc",
+      "hosted": "02-2a8d9a09.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 325844,
+      "out": "1600x1067",
+      "bytes": 120288,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-14T05:55:46.874Z"
+    },
+    {
+      "slot": "03",
+      "id": "s03-nvda-succession",
+      "headline": "Why Arm Holdings Stock Was Pulling Back Today",
+      "source": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/11/14/573997.JPG",
+      "article": "https://www.fool.com/investing/2026/11/13/why-arm-holdings-stock-was-pulling-back-today/",
+      "hosted": "03-d118cc61.jpg",
+      "srcSize": "1500x999",
+      "srcFormat": "jpeg",
+      "srcBytes": 688070,
+      "out": "1498x999",
+      "bytes": 97361,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.214,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-14T05:55:47.217Z"
+    },
+    {
+      "slot": "05",
+      "id": "s05-ukraine-eu-talks",
+      "headline": "US pushes for European presence at Ukraine-Russia talks, which Moscow refuses to confirm",
+      "source": "https://images.euronews.com/articles/stories/09/99/08/99/1200x675_cmsv2_6f90f642-98ec-59bf-9dba-55f1ea9a907e-9990899.jpg",
+      "article": "https://www.euronews.com/2026/11/13/european-negotiators-could-be-set-to-join-ukraine-peace-talks",
+      "hosted": "05-2c8887f7.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 48191,
+      "out": "1012x675",
+      "bytes": 64862,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.245,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-14T05:55:47.539Z"
+    },
+    {
+      "slot": "06",
+      "id": "s06-atom-computing",
+      "headline": "Atom Computing Finalizes $100 Million U.S. Department of Commerce R&D Award",
+      "source": "https://atom-computing.com/wp-content/uploads/2025/11/AtomComputing_Phoenix.jpg",
+      "article": "https://thequantuminsider.com/2026/11/13/atom-computing-finalizes-100-million-u-s-department-of-commerce-rd-award",
+      "hosted": "06-3cc3cefc.jpg",
+      "srcSize": "2560x1709",
+      "srcFormat": "jpeg",
+      "srcBytes": 654780,
+      "out": "1600x1067",
+      "bytes": 173176,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-14T05:55:48.093Z"
+    },
+    {
+      "slot": "07",
+      "id": "s07-maersk",
+      "headline": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg/1920px-MAERSK_HANOI_Container_Ship_%28Port_Koper_SIKOP%2C_2023%29.jpg",
+      "article": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "hosted": "07-afe81fd7.jpg",
+      "srcSize": "1920x1439",
+      "srcFormat": "jpeg",
+      "srcBytes": 728640,
+      "out": "1600x1067",
+      "bytes": 302914,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.898,
+        "y": 0.089
+      },
+      "fetchedAt": "2026-11-14T05:55:48.703Z"
+    },
+    {
+      "slot": "08",
+      "id": "s08-eu-budget",
+      "headline": "EU budget for 2027: Council and Parliament reach agreement",
+      "source": "https://img2.thejournal.ie/article/7222045/river?version=7222110&width=1300",
+      "article": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/11/eu-budget-for-2027-council-and-parliament-reach-agreement/",
+      "hosted": "08-6e0fc16f.jpg",
+      "srcSize": "1300x848",
+      "srcFormat": "jpeg",
+      "srcBytes": 176848,
+      "out": "1272x848",
+      "bytes": 70900,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.509,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-14T05:55:48.993Z"
+    },
+    {
+      "slot": "10",
+      "id": "s10-habas",
+      "headline": "9 jailed after deadly blast at Turkish steel plant; chairman put under house arrest",
+      "source": "https://ichef.bbci.co.uk/news/1024/branded_news/5625/live/fd460940-dc61-11f1-8fe6-5becaee5408f.jpg",
+      "article": "https://www.turkishminute.com/2026/11/12/9-jailed-after-deadly-blast-at-turkish-steel-plant-chairman-put-under-house-arrest/",
+      "hosted": "10-ec934a5e.jpg",
+      "srcSize": "1024x576",
+      "srcFormat": "jpeg",
+      "srcBytes": 154011,
+      "out": "864x576",
+      "bytes": 113894,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 0.871
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-14T05:55:49.307Z"
+    },
+    {
+      "slot": "r01",
+      "id": "r01-gemini-robotics",
+      "headline": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "source": "https://lh3.googleusercontent.com/1p0vcWGLECMy9qInQW-1AumUwO5fa37wyJ66G0eO8H14BurbFkN7NkKAXbjXYXZ9tS034NyZ9ByuQk8ptQ24dLcMBeg6o_fHMmauBZJ7KAXdM5NHFQ=w1440-h810-n-nu",
+      "article": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "hosted": "r01-e49803e4.jpg",
+      "srcSize": "1440x810",
+      "srcFormat": "jpeg",
+      "srcBytes": 127751,
+      "out": "1440x810",
+      "bytes": 96689,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-14T05:55:49.483Z"
+    }
+  ]
+}
