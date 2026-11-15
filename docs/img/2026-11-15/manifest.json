@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-15",
-  "generatedAt": "2026-11-15T05:27:43.775Z",
+  "generatedAt": "2026-11-15T17:49:12.304Z",
   "pictures": [
     {
       "slot": "01",
@@ -241,6 +241,26 @@
         "y": 1
       },
       "fetchedAt": "2026-11-15T05:27:48.422Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-2026-11-15-add-01-bessent",
+      "headline": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hb1bt.img",
+      "article": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004",
+      "hosted": "13-00d4a678.jpg",
+      "srcSize": "1910x1000",
+      "srcFormat": "jpeg",
+      "srcBytes": 88321,
+      "out": "1500x1000",
+      "bytes": 80493,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.289,
+        "y": 0.589
+      },
+      "fetchedAt": "2026-11-15T17:49:12.707Z"
     },
     {
       "slot": "r01",

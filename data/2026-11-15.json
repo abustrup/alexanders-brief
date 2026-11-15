@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "2026-11-15-full",
+  "runId": "run-2026-11-15-umidday-r242",
   "date": "2026-11-15",
-  "generatedAt": "2026-11-15T05:30:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-15T17:49:04.476Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief",
   "dek": "Europas forhandlingshold, pres på Nvidias bestyrelse og et verdensregnskab for CO2, der ikke går op.",
   "profileWeights": {
@@ -1020,6 +1020,87 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-2026-11-15-add-01-bessent",
+      "eventKey": "bessent-nvidia-external-ceo-demand-2026-11",
+      "materialFacts": [
+        "Finansminister Scott Bessent sagde 15. november, at Nvidias bestyrelse bør hente en topchef udefra efter Jensen Huangs afgang, og at der er brug for \"et dramatisk skift\"",
+        "Bessent kræver, at bestyrelsen og ekstern juridisk rådgiver svarer inden ti dage på, om Nvidia pressede på med muligvis ulovlige chipsalg til Kina for at pumpe omsætningen op",
+        "Financial Times har tidligere rapporteret, at Nvidias bestyrelse har kontaktet Arm-direktør Rene Haas som muligt kandidat til posten"
+      ],
+      "section": "USA",
+      "headline": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+      "primarySourceUrl": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004",
+      "subheadline": "USA's finansminister kræver svar fra Nvidias bestyrelse på ti dage",
+      "body": [
+        "Finansminister Scott Bessent sagde 15. november, at Nvidia bør hente en direktør udefra efter Jensen Huangs afgang - \"et dramatisk skift\". Han kræver svar inden ti dage på, om Nvidia pressede muligvis ulovlige chipsalg til Kina for at pumpe omsætningen op."
+      ],
+      "whyItMatters": "Finansministerens krav lægger politisk pres på efterfølgervalget og udvider sagen til eksportkontrol.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Scott Bessent",
+        "Nvidia",
+        "Colette Kress"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 78,
+        "personalRelevance": 65,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Finansminister Scott Bessent sagde 15. november, at Nvidia bør søge en ekstern topchef og kalder det nødvendigt med et dramatisk skift i ledelsen",
+          "sourceUrls": [
+            "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Bessent kræver svar fra bestyrelse og ekstern juridisk rådgiver inden ti dage om, hvorvidt Nvidia pressede på med muligvis ulovlige chipsalg til Kina",
+          "sourceUrls": [
+            "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+          "publisher": "Reuters",
+          "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004",
+          "publishedAt": "2026-11-15T15:50:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-15/13-00d4a678.jpg",
+        "credit": "Kilde: CNBC via MSN",
+        "alt": "U.S. Secretary of the Treasury Scott Bessent speaks during a press conference in St. Cloud, Minn. on Friday, Oct. 30, 2026.",
+        "sourceUrl": "https://www.cnbc.com/2026/11/15/bessent-nvidia-ceo-lutnick-megaspeed.html",
+        "origin": "coverage",
+        "fingerprint": "48323d06321899d968373d0772181b9c76331f45735a181d77770f87f15b501975771fa6b1b1945572ff1967a0b5b5b0",
+        "lookedAt": "48323d06321899d968373d0772181b9c76331f45735a181d77770f87f15b501975771fa6b1b1945572ff1967a0b5b5b0",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hb1bt.img",
+        "focus": {
+          "x": 0.289,
+          "y": 0.589
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-15T17:49:04.476Z",
+        "runId": "run-2026-11-15-umidday-r242"
+      }
     }
   ],
   "signals": [
@@ -1276,5 +1357,20 @@
     "sourceQuality": 78,
     "diversity": 70,
     "balance": 68
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-15T17:49:04.476Z",
+      "runId": "run-2026-11-15-umidday-r242",
+      "added": 1,
+      "cost": {
+        "usd": 2.6440893000000005,
+        "inputTokens": 3234303,
+        "outputTokens": 23656,
+        "turns": 70,
+        "seconds": 531
+      }
+    }
+  ]
 }
