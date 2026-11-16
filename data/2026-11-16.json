@@ -1,0 +1,964 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-11-16-full",
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T05:30:00.000Z",
+  "readingMinutes": 8,
+  "title": "Alexanders Brief",
+  "dek": "Jensens comeback-tale, Estlands grænselukning, Rwanda-aftalen og syv andre historier",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-huang-comeback-01",
+      "eventKey": "nvidia-huang-comeback-discussions-2026-11",
+      "materialFacts": [
+        "FT: Huang har diskuteret et comeback med fortrolige efter sin fratræden",
+        "Polymarket: 40% odds for comeback inden december 2027, 12% inden nytår; Kalshi: 18%",
+        "Nvidia-aktien faldt yderligere 2% til ca. 158 dollar",
+        "Investorer Brad Gerstner og Gavin Baker bad bestyrelsen overveje 'alle muligheder'"
+      ],
+      "section": "Erhverv",
+      "headline": "Nvidia stock falls on reports Jensen Huang is plotting a comeback—and 40% of prediction market bettors think he'll return by next year",
+      "primarySourceUrl": "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/",
+      "subheadline": "FT: Huang har talt comeback med fortrolige.",
+      "body": [
+        "Financial Times skriver, at Huang siden sin fratræden har talt comeback igennem med fortrolige.",
+        "Aktien faldt yderligere 2% til ca. 158 dollar, efter Huang trak sig over en affære med en kvinde, der ifølge myndigheder kan være en kinesisk spion."
+      ],
+      "whyItMatters": "Et skifte i verdens vigtigste AI-chipselskab flytter kapital og tillid i hele AI-branchen.",
+      "analysis": "Polymarket giver 40% for comeback inden 2027; Dan Ives kalder 'rockstjerne-Jensen' færdig uanset udfald.",
+      "counterpoint": "Kalshis brugere afviser det: de rangerer tre andre over Huang.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "Colette Kress",
+        "Brad Gerstner",
+        "Gavin Baker",
+        "Dan Ives"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 82,
+        "decisionValue": 70,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 85,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "FT: Huang har diskuteret et comeback med fortrolige efter sin fratræden over en affære",
+          "sourceUrls": [
+            "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Polymarket: 40% odds på comeback inden december 2027, 12% inden nytår 2026; Kalshi: 18%",
+          "sourceUrls": [
+            "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Nvidia-aktien faldt yderligere ca. 2% til omkring 158 dollar",
+          "sourceUrls": [
+            "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Nvidia stock falls on reports Jensen Huang is plotting a comeback—and 40% of prediction market bettors think he'll return by next year",
+          "publisher": "Fortune",
+          "url": "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/",
+          "publishedAt": "2026-11-16T12:23:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Jensen Huang discusses comeback as Nvidia CEO with allies, FT reports",
+          "publisher": "Reuters",
+          "url": "https://www.reuters.com/world/china/jensen-huang-discusses-comeback-nvidia-ceo-with-allies-ft-reports-2026-11-15/",
+          "publishedAt": "2026-11-15T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/01-a84095c2.jpg",
+        "credit": "Foto: Getty Images / Fortune",
+        "alt": "Jensen Huang, Nvidias medstifter og tidligere topchef, taler ved GTC Berlin.",
+        "sourceUrl": "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/",
+        "origin": "article",
+        "fingerprint": "4c4d4d0f130707964d4d4d0f135707174d0d4c0f3b5357178e8e4f0f395bd25296864f19709b9b939686071df0299999",
+        "lookedAt": "4c4d4d0f130707964d4d4d0f135707174d0d4c0f3b5357178e8e4f0f395bd25296864f19709b9b939686071df0299999",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2301620664_fd5843.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0.004
+        }
+      }
+    },
+    {
+      "id": "story-estonia-border-02",
+      "eventKey": "estonia-closes-russia-border-sabotage-2026-11",
+      "materialFacts": [
+        "Otte personer anholdt for brandattentat mod dronefabrikanten Threod Systems",
+        "Estland peger på Ruslands militære efterretning GRU",
+        "Estland lukker sine tre grænseovergange til Rusland fra 1. december, ingen slutdato angivet",
+        "Ruslands udenrigsministerium kalder det 'aggressiv og ubegrænset russofobi'"
+      ],
+      "section": "Verden",
+      "headline": "Estonia to close border crossings with Russia after attack on drone maker",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+      "subheadline": "Et afværget brandattentat mod en droneproducent udløser total grænselukning.",
+      "body": [
+        "Estiske myndigheder har anholdt otte personer for et brandattentat mod dronefabrikanten Threod Systems og peger på Ruslands GRU som bagmand.",
+        "Estland lukker derfor sine tre grænseovergange til Rusland fra 1. december, uden fastsat slutdato."
+      ],
+      "whyItMatters": "Det er den hårdeste reaktion fra et NATO-land på russisk sabotage mod europæisk forsvarsindustri endnu.",
+      "analysis": "Estland kalder det et signal: angreb på forsvarsindustrien skal koste. Parlamentariker Mihkelson taler om en 'skyggekrig' mod Europa.",
+      "topics": [
+        "sikkerhedspolitik",
+        "geopolitik",
+        "forsvar"
+      ],
+      "entities": [
+        "Estland",
+        "Rusland",
+        "Threod Systems",
+        "Margus Tsahkna",
+        "Kristen Michal",
+        "GRU",
+        "Marko Mihkelson"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 62,
+        "novelty": 72,
+        "sourceQuality": 75,
+        "personalRelevance": 55,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Otte anholdt for brandattentat mod Threod Systems; Estland peger på GRU",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Estland lukker sine tre grænseovergange til Rusland fra 1. december",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+            "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Estonia to close border crossings with Russia after attack on drone maker",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+          "publishedAt": "2026-11-15T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "NATO member Estonia to close Russia border after attempted 'sabotage' of drone maker",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/nato-estonia-russia-border-ukraine-war.html",
+          "publishedAt": "2026-11-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/02-7bc59b23.jpg",
+        "credit": "Foto: Carl Court/Getty Images",
+        "alt": "Vejen fra Rusland ind i Estland ved grænseovergangen Luhamaa, fotograferet i oktober 2025.",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+        "origin": "article",
+        "fingerprint": "becf3e3c5e67e164bfff2e3e5ee7e164afff2f3e5fc7e1e47faf6f3edfa7c3c0beee6e7adbaec3c06e676e3b9b2e2389",
+        "lookedAt": "becf3e3c5e67e164bfff2e3e5ee7e164afff2f3e5fc7e1e47faf6f3edfa7c3c0beee6e7adbaec3c06e676e3b9b2e2389",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af9e9dedd-1794763230.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-rwanda-center-03",
+      "eventKey": "denmark-eu-rwanda-return-center-2026-11",
+      "materialFacts": [
+        "Danmark, Tyskland, Østrig, Nederlandene og Grækenland aftaler fælles udrejsecenter i Rwanda",
+        "Mette Frederiksen præsenterede rammen med Østrigs kansler Christian Stocker i Wien 16/11",
+        "Omkring 100 personer indledningsvist; landene finansierer selv, ingen EU-midler",
+        "Enhedslisten kalder det uacceptabelt; systemet ventes klar sent 2027"
+      ],
+      "section": "Politik",
+      "headline": "Nyt udrejsecenter skal ligge i Rwanda",
+      "primarySourceUrl": "https://avisendanmark.dk/politik/nyt-udrejsecenter-skal-ligge-i-rwanda",
+      "subheadline": "Fem EU-lande vil sende afviste asylansøgere til et center i Rwanda.",
+      "body": [
+        "Danmark, Tyskland, Østrig, Nederlandene og Grækenland har aftalt rammen for et udrejsecenter i Rwanda. Statsminister Frederiksen præsenterede det med Østrigs kansler Stocker i Wien.",
+        "Omkring 100 personer indledningsvist. Landene finansierer selv centret uden EU-støtte. Det ventes klar sent 2027."
+      ],
+      "whyItMatters": "Det er det første fælleseuropæiske udrejsecenter uden for EU, drevet af et mindretal af lande uden EU-finansiering.",
+      "analysis": "Løkke kalder Rwanda 'et godt sted'; Enhedslisten kalder det 'helt uacceptabelt' at outsource ansvaret.",
+      "topics": [
+        "danmark",
+        "eu",
+        "udlændingepolitik"
+      ],
+      "entities": [
+        "Mette Frederiksen",
+        "Lars Løkke Rasmussen",
+        "Christian Stocker",
+        "Rwanda",
+        "Enhedslisten",
+        "Radikale Venstre"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 68,
+        "novelty": 70,
+        "sourceQuality": 65,
+        "personalRelevance": 40,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Fem lande aftaler fælles udrejsecenter i Rwanda, præsenteret af Frederiksen og Stocker i Wien 16/11",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/politik/2026-11-16-udrejsecenter-uden-for-eu-praesenteres"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Omkring 100 personer indledningsvist; landene finansierer selv; klar sent 2027",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/politik/2026-11-16-udrejsecenter-uden-for-eu-praesenteres"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Udrejsecenter uden for EU præsenteres",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/live/politik/2026-11-16-udrejsecenter-uden-for-eu-praesenteres",
+          "publishedAt": "2026-11-16T11:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nyt udrejsecenter skal ligge i Rwanda",
+          "publisher": "Avisen Danmark",
+          "url": "https://avisendanmark.dk/politik/nyt-udrejsecenter-skal-ligge-i-rwanda",
+          "publishedAt": "2026-11-16T11:20:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/03-2bea3aeb.jpg",
+        "credit": "Foto: Cathal Mcnaughton/Reuters",
+        "alt": "Statsminister Mette Frederiksen fotograferet ved et EU-topmøde i Dublin, 12. november 2026.",
+        "sourceUrl": "https://www.kristeligt-dagblad.dk/udland/mette-frederiksen-udrejsecenter-uden-eu-er-taet-paa",
+        "origin": "coverage",
+        "fingerprint": "19a74c4666cecece2986464747ceccce2dd2c647c7cf8fce23d38747c7878f8f839303c2d247cf0e911703839353474e",
+        "lookedAt": "19a74c4666cecece2986464747ceccce2dd2c647c7cf8fce23d38747c7878f8f839303c2d247cf0e911703839353474e",
+        "originalUrl": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/main_image_1880x1058/s3/2026/11-12/2026111213001331_1000.jpg?itok=2wn9Ca5O",
+        "focus": {
+          "x": 0.348,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://images.jfmedier.dk/images/d/db/dbd/dbdbdb30-2cbd-46ac-976c-c1e0b5675856_1_90_0_0_4000_2253_600_338_a7f33ca9.jpg",
+          "fingerprint": "d64acecce4a6cec8d34bcfcea6a7cfcdcdcfcdcea62787cecd8d9ece0667878e8d9e9e8e0a66a7879c9f9f8f1be36627",
+          "reason": "wrong-person"
+        },
+        {
+          "url": "https://images.jfmedier.dk/images/a/ac/ac7/ac737ca4-2af9-4642-8804-f80d98530bac_0_90_0_0_4000_2253_600_338_248c455a.jpg",
+          "fingerprint": "5bd3d353737341695b53535373f1c1419b939393f3f1d1c19b9391b3f1f19184119991b171f1b0801011343170f0b030",
+          "reason": "wrong-person"
+        }
+      ]
+    },
+    {
+      "id": "story-qwen4max-04",
+      "eventKey": "alibaba-qwen4-max-release-2026-11",
+      "materialFacts": [
+        "Qwen4-Max: 2,4 billioner-parameter MoE-model, lanceret 16/11, lukkede vægte",
+        "43 point på Artificial Analysis' Intelligence Index, median er 41",
+        "Pris: 1,50 dollar/1M input, 4,50 dollar/1M output tokens",
+        "Alibaba siger data er filtreret for CBRN- og cyberrisiko"
+      ],
+      "section": "Teknologi",
+      "headline": "Alibaba says Qwen4-Max, which isn't open weight, beats Fable 5.1 and Kimi K3.1 Pro in coding benchmarks, and plans to release weights for smaller Qwen4 models",
+      "primarySourceUrl": "https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals",
+      "subheadline": "Lukket model, hævdet at slå rivaler på kodning.",
+      "body": [
+        "Alibaba har lanceret Qwen4-Max, en 2,4 billioner-parameter model med lukkede vægte, der hævdes at slå Fable 5.1 og Kimi K3.1 Pro på kodning med op til 50% færre tokens.",
+        "Artificial Analysis måler den til 43 point, mod en median på 41, til ca. 3,27 dollar per opgave."
+      ],
+      "whyItMatters": "Kina lukker gabet til amerikanske frontier-modeller selv uden åbne vægte.",
+      "analysis": "Alibaba lover senere åbne vægte til mindre Qwen4-modeller, mens flagskibet forbliver proprietært.",
+      "topics": [
+        "ai",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Alibaba",
+        "Qwen",
+        "Artificial Analysis"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 68,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Qwen4-Max er en 2,4T-parameter MoE-model med lukkede vægte, lanceret 16/11/2026",
+          "sourceUrls": [
+            "https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "43 point på Artificial Analysis' Intelligence Index (median 41), ca. 3,27 dollar per opgave",
+          "sourceUrls": [
+            "https://artificialanalysis.ai/models/qwen4-max"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Alibaba says Qwen4-Max, which isn't open weight, beats Fable 5.1 and Kimi K3.1 Pro in coding benchmarks, and plans to release weights for smaller Qwen4 models",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals",
+          "publishedAt": "2026-11-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Qwen4-Max",
+          "publisher": "Artificial Analysis",
+          "url": "https://artificialanalysis.ai/models/qwen4-max",
+          "publishedAt": "2026-11-16T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/04-717f0a7c.jpg",
+        "credit": "Foto: Xinhua, via SCMP/MSN",
+        "alt": "Besøgende prøver Qwens AI-briller på Mobile World Congress i Shanghai.",
+        "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3374540/alibaba-says-new-flagship-ai-model-cuts-task-costs-60-while-tightening-cyber-guardrails",
+        "origin": "coverage",
+        "fingerprint": "a1d4c9652547292524dcec6625e72865569a646526c7a8699a9ae4e366e7c2695a4be2ea664743c89d65a4eb67c7cb44",
+        "lookedAt": "a1d4c9652547292524dcec6625e72865569a646526c7a8699a9ae4e366e7c2695a4be2ea664743c89d65a4eb67c7cb44",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvyPS.img",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-plural-fund-05",
+      "eventKey": "plural-eur1bn-fund-iii-2026-11",
+      "materialFacts": [
+        "Plural lukker 1 mia. euro-fond (1,1 mia. dollar), sin største til dato",
+        "Kapital delt ca. to-til-en mellem ny tidlig-fase-fond og follow-on-vehicle",
+        "Sigter på energi, AI-infrastruktur, forsvar og sundhed",
+        "Porteføljen inkluderer Helsing og Proxima Fusion"
+      ],
+      "section": "Erhverv",
+      "headline": "Plural raises €1 billion to back frontier founders \"capable of building Europe's first trillion-dollar company\"",
+      "primarySourceUrl": "https://www.eu-startups.com/2026/11/plural-raises-e1-billion-to-back-frontier-founders-capable-of-building-europes-first-trillion-dollar-company/",
+      "subheadline": "En londonsk VC-fond vil finde Europas første billion-dollar-selskab.",
+      "body": [
+        "Londonske Plural, grundlagt af Wise- og Skype-folk, har lukket sin tredje fond på 1 mia. euro — størst til dato, delt to-til-en mellem ny tidlig-fase-fond og follow-on.",
+        "Fonden sigter på energi, AI-infrastruktur, forsvar og sundhed. Porteføljen tæller Helsing og Proxima Fusion."
+      ],
+      "whyItMatters": "Europæisk venturekapital samler sig om færre, større fonde rettet mod 'frontier'-teknologi.",
+      "analysis": "Over 100 europæiske selskaber rejste 100 mio.-dollar-runder i 2026; 10% er Plural-selskaber.",
+      "topics": [
+        "venture-capital",
+        "eu",
+        "forsvar"
+      ],
+      "entities": [
+        "Plural",
+        "Helsing",
+        "Proxima Fusion"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 60,
+        "personalRelevance": 70,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Plural lukker 1 mia. euro tredje fond, delt ca. to-til-en mellem ny fond og follow-on-vehicle",
+          "sourceUrls": [
+            "https://www.eu-startups.com/2026/11/plural-raises-e1-billion-to-back-frontier-founders-capable-of-building-europes-first-trillion-dollar-company/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Porteføljen inkluderer Helsing og Proxima Fusion; sigter på energi, AI, forsvar, sundhed",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Plural raises €1 billion to back frontier founders \"capable of building Europe's first trillion-dollar company\"",
+          "publisher": "EU-Startups",
+          "url": "https://www.eu-startups.com/2026/11/plural-raises-e1-billion-to-back-frontier-founders-capable-of-building-europes-first-trillion-dollar-company/",
+          "publishedAt": "2026-11-16T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Helsing backer Plural raises $1.1B to fund Europe's next moonshots",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
+          "publishedAt": "2026-11-15T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/05-d2d88b55.jpg",
+        "credit": "Kilde: TechCrunch",
+        "alt": "Plurals partnere fotograferet i London.",
+        "sourceUrl": "https://techcrunch.com/2026/11/15/helsing-backer-plural-raises-1-1b-to-fund-europes-next-moonshots/",
+        "origin": "source",
+        "fingerprint": "171f3767b30a0e131f3fa762b30b4f1b1f356342b32f4f4f3b65e3ca61258d8d6653e3ab69450d8dd2c3e9a9c8504545",
+        "lookedAt": "171f3767b30a0e131f3fa762b30b4f1b1f356342b32f4f4f3b65e3ca61258d8d6653e3ab69450d8dd2c3e9a9c8504545",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/11/Plural-Partner-Photo-Fund-III.jpg?resize=1200,800",
+        "focus": {
+          "x": 0.509,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-sa-shootings-06",
+      "eventKey": "south-africa-mass-shootings-2026-11",
+      "materialFacts": [
+        "Otte fundet skudt i en bil ved Pietermaritzburg",
+        "Ni fundet skudt i et skur ved Pretoria",
+        "To separate, ikke-relaterede sager; motiv uklart i begge",
+        "DR henviser til AP"
+      ],
+      "section": "Verden",
+      "headline": "17 personer dræbt i to separate masseskyderier i Sydafrika",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/seneste/17-personer-draebt-i-separate-masseskyderier-i-sydafrika",
+      "subheadline": "To uafhængige skyderier samme nat efterlader 17 døde.",
+      "body": [
+        "Otte mennesker blev fundet skudt i en bil nær Pietermaritzburg, mens ni blev fundet skudt i et skur nær hovedstaden Pretoria samme nat. De to sager er ifølge sydafrikansk politi ikke forbundet, og motivet er uklart i begge."
+      ],
+      "whyItMatters": "Sydafrika har en af verdens højeste mordrater, og episoder med mange døde på én gang sætter igen fokus på politiets evne til at opklare bandekriminalitet.",
+      "analysis": "At to så store skyderier sker samme nat uden kendt forbindelse illustrerer, hvor spredt og hverdagslig grov skudvold er blevet i dele af landet.",
+      "topics": [
+        "kriminalitet",
+        "sydafrika"
+      ],
+      "entities": [
+        "Sydafrika",
+        "Pietermaritzburg",
+        "Pretoria"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 20,
+        "novelty": 55,
+        "sourceQuality": 55,
+        "personalRelevance": 5,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "17 dræbt i to separate skyderier ved Pietermaritzburg (8) og Pretoria (9); motiv uklart",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/seneste/17-personer-draebt-i-separate-masseskyderier-i-sydafrika"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "17 personer dræbt i to separate masseskyderier i Sydafrika",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/seneste/17-personer-draebt-i-separate-masseskyderier-i-sydafrika",
+          "publishedAt": "2026-11-16T06:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/06-33806484.jpg",
+        "credit": "Foto: AP",
+        "alt": "Politiets kriminalteknikere undersøger gerningsstedet efter masseskyderiet i bosættelsen Jeffsville nær Pretoria, 16. november 2026.",
+        "sourceUrl": "https://www.click2houston.com/news/world/2026/11/16/at-least-17-people-killed-in-2-mass-shootings-on-the-same-day-in-south-africa/",
+        "origin": "coverage",
+        "fingerprint": "6c5c5e9eae6e640d6d5e9a96276a663cbe9a9a17474feae6be9b1f37574dcbe62b991713d7c58dcb29121b3b9296a4cc",
+        "lookedAt": "6c5c5e9eae6e640d6d5e9a96276a663cbe9a9a17474feae6be9b1f37574dcbe62b991713d7c58dcb29121b3b9296a4cc",
+        "originalUrl": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_1200,f_jpg/media/gmg/R5MW56B4XFGOXIE6QHTWFEJSTY.jpg?api_key=click2houston_85fdeb57f8cd3635",
+        "focus": {
+          "x": 0.455,
+          "y": 0.518
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://asset.dr.dk/drdk/umbraco-images/oujpen2a/317.png?im=SmartCrop%2Csize%3D%28700%2C394%29",
+          "fingerprint": "282c0c94e4749ce825cc5c90c6f69c7c648c5a96c6d61a7c4e4ed41486d61ada4fddb53487a7bb5bd795342203a3b359",
+          "reason": "off-topic"
+        }
+      ]
+    },
+    {
+      "id": "story-danish-crown-07",
+      "eventKey": "danish-crown-ceo-fired-2026-11",
+      "materialFacts": [
+        "Bestyrelsen fjerner CEO Niels Duedahl med øjeblikkelig virkning",
+        "Duedahl havde siddet lidt over to år",
+        "Bestyrelsen vil have 'et nyt profil... med stærkere driftsfokus'",
+        "Svinepriser er faldet, sektoren presses af overkapacitet fra Brasilien og Spanien"
+      ],
+      "section": "Erhverv",
+      "headline": "Danish Crown fyrer sin administrerende direktør",
+      "primarySourceUrl": "https://nyheder.tv2.dk/live/business/2026-11-16-danish-crown-fyrer-sin-administrerende-direktoer",
+      "subheadline": "Bestyrelsen vil have et nyt driftsfokus efter faldende svinepriser.",
+      "body": [
+        "Danish Crowns bestyrelse har fjernet CEO Niels Duedahl øjeblikkeligt efter lidt over to år. Bestyrelsen vil have 'et nyt profil... med stærkere driftsfokus'.",
+        "Duedahls spareplan kostede ca. 500 administrative job. Svinepriserne er faldet, og sektoren presses af overkapacitet fra Brasilien og Spanien."
+      ],
+      "whyItMatters": "Danish Crown er ejet af danske landmænd, og skiftet rammer en sektor under hårdt pres.",
+      "analysis": "At bestyrelsen fyrer midt i en omstrukturering signalerer utilfredshed med tempoet, ikke strategien.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "landbrug"
+      ],
+      "entities": [
+        "Danish Crown",
+        "Niels Duedahl"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 50,
+        "decisionValue": 45,
+        "novelty": 65,
+        "sourceQuality": 60,
+        "personalRelevance": 10,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "Danish Crowns bestyrelse fjerner CEO Niels Duedahl med øjeblikkelig virkning",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/live/business/2026-11-16-danish-crown-fyrer-sin-administrerende-direktoer"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Duedahls spareplan kostede ca. 500 administrative job; sektoren presses af overkapacitet",
+          "sourceUrls": [
+            "https://www.thepigsite.com/news/2026/11/danish-crown-ceo-steps-down-effective-immediately"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Danish Crown fyrer sin administrerende direktør",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/live/business/2026-11-16-danish-crown-fyrer-sin-administrerende-direktoer",
+          "publishedAt": "2026-11-16T09:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Danish Crown CEO steps down effective immediately",
+          "publisher": "The Pig Site",
+          "url": "https://www.thepigsite.com/news/2026/11/danish-crown-ceo-steps-down-effective-immediately",
+          "publishedAt": "2026-11-16T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/07-34caebcb.jpg",
+        "credit": "Foto: TV 2",
+        "alt": "Danish Crown-direktør Niels Duedahl, fotograferet i Randers, januar 2025.",
+        "sourceUrl": "https://nyheder.tv2.dk/live/business/2026-11-16-danish-crown-fyrer-sin-administrerende-direktoer",
+        "origin": "article",
+        "fingerprint": "26276173f373e39666616171f373e3d36761e071f173f3d362c0e2f0f173f3d3c0c5e3f2f2e3d1d1c0c4f1f2f269c1d0",
+        "lookedAt": "26276173f373e39666616171f373e3d36761e071f173f3d362c0e2f0f173f3d3c0c5e3f2f2e3d1d1c0c4f1f2f269c1d0",
+        "originalUrl": "https://cdn-free.tv2i.dk/e/d/i/editorial/7/c/c/7cc0d1b6-d540-4fc5-8a7d-e560d0bf8a76?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=OTYwLDgyMiw3Mjg5LDQwOTg&s=a2d7e15b5491d3b51b5664ceaa5ef0cb",
+        "focus": {
+          "x": 0.729,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-ozempic-pregnancy-08",
+      "eventKey": "glp1-pregnancy-outcomes-danish-study-2026-11",
+      "materialFacts": [
+        "756.636 graviditeter, 480.231 kvinder, Danmark 2009-2023",
+        "529 graviditeter eksponeret for GLP-1 omkring befrugtning",
+        "Vægttabsbrug: ingen øget komplikationsrisiko; diabetesbrug: højere præmaturitetsrisiko",
+        "Publiceret i Human Reproduction Open, ledet fra Hvidovre Hospital"
+      ],
+      "section": "Sundhed",
+      "headline": "Study of 750,000 pregnancies reveals a surprising twist about Ozempic and Wegovy",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/11/261111005911.htm",
+      "subheadline": "Stort dansk registerstudie skiller GLP-1-brugens årsag fra dens virkning.",
+      "body": [
+        "Et dansk registerstudie af 756.636 graviditeter 2009-2023, heraf 529 GLP-1-eksponerede, finder ingen øget komplikationsrisiko ved brug mod vægttab.",
+        "Mod diabetes ses højere for-tidlig-fødsel-risiko — tegn på at sygdommen, ikke midlet, driver risikoen. Ledet af Henriette Svarre Nielsen."
+      ],
+      "whyItMatters": "Det afviser bekymringen om, at GLP-1-midlerne selv er farlige tidligt i graviditeten ved vægttab.",
+      "analysis": "Ved at skille indikation fra lægemiddel viser studiet, at rå sammenligninger har overvurderet dets egen risiko.",
+      "topics": [
+        "biotek",
+        "sundhed",
+        "danmark"
+      ],
+      "entities": [
+        "Novo Nordisk",
+        "Henriette Svarre Nielsen",
+        "Kathrine Hviid",
+        "Hvidovre Hospital"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 35,
+        "novelty": 68,
+        "sourceQuality": 65,
+        "personalRelevance": 20,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "756.636 graviditeter undersøgt, 529 GLP-1-eksponerede; vægttabsbrug uden øget komplikationsrisiko, diabetesbrug med højere præmaturitetsrisiko",
+          "sourceUrls": [
+            "https://www.sciencedaily.com/releases/2026/11/261111005911.htm"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Publiceret i Human Reproduction Open, ledet af professor Henriette Svarre Nielsen, Hvidovre Hospital",
+          "sourceUrls": [
+            "https://www.sciencedaily.com/releases/2026/11/261111005911.htm"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Study of 750,000 pregnancies reveals a surprising twist about Ozempic and Wegovy",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261111005911.htm",
+          "publishedAt": "2026-11-13T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.sciencedaily.com/images/1920/pregnant-woman-holding-ozempic.webp",
+          "fingerprint": "136992861f1d130153c912069b1d1101259813031b1c1931241913233d3e1c300c9955431d3f3e387c101ccb9c3e3f3e",
+          "reason": "stock-or-ai"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Togkaos vækker frustration landet over: 'Det er et mareridt'",
+      "text": "Togkaos vækker frustration landet over: 'Det er et mareridt'",
+      "url": "https://www.dr.dk/nyheder/indland/reels/togkaos-vaekker-frustration-landet-over-det-er-et-mareridt",
+      "publisher": "DR",
+      "section": "Indland",
+      "publishedAt": "2026-11-16T07:00:00Z",
+      "summary": "Sporfejl og en nedbrændt teknikbygning ved Aarup udløser hastighedsbegrænsninger på flere strækninger i to uger.",
+      "topics": [
+        "danmark"
+      ]
+    },
+    {
+      "headline": "Tre polske teenagere anholdt for terrorforberedelse",
+      "text": "Tre polske teenagere anholdt for terrorforberedelse",
+      "url": "https://www.dr.dk/nyheder/seneste/tre-polske-teenagere-anholdt-terrorforberedelse",
+      "publisher": "DR",
+      "section": "Verden",
+      "publishedAt": "2026-11-16T12:35:00Z",
+      "summary": "To 17-årige med forbindelse til et neonazistisk netværk anklages for at planlægge sprængstof og hjemmelavede skydevåben; en 16-årig anbragt på institution.",
+      "topics": [
+        "sikkerhedspolitik"
+      ]
+    },
+    {
+      "headline": "Besætning på kæntret fragtskib i Sortehavet er i sikkerhed",
+      "text": "Besætning på kæntret fragtskib i Sortehavet er i sikkerhed",
+      "url": "https://www.dr.dk/nyheder/seneste/besaetning-paa-kaentret-fragtskib-i-sortehavet-er-i-sikkerhed",
+      "publisher": "DR",
+      "section": "Verden",
+      "publishedAt": "2026-11-16T13:20:00Z",
+      "summary": "Tolv besætningsmedlemmer blev evakueret med helikopter fra et sunkent somalisk-flaget fragtskib ca. 40 sømil fra Bulgariens kyst.",
+      "topics": [
+        "geopolitik"
+      ]
+    },
+    {
+      "headline": "Irish journalist among 113 people and entities sanctioned by EU",
+      "text": "Irish journalist among 113 people and entities sanctioned by EU",
+      "url": "https://www.rte.ie/news/europe/2026/1116/1599321-eu-ukraine-politics/",
+      "publisher": "RTÉ",
+      "section": "Europe",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "summary": "EU lister 113 personer og enheder, heriblandt en irsk journalist, for medvirken til russisk informationsmanipulation om Ukraine-krigen.",
+      "topics": [
+        "geopolitik"
+      ]
+    },
+    {
+      "headline": "Apple launches research study to explore the use of AI for health",
+      "text": "Apple launches research study to explore the use of AI for health",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+      "publisher": "Apple Newsroom",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-15T00:00:00Z",
+      "summary": "Op til 200.000 iPhone-brugere i USA kan deltage i studiet af en OpenEvidence-drevet sundheds-AI, der ikke bruger data til at træne modeller.",
+      "topics": [
+        "ai",
+        "sundhed"
+      ]
+    },
+    {
+      "headline": "Introducing ChatGPT Wallet",
+      "text": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "publisher": "OpenAI",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-13T15:00:00Z",
+      "summary": "Ny betalingsfunktion lader agenter i ChatGPT Work, Codex og dots gennemføre køb på brugerens vegne.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "headline": "LVMH's Media Division announces strategic partnership with OpenAI",
+      "text": "LVMH's Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "publisher": "OpenAI",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-16T09:00:00Z",
+      "summary": "Partnerskabet skal gøre LVMH-medier tilgængelige via ChatGPT og støtte journalistik med AI.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "The King's Trust and OpenAI launch £1m partnership",
+      "text": "The King's Trust and OpenAI launch £1m partnership",
+      "url": "https://openai.com/index/the-kings-trust-and-openai",
+      "publisher": "OpenAI",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-16T00:00:00Z",
+      "summary": "Initiativet skal give op til 25.000 unge i Storbritannien praktiske AI-færdigheder til arbejdsmarkedet.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "headline": "Nvidia investors urge board to consider 'potential return of Jensen Huang'",
+      "text": "Nvidia investors urge board to consider 'potential return of Jensen Huang'",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-board-letter.html",
+      "publisher": "CNBC",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-14T00:00:00Z",
+      "summary": "Et brev fra investorer til Nvidias bestyrelse lagde grunden til weekendens rapporter om et muligt comeback.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "iq-faldets-miljoe",
+    "title": "IQ-faldets miljø",
+    "thesis": "IQ-faldet efter 1975 er miljøbetinget, ikke genetisk - derfor ophører det ikke af sig selv med tiden.",
+    "horizon": "Ved næste store værnepligtskohorte eller tvillingestudie",
+    "body": [
+      "Bratsberg og Rogeberg (2018) fandt samme op- og nedtur blandt brødre i samme familie - det udelukker gener, som brødre deler."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis en ny værnepligtskohorte eller en tvillinge- eller adoptionsstudie finder et genetisk bidrag til faldet, som brødreanalysen ellers udelukkede.",
+    "topics": [
+      "videnskab",
+      "psykologi"
+    ],
+    "claims": [
+      {
+        "text": "Bratsberg & Rogeberg (2018, PNAS) fandt samme IQ-kurve blandt brødre i samme familie i norske værnepligtsdata 1962-1991",
+        "sourceUrls": [
+          "https://www.pnas.org/doi/10.1073/pnas.1718793115"
+        ],
+        "confidence": "high"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Flynn effect and its reversal are both environmentally caused",
+        "publisher": "PNAS",
+        "url": "https://www.pnas.org/doi/10.1073/pnas.1718793115",
+        "publishedAt": "2018-06-26T00:00:00Z",
+        "kind": "primary"
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-semianalysis-ep44",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "podcast-video",
+      "status": "new",
+      "title": "Ep. 044 · Is NVIDIA Over? Emergency Pod with ChinaTalk",
+      "creator": "Dylan Patel, Jordan Nanos, Jordan Schneider",
+      "provider": "SemiAnalysis Weekly (YouTube)",
+      "url": "https://www.youtube.com/watch?v=2jqSNHWdHEY",
+      "availability": "Frit tilgængelig på YouTube, Spotify og Apple Podcasts",
+      "commitment": "51 min",
+      "description": "SemiAnalysis' Dylan Patel og Jordan Nanos diskuterer med ChinaTalks Jordan Schneider, om Huangs exit svarer til en de facto nationalisering, om MATCH Act er en bedre eksportkontrol end RASA, og hvem der bør lede Nvidia videre.",
+      "rationale": "Patel sætter konkrete tal på, hvad Kinas lejede amerikanske compute faktisk er værd for USA - præcis den type regnestykke, der mangler i dagens avisdækning af Huang-sagen, og direkte brugbart i vurderingen af eksportkontrollens reelle effekt.",
+      "topics": [
+        "ai",
+        "geopolitik",
+        "halvledere"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-16/r01-2f7c185e.jpg",
+        "credit": "SemiAnalysis / YouTube",
+        "alt": "Dylan Patel, Jordan Nanos og Jordan Schneider i podcasten om Nvidia uden Jensen Huang",
+        "sourceUrl": "https://www.youtube.com/watch?v=2jqSNHWdHEY",
+        "originalUrl": "https://i.ytimg.com/vi/2jqSNHWdHEY/maxresdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec-financing-ai-buildout",
+      "tier": "short",
+      "mode": "read",
+      "kind": "paper",
+      "status": "new",
+      "title": "Financing the AI Buildout",
+      "creator": "Stijn Van Nieuwerburgh",
+      "provider": "Columbia Business School / NBER",
+      "url": "https://business.columbia.edu/sites/default/files-efs/imce-uploads/svannieuwerburgh/papers/FinancingAIBuildout_03192026.pdf",
+      "note": "Regner på, at et 188 GW amerikansk AI-opbyggeri koster næsten 9.000 mia. dollar til 2032 - et modvægt til antagelsen, at kapitalen bare findes.",
+      "topics": [
+        "ai",
+        "finans",
+        "venture-capital"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sep-self-knowledge",
+      "tier": "short",
+      "mode": "read",
+      "kind": "encyclopedia-entry",
+      "status": "new",
+      "title": "Self-Knowledge",
+      "creator": "Brie Gertler, Matt Duncan",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/self-knowledge/",
+      "note": "Analytisk filosofi om, hvordan vi kender vores egne tanker - en tradition, der ikke findes på hans læste liste, netop revideret 14. november.",
+      "topics": [
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-apple-health-ai",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "research-study",
+      "status": "new",
+      "title": "Apple Health AI Usage Study",
+      "provider": "Apple",
+      "url": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+      "availability": "iPhone 15 Pro eller nyere med iOS 26, USA, 21+",
+      "note": "Direkte afprøvning af en klinisk AI-model fra OpenEvidence, der ikke bruger svar til at træne modeller.",
+      "topics": [
+        "ai",
+        "sundhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chatgpt-wallet",
+      "tier": "short",
+      "mode": "try",
+      "kind": "product-launch",
+      "status": "new",
+      "title": "Introducing ChatGPT Wallet",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "note": "Lader agenter i ChatGPT Work og Codex gennemføre betalinger - værd at prøve for at se, hvor agentisk handel reelt er i dag.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "editorial": 78
+  }
+}

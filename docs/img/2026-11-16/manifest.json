@@ -1,0 +1,166 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-16",
+  "generatedAt": "2026-11-16T14:06:30.226Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-huang-comeback-01",
+      "headline": "Nvidia stock falls on reports Jensen Huang is plotting a comeback—and 40% of prediction market bettors think he'll return by next year",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2301620664_fd5843.jpg",
+      "article": "https://fortune.com/2026/11/16/nvidia-stock-jensen-huang-return-odds-musk/",
+      "hosted": "01-a84095c2.jpg",
+      "srcSize": "4096x3042",
+      "srcFormat": "jpeg",
+      "srcBytes": 1237311,
+      "out": "1600x1200",
+      "bytes": 88535,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.5,
+        "y": 0.004
+      },
+      "fetchedAt": "2026-11-16T14:06:31.513Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-estonia-border-02",
+      "headline": "Estonia to close border crossings with Russia after attack on drone maker",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af9e9dedd-1794763230.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker",
+      "hosted": "02-7bc59b23.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 398924,
+      "out": "1600x1067",
+      "bytes": 240188,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-16T14:06:32.119Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-rwanda-center-03",
+      "headline": "Nyt udrejsecenter skal ligge i Rwanda",
+      "source": "https://k9-drupal-images.k.dk/k9-drupal-images.k.dk/styles/main_image_1880x1058/s3/2026/11-12/2026111213001331_1000.jpg?itok=2wn9Ca5O",
+      "article": "https://avisendanmark.dk/politik/nyt-udrejsecenter-skal-ligge-i-rwanda",
+      "hosted": "03-2bea3aeb.jpg",
+      "srcSize": "1880x1058",
+      "srcFormat": "jpeg",
+      "srcBytes": 305566,
+      "out": "1587x1058",
+      "bytes": 140725,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.348,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-16T14:06:32.472Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-qwen4max-04",
+      "headline": "Alibaba says Qwen4-Max, which isn't open weight, beats Fable 5.1 and Kimi K3.1 Pro in coding benchmarks, and plans to release weights for smaller Qwen4 models",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hvyPS.img",
+      "article": "https://www.bloomberg.com/news/articles/2026-11-16/alibaba-unveils-new-flagship-ai-model-in-riposte-to-us-rivals",
+      "hosted": "04-717f0a7c.jpg",
+      "srcSize": "2000x1257",
+      "srcFormat": "jpeg",
+      "srcBytes": 393125,
+      "out": "1600x1067",
+      "bytes": 233606,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-16T14:06:32.964Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-plural-fund-05",
+      "headline": "Plural raises €1 billion to back frontier founders \"capable of building Europe's first trillion-dollar company\"",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/11/Plural-Partner-Photo-Fund-III.jpg?resize=1200,800",
+      "article": "https://www.eu-startups.com/2026/11/plural-raises-e1-billion-to-back-frontier-founders-capable-of-building-europes-first-trillion-dollar-company/",
+      "hosted": "05-d2d88b55.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 272452,
+      "out": "1200x800",
+      "bytes": 164253,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.509,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-16T14:06:33.313Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-sa-shootings-06",
+      "headline": "17 personer dræbt i to separate masseskyderier i Sydafrika",
+      "source": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_1200,f_jpg/media/gmg/R5MW56B4XFGOXIE6QHTWFEJSTY.jpg?api_key=click2houston_85fdeb57f8cd3635",
+      "article": "https://www.dr.dk/nyheder/seneste/17-personer-draebt-i-separate-masseskyderier-i-sydafrika",
+      "hosted": "06-33806484.jpg",
+      "srcSize": "1200x801",
+      "srcFormat": "jpeg",
+      "srcBytes": 180093,
+      "out": "1200x800",
+      "bytes": 170532,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.455,
+        "y": 0.518
+      },
+      "fetchedAt": "2026-11-16T14:06:33.880Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-danish-crown-07",
+      "headline": "Danish Crown fyrer sin administrerende direktør",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/7/c/c/7cc0d1b6-d540-4fc5-8a7d-e560d0bf8a76?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=OTYwLDgyMiw3Mjg5LDQwOTg&s=a2d7e15b5491d3b51b5664ceaa5ef0cb",
+      "article": "https://nyheder.tv2.dk/live/business/2026-11-16-danish-crown-fyrer-sin-administrerende-direktoer",
+      "hosted": "07-34caebcb.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 17105,
+      "out": "1080x720",
+      "bytes": 44381,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.729,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-16T14:06:34.243Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-semianalysis-ep44",
+      "headline": "Ep. 044 · Is NVIDIA Over? Emergency Pod with ChinaTalk",
+      "source": "https://i.ytimg.com/vi/2jqSNHWdHEY/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=2jqSNHWdHEY",
+      "hosted": "r01-2f7c185e.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 263195,
+      "out": "1280x720",
+      "bytes": 156644,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-16T14:06:34.459Z"
+    }
+  ]
+}
