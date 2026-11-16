@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-16-full",
+  "runId": "run-2026-11-16-umidday-r246",
   "date": "2026-11-16",
-  "generatedAt": "2026-11-16T05:30:00.000Z",
+  "generatedAt": "2026-11-16T20:56:53.072Z",
   "readingMinutes": 8,
   "title": "Alexanders Brief",
   "dek": "Jensens comeback-tale, Estlands grænselukning, Rwanda-aftalen og syv andre historier",
@@ -960,5 +960,20 @@
   ],
   "quality": {
     "editorial": 78
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-16T20:56:53.072Z",
+      "runId": "run-2026-11-16-umidday-r246",
+      "added": 0,
+      "cost": {
+        "usd": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "turns": 1,
+        "seconds": 0.5
+      }
+    }
+  ]
 }
