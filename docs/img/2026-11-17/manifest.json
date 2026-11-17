@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-17",
-  "generatedAt": "2026-11-17T06:15:55.722Z",
+  "generatedAt": "2026-11-17T19:59:33.586Z",
   "pictures": [
     {
       "slot": "01",
@@ -182,6 +182,86 @@
         "y": 1
       },
       "fetchedAt": "2026-11-17T06:15:58.272Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-anthropic-ipo-price-20261117",
+      "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "source": "https://image.cnbcfm.com/api/v1/image/108550656-1794523778517-gettyimages-2235057491-yeh_8174_nbtnm4ab_5b1ncswd_lup7q3ar.jpeg?v=1794523864&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "hosted": "10-af6dbd06.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 111753,
+      "out": "1600x1067",
+      "bytes": 112940,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-17T19:59:33.963Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-huang-return-statement-20261117",
+      "headline": "Jensen Huang says he would be 'honored' if allowed to return as Nvidia CEO",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+      "article": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "hosted": "11-f2ec0f34.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 144856,
+      "out": "1200x800",
+      "bytes": 82375,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.957
+      },
+      "fetchedAt": "2026-11-17T19:59:34.229Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-us-measles-status-20261117",
+      "headline": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+      "source": "https://image.cnbcfm.com/api/v1/image/108198451-1757716022379-gettyimages-2235105504-jr_11883_j8ffmspx.jpeg?v=1794934186&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+      "hosted": "12-4e3d4701.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 72425,
+      "out": "1600x1067",
+      "bytes": 71010,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.27,
+        "y": 0.214
+      },
+      "fetchedAt": "2026-11-17T19:59:34.548Z"
+    },
+    {
+      "slot": "13",
+      "id": "story-unhcr-rwanda-warning-20261117",
+      "headline": "UNHCR om Rwanda-plan: Ingen kan garantere, at menneskerettigheder bliver overholdt",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/svhd5z3h/20261116-173512-l_crop001.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/politik/unhcr-om-rwanda-plan-ingen-kan-garantere-menneskerettigheder-bliver-overholdt",
+      "hosted": "13-f07f1b75.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 130062,
+      "out": "1012x675",
+      "bytes": 99372,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.63,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-17T19:59:34.818Z"
     },
     {
       "slot": "r01",

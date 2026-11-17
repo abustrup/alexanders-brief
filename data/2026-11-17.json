@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-17-full",
+  "runId": "run-2026-11-17-umidday-r250",
   "date": "2026-11-17",
-  "generatedAt": "2026-11-17T05:30:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-17T19:59:27.280Z",
+  "readingMinutes": 12,
   "title": "Alexanders Brief – 17. november 2026",
   "dek": "Californien sagsøger OpenAI, Nvidias bestyrelse afviser Huang, og en folkeskole-flugt i 44 kommuner.",
   "profileWeights": {
@@ -706,6 +706,314 @@
           "y": 1
         }
       }
+    },
+    {
+      "id": "story-anthropic-ipo-price-20261117",
+      "eventKey": "anthropic-ipo-price-above-range-2026-11",
+      "materialFacts": [
+        "Order book closed 4pm ET Tuesday 17 Nov",
+        "Guided to price above $70-78 range",
+        "Nine-month 2026 revenue $33.24bn, up ~1200% y/y",
+        "Nine-month net loss $104bn, mainly convertible-note fair value",
+        "Lists on Nasdaq as ANT Thursday 19 Nov"
+      ],
+      "section": "AI",
+      "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "subheadline": "Ordrebogen lukkede tirsdag med priser over den oprindelige ramme.",
+      "body": [
+        "Anthropic lukkede tirsdag ordrebogen til sin Nasdaq-notering og guider nu investorer mod en pris over intervallet 70-78 dollar per aktie, ifølge kilder til CNBC. Omsætningen for 2026s første ni måneder var 33,24 mia. dollar, op ca. 1.200 procent, men selskabet tabte samtidig 104 mia. dollar. Aktien handler som ANT fra torsdag."
+      ],
+      "whyItMatters": "Prisen tester, om markedet vil betale for AI-vækst midt i voksende skepsis.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Anthropic",
+        "Amazon",
+        "Google",
+        "Nvidia",
+        "Microsoft"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 65,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 75,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Anthropic guider investorer mod en pris over 70-78 dollar per aktie forud for Nasdaq-noteringen.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Anthropics omsætning for de første ni måneder af 2026 var 33,24 mia. dollar, med et nettotab på 104 mia. dollar.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+          "publishedAt": "2026-11-17T14:13:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-17/10-af6dbd06.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Mike Krieger, produktchef hos Anthropic, under et interview.",
+        "sourceUrl": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+        "origin": "article",
+        "fingerprint": "13393934e4c6f0e419393834a6c6f2e4393d3034a5e693e02c35f06625a793a02434f466666713323434e6e666e69333",
+        "lookedAt": "13393934e4c6f0e419393834a6c6f2e4393d3034a5e693e02c35f06625a793a02434f466666713323434e6e666e69333",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108550656-1794523778517-gettyimages-2235057491-yeh_8174_nbtnm4ab_5b1ncswd_lup7q3ar.jpeg?v=1794523864&w=1920&h=1080",
+        "focus": {
+          "x": 0.111,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-17T19:59:27.280Z",
+        "runId": "run-2026-11-17-umidday-r250"
+      }
+    },
+    {
+      "id": "story-huang-return-statement-20261117",
+      "eventKey": "jensen-huang-public-statement-willing-return-2026-11",
+      "materialFacts": [
+        "Huang's first public statement since resigning",
+        "Says he would be 'honored' to return if board asks",
+        "Admits 'serious mistakes' in his personal life",
+        "Nvidia board source: no plans to reinstate him"
+      ],
+      "section": "Erhverv",
+      "headline": "Jensen Huang says he would be 'honored' if allowed to return as Nvidia CEO",
+      "primarySourceUrl": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "subheadline": "Huang bryder tavsheden og indrømmer 'alvorlige fejl' i privatlivet.",
+      "body": [
+        "Jensen Huang udsendte tirsdag sin første udtalelse siden afgangen og skrev, han ville være 'beæret' over at vende tilbage, hvis bestyrelsen besluttede det. Han indrømmede 'alvorlige fejl' i privatlivet og lovede at samarbejde med undersøgelsen. En bestyrelseskilde siger til Washington Post, der stadig ikke er planer om genindsættelse."
+      ],
+      "whyItMatters": "Udtalelsen lægger nyt pres på en bestyrelse, der allerede har afvist ham.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Jensen Huang",
+        "Nvidia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 65,
+        "sourceQuality": 75,
+        "personalRelevance": 78,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Jensen Huang siger i sin første offentlige udtalelse siden afgangen, han ville være beæret over at vende tilbage som Nvidias topchef, hvis bestyrelsen beslutter det.",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jensen Huang says he would be 'honored' if allowed to return as Nvidia CEO",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+          "publishedAt": "2026-11-17T16:44:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-17/11-f2ec0f34.jpg",
+        "credit": "Foto: Getty Images / TechCrunch",
+        "alt": "Nvidias topchef Jensen Huang taler ved World Economic Forum.",
+        "sourceUrl": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+        "origin": "article",
+        "fingerprint": "67171d198466a34d77331c1ca4c6230d33331c1c24c6672933351a1c46c3c72937371a1e5243c765373b1f1cd7d28b46",
+        "lookedAt": "67171d198466a34d77331c1ca4c6230d33331c1c24c6672933351a1c46c3c72937371a1e5243c765373b1f1cd7d28b46",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2256813240.jpg?resize=1200,800",
+        "focus": {
+          "x": 0.438,
+          "y": 0.957
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-17T19:59:27.280Z",
+        "runId": "run-2026-11-17-umidday-r250"
+      }
+    },
+    {
+      "id": "story-us-measles-status-20261117",
+      "eventKey": "us-loses-measles-elimination-status-2026-11",
+      "materialFacts": [
+        "PAHO declares endemic measles transmission re-established in US",
+        "US held elimination status since 2000, lost after 12 months continuous transmission",
+        "Over 5,400 cases and at least 10 deaths in 2026",
+        "48 of 52 states/territories had outbreaks Jan 2025-Jan 2026",
+        "Mexico and Bolivia lost status too"
+      ],
+      "section": "Udland",
+      "headline": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+      "subheadline": "PAHO erklærer smitten endemisk efter 25 år uden afbrydelse.",
+      "body": [
+        "PAHO har fjernet USA's status som mæslingefrit land, 25 år efter landet opnåede eliminationsstatus i 2000, fordi samme virusstamme har cirkuleret uafbrudt i mindst 12 måneder. USA har i 2026 registreret over 5.400 tilfælde og mindst ti dødsfald, det værste udbrud i mere end 30 år. Mexico og Bolivia mistede samtidig deres status."
+      ],
+      "whyItMatters": "Tabet viser, lav vaccinedækning nu har sat et varigt skel i folkesundheden.",
+      "topics": [
+        "sundhed",
+        "usa"
+      ],
+      "entities": [
+        "Pan American Health Organization",
+        "Jarbas Barbosa"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 20,
+        "novelty": 72,
+        "sourceQuality": 80,
+        "personalRelevance": 8,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "PAHO har fastslået, at endemisk mæslingesmitte er genetableret i USA, efter 12 måneders uafbrudt cirkulation af samme virusstamme.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+          "publishedAt": "2026-11-17T16:09:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-17/12-4e3d4701.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "En hætteglas med MMR-vaccine mod mæslinger, fåresyge og røde hunde.",
+        "sourceUrl": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html",
+        "origin": "article",
+        "fingerprint": "44402127c6323626c0c02727c7723266c2606727e75a736780606727a7d97163c060e72f6797d9f3c0e3a76fe7239cf0",
+        "lookedAt": "44402127c6323626c0c02727c7723266c2606727e75a736780606727a7d97163c060e72f6797d9f3c0e3a76fe7239cf0",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108198451-1757716022379-gettyimages-2235105504-jr_11883_j8ffmspx.jpeg?v=1794934186&w=1920&h=1080",
+        "focus": {
+          "x": 0.27,
+          "y": 0.214
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-17T19:59:27.280Z",
+        "runId": "run-2026-11-17-umidday-r250"
+      }
+    },
+    {
+      "id": "story-unhcr-rwanda-warning-20261117",
+      "eventKey": "unhcr-warns-denmark-rwanda-plan-human-rights-2026-11",
+      "materialFacts": [
+        "UNHCR Nordic/Baltic rep Annika Sandlund contradicts government assurance",
+        "No country, including Denmark, can be guaranteed to uphold all human rights",
+        "About 120 people from Denmark expected to be sent to the Rwanda centre",
+        "UNHCR's concrete monitoring role still undefined"
+      ],
+      "section": "Danmark",
+      "headline": "UNHCR om Rwanda-plan: Ingen kan garantere, at menneskerettigheder bliver overholdt",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/politik/unhcr-om-rwanda-plan-ingen-kan-garantere-menneskerettigheder-bliver-overholdt",
+      "subheadline": "FN-repræsentant modsiger regeringens garanti om overholdte rettigheder.",
+      "body": [
+        "UNHCRs nordisk-baltiske repræsentant Annika Sandlund siger, intet land - heller ikke Danmark - kan garanteres at overholde alle menneskerettigheder fremover. Det kommer, efter Lars Løkke Rasmussen og Radikale har forsikret, EU-ret vil blive overholdt i Rwanda-centret, hvor cirka 120 personer fra Danmark ventes sendt hen."
+      ],
+      "whyItMatters": "Udtalelsen flytter ansvaret for garantien tilbage på regeringen selv.",
+      "topics": [
+        "danmark",
+        "udlændingepolitik"
+      ],
+      "entities": [
+        "UNHCR",
+        "Annika Sandlund",
+        "Lars Løkke Rasmussen",
+        "Magnus Georg Jensen"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 52,
+        "decisionValue": 25,
+        "novelty": 55,
+        "sourceQuality": 72,
+        "personalRelevance": 15,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "UNHCRs nordisk-baltiske repræsentant Annika Sandlund siger, intet land kan garanteres at overholde alle menneskerettigheder i fremtiden, som svar på regeringens forsikringer om Rwanda-centret.",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/politik/unhcr-om-rwanda-plan-ingen-kan-garantere-menneskerettigheder-bliver-overholdt"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UNHCR om Rwanda-plan: Ingen kan garantere, at menneskerettigheder bliver overholdt",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/unhcr-om-rwanda-plan-ingen-kan-garantere-menneskerettigheder-bliver-overholdt",
+          "publishedAt": "2026-11-17T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-17/13-f07f1b75.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Statsminister Mette Frederiksen og andre ministre på pressemøde i Wien om Rwanda-planen.",
+        "sourceUrl": "https://www.dr.dk/nyheder/politik/unhcr-om-rwanda-plan-ingen-kan-garantere-menneskerettigheder-bliver-overholdt",
+        "origin": "article",
+        "fingerprint": "343d3d34747ced43242d3d347474bce326ac3c7272e6fee7aeac3672f3e7f46f6e2e75f3f3e7e57c6f6e72f9fbe2e676",
+        "lookedAt": "343d3d34747ced43242d3d347474bce326ac3c7272e6fee7aeac3672f3e7f46f6e2e75f3f3e7e57c6f6e72f9fbe2e676",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/svhd5z3h/20261116-173512-l_crop001.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.63,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-17T19:59:27.280Z",
+        "runId": "run-2026-11-17-umidday-r250"
+      }
     }
   ],
   "signals": [
@@ -966,6 +1274,21 @@
         "fotografi"
       ],
       "isFeatured": false
+    }
+  ],
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-17T19:59:27.280Z",
+      "runId": "run-2026-11-17-umidday-r250",
+      "added": 4,
+      "cost": {
+        "usd": 2.8614116999999992,
+        "inputTokens": 3846549,
+        "outputTokens": 39955,
+        "turns": 72,
+        "seconds": 551.6
+      }
     }
   ]
 }
