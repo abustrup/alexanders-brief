@@ -1,0 +1,207 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-17",
+  "generatedAt": "2026-11-17T06:15:55.722Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-openai-ca-lawsuit-20261117",
+      "headline": "California sues OpenAI over Hugging Face, other AI model loss of control",
+      "source": "https://image.cnbcfm.com/api/v1/image/108369602-17907017172026-09-29t170751z_2048932804_rc25tna9ogf6_rtrmadp_0_ai-openai.jpeg?v=1790701743&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/16/openai-california-bonta-ai-lawsuit.html",
+      "hosted": "01-264811bf.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 92767,
+      "out": "1440x1080",
+      "bytes": 100356,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.667,
+        "y": 0.967
+      },
+      "fetchedAt": "2026-11-17T06:15:56.047Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-us-chip-export-rule-20261117",
+      "headline": "Commerce Department moves to close AI chip loophole",
+      "source": "https://cdn.nextgov.com/media/img/cd/2026/11/16/GettyImages_2301328017/860x394.jpg",
+      "article": "https://www.nextgov.com/artificial-intelligence/2026/11/commerce-department-moves-close-ai-chip-loophole/417255/",
+      "hosted": "02-1c0d43ad.jpg",
+      "srcSize": "860x394",
+      "srcFormat": "jpeg",
+      "srcBytes": 68670,
+      "out": "591x394",
+      "bytes": 26965,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-17T06:15:56.170Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-nvidia-board-rejects-huang-20261117",
+      "headline": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+      "source": "https://image.cnbcfm.com/api/v1/image/108548911-1794851429961-108548911-1794403050475-gettyimages-2299100584-_04a7661_f6gzfowp.jpeg?v=1794851457&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "hosted": "03-16f62bf3.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 102034,
+      "out": "1600x1067",
+      "bytes": 107216,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-17T06:15:56.445Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-ukraine-peace-talks-20261117",
+      "headline": "Ukraine holds peace talks with US, Europe as conflict escalates",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-14T121935Z_304489647_RC2DMOAZ63PZ_RTRMADP_3_UKRAINE-CRISIS-ZELENSKIY-TALKS-1794870040.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+      "hosted": "04-22bf7865.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 138044,
+      "out": "1600x1067",
+      "bytes": 131225,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-17T06:15:56.754Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-nvidia-ibm-fermilab-quantum-20261117",
+      "headline": "Nvidia Teams With IBM and Fermilab on Quantum Codesign Platform, Ships Faster Decoder",
+      "source": "https://iprsoftwaremedia.com/219/files/202611/40e6822d3e59526b227f38a356e88502/6af958f13d6332343c233577_ibm-nvidia-fermilab/ibm-nvidia-fermilab_013b8ce3-bbf0-4795-a9b5-284c46b0f175-prv.jpg?v=013b8ce3-bbf0-4795-a9b5-284c46b0f175",
+      "article": "https://news.nakoda.ai/article/nvidia-ibm-fermilab-modular-quantum-codesign-platform-decoder",
+      "hosted": "05-508b52d5.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 765515,
+      "out": "1350x900",
+      "bytes": 119351,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-17T06:15:57.199Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-optimizely-attack-20261117",
+      "headline": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "source": "https://www.bleepstatic.com/images/news/security/attacks/o/optimizely-supply-chain-attack/malicious-script-on-foxnews.jpg",
+      "article": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-infects-major-brands-sites-with-malware/",
+      "hosted": "06-1d83edb3.jpg",
+      "srcSize": "1369x670",
+      "srcFormat": "jpeg",
+      "srcBytes": 212610,
+      "out": "1005x670",
+      "bytes": 62094,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-17T06:15:57.478Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-danish-schools-exodus-20261117",
+      "headline": "Flere vælger folkeskolen fra. Især ressourcestærke familier",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/zcbnmoml/asht_a_indland_privatskoler_bestyrelsesformand_hq-00243611_crop001.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/indland/flere-vaelger-folkeskolen-fra-isaer-ressourcestaerke-familier",
+      "hosted": "07-2aa218c2.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 53509,
+      "out": "1012x675",
+      "bytes": 63590,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.17,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-17T06:15:57.771Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-denmark-rwanda-obstacles-20261117",
+      "headline": "Tre forhindringer kan spænde ben for Danmarks Rwanda-plan",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/glygnzwv/20261116-181249-2.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/politik/tre-forhindringer-kan-spaende-ben-danmarks-rwanda-plan",
+      "hosted": "08-ee23e83c.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 195677,
+      "out": "1012x675",
+      "bytes": 73392,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.298,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-17T06:15:58.023Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-pattinson-bond-20261117",
+      "headline": "British actor Robert Pattinson named as new James Bond",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6afb36bf-1794848447.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/16/british-actor-robert-pattinson-named-as-new-james-bond",
+      "hosted": "09-6d23f9be.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 113660,
+      "out": "1600x1067",
+      "bytes": 107070,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.58,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-17T06:15:58.272Z"
+    },
+    {
+      "slot": "r01",
+      "id": "reco-dwarkesh-christiano-2026-11-16",
+      "headline": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+      "source": "https://img.youtube.com/vi/SyHM5hNPAEo/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=SyHM5hNPAEo",
+      "hosted": "r01-3c24a153.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 159585,
+      "out": "1280x720",
+      "bytes": 82782,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-17T06:15:58.468Z"
+    }
+  ]
+}
