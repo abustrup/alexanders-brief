@@ -233,6 +233,14 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
+    },
+    {
+      "date": "2026-11-17",
+      "slug": "to-chefer-for-hver-opgave",
+      "claim": "Offentligt ansatte vokser i antal, fordi ledere ansætter for egen status, ikke fordi opgaverne vokser - Parkinsons lov, ikke dårlig digitalisering.",
+      "horizon": "De kommende fem års personalestatistik fra Danmarks Statistik",
+      "falsifier": "Jeg tager fejl, hvis det samlede antal offentligt ansatte i Danmark falder eller står stille over en årrække, hvor opgavemængden - målt på borgere, elever eller sagsbehandlinger - stiger markant, uden at det skyldes en bevidst, politisk vedtaget personalereduktion.",
+      "status": "open"
     }
   ]
 }
