@@ -1,0 +1,207 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-18",
+  "generatedAt": "2026-11-18T05:26:36.811Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "s0000001a",
+      "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "source": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2297253363-e1794320243739.jpg",
+      "article": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "hosted": "01-8cf30596.jpg",
+      "srcSize": "2880x1920",
+      "srcFormat": "webp",
+      "srcBytes": 384588,
+      "out": "1600x1200",
+      "bytes": 167548,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.299,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-18T05:26:37.890Z"
+    },
+    {
+      "slot": "02",
+      "id": "s0000002a",
+      "headline": "SEC reportedly investigating Nvidia amid Huang exit",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+      "article": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "hosted": "02-b1d1ac98.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 49962,
+      "out": "1200x800",
+      "bytes": 58333,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0.429
+      },
+      "fetchedAt": "2026-11-18T05:26:38.118Z"
+    },
+    {
+      "slot": "03",
+      "id": "s0000003a",
+      "headline": "Isomorphic Labs Raises $5B Series C to Advance AI Drug Design",
+      "source": "https://image.cnbcfm.com/api/v1/image/108345511-1785952971710-gettyimages-2276590978-AFP_B3DL692.jpeg?v=1785954999&w=1920&h=1080",
+      "article": "https://www.unite.ai/isomorphic-labs-raises-5b-series-c-to-advance-ai-drug-design/",
+      "hosted": "03-5b443b54.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 85708,
+      "out": "1600x1067",
+      "bytes": 79026,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.509,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-18T05:26:38.434Z"
+    },
+    {
+      "slot": "04",
+      "id": "s0000004a",
+      "headline": "Three things to watch as Trump, Xi and Putin meet in China",
+      "source": "https://image.cnbcfm.com/api/v1/image/108553723-1794964906957-gettyimages-2305438045-16.jpeg?v=1794964990&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "hosted": "04-d307c34c.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 554635,
+      "out": "1600x1067",
+      "bytes": 396233,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.096
+      },
+      "fetchedAt": "2026-11-18T05:26:38.866Z"
+    },
+    {
+      "slot": "05",
+      "id": "s0000005a",
+      "headline": "Witkoff and Kushner will discuss Ukraine's security guarantees and reconstruction in Berlin",
+      "source": "https://newsukraine.rbc.ua/static/img/_/v/_vitkoff_dzhared_kushner_kiyiv_06_09_2026_foto__rbk_ukrayina_0a5a0562_15375df7e6d93ababdae43f25617bdc9_1300x820_b7c95931b4826de31e6235e6e9e00e5b_1300x820.jpg",
+      "article": "https://www.pravda.com.ua/eng/news/2026/11/17/8063195/",
+      "hosted": "05-0084e782.jpg",
+      "srcSize": "1300x820",
+      "srcFormat": "jpeg",
+      "srcBytes": 111314,
+      "out": "1230x820",
+      "bytes": 85191,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-18T05:26:39.261Z"
+    },
+    {
+      "slot": "06",
+      "id": "s0000006a",
+      "headline": "Vestas plans to cut 180 jobs in Denmark",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/6/2/c/62c1a56d-3430-4c72-856b-af95237afc31?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCwxMjQsNDU2NCwyNTY3&s=09125590d392dc24a4e3a5e5c43f2a11",
+      "article": "https://cphpost.dk/2026-11-16/business-education/business-business-education/vestas-plans-to-cut-180-jobs-in-denmark/",
+      "hosted": "06-fa67de98.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 19722,
+      "out": "1080x720",
+      "bytes": 42209,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 0.5
+      },
+      "fetchedAt": "2026-11-18T05:26:39.671Z"
+    },
+    {
+      "slot": "07",
+      "id": "s0000007a",
+      "headline": "Senate Intel Vice Chair Warner says AI contributing to network outages",
+      "source": "https://thehill.com/wp-content/uploads/sites/2/2026/07/warnermark_061726gn02_w.jpg?w=1280",
+      "article": "https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
+      "hosted": "07-4a5b8edf.jpg",
+      "srcSize": "1280x719",
+      "srcFormat": "webp",
+      "srcBytes": 50772,
+      "out": "1078x719",
+      "bytes": 50122,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.675,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-18T05:26:40.081Z"
+    },
+    {
+      "slot": "08",
+      "id": "s0000008a",
+      "headline": "Hera's first close-up view of Didymos asteroids",
+      "source": "https://dq0hsqwjhea1.cloudfront.net/Hera-Didymos-peek-at-Dimorphos.webp",
+      "article": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids",
+      "hosted": "08-eba93ef5.jpg",
+      "srcSize": "1020x1020",
+      "srcFormat": "webp",
+      "srcBytes": 6648,
+      "out": "1020x680",
+      "bytes": 9691,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.396,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-18T05:26:40.293Z"
+    },
+    {
+      "slot": "09",
+      "id": "s0000009a",
+      "headline": "Perplexity CEO touts $1B run rate, jabs at Anthropic in IPO week",
+      "source": "https://img.semafor.com/245ea2f6bd8134ca245e6f0e6215519728ff4028-5000x3335.jpg?w=1480&q=75&auto=format&h=987",
+      "article": "https://www.cryptopolitan.com/perplexity-ceo-jabs-at-anthropic-in-ipo-week/",
+      "hosted": "09-0f821e6f.jpg",
+      "srcSize": "1480x987",
+      "srcFormat": "jpeg",
+      "srcBytes": 122366,
+      "out": "1480x987",
+      "bytes": 118171,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-18T05:26:40.737Z"
+    },
+    {
+      "slot": "r01",
+      "id": "r0000001a",
+      "headline": "PLSC 118 - Lecture 17 - Distributive Justice and the Welfare State",
+      "source": "https://img.youtube.com/vi/s3urPwTmTnI/hqdefault.jpg",
+      "article": "https://oyc.yale.edu/political-science/plsc-118/lecture-17",
+      "hosted": "r01-c942c5e9.jpg",
+      "srcSize": "480x360",
+      "srcFormat": "jpeg",
+      "srcBytes": 7226,
+      "out": "480x270",
+      "bytes": 8050,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-18T05:26:40.833Z"
+    }
+  ]
+}

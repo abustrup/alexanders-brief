@@ -1,0 +1,1053 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-11-18-001",
+  "date": "2026-11-18",
+  "generatedAt": "2026-11-18T05:30:00Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "18. november 2026",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "s0000001a",
+      "eventKey": "anthropic-ipo-pricing-above-range-2026-11",
+      "materialFacts": [
+        "Anthropic prissætter sin IPO aftenen 18. november; handel på Nasdaq (ANT) starter 19. november",
+        "Prisinterval $70-78/aktie; bankerne overvejer at gå over intervallet, op mod $1,4-1,5 billioner i værdi",
+        "Nvidia, Google, AMD, Broadcom, Microsoft, Micron og TSMC køber ikke-stemmeberettigede aktier for $26 mia. parallelt med udbuddet",
+        "New Constructs vurderer Anthropic op til 93% overvurderet ved en pris på $2 billioner"
+      ],
+      "section": "Erhverv",
+      "headline": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+      "subheadline": "Bankerne overvejer at gå over $70-78, med handel fra 19. november.",
+      "body": [
+        "Anthropic sætter prisen natten til 19. november. Kilder siger, bankerne vil gå over intervallet $70-78 per aktie - op mod $1,4-1,5 billioner. Nvidia, Google, AMD, Broadcom, Microsoft, Micron og TSMC køber aktier uden stemmeret for $26 mia. parallelt med udbuddet."
+      ],
+      "whyItMatters": "Prisen bliver det første benchmark for, hvad markedet vil betale for AI-modeller.",
+      "analysis": "At leverandørerne selv investerer i udbuddet, gør prisen sværere at læse som et uafhængigt markedssignal.",
+      "counterpoint": "New Constructs vurderer Anthropic op til 93% overvurderet ved en pris på $2 billioner.",
+      "topics": [
+        "ai",
+        "usa",
+        "erhverv"
+      ],
+      "entities": [
+        "Anthropic",
+        "Nasdaq",
+        "Nvidia",
+        "Google",
+        "AMD",
+        "Broadcom",
+        "Microsoft",
+        "Micron",
+        "TSMC",
+        "New Constructs"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 88,
+        "novelty": 75,
+        "sourceQuality": 85,
+        "personalRelevance": 95,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "Anthropic ventes at prissætte sin børsnotering aftenen 18. november, med handel på Nasdaq under ANT fra 19. november",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+            "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "New Constructs vurderer Anthropic op til 93% overvurderet ved en værdi på $2 billioner",
+          "sourceUrls": [
+            "https://247wallst.com/investing/2026/10/08/unprecedented-test-of-investor-gullibility-analyst-says-anthropic-could-be-overvalued-by-as-much-as-93-at-a-2-trillion-ipo-valuation/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+          "publishedAt": "2026-11-17T20:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic Is Said to Guide IPO Price to Top of Range or Above",
+          "publisher": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above",
+          "publishedAt": "2026-11-17T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Unprecedented Test Of Investor Gullibility: Analyst Says Anthropic Could Be Overvalued By As Much As 93% At A $2 Trillion IPO Valuation",
+          "publisher": "24/7 Wall St.",
+          "url": "https://247wallst.com/investing/2026/10/08/unprecedented-test-of-investor-gullibility-analyst-says-anthropic-could-be-overvalued-by-as-much-as-93-at-a-2-trillion-ipo-valuation/",
+          "publishedAt": "2026-10-08T12:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/01-8cf30596.jpg",
+        "credit": "Foto: Getty Images",
+        "alt": "Anthropic-stifter og topchef Dario Amodei ved et møde om kunstig intelligens i Washington i 2026",
+        "sourceUrl": "https://fortune.com/2026/11/10/anthropic-ipo-price-range-ai-stock-sell-off/",
+        "origin": "coverage",
+        "fingerprint": "6153240c0c8e8e8c73d3660e0e8e8eae53e6664e0e0e0d0ed3a7465b0f0f8d8d2347c79d1f0f0c8cc3a3af9d1f1f4e0e",
+        "lookedAt": "6153240c0c8e8e8c73d3660e0e8e8eae53e6664e0e0e0d0ed3a7465b0f0f8d8d2347c79d1f0f0c8cc3a3af9d1f1f4e0e",
+        "originalUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/11/GettyImages-2297253363-e1794320243739.jpg",
+        "focus": {
+          "x": 0.299,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "s0000002a",
+      "eventKey": "nvidia-sec-civil-probe-huang-fallout-2026-11",
+      "materialFacts": [
+        "SEC har åbnet en civil undersøgelse af Nvidias oplysninger til investorer om Jensen Huangs exit",
+        "Nvidia meldte Q3-omsætning på $115,8 mia., op 103% år over år",
+        "Interim-CEO Colette Kress: Nvidia stopper salg af H200-chips til Kina",
+        "Bestyrelsen har nedsat et udvalg for national sikkerhed og eksportkontrol"
+      ],
+      "section": "Teknologi",
+      "headline": "SEC reportedly investigating Nvidia amid Huang exit",
+      "primarySourceUrl": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "subheadline": "Samme uge som rekordregnskab stopper Nvidia H200-salg til Kina.",
+      "body": [
+        "SEC har åbnet en civil undersøgelse af, om Nvidias oplysninger til investorer var misvisende om Huangs exit. Samme uge meldte Nvidia Q3-omsætning på $115,8 mia., op 103%, og Kress oplyste, selskabet stopper H200-salg til Kina."
+      ],
+      "whyItMatters": "En civil SEC-sag lægger et juridisk lag på skandalen og kan afgøre, om bestyrelsens håndtering holder.",
+      "analysis": "At Nvidia samtidig stopper Kina-salg og opretter et udvalg, viser et selskab, der lukker flere fronter samme uge.",
+      "counterpoint": "Huang siger offentligt, han ville være beæret over at vende tilbage som CEO.",
+      "topics": [
+        "ai",
+        "usa",
+        "erhverv",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Nvidia",
+        "Jensen Huang",
+        "Colette Kress",
+        "SEC"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 75,
+        "novelty": 68,
+        "sourceQuality": 78,
+        "personalRelevance": 85,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "SEC har åbnet en civil undersøgelse af Nvidias oplysninger om Huangs exit",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Nvidia meldte Q3-omsætning på $115,8 mia., op 103% år over år, og stopper H200-salg til Kina",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+            "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Huang siger offentligt, han ville være beæret over at vende tilbage som CEO, hvis bestyrelsen besluttede det",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SEC reportedly investigating Nvidia amid Huang exit",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+          "publishedAt": "2026-11-17T18:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia earnings live: Nvidia posts Q3 beat as revenue rose 103% YOY to $115.8B, board says it will not reinstate Jensen Huang as CEO",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/17/nvidia-nvda-earnings-report-q3-2027.html",
+          "publishedAt": "2026-11-17T21:30:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia is abandoning China after Jensen Huang's ouster",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+          "publishedAt": "2026-11-17T16:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Jensen Huang says he would be 'honored' if allowed to return as Nvidia CEO",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+          "publishedAt": "2026-11-17T22:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/02-b1d1ac98.jpg",
+        "credit": "Kilde: TechCrunch",
+        "alt": "SEC reportedly investigating Nvidia amid Huang exit",
+        "sourceUrl": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+        "origin": "article",
+        "fingerprint": "02080c0c246683b90a0c0c0c6667a3ac090c0e0e6ee7e3ac0d0e4e4a6ee7e3250c0f4a8aefe3c1d50e4b4b4bafe3c3d1",
+        "lookedAt": "02080c0c246683b90a0c0c0c6667a3ac090c0e0e6ee7e3ac0d0e4e4a6ee7e3250c0f4a8aefe3c1d50e4b4b4bafe3c3d1",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/09/Jensen-Huang.jpg?resize=1200,800",
+        "focus": {
+          "x": 0.5,
+          "y": 0.429
+        }
+      }
+    },
+    {
+      "id": "s0000003a",
+      "eventKey": "isomorphic-labs-5b-series-c-2026-11",
+      "materialFacts": [
+        "Isomorphic Labs har rejst $5 mia. i en Series C anført af Greenoaks og Sequoia Capital",
+        "Runden er branches største finansiering siden 2022; Andreessen Horowitz og Alphabet deltager også",
+        "Følger en Series B på $2,1 mia. i maj 2026 anført af Thrive Capital",
+        "Demis Hassabis: kapitalen skal accelerere grundmodeller for biologi og føre terapier mod kliniske forsøg"
+      ],
+      "section": "Erhverv",
+      "headline": "Isomorphic Labs Raises $5B Series C to Advance AI Drug Design",
+      "primarySourceUrl": "https://www.unite.ai/isomorphic-labs-raises-5b-series-c-to-advance-ai-drug-design/",
+      "subheadline": "Alphabets AI-lægemiddelselskab rejser branchens største runde siden 2022.",
+      "body": [
+        "Isomorphic Labs, Alphabets AI-lægemiddelselskab ledet af Demis Hassabis, har rejst $5 mia. i en Series C anført af Greenoaks og Sequoia Capital, med Andreessen Horowitz som ny investor. Det følger en Series B på $2,1 mia. i maj. Hassabis siger, kapitalen skal fremskynde biologimodeller og føre terapier mod kliniske forsøg."
+      ],
+      "whyItMatters": "Beløbet viser, investorer prissætter AI-lægemiddeldesign som en selvstændig kategori.",
+      "analysis": "At Alphabet investerer igen, holder Isomorphic tættere på moderselskabet end andre AI-spinouts.",
+      "topics": [
+        "ai",
+        "biotek",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Isomorphic Labs",
+        "Demis Hassabis",
+        "Alphabet",
+        "Greenoaks",
+        "Sequoia Capital",
+        "Andreessen Horowitz"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 72,
+        "novelty": 78,
+        "sourceQuality": 75,
+        "personalRelevance": 80,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Isomorphic Labs har rejst $5 mia. i en Series C anført af Greenoaks og Sequoia Capital",
+          "sourceUrls": [
+            "https://www.unite.ai/isomorphic-labs-raises-5b-series-c-to-advance-ai-drug-design/",
+            "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Isomorphic Labs Raises $5B Series C to Advance AI Drug Design",
+          "publisher": "Unite.AI",
+          "url": "https://www.unite.ai/isomorphic-labs-raises-5b-series-c-to-advance-ai-drug-design/",
+          "publishedAt": "2026-11-17T14:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "AI drugmaker Isomorphic restocks with $5B fundraise",
+          "publisher": "BioPharma Dive",
+          "url": "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/",
+          "publishedAt": "2026-11-17T15:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/03-5b443b54.jpg",
+        "credit": "Foto: Karl Mondon / AFP / Getty Images",
+        "alt": "Demis Hassabis, topchef for Isomorphic Labs og tidligere chef for Google DeepMind",
+        "sourceUrl": "https://www.cnbc.com/2026/11/17/isomorphic-labs-series-c-ai-drug-discovery-.html",
+        "origin": "article",
+        "fingerprint": "093039e8d4d292e82d3129e8d492b2a8213169c8b282b339306048ccb28a33316858cccc3119513168d48c6c71314930",
+        "lookedAt": "093039e8d4d292e82d3129e8d492b2a8213169c8b282b339306048ccb28a33316858cccc3119513168d48c6c71314930",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108345511-1785952971710-gettyimages-2276590978-AFP_B3DL692.jpeg?v=1785954999&w=1920&h=1080",
+        "focus": {
+          "x": 0.509,
+          "y": 0
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://imgproxy.divecdn.com/XR6l2Qj2g4B4CB37sdOLenuphIml_Nkd6bSICB9-bz8/g:ce/rs:fill:1200:1200:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9HZXR0eUltYWdlcy0yMjc2OTg0OTQ5LmpwZw==.webp",
+          "fingerprint": "65a5e7531333185464a7e751333138dca6a7e11133397a182727c9103129783867e3881179697079e34158b979dc7479",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "s0000004a",
+      "eventKey": "trump-xi-putin-trilateral-shenzhen-2026-11",
+      "materialFacts": [
+        "Trump, Xi og Putin holder det første trepartstopmøde mellem USA, Kina og Rusland i Shenzhen",
+        "Mødet sker i forlængelse af APEC-topmødet",
+        "Trump siger, mødet skal dreje sig om Iran og en mulig aftale om atomlagre, ikke direkte om Ukraine",
+        "Trump og Xi mødes bilateralt, før Putin kommer med; intet separat Trump-Putin-møde er planlagt"
+      ],
+      "section": "Geopolitik",
+      "headline": "Three things to watch as Trump, Xi and Putin meet in China",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+      "subheadline": "Første trepartstopmøde mellem USA, Kina og Rusland, med atomvåben på dagsordenen.",
+      "body": [
+        "Trump, Xi og Putin holder i forlængelse af APEC-topmødet i Shenzhen det første trepartsmøde mellem USA, Kina og Rusland. Trump siger, samtalen skal handle om Iran og atomlagre - ikke direkte om krigen i Ukraine. Trump og Xi mødes bilateralt først; intet separat Trump-Putin-møde er planlagt."
+      ],
+      "whyItMatters": "Det er første gang, lederne af de tre militært stærkeste stater mødes samlet.",
+      "analysis": "At Ukraine er holdt uden for dagsordenen, mens Berlin-forhandlingerne kører parallelt, viser to spor i hver sin retning.",
+      "topics": [
+        "geopolitik",
+        "usa",
+        "kina",
+        "rusland"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Xi Jinping",
+        "Vladimir Putin",
+        "APEC"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 90,
+        "decisionValue": 40,
+        "novelty": 85,
+        "sourceQuality": 85,
+        "personalRelevance": 30,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Trump, Xi og Putin holder det første trepartstopmøde mellem USA, Kina og Rusland i Shenzhen",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+            "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Three things to watch as Trump, Xi and Putin meet in China",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+          "publishedAt": "2026-11-18T05:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump, Xi and Putin to hold first three-way summit in China",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+          "publishedAt": "2026-11-14T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/04-d307c34c.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Three things to watch as Trump, Xi and Putin meet in China",
+        "sourceUrl": "https://www.cnbc.com/2026/11/18/apec-trump-xi-putin-shenzhen.html",
+        "origin": "article",
+        "fingerprint": "8eccc5c5846688250c8e8694846649058e8a8296a6c545890ea3a20626a7c4c42d2323272646c4c62561292727c78396",
+        "lookedAt": "8eccc5c5846688250c8e8694846649058e8a8296a6c545890ea3a20626a7c4c42d2323272646c4c62561292727c78396",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108553723-1794964906957-gettyimages-2305438045-16.jpeg?v=1794964990&w=1920&h=1080",
+        "focus": {
+          "x": 0.1,
+          "y": 0.096
+        }
+      }
+    },
+    {
+      "id": "s0000005a",
+      "eventKey": "ukraine-berlin-security-guarantees-talks-2026-11",
+      "materialFacts": [
+        "Witkoff og Kushner mødes med Ukraine og europæiske lande i Berlin 19. november om sikkerhedsgarantier og genopbygning",
+        "Moskva siger, Rusland ikke har accepteret europæisk deltagelse i de videre forhandlinger",
+        "Zelensky henviser til nordkoreanske missilleverancer til Rusland som baggrund for Ukraines prioriteter"
+      ],
+      "section": "Geopolitik",
+      "headline": "Witkoff and Kushner will discuss Ukraine's security guarantees and reconstruction in Berlin",
+      "primarySourceUrl": "https://www.pravda.com.ua/eng/news/2026/11/17/8063195/",
+      "subheadline": "Rusland afviser europæisk deltagelse, mens Ukraine sætter dagsordenen i Berlin.",
+      "body": [
+        "USA's udsendinge Witkoff og Kushner mødes 19. november med Ukraine og europæiske lande i Berlin om sikkerhedsgarantier. Moskva siger, Rusland ikke har accepteret europæisk deltagelse ud over USA, Ukraine og Rusland. Zelensky nævner nordkoreanske missiler til Rusland som baggrund."
+      ],
+      "whyItMatters": "Hvem der sidder ved bordet afgør, om aftalen bliver amerikansk-russisk eller en europæisk garanti.",
+      "analysis": "Ruslands afvisning er selv et forhandlingskort, der kan svække garantierne, Ukraine ønsker.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik",
+        "ukraine"
+      ],
+      "entities": [
+        "Ukraine",
+        "Steve Witkoff",
+        "Jared Kushner",
+        "Volodymyr Zelensky",
+        "Rusland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 88,
+        "decisionValue": 35,
+        "novelty": 60,
+        "sourceQuality": 80,
+        "personalRelevance": 35,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Witkoff og Kushner mødes med Ukraine og europæiske lande i Berlin 19. november om sikkerhedsgarantier",
+          "sourceUrls": [
+            "https://www.pravda.com.ua/eng/news/2026/11/17/8063195/",
+            "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Witkoff and Kushner will discuss Ukraine's security guarantees and reconstruction in Berlin",
+          "publisher": "Ukrainska Pravda",
+          "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063195/",
+          "publishedAt": "2026-11-17T12:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ukraine holds peace talks with US, Europe as conflict escalates",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates",
+          "publishedAt": "2026-11-17T09:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/05-0084e782.jpg",
+        "credit": "Kilde: RBC-Ukraine",
+        "alt": "Steve Witkoff (th.) og Jared Kushner (tv.) ved et tidligere fælles optræden",
+        "sourceUrl": "https://newsukraine.rbc.ua/news/us-envoys-witkoff-and-kushner-to-meet-ukrainian-1794897743.html",
+        "origin": "coverage",
+        "fingerprint": "4e4949c9cba3abbbc9c9c9c989a125298d89e5ada9a1656d84a4c4ac0c2564640444e6244c2862c646c6a424c4066ac2",
+        "lookedAt": "4e4949c9cba3abbbc9c9c9c989a125298d89e5ada9a1656d84a4c4ac0c2564640444e6244c2862c646c6a424c4066ac2",
+        "originalUrl": "https://newsukraine.rbc.ua/static/img/_/v/_vitkoff_dzhared_kushner_kiyiv_06_09_2026_foto__rbk_ukrayina_0a5a0562_15375df7e6d93ababdae43f25617bdc9_1300x820_b7c95931b4826de31e6235e6e9e00e5b_1300x820.jpg",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "s0000006a",
+      "eventKey": "vestas-180-jobs-cut-denmark-2026-11",
+      "materialFacts": [
+        "Vestas nedlægger 180 stillinger i Danmark, ca. 115 på hovedkontoret i Aarhus",
+        "Del af effektiviseringsprogram fra 2025; rammer primært administrative funktioner",
+        "Berørte medarbejdere ventes informeret inden udgangen af november"
+      ],
+      "section": "Erhverv",
+      "headline": "Vestas plans to cut 180 jobs in Denmark",
+      "primarySourceUrl": "https://cphpost.dk/2026-11-16/business-education/business-business-education/vestas-plans-to-cut-180-jobs-in-denmark/",
+      "subheadline": "115 af stillingerne forsvinder på hovedkontoret i Aarhus.",
+      "body": [
+        "Vestas nedlægger 180 stillinger i Danmark, heraf omkring 115 i Aarhus. Nedskæringerne er del af effektiviseringsprogrammet fra 2025 og rammer primært administrative funktioner. De berørte ventes informeret inden udgangen af november."
+      ],
+      "whyItMatters": "Det er endnu et tegn på, at pres på marginer rammer kontorerne, ikke kun fabrikkerne.",
+      "analysis": "At nedskæringen er administrativ, ikke produktion, tyder på omlægning snarere end faldende efterspørgsel.",
+      "topics": [
+        "danmark",
+        "erhverv",
+        "energi"
+      ],
+      "entities": [
+        "Vestas",
+        "Aarhus"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 45,
+        "novelty": 60,
+        "sourceQuality": 78,
+        "personalRelevance": 55,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "Vestas nedlægger 180 stillinger i Danmark, ca. 115 i Aarhus",
+          "sourceUrls": [
+            "https://cphpost.dk/2026-11-16/business-education/business-business-education/vestas-plans-to-cut-180-jobs-in-denmark/",
+            "https://nyheder.tv2.dk/business/2026-11-16-vestas-nedlaegger-180-stillinger-i-danmark"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vestas plans to cut 180 jobs in Denmark",
+          "publisher": "The Copenhagen Post",
+          "url": "https://cphpost.dk/2026-11-16/business-education/business-business-education/vestas-plans-to-cut-180-jobs-in-denmark/",
+          "publishedAt": "2026-11-16T10:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Vestas nedlægger 180 stillinger i Danmark",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/business/2026-11-16-vestas-nedlaegger-180-stillinger-i-danmark",
+          "publishedAt": "2026-11-16T11:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/06-fa67de98.jpg",
+        "credit": "Kilde: TV 2",
+        "alt": "Vestas plans to cut 180 jobs in Denmark",
+        "sourceUrl": "https://nyheder.tv2.dk/business/2026-11-16-vestas-nedlaegger-180-stillinger-i-danmark",
+        "origin": "source",
+        "fingerprint": "0d1b1b13cb66396b2d1b5b139bc76c692d195b139fcb66782d195b131789c27c29195b13139cc1ca69995a53131e8ac1",
+        "lookedAt": "0d1b1b13cb66396b2d1b5b139bc76c692d195b139fcb66782d195b131789c27c29195b13139cc1ca69995a53131e8ac1",
+        "originalUrl": "https://cdn-free.tv2i.dk/e/d/i/editorial/6/2/c/62c1a56d-3430-4c72-856b-af95237afc31?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=MCwxMjQsNDU2NCwyNTY3&s=09125590d392dc24a4e3a5e5c43f2a11",
+        "focus": {
+          "x": 0.889,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "s0000007a",
+      "eventKey": "ai-patch-rush-outage-wave-congress-2026-11",
+      "materialFacts": [
+        "Senator Mark Warner siger offentligt, at presset for at lappe AI-fundne sårbarheder bidrog til ugens driftsnedbrud",
+        "Nedbruddene ramte bl.a. Microsoft 365, NSA's klassificerede net, FAA og flere banker 12.-17. november",
+        "Warner siger samtidig, intet tyder på et koordineret cyberangreb",
+        "FAA-administrator og udenrigsminister Rubio siger, der er 'nul beviser' for en AI-relateret forklaring"
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "Senate Intel Vice Chair Warner says AI contributing to network outages",
+      "primarySourceUrl": "https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
+      "subheadline": "Senator Warner kobler ugens nedbrud til et pres for at lappe AI-fundne sårbarheder.",
+      "body": [
+        "Senator Mark Warner siger offentligt, presset for at lappe AI-fundne sårbarheder bidrog til ugens nedbrud - blandt andet Microsoft 365 og NSA's net 12.-17. november. Han ser intet tegn på cyberangreb. FAA-administratoren og Rubio siger derimod, der er 'nul beviser' for en AI-forklaring."
+      ],
+      "whyItMatters": "Hvis AI finder sårbarheder hurtigere, end organisationer kan rette dem, er det en ny systemisk risiko.",
+      "analysis": "At en senator og en minister trækker hver sin vej, viser myndighederne mangler en fælles forklaring.",
+      "topics": [
+        "cybersikkerhed",
+        "ai",
+        "usa",
+        "teknologisk-suverænitet"
+      ],
+      "entities": [
+        "Mark Warner",
+        "NSA",
+        "Microsoft",
+        "FAA",
+        "Marco Rubio"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 55,
+        "novelty": 82,
+        "sourceQuality": 65,
+        "personalRelevance": 72,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Senator Warner siger offentligt, at AI-patch-presset bidrog til ugens nedbrud, men ser intet tegn på koordineret angreb",
+          "sourceUrls": [
+            "https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
+            "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "FAA-administrator og Rubio siger, der er 'nul beviser' for en AI-relateret forklaring",
+          "sourceUrls": [
+            "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Senate Intel Vice Chair Warner says AI contributing to network outages",
+          "publisher": "The Hill",
+          "url": "https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
+          "publishedAt": "2026-11-17T17:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Rubio says there's 'zero evidence' recent tech outages are related",
+          "publisher": "CBS News",
+          "url": "https://www.cbsnews.com/news/marco-rubio-tech-outages-not-connected/",
+          "publishedAt": "2026-11-17T19:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Bank CEOs, NSA Tell Congress That AI-Driven Patches Are Behind Outages",
+          "publisher": "The Washington Sun",
+          "url": "https://www.washingtonsun.com/technology/bank-ceos-nsa-tell-congress-ai-driven-patches-behind-outages",
+          "publishedAt": "2026-11-17T08:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/07-4a5b8edf.jpg",
+        "credit": "Kilde: The Hill",
+        "alt": "Sen. Mark Warner (D-Va.)",
+        "sourceUrl": "https://thehill.com/homenews/senate/6226826-mark-warner-ai-cybersecurity-system-outages/",
+        "origin": "article",
+        "fingerprint": "39356e7f3febc3a634666e7f2f69c3a3766e4f752f6dc9a3664f5f76676ec98147cfdb7a666edc88cf9fdbdbe7efef8e",
+        "lookedAt": "39356e7f3febc3a634666e7f2f69c3a3766e4f752f6dc9a3664f5f76676ec98147cfdb7a666edc88cf9fdbdbe7efef8e",
+        "originalUrl": "https://thehill.com/wp-content/uploads/sites/2/2026/07/warnermark_061726gn02_w.jpg?w=1280",
+        "focus": {
+          "x": 0.675,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "s0000008a",
+      "eventKey": "hera-dimorphos-rectangular-orbit-observations-2026-11",
+      "materialFacts": [
+        "ESA's Hera-sonde ankom til Didymos-Dimorphos-systemet 11. november",
+        "Hera flyver 'rektangulære baner' 25-30 km fra Didymos for at observere begge asteroider",
+        "DART-anslaget i 2022 forkortede Dimorphos' omløbstid om Didymos med ca. 33 minutter",
+        "Detaljerede billeder af begge asteroider ventes offentliggjort 25. november"
+      ],
+      "section": "Videnskab",
+      "headline": "Hera's first close-up view of Didymos asteroids",
+      "primarySourceUrl": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids",
+      "subheadline": "ESA-sonden kortlægger det første objekt, mennesker har flyttet i sin bane.",
+      "body": [
+        "ESA's Hera-sonde ankom 11. november til Didymos-Dimorphos og flyver 'rektangulære baner' 25-30 km derfra. Dimorphos er det første objekt, hvis bane er målbart ændret af mennesker: DART-anslaget i 2022 forkortede omløbstiden med cirka 33 minutter. Billeder, der viser, om anslaget skabte et krater, ventes 25. november."
+      ],
+      "whyItMatters": "Billederne afgør, om vi kan forudsige, hvad der sker, når vi afbøjer en asteroide på kollisionskurs.",
+      "analysis": "At Hera flyver systematiske baner frem for at lande straks, viser en forsigtig kortlægning før nærkontakt.",
+      "topics": [
+        "videnskab",
+        "rummet"
+      ],
+      "entities": [
+        "ESA",
+        "Hera",
+        "NASA",
+        "Dimorphos",
+        "Didymos"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 15,
+        "novelty": 80,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 15
+      },
+      "claims": [
+        {
+          "text": "Hera ankom 11. november og observerer nu fra 25-30 km afstand; billeder ventes 25. november",
+          "sourceUrls": [
+            "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids",
+            "https://skyandtelescope.org/astronomy-news/spacecraft-investigates-asteroid-after-impact/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hera's first close-up view of Didymos asteroids",
+          "publisher": "ESA",
+          "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/hera-s-first-close-up-view-of-didymos-asteroids",
+          "publishedAt": "2026-11-15T09:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Hera Spacecraft Peeks at Asteroid Moonlet",
+          "publisher": "Sky & Telescope",
+          "url": "https://skyandtelescope.org/astronomy-news/spacecraft-investigates-asteroid-after-impact/",
+          "publishedAt": "2026-11-12T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/08-eba93ef5.jpg",
+        "credit": "Kilde: Sky & Telescope",
+        "alt": "Hera's first close-up view of Didymos asteroids",
+        "sourceUrl": "https://skyandtelescope.org/astronomy-news/spacecraft-investigates-asteroid-after-impact/",
+        "origin": "source",
+        "fingerprint": "00081098882008000028109c8c1008001020909c8c1028001040181d8d9844101844180d0d9844108860180d0d188418",
+        "lookedAt": "00081098882008000028109c8c1008001020909c8c1028001040181d8d9844101844180d0d9844108860180d0d188418",
+        "originalUrl": "https://dq0hsqwjhea1.cloudfront.net/Hera-Didymos-peek-at-Dimorphos.webp",
+        "focus": {
+          "x": 0.396,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "s0000009a",
+      "eventKey": "perplexity-1b-arr-anthropic-jab-2026-11",
+      "materialFacts": [
+        "Perplexitys CEO Aravind Srinivas: årlig omsætningsrate passerede $1 mia. 16. november",
+        "Op fra under $250 mio. ved årets start, mere end fire gange på et år",
+        "Selskabet er senest værdisat til $20 mia."
+      ],
+      "section": "Erhverv",
+      "headline": "Perplexity CEO touts $1B run rate, jabs at Anthropic in IPO week",
+      "primarySourceUrl": "https://www.cryptopolitan.com/perplexity-ceo-jabs-at-anthropic-in-ipo-week/",
+      "subheadline": "AI-søgemaskinen fejrer milliarden samme uge som konkurrenten går på Nasdaq.",
+      "body": [
+        "Perplexitys CEO Aravind Srinivas sagde 16. november, at selskabets årlige omsætningsrate er passeret $1 mia. - op fra under $250 mio. ved årets start. Udtalelsen kom i samme uge som Anthropics børsnotering, og Srinivas sammenlignede selskabernes vækst. Perplexity er senest værdisat til $20 mia."
+      ],
+      "whyItMatters": "Et sammenligneligt væksttal fra en konkurrent giver et ekstra datapunkt at holde Anthropics egne tal op mod.",
+      "analysis": "At tidspunktet er valgt netop i IPO-ugen, er næppe tilfældigt - tallet er også et markedsføringsgreb.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Perplexity",
+        "Aravind Srinivas",
+        "Anthropic"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 48,
+        "decisionValue": 58,
+        "novelty": 68,
+        "sourceQuality": 65,
+        "personalRelevance": 68,
+        "contrast": 55
+      },
+      "discoveredVia": {
+        "name": "AINews",
+        "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
+      },
+      "claims": [
+        {
+          "text": "Perplexitys årlige omsætningsrate passerede $1 mia. 16. november, op fra under $250 mio. ved årets start",
+          "sourceUrls": [
+            "https://www.cryptopolitan.com/perplexity-ceo-jabs-at-anthropic-in-ipo-week/",
+            "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Perplexity CEO touts $1B run rate, jabs at Anthropic in IPO week",
+          "publisher": "Cryptopolitan",
+          "url": "https://www.cryptopolitan.com/perplexity-ceo-jabs-at-anthropic-in-ipo-week/",
+          "publishedAt": "2026-11-16T18:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Perplexity hits a $1B revenue run rate, up 4x in 2026",
+          "publisher": "Latent Space (AINews)",
+          "url": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+          "publishedAt": "2026-11-17T06:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/09-0f821e6f.jpg",
+        "credit": "Foto: Kris Tripplaar / Semafor",
+        "alt": "Perplexity-topchef Aravind Srinivas",
+        "sourceUrl": "https://www.semafor.com/article/11/16/2026/america-needs-to-have-more-jensens-perplexity-ceo-lauds-huang-as-industry-titan",
+        "origin": "coverage",
+        "fingerprint": "30480c9c9375ad23784d1e9e93776569490d9e9e1372e46d4c9c9e1e1b73f6c4cc1f9f3a3b71f3c63e3b1e3b3948f1e3",
+        "lookedAt": "30480c9c9375ad23784d1e9e93776569490d9e9e1372e46d4c9c9e1e1b73f6c4cc1f9f3a3b71f3c63e3b1e3b3948f1e3",
+        "originalUrl": "https://img.semafor.com/245ea2f6bd8134ca245e6f0e6215519728ff4028-5000x3335.jpg?w=1480&q=75&auto=format&h=987",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://image.cnbcfm.com/api/v1/image/108552419-17948618041794861801-49678646458-1080pnbcnews.jpg?v=1794861803&w=1920&h=1080",
+          "fingerprint": "d046c6c0c4c63b59c4c6c3c0d6d62a59a6868384d2d62ad98783a3948293aa2a430121020393136b414112030913134d",
+          "reason": "screen-text"
+        }
+      ]
+    }
+  ],
+  "signals": [
+    {
+      "text": "Defence Equity Facility 2.0: mobilising €1 billion to scale up Europe's defence industrial base",
+      "headline": "Defence Equity Facility 2.0: mobilising €1 billion to scale up Europe's defence industrial base",
+      "url": "https://defence-industry-space.ec.europa.eu/defence-equity-facility-20-mobilising-eur1-billion-scale-europes-defence-industrial-base-2026-11-09_en",
+      "publisher": "European Commission",
+      "section": "Forsvar",
+      "publishedAt": "2026-11-09T10:00:00Z",
+      "topics": [
+        "forsvar",
+        "eu"
+      ]
+    },
+    {
+      "text": "OpenAI introduces GPT-6.2 Astra and Sol",
+      "headline": "OpenAI introduces GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/news/product-releases/",
+      "publisher": "OpenAI",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-17T17:00:00Z",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "FREHEMGO (denecimig) approved in the EU for haemophilia A, with a choice of monthly, every-two-weeks or weekly dosing",
+      "headline": "FREHEMGO (denecimig) approved in the EU for haemophilia A, with a choice of monthly, every-two-weeks or weekly dosing",
+      "url": "https://www.globenewswire.com/news-release/2026/11/13/3402854/0/en/frehemgo-denecimig-approved-in-the-eu-for-haemophilia-a-with-a-choice-of-monthly-every-two-weeks-or-weekly-dosing.html",
+      "publisher": "Novo Nordisk / GlobeNewswire",
+      "section": "Biotek",
+      "publishedAt": "2026-11-13T07:00:00Z",
+      "topics": [
+        "biotek",
+        "sundhed"
+      ]
+    },
+    {
+      "text": "FDA approves Roche's Wilserdly (giredestrant), a next-generation oral SERD, for ER-positive, ESR1-mutated advanced breast cancer",
+      "headline": "FDA approves Roche's Wilserdly (giredestrant), a next-generation oral SERD, for ER-positive, ESR1-mutated advanced breast cancer",
+      "url": "https://www.roche.com/media/releases/med-cor-2026-11-16b",
+      "publisher": "Roche",
+      "section": "Biotek",
+      "publishedAt": "2026-11-16T07:00:00Z",
+      "topics": [
+        "biotek",
+        "sundhed"
+      ]
+    },
+    {
+      "text": "FDA clears Medtronic's Hugo robotic-assisted surgery system for general surgery procedures",
+      "headline": "FDA clears Medtronic's Hugo robotic-assisted surgery system for general surgery procedures",
+      "url": "https://www.biospace.com/6-biotechs-facing-make-or-break-fda-pdufa-catalysts-in-november",
+      "publisher": "BioSpace",
+      "section": "Biotek",
+      "publishedAt": "2026-11-17T06:00:00Z",
+      "topics": [
+        "biotek",
+        "sundhed",
+        "teknologi"
+      ]
+    },
+    {
+      "text": "Months-old bug behind global Microsoft 365 outage, executive says",
+      "headline": "Months-old bug behind global Microsoft 365 outage, executive says",
+      "url": "https://www.hcamag.com/us/specialization/hr-technology/months-old-bug-behind-global-microsoft-365-outage-executive-says/597618",
+      "publisher": "HCAMag",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-17T12:00:00Z",
+      "topics": [
+        "teknologi",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "text": "Apple works to fix systems after update causes internal, retail outages",
+      "headline": "Apple works to fix systems after update causes internal, retail outages",
+      "url": "https://www.business-standard.com/technology/tech-news/apple-works-to-fix-systems-after-update-causes-internal-retail-outages-126111800185_1.html",
+      "publisher": "Business Standard",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-18T05:00:00Z",
+      "topics": [
+        "teknologi",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "text": "TRYNGOLZA (olezarsen) approved in the EU for severe hypertriglyceridemia (sHTG)",
+      "headline": "TRYNGOLZA (olezarsen) approved in the EU for severe hypertriglyceridemia (sHTG)",
+      "url": "https://ir.ionis.com/news-releases/news-release-details/tryngolzatm-olezarsen-approved-eu-severe-hypertriglyceridemia",
+      "publisher": "Ionis Pharmaceuticals",
+      "section": "Biotek",
+      "publishedAt": "2026-11-17T07:00:00Z",
+      "topics": [
+        "biotek",
+        "sundhed"
+      ]
+    },
+    {
+      "text": "Eikon Therapeutics Announces FDA Clearance of IND for EIK1006 in Advanced Metastatic Prostate Cancer",
+      "headline": "Eikon Therapeutics Announces FDA Clearance of IND for EIK1006 in Advanced Metastatic Prostate Cancer",
+      "url": "https://www.biospace.com/press-releases/eikon-therapeutics-submits-ind-for-novel-androgen-receptor-antagonist-eik1006-in-prostate-cancer",
+      "publisher": "BioSpace",
+      "section": "Biotek",
+      "publishedAt": "2026-11-17T08:00:00Z",
+      "topics": [
+        "biotek",
+        "sundhed"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "r0000001a",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "forelæsning",
+      "status": "classic",
+      "title": "PLSC 118 - Lecture 17 - Distributive Justice and the Welfare State",
+      "creator": "Ian Shapiro",
+      "provider": "Open Yale Courses",
+      "url": "https://oyc.yale.edu/political-science/plsc-118/lecture-17",
+      "availability": "Frit tilgængelig med video, lyd og transskription på oyc.yale.edu",
+      "commitment": "52 minutter",
+      "description": "Yale-professor Ian Shapiros forelæsning gennemgår Rawls' differensprincip - at ulighed kun er retfærdig, når den gavner den dårligst stillede - og stiller det op mod konkurrerende teorier om fordeling.",
+      "rationale": "Analytisk og Rawlsiansk politisk filosofi optræder i ingen af de 74 titler på din læseliste. Samme uge som Anthropics børsnotering og Isomorphic Labs' $5 mia.-runde gør AI-afkast til reelle milliarder, giver Shapiro det præcise sprog til at spørge, hvem der skal have gavn af dem - og hvorfor det ikke er selvfølgeligt.",
+      "topics": [
+        "filosofi",
+        "økonomi"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-18/r01-c942c5e9.jpg",
+        "credit": "Kilde: Open Yale Courses / YouTube",
+        "alt": "Ian Shapiro underviser i forelæsning 17 om fordelingsretfærdighed, Yale University",
+        "sourceUrl": "https://www.youtube.com/watch?v=s3urPwTmTnI",
+        "originalUrl": "https://img.youtube.com/vi/s3urPwTmTnI/hqdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "r0000002a",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "The No AI Slop Manifesto",
+      "provider": "Latent Space (AINews)",
+      "url": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "note": "Et argument mod lavkvalitets AI-indhold, værd at læse med egen daglige AI-brug i baghovedet.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "r0000003a",
+      "tier": "short",
+      "mode": "read",
+      "kind": "regnskabsmeddelelse",
+      "status": "new",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "provider": "Nvidia (GlobeNewswire)",
+      "url": "https://www.globenewswire.com/news-release/2026/11/17/3405200/0/en/nvidia-announces-financial-results-for-third-quarter-fiscal-2027.html",
+      "note": "Det primære regnskabsdokument bag dagens Nvidia-historie, for den der selv vil se tallene.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "r0000004a",
+      "tier": "short",
+      "mode": "read",
+      "kind": "analyse",
+      "status": "new",
+      "title": "Mr. IPO flags risk in Anthropic's $1.33T valuation",
+      "creator": "Jay Ritter",
+      "provider": "TheStreet",
+      "url": "https://www.thestreet.com/investing/anthropic-ipo-valuation-risk-1-trillion-ceiling-jay-ritter",
+      "note": "IPO-akademikeren Jay Ritter sætter tal på risikoen i dagens lead-historie.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceQuality": 78,
+    "diversity": 82,
+    "verification": 80
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "sloerets-andet-argument",
+    "title": "Sløret kollaps",
+    "thesis": "Bevidsthed kollapser ikke bølgefunktionen; ingen har isoleret en bevidst iagttager fra almindelig dekohærens.",
+    "horizon": "inden for ti år",
+    "body": [
+      "Von Neumann-Wigner-tesen holder kun, fordi intet forsøg endnu skiller bevidsthed fra den dekohærens, almindelig fysisk kontakt allerede giver."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis et loophole-frit Wigner's-friend-forsøg med en isoleret, bevidst observatør viser et resultat, kun bevidsthedskollaps kan forklare.",
+    "topics": [
+      "videnskab",
+      "filosofi"
+    ],
+    "claims": [
+      {
+        "text": "Von Neumann og Wigner foreslog, at en bevidst iagttagelse afgør kvantekollaps",
+        "sourceUrls": [
+          "https://plato.stanford.edu/entries/qm-collapse/"
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Collapse Theories",
+        "publisher": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/qm-collapse/",
+        "publishedAt": "2026-01-01T00:00:00Z",
+        "kind": "primary"
+      }
+    ]
+  }
+}
