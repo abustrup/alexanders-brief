@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "daily-2026-11-19-001",
+  "runId": "run-2026-11-19-uafternoon-r260",
   "date": "2026-11-19",
-  "generatedAt": "2026-11-19T05:40:00.000Z",
-  "readingMinutes": 7,
+  "generatedAt": "2026-11-19T23:03:57.331Z",
+  "readingMinutes": 9,
   "title": "Alexanders Brief",
   "dek": "Anthropic på Nasdaq, første Trump-Xi-Putin-topmøde, Krim-broen kollapser delvist, og en 300.000 kvm plan for København.",
   "profileWeights": {
@@ -714,6 +714,280 @@
           "y": 0.921
         }
       }
+    },
+    {
+      "id": "story-anthropic-ant-debut-20261119",
+      "eventKey": "anthropic-ant-trading-debut-2026-11",
+      "materialFacts": [
+        "ANT-aktien åbnede 111,50 dollar, 34 pct. over udbudsprisen på 83 dollar",
+        "Aktien lukkede i 97,17 dollar, 17 pct. over udbudsprisen, efter ca. 830 mio. handlede aktier",
+        "Omsætningen overgik SpaceX's debut i juni, som dermed mistede rekorden som største IPO"
+      ],
+      "section": "AI og finans",
+      "headline": "Anthropic IPO live updates: ANT stock price and Nasdaq debut",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "subheadline": "Aktien åbnede 34 pct. over udbudsprisen og lukkede 17 pct. over.",
+      "body": [
+        "Anthropic-aktien (ANT) handlede torsdag for første gang på Nasdaq og åbnede i 111,50 dollar - 34 procent over udbudsprisen på 83 dollar. Ved lukning stod kursen i 97,17 dollar, 17 procent over udbudsprisen, efter omkring 830 millioner handlede aktier, mere end SpaceX's debut i juni."
+      ],
+      "whyItMatters": "Debuten er markedets første kurssvar på prissætningen og viser fortsat vilje til at betale for AI-vækst, men med faldende begejstring gennem dagen.",
+      "topics": [
+        "ai",
+        "usa",
+        "venturekapital"
+      ],
+      "entities": [
+        "Anthropic",
+        "Nasdaq"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 75,
+        "contrast": 25
+      },
+      "claims": [
+        {
+          "text": "ANT åbnede i 111,50 dollar, 34 pct. over udbudsprisen",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+            "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "ANT lukkede i 97,17 dollar, 17 pct. over udbudsprisen, efter ca. 830 mio. handlede aktier",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+            "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic IPO live updates: ANT stock price and Nasdaq debut",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+          "publishedAt": "2026-11-19T21:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic IPO Live: ANT's First Day of Trading, Updated Step by Step",
+          "publisher": "StockTitan",
+          "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026",
+          "publishedAt": "2026-11-19T21:17:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/10-2cc3cc4f.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Anthropic IPO live updates: ANT stock price and Nasdaq debut",
+        "sourceUrl": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+        "origin": "article",
+        "fingerprint": "790fad6c3c93c3c3586e6c4c349343834d654444361353839566c6c42633d3c3a5c6c6c6a73fa3d947478395677f21b1",
+        "lookedAt": "790fad6c3c93c3c3586e6c4c349343834d654444361353839566c6c42633d3c3a5c6c6c6a73fa3d947478395677f21b1",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108555440-1795105864195-gettyimages-2305334311-ANTHROPIC_IPO.jpeg?v=1795105887&w=1920&h=1080",
+        "focus": {
+          "x": 0.245,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-19T23:03:57.331Z",
+        "runId": "run-2026-11-19-uafternoon-r260"
+      }
+    },
+    {
+      "id": "story-trump-xi-putin-declaration-20261119",
+      "eventKey": "trump-xi-putin-peace-declaration-2026-11",
+      "materialFacts": [
+        "Trump, Xi og Putin udsendte torsdag en fællerklæring efter topmødet i Shenzhen",
+        "Erklæringen omfatter afvisning af atomkrig, dialog om atomrisici, FN-reform og øget olieforsyning",
+        "Erklæringen nævner ikke Ukraine, Iran eller Nordkorea; Putin kaldte den ikke ambitiøs"
+      ],
+      "section": "Geopolitik",
+      "headline": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+      "primarySourceUrl": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+      "subheadline": "Firepunktserklæring springer Ukraine, Iran og Nordkorea over.",
+      "body": [
+        "Trump, Xi og Putin udsendte torsdag en firepunktserklæring efter topmødet i Shenzhen om atomkrig, FN-reform og olieforsyning. Erklæringen nævner hverken Ukraine eller Iran. Putin sagde selv, at den ikke satte ambitiøse mål, og at landene ikke er bundet til at efterleve den."
+      ],
+      "whyItMatters": "Udeladelsen viser, at det omtalte gennembrud er retorisk, ikke et skridt mod at løse konflikterne, der faktisk er i spil.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Xi Jinping",
+        "Vladimir Putin"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 30,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 45,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Erklæringens fire punkter: afvisning af atomkrig, dialog om atomrisici, FN-reform, øget olieforsyning",
+          "sourceUrls": [
+            "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Erklæringen nævner ikke Ukraine, Iran eller Nordkorea",
+          "sourceUrls": [
+            "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+            "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Putin sagde, erklæringen ikke satte ambitiøse mål, og at landene ikke er bundet til at efterleve den",
+          "sourceUrls": [
+            "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+          "publisher": "The Korea Times",
+          "url": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+          "publishedAt": "2026-11-19T16:15:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "'Groundbreaking' Trump-Xi-Putin summit: Five key takeaways",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+          "publishedAt": "2026-11-19T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/11-482dd1b4.jpg",
+        "credit": "Kilde: The Korea Times",
+        "alt": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit - The Korea Times",
+        "sourceUrl": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+        "origin": "article",
+        "fingerprint": "7333aaaabb33333371232b2b2b333333736b6969293173317369696961693173e14d4d4d4d6868e9ccccccdeeaca6461",
+        "lookedAt": "7333aaaabb33333371232b2b2b333333736b6969293173317369696961693173e14d4d4d4d6868e9ccccccdeeaca6461",
+        "originalUrl": "https://newsimg.koreatimes.co.kr/2026/11/20/22054e84-9fcf-42c9-839f-7975f08fc699.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-19T23:03:57.331Z",
+        "runId": "run-2026-11-19-uafternoon-r260"
+      }
+    },
+    {
+      "id": "story-icj-myanmar-genocide-20261119",
+      "eventKey": "icj-myanmar-genocide-rohingya-ruling-2026-11",
+      "materialFacts": [
+        "Domstolen (ICJ) afgjorde med 9-6 stemmer, at Myanmar har begået folkedrab mod rohingyaerne",
+        "Myanmars militær dræbte ifølge dommen mindst 10.000 rohingyaer i det nordlige Rakhine",
+        "Det er første gang, ICJ har fundet en stat ansvarlig for folkedrab"
+      ],
+      "section": "Verden",
+      "headline": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+      "subheadline": "Historisk dom: Myanmar dømt for folkedrab på rohingyaer.",
+      "body": [
+        "FN's Internationale Domstol afgjorde torsdag med 9-6 stemmer, at Myanmar begik folkedrab mod rohingyaerne i Rakhine, hvor militæret dræbte mindst 10.000. Det er første gang, domstolen har fundet en stat ansvarlig for folkedrab. Myanmar skal bl.a. sikre rohingyaernes hjemkomst og garantere, overgrebene ikke gentages."
+      ],
+      "whyItMatters": "Dommen skaber et juridisk præcedens for statsansvar for folkedrab, uden magt til at tvinge Myanmar til at efterleve den.",
+      "topics": [
+        "menneskerettigheder",
+        "geopolitik"
+      ],
+      "entities": [
+        "Myanmar",
+        "Gambia",
+        "Den Internationale Domstol",
+        "Rohingya"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 15,
+        "novelty": 85,
+        "sourceQuality": 85,
+        "personalRelevance": 10,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "ICJ afgjorde med 9-6 stemmer, at Myanmar har begået folkedrab mod rohingyaerne i Rakhine",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+            "https://www.icj-cij.org/sites/default/files/case-related/178/178-20261119-pre-01-00-en.pdf"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Myanmars militær dræbte ifølge dommen mindst 10.000 rohingyaer",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+          "publishedAt": "2026-11-19T15:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Judgment of 19 November 2026 - Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar)",
+          "publisher": "International Court of Justice",
+          "url": "https://www.icj-cij.org/sites/default/files/case-related/178/178-20261119-pre-01-00-en.pdf",
+          "publishedAt": "2026-11-19T10:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/12-20fd3917.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "UN’s top court finds Myanmar guilty of genocide against Rohingya",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+        "origin": "article",
+        "fingerprint": "a3395687ae6c2c347939c2852e6e6e22d93ac305074e4e6a787b8705474fcf4a7889a7a6474fc7cfb989262647878787",
+        "lookedAt": "a3395687ae6c2c347939c2852e6e6e22d93ac305074e4e6a787b8705474fcf4a7889a7a6474fc7cfb989262647878787",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/ss11-1795094084.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-19T23:03:57.331Z",
+        "runId": "run-2026-11-19-uafternoon-r260"
+      }
     }
   ],
   "signals": [
@@ -952,5 +1226,20 @@
     "novelty": 75,
     "perspectiveBalance": 85,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "afternoon",
+      "at": "2026-11-19T23:03:57.331Z",
+      "runId": "run-2026-11-19-uafternoon-r260",
+      "added": 3,
+      "cost": {
+        "usd": 2.0664347999999997,
+        "inputTokens": 2838609,
+        "outputTokens": 30326,
+        "turns": 60,
+        "seconds": 400.7
+      }
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-19",
-  "generatedAt": "2026-11-19T05:21:09.305Z",
+  "generatedAt": "2026-11-19T23:04:04.087Z",
   "pictures": [
     {
       "slot": "01",
@@ -164,6 +164,66 @@
         "y": 0.921
       },
       "fetchedAt": "2026-11-19T05:21:13.685Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-anthropic-ant-debut-20261119",
+      "headline": "Anthropic IPO live updates: ANT stock price and Nasdaq debut",
+      "source": "https://image.cnbcfm.com/api/v1/image/108555440-1795105864195-gettyimages-2305334311-ANTHROPIC_IPO.jpeg?v=1795105887&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html",
+      "hosted": "10-2cc3cc4f.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 150435,
+      "out": "1600x1067",
+      "bytes": 144131,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.245,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-19T23:04:04.469Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-trump-xi-putin-declaration-20261119",
+      "headline": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+      "source": "https://newsimg.koreatimes.co.kr/2026/11/20/22054e84-9fcf-42c9-839f-7975f08fc699.jpg",
+      "article": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+      "hosted": "11-482dd1b4.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 199582,
+      "out": "1600x1067",
+      "bytes": 135792,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-19T23:04:04.833Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-icj-myanmar-genocide-20261119",
+      "headline": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/ss11-1795094084.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+      "hosted": "12-20fd3917.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 280340,
+      "out": "1600x1067",
+      "bytes": 233778,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-19T23:04:05.359Z"
     },
     {
       "slot": "r01",
