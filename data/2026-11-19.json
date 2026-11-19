@@ -1,0 +1,956 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "daily-2026-11-19-001",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T05:40:00.000Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "Anthropic på Nasdaq, første Trump-Xi-Putin-topmøde, Krim-broen kollapser delvist, og en 300.000 kvm plan for København.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-anthropic-20261119",
+      "eventKey": "anthropic-ipo-priced-83-trading-2026-11",
+      "materialFacts": [
+        "Anthropic prissatte IPO til 83 dollar/aktie 18. november, over intervallet 70-78 dollar",
+        "Rejser cirka 81 mia. dollar, fuldt udvandet værdi cirka 1,5 billioner dollar",
+        "Handel under ticker ANT på Nasdaq ventet 19. november"
+      ],
+      "section": "AI og finans",
+      "headline": "Anthropic announces price of $83 per share for IPO",
+      "primarySourceUrl": "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320",
+      "subheadline": "Noteringen landede over intervallet - verdens største.",
+      "body": [
+        "Anthropic prissatte onsdag børsnoteringen til 83 dollar per aktie, over intervallet 70-78 dollar. Udbuddet rejser cirka 81 mia. dollar til en værdi på 1,5 billioner dollar - historiens største IPO. Aktien åbner som ANT på Nasdaq torsdag."
+      ],
+      "whyItMatters": "Prisen er markedets første test af, om investorer vil betale for AI-laboratoriers fremtidige indtjening uden nuværende overskud.",
+      "analysis": "Overtegningen viser appetit, men lidt plads til fejl, hvis vækst eller marginer skuffer efter noteringen.",
+      "counterpoint": "IPO-forsker Jay Ritter advarer om, at værdisætningen historisk giver ringe afkast ved yderligere stigning på debutdagen.",
+      "topics": [
+        "ai",
+        "usa",
+        "venturekapital"
+      ],
+      "entities": [
+        "Anthropic",
+        "Dario Amodei",
+        "Nasdaq",
+        "Jay Ritter"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 70,
+        "novelty": 60,
+        "sourceQuality": 85,
+        "personalRelevance": 85,
+        "contrast": 70
+      },
+      "claims": [
+        {
+          "text": "Anthropic prissatte IPO til 83 dollar per aktie, over intervallet 70-78 dollar",
+          "sourceUrls": [
+            "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udbuddet rejser omkring 81,3 mia. dollar ved en fuldt udvandet værdi på cirka 1,5 billioner dollar",
+          "sourceUrls": [
+            "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Jay Ritter advarer om, at en værdisætning over 1,3 billioner dollar historisk har givet svagt afkast ved yderligere stigning på debutdagen",
+          "sourceUrls": [
+            "https://www.thestreet.com/investing/anthropic-ipo-valuation-risk-1-trillion-ceiling-jay-ritter"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic announces price of $83 per share for IPO",
+          "publisher": "ABC News",
+          "url": "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320",
+          "publishedAt": "2026-11-18T19:44:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic IPO live: Company said to price stock at $83, begin trading Thursday",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-set-to-price-stock-between-70-and-78-as-trading-starts-thursday-174130523.html",
+          "publishedAt": "2026-11-18T17:41:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Mr. IPO flags risk in Anthropic’s $1.33T valuation",
+          "publisher": "TheStreet",
+          "url": "https://www.thestreet.com/investing/anthropic-ipo-valuation-risk-1-trillion-ceiling-jay-ritter",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/01-ec1d83ab.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Anthropic announces price of $83 per share for IPO",
+        "sourceUrl": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+        "origin": "coverage",
+        "fingerprint": "8195999b8ea64b4b0105999b2f234bc925252d1d2b234bc926242c1d2b6369c9422c2c1c2d6d69896a6e6e2e2c4dc2c8",
+        "lookedAt": "8195999b8ea64b4b0105999b2f234bc925252d1d2b234bc926242c1d2b6369c9422c2c1c2d6d69896a6e6e2e2c4dc2c8",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108554572-1795033463943-108554572-1795033101955-gettyimages-2305196401-ANTHROPIC_IPO.jpg?v=1795033477&w=1920&h=1080",
+        "focus": {
+          "x": 0.136,
+          "y": 0.114
+        }
+      }
+    },
+    {
+      "id": "story-shenzhen-20261119",
+      "eventKey": "trump-xi-putin-shenzhen-trilateral-2026-11",
+      "materialFacts": [
+        "Første trilaterale møde mellem Trump, Xi og Putin, 19. november i Shenzhen ved APEC",
+        "Dagsorden ventes at omfatte atomnedrustning og Iran; Ukraine ikke formelt på dagsordenen ifølge Det Hvide Hus",
+        "Analytikere venter få konkrete resultater"
+      ],
+      "section": "Geopolitik",
+      "headline": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+      "subheadline": "Første trilaterale topmøde mellem de tre ledere afholdes i dag.",
+      "body": [
+        "Trump, Xi og Putin mødes torsdag i Shenzhen ved APEC - det første møde mellem alle tre samtidig. Det Hvide Hus siger, Trump vil tage atomnedrustning og Iran op; Ukraine er ikke formelt på dagsordenen."
+      ],
+      "whyItMatters": "Et billede af de tre ledere side om side ændrer det diplomatiske billede, uanset hvad der reelt aftales bag lukkede døre.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Xi Jinping",
+        "Vladimir Putin",
+        "Jurij Usjakov"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 40,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 55,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Trump, Xi og Putin holder deres første trilaterale møde 19. november i Shenzhen ved APEC-topmødet",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Det Hvide Hus siger Ukraine ikke er formelt på dagsordenen, mens Kreml kalder mødet en fortsættelse af fredssporet",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+          "publishedAt": "2026-11-19T06:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "China confirms Xi-Trump-Putin meeting in first three-way summit",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+          "publishedAt": "2026-11-16T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "analysis": "Lave forventninger giver alle tre ledere plads til at kalde selve mødet en sejr, uanset udfaldet.",
+      "counterpoint": "Kritikere kalder mødet et fotomøde uden reelle indrømmelser fra Trump.",
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/02-023acf9f.jpg",
+        "credit": "Foto: AFP / Al Jazeera",
+        "alt": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+        "origin": "article",
+        "fingerprint": "0c4d5a723f1c393d0c4d9a723f3c3c3d0c9c3abb7f3c3a7c2c59b931b33d5ebe4c39b931b13d3db39c38b0b4b0b7beb6",
+        "lookedAt": "0c4d5a723f1c393d0c4d9a723f3c3c3d0c9c3abb7f3c3a7c2c59b931b33d5ebe4c39b931b13d3db39c38b0b4b0b7beb6",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afd95b92724-1795003833_223de5-1795004696.jpg?resize=1200%2C630&quality=80",
+        "focus": {
+          "x": 0.8,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-krim-20261119",
+      "eventKey": "krim-broen-kollaps-angreb-2026-11",
+      "materialFacts": [
+        "Krim-broen ramt tredje gang denne uge, dele af vejbanen kollapset 18. november",
+        "To personer dræbt i tidligere angreb mandag-tirsdag",
+        "Russiske myndigheder har åbnet en terrorsag"
+      ],
+      "section": "Geopolitik",
+      "headline": "Beskadiget Krimbro meldes ramt i nyt angreb",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/udland/beskadiget-krimbro-meldes-ramt-i-nyt-angreb",
+      "subheadline": "Broen er ramt tredje gang på en uge, og vejbanen er delvist kollapset.",
+      "body": [
+        "Krim-broen blev onsdag ramt for tredje gang denne uge, og dele af vejbanen er kollapset. Guvernør Sergej Aksjonov melder, at trafikken er stoppet. To blev dræbt i tidligere angreb. Rusland har åbnet en terrorsag; Ukraines SBU står bag angrebene på forbindelsen til Krim."
+      ],
+      "whyItMatters": "Broen er Ruslands vigtigste forsyningslinje til styrkerne på Krim, så gentagne angreb svækker en central militær forbindelse.",
+      "analysis": "At broen rammes gentagne gange på en uge, tyder på et sårbarhedsvindue, Rusland endnu ikke har lukket.",
+      "topics": [
+        "sikkerhedspolitik",
+        "geopolitik"
+      ],
+      "entities": [
+        "Ukraine",
+        "Rusland",
+        "Sergej Aksjonov",
+        "SBU"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 35,
+        "novelty": 65,
+        "sourceQuality": 80,
+        "personalRelevance": 40,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Krim-broen blev ramt for tredje gang denne uge, og dele af vejbanen kollapsede",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/beskadiget-krimbro-meldes-ramt-i-nyt-angreb"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "To personer blev dræbt i angrebene mandag og natten til tirsdag",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/udland/beskadiget-krimbro-meldes-ramt-i-nyt-angreb"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Beskadiget Krimbro meldes ramt i nyt angreb",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/udland/beskadiget-krimbro-meldes-ramt-i-nyt-angreb",
+          "publishedAt": "2026-11-18T01:44:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/03-5da34f0a.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Beskadiget Krimbro meldes ramt i nyt angreb",
+        "sourceUrl": "https://www.dr.dk/nyheder/udland/beskadiget-krimbro-meldes-ramt-i-nyt-angreb",
+        "origin": "article",
+        "fingerprint": "248923c09a9abae9241b62c09e3bbbf7051a63c09f3929bf4233e1891f1d0d351361c18c135c4c6c3ce2802e512d2e0e",
+        "lookedAt": "248923c09a9abae9241b62c09e3bbbf7051a63c09f3929bf4233e1891f1d0d351361c18c135c4c6c3ce2802e512d2e0e",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/qacadyk3/20261117-131824-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.102,
+          "y": 0.943
+        }
+      }
+    },
+    {
+      "id": "story-cph-20261119",
+      "eventKey": "copenhagen-innovation-district-masterplan-2026-11",
+      "materialFacts": [
+        "Masterplan for op til 300.000 kvm nye faciliteter til life science og kvanteteknologi, offentliggjort 17. november",
+        "21 aktører bag planen, bl.a. staten, Københavns Kommune og KU",
+        "Byrådsbehandling ventet november-december 2026"
+      ],
+      "section": "Danmark",
+      "headline": "Copenhagen unveils masterplan for up to 300,000 square metres of new space for life science and quantum innovation",
+      "primarySourceUrl": "https://news.europawire.eu/copenhagen-unveils-masterplan-for-up-to-300000-square-metres-of-new-space-for-life-science-and-quantum-innovation/eu-press-release/2026/11/17/19/01/07/188186/",
+      "subheadline": "21 aktører bag plan for Nørrebro/Østerbro",
+      "body": [
+        "Staten, Københavns Kommune og KU præsenterede en masterplan for op til 300.000 kvm faciliteter til life science og kvante på 13 grunde i Nørrebro/Østerbro. 21 aktører står bag planen, lavet af Freja Ejendomme og C.F. Møller. Byrådet behandler den i november-december."
+      ],
+      "whyItMatters": "Planen samler forskere og iværksættere fysisk - den nærhed, der historisk har skabt klynger som Medicon Valley.",
+      "topics": [
+        "danmark",
+        "teknologisk-suverænitet",
+        "kvante"
+      ],
+      "entities": [
+        "Martin Lidegaard",
+        "Sisse Marie Welling",
+        "Freja Ejendomme",
+        "Københavns Universitet",
+        "C.F. Møller"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 45,
+        "novelty": 75,
+        "sourceQuality": 65,
+        "personalRelevance": 65,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Masterplanen omfatter op til 300.000 kvm nye faciliteter til life science og kvanteteknologi på 13 grunde i Nørrebro og Østerbro",
+          "sourceUrls": [
+            "https://news.europawire.eu/copenhagen-unveils-masterplan-for-up-to-300000-square-metres-of-new-space-for-life-science-and-quantum-innovation/eu-press-release/2026/11/17/19/01/07/188186/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Copenhagen unveils masterplan for up to 300,000 square metres of new space for life science and quantum innovation",
+          "publisher": "EuropaWire",
+          "url": "https://news.europawire.eu/copenhagen-unveils-masterplan-for-up-to-300000-square-metres-of-new-space-for-life-science-and-quantum-innovation/eu-press-release/2026/11/17/19/01/07/188186/",
+          "publishedAt": "2026-11-17T19:01:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Political agreement paves the way for a new Danish epicenter for innovation with international ambitions",
+          "publisher": "Innovation District Copenhagen",
+          "url": "https://innovationdistrictcopenhagen.com/political-agreement-paves-the-way-for-a-new-danish-epicenter-for-innovation-with-international-ambitions/",
+          "publishedAt": "2026-11-17T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "analysis": "Ingen investeringsbeløb er offentliggjort endnu, så planens vægt afhænger af, hvad byrådet rent faktisk vedtager.",
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/04-c9a1e9fe.jpg",
+        "credit": "Kilde: Innovation District Copenhagen",
+        "alt": "Arkivfoto fra lanceringen af Innovation District Copenhagens visionsplan i Koebenhavn, september 2025",
+        "sourceUrl": "https://innovationdistrictcopenhagen.com/political-agreement-paves-the-way-for-a-new-danish-epicenter-for-innovation-with-international-ambitions/",
+        "origin": "source",
+        "fingerprint": "49495b92939bc3e649c9dbb2999991e3cdcd9bb3999999a18c9c3b33b89199218c9c7b293834b4b40c9869693c3c3434",
+        "lookedAt": "49495b92939bc3e649c9dbb2999991e3cdcd9bb3999999a18c9c3b33b89199218c9c7b293834b4b40c9869693c3c3434",
+        "originalUrl": "https://innovationdistrictcopenhagen.com/wp-content/uploads/2025/09/Visionsplan-lancering_NEWS.jpg",
+        "focus": {
+          "x": 0.305,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-gemini-20261119",
+      "eventKey": "google-gemini-4-neon-launch-2026-11",
+      "materialFacts": [
+        "Gemini 4 Neon lanceret 18. november, prissat 3/15 dollar per mio. tokens (input/output)",
+        "Matcher Claude Opus 5.5 på ingeniørbenchmarks til 25 pct. lavere pris",
+        "Slår GPT-6.2 Sol på Artificial Analysis Intelligence Index ved højeste reasoning-niveau"
+      ],
+      "section": "AI",
+      "headline": "Google launches Gemini 4 Neon with Opus 5.5-level coding performance at 25% lower API token prices",
+      "primarySourceUrl": "https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices",
+      "subheadline": "Modellen lægger sig mellem Googles letteste og kraftigste udgaver.",
+      "body": [
+        "Google lancerede onsdag Gemini 4 Neon, der matcher Claude Opus 5.5 på ingeniørbenchmarks til 25 pct. lavere pris: 3 dollar per mio. input-tokens, 15 dollar output. Neon slår GPT-6.2 Sol på Artificial Analysis' indeks og er næsten dobbelt så hurtig som Carbon."
+      ],
+      "whyItMatters": "Prisfaldet flytter konkurrencen fra rå kapacitet til pris per løst opgave.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ],
+      "entities": [
+        "Google",
+        "Google DeepMind",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 65,
+        "personalRelevance": 70,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Gemini 4 Neon koster 3 dollar/mio. input-tokens og 15 dollar/mio. output-tokens, 25 pct. under Claude Opus 5.5",
+          "sourceUrls": [
+            "https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Google launches Gemini 4 Neon with Opus 5.5-level coding performance at 25% lower API token prices",
+          "publisher": "VentureBeat",
+          "url": "https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices",
+          "publishedAt": "2026-11-18T23:33:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "analysis": "At Google nu underbyder Anthropic på pris frem for kun på ydelse, skærper prispresset op mod Anthropics nye status som børsnoteret selskab.",
+      "imageRejected": [
+        {
+          "url": "https://images.ctfassets.net/jdtwqhzvc2n1/2QF7Skzr9Imsoy1b60RkQ/a9c6133de99c6e350b9401461a0e727f/Neon_Work_Street_at_Night.png?w=1200&h=675&fit=fill&f=center&q=80",
+          "fingerprint": "ccdccce8696b4d33ccdcc9e84c69c9e5d6ccc8e8cc68c98d96cdccccca48c9ce96cccd4dcdccc9ca8ecccccc8dcdcd88",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Screenshot-from-2026-11-19-09-51-57.png",
+          "fingerprint": "0104d5596aec00008206c1986cec4000090c80194dcc5000101580155dccd0902115183cccced19012354a2acaca55c8",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story-iran-20261119",
+      "eventKey": "trump-weighs-iran-strikes-netanyahu-campaign-2026-11",
+      "materialFacts": [
+        "Trump overvejer ifølge New York Times endnu et angreb på Iran, uden at have besluttet sig",
+        "Netanyahu presser Washington til en fire-til-syv-dages luftkampagne",
+        "Dele af den amerikanske administration tvivler på efterretningernes pålidelighed"
+      ],
+      "section": "Geopolitik",
+      "headline": "Trump said weighing another Iran offensive, as Netanyahu pushes a 4- to 7-day campaign",
+      "primarySourceUrl": "https://www.timesofisrael.com/liveblog-november-19-2026",
+      "subheadline": "Trump har ifølge New York Times ikke besluttet sig endnu.",
+      "body": [
+        "Trump overvejer ifølge New York Times endnu et angreb på Iran, mens Netanyahu presser for en fire-til-syv-dages luftkampagne og sendte Mossad-chef Roman Gofman til Washington med efterretninger om Irans kemiske program. Administrationen tvivler på efterretningerne."
+      ],
+      "whyItMatters": "En beslutning kommer efter et midtvejsvalg, hvor vælgere reagerede negativt på en krig, der trak ud.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik",
+        "usa"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Benjamin Netanyahu",
+        "Roman Gofman"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 30,
+        "novelty": 60,
+        "sourceQuality": 55,
+        "personalRelevance": 35,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Trump overvejer ifølge New York Times et nyt angreb på Iran, mens Netanyahu presser på for en fire-til-syv-dages luftkampagne",
+          "sourceUrls": [
+            "https://www.timesofisrael.com/liveblog-november-19-2026",
+            "https://mlq.ai/news/trump-weighs-new-iran-strikes-but-has-not-decided-the-new-york-times-reports-as-israel-presses-for-action/"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump said weighing another Iran offensive, as Netanyahu pushes a 4- to 7-day campaign",
+          "publisher": "The Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog-november-19-2026",
+          "publishedAt": "2026-11-19T07:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump weighs new Iran strikes but has not decided, The New York Times reports, as Israel presses for action",
+          "publisher": "MLQ.ai (via The New York Times)",
+          "url": "https://mlq.ai/news/trump-weighs-new-iran-strikes-but-has-not-decided-the-new-york-times-reports-as-israel-presses-for-action/",
+          "publishedAt": "2026-11-19T06:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "analysis": "Uenigheden i Washington om efterretningernes kvalitet er den slags tvivl, der tidligere har forsinket amerikanske militære beslutninger.",
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/06-29eefcad.jpg",
+        "credit": "Kilde: The Times of Israel",
+        "alt": "Trump said weighing another Iran offensive, as Netanyahu pushes a 4- to 7-day campaign",
+        "sourceUrl": "https://www.timesofisrael.com/liveblog-november-19-2026",
+        "origin": "article",
+        "fingerprint": "11494bc8cc6c6d7db949d9cccc6e6f4509c9d9cc9caeafe54c99898c1c8cafee9c148d8e9e5c4e4d14140c0e96544d4d",
+        "lookedAt": "11494bc8cc6c6d7db949d9cccc6e6f4509c9d9cc9caeafe54c99898c1c8cafee9c148d8e9e5c4e4d14140c0e96544d4d",
+        "originalUrl": "https://static-cdn.toi-media.com/www/uploads/2026/11/AP26323126128227.jpg",
+        "focus": {
+          "x": 0.325,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-cop31-20261119",
+      "eventKey": "cop31-deadlock-climate-reality-check-2026-11",
+      "materialFacts": [
+        "21 uafklarede forhandlingspunkter ved COP31 i Antalya, bl.a. finansiering og udfasning af fossile brændstoffer",
+        "Anden Global Stocktake lanceret, afsluttes 2028",
+        "75 lande bakker Tyrkiets mål om 35 pct. elektrificering i 2035"
+      ],
+      "section": "Klima",
+      "headline": "COP31 deadlock persists as countries launch new 'climate reality check'",
+      "primarySourceUrl": "https://news.un.org/en/story/2026/11/1168833",
+      "subheadline": "21 forhandlingspunkter er stadig uafklarede i Antalya.",
+      "body": [
+        "COP31 i Antalya er fastlåst på 21 punkter, blandt andet finansiering og udfasning af fossile brændstoffer, mens landene lancerede den anden globale statusopgørelse under Parisaftalen, der afsluttes i 2028. 75 lande støtter Tyrkiets mål om 35 pct. elektrificering i 2035."
+      ],
+      "whyItMatters": "Opgørelsen afgør, om verdens klimaplaner lægger et spor mod 1,5 grader, eller om løftet først brydes synligt om to år.",
+      "topics": [
+        "klima",
+        "geopolitik"
+      ],
+      "entities": [
+        "Simon Stiell",
+        "UNFCCC",
+        "Türkiye"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 30,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 15,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "21 forhandlingspunkter er uafklarede ved COP31 i Antalya, og 75 lande bakker Tyrkiets 35x35-mål",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168833"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "COP31 deadlock persists as countries launch new 'climate reality check'",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168833",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "analysis": "At store olieproducenter bremser tempoet, netop som opgørelsen går i gang, øger risikoen for et bekræftet løftebrud i 2028.",
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/07-0d68d401.jpg",
+        "credit": "Kilde: UN News",
+        "alt": "A woman speaks into a megaphone before a large banner reading Just Transition held by demonstrators at a climate event in Antalya, Türkiye.",
+        "sourceUrl": "https://news.un.org/en/story/2026/11/1168833",
+        "origin": "article",
+        "fingerprint": "0a0800985a4837ca0808081a185a54e22909089a999b081329059929a98999a92d04192d2d2c192d0420bd2424242525",
+        "lookedAt": "0a0800985a4837ca0808081a185a54e22909089a999b081329059929a98999a92d04192d2d2c192d0420bd2424242525",
+        "originalUrl": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_COP31.jpg/image1440x560cropped.jpg",
+        "focus": {
+          "x": 0.58,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-sorla-20261119",
+      "eventKey": "sorla-protein-tau-alzheimer-2026-11",
+      "materialFacts": [
+        "Forhøjet SORLA-protein reducerede tau-tangler og beskyttede synapser i museforsøg",
+        "Fjernelse af SORLA forværrede skaderne",
+        "Publiceret i Science Advances; human afprøvning udestår"
+      ],
+      "section": "Videnskab",
+      "headline": "A little-known protein could be a powerful weapon against Alzheimer's",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm",
+      "subheadline": "Et protein beskyttede museceller mod Alzheimers skader.",
+      "body": [
+        "Forskere ved Sanford Burnham Prebys har i museforsøg vist, at mere af proteinet SORLA reducerer giftige tau-sammenklumpninger og beskytter forbindelser mellem hjerneceller. Fjernes SORLA helt, forværres skaderne. Resultaterne er publiceret i Science Advances."
+      ],
+      "whyItMatters": "Fundet peger på en anden indgang til Alzheimer-behandling end de amyloid-rettede lægemidler, der dominerer i dag.",
+      "topics": [
+        "sundhed",
+        "videnskab"
+      ],
+      "entities": [
+        "Sanford Burnham Prebys"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 15,
+        "novelty": 70,
+        "sourceQuality": 70,
+        "personalRelevance": 10,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Mere SORLA reducerede tau-tangler og beskyttede synapser i museforsøg; fjernelse af SORLA forværrede skaderne",
+          "sourceUrls": [
+            "https://www.sciencedaily.com/releases/2026/11/261114202233.htm"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "A little-known protein could be a powerful weapon against Alzheimer's",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm",
+          "publishedAt": "2026-11-18T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "analysis": "Resultatet er fra mus, så det afgørende spørgsmål er, om et løft af SORLA hos mennesker er sikkert og har samme effekt.",
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/08-57491382.jpg",
+        "credit": "Kilde: Sanford Burnham Prebys",
+        "alt": "Timothy Huang, forsker ved Sanford Burnham Prebys, der staar bag studiet af proteinet SORLA",
+        "sourceUrl": "https://sbpdiscovery.org/press/tim-huang-awarded-43-million-nih-grant-to-study-protective-role-of-sorla-against-alzheimers/",
+        "origin": "source",
+        "fingerprint": "686c6c6421246c2b6c6c6ec6a1646c69664ecee6206664e9c6cac6a76462e6e4cbcb862664e3e2e6c98b2642c2ede3c3",
+        "lookedAt": "686c6c6421246c2b6c6c6ec6a1646c69664ecee6206664e9c6cac6a76462e6e4cbcb862664e3e2e6c98b2642c2ede3c3",
+        "originalUrl": "https://sbpdiscovery.org/wp-content/uploads/2023/09/timothy-huang_n.jpg",
+        "focus": {
+          "x": 0.684,
+          "y": 0.589
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://www.sciencedaily.com/images/1920/colorful-neurons-in-alzheimers-disease.webp",
+          "fingerprint": "09251c1d2f74149b0c241c1d2ef6565344361e1a2aa7b652461e1a1a2ba7b5b2da1b3b5b5b4ba676bb7b5d5d5bc97366",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "story-vangogh-20261119",
+      "eventKey": "van-gogh-chataigniers-auction-record-2026-11",
+      "materialFacts": [
+        "'Châtaigniers en fleurs' solgt for over 190 mio. dollar hos Sotheby's 18. november, ny van Gogh-rekord",
+        "Tidligere rekord var 117,2 mio. dollar fra 2022",
+        "Sotheby's indgik forlig med Fischer-arvinger om påstået tvangssalg under nazitiden"
+      ],
+      "section": "Kultur",
+      "headline": "Vincent van Gogh painting sells for $190 million, smashing auction record",
+      "primarySourceUrl": "https://www.ksl.com/article/51646780/vincent-van-gogh-painting-sells-for-190-million-smashing-auction-record",
+      "subheadline": "'Châtaigniers en fleurs' satte ny rekord hos Sotheby's.",
+      "body": [
+        "Van Goghs maleri 'Châtaigniers en fleurs' fra 1890 blev onsdag solgt for over 190 mio. dollar hos Sotheby's, ny rekord for kunstneren, over den gamle på 117,2 mio. fra 2022. Salget skete, efter Sotheby's indgik forlig med arvingerne efter Berlin-forlæggeren Samuel Fischer."
+      ],
+      "whyItMatters": "Salget viser, at selv et omtvistet proveniensspørgsmål fra 1930'erne i dag kan afgøres ved forlig i tide til en rekordauktion.",
+      "topics": [
+        "kultur"
+      ],
+      "entities": [
+        "Vincent van Gogh",
+        "Sotheby's",
+        "Samuel Fischer"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 35,
+        "decisionValue": 10,
+        "novelty": 70,
+        "sourceQuality": 70,
+        "personalRelevance": 10,
+        "contrast": 85
+      },
+      "claims": [
+        {
+          "text": "'Châtaigniers en fleurs' blev solgt for over 190 mio. dollar hos Sotheby's, en ny van Gogh-rekord",
+          "sourceUrls": [
+            "https://www.ksl.com/article/51646780/vincent-van-gogh-painting-sells-for-190-million-smashing-auction-record"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Vincent van Gogh painting sells for $190 million, smashing auction record",
+          "publisher": "KSL (AP)",
+          "url": "https://www.ksl.com/article/51646780/vincent-van-gogh-painting-sells-for-190-million-smashing-auction-record",
+          "publishedAt": "2026-11-18T20:40:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "analysis": "Prisen bekræfter, at knaphed på sene van Gogh-landskaber driver markedet mere end selve motivet.",
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/09-3e3a715f.jpg",
+        "credit": "Kilde: KSL (AP)",
+        "alt": "Vincent van Gogh's painting, \"Châtaigniers en fleurs\" (Chestnut Trees in Blossom) sold for over $190 million at a Sotheby’s sale in New York, shattering the public auction record for Van Gogh’s work. In this file photo, ",
+        "sourceUrl": "https://www.ksl.com/article/51646780/vincent-van-gogh-painting-sells-for-190-million-smashing-auction-record",
+        "origin": "article",
+        "fingerprint": "372b2f371f162301232b07273b1723c1614d07273d1f23c145457565293f2361c6967766613f274186965242603e2721",
+        "lookedAt": "372b2f371f162301232b07273b1723c1614d07273d1f23c145457565293f2361c6967766613f274186965242603e2721",
+        "originalUrl": "https://img.ksl.com/slc/3209/320914/32091424.jpg",
+        "focus": {
+          "x": 0.473,
+          "y": 0.921
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "headline": "ICJ to rule on Rohingya genocide case against Myanmar",
+      "text": "ICJ to rule on Rohingya genocide case against Myanmar",
+      "url": "https://www.aljazeera.com/news/2026/11/18/icj-to-rule-on-rohingya-genocide-case-what-to-expect",
+      "publisher": "Al Jazeera",
+      "section": "Geopolitik",
+      "publishedAt": "2026-11-19T09:00:00.000Z",
+      "summary": "Den Internationale Domstol afsiger 19. november dom i sagen, Gambia anlagde om folkedrab på rohingyaer - muligvis første gang domstolen dømmer en stat for folkedrab.",
+      "topics": [
+        "geopolitik"
+      ]
+    },
+    {
+      "headline": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "text": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/",
+      "publisher": "The Motley Fool",
+      "section": "Finans",
+      "publishedAt": "2026-11-18T21:00:00.000Z",
+      "summary": "Dow faldt 561 point, og S&P 500 havde sin femte tabsdag i træk, efter Fed-minutes viste, at de fleste medlemmer venter yderligere rentestigninger.",
+      "topics": [
+        "usa"
+      ]
+    },
+    {
+      "headline": "FIU høring statsgæld",
+      "text": "FIU høring statsgæld",
+      "url": "https://www.ft.dk/aktuelt/nyheder/2026/11/fiu-hoering-statsgaeld",
+      "publisher": "Folketinget",
+      "section": "Danmark",
+      "publishedAt": "2026-11-19T05:00:00.000Z",
+      "summary": "Folketingets Finansudvalg holder i dag kl. 13:30 åben høring om stigende statsgæld i Vesten og risikoen for en skuldkrise.",
+      "topics": [
+        "danmark"
+      ]
+    },
+    {
+      "headline": "Witkoff and Kushner will discuss Ukraine's security guarantees and reconstruction",
+      "text": "Witkoff and Kushner will discuss Ukraine's security guarantees and reconstruction",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/17/8063195/",
+      "publisher": "Ukrainska Pravda",
+      "section": "Geopolitik",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "Omkring 40 delegationer samles i dag i Berlin til Coalition of the Willing-topmøde om sikkerhedsgarantier og genopbygning af Ukraine.",
+      "topics": [
+        "sikkerhedspolitik"
+      ]
+    },
+    {
+      "headline": "OpenAI releases GPT-6.2 Astra and Sol",
+      "text": "OpenAI releases GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/news/",
+      "publisher": "OpenAI",
+      "section": "AI",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "summary": "OpenAI lancerede 17. november GPT-6.2 Astra og Sol som assistent-modeller til dokumenter, regneark og skabelonarbejde.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "headline": "Claude Fable 5.2 leads multiple LLM leaderboards",
+      "text": "Claude Fable 5.2 leads multiple LLM leaderboards",
+      "url": "https://news.smol.ai/",
+      "publisher": "AINews (smol.ai)",
+      "section": "AI",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "summary": "Anthropics Claude Fable 5.2 topper i november flere benchmarks, bl.a. Artificial Analysis' intelligensindeks, foran GPT-6.2 Astra og Gemini 4 Carbon.",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "headline": "Periodemeddelelse for 3. kvartal 2026",
+      "text": "Periodemeddelelse for 3. kvartal 2026",
+      "url": "https://www.globenewswire.com/news-release/2026/11/18/3405606/0/da/periodemeddelelse-for-3-kvartal-2026.html",
+      "publisher": "NKT A/S",
+      "section": "Danmark",
+      "publishedAt": "2026-11-18T07:00:00.000Z",
+      "summary": "NKT A/S offentliggjorde periodemeddelelse for de første tre kvartaler af 2026.",
+      "topics": [
+        "danmark"
+      ]
+    },
+    {
+      "headline": "GTA 6 release time in Denmark: 12:00 AM, Nov 19",
+      "text": "GTA 6 release time in Denmark: 12:00 AM, Nov 19",
+      "url": "https://sunseteditionmag.com/gta-6-release-time/denmark/",
+      "publisher": "Sunset Edition",
+      "section": "Kultur",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Grand Theft Auto VI udkom ved midnat natten til 19. november i Danmark, med rullende lancering globalt.",
+      "topics": [
+        "kultur"
+      ]
+    },
+    {
+      "headline": "Tre danskere skal have ny cheftræner i fransk fodboldklub",
+      "text": "Tre danskere skal have ny cheftræner i fransk fodboldklub",
+      "url": "https://nyheder.tv2.dk",
+      "publisher": "TV 2",
+      "section": "Sport",
+      "publishedAt": "2026-11-19T06:00:00.000Z",
+      "summary": "Ligue 1-klubben Strasbourg skal finde ny cheftræner til blandt andre tre danske spillere.",
+      "topics": [
+        "sport"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "hastighed-som-signal",
+    "title": "Hastighed som signal",
+    "thesis": "Venturekapital beundrer hurtige grundlæggere, ikke fordi hastighed forudsiger succes, men fordi det er det ene, man kan se før markedets dom.",
+    "body": [
+      "Pivot-tempo er let at måle, afkast er det ikke; branchen forveksler det synlige med det afgørende."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis et stort datasæt over seed-runder viser, at founderes pivot-hastighed før produkt-marked-fit korrelerer positivt med senere exit-afkast, kontrolleret for sektor og årgang - altså at hastighed er et selvstændigt forudsigende signal, ikke blot det mest observerbare.",
+    "topics": [
+      "venturekapital",
+      "beslutninger"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-techsurge-fedex-20261119",
+      "tier": "featured",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "FedEx CEO on AI and the Two Trillion Dollar Supply Chain Problem",
+      "creator": "Michael Marks med Raj Subramaniam",
+      "provider": "TechSurge: Deep Tech Podcast (Celesta Capital)",
+      "url": "https://www.techsurgepodcast.com/",
+      "availability": "Tilgængelig globalt på Apple Podcasts, Spotify og techsurgepodcast.com",
+      "commitment": "41 min",
+      "description": "FedEx-direktør Raj Subramaniam fortæller Celesta Capitals Michael Marks, hvordan \"physical AI\" skal løse et logistikproblem på 2.000 mia. dollar om året across 220 lande.",
+      "rationale": "Et konkret, ikke-hypet kig på AI anvendt på et kapitalintensivt, globalt problem - den type investeringscase, hvor mindre af det, der når brevkassen, ellers havner.",
+      "topics": [
+        "ai",
+        "venturekapital",
+        "teknologi"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-19/r01-87f29cc4.jpg",
+        "credit": "Podcastomslag - TechSurge: Deep Tech Podcast / Celesta Capital",
+        "alt": "Cover art for TechSurge: Deep Tech Podcast",
+        "sourceUrl": "https://podcasts.apple.com/us/podcast/techsurge-deep-tech-podcast/id1755173852",
+        "originalUrl": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1b/46/9c/1b469cf6-a85d-2977-1ac5-51f92ef65669/mza_5261734729492018704.jpg/600x600bb.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec-sep-inquiry-20261119",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Encyklopædiartikel",
+      "status": "new",
+      "title": "Inquiry",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/inquiry/",
+      "availability": "Gratis, online",
+      "commitment": "45-60 min",
+      "note": "Analytisk filosofis egen gennemgang af, hvad undersøgelse er - den tradition, der ikke findes på hans læste liste, direkte fra den primære kilde, ikke en gloss.",
+      "topics": [
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-lloyds-maritime-ai-20261119",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Brancheartikel",
+      "status": "new",
+      "title": "Lloyd's Register starts assessing AI maturity across the maritime industry",
+      "provider": "Riviera Maritime Media",
+      "url": "https://www.rivieramm.com/news-content-hub/news-content-hub/lloyds-register-starts-assessing-ai-maturity-across-the-maritime-industry-90545",
+      "availability": "Gratis, online",
+      "commitment": "6 min",
+      "note": "Det maritime er hans eneste interesseområde uden en watch-flade - her i tekst: hvordan skibsfarten faktisk måler AI-parathed, frem for taler om den.",
+      "topics": [
+        "teknologi",
+        "erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-20vc-fractile-20261119",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "Podcast",
+      "status": "new",
+      "title": "Taking on NVIDIA: Fractile CEO on the Future of Chips, What Everyone Gets Wrong About Capex Spending & The Winners and Losers in Neo Clouds",
+      "creator": "Harry Stebbings med Walter Goodwin",
+      "provider": "20VC (The Twenty Minute VC)",
+      "url": "https://www.thetwentyminutevc.com/20vc",
+      "availability": "Tilgængelig globalt på Apple Podcasts og Spotify",
+      "commitment": "50 min",
+      "note": "Fractiles CEO om, hvorfor custom silicon kan udfordre Nvidia, og om neocloud-udbydere er partnere eller konkurrenter - konkret investeringsstof, ikke hype.",
+      "topics": [
+        "venturekapital",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sequoia-tomorrow-20261119",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Memo",
+      "status": "new",
+      "title": "The Sequoia of Tomorrow",
+      "creator": "Sequoia Capital (Alfred Lin og Pat Grady)",
+      "provider": "Sequoia Capital",
+      "url": "https://x.com/sequoia/status/2117961312143855764",
+      "availability": "Gratis, online",
+      "commitment": "10 min",
+      "note": "Sequoia lukker London-kontoret, afvikler Arc og Scouts og rejser 10 mia. dollar for at vende tilbage til få, højt overbeviste satsninger - en VC-firmas eget regnskab med egen vækst.",
+      "topics": [
+        "venturekapital"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 90,
+    "freshness": 92,
+    "novelty": 75,
+    "perspectiveBalance": 85,
+    "render": 100
+  }
+}

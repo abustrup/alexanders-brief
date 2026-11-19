@@ -1,0 +1,190 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-19",
+  "generatedAt": "2026-11-19T05:21:09.305Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-anthropic-20261119",
+      "headline": "Anthropic announces price of $83 per share for IPO",
+      "source": "https://image.cnbcfm.com/api/v1/image/108554572-1795033463943-108554572-1795033101955-gettyimages-2305196401-ANTHROPIC_IPO.jpg?v=1795033477&w=1920&h=1080",
+      "article": "https://abcnews.com/Business/anthropic-announces-price-83-share-ipo/story?id=138245320",
+      "hosted": "01-ec1d83ab.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 117534,
+      "out": "1440x1080",
+      "bytes": 101478,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.136,
+        "y": 0.114
+      },
+      "fetchedAt": "2026-11-19T05:21:09.685Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-shenzhen-20261119",
+      "headline": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afd95b92724-1795003833_223de5-1795004696.jpg?resize=1200%2C630&quality=80",
+      "article": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+      "hosted": "02-023acf9f.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 39576,
+      "out": "945x630",
+      "bytes": 45238,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-19T05:21:10.003Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-krim-20261119",
+      "headline": "Beskadiget Krimbro meldes ramt i nyt angreb",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/qacadyk3/20261117-131824-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/udland/beskadiget-krimbro-meldes-ramt-i-nyt-angreb",
+      "hosted": "03-5da34f0a.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 15427,
+      "out": "1012x675",
+      "bytes": 33200,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 0.943
+      },
+      "fetchedAt": "2026-11-19T05:21:10.249Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-cph-20261119",
+      "headline": "Copenhagen unveils masterplan for up to 300,000 square metres of new space for life science and quantum innovation",
+      "source": "https://innovationdistrictcopenhagen.com/wp-content/uploads/2025/09/Visionsplan-lancering_NEWS.jpg",
+      "article": "https://news.europawire.eu/copenhagen-unveils-masterplan-for-up-to-300000-square-metres-of-new-space-for-life-science-and-quantum-innovation/eu-press-release/2026/11/17/19/01/07/188186/",
+      "hosted": "04-c9a1e9fe.jpg",
+      "srcSize": "770x300",
+      "srcFormat": "jpeg",
+      "srcBytes": 263241,
+      "out": "450x300",
+      "bytes": 29860,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.305,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-19T05:21:11.417Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-iran-20261119",
+      "headline": "Trump said weighing another Iran offensive, as Netanyahu pushes a 4- to 7-day campaign",
+      "source": "https://static-cdn.toi-media.com/www/uploads/2026/11/AP26323126128227.jpg",
+      "article": "https://www.timesofisrael.com/liveblog-november-19-2026",
+      "hosted": "06-29eefcad.jpg",
+      "srcSize": "2048x1365",
+      "srcFormat": "webp",
+      "srcBytes": 167828,
+      "out": "1600x1067",
+      "bytes": 107883,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.325,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-19T05:21:11.760Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-cop31-20261119",
+      "headline": "COP31 deadlock persists as countries launch new 'climate reality check'",
+      "source": "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/11/18-11-2026_COP31.jpg/image1440x560cropped.jpg",
+      "article": "https://news.un.org/en/story/2026/11/1168833",
+      "hosted": "07-0d68d401.jpg",
+      "srcSize": "1440x560",
+      "srcFormat": "jpeg",
+      "srcBytes": 228180,
+      "out": "840x560",
+      "bytes": 116033,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.58,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-19T05:21:13.075Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-sorla-20261119",
+      "headline": "A little-known protein could be a powerful weapon against Alzheimer's",
+      "source": "https://sbpdiscovery.org/wp-content/uploads/2023/09/timothy-huang_n.jpg",
+      "article": "https://www.sciencedaily.com/releases/2026/11/261114202233.htm",
+      "hosted": "08-57491382.jpg",
+      "srcSize": "750x480",
+      "srcFormat": "jpeg",
+      "srcBytes": 89900,
+      "out": "720x480",
+      "bytes": 27683,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.684,
+        "y": 0.589
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-19T05:21:13.315Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-vangogh-20261119",
+      "headline": "Vincent van Gogh painting sells for $190 million, smashing auction record",
+      "source": "https://img.ksl.com/slc/3209/320914/32091424.jpg",
+      "article": "https://www.ksl.com/article/51646780/vincent-van-gogh-painting-sells-for-190-million-smashing-auction-record",
+      "hosted": "09-3e3a715f.jpg",
+      "srcSize": "3000x2000",
+      "srcFormat": "jpeg",
+      "srcBytes": 615313,
+      "out": "1600x1067",
+      "bytes": 155229,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.473,
+        "y": 0.921
+      },
+      "fetchedAt": "2026-11-19T05:21:13.685Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-techsurge-fedex-20261119",
+      "headline": "FedEx CEO on AI and the Two Trillion Dollar Supply Chain Problem",
+      "source": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1b/46/9c/1b469cf6-a85d-2977-1ac5-51f92ef65669/mza_5261734729492018704.jpg/600x600bb.jpg",
+      "article": "https://www.techsurgepodcast.com/",
+      "hosted": "r01-87f29cc4.jpg",
+      "srcSize": "600x600",
+      "srcFormat": "jpeg",
+      "srcBytes": 56305,
+      "out": "600x338",
+      "bytes": 16332,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-19T05:21:13.842Z"
+    }
+  ]
+}
