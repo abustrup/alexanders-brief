@@ -235,11 +235,11 @@
       "status": "open"
     },
     {
-      "date": "2026-11-19",
-      "slug": "hastighed-som-signal",
-      "claim": "Venturekapital beundrer hurtige grundlæggere, ikke fordi hastighed forudsiger succes, men fordi det er det ene, man kan se før markedets dom.",
-      "horizon": "Et stort datasæt over seed-runder, der kobler founder-pivottempo til senere exit-afkast, kontrolleret for sektor og årgang",
-      "falsifier": "En positiv korrelation mellem pivot-hastighed og exit-afkast ville vise, at hastighed er et selvstændigt forudsigende signal, ikke blot det mest observerbare.",
+      "date": "2026-11-20",
+      "slug": "skakkens-uafgjorthed",
+      "claim": "Når topcomputer-forberedelse mætter blandt eliten, stiger uafgjorte partier, fordi den afgørende fejl flyttes til sent i partiet, ikke fordi stillinger bliver mere lige.",
+      "horizon": "Næste VM-kandidaturnering, 2028",
+      "falsifier": "Faldende uafgjort-andel, eller afgørende fejl der fortsat opstår tidligt i partiet",
       "status": "open"
     }
   ]
