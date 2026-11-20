@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-20-full",
+  "runId": "run-2026-11-20-umidday-r262",
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T05:16:16.797Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-20T19:18:43.244Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief",
   "dek": "Nvidias rekordkvartal, et shortangreb på AMD og WHOs tuberkuloserapport",
   "profileWeights": {
@@ -625,6 +625,301 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "story-anthropic-ipo-close",
+      "eventKey": "anthropic-ipo-greenshoe-close-2026-11",
+      "section": "AI og økonomi",
+      "headline": "Anthropic raises $93.5 billion total as underwriters scoop up 'greenshoe' overallotment",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+      "subheadline": "Rekordstort udbud lander på 93,5 mia. dollar, da banker udnytter hele overtildelingsretten",
+      "body": [
+        "Anthropic bekræfter, at overtildelingsretten er fuldt udnyttet: 147 mio. ekstra aktier til 83 dollar bringer det samlede IPO-beløb til 93,5 mia. dollar. Inklusive en privat placering fra AMD, Google, Microsoft og Nvidia når totalen 119,5 mia. dollar."
+      ],
+      "whyItMatters": "Det er verdens største børsnotering og binder Anthropics kapital til chipproducenter, der også er dets kunder.",
+      "topics": [
+        "ai",
+        "økonomi",
+        "usa"
+      ],
+      "entities": [
+        "Anthropic",
+        "Nasdaq",
+        "AMD",
+        "Google",
+        "Microsoft",
+        "Nvidia"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 65,
+        "novelty": 68,
+        "sourceQuality": 88,
+        "personalRelevance": 85,
+        "contrast": 45
+      },
+      "materialFacts": [
+        "IPO afsluttet 20. november 2026 med bruttoindtægter på ca. 93,5 mia. dollar",
+        "147 mio. ekstra aktier solgt til 83 dollar via fuld greenshoe-udnyttelse",
+        "Privat placering fra AMD, Google, Microsoft og Nvidia tilføjede ca. 26 mia. dollar",
+        "Samlet bruttoindtægt inkl. privat placering: 119,5 mia. dollar"
+      ],
+      "claims": [
+        {
+          "text": "Anthropics IPO blev afsluttet 20. november 2026 med bruttoindtægter på ca. 93,5 mia. dollar efter fuld udnyttelse af overtildelingsretten på 147 mio. aktier til 83 dollar",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/ipo-close"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Den sideløbende private placering til techpartnere indbragte ca. 26 mia. dollar, så det samlede beløb nåede 119,5 mia. dollar",
+          "sourceUrls": [
+            "https://www.anthropic.com/news/ipo-close"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Aktien åbnede i 111,50 dollar 19. november og lukkede i 97,17 dollar",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Anthropic raises $93.5 billion total as underwriters scoop up 'greenshoe' overallotment",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters' option to purchase additional shares, and closing of concurrent private placement",
+          "publisher": "Anthropic",
+          "url": "https://www.anthropic.com/news/ipo-close",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-20/08-0870d0d9.jpg",
+        "credit": "Kilde: CNBC",
+        "alt": "Anthropic raises $93.5 billion total as underwriters scoop up 'greenshoe' overallotment",
+        "sourceUrl": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
+        "origin": "article",
+        "fingerprint": "b2f868adacccce2fb2696cac6cccceaeb849c4ac6cce8d8fc84d45646c4cce87c8c6c644edcdce0686ce86e6a4ad8d8f",
+        "lookedAt": "b2f868adacccce2fb2696cac6cccceaeb849c4ac6cce8d8fc84d45646c4cce87c8c6c644edcdce0686ce86e6a4ad8d8f",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108555352-17951019042026-11-19t145814z_563319887_rc21roaktnjs_rtrmadp_0_anthropic-ipo-debut.jpeg?v=1795101947&w=1920&h=1080",
+        "focus": {
+          "x": 0.288,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-20T19:18:43.244Z",
+        "runId": "run-2026-11-20-umidday-r262"
+      }
+    },
+    {
+      "id": "story-huang-nyt-investigation",
+      "eventKey": "nvidia-huang-workplace-culture-investigation-2026-11",
+      "section": "AI og økonomi",
+      "headline": "Behind Jensen Huang's exit, questions about a management style reportedly built on fear",
+      "primarySourceUrl": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+      "subheadline": "New York Times-undersøgelse: trusler og ydmygelser var fast ledelsesstil i årtier",
+      "body": [
+        "New York Times' undersøgelse citerer et dusin nuværende og tidligere Nvidia-medarbejdere om årtiers trusler og ydmygelse som ledelsesstil. Nvidia forligte i 2005 en sag med HR-chef Michael Winston for over en mio. dollar. Bestyrelsen bekræfter, at Huang ikke genindsættes som topchef."
+      ],
+      "whyItMatters": "Sagen lægger pres på bestyrelsens håndtering af kulturen, mens tusinder har krævet Huang tilbage.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "Michael Winston",
+        "The New York Times"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 60,
+        "novelty": 75,
+        "sourceQuality": 80,
+        "personalRelevance": 85,
+        "contrast": 55
+      },
+      "materialFacts": [
+        "NYT-undersøgelse citerer over et dusin nuværende/tidligere medarbejdere og retsdokumenter",
+        "Nvidia forligte i 2005 en sag med HR-chef Michael Winston for over 1 mio. dollar",
+        "Huangs talsperson kalder anklagerne fabrikerede",
+        "Nvidias bestyrelse bekræfter, at Huang ikke genindsættes som topchef"
+      ],
+      "claims": [
+        {
+          "text": "New York Times' undersøgelse citerer mere end et dusin nuværende og tidligere Nvidia-medarbejdere samt retsdokumenter om, at Jensen Huang i årtier brugte trusler og ydmygelse som ledelsesværktøj",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Nvidia betalte i 2005 over 1 mio. dollar for at forlige en sag med tidligere HR-chef Michael Winston",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+            "https://mlq.ai/news/new-york-times-investigation-says-jensen-huang-made-threats-and-humiliation-routine-at-nvidia/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Nvidias bestyrelse har bekræftet, at den ikke genindsætter Jensen Huang som topchef, og åbnede i november en undersøgelse af ham",
+          "sourceUrls": [
+            "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Behind Jensen Huang's exit, questions about a management style reportedly built on fear",
+          "publisher": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+          "publishedAt": "2026-11-20T13:25:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "New York Times investigation says Jensen Huang made threats and humiliation routine at Nvidia",
+          "publisher": "mlq.ai",
+          "url": "https://mlq.ai/news/new-york-times-investigation-says-jensen-huang-made-threats-and-humiliation-routine-at-nvidia/",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-20/09-8710c5b3.jpg",
+        "credit": "Foto: Getty Images / TechCrunch",
+        "alt": "Behind Jensen Huang's exit, questions about a management style reportedly built on fear",
+        "sourceUrl": "https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/",
+        "origin": "article",
+        "fingerprint": "31316546d9999c9531224447d89cb4b47162c547b9bcb43464e19447b9b83434c5b4969728782e36a236979129586e6e",
+        "lookedAt": "31316546d9999c9531224447d89cb4b47162c547b9bcb43464e19447b9b83434c5b4969728782e36a236979129586e6e",
+        "originalUrl": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2266464474.jpg?resize=1200,774",
+        "focus": {
+          "x": 0.279,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-20T19:18:43.244Z",
+        "runId": "run-2026-11-20-umidday-r262"
+      }
+    },
+    {
+      "id": "story-dk-assassination-plot",
+      "eventKey": "denmark-russia-assassination-plot-kyivstoner-2026-11",
+      "section": "Verden",
+      "headline": "Sigtelse: Rusland hyrede danskere til at dræbe ukrainsk rapper i Danmark",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/indland/sigtelse-rusland-hyrede-danskere-til-draebe-ukrainer-i-danmark",
+      "subheadline": "To danske mænd sigtet for på russisk bestilling at ville dræbe rapperen Kyivstoner",
+      "body": [
+        "To danske mænd er sigtet for på en russisk efterretningstjenestes bestilling at ville myrde rapperen Kyivstoner forud for en koncert 25. september i Charlottenlund. Politiet anholdt dem forinden med flere våben i Hellerup. Sagen var hemmeligholdt indtil retsmødet i Lyngby."
+      ],
+      "whyItMatters": "Sagen er et konkret tegn på, at russisk efterretning hyrer lokale til vold på dansk jord, midt i hybridtrusler mod Europa.",
+      "topics": [
+        "danmark",
+        "sikkerhedspolitik",
+        "kriminalitet"
+      ],
+      "entities": [
+        "Kyivstoner",
+        "Anja Lund Liin",
+        "Retten i Lyngby",
+        "PET"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 50,
+        "novelty": 85,
+        "sourceQuality": 80,
+        "personalRelevance": 75,
+        "contrast": 60
+      },
+      "materialFacts": [
+        "To danske mænd sigtet for drabsplan mod rapperen Kyivstoner",
+        "Planen angives bestilt af en russisk efterretningstjeneste",
+        "Mændene anholdt med flere våben i Hellerup forud for koncert 25. september",
+        "Sagen hemmeligholdt af politi og domstole indtil retsmøde 20. november"
+      ],
+      "claims": [
+        {
+          "text": "To danske mænd er sigtet for på bestilling fra en russisk efterretningstjeneste at have planlagt at dræbe den ukrainske rapper Kyivstoner forud for en koncert 25. september i Charlottenlund",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/sigtelse-rusland-hyrede-danskere-til-draebe-ukrainer-i-danmark"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Mændene blev anholdt med flere våben i en bil i Hellerup, inden koncerten kunne afholdes",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/sigtelse-rusland-hyrede-danskere-til-draebe-ukrainer-i-danmark",
+            "https://www.tv2kosmopol.dk/gentofte/rusland-hyrede-danskere-til-at-draebe-ukrainsk-rapper-i-charlottenlund-e1d32"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Sagen blev hemmeligholdt af politi, domstole og efterretningstjenesten, indtil den kom frem ved et retsmøde i Lyngby 20. november",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/indland/sigtelse-rusland-hyrede-danskere-til-draebe-ukrainer-i-danmark"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sigtelse: Rusland hyrede danskere til at dræbe ukrainsk rapper i Danmark",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/indland/sigtelse-rusland-hyrede-danskere-til-draebe-ukrainer-i-danmark",
+          "publishedAt": "2026-11-20T10:12:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Rusland hyrede danskere til at dræbe ukrainsk rapper i Charlottenlund",
+          "publisher": "TV 2 Kosmopol",
+          "url": "https://www.tv2kosmopol.dk/gentofte/rusland-hyrede-danskere-til-at-draebe-ukrainsk-rapper-i-charlottenlund-e1d32",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-20/10-3d69fff7.jpg",
+        "credit": "Kyivstoner/Facebook",
+        "alt": "Portræt af den ukrainske rapper Kyivstoner (Albert Vasiliev)",
+        "sourceUrl": "https://kyivindependent.com/denmark-expels-russian-diplomat-over-alleged-assassination-plot-on-ukrainian-rapper-kyivstoner/",
+        "origin": "coverage",
+        "fingerprint": "73f1d0ec7e7cfcf171f990ecf47cfcbcf9f090c4f57dfeb4f89032e4f6fcddbaf03926a6e6f6dcdd21692627e7f7fede",
+        "lookedAt": "73f1d0ec7e7cfcf171f990ecf47cfcbcf9f090c4f57dfeb4f89032e4f6fcddbaf03926a6e6f6dcdd21692627e7f7fede",
+        "originalUrl": "https://assets.kyivindependent.com/content/images/2026/08/659699849_18587835667048552_3188406401916523418_n_20260814-150555.jpg",
+        "focus": {
+          "x": 0.2,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-20T19:18:43.244Z",
+        "runId": "run-2026-11-20-umidday-r262"
+      }
     }
   ],
   "signals": [
@@ -948,5 +1243,20 @@
     "novelty": 75,
     "perspectiveBalance": 80,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-20T19:18:43.244Z",
+      "runId": "run-2026-11-20-umidday-r262",
+      "added": 3,
+      "cost": {
+        "usd": 2.8320402000000002,
+        "inputTokens": 4479184,
+        "outputTokens": 45864,
+        "turns": 76,
+        "seconds": 711.6
+      }
+    }
+  ]
 }
