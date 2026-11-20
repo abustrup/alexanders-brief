@@ -1,0 +1,166 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-20",
+  "generatedAt": "2026-11-20T05:31:25.666Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-nvidia-q3",
+      "headline": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "source": "https://iprsoftwaremedia.com/219/files/20224/628c2a47b3aed32797213f6c_voyager-exterior-sign-2/voyager-exterior-sign-2_1829ac3c-85ac-4929-8c67-5994c15c70c9-prv.jpg?v=1829ac3c-85ac-4929-8c67-5994c15c70c9",
+      "article": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "hosted": "01-d4ff596d.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 1856330,
+      "out": "1600x1200",
+      "bytes": 253148,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.817,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-20T05:31:26.270Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-amd-hunterbrook",
+      "headline": "AMD dives on short seller report of alleged China exposure",
+      "source": "https://image.cnbcfm.com/api/v1/image/108475785-1793209626528-gettyimages-2298419069-SKOREA_AMD.jpeg?v=1793209658&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html",
+      "hosted": "02-420fef3c.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 80617,
+      "out": "1600x1067",
+      "bytes": 80061,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-20T05:31:26.622Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-cyber-director",
+      "headline": "Sean Cairncross was fired as national cyber director",
+      "source": "https://thehill.com/wp-content/uploads/sites/2/2025/06/cairncrosssean_060525gn02_w.jpg?w=1280",
+      "article": "https://thehill.com/homenews/administration/6231938-sean-cairncross-resigns-cyber-director/",
+      "hosted": "03-97772c68.jpg",
+      "srcSize": "1280x719",
+      "srcFormat": "webp",
+      "srcBytes": 49842,
+      "out": "1078x719",
+      "bytes": 51943,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.8,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-20T05:31:27.263Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-kyiv-embassies",
+      "headline": "EU to Summon Russian Envoy After Strikes Damage Embassies in Kyiv",
+      "source": "https://storage.united24media.com/og/2/b5/08b07c045e729409cd95acc781bddb52.jpg",
+      "article": "https://united24media.com/war-in-ukraine/eu-to-summon-russian-envoy-after-strikes-damage-embassies-in-kyiv-24545",
+      "hosted": "04-e5231767.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 428100,
+      "out": "945x630",
+      "bytes": 59413,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.889,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-20T05:31:28.552Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-who-tb",
+      "headline": "Global tuberculosis report 2026",
+      "source": "https://imageio.forbes.com/specials-images/imageserve/6af5181df9374f5cd3019ebc/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "article": "https://www.who.int/teams/global-tuberculosis-programme/tb-reports/global-tuberculosis-report-2026",
+      "hosted": "05-5d39e3b6.jpg",
+      "srcSize": "1350x900",
+      "srcFormat": "webp",
+      "srcBytes": 111468,
+      "out": "1350x900",
+      "bytes": 143021,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-20T05:31:29.029Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-venezuela",
+      "headline": "US Defence Secretary Hegseth reveals military partnership on Venezuela trip",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6afdfab10599-1795029681.jpg?resize=1200%2C675",
+      "article": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela",
+      "hosted": "06-b10bc0bd.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "webp",
+      "srcBytes": 77626,
+      "out": "1012x675",
+      "bytes": 83368,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-20T05:31:29.309Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-shenzhen-reaction",
+      "headline": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+      "source": "https://newsimg.koreatimes.co.kr/2026/11/20/22054e84-9fcf-42c9-839f-7975f08fc699.jpg",
+      "article": "https://www.koreatimes.co.kr/world/20261120/trump-xi-and-putin-release-peace-declaration-from-unprecedented-summit",
+      "hosted": "07-482dd1b4.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 199582,
+      "out": "1600x1067",
+      "bytes": 135792,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-20T05:31:29.711Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-dwarkesh-christiano",
+      "headline": "Paul Christiano – We could be 12 months away from AIs that can overthrow the government",
+      "source": "https://img.youtube.com/vi/SyHM5hNPAEo/maxresdefault.jpg",
+      "article": "https://www.dwarkesh.com/p/paul-christiano-2",
+      "hosted": "r01-970d2405.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 167687,
+      "out": "1280x720",
+      "bytes": 88847,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-20T05:31:29.899Z"
+    }
+  ]
+}
