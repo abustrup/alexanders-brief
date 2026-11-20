@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-20-umidday-r262",
+  "runId": "run-2026-11-20-uafternoon-r264",
   "date": "2026-11-20",
-  "generatedAt": "2026-11-20T19:18:43.244Z",
-  "readingMinutes": 11,
+  "generatedAt": "2026-11-20T22:42:35.617Z",
+  "readingMinutes": 12,
   "title": "Alexanders Brief",
   "dek": "Nvidias rekordkvartal, et shortangreb på AMD og WHOs tuberkuloserapport",
   "profileWeights": {
@@ -920,6 +920,106 @@
         "at": "2026-11-20T19:18:43.244Z",
         "runId": "run-2026-11-20-umidday-r262"
       }
+    },
+    {
+      "id": "story-nvidia-sec-correction",
+      "eventKey": "nvidia-sec-accounting-probe-market-correction-2026-11",
+      "section": "AI og økonomi",
+      "headline": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+      "subheadline": "SEC undersøger Nvidias regnskaber, mens Wall Street lukker i korrektion",
+      "body": [
+        "S&P 500 faldt 3,7% og Nasdaq 5,28% fredag; begge lukkede i korrektion. Nvidia faldt knap 14%, værst i to år, og tabte ca. 485 mia. dollar på en dag. AMD faldt over 13%. Reuters: SEC undersøger, om Nvidias regnskaber - bl.a. omsætning rutet via Singapore - vildledte investorer."
+      ],
+      "whyItMatters": "Korrektionen og SEC-sagen tester, om AI-boomet holder, når regnskabstvivl lægger sig til vækstbekymring.",
+      "topics": [
+        "ai",
+        "økonomi",
+        "usa"
+      ],
+      "entities": [
+        "Nvidia",
+        "AMD",
+        "SEC",
+        "S&P 500",
+        "Nasdaq"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 82,
+        "novelty": 78,
+        "sourceQuality": 85,
+        "personalRelevance": 85,
+        "contrast": 75
+      },
+      "materialFacts": [
+        "S&P 500 faldt 3,7% til 6.910,39 og lukkede i korrektion",
+        "Nasdaq Composite faldt 5,28% til 22.617,73, hvilket udslettede årets stigning",
+        "Nvidia faldt knap 14% og tabte ca. 485 mia. dollar i markedsværdi på en dag; AMD faldt over 13%",
+        "Reuters rapporterer, at SEC undersøger Nvidias regnskabspraksis, herunder omsætning rutet via Singapore"
+      ],
+      "claims": [
+        {
+          "text": "S&P 500 faldt 3,7% til 6.910,39 og Nasdaq Composite faldt 5,28% til 22.617,73 fredag; begge lukkede i korrektion",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Nvidia faldt knap 14%, sin værste dag i næsten to år, og tabte ca. 485 mia. dollar i markedsværdi; AMD faldt over 13%",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+            "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "SEC undersøger ifølge Reuters, om Nvidias regnskabspraksis - herunder omsætning rutet via Singapore - har vildledt investorer",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+            "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia stock extends $2.7 trillion rout as SEC probe reportedly investigates its accounting",
+          "publisher": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-stock-extends-25-trillion-rout-as-sec-probe-reportedly-investigates-its-accounting-194945274.html",
+          "publishedAt": "2026-11-20T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-20/11-ff5de5c5.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+        "sourceUrl": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html",
+        "origin": "article",
+        "fingerprint": "e143d8c86c6ce6e6c342d8c86c48ce66c3d2d9c84e4ace47c39a99c84ec94cc78b9d998cdbd9ccce2d1c1c0f9b9c88cf",
+        "lookedAt": "e143d8c86c6ce6e6c342d8c86c48ce66c3d2d9c84e4ace47c39a99c84ec94cc78b9d998cdbd9ccce2d1c1c0f9b9c88cf",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108533238-1795191208439-108533238-1793980775226-gettyimages-2303833268-anotherday34809196_zrhw37kt.jpeg?v=1795191232&w=1920&h=1080",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "afternoon",
+        "at": "2026-11-20T22:42:35.617Z",
+        "runId": "run-2026-11-20-uafternoon-r264"
+      }
     }
   ],
   "signals": [
@@ -1256,6 +1356,19 @@
         "outputTokens": 45864,
         "turns": 76,
         "seconds": 711.6
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-20T22:42:35.617Z",
+      "runId": "run-2026-11-20-uafternoon-r264",
+      "added": 1,
+      "cost": {
+        "usd": 2.6430019999999983,
+        "inputTokens": 3595432,
+        "outputTokens": 29286,
+        "turns": 70,
+        "seconds": 599.7
       }
     }
   ]
