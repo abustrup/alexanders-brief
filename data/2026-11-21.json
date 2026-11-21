@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "2026-11-21-daily",
+  "runId": "run-2026-11-21-umidday-r266",
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T06:00:00Z",
-  "readingMinutes": 6,
+  "generatedAt": "2026-11-21T18:02:11.802Z",
+  "readingMinutes": 7,
   "title": "Alexanders Brief",
   "dek": "Trump truer med skat på AI-datacentre i udlandet, PFA i front mod Zuckerberg, og Myanmar afviser folkedrabsdom.",
   "profileWeights": {
@@ -608,6 +608,80 @@
           "y": 0.525
         }
       }
+    },
+    {
+      "id": "story-sparta2-drone-2026-11-21",
+      "eventKey": "sparta-ii-drone-strike-gulf-of-finland-2026-11",
+      "materialFacts": [
+        "Det sanktionerede russiske fragtskib Sparta II blev ramt af to droner lørdag morgen i internationalt vand i Finske Bugt",
+        "Skibet var på vej fra St. Petersborg til Kaliningrad og fik brand om bord",
+        "Skibet drev ind i finsk territorialvand syd for Loviisa; Finlands kystvagt ledede evakuering",
+        "Finlands forsvar vurderer, at angrebet sandsynligvis blev udført af Ukraine"
+      ],
+      "section": "Sikkerhed",
+      "headline": "Russian cargo ship struck by drones in Gulf of Finland",
+      "primarySourceUrl": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+      "subheadline": "Sanktioneret fragtskib drev ind i finsk territorialvand efter droneangreb nær Rusland.",
+      "body": [
+        "Det russiske fragtskib Sparta II, sanktioneret af USA og Ukraine, blev lørdag ramt af to droner i internationalt vand i den østlige Finske Bugt. Skibet, på vej mod Kaliningrad, fik brand om bord og drev ind i finsk territorialvand syd for Loviisa. Finlands forsvar vurderer, at Ukraine stod bag."
+      ],
+      "whyItMatters": "Angrebet føjer endnu en episode til krigens spredning til Østersøen, et NATO-nært farvand.",
+      "topics": [
+        "geopolitik",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Sparta II",
+        "Finlands Forsvarsministerium",
+        "Finlands Grænsevagt"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 45,
+        "novelty": 85,
+        "sourceQuality": 75,
+        "personalRelevance": 35,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Sparta II blev ramt af to droner i internationalt vand i Finske Bugt og drev ind i finsk territorialvand syd for Loviisa",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russian cargo ship struck by drones in Gulf of Finland",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+          "publishedAt": "2026-11-21T14:01:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/08-a620b72a.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "The smoke rise from Russian cargo ship Sparta II, in the Gulf of Finland on Saturday, Nov. 21, 2026",
+        "sourceUrl": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+        "origin": "article",
+        "fingerprint": "1c1f6694c40f350c1f276292848f3e843f674252428dbfa42fe3d383834c1f67ebd1410983cd1d77e195499121650c3f",
+        "lookedAt": "1c1f6694c40f350c1f276292848f3e843f674252428dbfa42fe3d383834c1f67ebd1410983cd1d77e195499121650c3f",
+        "originalUrl": "https://images.euronews.com/articles/stories/10/00/27/74/1920x1080_cmsv2_ec037588-b301-5fe7-bd29-b01e517cd07a-10002774.jpg",
+        "focus": {
+          "x": 0.884,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-21T18:02:11.802Z",
+        "runId": "run-2026-11-21-umidday-r266"
+      }
     }
   ],
   "signals": [
@@ -872,5 +946,20 @@
     "averageImportance": 62,
     "averageSourceQuality": 79,
     "feedbackAlignedShare": 43
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-21T18:02:11.802Z",
+      "runId": "run-2026-11-21-umidday-r266",
+      "added": 1,
+      "cost": {
+        "usd": 1.7257714999999998,
+        "inputTokens": 1838794,
+        "outputTokens": 17156,
+        "turns": 50,
+        "seconds": 316.9
+      }
+    }
+  ]
 }

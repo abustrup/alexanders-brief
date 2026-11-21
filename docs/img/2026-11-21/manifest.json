@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-21",
-  "generatedAt": "2026-11-21T05:21:59.067Z",
+  "generatedAt": "2026-11-21T18:05:01.056Z",
   "pictures": [
     {
       "slot": "01",
@@ -142,6 +142,26 @@
         "y": 0.525
       },
       "fetchedAt": "2026-11-21T05:22:03.382Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-sparta2-drone-2026-11-21",
+      "headline": "Russian cargo ship struck by drones in Gulf of Finland",
+      "source": "https://images.euronews.com/articles/stories/10/00/27/74/1920x1080_cmsv2_ec037588-b301-5fe7-bd29-b01e517cd07a-10002774.jpg",
+      "article": "https://www.euronews.com/2026/11/21/russian-cargo-ship-struck-by-drone-in-gulf-of-finland-finnish-authorities-say",
+      "hosted": "08-a620b72a.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 234450,
+      "out": "1600x1067",
+      "bytes": 218259,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.884,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-21T18:05:01.529Z"
     },
     {
       "slot": "r01",
