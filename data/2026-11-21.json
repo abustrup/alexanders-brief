@@ -1,0 +1,876 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "2026-11-21-daily",
+  "date": "2026-11-21",
+  "generatedAt": "2026-11-21T06:00:00Z",
+  "readingMinutes": 6,
+  "title": "Alexanders Brief",
+  "dek": "Trump truer med skat på AI-datacentre i udlandet, PFA i front mod Zuckerberg, og Myanmar afviser folkedrabsdom.",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-trump-dc-tax-2026-11-21",
+      "eventKey": "trump-datacenter-tax-threat-2026-11",
+      "materialFacts": [
+        "Trump sagde 20. november han vil stoppe amerikanske selskaber i at bygge AI-datacentre i udlandet",
+        "Han truede med en 'enorm skat' på selskaber, der gør det alligevel",
+        "Nævnte specifikt Googles planlagte datacenter i Finland til omkring 15 mia. dollar",
+        "Angav ingen lovhjemmel eller plan om at søge Kongressen"
+      ],
+      "section": "Teknologi",
+      "headline": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "subheadline": "Trump truer med skat på AI-datacentre i udlandet.",
+      "body": [
+        "Trump sagde fredag, at amerikanske selskaber ikke skal bygge AI-datacentre i udlandet, og at de, der gør det, skal betale en 'enorm skat'. Han nævnte Googles anlæg i Finland til 15 mia. dollar og angav ingen lovhjemmel; Amazon, Microsoft, Meta og Oracle nævntes også."
+      ],
+      "whyItMatters": "Et indgreb ændrer regnestykket for amerikanske AI-anlæg i Europa, inklusive dansk kapacitet via EuroHPC.",
+      "analysis": "Truslen har ingen mekanisme, men kan få selskaber til at udskyde anlæg, hvor energi er svær.",
+      "counterpoint": "Skatteretten ligger hos Kongressen, ikke præsidenten; Trump nævnte ingen lov.",
+      "topics": [
+        "ai",
+        "usa",
+        "teknologi",
+        "investeringer"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Google",
+        "Alphabet Inc.",
+        "Microsoft",
+        "Amazon",
+        "Meta Platforms",
+        "Oracle",
+        "Finland"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 78,
+        "decisionValue": 80,
+        "novelty": 82,
+        "sourceQuality": 80,
+        "personalRelevance": 70,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "Trump sagde 20. november, at han vil stoppe amerikanske datacentre i udlandet og lægge en 'enorm skat' på dem, der bygger alligevel",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ingen lovhjemmel blev navngivet; den amerikanske forfatning giver Kongressen, ikke præsidenten, skatteretten",
+          "sourceUrls": [
+            "https://www.ibtimes.co.uk/trump-tax-ai-data-centres-abroad-legal-questions-1833720"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+          "publishedAt": "2026-11-20T20:47:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Can Trump Actually Impose a 'Tremendous Tax' on US Tech Firms Building AI Data Centres Abroad?",
+          "publisher": "IBTimes UK",
+          "url": "https://www.ibtimes.co.uk/trump-tax-ai-data-centres-abroad-legal-questions-1833720",
+          "publishedAt": "2026-11-20T18:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/01-a3fe36e4.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+        "sourceUrl": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+        "origin": "article",
+        "fingerprint": "c98ccbcdcccece0e8c8dcdcdce4ecf4e8c0dcdcc5657474f0d05ccd4979656560604c496979696960684969696969293",
+        "lookedAt": "c98ccbcdcccece0e8c8dcdcdce4ecf4e8c0dcdcc5657474f0d05ccd4979656560604c496979696960684969696969293",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108556645-1795196053260-gettyimages-2305498959-AFP_D87462K.jpeg?v=1795196073&w=1920&h=1080",
+        "focus": {
+          "x": 0.5,
+          "y": 0.818
+        }
+      }
+    },
+    {
+      "id": "story-pfa-meta-2026-11-21",
+      "eventKey": "pfa-meta-zuckerberg-lawsuit-2026-11",
+      "materialFacts": [
+        "PFA har en ledende rolle i et aktionærsøgsmål mod Metas planlagte C-aktier uden stemmeret",
+        "PFA ejer Meta-aktier for ca. 5,5 mia. kr.",
+        "Zuckerberg ejer ca. 14 pct. af Meta men kontrollerer over 60 pct. af stemmerne via B-aktier",
+        "Retssagen går for retten i april 2027; Meta har sat planen på pause undervejs"
+      ],
+      "section": "Erhverv",
+      "headline": "Dansk pensionsgigant får hovedrolle i retssag om Zuckerbergs magt i Meta",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/penge/dansk-pensionsgigant-faar-hovedrolle-i-retssag-om-zuckerbergs-magt-i-meta",
+      "subheadline": "PFA i front mod en plan, der skal lade Zuckerberg sælge aktier uden kontroltab.",
+      "body": [
+        "PFA, med Meta-aktier for ca. 5,5 mia. kr., har en ledende rolle i et søgsmål mod Metas C-aktieplan. Klagen hævder, planen lader Zuckerberg sælge halvdelen af sin post uden kontroltab. Han ejer 14 pct. af Meta, men styrer over 60 pct. af stemmerne. Meta har sat planen i bero; sagen afgøres april 2027."
+      ],
+      "whyItMatters": "Udfaldet afgør, om Zuckerberg kan omsætte aktier til likviditet uden at svække stemmekontrol.",
+      "analysis": "Sagen tester, hvor langt en grundlægger kan skille ejerskab fra kontrol, med dansk investor i front.",
+      "topics": [
+        "danmark",
+        "finans",
+        "erhverv"
+      ],
+      "entities": [
+        "PFA Pension",
+        "Mark Zuckerberg",
+        "Meta Platforms",
+        "California State Teachers' Retirement System"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 75,
+        "novelty": 70,
+        "sourceQuality": 78,
+        "personalRelevance": 80,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "PFA ejer Meta-aktier for ca. 5,5 mia. kr. og har en ledende rolle i søgsmålet mod Metas C-aktieplan",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/dansk-pensionsgigant-faar-hovedrolle-i-retssag-om-zuckerbergs-magt-i-meta"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Meta har sat udstedelsen af C-aktier i bero, mens retssagen med forventet domsdato i april 2027 kører",
+          "sourceUrls": [
+            "https://www.dr.dk/nyheder/penge/dansk-pensionsgigant-faar-hovedrolle-i-retssag-om-zuckerbergs-magt-i-meta",
+            "https://www.benzinga.com/markets/tech/26/11/63418796/meta-halts-mark-zuckerbergs-new-share-issuance-plan-amid-investor-lawsuit-alleging-ceo-pressured-board-to-approve-it"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dansk pensionsgigant får hovedrolle i retssag om Zuckerbergs magt i Meta",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/dansk-pensionsgigant-faar-hovedrolle-i-retssag-om-zuckerbergs-magt-i-meta",
+          "publishedAt": "2026-11-20T21:01:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Meta Halts Mark Zuckerberg's New Share Issuance Plan Amid Investor Lawsuit Alleging CEO Pressured Board to Approve It",
+          "publisher": "Benzinga",
+          "url": "https://www.benzinga.com/markets/tech/26/11/63418796/meta-halts-mark-zuckerbergs-new-share-issuance-plan-amid-investor-lawsuit-alleging-ceo-pressured-board-to-approve-it",
+          "publishedAt": "2026-11-19T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/02-f51b2644.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Dansk pensionsgigant får hovedrolle i retssag om Zuckerbergs magt i Meta",
+        "sourceUrl": "https://www.dr.dk/nyheder/penge/dansk-pensionsgigant-faar-hovedrolle-i-retssag-om-zuckerbergs-magt-i-meta",
+        "origin": "article",
+        "fingerprint": "71f99cd8d8dde9d9f0d89c98d89ce5d8f89c1c98d81ca4e8d81c1e98d81a26a41c1e1e1c989926761e371e1890991f77",
+        "lookedAt": "71f99cd8d8dde9d9f0d89c98d89ce5d8f89c1c98d81ca4e8d81c1e98d81a26a41c1e1e1c989926761e371e1890991f77",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/lbwmjf5l/20261118-120039-3_crop001.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.102,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-nvidia-sec-huang-2026-11-21",
+      "eventKey": "nvidia-sec-probe-trump-huang-pressure-2026-11",
+      "materialFacts": [
+        "SEC's civile undersøgelse af Nvidia er ifølge rapportering rettet mod regnskabspraksis",
+        "Trump opfordrede 20. november offentligt Nvidias bestyrelse til at tage Huang tilbage",
+        "Nvidias bestyrelse har tidligere sagt, at en genindsættelse ikke er på tale"
+      ],
+      "section": "Teknologi",
+      "headline": "SEC Probe Into Nvidia Is Focused On Accounting Practices, According To Report",
+      "primarySourceUrl": "https://www.forbes.com/sites/fionariley/2026/11/20/sec-is-investigating-nvidias-accounting-practices-according-to-report/",
+      "subheadline": "SEC-sonderingen af Nvidia går efter regnskabet, mens Trump pressede om Huang.",
+      "body": [
+        "SEC's undersøgelse af Nvidia, åbnet efter Huangs afgang, er ifølge en rapport rettet mod regnskabspraksis. Samme dag opfordrede Trump offentligt bestyrelsen til at lade Huang 'undskylde' og vende tilbage som topchef. Bestyrelsen har afvist, at genindsættelse er på tale."
+      ],
+      "whyItMatters": "En regnskabssag lægger sig til bestyrelseskrisen, mens præsidenten offentligt presser den anden vej.",
+      "analysis": "Et regulatorisk spor kan koste bøder eller oplysningskrav; et politisk spor presser bestyrelsens uafhængighed.",
+      "topics": [
+        "ai",
+        "usa",
+        "erhverv"
+      ],
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "U.S. Securities and Exchange Commission",
+        "Donald Trump"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 60,
+        "novelty": 45,
+        "sourceQuality": 65,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "SEC's probe i Nvidia er rapporteret rettet mod regnskabspraksis og investoroplysninger",
+          "sourceUrls": [
+            "https://www.forbes.com/sites/fionariley/2026/11/20/sec-is-investigating-nvidias-accounting-practices-according-to-report/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Trump opfordrede 20. november Nvidias bestyrelse til at lade Huang vende tilbage som topchef",
+          "sourceUrls": [
+            "https://www.newsweek.com/trump-jensen-huang-nvidia-congressional-inquiry-12749752"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "SEC Probe Into Nvidia Is Focused On Accounting Practices, According To Report",
+          "publisher": "Forbes",
+          "url": "https://www.forbes.com/sites/fionariley/2026/11/20/sec-is-investigating-nvidias-accounting-practices-according-to-report/",
+          "publishedAt": "2026-11-20T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump Urges Nvidia to Reinstate Jensen Huang Amid Congressional Inquiry",
+          "publisher": "Newsweek",
+          "url": "https://www.newsweek.com/trump-jensen-huang-nvidia-congressional-inquiry-12749752",
+          "publishedAt": "2026-11-20T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/03-89d8099c.jpg",
+        "credit": "Foto: Getty Images / Newsweek",
+        "alt": "Trump Urges Nvidia to Reinstate Jensen Huang Amid Congressional Inquiry - Newsweek featured image",
+        "sourceUrl": "https://www.newsweek.com/trump-jensen-huang-nvidia-congressional-inquiry-12749752",
+        "origin": "source",
+        "fingerprint": "bb39794959570787b939f9c1d155878739b9b9c5f5d587a378b8b484b4bca3237828a4d626383323786aa29262727a43",
+        "lookedAt": "bb39794959570787b939f9c1d155878739b9b9c5f5d587a378b8b484b4bca3237828a4d626383323786aa29262727a43",
+        "originalUrl": "https://assets.newsweek.com/wp-content/uploads/2026/11/GettyImages-2212178814.jpg?w=1200&crop=1",
+        "focus": {
+          "x": 0.17,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-dk-gdp-2026-11-21",
+      "eventKey": "denmark-q3-2026-gdp-growth-2026-11",
+      "materialFacts": [
+        "Dansk BNP steg 0,8 pct. sæsonkorrigeret i 3. kvartal 2026",
+        "Væksten kom primært fra industrien og det offentlige",
+        "De første tre kvartaler af 2026 er BNP vokset 4,6 pct. år-til-år",
+        "Bruttoværditilvæksten uden medicinalindustrien var 2,9 pct. mod 4,9 pct. inklusive"
+      ],
+      "section": "Økonomi",
+      "headline": "Fortsat fremgang i dansk økonomi i 3. kvartal",
+      "primarySourceUrl": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=53769",
+      "subheadline": "Danmarks Statistik: BNP op 0,8 pct. i 3. kvartal, drevet af industri og det offentlige.",
+      "body": [
+        "Danmarks Statistik meddelte 20. november, at BNP steg 0,8 pct. sæsonkorrigeret i 3. kvartal 2026, drevet af industri og det offentlige. De første tre kvartaler er økonomien vokset 4,6 pct. år til år. Uden medicinalindustrien var bruttoværditilvæksten 2,9 pct., mod 4,9 pct. inklusive den."
+      ],
+      "whyItMatters": "Danmark ligger an til den hurtigste EU-vækst i år, men forspringet kommer fra et enkelt selskab.",
+      "analysis": "Afstanden med og uden medicin viser, hvor afhængig væksten er af Novo Nordisk, og hvor sårbar den er, hvis det flader ud.",
+      "topics": [
+        "danmark",
+        "oekonomi"
+      ],
+      "entities": [
+        "Danmarks Statistik",
+        "Novo Nordisk"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 65,
+        "novelty": 60,
+        "sourceQuality": 90,
+        "personalRelevance": 75,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Dansk BNP steg 0,8 pct. sæsonkorrigeret i 3. kvartal 2026, og er vokset 4,6 pct. for årets første tre kvartaler",
+          "sourceUrls": [
+            "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=53769"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Fortsat fremgang i dansk økonomi i 3. kvartal",
+          "publisher": "Danmarks Statistik",
+          "url": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=53769",
+          "publishedAt": "2026-11-20T08:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Dansk økonomi buldrer videre: 'Ganske enkelt imponerende'",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/penge/dansk-oekonomi-buldrer-videre-ganske-enkelt-imponerende",
+          "publishedAt": "2026-11-20T10:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/04-89634b39.jpg",
+        "credit": "Foto: Getty Images / CNN",
+        "alt": "Novo Nordisks produktionsanlæg i Kalundborg, fotograferet i december 2024",
+        "sourceUrl": "https://us.cnn.com/2026/05/07/business/novo-nordisk-ozempic-wegovy-kalundborg",
+        "origin": "coverage",
+        "fingerprint": "c0e479f3e6b373294066f1f1e2b153615064f9b1a2a99172c2f4b8a1a5a55adb89f4284125245a9ac97224e76464e6bb",
+        "lookedAt": "c0e479f3e6b373294066f1f1e2b153615064f9b1a2a99172c2f4b8a1a5a55adb89f4284125245a9ac97224e76464e6bb",
+        "originalUrl": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2190120029.jpg?c=original&q=w_780,c_fill",
+        "focus": {
+          "x": 0.9,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://www.dst.dk/site/dst/udgivelser/nyt/getimage.aspx?cid=53769",
+          "fingerprint": "652013ae7085b9216548432e6094a25a6512016bf09628400120056bf0940a400002214dd8a629a00040a04dd8a64a01",
+          "reason": "chart-or-text-card"
+        },
+        {
+          "url": "https://asset.dr.dk/drdk/umbraco-images/okbgahzh/20261113-130114-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+          "fingerprint": "76648c99130b7a63f6c69c99130e5a63b68e9e19138e895bea9a1e191187add95f3b0e18b007359d152b0eb8f0072514",
+          "reason": "off-topic"
+        }
+      ]
+    },
+    {
+      "id": "story-quera-aquila-2026-11-21",
+      "eventKey": "quera-berkeley-aquila-dynamical-phase-transition-2026-11",
+      "materialFacts": [
+        "Nature-studie observerer prætermale tilstande, 'resonant smeltning' og en dynamisk faseovergang",
+        "Eksperimentet brugte QuEras Aquila-processor med op til 180 atomer i 2D-gitre",
+        "Forskere fra Berkeley Lab, QuEra, Harvard og Boston University står bag",
+        "Overgangen har ikke en kendt ligevægts-modpart"
+      ],
+      "section": "Videnskab",
+      "headline": "QuEra Computing and Lawrence Berkeley National Laboratory Publish Nature Study of Quantum Dynamics on Up to 180 Qubits",
+      "primarySourceUrl": "https://thequantuminsider.com/2026/11/18/quera-berkeley-lab-study-quantum-dynamics-aquila/",
+      "subheadline": "Kvantecomputer på 180 atomer viser en faseovergang ingen klassisk model kan.",
+      "body": [
+        "Berkeley Lab, QuEra, Harvard og Boston University har i Nature brugt Aquila-processoren til at se kvantesystemer efter en ændring, i gitre på op til 180 atomer: prætermale tilstande, 'resonant smeltning', og en faseovergang uden ligevægts-modpart."
+      ],
+      "whyItMatters": "Klassiske computere kan ikke simulere entanglementet her, så fundet viser noget kun kvantemaskinen kan.",
+      "analysis": "Det er et peer-reviewet fund, ikke en leverandørs benchmark, og flytter fokus til hvad maskinen viser.",
+      "topics": [
+        "kvante",
+        "videnskab"
+      ],
+      "entities": [
+        "QuEra Computing",
+        "Lawrence Berkeley National Laboratory",
+        "NERSC",
+        "Harvard University",
+        "Boston University"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 35,
+        "novelty": 75,
+        "sourceQuality": 85,
+        "personalRelevance": 55,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Nature-studiet rapporterer prætermale tilstande, resonant smeltning og en dynamisk faseovergang observeret på Aquila med op til 180 atomer",
+          "sourceUrls": [
+            "https://thequantuminsider.com/2026/11/18/quera-berkeley-lab-study-quantum-dynamics-aquila/"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "QuEra Computing and Lawrence Berkeley National Laboratory Publish Nature Study of Quantum Dynamics on Up to 180 Qubits",
+          "publisher": "The Quantum Insider",
+          "url": "https://thequantuminsider.com/2026/11/18/quera-berkeley-lab-study-quantum-dynamics-aquila/",
+          "publishedAt": "2026-11-18T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Observing prethermal dynamical phase transitions on QuEra Aquila with Amazon Braket",
+          "publisher": "AWS",
+          "url": "https://aws.amazon.com/blogs/quantum-computing/observing-prethermal-dynamical-phase-transitions-on-quera-aquila-with-amazon-braket/",
+          "publishedAt": "2026-11-18T00:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/05-190b1d49.jpg",
+        "credit": "QuEra Computing, Inc. / Wikimedia Commons (CC BY 4.0)",
+        "alt": "Det optiske opstillingsbord i QuEras kvantecomputer Aquila",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:QuEra_Aquila_Optical_Layout.jpg",
+        "origin": "library",
+        "fingerprint": "8187872f13954f2f4003272e1395862f0383322f33b2865703837b6f332a2e8603e32b4fb9252f2701e94dcb79256d65",
+        "lookedAt": "8187872f13954f2f4003272e1395862f0383322f33b2865703837b6f332a2e8603e32b4fb9252f2701e94dcb79256d65",
+        "originalUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/QuEra_Aquila_Optical_Layout.jpg/1280px-QuEra_Aquila_Optical_Layout.jpg",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://thequantuminsider.com/wp-content/uploads/2026/11/2026-11-18_22-01.png",
+          "fingerprint": "002d9256925d331f002d9256aa953137043912d7ab9478338639b1b529b24638863932b5512ac520983132a2d869a209",
+          "reason": "logo-or-card"
+        }
+      ]
+    },
+    {
+      "id": "story-myanmar-icj-2026-11-21",
+      "eventKey": "myanmar-rejects-icj-genocide-ruling-2026-11",
+      "materialFacts": [
+        "ICJ dømte 19. november 9-6, at Myanmar har begået folkedrab mod rohingyaerne",
+        "Det er første gang en stat er dømt for folkedrab ved domstolen",
+        "Myanmar kaldte 20. november dommen 'uretfærdig' og afviste beviserne",
+        "Myanmar har ikke forpligtet sig til nogen af domstolens krav om oprejsning"
+      ],
+      "section": "Verden",
+      "headline": "Myanmar Calls ICJ Ruling on Genocide 'Unfair'",
+      "primarySourceUrl": "https://www.usnews.com/news/world/articles/2026-11-20/myanmar-calls-icj-ruling-on-genocide-unfair",
+      "subheadline": "Myanmar afviser verdens første folkedrabsdom mod en stat som 'uretfærdig'.",
+      "body": [
+        "ICJ dømte 19. november 9-6, at Myanmars styrker begik folkedrab mod rohingyaerne i Rakhine i 2017 – første gang en stat dømmes for folkedrab. Dagen efter kaldte Myanmar dommen 'uretfærdig'. Landet forpligter sig ikke til undersøgelse, garantier og hjemkomst; en oprejsningsplan skal foreligge senest 2028."
+      ],
+      "whyItMatters": "Dommen er bindende, men ICJ har ingen politistyrke, så afvisningen tester, om international ret kan noget uden magt.",
+      "analysis": "Domme fra Haag ignoreres sjældent så åbent af en regering, der ellers søger international normalisering.",
+      "topics": [
+        "geopolitik",
+        "menneskerettigheder"
+      ],
+      "entities": [
+        "Myanmar",
+        "International Court of Justice",
+        "The Gambia",
+        "Rohingya"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 30,
+        "novelty": 65,
+        "sourceQuality": 85,
+        "personalRelevance": 5,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "ICJ dømte 19. november 9-6, at Myanmar har begået folkedrab mod rohingyaerne i Rakhine-staten",
+          "sourceUrls": [
+            "https://icj-cij.org/sites/default/files/case-related/178/178-20261119-pre-01-00-en.pdf"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Myanmars regering kaldte 20. november dommen 'uretfærdig' og forpligtede sig ikke til domstolens krav",
+          "sourceUrls": [
+            "https://www.usnews.com/news/world/articles/2026-11-20/myanmar-calls-icj-ruling-on-genocide-unfair"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Myanmar Calls ICJ Ruling on Genocide 'Unfair'",
+          "publisher": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-20/myanmar-calls-icj-ruling-on-genocide-unfair",
+          "publishedAt": "2026-11-20T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Application of the Convention on the Prevention and Punishment of the Crime of Genocide (The Gambia v. Myanmar: 11 States intervening) - The Court delivers its Judgment on the merits",
+          "publisher": "International Court of Justice",
+          "url": "https://icj-cij.org/sites/default/files/case-related/178/178-20261119-pre-01-00-en.pdf",
+          "publishedAt": "2026-11-19T10:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/06-8026db6e.jpg",
+        "credit": "Foto: Getty Images / Time via MSN",
+        "alt": "A Rohingya refugee waves Myanmar's national flag as he waits for the arrival of U.N. General Assembly President Khalilur Rahman at a refugee camp in Bangladesh's Cox's Bazar on Nov. 20, 2026. —Salahuddin Ahmed—AFP/Getty ",
+        "sourceUrl": "https://time.com/article/2026/11/20/rohingya-genocide-icj-history-myanmar-israel/",
+        "origin": "coverage",
+        "fingerprint": "96362c6d9221a6ca36366c6c9262258236726c6c126a6502726bcccd136b6566e3ddcec59969c5c4b5add6862049cda6",
+        "lookedAt": "96362c6d9221a6ca36366c6c9262258236726c6c126a6502726bcccd136b6566e3ddcec59969c5c4b5add6862049cda6",
+        "originalUrl": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSDSI.img",
+        "focus": {
+          "x": 0.1,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-fbi-ncic-2026-11-21",
+      "eventKey": "fbi-ncic-breach-usda-cyberattack-2026-11",
+      "materialFacts": [
+        "FBI undersøger et muligt indbrud i NCIC, den landsdækkende kriminalitetsdatabase",
+        "USDA havde separat et cyberangreb mod et system, der betaler landmænd",
+        "Det er det andet rapporterede angreb mod FBI-nære systemer på to måneder",
+        "FBI havde ingen officiel kommentar fredag aften"
+      ],
+      "section": "Sikkerhed",
+      "headline": "FBI investigating potential breach of its crime database",
+      "primarySourceUrl": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+      "subheadline": "FBI undersøger muligt hackerangreb på den nationale kriminalitetsdatabase NCIC.",
+      "body": [
+        "FBI undersøger et formodet indbrud i NCIC, databasen der forbinder politimyndigheder, ifølge to kilder. FBI havde ingen kommentar fredag aften. Samme uge opdagede USDA et cyberangreb mod et system, der betaler landmænd; ingen andre systemer var ramt. Det er det andet angreb nær FBI på to måneder."
+      ],
+      "whyItMatters": "Et indbrud i NCIC ville give adgang til data, der deles mellem tusinder af politimyndigheder.",
+      "analysis": "To uafhængige angreb mod føderale systemer samme uge peger på et strukturelt problem, ikke en enkeltstående fejl.",
+      "topics": [
+        "cybersikkerhed",
+        "usa"
+      ],
+      "entities": [
+        "Federal Bureau of Investigation",
+        "National Crime Information Center",
+        "U.S. Department of Agriculture"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 40,
+        "novelty": 70,
+        "sourceQuality": 70,
+        "personalRelevance": 40,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "FBI undersøger et muligt indbrud i NCIC-databasen; USDA havde separat et cyberangreb mod sit landmandsbetalingssystem",
+          "sourceUrls": [
+            "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FBI investigating potential breach of its crime database",
+          "publisher": "NBC News",
+          "url": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+          "publishedAt": "2026-11-21T04:19:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/07-6aaeabcd.jpg",
+        "credit": "Kilde: NBC News",
+        "alt": "FBI investigating potential breach of its crime database",
+        "sourceUrl": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+        "origin": "article",
+        "fingerprint": "5555aa968454de9c55d4aa9694d4d51e94b602869694dc36b649012796b296d6320002230332229e01842a2b033323aa",
+        "lookedAt": "5555aa968454de9c55d4aa9694d4d51e94b602869694dc36b649012796b296d6320002230332229e01842a2b033323aa",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261120-fbi-hq-vsb-2248-faa843.jpg",
+        "focus": {
+          "x": 0.271,
+          "y": 0.525
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Anthropic falls nearly 9% in first full day of trading as tech stocks get shellacked",
+      "headline": "Anthropic falls nearly 9% in first full day of trading as tech stocks get shellacked",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html",
+      "publisher": "CNBC",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-20T21:00:00Z",
+      "topics": [
+        "ai",
+        "finans"
+      ]
+    },
+    {
+      "text": "Russian Offensive Campaign Assessment, November 19, 2026",
+      "headline": "Russian Offensive Campaign Assessment, November 19, 2026",
+      "url": "https://www.criticalthreats.org/analysis/russian-offensive-campaign-assessment-november-19-2026",
+      "publisher": "Critical Threats / ISW",
+      "section": "Verden",
+      "publishedAt": "2026-11-19T22:00:00Z",
+      "topics": [
+        "sikkerhedspolitik",
+        "geopolitik"
+      ]
+    },
+    {
+      "text": "Israeli Ambassador Scrambles Into Damage Control Mode Over Comment About When US Troops Can Come Home",
+      "headline": "Israeli Ambassador Scrambles Into Damage Control Mode Over Comment About When US Troops Can Come Home",
+      "url": "https://dailycaller.com/2026/11/20/israeli-ambassador-yechiel-leiter-american-troops-can-come-home-iran-regime-change/",
+      "publisher": "Daily Caller",
+      "section": "Verden",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "topics": [
+        "usa",
+        "geopolitik"
+      ]
+    },
+    {
+      "text": "Sanofi secures first FDA approval to treat neurological symptoms in rare metabolic disease",
+      "headline": "Sanofi secures first FDA approval to treat neurological symptoms in rare metabolic disease",
+      "url": "https://www.biospace.com/fda/sanofi-secures-first-fda-approval-to-treat-neurological-symptoms-in-rare-metabolic-disease",
+      "publisher": "BioSpace",
+      "section": "Bioteknologi",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "topics": [
+        "bioteknologi"
+      ]
+    },
+    {
+      "text": "FDA will miss rare decision deadline for Savara candidate after three-month delay",
+      "headline": "FDA will miss rare decision deadline for Savara candidate after three-month delay",
+      "url": "https://www.biospace.com/fda/fda-will-miss-rare-decision-deadline-for-savara-candidate-after-three-month-delay",
+      "publisher": "BioSpace",
+      "section": "Bioteknologi",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "topics": [
+        "bioteknologi"
+      ]
+    },
+    {
+      "text": "Equinor thwarts cyberattack as separate intrusion at Skagerak Energi raises concerns across Norway's energy sector",
+      "headline": "Equinor thwarts cyberattack as separate intrusion at Skagerak Energi raises concerns across Norway's energy sector",
+      "url": "https://industrialcyber.co/utilities-energy-power-water-waste/equinor-thwarts-cyberattack-as-separate-intrusion-at-skagerak-energi-raises-concerns-across-norways-energy-sector",
+      "publisher": "Industrial Cyber",
+      "section": "Sikkerhed",
+      "publishedAt": "2026-11-18T00:00:00Z",
+      "topics": [
+        "cybersikkerhed",
+        "energi"
+      ]
+    },
+    {
+      "text": "Bredt politisk flertal indgår aftale om fordelingen af 2,1 mia. kr. til forskning og innovation",
+      "headline": "Bredt politisk flertal indgår aftale om fordelingen af 2,1 mia. kr. til forskning og innovation",
+      "url": "https://fudm.dk/aktuelt/pressemeddelelser/2026/november/bredt-politisk-flertal-indgaar-aftale-om-fordelingen-af-2-1-mia-kr-til-forskning-og-innovation-hoej-prioritering-af-ai-skal-vaere-med-til-at-styrke-danmarks-uafhaengighed/",
+      "publisher": "Forsknings-, Uddannelses- og Digitaliseringsministeriet",
+      "section": "Danmark",
+      "publishedAt": "2026-11-17T00:00:00Z",
+      "topics": [
+        "danmark",
+        "ai"
+      ]
+    },
+    {
+      "text": "Quantum X Labs Demonstrates Accurate Quantum Radiation Simulation on IBM Quantum Computer",
+      "headline": "Quantum X Labs Demonstrates Accurate Quantum Radiation Simulation on IBM Quantum Computer",
+      "url": "https://www.globenewswire.com/news-release/2026/11/20/3407374/0/en/quantum-x-labs-demonstrates-accurate-quantum-radiation-simulation-on-ibm-quantum-computer.html",
+      "publisher": "GlobeNewswire",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "topics": [
+        "kvante"
+      ]
+    },
+    {
+      "text": "Trump Urges Nvidia to Reinstate Jensen Huang Amid Congressional Inquiry",
+      "headline": "Trump Urges Nvidia to Reinstate Jensen Huang Amid Congressional Inquiry",
+      "url": "https://www.newsweek.com/trump-jensen-huang-nvidia-congressional-inquiry-12749752",
+      "publisher": "Newsweek",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-20T00:00:00Z",
+      "topics": [
+        "ai",
+        "usa"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "forbandelsen-er-ikke-et-fejlskoen",
+    "title": "Forbandelsen er ikke et fejlskøn",
+    "thesis": "Vinderens forbandelse er en selektionseffekt, ikke dårlig dømmekraft: vinderen skød højst over sandheden.",
+    "horizon": "Ved næste koncentrationsjusterede studie af budantal og værdikorrektion",
+    "body": [
+      "Skyder mange efter samme værdi, spreder skønnene sig om den – vinderbuddet er det højeste, ikke det mest rigtige."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis vindende bud i auktioner med mange deltagere ikke systematisk ligger længere fra den senere konstaterede værdi end bud i auktioner med få deltagere, når aktivtype holdes konstant – det ville vise, at effekten drukner i andre faktorer end antallet af budgivere.",
+    "topics": [
+      "spilteori",
+      "finans",
+      "beslutninger"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-tao-cowen-2026-11-21",
+      "tier": "featured",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Terence Tao on Proof, Beauty, and the Future of Mathematics",
+      "creator": "Tyler Cowen med Terence Tao",
+      "provider": "Conversations with Tyler (Mercatus Center)",
+      "url": "https://conversationswithtyler.com/episodes/terence-tao/",
+      "availability": "Frit tilgængelig som podcast og tekst",
+      "commitment": "En samtale, ikke et kort klip",
+      "description": "Cowen spørger en af verdens førende matematikere ikke, hvad beviserne siger, men hvad de føles som: Eulers identitet, Gödels ufuldstændighedssætning, og hvordan AI flytter matematik fra 'bevis-mangel' til 'bevis-overflod'.",
+      "rationale": "Tao argumenterer, at individuelle artikler mister centralitet, mens samarbejder og datasæt vinder, når AI gør beviser billige at producere – en konkret, falsificerbar påstand om, hvordan hans eget felt ændrer sig, fra en matematiker der ikke sælger en bog.",
+      "topics": [
+        "matematik",
+        "ai",
+        "videnskabsteori"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-21/r01-b137e272.jpg",
+        "credit": "Mercatus Center / Conversations with Tyler",
+        "alt": "Terence Tao i samtale med Tyler Cowen",
+        "sourceUrl": "https://conversationswithtyler.com/episodes/terence-tao/",
+        "originalUrl": "https://www.conversationswithtyler.com/wp-content/uploads/2026/10/CWT-311-TerenceTao-header-1-2000x874.png",
+        "focus": {
+          "x": 0.5,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "rec-sep-inquiry-2026-11-21",
+      "tier": "short",
+      "mode": "read",
+      "kind": "encyclopedia-entry",
+      "status": "new",
+      "title": "Inquiry",
+      "creator": "Arianna Falbo, David Thorstad og Dennis Whitcomb",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/inquiry/",
+      "note": "Analytisk filosofi om, hvad det vil sige at undersøge noget målrettet – den tradition, der ikke findes i hans 74 læste titler.",
+      "topics": [
+        "filosofi",
+        "epistemologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-dwarkesh-math-avalanche-2026-11-21",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "The avalanche that hit math is coming for AI development",
+      "creator": "Dwarkesh Patel",
+      "provider": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/podcast",
+      "note": "44 minutter om, hvordan AI-assisteret bevisføring i matematik er et forvarsel om, hvad der sker med forskning bredere.",
+      "topics": [
+        "ai",
+        "matematik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-abramovic-cisternerne-2026-11-21",
+      "tier": "short",
+      "mode": "experience",
+      "kind": "exhibition",
+      "status": "timely",
+      "title": "Marina Abramović: Seven Deaths",
+      "creator": "Marina Abramović",
+      "provider": "Cisternerne, København",
+      "url": "https://www.cisternerne.dk/",
+      "availability": "Slutter 30. november 2026",
+      "note": "Sidste chance for et storværk af en af samtidskunstens mest markante navne – sidste uge inden lukning.",
+      "topics": [
+        "kunst"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-hassabis-hoffman-2026-11-21",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "interview",
+      "status": "available",
+      "title": "Google DeepMind's Demis Hassabis: How AI could become dangerous",
+      "creator": "Reid Hoffman med Demis Hassabis",
+      "provider": "Summit '26",
+      "url": "https://www.youtube.com/watch?v=x7Z_1miRWB8",
+      "note": "En labchef taler konkret om, hvad der faktisk skulle gå galt, ikke kun om hvor hurtigt det går.",
+      "topics": [
+        "ai",
+        "sikkerhed"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-alpoge-2026-11-21",
+      "tier": "short",
+      "mode": "read",
+      "kind": "blog-post",
+      "status": "new",
+      "title": "Quoting Levent Alpöge",
+      "creator": "Simon Willison",
+      "provider": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "note": "En matematiker siger, Claude bidrog væsentligt til et muligt bevis for Riemann-hypotesen – stadig under granskning, ikke bekræftet.",
+      "topics": [
+        "ai",
+        "matematik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-postgres19-2026-11-21",
+      "tier": "short",
+      "mode": "try",
+      "kind": "tool-release",
+      "status": "new",
+      "title": "PostgreSQL 19 Released",
+      "creator": "Simon Willison",
+      "provider": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "note": "Forsinket to måneder af en AI-fundet sikkerhedsfejl; ny 'read-your-writes'-konsistens for replikaer.",
+      "topics": [
+        "teknologi"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "averageImportance": 62,
+    "averageSourceQuality": 79,
+    "feedbackAlignedShare": 43
+  }
+}

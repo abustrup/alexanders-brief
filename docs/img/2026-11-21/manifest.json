@@ -1,0 +1,167 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-21",
+  "generatedAt": "2026-11-21T05:21:59.067Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-trump-dc-tax-2026-11-21",
+      "headline": "Trump vows to stop U.S. companies from building data centers abroad, threatens 'tremendous tax'",
+      "source": "https://image.cnbcfm.com/api/v1/image/108556645-1795196053260-gettyimages-2305498959-AFP_D87462K.jpeg?v=1795196073&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html",
+      "hosted": "01-a3fe36e4.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 121221,
+      "out": "1440x1080",
+      "bytes": 104068,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.5,
+        "y": 0.818
+      },
+      "fetchedAt": "2026-11-21T05:21:59.526Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-pfa-meta-2026-11-21",
+      "headline": "Dansk pensionsgigant får hovedrolle i retssag om Zuckerbergs magt i Meta",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/lbwmjf5l/20261118-120039-3_crop001.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/penge/dansk-pensionsgigant-faar-hovedrolle-i-retssag-om-zuckerbergs-magt-i-meta",
+      "hosted": "02-f51b2644.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 63336,
+      "out": "1012x675",
+      "bytes": 61539,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.102,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-21T05:21:59.958Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-nvidia-sec-huang-2026-11-21",
+      "headline": "SEC Probe Into Nvidia Is Focused On Accounting Practices, According To Report",
+      "source": "https://assets.newsweek.com/wp-content/uploads/2026/11/GettyImages-2212178814.jpg?w=1200&crop=1",
+      "article": "https://www.forbes.com/sites/fionariley/2026/11/20/sec-is-investigating-nvidias-accounting-practices-according-to-report/",
+      "hosted": "03-89d8099c.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "webp",
+      "srcBytes": 66672,
+      "out": "1200x800",
+      "bytes": 80265,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.17,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-21T05:22:01.930Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-dk-gdp-2026-11-21",
+      "headline": "Fortsat fremgang i dansk økonomi i 3. kvartal",
+      "source": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2190120029.jpg?c=original&q=w_780,c_fill",
+      "article": "https://www.dst.dk/da/Statistik/udgivelser/NytHtml?cid=53769",
+      "hosted": "04-89634b39.jpg",
+      "srcSize": "780x520",
+      "srcFormat": "jpeg",
+      "srcBytes": 100215,
+      "out": "780x520",
+      "bytes": 83246,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-21T05:22:02.249Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-quera-aquila-2026-11-21",
+      "headline": "QuEra Computing and Lawrence Berkeley National Laboratory Publish Nature Study of Quantum Dynamics on Up to 180 Qubits",
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/QuEra_Aquila_Optical_Layout.jpg/1280px-QuEra_Aquila_Optical_Layout.jpg",
+      "article": "https://thequantuminsider.com/2026/11/18/quera-berkeley-lab-study-quantum-dynamics-aquila/",
+      "hosted": "05-190b1d49.jpg",
+      "srcSize": "1280x961",
+      "srcFormat": "jpeg",
+      "srcBytes": 248925,
+      "out": "1280x853",
+      "bytes": 158892,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-21T05:22:02.691Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-myanmar-icj-2026-11-21",
+      "headline": "Myanmar Calls ICJ Ruling on Genocide 'Unfair'",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2hSDSI.img",
+      "article": "https://www.usnews.com/news/world/articles/2026-11-20/myanmar-calls-icj-ruling-on-genocide-unfair",
+      "hosted": "06-8026db6e.jpg",
+      "srcSize": "1024x683",
+      "srcFormat": "jpeg",
+      "srcBytes": 151056,
+      "out": "1024x683",
+      "bytes": 103504,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-21T05:22:03.049Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-fbi-ncic-2026-11-21",
+      "headline": "FBI investigating potential breach of its crime database",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-11/261120-fbi-hq-vsb-2248-faa843.jpg",
+      "article": "https://www.nbcnews.com/politics/justice-department/fbi-investigating-potential-breach-crime-database-rcna610536",
+      "hosted": "07-6aaeabcd.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "webp",
+      "srcBytes": 207000,
+      "out": "945x630",
+      "bytes": 85328,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.271,
+        "y": 0.525
+      },
+      "fetchedAt": "2026-11-21T05:22:03.382Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-tao-cowen-2026-11-21",
+      "headline": "Terence Tao on Proof, Beauty, and the Future of Mathematics",
+      "source": "https://www.conversationswithtyler.com/wp-content/uploads/2026/10/CWT-311-TerenceTao-header-1-2000x874.png",
+      "article": "https://conversationswithtyler.com/episodes/terence-tao/",
+      "hosted": "r01-b137e272.jpg",
+      "srcSize": "2000x874",
+      "srcFormat": "webp",
+      "srcBytes": 341880,
+      "out": "1553x874",
+      "bytes": 89108,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-21T05:22:03.723Z"
+    }
+  ]
+}
