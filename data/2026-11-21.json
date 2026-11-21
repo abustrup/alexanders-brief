@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-21-umidday-r266",
+  "runId": "run-2026-11-21-uafternoon-r268",
   "date": "2026-11-21",
-  "generatedAt": "2026-11-21T18:02:11.802Z",
+  "generatedAt": "2026-11-21T21:33:14.239Z",
   "readingMinutes": 7,
   "title": "Alexanders Brief",
   "dek": "Trump truer med skat på AI-datacentre i udlandet, PFA i front mod Zuckerberg, og Myanmar afviser folkedrabsdom.",
@@ -959,6 +959,19 @@
         "outputTokens": 17156,
         "turns": 50,
         "seconds": 316.9
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-21T21:33:14.239Z",
+      "runId": "run-2026-11-21-uafternoon-r268",
+      "added": 0,
+      "cost": {
+        "usd": 1.3625259000000003,
+        "inputTokens": 869606,
+        "outputTokens": 11087,
+        "turns": 38,
+        "seconds": 219
       }
     }
   ]
