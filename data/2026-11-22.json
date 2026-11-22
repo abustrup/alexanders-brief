@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-22-01",
+  "runId": "run-2026-11-22-umidday-r270",
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T05:30:00.000Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-22T18:42:52.955Z",
+  "readingMinutes": 10,
   "title": "Alexanders Brief, 22. november 2026",
   "dek": "Russiske missiler i Polen, Danmark udviser en russisk diplomat, et AI-bevis for Riemann-hypotesen og en epidemi der ikke er slut.",
   "profileWeights": {
@@ -975,6 +975,194 @@
           "y": 0
         }
       }
+    },
+    {
+      "id": "story-cop31-2026-11-22",
+      "eventKey": "cop31-climate-summit-collapse-2026-11",
+      "materialFacts": [
+        "COP31 i Antalya, Tyrkiet, sluttede søndag 22. november uden klimaaftale, to døgn ud over tidsplanen.",
+        "Udkastet til slutteksten nævnte ikke fossile brændstoffer.",
+        "EU og en række klimaudsatte lande afviste udkastet som utilstrækkeligt.",
+        "Det er første gang siden København 2009, FN's klimatopmøde ender helt uden aftale."
+      ],
+      "section": "Klima",
+      "headline": "Climate talks collapse without deal at Cop31 in Turkey",
+      "primarySourceUrl": "https://www.thenationalnews.com/news/mena/2026/11/22/climate-talks-collapse-without-deal-at-cop31-in-turkey/",
+      "subheadline": "FN-topmøde i Tyrkiet endte uden klimaaftale efter to døgns ekstra forhandling",
+      "body": [
+        "COP31 i Antalya sluttede søndag uden en samlet aftale, efter forhandlingerne var trukket to døgn ud over tidsplanen. Udkastet nævnte ikke fossile brændstoffer, og EU samt klimaudsatte lande afviste det som utilstrækkeligt. Første gang siden København 2009 ender FN's klimatopmøde helt uden aftale."
+      ],
+      "whyItMatters": "Guterres kalder resultatet dybt skuffende og advarer om, at 1,5-gradersmålet nu er i fare.",
+      "topics": [
+        "klima",
+        "geopolitik",
+        "folkeret"
+      ],
+      "entities": [
+        "COP31",
+        "Tyrkiet",
+        "António Guterres",
+        "EU",
+        "Murat Kurum"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 20,
+        "novelty": 70,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "COP31 endte 22. november uden klimaaftale efter to døgns forlænget forhandling, første gang siden 2009.",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168855"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udkastet nævnte ikke fossile brændstoffer, og EU samt klimaudsatte lande afviste det.",
+          "sourceUrls": [
+            "https://www.thenationalnews.com/news/mena/2026/11/22/climate-talks-collapse-without-deal-at-cop31-in-turkey/"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Climate talks collapse without deal at Cop31 in Turkey",
+          "publisher": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/22/climate-talks-collapse-without-deal-at-cop31-in-turkey/",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168855",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-22/11-ae4f6c6e.jpg",
+        "credit": "Kilde: The National",
+        "alt": "Cop31 President Murat Kurum led negotiations into two days of overtime but ultimately failed to broker a deal. AFP",
+        "sourceUrl": "https://www.thenationalnews.com/news/mena/2026/11/22/climate-talks-collapse-without-deal-at-cop31-in-turkey/",
+        "origin": "article",
+        "fingerprint": "cc2e6c15d6dcd9b2ccaf6e34d6969c72ac6f5aa493929e796dcdfa6693921abccdcdaf66b3b35b1b842d2fa331333b59",
+        "lookedAt": "cc2e6c15d6dcd9b2ccaf6e34d6969c72ac6f5aa493929e796dcdfa6693921abccdcdaf66b3b35b1b842d2fa331333b59",
+        "originalUrl": "https://www.thenationalnews.com/resizer/v2/6CTC6Q43JNRQAA56K2PVI7274E.jpg?auth=af8a4494d6213acb50be7b462c528188767b43a93e1c0a13b84944ef40c50ead&focal=4237%2C2560&width=1200&height=630",
+        "focus": {
+          "x": 0.161,
+          "y": 0
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-22T18:42:52.955Z",
+        "runId": "run-2026-11-22-umidday-r270"
+      }
+    },
+    {
+      "id": "story-openrouter-2026-11-22",
+      "eventKey": "openrouter-inference-provider-data-incidents-2026-11",
+      "materialFacts": [
+        "Sikkerhedsfirmaet Dragos sendte knap to millioner testprompts med unikke login-oplysninger gennem AI-routere fra juli til november.",
+        "Mindst tre underleverandører til OpenRouter læste eller gemte prompts, selv hvor brugerne havde valgt nul-dataopbevaring (ZDR).",
+        "OpenRouter offentliggjorde 22. november, at det har fjernet de tre udbydere og taget 125 endpoints ud af ZDR-garantien.",
+        "OpenRouter siger, at undersøgelsen ikke viser noget brud på selve OpenRouters egne systemer."
+      ],
+      "section": "Teknologi",
+      "headline": "Data Processing Incidents on Inference Providers",
+      "primarySourceUrl": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "subheadline": "OpenRouter fjerner tre udbydere efter fund af utilsigtet lagrede AI-prompts",
+      "body": [
+        "Forskere hos Dragos sendte to millioner testprompts med login-oplysninger gennem AI-routere fra juli til november. Mindst tre underleverandører til OpenRouter læste eller gemte prompts trods valgt nul-dataopbevaring. OpenRouter har nu fjernet udbyderne og taget 125 endpoints ud af garantien."
+      ],
+      "whyItMatters": "Sagen viser, at løftet om nul-dataopbevaring hos AI-routere ikke altid holder i praksis.",
+      "topics": [
+        "ai",
+        "cybersikkerhed",
+        "teknologi"
+      ],
+      "entities": [
+        "OpenRouter",
+        "Dragos",
+        "Together AI",
+        "Novita",
+        "Phala"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 80,
+        "personalRelevance": 65,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "OpenRouter fjernede 22. november tre underleverandører og tog 125 endpoints ud af nul-dataopbevaring efter Dragos' fund.",
+          "sourceUrls": [
+            "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Dragos sendte knap to millioner testprompts med canary-login-oplysninger gennem AI-routere fra juli til november og fandt flere hundrede stjålne nøgler.",
+          "sourceUrls": [
+            "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Data Processing Incidents on Inference Providers",
+          "publisher": "OpenRouter",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+          "publishedAt": "2026-11-22T00:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+          "publisher": "The Hacker News",
+          "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+          "publishedAt": "2026-11-21T00:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.unite.ai/wp-content/uploads/2026/11/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings.jpg",
+          "reason": "stock-or-ai"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-22/12-8b83c438.jpg",
+        "credit": "Manan Yadav, Wikimedia Commons (CC BY-SA 4.0)",
+        "alt": "H.D. Moore, forskningschef hos sikkerhedsfirmaet Dragos, der stod bag undersøgelsen med to millioner testprompts, der afslørede dataincidenterne",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H.D._Moore.jpg",
+        "origin": "library",
+        "fingerprint": "26470b61c1a5a3c326430b61c58121cb430309649591224143014de4849062608108ccc4a49253e3000ca4a4263290c3",
+        "lookedAt": "26470b61c1a5a3c326430b61c58121cb430309649591224143014de4849062608108ccc4a49253e3000ca4a4263290c3",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/H.D._Moore.jpg/1920px-H.D._Moore.jpg",
+        "focus": {
+          "x": 0.621,
+          "y": 1
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-22T18:42:52.955Z",
+        "runId": "run-2026-11-22-umidday-r270"
+      }
     }
   ],
   "signals": [
@@ -1227,5 +1415,20 @@
     "novelty": 70,
     "perspectiveBalance": 75,
     "render": 100
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-22T18:42:52.955Z",
+      "runId": "run-2026-11-22-umidday-r270",
+      "added": 2,
+      "cost": {
+        "usd": 2.4396356999999997,
+        "inputTokens": 3191627,
+        "outputTokens": 26544,
+        "turns": 73,
+        "seconds": 689.3
+      }
+    }
+  ]
 }

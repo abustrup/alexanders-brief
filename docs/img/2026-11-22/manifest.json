@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-22",
-  "generatedAt": "2026-11-22T05:39:47.829Z",
+  "generatedAt": "2026-11-22T18:45:42.895Z",
   "pictures": [
     {
       "slot": "01",
@@ -201,6 +201,46 @@
         "y": 0
       },
       "fetchedAt": "2026-11-22T05:39:53.676Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-cop31-2026-11-22",
+      "headline": "Climate talks collapse without deal at Cop31 in Turkey",
+      "source": "https://www.thenationalnews.com/resizer/v2/6CTC6Q43JNRQAA56K2PVI7274E.jpg?auth=af8a4494d6213acb50be7b462c528188767b43a93e1c0a13b84944ef40c50ead&focal=4237%2C2560&width=1200&height=630",
+      "article": "https://www.thenationalnews.com/news/mena/2026/11/22/climate-talks-collapse-without-deal-at-cop31-in-turkey/",
+      "hosted": "11-ae4f6c6e.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "heif",
+      "srcBytes": 70191,
+      "out": "945x630",
+      "bytes": 90964,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.161,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-22T18:45:43.375Z"
+    },
+    {
+      "slot": "12",
+      "id": "story-openrouter-2026-11-22",
+      "headline": "Data Processing Incidents on Inference Providers",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/H.D._Moore.jpg/1920px-H.D._Moore.jpg",
+      "article": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "hosted": "12-8b83c438.jpg",
+      "srcSize": "1920x1200",
+      "srcFormat": "jpeg",
+      "srcBytes": 187995,
+      "out": "1600x1067",
+      "bytes": 100060,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-22T18:45:43.829Z"
     },
     {
       "slot": "r01",
