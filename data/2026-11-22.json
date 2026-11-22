@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "run-2026-11-22-umidday-r270",
+  "runId": "run-2026-11-22-uafternoon-r272",
   "date": "2026-11-22",
-  "generatedAt": "2026-11-22T18:42:52.955Z",
+  "generatedAt": "2026-11-22T21:39:17.342Z",
   "readingMinutes": 10,
   "title": "Alexanders Brief, 22. november 2026",
   "dek": "Russiske missiler i Polen, Danmark udviser en russisk diplomat, et AI-bevis for Riemann-hypotesen og en epidemi der ikke er slut.",
@@ -1428,6 +1428,19 @@
         "outputTokens": 26544,
         "turns": 73,
         "seconds": 689.3
+      }
+    },
+    {
+      "slot": "afternoon",
+      "at": "2026-11-22T21:39:17.342Z",
+      "runId": "run-2026-11-22-uafternoon-r272",
+      "added": 0,
+      "cost": {
+        "usd": 0.9843161999999999,
+        "inputTokens": 580325,
+        "outputTokens": 8076,
+        "turns": 31,
+        "seconds": 166.4
       }
     }
   ]
