@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "kind": "daily",
-  "runId": "brief-2026-11-23-01",
+  "runId": "run-2026-11-23-umidday-r274",
   "date": "2026-11-23",
-  "generatedAt": "2026-11-23T05:50:00Z",
-  "readingMinutes": 9,
+  "generatedAt": "2026-11-23T22:43:45.842Z",
+  "readingMinutes": 11,
   "title": "Alexanders Brief – 23. november 2026",
   "dek": "NATO mødes om Polen, Højesteret afsiger dom om Nøjsomhed, og Willow vinder et spil intet klassisk system kan vinde.",
   "profileWeights": {
@@ -648,6 +648,256 @@
           "y": 0.957
         }
       }
+    },
+    {
+      "id": "story-nvidia-huang-reinstated-20261123",
+      "eventKey": "nvidia-huang-ceo-reinstatement-2026-11",
+      "materialFacts": [
+        "Nvidias bestyrelse genindsatte 23. nov enstemmigt Jensen Huang som CEO og bestyrelsesmedlem",
+        "Huang gik af 12. nov i kølvandet på sager om utroskab, en sag involverede en kvinde mistænkt for forbindelse til kinesisk spionage",
+        "Aktien steg 31 procent på nyheden om genindsættelsen",
+        "Bestyrelsen oplyser at have fået input fra højtstående amerikanske embedsmænd; CFO Colette Kress fortsætter som CFO"
+      ],
+      "section": "AI",
+      "headline": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "subheadline": "Bestyrelsen genindsætter ham 11 dage efter afgang i en spionsag.",
+      "body": [
+        "Nvidias bestyrelse genindsatte 23. november enstemmigt Jensen Huang som CEO, 11 dage efter hans afgang i en sag om utroskab og mistanke om kinesisk spionage. Aktien steg 31 procent.",
+        "Bestyrelsen fik input fra amerikanske embedsmænd og ser ingen sikkerhedsrisiko; CFO Colette Kress fortsætter som CFO."
+      ],
+      "whyItMatters": "Nvidia er verdens vigtigste AI-chipleverandør, så ledelsesusikkerhed presser hele AI-sektoren.",
+      "topics": [
+        "ai",
+        "teknologi",
+        "usa"
+      ],
+      "entities": [
+        "Jensen Huang",
+        "Nvidia",
+        "Colette Kress",
+        "USA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 55,
+        "novelty": 85,
+        "sourceQuality": 85,
+        "personalRelevance": 60,
+        "contrast": 50
+      },
+      "claims": [
+        {
+          "text": "Nvidias bestyrelse genindsatte 23. november Jensen Huang som CEO efter at være gået af 12. november",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+            "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+          "publishedAt": "2026-11-23T13:59:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO and Board Director",
+          "publisher": "NVIDIA",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+          "publishedAt": "2026-11-23T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-23/09-28a271e5.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+        "sourceUrl": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+        "origin": "article",
+        "fingerprint": "0d8dce1737b6a6248d8dce33363627248d9c8f33362626269d9c9b33766767671d9c1b73e76767732e9f5b71e367e3d3",
+        "lookedAt": "0d8dce1737b6a6248d8dce33363627248d9c8f33362626269d9c9b33766767671d9c1b73e76767732e9f5b71e367e3d3",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1795450778&w=1920&h=1080",
+        "focus": {
+          "x": 0.9,
+          "y": 0.85
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-23T22:43:45.842Z",
+        "runId": "run-2026-11-23-umidday-r274"
+      }
+    },
+    {
+      "id": "story-mobilforbud-folkeskole-20261123",
+      "eventKey": "danmark-mobilforbud-folkeskole-aftale-2026-11",
+      "materialFacts": [
+        "Regeringen, Enhedslisten og Alternativet indgik 23. nov en aftale om skærpet mobilforbud i folkeskoler",
+        "Forbuddet gælder i undervisningstid og pauser til og med 10. klasse, fra skoleåret 2027/2028",
+        "Skoler skal også indføre indholdsfiltre mod sociale medier, spil og shopping, med frist udgangen af 2027",
+        "Skoleledere siger, mange skoler allerede har egne mobilregler"
+      ],
+      "section": "Danmark",
+      "headline": "Mobiltelefoner forbydes i landets folkeskoler fra næste skoleår",
+      "primarySourceUrl": "https://www.dr.dk/nyheder/politik/mobiltelefoner-forbydes-i-landets-folkeskoler-fra-naeste-skoleaar",
+      "subheadline": "Bred aftale skærper forbud og kræver indholdsfiltre på skolernes net.",
+      "body": [
+        "Regeringen, Enhedslisten og Alternativet har indgået en aftale om skærpet mobilforbud i folkeskoler, fri- og efterskoler samt SFO og klub til og med 10. klasse fra skoleåret 2027/2028.",
+        "Skolerne skal også indføre indholdsfiltre mod sociale medier, spil og shopping senest ved udgangen af 2027."
+      ],
+      "whyItMatters": "Mange skoler har allerede egne regler, så aftalen tester om et lovkrav ændrer noget.",
+      "topics": [
+        "danmark",
+        "uddannelse",
+        "politik"
+      ],
+      "entities": [
+        "Magnus Heunicke",
+        "Undervisningsministeriet",
+        "Danmark",
+        "Enhedslisten",
+        "Alternativet"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 55,
+        "novelty": 40,
+        "sourceQuality": 70,
+        "personalRelevance": 20,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Aftalen forbyder mobiler i undervisningstid og pauser i folkeskolen m.fl. fra skoleåret 2027/2028",
+          "sourceUrls": [
+            "https://uvm.dk/aktuelt/nyheder/2026/november/261123-skaerpet-mobilforbud-og-indholdsfiltre-paa-skolens-internet-skal-give-mere-ro-i-undervisningen/",
+            "https://www.dr.dk/nyheder/politik/mobiltelefoner-forbydes-i-landets-folkeskoler-fra-naeste-skoleaar"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mobiltelefoner forbydes i landets folkeskoler fra næste skoleår",
+          "publisher": "DR",
+          "url": "https://www.dr.dk/nyheder/politik/mobiltelefoner-forbydes-i-landets-folkeskoler-fra-naeste-skoleaar",
+          "publishedAt": "2026-11-23T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Skærpet mobilforbud og indholdsfiltre på skolens internet skal give mere ro i undervisningen",
+          "publisher": "Undervisningsministeriet",
+          "url": "https://uvm.dk/aktuelt/nyheder/2026/november/261123-skaerpet-mobilforbud-og-indholdsfiltre-paa-skolens-internet-skal-give-mere-ro-i-undervisningen/",
+          "publishedAt": "2026-11-23T00:00:00Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-23/10-4031e124.jpg",
+        "credit": "Kilde: DR",
+        "alt": "Mobiltelefoner forbydes i landets folkeskoler fra næste skoleår",
+        "sourceUrl": "https://www.dr.dk/nyheder/politik/mobiltelefoner-forbydes-i-landets-folkeskoler-fra-naeste-skoleaar",
+        "origin": "article",
+        "fingerprint": "c5a7a6a213617969a5a7a723326968c8a5272323336979c8272323211169e9c82363733151a9e1d873d1515090a8e48c",
+        "lookedAt": "c5a7a6a213617969a5a7a723326968c8a5272323336979c8272323211169e9c82363733151a9e1d873d1515090a8e48c",
+        "originalUrl": "https://asset.dr.dk/drdk/umbraco-images/2ftllsdl/mobil_1elever.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+        "focus": {
+          "x": 0.773,
+          "y": 0.889
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-23T22:43:45.842Z",
+        "runId": "run-2026-11-23-umidday-r274"
+      }
+    },
+    {
+      "id": "story-rusland-ukraine-libya-oestersoeen-20261123",
+      "eventKey": "rusland-ukraine-libya-baltic-eskalering-2026-11",
+      "materialFacts": [
+        "Zelensky sagde 23. nov, at ukrainske styrker sænkede korvetten Merkury ved en flådebase i Benghazi 22. nov og angreb et fragtskib",
+        "Samme dag beskadigede et droneangreb fragtskibet Sparta II i Østersøen; Finlands militær peger på Ukraine",
+        "Kremltalsmand Peskov kalder udviklingen en farlig tendens og advarer om smertelige konsekvenser",
+        "Libyens østlige regering har klaget til FN over et suverænitetsbrud"
+      ],
+      "section": "Sikkerhedspolitik",
+      "headline": "Russia warns Ukraine of 'dangerous trend' after Libya and Baltic attacks",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks",
+      "subheadline": "Zelensky bekræfter angreb på russisk krigsskib i Benghazi og en drone i Østersøen.",
+      "body": [
+        "Zelensky sagde 23. november, at Ukraine sænkede korvetten Merkury ved Benghazi 22. november og angreb et fragtskib. Samme dag beskadigede en drone fragtskibet Sparta II i Østersøen; Finland peger på Ukraine.",
+        "Peskov kalder det en 'farlig tendens' og advarer om konsekvenser. Libyens østlige regering har klaget til FN."
+      ],
+      "whyItMatters": "Krigen flytter til nye skuepladser langt fra Ukraine og øger risikoen for optrapning.",
+      "topics": [
+        "sikkerhedspolitik",
+        "rusland",
+        "europa"
+      ],
+      "entities": [
+        "Volodymyr Zelensky",
+        "Dmitry Peskov",
+        "Rusland",
+        "Ukraine",
+        "Libyen",
+        "Finland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 30,
+        "novelty": 65,
+        "sourceQuality": 75,
+        "personalRelevance": 20,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Zelensky bekræftede sænkningen af korvetten Merkury ved Benghazi og et angreb på et fragtskib 22. november",
+          "sourceUrls": [
+            "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Russia warns Ukraine of 'dangerous trend' after Libya and Baltic attacks",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks",
+          "publishedAt": "2026-11-23T00:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-23/11-b1e87faf.jpg",
+        "credit": "Kilde: Al Jazeera",
+        "alt": "Russia warns Ukraine of ‘dangerous trend’ after Libya and Baltic attacks",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks",
+        "origin": "article",
+        "fingerprint": "eafc373c38be3f0fdc3c375c38783f3fde32679c78787f37ee30671e787c4f377b70e71ef86cdcef34e1c73ef8e47c8f",
+        "lookedAt": "eafc373c38be3f0fdc3c375c38783f3fde32679c78787f37ee30671e787c4f377b70e71ef86cdcef34e1c73ef8e47c8f",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0346590eba8-1795376729.jpg?resize=1200%2C610&quality=80",
+        "focus": {
+          "x": 0.898,
+          "y": 0.039
+        }
+      },
+      "addedBy": {
+        "slot": "midday",
+        "at": "2026-11-23T22:43:45.842Z",
+        "runId": "run-2026-11-23-umidday-r274"
+      }
     }
   ],
   "signals": [
@@ -963,5 +1213,20 @@
     "overall": 68,
     "sourceQuality": 65,
     "diversity": 70
-  }
+  },
+  "updateRuns": [
+    {
+      "slot": "midday",
+      "at": "2026-11-23T22:43:45.842Z",
+      "runId": "run-2026-11-23-umidday-r274",
+      "added": 3,
+      "cost": {
+        "usd": 2.1217819,
+        "inputTokens": 2669759,
+        "outputTokens": 34154,
+        "turns": 56,
+        "seconds": 478.8
+      }
+    }
+  ]
 }

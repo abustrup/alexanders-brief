@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-23",
-  "generatedAt": "2026-11-23T05:29:08.873Z",
+  "generatedAt": "2026-11-23T22:46:16.407Z",
   "pictures": [
     {
       "slot": "01",
@@ -162,6 +162,66 @@
         "y": 0.957
       },
       "fetchedAt": "2026-11-23T05:29:12.975Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-nvidia-huang-reinstated-20261123",
+      "headline": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+      "source": "https://image.cnbcfm.com/api/v1/image/108353993-1787677585886-108353993-1787675816989-gettyimages-2266718431-NVIDIA_GTC.jpg?v=1795450778&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+      "hosted": "09-28a271e5.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 100243,
+      "out": "1600x1067",
+      "bytes": 97971,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.85
+      },
+      "fetchedAt": "2026-11-23T22:46:16.788Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-mobilforbud-folkeskole-20261123",
+      "headline": "Mobiltelefoner forbydes i landets folkeskoler fra næste skoleår",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/2ftllsdl/mobil_1elever.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://www.dr.dk/nyheder/politik/mobiltelefoner-forbydes-i-landets-folkeskoler-fra-naeste-skoleaar",
+      "hosted": "10-4031e124.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 14960,
+      "out": "1012x675",
+      "bytes": 37227,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.773,
+        "y": 0.889
+      },
+      "fetchedAt": "2026-11-23T22:46:17.042Z"
+    },
+    {
+      "slot": "11",
+      "id": "story-rusland-ukraine-libya-oestersoeen-20261123",
+      "headline": "Russia warns Ukraine of 'dangerous trend' after Libya and Baltic attacks",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b0346590eba8-1795376729.jpg?resize=1200%2C610&quality=80",
+      "article": "https://www.aljazeera.com/news/2026/11/23/russia-warns-ukraine-of-dangerous-trend-after-libya-and-baltic-attacks",
+      "hosted": "11-b1e87faf.jpg",
+      "srcSize": "1200x610",
+      "srcFormat": "webp",
+      "srcBytes": 108314,
+      "out": "915x610",
+      "bytes": 76834,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.898,
+        "y": 0.039
+      },
+      "fetchedAt": "2026-11-23T22:46:17.334Z"
     },
     {
       "slot": "r01",
