@@ -1,0 +1,187 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-23",
+  "generatedAt": "2026-11-23T05:29:08.873Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-nato-poland-20261123",
+      "headline": "The North Atlantic Council will meet in Brussels following the Russian missile strikes in Poland",
+      "source": "https://storage.liga.net/images/general/2026/07/10/20260710113424-8763.jpg",
+      "article": "https://news.liga.net/en/world/news/the-north-atlantic-council-will-meet-in-brussels-following-the-russian-missile-strikes-in-poland",
+      "hosted": "01-57c178e2.jpg",
+      "srcSize": "2000x1333",
+      "srcFormat": "jpeg",
+      "srcBytes": 963674,
+      "out": "1600x1200",
+      "bytes": 156518,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.484,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-23T05:29:09.343Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-poland-assassination-20261123",
+      "headline": "Poland says Russia tried to assassinate Ukrainian rapper twice",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-02-05T130309Z_991038335_RC2NFJAH27US_RTRMADP_3_UKRAINE-CRISIS-ZELENSKIY-TUSK-1795394679.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/23/poland-says-russia-tried-to-assassinate-ukrainian-rapper-twice",
+      "hosted": "02-a27f9455.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 112758,
+      "out": "1600x1067",
+      "bytes": 115212,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.279,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-23T05:29:09.665Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-google-willow-20261123",
+      "headline": "A game you cannot win unless you have a quantum computer",
+      "source": "https://quantumai.google/static/site-assets/images/marketing/cards/discover-lab.jpg",
+      "article": "https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/",
+      "hosted": "03-61b521d9.jpg",
+      "srcSize": "600x450",
+      "srcFormat": "jpeg",
+      "srcBytes": 265279,
+      "out": "600x400",
+      "bytes": 47555,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.529,
+        "y": 0.443
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-23T05:29:10.090Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-openai-perplexity-20261123",
+      "headline": "Perplexity and Intelligence",
+      "source": "https://wp.technologyreview.com/wp-content/uploads/2025/07/250724-AI-hero.jpg?resize=1200,600",
+      "article": "https://openai.com/index/perplexity-and-intelligence/",
+      "hosted": "04-5fef6829.jpg",
+      "srcSize": "1200x600",
+      "srcFormat": "webp",
+      "srcBytes": 71590,
+      "out": "900x600",
+      "bytes": 53642,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-23T05:29:10.542Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-noejsomhed-20261123",
+      "headline": "Det kom frem i sag om mulig diskrimination: Nu skal Højesteret sætte punktum",
+      "source": "https://fagbladetboligen.dk/media/4htjjycu/advokater_aan.jpg?width=1580&height=889&rnd=134387922316300000",
+      "article": "https://fagbladetboligen.dk/alle-nyheder/2026/november/det-kom-frem-i-sag-om-mulig-diskrimination-nu-skal-hoejesteret-saette-punktum",
+      "hosted": "05-2f13795a.jpg",
+      "srcSize": "1580x889",
+      "srcFormat": "jpeg",
+      "srcBytes": 482603,
+      "out": "1333x889",
+      "bytes": 208931,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.134,
+        "y": 0.357
+      },
+      "fetchedAt": "2026-11-23T05:29:11.924Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-vurderingsstyrelsen-20261123",
+      "headline": "Skatteminister vil tvinge styrelse til at rette fejl i vurderinger",
+      "source": "https://asset.dr.dk/drdk/umbraco-images/shpa5kbw/20261009-112549-l.jpg?im=SmartCrop%2Csize%3D%281200%2C675%29",
+      "article": "https://tidende.dk/ind-og-udland/indland-kriminal/skatteminister-vil-tvinge-styrelse-til-at-rette-fejl-i-vurderinger/409802",
+      "hosted": "06-19136d71.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 111575,
+      "out": "1012x675",
+      "bytes": 42230,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-23T05:29:12.291Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-indonesia-fire-20261123",
+      "headline": "Fire rips through Indonesian confectionary factory, leaving dozens missing",
+      "source": "https://live-production.wcms.abc-cdn.net.au/caba364b92562e02bc120b8410287e80?impolicy=wcms_crop_resize&cropH=2205&cropW=3920&xPos=0&yPos=52&width=1600&height=900&imformat=generic",
+      "article": "https://www.abc.net.au/news/2026-11-22/bodies-recovered-after-indonesian-factory-fire/107414720",
+      "hosted": "07-ab1a5486.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "jpeg",
+      "srcBytes": 493571,
+      "out": "1350x900",
+      "bytes": 231824,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.161,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-23T05:29:12.758Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-skorea-csat-20261123",
+      "headline": "Lee accepts education minister's resignation after CSAT anticheating measures trigger nationwide confusion",
+      "source": "https://image.koreajoongangdaily.com/12974633.jpg?imageId=12974633&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+      "article": "https://www.koreajoongangdaily.com/korea/lee-accepts-education-ministers-resignation-after-csat-anticheating-measures-trigger-nationwide-confusion/12984387",
+      "hosted": "08-3c9d70d8.jpg",
+      "srcSize": "1200x683",
+      "srcFormat": "jpeg",
+      "srcBytes": 109832,
+      "out": "1024x683",
+      "bytes": 47389,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.466,
+        "y": 0.957
+      },
+      "fetchedAt": "2026-11-23T05:29:12.975Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-lex-lawton-20261123",
+      "headline": "Larry Lawton: GTA 6, Crime, Jewel Heists, Prison, Mafia, Miami & Money",
+      "source": "https://img.youtube.com/vi/v1X9Fqs5a14/maxresdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=v1X9Fqs5a14",
+      "hosted": "r01-65c7ea80.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 173785,
+      "out": "1280x720",
+      "bytes": 101035,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-23T05:29:13.138Z"
+    }
+  ]
+}
