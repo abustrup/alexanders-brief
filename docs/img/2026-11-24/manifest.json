@@ -1,6 +1,6 @@
 {
   "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-24",
-  "generatedAt": "2026-11-24T05:37:42.910Z",
+  "generatedAt": "2026-11-24T21:26:05.987Z",
   "pictures": [
     {
       "slot": "01",
@@ -141,6 +141,46 @@
         "y": 0
       },
       "fetchedAt": "2026-11-24T05:37:46.789Z"
+    },
+    {
+      "slot": "09",
+      "id": "s-plairspace24",
+      "headline": "Russian reconnaissance drone briefly violates Polish airspace, MoD source says",
+      "source": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA2i4dXY.img",
+      "article": "https://www.pap.pl/en/news/russian-reconnaissance-drone-briefly-violates-polish-airspace-mod-source-says",
+      "hosted": "09-dbf73635.jpg",
+      "srcSize": "1920x1280",
+      "srcFormat": "jpeg",
+      "srcBytes": 444508,
+      "out": "1600x1067",
+      "bytes": 246526,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.743
+      },
+      "fetchedAt": "2026-11-24T21:26:06.539Z"
+    },
+    {
+      "slot": "10",
+      "id": "s-aiunreleased24",
+      "headline": "AI lab staff reportedly fear unreleased models are too powerful to release",
+      "source": "https://danhendrycks.com/me_2026.jpg",
+      "article": "https://thenextweb.com/news/anthropic-openai-staff-fear-unreleased-models-unsafe-axios",
+      "hosted": "10-b0c81c00.jpg",
+      "srcSize": "1335x1178",
+      "srcFormat": "jpeg",
+      "srcBytes": 113111,
+      "out": "1335x890",
+      "bytes": 63198,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.607
+      },
+      "fetchedAt": "2026-11-24T21:26:06.887Z"
     },
     {
       "slot": "r01",
