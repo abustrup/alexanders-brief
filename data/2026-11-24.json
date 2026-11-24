@@ -1,0 +1,1085 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "brief-2026-11-24",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T05:30:00Z",
+  "readingMinutes": 7,
+  "title": "Alexanders Brief",
+  "dek": "AI-styring i Barbados, NATO sender AWACS til Polen, og en leukæmistudie der ser 50 år tilbage",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "s-guterres24",
+      "eventKey": "guterres-ai-oversight-bridgetown-2026-11",
+      "materialFacts": [
+        "Guterres talte 23. november 2026 ved Bridgetown Special Summit on AI Safety i Barbados",
+        "Han opfordrede medlemslandene til inden et år at udvikle en multilateral ramme for AI-risikostyring med uafhængigt tilsyn",
+        "Han sagde AI-udviklingen ikke må gå hurtigere end evnen til at kontrollere dens sikkerhed",
+        "USA og Kina konkurrerer om AI-dominans, hvilket flere analytikere ser som den reelle hindring for en bindende global aftale"
+      ],
+      "section": "AI og global styring",
+      "headline": "UN chief calls for world to agree on AI oversight within a year",
+      "primarySourceUrl": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
+      "subheadline": "Guterres opfordrer til en global ramme for AI-tilsyn inden et år",
+      "body": [
+        "Guterres talte 23. november ved Bridgetown Special Summit on AI Safety og opfordrede til, at lande inden et år udvikler en multilateral ramme for AI-risikostyring med uafhængigt tilsyn. AI-udviklingen må ikke gå hurtigere end evnen til at kontrollere dens sikkerhed, sagde han."
+      ],
+      "whyItMatters": "Uden fælles spilleregler afgør markeds- og statsmagt alene, hvor sikkert AI udvikles.",
+      "analysis": "Guterres går af ved nytår uden udpeget efterfølger; opfordringen binder intet land.",
+      "counterpoint": "USA og Kina konkurrerer om AI-dominans og har afvist bindende aftaler - den reelle hindring, ifølge analytikere.",
+      "topics": [
+        "ai",
+        "regulering"
+      ],
+      "entities": [
+        "António Guterres",
+        "FN",
+        "Bridgetown Special Summit on AI Safety"
+      ],
+      "isLead": true,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 72,
+        "decisionValue": 55,
+        "novelty": 60,
+        "sourceQuality": 80,
+        "personalRelevance": 70,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "Guterres opfordrede 23. november 2026 til, at verdens lande inden et år udvikler en multilateral ramme for AI-risikostyring med uafhængigt tilsyn.",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168861",
+            "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "USA og Kina konkurrerer om AI-dominans, hvilket flere analytikere peger på gør bindende global regulering usandsynlig.",
+          "sourceUrls": [
+            "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "UN chief calls for world to agree on AI oversight within a year",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
+          "publishedAt": "2026-11-24T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "UN chief urges talks on global AI safety framework, warns of historic shift in power",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168861",
+          "publishedAt": "2026-11-23T18:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "'Maintain control': UN chief calls for creation of global AI safety framework within a year",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/americas/20261123-un-chief-antonio-guterres-calls-for-global-ai-safety-framework-within-a-year",
+          "publishedAt": "2026-11-23T20:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/01-1183de91.jpg",
+        "credit": "Foto: AFP / Al Jazeera",
+        "alt": "UN chief calls for world to agree on AI oversight within a year",
+        "sourceUrl": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
+        "origin": "article",
+        "fingerprint": "88908690d99d8e619d918699989d9e6694218799989c9fa6302403199c9e9e1f210e41181c1a9e1f660b51181e1f1b1f",
+        "lookedAt": "88908690d99d8e619d918699989d9e6694218799989c9fa6302403199c9e9e1f210e41181c1a9e1f660b51181e1f1b1f",
+        "originalUrl": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b04d55ed5b3-1795478878.jpg?resize=1920%2C1440",
+        "focus": {
+          "x": 0.394,
+          "y": 0.745
+        }
+      }
+    },
+    {
+      "id": "s-natoawacs24",
+      "eventKey": "nato-awacs-poland-deployment-2026-11",
+      "materialFacts": [
+        "Tre russiske Kh-101-krydsermissiler fløj 20. november 2026 ind i polsk luftrum og landede i ubebyggede områder",
+        "Det Nordatlantiske Råd mødtes 23. november, og SACEUR Alexus Grynkewich godkendte fremskudt udsendelse af et AWACS-fly",
+        "Polen har valgt ikke at aktivere artikel 4, men søger udvidet støtte via NATO's Eastern Sentry-mission",
+        "NATO-talskvinde Allison Hart siger alle 32 medlemslande står i fuld solidaritet med Polen"
+      ],
+      "section": "Sikkerhedspolitik",
+      "headline": "NATO to send early-warning system aircraft to Poland after missiles incident",
+      "primarySourceUrl": "https://www.usnews.com/news/world/articles/2026-11-23/nato-to-send-early-warning-system-aircraft-to-poland-after-missiles-incident",
+      "subheadline": "SACEUR godkender fremskudt AWACS-overvågning efter russiske missiler i polsk luftrum",
+      "body": [
+        "Tre russiske Kh-101-missiler fløj 20. november ind i polsk luftrum. Rådet mødtes 23. november, og SACEUR Alexus Grynkewich godkendte et AWACS-fly til Polen. Polen aktiverer ikke artikel 4, men søger udvidet støtte via NATO's Eastern Sentry-mission."
+      ],
+      "whyItMatters": "Det tester, hvor langt NATO vil gå uden at aktivere artikel 4.",
+      "analysis": "At Polen undlader artikel 4, men får et NATO-aktiv alligevel, viser alliancen kan optrappe uformelt.",
+      "counterpoint": "Polske embedsmænd kritiserer, at NATO's svar på krænkelser er for langsomt.",
+      "topics": [
+        "sikkerhedspolitik",
+        "geopolitik"
+      ],
+      "entities": [
+        "NATO",
+        "Polen",
+        "Allison Hart",
+        "Alexus Grynkewich",
+        "Rusland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 75,
+        "decisionValue": 50,
+        "novelty": 55,
+        "sourceQuality": 70,
+        "personalRelevance": 65,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Tre russiske Kh-101-krydsermissiler kom ind i polsk luftrum 20. november 2026 og landede i ubebyggede områder uden tab af menneskeliv.",
+          "sourceUrls": [
+            "https://www.usnews.com/news/world/articles/2026-11-23/nato-to-send-early-warning-system-aircraft-to-poland-after-missiles-incident",
+            "https://tass.com/world/2223625"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "SACEUR Alexus Grynkewich godkendte 23. november fremskudt udsendelse af et NATO AWACS-fly til Polen efter et rådsmøde.",
+          "sourceUrls": [
+            "https://www.usnews.com/news/world/articles/2026-11-23/nato-to-send-early-warning-system-aircraft-to-poland-after-missiles-incident"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "NATO to send early-warning system aircraft to Poland after missiles incident",
+          "publisher": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/world/articles/2026-11-23/nato-to-send-early-warning-system-aircraft-to-poland-after-missiles-incident",
+          "publishedAt": "2026-11-23T20:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "NATO announced deployment of AWACS early warning aircraft to Poland",
+          "publisher": "TASS",
+          "url": "https://tass.com/world/2223625",
+          "publishedAt": "2026-11-23T18:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Poland wants NATO to strengthen defenses",
+          "publisher": "RBC-Ukraine",
+          "url": "https://newsukraine.rbc.ua/news/poland-wants-nato-to-strengthen-defenses-1795369392.html",
+          "publishedAt": "2026-11-21T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/02-6bf1501b.jpg",
+        "credit": "Foto: Reuters",
+        "alt": "Et NATO E-3A AWACS-overvågningsfly med radardome, af den type der nu sendes til Polen",
+        "sourceUrl": "https://www.nbcnews.com/world/russia/poland-nato-early-warning-aircraft-russia-missiles-cross-border-rcna610957",
+        "origin": "coverage",
+        "fingerprint": "c3fcb89f5c7a3f3fc7fc9c971e7a2f7fc77c9cb6be5a4b7fe67c1c36bffded7dfe3c8e533fbca5ad7c1c57133d3eb42c",
+        "lookedAt": "c3fcb89f5c7a3f3fc7fc9c971e7a2f7fc77c9cb6be5a4b7fe67c1c36bffded7dfe3c8e533fbca5ad7c1c57133d3eb42c",
+        "originalUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261123-NATO-AWACS-poland-bf-1407-f49a02.jpg",
+        "focus": {
+          "x": 0.314,
+          "y": 0.146
+        }
+      }
+    },
+    {
+      "id": "s-ukrlibya24",
+      "eventKey": "ukraine-sea-drones-merkury-libya-2026-11",
+      "materialFacts": [
+        "Syv ukrainske sødroner angreb den russiske korvet Merkury ved kaj i Benghazi, Libyen, natten til 22.-23. november 2026",
+        "Ukraines sikkerhedstjeneste SBU bekræfter angrebet og siger dronerne blev affyret fra et moderskib",
+        "Merkury er en Steregushchiy-klasse-korvet i tjeneste siden 2023, anslået til omkring 200 mio. dollar",
+        "Angrebet viser Ukraines voksende rækkevidde mod russiske flådeaktiver langt fra Sortehavet"
+      ],
+      "section": "Krigen i Ukraine",
+      "headline": "Ukraine confirms sea drones sunk Russian warship docked in Libya",
+      "primarySourceUrl": "https://www.1news.co.nz/2026/11/24/ukraine-confirms-sea-drones-sunk-russian-warship-docked-in-libya/",
+      "subheadline": "Syv ukrainske sødroner sænkede russisk korvet ved kaj i Benghazi",
+      "body": [
+        "Syv ukrainske sødroner angreb natten til 22.-23. november korvetten Merkury ved kaj i Benghazi, Libyen. SBU bekræfter angrebet og siger, dronerne blev affyret fra et moderskib. Merkury, i tjeneste siden 2023, anslået til 200 mio. dollar, er det seneste russiske flådefartøj ramt langt fra Sortehavet."
+      ],
+      "whyItMatters": "Angrebet viser, Ukraine nu kan ramme russiske flådeaktiver tusinder af kilometer fra krigszonen.",
+      "analysis": "Rækkevidden rykker den maritime krig ind i Middelhavet og lægger pres på Ruslands allierede havne.",
+      "topics": [
+        "sikkerhedspolitik",
+        "rusland"
+      ],
+      "entities": [
+        "Ukraine",
+        "SBU",
+        "Merkury",
+        "Rusland",
+        "Benghazi",
+        "Volodymyr Zelenskyy"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 68,
+        "decisionValue": 45,
+        "novelty": 70,
+        "sourceQuality": 70,
+        "personalRelevance": 55,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Syv ukrainske sødroner angreb den russiske korvet Merkury ved kaj i Benghazi, Libyen, natten til 22.-23. november 2026.",
+          "sourceUrls": [
+            "https://www.japantimes.co.jp/news/2026/11/24/world/ukraine-russian-warship-libyan-coast/",
+            "https://www.cnbc.com/2026/11/23/ukraine-russia-warship-libya.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Ukraines sikkerhedstjeneste SBU bekræftede angrebet og siger dronerne blev affyret fra et moderskib efter transport til et ukendt sted.",
+          "sourceUrls": [
+            "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ukraine confirms sea drones sunk Russian warship docked in Libya",
+          "publisher": "1News",
+          "url": "https://www.1news.co.nz/2026/11/24/ukraine-confirms-sea-drones-sunk-russian-warship-docked-in-libya/",
+          "publishedAt": "2026-11-24T00:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ukraine strike on Russian warship off Libya highlights Kyiv's broadened reach",
+          "publisher": "The Japan Times",
+          "url": "https://www.japantimes.co.jp/news/2026/11/24/world/ukraine-russian-warship-libyan-coast/",
+          "publishedAt": "2026-11-24T02:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ukraine-Russia: Zelenskyy praises 'exemplary' drone operation that sank Russian warship in a Libyan port",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/ukraine-russia-warship-libya.html",
+          "publishedAt": "2026-11-23T14:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Ukraine's Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase (Updated)",
+          "publisher": "The War Zone",
+          "url": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase",
+          "publishedAt": "2026-11-23T10:00:00Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/03-6ea50914.jpg",
+        "credit": "Kilde: 1News",
+        "alt": "In this screen grab from a video provided by the Security Service of Ukraine on Monday, Nov. 23, 2026, a Ukrainian Sea Baby drone attacks the Russian navy corvette Merkury near Benghazi, Libya.",
+        "sourceUrl": "https://www.1news.co.nz/2026/11/24/ukraine-confirms-sea-drones-sunk-russian-warship-docked-in-libya/",
+        "origin": "article",
+        "fingerprint": "03030703070706120103070307070612010b050307070713010105092707070309040409270707030406060867270703",
+        "lookedAt": "03030703070706120103070307070612010b050307070713010105092707070309040409270707030406060867270703",
+        "originalUrl": "https://cloudfront-ap-southeast-2.images.arcpublishing.com/tvnz/2JGGWMJGFJHSDHKJBZA3YRKGIM.jpg",
+        "focus": {
+          "x": 0.621,
+          "y": 0.257
+        }
+      }
+    },
+    {
+      "id": "s-darpaqbi24",
+      "eventKey": "darpa-qbi-stage-c-finalists-2026-11",
+      "materialFacts": [
+        "DARPA har udvalgt Atom Computing, Diraq, IBM og IonQ til fase C i Quantum Benchmarking Initiative",
+        "De fire bruger forskellige hardwaretilgange: neutrale atomer, silicium-spin-qubits, superledende processorer og fangede ioner",
+        "I fase C skal selskaberne bygge og lade staten verificere, om deres design for nyttig kvantecomputing fungerer som tilsigtet",
+        "Deltagerne kan samlet modtage op til 300 mio. dollar i føderal finansiering til den afsluttende valideringsfase"
+      ],
+      "section": "Kvanteteknologi",
+      "headline": "DARPA Selects Atom Computing, Diraq, IBM, and IonQ for Final Stage C Verification under Quantum Benchmarking Initiative",
+      "primarySourceUrl": "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/",
+      "subheadline": "Fire selskaber går videre til DARPA's afsluttende verifikation af nyttig kvantecomputing",
+      "body": [
+        "DARPA har udvalgt Atom Computing, Diraq, IBM og IonQ til fase C i Quantum Benchmarking Initiative - fire forskellige tilgange: neutrale atomer, spin-qubits, superledere og fangede ioner. Staten skal verificere, at designene fungerer, med op til 300 mio. dollar i finansiering."
+      ],
+      "whyItMatters": "Fase C skiller de spor staten tror på fra dem, der ikke går videre.",
+      "analysis": "At fire tilgange stadig er i spil, viser feltet ikke har fundet sin vinderarkitektur.",
+      "topics": [
+        "kvante",
+        "teknologi"
+      ],
+      "entities": [
+        "DARPA",
+        "Atom Computing",
+        "Diraq",
+        "IBM",
+        "IonQ"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 58,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 65,
+        "personalRelevance": 60,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "DARPA har udvalgt Atom Computing, Diraq, IBM og IonQ til fase C-verifikation i Quantum Benchmarking Initiative.",
+          "sourceUrls": [
+            "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/",
+            "https://www.networkworld.com/article/4235211/ibm-ionq-diraq-and-atom-computing-advance-to-darpas-quantum-hardware-testing-stage.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Deltagerne kan samlet modtage op til 300 mio. dollar i føderal finansiering til den afsluttende valideringsfase.",
+          "sourceUrls": [
+            "https://interestingengineering.com/innovation/darpa-verification-quantum-benchmarking"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "DARPA Selects Atom Computing, Diraq, IBM, and IonQ for Final Stage C Verification under Quantum Benchmarking Initiative",
+          "publisher": "Quantum Computing Report",
+          "url": "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/",
+          "publishedAt": "2026-11-23T16:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "IBM, IonQ, Diraq, and Atom Computing advance to DARPA's quantum hardware testing stage",
+          "publisher": "Network World",
+          "url": "https://www.networkworld.com/article/4235211/ibm-ionq-diraq-and-atom-computing-advance-to-darpas-quantum-hardware-testing-stage.html",
+          "publishedAt": "2026-11-23T15:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Four quantum firms chosen to build utility-scale computers for DARPA",
+          "publisher": "Interesting Engineering",
+          "url": "https://interestingengineering.com/innovation/darpa-verification-quantum-benchmarking",
+          "publishedAt": "2026-11-23T12:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/04-090280f2.jpg",
+        "credit": "Foto: IBM Newsroom",
+        "alt": "IBMs modulære kryogene kølesystem til kvantecomputere, en del af det hardware DARPA nu verificerer",
+        "sourceUrl": "https://newsroom.ibm.com/2026-10-07-ibm-advances-to-stage-c-of-darpa-quantum-benchmarking-initiative",
+        "origin": "source",
+        "fingerprint": "e565e7a7878f8f99c56da727878e8f8d456c4747070f0f0de44f4747270f0d0fe687c487854f0f4f8585a6a525870d4c",
+        "lookedAt": "e565e7a7878f8f99c56da727878e8f8d456c4747070f0f0de44f4747270f0d0fe687c487854f0f4f8585a6a525870d4c",
+        "originalUrl": "https://newsroom.ibm.com/image/IBM-Modular-Cryogenics-1920x1080.jpg",
+        "focus": {
+          "x": 0.809,
+          "y": 0.779
+        }
+      },
+      "imageRejected": [
+        {
+          "url": "https://quantumcomputingreport.com/wp-content/uploads/2026/10/image-40.png",
+          "fingerprint": "c98d4caab33333b3898e4c2b333333338d8ece2b2b3373331d8ece49697171310f8f0f4d696970f90f8e0fccd468f1f9",
+          "reason": "logo-or-card"
+        },
+        {
+          "url": "https://www.networkworld.com/wp-content/uploads/2026/10/4235211-0-31936500-1791988046-shutterstock_2747654581.jpg?quality=50&strip=all&w=1024",
+          "fingerprint": "4d5e846d6c061e8c8d96a444cd460e8d9e86c6c4cd4e4b8e1e0646c48c4e4b1b1b4646464eca4b5b43d2c2424a8acbc9",
+          "reason": "stock-or-ai"
+        }
+      ]
+    },
+    {
+      "id": "s-amlleuk24",
+      "eventKey": "aml-evolutionary-dynamics-cambridge-ucl-2026-11",
+      "materialFacts": [
+        "Studiet 'Evolutionary dynamics in the years preceding acute myeloid leukaemia' af Watson et al. er publiceret i Nature 11. november 2026",
+        "Forskere fra Cambridge og UCL brugte årlige blodprøver, nogle op til 15 år gamle, som et 'fossilt arkiv'",
+        "I to tredjedele af AML-tilfældene var den første kræftdrivende mutation opstået før 20-års-alderen, over 50 år før diagnosen",
+        "Hos mindst en tredjedel af kvinderne dominerede en muteret cellepopulation blodet år før diagnosen, hvilket raske kontroller ikke udviste"
+      ],
+      "section": "Videnskab",
+      "headline": "Scientists discover that leukemia can begin developing 50 years before diagnosis",
+      "primarySourceUrl": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm",
+      "subheadline": "Cambridge- og UCL-forskere sporer akut myeloid leukæmi mere end 50 år før diagnose",
+      "body": [
+        "Studiet, publiceret i Nature 11. november, brugte årlige blodprøver op til 15 år gamle som et 'fossilt arkiv'. I to tredjedele af tilfældene var den første kræftdrivende mutation opstået før 20-års-alderen. Hos mindst en tredjedel af kvinderne dominerede en muteret cellepopulation blodet år før diagnosen."
+      ],
+      "whyItMatters": "Et tidligt, målbart varsel kan gøre forebyggelse muligt årtier før symptomer.",
+      "analysis": "Hos hvert femte tilfælde kom varslet først 1-2 år før diagnosen - ikke alle får samme forspring.",
+      "topics": [
+        "videnskab",
+        "sundhed"
+      ],
+      "entities": [
+        "Caroline Watson",
+        "University of Cambridge",
+        "UCL",
+        "Early Cancer Institute"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 55,
+        "novelty": 80,
+        "sourceQuality": 80,
+        "personalRelevance": 10,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Studiet 'Evolutionary dynamics in the years preceding acute myeloid leukaemia' af Watson et al. fra Cambridge og UCL er publiceret i Nature 11. november 2026.",
+          "sourceUrls": [
+            "https://www.sciencedaily.com/releases/2026/11/261121221122.htm",
+            "https://news.europawire.eu/cambridge-and-ucl-scientists-trace-the-origins-of-acute-myeloid-leukaemia-decades-before-diagnosis/eu-press-release/2026/11/17/19/28/04/188219/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "I to tredjedele af AML-tilfældene var den første kræftdrivende mutation opstået før 20-års-alderen, mere end 50 år før diagnosen.",
+          "sourceUrls": [
+            "https://www.eurekalert.org/news-releases/1151058"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Scientists discover that leukemia can begin developing 50 years before diagnosis",
+          "publisher": "ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/11/261121221122.htm",
+          "publishedAt": "2026-11-21T22:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "'Fossil record' in stored blood samples lets scientists trace leukemia back decades before diagnosis",
+          "publisher": "EurekAlert!",
+          "url": "https://www.eurekalert.org/news-releases/1151058",
+          "publishedAt": "2026-11-11T09:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Cambridge and UCL scientists trace the origins of acute myeloid leukaemia decades before diagnosis",
+          "publisher": "EuropaWire",
+          "url": "https://news.europawire.eu/cambridge-and-ucl-scientists-trace-the-origins-of-acute-myeloid-leukaemia-decades-before-diagnosis/eu-press-release/2026/11/17/19/28/04/188219/",
+          "publishedAt": "2026-11-17T19:28:00Z",
+          "kind": "primary"
+        }
+      ],
+      "imageRejected": [
+        {
+          "url": "https://www.sciencedaily.com/images/1920/cancer-cell-amidst-red-blood-cells.webp",
+          "fingerprint": "3333a63332bc6cb63368633332344c6d316a637133352c4c794a7971337126cecd6b78523175e726cb69d2d26974e526",
+          "reason": "stock-or-ai"
+        },
+        {
+          "url": "https://news.europawire.eu/wp-content/uploads/2026/11/cambridge-and-ucl-scientists-trace-the-origins-of-acute-myeloid-leukaemia-decades-before-diagnosis.png",
+          "fingerprint": "6811545870611d2c161994d07061595c3e1896f0e060699d7a94b6f8e0e0618cd23435f8f8e0e05a326433f9f8e2e0c0",
+          "reason": "chart-or-text-card"
+        }
+      ]
+    },
+    {
+      "id": "s-iranblock24",
+      "eventKey": "us-naval-blockade-iran-oil-kharg-2026-11",
+      "materialFacts": [
+        "CENTCOM-chef admiral Brad Cooper siger USA's flådeblokade har stoppet iransk råolieeksport til en værdi af 25 mia. dollar",
+        "Iran har samlet mere end 14 olietankere ved Kharg Island i en konvoj for at forsøge at bryde blokaden",
+        "USA's militær varsler, at skibe der modtager last fra iranske skibe på åbent hav vil blive behandlet som blokadebrydere",
+        "Irans udenrigsministerium siger landet vil bruge alle sine midler mod blokaden"
+      ],
+      "section": "Mellemøsten",
+      "headline": "US tightens Iran blockade with curbs on oil transfers at sea",
+      "primarySourceUrl": "https://www.arabnews.com/middle-east/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-3012790",
+      "subheadline": "Iran samler tankerkonvoj ved Kharg Island for at teste USA's olieblokade",
+      "body": [
+        "Admiral Brad Cooper, chef for CENTCOM, siger blokaden har stoppet iransk råolieeksport for 25 mia. dollar. Iran har samlet over 14 tankere ved Kharg Island i en konvoj for at bryde blokaden. USA varsler, skibe der modtager last fra iranske skibe på åbent hav behandles som blokadebrydere."
+      ],
+      "whyItMatters": "En konfrontation mellem konvoj og flåde kan eskalere i Golfen.",
+      "analysis": "At Iran samler tankere i en synlig konvoj, er et signal om vilje til at teste blokaden.",
+      "counterpoint": "Coopers skøn er et amerikansk estimat, ikke en uafhængig revision.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten"
+      ],
+      "entities": [
+        "Iran",
+        "USA",
+        "Brad Cooper",
+        "CENTCOM",
+        "Kharg Island"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 50,
+        "novelty": 55,
+        "sourceQuality": 65,
+        "personalRelevance": 35,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "CENTCOM-chef admiral Brad Cooper siger USA's flådeblokade har stoppet iransk råolieeksport til en værdi af 25 mia. dollar.",
+          "sourceUrls": [
+            "https://www.arabnews.com/middle-east/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-3012790"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Iran har samlet mere end 14 olietankere ved Kharg Island i en konvoj for at forsøge at bryde blokaden.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "US tightens Iran blockade with curbs on oil transfers at sea",
+          "publisher": "Arab News",
+          "url": "https://www.arabnews.com/middle-east/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-3012790",
+          "publishedAt": "2026-11-23T08:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "US targets Iran's ship-to-ship transfers: Can Tehran break the blockade?",
+          "publisher": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/20/us-targets-irans-ship-to-ship-transfers-can-tehran-break-the-blockade",
+          "publishedAt": "2026-11-20T10:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Iran readies tanker convoy at Kharg Island to test US oil blockade",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/11/20/iran-readies-tanker-convoy-at-kharg-island-to-test-us-oil-blockade",
+          "publishedAt": "2026-11-20T09:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/06-14b9a9ca.jpg",
+        "credit": "US Central Command",
+        "alt": "Amerikanske styrker uskadeliggør et kommercielt skib i Omanbugten som led i den amerikanske flådeblokade mod iransk olieeksport",
+        "sourceUrl": "https://www.arabnews.com/middle-east/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-3012790",
+        "origin": "article",
+        "fingerprint": "600002c4c1c1c0824102a2c4d0c1c0820101a1a4c18180c1080521a4a581808045443004248004048405510654542215",
+        "lookedAt": "600002c4c1c1c0824102a2c4d0c1c0820101a1a4c18180c1080521a4a581808045443004248004048405510654542215",
+        "originalUrl": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/proxies/8f4b06d1-0c11-49b1-ab3f-e1e923cc9b8b.webp",
+        "focus": {
+          "x": 0.111,
+          "y": 0.5
+        }
+      }
+    },
+    {
+      "id": "s-eusanctions24",
+      "eventKey": "eu-22nd-sanctions-package-russia-2026-11",
+      "materialFacts": [
+        "EU-Kommissionen fremlagde 23. november 2026 sin 22. sanktionspakke mod Rusland siden invasionen i 2022",
+        "Pakken vil fjerne 60 russiske banker fra Swift-betalingssystemet og ramme 70 flere skibe i Ruslands skyggeflåde",
+        "Kommissionen vil forbyde russiske atleter og hold under russisk flag fra sportsbegivenheder i EU",
+        "Forslaget kræver enstemmig godkendelse fra alle 27 medlemslande og kan ændres undervejs"
+      ],
+      "section": "EU og Rusland",
+      "headline": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events",
+      "primarySourceUrl": "https://www.washingtontimes.com/news/2026/nov/23/sweeping-new-russia-sanctions-targeting-banks-crypto-sports-events/",
+      "subheadline": "EU-Kommissionens 22. sanktionspakke vil udelukke russiske atleter og 60 banker fra Swift",
+      "body": [
+        "EU-Kommissionen fremlagde 23. november sin 22. sanktionspakke mod Rusland: fjernelse af 60 banker fra Swift, 70 flere skibe i skyggeflåden, og forbud mod russiske atleter og hold under russisk flag ved sportsbegivenheder i EU. Forslaget kræver enstemmig godkendelse af 27 lande."
+      ],
+      "whyItMatters": "Forbuddet udvider sanktioner fra økonomi til sport.",
+      "analysis": "At pakken skal vedtages enstemmigt, betyder den nok forhandles ned.",
+      "counterpoint": "Tidligere pakker har ifølge analyser haft begrænset effekt på krigsøkonomien.",
+      "topics": [
+        "eu",
+        "geopolitik"
+      ],
+      "entities": [
+        "EU-Kommissionen",
+        "Rusland"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 62,
+        "decisionValue": 45,
+        "novelty": 55,
+        "sourceQuality": 65,
+        "personalRelevance": 50,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "EU-Kommissionen fremlagde 23. november 2026 sin 22. sanktionspakke mod Rusland med fjernelse af 60 banker fra Swift og 70 flere skibe i skyggeflåden.",
+          "sourceUrls": [
+            "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Pakken foreslår forbud mod russiske atleter og hold under russisk flag ved sportsbegivenheder i EU og kræver enstemmig vedtagelse af alle 27 medlemslande.",
+          "sourceUrls": [
+            "https://www.usnews.com/news/technology/articles/2026-11-23/eu-proposes-sweeping-new-russia-sanctions-targeting-banks-crypto-and-sports-events"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events",
+          "publisher": "The Washington Times",
+          "url": "https://www.washingtontimes.com/news/2026/nov/23/sweeping-new-russia-sanctions-targeting-banks-crypto-sports-events/",
+          "publishedAt": "2026-11-23T17:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "EU goes after Russia's banks, soldiers and athletes in new sanctions package",
+          "publisher": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+          "publishedAt": "2026-11-23T15:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "EU Proposes Sweeping New Russia Sanctions Targeting Banks, Crypto and Sports Events",
+          "publisher": "U.S. News & World Report",
+          "url": "https://www.usnews.com/news/technology/articles/2026-11-23/eu-proposes-sweeping-new-russia-sanctions-targeting-banks-crypto-and-sports-events",
+          "publishedAt": "2026-11-23T16:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/07-d759f033.jpg",
+        "credit": "Kilde: Euronews",
+        "alt": "EU goes after Russia's banks, soldiers and athletes in new sanctions package",
+        "sourceUrl": "https://www.euronews.com/2026/11/23/eu-goes-after-russias-banks-soldiers-and-athletes-in-new-sanctions-package",
+        "origin": "source",
+        "fingerprint": "939b938dcc8dd5d4932b838d8c0d55d52b2583848495d5d72d252394849595966445323686a69696a4415236262636b6",
+        "lookedAt": "939b938dcc8dd5d4932b838d8c0d55d52b2583848495d5d72d252394849595966445323686a69696a4415236262636b6",
+        "originalUrl": "https://images.euronews.com/articles/stories/10/00/43/22/1200x675_cmsv2_6062d2c8-9a48-5562-a080-5f2ad24d6507-10004322.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0.714
+        }
+      }
+    },
+    {
+      "id": "s-dkvand24",
+      "eventKey": "danske-vandvaerker-cyberangreb-undersoegelse-2026-11",
+      "materialFacts": [
+        "Danske Vandværkers undersøgelse blandt 691 forsyninger i efteråret 2026 viser, at 12 pct. (83 forsyninger) har været udsat for cyberangreb",
+        "2 pct. af forsyningerne har oplevet ulovlig indtrængen i systemer eller boringer",
+        "Direktør Lise Lotte Toft siger tallene ikke nødvendigvis afspejler alvorlige hændelser, men viser et stigende pres",
+        "SAMSIK hævede 24. september 2026 Danmarks nationale trusselsniveau for destruktive cyberangreb fra middel til høj"
+      ],
+      "section": "Danmark",
+      "headline": "Hvert ottende vandværk har været udsat for cyberangreb",
+      "primarySourceUrl": "https://tidende.dk/ind-og-udland/indland-kriminal/hvert-ottende-vandvaerk-har-vaeret-udsat-for-cyberangreb/406319",
+      "subheadline": "Undersøgelse blandt 691 danske vandforsyninger finder cyberangreb hos 83 af dem",
+      "body": [
+        "En undersøgelse fra Danske Vandværker blandt 691 forsyninger viser, at 12 pct. - 83 forsyninger - har været udsat for cyberangreb, og 2 pct. har oplevet ulovlig indtrængen. Toft siger, tallene ikke nødvendigvis afspejler alvorlige hændelser. SAMSIK hævede 24. september trusselsniveauet til høj."
+      ],
+      "whyItMatters": "Drikkevand er kritisk infrastruktur, og mange er små værker uden it-beredskab.",
+      "analysis": "Ringforbindelse giver robusthed, men ikke for de mindste værker.",
+      "counterpoint": "Danske Vandværker vurderer selv, at langt fra alle hændelser er alvorlige.",
+      "topics": [
+        "danmark",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Danske Vandværker",
+        "Lise Lotte Toft",
+        "SAMSIK"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 55,
+        "decisionValue": 50,
+        "novelty": 60,
+        "sourceQuality": 65,
+        "personalRelevance": 55,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Danske Vandværkers undersøgelse blandt 691 forsyninger i efteråret 2026 viser, at 12 pct. (83 forsyninger) har været udsat for cyberangreb.",
+          "sourceUrls": [
+            "https://danishnews.cphpost.dk/article/one-in-eight-danish-waterworks-reports-having-faced-a-cyberattack",
+            "https://danskevv.dk/nyheder/vandvaerker-er-godt-rustet-til-det-skaerpede-trusselsbillede/"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "SAMSIK hævede 24. september 2026 Danmarks nationale trusselsniveau for destruktive cyberangreb fra middel til høj.",
+          "sourceUrls": [
+            "https://tidende.dk/ind-og-udland/indland-kriminal/hvert-ottende-vandvaerk-har-vaeret-udsat-for-cyberangreb/406319"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hvert ottende vandværk har været udsat for cyberangreb",
+          "publisher": "Tidende",
+          "url": "https://tidende.dk/ind-og-udland/indland-kriminal/hvert-ottende-vandvaerk-har-vaeret-udsat-for-cyberangreb/406319",
+          "publishedAt": "2026-11-23T07:00:00Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Vandværker er godt rustet til det skærpede trusselsbillede",
+          "publisher": "Danske Vandværker",
+          "url": "https://danskevv.dk/nyheder/vandvaerker-er-godt-rustet-til-det-skaerpede-trusselsbillede/",
+          "publishedAt": "2026-11-23T06:00:00Z",
+          "kind": "primary"
+        },
+        {
+          "title": "One in eight Danish waterworks reports having faced a cyberattack",
+          "publisher": "The Copenhagen Post",
+          "url": "https://danishnews.cphpost.dk/article/one-in-eight-danish-waterworks-reports-having-faced-a-cyberattack",
+          "publishedAt": "2026-11-23T09:00:00Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/08-17810934.jpg",
+        "credit": "Foto: Peter Hove Olesen",
+        "alt": "Vandbehandling på et dansk vandværk",
+        "sourceUrl": "https://itwatch.dk/ITNyt/Brancher/Sikkerhed/article19683410.ece",
+        "origin": "coverage",
+        "fingerprint": "0f262b0f8f070b832f624f0e0e0713036b6b4d0f0f079315e9e5cd0f0f079307458e850f0f071b124aa6264f0f874319",
+        "lookedAt": "0f262b0f8f070b832f624f0e0e0713036b6b4d0f0f079315e9e5cd0f0f079307458e850f0f071b124aa6264f0f874319",
+        "originalUrl": "https://imgproxy.watchmedier.dk/vdshLDmp5JlAqEQ3mZESpd_fiEy_brF29PGwSq1SmFE/resize:fill:3840:0:0/quality:75/aHR0cHM6Ly9waG90b3Mud2F0Y2htZWRpZXIuZGsvSW1hZ2VzLzE5NjgyNTI1L2phNWFpeC9BTFRFUk5BVEVTL21hc3Rlci0zXzIvdmFuZHZhZXJr",
+        "focus": {
+          "x": 0.298,
+          "y": 0
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "text": "Earliest known compact quasar pair poses a black hole growth puzzle",
+      "headline": "Earliest known compact quasar pair poses a black hole growth puzzle",
+      "url": "https://phys.org/news/2026-11-earliest-compact-quasar-pair-poses.html",
+      "publisher": "Phys.org",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-13T10:00:00Z",
+      "summary": "To massive sorte huller fundet side om side blot 900 mio. år efter Big Bang udfordrer modeller for, hvor hurtigt tidlige galakser kan vokse.",
+      "topics": [
+        "videnskab"
+      ]
+    },
+    {
+      "text": "Treasury Identifies Nearly $15 Billion in Potential Iranian Shadow Banking",
+      "headline": "Treasury Identifies Nearly $15 Billion in Potential Iranian Shadow Banking",
+      "url": "https://home.treasury.gov/news/press-releases/sb0698",
+      "publisher": "U.S. Department of the Treasury",
+      "section": "Mellemøsten",
+      "publishedAt": "2026-11-23T15:00:00Z",
+      "summary": "FinCEN flagger knap 15 mia. dollar i mulig iransk skyggebankaktivitet og sanktionerer dusinvis af selskaber i UAE, Tyrkiet og Hongkong.",
+      "topics": [
+        "geopolitik",
+        "mellemøsten"
+      ]
+    },
+    {
+      "text": "QuEra Joins $12 Million DOE Project on AI-Designed Quantum Error Correction",
+      "headline": "QuEra Joins $12 Million DOE Project on AI-Designed Quantum Error Correction",
+      "url": "https://thequantuminsider.com/2026/11/23/quera-12-million-doe-ai-quantum-error-correction",
+      "publisher": "The Quantum Insider",
+      "section": "Kvanteteknologi",
+      "publishedAt": "2026-11-23T11:00:00Z",
+      "topics": [
+        "kvante",
+        "ai"
+      ]
+    },
+    {
+      "text": "Mysterious new viruses reveal a missing link in evolution",
+      "headline": "Mysterious new viruses reveal a missing link in evolution",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261122060334.htm",
+      "publisher": "ScienceDaily",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-22T06:03:00Z",
+      "topics": [
+        "videnskab"
+      ]
+    },
+    {
+      "text": "Significance and stats: Massive sample sizes do not guarantee reliable findings, study suggests",
+      "headline": "Significance and stats: Massive sample sizes do not guarantee reliable findings, study suggests",
+      "url": "https://phys.org/news/2026-11-significance-stats-massive-sample-sizes.html",
+      "publisher": "Phys.org",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-23T08:00:00Z",
+      "topics": [
+        "videnskab"
+      ]
+    },
+    {
+      "text": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "headline": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "publisher": "TechCrunch",
+      "section": "AI",
+      "publishedAt": "2026-11-23T18:00:00Z",
+      "topics": [
+        "ai"
+      ]
+    },
+    {
+      "text": "Direktøren lokkede ansatte med gratis påskeæg. Det er en del af kampen mod hackerne",
+      "headline": "Direktøren lokkede ansatte med gratis påskeæg. Det er en del af kampen mod hackerne",
+      "url": "https://nordjyske.dk/nyheder/erhverv/direktoeren-lokkede-ansatte-med-gratis-paaskeaeg-det-er-en-del-af-kampen-mod-hackerne/6245107",
+      "publisher": "Nordjyske",
+      "section": "Danmark",
+      "publishedAt": "2026-11-24T05:00:00Z",
+      "topics": [
+        "danmark",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "text": "Din bolig får betydning for din skat i 2027",
+      "headline": "Din bolig får betydning for din skat i 2027",
+      "url": "https://saebyavis.dk/2026/11/24/din-bolig-faar-betydning-for-din-skat-i-2027/",
+      "publisher": "Sæbyavis",
+      "section": "Danmark",
+      "publishedAt": "2026-11-24T05:00:00Z",
+      "topics": [
+        "danmark",
+        "økonomi"
+      ]
+    },
+    {
+      "text": "Guterres laments COP31 outcome, urges climate justice from Barbados",
+      "headline": "Guterres laments COP31 outcome, urges climate justice from Barbados",
+      "url": "https://news.un.org/en/story/2026/11/1168856",
+      "publisher": "UN News",
+      "section": "Klima",
+      "publishedAt": "2026-11-23T19:00:00Z",
+      "topics": [
+        "klima"
+      ]
+    }
+  ],
+  "column": {
+    "authoredBy": "ai",
+    "slug": "fusionens-flaskehals",
+    "title": "Fusionens flaskehals",
+    "thesis": "Kommerciel fusionskraft rammer ikke sine egne tidsmål i dette årti, fordi flaskehalsen nu er materialer, ikke plasmafysikken.",
+    "horizon": "ITERs første plasma og DOE's næste fremdriftsrapport for fusionsenergi",
+    "body": [
+      "Tritium-opdræt og slitage på reaktorens første væg sætter grænsen nu - et materialeproblem, ikke en fysisk lov."
+    ],
+    "uncertainty": "Jeg tager fejl, hvis et kommercielt anlæg når sit annoncerede tidsmål uden revision, eller hvis en dokumenteret ny tritium-opdrætsteknologi løser forsyningsproblemet, inden flaskehalsen for alvor rammer - det kontrolleres i DOE's og ITER-organisationens egne fremdriftsrapporter.",
+    "topics": [
+      "videnskab",
+      "energi"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-3b1b-riemann",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "video",
+      "status": "new",
+      "title": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+      "creator": "3Blue1Brown (Grant Sanderson)",
+      "provider": "YouTube",
+      "url": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "availability": "Frit tilgængelig på YouTube",
+      "description": "Interviews med matematikere som Terence Tao, optaget før Claude/Alpøges omstridte Riemann-bevis, om hvad det ville betyde, hvis AI løste problemet.",
+      "rationale": "Den direkte primære kilde til ugens største AI-matematikhistorie, ikke sekundær dækning af den: 3Blue1Brown spurgte topmatematikere om deres egne forventninger, før beviset kom, hvilket giver et mål for, hvor meget konsensus faktisk flyttede sig.",
+      "topics": [
+        "matematik",
+        "ai"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-24/r01-41ac93c1.jpg",
+        "credit": "3Blue1Brown / YouTube",
+        "alt": "Miniature af 3Blue1Brown-video om Riemannhypotesen og AI",
+        "sourceUrl": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+        "originalUrl": "https://i.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0.338
+        }
+      }
+    },
+    {
+      "id": "rec-cowen-gdp",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "The AI gains that gdp misses",
+      "creator": "Tyler Cowen",
+      "provider": "Marginal Revolution",
+      "url": "https://marginalrevolution.com/marginalrevolution/2026/11/the-ai-gains-that-gdp-misses.html",
+      "note": "Kort essay om, hvorfor AI-drevet produktvariation løfter velfærd uden at vise sig i BNP-tallene.",
+      "topics": [
+        "ai",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-thompson-amazon",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "new",
+      "title": "Amazon Earnings, The Chip Question, About Agents",
+      "creator": "Ben Thompson",
+      "provider": "Stratechery",
+      "url": "https://stratechery.com/2026/amazon-earnings-the-chip-question-about-agents/",
+      "note": "Analyse af Amazons AWS-regnskab og hvorfor selskabet ofrer margin for at forblive relevant i AI-kapløbet.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-chinatalk-jensen",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "new",
+      "title": "Jensen Returns",
+      "creator": "Jordan Schneider med Chris McGuire og Peter Harrell",
+      "provider": "ChinaTalk",
+      "url": "https://www.chinatalk.media/p/jensen-returns",
+      "note": "Akut episode om Huangs genindsættelse som Nvidia-CEO samme dag Commerce Department satte Megaspeed på Entity List.",
+      "topics": [
+        "ai",
+        "usa",
+        "geopolitik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-koppelman-rawls",
+      "tier": "short",
+      "mode": "read",
+      "kind": "essay",
+      "status": "classic",
+      "title": "Rawls and the Market Economy",
+      "creator": "Andrew Koppelman",
+      "provider": "National Affairs",
+      "url": "https://nationalaffairs.com/publications/detail/rawls-and-the-market-economy",
+      "note": "Argumenterer, at Rawls' egen retfærdighedsteori, korrekt anvendt, favoriserer markedsøkonomi med velfærdsstat - stof uden for profilens vante spor.",
+      "topics": [
+        "filosofi",
+        "økonomi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-thinkingmachines-inkling",
+      "tier": "short",
+      "mode": "read",
+      "kind": "teknisk indlæg",
+      "status": "new",
+      "title": "Introducing Inkling 2 Mini",
+      "creator": "Thinking Machines Lab",
+      "provider": "thinkingmachines.ai",
+      "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "note": "Officiel beskrivelse af en 'looped' transformer, der genkører midterlag tre gange pr. token og kører på en bærbar.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-artificial-film",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "film",
+      "status": "upcoming",
+      "title": "Artificial",
+      "creator": "Luca Guadagnino",
+      "provider": "Neon",
+      "url": "https://en.wikipedia.org/wiki/Artificial_(2026_film)",
+      "availability": "Vist på New York Film Festival 5. oktober 2026; bred biografpremiere i USA planlagt 25. december 2026",
+      "note": "Spillefilm om OpenAI og det AI-kapløb, der ligger bag dagens Guterres-historie.",
+      "topics": [
+        "ai",
+        "kultur"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-econtalk-isaacson",
+      "tier": "short",
+      "mode": "listen",
+      "kind": "podcast",
+      "status": "timely",
+      "title": "Hubris, Humility, and the AI Revolution",
+      "creator": "Russ Roberts med Walter Isaacson",
+      "provider": "EconTalk",
+      "url": "https://www.econtalk.org/hubris-humility-and-the-ai-revolution-with-walter-isaacson/",
+      "note": "Isaacson om, hvorfor AI-udviklerne føler sig fanget i et kapløb ingen af dem kan sætte på pause - relevant til dagens Guterres-historie.",
+      "topics": [
+        "ai",
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-anthropic-claudeship",
+      "tier": "short",
+      "mode": "try",
+      "kind": "produkt",
+      "status": "new",
+      "title": "Introducing Claude Ship",
+      "creator": "Anthropic",
+      "provider": "claude.com",
+      "url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "availability": "Beta for Claude Team og Enterprise-kunder med GitHub",
+      "note": "Tre agenter der tager en pull request gennem review, rettelser og godkendelse - afprøv med /ship-kommandoen i Claude Code.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 90,
+    "freshness": 78,
+    "novelty": 72,
+    "perspectiveBalance": 70,
+    "render": 100
+  }
+}

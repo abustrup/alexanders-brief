@@ -1,0 +1,167 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-24",
+  "generatedAt": "2026-11-24T05:37:42.910Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "s-guterres24",
+      "headline": "UN chief calls for world to agree on AI oversight within a year",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b04d55ed5b3-1795478878.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/24/un-chief-calls-for-world-to-agree-on-ai-oversight-within-a-year",
+      "hosted": "01-1183de91.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 489740,
+      "out": "1600x1200",
+      "bytes": 317137,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.394,
+        "y": 0.745
+      },
+      "fetchedAt": "2026-11-24T05:37:43.730Z"
+    },
+    {
+      "slot": "02",
+      "id": "s-natoawacs24",
+      "headline": "NATO to send early-warning system aircraft to Poland after missiles incident",
+      "source": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/rockcms/2026-11/261123-NATO-AWACS-poland-bf-1407-f49a02.jpg",
+      "article": "https://www.usnews.com/news/world/articles/2026-11-23/nato-to-send-early-warning-system-aircraft-to-poland-after-missiles-incident",
+      "hosted": "02-6bf1501b.jpg",
+      "srcSize": "1500x1000",
+      "srcFormat": "webp",
+      "srcBytes": 155712,
+      "out": "1500x1000",
+      "bytes": 115099,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.314,
+        "y": 0.146
+      },
+      "fetchedAt": "2026-11-24T05:37:44.365Z"
+    },
+    {
+      "slot": "03",
+      "id": "s-ukrlibya24",
+      "headline": "Ukraine confirms sea drones sunk Russian warship docked in Libya",
+      "source": "https://cloudfront-ap-southeast-2.images.arcpublishing.com/tvnz/2JGGWMJGFJHSDHKJBZA3YRKGIM.jpg",
+      "article": "https://www.1news.co.nz/2026/11/24/ukraine-confirms-sea-drones-sunk-russian-warship-docked-in-libya/",
+      "hosted": "03-6ea50914.jpg",
+      "srcSize": "2454x1490",
+      "srcFormat": "jpeg",
+      "srcBytes": 427307,
+      "out": "1600x1067",
+      "bytes": 49584,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.257
+      },
+      "fetchedAt": "2026-11-24T05:37:44.773Z"
+    },
+    {
+      "slot": "04",
+      "id": "s-darpaqbi24",
+      "headline": "DARPA Selects Atom Computing, Diraq, IBM, and IonQ for Final Stage C Verification under Quantum Benchmarking Initiative",
+      "source": "https://newsroom.ibm.com/image/IBM-Modular-Cryogenics-1920x1080.jpg",
+      "article": "https://quantumcomputingreport.com/darpa-selects-atom-computing-diraq-ibm-and-ionq-for-final-stage-c-verification-under-quantum-benchmarking-initiative/",
+      "hosted": "04-090280f2.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 1242586,
+      "out": "1600x1067",
+      "bytes": 232631,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.809,
+        "y": 0.779
+      },
+      "fetchedAt": "2026-11-24T05:37:45.652Z"
+    },
+    {
+      "slot": "06",
+      "id": "s-iranblock24",
+      "headline": "US tightens Iran blockade with curbs on oil transfers at sea",
+      "source": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/proxies/8f4b06d1-0c11-49b1-ab3f-e1e923cc9b8b.webp",
+      "article": "https://www.arabnews.com/middle-east/us-tightens-iran-blockade-with-curbs-on-oil-transfers-at-sea-3012790",
+      "hosted": "06-14b9a9ca.jpg",
+      "srcSize": "1600x933",
+      "srcFormat": "webp",
+      "srcBytes": 90886,
+      "out": "1399x933",
+      "bytes": 70657,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 0.5
+      },
+      "fetchedAt": "2026-11-24T05:37:46.004Z"
+    },
+    {
+      "slot": "07",
+      "id": "s-eusanctions24",
+      "headline": "EU proposes sweeping new Russia sanctions targeting banks, crypto and sports events",
+      "source": "https://images.euronews.com/articles/stories/10/00/43/22/1200x675_cmsv2_6062d2c8-9a48-5562-a080-5f2ad24d6507-10004322.jpg",
+      "article": "https://www.washingtontimes.com/news/2026/nov/23/sweeping-new-russia-sanctions-targeting-banks-crypto-sports-events/",
+      "hosted": "07-d759f033.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "heif",
+      "srcBytes": 22654,
+      "out": "1012x675",
+      "bytes": 45446,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.5,
+        "y": 0.714
+      },
+      "fetchedAt": "2026-11-24T05:37:46.356Z"
+    },
+    {
+      "slot": "08",
+      "id": "s-dkvand24",
+      "headline": "Hvert ottende vandværk har været udsat for cyberangreb",
+      "source": "https://imgproxy.watchmedier.dk/vdshLDmp5JlAqEQ3mZESpd_fiEy_brF29PGwSq1SmFE/resize:fill:3840:0:0/quality:75/aHR0cHM6Ly9waG90b3Mud2F0Y2htZWRpZXIuZGsvSW1hZ2VzLzE5NjgyNTI1L2phNWFpeC9BTFRFUk5BVEVTL21hc3Rlci0zXzIvdmFuZHZhZXJr",
+      "article": "https://tidende.dk/ind-og-udland/indland-kriminal/hvert-ottende-vandvaerk-har-vaeret-udsat-for-cyberangreb/406319",
+      "hosted": "08-17810934.jpg",
+      "srcSize": "1620x1080",
+      "srcFormat": "webp",
+      "srcBytes": 175236,
+      "out": "1600x1067",
+      "bytes": 227335,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.298,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-24T05:37:46.789Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-3b1b-riemann",
+      "headline": "Since last year, we asked: \"What if AI solved the Riemann Hypothesis?\"",
+      "source": "https://i.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg",
+      "article": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "hosted": "r01-41ac93c1.jpg",
+      "srcSize": "480x360",
+      "srcFormat": "jpeg",
+      "srcBytes": 20180,
+      "out": "480x270",
+      "bytes": 19199,
+      "crop": "attention",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0.338
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-24T05:37:46.909Z"
+    }
+  ]
+}
