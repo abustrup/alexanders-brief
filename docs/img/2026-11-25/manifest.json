@@ -1,0 +1,209 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-25",
+  "generatedAt": "2026-11-25T05:33:37.797Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-cop31-2026-11-25",
+      "headline": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+      "source": "https://image.cnbcfm.com/api/v1/image/108556441-1795183057823-gettyimages-2303993255-cm1_2267_5ajj8uug.jpeg?v=1795423139&w=1920&h=1080",
+      "article": "https://news.un.org/en/story/2026/11/1168855",
+      "hosted": "01-ea821f72.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 125949,
+      "out": "1440x1080",
+      "bytes": 95374,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.235,
+        "y": 0.087
+      },
+      "fetchedAt": "2026-11-25T05:33:38.168Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-ai-agents-labor-2026-11-25",
+      "headline": "The Rise of Agents and the Labor Market",
+      "source": "https://www.luiss.it/sites/default/files/styles/scale_width_408_crop_408x408/public/faculty-photos/90626.jpg.webp?itok=r1TrOzWF",
+      "article": "https://arxiv.org/abs/2611.27210",
+      "hosted": "02-1a4ed51b.jpg",
+      "srcSize": "408x408",
+      "srcFormat": "webp",
+      "srcBytes": 8086,
+      "out": "408x272",
+      "bytes": 6947,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 0.714
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-25T05:33:38.357Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-cia-artex-2026-11-25",
+      "headline": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+      "source": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/11/GettyImages-84937792.jpg",
+      "article": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+      "hosted": "03-2843cad4.jpg",
+      "srcSize": "1920x1315",
+      "srcFormat": "jpeg",
+      "srcBytes": 1273559,
+      "out": "1600x1067",
+      "bytes": 353240,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.111,
+        "y": 0.05
+      },
+      "fetchedAt": "2026-11-25T05:33:38.841Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-nvidia-trump-2026-11-25",
+      "headline": "Trump open to pardoning Jensen Huang if needed: NY Post",
+      "source": "https://image.cnbcfm.com/api/v1/image/108558891-17955580042026-11-24t220218z_1455087937_rc2kuoayz91p_rtrmadp_0_usa-trump.jpeg?v=1795558033&w=1920&h=1080",
+      "article": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+      "hosted": "04-7455886c.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "jpeg",
+      "srcBytes": 99476,
+      "out": "1600x1067",
+      "bytes": 100049,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.625
+      },
+      "fetchedAt": "2026-11-25T05:33:39.129Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-energinet-grid-2026-11-25",
+      "headline": "Bombarderet af datacentre: Danmark i global top fire over pres på elnettet",
+      "source": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-10/elmast_pause_foto_marie_tuxen_hedegaard.jpg?itok=SINTGtyq",
+      "article": "https://ing.dk/artikel/bombarderet-af-datacentre-danmark-i-global-top-fire-over-pres-paa-elnettet",
+      "hosted": "05-20a4346f.jpg",
+      "srcSize": "960x622",
+      "srcFormat": "jpeg",
+      "srcBytes": 129553,
+      "out": "933x622",
+      "bytes": 101159,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-25T05:33:39.429Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-zelensky-kushner-2026-11-25",
+      "headline": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+      "source": "https://s.france24.com/media/display/3999d8f4-e21b-11f1-8b8b-f71d22e7fea9/w:1280/p:16x9/AP26316805802362.jpg",
+      "article": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
+      "hosted": "06-5f06527f.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "jpeg",
+      "srcBytes": 66961,
+      "out": "1080x720",
+      "bytes": 47378,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.595,
+        "y": 0.304
+      },
+      "fetchedAt": "2026-11-25T05:33:39.662Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-ltf-gang-2026-11-25",
+      "headline": "Opsigtsvækkende sag afslører, at forbudt bande i den grad stadig findes",
+      "source": "https://cdn-free.tv2i.dk/e/d/i/editorial/2/f/d/2fd85c12-7575-4568-8382-0d0a76751f14?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=Nzg0LDk4NCw0ODU1LDI3MzA&s=6804cda8ee34fd6cc56b0190726d4ebe",
+      "article": "https://nyheder.tv2.dk/krimi/2026-11-24-opsigtsvaekkende-sag-afsloerer-at-forbudt-bande-i-den-grad-stadig-findes",
+      "hosted": "07-fe7cbbc2.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "heif",
+      "srcBytes": 87524,
+      "out": "1080x720",
+      "bytes": 117162,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.675,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-25T05:33:40.169Z"
+    },
+    {
+      "slot": "08",
+      "id": "story-pasqal-copana-2026-11-25",
+      "headline": "Pasqal Leads European Defence Fund Project to Advance Fault-Tolerant Quantum Computing with Neutral Atoms",
+      "source": "https://www.pasqal.com/wp-content/uploads/2025/03/Hardware-Optical-setup-2.jpg?w=548&h=534&crop=1&quality=80&strip=all",
+      "article": "https://www.globenewswire.com/news-release/2026/11/24/3409187/0/en/pasqal-leads-european-defence-fund-project-to-advance-fault-tolerant-quantum-computing-with-neutral-atoms.html",
+      "hosted": "08-38c9e23f.jpg",
+      "srcSize": "548x534",
+      "srcFormat": "webp",
+      "srcBytes": 35350,
+      "out": "548x365",
+      "bytes": 29272,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.125,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-25T05:33:40.460Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-gaza-katz-2026-11-25",
+      "headline": "No withdrawal, no rebuilding in Hamas-controlled Gaza sectors, Katz says in opposition to BoP",
+      "source": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/747415",
+      "article": "https://www.jpost.com/israel-news/defense-news/article-916000",
+      "hosted": "09-af4d9654.jpg",
+      "srcSize": "1280x720",
+      "srcFormat": "webp",
+      "srcBytes": 129682,
+      "out": "1080x720",
+      "bytes": 125953,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.1,
+        "y": 0.321
+      },
+      "fetchedAt": "2026-11-25T05:33:40.744Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-the-ai-doc-apocaloptimist",
+      "headline": "The AI Doc: Or How I Became an Apocaloptimist",
+      "source": "https://upload.wikimedia.org/wikipedia/en/f/fc/The_AI_Doc%2C_Or_How_I_Became_an_Apocaloptimist_poster.jpg",
+      "article": "https://www.netflix.com/title/82792555",
+      "hosted": "r01-b759fa82.jpg",
+      "srcSize": "260x385",
+      "srcFormat": "jpeg",
+      "srcBytes": 51625,
+      "out": "260x146",
+      "bytes": 11676,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-25T05:33:40.919Z"
+    }
+  ]
+}

@@ -1,0 +1,1037 @@
+{
+  "schemaVersion": 1,
+  "kind": "daily",
+  "runId": "run-20261125",
+  "date": "2026-11-25",
+  "generatedAt": "2026-11-25T06:00:00.000Z",
+  "readingMinutes": 9,
+  "title": "Alexanders Brief",
+  "dek": "COP31 bryder sammen, Trump vil tage en aktiepost i Nvidia, og CIA bliver hacket med et AI-værktøj",
+  "profileWeights": {
+    "importance": 25,
+    "decisionValue": 20,
+    "novelty": 15,
+    "sourceQuality": 15,
+    "personalRelevance": 15,
+    "contrast": 10
+  },
+  "stories": [
+    {
+      "id": "story-cop31-2026-11-25",
+      "eventKey": "cop31-climate-summit-no-deal-2026-11",
+      "materialFacts": [
+        "COP31 i Antalya endte 22. november uden klimaaftale efter to ekstra forhandlingsdøgn",
+        "Første sammenbrud af den art i over 20 år",
+        "Udkastet udelod ordet fossile brændstoffer efter pres fra Saudi-Arabien og andre producentlande",
+        "Delmål blev aftalt om geotermisk energi, fragtkorridorer og 35 pct. elektrificering i 2035",
+        "COP32 afholdes i Addis Abeba"
+      ],
+      "section": "Klima",
+      "headline": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+      "primarySourceUrl": "https://news.un.org/en/story/2026/11/1168855",
+      "subheadline": "Første sammenbrud i et FN-klimatopmøde i 20 år efter pres fra olielande.",
+      "body": [
+        "COP31 i Antalya sluttede 22. november uden aftale efter to ekstra døgn. Udkastet udelod 'fossile brændstoffer' efter pres fra Saudi-Arabien og andre producentlande. Kun delaftaler om geotermi, fragt og 35 pct. elektrificering i 2035 kom i hus."
+      ],
+      "whyItMatters": "Første sammenbrud af en FN-klimaforhandling i 20 år; presset er nu nationalt.",
+      "analysis": "Guterres: ingen konsensus i salen, ingen tvivl i videnskaben - COP32 venter nu på en proces i krise.",
+      "counterpoint": "Producentlandene: delaftalerne er reel fremgang; bindende fossil-tekst var aldrig realistisk med denne olieblok.",
+      "topics": [
+        "klima",
+        "politik"
+      ],
+      "entities": [
+        "António Guterres",
+        "COP31",
+        "UNFCCC",
+        "Saudi-Arabien"
+      ],
+      "isLead": true,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 85,
+        "decisionValue": 55,
+        "novelty": 70,
+        "sourceQuality": 85,
+        "personalRelevance": 25,
+        "contrast": 60
+      },
+      "claims": [
+        {
+          "text": "COP31 endte 22. november uden klimaaftale efter to ekstra forhandlingsdøgn, det første sammenbrud af den art i over 20 år.",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168855"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Udkastet nævnte ikke fossile brændstoffer efter pres fra olie-, gas- og kulproducerende lande ledet af Saudi-Arabien.",
+          "sourceUrls": [
+            "https://news.un.org/en/story/2026/11/1168855",
+            "https://theconversation.com/cop31-why-the-un-climate-summit-ended-in-victory-for-fossil-fuel-producing-nations-296779"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+          "publisher": "UN News",
+          "url": "https://news.un.org/en/story/2026/11/1168855",
+          "publishedAt": "2026-11-22T20:00:00.000Z",
+          "kind": "primary"
+        },
+        {
+          "title": "Cop31: Why the UN climate summit ended in victory for fossil fuel producing nations",
+          "publisher": "The Conversation",
+          "url": "https://theconversation.com/cop31-why-the-un-climate-summit-ended-in-victory-for-fossil-fuel-producing-nations-296779",
+          "publishedAt": "2026-11-23T08:00:00.000Z",
+          "kind": "analysis"
+        },
+        {
+          "title": "COP31 climate deal collapses over fossil fuel dispute",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html",
+          "publishedAt": "2026-11-23T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/01-ea821f72.jpg",
+        "credit": "Foto: Getty Images / CNBC",
+        "alt": "COP31 ends without climate pact as UN chief warns there is 'no ambiguity in the science'",
+        "sourceUrl": "https://www.cnbc.com/2026/11/23/cop31-climate-summit-fossil-fuels.html",
+        "origin": "source",
+        "fingerprint": "00819117b6f080010281b1a5b6f0800042a1a5a5bab2c000412024266ab1f080202424266b72304064652523c9793250",
+        "lookedAt": "00819117b6f080010281b1a5b6f0800042a1a5a5bab2c000412024266ab1f080202424266b72304064652523c9793250",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108556441-1795183057823-gettyimages-2303993255-cm1_2267_5ajj8uug.jpeg?v=1795423139&w=1920&h=1080",
+        "focus": {
+          "x": 0.235,
+          "y": 0.087
+        }
+      }
+    },
+    {
+      "id": "story-ai-agents-labor-2026-11-25",
+      "eventKey": "ai-agents-labor-market-paper-2026-11",
+      "materialFacts": [
+        "Arbejdspapir, arXiv 2611.27210, revideret 23. november",
+        "1 std.afv. højere eksponering mod agentisk AI giver 2,11 pct. lavere jobopslagsvækst over 6 måneder",
+        "3,20 pct. lavere vækst over 9 måneder",
+        "Effekten koncentreres i ikke-senior stillinger"
+      ],
+      "section": "Arbejdsmarked",
+      "headline": "The Rise of Agents and the Labor Market",
+      "primarySourceUrl": "https://arxiv.org/abs/2611.27210",
+      "subheadline": "Nyt studie finder et målbart fald i jobopslag, hvor agentisk AI rykker ind.",
+      "body": [
+        "Et arbejdspapir af Borri, Cheremukhin, Liu og Tsyvinski giver det første tværgående bevis for, at agentisk AI flytter noget i jobopslag. Én standardafvigelse højere eksponering giver 2,11 pct. lavere vækst i jobopslag over 6 måneder, 3,20 pct. over 9. Effekten rammer kun ikke-senior stillinger."
+      ],
+      "whyItMatters": "Det første brede, model-uafhængige datapunkt på, at agentisk AI måles i jobopslag, ikke kun produktivitet.",
+      "analysis": "At effekten rammer ikke-senior stillinger, mens senior-opslag er uberørt, peger på en polarisering i, hvem AI rammer først.",
+      "topics": [
+        "ai",
+        "investeringer"
+      ],
+      "entities": [
+        "Nicola Borri",
+        "Anton Cheremukhin",
+        "Yukun Liu",
+        "Aleh Tsyvinski"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 75,
+        "novelty": 70,
+        "sourceQuality": 70,
+        "personalRelevance": 80,
+        "contrast": 35
+      },
+      "claims": [
+        {
+          "text": "Én standardafvigelse højere eksponering mod agentisk AI forudsiger 2,11 pct. lavere jobopslagsvækst over 6 måneder og 3,20 pct. over 9 måneder, koncentreret i ikke-senior stillinger.",
+          "sourceUrls": [
+            "https://arxiv.org/abs/2611.27210"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "The Rise of Agents and the Labor Market",
+          "publisher": "arXiv",
+          "url": "https://arxiv.org/abs/2611.27210",
+          "publishedAt": "2026-11-23T00:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/02-1a4ed51b.jpg",
+        "credit": "Kilde: LUISS",
+        "alt": "Nicola Borri, medforfatter til studiet om agentisk AI og jobopslag",
+        "sourceUrl": "https://www.luiss.it/en/university/governance/faculty/nicola-borri",
+        "origin": "source",
+        "fingerprint": "32b1a9b9686cc8e9333929396c68ccc83169393c6c4ac8cc696d313c6ccadacc6c64353cecc9d9984474b436ccc89894",
+        "lookedAt": "32b1a9b9686cc8e9333929396c68ccc83169393c6c4ac8cc696d313c6ccadacc6c64353cecc9d9984474b436ccc89894",
+        "originalUrl": "https://www.luiss.it/sites/default/files/styles/scale_width_408_crop_408x408/public/faculty-photos/90626.jpg.webp?itok=r1TrOzWF",
+        "focus": {
+          "x": 0.621,
+          "y": 0.714
+        }
+      }
+    },
+    {
+      "id": "story-cia-artex-2026-11-25",
+      "eventKey": "cia-odni-nga-artex-breach-2026-11",
+      "materialFacts": [
+        "Ukasseret open-source-efterretningssystem delt af CIA og ODNI blev brudt",
+        "NGA ramt samtidig; klassificerede systemer ifølge myndighederne ikke berørt",
+        "AI-værktøjet Artex, frigivet af en kinesisk ingeniør i juli, kan være brugt",
+        "Del af en række amerikanske myndighedshændelser siden 13. november (FBI 20/11, USDA 19/11)"
+      ],
+      "section": "Cybersikkerhed",
+      "headline": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+      "primarySourceUrl": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+      "subheadline": "Et AI-hackingværktøj fra Kina er en mulig forklaring på bruddet hos CIA og ODNI.",
+      "body": [
+        "Hackere er brudt ind i et ukasseret system, CIA og ODNI bruger til open source-analyse; NGA ramt samtidig. Klassificerede netværk er ifølge myndighederne ikke berørt. Efterforskere peger på AI-værktøjet Artex, frigivet i juli af en kinesisk ingeniør, tidligere knyttet til angreb i Japan."
+      ],
+      "whyItMatters": "Bruddet viser, at et offentligt AI-hackingværktøj kan true amerikanske efterretningstjenesters egne systemer.",
+      "analysis": "Det seneste i en stribe myndighedsbrud siden 13. november (FBI, USDA) - et mønster, ikke et uheld.",
+      "topics": [
+        "cybersikkerhed",
+        "ai",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "CIA",
+        "ODNI",
+        "NGA",
+        "Artex"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 70,
+        "decisionValue": 60,
+        "novelty": 75,
+        "sourceQuality": 70,
+        "personalRelevance": 55,
+        "contrast": 40
+      },
+      "claims": [
+        {
+          "text": "Et ukasseret open-source-efterretningssystem delt af CIA og ODNI blev brudt; NGA ramt samtidig; klassificerede systemer ifølge myndighederne ikke berørt.",
+          "sourceUrls": [
+            "https://cyberscoop.com/cia-odni-osint-data-breach/"
+          ],
+          "confidence": "medium"
+        },
+        {
+          "text": "Efterforskere peger på AI-værktøjet Artex, frigivet af en kinesisk ingeniør i juli, som muligt redskab i bruddet.",
+          "sourceUrls": [
+            "https://cyberscoop.com/cia-odni-osint-data-breach/",
+            "https://www.outlookindia.com/international/us-cyberattack-2026-cia-hacked-us-intelligence-agencies-data-breach-nga-odni-artex-ai-hacking-tool-china-cyber-threat"
+          ],
+          "confidence": "low"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+          "publisher": "CyberScoop",
+          "url": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+          "publishedAt": "2026-11-24T20:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "CIA Hacked: US Spy Agencies Face AI Cyberattack As Artex Tool Raises China Fears",
+          "publisher": "Outlook",
+          "url": "https://www.outlookindia.com/international/us-cyberattack-2026-cia-hacked-us-intelligence-agencies-data-breach-nga-odni-artex-ai-hacking-tool-china-cyber-threat",
+          "publishedAt": "2026-11-24T18:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/03-2843cad4.jpg",
+        "credit": "Foto: Getty Images / CyberScoop",
+        "alt": "Unclassified intel system hit by hackers, affecting CIA, ODNI",
+        "sourceUrl": "https://cyberscoop.com/cia-odni-osint-data-breach/",
+        "origin": "article",
+        "fingerprint": "1e38e7c8f8da9787183ac5ccf0d997a73862c8acf099994779e3c86cf4b991d3e7834aeef0fc14b0e9c84e6af2eab4b4",
+        "lookedAt": "1e38e7c8f8da9787183ac5ccf0d997a73862c8acf099994779e3c86cf4b991d3e7834aeef0fc14b0e9c84e6af2eab4b4",
+        "originalUrl": "https://cyberscoop.com/wp-content/uploads/sites/3/2026/11/GettyImages-84937792.jpg",
+        "focus": {
+          "x": 0.111,
+          "y": 0.05
+        }
+      }
+    },
+    {
+      "id": "story-nvidia-trump-2026-11-25",
+      "eventKey": "nvidia-trump-equity-stake-pardon-2026-11",
+      "materialFacts": [
+        "Trump: benådning af Jensen Huang 'altid en mulighed', tror ikke det bliver nødvendigt",
+        "Trump vil have Huang til at tale sandt for Kongressen i næste uge",
+        "Trump: 'nok ikke for sent' at tage en amerikansk statslig ejerandel i Nvidia",
+        "Henviser til statens 10 pct.-andel i Intel sidste år"
+      ],
+      "section": "Erhverv",
+      "headline": "Trump open to pardoning Jensen Huang if needed: NY Post",
+      "primarySourceUrl": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+      "subheadline": "Trump åbner for en statslig ejerandel i Nvidia og kalder en benådning mulig.",
+      "body": [
+        "Trump sagde til New York Post, en benådning af Huang 'altid er en mulighed', men tror ikke, det bliver nødvendigt, hvis Huang 'taler sandt' for Kongressen. Det 'nok ikke er for sent' at tage en ejerandel i Nvidia, sagde Trump, og nævnte statens 10 pct. i Intel."
+      ],
+      "whyItMatters": "En præsident, der vil eje en andel efter at gribe ind i et CEO-valg, er ny politik.",
+      "analysis": "Intel-præcedensen gør truslen konkret og vægter Huangs vidneudsagn.",
+      "counterpoint": "Jurist Lucian Bebchuk: genindsættelsen varsler svag selskabsstyring; bestyrelsen risikerer sagsanlæg.",
+      "topics": [
+        "ai",
+        "erhverv",
+        "usa"
+      ],
+      "entities": [
+        "Donald Trump",
+        "Jensen Huang",
+        "Nvidia",
+        "Intel"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 55,
+        "novelty": 65,
+        "sourceQuality": 65,
+        "personalRelevance": 70,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Trump sagde til New York Post, at en benådning af Jensen Huang 'altid er en mulighed', og at det 'nok ikke er for sent' for staten at tage en ejerandel i Nvidia.",
+          "sourceUrls": [
+            "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html"
+          ],
+          "confidence": "high"
+        },
+        {
+          "text": "Jurister Lucian Bebchuk (Harvard) og Ann Lipton kritiserer bestyrelsens genindsættelse af Huang som et varsel om svag selskabsstyring; medlemmer risikerer aktionærsøgsmål.",
+          "sourceUrls": [
+            "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-corporate-governance"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trump open to pardoning Jensen Huang if needed: NY Post",
+          "publisher": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+          "publishedAt": "2026-11-25T06:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Trump floats government stake in Nvidia and leaves pardon option for Huang open",
+          "publisher": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261125VL213/nvidia-usa-government-donald-trump-intel.html",
+          "publishedAt": "2026-11-25T07:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Nvidia's $1.5 trillion boardroom blunder helped bring Jensen Huang back",
+          "publisher": "CNN",
+          "url": "https://www.cnn.com/2026/11/23/tech/nvidia-reinstates-jensen-huang-corporate-governance",
+          "publishedAt": "2026-11-23T12:00:00.000Z",
+          "kind": "analysis"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/04-7455886c.jpg",
+        "credit": "Kilde: CNBC",
+        "alt": "Trump open to pardoning Jensen Huang if needed: NY Post",
+        "sourceUrl": "https://www.cnbc.com/2026/11/25/trump-huang-pardon-politics.html",
+        "origin": "article",
+        "fingerprint": "dbbb3d5849418014db2d7c5848412014bb64fc8cccc02014e566788c9cc40030466adaa4ac848020c7fa9a24268e8260",
+        "lookedAt": "dbbb3d5849418014db2d7c5848412014bb64fc8cccc02014e566788c9cc40030466adaa4ac848020c7fa9a24268e8260",
+        "originalUrl": "https://image.cnbcfm.com/api/v1/image/108558891-17955580042026-11-24t220218z_1455087937_rc2kuoayz91p_rtrmadp_0_usa-trump.jpeg?v=1795558033&w=1920&h=1080",
+        "focus": {
+          "x": 0.1,
+          "y": 0.625
+        }
+      }
+    },
+    {
+      "id": "story-energinet-grid-2026-11-25",
+      "eventKey": "energinet-grid-capacity-datacenter-rationing-2026-11",
+      "materialFacts": [
+        "IEA: Danmark i global top fire over datacenterpres på elnettet",
+        "16-18 GW datacenterprojekter venter på tilslutning",
+        "Energinet genåbnede i november kapacitetsfordeling efter syv måneders stop",
+        "Batterier og datacentre (kategori 3-4) ventes ikke at få fuld netadgang"
+      ],
+      "section": "Energi",
+      "headline": "Bombarderet af datacentre: Danmark i global top fire over pres på elnettet",
+      "primarySourceUrl": "https://ing.dk/artikel/bombarderet-af-datacentre-danmark-i-global-top-fire-over-pres-paa-elnettet",
+      "subheadline": "Energinet genåbner elnettet, men datacentre risikerer at blive afvist kapacitet.",
+      "body": [
+        "IEA placerer Danmark blandt verdens fire mest pressede elnet, drevet af 16-18 GW planlagte datacenterprojekter. Energinet fordeler igen kapacitet efter syv måneders stop; husholdninger får plads. Batterier og datacentre, i laveste kategori, får svar sidst i november - og ventes ikke fuld adgang."
+      ],
+      "whyItMatters": "Afgørelserne i november fastlægger, hvor meget dansk AI-infrastruktur der kan bygges de kommende år.",
+      "analysis": "At datacentre er default-placeret lavest betyder, at nettet - ikke kapital - nu er flaskehalsen.",
+      "topics": [
+        "danmark",
+        "teknologi",
+        "energi"
+      ],
+      "entities": [
+        "Energinet",
+        "IEA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 65,
+        "novelty": 55,
+        "sourceQuality": 60,
+        "personalRelevance": 70,
+        "contrast": 30
+      },
+      "claims": [
+        {
+          "text": "16-18 GW datacenterprojekter venter på nettilslutning i Danmark; Energinet genåbnede i november kapacitetsfordelingen efter syv måneders stop, men batterier og datacentre (kategori 3-4) ventes ikke at få fuld adgang.",
+          "sourceUrls": [
+            "https://ing.dk/artikel/bombarderet-af-datacentre-danmark-i-global-top-fire-over-pres-paa-elnettet"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bombarderet af datacentre: Danmark i global top fire over pres på elnettet",
+          "publisher": "Ingeniøren",
+          "url": "https://ing.dk/artikel/bombarderet-af-datacentre-danmark-i-global-top-fire-over-pres-paa-elnettet",
+          "publishedAt": "2026-11-20T09:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/05-20a4346f.jpg",
+        "credit": "Kilde: Ingeniøren",
+        "alt": "Bombarderet af datacentre: Danmark i global top fire over pres på elnettet",
+        "sourceUrl": "https://ing.dk/artikel/bombarderet-af-datacentre-danmark-i-global-top-fire-over-pres-paa-elnettet",
+        "origin": "article",
+        "fingerprint": "28490f35398c8b486a490f34789c8b8949090f30781c8e994d120f307a5c1e190cb10f78f55c1e1d30a10ef9e3b49e17",
+        "lookedAt": "28490f35398c8b486a490f34789c8b8949090f30781c8e994d120f307a5c1e190cb10f78f55c1e1d30a10ef9e3b49e17",
+        "originalUrl": "https://ing.dk/sites/mi/files/styles/open_graph_image_16_9/public/2026-10/elmast_pause_foto_marie_tuxen_hedegaard.jpg?itok=SINTGtyq",
+        "focus": {
+          "x": 0.9,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-zelensky-kushner-2026-11-25",
+      "eventKey": "zelensky-four-way-talks-kushner-guarantee-2026-11",
+      "materialFacts": [
+        "Zelensky opfordrede 23. november i Berlin til firepartsmøde 'så hurtigt som muligt'",
+        "Kushner foreslår NATO-artikel-5-lignende garanti uden fuldt medlemskab",
+        "Kushner og Witkoff vil have en aftale på plads senest januar 2027",
+        "Zelensky: ingen klare svar endnu på, hvordan garantien skal fungere"
+      ],
+      "section": "Sikkerhedspolitik",
+      "headline": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+      "primarySourceUrl": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
+      "subheadline": "Kushner lufter en NATO-lignende garanti til Ukraine uden medlemskab.",
+      "body": [
+        "Zelensky opfordrede 23. november i Berlin til et firepartsmøde Ukraine-Europa-USA-Rusland 'så hurtigt som muligt'. Kushner har foreslået en garanti i stil med NATOs artikel 5, uden fuldt medlemskab. Kushner og Witkoff vil have en aftale senest januar 2027; Zelensky siger, der endnu ikke er klare svar på hvordan."
+      ],
+      "whyItMatters": "Et tidsbestemt pres mod en aftale inden januar 2027 gør ugen til et vendepunkt.",
+      "analysis": "Garantien lånes fra NATOs sprog, ikke medlemskab - svær for Kyiv at stole på uden en mekanisme.",
+      "topics": [
+        "sikkerhedspolitik",
+        "ukraine"
+      ],
+      "entities": [
+        "Volodymyr Zelensky",
+        "Jared Kushner",
+        "Vladimir Putin",
+        "Donald Trump",
+        "Steve Witkoff"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 80,
+        "decisionValue": 55,
+        "novelty": 55,
+        "sourceQuality": 75,
+        "personalRelevance": 30,
+        "contrast": 45
+      },
+      "claims": [
+        {
+          "text": "Zelensky opfordrede 23. november i Berlin til et firepartsmøde Ukraine-Europa-USA-Rusland 'så hurtigt som muligt'; Kushner har foreslået en NATO-artikel-5-lignende garanti uden fuldt medlemskab.",
+          "sourceUrls": [
+            "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible"
+          ],
+          "confidence": "high"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+          "publisher": "France 24",
+          "url": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
+          "publishedAt": "2026-11-24T18:00:00.000Z",
+          "kind": "reporting"
+        },
+        {
+          "title": "Zelensky to Discuss Four-Way Talks With US Envoys as Europe Seeks Role",
+          "publisher": "Kyiv Post",
+          "url": "https://www.kyivpost.com/post/90635",
+          "publishedAt": "2026-11-24T12:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/06-5f06527f.jpg",
+        "credit": "Kilde: France 24",
+        "alt": "Zelensky urges four-way peace talks with Russia, Europe and US 'as soon as possible'",
+        "sourceUrl": "https://www.france24.com/en/europe/20261124-zelensky-urges-four-way-peace-talks-with-russia-europe-and-us-as-soon-as-possible",
+        "origin": "article",
+        "fingerprint": "36272b2b32363d23272f2b2b33362c31674b696933332e304f4969697373662c4d4948496161676ed8cccccde161e157",
+        "lookedAt": "36272b2b32363d23272f2b2b33362c31674b696933332e304f4969697373662c4d4948496161676ed8cccccde161e157",
+        "originalUrl": "https://s.france24.com/media/display/3999d8f4-e21b-11f1-8b8b-f71d22e7fea9/w:1280/p:16x9/AP26316805802362.jpg",
+        "focus": {
+          "x": 0.595,
+          "y": 0.304
+        }
+      }
+    },
+    {
+      "id": "story-ltf-gang-2026-11-25",
+      "eventKey": "ltf-gang-russian-assassination-plot-2026-11",
+      "materialFacts": [
+        "Forbudte bande Loyal To Familia (LTF) fungerer stadig med ca. 100-110 medlemmer",
+        "To mænd med LTF-forbindelse anklages for at være hyret af russisk efterretning",
+        "Mål: at likvidere den ukrainske rapper Kyivstoner under en koncert i Danmark",
+        "PET-chef: klar vurdering, at forsøget var planlagt af russisk efterretning"
+      ],
+      "section": "Kriminalitet",
+      "headline": "Opsigtsvækkende sag afslører, at forbudt bande i den grad stadig findes",
+      "primarySourceUrl": "https://nyheder.tv2.dk/krimi/2026-11-24-opsigtsvaekkende-sag-afsloerer-at-forbudt-bande-i-den-grad-stadig-findes",
+      "subheadline": "To mænd med LTF-forbindelse anklages for et russisk bestillingsmord.",
+      "body": [
+        "Den i 2021 forbudte bande Loyal To Familia har stadig ca. 100-110 medlemmer. To mænd med LTF-forbindelse anklages for at være hyret af russisk efterretning til at likvidere rapperen Kyivstoner under en koncert i Danmark. PET-chef: klar vurdering, at forsøget var planlagt af russisk efterretning."
+      ],
+      "whyItMatters": "Sagen viser, at et forbud på papiret ikke har stoppet banden, og at Rusland bruger danske bander.",
+      "analysis": "Organiseret kriminalitet med en stat som bestiller skiller sagen fra bandekriminalitet og giver et eksempel.",
+      "topics": [
+        "danmark",
+        "kriminalitet",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Loyal To Familia",
+        "Shuaib Khan",
+        "Rasmus Kieffer-Kristensen",
+        "PET",
+        "Kyivstoner"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 65,
+        "decisionValue": 40,
+        "novelty": 70,
+        "sourceQuality": 65,
+        "personalRelevance": 20,
+        "contrast": 65
+      },
+      "claims": [
+        {
+          "text": "PET: klar vurdering, at et likvideringsforsøg mod rapperen Kyivstoner i Danmark var planlagt af russisk efterretning, udført af to mænd med LTF-forbindelse.",
+          "sourceUrls": [
+            "https://nyheder.tv2.dk/krimi/2026-11-24-opsigtsvaekkende-sag-afsloerer-at-forbudt-bande-i-den-grad-stadig-findes"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Opsigtsvækkende sag afslører, at forbudt bande i den grad stadig findes",
+          "publisher": "TV 2",
+          "url": "https://nyheder.tv2.dk/krimi/2026-11-24-opsigtsvaekkende-sag-afsloerer-at-forbudt-bande-i-den-grad-stadig-findes",
+          "publishedAt": "2026-11-24T10:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/07-fe7cbbc2.jpg",
+        "credit": "Kilde: TV 2",
+        "alt": "Opsigtsvækkende sag afslører, at forbudt bande i den grad stadig findes",
+        "sourceUrl": "https://nyheder.tv2.dk/krimi/2026-11-24-opsigtsvaekkende-sag-afsloerer-at-forbudt-bande-i-den-grad-stadig-findes",
+        "origin": "article",
+        "fingerprint": "3d2e6cd755e6a646bd6c4cd7d446264675645696d4c6262747c6d6969692a767c6db9292129303a7c53b933313938165",
+        "lookedAt": "3d2e6cd755e6a646bd6c4cd7d446264675645696d4c6262747c6d6969692a767c6db9292129303a7c53b933313938165",
+        "originalUrl": "https://cdn-free.tv2i.dk/e/d/i/editorial/2/f/d/2fd85c12-7575-4568-8382-0d0a76751f14?ixlib=js-3.8.0&w=1280&h=720&q=45&auto=format&fit=crop&rect64=Nzg0LDk4NCw0ODU1LDI3MzA&s=6804cda8ee34fd6cc56b0190726d4ebe",
+        "focus": {
+          "x": 0.675,
+          "y": 1
+        }
+      }
+    },
+    {
+      "id": "story-pasqal-copana-2026-11-25",
+      "eventKey": "pasqal-copana-eu-defence-quantum-2026-11",
+      "materialFacts": [
+        "Pasqal leder CoPaNA, et EU-forsvarsfondsprojekt om kvantecomputing",
+        "Fejltolerant kvantecomputing med neutrale atomer",
+        "Offentlig plan: tidlig fejltolerant kvantecomputing (FTQC) i 2029"
+      ],
+      "section": "Teknologi",
+      "headline": "Pasqal Leads European Defence Fund Project to Advance Fault-Tolerant Quantum Computing with Neutral Atoms",
+      "primarySourceUrl": "https://www.globenewswire.com/news-release/2026/11/24/3409187/0/en/pasqal-leads-european-defence-fund-project-to-advance-fault-tolerant-quantum-computing-with-neutral-atoms.html",
+      "subheadline": "EU-forsvarsfonden finansierer en køreplan mod fejlfri kvantecomputing i 2029.",
+      "body": [
+        "Pasqal leder CoPaNA, et nyt EU-forsvarsfondsprojekt om fejltolerant kvantecomputing med neutrale atomer. Projektet har en plan om tidlig fejltolerant kvantecomputing i 2029 - punktet, hvor maskinen regner pålideligt uden at gå ned på egne fejl."
+      ],
+      "whyItMatters": "Et EU-finansieret kvanteprojekt med et navngivet årstal er en markør for Europas kvantekapacitet.",
+      "analysis": "At pengene kommer fra forsvarsfonden, ikke et civilt program, placerer kvante som sikkerhedspolitisk aktiv.",
+      "topics": [
+        "quantum",
+        "sikkerhedspolitik",
+        "eu"
+      ],
+      "entities": [
+        "Pasqal",
+        "European Defence Fund",
+        "CoPaNA"
+      ],
+      "isLead": false,
+      "isOutsideProfile": false,
+      "scores": {
+        "importance": 45,
+        "decisionValue": 50,
+        "novelty": 65,
+        "sourceQuality": 55,
+        "personalRelevance": 65,
+        "contrast": 20
+      },
+      "claims": [
+        {
+          "text": "Pasqal leder CoPaNA, et EU-forsvarsfondsprojekt om fejltolerant kvantecomputing med neutrale atomer, med offentlig plan om tidlig FTQC i 2029.",
+          "sourceUrls": [
+            "https://www.globenewswire.com/news-release/2026/11/24/3409187/0/en/pasqal-leads-european-defence-fund-project-to-advance-fault-tolerant-quantum-computing-with-neutral-atoms.html"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pasqal Leads European Defence Fund Project to Advance Fault-Tolerant Quantum Computing with Neutral Atoms",
+          "publisher": "GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/11/24/3409187/0/en/pasqal-leads-european-defence-fund-project-to-advance-fault-tolerant-quantum-computing-with-neutral-atoms.html",
+          "publishedAt": "2026-11-24T08:00:00.000Z",
+          "kind": "primary"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/08-38c9e23f.jpg",
+        "credit": "Kilde: Pasqal",
+        "alt": "Pasqals kvantecomputer ORION med neutrale atomer i virksomhedens laboratorium",
+        "sourceUrl": "https://www.pasqal.com/newsroom/",
+        "origin": "source",
+        "fingerprint": "3f068923374fc73e3f078921370fd79f3f10c921774f929707280965574d9513a3ac084af2ec1595604c0a4af3a65f16",
+        "lookedAt": "3f068923374fc73e3f078921370fd79f3f10c921774f929707280965574d9513a3ac084af2ec1595604c0a4af3a65f16",
+        "originalUrl": "https://www.pasqal.com/wp-content/uploads/2025/03/Hardware-Optical-setup-2.jpg?w=548&h=534&crop=1&quality=80&strip=all",
+        "focus": {
+          "x": 0.125,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "story-gaza-katz-2026-11-25",
+      "eventKey": "gaza-katz-no-withdrawal-no-rebuilding-2026-11",
+      "materialFacts": [
+        "Katz: ingen genopbygning i Hamas-kontrollerede dele af Gaza",
+        "Ingen IDF-tilbagetrækning fra de 65 pct. af Gaza, Israel kontrollerer",
+        "Betingelse: Hamas-afvæbning",
+        "Kommer efter Kushner-kritik af Israels overholdelse af våbenstilstanden"
+      ],
+      "section": "Mellemøsten",
+      "headline": "No withdrawal, no rebuilding in Hamas-controlled Gaza sectors, Katz says in opposition to BoP",
+      "primarySourceUrl": "https://www.jpost.com/israel-news/defense-news/article-916000",
+      "subheadline": "Israels forsvarsminister afviser genopbygning og tilbagetrækning uden afvæbning.",
+      "body": [
+        "Forsvarsminister Israel Katz siger, Israel ikke vil tillade genopbygning i de Hamas-kontrollerede dele af Gaza og ikke trække IDF tilbage fra de 65 pct., hæren kontrollerer, uden Hamas-afvæbning. Det kommer, efter Jared Kushner har kritiseret Israel for ikke at honorere våbenstilstanden fra 2025."
+      ],
+      "whyItMatters": "Katz' betingelse gør afvæbning til forudsætning for genopbygning og tilbagetrækning.",
+      "analysis": "Udmeldingen svarer på USA's fredsmægler og viser uenighed mellem Israel og Washington.",
+      "topics": [
+        "mellemøsten",
+        "sikkerhedspolitik"
+      ],
+      "entities": [
+        "Israel Katz",
+        "IDF",
+        "Hamas",
+        "Board of Peace",
+        "Jared Kushner"
+      ],
+      "isLead": false,
+      "isOutsideProfile": true,
+      "scores": {
+        "importance": 60,
+        "decisionValue": 30,
+        "novelty": 35,
+        "sourceQuality": 55,
+        "personalRelevance": 15,
+        "contrast": 55
+      },
+      "claims": [
+        {
+          "text": "Forsvarsminister Israel Katz: Israel vil ikke tillade genopbygning i Hamas-kontrollerede dele af Gaza og ikke trække sig fra de 65 pct. af Gaza, IDF kontrollerer, uden Hamas-afvæbning.",
+          "sourceUrls": [
+            "https://www.jpost.com/israel-news/defense-news/article-916000"
+          ],
+          "confidence": "medium"
+        }
+      ],
+      "sources": [
+        {
+          "title": "No withdrawal, no rebuilding in Hamas-controlled Gaza sectors, Katz says in opposition to BoP",
+          "publisher": "The Jerusalem Post",
+          "url": "https://www.jpost.com/israel-news/defense-news/article-916000",
+          "publishedAt": "2026-11-24T16:00:00.000Z",
+          "kind": "reporting"
+        }
+      ],
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/09-af4d9654.jpg",
+        "credit": "Kilde: The Jerusalem Post",
+        "alt": "No withdrawal, no rebuilding in Hamas-controlled Gaza sectors, Katz says in opposition to BoP",
+        "sourceUrl": "https://www.jpost.com/israel-news/defense-news/article-916000",
+        "origin": "article",
+        "fingerprint": "4bb3b395b1f97d5f31b3a3953179f55f33b3a716307874de312342167258f47e696152325258fdf665c0b3b3b3dcb8f4",
+        "lookedAt": "4bb3b395b1f97d5f31b3a3953179f55f33b3a716307874de312342167258f47e696152325258fdf665c0b3b3b3dcb8f4",
+        "originalUrl": "https://images.jpost.com/image/upload/f_auto,fl_lossy/q_auto/c_fill,g_faces:center,h_720,w_1280/747415",
+        "focus": {
+          "x": 0.1,
+          "y": 0.321
+        }
+      }
+    }
+  ],
+  "signals": [
+    {
+      "headline": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "text": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "publisher": "The Decoder",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-22T12:00:00.000Z",
+      "summary": "AMS-præsident Ravi Vakil udgav timer efter Alpöges Claude-assisterede Riemann-bevis et konkurrerende 940-siders rent menneskeligt bevis af Alessandro Masullo; mulige problemer i det blev fundet inden for timer.",
+      "topics": [
+        "ai",
+        "videnskab"
+      ]
+    },
+    {
+      "headline": "Anthropic announces closing of initial public offering, including full exercise of underwriters' option to purchase additional shares, and closing of concurrent private placement",
+      "text": "Anthropic announces closing of initial public offering, including full exercise of underwriters' option to purchase additional shares, and closing of concurrent private placement",
+      "url": "https://www.anthropic.com/news",
+      "publisher": "Anthropic",
+      "section": "Erhverv",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "summary": "Anthropic afsluttede formelt sin børsnotering 20. november med fuld udnyttelse af bankernes overallokeringsoption, efter debut 19/11 til en værdi omkring 1,5 billioner dollar.",
+      "topics": [
+        "ai",
+        "erhverv"
+      ]
+    },
+    {
+      "headline": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "text": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "url": "https://openai.com/news/",
+      "publisher": "OpenAI",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "OpenAI siger, GPT-6-modellerne designede proteinstrukturer og -sekvenser via ren resonnement og kode, med laboratorietests der viser bindingsevidens mod fem mål.",
+      "topics": [
+        "ai",
+        "videnskab"
+      ]
+    },
+    {
+      "headline": "SEALSQ Expands Quantum Highway Network Across the U.S. and Europe",
+      "text": "SEALSQ Expands Quantum Highway Network Across the U.S. and Europe",
+      "url": "https://thequantuminsider.com/2026/11/24/sealsq-expands-quantum-highway-network-across-the-u-s-and-europe/",
+      "publisher": "The Quantum Insider",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "summary": "SEALSQ udvider sit Quantum Highway-net med datacenterpartnere i USA, Indien og Europa for post-kvante-sikret kommunikation mellem kvantehubs.",
+      "topics": [
+        "quantum",
+        "cybersikkerhed"
+      ]
+    },
+    {
+      "headline": "4,000-year-old bronze neck ring found on a Swiss Alpine pass as the ice melts",
+      "text": "4,000-year-old bronze neck ring found on a Swiss Alpine pass as the ice melts",
+      "url": "https://www.swissinfo.ch/eng/history/4000-year-old-neck-ring-discovered-on-the-l%C3%B6tschen-pass-in-bern/92398955",
+      "publisher": "SWI swissinfo.ch",
+      "section": "Videnskab",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "summary": "Arkæologer fra kantonen Bern fandt en 13 cm bronzehalsring fra 2000-1700 f.Kr. over 2.600 meter op på Lötschenpasset - det første bronzeobjekt fra ældre bronzealder fundet dér.",
+      "topics": [
+        "videnskab"
+      ]
+    },
+    {
+      "headline": "Skoler over hele landet ramt af bombetrusler",
+      "text": "Skoler over hele landet ramt af bombetrusler",
+      "url": "https://nyheder.tv2.dk/live/krimi/2026-11-23-skoler-over-hele-landet-ramt-af-bombetrusler",
+      "publisher": "TV 2",
+      "section": "Kriminalitet",
+      "publishedAt": "2026-11-23T08:00:00.000Z",
+      "summary": "Over 800 modtagere, heriblandt 450+ danske skoler, fik 23. november en identisk mail med bombetrussel; politiet fandt intet mistænkeligt og vurderede intet evakueringsgrundlag.",
+      "topics": [
+        "danmark",
+        "kriminalitet"
+      ]
+    },
+    {
+      "headline": "Ukrainian drones reportedly strike 2 Russian oil refineries in massive attack",
+      "text": "Ukrainian drones reportedly strike 2 Russian oil refineries in massive attack",
+      "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-oil-refineries-in-massive-attack/",
+      "publisher": "The Kyiv Independent",
+      "section": "Sikkerhedspolitik",
+      "publishedAt": "2026-11-25T06:00:00.000Z",
+      "summary": "Ukrainske droner angreb natten til 25. november Syzran- og Kuibyshev-raffinaderierne i Samara; kampagnen har ifølge overvågningskanaler skåret Ruslands råolieraffinering med 45 pct. siden slutningen af oktober.",
+      "topics": [
+        "ukraine",
+        "sikkerhedspolitik"
+      ]
+    },
+    {
+      "headline": "Armed men take hostages at supermarket in Cartagena, Colombia",
+      "text": "Armed men take hostages at supermarket in Cartagena, Colombia",
+      "url": "https://www.cbsnews.com/news/cartagena-colombia-hostages-supermarket/",
+      "publisher": "CBS News",
+      "section": "Verden",
+      "publishedAt": "2026-11-24T22:00:00.000Z",
+      "summary": "Væbnede mænd tog ca. 30 personer som gidsler i et supermarked i Cartagena efter et mislykket røveri mod en pengetransport; mindst 10 ældre kvinder er løsladt, forhandlinger fortsætter.",
+      "topics": [
+        "kriminalitet"
+      ]
+    },
+    {
+      "headline": "Google launches Gemini 4 Neon with Opus 5.5-level coding performance at 25% lower API token prices",
+      "text": "Google launches Gemini 4 Neon with Opus 5.5-level coding performance at 25% lower API token prices",
+      "url": "https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices",
+      "publisher": "VentureBeat",
+      "section": "Teknologi",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "summary": "Gemini 4 Neon er lanceret direkte uden venteliste, mellem Carbon og Hydrogen i Gemini 4-rækken, med Carbon-niveau kvalitet ved ca. 60 pct. af prisen og tre gange hastigheden.",
+      "topics": [
+        "ai",
+        "teknologi"
+      ]
+    }
+  ],
+  "keyNumber": {
+    "label": "Danske datacenterprojekter der venter på nettilslutning",
+    "indicator": "dk-datacenter-grid-queue-gw",
+    "value": "16-18",
+    "unit": "GW",
+    "asOf": "november 2026",
+    "caption": "IEA placerer Danmark i verdens top fire over datacenterpres på elnettet, mens kun 2 GW er tilsluttet eller under aftale.",
+    "sourceUrl": "https://ing.dk/artikel/bombarderet-af-datacentre-danmark-i-global-top-fire-over-pres-paa-elnettet",
+    "sourceTitle": "Bombarderet af datacentre: Danmark i global top fire over pres på elnettet"
+  },
+  "column": {
+    "authoredBy": "ai",
+    "slug": "tolv-toners-graense",
+    "title": "Tolv toners grænse",
+    "thesis": "Tolvtonesystemet overlever ikke af inerti, men fordi øret hører tonehøjde kategorisk - en grænse software ej opløser.",
+    "horizon": "inden for ti år",
+    "body": [
+      "Vi presser nærtliggende frekvenser ind i kategorier vi kender, som med sproglyde. Flaskehalsen er perception."
+    ],
+    "uncertainty": "Hvis mikrotonal eller ikke-ligetempereret musik over det næste årti vinder en målbar, varig andel af kommerciel streaming eller chartplaceringer - ikke som eksperimentel niche, men som genre, lyttere vælger til - er tesen forkert, fordi det vil vise, at kategorisk tonehøjdeopfattelse kan omlæres i stor skala, ikke kun hos specialister.",
+    "topics": [
+      "musik",
+      "psykologi"
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "rec-the-ai-doc-apocaloptimist",
+      "tier": "featured",
+      "mode": "watch",
+      "kind": "Dokumentarfilm",
+      "status": "available",
+      "title": "The AI Doc: Or How I Became an Apocaloptimist",
+      "creator": "Daniel Roher, Charlie Tyrell",
+      "provider": "Netflix",
+      "url": "https://www.netflix.com/title/82792555",
+      "availability": "Tilgængelig på Netflix (bekræftet nordisk visning via netflix.com/no); 104 minutter",
+      "commitment": "104 min",
+      "description": "Daniel Roher filmer, mens han venter sit første barn, samtaler med Yoshua Bengio, Ilya Sutskever, Demis Hassabis, Sam Altman, Dario Amodei, Eliezer Yudkowsky og Timnit Gebru om AI's risici og muligheder.",
+      "rationale": "Fire af hans fem mest gemte rangerede personer - Hassabis og Amodei iblandt dem - optræder her i direkte, filmet uenighed med hinanden, ikke i separate PR-interviews. Det slår en 25-minutters klip på forventet værdi, fordi det er det eneste 2026-værk, der sætter lige netop disse stemmer op mod hinanden i samme rum.",
+      "topics": [
+        "ai",
+        "film"
+      ],
+      "isFeatured": true,
+      "image": {
+        "url": "https://abustrup.github.io/alexanders-brief/img/2026-11-25/r01-b759fa82.jpg",
+        "credit": "Focus Features",
+        "alt": "Officiel plakat for dokumentarfilmen The AI Doc: Or How I Became an Apocaloptimist",
+        "sourceUrl": "https://en.wikipedia.org/wiki/The_AI_Doc:_Or_How_I_Became_an_Apocaloptimist",
+        "originalUrl": "https://upload.wikimedia.org/wikipedia/en/f/fc/The_AI_Doc%2C_Or_How_I_Became_an_Apocaloptimist_poster.jpg",
+        "focus": {
+          "x": 0.5,
+          "y": 0
+        }
+      }
+    },
+    {
+      "id": "rec-sep-privacy-health",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Encyklopædiartikel",
+      "status": "new",
+      "title": "Privacy in Health Care and Research",
+      "creator": "Leslie Francis",
+      "provider": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/privacy-health",
+      "note": "Ny analytisk, rettighedsbaseret gennemgang (17/11) af privatliv i sundhedsdata - imod profilens eneste tradition: kontinental filosofi uden en analytisk modvægt.",
+      "topics": [
+        "filosofi",
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-nber-vc-customer-capital",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Arbejdspapir",
+      "status": "new",
+      "title": "Venture Capital and Customer Capital",
+      "provider": "NBER",
+      "url": "https://www.nber.org/papers/w36046",
+      "note": "Nyt NBER-papir (24/11): venturebackede selskaber er 39 procentpoint mere tilbøjelige til at have et registreret varemærke og bruger mere på salg og marketing - et skifte mod brand frem for produkt.",
+      "topics": [
+        "investeringer"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-epoch-huawei-compute",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Analyse",
+      "status": "new",
+      "title": "What Huawei's Horinger data center reveals about China's compute gap",
+      "provider": "Epoch AI",
+      "url": "https://epochai.substack.com/",
+      "note": "Epoch AI (12/11) viser, at Kinas flagskibs-AI-anlæg har ca. 7 pct. af SpaceX's Colossus 2-regnekraft - et konkret tal på det reelle compute-gab.",
+      "topics": [
+        "ai",
+        "geopolitik"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-willison-inflection-points",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Blogindlæg",
+      "status": "new",
+      "title": "Three LLM inflection points in twelve months",
+      "creator": "Simon Willison",
+      "provider": "simonwillison.net",
+      "url": "https://simonwillison.net/",
+      "note": "Praktiker-overblik (24/11) over tre reelle kapacitetsskift det seneste år: pålidelige kodningsagenter, 'Fable'-klasse problemløsning og kompetent spiludvikling.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-glm-5-4-loop-transformer",
+      "tier": "short",
+      "mode": "try",
+      "kind": "Åben model",
+      "status": "new",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "provider": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.4",
+      "note": "Kinesisk lab Z.ai udgav 23/11 GLM-5.4 med en 'loop transformer'-arkitektur, der skal nå rigtige svar med færre tokens end standardmodeller.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-gemini-4-neon-try",
+      "tier": "short",
+      "mode": "try",
+      "kind": "AI-model",
+      "status": "available",
+      "title": "Gemini 4 Neon",
+      "provider": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/",
+      "note": "Direkte tilgængelig uden venteliste i Gemini-appen og API'et; Carbon-niveau kodningskvalitet ved ca. 60 pct. af prisen - værd at teste på egne opgaver.",
+      "topics": [
+        "ai"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-sugrue-nietzsche-genealogy",
+      "tier": "short",
+      "mode": "watch",
+      "kind": "Foredrag",
+      "status": "classic",
+      "title": "Nietzsche's Critique of Christianity: The Genealogy of Morals",
+      "creator": "Michael Sugrue",
+      "provider": "YouTube (Dr. Michael Sugrue)",
+      "url": "https://www.youtube.com/watch?v=7Kuk35VNSEc",
+      "note": "Et af de Sugrue-foredrag, der er gemt men aldrig set - direkte knyttet til Nietzsches 'Genealogi', som allerede er læst i bogform.",
+      "topics": [
+        "filosofi"
+      ],
+      "isFeatured": false
+    },
+    {
+      "id": "rec-openai-astra-exoplanets",
+      "tier": "short",
+      "mode": "read",
+      "kind": "Casestudie",
+      "status": "new",
+      "title": "Searching for distant planets with Astra",
+      "provider": "OpenAI",
+      "url": "https://openai.com/index/searching-for-distant-planets-with-astra/",
+      "note": "To amatørastronomer brugte Codex og Astra på hhv. 100.000 og 19 mio. offentlige NASA-stjerner og fandt 49 ukonfirmerede kandidat-exoplaneter i et enkelt gennemløb.",
+      "topics": [
+        "ai",
+        "videnskab"
+      ],
+      "isFeatured": false
+    }
+  ],
+  "quality": {
+    "sourceCoverage": 95,
+    "novelty": 65,
+    "render": 100
+  }
+}
