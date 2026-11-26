@@ -233,6 +233,14 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
+    },
+    {
+      "date": "2026-11-26",
+      "slug": "zipfs-lov-er-ikke-sprogets-orden",
+      "claim": "Zipfs lov om ordfrekvens er ikke et bevis for mindste anstrengelse i sprog, men statistisk tvang i alt med samme skala-grænse.",
+      "horizon": "Ved næste kontrollerede sammenligning af meningsløs og meningsbærende tekst",
+      "falsifier": "Kun meningsbærende, kommunikativt optimerede systemer frembringer Zipfs lov, og støjgenereret tekst uden betydning afviger konsekvent fra den.",
+      "status": "open"
     }
   ]
 }
