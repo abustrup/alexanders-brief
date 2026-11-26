@@ -1,0 +1,167 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-26",
+  "generatedAt": "2026-11-26T05:34:11.794Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-spacex-starmind-2026-11-26",
+      "headline": "FCC approves SpaceX plan to put AI data centers in space",
+      "source": "https://techcrunch.com/wp-content/uploads/2026/10/space-tesla-cybertruck.jpg?resize=1200,801",
+      "article": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+      "hosted": "01-a1e3cc9b.jpg",
+      "srcSize": "1200x801",
+      "srcFormat": "jpeg",
+      "srcBytes": 157716,
+      "out": "1068x801",
+      "bytes": 84463,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.841,
+        "y": 0.771
+      },
+      "fetchedAt": "2026-11-26T05:34:12.168Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-eu-quantum-act-2026-11-26",
+      "headline": "Commission proposes Quantum Act and new Sovereign Tech Equity Fund to strengthen Europe's industrial capacity and security",
+      "source": "https://media.thenextweb.com/2026/11/virkkunen-quantum-act-presser-strasbourg.jpg",
+      "article": "https://digital-strategy.ec.europa.eu/en/news/commission-proposes-quantum-act-and-new-sovereign-tech-equity-fund-strengthen-europes-industrial",
+      "hosted": "02-ae1b286d.jpg",
+      "srcSize": "1200x675",
+      "srcFormat": "jpeg",
+      "srcBytes": 82092,
+      "out": "1012x675",
+      "bytes": 55623,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.813,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-26T05:34:12.432Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-trump-tariffs-2026-11-26",
+      "headline": "Trump admin proposes new tariffs on China, EU and 12 other trading partners",
+      "source": "https://i.abcnewsfe.com/a/c19167f2-9a8e-4e50-afb7-19a583a916a5/donald-trump-13-gty-gmh-261124_1795551430660_hpMain_16x9.jpg?w=1600",
+      "article": "https://abcnews.go.com/Politics/trump-admin-proposes-new-tariffs-china-eu-12/story?id=138442698",
+      "hosted": "03-f1b762d4.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "heif",
+      "srcBytes": 45666,
+      "out": "1350x900",
+      "bytes": 63593,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-26T05:34:12.847Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-f16-ukraine-jumpstart-2026-11-26",
+      "headline": "US approves sale of F-16 maintenance equipment to Ukraine",
+      "source": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1795656285345-2d08d02cfc306e9d.jpg",
+      "article": "https://www.arabnews.com/world/us-approves-sale-of-f-16-maintenance-equipment-to-ukraine-3014073",
+      "hosted": "05-081fa40f.jpg",
+      "srcSize": "1200x716",
+      "srcFormat": "jpeg",
+      "srcBytes": 111845,
+      "out": "1074x716",
+      "bytes": 55185,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.125,
+        "y": 0.5
+      },
+      "fetchedAt": "2026-11-26T05:34:13.125Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-eu-council-summit-2026-11-26",
+      "headline": "Special European Council of 26-27 November 2026 - Invitation letter by President António Costa to the members of the European Council",
+      "source": "https://images.euronews.com/articles/stories/09/99/03/60/1920x1080_cmsv2_4fcd02a8-6bf7-5ca7-a26f-9c135d3957e4-9990360.jpg",
+      "article": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/24/special-european-council-of-26-27-november-2026-invitation-letter-by-president-antonio-costa-to-the-members-of-the-european-council/",
+      "hosted": "06-1cad0244.jpg",
+      "srcSize": "1920x1080",
+      "srcFormat": "webp",
+      "srcBytes": 96296,
+      "out": "1600x1067",
+      "bytes": 121491,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.288,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-26T05:34:13.485Z"
+    },
+    {
+      "slot": "09",
+      "id": "story-agon-series-a-2026-11-26",
+      "headline": "Agon Raises $70 Million For Europe's Defence AI Lab",
+      "source": "https://techfundingnews.com/wp-content/uploads/2026/11/Tristam-Constant-Agon.jpg",
+      "article": "https://dronexl.co/2026/11/24/agon-70-million-series-a-european-defence-ai-lab/",
+      "hosted": "09-2c23cf0a.jpg",
+      "srcSize": "800x418",
+      "srcFormat": "webp",
+      "srcBytes": 12594,
+      "out": "627x418",
+      "bytes": 13445,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.379,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-26T05:34:13.706Z"
+    },
+    {
+      "slot": "10",
+      "id": "story-netanyahu-case-2026-11-26",
+      "headline": "Netanyahu says corruption trial 'must end' as court suggests dropping case",
+      "source": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6b072e2c3fac-1795632684.jpg?resize=1920%2C1440",
+      "article": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case",
+      "hosted": "10-68f742d6.jpg",
+      "srcSize": "1920x1440",
+      "srcFormat": "webp",
+      "srcBytes": 431182,
+      "out": "1600x1067",
+      "bytes": 176288,
+      "crop": "attention",
+      "frame": "card",
+      "focus": {
+        "x": 0.271,
+        "y": 0
+      },
+      "fetchedAt": "2026-11-26T05:34:14.328Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-tao-cwt-2026-11",
+      "headline": "Terence Tao on Proof, Beauty, and the Future of Mathematics",
+      "source": "https://conversationswithtyler.com/wp-content/uploads/2026/10/CWT-311-TerenceTao-header-1-2000x874.png",
+      "article": "https://conversationswithtyler.com/episodes/terence-tao/",
+      "hosted": "r01-b137e272.jpg",
+      "srcSize": "2000x874",
+      "srcFormat": "webp",
+      "srcBytes": 341880,
+      "out": "1553x874",
+      "bytes": 89108,
+      "crop": "centre",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-26T05:34:14.555Z"
+    }
+  ]
+}
