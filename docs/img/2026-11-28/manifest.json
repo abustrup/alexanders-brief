@@ -1,0 +1,168 @@
+{
+  "base": "https://abustrup.github.io/alexanders-brief/img/2026-11-28",
+  "generatedAt": "2026-11-28T05:35:15.749Z",
+  "pictures": [
+    {
+      "slot": "01",
+      "id": "story-nvidia-blackwell-2026-11-28",
+      "headline": "Jensen Huang Said Nvidia's Blackwell Chips Were Too Big to Smuggle. Bloomberg Just Found Them in China.",
+      "source": "https://247wallst.com/wp-content/uploads/2016/06/jen-hsun-huang-nvidia.jpg",
+      "article": "https://247wallst.com/investing/2026/11/27/jensen-huang-said-nvidias-blackwell-chips-were-too-big-to-smuggle-bloomberg-just-found-them-in-china/",
+      "hosted": "01-bcee43b9.jpg",
+      "srcSize": "1366x768",
+      "srcFormat": "jpeg",
+      "srcBytes": 95581,
+      "out": "1024x768",
+      "bytes": 48096,
+      "crop": "centre",
+      "frame": "lead",
+      "focus": {
+        "x": 0.26,
+        "y": 0.048
+      },
+      "fetchedAt": "2026-11-28T05:35:16.172Z"
+    },
+    {
+      "slot": "02",
+      "id": "story-rheinmetall-2026-11-28",
+      "headline": "Germany's Rheinmetall cuts 2030 sales target after defense project setbacks",
+      "source": "https://ia.tmgrup.com.tr/becad8/806/378/0/0/864/404?u=https://i.tmgrup.com.tr/anews/v1/2026/11/27/germanys-rheinmetall-cuts-2030-sales-target-after-defense-project-setbacks-1795791452918.jpeg",
+      "article": "https://www.anews.com.tr/economy/2026/11/27/germanys-rheinmetall-cuts-2030-sales-target-after-defense-project-setbacks",
+      "hosted": "02-08a98235.jpg",
+      "srcSize": "806x378",
+      "srcFormat": "webp",
+      "srcBytes": 34664,
+      "out": "567x378",
+      "bytes": 26158,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.809,
+        "y": 0
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-28T05:35:16.549Z"
+    },
+    {
+      "slot": "03",
+      "id": "story-claude-sabotage-2026-11-28",
+      "headline": "Anthropic Employee Rejects Claims Claude Sabotaged AI Research",
+      "source": "https://d2426xcxuh3ht5.cloudfront.net/hntvbPvyRBSFT7XZCq64_Pietro%20headshot.png",
+      "article": "https://www.tokenpost.com/news/technology/64000",
+      "hosted": "03-c4c305d3.jpg",
+      "srcSize": "1044x1044",
+      "srcFormat": "png",
+      "srcBytes": 1516819,
+      "out": "1044x696",
+      "bytes": 57423,
+      "crop": "upper",
+      "frame": "card",
+      "focus": {
+        "x": 0.438,
+        "y": 0.446
+      },
+      "fetchedAt": "2026-11-28T05:35:16.983Z"
+    },
+    {
+      "slot": "04",
+      "id": "story-openai-apple-2026-11-28",
+      "headline": "OpenAI countersues Apple for stealing trade secrets, FT reports",
+      "source": "https://ca-times.brightspotcdn.com/dims4/default/783e12d/2147483647/strip/true/crop/5760x3024+0+408/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb0%2F54%2F4efc73906dcbbb4493463a1f6624%2F201a1d222f0d4381b878408780de6cab",
+      "article": "https://www.investing.com/news/stock-market-news/openai-countersues-apple-for-stealing-trade-secrets-ft-reports-5053798",
+      "hosted": "04-36c452fe.jpg",
+      "srcSize": "1200x630",
+      "srcFormat": "jpeg",
+      "srcBytes": 52919,
+      "out": "945x630",
+      "bytes": 38954,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.621,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-28T05:35:17.248Z"
+    },
+    {
+      "slot": "05",
+      "id": "story-airforce-cloudone-2026-11-28",
+      "headline": "Hackers breach US Air Force flagship Cloud One computing platform",
+      "source": "https://static0.mltimages.com/wordpress/wp-content/uploads/2026/11/9179135.jpg?w=1600&h=900&fit=crop",
+      "article": "https://www.yahoo.com/news/us/articles/exclusive-hackers-breach-us-air-110252874.html",
+      "hosted": "05-953240c0.jpg",
+      "srcSize": "1600x900",
+      "srcFormat": "heif",
+      "srcBytes": 158649,
+      "out": "1350x900",
+      "bytes": 151305,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.9,
+        "y": 0.375
+      },
+      "fetchedAt": "2026-11-28T05:35:17.922Z"
+    },
+    {
+      "slot": "06",
+      "id": "story-sap-github-2026-11-28",
+      "headline": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "source": "https://www.securityweek.com/wp-content/uploads/2026/09/SAP_vulnerability-patches.jpg",
+      "article": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "hosted": "06-5fb3f2ff.jpg",
+      "srcSize": "1200x674",
+      "srcFormat": "jpeg",
+      "srcBytes": 204551,
+      "out": "1011x674",
+      "bytes": 80517,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.236,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-28T05:35:18.327Z"
+    },
+    {
+      "slot": "07",
+      "id": "story-who-ebola-2026-11-28",
+      "headline": "WHO issues updated Ebola response recommendations, calling for improved security and accelerated research",
+      "source": "https://cdn.who.int/media/images/default-source/topics/diseases-and-conditions/ebola-virus/ebola-cross-border-surveillance-in-drc.tmb-1200v.jpg?sfvrsn=ef868f57_2",
+      "article": "https://www.who.int/news/item/27-11-2026-who-issues-updated-ebola-response-recommendations--calling-for-improved-security-and-accelerated-research",
+      "hosted": "07-dcf07778.jpg",
+      "srcSize": "1200x800",
+      "srcFormat": "jpeg",
+      "srcBytes": 470304,
+      "out": "1200x800",
+      "bytes": 190562,
+      "crop": "centre",
+      "frame": "card",
+      "focus": {
+        "x": 0.334,
+        "y": 1
+      },
+      "fetchedAt": "2026-11-28T05:35:18.944Z"
+    },
+    {
+      "slot": "r01",
+      "id": "rec-dwarkesh-kokotajlo-erdil-2026-11-28",
+      "headline": "AI researchers debate what we should do next – Daniel Kokotajlo and Ege Erdil",
+      "source": "https://substackcdn.com/image/fetch/$s_!QEPJ!,w_600,h_600,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F90fa9666-5b8b-4685-a8fb-4b64cb7e0333_1080x1080.png",
+      "article": "https://www.dwarkesh.com/p/daniel-kokotajlo-ege-erdil",
+      "hosted": "r01-ce603384.jpg",
+      "srcSize": "600x600",
+      "srcFormat": "jpeg",
+      "srcBytes": 116655,
+      "out": "600x338",
+      "bytes": 64465,
+      "crop": "upper",
+      "frame": "featured",
+      "focus": {
+        "x": 0.5,
+        "y": 1
+      },
+      "underFloor": true,
+      "fetchedAt": "2026-11-28T05:35:19.147Z"
+    }
+  ]
+}
