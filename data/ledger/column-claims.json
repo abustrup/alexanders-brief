@@ -233,6 +233,14 @@
       "horizon": "Næste gang IIT-tilhængere fremlægger en forhåndsspecificeret, unik test af integrations-aksiomet",
       "falsifier": "Jeg tager fejl, hvis en Cogitate-lignende adversarial collaboration inden for få år tester en forhåndsspecificeret, unik konsekvens af integrations-aksiomet direkte og resultatet publiceres i et fagfællebedømt tidsskrift, uanset om IIT så vinder eller taber testen.",
       "status": "open"
+    },
+    {
+      "date": "2026-11-28",
+      "slug": "koncentrationslogik",
+      "claim": "AI-beregningskraften bag de største modeller samles på færre laboratorier, ikke flere, over de næste fem år.",
+      "horizon": "inden for fem år",
+      "falsifier": "Andelen af global frontier-træningsberegning hos de førende laboratorier falder over horisonten uden et forudgående antitrust-indgreb eller sammenbrud, der mekanisk tvinger den ned - kontrolleres i Epoch AI's compute-opgørelser.",
+      "status": "open"
     }
   ]
 }
